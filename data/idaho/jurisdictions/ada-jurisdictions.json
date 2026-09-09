@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-jurisdictions.mjs",
   "rule": "A row that is not VERIFIED must not drive published copy. An UNRESEARCHED function means no page may state who performs it.",
-  "totalRows": 85,
+  "totalRows": 92,
   "rows": [
     {
       "function": "assessment",
@@ -539,66 +539,80 @@
     },
     {
       "function": "code-enforcement",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Code Enforcement (Development Services / Sheriff)",
+      "officialResource": "https://adacounty.id.gov/sheriff/services/code-enforcement/",
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "status": "VERIFIED",
+      "note": "UNINCORPORATED ONLY. The county expressly does NOT enforce within city limits."
+    },
+    {
+      "function": "code-enforcement",
       "entity": "city:boise-city",
-      "responsibleAuthority": null,
+      "responsibleAuthority": "the city's own municipal agency",
       "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "status": "VERIFIED",
+      "note": "Ada County directs city residents to their municipal agency. The specific city agency has not been identified per city."
     },
     {
       "function": "code-enforcement",
       "entity": "city:eagle",
-      "responsibleAuthority": null,
+      "responsibleAuthority": "the city's own municipal agency",
       "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "status": "VERIFIED",
+      "note": "Ada County directs city residents to their municipal agency. The specific city agency has not been identified per city."
     },
     {
       "function": "code-enforcement",
       "entity": "city:garden-city",
-      "responsibleAuthority": null,
+      "responsibleAuthority": "the city's own municipal agency",
       "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "status": "VERIFIED",
+      "note": "Ada County directs city residents to their municipal agency. The specific city agency has not been identified per city."
     },
     {
       "function": "code-enforcement",
       "entity": "city:kuna",
-      "responsibleAuthority": null,
+      "responsibleAuthority": "the city's own municipal agency",
       "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "status": "VERIFIED",
+      "note": "Ada County directs city residents to their municipal agency. The specific city agency has not been identified per city."
     },
     {
       "function": "code-enforcement",
       "entity": "city:meridian",
-      "responsibleAuthority": null,
+      "responsibleAuthority": "the city's own municipal agency",
       "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "status": "VERIFIED",
+      "note": "Ada County directs city residents to their municipal agency. The specific city agency has not been identified per city."
     },
     {
       "function": "code-enforcement",
       "entity": "city:star",
-      "responsibleAuthority": null,
+      "responsibleAuthority": "the city's own municipal agency",
       "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
-    },
-    {
-      "function": "code-enforcement",
-      "entity": "area:unincorporated-ada",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "status": "VERIFIED",
+      "note": "Ada County directs city residents to their municipal agency. The specific city agency has not been identified per city."
     },
     {
       "function": "recording",
@@ -834,65 +848,156 @@
     {
       "function": "gis-parcel-records",
       "entity": "city:boise-city",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. The Assessor also manages ADDRESSING for all parcels in the county. Records of Survey and subdivision plats available here."
     },
     {
       "function": "gis-parcel-records",
       "entity": "city:eagle",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. The Assessor also manages ADDRESSING for all parcels in the county. Records of Survey and subdivision plats available here."
     },
     {
       "function": "gis-parcel-records",
       "entity": "city:garden-city",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. The Assessor also manages ADDRESSING for all parcels in the county. Records of Survey and subdivision plats available here."
     },
     {
       "function": "gis-parcel-records",
       "entity": "city:kuna",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. The Assessor also manages ADDRESSING for all parcels in the county. Records of Survey and subdivision plats available here."
     },
     {
       "function": "gis-parcel-records",
       "entity": "city:meridian",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. The Assessor also manages ADDRESSING for all parcels in the county. Records of Survey and subdivision plats available here."
     },
     {
       "function": "gis-parcel-records",
       "entity": "city:star",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. The Assessor also manages ADDRESSING for all parcels in the county. Records of Survey and subdivision plats available here."
     },
     {
       "function": "gis-parcel-records",
       "entity": "area:unincorporated-ada",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT researched."
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. The Assessor also manages ADDRESSING for all parcels in the county. Records of Survey and subdivision plats available here."
+    },
+    {
+      "function": "addressing",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide."
+    },
+    {
+      "function": "addressing",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide."
+    },
+    {
+      "function": "addressing",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide."
+    },
+    {
+      "function": "addressing",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide."
+    },
+    {
+      "function": "addressing",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide."
+    },
+    {
+      "function": "addressing",
+      "entity": "city:star",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide."
+    },
+    {
+      "function": "addressing",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide."
     }
   ]
 }

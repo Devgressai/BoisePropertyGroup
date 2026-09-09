@@ -711,6 +711,79 @@
         "county:ada"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "star-faq",
+      "title": "Planning & Zoning FAQ — City of Star, Idaho",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://staridaho.org/FAQ.aspx",
+      "sourceTier": 1,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "planning",
+        "zoning",
+        "flood",
+        "subdivision",
+        "manufactured-housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city FAQ page, read directly with raw HTML cached. Carries the answers that the Planning & Zoning page only lists as questions.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-code-enforcement",
+      "title": "Code Enforcement — Ada County Sheriff",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/code-enforcement/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "code-enforcement",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official county page, read directly with raw HTML cached.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-assessor-property-records",
+      "title": "Assessor's Property Records — Ada County Assessor",
+      "publisher": "Ada County Assessor",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "assessment",
+        "gis",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official county page, read directly with raw HTML cached.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

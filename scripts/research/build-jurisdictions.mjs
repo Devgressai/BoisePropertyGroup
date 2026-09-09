@@ -40,14 +40,20 @@ const ROWS = [
     [], "Domestic-use definition is statutory (42-111). IDWR page NOT yet retrieved."],
   ["land-use-planning", CITIES, null, null, [], "Each city plans its own land use. NO city planning source has been retrieved yet."],
   ["building-permits", CITIES, null, null, [], "Presumed city-level. NOT verified."],
-  ["code-enforcement", ALL, null, null, [], "NOT researched."],
+  ["code-enforcement", [UNINC], "Ada County Code Enforcement (Development Services / Sheriff)", "https://adacounty.id.gov/sheriff/services/code-enforcement/",
+    ["ada-sheriff-code-enforcement"], "UNINCORPORATED ONLY. The county expressly does NOT enforce within city limits."],
+  ["code-enforcement", CITIES, "the city's own municipal agency", null,
+    ["ada-sheriff-code-enforcement"], "Ada County directs city residents to their municipal agency. The specific city agency has not been identified per city."],
   ["recording", ALL, "Ada County Clerk/Recorder", "https://adacounty.id.gov/clerk/property-records/",
     ["ada-property-records"], "County-wide regardless of city. Recorded documents are public under Idaho Code 31-2419; PII redaction is the submitter's duty."],
   ["tax-collection", ALL, "Ada County Treasurer (ex officio tax collector)", "https://adacounty.id.gov/treasurer/",
     ["ada-treasurer"], "Collects for ALL taxing districts including cities and schools. The Assessor values; the Treasurer collects."],
   ["public-administration-of-estates", ALL, "Ada County Treasurer (ex officio public administrator)", "https://adacounty.id.gov/treasurer/",
     ["ada-treasurer"], "Administers estates of decedents with no one to administer them."],
-  ["gis-parcel-records", ALL, null, null, [], "NOT researched."],
+  ["gis-parcel-records", ALL, "Ada County Assessor", "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+    ["ada-assessor-property-records"], "County-wide. The Assessor also manages ADDRESSING for all parcels in the county. Records of Survey and subdivision plats available here."],
+  ["addressing", ALL, "Ada County Assessor", "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+    ["ada-assessor-property-records"], "County-wide."],
 ];
 
 const rows = [];

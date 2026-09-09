@@ -957,8 +957,8 @@
     },
     {
       "id": "star-flood-zone-building-permit-question",
-      "claim": "The City of Star publishes guidance addressing whether a property in a flood zone can obtain a building permit.",
-      "quotedLanguage": "If My Property Is In a Flood Zone, Does That Mean I Cannot Obtain a Building Permit?",
+      "claim": "In the City of Star, development within certain flood zones requires a Flood Plain Development Permit and must meet the City's Flood Hazard Ordinance; being in a flood zone does not by itself prevent obtaining a building permit.",
+      "quotedLanguage": "Development within certain flood zones requires a Flood Plain Development Permit and must meet the requirements of the City's Flood Hazard Ordinance.",
       "entity": [
         "city:star"
       ],
@@ -968,15 +968,15 @@
         "planning"
       ],
       "sourceIds": [
-        "star-planning-zoning"
+        "star-faq"
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "jurisdiction": "Star, Idaho",
       "temporalStatus": "CURRENT",
       "futureDatedAmendment": null,
-      "approvedForPublication": false,
-      "verifiedOn": null,
-      "notes": "WITHHELD. Only the FAQ heading was captured, not the answer. The existence of the question suggests floodplain is a live issue in Star — which fits its position on the Boise River — but the answer must be read before anything is published. Do not infer the answer."
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "RESOLVED — the answer was on Star's separate FAQ page, not the Planning & Zoning page. Star also directs owners to make an appointment with the planning department to have a property evaluated for flood zone location, rather than self-determining it."
     },
     {
       "id": "settlers-district-coverage",
@@ -1331,6 +1331,103 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "⚠️ DATE-SENSITIVE. Maps adopted 2020 may since have been revised. Re-verify before publishing, and never state a property's flood zone from any source but the current FEMA map for that address."
+    },
+    {
+      "id": "star-one-time-administrative-division",
+      "claim": "In the City of Star an original parcel may be divided one time administratively into no more than two lots, parcels or sites, without a public hearing, unless the City requires the applicant to plat the division.",
+      "quotedLanguage": "An original parcel of land may be divided one time, administratively, into not more than two (2) lots, parcels, or sites for transfer of ownership or development. This process does not require a public hearing, unless the City requires the applicant to plat the land division.",
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "subdivision",
+        "land",
+        "planning",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "STAR-SPECIFIC DIFFERENTIATOR, directly useful to a land seller: a one-time, two-lot administrative split with no public hearing is a materially cheaper and faster path than a plat. ⚠️ This is STAR'S rule. Do not generalise it to the other five cities or to unincorporated Ada County — each has its own code and none has been checked."
+    },
+    {
+      "id": "star-temporary-family-living-quarters",
+      "claim": "The City of Star permits temporary living quarters in some cases to house an immediate family member where justified by health, employment or upkeep of the property; the structure may be permitted for two years and may not remain more than six years.",
+      "quotedLanguage": "Temporary living quarters are permitted in the City, in some cases, to house a member of the immediate family. The need for temporary living quarters for a family member must be justified for reasons of health, employment, or upkeep on the property. The structure may be permitted for two years and may not remain for more than six years.",
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "zoning",
+        "planning",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Relevant to the manufactured-housing pillar and to inherited-property situations where a family member's unit sits on the parcel. Star-specific; not checked elsewhere."
+    },
+    {
+      "id": "ada-code-enforcement-unincorporated-only",
+      "claim": "Ada County Code Enforcement investigates land use and building code complaints in unincorporated Ada County only, and expressly does not enforce code violations within city limits; complainants remain anonymous.",
+      "quotedLanguage": "Ada County Code Enforcement does not enforce code violations within city limits. Please contact the municipal agency directly. ... A Code Enforcement Specialist will investigate written and verbal complaints concerning land use and building code issues in unincorporated Ada County. ... The complaining party will remain anonymous.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "code-enforcement",
+        "jurisdiction",
+        "planning"
+      ],
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Directly relevant to the code-violations seller situation and reinforces the county/city split. The specialist is overseen by the Planning and Zoning Administrator in Development Services, and enforcement runs to civil District Court proceedings which can include fines, fees, penalties and in some instances incarceration. ⚠️ Never tell a seller inside a city to call Ada County about a violation."
+    },
+    {
+      "id": "ada-assessor-maintains-parcel-gis",
+      "claim": "The Ada County Assessor maintains comprehensive property records on all real and personal property in the county — parcel ownership, land and improvement characteristics, parcel boundaries and road rights-of-way — and manages the addressing process for all parcels in the county. Its online maps carry parcel boundaries, streets, hydrography, section boundaries, city limits, parks and schools, alongside Records of Survey and subdivision plats.",
+      "quotedLanguage": "The Ada County Assessor's Office maintains comprehensive property records on all real and personal property within the county. This includes, parcel ownership, land and improvement characteristics, parcel boundaries, road rights-of-way, and the office also manages the addressing processes for all parcels within the county.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "gis",
+        "recording",
+        "land",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Closes the GIS/parcel-records jurisdiction question: it is the ASSESSOR, not a separate GIS department, and the Assessor also owns ADDRESSING county-wide. Records of Survey and subdivision plats are available here, which matters for the land and difficult-property pillars."
     }
   ]
 }
