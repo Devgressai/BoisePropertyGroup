@@ -1,76 +1,6 @@
 {
-  "generatedAt": "2026-09-09",
-  "generator": "scripts/research/build-ada-geography.mjs",
-  "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 12,
+  "note": "Hand-maintained source registry entries. Merged with the Census-derived entries by scripts/research/build-ada-geography.mjs into ada-county-sources.json. Every entry must point at the document carrying the operative language, never a homepage or a section index.",
   "sources": [
-    {
-      "id": "census-place-county-2020",
-      "title": "2020 Census Place to County Relationship File — Idaho",
-      "publisher": "U.S. Census Bureau",
-      "organizationType": "federal-government",
-      "url": "https://www2.census.gov/geo/docs/reference/codes/files/st16_id_places.txt",
-      "sourceTier": 1,
-      "jurisdiction": "Idaho",
-      "topic": [
-        "geography",
-        "place-classification"
-      ],
-      "publicationDate": null,
-      "updatedDate": null,
-      "accessedDate": "2026-09-09",
-      "freshnessClass": "DECENNIAL",
-      "authorityNotes": "Definitive federal record of which county or counties each incorporated place and CDP lies within. Used instead of geometry for all county assignment.",
-      "claimsSupported": [
-        "ada-star-spans-two-counties"
-      ],
-      "entitiesSupported": [],
-      "status": "VERIFIED"
-    },
-    {
-      "id": "census-pep-sub-2024",
-      "title": "Population Estimates, Vintage 2024 — Subcounty Resident Population",
-      "publisher": "U.S. Census Bureau",
-      "organizationType": "federal-government",
-      "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/cities/totals/sub-est2024.csv",
-      "sourceTier": 1,
-      "jurisdiction": "United States",
-      "topic": [
-        "population"
-      ],
-      "publicationDate": null,
-      "updatedDate": null,
-      "accessedDate": "2026-09-09",
-      "freshnessClass": "ANNUAL",
-      "authorityNotes": "Vintage 2024 estimates, 2020 census base. Estimates, not counts — always label the vintage. For places spanning counties the file carries both SUMLEV 157 county-parts and a SUMLEV 162 place total.",
-      "claimsSupported": [
-        "ada-growth-divergence-2020-2024"
-      ],
-      "entitiesSupported": [],
-      "status": "VERIFIED"
-    },
-    {
-      "id": "census-pep-county-2024",
-      "title": "Population Estimates, Vintage 2024 — County Resident Population",
-      "publisher": "U.S. Census Bureau",
-      "organizationType": "federal-government",
-      "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/counties/totals/co-est2024-alldata.csv",
-      "sourceTier": 1,
-      "jurisdiction": "United States",
-      "topic": [
-        "population"
-      ],
-      "publicationDate": null,
-      "updatedDate": null,
-      "accessedDate": "2026-09-09",
-      "freshnessClass": "ANNUAL",
-      "authorityNotes": "Vintage 2024 county estimates, 2020 census base.",
-      "claimsSupported": [
-        "ada-population-2024"
-      ],
-      "entitiesSupported": [],
-      "status": "VERIFIED"
-    },
     {
       "id": "idcode-40-1406",
       "title": "Idaho Code § 40-1406 — Powers and duties of highway commissioners — One highway district in county — Highway powers of cities in county abolished — Laws in conflict superseded",
@@ -276,9 +206,7 @@
       "accessedDate": "2026-09-09",
       "freshnessClass": "STATUTORY",
       "authorityNotes": "Carries the statutory definition of 'homestead' including the one-acre limit. 63-602G delegates the definition here.",
-      "claimsSupported": [
-        "id-homestead-one-acre-limit"
-      ],
+      "claimsSupported": [],
       "entitiesSupported": [
         "state:id"
       ],
@@ -302,9 +230,7 @@
       "accessedDate": "2026-09-09",
       "freshnessClass": "IRREGULAR",
       "authorityNotes": "Official county page, raw HTML cached. States the county controls no roadway infrastructure and names ACHD, COMPASS, VRT and ITD as the transportation agencies.",
-      "claimsSupported": [
-        "achd-is-ada-district"
-      ],
+      "claimsSupported": [],
       "entitiesSupported": [
         "county:ada"
       ],

@@ -1,0 +1,483 @@
+{
+  "generatedAt": "2026-09-09",
+  "note": "Claim registry. Only claims with approvedForPublication=true may enter production copy. Every claim names the source section carrying the quoted operative language, never a homepage or a definitions section.",
+  "confidenceScale": [
+    "HIGH",
+    "MEDIUM",
+    "LOW",
+    "DISPUTED"
+  ],
+  "claims": [
+    {
+      "id": "achd-one-district-per-county",
+      "claim": "Idaho law permits only one countywide highway district to operate within a county that has voted to form one.",
+      "quotedLanguage": "Only one (1) county-wide highway district shall be operative within a county where the electorate has voted affirmatively for the formation of a county-wide highway district.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "roads",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "idcode-40-1406"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[40-1406, added 1985, ch. 253, sec. 2, p. 659; am. 1988, ch. 298, sec. 1, p. 942; am. 2023, ch. 306, sec. 1, p. 920.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": null
+    },
+    {
+      "id": "achd-city-highway-powers-abolished",
+      "claim": "A city inside a countywide highway district may not maintain or supervise city highways, and may not levy ad valorem taxes for their construction, repair or maintenance.",
+      "quotedLanguage": "No city included within a county-wide highway district shall maintain or supervise any city highways or levy any ad valorem taxes for the construction, repair or maintenance of city highways.",
+      "entity": [
+        "county:ada",
+        "city:boise-city",
+        "city:meridian",
+        "city:eagle",
+        "city:kuna",
+        "city:star",
+        "city:garden-city"
+      ],
+      "topic": [
+        "roads",
+        "jurisdiction",
+        "property-taxes"
+      ],
+      "sourceIds": [
+        "idcode-40-1406"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[40-1406, added 1985, ch. 253, sec. 2, p. 659; am. 1988, ch. 298, sec. 1, p. 942; am. 2023, ch. 306, sec. 1, p. 920.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "This is the statutory basis for the ACHD arrangement. It has no California analogue and is the single strongest jurisdiction differentiator found. NOTE: the statute is general Idaho law; a separate source is required to establish that ACHD is in fact Ada County's countywide district — see claim achd-is-ada-district, which is NOT yet verified."
+    },
+    {
+      "id": "achd-responsibility-within-cities",
+      "claim": "A single countywide highway district is responsible for design, construction, reconstruction and maintenance of city rights-of-way and their curbs, gutters, culverts, sidewalks, paved medians, bulkheads and retaining walls.",
+      "quotedLanguage": "shall be responsible for the design, construction, reconstruction and maintenance of city rights-of-way and accompanying curbs, gutters, culverts, sidewalks, paved medians, bulkheads and retaining walls",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "roads",
+        "jurisdiction",
+        "sidewalks"
+      ],
+      "sourceIds": [
+        "idcode-40-1415"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[40-1415, added 1985, ch. 253, sec. 2, p. 662; am. 2021, ch. 273, sec. 1, p. 824.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Directly seller-relevant: sidewalk and approach questions on an Ada County property are a district matter, not a city one."
+    },
+    {
+      "id": "achd-cities-retain",
+      "claim": "Cities within a countywide highway district retain responsibility for pre-existing local improvement district bonds, may spend city funds on trees, shrubs, grass and other plants in rights-of-way, and control parking meters.",
+      "quotedLanguage": "jurisdiction and responsibility for outstanding local improvement district bonds or warrants sold or issued by the city prior to dissolution of the city highway system",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "roads",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "idcode-40-1415"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[40-1415, added 1985, ch. 253, sec. 2, p. 662; am. 2021, ch. 273, sec. 1, p. 824.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": null
+    },
+    {
+      "id": "achd-is-ada-district",
+      "claim": "Ada County Development Services controls no roadway infrastructure within the county's boundaries; the Ada County Highway District leads identification and development of transportation projects and maintains the county's Master Street Map.",
+      "quotedLanguage": "While Ada County Development Services does not control any roadway infrastructure within its boundaries, these plans help us to be better partners with partner agencies and our residents.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "roads",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "ada-county-transportation"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "NARROWED from the original claim. This Tier 1 county source establishes that the county itself controls no roads and that ACHD leads transportation — it does NOT independently state that ACHD maintains roads inside each incorporated city. That specific proposition still rests on the general statutes (40-1406, 40-1415) plus the premise that Ada County has a countywide district. achdidaho.org returns 403 to automated fetches. Do not write 'ACHD maintains every road inside Boise' until a direct ACHD or ITD source is captured."
+    },
+    {
+      "id": "id-homestead-creditor-175k",
+      "claim": "Idaho's homestead exemption protecting home equity from creditors is capped at $175,000, regardless of the area of land.",
+      "quotedLanguage": "A homestead may consist of lands, as described in section 55-1001, Idaho Code, regardless of area, but the homestead exemption amount shall not exceed the sum of one hundred seventy-five thousand dollars ($175,000).",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "homestead",
+        "creditors",
+        "equity"
+      ],
+      "sourceIds": [
+        "idcode-55-1003"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-1003, added 1989, ch. 371, sec. 2, p. 934; am. 1992, ch. 14, sec. 1, p. 38; am. 2006, ch. 262, sec. 1, p. 814; am. 2020, ch. 232, sec. 2, p. 685.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ DO NOT CONFUSE with the property-tax homeowner's exemption (Idaho Code 63-602G, $125,000). These are different statutes doing different jobs and Ada County's own website calls BOTH 'Homestead Exemption'. See claim id-homeowners-tax-exemption-125k."
+    },
+    {
+      "id": "id-homeowners-tax-exemption-125k",
+      "claim": "Idaho's homestead property-tax exemption removes from taxation the lesser of the first $125,000 of the homestead's market value for assessment purposes, or 50% of that market value.",
+      "quotedLanguage": "For each tax year, the first one hundred twenty-five thousand dollars ($125,000) of the market value for assessment purposes of the homestead as that term is defined in section 63-701, Idaho Code, or fifty percent (50%) of the market value for assessment purposes of the homestead as that term is defined in section 63-701, Idaho Code, whichever is the lesser, shall be exempt from property taxation.",
+      "entity": [
+        "county:ada",
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "idcode-63-602g",
+        "ada-assessor-homeowners-exemption"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ TERMINOLOGY TRAP: this is NOT Idaho Code 55-1003 (creditor-protection homestead, $125,000 vs $175,000 caps, different purposes). Ada County's own site calls both 'Homestead Exemption'. Any page using that phrase must say which is meant. FUTURE-DATING CHECKED: the statute page states 'Idaho Statutes are updated to the website July 1 following the legislative session'; the most recent amendment is 2026 ch. 236 and, today being after 1 July 2026, the displayed text is in force. The $125,000 figure is independently corroborated by the Ada County Assessor. The acreage limit is NOT in this section — see id-homestead-one-acre-limit.",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7 ... am. 2024, ch. 168; am. 2025, ch. 167; am. 2025, ch. 202; am. 2026, ch. 236, sec. 1, p. 1017.]"
+    },
+    {
+      "id": "ada-homeowners-exemption-deadline",
+      "claim": "To qualify for the homeowner's exemption for a tax year, an owner must own and occupy the home on or before the last county business day in December and file the application by close of business that same day; once approved it need only be re-filed on a move or a change of ownership.",
+      "quotedLanguage": "To qualify, you must own and occupy your home on or before the last county business day in December. You must also submit an application to our office by the close of business on that same day for the current tax year. Once approved, you only need to reapply if you move or if ownership of the property changes.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Directly relevant to sellers: a change of ownership ends the exemption's automatic carry-forward, so a buyer must re-apply."
+    },
+    {
+      "id": "ada-assessment-market-value-jan-1",
+      "claim": "Idaho law requires all non-exempt property to be assessed at market value as of January 1, and January 1 is also the lien date for real property.",
+      "quotedLanguage": "Idaho law requires that all non-exempt property be assessed at market value as of January 1st.",
+      "entity": [
+        "county:ada",
+        "state:id"
+      ],
+      "topic": [
+        "assessment",
+        "property-taxes"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "The lien-date statement is a separate sentence on the same page: 'The lien date for real property and most personal property is January 1.'"
+    },
+    {
+      "id": "ada-reappraisal-five-year-cycle",
+      "claim": "All Ada County property is assessed every year, but state law requires a physical inspection every five years; roughly 20% of county properties are reappraised in a given year and the rest are trended on market conditions.",
+      "quotedLanguage": "State law requires properties to be physically inspected every 5 years. Roughly 20% of the properties within the county are reappraised in any given year. During the other four years of the cycle, values are trended based on market conditions.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Explains to a seller why an assessed value can diverge from a current market view — genuinely useful, and a natural bridge to the offer-math page."
+    },
+    {
+      "id": "ada-assessor-does-not-set-value",
+      "claim": "The Ada County Assessor estimates what a typical buyer would reasonably pay for a property as of January 1 rather than setting its value.",
+      "quotedLanguage": "Remember: The assessor does not set a value for your property. He or she just estimates what a typical buyer would reasonably pay for it on January 1st.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": null
+    },
+    {
+      "id": "ada-fixture-three-factor-test",
+      "claim": "Whether an item is real property or personal property in Idaho is decided by a three-factor test of annexation, adaptation and intent; an item satisfying all three is a fixture and therefore real property.",
+      "quotedLanguage": "If an item of property satisfies all three factors of the three factor test, the item becomes a fixture and therefore real property",
+      "entity": [
+        "county:ada",
+        "state:id"
+      ],
+      "topic": [
+        "assessment",
+        "real-vs-personal-property",
+        "manufactured-housing"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Load-bearing for the manufactured-home pillar: whether a manufactured home is real or personal property changes how it is sold and conveyed."
+    },
+    {
+      "id": "ada-residential-appraisal-scope",
+      "claim": "Ada County's residential appraisers value detached single-family dwellings, attached townhomes, condominium units, multi-family residential up to four units, and manufactured housing; apartments and higher-density residential are handled by commercial appraisers.",
+      "quotedLanguage": "Ada County's residential appraisers manage the valuation of all residential property types, including detached single-family dwellings, attached townhomes, condominium units, multi-family residential up to four-units, and manufactured housing.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "property-types"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "The four-unit line is a useful boundary for the small-multifamily property-type page."
+    },
+    {
+      "id": "id-trustee-sale-120-day-notice",
+      "claim": "An Idaho trust deed foreclosure requires notice of the trustee's sale to be given at least 120 days before the day fixed for the sale.",
+      "quotedLanguage": "at least one hundred twenty (120) days before the day fixed by the trustee for the trustee's sale, notice of such sale shall be given",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "The single most useful number for a distressed Idaho seller. Do NOT describe this as 'the foreclosure timeline' — it is one statutory minimum within a longer process."
+    },
+    {
+      "id": "id-trustee-sale-publication",
+      "claim": "Notice of an Idaho trustee's sale must be published in a newspaper of general circulation in each county where the property sits, once a week for four successive weeks, with the last publication at least 30 days before the sale.",
+      "quotedLanguage": "published in a newspaper of general circulation in each of the counties in which the property is situated once a week for four (4) successive weeks...with the last publication to be at least thirty (30) days prior to the day of sale",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "'each of the counties in which the property is situated' matters for Star, which spans Ada and Canyon."
+    },
+    {
+      "id": "id-trustee-sale-service-attempts",
+      "claim": "At least three good-faith attempts at personal service must be made on different days over a period of not less than seven days, each at least 30 days before an Idaho trustee's sale.",
+      "quotedLanguage": "At least three (3) good faith attempts shall be made on different days over a period of not less than seven (7) days, each of which attempts must be made at least thirty (30) days prior to the day of the sale",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": null
+    },
+    {
+      "id": "ada-star-spans-two-counties",
+      "claim": "Star is an incorporated city lying in both Ada County and Canyon County.",
+      "quotedLanguage": "ID|16|76870|Star city|Incorporated Place|A|Ada County, Canyon County",
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "geography"
+      ],
+      "sourceIds": [
+        "census-place-county-2020"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Never describe Star as wholly within Ada County. Any jurisdiction-dependent statement about Star must say which county part is meant."
+    },
+    {
+      "id": "ada-population-2024",
+      "claim": "Ada County's estimated resident population was 535,799 in 2024.",
+      "quotedLanguage": null,
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "population"
+      ],
+      "sourceIds": [
+        "census-pep-county-2024"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ An estimate, not a count — always label it as Census Population Estimates, Vintage 2024. A commonly-repeated figure of ~557,590 for Ada County 2024 conflicts with this; see claim ada-population-disputed-557590."
+    },
+    {
+      "id": "ada-population-disputed-557590",
+      "claim": "A figure of approximately 557,590 is sometimes cited as Ada County's 2024 population.",
+      "quotedLanguage": null,
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "population"
+      ],
+      "sourceIds": [],
+      "confidence": "DISPUTED",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CONFLICTED",
+      "approvedForPublication": false,
+      "verifiedOn": null,
+      "notes": "Conflicts with the Census Vintage 2024 estimate of 535,799 by ~4%. Likely a COMPASS (Community Planning Association of Southwest Idaho) estimate or a different vintage, but the origin has NOT been established. Do not publish either figure without naming its dataset. Resolve before any page states an Ada County population."
+    },
+    {
+      "id": "ada-growth-divergence-2020-2024",
+      "claim": "Population growth across Ada County's cities diverged sharply between the 2020 census base and the 2024 estimate: Star +61.4%, Kuna +21.0%, Meridian +18.6%, Eagle +7.4%, Garden City +5.1%, Boise +1.0%.",
+      "quotedLanguage": null,
+      "entity": [
+        "city:star",
+        "city:kuna",
+        "city:meridian",
+        "city:eagle",
+        "city:garden-city",
+        "city:boise-city"
+      ],
+      "topic": [
+        "population",
+        "growth",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "census-pep-sub-2024"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Computed WITHIN one vintage (2020 base and 2024 estimate from the same Vintage 2024 file). Never compute growth across vintages. This is the strongest city-differentiation fact found so far: Boise is effectively static while Star has grown by nearly two thirds."
+    },
+    {
+      "id": "id-homestead-one-acre-limit",
+      "claim": "For Idaho property-tax purposes a homestead is the owner-occupied primary dwelling plus no more than one acre of surrounding land reasonably necessary for its use as a home.",
+      "quotedLanguage": "\"Homestead\" means the dwelling, owner-occupied by the claimant as described in this chapter and used as the primary dwelling place of the claimant and may be occupied by any members of the household as their home, and so much of the land surrounding it, not exceeding one (1) acre, as is reasonably necessary for the use of the dwelling as a home.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "acreage"
+      ],
+      "sourceIds": [
+        "idcode-63-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Directly relevant to acreage sellers: land beyond one acre gets no homestead exemption, so a 5-acre parcel is taxed very differently from a 0.9-acre lot. Cited to 63-701 because 63-602G defines the dollar cap but delegates the definition of 'homestead' — citing 63-602G for the acreage would send a reader to a section that does not contain it."
+    }
+  ]
+}

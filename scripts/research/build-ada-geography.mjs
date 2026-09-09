@@ -57,6 +57,12 @@ const sources = [
   },
 ];
 
+// Merge hand-maintained legal/government sources
+try {
+  const manual = JSON.parse(readFileSync("data/idaho/sources/sources-manual.json", "utf8"));
+  sources.push(...manual.sources);
+} catch (e) { console.error("WARN: sources-manual.json not merged:", e.message); }
+
 // ── Parse crosswalk ───────────────────────────────────────────────────────
 const places = readFileSync(`${RAW}/st16_id_places.txt`, "utf8")
   .trim().split("\n").map((line) => {
@@ -194,6 +200,15 @@ for (const e of entities.filter((x) => x.entityType === "CITY" || x.entityType =
     "census-pep-sub-2024", sources[1].url,
     "Computed from the 2020 base and 2024 estimate WITHIN one vintage. Never compute growth across vintages or across datasets.");
 }
+
+// Backfill claimsSupported on EVERY source from the claim registry, so the two
+// sides can never disagree. The claim is the single source of truth for the
+// link; a hand-maintained list on the source side drifts (and did).
+try {
+  const claimReg = JSON.parse(readFileSync("data/idaho/evidence/ada-claims.json", "utf8"));
+  for (const src of sources)
+    src.claimsSupported = claimReg.claims.filter((c) => (c.sourceIds ?? []).includes(src.id)).map((c) => c.id);
+} catch (e) { console.error("WARN: claimsSupported not backfilled:", e.message); }
 
 mkdirSync("data/idaho/entities", { recursive: true });
 const meta = { generatedAt: ACCESSED, generator: "scripts/research/build-ada-geography.mjs",
