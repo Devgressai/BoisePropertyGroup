@@ -1,0 +1,32 @@
+{
+  "project": "adapropertybuyers",
+  "updated": "2026-09-09",
+  "donor": { "repo": "~/sierrapropertybuyers", "commit": "bda8bc6", "access": "READ-ONLY", "lastVerifiedClean": "2026-09-09" },
+  "market": { "phase1": "Ada County, Idaho", "municipalities": ["Boise","Meridian","Eagle","Kuna","Star","Garden City"], "region": "Treasure Valley", "expansionCeilingMiles": 100 },
+  "decisions": {
+    "urlArchitecture": "flat-depth-1",
+    "buildOrder": "anchors-then-knowledge-pillars",
+    "programScope": "full",
+    "operatingStatus": "actively-buying-idaho",
+    "inheritCombos": false,
+    "claudeCommitTrailers": false
+  },
+  "phases": {
+    "00": "COMPLETE", "01": "COMPLETE", "02": "NOT_STARTED", "03": "PARTIAL", "04": "PARTIAL",
+    "05": "NOT_STARTED", "06": "NOT_STARTED", "07": "NOT_STARTED", "08": "NOT_STARTED",
+    "09": "NOT_STARTED", "10": "NOT_STARTED", "11": "NOT_STARTED", "12": "NOT_STARTED",
+    "13": "NOT_STARTED", "14": "NOT_STARTED", "15": "NOT_STARTED", "16": "NOT_STARTED", "17": "NOT_STARTED"
+  },
+  "gates": { "adaCountyEvidence": "NOT_RUN", "ci": "NOT_CONFIGURED", "launch": "NOT_RUN" },
+  "blockers": [
+    "register adapropertybuyers.com (verified available 2026-09-09)",
+    "legal entity name", "Boise phone", "business address",
+    "new Resend key", "real Idaho transactions/reviews", "rotate exposed Gemini key"
+  ],
+  "sierraForensics": {
+    "totalRoutes": 1361, "indexable": 894, "noindexFollow": 467,
+    "linkEdges": 16031, "orphans": 0, "hubOnly": 97,
+    "entities": 605, "entityRelationships": 1811,
+    "systemsClassified": 45
+  }
+}
