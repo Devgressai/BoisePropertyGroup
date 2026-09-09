@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 43,
+  "totalSources": 44,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -1129,6 +1129,34 @@
       ],
       "entitiesSupported": [
         "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-faq",
+      "title": "Frequently Asked Questions — City of Kuna, Idaho",
+      "publisher": "City of Kuna",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/FAQ.aspx",
+      "sourceTier": 1,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "planning",
+        "zoning",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city FAQ, read directly with raw HTML cached. Kuna's departmental pages are navigation-only; the FAQ is where its substantive planning content lives — the same pattern as Star.",
+      "claimsSupported": [
+        "kuna-land-use-table-convention",
+        "kuna-hearing-notice-300ft-15days",
+        "kuna-property-lines-survey-guidance"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
       ],
       "status": "VERIFIED"
     }

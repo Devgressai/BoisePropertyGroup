@@ -476,21 +476,25 @@
     },
     {
       "function": "land-use-planning",
-      "entity": "city:meridian",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT SOURCED. meridiancity.org returns 403 to automated fetch; Kuna pages retrieved are nav-only."
+      "entity": "city:kuna",
+      "responsibleAuthority": "City of Kuna Planning & Zoning",
+      "officialResource": "https://www.kunacity.id.gov/FAQ.aspx",
+      "sourceIds": [
+        "kuna-faq"
+      ],
+      "status": "VERIFIED",
+      "note": "Every property in city limits is zoned; Kuna Municipal Code 5-3-2 is the Official Land Use Table, closed-list (unlisted use = prohibited)."
     },
     {
       "function": "land-use-planning",
-      "entity": "city:kuna",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "NOT SOURCED. meridiancity.org returns 403 to automated fetch; Kuna pages retrieved are nav-only."
+      "entity": "city:meridian",
+      "responsibleAuthority": "City of Meridian Community Development — Planning Division",
+      "officialResource": "https://meridiancity.org/community-development/planning/",
+      "sourceIds": [
+        "meridian-building-permits-aug-2025"
+      ],
+      "status": "VERIFIED",
+      "note": "Meridian HTML 403s to automated fetch; sourced via the city's PDF permit reports."
     },
     {
       "function": "building-permits",

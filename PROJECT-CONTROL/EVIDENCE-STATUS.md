@@ -5,10 +5,10 @@
 
 | Registry | Records |
 |---|---:|
-| Sources | 29 (Tier 1: 26, Tier 2: 3) |
-| Claims | 51 |
-| — approved for publication | 50 |
-| — withheld | 1 |
+| Sources | 44 (Tier 1: 41, Tier 2: 3) |
+| Claims | 74 |
+| — approved for publication | 74 |
+| — withheld | 0 |
 | Entities | 11 |
 | Statistics | 22 |
 
@@ -18,14 +18,14 @@ Scored on approved claims naming the entity. INSUFFICIENT means no indexable pag
 
 | Entity | Direct claims | Incl. inherited | Dimensions | Score |
 |---|---:|---:|---|---|
-| Ada County | 33 | 47 | 13/14 | COMPLETE |
-| Boise City | 5 | 49 | 13/14 | SUFFICIENT |
-| Eagle | 5 | 49 | 13/14 | SUFFICIENT |
-| Garden City | 4 | 49 | 13/14 | PARTIAL |
-| Hidden Spring | 0 | 47 | 13/14 | INSUFFICIENT |
-| Kuna | 6 | 49 | 13/14 | SUFFICIENT |
-| Meridian | 6 | 49 | 13/14 | SUFFICIENT |
-| Star | 6 | 50 | 13/14 | SUFFICIENT |
+| Ada County | 42 | 61 | 13/14 | COMPLETE |
+| Boise City | 7 | 65 | 13/14 | SUFFICIENT |
+| Eagle | 6 | 64 | 13/14 | SUFFICIENT |
+| Garden City | 5 | 64 | 13/14 | SUFFICIENT |
+| Hidden Spring | 0 | 61 | 13/14 | INSUFFICIENT |
+| Kuna | 9 | 65 | 13/14 | SUFFICIENT |
+| Meridian | 7 | 64 | 13/14 | SUFFICIENT |
+| Star | 9 | 67 | 13/14 | SUFFICIENT |
 
 **Score is the worse of dimension coverage and direct-claim count.** Direct claims are what differentiate a page. Inherited Idaho-wide claims make
 a page correct; only direct local claims make it distinct from its neighbours.
@@ -38,7 +38,7 @@ still read as a template and must not be indexed on that basis alone.
 
 ## Withheld claims
 
-- **`star-flood-zone-building-permit-question`** (MEDIUM) — WITHHELD.
+_None._
 
 ## Sources pending verification
 

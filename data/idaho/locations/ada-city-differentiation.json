@@ -11,9 +11,12 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 5,
-      "claimsUniqueToCity": 0,
-      "uniqueClaimIds": []
+      "claimsNamingCity": 7,
+      "claimsUniqueToCity": 2,
+      "uniqueClaimIds": [
+        "boise-wui-overlay-district",
+        "boise-nfip-flood-sources"
+      ]
     },
     {
       "city": "Eagle",
@@ -24,9 +27,11 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 5,
-      "claimsUniqueToCity": 0,
-      "uniqueClaimIds": []
+      "claimsNamingCity": 6,
+      "claimsUniqueToCity": 1,
+      "uniqueClaimIds": [
+        "eagle-planning-scope"
+      ]
     },
     {
       "city": "Garden City",
@@ -37,9 +42,11 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 4,
-      "claimsUniqueToCity": 0,
-      "uniqueClaimIds": []
+      "claimsNamingCity": 5,
+      "claimsUniqueToCity": 1,
+      "uniqueClaimIds": [
+        "gardencity-planning-scope"
+      ]
     },
     {
       "city": "Kuna",
@@ -50,9 +57,12 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 6,
-      "claimsUniqueToCity": 0,
-      "uniqueClaimIds": []
+      "claimsNamingCity": 9,
+      "claimsUniqueToCity": 2,
+      "uniqueClaimIds": [
+        "kuna-land-use-table-convention",
+        "kuna-hearing-notice-300ft-15days"
+      ]
     },
     {
       "city": "Meridian",
@@ -63,9 +73,11 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 6,
-      "claimsUniqueToCity": 0,
-      "uniqueClaimIds": []
+      "claimsNamingCity": 7,
+      "claimsUniqueToCity": 1,
+      "uniqueClaimIds": [
+        "meridian-building-permit-activity-aug-2025"
+      ]
     },
     {
       "city": "Star",
@@ -77,10 +89,13 @@
         "Canyon County"
       ],
       "multiCounty": true,
-      "claimsNamingCity": 6,
-      "claimsUniqueToCity": 1,
+      "claimsNamingCity": 9,
+      "claimsUniqueToCity": 4,
       "uniqueClaimIds": [
-        "ada-star-spans-two-counties"
+        "ada-star-spans-two-counties",
+        "star-flood-zone-building-permit-question",
+        "star-one-time-administrative-division",
+        "star-temporary-family-living-quarters"
       ]
     }
   ],

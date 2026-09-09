@@ -1713,6 +1713,75 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "FIRST MERIDIAN-SOURCED CLAIM. meridiancity.org returns 403 to automated HTML fetches but serves its PDF assets normally, which is how this was obtained. ⚠️ SINGLE MONTH, AUGUST 2025 — a snapshot, not a trend, and it must always be labelled with its month and year. The residential/commercial attribution was verified against the report's own section headers rather than inferred from the figures. No residential grand total is stated in the report and none is asserted here."
+    },
+    {
+      "id": "kuna-land-use-table-convention",
+      "claim": "The City of Kuna assigns a zone to every property within city limits, and Kuna Municipal Code 5-3-2 holds the Official Land Use Table: uses marked 'P' are permitted, 'S' requires a Special Use Permit, and a use not listed is prohibited in that zone.",
+      "quotedLanguage": "The City of Kuna has assigned a zone to every property located within Kuna city limits. ... you may view 5-3-2 of the Kuna Municipal Code which contains the Official Land Use Table. This will show the uses allowed in each zoning district. Uses are listed as \"P\" for a Permitted Use and \"S\" signifying by Special Use Permit only. If none of these are listed, the use is prohibited in that zone.",
+      "entity": [
+        "city:kuna"
+      ],
+      "topic": [
+        "zoning",
+        "planning",
+        "land"
+      ],
+      "sourceIds": [
+        "kuna-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Kuna, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "The 'not listed means prohibited' convention is the useful part for a seller weighing what a buyer could do with a Kuna parcel — it is a closed-list code, not a permissive one. ⚠️ Kuna's convention; do not generalise to the other cities."
+    },
+    {
+      "id": "kuna-hearing-notice-300ft-15days",
+      "claim": "Kuna notifies property owners within 300 feet of a subject property of a public hearing, in writing, at least fifteen days before the hearing.",
+      "quotedLanguage": "Notification for public hearings is 300' from the subject property. Written notification is then mailed at least fifteen (15) days prior to the public hearing.",
+      "entity": [
+        "city:kuna"
+      ],
+      "topic": [
+        "planning",
+        "zoning"
+      ],
+      "sourceIds": [
+        "kuna-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Kuna, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Concrete Kuna-specific procedural fact. Relevant to a seller whose neighbour is seeking a rezone, and to a buyer planning an entitlement."
+    },
+    {
+      "id": "kuna-property-lines-survey-guidance",
+      "claim": "Kuna advises that the best way to determine property lines is a professional survey, that owners should check for existing corner pins or stakes, that the Ada County Assessor's Office may hold a copy showing property size and surrounding lots, and that fence lines and street curbs should not be assumed to follow property lines.",
+      "quotedLanguage": "Do not assume that fence lines and street curbs follow property lines.",
+      "entity": [
+        "city:kuna",
+        "county:ada"
+      ],
+      "topic": [
+        "land",
+        "access",
+        "easements"
+      ],
+      "sourceIds": [
+        "kuna-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Kuna, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Useful for the boundary-dispute and difficult-property pillars, and it routes back to the Assessor, which the registry already establishes as the holder of parcel boundaries and Records of Survey."
     }
   ]
 }
