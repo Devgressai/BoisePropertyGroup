@@ -1,0 +1,356 @@
+{
+  "generatedAt": "2026-09-09",
+  "generator": "scripts/research/build-opportunity-maps.mjs",
+  "propertyTypes": [
+    {
+      "name": "Single-family house",
+      "businessRelevance": "CORE",
+      "evidenceTopics": [
+        "assessment",
+        "disclosure",
+        "property-taxes"
+      ],
+      "claimsUnion": 20,
+      "weakestRequiredTopic": "disclosure (5)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": "Broad evidence base is genuine here — assessment, disclosure and tax claims all apply directly.",
+      "note": "The default. Evidence is broad."
+    },
+    {
+      "name": "Rental / unwanted rental",
+      "businessRelevance": "CORE",
+      "evidenceTopics": [
+        "tenants",
+        "disclosure"
+      ],
+      "claimsUnion": 11,
+      "weakestRequiredTopic": "disclosure (5)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "Deposit liability transfers on sale (6-321(3)); disclosure applies to non-owner-occupied rental."
+    },
+    {
+      "name": "Small multifamily (2-4 units)",
+      "businessRelevance": "HIGH",
+      "evidenceTopics": [
+        "assessment",
+        "disclosure",
+        "tenants"
+      ],
+      "claimsUnion": 18,
+      "weakestRequiredTopic": "disclosure (5)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "Assessor treats up to four units as residential; disclosure act covers 1-4 dwelling units. Clean boundary."
+    },
+    {
+      "name": "Apartments / 5+ units",
+      "businessRelevance": "LOW",
+      "evidenceTopics": [
+        "assessment"
+      ],
+      "claimsUnion": 7,
+      "weakestRequiredTopic": "assessment (7)",
+      "evidenceGrade": "LOW",
+      "overrideReason": "No apartment-specific evidence exists. The high topic score comes entirely from general assessment claims. Out of Phase 1 scope.",
+      "note": "Falls outside the residential assessment and disclosure boundaries; different buyer entirely."
+    },
+    {
+      "name": "Manufactured / mobile home",
+      "businessRelevance": "HIGH",
+      "evidenceTopics": [
+        "manufactured-housing",
+        "real-vs-personal-property",
+        "recording"
+      ],
+      "claimsUnion": 8,
+      "weakestRequiredTopic": "real-vs-personal-property (3)",
+      "evidenceGrade": "MEDIUM",
+      "overrideReason": null,
+      "note": "63-304 conversion test is decisive and well evidenced."
+    },
+    {
+      "name": "Vacant land / lot",
+      "businessRelevance": "HIGH",
+      "evidenceTopics": [
+        "land",
+        "subdivision",
+        "water",
+        "irrigation"
+      ],
+      "claimsUnion": 17,
+      "weakestRequiredTopic": "irrigation (4)",
+      "evidenceGrade": "MEDIUM",
+      "overrideReason": null,
+      "note": "Irrigation, water and subdivision evidence is strong."
+    },
+    {
+      "name": "Acreage / rural property",
+      "businessRelevance": "HIGH",
+      "evidenceTopics": [
+        "water",
+        "well",
+        "septic",
+        "irrigation",
+        "acreage"
+      ],
+      "claimsUnion": 9,
+      "weakestRequiredTopic": "septic (1)",
+      "evidenceGrade": "LOW",
+      "overrideReason": null,
+      "note": "Domestic water cap, septic authority and irrigation districts all evidenced."
+    },
+    {
+      "name": "Development land",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "subdivision",
+        "planning",
+        "water",
+        "zoning"
+      ],
+      "claimsUnion": 26,
+      "weakestRequiredTopic": "subdivision (6)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "42-111 excludes subdivisions from domestic water — a real constraint. Land-use subdivision thresholds NOT yet researched per city."
+    },
+    {
+      "name": "Infill lot",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "subdivision",
+        "planning",
+        "zoning"
+      ],
+      "claimsUnion": 21,
+      "weakestRequiredTopic": "subdivision (6)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "Star's one-time administrative split is evidenced; other cities' rules are not."
+    },
+    {
+      "name": "Problem / difficult property",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "access",
+        "easements",
+        "flood",
+        "land"
+      ],
+      "claimsUnion": 18,
+      "weakestRequiredTopic": "access (2)",
+      "evidenceGrade": "LOW",
+      "overrideReason": null,
+      "note": "Floodplain permits and private roads evidenced for unincorporated county; easement evidence is thin."
+    },
+    {
+      "name": "Flood-affected property",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "flood"
+      ],
+      "claimsUnion": 6,
+      "weakestRequiredTopic": "flood (6)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "Boise's three flood sources and Ada's permit requirement evidenced; parcel-level determination is explicitly out of scope."
+    },
+    {
+      "name": "Fire-damaged / WUI property",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "wildfire"
+      ],
+      "claimsUnion": 1,
+      "weakestRequiredTopic": "wildfire (1)",
+      "evidenceGrade": "LOW",
+      "overrideReason": null,
+      "note": "Boise WUI-O overlay evidenced. No evidence for other cities — do not assume."
+    },
+    {
+      "name": "Commercial property",
+      "businessRelevance": "LOW",
+      "evidenceTopics": [],
+      "claimsUnion": 0,
+      "weakestRequiredTopic": null,
+      "evidenceGrade": "INSUFFICIENT_EVIDENCE",
+      "overrideReason": null,
+      "note": "No evidence gathered. Out of scope for Phase 1."
+    }
+  ],
+  "sellerSituations": [
+    {
+      "name": "Inherited property",
+      "businessRelevance": "CORE",
+      "evidenceTopics": [
+        "probate",
+        "inheritance",
+        "disclosure"
+      ],
+      "claimsUnion": 8,
+      "weakestRequiredTopic": "probate (4)",
+      "evidenceGrade": "MEDIUM",
+      "overrideReason": null,
+      "note": "15-3-711 PR power + 55-2505(7) fiduciary disclosure exemption. Strongest evidenced situation."
+    },
+    {
+      "name": "Probate sale",
+      "businessRelevance": "CORE",
+      "evidenceTopics": [
+        "probate",
+        "inheritance"
+      ],
+      "claimsUnion": 4,
+      "weakestRequiredTopic": "probate (4)",
+      "evidenceGrade": "MEDIUM",
+      "overrideReason": null,
+      "note": "PR power without court order, qualified by 15-3-715. Treasurer is ex officio public administrator."
+    },
+    {
+      "name": "Foreclosure / behind on payments",
+      "businessRelevance": "CORE",
+      "evidenceTopics": [
+        "foreclosure"
+      ],
+      "claimsUnion": 7,
+      "weakestRequiredTopic": "foreclosure (7)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "120-day trustee sale notice, publication and service all evidenced."
+    },
+    {
+      "name": "Property tax delinquency",
+      "businessRelevance": "HIGH",
+      "evidenceTopics": [
+        "property-taxes",
+        "foreclosure"
+      ],
+      "claimsUnion": 13,
+      "weakestRequiredTopic": "foreclosure (7)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "3-year tax deed clock + 14-month double-gated redemption. Distinct from foreclosure and heavily evidenced."
+    },
+    {
+      "name": "Selling with tenants",
+      "businessRelevance": "HIGH",
+      "evidenceTopics": [
+        "tenants",
+        "recording"
+      ],
+      "claimsUnion": 10,
+      "weakestRequiredTopic": "recording (5)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "Deposit liability transfers; one-year lease carve-out in the recording act."
+    },
+    {
+      "name": "Bad tenants / unauthorized occupants",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "tenants"
+      ],
+      "claimsUnion": 6,
+      "weakestRequiredTopic": "tenants (6)",
+      "evidenceGrade": "MEDIUM",
+      "overrideReason": "6-310A is well evidenced but excludes former tenants and family members, which is most of what sellers mean. Narrower than the topic count suggests.",
+      "note": "6-310A evidenced but narrowly — excludes former tenants and family. Easy to misuse."
+    },
+    {
+      "name": "Divorce",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "disclosure"
+      ],
+      "claimsUnion": 5,
+      "weakestRequiredTopic": "disclosure (5)",
+      "evidenceGrade": "LOW",
+      "overrideReason": "The only divorce-specific evidence is one disclosure exemption, which covers spouse-to-spouse transfers ONLY. Idaho community property treatment of real property is unresearched.",
+      "note": "Only the disclosure exemption is evidenced, and it covers spouse-to-spouse transfers ONLY. Idaho community property treatment NOT researched."
+    },
+    {
+      "name": "Vacant property",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "vacant",
+        "code-enforcement"
+      ],
+      "claimsUnion": 2,
+      "weakestRequiredTopic": "vacant (1)",
+      "evidenceGrade": "LOW",
+      "overrideReason": null,
+      "note": "Code enforcement is unincorporated-only. City-side enforcement not researched."
+    },
+    {
+      "name": "Code violations",
+      "businessRelevance": "MEDIUM",
+      "evidenceTopics": [
+        "code-enforcement",
+        "permits"
+      ],
+      "claimsUnion": 6,
+      "weakestRequiredTopic": "code-enforcement (1)",
+      "evidenceGrade": "LOW",
+      "overrideReason": null,
+      "note": "County process evidenced end to end; city processes are not."
+    },
+    {
+      "name": "Major repairs / as-is",
+      "businessRelevance": "HIGH",
+      "evidenceTopics": [
+        "disclosure",
+        "assessment"
+      ],
+      "claimsUnion": 12,
+      "weakestRequiredTopic": "disclosure (5)",
+      "evidenceGrade": "HIGH",
+      "overrideReason": null,
+      "note": "Disclosure duty applies by default — the honest angle competitors get wrong."
+    },
+    {
+      "name": "Liens and judgments",
+      "businessRelevance": "LOW",
+      "evidenceTopics": [
+        "liens"
+      ],
+      "claimsUnion": 5,
+      "weakestRequiredTopic": "liens (5)",
+      "evidenceGrade": "LOW",
+      "overrideReason": "The `liens` topic is tagged loosely across unrelated claims. No lien- or judgment-specific research has been done.",
+      "note": "Not researched as a topic in its own right."
+    },
+    {
+      "name": "Relocation",
+      "businessRelevance": "LOW",
+      "evidenceTopics": [],
+      "claimsUnion": 0,
+      "weakestRequiredTopic": null,
+      "evidenceGrade": "INSUFFICIENT_EVIDENCE",
+      "overrideReason": null,
+      "note": "No Idaho-specific evidence needed or gathered."
+    },
+    {
+      "name": "Hoarder property",
+      "businessRelevance": "LOW",
+      "evidenceTopics": [],
+      "claimsUnion": 0,
+      "weakestRequiredTopic": null,
+      "evidenceGrade": "INSUFFICIENT_EVIDENCE",
+      "overrideReason": null,
+      "note": "No Idaho-specific evidence. Generic."
+    },
+    {
+      "name": "Fire damage",
+      "businessRelevance": "LOW",
+      "evidenceTopics": [
+        "wildfire"
+      ],
+      "claimsUnion": 1,
+      "weakestRequiredTopic": "wildfire (1)",
+      "evidenceGrade": "LOW",
+      "overrideReason": null,
+      "note": "WUI overlay is about construction, not damaged-property sale. Weak fit."
+    }
+  ]
+}
