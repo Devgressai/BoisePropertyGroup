@@ -717,8 +717,8 @@
     },
     {
       "id": "ada-septic-authority-cdh",
-      "claim": "Central District Health permits septic (subsurface sewage disposal) systems and verifies shallow injection wells for Ada, Boise, Elmore and Valley counties; a property owner must obtain a permit from the public health district to install a septic system.",
-      "quotedLanguage": null,
+      "claim": "Central District Health's Environmental Health Division permits septic systems, reviews land development applications and verifies the location of shallow injection wells across Ada, Boise, Elmore and Valley counties.",
+      "quotedLanguage": "Environmental Health Specialists at Central District Health (CDH) permit septic systems, review land development applications and verify location of shallow injection wells to ensure reliable and safe water resources for the community.",
       "entity": [
         "county:ada"
       ],
@@ -730,13 +730,198 @@
       "sourceIds": [
         "cdh-septic"
       ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "JURISDICTION DIFFERENTIATOR: septic in Ada County is a PUBLIC HEALTH DISTRICT matter, not a city or county building-department matter. A seller with a septic question is directed to CDH, not to Boise or Ada County permitting. CDH's remit spans four counties, so it is not an Ada-only body."
+    },
+    {
+      "id": "ada-planning-unincorporated-only",
+      "claim": "Ada County's planning division processes land use applications only in unincorporated Ada County; land use inside an incorporated city is that city's jurisdiction.",
+      "quotedLanguage": "Our planning division processes land use applications in unincorporated Ada County and works with the Ada County Historic Preservation Council...",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "planning",
+        "zoning",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "ada-dev-services"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ THE MOST IMPORTANT JURISDICTION FACT FOR CONTENT. 64,427 people live in unincorporated Ada County. Their zoning, platting and permitting authority is the COUNTY. Everyone inside Boise, Meridian, Eagle, Kuna, Star or Garden City deals with their CITY. Any page that says 'contact Ada County for permits' is wrong for 88% of county residents."
+    },
+    {
+      "id": "ada-engineering-scope-unincorporated",
+      "claim": "Ada County's engineering and surveying division reviews preliminary plats, drainage plans, private roads, hillside applications, floodplain permits and property boundary adjustments in unincorporated Ada County.",
+      "quotedLanguage": "Our engineering and surveying division reviews preliminary plats, drainage plans, private roads, hillside applications, floodplain permits, and property boundary adjustments in unincorporated Ada County.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "planning",
+        "land",
+        "subdivision",
+        "flood",
+        "access"
+      ],
+      "sourceIds": [
+        "ada-dev-services"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Directly maps to the difficult-property and land pillars: private roads, hillside applications, floodplain permits and boundary adjustments are exactly the problems a land seller has. Note the scope is unincorporated ONLY."
+    },
+    {
+      "id": "ada-building-division-scope",
+      "claim": "Ada County's building division reviews plans and inspects buildings, and its permitting division accepts building, manufactured home and mechanical permit applications through a client portal.",
+      "quotedLanguage": "Our building division reviews plans and inspects buildings to ensure Ada County residents are safe in any building they walk into.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "permits",
+        "planning"
+      ],
+      "sourceIds": [
+        "ada-dev-services"
+      ],
       "confidence": "MEDIUM",
       "jurisdiction": "Ada County, Idaho",
       "temporalStatus": "CURRENT",
       "futureDatedAmendment": null,
-      "approvedForPublication": false,
-      "verifiedOn": null,
-      "notes": "NOT YET APPROVED. Assembled from search-result summaries of cdh.idaho.gov, not from a page read directly. Fetch https://cdh.idaho.gov/environmental-health/water-wastewater-septic/ and quote the operative language before publishing. The jurisdictional point — that septic is a HEALTH DISTRICT matter, not a city or county building-department matter — is a genuine differentiator and worth getting exactly right."
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "The page does not state whether building inspection extends inside cities; do not assert that it does. Manufactured home permits are explicitly named, which matters for the manufactured-housing pillar."
+    },
+    {
+      "id": "ada-treasurer-ex-officio-tax-collector",
+      "claim": "The Ada County Treasurer serves as ex officio tax collector, responsible for collecting the property taxes levied by all taxing districts including cities and schools.",
+      "quotedLanguage": "The Treasurer serves as ex officio tax collector, responsible for the collection of property taxes levied by the taxing districts, including cities and schools.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Completes the tax split: the ASSESSOR values, the TREASURER collects, and the collection is county-wide across every city and school district. A seller with a delinquency question goes to the Treasurer, not the Assessor."
+    },
+    {
+      "id": "ada-treasurer-ex-officio-public-administrator",
+      "claim": "The Ada County Treasurer also serves as ex officio public administrator, responsible for administering the estates of decedents who have no one to administer the estate.",
+      "quotedLanguage": "The Treasurer also serves as ex officio public administrator, responsible for administering the estates of decedents without a person to administer the estate.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "probate",
+        "inheritance",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Obscure and genuinely useful: an Ada County property whose owner died with no one to administer the estate falls to the TREASURER as public administrator. No competitor cash-buyer site will carry this."
+    },
+    {
+      "id": "ada-recorder-maintains-ownership-documents",
+      "claim": "The Ada County Recorder's Office maintains all documents related to property ownership within the county, and under Idaho Code 31-2419 all recorded documents are open to public inspection and available for purchase online.",
+      "quotedLanguage": "The Ada County Recorder's Office maintains all documents related to property ownership within the County. ... Pursuant to Idaho Code § 31-2419, all recorded documents are open for public inspection and available for purchase online.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "deeds",
+        "title",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Recording is county-wide regardless of which city a property sits in. The statutory cite for public inspection is 31-2419 (taken from the county page; not yet read at the Legislature)."
+    },
+    {
+      "id": "ada-recorder-pii-redaction-is-submitter-duty",
+      "claim": "When recording a document in Ada County, redacting personal identifying information is the responsibility of the party submitting it, not the Recorder's office.",
+      "quotedLanguage": "If you are submitting documents for recording, it is the responsibility of the party submitting to redact any personal identifying information (PII), such as social security number, date of birth and any account numbers. This is not the responsibility of the Recorder's office to identify and redact personal identifying information (PII).",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "deeds"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Practical and seller-relevant, and a genuine trap: recorded documents are public and nobody upstream will redact for you."
+    },
+    {
+      "id": "ada-eviction-forms-nonpayment-only",
+      "claim": "The Ada County Court Assistance Office's eviction forms may be used only to evict a tenant who has not paid rent; they cannot be used to evict a tenant current on rent, to sue for back rent, or to move a mobile home from a rented space.",
+      "quotedLanguage": "Eviction forms on our site can only be used to evict a tenant who has not paid rent. You cannot use our forms to evict a tenant who is up to date on their rent, sue for back rent or move a mobile home from a rented space.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "liens"
+      ],
+      "sourceIds": [
+        "ada-landlord-tenant"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ Use carefully. This describes the SELF-HELP FORMS' scope, not the limits of Idaho eviction law. Never write 'you can only evict for non-payment in Idaho' — that would be false. The page itself says its assistance is no substitute for legal advice, and our pages must not read as legal advice either."
     }
   ]
 }

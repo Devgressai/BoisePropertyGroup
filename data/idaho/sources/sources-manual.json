@@ -393,14 +393,110 @@
       ],
       "publicationDate": null,
       "updatedDate": null,
-      "accessedDate": null,
+      "accessedDate": "2026-09-09",
       "freshnessClass": "IRREGULAR",
-      "authorityNotes": "⚠️ NOT YET RETRIEVED. Referenced from search results only. Must be fetched and read before the claim it supports can be approved.",
+      "authorityNotes": "Official public health district page, read directly with raw HTML cached. CDH covers Ada, Boise, Elmore and Valley counties.",
       "claimsSupported": [],
       "entitiesSupported": [
         "county:ada"
       ],
-      "status": "PENDING_VERIFICATION"
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-dev-services",
+      "title": "Development Services — Ada County",
+      "publisher": "Ada County Development Services",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/developmentservices/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "planning",
+        "zoning",
+        "permits",
+        "flood",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official county page, read directly with raw HTML cached. Establishes that planning and engineering act in UNINCORPORATED Ada County only.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-treasurer",
+      "title": "Treasurer — Ada County",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/treasurer/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-taxes",
+        "probate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official county page, read directly with raw HTML cached.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-property-records",
+      "title": "Property Records — Ada County Clerk/Recorder",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/property-records/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "recording",
+        "deeds",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official county page, read directly with raw HTML cached.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-landlord-tenant",
+      "title": "Landlord Tenant — Ada County Court Assistance",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/court-assistance/landlord-tenant/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official county page, read directly with raw HTML cached.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

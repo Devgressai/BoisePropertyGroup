@@ -1,0 +1,898 @@
+{
+  "generatedAt": "2026-09-09",
+  "generator": "scripts/research/build-jurisdictions.mjs",
+  "rule": "A row that is not VERIFIED must not drive published copy. An UNRESEARCHED function means no page may state who performs it.",
+  "totalRows": 85,
+  "rows": [
+    {
+      "function": "assessment",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/",
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. All non-exempt property assessed at market value as of January 1."
+    },
+    {
+      "function": "assessment",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/",
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. All non-exempt property assessed at market value as of January 1."
+    },
+    {
+      "function": "assessment",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/",
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. All non-exempt property assessed at market value as of January 1."
+    },
+    {
+      "function": "assessment",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/",
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. All non-exempt property assessed at market value as of January 1."
+    },
+    {
+      "function": "assessment",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/",
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. All non-exempt property assessed at market value as of January 1."
+    },
+    {
+      "function": "assessment",
+      "entity": "city:star",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/",
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. All non-exempt property assessed at market value as of January 1."
+    },
+    {
+      "function": "assessment",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/",
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide. All non-exempt property assessed at market value as of January 1."
+    },
+    {
+      "function": "homeowner-tax-exemption",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/tax-relief-programs/homeowners-exemption/",
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption",
+        "idcode-63-602g"
+      ],
+      "status": "VERIFIED",
+      "note": "Applied for through the county Assessor regardless of which city the property sits in."
+    },
+    {
+      "function": "homeowner-tax-exemption",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/tax-relief-programs/homeowners-exemption/",
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption",
+        "idcode-63-602g"
+      ],
+      "status": "VERIFIED",
+      "note": "Applied for through the county Assessor regardless of which city the property sits in."
+    },
+    {
+      "function": "homeowner-tax-exemption",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/tax-relief-programs/homeowners-exemption/",
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption",
+        "idcode-63-602g"
+      ],
+      "status": "VERIFIED",
+      "note": "Applied for through the county Assessor regardless of which city the property sits in."
+    },
+    {
+      "function": "homeowner-tax-exemption",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/tax-relief-programs/homeowners-exemption/",
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption",
+        "idcode-63-602g"
+      ],
+      "status": "VERIFIED",
+      "note": "Applied for through the county Assessor regardless of which city the property sits in."
+    },
+    {
+      "function": "homeowner-tax-exemption",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/tax-relief-programs/homeowners-exemption/",
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption",
+        "idcode-63-602g"
+      ],
+      "status": "VERIFIED",
+      "note": "Applied for through the county Assessor regardless of which city the property sits in."
+    },
+    {
+      "function": "homeowner-tax-exemption",
+      "entity": "city:star",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/tax-relief-programs/homeowners-exemption/",
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption",
+        "idcode-63-602g"
+      ],
+      "status": "VERIFIED",
+      "note": "Applied for through the county Assessor regardless of which city the property sits in."
+    },
+    {
+      "function": "homeowner-tax-exemption",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Assessor",
+      "officialResource": "https://adacounty.id.gov/assessor/tax-relief-programs/homeowners-exemption/",
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption",
+        "idcode-63-602g"
+      ],
+      "status": "VERIFIED",
+      "note": "Applied for through the county Assessor regardless of which city the property sits in."
+    },
+    {
+      "function": "roads",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Ada County Highway District",
+      "officialResource": null,
+      "sourceIds": [
+        "idcode-40-1406",
+        "idcode-40-1415",
+        "ada-county-transportation"
+      ],
+      "status": "VERIFIED",
+      "note": "Statute bars cities in a countywide highway district from maintaining city highways or taxing for them. Ada County itself states it controls no roadway infrastructure. State highways remain with the Idaho Transportation Department."
+    },
+    {
+      "function": "roads",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Ada County Highway District",
+      "officialResource": null,
+      "sourceIds": [
+        "idcode-40-1406",
+        "idcode-40-1415",
+        "ada-county-transportation"
+      ],
+      "status": "VERIFIED",
+      "note": "Statute bars cities in a countywide highway district from maintaining city highways or taxing for them. Ada County itself states it controls no roadway infrastructure. State highways remain with the Idaho Transportation Department."
+    },
+    {
+      "function": "roads",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Ada County Highway District",
+      "officialResource": null,
+      "sourceIds": [
+        "idcode-40-1406",
+        "idcode-40-1415",
+        "ada-county-transportation"
+      ],
+      "status": "VERIFIED",
+      "note": "Statute bars cities in a countywide highway district from maintaining city highways or taxing for them. Ada County itself states it controls no roadway infrastructure. State highways remain with the Idaho Transportation Department."
+    },
+    {
+      "function": "roads",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Ada County Highway District",
+      "officialResource": null,
+      "sourceIds": [
+        "idcode-40-1406",
+        "idcode-40-1415",
+        "ada-county-transportation"
+      ],
+      "status": "VERIFIED",
+      "note": "Statute bars cities in a countywide highway district from maintaining city highways or taxing for them. Ada County itself states it controls no roadway infrastructure. State highways remain with the Idaho Transportation Department."
+    },
+    {
+      "function": "roads",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Ada County Highway District",
+      "officialResource": null,
+      "sourceIds": [
+        "idcode-40-1406",
+        "idcode-40-1415",
+        "ada-county-transportation"
+      ],
+      "status": "VERIFIED",
+      "note": "Statute bars cities in a countywide highway district from maintaining city highways or taxing for them. Ada County itself states it controls no roadway infrastructure. State highways remain with the Idaho Transportation Department."
+    },
+    {
+      "function": "roads",
+      "entity": "city:star",
+      "responsibleAuthority": "Ada County Highway District",
+      "officialResource": null,
+      "sourceIds": [
+        "idcode-40-1406",
+        "idcode-40-1415",
+        "ada-county-transportation"
+      ],
+      "status": "VERIFIED",
+      "note": "Statute bars cities in a countywide highway district from maintaining city highways or taxing for them. Ada County itself states it controls no roadway infrastructure. State highways remain with the Idaho Transportation Department."
+    },
+    {
+      "function": "roads",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Highway District",
+      "officialResource": null,
+      "sourceIds": [
+        "idcode-40-1406",
+        "idcode-40-1415",
+        "ada-county-transportation"
+      ],
+      "status": "VERIFIED",
+      "note": "Statute bars cities in a countywide highway district from maintaining city highways or taxing for them. Ada County itself states it controls no roadway infrastructure. State highways remain with the Idaho Transportation Department."
+    },
+    {
+      "function": "septic",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Central District Health — Environmental Health Division",
+      "officialResource": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "status": "VERIFIED",
+      "note": "A public health district, not a city or county building department. Covers Ada, Boise, Elmore and Valley counties."
+    },
+    {
+      "function": "septic",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Central District Health — Environmental Health Division",
+      "officialResource": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "status": "VERIFIED",
+      "note": "A public health district, not a city or county building department. Covers Ada, Boise, Elmore and Valley counties."
+    },
+    {
+      "function": "septic",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Central District Health — Environmental Health Division",
+      "officialResource": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "status": "VERIFIED",
+      "note": "A public health district, not a city or county building department. Covers Ada, Boise, Elmore and Valley counties."
+    },
+    {
+      "function": "septic",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Central District Health — Environmental Health Division",
+      "officialResource": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "status": "VERIFIED",
+      "note": "A public health district, not a city or county building department. Covers Ada, Boise, Elmore and Valley counties."
+    },
+    {
+      "function": "septic",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Central District Health — Environmental Health Division",
+      "officialResource": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "status": "VERIFIED",
+      "note": "A public health district, not a city or county building department. Covers Ada, Boise, Elmore and Valley counties."
+    },
+    {
+      "function": "septic",
+      "entity": "city:star",
+      "responsibleAuthority": "Central District Health — Environmental Health Division",
+      "officialResource": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "status": "VERIFIED",
+      "note": "A public health district, not a city or county building department. Covers Ada, Boise, Elmore and Valley counties."
+    },
+    {
+      "function": "septic",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Central District Health — Environmental Health Division",
+      "officialResource": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "status": "VERIFIED",
+      "note": "A public health district, not a city or county building department. Covers Ada, Boise, Elmore and Valley counties."
+    },
+    {
+      "function": "land-use-planning",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Development Services — Planning Division",
+      "officialResource": "https://adacounty.id.gov/developmentservices/",
+      "sourceIds": [
+        "ada-dev-services"
+      ],
+      "status": "VERIFIED",
+      "note": "UNINCORPORATED ONLY. 64,427 residents."
+    },
+    {
+      "function": "plats-private-roads-hillside-floodplain-boundary",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Development Services — Engineering & Surveying Division",
+      "officialResource": "https://adacounty.id.gov/developmentservices/",
+      "sourceIds": [
+        "ada-dev-services"
+      ],
+      "status": "VERIFIED",
+      "note": "UNINCORPORATED ONLY. Covers preliminary plats, drainage, private roads, hillside applications, floodplain permits and boundary adjustments."
+    },
+    {
+      "function": "building-permits",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Development Services — Building Division",
+      "officialResource": "https://adacounty.id.gov/developmentservices/",
+      "sourceIds": [
+        "ada-dev-services"
+      ],
+      "status": "VERIFIED",
+      "note": "The county page does not state whether building inspection extends inside cities; do not assert that it does."
+    },
+    {
+      "function": "water-rights",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Idaho Department of Water Resources",
+      "officialResource": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+      "sourceIds": [],
+      "status": "UNVERIFIED",
+      "note": "Domestic-use definition is statutory (42-111). IDWR page NOT yet retrieved."
+    },
+    {
+      "function": "water-rights",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Idaho Department of Water Resources",
+      "officialResource": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+      "sourceIds": [],
+      "status": "UNVERIFIED",
+      "note": "Domestic-use definition is statutory (42-111). IDWR page NOT yet retrieved."
+    },
+    {
+      "function": "water-rights",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Idaho Department of Water Resources",
+      "officialResource": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+      "sourceIds": [],
+      "status": "UNVERIFIED",
+      "note": "Domestic-use definition is statutory (42-111). IDWR page NOT yet retrieved."
+    },
+    {
+      "function": "water-rights",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Idaho Department of Water Resources",
+      "officialResource": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+      "sourceIds": [],
+      "status": "UNVERIFIED",
+      "note": "Domestic-use definition is statutory (42-111). IDWR page NOT yet retrieved."
+    },
+    {
+      "function": "water-rights",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Idaho Department of Water Resources",
+      "officialResource": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+      "sourceIds": [],
+      "status": "UNVERIFIED",
+      "note": "Domestic-use definition is statutory (42-111). IDWR page NOT yet retrieved."
+    },
+    {
+      "function": "water-rights",
+      "entity": "city:star",
+      "responsibleAuthority": "Idaho Department of Water Resources",
+      "officialResource": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+      "sourceIds": [],
+      "status": "UNVERIFIED",
+      "note": "Domestic-use definition is statutory (42-111). IDWR page NOT yet retrieved."
+    },
+    {
+      "function": "water-rights",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Idaho Department of Water Resources",
+      "officialResource": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+      "sourceIds": [],
+      "status": "UNVERIFIED",
+      "note": "Domestic-use definition is statutory (42-111). IDWR page NOT yet retrieved."
+    },
+    {
+      "function": "land-use-planning",
+      "entity": "city:boise-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+    },
+    {
+      "function": "land-use-planning",
+      "entity": "city:eagle",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+    },
+    {
+      "function": "land-use-planning",
+      "entity": "city:garden-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+    },
+    {
+      "function": "land-use-planning",
+      "entity": "city:kuna",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+    },
+    {
+      "function": "land-use-planning",
+      "entity": "city:meridian",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+    },
+    {
+      "function": "land-use-planning",
+      "entity": "city:star",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+    },
+    {
+      "function": "building-permits",
+      "entity": "city:boise-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Presumed city-level. NOT verified."
+    },
+    {
+      "function": "building-permits",
+      "entity": "city:eagle",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Presumed city-level. NOT verified."
+    },
+    {
+      "function": "building-permits",
+      "entity": "city:garden-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Presumed city-level. NOT verified."
+    },
+    {
+      "function": "building-permits",
+      "entity": "city:kuna",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Presumed city-level. NOT verified."
+    },
+    {
+      "function": "building-permits",
+      "entity": "city:meridian",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Presumed city-level. NOT verified."
+    },
+    {
+      "function": "building-permits",
+      "entity": "city:star",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "Presumed city-level. NOT verified."
+    },
+    {
+      "function": "code-enforcement",
+      "entity": "city:boise-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "code-enforcement",
+      "entity": "city:eagle",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "code-enforcement",
+      "entity": "city:garden-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "code-enforcement",
+      "entity": "city:kuna",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "code-enforcement",
+      "entity": "city:meridian",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "code-enforcement",
+      "entity": "city:star",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "code-enforcement",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "recording",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Ada County Clerk/Recorder",
+      "officialResource": "https://adacounty.id.gov/clerk/property-records/",
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide regardless of city. Recorded documents are public under Idaho Code 31-2419; PII redaction is the submitter's duty."
+    },
+    {
+      "function": "recording",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Ada County Clerk/Recorder",
+      "officialResource": "https://adacounty.id.gov/clerk/property-records/",
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide regardless of city. Recorded documents are public under Idaho Code 31-2419; PII redaction is the submitter's duty."
+    },
+    {
+      "function": "recording",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Ada County Clerk/Recorder",
+      "officialResource": "https://adacounty.id.gov/clerk/property-records/",
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide regardless of city. Recorded documents are public under Idaho Code 31-2419; PII redaction is the submitter's duty."
+    },
+    {
+      "function": "recording",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Ada County Clerk/Recorder",
+      "officialResource": "https://adacounty.id.gov/clerk/property-records/",
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide regardless of city. Recorded documents are public under Idaho Code 31-2419; PII redaction is the submitter's duty."
+    },
+    {
+      "function": "recording",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Ada County Clerk/Recorder",
+      "officialResource": "https://adacounty.id.gov/clerk/property-records/",
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide regardless of city. Recorded documents are public under Idaho Code 31-2419; PII redaction is the submitter's duty."
+    },
+    {
+      "function": "recording",
+      "entity": "city:star",
+      "responsibleAuthority": "Ada County Clerk/Recorder",
+      "officialResource": "https://adacounty.id.gov/clerk/property-records/",
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide regardless of city. Recorded documents are public under Idaho Code 31-2419; PII redaction is the submitter's duty."
+    },
+    {
+      "function": "recording",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Clerk/Recorder",
+      "officialResource": "https://adacounty.id.gov/clerk/property-records/",
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "status": "VERIFIED",
+      "note": "County-wide regardless of city. Recorded documents are public under Idaho Code 31-2419; PII redaction is the submitter's duty."
+    },
+    {
+      "function": "tax-collection",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Ada County Treasurer (ex officio tax collector)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Collects for ALL taxing districts including cities and schools. The Assessor values; the Treasurer collects."
+    },
+    {
+      "function": "tax-collection",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Ada County Treasurer (ex officio tax collector)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Collects for ALL taxing districts including cities and schools. The Assessor values; the Treasurer collects."
+    },
+    {
+      "function": "tax-collection",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Ada County Treasurer (ex officio tax collector)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Collects for ALL taxing districts including cities and schools. The Assessor values; the Treasurer collects."
+    },
+    {
+      "function": "tax-collection",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Ada County Treasurer (ex officio tax collector)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Collects for ALL taxing districts including cities and schools. The Assessor values; the Treasurer collects."
+    },
+    {
+      "function": "tax-collection",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Ada County Treasurer (ex officio tax collector)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Collects for ALL taxing districts including cities and schools. The Assessor values; the Treasurer collects."
+    },
+    {
+      "function": "tax-collection",
+      "entity": "city:star",
+      "responsibleAuthority": "Ada County Treasurer (ex officio tax collector)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Collects for ALL taxing districts including cities and schools. The Assessor values; the Treasurer collects."
+    },
+    {
+      "function": "tax-collection",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Treasurer (ex officio tax collector)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Collects for ALL taxing districts including cities and schools. The Assessor values; the Treasurer collects."
+    },
+    {
+      "function": "public-administration-of-estates",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "Ada County Treasurer (ex officio public administrator)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers estates of decedents with no one to administer them."
+    },
+    {
+      "function": "public-administration-of-estates",
+      "entity": "city:eagle",
+      "responsibleAuthority": "Ada County Treasurer (ex officio public administrator)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers estates of decedents with no one to administer them."
+    },
+    {
+      "function": "public-administration-of-estates",
+      "entity": "city:garden-city",
+      "responsibleAuthority": "Ada County Treasurer (ex officio public administrator)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers estates of decedents with no one to administer them."
+    },
+    {
+      "function": "public-administration-of-estates",
+      "entity": "city:kuna",
+      "responsibleAuthority": "Ada County Treasurer (ex officio public administrator)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers estates of decedents with no one to administer them."
+    },
+    {
+      "function": "public-administration-of-estates",
+      "entity": "city:meridian",
+      "responsibleAuthority": "Ada County Treasurer (ex officio public administrator)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers estates of decedents with no one to administer them."
+    },
+    {
+      "function": "public-administration-of-estates",
+      "entity": "city:star",
+      "responsibleAuthority": "Ada County Treasurer (ex officio public administrator)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers estates of decedents with no one to administer them."
+    },
+    {
+      "function": "public-administration-of-estates",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Ada County Treasurer (ex officio public administrator)",
+      "officialResource": "https://adacounty.id.gov/treasurer/",
+      "sourceIds": [
+        "ada-treasurer"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers estates of decedents with no one to administer them."
+    },
+    {
+      "function": "gis-parcel-records",
+      "entity": "city:boise-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "gis-parcel-records",
+      "entity": "city:eagle",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "gis-parcel-records",
+      "entity": "city:garden-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "gis-parcel-records",
+      "entity": "city:kuna",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "gis-parcel-records",
+      "entity": "city:meridian",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "gis-parcel-records",
+      "entity": "city:star",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    },
+    {
+      "function": "gis-parcel-records",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT researched."
+    }
+  ]
+}

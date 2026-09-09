@@ -5,10 +5,10 @@
 
 | Registry | Records |
 |---|---:|
-| Sources | 19 (Tier 1: 18, Tier 2: 1) |
-| Claims | 32 |
-| — approved for publication | 30 |
-| — withheld | 2 |
+| Sources | 23 (Tier 1: 22, Tier 2: 1) |
+| Claims | 40 |
+| — approved for publication | 39 |
+| — withheld | 1 |
 | Entities | 11 |
 | Statistics | 22 |
 
@@ -18,14 +18,14 @@ Scored on approved claims naming the entity. INSUFFICIENT means no indexable pag
 
 | Entity | Direct claims | Incl. inherited | Dimensions | Score |
 |---|---:|---:|---|---|
-| Ada County | 14 | 28 | 8/14 | PARTIAL |
-| Boise City | 2 | 29 | 9/14 | SUFFICIENT |
-| Eagle | 2 | 29 | 9/14 | SUFFICIENT |
-| Garden City | 2 | 29 | 9/14 | SUFFICIENT |
-| Hidden Spring | 0 | 28 | 8/14 | PARTIAL |
-| Kuna | 2 | 29 | 9/14 | SUFFICIENT |
-| Meridian | 2 | 29 | 9/14 | SUFFICIENT |
-| Star | 3 | 30 | 10/14 | SUFFICIENT |
+| Ada County | 23 | 37 | 10/14 | SUFFICIENT |
+| Boise City | 2 | 38 | 11/14 | SUFFICIENT |
+| Eagle | 2 | 38 | 11/14 | SUFFICIENT |
+| Garden City | 2 | 38 | 11/14 | SUFFICIENT |
+| Hidden Spring | 0 | 37 | 10/14 | SUFFICIENT |
+| Kuna | 2 | 38 | 11/14 | SUFFICIENT |
+| Meridian | 2 | 38 | 11/14 | SUFFICIENT |
+| Star | 3 | 39 | 12/14 | SUFFICIENT |
 
 **Direct claims are what differentiate a page.** Inherited Idaho-wide claims make
 a page correct; only direct local claims make it distinct from its neighbours.
@@ -36,19 +36,16 @@ still read as a template and must not be indexed on that basis alone.
 
 - **Identity** — no approved claim for Ada County
 - **Housing** — no approved claim for Ada County
-- **Planning** — no approved claim for Ada County
-- **Risks** — no approved claim for Ada County
 - **SearchIntent** — no approved claim for Ada County
 - **ContentDifferentiation** — no approved claim for Ada County
 
 ## Withheld claims
 
 - **`ada-population-disputed-557590`** (DISPUTED) — Conflicts with the Census Vintage 2024 estimate of 535,799 by ~4%.
-- **`ada-septic-authority-cdh`** (MEDIUM) — NOT YET APPROVED.
 
 ## Sources pending verification
 
-- `cdh-septic` — PENDING_VERIFICATION
+_None. Every registered source has been retrieved and read._
 
 ## Integrity counters
 
