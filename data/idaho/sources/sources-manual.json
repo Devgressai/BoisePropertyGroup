@@ -855,6 +855,52 @@
         "state:id"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-1005",
+      "title": "Idaho Code § 63-1005 — Pending issue of tax deed — General provisions — Notice",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch10/sect63-1005/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Amendment history present on the page; no future-dated amendment displayed.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-1007",
+      "title": "Idaho Code § 63-1007 — Redemption — Expiration of right",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch10/sect63-1007/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Amendment history present on the page; no future-dated amendment displayed.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

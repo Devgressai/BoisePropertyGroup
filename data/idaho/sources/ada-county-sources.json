@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 38,
+  "totalSources": 40,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -997,6 +997,57 @@
         "id-deposit-liability-transfers-on-sale",
         "id-deposit-refund-timing",
         "id-deposit-no-normal-wear-and-tear"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-1005",
+      "title": "Idaho Code § 63-1005 — Pending issue of tax deed — General provisions — Notice",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch10/sect63-1005/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Amendment history present on the page; no future-dated amendment displayed.",
+      "claimsSupported": [
+        "id-tax-deed-three-year-delinquency",
+        "id-tax-deed-notice-service"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-1007",
+      "title": "Idaho Code § 63-1007 — Redemption — Expiration of right",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch10/sect63-1007/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Amendment history present on the page; no future-dated amendment displayed.",
+      "claimsSupported": [
+        "id-tax-deed-redemption-fourteen-months"
       ],
       "entitiesSupported": [
         "state:id"

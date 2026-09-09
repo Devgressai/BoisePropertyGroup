@@ -1544,6 +1544,77 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Useful for the unwanted-rental and bad-tenants pages: a landlord selling a tired unit cannot charge the tenant for its condition where that condition is ordinary use."
+    },
+    {
+      "id": "id-tax-deed-three-year-delinquency",
+      "claim": "If Idaho real property with a delinquency is not redeemed within three years from the date of delinquency, the county tax collector must issue a tax deed in favour of the county — but only after a notice of pending issue of tax deed has been given and an affidavit of compliance recorded.",
+      "quotedLanguage": "If real property on which there is a delinquency is not redeemed within three (3) years from the date of delinquency, the county tax collector of the county wherein such property is situated must make, in favor of said county, a tax deed for such property. However, the county shall not be entitled to a tax deed for such real property until: (a) A notice of pending issue of tax deed has been given; and (b) An affidavit of compliance has been recorded.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "foreclosure",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-63-1005"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️⚠️ NEVER CONFLATE WITH MORTGAGE FORECLOSURE. Idaho's two routes to losing a property run on completely different clocks: a trust deed foreclosure needs 120 days' notice (45-1506), whereas property-tax delinquency takes THREE YEARS before a tax deed can even issue. A distressed seller who has heard '120 days' about one and applies it to the other will make a serious decision on a wrong timeline. This distinction is the core of the tax-delinquency pillar."
+    },
+    {
+      "id": "id-tax-deed-notice-service",
+      "claim": "Notice of a pending Idaho tax deed must be served on record owners and parties in interest by certified mail with return receipt, no more than five months and no less than two months before the tax deed is set to issue; if returned undelivered, by publication once a week for four consecutive weeks, the last no more than two months and no less than fourteen days before issuance.",
+      "quotedLanguage": "By serving or causing to be served a copy of such notice by certified mail with return receipt demanded upon the record owner or owners and parties in interest of record at their last known address, such service of notice to be made no more than five (5) months nor less than two (2) months before the time set for the tax deed to issue;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-63-1005"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "The statute calls this the EXCLUSIVE manner of service. Owners and parties in interest are liable for the costs and fees of preparing, serving and publishing the notice."
+    },
+    {
+      "id": "id-tax-deed-redemption-fourteen-months",
+      "claim": "After an Idaho tax deed issues to the county, the record owner or a party in interest may still redeem — but only until the county commissioners enter a contract of sale or transfer the property by county deed, and in any event the right expires fourteen months from the date the tax deed issued.",
+      "quotedLanguage": "such right of redemption shall expire fourteen (14) months from the date of issuance of a tax deed to the county, in the event the county commissioners have not extinguished the right of redemption by contract of sale or transfer by county deed during said redemption period.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "foreclosure",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-63-1007"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ DOUBLE-GATED, and both gates matter. The 14 months is a CEILING, not a guarantee: the right dies EARLIER if the county contracts to sell or conveys by county deed. Writing 'you have 14 months to redeem' without the earlier cut-off would tell an owner they have time they may not have. This mirrors the Missouri redemption trap on MoKan, where a headline period concealed the conditions that actually control it. Redemption requires paying the delinquency plus late charges, accrued interest and costs including title search and professional fees."
     }
   ]
 }
