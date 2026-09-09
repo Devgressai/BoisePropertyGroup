@@ -5,10 +5,10 @@
 
 | Registry | Records |
 |---|---:|
-| Sources | 28 (Tier 1: 25, Tier 2: 3) |
-| Claims | 45 |
-| — approved for publication | 43 |
-| — withheld | 2 |
+| Sources | 29 (Tier 1: 26, Tier 2: 3) |
+| Claims | 50 |
+| — approved for publication | 49 |
+| — withheld | 1 |
 | Entities | 11 |
 | Statistics | 22 |
 
@@ -18,14 +18,14 @@ Scored on approved claims naming the entity. INSUFFICIENT means no indexable pag
 
 | Entity | Direct claims | Incl. inherited | Dimensions | Score |
 |---|---:|---:|---|---|
-| Ada County | 26 | 40 | 11/14 | SUFFICIENT |
-| Boise City | 4 | 42 | 11/14 | PARTIAL |
-| Eagle | 4 | 42 | 11/14 | PARTIAL |
-| Garden City | 3 | 42 | 11/14 | PARTIAL |
-| Hidden Spring | 0 | 40 | 11/14 | INSUFFICIENT |
-| Kuna | 4 | 42 | 11/14 | PARTIAL |
-| Meridian | 5 | 42 | 11/14 | SUFFICIENT |
-| Star | 4 | 43 | 12/14 | PARTIAL |
+| Ada County | 32 | 46 | 12/14 | SUFFICIENT |
+| Boise City | 5 | 48 | 12/14 | SUFFICIENT |
+| Eagle | 5 | 48 | 12/14 | SUFFICIENT |
+| Garden City | 4 | 48 | 12/14 | PARTIAL |
+| Hidden Spring | 0 | 46 | 12/14 | INSUFFICIENT |
+| Kuna | 6 | 48 | 12/14 | SUFFICIENT |
+| Meridian | 6 | 48 | 12/14 | SUFFICIENT |
+| Star | 6 | 49 | 13/14 | SUFFICIENT |
 
 **Score is the worse of dimension coverage and direct-claim count.** Direct claims are what differentiate a page. Inherited Idaho-wide claims make
 a page correct; only direct local claims make it distinct from its neighbours.
@@ -35,17 +35,15 @@ still read as a template and must not be indexed on that basis alone.
 ### Dimension gaps
 
 - **Identity** — no approved claim for Ada County
-- **Housing** — no approved claim for Ada County
 - **SearchIntent** — no approved claim for Ada County
 
 ## Withheld claims
 
-- **`ada-population-disputed-557590`** (DISPUTED) — Conflicts with the Census Vintage 2024 estimate of 535,799 by ~4%.
 - **`star-flood-zone-building-permit-question`** (MEDIUM) — WITHHELD.
 
 ## Sources pending verification
 
-- `ada-irrigation-districts-map` — PENDING_VERIFICATION
+_None. Every registered source has been retrieved and read._
 
 ## Integrity counters
 

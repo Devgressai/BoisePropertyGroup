@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 28,
+  "totalSources": 29,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -66,7 +66,9 @@
       "freshnessClass": "ANNUAL",
       "authorityNotes": "Vintage 2024 county estimates, 2020 census base.",
       "claimsSupported": [
-        "ada-population-2024"
+        "ada-population-2024",
+        "ada-population-two-estimates",
+        "ada-population-two-estimates"
       ],
       "entitiesSupported": [],
       "status": "VERIFIED"
@@ -729,6 +731,38 @@
       "authorityNotes": "Official county PDF map, downloaded and cached at data/idaho/raw/pdf/ada-irrigation-districts.pdf; legend text extracted with pdftotext. Authoritative for WHICH irrigation entities operate in Ada County. NOT a parcel-level lookup — do not use it to state which entity serves a given address.",
       "claimsSupported": [
         "ada-27-irrigation-entities"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-compass-demographics",
+      "title": "Comprehensive Population Demographics — Ada County",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/wp-content/uploads/2024/04/COMPREHENSIVE-POPULATION-DEMOGRAPHICS-FOR-HOME-PAGE.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "population",
+        "planning",
+        "differentiation",
+        "growth"
+      ],
+      "publicationDate": "2024-04",
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official county PDF, downloaded to data/idaho/raw/pdf/ada-demographics.pdf and text-extracted with pdftotext. Publishes COMPASS estimates and projections plus 2000/2020 Census and 2022 ACS figures. ⚠️ It mixes source families in single tables (e.g. 2000 Census against 2024 COMPASS); do not reproduce those comparisons without labelling both sides.",
+      "claimsSupported": [
+        "ada-population-two-estimates",
+        "ada-population-two-estimates",
+        "ada-area-of-city-impact",
+        "ada-planned-communities-outside-aci",
+        "ada-2050-projection-divergence",
+        "ada-median-age-divergence"
       ],
       "entitiesSupported": [
         "county:ada"

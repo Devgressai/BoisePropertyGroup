@@ -9,12 +9,12 @@ A page needs a reason to exist that its five neighbours do not share.
 
 | City | Pop. 2024 | Growth 2020→2024 | Counties | Claims naming it | Claims UNIQUE to it |
 |---|---:|---:|---|---:|---:|
-| Boise City | 237,963 | 1% | Ada County | 4 | 0 |
-| Eagle | 33,451 | 7.4% | Ada County | 4 | 0 |
-| Garden City | 12,936 | 5.1% | Ada County | 3 | 0 |
-| Kuna | 29,127 | 21% | Ada County | 4 | 0 |
-| Meridian | 139,740 | 18.6% | Ada County | 5 | 0 |
-| Star | 18,208 | 61.4% | Ada County + Canyon County | 4 | 1 |
+| Boise City | 237,963 | 1% | Ada County | 5 | 0 |
+| Eagle | 33,451 | 7.4% | Ada County | 5 | 0 |
+| Garden City | 12,936 | 5.1% | Ada County | 4 | 0 |
+| Kuna | 29,127 | 21% | Ada County | 6 | 0 |
+| Meridian | 139,740 | 18.6% | Ada County | 6 | 0 |
+| Star | 18,208 | 61.4% | Ada County + Canyon County | 6 | 1 |
 
 ## Which dimensions actually differentiate?
 

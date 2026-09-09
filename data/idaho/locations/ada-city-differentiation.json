@@ -11,7 +11,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 4,
+      "claimsNamingCity": 5,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },
@@ -24,7 +24,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 4,
+      "claimsNamingCity": 5,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },
@@ -37,7 +37,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 3,
+      "claimsNamingCity": 4,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },
@@ -50,7 +50,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 4,
+      "claimsNamingCity": 6,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },
@@ -63,7 +63,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 5,
+      "claimsNamingCity": 6,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },
@@ -77,7 +77,7 @@
         "Canyon County"
       ],
       "multiCounty": true,
-      "claimsNamingCity": 4,
+      "claimsNamingCity": 6,
       "claimsUniqueToCity": 1,
       "uniqueClaimIds": [
         "ada-star-spans-two-counties"

@@ -11,7 +11,10 @@ const read = (p) => JSON.parse(readFileSync(p, "utf8"));
 const sources = read("data/idaho/sources/ada-county-sources.json").sources;
 const claims = read("data/idaho/evidence/ada-claims.json").claims;
 const entities = read("data/idaho/entities/ada-county-entities.json").entities;
-const statistics = read("data/idaho/statistics/ada-statistics.json").statistics;
+const statistics = [
+  ...read("data/idaho/statistics/ada-statistics.json").statistics,
+  ...read("data/idaho/statistics/ada-statistics-compass.json").statistics,
+];
 
 const errors = [], warnings = [];
 const E = (m) => errors.push(m);
@@ -105,6 +108,17 @@ for (const e of entities)
 for (const e of entities)
   if (e.spansMultipleCounties && !e.notes)
     E(`entity ${e.id} spans multiple counties but carries no qualifying note`);
+
+// 9. The two population estimate families must never share a statistic id, and
+//    every COMPASS/ACS figure must say so in its dataset field.
+const ids = new Set();
+for (const st of statistics) {
+  if (ids.has(st.id)) E(`duplicate statistic id across files: ${st.id}`);
+  ids.add(st.id);
+}
+for (const st of statistics.filter((s) => s.sourceId === "ada-compass-demographics"))
+  if (!/COMPASS|ACS|Census/i.test(st.dataset ?? ""))
+    E(`statistic ${st.id} does not name its estimate family in dataset`);
 
 console.log(`sources ${sources.length} · claims ${claims.length} · entities ${entities.length} · statistics ${statistics.length}`);
 console.log(`approved claims: ${claims.filter((c) => c.approvedForPublication).length}`);

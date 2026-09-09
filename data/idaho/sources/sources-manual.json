@@ -618,6 +618,31 @@
         "county:ada"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "ada-compass-demographics",
+      "title": "Comprehensive Population Demographics — Ada County",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/wp-content/uploads/2024/04/COMPREHENSIVE-POPULATION-DEMOGRAPHICS-FOR-HOME-PAGE.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "population",
+        "planning",
+        "differentiation",
+        "growth"
+      ],
+      "publicationDate": "2024-04",
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official county PDF, downloaded to data/idaho/raw/pdf/ada-demographics.pdf and text-extracted with pdftotext. Publishes COMPASS estimates and projections plus 2000/2020 Census and 2022 ACS figures. ⚠️ It mixes source families in single tables (e.g. 2000 Census against 2024 COMPASS); do not reproduce those comparisons without labelling both sides.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

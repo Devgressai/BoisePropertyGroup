@@ -411,22 +411,25 @@
       "notes": "⚠️ An estimate, not a count — always label it as Census Population Estimates, Vintage 2024. A commonly-repeated figure of ~557,590 for Ada County 2024 conflicts with this; see claim ada-population-disputed-557590."
     },
     {
-      "id": "ada-population-disputed-557590",
-      "claim": "A figure of approximately 557,590 is sometimes cited as Ada County's 2024 population.",
-      "quotedLanguage": null,
+      "id": "ada-population-two-estimates",
+      "claim": "Two authoritative estimates of Ada County's 2024 population coexist and differ by about 4%: COMPASS puts it at 557,590; the U.S. Census Bureau's Population Estimates, Vintage 2024, puts it at 535,799.",
+      "quotedLanguage": "According to COMPASS estimates, Ada County's population reached 557,590 in 2024, with the majority (88.6%) living in one of the County's six cities.",
       "entity": [
         "county:ada"
       ],
       "topic": [
         "population"
       ],
-      "sourceIds": [],
-      "confidence": "DISPUTED",
+      "sourceIds": [
+        "ada-compass-demographics",
+        "census-pep-county-2024"
+      ],
+      "confidence": "HIGH",
       "jurisdiction": "Ada County, Idaho",
-      "temporalStatus": "CONFLICTED",
-      "approvedForPublication": false,
-      "verifiedOn": null,
-      "notes": "Conflicts with the Census Vintage 2024 estimate of 535,799 by ~4%. Likely a COMPASS (Community Planning Association of Southwest Idaho) estimate or a different vintage, but the origin has NOT been established. Do not publish either figure without naming its dataset. Resolve before any page states an Ada County population."
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "RESOLVED — the 557,590 figure is COMPASS (the regional planning association), published by Ada County; 535,799 is Census PEP Vintage 2024. Neither is wrong. ⚠️ EVERY published population figure must name its source. Never mix the two families in one comparison, and never compute growth across them."
     },
     {
       "id": "ada-growth-divergence-2020-2024",
@@ -1106,6 +1109,111 @@
         "Warm Springs Ditch Co"
       ],
       "notes": "Read from the county's published PDF map (cached at data/idaho/raw/pdf/ada-irrigation-districts.pdf, text extracted with pdftotext). This is INFORMATION GAIN of the strongest kind: 'which of Ada County's 27 irrigation entities serves this parcel' is a real question with a real answer that no competitor cash-buyer site addresses. ⚠️ The map shows WHICH entities exist and roughly where; it is a map, not a parcel lookup. Never state which entity serves a specific address from this source. The count is of named entities on the legend and excludes the Boise Project Board of Control, which is an operating agent for five of the districts rather than a district itself."
+    },
+    {
+      "id": "ada-area-of-city-impact",
+      "claim": "Ada County uses Areas of City Impact — unincorporated land planned in conjunction with an adjacent city. 78.8% of unincorporated Ada County residents (about 50,143 people) live inside an ACI, and only about 13,467 people, 2.4% of the county, live outside any ACI.",
+      "quotedLanguage": "Of those living in unincorporated Ada County, 78.8% (50,143) are estimated to live within an Area of City Impact (ACI). Only approximately 13,467 people live in unincorporated areas of the County outside of ACIs",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "planning",
+        "zoning",
+        "jurisdiction",
+        "land"
+      ],
+      "sourceIds": [
+        "ada-compass-demographics"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "IDAHO-SPECIFIC CONCEPT with no California analogue and real consequences for a seller: land in an ACI is unincorporated (county jurisdiction today) but planned with a city and a likely future annexation target. An ACI's population EXCEEDS its city's — Boise city 250,060 against Boise ACI 284,860."
+    },
+    {
+      "id": "ada-planned-communities-outside-aci",
+      "claim": "Most Ada County residents living outside any Area of City Impact are in the planned communities of Avimor, Cartwright Ranch, Dry Creek Ranch and Hidden Springs.",
+      "quotedLanguage": "with many of these residents living in the planned communities of Avimor, Cartwright Ranch, Dry Creek Ranch and Hidden Springs.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "planning",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "ada-compass-demographics"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ NAMING CONFLICT: Ada County writes 'Hidden Springs'; the Census place-to-county file records 'Hidden Spring CDP' (singular). Use the county's spelling in prose about the community and the Census spelling when citing Census geography, and never present them as two places. These four are genuine unincorporated-county property markets, each on county jurisdiction for planning and permitting."
+    },
+    {
+      "id": "ada-2050-projection-divergence",
+      "claim": "COMPASS projects Ada County will reach 715,820 by 2050, but the growth is projected to be very unevenly distributed: Kuna +128.7%, Eagle +50.6%, Garden City +42.0%, Meridian +34.8%, Boise +25.8%, Star +12.3%, while unincorporated Ada County is projected to LOSE 36.0% of its population.",
+      "quotedLanguage": "Unincorporated Ada County is projected to see a decrease of 22,920 residents by 2050, based on the assumption the cities will have annexed all of the area within their current ACI boundaries by that time.",
+      "entity": [
+        "county:ada",
+        "city:kuna",
+        "city:star",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "planning",
+        "growth",
+        "differentiation",
+        "land"
+      ],
+      "sourceIds": [
+        "ada-compass-demographics"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ A PROJECTION, not an estimate — must always be labelled as such, with the annexation assumption stated. The unincorporated DECLINE is not depopulation; it is the assumption that cities annex their ACIs. STRONG DIFFERENTIATOR and a genuine reversal: Star grew 1,009.7% since 2000 but is projected to add only 12.3% more by 2050, while Kuna is projected to more than double."
+    },
+    {
+      "id": "ada-median-age-divergence",
+      "claim": "Median age varies sharply across Ada County's cities: Kuna 30.2, Boise 37.9, Meridian 38.7, Star 41.4, Eagle 46.8 and Garden City 47.1, against a county median of 39.1 (2022).",
+      "quotedLanguage": null,
+      "entity": [
+        "city:kuna",
+        "city:boise-city",
+        "city:meridian",
+        "city:star",
+        "city:eagle",
+        "city:garden-city",
+        "county:ada"
+      ],
+      "topic": [
+        "differentiation",
+        "housing",
+        "population"
+      ],
+      "sourceIds": [
+        "ada-compass-demographics"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "STRONGEST PER-CITY DIFFERENTIATOR FOUND SO FAR, and directly relevant to a property buyer: a 17-year spread between Kuna and Garden City implies materially different housing stock, tenure and life-stage mix. Ada County cites 2022 ACS; the figures were NOT read from ACS directly, hence MEDIUM confidence. Verify against ACS before making them load-bearing."
     }
   ]
 }
