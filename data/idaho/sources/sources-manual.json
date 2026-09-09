@@ -235,6 +235,76 @@
         "county:ada"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2504",
+      "title": "Idaho Code § 55-2504 — Property condition disclosure required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2504/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2505",
+      "title": "Idaho Code § 55-2505 — Exemptions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2505/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure",
+        "probate",
+        "divorce",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2515",
+      "title": "Idaho Code § 55-2515 — Rescission by transferee",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2515/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

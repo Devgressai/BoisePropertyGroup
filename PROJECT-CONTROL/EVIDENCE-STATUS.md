@@ -5,9 +5,9 @@
 
 | Registry | Records |
 |---|---:|
-| Sources | 12 (Tier 1: 12) |
-| Claims | 21 |
-| — approved for publication | 20 |
+| Sources | 15 (Tier 1: 15) |
+| Claims | 26 |
+| — approved for publication | 25 |
 | — withheld | 1 |
 | Entities | 11 |
 | Statistics | 22 |

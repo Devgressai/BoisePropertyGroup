@@ -478,6 +478,120 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Directly relevant to acreage sellers: land beyond one acre gets no homestead exemption, so a 5-acre parcel is taxed very differently from a 0.9-acre lot. Cited to 63-701 because 63-602G defines the dollar cap but delegates the definition of 'homestead' — citing 63-602G for the acreage would send a reader to a section that does not contain it."
+    },
+    {
+      "id": "id-disclosure-required-1-to-4-units",
+      "claim": "Idaho requires a seller of residential real property of one to four dwelling units — including non-owner-occupied rental property — to complete a property condition disclosure form, unless the transfer is exempt.",
+      "quotedLanguage": "Any person who intends to transfer any residential real property, including nonowner occupied rental property, on or after July 1, 1994, by any of the methods as set forth herein shall complete all applicable items in a property disclosure form prescribed under section 55-2508, Idaho Code. Except as provided in section 55-2505, Idaho Code, this chapter applies to any transfer by sale, exchange, installment sale contract, a lease with an option to purchase, any other option to purchase, or ground lease coupled with improvements, of real property improved with or consisting of not less than one (1) nor more than four (4) dwelling units.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-55-2504"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2504, added 1994, ch. 366, sec. 1, p. 1173; am. 1997, ch. 229, sec. 2, p. 668.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ CONTENT HONESTY: many cash-buyer sites imply an as-is sale means no disclosure. In Idaho the duty applies to 1-4 unit residential by default and is removed only by a listed exemption (55-2505). Never write 'no disclosures needed' as a general statement."
+    },
+    {
+      "id": "id-disclosure-exempt-estate-fiduciary",
+      "claim": "Idaho's property condition disclosure requirement does not apply to a transfer ordered by a probate court during administration of a decedent's estate, nor to a transfer by a fiduciary in the course of administering a decedent's estate, guardianship, conservatorship or trust.",
+      "quotedLanguage": "(1) A transfer pursuant to court order including, but not limited to, a transfer ordered by a probate court during the administration of a decedent's estate ... (7) A transfer by a fiduciary in the course of the administration of a decedent's estate, a guardianship, a conservatorship, or a trust;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "probate",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "idcode-55-2505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Directly answers the most common inherited-property question. Note the two exemptions are distinct: (1) turns on a court order, (7) on the seller's fiduciary capacity. Do not merge them — a personal representative selling without a court order relies on (7), not (1)."
+    },
+    {
+      "id": "id-disclosure-exempt-divorce",
+      "claim": "Idaho's property condition disclosure requirement does not apply to a transfer between spouses or former spouses resulting from a decree of divorce, dissolution, annulment or legal separation, or from a property settlement agreement incidental to one.",
+      "quotedLanguage": "(10) A transfer between spouses or former spouses as a result of a decree of divorce, dissolution of marriage, annulment, or legal separation or as a result of a property settlement agreement incidental to a decree of divorce, dissolution of marriage, annulment, or legal separation;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "divorce"
+      ],
+      "sourceIds": [
+        "idcode-55-2505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ NARROW. The exemption covers a transfer BETWEEN THE SPOUSES. A divorcing couple selling to a third party is not exempt on this ground. Getting this wrong would tell a divorcing seller they owe no disclosure when they do."
+    },
+    {
+      "id": "id-disclosure-exempt-foreclosure",
+      "claim": "Idaho's property condition disclosure requirement does not apply to a deed in lieu of foreclosure, a transfer to a deed-of-trust beneficiary by a trustor in default, a foreclosure sale, or a sale under a power of sale following default occurring within one year of foreclosure on the default.",
+      "quotedLanguage": "(2) A transfer to a mortgagee by a mortgagor by deed in lieu of foreclosure or in satisfaction of the mortgage debt; (3) A transfer to a beneficiary of a deed of trust by a trustor in default; (4) A transfer by a foreclosure sale that follows a default in the satisfaction of an obligation secured by a mortgage; (5) A transfer by a sale under a power of sale following a default in the satisfaction of an obligation that is secured by a deed of trust or another instrument containing a power of sale occurring within one (1) year of foreclosure on the default;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-55-2505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ These exemptions describe transfers INTO or OUT OF the foreclosure process, not an ordinary pre-foreclosure sale by an owner still holding title. An owner behind on payments who sells to a cash buyer before any trustee's sale is NOT exempt on these grounds. This is the single easiest disclosure error to make on a foreclosure page."
+    },
+    {
+      "id": "id-disclosure-rescission-three-days",
+      "claim": "An Idaho buyer who receives the property condition disclosure form after entering a transfer agreement may rescind within three business days of receiving it, based on a specific objection identified in the notice, and is entitled to the return of deposits; the right is waived if no signed notice is delivered in that window.",
+      "quotedLanguage": "a rescission of a transfer agreement may only occur if the transferee's written, signed and dated document of rescission is delivered to the transferor or his agent or subagent within three (3) business days following the date on which the transferee or his agent receives the property disclosure form prescribed under section 55-2508, Idaho Code. If no signed notice of rescission is received by the transferor within the three (3) day period, transferee's right to rescind is waived.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "closing",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-55-2515"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2515, added 1994, ch. 366, sec. 1, p. 1178; am. 1997, ch. 229, sec. 5, p. 670.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Rescission must rest on a specific objection to a disclosure, not on a change of mind. Useful for explaining certainty of close honestly."
     }
   ]
 }

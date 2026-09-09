@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 12,
+  "totalSources": 15,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -307,6 +307,84 @@
       ],
       "entitiesSupported": [
         "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2504",
+      "title": "Idaho Code § 55-2504 — Property condition disclosure required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2504/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-required-1-to-4-units"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2505",
+      "title": "Idaho Code § 55-2505 — Exemptions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2505/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure",
+        "probate",
+        "divorce",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-exempt-estate-fiduciary",
+        "id-disclosure-exempt-divorce",
+        "id-disclosure-exempt-foreclosure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2515",
+      "title": "Idaho Code § 55-2515 — Rescission by transferee",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2515/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-rescission-three-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
       ],
       "status": "VERIFIED"
     }
