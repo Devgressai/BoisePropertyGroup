@@ -832,6 +832,29 @@
         "city:garden-city"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-321",
+      "title": "Idaho Code § 6-321 — Security deposits",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-321/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Last amended 2021 ch. 197. No future-dated amendment.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

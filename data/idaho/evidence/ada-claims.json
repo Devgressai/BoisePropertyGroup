@@ -1476,6 +1476,74 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Annexation is listed first among Garden City's entitlements, which is notable for a small city enclosed by Boise. Not yet a differentiator on its own — needs pairing with Garden City's distinctive median age of 47.1, the oldest in the county."
+    },
+    {
+      "id": "id-deposit-liability-transfers-on-sale",
+      "claim": "When an Idaho rental property changes ownership during a tenancy, the new owner becomes liable for refunding the tenant's security deposits.",
+      "quotedLanguage": "If security deposits have been made as to a particular rental or lease property, and the property changes ownership during a tenancy, the new owner shall be liable for refund of the deposits.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "closing",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-6-321"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "THE core statutory fact for the selling-with-tenants pillar, and it cuts both ways: a seller does not escape the deposit by selling, and a buyer inherits the refund liability. Directly relevant to our own acquisitions. ⚠️ This addresses DEPOSITS only. It says nothing about whether a lease itself survives a sale — that question is NOT answered by this section and must not be inferred from it."
+    },
+    {
+      "id": "id-deposit-refund-timing",
+      "claim": "An Idaho security deposit refund is due within 21 days if no time is fixed by agreement, and in any event within 30 days after the tenant surrenders the premises; any partial refund must be accompanied by a signed itemised statement.",
+      "quotedLanguage": "Refunds shall be made within twenty-one (21) days if no time is fixed by agreement and, in any event, within thirty (30) days after surrender of the premises by the tenant. Any refunds in an amount less than the full amount deposited by the tenant shall be accompanied by a signed statement itemizing the amounts lawfully retained by the landlord, the purpose for the amounts retained, and a detailed list of expenditures made from the deposit.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants"
+      ],
+      "sourceIds": [
+        "idcode-6-321"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": null
+    },
+    {
+      "id": "id-deposit-no-normal-wear-and-tear",
+      "claim": "An Idaho landlord may not retain any part of a security deposit to cover normal wear and tear, defined as deterioration from the use the unit is intended for, without negligence, carelessness, accident, misuse or abuse.",
+      "quotedLanguage": "The landlord shall not retain any part of a security deposit to cover normal wear and tear. \"Normal wear and tear\" means that deterioration which occurs based upon the use for which the rental unit is intended and without negligence, carelessness, accident, or misuse or abuse of the premises or contents by the tenant or members of his household, or their invitees or guests.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants"
+      ],
+      "sourceIds": [
+        "idcode-6-321"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Useful for the unwanted-rental and bad-tenants pages: a landlord selling a tired unit cannot charge the tenant for its condition where that condition is ordinary use."
     }
   ]
 }

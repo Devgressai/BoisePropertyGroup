@@ -3,7 +3,7 @@
 **Generated** 2026-09-09 by `scripts/validation/build-open-items.mjs`. Do not hand-edit
 the derived sections; edit `MANUAL` in the generator.
 
-Current state: **61 claims (61 approved) · 37 sources · 92 jurisdiction rows**
+Current state: **64 claims (64 approved) · 38 sources · 92 jurisdiction rows**
 
 | # | Kind | Item | Owner | Note |
 |---:|---|---|---|---|
