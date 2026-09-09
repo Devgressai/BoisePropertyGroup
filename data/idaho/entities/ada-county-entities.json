@@ -1,0 +1,287 @@
+{
+  "generatedAt": "2026-09-09",
+  "generator": "scripts/research/build-ada-geography.mjs",
+  "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
+  "totalEntities": 11,
+  "entities": [
+    {
+      "id": "state:id",
+      "canonicalName": "Idaho",
+      "entityType": "STATE",
+      "parentEntity": null,
+      "jurisdiction": "Idaho",
+      "officialURL": "https://www.idaho.gov/",
+      "alternateNames": [],
+      "relationships": [],
+      "sourceIds": [
+        "census-place-county-2020"
+      ]
+    },
+    {
+      "id": "region:treasure-valley",
+      "canonicalName": "Treasure Valley",
+      "entityType": "REGION",
+      "parentEntity": "state:id",
+      "jurisdiction": null,
+      "officialURL": null,
+      "alternateNames": [
+        "Boise Valley",
+        "Lower Boise River Valley"
+      ],
+      "relationships": [
+        {
+          "type": "partOf",
+          "target": "state:id"
+        }
+      ],
+      "sourceIds": [],
+      "notes": "GEOGRAPHIC/ECONOMIC region ONLY. It has no government, no boundary of record and no authority. Never model as administrative; never assert a population or a boundary for it without a source that defines one.",
+      "evidenceStatus": "DEFINITION PENDING — no authoritative boundary source yet identified"
+    },
+    {
+      "id": "county:ada",
+      "canonicalName": "Ada County",
+      "entityType": "COUNTY",
+      "parentEntity": "state:id",
+      "jurisdiction": "Ada County, Idaho",
+      "officialURL": "https://adacounty.id.gov/",
+      "alternateNames": [],
+      "fips": "16001",
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "state:id"
+        },
+        {
+          "type": "partOfRegion",
+          "target": "region:treasure-valley"
+        }
+      ],
+      "sourceIds": [
+        "census-pep-county-2024"
+      ]
+    },
+    {
+      "id": "city:boise-city",
+      "canonicalName": "Boise City",
+      "entityType": "CITY",
+      "parentEntity": "county:ada",
+      "jurisdiction": "Ada County, Idaho",
+      "officialURL": null,
+      "alternateNames": [
+        "Boise City city"
+      ],
+      "placeFips": "08830",
+      "censusName": "Boise City city",
+      "counties": [
+        "Ada County"
+      ],
+      "spansMultipleCounties": false,
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "county:ada"
+        }
+      ],
+      "sourceIds": [
+        "census-place-county-2020",
+        "census-pep-sub-2024"
+      ],
+      "notes": null
+    },
+    {
+      "id": "city:eagle",
+      "canonicalName": "Eagle",
+      "entityType": "CITY",
+      "parentEntity": "county:ada",
+      "jurisdiction": "Ada County, Idaho",
+      "officialURL": null,
+      "alternateNames": [
+        "Eagle city"
+      ],
+      "placeFips": "23410",
+      "censusName": "Eagle city",
+      "counties": [
+        "Ada County"
+      ],
+      "spansMultipleCounties": false,
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "county:ada"
+        }
+      ],
+      "sourceIds": [
+        "census-place-county-2020",
+        "census-pep-sub-2024"
+      ],
+      "notes": null
+    },
+    {
+      "id": "city:garden-city",
+      "canonicalName": "Garden City",
+      "entityType": "CITY",
+      "parentEntity": "county:ada",
+      "jurisdiction": "Ada County, Idaho",
+      "officialURL": null,
+      "alternateNames": [
+        "Garden City city"
+      ],
+      "placeFips": "29620",
+      "censusName": "Garden City city",
+      "counties": [
+        "Ada County"
+      ],
+      "spansMultipleCounties": false,
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "county:ada"
+        }
+      ],
+      "sourceIds": [
+        "census-place-county-2020",
+        "census-pep-sub-2024"
+      ],
+      "notes": null
+    },
+    {
+      "id": "city:hidden-spring",
+      "canonicalName": "Hidden Spring",
+      "entityType": "CENSUS_DESIGNATED_PLACE",
+      "parentEntity": "county:ada",
+      "jurisdiction": "Ada County, Idaho",
+      "officialURL": null,
+      "alternateNames": [
+        "Hidden Spring CDP"
+      ],
+      "placeFips": "37500",
+      "censusName": "Hidden Spring CDP",
+      "counties": [
+        "Ada County"
+      ],
+      "spansMultipleCounties": false,
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "county:ada"
+        }
+      ],
+      "sourceIds": [
+        "census-place-county-2020",
+        "census-pep-sub-2024"
+      ],
+      "notes": null
+    },
+    {
+      "id": "city:kuna",
+      "canonicalName": "Kuna",
+      "entityType": "CITY",
+      "parentEntity": "county:ada",
+      "jurisdiction": "Ada County, Idaho",
+      "officialURL": null,
+      "alternateNames": [
+        "Kuna city"
+      ],
+      "placeFips": "44290",
+      "censusName": "Kuna city",
+      "counties": [
+        "Ada County"
+      ],
+      "spansMultipleCounties": false,
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "county:ada"
+        }
+      ],
+      "sourceIds": [
+        "census-place-county-2020",
+        "census-pep-sub-2024"
+      ],
+      "notes": null
+    },
+    {
+      "id": "city:meridian",
+      "canonicalName": "Meridian",
+      "entityType": "CITY",
+      "parentEntity": "county:ada",
+      "jurisdiction": "Ada County, Idaho",
+      "officialURL": null,
+      "alternateNames": [
+        "Meridian city"
+      ],
+      "placeFips": "52120",
+      "censusName": "Meridian city",
+      "counties": [
+        "Ada County"
+      ],
+      "spansMultipleCounties": false,
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "county:ada"
+        }
+      ],
+      "sourceIds": [
+        "census-place-county-2020",
+        "census-pep-sub-2024"
+      ],
+      "notes": null
+    },
+    {
+      "id": "city:star",
+      "canonicalName": "Star",
+      "entityType": "CITY",
+      "parentEntity": "county:ada",
+      "jurisdiction": "Ada County / Canyon County",
+      "officialURL": null,
+      "alternateNames": [
+        "Star city"
+      ],
+      "placeFips": "76870",
+      "censusName": "Star city",
+      "counties": [
+        "Ada County",
+        "Canyon County"
+      ],
+      "spansMultipleCounties": true,
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "county:ada"
+        },
+        {
+          "type": "containedIn",
+          "target": "county:canyon"
+        }
+      ],
+      "sourceIds": [
+        "census-place-county-2020",
+        "census-pep-sub-2024"
+      ],
+      "notes": "SPANS 2 COUNTIES (Ada County, Canyon County). Never describe as wholly within Ada County. Jurisdiction-dependent facts must be qualified by which county part is meant."
+    },
+    {
+      "id": "area:unincorporated-ada",
+      "canonicalName": "Unincorporated Ada County",
+      "entityType": "UNINCORPORATED_AREA",
+      "parentEntity": "county:ada",
+      "jurisdiction": "Ada County, Idaho",
+      "officialURL": null,
+      "alternateNames": [
+        "Balance of Ada County"
+      ],
+      "relationships": [
+        {
+          "type": "containedIn",
+          "target": "county:ada"
+        }
+      ],
+      "sourceIds": [
+        "census-pep-sub-2024"
+      ],
+      "notes": "Everything in Ada County outside an incorporated city. Its permitting, zoning and code jurisdiction is the COUNTY, not a city — the distinction most Ada County property content gets wrong."
+    }
+  ]
+}

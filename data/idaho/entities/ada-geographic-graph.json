@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-09-09",
+  "generator": "scripts/research/build-ada-geography.mjs",
+  "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
+  "nodes": [
+    {
+      "id": "city:boise-city",
+      "name": "Boise City",
+      "type": "CITY"
+    },
+    {
+      "id": "city:eagle",
+      "name": "Eagle",
+      "type": "CITY"
+    },
+    {
+      "id": "city:garden-city",
+      "name": "Garden City",
+      "type": "CITY"
+    },
+    {
+      "id": "city:hidden-spring",
+      "name": "Hidden Spring",
+      "type": "CENSUS_DESIGNATED_PLACE"
+    },
+    {
+      "id": "city:kuna",
+      "name": "Kuna",
+      "type": "CITY"
+    },
+    {
+      "id": "city:meridian",
+      "name": "Meridian",
+      "type": "CITY"
+    },
+    {
+      "id": "city:star",
+      "name": "Star",
+      "type": "CITY"
+    }
+  ],
+  "edges": [
+    {
+      "from": "city:boise-city",
+      "to": "county:ada",
+      "type": "containedIn",
+      "source": "census-place-county-2020"
+    },
+    {
+      "from": "city:eagle",
+      "to": "county:ada",
+      "type": "containedIn",
+      "source": "census-place-county-2020"
+    },
+    {
+      "from": "city:garden-city",
+      "to": "county:ada",
+      "type": "containedIn",
+      "source": "census-place-county-2020"
+    },
+    {
+      "from": "city:hidden-spring",
+      "to": "county:ada",
+      "type": "containedIn",
+      "source": "census-place-county-2020"
+    },
+    {
+      "from": "city:kuna",
+      "to": "county:ada",
+      "type": "containedIn",
+      "source": "census-place-county-2020"
+    },
+    {
+      "from": "city:meridian",
+      "to": "county:ada",
+      "type": "containedIn",
+      "source": "census-place-county-2020"
+    },
+    {
+      "from": "city:star",
+      "to": "county:ada",
+      "type": "containedIn",
+      "source": "census-place-county-2020"
+    },
+    {
+      "from": "city:star",
+      "to": "county:canyon",
+      "type": "containedIn",
+      "source": "census-place-county-2020"
+    }
+  ]
+}
