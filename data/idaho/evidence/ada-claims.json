@@ -176,8 +176,9 @@
       "futureDatedAmendment": false,
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
-      "notes": "⚠️ TERMINOLOGY TRAP: this is NOT Idaho Code 55-1003 (creditor-protection homestead, $125,000 vs $175,000 caps, different purposes). Ada County's own site calls both 'Homestead Exemption'. Any page using that phrase must say which is meant. FUTURE-DATING CHECKED: the statute page states 'Idaho Statutes are updated to the website July 1 following the legislative session'; the most recent amendment is 2026 ch. 236 and, today being after 1 July 2026, the displayed text is in force. The $125,000 figure is independently corroborated by the Ada County Assessor. The acreage limit is NOT in this section — see id-homestead-one-acre-limit.",
-      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7 ... am. 2024, ch. 168; am. 2025, ch. 167; am. 2025, ch. 202; am. 2026, ch. 236, sec. 1, p. 1017.]"
+      "notes": "⚠️ TERMINOLOGY TRAP: this is NOT Idaho Code 55-1003 (creditor-protection homestead, $125,000 vs $175,000 caps, different purposes). Ada County's own site calls both 'Homestead Exemption'. Any page using that phrase must say which is meant. FUTURE-DATING CHECKED: the statute page states 'Idaho Statutes are updated to the website July 1 following the legislative session'; the most recent amendment is 2026 ch. 236 and, today being after 1 July 2026, the displayed text is in force. The $125,000 figure is independently corroborated by the Ada County Assessor. The acreage limit is NOT in this section — see id-homestead-one-acre-limit. 🚨 RED-TEAM FINDING 1: the effective date of the 2026 amendment (ch. 236) is UNCONFIRMED. The statute page carries no effective-date line, and a secondary result suggests 1 January 2026, which does not reconcile with the site's July-1 posting convention. The $125,000 figure is independently corroborated by the Ada County Assessor, so the figure itself is unlikely to be wrong, but the 2026 session law must be read before any page states this exemption.",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7 ... am. 2024, ch. 168; am. 2025, ch. 167; am. 2025, ch. 202; am. 2026, ch. 236, sec. 1, p. 1017.]",
+      "verificationFlag": "EFFECTIVE_DATE_UNCONFIRMED"
     },
     {
       "id": "ada-homeowners-exemption-deadline",
