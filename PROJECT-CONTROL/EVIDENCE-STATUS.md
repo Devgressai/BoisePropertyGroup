@@ -5,10 +5,10 @@
 
 | Registry | Records |
 |---|---:|
-| Sources | 23 (Tier 1: 22, Tier 2: 1) |
-| Claims | 40 |
-| — approved for publication | 39 |
-| — withheld | 1 |
+| Sources | 28 (Tier 1: 25, Tier 2: 3) |
+| Claims | 45 |
+| — approved for publication | 43 |
+| — withheld | 2 |
 | Entities | 11 |
 | Statistics | 22 |
 
@@ -18,14 +18,14 @@ Scored on approved claims naming the entity. INSUFFICIENT means no indexable pag
 
 | Entity | Direct claims | Incl. inherited | Dimensions | Score |
 |---|---:|---:|---|---|
-| Ada County | 23 | 37 | 10/14 | SUFFICIENT |
-| Boise City | 2 | 38 | 11/14 | PARTIAL |
-| Eagle | 2 | 38 | 11/14 | PARTIAL |
-| Garden City | 2 | 38 | 11/14 | PARTIAL |
-| Hidden Spring | 0 | 37 | 10/14 | INSUFFICIENT |
-| Kuna | 2 | 38 | 11/14 | PARTIAL |
-| Meridian | 2 | 38 | 11/14 | PARTIAL |
-| Star | 3 | 39 | 12/14 | PARTIAL |
+| Ada County | 26 | 40 | 11/14 | SUFFICIENT |
+| Boise City | 4 | 42 | 11/14 | PARTIAL |
+| Eagle | 4 | 42 | 11/14 | PARTIAL |
+| Garden City | 3 | 42 | 11/14 | PARTIAL |
+| Hidden Spring | 0 | 40 | 11/14 | INSUFFICIENT |
+| Kuna | 4 | 42 | 11/14 | PARTIAL |
+| Meridian | 5 | 42 | 11/14 | SUFFICIENT |
+| Star | 4 | 43 | 12/14 | PARTIAL |
 
 **Score is the worse of dimension coverage and direct-claim count.** Direct claims are what differentiate a page. Inherited Idaho-wide claims make
 a page correct; only direct local claims make it distinct from its neighbours.
@@ -37,15 +37,15 @@ still read as a template and must not be indexed on that basis alone.
 - **Identity** — no approved claim for Ada County
 - **Housing** — no approved claim for Ada County
 - **SearchIntent** — no approved claim for Ada County
-- **ContentDifferentiation** — no approved claim for Ada County
 
 ## Withheld claims
 
 - **`ada-population-disputed-557590`** (DISPUTED) — Conflicts with the Census Vintage 2024 estimate of 535,799 by ~4%.
+- **`star-flood-zone-building-permit-question`** (MEDIUM) — WITHHELD.
 
 ## Sources pending verification
 
-_None. Every registered source has been retrieved and read._
+- `ada-irrigation-districts-map` — PENDING_VERIFICATION
 
 ## Integrity counters
 

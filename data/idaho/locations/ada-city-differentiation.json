@@ -11,7 +11,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 3,
+      "claimsNamingCity": 4,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },
@@ -24,7 +24,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 3,
+      "claimsNamingCity": 4,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },
@@ -50,7 +50,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 3,
+      "claimsNamingCity": 4,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },
@@ -63,7 +63,7 @@
         "Ada County"
       ],
       "multiCounty": false,
-      "claimsNamingCity": 3,
+      "claimsNamingCity": 5,
       "claimsUniqueToCity": 0,
       "uniqueClaimIds": []
     },

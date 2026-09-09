@@ -974,6 +974,84 @@
       "approvedForPublication": false,
       "verifiedOn": null,
       "notes": "WITHHELD. Only the FAQ heading was captured, not the answer. The existence of the question suggests floodplain is a live issue in Star — which fits its position on the Boise River — but the answer must be read before anything is published. Do not infer the answer."
+    },
+    {
+      "id": "settlers-district-coverage",
+      "claim": "Settlers Irrigation District delivers irrigation water to 13,187 acres of agricultural and urban land in western Ada County — the West Boise, Meridian and South Eagle areas — via a 20-mile canal and 95 miles of laterals.",
+      "quotedLanguage": "Settlers Irrigation District continues to deliver irrigation water to 13,187 acres of both agricultural and urban lands located in West Boise, Meridian, and South Eagle areas.",
+      "entity": [
+        "city:boise-city",
+        "city:meridian",
+        "city:eagle",
+        "county:ada"
+      ],
+      "topic": [
+        "irrigation",
+        "water",
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "settlers-irrigation"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "DIFFERENTIATING: this district covers PART of Boise, Meridian and Eagle — not all of any of them, and not Kuna, Star or Garden City. Never say 'Boise is in Settlers Irrigation District'; say West Boise. The district's own stated boundary is: Diversion Dam at Ann Morrison Park on the east, south to Franklin Road, west to Star Road, north to the Lower Bench."
+    },
+    {
+      "id": "boise-project-five-districts",
+      "claim": "The Boise Project Board of Control is the operating agent for five irrigation districts — Boise-Kuna, Big Bend, Nampa & Meridian, New York and Wilder — managing facilities transferred from the U.S. Bureau of Reclamation and delivering water to their landowners.",
+      "quotedLanguage": "Boise Project Board of Control is the operating agent for five irrigation districts: Boise-Kuna Irrigation District, Big Bend Irrigation District, Nampa & Meridian Irrigation District, New York Irrigation District, and Wilder Irrigation District.",
+      "entity": [
+        "county:ada",
+        "city:kuna",
+        "city:meridian"
+      ],
+      "topic": [
+        "irrigation",
+        "water",
+        "utilities",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "boise-project"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Explains why 'who is my irrigation district' has a different answer across Ada County: Boise-Kuna, Nampa & Meridian and Settlers are separate entities serving different ground. The Board of Control is the OPERATING AGENT, not the district itself — do not conflate them."
+    },
+    {
+      "id": "boise-project-federal-title",
+      "claim": "Title to the Boise Project's transferred works — including Diversion Dam, the New York Canal, the Lake Lowell embankments and roughly 1,500 miles of canals, laterals and drains — remains in the United States.",
+      "quotedLanguage": "These facilities are referred to as \"transferred works\" and include all of the facilities beginning at Diversion Dam on the Boise River, and including the New York Canal, the embankments at Lake Lowell and approximately 1500 miles of canals, laterals, and drains. Title to the \"transferred works\" remains in the United States.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "irrigation",
+        "water",
+        "easements",
+        "title",
+        "land"
+      ],
+      "sourceIds": [
+        "boise-project"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Materially seller-relevant and almost never stated on competitor sites: a canal or lateral crossing an Ada County parcel can sit on works whose title is FEDERAL, which changes who a landowner must deal with about encroachment, access and easements. Do not extrapolate this to every ditch — it applies to the transferred works named in the quote."
     }
   ]
 }

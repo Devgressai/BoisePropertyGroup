@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 25,
+  "totalSources": 28,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -654,6 +654,84 @@
         "city:boise-city"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "settlers-irrigation",
+      "title": "About — Settlers Irrigation District",
+      "publisher": "Settlers Irrigation District",
+      "organizationType": "irrigation-district",
+      "url": "https://settlersirrigation.org/about",
+      "sourceTier": 2,
+      "jurisdiction": "western Ada County, Idaho",
+      "topic": [
+        "irrigation",
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official irrigation district page, read directly with raw HTML cached. Tier 2 (primary institutional). States acreage, service area and stated boundary.",
+      "claimsSupported": [
+        "settlers-district-coverage"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-project",
+      "title": "About — Boise Project Board of Control",
+      "publisher": "Boise Project Board of Control",
+      "organizationType": "irrigation-operating-agent",
+      "url": "https://www.boiseproject.net/Public/home/about/",
+      "sourceTier": 2,
+      "jurisdiction": "southwestern Idaho and eastern Oregon",
+      "topic": [
+        "irrigation",
+        "water",
+        "utilities",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official operating-agent page, read directly with raw HTML cached. Tier 2. Names the five member districts and states federal title to transferred works.",
+      "claimsSupported": [
+        "boise-project-five-districts",
+        "boise-project-federal-title"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-irrigation-districts-map",
+      "title": "Irrigation Districts Map — Ada County Development Services",
+      "publisher": "Ada County Development Services",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/developmentservices/wp-content/uploads/sites/37/Map_Irrigation_Districts.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "irrigation",
+        "water",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": null,
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "⚠️ NOT YET RETRIEVED — PDF. This is the authoritative county map of irrigation district boundaries and is the correct source for stating which district covers which ground. Retrieve and read before any page maps a city to a district.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "PENDING_VERIFICATION"
     }
   ]
 }
