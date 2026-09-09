@@ -1666,6 +1666,53 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Explains the practical stakes for a seller: conversion changes both how the home is assessed and whether conventional real-property financing is available to a buyer — which changes the buyer pool. The declaration is REVERSIBLE under 63-305, and the form must have the certificate of origin or original title attached to permit that reversal."
+    },
+    {
+      "id": "id-6-310a-remove-unauthorized-persons",
+      "claim": "Idaho provides a limited alternative remedy allowing a residential property owner or authorized agent to request that the county sheriff immediately remove persons unlawfully occupying a residential dwelling, subject to eight cumulative conditions.",
+      "quotedLanguage": "A property owner or the owner's authorized agent may request from the sheriff of the county in which the property is located the immediate removal of a person or persons unlawfully occupying a residential dwelling pursuant to this section if all of the following conditions are met: (a) The requesting person is the property owner or authorized agent ... (f) The unauthorized person or persons are not current or former tenants pursuant to a written or oral rental agreement authorized by the property owner; (g) The unauthorized person or persons are not immediate family members of the property owner; and (h) There is no pending litigation related to the real property between the property owner and any known unauthorized person.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "liens",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️⚠️ ALL EIGHT CONDITIONS MUST BE MET, and three of them exclude the situations sellers most often describe as 'squatters': a current OR FORMER TENANT under a written or oral agreement is excluded (f), an immediate family member is excluded (g), and any pending litigation over the property excludes it (h). This remedy is for genuine unlawful entry, NOT for a holdover tenant or a relative who will not leave — those go through ordinary eviction. Never present 6-310A as a fast route around eviction. Requires a completed and verified 'Complaint to Remove Persons Unlawfully Occupying Residential Real Property' submitted to the sheriff. This section is informational only and is not legal advice."
+    },
+    {
+      "id": "meridian-building-permit-activity-aug-2025",
+      "claim": "In August 2025 the City of Meridian issued 103 new residential building permits with a stated total valuation of $23,900,907.90, and 10 new commercial permits valued at $35,391,436.00; commercial permits of all types totalled 77 permits at $67,132,621.00.",
+      "quotedLanguage": "New TOTAL VALUE: $23,900,907.90 103 PERMITS ... New TOTAL VALUE: $35,391,436.00 10 PERMITS ... COMMERCIAL TOTAL $67,132,621.00 77 PERMITS",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "planning",
+        "permits",
+        "housing",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-building-permits-aug-2025"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "HISTORICAL",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "FIRST MERIDIAN-SOURCED CLAIM. meridiancity.org returns 403 to automated HTML fetches but serves its PDF assets normally, which is how this was obtained. ⚠️ SINGLE MONTH, AUGUST 2025 — a snapshot, not a trend, and it must always be labelled with its month and year. The residential/commercial attribution was verified against the report's own section headers rather than inferred from the figures. No residential grand total is stated in the report and none is asserted here."
     }
   ]
 }

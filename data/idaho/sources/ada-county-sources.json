@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 41,
+  "totalSources": 43,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -1078,6 +1078,57 @@
       ],
       "entitiesSupported": [
         "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-310a",
+      "title": "Idaho Code § 6-310A — Limited alternative remedy to remove unauthorized persons from residential real property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-310a/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached.",
+      "claimsSupported": [
+        "id-6-310a-remove-unauthorized-persons"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-building-permits-aug-2025",
+      "title": "Building Permits for the Month, August 2025 — City of Meridian",
+      "publisher": "City of Meridian",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/media/0c1nttre/bldg-monthlypermits.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "permits",
+        "planning",
+        "housing"
+      ],
+      "publicationDate": "2025-08",
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "MONTHLY",
+      "authorityNotes": "Official city monthly permit report, downloaded and text-extracted with pdftotext. ⚠️ meridiancity.org returns HTTP 403 to automated HTML fetches but serves PDF assets normally — PDFs are the only working route to Meridian primary sources. This URL is a rolling 'current month' asset and its contents will change; the cached copy is the record for this claim.",
+      "claimsSupported": [
+        "meridian-building-permit-activity-aug-2025"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
       ],
       "status": "VERIFIED"
     }
