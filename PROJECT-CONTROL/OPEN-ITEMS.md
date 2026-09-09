@@ -3,7 +3,7 @@
 **Generated** 2026-09-09 by `scripts/validation/build-open-items.mjs`. Do not hand-edit
 the derived sections; edit `MANUAL` in the generator.
 
-Current state: **64 claims (64 approved) · 38 sources · 92 jurisdiction rows**
+Current state: **67 claims (67 approved) · 40 sources · 92 jurisdiction rows**
 
 | # | Kind | Item | Owner | Note |
 |---:|---|---|---|---|
@@ -17,7 +17,7 @@ Current state: **64 claims (64 approved) · 38 sources · 92 jurisdiction rows**
 | 8 | RESEARCH | Search demand / keyword volume | claude | No tool available. Volume must stay null; do not fabricate. |
 | 9 | RESEARCH | Meridian city sources | claude | meridiancity.org returns 403 to every automated fetch. Nothing is quoted from Meridian. |
 | 10 | RESEARCH | Eagle, Kuna, Garden City planning sources | claude | Not yet read directly. |
-| 11 | RESEARCH | Idaho landlord-tenant: does a lease survive sale? | claude | Core question for the selling-with-tenants pillar. Not yet answered. |
+| 11 | RESEARCH | Idaho: does a LEASE survive a sale? | claude | STILL OPEN. Idaho Code 6-321(3) settles DEPOSITS (new owner liable) but is silent on lease survival. Likely common law, not statute — do not infer from 6-321. |
 | 12 | RESEARCH | Idaho property tax delinquency / tax deed process | claude | Must be shown DISTINCT from mortgage foreclosure. |
 | 13 | RESEARCH | Idaho manufactured home titling and conversion to real property | claude | Blocks the manufactured-housing pillar. |
 | 14 | RESEARCH | Idaho Code 6-310A — removal of unauthorized persons | claude | Located, not read. Squatter question. |

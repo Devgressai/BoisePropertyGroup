@@ -901,6 +901,30 @@
         "state:id"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-304",
+      "title": "Idaho Code § 63-304 — Manufactured homes to constitute real property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch3/sect63-304/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "real-vs-personal-property",
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2002",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Last amended 2002 ch. 61. No future-dated amendment. Reversal of the declaration is governed by 63-305, which has NOT been read.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

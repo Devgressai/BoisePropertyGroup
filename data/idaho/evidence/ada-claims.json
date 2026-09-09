@@ -1615,6 +1615,57 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "⚠️ DOUBLE-GATED, and both gates matter. The 14 months is a CEILING, not a guarantee: the right dies EARLIER if the county contracts to sell or conveys by county deed. Writing 'you have 14 months to redeem' without the earlier cut-off would tell an owner they have time they may not have. This mirrors the Missouri redemption trap on MoKan, where a headline period concealed the conditions that actually control it. Redemption requires paying the delinquency plus late charges, accrued interest and costs including title search and professional fees."
+    },
+    {
+      "id": "id-manufactured-home-becomes-real-property",
+      "claim": "An Idaho manufactured home may constitute real property only if the running gear is removed, the home becomes permanently affixed to a foundation on land the owner owns or is purchasing (or leases under qualifying financing), and the owner records a statement of intent to declare it real property with the county recorder.",
+      "quotedLanguage": "A manufactured home may constitute real property if the running gear is removed and: (a) If the manufactured home becomes permanently affixed to a foundation: (i) On land which is owned or being purchased by the owner or purchaser of said manufactured home ... and (b) If the owner or purchaser of a manufactured home records with the county recorder in the county in which the manufactured home will be situated a statement of intent to declare the manufactured home as real property.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "real-vs-personal-property",
+        "recording",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-63-304"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-304 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 1, p. 130.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ ALL THREE CONDITIONS ARE REQUIRED — running gear removed, permanently affixed on qualifying land, AND a recorded statement of intent. A manufactured home sitting on owned land with the axles gone is still PERSONAL PROPERTY if nothing was recorded. This is the single most consequential fact for a manufactured-home seller: it decides whether the home conveys by deed or by title, and whether it is even part of the real estate being sold. Connects directly to the Ada County Assessor's three-factor fixture test (annexation, adaptation, intent)."
+    },
+    {
+      "id": "id-manufactured-home-treated-as-site-built",
+      "claim": "Once an Idaho manufactured home has been declared real property, county assessors must treat it as any other site-built residence, and lending institutions are permitted to treat it as real property.",
+      "quotedLanguage": "The exercise of said option shall require all county assessors to treat those manufactured homes whose owners or purchasers have exercised said option as any other site-built residence and shall permit lending institutions to treat said manufactured homes as real property or as any other residence.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "assessment",
+        "real-vs-personal-property"
+      ],
+      "sourceIds": [
+        "idcode-63-304"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-304 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 1, p. 130.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Explains the practical stakes for a seller: conversion changes both how the home is assessed and whether conventional real-property financing is available to a buyer — which changes the buyer pool. The declaration is REVERSIBLE under 63-305, and the form must have the certificate of origin or original title attached to permit that reversal."
     }
   ]
 }
