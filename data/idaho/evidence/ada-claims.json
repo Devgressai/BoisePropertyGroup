@@ -592,6 +592,151 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Rescission must rest on a specific objection to a disclosure, not on a change of mind. Useful for explaining certainty of close honestly."
+    },
+    {
+      "id": "id-pr-power-over-title",
+      "claim": "Until the appointment terminates, an Idaho personal representative has the same power over the title to estate property that an absolute owner would have — held in trust for creditors and others interested in the estate — and that power may be exercised without notice, hearing or court order.",
+      "quotedLanguage": "Until termination of his appointment a personal representative has the same power over the title to property of the estate that an absolute owner would have, in trust however, for the benefit of the creditors and others interested in the estate. This power may be exercised without notice, hearing, or order of court.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "inheritance",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-15-3-711"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-711, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ MUST BE STATED WITH id-pr-powers-limited-by-will. 15-3-715 opens 'Except as restricted or otherwise provided by the will or by an order in a formal proceeding', so the 'without court order' power is a default, not an absolute. Publishing 15-3-711 alone would tell an heir they can always sell without court involvement. Also note the power belongs to an APPOINTED personal representative — it says nothing about an heir who has not been appointed."
+    },
+    {
+      "id": "id-pr-powers-limited-by-will",
+      "claim": "An Idaho personal representative's authorised transactions are subject to any restriction in the will or an order in a formal proceeding, and to the statutory priorities for claims against the estate.",
+      "quotedLanguage": "Except as restricted or otherwise provided by the will or by an order in a formal proceeding and subject to the priorities stated in section 15-3-902 of this code, a personal representative, acting reasonably for the benefit of the interested persons, may properly:",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "inheritance",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-15-3-715"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "The necessary qualifier on id-pr-power-over-title. Never publish one without the other."
+    },
+    {
+      "id": "id-domestic-water-13000-gpd",
+      "claim": "Idaho defines domestic water use as use for homes, camps, campgrounds and livestock including irrigation of up to half an acre, provided total use does not exceed 13,000 gallons per day; or any other use not exceeding 2.8 acre-feet per year.",
+      "quotedLanguage": "The use of water for homes, organization camps, public campgrounds, livestock, and for any other purpose in connection therewith, including irrigation of up to one-half (1/2) acre of land, if the total use does not exceed thirteen thousand (13,000) gallons per day; or 2. The use of water for any other purpose, if the total use does not exceed a diversion volume of two and eight-tenths (2.8) acre feet per year.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water",
+        "well",
+        "acreage",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-42-111"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ FAST-MOVING LAW. Amended 2025 ch. 129 AND 2026 ch. 2 — twice in two years. Re-verify before every publication or refresh of any water/well page. The half-acre irrigation figure is the number that most affects a rural Ada County buyer's expectations about watering a larger lot."
+    },
+    {
+      "id": "id-domestic-water-exclusions",
+      "claim": "Idaho's domestic water definition excludes mobile home and RV parks, apartments, condominiums and similar multiple-dwelling developments, subdivisions, and commercial or business establishments, unless the use stays within the 2.8 acre-foot annual limit.",
+      "quotedLanguage": "\"Domestic purposes\" or \"domestic uses\" shall not include water for the following purposes, unless the use meets the diversion volume limitations set forth in paragraph (a)(i)2. of this subsection: 1. Mobile home parks or recreational vehicle parks; 2. Apartments, condominiums, and similar developments with multiple dwelling units; 3. Subdivisions, except as provided in subsection (3) of this section; or 4. Commercial or business establishments or mixed-use establishments where the water is used primarily for commercial or business purposes.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water",
+        "well",
+        "land",
+        "subdivision"
+      ],
+      "sourceIds": [
+        "idcode-42-111"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Load-bearing for development-land and small-multifamily pages: a domestic well does not carry a subdivision or a multi-unit development. This is a real constraint on what a rural Ada County parcel can become."
+    },
+    {
+      "id": "id-water-subdivision-five-lots",
+      "claim": "For Idaho's domestic water statutes a subdivision is a tract divided into five or more lots, parcels or sites for sale or building development, excluding a bona fide division of agricultural land into lots of five acres or larger maintained as agricultural land.",
+      "quotedLanguage": "\"Subdivision\" means a tract of land divided into five (5) or more lots, parcels, or sites for the purpose of sale or building development, whether immediate or future; provided that this definition shall not include a bona fide division or partition of agricultural land for agricultural purposes.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water",
+        "subdivision",
+        "land",
+        "acreage"
+      ],
+      "sourceIds": [
+        "idcode-42-111"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ This five-lot threshold is the WATER-STATUTE definition. It is not necessarily the planning or platting definition used by Ada County Development Services or by a city. Never state a single 'Idaho subdivision threshold' across both domains without verifying the land-use definition separately."
+    },
+    {
+      "id": "ada-septic-authority-cdh",
+      "claim": "Central District Health permits septic (subsurface sewage disposal) systems and verifies shallow injection wells for Ada, Boise, Elmore and Valley counties; a property owner must obtain a permit from the public health district to install a septic system.",
+      "quotedLanguage": null,
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "septic",
+        "utilities",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": false,
+      "verifiedOn": null,
+      "notes": "NOT YET APPROVED. Assembled from search-result summaries of cdh.idaho.gov, not from a page read directly. Fetch https://cdh.idaho.gov/environmental-health/water-wastewater-septic/ and quote the operative language before publishing. The jurisdictional point — that septic is a HEALTH DISTRICT matter, not a city or county building-department matter — is a genuine differentiator and worth getting exactly right."
     }
   ]
 }

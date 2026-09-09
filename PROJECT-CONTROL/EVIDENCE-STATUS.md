@@ -5,10 +5,10 @@
 
 | Registry | Records |
 |---|---:|
-| Sources | 15 (Tier 1: 15) |
-| Claims | 26 |
-| — approved for publication | 25 |
-| — withheld | 1 |
+| Sources | 19 (Tier 1: 18, Tier 2: 1) |
+| Claims | 32 |
+| — approved for publication | 30 |
+| — withheld | 2 |
 | Entities | 11 |
 | Statistics | 22 |
 
@@ -43,10 +43,11 @@ Scored on approved claims naming the entity. INSUFFICIENT means no indexable pag
 ## Withheld claims
 
 - **`ada-population-disputed-557590`** (DISPUTED) — Conflicts with the Census Vintage 2024 estimate of 535,799 by ~4%.
+- **`ada-septic-authority-cdh`** (MEDIUM) — NOT YET APPROVED.
 
 ## Sources pending verification
 
-_None. Every registered source has been retrieved and read._
+- `cdh-septic` — PENDING_VERIFICATION
 
 ## Integrity counters
 

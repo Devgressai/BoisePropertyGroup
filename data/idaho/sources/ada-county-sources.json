@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 15,
+  "totalSources": 19,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -387,6 +387,112 @@
         "state:id"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-711",
+      "title": "Idaho Code § 15-3-711 — Powers of personal representatives — In general",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-711/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "inheritance",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Idaho has adopted the Uniform Probate Code; these are the UPC personal-representative powers as enacted in Idaho.",
+      "claimsSupported": [
+        "id-pr-power-over-title"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-715",
+      "title": "Idaho Code § 15-3-715 — Transactions authorized for personal representatives — Exceptions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-715/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "inheritance",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Idaho has adopted the Uniform Probate Code; these are the UPC personal-representative powers as enacted in Idaho.",
+      "claimsSupported": [
+        "id-pr-powers-limited-by-will"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-111",
+      "title": "Idaho Code § 42-111 — Domestic purposes defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch1/sect42-111/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "water",
+        "well",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. AMENDED TWICE RECENTLY (2025 ch. 129, 2026 ch. 2). The Legislature site states statutes are updated July 1 following the session; as of 2026-09-09 the 2026 text is displayed and in force. Re-verify on every content refresh.",
+      "claimsSupported": [
+        "id-domestic-water-13000-gpd",
+        "id-domestic-water-exclusions",
+        "id-water-subdivision-five-lots"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cdh-septic",
+      "title": "Water, Wastewater & Septic — Central District Health",
+      "publisher": "Central District Health",
+      "organizationType": "public-health-district",
+      "url": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceTier": 2,
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "topic": [
+        "septic",
+        "utilities",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": null,
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "⚠️ NOT YET RETRIEVED. Referenced from search results only. Must be fetched and read before the claim it supports can be approved.",
+      "claimsSupported": [
+        "ada-septic-authority-cdh"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "PENDING_VERIFICATION"
     }
   ]
 }
