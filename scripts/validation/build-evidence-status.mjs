@@ -12,8 +12,41 @@ const withheld = claims.filter((c) => !c.approvedForPublication);
 const byTier = {}; for (const s of sources) byTier[s.sourceTier] = (byTier[s.sourceTier] ?? 0) + 1;
 const claimsFor = (eid) => approved.filter((c) => (c.entity ?? []).includes(eid)).length;
 
+/**
+ * Completeness is scored by DIMENSION COVERAGE, not by claim count.
+ * Counting claims made Ada County read "COMPLETE" on 14 road-and-assessment
+ * claims while housing, probate, water and flood evidence did not exist at all
+ * — a score that contradicted missing-evidence.md. A dimension with no approved
+ * claim is a gap regardless of how many claims the other dimensions hold.
+ */
+const DIMENSIONS = {
+  Identity: ["geography"],
+  Geography: ["geography", "population", "growth"],
+  Government: ["jurisdiction"],
+  PropertyAdministration: ["assessment", "property-taxes", "exemptions", "recording"],
+  Housing: ["housing", "tenure", "vacancy", "housing-age"],
+  PropertyTypes: ["property-types", "manufactured-housing", "real-vs-personal-property", "acreage"],
+  SellerSituations: ["foreclosure", "probate", "inheritance", "tenants", "liens"],
+  Planning: ["planning", "zoning", "permits"],
+  Land: ["land", "access", "easements", "subdivision"],
+  Utilities: ["water", "irrigation", "well", "septic", "sewer"],
+  Risks: ["flood", "wildfire"],
+  TransactionResources: ["title", "escrow", "closing", "deeds"],
+  SearchIntent: ["search"],
+  ContentDifferentiation: ["differentiation"],
+};
+function dimensionsFor(eid) {
+  const topics = new Set(approved.filter((c) => (c.entity ?? []).includes(eid)).flatMap((c) => c.topic ?? []));
+  const covered = Object.entries(DIMENSIONS).filter(([, ts]) => ts.some((t) => topics.has(t))).map(([d]) => d);
+  return { covered, total: Object.keys(DIMENSIONS).length };
+}
+
 const municipalities = entities.filter((e) => ["CITY", "CENSUS_DESIGNATED_PLACE"].includes(e.entityType));
-const score = (n) => (n >= 12 ? "COMPLETE" : n >= 6 ? "SUFFICIENT" : n >= 1 ? "PARTIAL" : "INSUFFICIENT");
+const score = (eid) => {
+  const { covered, total } = dimensionsFor(eid);
+  const pct = covered.length / total;
+  return pct >= 0.9 ? "COMPLETE" : pct >= 0.6 ? "SUFFICIENT" : covered.length > 0 ? "PARTIAL" : "INSUFFICIENT";
+};
 
 const md = `# EVIDENCE STATUS
 
@@ -33,10 +66,14 @@ const md = `# EVIDENCE STATUS
 
 Scored on approved claims naming the entity. INSUFFICIENT means no indexable page.
 
-| Entity | Approved claims | Score |
-|---|---:|---|
-| Ada County | ${claimsFor("county:ada")} | ${score(claimsFor("county:ada"))} |
-${municipalities.map((e) => `| ${e.canonicalName} | ${claimsFor(e.id)} | ${score(claimsFor(e.id))} |`).join("\n")}
+| Entity | Approved claims | Dimensions covered | Score |
+|---|---:|---|---|
+| Ada County | ${claimsFor("county:ada")} | ${dimensionsFor("county:ada").covered.length}/${dimensionsFor("county:ada").total} | ${score("county:ada")} |
+${municipalities.map((e) => `| ${e.canonicalName} | ${claimsFor(e.id)} | ${dimensionsFor(e.id).covered.length}/${dimensionsFor(e.id).total} | ${score(e.id)} |`).join("\n")}
+
+### Dimension gaps
+
+${Object.keys(DIMENSIONS).filter((d) => !dimensionsFor("county:ada").covered.includes(d)).map((d) => `- **${d}** — no approved claim for Ada County`).join("\n") || "_None._"}
 
 ## Withheld claims
 
