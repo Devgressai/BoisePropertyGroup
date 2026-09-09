@@ -19,15 +19,15 @@ Scored on approved claims naming the entity. INSUFFICIENT means no indexable pag
 | Entity | Direct claims | Incl. inherited | Dimensions | Score |
 |---|---:|---:|---|---|
 | Ada County | 23 | 37 | 10/14 | SUFFICIENT |
-| Boise City | 2 | 38 | 11/14 | SUFFICIENT |
-| Eagle | 2 | 38 | 11/14 | SUFFICIENT |
-| Garden City | 2 | 38 | 11/14 | SUFFICIENT |
-| Hidden Spring | 0 | 37 | 10/14 | SUFFICIENT |
-| Kuna | 2 | 38 | 11/14 | SUFFICIENT |
-| Meridian | 2 | 38 | 11/14 | SUFFICIENT |
-| Star | 3 | 39 | 12/14 | SUFFICIENT |
+| Boise City | 2 | 38 | 11/14 | PARTIAL |
+| Eagle | 2 | 38 | 11/14 | PARTIAL |
+| Garden City | 2 | 38 | 11/14 | PARTIAL |
+| Hidden Spring | 0 | 37 | 10/14 | INSUFFICIENT |
+| Kuna | 2 | 38 | 11/14 | PARTIAL |
+| Meridian | 2 | 38 | 11/14 | PARTIAL |
+| Star | 3 | 39 | 12/14 | PARTIAL |
 
-**Direct claims are what differentiate a page.** Inherited Idaho-wide claims make
+**Score is the worse of dimension coverage and direct-claim count.** Direct claims are what differentiate a page. Inherited Idaho-wide claims make
 a page correct; only direct local claims make it distinct from its neighbours.
 A municipality with high inherited coverage and one or two direct claims will
 still read as a template and must not be indexed on that basis alone.

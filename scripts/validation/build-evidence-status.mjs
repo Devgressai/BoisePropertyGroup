@@ -57,10 +57,25 @@ function dimensionsFor(eid) {
 }
 
 const municipalities = entities.filter((e) => ["CITY", "CENSUS_DESIGNATED_PLACE"].includes(e.entityType));
+const TIERS = ["INSUFFICIENT", "PARTIAL", "SUFFICIENT", "COMPLETE"];
+/**
+ * Final score is the WORSE of two measures, because they gate different things:
+ *
+ *   dimension coverage  — is the page CORRECT across the topics it must cover?
+ *   direct claim count  — is the page DISTINCT from its five neighbours?
+ *
+ * Inherited Idaho statute lifts every municipality's dimension coverage
+ * identically, so scoring on that alone rated Hidden Spring SUFFICIENT on ZERO
+ * direct claims. Six pages that are all correct and all identical are exactly
+ * the templated-location-page failure this project exists to avoid.
+ */
 const score = (eid) => {
   const { covered, total } = dimensionsFor(eid);
   const pct = covered.length / total;
-  return pct >= 0.9 ? "COMPLETE" : pct >= 0.6 ? "SUFFICIENT" : covered.length > 0 ? "PARTIAL" : "INSUFFICIENT";
+  const dimTier = pct >= 0.9 ? 3 : pct >= 0.6 ? 2 : covered.length > 0 ? 1 : 0;
+  const d = claimsFor(eid);
+  const directTier = d >= 10 ? 3 : d >= 5 ? 2 : d >= 1 ? 1 : 0;
+  return TIERS[Math.min(dimTier, directTier)];
 };
 
 const md = `# EVIDENCE STATUS
@@ -86,7 +101,7 @@ Scored on approved claims naming the entity. INSUFFICIENT means no indexable pag
 | Ada County | ${claimsFor("county:ada")} | ${inherited("county:ada")} | ${dimensionsFor("county:ada").covered.length}/${dimensionsFor("county:ada").total} | ${score("county:ada")} |
 ${municipalities.map((e) => `| ${e.canonicalName} | ${claimsFor(e.id)} | ${inherited(e.id)} | ${dimensionsFor(e.id).covered.length}/${dimensionsFor(e.id).total} | ${score(e.id)} |`).join("\n")}
 
-**Direct claims are what differentiate a page.** Inherited Idaho-wide claims make
+**Score is the worse of dimension coverage and direct-claim count.** Direct claims are what differentiate a page. Inherited Idaho-wide claims make
 a page correct; only direct local claims make it distinct from its neighbours.
 A municipality with high inherited coverage and one or two direct claims will
 still read as a template and must not be indexed on that basis alone.
