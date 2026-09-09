@@ -1239,6 +1239,98 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Six-city composition independently confirmed by the Census place-to-county relationship file, which also records Hidden Spring CDP as the county's only census-designated place and Star as spanning Ada and Canyon counties."
+    },
+    {
+      "id": "boise-wui-overlay-district",
+      "claim": "The City of Boise has a Wildland Urban Interface Overlay (WUI-O) zoning district covering land at higher risk of wildland fire, whose provisions apply to all new structures and additions built after its effective date and to renovations that increase a structure's gross floor area by more than 49 percent.",
+      "quotedLanguage": "The purpose of the WUI-O is to reduce the risks to human life, property, livelihoods, and wildlife within areas with higher risk of wildfire, and to recognize and clarify the respective roles of the city and property owners in the WUI-O to reduce those risks. ... The provisions of this Section 11-02-07.3.H shall apply to the following activities ... i. All new structures and additions to structures constructed in the WUI-O after the Effective Date; and ii. Renovation or modification of primary and accessory structures existing on the Effective Date that increase the gross floor area of the structure on the Effective Date by more than 49 percent.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "wildfire",
+        "zoning",
+        "planning",
+        "differentiation",
+        "permits"
+      ],
+      "sourceIds": [
+        "boise-wui-overlay"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "GENUINE BOISE-ONLY DIFFERENTIATOR and directly material to a seller of a foothills property: a buyer planning to expand a WUI-O house by more than 49% of its gross floor area triggers the overlay's construction requirements. Interior-only renovations are excepted regardless of area. ⚠️ Do NOT assert that other Ada cities have or lack an equivalent overlay — not researched."
+    },
+    {
+      "id": "boise-nfip-flood-sources",
+      "claim": "Boise participates in the National Flood Insurance Program because of significant flood threats from the Boise River, foothills gulches and several intermittent stream channels on the upper bench.",
+      "quotedLanguage": "The City of Boise participates in the National Flood Insurance Program due to the existence of significant flood threats related to the Boise River, foothills gulches and several intermittent stream channels on the upper bench.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "flood",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-floodplain"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Boise's flood exposure has THREE distinct sources, not just the river. Foothills gulches and upper-bench intermittent channels affect properties nowhere near the Boise River — a useful correction to the assumption that only riverfront property floods."
+    },
+    {
+      "id": "ada-floodplain-development-permit",
+      "claim": "Any development within the floodplain in Ada County requires a Floodplain Development Permit, and the technical definition of floodplain for development purposes is in Ada County Ordinance 835.",
+      "quotedLanguage": "Any development within the Floodplain will require a Floodplain Development Permit.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "flood",
+        "permits",
+        "planning"
+      ],
+      "sourceIds": [
+        "ada-hazardous-overlays"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Ada County calls these Hazardous Overlay Districts and administers them through its Engineering & Surveying Division. ⚠️ Ordinance 835 has NOT been read; cite it as the county names it, do not quote its contents."
+    },
+    {
+      "id": "ada-fema-firm-adopted-2020",
+      "claim": "Ada County adopted new FEMA Flood Insurance Rate Maps in June 2020.",
+      "quotedLanguage": "In June, 2020, Ada County adopted the new FEMA Flood Insurance Rate Maps.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "flood"
+      ],
+      "sourceIds": [
+        "ada-hazardous-overlays"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ DATE-SENSITIVE. Maps adopted 2020 may since have been revised. Re-verify before publishing, and never state a property's flood zone from any source but the current FEMA map for that address."
     }
   ]
 }

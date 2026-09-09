@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 29,
+  "totalSources": 32,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -763,6 +763,81 @@
         "ada-2050-projection-divergence",
         "ada-median-age-divergence",
         "ada-county-composition"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-wui-overlay",
+      "title": "Wildland Urban Interface Overlay — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/wildland-urban-interface-overlay/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "wildfire",
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official government page, read directly with raw HTML cached.",
+      "claimsSupported": [
+        "boise-wui-overlay-district"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-floodplain",
+      "title": "Floodplain Information — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/floodplain-information/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "flood"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official government page, read directly with raw HTML cached.",
+      "claimsSupported": [
+        "boise-nfip-flood-sources"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-hazardous-overlays",
+      "title": "Hazardous Overlay Districts — Ada County Development Services",
+      "publisher": "Ada County Development Services",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/developmentservices/community-planning-division/hazardous-overlay-districts/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "flood",
+        "planning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official government page, read directly with raw HTML cached.",
+      "claimsSupported": [
+        "ada-floodplain-development-permit",
+        "ada-fema-firm-adopted-2020"
       ],
       "entitiesSupported": [
         "county:ada"
