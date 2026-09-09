@@ -10,6 +10,7 @@ const stats = read("data/idaho/statistics/ada-statistics.json").statistics;
 const approved = claims.filter((c) => c.approvedForPublication);
 const withheld = claims.filter((c) => !c.approvedForPublication);
 const byTier = {}; for (const s of sources) byTier[s.sourceTier] = (byTier[s.sourceTier] ?? 0) + 1;
+const inherited = (eid) => { const chain=new Set(ancestorsOf(eid)); return approved.filter((c)=>(c.entity??[]).some((e)=>chain.has(e))).length; };
 const claimsFor = (eid) => approved.filter((c) => (c.entity ?? []).includes(eid)).length;
 
 /**
@@ -35,8 +36,22 @@ const DIMENSIONS = {
   SearchIntent: ["search"],
   ContentDifferentiation: ["differentiation"],
 };
+/**
+ * An entity inherits the claims of its ancestors: Idaho statute on probate,
+ * disclosure or water applies to a property in Boise as much as to one in
+ * Kuna. Scoring only direct hits made every Ada entity read emptier than the
+ * evidence actually supports, which would have wrongly gated Phase 9.
+ * Local claims still matter for DIFFERENTIATION, reported separately below.
+ */
+function ancestorsOf(eid) {
+  const chain = [eid];
+  let cur = entities.find((e) => e.id === eid);
+  while (cur?.parentEntity) { chain.push(cur.parentEntity); cur = entities.find((e) => e.id === cur.parentEntity); }
+  return chain;
+}
 function dimensionsFor(eid) {
-  const topics = new Set(approved.filter((c) => (c.entity ?? []).includes(eid)).flatMap((c) => c.topic ?? []));
+  const chain = new Set(ancestorsOf(eid));
+  const topics = new Set(approved.filter((c) => (c.entity ?? []).some((e) => chain.has(e))).flatMap((c) => c.topic ?? []));
   const covered = Object.entries(DIMENSIONS).filter(([, ts]) => ts.some((t) => topics.has(t))).map(([d]) => d);
   return { covered, total: Object.keys(DIMENSIONS).length };
 }
@@ -66,10 +81,15 @@ const md = `# EVIDENCE STATUS
 
 Scored on approved claims naming the entity. INSUFFICIENT means no indexable page.
 
-| Entity | Approved claims | Dimensions covered | Score |
-|---|---:|---|---|
-| Ada County | ${claimsFor("county:ada")} | ${dimensionsFor("county:ada").covered.length}/${dimensionsFor("county:ada").total} | ${score("county:ada")} |
-${municipalities.map((e) => `| ${e.canonicalName} | ${claimsFor(e.id)} | ${dimensionsFor(e.id).covered.length}/${dimensionsFor(e.id).total} | ${score(e.id)} |`).join("\n")}
+| Entity | Direct claims | Incl. inherited | Dimensions | Score |
+|---|---:|---:|---|---|
+| Ada County | ${claimsFor("county:ada")} | ${inherited("county:ada")} | ${dimensionsFor("county:ada").covered.length}/${dimensionsFor("county:ada").total} | ${score("county:ada")} |
+${municipalities.map((e) => `| ${e.canonicalName} | ${claimsFor(e.id)} | ${inherited(e.id)} | ${dimensionsFor(e.id).covered.length}/${dimensionsFor(e.id).total} | ${score(e.id)} |`).join("\n")}
+
+**Direct claims are what differentiate a page.** Inherited Idaho-wide claims make
+a page correct; only direct local claims make it distinct from its neighbours.
+A municipality with high inherited coverage and one or two direct claims will
+still read as a template and must not be indexed on that basis alone.
 
 ### Dimension gaps
 

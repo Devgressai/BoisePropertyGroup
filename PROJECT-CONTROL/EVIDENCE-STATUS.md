@@ -16,27 +16,28 @@
 
 Scored on approved claims naming the entity. INSUFFICIENT means no indexable page.
 
-| Entity | Approved claims | Dimensions covered | Score |
-|---|---:|---|---|
-| Ada County | 14 | 4/14 | PARTIAL |
-| Boise City | 2 | 4/14 | PARTIAL |
-| Eagle | 2 | 4/14 | PARTIAL |
-| Garden City | 2 | 4/14 | PARTIAL |
-| Hidden Spring | 0 | 0/14 | INSUFFICIENT |
-| Kuna | 2 | 4/14 | PARTIAL |
-| Meridian | 2 | 4/14 | PARTIAL |
-| Star | 3 | 5/14 | PARTIAL |
+| Entity | Direct claims | Incl. inherited | Dimensions | Score |
+|---|---:|---:|---|---|
+| Ada County | 14 | 28 | 8/14 | PARTIAL |
+| Boise City | 2 | 29 | 9/14 | SUFFICIENT |
+| Eagle | 2 | 29 | 9/14 | SUFFICIENT |
+| Garden City | 2 | 29 | 9/14 | SUFFICIENT |
+| Hidden Spring | 0 | 28 | 8/14 | PARTIAL |
+| Kuna | 2 | 29 | 9/14 | SUFFICIENT |
+| Meridian | 2 | 29 | 9/14 | SUFFICIENT |
+| Star | 3 | 30 | 10/14 | SUFFICIENT |
+
+**Direct claims are what differentiate a page.** Inherited Idaho-wide claims make
+a page correct; only direct local claims make it distinct from its neighbours.
+A municipality with high inherited coverage and one or two direct claims will
+still read as a template and must not be indexed on that basis alone.
 
 ### Dimension gaps
 
 - **Identity** — no approved claim for Ada County
 - **Housing** — no approved claim for Ada County
-- **SellerSituations** — no approved claim for Ada County
 - **Planning** — no approved claim for Ada County
-- **Land** — no approved claim for Ada County
-- **Utilities** — no approved claim for Ada County
 - **Risks** — no approved claim for Ada County
-- **TransactionResources** — no approved claim for Ada County
 - **SearchIntent** — no approved claim for Ada County
 - **ContentDifferentiation** — no approved claim for Ada County
 
