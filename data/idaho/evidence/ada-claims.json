@@ -1214,6 +1214,31 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "STRONGEST PER-CITY DIFFERENTIATOR FOUND SO FAR, and directly relevant to a property buyer: a 17-year spread between Kuna and Garden City implies materially different housing stock, tenure and life-stage mix. Ada County cites 2022 ACS; the figures were NOT read from ACS directly, hence MEDIUM confidence. Verify against ACS before making them load-bearing."
+    },
+    {
+      "id": "ada-county-composition",
+      "claim": "Ada County comprises six incorporated cities — Boise, Meridian, Eagle, Kuna, Star and Garden City — plus unincorporated county; 88.6% of residents live in one of the six cities and 11.4% live in unincorporated areas.",
+      "quotedLanguage": "According to COMPASS estimates, Ada County's population reached 557,590 in 2024, with the majority (88.6%) living in one of the County's six cities.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "geography",
+        "jurisdiction",
+        "planning"
+      ],
+      "sourceIds": [
+        "ada-compass-demographics",
+        "census-place-county-2020"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Six-city composition independently confirmed by the Census place-to-county relationship file, which also records Hidden Spring CDP as the county's only census-designated place and Star as spanning Ada and Canyon counties."
     }
   ]
 }

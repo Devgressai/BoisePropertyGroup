@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-09",
+  "method": "Direct SERP observation via web search. NO keyword volume data is available and none is estimated. Every observedVolume is null by policy.",
+  "rule": "OBSERVED SERP COMPOSITION is recorded here. INFERRED query opportunity lives in docs/seo/query-intent-map.md and is labelled as inference.",
+  "observations": [
+    {
+      "query": "sell my house fast Boise Idaho cash home buyers",
+      "observedOn": "2026-09-09",
+      "observedVolume": null,
+      "serpComposition": {
+        "localDirectBuyers": 8,
+        "nationalAggregators": 1,
+        "realEstateBrokerages": 0,
+        "governmentResources": 0,
+        "informationalGuides": 0,
+        "directories": 0,
+        "forums": 0
+      },
+      "resultsSeen": [
+        "webuyboisehomes.com", "idahoinvestorgroup.com", "sellmyhousefastid.com",
+        "idahorealestatehelp.com", "ibuyhousesboise.com", "theboisehousebuyers.com",
+        "sellmyhousefastboise.com", "sellmyhousefast.com/we-buy-houses-boise-idaho/",
+        "208homebuyers.com"
+      ],
+      "dominantIntent": "local transactional",
+      "reading": "The head commercial query is saturated with established local direct buyers, several claiming 15+ years and BBB ratings. Zero informational, government or guide results appear. A new domain has no realistic near-term path onto this SERP on content alone — which is consistent with the Boise Bath measurement that commercial local pages on a new domain earn nothing, and with the decision to build knowledge pillars before city pillars.",
+      "competitorNotes": "Claims observed across these sites are near-identical: no fees, no repairs, no commissions, close in 7 days, offer in 24 hours. Differentiation on message is effectively zero, which is where verifiable Idaho-specific evidence becomes the opening."
+    }
+  ]
+}

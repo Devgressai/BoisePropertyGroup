@@ -22,7 +22,8 @@
       "freshnessClass": "DECENNIAL",
       "authorityNotes": "Definitive federal record of which county or counties each incorporated place and CDP lies within. Used instead of geometry for all county assignment.",
       "claimsSupported": [
-        "ada-star-spans-two-counties"
+        "ada-star-spans-two-counties",
+        "ada-county-composition"
       ],
       "entitiesSupported": [],
       "status": "VERIFIED"
@@ -67,7 +68,6 @@
       "authorityNotes": "Vintage 2024 county estimates, 2020 census base.",
       "claimsSupported": [
         "ada-population-2024",
-        "ada-population-two-estimates",
         "ada-population-two-estimates"
       ],
       "entitiesSupported": [],
@@ -758,11 +758,11 @@
       "authorityNotes": "Official county PDF, downloaded to data/idaho/raw/pdf/ada-demographics.pdf and text-extracted with pdftotext. Publishes COMPASS estimates and projections plus 2000/2020 Census and 2022 ACS figures. ⚠️ It mixes source families in single tables (e.g. 2000 Census against 2024 COMPASS); do not reproduce those comparisons without labelling both sides.",
       "claimsSupported": [
         "ada-population-two-estimates",
-        "ada-population-two-estimates",
         "ada-area-of-city-impact",
         "ada-planned-communities-outside-aci",
         "ada-2050-projection-divergence",
-        "ada-median-age-divergence"
+        "ada-median-age-divergence",
+        "ada-county-composition"
       ],
       "entitiesSupported": [
         "county:ada"
