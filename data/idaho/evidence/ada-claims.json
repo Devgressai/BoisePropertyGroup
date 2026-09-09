@@ -1052,6 +1052,60 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Materially seller-relevant and almost never stated on competitor sites: a canal or lateral crossing an Ada County parcel can sit on works whose title is FEDERAL, which changes who a landowner must deal with about encroachment, access and easements. Do not extrapolate this to every ditch — it applies to the transferred works named in the quote."
+    },
+    {
+      "id": "ada-27-irrigation-entities",
+      "claim": "Ada County's own irrigation districts map identifies 27 separate irrigation entities operating in the county — irrigation districts, ditch companies, lateral associations, water companies and a drainage district — plus the Boise Project Board of Control as operating agent.",
+      "quotedLanguage": null,
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "irrigation",
+        "water",
+        "utilities",
+        "differentiation",
+        "land"
+      ],
+      "sourceIds": [
+        "ada-irrigation-districts-map"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "enumeration": [
+        "Ballentyne Ditch Co LTD",
+        "Boise City Canal Co",
+        "Boise Valley Irrigation Ditch Co",
+        "Boise-Kuna Irrigation District",
+        "Canyon County Water Co LTD",
+        "Capitol View Irrigation Inc",
+        "Creason Lateral Assn",
+        "Drain District No. 4 of Ada County",
+        "Eureka Water Co",
+        "Fairview Acres Water Users Assoc",
+        "Farmers Union Ditch Co LTD",
+        "Hart-Davis Ditch Co Inc",
+        "Lexington Hills Inc",
+        "Mace Catlin Ditch Co",
+        "Middleton Irrigation Association",
+        "Nampa & Meridian Irrigation District",
+        "New Dry Creek Ditch Co",
+        "New Union Ditch Co LTD",
+        "New York Irrigation District",
+        "Pioneer Ditch Co LTD",
+        "Pioneer Irrigation District",
+        "Pleasant Valley Irrigation Co",
+        "Settlers Irrigation District",
+        "South Boise Mutual Irrigation Co LTD",
+        "South Boise Water Co",
+        "Thurman Mill Ditch Co LTD",
+        "Warm Springs Ditch Co"
+      ],
+      "notes": "Read from the county's published PDF map (cached at data/idaho/raw/pdf/ada-irrigation-districts.pdf, text extracted with pdftotext). This is INFORMATION GAIN of the strongest kind: 'which of Ada County's 27 irrigation entities serves this parcel' is a real question with a real answer that no competitor cash-buyer site addresses. ⚠️ The map shows WHICH entities exist and roughly where; it is a map, not a parcel lookup. Never state which entity serves a specific address from this source. The count is of named entities on the legend and excludes the Boise Project Board of Control, which is an operating agent for five of the districts rather than a district itself."
     }
   ]
 }

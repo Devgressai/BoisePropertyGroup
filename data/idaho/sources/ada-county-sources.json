@@ -724,14 +724,16 @@
       ],
       "publicationDate": null,
       "updatedDate": null,
-      "accessedDate": null,
+      "accessedDate": "2026-09-09",
       "freshnessClass": "IRREGULAR",
-      "authorityNotes": "⚠️ NOT YET RETRIEVED — PDF. This is the authoritative county map of irrigation district boundaries and is the correct source for stating which district covers which ground. Retrieve and read before any page maps a city to a district.",
-      "claimsSupported": [],
+      "authorityNotes": "Official county PDF map, downloaded and cached at data/idaho/raw/pdf/ada-irrigation-districts.pdf; legend text extracted with pdftotext. Authoritative for WHICH irrigation entities operate in Ada County. NOT a parcel-level lookup — do not use it to state which entity serves a given address.",
+      "claimsSupported": [
+        "ada-27-irrigation-entities"
+      ],
       "entitiesSupported": [
         "county:ada"
       ],
-      "status": "PENDING_VERIFICATION"
+      "status": "VERIFIED"
     }
   ]
 }
