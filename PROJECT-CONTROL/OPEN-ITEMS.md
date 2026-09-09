@@ -3,7 +3,7 @@
 **Generated** 2026-09-09 by `scripts/validation/build-open-items.mjs`. Do not hand-edit
 the derived sections; edit `MANUAL` in the generator.
 
-Current state: **59 claims (59 approved) · 35 sources · 92 jurisdiction rows**
+Current state: **61 claims (61 approved) · 37 sources · 92 jurisdiction rows**
 
 | # | Kind | Item | Owner | Note |
 |---:|---|---|---|---|
@@ -36,10 +36,9 @@ Current state: **59 claims (59 approved) · 35 sources · 92 jurisdiction rows**
 | 25 | UNRESEARCHED JURISDICTION | building-permits | claude | No page may state who performs this function. |
 | 26 | UNVERIFIED JURISDICTION | water-rights | claude | Authority named but not sourced — cities only. |
 | 27 | THIN ENTITY | Hidden Spring | claude | 0 direct claims — below the 6 needed to differentiate a page. |
-| 28 | THIN ENTITY | Garden City | claude | 4 direct claims — below the 6 needed to differentiate a page. |
-| 29 | THIN ENTITY | Eagle | claude | 5 direct claims — below the 6 needed to differentiate a page. |
+| 28 | THIN ENTITY | Garden City | claude | 5 direct claims — below the 6 needed to differentiate a page. |
 
-**29 open items.**
+**28 open items.**
 
 ## Gate status
 

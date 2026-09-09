@@ -1428,6 +1428,54 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Closes the GIS/parcel-records jurisdiction question: it is the ASSESSOR, not a separate GIS department, and the Assessor also owns ADDRESSING county-wide. Records of Survey and subdivision plats are available here, which matters for the land and difficult-property pillars."
+    },
+    {
+      "id": "eagle-planning-scope",
+      "claim": "The City of Eagle's Planning and Zoning Department administers the Eagle Zoning Ordinance, the Land Subdivision Ordinance, the Flood Control Ordinance and the Comprehensive Plan, and works with ACHD, COMPASS and the Idaho Transportation Department on transportation.",
+      "quotedLanguage": "It is the responsibility of the Planning and Zoning Department to provide for the administration of the City of Eagle Zoning Ordinance, the Land Subdivision Ordinance, the Flood Control Ordinance, and the Comprehensive Plan.",
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "planning",
+        "zoning",
+        "flood",
+        "subdivision",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "eagle-planning"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Eagle maintains a distinct FLOOD CONTROL ORDINANCE administered by its planning department — a named instrument the other cities' pages do not advertise, consistent with Eagle's position on the Boise River. Also independently corroborates ACHD as the road authority Eagle coordinates with, alongside COMPASS and ITD."
+    },
+    {
+      "id": "gardencity-planning-scope",
+      "claim": "Garden City's Planning Division handles land use entitlements including annexation, zoning, conditional use permits, design review, signage and subdivisions.",
+      "quotedLanguage": "The Planning Division provides a wide variety of planning services for Garden City. Our services include, but are not limited to, land use entitlements such as Annexation, Zoning, Conditional Use Permits, Design Review, Signage, and Subdivisions.",
+      "entity": [
+        "city:garden-city"
+      ],
+      "topic": [
+        "planning",
+        "zoning",
+        "subdivision"
+      ],
+      "sourceIds": [
+        "gardencity-planning"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "Annexation is listed first among Garden City's entitlements, which is notable for a small city enclosed by Boise. Not yet a differentiator on its own — needs pairing with Garden City's distinctive median age of 47.1, the oldest in the county."
     }
   ]
 }

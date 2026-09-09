@@ -784,6 +784,54 @@
         "county:ada"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-planning",
+      "title": "Planning & Zoning Department — City of Eagle, Idaho",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/185/Planning-Zoning-Department",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "planning",
+        "zoning",
+        "flood"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city page, read directly with raw HTML cached.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-planning",
+      "title": "Planning Services — Garden City, Idaho",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/development-services/planning-services/",
+      "sourceTier": 1,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "planning",
+        "zoning",
+        "subdivision"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city page, read directly with raw HTML cached.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

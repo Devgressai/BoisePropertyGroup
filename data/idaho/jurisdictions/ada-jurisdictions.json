@@ -432,38 +432,47 @@
     {
       "function": "land-use-planning",
       "entity": "city:boise-city",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+      "responsibleAuthority": "City of Boise Planning and Development Services",
+      "officialResource": "https://www.cityofboise.org/departments/planning-and-development-services/",
+      "sourceIds": [
+        "boise-pds"
+      ],
+      "status": "VERIFIED",
+      "note": "Five divisions incl. Building, which issues permits and oversees development in the city."
+    },
+    {
+      "function": "land-use-planning",
+      "entity": "city:star",
+      "responsibleAuthority": "City of Star Planning & Zoning",
+      "officialResource": "https://staridaho.org/1205/Planning-Zoning",
+      "sourceIds": [
+        "star-planning-zoning",
+        "star-faq"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers Star's Unified Development Code. One-time administrative two-lot division available."
     },
     {
       "function": "land-use-planning",
       "entity": "city:eagle",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+      "responsibleAuthority": "City of Eagle Planning and Zoning Department",
+      "officialResource": "https://www.cityofeagle.org/185/Planning-Zoning-Department",
+      "sourceIds": [
+        "eagle-planning"
+      ],
+      "status": "VERIFIED",
+      "note": "Administers the Zoning Ordinance, Land Subdivision Ordinance, FLOOD CONTROL ORDINANCE and Comprehensive Plan."
     },
     {
       "function": "land-use-planning",
       "entity": "city:garden-city",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
-    },
-    {
-      "function": "land-use-planning",
-      "entity": "city:kuna",
-      "responsibleAuthority": null,
-      "officialResource": null,
-      "sourceIds": [],
-      "status": "UNRESEARCHED",
-      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+      "responsibleAuthority": "Garden City Planning Division",
+      "officialResource": "https://gardencityidaho.org/departments/development-services/planning-services/",
+      "sourceIds": [
+        "gardencity-planning"
+      ],
+      "status": "VERIFIED",
+      "note": "Annexation, zoning, CUPs, design review, signage, subdivisions."
     },
     {
       "function": "land-use-planning",
@@ -472,16 +481,16 @@
       "officialResource": null,
       "sourceIds": [],
       "status": "UNRESEARCHED",
-      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+      "note": "NOT SOURCED. meridiancity.org returns 403 to automated fetch; Kuna pages retrieved are nav-only."
     },
     {
       "function": "land-use-planning",
-      "entity": "city:star",
+      "entity": "city:kuna",
       "responsibleAuthority": null,
       "officialResource": null,
       "sourceIds": [],
       "status": "UNRESEARCHED",
-      "note": "Each city plans its own land use. NO city planning source has been retrieved yet."
+      "note": "NOT SOURCED. meridiancity.org returns 403 to automated fetch; Kuna pages retrieved are nav-only."
     },
     {
       "function": "building-permits",
@@ -490,7 +499,7 @@
       "officialResource": null,
       "sourceIds": [],
       "status": "UNRESEARCHED",
-      "note": "Presumed city-level. NOT verified."
+      "note": "Presumed city-level. Only Boise is sourced (PDS Building Division). Not verified for the other five."
     },
     {
       "function": "building-permits",
@@ -499,7 +508,7 @@
       "officialResource": null,
       "sourceIds": [],
       "status": "UNRESEARCHED",
-      "note": "Presumed city-level. NOT verified."
+      "note": "Presumed city-level. Only Boise is sourced (PDS Building Division). Not verified for the other five."
     },
     {
       "function": "building-permits",
@@ -508,7 +517,7 @@
       "officialResource": null,
       "sourceIds": [],
       "status": "UNRESEARCHED",
-      "note": "Presumed city-level. NOT verified."
+      "note": "Presumed city-level. Only Boise is sourced (PDS Building Division). Not verified for the other five."
     },
     {
       "function": "building-permits",
@@ -517,7 +526,7 @@
       "officialResource": null,
       "sourceIds": [],
       "status": "UNRESEARCHED",
-      "note": "Presumed city-level. NOT verified."
+      "note": "Presumed city-level. Only Boise is sourced (PDS Building Division). Not verified for the other five."
     },
     {
       "function": "building-permits",
@@ -526,7 +535,7 @@
       "officialResource": null,
       "sourceIds": [],
       "status": "UNRESEARCHED",
-      "note": "Presumed city-level. NOT verified."
+      "note": "Presumed city-level. Only Boise is sourced (PDS Building Division). Not verified for the other five."
     },
     {
       "function": "building-permits",
@@ -535,7 +544,7 @@
       "officialResource": null,
       "sourceIds": [],
       "status": "UNRESEARCHED",
-      "note": "Presumed city-level. NOT verified."
+      "note": "Presumed city-level. Only Boise is sourced (PDS Building Division). Not verified for the other five."
     },
     {
       "function": "code-enforcement",
