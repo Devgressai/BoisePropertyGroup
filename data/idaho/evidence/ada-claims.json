@@ -1782,6 +1782,31 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "Useful for the boundary-dispute and difficult-property pillars, and it routes back to the Assessor, which the registry already establishes as the holder of parcel boundaries and Records of Survey."
+    },
+    {
+      "id": "id-recording-act-lease-one-year-carveout",
+      "claim": "Under Idaho's recording act, every conveyance of real property OTHER THAN a lease for a term not exceeding one year is void as against a subsequent purchaser or mortgagee in good faith and for valuable consideration whose conveyance is first duly recorded.",
+      "quotedLanguage": "Every conveyance of real property other than a lease for a term not exceeding one (1) year, is void as against any subsequent purchaser or mortgagee of the same property, or any part thereof, in good faith and for a valuable consideration, whose conveyance is first duly recorded.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "recording",
+        "title",
+        "deeds",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-812"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️⚠️ THIS IS THE STATUTORY MECHANISM, NOT A LEGAL CONCLUSION ABOUT ANY PARTICULAR LEASE. What the statute says: a lease for a term of ONE YEAR OR LESS is carved OUT of the voiding rule, so it is not void against a later purchaser merely for being unrecorded. A lease LONGER than one year that is unrecorded falls inside the rule and may be void against a subsequent purchaser who takes in good faith, for value, and records first. Whether a specific lease binds a specific buyer turns on facts this section does not resolve — notably whether the purchaser took in GOOD FAITH, which can be affected by a tenant's visible possession. Idaho Code 55-606 states the parallel rule for grants generally. NEVER write 'a lease always survives a sale in Idaho' or 'a buyer can always terminate an unrecorded lease'. State the rule, name the one-year carve-out, and direct the reader to counsel for their own lease. This is the answer to the open lease-survival question insofar as statute answers it."
     }
   ]
 }

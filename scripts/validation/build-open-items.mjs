@@ -24,7 +24,6 @@ const MANUAL = [
   ["ASK", "Free Census API key", "owner", "api.census.gov/data/key_signup.html. ACS 302s without one. Blocks the entire Housing dimension."],
   ["RESEARCH", "Housing stock, tenure, vacancy, housing age", "claude", "Largest remaining evidence gap. Needs ACS."],
   ["RESEARCH", "Search demand / keyword volume", "claude", "No tool available. Volume must stay null; do not fabricate."],
-  ["RESEARCH", "Idaho: does a LEASE survive a sale?", "claude", "STILL OPEN. Idaho Code 6-321(3) settles DEPOSITS (new owner liable) but is silent on lease survival. Likely common law, not statute — do not infer from 6-321."],
   ["RESEARCH", "Boise deep dive", "claude", "Phase 2 step 05. Not started as a distinct dossier."],
   ["WRITE", "Municipal research dossiers (6) + Ada County dossier", "claude", "research/idaho/ada-county/municipalities/*.md — not written."],
   ["WRITE", "City content blueprints (7)", "claude", "Phase 2 steps 31/40/41 — not written."],

@@ -996,6 +996,30 @@
         "city:kuna"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-812",
+      "title": "Idaho Code § 55-812 — Unrecorded conveyance void against subsequent purchasers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-812/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "title",
+        "tenants"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }
