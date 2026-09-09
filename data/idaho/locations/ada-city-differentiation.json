@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-09-09",
+  "generator": "scripts/research/build-city-differentiation.mjs",
+  "rows": [
+    {
+      "city": "Boise City",
+      "entityId": "city:boise-city",
+      "population2024": 237963,
+      "growthPct": 1,
+      "spansCounties": [
+        "Ada County"
+      ],
+      "multiCounty": false,
+      "claimsNamingCity": 3,
+      "claimsUniqueToCity": 0,
+      "uniqueClaimIds": []
+    },
+    {
+      "city": "Eagle",
+      "entityId": "city:eagle",
+      "population2024": 33451,
+      "growthPct": 7.4,
+      "spansCounties": [
+        "Ada County"
+      ],
+      "multiCounty": false,
+      "claimsNamingCity": 3,
+      "claimsUniqueToCity": 0,
+      "uniqueClaimIds": []
+    },
+    {
+      "city": "Garden City",
+      "entityId": "city:garden-city",
+      "population2024": 12936,
+      "growthPct": 5.1,
+      "spansCounties": [
+        "Ada County"
+      ],
+      "multiCounty": false,
+      "claimsNamingCity": 3,
+      "claimsUniqueToCity": 0,
+      "uniqueClaimIds": []
+    },
+    {
+      "city": "Kuna",
+      "entityId": "city:kuna",
+      "population2024": 29127,
+      "growthPct": 21,
+      "spansCounties": [
+        "Ada County"
+      ],
+      "multiCounty": false,
+      "claimsNamingCity": 3,
+      "claimsUniqueToCity": 0,
+      "uniqueClaimIds": []
+    },
+    {
+      "city": "Meridian",
+      "entityId": "city:meridian",
+      "population2024": 139740,
+      "growthPct": 18.6,
+      "spansCounties": [
+        "Ada County"
+      ],
+      "multiCounty": false,
+      "claimsNamingCity": 3,
+      "claimsUniqueToCity": 0,
+      "uniqueClaimIds": []
+    },
+    {
+      "city": "Star",
+      "entityId": "city:star",
+      "population2024": 18208,
+      "growthPct": 61.4,
+      "spansCounties": [
+        "Ada County",
+        "Canyon County"
+      ],
+      "multiCounty": true,
+      "claimsNamingCity": 4,
+      "claimsUniqueToCity": 1,
+      "uniqueClaimIds": [
+        "ada-star-spans-two-counties"
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimension": "Population",
+      "differentiates": true,
+      "note": "Vintage 2024 estimates range 12936 to 237963"
+    },
+    {
+      "dimension": "Growth trajectory",
+      "differentiates": true,
+      "note": "2020 base to 2024 estimate: Star 61.4%, Kuna 21%, Meridian 18.6%, Eagle 7.4%, Garden City 5.1%, Boise City 1%"
+    },
+    {
+      "dimension": "County span",
+      "differentiates": true,
+      "note": "Star spans Ada and Canyon; the other five are Ada only"
+    },
+    {
+      "dimension": "Land use jurisdiction",
+      "differentiates": false,
+      "note": "UNIFORM — every city administers its own code inside its own limits"
+    },
+    {
+      "dimension": "Assessment authority",
+      "differentiates": false,
+      "note": "UNIFORM — Ada County Assessor, county-wide"
+    },
+    {
+      "dimension": "Tax collection",
+      "differentiates": false,
+      "note": "UNIFORM — Ada County Treasurer, county-wide"
+    },
+    {
+      "dimension": "Recording",
+      "differentiates": false,
+      "note": "UNIFORM — Ada County Recorder, county-wide"
+    },
+    {
+      "dimension": "Road authority",
+      "differentiates": false,
+      "note": "UNIFORM — countywide highway district, including inside cities"
+    },
+    {
+      "dimension": "Septic authority",
+      "differentiates": false,
+      "note": "UNIFORM — Central District Health, four counties"
+    },
+    {
+      "dimension": "Housing stock and age",
+      "differentiates": null,
+      "note": "UNRESEARCHED — requires ACS. Likely the strongest untapped differentiator."
+    },
+    {
+      "dimension": "Floodplain exposure",
+      "differentiates": null,
+      "note": "UNRESEARCHED — Boise River corridor affects some cities and not others."
+    },
+    {
+      "dimension": "Foothills / WUI exposure",
+      "differentiates": null,
+      "note": "UNRESEARCHED — likely Boise and Eagle only."
+    },
+    {
+      "dimension": "Irrigation district",
+      "differentiates": null,
+      "note": "UNRESEARCHED — district boundaries differ by city."
+    }
+  ]
+}

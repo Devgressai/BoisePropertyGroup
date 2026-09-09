@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 23,
+  "totalSources": 25,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -599,6 +599,59 @@
       ],
       "entitiesSupported": [
         "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-planning-zoning",
+      "title": "Planning & Zoning — City of Star, Idaho",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://staridaho.org/1205/Planning-Zoning",
+      "sourceTier": 1,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "planning",
+        "zoning",
+        "flood"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city page, read directly with raw HTML cached.",
+      "claimsSupported": [
+        "ada-cities-administer-own-land-use",
+        "star-flood-zone-building-permit-question"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-pds",
+      "title": "Planning and Development Services — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "planning",
+        "zoning",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city page, read directly with raw HTML cached. Boise PDS comprises five divisions including Building, which issues building permits and oversees development in the City of Boise.",
+      "claimsSupported": [
+        "ada-cities-administer-own-land-use"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
       ],
       "status": "VERIFIED"
     }

@@ -922,6 +922,58 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "⚠️ Use carefully. This describes the SELF-HELP FORMS' scope, not the limits of Idaho eviction law. Never write 'you can only evict for non-payment in Idaho' — that would be false. The page itself says its assistance is no substitute for legal advice, and our pages must not read as legal advice either."
+    },
+    {
+      "id": "ada-cities-administer-own-land-use",
+      "claim": "Each incorporated city in Ada County administers land use and zoning within its own city limits through its own planning department and development code.",
+      "quotedLanguage": "The Planning & Zoning Department's primary responsibility is to oversee and guide growth and development within the City. Staff administers the Unified Development Code and other City Ordinances pertaining to land use.",
+      "entity": [
+        "city:boise-city",
+        "city:meridian",
+        "city:eagle",
+        "city:kuna",
+        "city:star",
+        "city:garden-city"
+      ],
+      "topic": [
+        "planning",
+        "zoning",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "star-planning-zoning",
+        "boise-pds"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "⚠️ THIS IS A CORRECTNESS CLAIM, NOT A DIFFERENTIATION CLAIM. It is true of all six cities in the same way, so it cannot justify six separate pages. Quoted language is Star's; Boise's PDS page is the corroborating source. Meridian's site returns 403 to automated fetch and its page has NOT been read — do not quote Meridian."
+    },
+    {
+      "id": "star-flood-zone-building-permit-question",
+      "claim": "The City of Star publishes guidance addressing whether a property in a flood zone can obtain a building permit.",
+      "quotedLanguage": "If My Property Is In a Flood Zone, Does That Mean I Cannot Obtain a Building Permit?",
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "flood",
+        "permits",
+        "planning"
+      ],
+      "sourceIds": [
+        "star-planning-zoning"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": false,
+      "verifiedOn": null,
+      "notes": "WITHHELD. Only the FAQ heading was captured, not the answer. The existence of the question suggests floodplain is a live issue in Star — which fits its position on the Boise River — but the answer must be read before anything is published. Do not infer the answer."
     }
   ]
 }
