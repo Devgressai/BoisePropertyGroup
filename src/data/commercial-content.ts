@@ -225,7 +225,7 @@ export const VALUATION: CommercialPageContent = {
   h1: "How commercial value is determined",
   eyebrow: "Valuation",
   description:
-    "Why a commercial building is valued on its income while a house is valued by comparison, and why the assessor's number answers a different question — a fixed date, a statutory tolerance band, and a five-year appraisal cycle.",
+    "Why a commercial building is valued on its income while a house is valued by comparison, why Idaho's non-disclosure rule removes the fallback, and why the assessor's number answers a different question.",
   intro: [
     "A homeowner can get within striking distance of their own number. A commercial owner usually cannot, and the reason is not that the information is being kept from them — it is that the method is different, and the input the method runs on is something only they hold.",
     "This page explains the method. It is not a valuation, and it does not tell you what your property is worth.",
@@ -245,6 +245,16 @@ export const VALUATION: CommercialPageContent = {
         "If value follows income, then the input to the valuation is the property's own operating performance — rent roll, actual collections, operating expenses, what is really leased versus what is on paper.",
         "There is no portal that publishes that. The only party who holds it is the owner. This is the genuine asymmetry in commercial property, and it runs the opposite way to the one people expect: the owner has the data and lacks the method, and everyone else has the method and lacks the data.",
         "It is also why a serious commercial conversation starts with documents rather than with a number. Anyone willing to give you a figure before seeing the income is not valuing your property. They are guessing, or they are anchoring you.",
+      ],
+    },
+    {
+      heading: "And the fallback is not available either: Idaho is a non-disclosure state",
+      body: [
+        "The obvious response is to go round the income question and look at what similar buildings sold for. In Idaho you generally cannot, and the reason is more interesting than secrecy.",
+        "Access to the record is total. Idaho law requires every book of record, map, chart, survey and other paper on file in the recorder's office to be open during office hours to any person who wishes to inspect it, without charge. Nothing is being withheld from you.",
+        "The price is simply not in the document. Idaho states what a conveyance must contain — a written instrument, subscribed by the party disposing of the property or an authorised agent, and the grantee's name and complete mailing address. The price is not among the required elements. You can read the deed in full and still not know what was paid.",
+        "County assessors describe the consequence in their own words. As Bonner County's assessor puts it, \"Since Idaho is a non-disclosure state, the Assessor's office depends heavily on the public to provide sales and cost information.\" Canyon County says the same thing. The people whose statutory job is to value every property in a county are, on this point, in a position not much better than yours: they ask, and hope people tell them.",
+        "There is a related asymmetry in what the public record does hold. Idaho's disclosure exemptions list what is always available from assessor records — owner name and mailing address, parcel number, legal description, square footage and acreage, the assessed value, the tax district and rate, the total property tax. A transaction price is not on that list. Which is why an owner can look up their own assessment in seconds and cannot look up what the building down the street actually sold for.",
       ],
     },
     {
@@ -273,6 +283,10 @@ export const VALUATION: CommercialPageContent = {
     "idaho-assessment-lien-date-statutory",
     "idaho-assessment-ratio-band-90-110",
     "idaho-appraisal-cycle-five-years",
+    "idaho-recorded-documents-are-public",
+    "idaho-deed-content-requirement-omits-price",
+    "idaho-is-a-non-disclosure-state",
+    "idaho-assessor-records-conditional-confidentiality",
   ],
 };
 

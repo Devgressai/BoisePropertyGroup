@@ -1,7 +1,9 @@
 {
   "url": "https://adminrules.idaho.gov/rules/current/58/580103.pdf",
-  "fetchedAt": "2026-09-10T05:03:57.630Z",
+  "fetchedAt": "2026-09-10T05:46:31.518Z",
   "status": 200,
   "finalUrl": "https://files.dfm.idaho.gov/dfm-admin-website/rules/current/58/580103.pdf",
-  "bytes": 511604
+  "contentType": "application/pdf",
+  "bytes": 529190,
+  "binary": true
 }

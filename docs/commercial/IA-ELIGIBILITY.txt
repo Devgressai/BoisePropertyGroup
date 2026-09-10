@@ -1,11 +1,11 @@
 COMMERCIAL IA ELIGIBILITY — computed from the registry, not decided in advance
 ==============================================================================
-approved commercial claims available: 30
+approved commercial claims available: 34
 
 ELIGIBLE TO BUILD
 ------------------------------------------------------------------------------
   Commercial acquisition overview
-    kind hub · 0 unique / 30 usable
+    kind hub · 0 unique / 34 usable
     A hub is a routing page. It is judged on whether the pages beneath it exist, never on unique claims.
 
   Industrial property — Boise
@@ -24,7 +24,7 @@ ELIGIBLE TO BUILD
       · census-multifamily-starts-at-two
 
   Why commercial property is valued on income
-    kind explainer · 5 unique / 8 usable
+    kind explainer · 9 unique / 12 usable
       · ada-commercial-assessment-uses-income
       · ada-assessment-market-value-jan-1-commercial
       · idaho-assessment-ratio-band-90-110
@@ -42,7 +42,7 @@ NOT ELIGIBLE
     ✗ G1 differentiation — 1 allocated of 8 matched, needs 3
 
   Lease rollover / income concentration  [situation]
-    ✗ G1 differentiation — 0 allocated of 8 matched, needs 3
+    ✗ G1 differentiation — 0 allocated of 10 matched, needs 3
 
   Vacancy in a special-purpose building  [situation]
     ✗ G1 differentiation — 2 allocated of 14 matched, needs 3
@@ -71,7 +71,7 @@ SIBLING OVERLAP — evidence that differentiates nobody
 HIERARCHY OVERLAP — resolved toward the less derived page
 ------------------------------------------------------------------------------
     7 claims — industrial-boise over situation-vacancy
-    5 claims — valuation-income over situation-lease-rollover
+    7 claims — valuation-income over situation-lease-rollover
     3 claims — multifamily-5plus over situation-lease-rollover, valuation-income
     1 claims — commercial-land over situation-vacancy
 

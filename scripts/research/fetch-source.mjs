@@ -16,24 +16,58 @@ const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 const CACHE = "data/idaho/raw/cache";
 mkdirSync(CACHE, { recursive: true });
 
-export function cachePathFor(url) {
-  return `${CACHE}/${createHash("sha1").update(url).digest("hex").slice(0, 16)}.html`;
+export function cachePathFor(url, ext = "html") {
+  return `${CACHE}/${createHash("sha1").update(url).digest("hex").slice(0, 16)}.${ext}`;
 }
 
 export async function fetchSource(url, { force = false } = {}) {
-  const path = cachePathFor(url);
-  if (existsSync(path) && !force) return { html: readFileSync(path, "utf8"), path, cached: true };
+  const htmlPath = cachePathFor(url);
+  const pdfPath = cachePathFor(url, "pdf");
+  if (!force) {
+    if (existsSync(pdfPath)) return { html: "", path: pdfPath, cached: true, binary: true };
+    if (existsSync(htmlPath)) return { html: readFileSync(htmlPath, "utf8"), path: htmlPath, cached: true };
+  }
   const res = await fetch(url, {
-    headers: { "User-Agent": UA, "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9" },
+    headers: {
+      "User-Agent": UA,
+      Accept: "text/html,application/xhtml+xml,application/pdf,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+    },
     redirect: "follow",
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+
+  /**
+   * BINARY RESPONSES MUST NOT GO THROUGH res.text().
+   *
+   * This used to call res.text() unconditionally. For a PDF that decodes the
+   * binary stream as UTF-8 and silently destroys it — the file lands in the
+   * cache, looks fetched, and extracts ZERO characters. Two PDFs were cached
+   * that way and neither is readable. A corrupted artifact is worse than a
+   * missing one: the audit sees a file and is satisfied, so the claim it
+   * supports looks verified when nothing verifiable exists.
+   */
+  const contentType = (res.headers.get("content-type") ?? "").toLowerCase();
+  const isText = /^(text\/|application\/(json|xml|xhtml))/.test(contentType) || contentType === "";
+  if (!isText) {
+    const bytes = Buffer.from(await res.arrayBuffer());
+    const ext = contentType.includes("pdf") ? "pdf" : "bin";
+    const path = cachePathFor(url, ext);
+    writeFileSync(path, bytes);
+    writeFileSync(cachePathFor(url, "meta.json"), JSON.stringify({
+      url, fetchedAt: new Date().toISOString(), status: res.status, finalUrl: res.url,
+      contentType, bytes: bytes.length, binary: true,
+    }, null, 2));
+    return { html: "", path, cached: false, binary: true };
+  }
+
   const html = await res.text();
-  writeFileSync(path, html);
-  writeFileSync(path.replace(/\.html$/, ".meta.json"), JSON.stringify({
-    url, fetchedAt: new Date().toISOString(), status: res.status, finalUrl: res.url, bytes: html.length,
+  writeFileSync(htmlPath, html);
+  writeFileSync(cachePathFor(url, "meta.json"), JSON.stringify({
+    url, fetchedAt: new Date().toISOString(), status: res.status, finalUrl: res.url,
+    contentType, bytes: html.length,
   }, null, 2));
-  return { html, path, cached: false };
+  return { html, path: htmlPath, cached: false };
 }
 
 /** Strip scripts/styles/markup and collapse whitespace into readable lines. */

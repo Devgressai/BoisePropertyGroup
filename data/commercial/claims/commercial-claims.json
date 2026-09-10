@@ -642,8 +642,8 @@
       "temporalStatus": "CURRENT",
       "approvedForPublication": false,
       "verifiedOn": null,
-      "verificationFlag": "NEGATIVE_CLAIM_REQUIRES_EXHAUSTIVE_SEARCH",
-      "notes": "🚨 WITHHELD. This is potentially the single most valuable fact in the entire commercial vertical — if Idaho sale prices are not public record, commercial comparables are structurally unavailable to an owner, which explains WHY a seller cannot self-serve a valuation and reframes the whole proposition. But it is a NEGATIVE claim ('no statute requires X'), and proving a negative from two sections plus one dead bill is not sufficient. A search of 63-307 and the Chapter 3 index is not a search of the whole code. BEFORE PUBLISHING: search Title 63 exhaustively for any disclosure or transfer-declaration requirement, check Title 55 conveyancing, and reconcile against the Ada County Assessor's own statement that commercial assessments use 'market sales' data — if prices are not disclosed, the Assessor must obtain sales some other way, and how they do it is itself the most citable part of this story."
+      "verificationFlag": "SUPERSEDED_BY_AFFIRMATIVE_CLAIMS",
+      "notes": "🚨 WITHHELD. This is potentially the single most valuable fact in the entire commercial vertical — if Idaho sale prices are not public record, commercial comparables are structurally unavailable to an owner, which explains WHY a seller cannot self-serve a valuation and reframes the whole proposition. But it is a NEGATIVE claim ('no statute requires X'), and proving a negative from two sections plus one dead bill is not sufficient. A search of 63-307 and the Chapter 3 index is not a search of the whole code. BEFORE PUBLISHING: search Title 63 exhaustively for any disclosure or transfer-declaration requirement, check Title 55 conveyancing, and reconcile against the Ada County Assessor's own statement that commercial assessments use 'market sales' data — if prices are not disclosed, the Assessor must obtain sales some other way, and how they do it is itself the most citable part of this story. ✅ SUPERSEDED 2026-09-10 and permanently retired, not resurrected. It was framed as a negative — 'no statute requires disclosure' — which cannot be proven by reading a handful of sections, and so it sat withheld while being the most valuable fact we held. The fix was to stop trying to prove the negative: idaho-recorded-documents-are-public, idaho-deed-content-requirement-omits-price, idaho-is-a-non-disclosure-state and idaho-assessor-records-conditional-confidentiality say the same thing affirmatively, each from a source that states it directly. Keep this row as the record of why negative claims are a trap."
     },
     {
       "id": "gse-multifamily-more-than-four",
@@ -1006,6 +1006,132 @@
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
       "notes": "MATERIALLY IMPORTANT AND EASY TO MISS. County commercial and industrial zoning is written around city AREAS OF IMPACT — the county is not planning a parallel industrial economy, it is holding ground that a city's comprehensive plan expects to absorb. For an owner of unincorporated commercial or industrial ground this shapes what is realistically permitted and what happens on annexation. The identical purpose language repeats verbatim across LO, C1, C2, M1, M2 and M3, so this is a structural feature of the code rather than a quirk of one district. ⚠️ Says nothing about whether any particular parcel WILL be annexed, and nothing about timing."
+    },
+    {
+      "id": "idaho-recorded-documents-are-public",
+      "claim": "Idaho county recorder records are fully open. Every book of record, map, chart, survey and other paper on file must be open during office hours to any person who wishes to inspect it, without charge.",
+      "quotedLanguage": "All books of record, maps, charts, surveys and other papers on file in the recorder's office, must, during office hours, be open for the inspection of any person who may desire to inspect them, and may be inspected without charge",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "disclosure",
+        "valuation",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "idaho-code-31-2419"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "ESSENTIAL CONTEXT, and it must be published ALONGSIDE the non-disclosure claim rather than instead of it. The barrier in Idaho is not secrecy and not access — access is total and free. The price simply is not in the document. Publishing 'Idaho hides sale prices' would be wrong and would also miss what is actually interesting."
+    },
+    {
+      "id": "idaho-deed-content-requirement-omits-price",
+      "claim": "Idaho states what a conveyance of real property must contain: a written instrument, subscribed by the party disposing of the property or an authorised agent, and the grantee's name and complete mailing address. The price is not among the required elements.",
+      "quotedLanguage": "A conveyance of an estate in real property may be made by an instrument in writing, subscribed by the party disposing of the same, or by his agent thereunto authorized by writing. The name of the grantee and his complete mailing address must appear on such instrument.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "disclosure",
+        "valuation",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "idaho-code-55-601"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "⚠️ WORDING IS LOAD-BEARING. The statute is SILENT on price — it neither requires nor forbids stating one. The affirmative, provable fact is only that price is not among the elements the statute requires. Never write that Idaho deeds 'do not state' or 'may not state' a price; that is an inference the statute does not support, and some deeds do recite consideration. This is the affirmative route around what was previously an unprovable negative claim."
+    },
+    {
+      "id": "idaho-is-a-non-disclosure-state",
+      "claim": "Idaho is a non-disclosure state. County assessors say so in their own words and describe the consequence: they depend on the public to volunteer sales information when property changes hands, because no law requires it to be reported.",
+      "quotedLanguage": "Since Idaho is a non-disclosure state, the Assessor's office depends heavily on the public to provide sales and cost information.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "disclosure",
+        "valuation",
+        "assessment",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "bonner-county-assessor",
+        "canyon-county-assessor-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "🎯 THE SINGLE MOST VALUABLE FACT IN THIS VERTICAL, and it took converting an unprovable negative into an affirmative one to publish it. It was withheld for days as 'no statute requires disclosure' — a negative that cannot be proven from reading a few sections. The route through was to stop trying: two county assessors state the characterisation affirmatively, in their own words, and describe the operational consequence. ⚠️ The quoted wording is BONNER County's; Canyon County's is near-identical but says 'sales information when property is bought and sold'. ⚠️ NEITHER IS ADA COUNTY. They are cited for a statewide characterisation of Idaho law, which is what they assert. Ada County's own assessor pages do not use the phrase. ⚠️ Always publish with idaho-recorded-documents-are-public: access to the record is total and free; the price is simply not in it."
+    },
+    {
+      "id": "idaho-assessor-records-conditional-confidentiality",
+      "claim": "Idaho exempts certain assessor records from public disclosure, including confidential commercial or financial information, but the exemption is not automatic: the taxpayer must claim it by stamping or marking the documents. The information that is always disclosable includes the owner's name and mailing address, the parcel number, the legal description, square footage and acreage, the assessed value, the tax district and rate, and the total property tax.",
+      "quotedLanguage": "it shall be the responsibility of the taxpayer to give notice of its claim to exemption by stamping or marking each page or the first page of each portion of documents so claimed",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "disclosure",
+        "assessment",
+        "valuation"
+      ],
+      "sourceIds": [
+        "idaho-code-74-107"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "⚠️ MEDIUM on purpose, and it must never be flattened into 'sale prices are confidential in Idaho'. This exemption is CONDITIONAL — it depends on a taxpayer actively claiming it — and it covers commercial and financial information in assessor records, not sale prices as such. Its real value is the contrast in the always-disclosable list: ASSESSED VALUE is public, and a transaction price is not on the list at all. That is why an owner can look up their assessment in seconds and cannot look up what the building down the street sold for."
     }
   ]
 }

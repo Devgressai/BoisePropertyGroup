@@ -1088,6 +1088,141 @@ export const commercialClaims: CommercialClaim[] = [
         "tier": 1
       }
     ]
+  },
+  {
+    "id": "idaho-recorded-documents-are-public",
+    "claim": "Idaho county recorder records are fully open. Every book of record, map, chart, survey and other paper on file must be open during office hours to any person who wishes to inspect it, without charge.",
+    "quote": "All books of record, maps, charts, surveys and other papers on file in the recorder's office, must, during office hours, be open for the inspection of any person who may desire to inspect them, and may be inspected without charge",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "disclosure",
+      "valuation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Idaho Code § 31-2419 — Records open to inspection",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title31/T31CH24/SECT31-2419/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-deed-content-requirement-omits-price",
+    "claim": "Idaho states what a conveyance of real property must contain: a written instrument, subscribed by the party disposing of the property or an authorised agent, and the grantee's name and complete mailing address. The price is not among the required elements.",
+    "quote": "A conveyance of an estate in real property may be made by an instrument in writing, subscribed by the party disposing of the same, or by his agent thereunto authorized by writing. The name of the grantee and his complete mailing address must appear on such instrument.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "disclosure",
+      "valuation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-601 — Conveyance — how made",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title55/T55CH6/SECT55-601/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-is-a-non-disclosure-state",
+    "claim": "Idaho is a non-disclosure state. County assessors say so in their own words and describe the consequence: they depend on the public to volunteer sales information when property changes hands, because no law requires it to be reported.",
+    "quote": "Since Idaho is a non-disclosure state, the Assessor's office depends heavily on the public to provide sales and cost information.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "disclosure",
+      "valuation",
+      "assessment",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Property Assessments and Records",
+        "url": "https://www.bonnercountyid.gov/departments/Assessor/PROPERTYASSESSMENTSRECORDS",
+        "publisher": "Bonner County Assessor",
+        "tier": 2
+      },
+      {
+        "title": "Assessor FAQ",
+        "url": "https://www.canyoncounty.id.gov/elected-officials/assessor/assessor-faq/",
+        "publisher": "Canyon County Assessor",
+        "tier": 2
+      }
+    ]
+  },
+  {
+    "id": "idaho-assessor-records-conditional-confidentiality",
+    "claim": "Idaho exempts certain assessor records from public disclosure, including confidential commercial or financial information, but the exemption is not automatic: the taxpayer must claim it by stamping or marking the documents. The information that is always disclosable includes the owner's name and mailing address, the parcel number, the legal description, square footage and acreage, the assessed value, the tax district and rate, and the total property tax.",
+    "quote": "it shall be the responsibility of the taxpayer to give notice of its claim to exemption by stamping or marking each page or the first page of each portion of documents so claimed",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "disclosure",
+      "assessment",
+      "valuation"
+    ],
+    "confidence": "MEDIUM",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Idaho Code § 74-107 — Records exempt from disclosure — Trade secrets, personal records, personnel records, and other records",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH1/SECT74-107/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
   }
 ];
 

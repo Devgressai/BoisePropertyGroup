@@ -725,6 +725,158 @@
       "stalenessRisk": "LOW — a dated record of a past action.",
       "claimsSupported": [],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idaho-code-31-2419",
+      "title": "Idaho Code § 31-2419 — Records open to inspection",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title31/T31CH24/SECT31-2419/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "valuation",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-01",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — primary statute read from the Legislature's own site and cached.",
+      "stalenessRisk": "LOW — changes only by amendment.",
+      "claimsSupported": [
+        "idaho-recorded-documents-are-public"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idaho-code-55-601",
+      "title": "Idaho Code § 55-601 — Conveyance — how made",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title55/T55CH6/SECT55-601/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "valuation",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-01",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — primary statute read from the Legislature's own site and cached.",
+      "stalenessRisk": "LOW — changes only by amendment.",
+      "claimsSupported": [
+        "idaho-deed-content-requirement-omits-price"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idaho-code-74-107",
+      "title": "Idaho Code § 74-107 — Records exempt from disclosure — Trade secrets, personal records, personnel records, and other records",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH1/SECT74-107/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "valuation",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-01",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — primary statute read from the Legislature's own site and cached.",
+      "stalenessRisk": "LOW — changes only by amendment.",
+      "claimsSupported": [
+        "idaho-assessor-records-conditional-confidentiality"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "canyon-county-assessor-faq",
+      "title": "Assessor FAQ",
+      "publisher": "Canyon County Assessor",
+      "organizationType": "county-government",
+      "url": "https://www.canyoncounty.id.gov/elected-officials/assessor/assessor-faq/",
+      "sourceTier": 2,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "valuation",
+        "disclosure",
+        "assessment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — an Idaho county assessor describing Idaho's disclosure regime in its own words. NOT Ada County. Cited for a statewide characterisation of Idaho law, which is what it is; it says nothing specific to Ada County practice.",
+      "stalenessRisk": "MEDIUM — a departmental page can be rewritten without notice.",
+      "claimsSupported": [
+        "idaho-is-a-non-disclosure-state"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "bonner-county-assessor",
+      "title": "Property Assessments and Records",
+      "publisher": "Bonner County Assessor",
+      "organizationType": "county-government",
+      "url": "https://www.bonnercountyid.gov/departments/Assessor/PROPERTYASSESSMENTSRECORDS",
+      "sourceTier": 2,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "valuation",
+        "disclosure",
+        "assessment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — an Idaho county assessor describing Idaho's disclosure regime in its own words. NOT Ada County. Cited for a statewide characterisation of Idaho law, which is what it is; it says nothing specific to Ada County practice.",
+      "stalenessRisk": "MEDIUM — a departmental page can be rewritten without notice.",
+      "claimsSupported": [
+        "idaho-is-a-non-disclosure-state"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

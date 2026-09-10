@@ -5,7 +5,7 @@
  * which is exactly what happened to Sierra's fact layer, where every fact in
  * the store ended up citing Sierra itself and nothing noticed.
  */
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync, existsSync } from "node:fs";
 
 const read = (p) => JSON.parse(readFileSync(p, "utf8"));
 const sources = read("data/idaho/sources/ada-county-sources.json").sources;
@@ -123,5 +123,31 @@ for (const st of statistics.filter((s) => s.sourceId === "ada-compass-demographi
 console.log(`sources ${sources.length} · claims ${claims.length} · entities ${entities.length} · statistics ${statistics.length}`);
 console.log(`approved claims: ${claims.filter((c) => c.approvedForPublication).length}`);
 if (warnings.length) { console.log(`\nWARNINGS (${warnings.length}):`); for (const w of warnings) console.log(`  ! ${w}`); }
+/**
+ * A cached artifact must be what its extension says it is.
+ *
+ * fetch-source.mjs used to call res.text() unconditionally, which decodes a
+ * PDF's binary stream as UTF-8 and destroys it. The file still landed in the
+ * cache looking fetched, and extracted ZERO characters. That is worse than a
+ * missing file: an audit sees an artifact and is satisfied, so a claim looks
+ * verified when nothing verifiable exists. Two PDFs were cached that way; no
+ * published claim happened to depend on them, which was luck rather than
+ * design. Hence this check.
+ */
+{
+  const CACHE_DIR = "data/idaho/raw/cache";
+  const MAGIC = [["%PDF", "PDF"], ["PK\u0003\u0004", "ZIP/OOXML"], ["\u0089PNG", "PNG"]];
+  if (existsSync(CACHE_DIR)) {
+    for (const f of readdirSync(CACHE_DIR).filter((x) => x.endsWith(".html"))) {
+      const head = readFileSync(`${CACHE_DIR}/${f}`, "latin1").slice(0, 8);
+      for (const [magic, kind] of MAGIC) {
+        if (head.startsWith(magic))
+          errors.push(`${f} is a ${kind} cached as .html — its bytes are corrupted, re-fetch it`);
+      }
+    }
+  }
+}
+
 if (errors.length) { console.log(`\nERRORS (${errors.length}):`); for (const e of errors) console.log(`  ✗ ${e}`); process.exit(1); }
+
 console.log("\nEVIDENCE INTEGRITY: PASS");

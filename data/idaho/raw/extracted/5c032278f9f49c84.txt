@@ -1,0 +1,1551 @@
+         IDAPA 58 – IDAHO DEPARTMENT OF ENVIRONMENTAL QUALITY
+                             Surface and Wastewater Division
+               58.01.03 – Individual/Subsurface Sewage Disposal Rules
+                        and Rules for Cleaning of Septic Tanks
+
+
+To whom does this rule apply?
+This rule applies to individual land and home owners who wish to install or operate individual
+septic systems to treat and dispose of sewage via a subsurface sewage disposal system and every
+individual subsurface blackwaste and wastewater treatment system in Idaho.
+
+What is the purpose of this rule?
+This rule establishes limitations on the construction and use of individual and subsurface sewage
+disposal systems and establishes the requirements for obtaining an installation permit and an
+installer’s registration permit.
+
+What is the legal authority for the agency to promulgate this rule?
+This rule implements the following statutes passed by the Idaho Legislature:
+
+Health and Safety:
+• Chapter 1, Title 39, Idaho Code – Environmental Quality
+• Chapter 36, Title 39, Idaho Code – Water Quality
+
+Who do I contact for more information on this rule?
+
+James Craft
+Department of Environmental Quality
+1410 N. Hilton
+Boise, ID 83706
+Phone: (208) 373-0488
+Email:james.craft@deq.idaho.gov
+www.deq.idaho.gov
+
+
+
+
+This rule chapter will be reviewed in compliance with Section 67-5292, Idaho Code,
+        and in accordance with the 8-year rule review schedule linked here.
+                    Tab l e o f C o n t e n t s
+
+58.01.03 – Individual/Subsurface Sewage Disposal Rules and Rules for Cleaning
+            of Septic Tanks
+      000. Legal Authority. ................................................................................................. 3
+      001. Scope, Conflict, And Responsibilities. .............................................................. 3
+      002. Referenced Material. ......................................................................................... 3
+      003. Definitions. ........................................................................................................ 3
+      004. General Requirements. ..................................................................................... 6
+      005. Permit And Permit Application. ......................................................................... 7
+      006. Registration Permits for Installers and Service Providers. .............................. 10
+      007. Septic Tanks Design And Construction Standards. ........................................ 12
+      008. Standard Subsurface Disposal Facility Design And Construction. ................. 16
+      009. Other Components. ......................................................................................... 19
+      010. Variances. ....................................................................................................... 21
+      011. Inspections. ..................................................................................................... 22
+      012. Violations And Penalties. ................................................................................ 23
+      013. LSAS. .............................................................................................................. 23
+      014. -- 049. (Reserved) ............................................................................................ 26
+      050. Septic Tank Cleaning. ..................................................................................... 26
+      051. -- 995. (Reserved) ............................................................................................ 27
+      996. Administrative Provisions. ............................................................................... 27
+      997. -- 999. (Reserved) ........................................................................................... 27
+
+
+
+
+                                                       Page 2
+                   58.01.03 – INDIVIDUAL/SUBSURFACE SEWAGE DISPOSAL RULES
+                            AND RULES FOR CLEANING OF SEPTIC TANKS
+
+
+000.      LEGAL AUTHORITY.
+Title 39, Chapter 1 and Title 39, Chapter 36, Idaho Code.                                                         (7-1-25)
+
+001.     SCOPE, CONFLICT, AND RESPONSIBILITIES.
+
+         01.      Scope. These rules:                                                                             (7-1-25)
+
+         a.       Establish limits on the construction and use of individual and subsurface sewage disposal systems;
+                                                                                                             (7-1-25)
+
+         b.       Establish requirements for obtaining an installation permit and registration permits for installers,
+service providers, and pumpers;                                                                              (7-1-25)
+
+         c.       Apply to every individual and every subsurface blackwaste and wastewater treatment system in
+Idaho; and                                                                                            (7-1-25)
+
+         d.       Establish general requirements for handling, transportation, and disposal of septic tank wastes.
+                                                                                                              (7-1-25)
+
+           02.     Conflict of Rules, Standards, and Ordinances. Where a provision of these rules conflicts with a
+provision of any state or local zoning, building, fire, safety, or health regulation, standard, or ordinance, the provision
+that, in the Director’s judgment, establishes the higher standard for promoting and protecting the health and safety of
+the people prevails.                                                                                               (7-1-25)
+
+         03.      Responsibilities.                                                                             (3-31-22)
+
+         a.       Every owner of real property is jointly and individually responsible for:                     (3-31-22)
+
+         i.       Storing, treating, and disposing of blackwaste and wastewater generated on that property.
+                                                                                                                (3-31-22)
+
+        ii.      Connecting all plumbing fixtures on the property that discharge wastewaters to an approved
+wastewater system or facility.                                                                      (7-1-25)
+
+        iii.     Obtaining necessary permits and approvals for installing individual or subsurface blackwaste and
+wastewater disposal systems.                                                                             (7-1-25)
+
+         iv.      Abandoning an individual or subsurface sewage disposal system.                                  (7-1-25)
+
+          b.       Each engineer, building contractor, individual or subsurface disposal system installer, excavator,
+plumber, supplier, and any person, who designs, constructs, abandons, or provides any system or component, is
+jointly and individually responsible for compliance with all rules relevant to that service or product.      (7-1-25)
+
+002.     REFERENCED MATERIAL.
+
+        01.      NSF International. The NSF International (NSF) NSF/ANSI 40: Residential Onsite Systems and
+NSF/ANSI 245: Nitrogen Reduction are referenced and are available at www.nsf.org/services/by-industry/water-
+wastewater/onsite-wastewater.                                                                       (7-1-25)
+
+        02.     Technical Guidance Manual for Individual Subsurface Sewage Disposal Systems (TGM). The
+TGM is referenced and available at Department of Environmental Quality, 1410 N. Hilton St., Boise, ID 83706.
+                                                                                                         (7-1-25)
+
+003.     DEFINITIONS.
+The terms “Department,” “Director,” and “Waters” are defined in Section 39-103, Idaho Code. The term “Ground
+water” (Groundwater) is defined in Section 39-121, Idaho Code.                                       (7-1-25)
+
+         01.      Abandoned System. A system that no longer receives blackwaste or wastewater due to diversion
+to another treatment system or due to termination of waste flow for more than two (2) years.          (7-1-25)
+
+
+
+Section 000                                              Page 3
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+         02.      Absorption Bed. A drainfield excavation exceeding six (6) feet in width.                    (7-1-25)
+
+        03.       Alternative System. Any system other than a standard system for which the Department has issued
+design guidelines or the Director determines is a modification of a standard system.                     (7-1-25)
+
+         a.       A basic alternative system is any capping fill system, extra drainrock trench, gravelless trench
+system, steep-slope system, or other system specified in the TGM.                                         (7-1-25)
+
+         b.        A complex alternative system is any evapotranspiration system, ETPS, lagoon system, LSAS,
+pressure distribution system, PWTP system, intermittent sand filter, sand mound, or other system specified in the
+TGM.                                                                                                     (7-1-25)
+
+         04.      Bedroom. A habitable room within a dwelling that meets state or local building code requirements
+applicable to bedrooms and includes methods of ingress and egress. The local building authority may designate any
+additional room as a bedroom.                                                                             (7-1-25)
+
+         05.      Blackwaste. As defined in IDAPA 58.01.16, Wastewater Rules.                                 (7-1-25)
+
+         06.      Blackwater. As defined in IDAPA 58.01.16, Wastewater Rules.                                 (7-1-25)
+
+         07.      Building Sewer. The extension of the building drain beginning five (5) feet outside the inner face
+of the building wall.                                                                                      (3-31-22)
+
+        08.       Central System. Any system that receives blackwaste or wastewater in volumes exceeding twenty-
+five hundred (2,500) gallons per day; any system that receives blackwaste or wastewater from more than two (2)
+dwelling units or more than two (2) buildings under separate ownership.                                 (7-1-25)
+
+         09.      Construct. To make, form, excavate, alter, expand, repair, or install a system.             (7-1-25)
+
+         10.      Drainfield. A system of aggregate-filled trenches, gravelless chamber systems, drip systems,
+absorption beds, or other approved subsurface dispersal methods that distribute wastewater effluent into the soil. Also
+known as a “leachfield” or “soil absorption system.”                                                          (7-1-25)
+
+         11.      Dwelling Unit. A single unit with complete independent living facilities for one (1) or more
+persons, including permanent improvements for living, sleeping, eating, cooking, and sanitation.       (7-1-25)
+
+         12.      Existing System. Any system installed before the effective date of these rules.             (7-1-25)
+
+         13.      Expand. To enlarge any nonfailing system.                                                  (3-31-22)
+
+          14.      Extended Treatment Package System (ETPS). A wastewater treatment product that requires
+electricity and provides secondary or tertiary wastewater treatment to septic tank effluent for systems receiving less
+than twenty-five hundred (2,500) gallons per day.                                                            (7-1-25)
+
+         15.      Failing System. Any system that exhibits one (1) or more of the following characteristics: (7-1-25)
+
+         a.       Does not meet the intent stated in Subsection 004.01.                                       (7-1-25)
+
+         b.       Fails to accept blackwaste and wastewater; or                                               (7-1-25)
+
+         c.       Discharges blackwaste or wastewater into the waters or onto the ground surface.             (7-1-25)
+
+         16.      Gray Water. As defined in IDAPA 58.01.16, Wastewater Rules.                                 (7-1-25)
+
+          17.      High Groundwater Level -- Normal, Seasonal. High groundwater level may be established by
+the soil characteristics, actual groundwater monitoring, or historic records.                      (7-1-25)
+
+
+
+Section 003                                            Page 4
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+        a.      Normal high groundwater level is the highest elevation of groundwater that is maintained or
+exceeded continuously for six (6) weeks a year.                                                    (7-1-25)
+
+        b.      The seasonal high groundwater level is the highest elevation of groundwater that is maintained or
+exceeded continuously for one (1) week a year.                                                           (7-1-25)
+
+          18.     Individual System. Any standard, alternative, or subsurface disposal system that is not a central
+system.                                                                                                   (7-1-25)
+
+          19.     Install. To excavate or put in place a system or component of a system.                     (7-1-25)
+
+         20.      Installer. Any person, corporation, or firm engaged in the business of excavation or construction of
+individual or subsurface sewage disposal systems in the State.                                               (7-1-25)
+
+         21.      Large Soil Absorption System (LSAS). A subsurface sewage disposal system designed to receive
+two thousand five hundred (2,500) gallons of wastewater or more per day, including where the total wastewater flow
+from the entire proposed project exceeds two thousand five hundred (2,500) gallons per day, but is separated into
+absorption modules that receive less than two thousand five hundred (2,500) gallons per day.              (7-1-25)
+
+         22.    Limiting Layer. A subsurface layer or material that severely limits the capability of the soil to treat
+or absorb wastewater including, but not limited to, water tables, fractured bedrock, excessively permeable material,
+and impermeable material.                                                                                    (7-1-25)
+
+          23.     Manufactured Medium Sand. Sand that meets the following gradation requirements:
+
+                    Manufactured medium sand allowable particle size percent composition.
+
+                        Sieve Size                               Passing (%)
+
+                             4                                     95–100
+                             8                                     80–100
+                             16                                     50–85
+                             30                                     25–60
+                             50                                     10–30
+                            100                                      2–10
+                            200                                       <2
+                                                                                                             (3-31-22)
+
+          24.     Minimum Tank Capacity. The minimum required total liquid capacity of the septic tank facility.
+                                                                                                        (7-1-25)
+
+          25.     New System. A system that is or might be approved on or after the effective date of these rules.
+                                                                                                             (7-1-25)
+
+        26.      Nondischarging System. Any system designed and constructed to prevent subsurface discharge of
+blackwaste or wastewater.                                                                             (7-1-25)
+
+          27.     Pollutants. As defined in IDAPA 58.01.16, Wastewater Rules.                                 (7-1-25)
+
+         28.      Proprietary Wastewater Treatment Product (PWTP). A manufactured product that provides
+passive treatment to septic tank effluent for systems receiving less than twenty-five hundred (2,500) gallons per day.
+                                                                                                              (7-1-25)
+
+
+Section 003                                            Page 5
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+          29.      Repair. To remake, reform, replace, or enlarge a failing system, or any component as is necessary
+to restore proper operation.                                                                                (7-1-25)
+
+         30.      Scarp. The side of a hill, canyon, ditch, river bank, roadcut, or other geological feature
+characterized by a slope of forty-five (45) degrees (100% slope) or more from the horizontal.       (7-1-25)
+
+         31.       Septic Tank. A watertight, covered receptacle designed and constructed to receive wastewater
+discharge, separate solids from liquid, digest organic matter, store digested solids through a period of detention, and
+allow clarified liquids to discharge for final disposal.                                                       (7-1-25)
+
+        32.       Septic Tank Facility. A septic tank or series of septic tanks preceding a subsurface disposal
+system. Tanks or compartments used for housing pretreatment products or used as dosing chambers are not
+considered part of the septic tank facility.                                                           (7-1-25)
+
+         33.      Septage. As defined in IDAPA 58.01.16, Wastewater Rules.                                     (7-1-25)
+
+        34.      Service Provider. Any person, corporation, or firm engaged in the business of providing operation,
+maintenance, and monitoring of complex alternative systems in the state of Idaho.                        (3-31-22)
+
+         35.      Sewage. As defined in IDAPA 58.01.16, Wastewater Rules.                                      (7-1-25)
+
+        36.       Standard System. An effluent sewer, one (1) or more aggregate filled trenches, and a gravity flow
+wastewater distribution system.                                                                            (7-1-25)
+
+         37.      Subsurface Disposal System. Any system with a point of discharge beneath the earth’s surface.
+                                                                                                         (7-1-25)
+
+         38.      Surface Water - Intermittent, Permanent, Temporary.                                         (3-31-22)
+
+         a.       Any waters including but not limited to, lakes, streams, canals, and ditches.                (7-1-25)
+
+        b.        Intermittent surface water exists continuously for more than two (2) months but not more than six
+(6) months a year.                                                                                        (7-1-25)
+
+         c.       Permanent surface water exists continuously for more than six (6) months a year.             (7-1-25)
+
+         d.       Temporary surface water exists continuously for less than two (2) months a year.             (7-1-25)
+
+         39.       System. Beginning at the point of entry, physically connected piping, treatment devices,
+receptacles, structures, or areas of land designed, used or dedicated to convey, store, stabilize, neutralize, treat, or
+dispose of blackwaste or wastewater.                                                                           (7-1-25)
+
+         40.      Trench. A drainfield excavation six (6) feet or less in width.                               (7-1-25)
+
+         41.      Wastewater. As defined in IDAPA 58.01.16, Wastewater Rules.                                  (7-1-25)
+
+004.     GENERAL REQUIREMENTS.
+
+        01.      Intent of Rules. The Idaho Board of Environmental Quality, to protect the health, safety, and
+environment of the people of the state of Idaho establishes these rules governing the design, construction, siting and
+abandonment of individual and subsurface sewage disposal systems. These rules are intended to ensure that
+blackwastes and wastewater generated in the state of Idaho are safely contained and treated and that blackwaste and
+wastewater contained in or discharged from each system:                                                       (7-1-25)
+
+         a.       Are not accessible to insects, rodents, or other wild or domestic animals;                  (3-31-22)
+
+         b.       Are not accessible to individuals;                                                          (3-31-22)
+
+
+Section 004                                             Page 6
+IDAHO ADMINISTRATIVE CODE                                     IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                               Disposal & Cleaning of Septic Tanks Rules
+
+
+          c.      Do not create a public nuisance due to odor or unsightly appearance;                          (7-1-25)
+
+          d.      Do not injure or interfere with existing or potential beneficial uses of the waters; and      (7-1-25)
+
+          e.      Do not have an adverse impact on public health or the environment.                            (7-1-25)
+
+         02.      Compliance with Intent. The Director will not authorize or approve any system if, in the
+Director’s opinion, the system will not (does not) comply with the intent of these rules.         (7-1-25)
+
+         03.     System Limitations. Cooling water, backwash or backflush water, hot tub or spa water, air
+conditioning water, water softener brine, groundwater, oil, roof drainage, or other substances detrimental to the
+system’s performance or to groundwater quality cannot be discharged into any system unless that discharge is
+approved by the Director.                                                                                (7-1-25)
+
+         04.     Increased Flows. Unless authorized by the Director, it is unlawful for any person to provide for or
+connect additional blackwaste or wastewater sources to any system if the resulting flow or volume would exceed the
+approved design flow of the system.                                                                        (7-1-25)
+
+          05.     Failing System. The owner of any failing system must obtain a permit and repair the failing
+system:                                                                                             (7-1-25)
+
+          a.      As soon as practical after the owner becomes aware of its failure; or                        (3-31-22)
+
+          b.      As directed with proper notice from the Director.                                             (7-1-25)
+
+         06.     Subsurface Disposal System Replacement Area. An area of land suitable for the complete
+replacement of a new subsurface disposal system disposal field must be reserved as a replacement area. This area
+must be kept vacant, free of vehicular traffic, and free of any soil modification that would negatively affect its use as
+a replacement disposal field construction site.                                                                 (7-1-25)
+
+         07.      Technical Guidance Committee (TGC). The Director appoints a TGC composed of three (3)
+representatives from the seven (7) health districts, one (1) representative from the Department, one (1) professional
+engineer licensed in the state of Idaho and one (1) licensed installer. Appointments to vacancies are three (3) year
+terms.                                                                                                       (7-1-25)
+
+         08.    TGC Duties. The TGC maintains the TGM used in the design, construction, alteration, operation,
+and maintenance of conventional systems, their components, and alternatives. The TGC reviews variance requests
+and commercially manufactured wastewater treatment components and systems at the request of the Director and
+provides recommendations.                                                                             (7-1-25)
+
+         09.    TGM. The TGM maintained by the TGC provides technical guidance on alternative sewage
+disposal components and systems, soil type determination methodology, and other information pertinent to the best
+management practices of individual and subsurface sewage disposal.                                      (7-1-25)
+
+         10.      Alternative System. If a standard system cannot be installed on a parcel of land, an alternative
+system may be permitted if that system is installed in accordance with the TGC’s recommendations and is approved
+by the Director as stated in Section 009.                                                                 (7-1-25)
+
+005.      PERMIT AND PERMIT APPLICATION.
+
+          01.      Permit Required. Except as specified in Subsection 005.02 no person may modify, repair or
+expand or install any individual or subsurface sewage disposal system within the state of Idaho unless there is a valid
+installation permit authorizing that activity.                                                                (7-1-25)
+
+        02.       Permit Exceptions. The activities listed in this subsection may be lawfully performed in the
+absence of a valid installation permit but are subject to all other relevant rules and regulations.   (7-1-25)
+
+
+Section 005                                             Page 7
+IDAHO ADMINISTRATIVE CODE                                   IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                             Disposal & Cleaning of Septic Tanks Rules
+
+
+         a.       Portable nondischarging systems may be installed as temporary blackwaste or wastewater systems
+if properly maintained and of a design approved by the Director.                                        (7-1-25)
+
+         b.       Individual and subsurface disposal systems may be repaired when needed due to clogged or broken
+solid piping or malfunctions in an electrical or mechanical system. Repairs may not expand the system unless
+authorized by the Director.                                                                              (7-1-25)
+
+         03.       Permit Application. The owner of the system or their authorized representative must submit the
+application to the Director in an approved form.                                                         (7-1-25)
+
+        04.      Application Contents. Information required in the application may include, but is not limited to:
+                                                                                                           (7-1-25)
+
+        a.       Name and address of the owner of the system and of the applicant, if different;            (7-1-25)
+
+        b.       Legal description of the parcel of land;                                                   (7-1-25)
+
+        c.       Type of establishment served;                                                              (7-1-25)
+
+        d.       Maximum number of persons served, number of bedrooms, or other appropriate measure of
+wastewater flow;                                                                              (7-1-25)
+
+        e.       Type of system;                                                                            (7-1-25)
+
+        f.       Construction activity (new construction, enlargement, repair);                             (7-1-25)
+
+        g.       Scaled or dimensioned plot plan including, if needed, adjacent properties illustrating:    (7-1-25)
+
+        i.       Location and size of all existing and proposed wastewater systems including disposal field
+replacement areas;                                                                                (7-1-25)
+
+        ii.      Location of all existing water supply system features;                                     (7-1-25)
+
+        iii.     Location of all surface waters;                                                            (7-1-25)
+
+        iv.      Location of scarps, cuts, and rock outcrops;                                               (7-1-25)
+
+        v.       Land elevations, between features of interest;                                             (7-1-25)
+
+        vi.      Property lines, easements, and rights-of-way; and                                         (3-31-22)
+
+        vii.     Location and size of buildings and structures.                                            (3-31-22)
+
+        h.       Plans and specifications of the proposed system including:                                 (7-1-25)
+
+        i.       Diagrams of all system facilities made or fabricated at the site;                          (7-1-25)
+
+        ii.      Manufacturer’s name and identification of any component approved under Sections 007 and 009;
+and                                                                                                  (7-1-25)
+
+        iii.     List of materials.                                                                        (3-31-22)
+
+       i.        Site evaluation report that includes but is not limited to a soil description and profile and
+groundwater data;                                                                                     (7-1-25)
+
+        j.       Nature and quantity of blackwaste and wastewater the system will receive, including the basis for
+
+
+Section 005                                            Page 8
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+that estimate;                                                                                                (7-1-25)
+
+         k.        Proposed operation, maintenance, and monitoring procedures to ensure the system’s performance
+and failure detection;                                                                                   (7-1-25)
+
+        l.        Copies of legal documents relating to access and to responsibilities for operation, maintenance, and
+monitoring;                                                                                                  (3-31-22)
+
+         m.        Statement from the local zoning or building authority indicating the proposed system would not be
+contrary to local ordinances;                                                                               (7-1-25)
+
+         n.       Signature of the owner of the system and, if different, of the applicant; and               (7-1-25)
+
+        o.       Any other information, document, or condition required by the Director to substantiate that the
+system will comply with applicable rules and regulations.                                              (7-1-25)
+
+       05.        Permit Application Denial. The Director may deny a permit application if in the Director’s
+judgment:                                                                                          (7-1-25)
+
+         a.       The application is incomplete, inaccurate, or misleading;                                  (3-31-22)
+
+         b.       The system as proposed is not in compliance with applicable rules and regulations;         (3-31-22)
+
+         c.       The public or central wastewater treatment facilities are reasonably accessible.            (7-1-25)
+
+         06.      Notice of Denial. Upon denial of an application the Director will notify the applicant of the reason
+for denial.                                                                                                   (7-1-25)
+
+         07.       Permit Issuance. When, in the Director’s opinion the system as proposed will conform with
+applicable rules, the Director will issue an “Individual and Subsurface System Installation Permit.” (7-1-25)
+
+          08.     Valid Application and Permit. Unless otherwise stated on the application or permit, it will
+become invalid if the authorized construction or activity is not completed and approved within two (2) years of the
+date of issuance.                                                                                         (7-1-25)
+
+         09.     Permit Renewal. At the Director’s discretion, a permit may be renewed upon request by the
+applicant or owner if the request is received by the Director before the permit’s date of expiration. (7-1-25)
+
+         10.      Permit Effect. A valid permit authorizes the construction of an individual or subsurface disposal
+system and requires the construction be conducted in compliance with plans, specifications, and conditions contained
+in the approved permit application. Any deviation from the plans, specifications, or conditions is prohibited unless it
+is approved in advance by the Director.                                                                       (7-1-25)
+
+         11.      Abandonment. The Director may require as a condition for issuing a permit that the system be
+abandoned by a specified date or specific predetermined circumstances. The date or circumstances will be established
+before issuing the permit and be contained in the permit application. These conditions may relate to a specific date,
+dwelling density, municipal system completion or other circumstances regarding availability of central sewerage
+system services.                                                                                            (7-1-25)
+
+         12.      Operation, Maintenance, and Monitoring.                                                     (7-1-25)
+
+        a.       The Director may require, as a condition of issuing a permit, specific operation, maintenance, and
+monitoring procedures be observed. Those procedures will be contained in the installation permit.          (7-1-25)
+
+        b.       All operation, maintenance, and monitoring requirements of installation permits including effluent
+sampling must be perpetual unless:                                                                        (7-1-25)
+
+
+
+Section 005                                             Page 9
+IDAHO ADMINISTRATIVE CODE                                   IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                             Disposal & Cleaning of Septic Tanks Rules
+
+        i.       The system is not installed;                                                             (3-31-22)
+
+        ii.      The system is removed, abandoned, or replaced; or                                        (3-31-22)
+
+        iii.     The permit is amended or revoked by the Director.                                        (3-31-22)
+
+        c.       If a system is approved as described by the TGM, sampling requirements may be removed.
+                                                                                                      (7-1-25)
+
+        13.     Permit Fee. All applications must be accompanied by payment specified in IDAPA 58.01.14,
+“Rules Governing Fees for Environmental Operating Permits, Licenses, and Inspection Services”.  (7-1-25)
+
+006.    REGISTRATION PERMITS FOR INSTALLERS AND SERVICE PROVIDERS.
+
+         01.      Permit Required. Every installer and service provider must secure from the Director a registration
+permit. Two (2) types of installer permits and one (1) type of service provider permit are available.      (7-1-25)
+
+        a.       A basic system installer’s permit is required to install all individual systems not listed under
+Subsection 006.01.b.                                                                                      (7-1-25)
+
+          b.       A complex system installer’s permit is required to install evapotranspiration systems, ETPSs,
+lagoon systems, LSASs, pressure distribution systems, PWTP systems, intermittent sand filters, sand mounds, or
+other alternative systems specified in the TGM.                                                          (7-1-25)
+
+        c.       A service provider permit is required to perform operation, maintenance, or monitoring of ETPSs
+and any other Director-identified complex systems.                                                       (7-1-25)
+
+        02.      Examination. The initial issuance of the installer’s or service provider’s permit will be based on
+completing an examination, with a passing score of seventy percent (70%) or more The installer and service provider
+examinations are separate.                                                                                  (7-1-25)
+
+          03.       Permits Required Annually. Installer and service provider permits expire annually on the first
+(1st) day of January, and all permits issued thereafter will be for the balance of the calendar year. Additionally,
+installers will attend at least one (1) refresher course approved by the Department every three (3) years. (7-1-25)
+
+        04.      Application Contents.                                                                     (7-1-25)
+
+        a.       Applications for installer and service provider permits must:                             (7-1-25)
+
+        i.       Be in writing;                                                                            (7-1-25)
+
+        ii.      Be signed by the applicant or an officer or authorized agent of a corporation;            (7-1-25)
+
+        iii.     Contain the name and address of the applicant; and                                       (3-31-22)
+
+        iv.      Indicate whether the permit is for;                                                       (7-1-25)
+
+        (1)      Installation of standard and basic alternative systems;                                  (3-31-22)
+
+        (2)      Installation of standard, basic and complex alternative systems; or                      (3-31-22)
+
+        (3)      A service provider; and                                                                   (7-1-25)
+
+        v.       Contain the expiration date of the bond required by Subsection 006.05.                   (3-31-22)
+
+       b.        Additionally, for applicants seeking a service provider permit, the application must contain
+documentation of manufacturer specific training, described in Subsection 006.06.a.                   (7-1-25)
+
+
+Section 006                                            Page 10
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+
+         05.       Bond Required. At the time of application, all applicants seeking a basic or complex installer’s
+permit, or a service provider permit must deliver to the Director a bond The bond must:                   (7-1-25)
+
+         a.       Be in a form approved by the Director;                                                       (7-1-25)
+
+          b.      Be in the sum of ten thousand dollars ($10,000) for a basic installer’s or service provider’s permit,
+or thirty thousand dollars ($30,000) for a complex installer’s permit;                                        (7-1-25)
+
+        c.        Be executed by a surety company duly authorized to do business in the state of Idaho and run
+concurrent with the permit; and                                                                        (7-1-25)
+
+         d.        Guarantee the installer or service provider’s faithful performance of all work undertaken under the
+provisions of the installer’s or service provider’s permit, or both.                                          (7-1-25)
+
+         06.       Damages. Any person who suffers damage from negligent or wrongful acts of the installer or
+service provider or by the installer’s or service provider’s failure to competently perform any of the work agreed to be
+done under the terms of the registration permit will, in addition to other legal remedies, have a right of action on the
+bond for all damages not exceeding ten thousand dollars ($10,000) for standard and basic alternative systems or
+operation, maintenance, and monitoring by certified service providers or thirty thousand dollars ($30,000) for
+complex alternative systems. The maximum liability of the sureties on the bond, regardless of the number of claims
+filed against the bond, must not exceed the sum of ten thousand dollars ($10,000) for standard and basic alternative
+systems or operations, maintenance, and monitoring by certified service providers or thirty thousand dollars
+($30,000) for complex alternative systems.                                                                      (7-1-25)
+
+         07.     Service Provider Responsibilities. All permitted service providers who operate, maintain, or
+monitor any system are responsible for compliance with all rules relevant to those services. Additionally, each service
+provider must:                                                                                                (7-1-25)
+
+         a.        Obtain documentation of the completed manufacturer-specific training of each manufactured and
+packaged treatment system the service provider intends to operate, maintain, or monitor. Proper documentation
+includes a certificate or letter of training completion provided by the manufacturer and an expiration date of the
+manufacturer’s certification. If a system manufacturer is no longer in business, that manufacturer-specific training is
+not required;                                                                                                 (7-1-25)
+
+         b.       Maintain a comprehensive list of real property owners who contracted with the certified service
+provider, including the current real property owner name, service property address, real property owner contact
+address, and installation permit number. This list must be provided to the Director as part of the annual operation,
+maintenance, and monitoring reports for individual real property owners;                                   (7-1-25)
+
+        c.        Notify the system owner in writing of any improper system function that cannot be remedied
+during operation, maintenance, and monitoring services; and                                          (7-1-25)
+
+         d.       Submit all operation, maintenance, and monitoring records in an annual report for each individual
+real property owner for whom the service provider agrees to fulfill the real property owner's operation, maintenance,
+or monitoring responsibilities required in Subsection 009.03. The annual reports must be provided to the Director by
+the timeframe specified in the TGM for the specific alternative system for which operation, maintenance, or
+monitoring is required.                                                                                      (7-1-25)
+
+         08.      Exemption. An installer’s permit is not required for:                                        (7-1-25)
+
+          a.       Any person, corporation, or firm constructing a central or municipal subsurface sewage disposal
+system if that person, corporation, or firm is a licensed public works contractor, is experienced in the type of system
+to be installed and is under the direction of a professional engineer licensed in the state of Idaho; or       (7-1-25)
+
+         b.       Owners installing their own standard or basic alternative system as described in the TGM. (7-1-25)
+
+
+
+Section 006                                            Page 11
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+        09.      Application Fee. All applications must be accompanied by payment of the fee specified in IDAPA
+58.01.14, “Rules Governing Fees for Environmental Operating Permits, Licenses, and Inspection Services.” (7-1-25)
+
+007.     SEPTIC TANKS DESIGN AND CONSTRUCTION STANDARDS.
+
+         01.       Materials. New septic tanks will be constructed of concrete, or other materials approved by the
+Director. Steel tanks are unacceptable.                                                                  (3-31-22)
+
+          02.    Design. A professional engineer licensed by the state of Idaho must submit all septic tank designs
+to the Department for approval. If any design submitted for approval does not meet all requirements in Section 007,
+the engineer must demonstrate that any deviation is determined by sound engineering practice and meets the intent of
+the rules.                                                                                                 (7-1-25)
+
+         03.      Construction Requirements. All septic tanks will be water tight, constructed of sound, durable
+materials, and not subject to excessive corrosion, decay, frost damage or cracking.                     (7-1-25)
+
+        04.       Concrete Septic Tanks. New concrete septic tanks will at a minimum meet the following
+requirements:                                                                                 (3-31-22)
+
+         a.         The walls and floor must be at least two and one-half (2 1/2) inches thick if adequately reinforced
+and at least six (6) inches thick if not reinforced.                                                          (3-31-22)
+
+         b.       The concrete lids or covers must be at least three (3) inches thick and adequately reinforced.
+                                                                                                              (7-1-25)
+
+        c.       The floor and at least a six (6) inch vertical portion of the walls of a poured tank must be poured at
+the same time (monolithic pour).                                                                              (3-31-22)
+
+         d.       The wall sections poured separately must have interlocking joints on joining edge.           (7-1-25)
+
+         e.       All concrete outlet baffles must be finished with an asphalt or other protective coating.   (3-31-22)
+
+        05.       Horizontal Dimension Limit. No interior horizontal dimension of a septic tank or compartment
+may be less than two (2) feet.                                                                        (3-31-22)
+
+         06.      Liquid Depth. The liquid depth must be at least two and one-half (2 1/2) feet.               (7-1-25)
+
+         07.       Manufactured Tank Markings. Septic tanks manufactured in accordance with a specified design
+approved by the Director, will be legibly and indelibly marked with the manufacturer’s name or trademark, total
+liquid capacity, and must indicate the tank’s inlet and outlet.                                       (7-1-25)
+
+         08.      Minimum Tank Capacities.                                                                    (3-31-22)
+
+         a.     Tanks serving single dwelling units. The minimum tank capacity is one thousand (1,000) gallons.
+For each bedroom over four (4) in a dwelling unit, add two hundred fifty (250) gallons.               (7-1-25)
+
+         b.       Tanks serving all other flows. The minimum tank capacity per structure is one thousand (1,000)
+gallons or a volume equal to at least two (2) times the maximum daily flow, whichever is greater.       (7-1-25)
+
+         09.      Wastewater Flows from Various Establishments in Gallons per Day.
+
+                                                 ESTABLISHMENTS
+
+                                                  DWELLING UNIT
+
+
+
+
+Section 007                                            Page 12
+IDAHO ADMINISTRATIVE CODE                              IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                        Disposal & Cleaning of Septic Tanks Rules
+
+                                             ESTABLISHMENTS
+
+                Single Family Dwelling, Apartment, Mobile Home,
+                                                                         250/Unit
+                3 bedroom.
+                Add/subtract 50 gallons per day/bedroom
+                                         MULTIPLE RESIDENTIAL
+                Hotel/Motel:
+                 With Private Baths                                   60/Bedspace
+                 Without Private Baths                                 40/Bedspace
+                Overnight Accommodation:
+                                                                        25/Person
+                 Central Toilet
+                                                                        35/Person
+                 Central Toilet & Shower
+
+
+
+
+                 Rooming House/Bunk House                              40/Resident
+                  Staff Resident                                         40/Staff
+                  Nonresident                                             15/Staff
+                                              INSTITUTIONAL
+                Church/Assembly Hall/Meeting House:                      3/Seat
+                 With Kitchen                                             7/Seat
+                Hospital:                                             250/Bedspace
+                 Kitchen only                                          25/Bedspace
+                 Laundry only                                           40/Bedspace
+                Nursing Home/Rest Home                                 125/Bedspace
+                Day School:
+                 Without Showers                                       20/Student
+                 With Showers                                          25/Student
+                 With Cafeteria, add                                    3/Student
+                 Staff-Resident                                          40/Staff
+                 Nonresident                                              20/Staff
+                                              FOOD SERVICE
+                Conventional Service:
+                 Toilet & Kitchen Wastes                                13/Meal
+                 Kitchen Wastes                                          3.3/Meal
+                Take Out or Single Service                                2/Meal
+                Drinking Establishment                                   2/Person
+                                   COMMERCIAL AND INDUSTRIAL
+                Laundry - Self Service                                   50/Wash
+                Service Station                                         10/Vehicle
+                Shopping Center (No food/laundry)                        1/Pkg.Sp.
+
+                Theaters                                                  5/Seat
+
+
+
+Section 007                                      Page 13
+IDAHO ADMINISTRATIVE CODE                                      IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                                Disposal & Cleaning of Septic Tanks Rules
+
+                                                  ESTABLISHMENTS
+
+                      Offices                                                        20/Employee
+                      Factories:
+                       No Showers                                                   25/Employee
+                       With Showers                                                 35/Employee
+                       Add for Cafeteria                                              5/Employee
+                      Stores                                                          2/Employee
+                                           SEASONAL AND RECREATIONAL
+                      Swimming Pool:
+                       Toilet & Shower Wastes                                         10/Person
+                      Parks & Camps (Day Use):
+                       Toilet & Shower Wastes                                         15/Person
+                      Roadside Rest Area:
+                       Toilet & Shower Wastes                                        10/Person
+                       Toilet Waste                                                   5/Person
+                      Designated Camp Area:
+                       Toilet & Shower Wastes                                         90/Space
+                       Toilet Wastes                                                   65/Space
+                      Travel Trailer Park with Sewer & Water Hook-up                  125/Space
+                      Seasonal/Construction Camp                                      50/Person
+                      Country Clubs Resident Member                                 100/Member
+                       Add for Nonresident Member                                     25/Person
+                      Public Restrooms:
+                       Toilet Wastes                                                 5/Person
+                       Toilet & Shower Wastes                                         15/Person
+
+                                                                                                                  (7-1-25)
+
+        10.        Total Volume. The total volume of a septic tank at a minimum must be one hundred fifteen percent
+(115%) of its liquid capacity.                                                                             (7-1-25)
+
+         11.      Inlets.                                                                                       (3-31-22)
+
+        a.         The inlet into the tank must be at least four (4) inches in diameter and enter the tank three (3) inches
+above the liquid level.                                                                                            (7-1-25)
+        b.         The inlet of the septic tank and each compartment must be submerged by means of a vented tee or
+baffle.                                                                                                            (7-1-25)
+
+         c.        Vented tees or baffles must extend above the liquid level seven (7) inches or more but not closer
+than one (1) inch to the lid of the tank.                                                                  (7-1-25)
+
+         d.       Tees must not extend horizontally into the tank beyond two (2) times the diameter of the inlet.
+                                                                                                             (7-1-25)
+
+         12.      Outlets.                                                                                      (3-31-22)
+
+         a.       The outlet of the tank must be at least four (4) inches in diameter.                            (7-1-25)
+
+
+Section 007                                              Page 14
+IDAHO ADMINISTRATIVE CODE                                     IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                               Disposal & Cleaning of Septic Tanks Rules
+
+           b.       The outlet of the septic tank and each compartment must be submerged by a vented tee or baffle.
+                                                                                                            (7-1-25)
+
+         c.        Vented tees and baffles must extend above the liquid level seven (7) inches or more but not closer
+than one (1) inch to the inside lid of the tank.                                                            (7-1-25)
+
+          d.      Tees and baffles must extend below the liquid level to a depth where forty percent (40%) of the
+tank’s liquid volume is above the bottom of the tee or baffle.                                           (7-1-25)
+
+           e.       Tees and baffles must not extend horizontally into the tank beyond two (2) times the diameter of the
+outlet.                                                                                                        (7-1-25)
+
+         13.        Scum Storage. A septic tank will provide an air space above the liquid level which will be equal to
+or greater than fifteen percent (15%) of the tank’s liquid capacity.                                          (7-1-25)
+
+        14.      Manholes. Manholes must extend to the finished grade. Access to each septic tank or compartment
+must be provided by a manhole twenty (20) inches in minimum dimension or a removable cover of equivalent size.
+Each manhole cover must be provided with a corrosion resistant strap or handle to facilitate removal.   (7-1-25)
+
+         15.      Inspection Ports. An inspection port measuring at least eight (8) inches in minimum dimension
+will be placed above each inlet and outlet. Manholes may be substituted for inspection ports.           (7-1-25)
+
+         16.     Split Flows. The wastewater from a single building sewer or sewer line must not be divided and
+discharged into more than one (1) septic tank or compartment.                                           (7-1-25)
+
+         17.       Multiple Tank or Compartment Capacity. Multiple or compartmented septic tanks connected in
+series may be used if the sum of their liquid capacities is at least equal to the minimum tank capacity in Subsection
+007.07, and the initial tank or compartment has a liquid capacity of at least one-half (1/2) of the total liquid capacity
+of the septic tank facility.                                                                                     (7-1-25)
+
+           18.      Minimum Separation Distances Between Septic Tanks and Features of Concern.
+
+                                                                                         Minimum Distance to
+                           Features of Concern
+                                                                                          Septic Tank in Feet
+                                                                      Public Water                100
+          Well or Spring or Suction Line
+                                                                         Other                     50
+                                                                      Public Water                 25
+          Water Distribution Line
+                                                                         Other                     10
+          Permanent or Intermittent Surface Water                                                  50
+          Temporary Surface Water                                                                  25
+          Downslope Cut or Scarp                                                                   10
+          Dwelling Foundation or Building                                                           5
+          Property Line                                                                             5
+          Seasonal High Water Level (Vertically from Top of Tank)                                   2
+                                                                                                                 (7-1-25)
+
+         19.      Manufactured Tank Installation. If written installation instructions are provided by the
+manufacturer of a septic tank, the installer must follow those instructions relative to the stability and integrity of the
+tank unless otherwise specified in the installation permit.                                                      (7-1-25)
+
+           20.      Inlet and Outlet Piping. Unless otherwise specified in the installation permit, piping material to
+
+
+Section 007                                             Page 15
+IDAHO ADMINISTRATIVE CODE                                     IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                               Disposal & Cleaning of Septic Tanks Rules
+
+and from a septic tank or dosing chamber and to the drainfield must be approved by the Director and specified as
+follows.                                                                                               (7-1-25)
+
+         a.         ABS schedule forty (40) piping or material of equal or greater strength.                 (7-1-25)
+
+         b.        ASTM D-3034 or equivalent plastic pipe may be used to span the septic tank and dosing chamber if
+the excavation is compacted with fill material.                                                            (7-1-25)
+
+        21.       Effluent Pipe Separation Distances. Effluent pipes have the same separation distance
+requirements as septic tanks unless otherwise approved by the Director.                       (7-1-25)
+
+        22.       Septic Tank Abandonment. The property owner is responsible for septic tank abandonment and
+must use the following procedures.                                                                   (7-1-25)
+
+         a.         Disconnect the inlet and outlet piping;                                                  (7-1-25)
+
+         b.         Pump the scum and septage with approved disposal; and                                    (7-1-25)
+
+         c.      Fill the septic tank with earthen materials, physically destroy the septic tank, or remove the septic
+tank from the ground.                                                                                        (7-1-25)
+
+008.     STANDARD SUBSURFACE DISPOSAL FACILITY DESIGN AND CONSTRUCTION.
+
+         01.        Site Suitability. The area where a standard drainfield will be constructed must meet the following
+conditions:                                                                                                   (7-1-25)
+
+         a.         The natural slope of the site will not exceed twenty percent (20%).                      (7-1-25)
+
+         b.        Suitable soil types will be present at depths corresponding with the sidewalls of the proposed
+drainfield and at depths between the bottom of the proposed drainfield and any limiting layer (effective soil depth).
+
+                                       Soil Textural
+        Design Soil Group                                          USDA Field Test Textural Classification
+                                       Classification
+               Unsuitable                  Gravel                     10 Mesh
+                                        Coarse Sand                 10-35 Mesh                   Sand
+                   A                    Medium Sand                 35-60 Mesh                   Sand
+                                          Fine Sand                 65-140 Mesh                  Sand
+                                        Loamy Sand                                               Sand
+                   B                   Very Fine Sand              140-270 Mesh                  Sand
+                                        Sandy Loam                                             Sandy Loam
+                                   Very Fine Loamy Sand                                        Sandy Loam
+                                            Loam
+                                          Silt Loam                                             Silt Loam
+                   C                         Silt                                               Silt Loam
+                                         Clay Loam                                             Clay Loam
+                                      Sandy Clay Loam                                          Clay Loam
+                                       Silty Clay Loam                                         Clay Loam
+               Unsuitable                Sandy Clay                                               Clay
+
+
+
+Section 008                                              Page 16
+IDAHO ADMINISTRATIVE CODE                                       IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                                 Disposal & Cleaning of Septic Tanks Rules
+
+                                        Soil Textural
+        Design Soil Group                                            USDA Field Test Textural Classification
+                                        Classification
+                                           Silty Clay                                                 Clay
+                                             Clay                                                     Clay
+                                    Clay soils with high
+                                                                                                      Clay
+                                   shrink/swell potential
+                                        Organic mucks
+                                       Claypan, Duripan,
+                                           Hardpan
+
+                                                                                                                   (7-1-25)
+
+         c.        Effective soil depths, in feet, below the bottom of the drainfield must be equal to or greater than
+those values listed in the following table.
+
+                                               EFFECTIVE SOIL DEPTHS
+
+                                                               Design              Soil             Group
+
+         Limiting Layer                                          A                  B                  C
+         Impermeable Layer                                       4                  4                  4
+         Fractured Bedrock, or Extremely Perme-
+                                                                 6                  4                  3
+         able Material
+         Normal High Groundwater Level                           6                  4                  3
+         Seasonal High Groundwater Level                         1                  1                  1
+
+                                                                                                                   (7-1-25)
+
+         d.       The drainfield must be located so the separation distances are maintained or exceeded according to
+the following table:
+
+                                                                      Soil Types
+                          Feature of Interest                                             A     B            C
+                                                                          All
+         Public Water Supply                                              100
+         All wells and Other Domestic Water Supplies                      100
+
+         Water Distribution Lines: 
+          (not double-encased)
+                                                                          25
+          (double-encased)
+                                                                          10
+         Permanent or Intermittent Surface Water other than
+                                                                                          200   125          100
+          Irrigation Canals & Ditches
+         Temporary Surface Water and Irrigation Canals and
+                                                                          50
+          Ditches
+
+
+
+
+Section 008                                                Page 17
+IDAHO ADMINISTRATIVE CODE                                       IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                                 Disposal & Cleaning of Septic Tanks Rules
+
+                                                                     Soil Types
+                           Feature of Interest                                          A            B    C
+                                                                         All
+
+         Downslope Cut or Scarp:
+          Impermeable Layer Above Base                                                 75           50   50
+          Impermeable Layer Below Base                                                  50           25   25
+         Building Foundations:
+          Crawl Space or Slab                                          10
+          Basement                                                      20
+         Property Line                                                   5
+
+                                                                                                               (7-1-25)
+
+         02.      Subsurface Disposal Facility Sizing. The size of a subsurface disposal system is determined by
+the following procedures:                                                                                (7-1-25)
+
+        a.       Daily flow estimates are determined in the same manner as flow estimates for septic tank sizing in
+Subsection 007.08.                                                                                        (7-1-25)
+
+         b.       Total required absorption area is obtained by dividing the estimated maximum daily flow by a
+value below or as specified in the TGM.
+
+                                    Design Soil Group                        A      B           C
+
+                     Absorption Area - Gallons/Square Foot/Day               1.0    0.5         0.2
+
+                                                                                                               (7-1-25)
+
+          c.      An acceptable site must be large enough to construct two (2) complete drainfields in which each are
+sized to receive one hundred percent (100%) of the design wastewater flow.                                   (7-1-25)
+
+        03.     Standard Subsurface Disposal Facility Specifications. Additional design specifications for new
+subsurface sewage disposal facilities.
+
+                         STANDARD SUBSURFACE DISPOSAL FACILITY SPECIFICATIONS
+
+                                            Item                                    All Soil Groups
+
+              Length of Individual Distribution Laterals                           100 Feet Maximum
+              Grade of Distribution Laterals and Trench Bottoms                              Level
+                                                                                    1 Foot Minimum
+              Width of Trenches
+                                                                                    6 Feet Maximum
+                                                                                    2 Feet Minimum
+              Depth of Trenches
+                                                                                    4 Feet Maximum
+              Total Square Feet of Trench                                          1,500 Sq.ft. Max.
+              Undisturbed Earth Between Trenches                                    6 Feet Minimum
+              Undisturbed Earth Between Septic Tank and Trenches                    6 Feet Minimum
+
+
+
+
+Section 008                                                Page 18
+IDAHO ADMINISTRATIVE CODE                                     IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                               Disposal & Cleaning of Septic Tanks Rules
+
+                        STANDARD SUBSURFACE DISPOSAL FACILITY SPECIFICATIONS
+
+                                               Item                                  All Soil Groups
+
+                Depth of Aggregate:
+                 Total                                                              12 In. Minimum
+                 Over Distribution Laterals                                          2 In. Minimum
+                 Under Distribution Laterals                                          6 In. Minimum
+                Depth of Soil Over Top of Aggregate                                  12 In. Minimum
+
+                                                                                                                 (7-1-25)
+
+          04.      Wastewater Distribution. Systems must be installed to maintain equal or serial effluent
+distribution.                                                                                     (7-1-25)
+
+         05.     Excavation. Trenches must not be excavated during the period of high soil moisture content when
+that moisture promotes smearing and soil compaction.                                                     (7-1-25)
+
+         06.      Soil Barrier. The aggregate must be covered throughout with a synthetic filter fabric (geotextile) or
+other acceptable permeable material.                                                                          (7-1-25)
+
+         07.        Aggregate. The trench aggregate must be crushed rock, gravel, or other acceptable, durable and
+inert material that is free of fines and has an effective diameter from one-half (1/2) to two and one-half (2 1/2) inches.
+                                                                                                                 (7-1-25)
+
+         08.       Impermeable Surface Barrier. A treatment area trench or replacement area may not be: (7-1-25)
+
+         a.        Compacted.                                                                                    (7-1-25)
+
+         b.        Covered byan impermeable surface barrier; or                                                  (7-1-25)
+
+         c.        Used for parking or driving on, and must be adequately protected from such activities.        (7-1-25)
+
+         09.     Absorption Bed. Absorption bed disposal facilities may be considered when a site is suitable for a
+standard subsurface disposal facility except that it is not large enough.                                 (7-1-25)
+
+         a.       Except as specified in this section, rules applicable to a standard subsurface disposal system apply
+to an absorption bed facility.                                                                                 (7-1-25)
+
+         b.        Sites with slopes in excess of eight percent (8%) are not suitable for absorption bed facilities.
+                                                                                                                 (7-1-25)
+
+         c.      Distribution laterals within a bed may not be spaced on greater than six (6) feet centers, and any
+sidewall may not be more than three (3) feet from a distribution lateral.                                   (7-1-25)
+
+        10.       Vehicle and Machinery Traffic. Rubber-tired vehicles and machinery may not be driven on the
+bottom surface of any excavation or on the top of any drainfield.                                    (7-1-25)
+
+         11.     Failing Subsurface Sewage Disposal System. If the Director determines a system is failing and
+replacement of the system cannot meet the current rules the replacement system must meet the intent of the rules by
+using a system design specified by the Director.                                                           (7-1-25)
+
+009.     OTHER COMPONENTS.
+
+        01.      Design Approval Required. Commercially manufactured wastewater treatment components and
+systems must not be used in constructing a subsurface sewage system unless the design is approved by the Director.
+
+
+Section 009                                             Page 19
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+The Department developed recommended standards and guidance for these systems in the TGM. Approval may be
+limited to those locations or conditions where achievement of standards has been demonstrated. Commercially
+manufactured wastewater treatment components and systems may include but are not limited to:       (7-1-25)
+
+         a.       ETPSs (e.g., aerobic treatment systems);                                                  (3-31-22)
+
+         b.       PWTPs; and
+                                                                                                             (7-1-25)
+
+          c.       Proprietary non-discharging systems (e.g., individual wastewater incinerators, composting toilets,
+or vault toilets).                                                                                        (3-31-22)
+
+         02.      Plan and Specification Submittal. Plans and specifications for all commercially manufactured
+wastewater treatment components and systems must be submitted to the Director for approval. Plans and
+specifications must include detailed construction drawings; capacities; structural calculations; lists of materials;
+performance standards; manufacturers’ installation, operation, and maintenance instructions; installation inspection
+checklist; and other relevant information requested by the Director.                                        (7-1-25)
+
+        a.      Manufacturers seeking approval for ETPSs or PWTPs that reduce total suspended solids (TSS) and
+carbonaceous biological oxygen demand 5-day (CBOD5) when used with residential strength wastewater must
+submit NSF/ANSI 40 approvals, reports, and associated data or equivalent third-party standards.        (7-1-25)
+
+      b.       Manufacturers seeking approval for ETPSs or PWTPs that reduce total nitrogen (TN) must submit
+NSF/ANSI 245 approvals, reports, and associated data or equivalent third-party standards.           (7-1-25)
+
+         03.      ETPS.                                                                                      (7-1-25)
+
+         a.       In addition to the items in Subsection 009.02, ETPS plan and specification submittals must include:
+                                                                                                             (7-1-25)
+
+         i.       A plan for training and certifying system installers and service providers under Section 006;
+                                                                                                             (3-31-22)
+
+        ii.      A manual containing all operation and maintenance specified by the design engineer or
+manufacturer and the Department; and                                                           (7-1-25)
+
+         iii.    A quality assurance project plan documenting how sampling will occur if required by the Director
+for product approval and continued monitoring.                                                           (7-1-25)
+
+         b.       Design and installation of these systems must meet the following:                         (3-31-22)
+
+         i.       The effluent is discharged to a drainfield meeting the requirements of a standard drainfield as
+directed in Section 008 or a Director-approved alternative.                                            (3-31-22)
+
+         ii.      If vertical separation distances are reduced from the distances defined in the table in Subsection
+008.01.c., the reduced separation must protect groundwater quality and a sampling port must be installed to provide
+access to representative samples of the effluent from the system.                                           (7-1-25)
+
+          c.       Within thirty (30) days of completing installation of an ETPS, the property owner must provide
+certification to the health district from a representative approved by the manufacturer that the system has been
+installed and will operate in accordance with the manufacturer’s recommendations. The health district must not
+finalize the installation permit until the certification of proper installation and operation is received and includes
+information on the manufacturer, product, model number, and serial number of the ETPS installed.              (7-1-25)
+
+        d.       Property owners with an ETPS installed on their property must have all operation, maintenance,
+and monitoring requirements specified in the permit completed by June 30 of each year by a certified service provider
+in accordance with Section 006, including effluent monitoring if required by the permit. The certified service
+
+
+Section 009                                           Page 20
+IDAHO ADMINISTRATIVE CODE                                     IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                               Disposal & Cleaning of Septic Tanks Rules
+
+provider who completed operation, maintenance, and monitoring for the system as specified in the TGM must submit
+an annual report to the Director by July 31 of each calendar year demonstrating the system is working as designed.
+                                                                                                            (7-1-25)
+
+         e.      Permit requirements for ETPSs transfer with ownership changes. Before transferring ownership of
+a property with an ETPS, the system owner must notify all transferees of the ETPS operation, maintenance, and
+monitoring requirements.                                                                               (7-1-25)
+
+         04.      PWTPs.                                                                                        (7-1-25)
+
+         a.       System media used with a PWTP must:                                                           (7-1-25)
+
+         i.      Be constructed or manufactured from materials that are non-decaying and non-deteriorating and do
+not leach unacceptable chemicals when exposed to sewage and the subsurface soil environment;            (3-31-22)
+
+         ii.      Support the distribution pipe and provide suitable effluent distribution and infiltration rate to the
+absorption area at the soil interface; and                                                                   (3-31-22)
+
+         iii.      Maintain the integrity of the trench or bed. The material used, by its nature and manufacturer-
+prescribed installation procedure, must withstand the physical forces of the soil sidewalls, soil backfill, and weight of
+equipment used in the backfilling.                                                                               (7-1-25)
+
+       b.     Drainfield size is based on the requirements of a standard drainfield or the manufacturer’s
+recommended minimum sizing requirement; and                                                     (7-1-25)
+
+         c.       A system using a PWTP may be required to follow the same operation, maintenance, monitoring,
+and reporting requirements described in Subsection 009.03.d. due to product complexity and site-specific constituent
+reduction requirements.                                                                                    (7-1-25)
+
+        d.       Permit requirements for these systems transfer with ownership changes. Before transferring
+ownership of a property with this system, the system owner must notify all transferees of the system operation,
+maintenance, and monitoring requirements.                                                             (7-1-25)
+
+        05.      Design Approval Effect. The Director may condition a design approval by specifying
+circumstances under which the component must be installed, used, operated, maintained, or monitored. (7-1-25)
+
+       a.       The Director will specify the complex alternative systems that must undergo professionally
+managed operation, maintenance, service, or effluent testing.                                     (7-1-25)
+
+         b.       Manufacturers will provide training to a reasonable number of service providers to perform
+required operation, maintenance, or monitoring as specified by the Director.                         (7-1-25)
+
+        c.      Manufacturers may enter into agreements with certified service providers trained in their
+technology but must not limit service providers from training in the technology of other manufacturers. (7-1-25)
+
+         06.     Design Disapproval Notice. If the Director determines the component described in the submittal
+does not comply with or may not consistently function in compliance with these rules, or the manufacturer of the
+proposed system failed to comply with Subsection 009.03, the Director will disapprove the design as submitted and
+notify the manufacturer or distributor submitting the design, in writing, of the disapproval and the reason for that
+action.                                                                                                    (7-1-25)
+
+010.     VARIANCES.
+
+         01.      Technical Allowance. The Director may make a minor technical allowance to the dimensional or
+construction requirements for a standard system if the allowance:                                    (7-1-25)
+
+         a.       Does not affect adjacent property owners or the public at large;                              (7-1-25)
+
+
+Section 010                                             Page 21
+IDAHO ADMINISTRATIVE CODE                                     IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                               Disposal & Cleaning of Septic Tanks Rules
+
+
+         b.       Does not violate the intent of the rules.                                                      (7-1-25)
+
+         c.       Does not conflict with any other rule, regulation, standard, or ordinance; and                 (7-1-25)
+
+        d.        Changes to a dimensional requirement is not more than ten percent (10%) unless otherwise
+provided for in the TGM.                                                                          (7-1-25)
+
+        02.       Variance Petition. A petition for rule variance must be filed with the Director and include the
+following detailed statements describing:                                                                (7-1-25)
+
+         a.        The facts upon which the variance is requested including a description of the intended use of the
+property, the estimates of the quantity of blackwaste or wastewater to be discharged, and a description of the existing
+site conditions;                                                                                              (7-1-25)
+
+        b.      The reason petitioner believes that compliance with the provision from which variance is sought
+would impose an arbitrary or unreasonable hardship, and a list of the injury the variance would impose on the public;
+and                                                                                                         (7-1-25)
+
+         c.       The precise extent of the relief sought.                                                       (7-1-25)
+
+        03.      Public Notice. When filing a petition, evidence must also be submitted showing all property
+owners within three hundred (300) feet of the affected site were notified fifteen (15) days before filing the petition.
+                                                                                                                (7-1-25)
+
+          04.       Petition Objections. Any person may file with the Department, within twenty-one (21) days after
+the filing the petition, a written objection to the grant of the variance. A copy of the objection must be provided by the
+Department to the petitioner.                                                                                     (7-1-25)
+
+          05.      Investigation and Decision. After investigating the variance petition and considering the views of
+persons who might be adversely affected by the grant of the variance, the Director will, within sixty (60) days after
+the filing of the petition, make a decision regarding the petition. The Department will provide the decision to the
+petitioner, including:                                                                                       (7-1-25)
+
+       a.       A description of the efforts made by the Director to investigate the facts as alleged and to obtain
+and summarize the views of persons who might be affected;                                                  (7-1-25)
+
+          b.      A statement of the degree to which, if at all, the Director disagrees with the facts as alleged in the
+petition; and                                                                                                  (7-1-25)
+
+         c.       Allegations of any other facts believed relevant to the disposition of the petition.           (7-1-25)
+
+         06.      Limitations on Decision. No technical allowance or variance will be granted unless:            (7-1-25)
+
+        a.       Adequate proof is shown by the petitioner that compliance would impose an arbitrary or
+unreasonable hardship;                                                                       (3-31-22)
+
+       b.        The technical allowance or variance rendered is consistent with the recommendations of the TGC
+or TGM in use at the time of the petition; and                                                           (7-1-25)
+
+          c.       The Director has determined that the approval of the technical allowance or variance will not
+violate the intent of the rules.                                                                        (7-1-25)
+
+011.     INSPECTIONS.
+
+        01.      One or More Inspections. The Director will require inspections necessary to determine
+compliance with any provision of these rules.                                                 (7-1-25)
+
+
+Section 011                                             Page 22
+IDAHO ADMINISTRATIVE CODE                                     IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                               Disposal & Cleaning of Septic Tanks Rules
+
+
+         02.     Duty to Uncover. The permittee must, at the request of the Director, uncover or make available for
+inspection any portion or component of a system under construction or covered or concealed in violation of these
+rules.                                                                                                    (7-1-25)
+
+          03.      Advance Notice by Permittee. If an inspection requires preparation, such as test hole excavation
+or partial construction of the system, the applicant or permittee must notify the Director at least forty-eight (48) hours
+in advance, excluding weekends and holidays.                                                                      (7-1-25)
+
+         04.      Substantiating Receipts and Delivery Slips. Upon the Director’s request, the permittee must
+provide copies of receipts, delivery slips, or other similar documents to substantiate the origin, quality, or quantity of
+materials used in constructing any system.                                                                       (7-1-25)
+
+          05.     Finalizing a Permit. No system may receive wastewater until the Director conducts a final
+installation inspection and completes as-built drawings and specifications depicting the actual installation. The
+Director will provide a copy of the final as-built drawing to the owner within thirty (30) days after completing the
+final inspection.                                                                                          (7-1-25)
+
+012.     VIOLATIONS AND PENALTIES.
+
+          01.       Failure to Comply. All individual and subsurface sewage disposal systems must be constructed
+and installed according to these rules. Failure by any person to comply with the permitting, licensing, approval,
+installation, or variance provisions of these rules is a violation of these rules.                       (7-1-25)
+
+        02.     System Operation. No person may discharge pollutants into the waters through an individual or
+subsurface sewage disposal system unless in accordance with the provisions of these rules.           (7-1-25)
+
+          03.     Amendments or Revocations. At any time, the Director may amend or revoke any installation or
+registration permit or the approval of any system component approved by the Department if:           (7-1-25)
+
+         a.       Approval was based on false or misleading information;                                         (7-1-25)
+
+        b.       The material, technology, or system no longer achieves performance standards for which it was
+approved, does not meet the conditions of approval, or does not meet the intent of the rules; or      (7-1-25)
+
+         c.       The permitted installer, service provider, or pumper is not in compliance with or has violated the
+provisions of these rules                                                                                   (7-1-25)
+
+         04.      Notice. Except in emergencies, the Department will issue a written notice of intent to revoke to the
+permittee before final revocation. Revocation becomes final within thirty-five (35) days of the permittee receiving
+notice unless, within that time, the permittee requests an administrative hearing in writing. The hearing is conducted
+according to IDAPA 58.01.23, Contested Case Rules and Rules for Protection and Disclosure of Records. (7-1-25)
+
+013.     LSAS.
+
+        01.    Site Investigation. A site investigation conducted by a soil scientist or hydrogeologist determining
+whether the LSAS effluent will adversely impact the waters must be submitted to the Director for review and
+approval.                                                                                                   (7-1-25)
+
+         02.     Installation Permit Plans. Installation permit application plans for an LSAS submitted for
+approval must include provisions for inspection by the design engineer, designee, or Director of the work during
+construction.                                                                                           (7-1-25)
+
+         03.      Module Size. The maximum size of any subsurface sewage disposal module must be ten thousand
+(10,000) gallons per day. Developments with greater than ten thousand (10,000) gallons per day flow must divide the
+system into absorption modules designed for ten thousand (10,000) gallons per day or less.                (7-1-25)
+
+
+
+Section 012                                             Page 23
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+         04.      Standard LSAS Design Specifications.                                                        (7-1-25)
+
+        a.       All design elements and application rates must be developed using sound engineering practice and
+provided by a professional engineer licensed by the state of Idaho.                                      (7-1-25)
+
+         b.         All design and installation requirements for standard systems apply to LSASs unless otherwise
+specified in this section.                                                                               (7-1-25)
+
+         c.        Within thirty (30) days of completing system installation, the design engineer must provide either
+as-built plans or a certificate that the system was installed in substantial compliance with the installation permit
+application plans.                                                                                          (7-1-25)
+
+         d.       Effective soil depths, in feet, below the bottom of the absorption module to the site conditions must
+be equal to or greater than the following table:
+
+                                             EFFECTIVE SOIL DEPTHS
+
+                        Limiting Layer                      Design              Soil               Group
+
+                                                               A                 B                  C
+         Impermeable Layer                                     8                 8                   8
+         Fractured Bedrock or Extremely Permeable
+                                                              12                 8                   6
+          Material
+         Normal High Groundwater Level                        12                 8                   6
+         Seasonal High Groundwater Level                       2                 2                   2
+
+                                                                                                              (7-1-25)
+
+        e.         The disposal area absorption module must be located so the separation distances provided in the
+following table, in feet, are maintained or exceeded:
+
+                                         TABLE -- SEPARATION DISTANCES
+
+                            Feature of Interest                    Design       Soil        Group
+
+                                                                     A           B             C
+
+                       All Domestic Water Supplies
+                Sewage Volume - 2,500-5,000 GPD                     250         200           150
+                Sewage Volume - 5,000-10,000 GPD                    300         250           200
+                              Property Lines
+                Sewage Volume - 2,500-5,000 GPD                      50          50           50
+                Sewage Volume - 5,000-10,000 GPD                     75          75           75
+                    Building Foundations - Basements
+                Sewage Volume - 2,500-5,000 GPD                      50          50           50
+                Sewage Volume - 5,000-10,000 GPD                     75          75           75
+                         Downslope Cut or Scarp
+                Impermeable Layer - Below Base                      100          50           50
+
+
+Section 013                                            Page 24
+IDAHO ADMINISTRATIVE CODE                                    IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                              Disposal & Cleaning of Septic Tanks Rules
+
+                                        TABLE -- SEPARATION DISTANCES
+
+                            Feature of Interest                  Design         Soil        Group
+
+                                                                   A             B             C
+
+                Separation Distance - Between Modules              12            12           12
+
+                                                                                                              (7-1-25)
+
+           f.     No LSAS may be installed above a downslope scarp or cut unless approved by the Director.
+                                                                                                        (7-1-25)
+
+         g.       A minimum of two (2) disposal systems must be installed, each sized to accept the daily design
+flow, and a replacement area equal to the size of one (1) disposal system must be reserved.             (7-1-25)
+
+         h.      The vertical and horizontal hydraulic limits of the receiving soils must be established and flows
+must not exceed such limits to avoid hydraulically overloading any absorption module and replacement area.
+                                                                                                          (7-1-25)
+
+           i.     The distribution system must be pressurized with a duplex dosing system.                   (3-31-22)
+
+         j.      An effluent filter between an extended treatment system or lagoon system and the large soil
+absorption area must be installed.                                                                  (7-1-25)
+
+           k.     Observation pipes must be installed to the bottom of the aggregate throughout the drainfield.
+                                                                                                             (7-1-25)
+
+           l.     The drainfield disposal area must be constructed to allow for surface drainage and to prevent
+erosion.                                                                                               (7-1-25)
+
+        05.      Monitoring and Reporting. Before an installation permit is issued, the Director will approve a
+monitoring and reporting plan that contains the following minimum criteria.                            (7-1-25)
+
+           a.     Monthly recording and inspection for ponding in all observation pipes.                     (3-31-22)
+
+           b.     Monthly recording of influent flows based on lapse time meter or event meter of the dosing system.
+                                                                                                            (7-1-25)
+
+       c.        Monthly recording of groundwater elevation measurements at all monitoring wells if high seasonal
+groundwater is within fifteen (15) feet of the ground surface.                                          (3-31-22)
+
+           d.     Semi-annual groundwater monitoring at all monitoring wells.                                (3-31-22)
+
+        e.         An annual “LSAS” report including operation, maintenance, and monthly and annual monitoring
+data, must be filed with the Director no later than January 31 of each year for the last twelve (12) month period.
+                                                                                                               (7-1-25)
+
+        06.      Operation and Maintenance. Before an installation permit is issued, an operation and
+maintenance plan must be approved by the Director and contain the following minimum criteria: (7-1-25)
+
+           a.     Annual or more frequent rotation of the disposal systems, and whenever ponding is noted.
+                                                                                                         (3-31-22)
+
+        b.       A detailed operation and maintenance manual, fully describing and locating all elements of the
+system and outlining maintenance procedures needed for operation of the system and who is responsible for system
+maintenance, must be submitted to the Director before system use.                                       (7-1-25)
+
+
+Section 013                                            Page 25
+IDAHO ADMINISTRATIVE CODE                                     IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                               Disposal & Cleaning of Septic Tanks Rules
+
+
+          c.       A maintenance entity must be specified to provide continued operation and maintenance according
+to the operator requirements in IDAPA 58.01.16, Wastewater Rules, and approved by the Director before issuance of
+an installation permit. The entity may assume the responsibilities of a service provider if a service provider is
+required.                                                                                                 (7-1-25)
+
+014. -- 049.      (RESERVED)
+
+050.     SEPTIC TANK CLEANING.
+All persons, firms, or corporations operating any tank truck or any other device or equipment used or intended for
+pumping or cleaning septic tanks and transporting or disposing of human excrement, must conform with the
+following provisions.                                                                                     (7-1-25)
+
+         01.       Watertight Equipment. The tank or transporting equipment must be watertight and constructed to
+prevent spilling or leaking while being loaded, transported, or unloaded.                                (7-1-25)
+
+         02.       Cleanable Equipment. The tank or transporting equipment must be constructed so that every
+portion of the interior and exterior can be easily cleaned and maintained in a clean condition at all times while not in
+use.                                                                                                           (7-1-25)
+
+         03.      Disposal Methods. Disposal of septage from septic tanks must apply the following methods:
+                                                                                                        (7-1-25)
+
+         a.       Discharge to a public sewer;                                                                 (7-1-25)
+
+         b.       Discharge to a sewage treatment plant; or                                                    (7-1-25)
+
+         c.       In a location and by a method approved by the Department.                                    (7-1-25)
+
+         04.      Permit Application Contents.                                                                 (7-1-25)
+
+         a.       All persons operating septic tank pumping equipment must:                                    (7-1-25)
+
+         i.       Obtain a permit from the Director to operate such equipment;                                 (7-1-25)
+
+         ii.      Renew permit annually; and                                                                   (7-1-25)
+
+         iii.     Apply for permit renewal before March 1 of each year.                                        (7-1-25)
+
+         b.       The application must be submitted on forms approved by the Director and include:             (7-1-25)
+
+         i.       Number of tank trucks operated by owner;                                                    (3-31-22)
+
+         ii.      Vehicle license number of each tank truck;                                                  (3-31-22)
+
+         iii.     Name and address of owner or operator of equipment;                                          (7-1-25)
+
+         iv.      Name and address of business, if different from Subsection 051.01.c.;                       (3-31-22)
+
+         v.       Methods of disposal to be used in all areas of operation;                                   (3-31-22)
+
+         vi.      Location of all disposal sites used by applicant; and                                        (7-1-25)
+
+         vii.     Complete basis of charges made for payment of the work performed.                            (7-1-25)
+
+        05.      Permit Fee. All applications must be accompanied by payment of the fee specified in IDAPA
+58.01.14, “Rules Governing Fees for Environmental Operating Permits, Licenses, and Inspection Services.” (7-1-25)
+
+
+Section 050                                            Page 26
+IDAHO ADMINISTRATIVE CODE                                  IDAPA 58.01.03 – Individual/Subsurface Sewage
+Department of Environmental Quality                            Disposal & Cleaning of Septic Tanks Rules
+
+
+         06.      Vehicle Number Displayed. For each permit issued, a number is assigned to the owner or operator
+of the tank truck or trucks that must be displayed at all times on the door of the vehicle or vehicles in a legible
+manner.                                                                                                   (7-1-25)
+
+051. -- 995.     (RESERVED)
+
+996.    ADMINISTRATIVE PROVISIONS.
+Persons may be entitled to appeal agency actions authorized under these rules pursuant to IDAPA 58.01.23,
+“Contested Case Rules and Rules for Protection and Disclosure of Records”.                      (3-31-22)
+
+997. -- 999.     (RESERVED)
+
+
+
+
+Section 996                                          Page 27
+
