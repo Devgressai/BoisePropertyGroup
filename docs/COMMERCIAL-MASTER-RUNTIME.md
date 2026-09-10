@@ -65,11 +65,12 @@ become "we have acquired industrial properties throughout Boise."
 | 10 | Retail/mixed-use intelligence | **DISPATCHED** |
 | 11 | Land/development intelligence | **DISPATCHED** |
 | 12 | Seller-situation ontology | **COMPLETE** — `research/commercial/COMMERCIAL-SELLER-SITUATION-ONTOLOGY.md`; 7 Tier-1, 4 currently buildable |
-| 13 | Transaction-structure research | NOT STARTED |
+| 13 | Transaction-structure research | **DISPATCHED** — agent `txn-structures`, narrowed to the dwelling/commercial regulatory boundary |
 | 14 | Valuation education model | **COMPLETE** — `research/commercial/COMMERCIAL-VALUATION-EDUCATION-MODEL.md`; verdict: ONE explainer, not a cluster |
 | 15 | SERP + query ownership | **PARTIAL** — ownership map recorded (`data/commercial/queries/commercial-query-ownership.json`); risks 2+ outstanding |
-| 16 | IA decision | BLOCKED on 15 |
-| 17–30 | Implementation, validation, audit | BLOCKED on 16 |
+| 16 | IA decision | **COMPLETE** — computed, not decided: `scripts/research/commercial-ia-eligibility.mjs`. **Two pages plus a hub.** |
+| 17 | Build the eligible pages | **NEXT** — industrial-boise, multifamily-5plus, commercial hub |
+| 18–30 | Intake, schema, validation, audit | after 17 |
 
 ---
 
@@ -107,6 +108,22 @@ owner retirement · out-of-area owner · "tired of managing" (residential langua
 underperforming asset · portfolio rebalancing · partner dispute (folded into entity exit).
 
 Standing prohibition: no location × asset-class × situation Cartesian product.
+
+**Phase 16 rejected these outright, from the evidence rather than from taste:**
+
+| Candidate | Why it does not exist |
+|---|---|
+| Office property — Boise | 4 matched claims, **0 differentiating**. Every one is a mixed-use district claim that the retail and multifamily candidates can use equally well. |
+| Retail property — Boise | 3 matched, **0 differentiating**. Same three MX districts. Office and retail here are one page proposed twice. |
+| Commercial and development land | 6 matched, 1 differentiating. Its evidence is overlays — airport influence, flood — which apply to every asset class and therefore distinguish none. |
+| Valuation explainer, standalone | 5 matched, 2 differentiating. Its best claims belong to the multifamily page, where they are concrete. Valuation becomes a section, exactly as Phase 14 predicted. |
+| Lease rollover (situation) | 0 differentiating. Entirely built on what the asset pages already establish. |
+| Vacancy in a special-purpose building (situation) | 1 differentiating; loses six claims to the industrial page. It IS the industrial page. |
+| Entity exit, loan maturity (situations) | No evidence held at all. |
+
+That the office and retail pages fail is the gate working. Both were obvious
+keyword pages, both would have been built by any normal process, and neither has
+a single fact that is true of it and not of its neighbours.
 
 ---
 

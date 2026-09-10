@@ -1,0 +1,78 @@
+COMMERCIAL IA ELIGIBILITY — computed from the registry, not decided in advance
+==============================================================================
+approved commercial claims available: 23
+
+ELIGIBLE TO BUILD
+------------------------------------------------------------------------------
+  Commercial acquisition overview
+    kind hub · 0 unique / 23 usable
+    A hub is a routing page. It is judged on whether the pages beneath it exist, never on unique claims.
+
+  Industrial property — Boise
+    kind asset · 6 unique / 8 usable
+      · boise-i1-purpose
+      · boise-i2-purpose-separation
+      · boise-industrial-height-varies-by-district
+      · boise-industrial-interstate-parking-setback
+
+  Multifamily, five units and up
+    kind asset · 6 unique / 11 usable
+    ⚠ G3 contested query "sell multifamily property Boise" — one owner only; commercial holds it, residential must not
+      · idaho-multifamily-boundary-is-not-one-boundary
+      · ada-apartments-valued-by-commercial-appraisers
+      · gse-multifamily-more-than-four
+      · census-multifamily-starts-at-two
+
+NOT ELIGIBLE
+------------------------------------------------------------------------------
+  Office property — Boise  [asset]
+    ✗ G1 differentiation — 0 allocated of 4 matched, needs 3
+
+  Retail property — Boise  [asset]
+    ✗ G1 differentiation — 0 allocated of 3 matched, needs 3
+
+  Commercial and development land  [asset]
+    ✗ G1 differentiation — 1 allocated of 6 matched, needs 3
+
+  Why commercial property is valued on income  [explainer]
+    ✗ G1 differentiation — 2 allocated of 5 matched, needs 3
+
+  Lease rollover / income concentration  [situation]
+    ✗ G1 differentiation — 0 allocated of 5 matched, needs 3
+
+  Vacancy in a special-purpose building  [situation]
+    ✗ G1 differentiation — 1 allocated of 10 matched, needs 3
+
+  Entity or partnership exit  [situation]
+    ✗ G4 blocked — Idaho Title 30 (Uniform LLC Act) member-consent defaults not verified. No evidence held.
+    ✗ G1 differentiation — 0 allocated of 0 matched, needs 3
+
+  Loan maturity or refinance failure  [situation]
+    ✗ G4 blocked — No evidence held. Every candidate fact is a market statistic, and undated statistics are prohibited.
+    ✗ G1 differentiation — 0 allocated of 0 matched, needs 3
+
+SIBLING OVERLAP — evidence that differentiates nobody
+------------------------------------------------------------------------------
+  These candidates are rivals wanting the same claims. A claim both can use
+  makes neither page distinct, so it counts for neither. A large number here
+  means the candidates are one page proposed twice.
+
+    2 shared — commercial-land = industrial-boise
+    2 shared — multifamily-5plus = office-boise = retail-boise
+    1 shared — commercial-land = multifamily-5plus = office-boise = retail-boise
+    1 shared — commercial-land = multifamily-5plus = office-boise
+    1 shared — commercial-land = multifamily-5plus
+
+HIERARCHY OVERLAP — resolved toward the less derived page
+------------------------------------------------------------------------------
+    6 claims — industrial-boise over situation-vacancy
+    3 claims — multifamily-5plus over situation-lease-rollover, valuation-income
+    2 claims — valuation-income over situation-lease-rollover
+    1 claims — commercial-land over situation-vacancy
+
+==============================================================================
+3 eligible · 8 not eligible
+
+A short list is the correct outcome. Nothing here is scheduled — eligibility
+is permission to build, never an instruction to.
+
