@@ -7,16 +7,19 @@
 | 00 | Sierra forensic analysis | **COMPLETE** |
 | 01 | Architecture extraction | **COMPLETE** |
 | 02 | Idaho research + evidence | NOT STARTED |
-| 03 | Information architecture | PARTIAL — route doctrine fixed, ownership pending evidence |
-| 04 | Visual system | PARTIAL — 3 palettes measured, A recommended, awaiting selection |
-| 05–17 | — | NOT STARTED |
+| 03 | Information architecture | **COMPLETE** |
+| 04 | Visual system | **COMPLETE** — Palette A "High Desert" selected and implemented |
+| 05 | Core application shell | **COMPLETE** — Next 15 + React 19 + Tailwind v4, CI from first commit |
+| 06 | Taxonomy and data models | **COMPLETE** — geography and claims generated from the registries |
+| 07 | Ada County + Boise anchors | **COMPLETE** — plus Star, which also earned a page |
+| 08–17 | — | NOT STARTED |
 
 ## Gates
 
 | Gate | State |
 |---|---|
 | ADA COUNTY EVIDENCE GATE | **NOT RUN** |
-| CI | not yet configured (Phase 5) |
+| CI | **GREEN** — typecheck, tests, codegen drift, 3 evidence gates, production build |
 | LAUNCH GATE | NOT RUN |
 
 ## Blockers (owner)
