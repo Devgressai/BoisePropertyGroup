@@ -1,0 +1,252 @@
+{
+  "generatedAt": "2026-09-10",
+  "note": "Commercial acquisition claim registry. Parallel to the residential registry and governed by the same rules: only approvedForPublication=true may enter copy; every claim names the document carrying the operative language; no market statistic without a dated, geography-matched source.",
+  "scopeRule": "Business capability (what we will consider buying) is recorded in src/data/criteria.ts and is a fact the owner supplies. This registry records only what can be SOURCED. Never convert 'we would consider buying X' into 'we have bought X'.",
+  "claims": [
+    {
+      "id": "boise-i1-purpose",
+      "claim": "Boise's I-1 zoning district is intended to accommodate light manufacturing, assembly, fabrication and technology-related uses that may require significant transportation services but typically do not operate at night, and are generally compatible with nearby commercial and residential areas given substantial buffering and screening.",
+      "quotedLanguage": "The I-1 zoning district is intended to accommodate light manufacturing, assembly, fabrication, and technology-related land uses that may require significant transportation services but that typically do not operate during nighttime hours and are generally compatible with nearby commercial and residential areas when accompanied by substantial buffering, screening, and standards designed to mitigate impacts.",
+      "assetClass": [
+        "industrial"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-i1"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "The nighttime-operation and compatibility language is the practical dividing line between I-1 and I-2 for an owner-user or a buyer assessing what a building can be used for. ⚠️ Boise's district; do not generalise to Meridian, Nampa or unincorporated county, none of which have been checked."
+    },
+    {
+      "id": "boise-i2-purpose-separation",
+      "claim": "Boise's I-2 zoning district accommodates general industrial activity with greater impacts than I-1 — including uses needing significant heavy transportation and uses that frequently operate at night — and the code states the district should be separated from commercial or residential development.",
+      "quotedLanguage": "The I-2 zoning district is intended to accommodate general industrial activity with greater impacts than those in the I-1 zoning district, including uses that require significant heavy transportation services, uses that frequently operate during nighttime hours, and uses that require additional standards to protect health, safety, or general welfare. The I-2 zoning district should be separated from commercial or residential development.",
+      "assetClass": [
+        "industrial"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-i2"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "The separation expectation matters to anyone holding I-2 ground adjacent to housing — it bears on redevelopment and on what a neighbour can object to. It is a statement of intent in the district purpose, NOT a setback requirement; do not present it as a measurable buffer."
+    },
+    {
+      "id": "boise-industrial-height-cap-55ft",
+      "claim": "Both of Boise's industrial districts cap building height at 55 feet — I-1 and I-2 alike.",
+      "quotedLanguage": "HEIGHT (MAXIMUM) D Building Height 55 ft.",
+      "assetClass": [
+        "industrial"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-i1",
+        "boise-zoning-i2"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "MATERIALLY USEFUL AND RARELY STATED. Modern distribution product is often designed around clear heights that push overall building height toward or past this cap, so the 55 ft limit is a real constraint on what can be built or expanded on Boise industrial ground — and it does NOT relax in the heavy district. ⚠️ Building height is not clear height; do not equate them."
+    },
+    {
+      "id": "boise-industrial-interstate-parking-setback",
+      "claim": "Boise requires a larger parking setback from Interstate frontage in the heavy industrial district than in the light one: any yard adjacent to I-84 or I-184 carries a 10-foot parking setback in I-1 and 20 feet in I-2.",
+      "quotedLanguage": "Any Yard Adjacent to Interstate (I-84 & I-184) 10 ft.",
+      "assetClass": [
+        "industrial"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "access"
+      ],
+      "sourceIds": [
+        "boise-zoning-i1",
+        "boise-zoning-i2"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "The quoted language is the I-1 figure; the I-2 page states 20 ft for the same condition. Interstate frontage is the defining feature of much of Boise's industrial ground, so a setback that doubles between districts is a real site-planning input. Both districts also set interior side and rear setbacks at 0 ft, subject to a footnote not yet read."
+    },
+    {
+      "id": "boise-i2-street-frontage-minimum",
+      "claim": "Boise's I-2 heavy industrial district sets a minimum street frontage of 30 feet, where I-1 sets none.",
+      "quotedLanguage": "LOT STANDARDS Lot Area (minimum) N/A Street Frontage (minimum) 30 ft.",
+      "assetClass": [
+        "industrial"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "access",
+        "land"
+      ],
+      "sourceIds": [
+        "boise-zoning-i2"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "Neither district sets a minimum lot area, which is worth knowing for small industrial parcels and for splits. The frontage minimum applies in I-2 only."
+    },
+    {
+      "id": "idaho-multifamily-boundary-is-not-one-boundary",
+      "claim": "Idaho and Ada County do not use a single definition of where residential property ends and multifamily or commercial begins. At least three systems draw the line differently: county ASSESSMENT treats residential as up to four units and routes apartments to commercial appraisers; the property condition DISCLOSURE act applies to one to four dwelling units; and the domestic WATER statute excludes apartments, condominiums and similar multiple-dwelling developments generally rather than at a unit count.",
+      "quotedLanguage": null,
+      "assetClass": [
+        "multifamily"
+      ],
+      "entity": [
+        "county:ada",
+        "state:id"
+      ],
+      "topic": [
+        "multifamily",
+        "assessment",
+        "disclosure",
+        "water",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured",
+        "idcode-55-2504",
+        "idcode-42-111"
+      ],
+      "crossRegistry": true,
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "⚠️⚠️ THE CENTRAL MULTIFAMILY FINDING, and the one most likely to be got wrong. There is no single 'multifamily threshold' in Idaho. Assessment says four. Disclosure says one to four. The water statute does not use a unit count at all — it excludes multiple-dwelling developments as a class. Any page stating 'in Idaho, multifamily means 5+ units' would be wrong about at least one of these systems. Always name WHICH system a boundary belongs to. Sources are cross-registry: all three claims live in the residential registry and are re-used here rather than restated."
+    },
+    {
+      "id": "ada-apartments-valued-by-commercial-appraisers",
+      "claim": "Ada County's commercial appraisers, not its residential appraisers, value apartments and high-density residential — alongside office, retail and industrial.",
+      "quotedLanguage": "Our team of commercial appraisers handle valuation for all commercial property types, including, office, retail, industrial, and high-density residential (apartments).",
+      "assetClass": [
+        "multifamily",
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "multifamily",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "crossRegistry": true,
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "Practical consequence for an owner: an apartment building's assessed value is arrived at by a different team using different methods from a duplex two streets away. The Assessor's page also states that data on construction costs, market sales and INCOME PRODUCTION is used to develop commercial assessments — the income approach appears for commercial and not for residential."
+    },
+    {
+      "id": "ada-commercial-assessment-uses-income",
+      "claim": "Ada County develops commercial assessments using data on construction costs, market sales and income production; the residential approach described alongside it relies on construction costs, sales and, where applicable, rental information.",
+      "quotedLanguage": "Data pertaining to construction costs, market sales, and income-production is used to develop commercial assessments.",
+      "assetClass": [
+        "multifamily",
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "crossRegistry": true,
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "Explains why an income-producing property's assessment can move differently from a house's in the same year. ⚠️ Do NOT extrapolate this into a claim about how any specific property was valued, or into cap rate or NOI figures — the page states the inputs, not a methodology document."
+    },
+    {
+      "id": "ada-assessment-market-value-jan-1-commercial",
+      "claim": "Every non-exempt commercial property in Ada County is assessed at market value as of January 1, on the same annual cycle and the same five-year physical inspection requirement as residential property.",
+      "quotedLanguage": "Idaho law requires that all non-exempt property be assessed at market value as of January 1st.",
+      "assetClass": [
+        "multifamily",
+        "office",
+        "retail",
+        "industrial",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "property-taxes"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "crossRegistry": true,
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "The Jan 1 lien date and the 5-year inspection cycle are county-wide and asset-class agnostic. Useful for explaining to a commercial owner why an assessment may lag a recent change in the property."
+    }
+  ]
+}

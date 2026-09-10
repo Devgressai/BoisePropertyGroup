@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-09-10",
+  "note": "Commercial source registry. Tier 1 = primary government. Brokerage material may supply market context when attributed, but may never override a governmental or statutory source.",
+  "sources": [
+    {
+      "id": "boise-zoning-i1",
+      "title": "Industrial Light (I-1) Zoning District — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-light/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": ["industrial"],
+      "topic": ["zoning", "industrial"],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Carries district purpose plus lot, setback, parking-setback and height standards. Setback footnote [1] has NOT been read.",
+      "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify district standards before each publication cycle.",
+      "claimsSupported": ["boise-i1-purpose", "boise-industrial-height-cap-55ft", "boise-industrial-interstate-parking-setback"],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-i2",
+      "title": "Industrial Heavy (I-2) Zoning District — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-heavy/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": ["industrial"],
+      "topic": ["zoning", "industrial"],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — same rewritten-code caveat as I-1.",
+      "claimsSupported": ["boise-i2-purpose-separation", "boise-industrial-height-cap-55ft", "boise-industrial-interstate-parking-setback", "boise-i2-street-frontage-minimum"],
+      "status": "VERIFIED"
+    }
+  ]
+}
