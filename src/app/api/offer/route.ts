@@ -39,7 +39,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Too many requests" }, { status: 429 });
   }
 
-  let body: { address?: unknown; website?: unknown };
+  let body: { address?: unknown; context?: unknown; website?: unknown };
   try {
     body = await req.json();
   } catch {
@@ -55,6 +55,11 @@ export async function POST(req: Request) {
   if (address.length < 4) {
     return NextResponse.json({ error: "Address required" }, { status: 400 });
   }
+
+  // Which side of the site the lead came from. Commercial and residential
+  // enquiries need different first questions, so the subject line says which
+  // rather than leaving it to be guessed from the address.
+  const context = body.context === "commercial" ? "commercial" : "residential";
 
   const key = process.env.RESEND_API_KEY;
   if (typeof key !== "string" || key.trim() === "") {
@@ -74,8 +79,13 @@ export async function POST(req: Request) {
   const sent = await resend.emails.send({
     from: "Boise Property Group <leads@boisepropertygroup.com>",
     to,
-    subject: `New offer request — ${address}`,
-    html: `<p><strong>Address:</strong> ${escapeHtml(address)}</p>`,
+    subject: `New ${context} enquiry — ${address}`,
+    html:
+      `<p><strong>Address:</strong> ${escapeHtml(address)}</p>` +
+      `<p><strong>Came from:</strong> the ${context} side of the site</p>` +
+      (context === "commercial"
+        ? "<p>Ask for a rent roll and a trailing twelve months before quoting anything.</p>"
+        : ""),
   });
   if (sent.error) {
     console.error("[offer] resend error", sent.error);

@@ -49,7 +49,7 @@ export default function CommercialPage({
               ))}
             </div>
             <div className="mt-9 max-w-[34rem]">
-              <OfferForm tone="dark" />
+              <OfferForm tone="dark" context="commercial" />
             </div>
           </div>
         </header>
