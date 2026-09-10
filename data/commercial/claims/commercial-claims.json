@@ -1246,6 +1246,106 @@
       "verificationFlag": null,
       "freshnessClass": "VOLATILE",
       "notes": "Supersedes the weaker boise-district-pages-omit-footnote-definitions in usefulness, and both are true. Established by reading the codified table and the city page side by side. ⚠️ Write it as a reason to read the ordinance, NEVER as a criticism of the city — a summary table is a reasonable thing for a planning department to publish, and the code is one click away from it. ⚠️ VOLATILE: this is a fact about a website on one date."
+    },
+    {
+      "id": "treasure-valley-setback-governed-by-residential-adjacency",
+      "claim": "Across the Treasure Valley, the setback that actually governs a commercial or industrial parcel is usually the one measured against housing — and no two cities express it the same way. Boise's I-1 and I-2 print a zero-foot interior side and rear yard that becomes 30, 50 or 100 feet next to a residential district or use depending on the size of the development. Star requires a minimum of 15 feet in its CBD, C-1, C-2, LO, IL, PS, RC and M-U zones when adjacent to a residential use or zone. Kuna does something different again: the setback becomes whatever the adjacent residential district itself requires.",
+      "quotedLanguage": "When a commercial and/or industrial use abuts a residential zoning district, the yard setback requirements shall be the same as required in the adjacent residential district. When residents are located in commercial or industrial zones, the yard setbacks are the same as required for the R-4 residential zoning district.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "land"
+      ],
+      "entity": [
+        "city:boise-city",
+        "city:star",
+        "city:kuna"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "land",
+        "jurisdiction",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "kuna-code-5-8-504",
+        "star-code-8-3a-4",
+        "boise-code-industrial-tables"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Treasure Valley, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "🎯 THE STRONGEST CROSS-JURISDICTION FINDING WE HOLD, and no competitor content addresses it. Three cities, three mechanisms, one shared reality: the number in the dimensional table is not the number that governs a parcel that touches housing. Boise scales it by development acreage, Star sets a flat floor, Kuna makes the commercial parcel inherit the residential district's own requirement. ⚠️ It is a claim about a PATTERN, not a formula. Never compute a setback for a reader from it, and never carry one city's number to another — the whole point is that they differ. Each component is separately quoted and cached; the quoted language here is Kuna's, which is the most surprising of the three."
+    },
+    {
+      "id": "star-light-industry-300ft-residential-separation",
+      "claim": "Star's Light Industrial district requires all mechanical equipment emissions, shipping and delivery, and other outdoor activity areas to sit at least three hundred feet from any abutting residential district, or the use becomes subject to a conditional use permit.",
+      "quotedLanguage": "All mechanical equipment emissions; shipping and/or delivery; or other outdoor activity areas shall be located a minimum of three hundred feet (300') from any abutting residential districts, or the use is subject to a conditional use permit.",
+      "assetClass": [
+        "industrial",
+        "land"
+      ],
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-code-8-3d-1"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "MATERIALLY IMPORTANT AND EASY TO MISS, because it is not a setback and does not appear in the dimensional table. It constrains where OPERATIONS can happen on the site rather than where the building sits, and 300 feet is far enough to render part of a small parcel unusable for loading. ⚠️ Note the escape: it is not a prohibition, it triggers a conditional use permit. Never write that the use is banned. ⚠️ Star's code names this district BOTH ways — 'LI' in § 8-3A-1 and 'IL' in Table 8-3A-4. That is the code's own inconsistency, not a transcription error of ours."
+    },
+    {
+      "id": "garden-city-c2-is-mixed-use-not-commercial",
+      "claim": "Garden City's C-2 is a mixed use commercial district, not a general commercial one. That inverts the convention in neighbouring cities, where C-2 denotes a commercial district — Star and Kuna both use C-2 for commercial and place mixed use elsewhere. Garden City's only industrial district is LI Light Industrial, with a 55-foot height maximum, while the height cell for its C-1 and C-2 districts is left blank in the table.",
+      "quotedLanguage": "Mixed use commercial (C-2)",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "city:garden-city"
+      ],
+      "topic": [
+        "zoning",
+        "jurisdiction",
+        "office",
+        "retail",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "garden-city-code-8-2b",
+        "star-code-8-3a-4",
+        "kuna-code-5-8-504"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "A LIVE TRAP for anyone normalising district codes across the valley, which is exactly what a national template would do. C-2 means one thing in Garden City and something else a few miles away. ⚠️ MEDIUM confidence and a hard limit on wording: the height cell for C-1 and C-2 is GENUINELY BLANK in the codified table — no value, no marker, no footnote, verified cell by cell in the raw HTML. That is NOT the Boise situation of an unreachable footnote. Never state or imply a height limit for those districts, and never describe the blank as 'no maximum' — we do not know what it means and the code does not say. ⚠️ assetClass includes industrial because the claim states Garden City’s only industrial district and its height maximum; the TOPIC list deliberately does NOT include \"industrial\", so this cannot inflate the industrial page’s differentiation count. It is context, not a differentiator."
     }
   ]
 }

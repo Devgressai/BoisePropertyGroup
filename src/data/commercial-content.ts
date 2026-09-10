@@ -89,10 +89,20 @@ export const INDUSTRIAL: CommercialPageContent = {
       ],
     },
     {
+      heading: "The setback that governs is usually the one next to housing",
+      body: [
+        "Every city in the valley publishes a dimensional table, and on an industrial parcel that touches residential ground, the numbers in that table are frequently not the numbers that apply. What is striking is that all of them do this and no two do it the same way.",
+        "Boise scales it by the size of the development: the zero-foot interior side and rear yard in I-1 and I-2 becomes 30 feet under three acres, 50 feet between three and ten, and 100 feet at ten or more. Star sets a flat floor instead — a minimum of 15 feet across its CBD, C-1, C-2, LO, IL, PS, RC and M-U zones when adjacent to a residential use or zone. Kuna takes a third approach entirely and makes the commercial parcel inherit the neighbour's rule: where a commercial or industrial use abuts a residential district, the yard setbacks become the same as those required in that adjacent residential district.",
+        "Star adds something that is not a setback at all and is easy to miss because it does not appear in any dimensional table. In its Light Industrial district, mechanical equipment emissions, shipping and delivery, and other outdoor activity areas must sit at least three hundred feet from any abutting residential district, or the use requires a conditional use permit. On a modest parcel that can put loading in the wrong place.",
+        "The practical point is not any one of these numbers. It is that a parcel's relationship to the nearest housing is often worth more attention than its own district designation, and that nothing you learn about one city transfers to the next.",
+      ],
+    },
+    {
       heading: "Across a city limit, the code changes completely",
       body: [
         "Boise's industrial districts govern Boise. Unincorporated Ada County runs its own zoning ordinance, adopted as Ordinance No. 1002, and it does not use Boise's vocabulary at all. The county's industrial districts are M1 Light Industrial, M2 General Industrial and M3 Airport Industrial. Boise's are I-1, I-2 and I-3.",
         "So \"light industrial\" is M1 on one side of a line and I-1 on the other, and they are different districts under different codes with different standards. A parcel does not change character when a boundary moves past it, but the rules governing it do. Anyone applying what they know about Boise industrial ground to a parcel in the county — or the reverse — is reading the wrong book.",
+        "The cities differ from each other just as much, and not only in numbers. Garden City's C-2 is a mixed use commercial district, where Star and Kuna both use C-2 for a commercial district and put mixed use elsewhere. Star's own code names its industrial district two different ways in two different places. District letters are local vocabulary, not a shared standard, and treating them as one is how a national template gets Idaho wrong.",
         "There is a second thing in the county code worth knowing if you own unincorporated ground. Every commercial and industrial district in it carries the same stated purpose: to encourage those uses primarily inside AREAS OF IMPACT, implementing the comprehensive plans adopted as part of the area of impact agreements, and to be established outside one only on a limited basis. The county is not planning a parallel industrial economy out there. It is largely holding ground that a city's plan expects to take in.",
       ],
     },
@@ -133,6 +143,9 @@ export const INDUSTRIAL: CommercialPageContent = {
     "ada-county-vs-city-zoning-vocabularies-differ",
     "ada-county-zoning-districts-schedule",
     "ada-county-commercial-districts-tied-to-areas-of-impact",
+    "treasure-valley-setback-governed-by-residential-adjacency",
+    "star-light-industry-300ft-residential-separation",
+    "garden-city-c2-is-mixed-use-not-commercial",
     "boise-airport-influence-overlay",
     "boise-flood-protection-overlay-purpose",
     "ada-commercial-assessment-uses-income",

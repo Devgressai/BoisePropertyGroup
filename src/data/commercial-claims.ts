@@ -1376,6 +1376,129 @@ export const commercialClaims: CommercialClaim[] = [
         "tier": 1
       }
     ]
+  },
+  {
+    "id": "treasure-valley-setback-governed-by-residential-adjacency",
+    "claim": "Across the Treasure Valley, the setback that actually governs a commercial or industrial parcel is usually the one measured against housing — and no two cities express it the same way. Boise's I-1 and I-2 print a zero-foot interior side and rear yard that becomes 30, 50 or 100 feet next to a residential district or use depending on the size of the development. Star requires a minimum of 15 feet in its CBD, C-1, C-2, LO, IL, PS, RC and M-U zones when adjacent to a residential use or zone. Kuna does something different again: the setback becomes whatever the adjacent residential district itself requires.",
+    "quote": "When a commercial and/or industrial use abuts a residential zoning district, the yard setback requirements shall be the same as required in the adjacent residential district. When residents are located in commercial or industrial zones, the yard setbacks are the same as required for the R-4 residential zoning district.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "land"
+    ],
+    "entities": [
+      "city:boise-city",
+      "city:star",
+      "city:kuna"
+    ],
+    "topics": [
+      "zoning",
+      "industrial",
+      "land",
+      "jurisdiction",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Treasure Valley, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Kuna City Code § 5-8-504 — Schedule of Area and Structure Requirements",
+        "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST&groupChunks=false",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Star City Code Table 8-3A-4 — Zoning District Dimensional Standards",
+        "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST&groupChunks=false",
+        "publisher": "City of Star, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65657",
+        "publisher": "City of Boise (American Legal Publishing)",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "star-light-industry-300ft-residential-separation",
+    "claim": "Star's Light Industrial district requires all mechanical equipment emissions, shipping and delivery, and other outdoor activity areas to sit at least three hundred feet from any abutting residential district, or the use becomes subject to a conditional use permit.",
+    "quote": "All mechanical equipment emissions; shipping and/or delivery; or other outdoor activity areas shall be located a minimum of three hundred feet (300') from any abutting residential districts, or the use is subject to a conditional use permit.",
+    "assetClasses": [
+      "industrial",
+      "land"
+    ],
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "zoning",
+      "industrial",
+      "land",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Star, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Star City Code § 8-3D-1 — LI Light Industrial District",
+        "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTDADLIINDIST_8-3D-1LILIINDI&groupChunks=false",
+        "publisher": "City of Star, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "garden-city-c2-is-mixed-use-not-commercial",
+    "claim": "Garden City's C-2 is a mixed use commercial district, not a general commercial one. That inverts the convention in neighbouring cities, where C-2 denotes a commercial district — Star and Kuna both use C-2 for commercial and place mixed use elsewhere. Garden City's only industrial district is LI Light Industrial, with a 55-foot height maximum, while the height cell for its C-1 and C-2 districts is left blank in the table.",
+    "quote": "Mixed use commercial (C-2)",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "city:garden-city"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "MEDIUM",
+    "jurisdiction": "Garden City, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Garden City Code Title 8 Development Code, Article 8-2B — Nonresidential and Mixed Use Districts",
+        "url": "https://ecode360.com/47141205",
+        "publisher": "Garden City, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Star City Code Table 8-3A-4 — Zoning District Dimensional Standards",
+        "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST&groupChunks=false",
+        "publisher": "City of Star, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Kuna City Code § 5-8-504 — Schedule of Area and Structure Requirements",
+        "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST&groupChunks=false",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      }
+    ]
   }
 ];
 

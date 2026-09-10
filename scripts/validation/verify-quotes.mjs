@@ -44,12 +44,41 @@ const norm = (s) => s.replace(/[‘’']/g, "'").replace(/[“”"]/g, '"')
   .replace(/([(])\s+/g, "$1")
   .replace(/\s+/g, " ").trim().toLowerCase();
 
+/**
+ * Some cached artifacts are JSON, not HTML — Municode serves codified ordinance
+ * text through a content API, and the fetcher correctly treats JSON as text and
+ * caches it. But the corpus builder used to run toText() over the raw file,
+ * which leaves the JSON envelope and its escape sequences in place, so a quote
+ * that IS present reads as missing.
+ *
+ * So: if a cached file parses as JSON, pull every string value out of it first
+ * and let toText() handle the HTML those strings contain.
+ */
+function extractText(raw) {
+  const trimmed = raw.trimStart();
+  if (trimmed.startsWith("{") || trimmed.startsWith("[")) {
+    try {
+      const strings = [];
+      const walk = (v) => {
+        if (typeof v === "string") strings.push(v);
+        else if (Array.isArray(v)) v.forEach(walk);
+        else if (v && typeof v === "object") Object.values(v).forEach(walk);
+      };
+      walk(JSON.parse(raw));
+      if (strings.length) return toText(strings.join(" "));
+    } catch {
+      // Not valid JSON after all — fall through and treat it as HTML.
+    }
+  }
+  return toText(raw);
+}
+
 // Build a text corpus from every cached artifact.
 const corpus = [];
 const CACHE = "data/idaho/raw/cache";
 if (existsSync(CACHE))
   for (const f of readdirSync(CACHE).filter((x) => x.endsWith(".html")))
-    corpus.push({ file: `${CACHE}/${f}`, text: norm(toText(readFileSync(`${CACHE}/${f}`, "utf8"))) });
+    corpus.push({ file: `${CACHE}/${f}`, text: norm(extractText(readFileSync(`${CACHE}/${f}`, "utf8"))) });
 for (const f of ["data/idaho/raw/st16_id_places.txt"])
   if (existsSync(f)) corpus.push({ file: f, text: norm(readFileSync(f, "utf8")) });
 

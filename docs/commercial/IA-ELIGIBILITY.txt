@@ -1,22 +1,22 @@
 COMMERCIAL IA ELIGIBILITY — computed from the registry, not decided in advance
 ==============================================================================
-approved commercial claims available: 37
+approved commercial claims available: 42
 
 ELIGIBLE TO BUILD
 ------------------------------------------------------------------------------
   Commercial acquisition overview
-    kind hub · 0 unique / 37 usable
+    kind hub · 0 unique / 42 usable
     A hub is a routing page. It is judged on whether the pages beneath it exist, never on unique claims.
 
   Industrial property — Boise
-    kind asset · 7 unique / 11 usable
+    kind asset · 7 unique / 13 usable
       · boise-i1-purpose
       · boise-i2-purpose-separation
       · boise-industrial-height-varies-by-district
       · boise-industrial-interstate-parking-setback
 
   Multifamily, five units and up
-    kind asset · 9 unique / 14 usable
+    kind asset · 9 unique / 15 usable
     ⚠ G3 contested query "sell multifamily property Boise" — one owner only; commercial holds it, residential must not
       · idaho-multifamily-boundary-is-not-one-boundary
       · ada-apartments-valued-by-commercial-appraisers
@@ -30,22 +30,25 @@ ELIGIBLE TO BUILD
       · idaho-assessment-ratio-band-90-110
       · idaho-appraisal-cycle-five-years
 
+  Vacancy in a special-purpose building
+    kind situation · 3 unique / 18 usable
+      · ada-county-vs-city-zoning-vocabularies-differ
+      · boise-district-pages-omit-footnote-definitions
+      · boise-city-pages-differ-from-codified-tables
+
 NOT ELIGIBLE
 ------------------------------------------------------------------------------
   Office property — Boise  [asset]
-    ✗ G1 differentiation — 0 allocated of 6 matched, needs 3
+    ✗ G1 differentiation — 0 allocated of 7 matched, needs 3
 
   Retail property — Boise  [asset]
-    ✗ G1 differentiation — 0 allocated of 5 matched, needs 3
+    ✗ G1 differentiation — 0 allocated of 6 matched, needs 3
 
   Commercial and development land  [asset]
-    ✗ G1 differentiation — 1 allocated of 8 matched, needs 3
+    ✗ G1 differentiation — 1 allocated of 11 matched, needs 3
 
   Lease rollover / income concentration  [situation]
     ✗ G1 differentiation — 0 allocated of 10 matched, needs 3
-
-  Vacancy in a special-purpose building  [situation]
-    ✗ G1 differentiation — 2 allocated of 14 matched, needs 3
 
   Entity or partnership exit  [situation]
     ✗ G4 blocked — Idaho Title 30 (Uniform LLC Act) member-consent defaults not verified. No evidence held.
@@ -61,12 +64,13 @@ SIBLING OVERLAP — evidence that differentiates nobody
   makes neither page distinct, so it counts for neither. A large number here
   means the candidates are one page proposed twice.
 
-    2 shared — commercial-land = industrial-boise
+    4 shared — commercial-land = industrial-boise
     2 shared — multifamily-5plus = office-boise = retail-boise
+    2 shared — commercial-land = multifamily-5plus
     2 shared — commercial-land = industrial-boise = office-boise = retail-boise
     1 shared — commercial-land = multifamily-5plus = office-boise = retail-boise
     1 shared — commercial-land = multifamily-5plus = office-boise
-    1 shared — commercial-land = multifamily-5plus
+    1 shared — office-boise = retail-boise
 
 HIERARCHY OVERLAP — resolved toward the less derived page
 ------------------------------------------------------------------------------
@@ -77,7 +81,7 @@ HIERARCHY OVERLAP — resolved toward the less derived page
     1 claims — commercial-land over situation-vacancy
 
 ==============================================================================
-4 eligible · 7 not eligible
+5 eligible · 6 not eligible
 
 A short list is the correct outcome. Nothing here is scheduled — eligibility
 is permission to build, never an instruction to.
