@@ -73,9 +73,23 @@ for (const c of claims) {
     W(`approved HIGH statutory claim ${c.id} carries no quotedLanguage`);
 }
 
-// 5. bidirectional consistency between source.claimsSupported and claim.sourceIds
+/**
+ * 5. bidirectional consistency between source.claimsSupported and claim.sourceIds
+ *
+ * A COMMERCIAL claim may legitimately cite a RESIDENTIAL source — Idaho Code and
+ * Ada County assessment material serve both verticals, and duplicating those
+ * sources into the commercial registry would mean two rows to keep in step
+ * instead of one. So a residential source listing a commercial claim is correct,
+ * not an error, and this check has to know about both registries to see that.
+ * It previously loaded only residential claims and reported the cross-registry
+ * link as an unknown claim.
+ */
+const commercialClaimIds = new Set(
+  JSON.parse(readFileSync("data/commercial/claims/commercial-claims.json", "utf8")).claims.map((c) => c.id),
+);
 for (const s of sources) {
   for (const cid of s.claimsSupported ?? []) {
+    if (commercialClaimIds.has(cid)) continue; // cross-registry citation
     if (!claimIds.has(cid)) { E(`source ${s.id} lists unknown claim: ${cid}`); continue; }
     const c = claims.find((x) => x.id === cid);
     if (!c.sourceIds?.includes(s.id))

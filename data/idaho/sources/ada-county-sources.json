@@ -253,7 +253,11 @@
         "ada-reappraisal-five-year-cycle",
         "ada-assessor-does-not-set-value",
         "ada-fixture-three-factor-test",
-        "ada-residential-appraisal-scope"
+        "ada-residential-appraisal-scope",
+        "idaho-multifamily-boundary-is-not-one-boundary",
+        "ada-commercial-assessment-uses-income",
+        "ada-assessment-market-value-jan-1-commercial",
+        "multifamily-threshold-varies-across-six-systems"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -329,7 +333,9 @@
       "freshnessClass": "STATUTORY",
       "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
       "claimsSupported": [
-        "id-disclosure-required-1-to-4-units"
+        "id-disclosure-required-1-to-4-units",
+        "idaho-multifamily-boundary-is-not-one-boundary",
+        "multifamily-threshold-varies-across-six-systems"
       ],
       "entitiesSupported": [
         "state:id"
@@ -463,7 +469,9 @@
       "claimsSupported": [
         "id-domestic-water-13000-gpd",
         "id-domestic-water-exclusions",
-        "id-water-subdivision-five-lots"
+        "id-water-subdivision-five-lots",
+        "idaho-multifamily-boundary-is-not-one-boundary",
+        "multifamily-threshold-varies-across-six-systems"
       ],
       "entitiesSupported": [
         "state:id"
@@ -1230,7 +1238,9 @@
       "freshnessClass": "STATUTORY",
       "authorityNotes": "Official statute text, read directly from the Legislature's site with raw HTML cached. One sentence long, and easy to over-read — see the claim notes.",
       "stalenessRisk": "LOW — statutory text changes only by amendment.",
-      "claimsSupported": [],
+      "claimsSupported": [
+        "id-manufactured-homes-assessed-as-residential"
+      ],
       "status": "VERIFIED"
     },
     {
@@ -1251,7 +1261,10 @@
       "freshnessClass": "STATUTORY",
       "authorityNotes": "Official statute text, cached. The counterpart to § 63-304: it governs what happens when an owner wants to undo the declaration, and the answer is that it is far harder than making it.",
       "stalenessRisk": "LOW — statutory text changes only by amendment.",
-      "claimsSupported": [],
+      "claimsSupported": [
+        "id-manufactured-home-removal-requires-consent",
+        "id-manufactured-home-removal-notice-and-taxes"
+      ],
       "status": "VERIFIED"
     }
   ]
