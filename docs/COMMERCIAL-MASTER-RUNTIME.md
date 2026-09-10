@@ -58,14 +58,14 @@ become "we have acquired industrial properties throughout Boise."
 | 03 | Ada County commercial assessment framework | **COMPLETE** — assessment done; three Tier 1 statutes added (63-205 lien date, 63-208 the 90–110% tolerance band, 63-314 the five-year appraisal cycle) |
 | 04 | 5+ unit multifamily classification | **COMPLETE** — 6 systems mapped (Idaho ×3, Census, HUD, GSE/FHFA); no single boundary exists |
 | 05 | Boise zoning + commercial geography | **PARTIAL** — 10 districts read; footnote definitions established as UNREACHABLE (amlegal 403); geography open |
-| 06 | Meridian/Garden City/Eagle/Kuna/Star zoning | **DISPATCHED** |
+| 06 | Meridian/Garden City/Eagle/Kuna/Star zoning | **PARTIAL** — Meridian/Eagle/Kuna district schedules read to completion incl. footnotes; **NOT CITABLE YET** — agent's artifacts are in scratchpad, cache population authorised and pending. MX-3 does not exist (closed) |
 | 07 | Industrial intelligence | **PARTIAL** |
 | 08 | Multifamily intelligence | **PARTIAL** |
 | 09 | Office intelligence | **DISPATCHED** |
 | 10 | Retail/mixed-use intelligence | **DISPATCHED** |
 | 11 | Land/development intelligence | **DISPATCHED** |
 | 12 | Seller-situation ontology | **COMPLETE** — `research/commercial/COMMERCIAL-SELLER-SITUATION-ONTOLOGY.md`; 7 Tier-1, 4 currently buildable |
-| 13 | Transaction-structure research | **DISPATCHED** — agent `txn-structures`, narrowed to the dwelling/commercial regulatory boundary |
+| 13 | Transaction-structure research | **RESEARCH COMPLETE, UNWRITTEN** — see `research/commercial/SELLER-FINANCING-BOUNDARY.md`. Reg Z's line is UNIT COUNT (1–4 dwelling), not investment-vs-residence; Idaho's own Act has NO purpose limitation, so the federal business-purpose exit has no Idaho counterpart |
 | 14 | Valuation education model | **COMPLETE** — `research/commercial/COMMERCIAL-VALUATION-EDUCATION-MODEL.md`; verdict: ONE explainer, not a cluster |
 | 15 | SERP + query ownership | **PARTIAL** — ownership map recorded (`data/commercial/queries/commercial-query-ownership.json`); risks 2+ outstanding |
 | 16 | IA decision | **COMPLETE** — computed, not decided: `scripts/research/commercial-ia-eligibility.mjs`. **Two pages plus a hub.** |
@@ -82,8 +82,11 @@ become "we have acquired industrial properties throughout Boise."
 | ~~1~~ | ~~Was the new Ada County Title 8 adopted?~~ | **RESOLVED 09-10** — YES. **Ordinance No. 1002**, published by the Ada County Clerk, 615 pages, cached and extracted. Adopted schedule matches the draft. Corroborated by a 27 May 2026 county ordinance amending the map of Title 8 "AS ADOPTED BY ORDINANCE NO. 1002". Two claims unblocked after nine days withheld. | closed |
 | 2 | What do the bracketed footnotes on Boise dimensional standards say? | R-3 density, I-1/I-2 0 ft setbacks, I-3 height/setback | research |
 | ~~3~~ | ~~Which systems use a 5+ unit multifamily boundary?~~ | **RESOLVED** — no system is authoritative for all purposes. Census=2+, FHFA/GSE=>4, HUD varies. Never write "5 units is legally commercial". | closed |
+| ~~2~~ | ~~What do the bracketed footnotes on Boise dimensional standards say?~~ | **ANSWERED, BADLY** — the City publishes NO footnote definitions at all; they exist only in the amlegal codified ordinance, which 403s every automated request. A footnoted cell is quotable-with-marker and unparaphrasable. Possible unlock: local Chrome over CDP with a non-`HeadlessChrome` UA (reported by `zoning-cities`, unverified here). | open, downgraded |
 | 4 | Does BPG have any completed transaction, of any asset class? | all trust architecture | **OWNER INPUT REQUIRED** |
 | 5 | Are there acquisition size limits (min/max SF, units, price)? | acquisition criteria page | **OWNER INPUT REQUIRED** |
+| 6 | What is Ordinance 1002's effective/publication date? | nothing published — §8-1-8 self-executes on publication | **manual browser read** — amlegal history note |
+| ~~7~~ | ~~Is an Idaho sale price public record?~~ | **RESOLVED 09-10** — Idaho is a non-disclosure state. Access to recorder records is total and free (§ 31-2419); price is not among a conveyance's required elements (§ 55-601). Published affirmatively. | closed |
 
 ---
 
