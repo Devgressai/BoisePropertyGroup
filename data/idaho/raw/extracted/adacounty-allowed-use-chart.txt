@@ -1,0 +1,479 @@
+     B. Standards Column. The "Use Standards" column provides a reference to associated
+        standards for certain principal permitted uses, conditional uses, and accessory uses. Where
+        "N/A" is in the column, there is no associated standard. Where a “Section number” is in
+        the column, there are associated standards.
+  Table 8-2-23-2 Use Table
+                                                                                                                                       Use
+         Proposed Use         Rural       Transition           Residential                       Commercial        Industrial
+                                                                                                                                    Standards
+
+
+                                          RUT    RSW            R2, R4   R6, R8   R12, R20
+                            RP     RR                   R1                                   LO     C1    C2      M1    M2    M3
+
+
+Residential
+Dwelling, Single-Family
+                            [P]    [P]    [P]    [P]    [P]      [P]     [P]      [P]                                                 N/A
+Detached
+Dwelling, Single-Family
+                                                                 [P]     [P]      [P]                                                 N/A
+Attached
+Dwelling, Duplex            [P]    [P]    [P]    [P]    [P]      [P]     [P]      [P]                                                 N/A
+
+
+Dwelling, Multi-Family                                                    C         P                                                8-4-45
+
+
+Manufactured Home           [P]    [P]    [P]    [P]    [P]                                                                           N/A
+Manufactured Home
+                                                         C       C        C        C                                                 8-4-41
+Park
+Lodging/Group Living
+Bed and Breakfast
+                            [C]    [C]    [C]    [C]    [C]     [C] [C] [C]                  [C]    [C]   [C]                        8-4-10
+Establishment
+Boarding House                                                                               [C]    [C]   [C]                         N/A
+
+Continuing Care Facility     C      C      C      C      C       C        C        C         P       P        P                       N/A
+
+Foster Home, Group          [P]    [P]    [P]    [P]    [P]      [P]     [P]      [P]                                                8-4-30
+
+Hotel/Motel                                                                                  C       C        P                      8-4-34
+
+Recreational Vehicle Park                                                                            C        C                      8-4-60
+
+Agriculture
+
+Agricultural Service        {C}    {C}                                                                                                N/A
+
+Agricultural Use            [P]    [P]    [P]    [P]    [P]      [P]     [P]      [P]        [P]    [P]   [P]     [P]   [P]   [P]     N/A
+Equestrian Stable/Event
+                            [C]    [C]    [C]                                                                                         N/A
+Facility
+Livestock Confinement <
+                            [P]1   [P]1   [P]    [P]    [P]      [P]     [P]                                                         8-4-38
+300 AU
+Livestock Confinement
+                            {P}    {P}                                                                                               8-4-38
+301-999 AU
+Livestock Confinement
+                            {C}    {C}                                                                                               8-4-38
+1,000+ AU
+Nursery, Wholesale          [P]    [P]    [P]                                                                     [P]   [P]   [P]    8-4-46
+Seasonal Farmworker
+                             C      C                                                                                                8-4-66
+Housing
+Stable                      [P]*   [P]*   [P]*   [P]*   [P]*                                                                          N/A
+
+Winery                       C      C      C                                                         C        C   P     P       P    8-4-80
+
+
+
+
+ORDINANCE NO. _____ - PAGE 30
+                                                                                                                               Use
+         Proposed Use       Rural    Transition        Residential                       Commercial        Industrial
+                                                                                                                            Standards
+
+
+                                     RUT   RSW          R2, R4   R6, R8   R12, R20
+                           RP   RR                R1                                 LO     C1    C2      M1   M2   M3
+
+
+Commercial/Office
+
+Animal Services
+
+Kennel, Commercial         C    C     C                                              C       C        C   C                  8-4-36
+
+Veterinary Services        C    C     C     C     C                                  C       P        P   P                   N/A
+
+Day Care
+
+Family Day Care, Home      A*   A*   A*    A*     A*     A*      A*       A*                                                 8-4-18
+
+Day Care, Group            A*   A*   A*    A*     A*     A*      A*       A*         A*     A*                               8-4-18
+
+Day Care, Center                      C     C     C      C        C        C         C       P        P                      8-4-18
+
+Financial Services
+
+Financial Institution                                                                P       P        P                       N/A
+Food & Beverage
+Sales/Service
+Bar                                                                                  C       C        P                       8-4-9
+
+Brewpub or Distillery                                                                        P        P        P    P         8-4-9
+
+Nightclub                                                                                    C        C                       8-4-9
+
+Restaurant                                                                           C       P        P   C     C       C     N/A
+Office, Business &
+Professional
+Office                                                                     C         P       P        P   P                   N/A
+Personal / Business
+Services
+Personal Services                                                          C         C       P        P   P                  8-4-50
+
+Postal Service                                                                       P       P        P   P     P       P    8-4-53
+
+Retail sales
+
+Auction                    C    C                                                                     C   C     C             8-4-7
+
+Farm, Garden, Lumber,
+                                                                                             P        P   P     P             N/A
+or Building Supply Store
+
+Fuel Sales                                                                                   C        P   P     P       P    8-4-28
+Heavy Equipment Sales
+                                                                                                      P   P     P       P    8-4-31
+or Service
+Nursery, Retail                 C     C                                                      P        P   P                  8-4-46
+
+Retail Store                                                               C         C       P        P   P                   N/A
+
+Automotive
+
+Car Wash                                                                                     C        C   P     P       P    8-4-12
+
+Vehicle Repair, Minor                                                                        C        P   P     P       P    8-4-79
+
+Vehicle Repair, Major                                                                                 C   P     P       P    8-4-79
+
+
+
+
+ORDINANCE NO. _____ - PAGE 31
+                                                                                                                                    Use
+        Proposed Use           Rural     Transition        Residential                        Commercial        Industrial
+                                                                                                                                 Standards
+
+
+                                         RUT   RSW          R2, R4   R6, R8   R12, R20
+                             RP    RR                 R1                                 LO      C1    C2      M1   M2   M3
+
+
+Vehicle Sales                                                                                              P   P     C       C    8-4-79
+
+Entertainment/Recreation
+Adult Entertainment
+                                                                                                           C                       8-4-3
+Establishment
+Amusement or
+                                                                               C          C       C        P   C                   N/A
+Recreation, Indoor
+Amusement or
+                                   C      C     C                                         C       C        P                       8-4-5
+Recreation, Outdoor
+Campground                    C    C                                                                                              8-4-11
+
+Racetrack                     C    C                                                                       C                      8-4-58
+Shooting Range (Indoor
+                              C    C                                                              C        P   C     C       C    8-4-68
+Only)
+Shooting Range (Outdoor
+                              C    C                                                                                              8-4-68
+Only)
+Civic
+
+Assembly
+
+Event Center                  C    C      C     C     C      C        C        C          C       C        C   C                  8-4-24
+
+Religious Land Use            C    C      C     C     C      C        C        C          C       C        C                       N/A
+
+Death Care Services
+
+Cemetery                      C    C      C     C     C      C        C        C                                                  8-4-13
+
+Crematory                                                                                 C       C        P   P                  8-4-16
+
+Funeral Services                                                                          C       C    P1      P1                 8-4-29
+
+Mortuary                                                                                 A*/C A*/C A*/C A*/C                      8-4-16
+
+Government/Non-Profit
+Public or Quasi-Public
+                              C    C      C     C     C      C        C        C          C       C        C   C     C       C    8-4-57
+Use
+Education
+
+School                        C    C      C     C     C      C        C        C          C       C        C                      8-4-65
+
+Studio                                                                         C          C       P        P   P                   N/A
+
+Technical School              C    C      C                                               C       P        P   P     P       P     N/A
+
+Medical
+
+Clinic (Dental or Medical)                                                                P       P        P                       N/A
+
+Medical Care Facility                                                                     C       P        P                      8-4-44
+
+Industrial
+Manufacturing &
+Employment
+Asphalt or Concrete
+                             A*/C A*/C   C                                                                           P       C     8-4-6
+Ready-Mix Plant
+Contractor Yard               C    C      C                                                                    P     P       P    8-4-15
+
+
+
+ORDINANCE NO. _____ - PAGE 32
+                                                                                                                                      Use
+      Proposed Use                Rural     Transition        Residential                       Commercial        Industrial
+                                                                                                                                   Standards
+
+
+                                            RUT   RSW          R2, R4   R6, R8   R12, R20
+                              RP      RR                 R1                                 LO     C1    C2      M1    M2    M3
+
+
+Explosive Manufacturing
+                              C                                                                                        P       C    8-4-25
+or Storage
+Foundry                                                                                                                P       P    8-4-26
+
+Manufacturing, Heavy                                                                                                   P       C    8-4-39
+
+Manufacturing, Light                                                                                         C   P     P       P    8-4-40
+Meatpacking/
+                              {C}     {C}                                                                              C            8-4-43
+Slaughterhouse Facility
+Pit, Mine, or Quarry,
+                              C       C      C                                                                         C       C    8-4-51
+Large
+Processing Plant,
+Agricultural and Dairy        {C}     {C}                                                                        P     P       P    8-4-55
+Products
+Research and
+                              C       C      C                                                      C        C   P     P       P     N/A
+Development Facility
+Sawmill/Planing Mill          C                                                                                        P       C    8-4-64
+
+Tannery                                                                                                                P            8-4-72
+Wood, Metal, and Stone
+                                                                                                             C   P     P       P     N/A
+Shop
+Warehousing, Storage &
+Distribution
+Energy Storage                C      C      C     C      C     C        C         C         C       C        C   C     C       C     N/A
+
+Grain Elevator                [P]     [P]                                                                        [P]   [P]           N/A
+
+Manufactured Home
+                                                                                                                 P     P       P    8-4-42
+Storage
+
+Storage Facility, Self-
+                                                                         C        C         C       C        P   P     P       P    8-4-70
+Service
+Storage Facility, Self-
+                              C       C      C                                                                   C     C       C    8-4-71
+Service -Outdoor Only
+
+Wholesale Distribution
+                                                                                                                 P     P       P     N/A
+and Warehousing
+
+Infrastructure
+
+Transportation / Parking
+
+Aircraft Landing Field        C       C                                                                          C     C             8-4-4
+
+Airport                       C       C                                                                          C     C       C     8-4-4
+
+Freight/Truck Terminal                                                                                           P     P       P    8-4-27
+Ground Passenger
+Transportation (e.g. taxi,                                                                                   P   P             P     N/A
+charter bus)
+Heavy Truck Wash
+                              C                                                                                  C     C       C    8-4-32
+Facility
+Off Street Parking Facility                                                                         C        C   P     P       P     N/A
+
+Railroad Switching Yard       C                                                                                  P     P       P    8-4-59
+
+
+
+
+ORDINANCE NO. _____ - PAGE 33
+                                                                                                                                           Use
+      Proposed Use               Rural       Transition         Residential                       Commercial        Industrial
+                                                                                                                                        Standards
+
+
+                                             RUT   RSW           R2, R4   R6, R8   R12, R20
+                             RP      RR                   R1                                  LO     C1    C2      M1       M2    M3
+
+
+Transit Facility                                                                                      P        P    C       C     C      8-4-76
+
+Truck Stop                   C       C                                                                         P    P       P     P      8-4-77
+
+Infrastructure-Utilities
+Centralized Power
+                             C       C                                                                              C       C     C      8-4-54
+Facility
+Distributed Power
+Facility, Wind               C       C                                                                                                   8-4-54
+Freestanding Tower
+Distributed Power
+                             A*      A*       A*   A*                                                              A*       A*           8-4-54
+Facility, Wind Rooftop
+Distributed Power
+                             A1      A1      A1    A1     A1      A1      A1       A1         A1      A1   A1      A1       A1    A1     8-4-54
+Facility, Solar Facility
+Electric Distribution Line   [P]     [P]     [P]   [P]    [P]     [P]     [P]      [P]        [P]    [P]   [P]     [P]      [P]   [P]    8-4-54
+Electric Sub-transmission
+                             P       P        P     P     P       P        P         P        P       P        P    P       P     P      8-4-54
+Line
+Electric Substation          C       C        C     C     C       C        C        C         C       C        C    C       C     C      8-4-54
+Electric Transmission
+                             C       C        C     C     C       C        C        C         C       C        C    C       C     C      8-4-54
+Line
+Communications
+Radio and Television
+                                                                                                      C        P    P                     N/A
+Broadcasting Station
+Tower or Antenna
+                             [C]     [C]     [C]   [C]    [C]    [C] [C] [C]                  [C]    [C]   [C]     [C]      [C] [C]      8-4-74
+Structure, Commercial
+Tower or Antenna
+                             A*      A*      A*    A*     A*      A*      A*       A*         A*     A*    A*      A*       A*    [C]    8-4-75
+Structure, Private
+Waste-related:
+
+Composting Facility          {C}     {C}                                                                                    P     P      8-4-14
+Junkyard or Automobile
+                                                                                                                            C     C      8-4-35
+Wrecking Yard
+Recycling Center                                                                                               C    P       P     P      8-4-61
+
+Recycling Plant                                                                                                             P     P       N/A
+
+Sanitary Landfill            C       C                                                                                      C            8-4-63
+Septage Treatment and
+                             C                                                                                                           8-4-67
+Disposal Facility
+Soil/Water Remediation       [C]                                                                                                         8-4-69
+Soil/Water Remediation,
+                             P       P        P     P     P       P        P         P        P       P        P    P       P     P      8-4-69
+Onsite
+Vehicle Impound Yard                                                                                                        P     P      8-4-78
+
+Accessory Uses
+
+Accessory Retail Sales       A*      A*      A*    A*     A*      A*      A*       A*         A       A    A        A       A     A      8-4-62
+
+Accessory Office             A 1     A   1   A 1   A 1    A 1     A  1    A   1    A    1     A 1     A1   A   1   A    1   A 1   A 1    8-4-47
+Accessory Outdoor
+                             A1      A1      A1    A1     A1      A1      A1       A1         A1      A1   A1      A1       A1    A1     8-4-49
+Storage
+
+
+
+ORDINANCE NO. _____ - PAGE 34
+                                                                                                                                   Use
+        Proposed Use          Rural     Transition        Residential                       Commercial        Industrial
+                                                                                                                                Standards
+
+
+                                        RUT   RSW          R2, R4   R6, R8   R12, R20
+                            RP    RR                 R1                                 LO     C1    C2      M1    M2   M3
+
+
+Accessory Structure, 200
+                            A1    A1    A1    A1     A1     A1      A1       A1         A1      A1   A1      A1    A1   A1        8-4-2
+square feet or less
+
+Accessory Structure, >200
+                            A     A      A     A     A      A        A        A         A       A    A       A     A       A      8-4-2
+<1,500 square feet
+Accessory Structure,
+                            A*    A*    A*    A*     A*     A*      A*       A*         A*     A*    A*      A*    A*   A*        8-4-2
+>1,500 square feet
+Additional Farm
+                            A*    A*    A*    A*     A*     A*      A*       A*                                                   8-4-21
+Dwelling
+Caretaker Dwelling          A*    A*    A*    A*     A*     A*      A*       A*         A*     A*    A*      A*    A*   A*        8-4-22
+
+Dwelling, Secondary
+                            A*    A*    A*    A*     A*     A*      A*       A*                                                   8-4-23
+Attached or Detached
+
+Agricultural Structure      A     A      A     A     A      A        A        A         A       A    A       A     A       A       N/A
+
+Automotive, Hobby           A     A      A     A     A      A        A        A         A       A    A                            8-4-8
+
+Fuel Cell                   A     A      A     A     A      A                                                A     A       A       N/A
+
+Home Occupation, Small      A     A      A     A     A      A        A        A         A       A    A                            8-4-33
+
+Home Occupation, Large      A*    A*    A*    A*     A*     A*      A*       A*         A*     A*    A*                           8-4-33
+
+Kennel, Hobby               A*    A*    A*    A*     A*     A*      A*       A*         A*     A*    A*                           8-4-37
+
+Portable Classroom          A*    A*    A*    A*     A*     A*      A*       A*         A*     A*    A*      A*    A*   A*        8-4-52
+Produce Stand,
+                            A     A      A     A     A      A        A        A         A       A    A                            8-4-56
+Agricultural
+Produce Stand, Roadside     A*    A*    A*    A*     A*     A*      A*       A*         A*     A*    A*                           8-4-56
+
+Small Wireless Facility     A     A      A     A     A      A        A        A         A       A    A       A     A       A      8-4-74
+Swimming Pool, Private
+(includes swimming
+                            A     A      A     A     A      A        A        A         A       A    A                            8-4-5
+pools accessory to
+Hotels/Motels)
+Temporary Uses
+
+Anenometer                  T     T      T     T     T                                                       T     T       T      8-4-73
+
+Fireworks Stands                                                                        T       T        T                        8-4-73
+
+Seasonal Stands             T     T      T                                              T       T        T                        8-4-73
+
+Seasonal Events             T*    T*    T*    T*     T*     T*      T*       T*         T*     T*    T*                           8-4-73
+Temporary Construction
+                            T     T      T     T     T      T        T         T        T       T        T   T     T       T      8-4-48
+Office
+Temporary Living
+                            T*    T*    T*    T*     T*     T*      T*       T*         T*     T*    T*                           8-4-73
+Quarters
+Subdivision Model
+                            T     T      T     T     T      T        T         T        T       T        T                        8-4-73
+Home/Real Estate Offices
+Temporary Pit, Mine, or
+                            T*    T*    T*    T*     T*     T*      T*       T*         T*     T*    T*      T*    T*   T*     8-4-73/8-4-51
+Quarry
+Other
+
+Billboards                  [C]   [C]                                                                [C]     [C]   [C] [C]        8-3-12
+
+
+
+ORDINANCE NO. _____ - PAGE 35
+                                                                                                                              Use
+     Proposed Use          Rural    Transition        Residential                       Commercial        Industrial
+                                                                                                                           Standards
+
+
+                                    RUT   RSW          R2, R4   R6, R8   R12, R20
+                          RP   RR                R1                                 LO     C1    C2      M1   M2   M3
+
+
+Dangerous or Protected
+                          C    C     C     C     C      C        C        C         C       C        C   C     C       C    8-4-17
+Animal Facility
+Drive-up Establishments                                                             C       C        C   C                  8-4-19
+
+
+
+
+ORDINANCE NO. _____ - PAGE 36
+

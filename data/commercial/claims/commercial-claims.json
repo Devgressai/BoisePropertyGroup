@@ -390,8 +390,8 @@
     },
     {
       "id": "ada-county-zoning-districts-schedule",
-      "claim": "Ada County's zoning ordinance establishes base districts grouped as Rural (Rural Preservation RP, Rural Residential RR), Transitional (Rural Urban Transition RUT, Southwest Community Residential RSW), Residential (R1 through R20), Commercial (Limited Office LO, Neighborhood Commercial C1, Community Commercial C2), Industrial (Light Industrial M1, General Industrial M2, Airport Industrial M3) and Planned Communities (PC), plus seven overlay districts.",
-      "quotedLanguage": "Table 8-2-3-1 Zoning Districts — Base Districts … Commercial: Limited Office (LO), Neighborhood Commercial (C1), Community Commercial (C2) … Industrial: Light Industrial (M1), General Industrial (M2), Airport Industrial (M3)",
+      "claim": "Ada County's adopted zoning ordinance establishes eighteen base districts and eight overlay districts. Its commercial and industrial base districts are Limited Office (LO), Neighborhood Commercial (C1), Community Commercial (C2), Light Industrial (M1), General Industrial (M2) and Airport Industrial (M3), alongside a Planned Community (PC) district and ten residential and rural districts.",
+      "quotedLanguage": "8-2-16: LIMITED OFFICE (LO) 8-2-17: NEIGHBORHOOD COMMERCIAL (C1) 8-2-18: COMMUNITY COMMERCIAL (C2) 8-2-19: LIGHT INDUSTRIAL (M1) 8-2-20: GENERAL INDUSTRIAL (M2) 8-2-21: AIRPORT INDUSTRIAL (M3) 8-2-22: PLANNED COMMUNITY (PC)",
       "assetClass": [
         "industrial",
         "office",
@@ -412,20 +412,20 @@
         "differentiation"
       ],
       "sourceIds": [
-        "ada-county-zoning-title8-draft"
+        "ada-county-ordinance-1002"
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "jurisdiction": "unincorporated Ada County, Idaho",
       "temporalStatus": "ADOPTION_UNCONFIRMED",
-      "verificationFlag": "ADOPTED_TEXT_UNCONFIRMED",
-      "approvedForPublication": false,
-      "verifiedOn": null,
-      "notes": "🚨 WITHHELD. Read from a county-published PDF whose ordinance number is BLANK ('ORDINANCE NO. _____') and whose filename carries a PZ_JAN2025 marker — i.e. a draft presented to the Planning and Zoning Commission, not a certified adopted text. Public hearings are recorded for 2025-01-16 and 2025-05-22, and the American Legal code library does list a codified TITLE 8 ADA COUNTY ZONING current through ordinance 1018 (2026-03-24), which strongly suggests a new Title 8 WAS adopted — but codelibrary.amlegal.com returns 403 to automated retrieval, so the ADOPTED district schedule has not been compared against this draft. Do not publish any Ada County district name or code until the codified text is read. This is the same failure mode as a statute served ahead of its effective date."
+      "verificationFlag": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "✅ UNBLOCKED 2026-09-10 after nine days withheld. It was held because the only county text we had was a PDF whose ordinance number line read literally 'ORDINANCE NO. _____' with a PZ_JAN2025 filename — a draft to the Planning and Zoning Commission, not adopted law. The adopted text is Ordinance No. 1002, published by the Ada County Clerk, and the district schedule in it matches what the draft showed. Two independent confirmations of adoption: the ordinance carries a real number, and a later county ordinance of 27 May 2026 amends the zoning map of 'TITLE 8 OF ADA COUNTY CODE, AS ADOPTED BY ORDINANCE NO. 1002'. Withholding it for nine days was correct — the draft could have changed before adoption, and publishing a district schedule that later moved would have been worse than saying nothing."
     },
     {
       "id": "ada-county-vs-city-zoning-vocabularies-differ",
-      "claim": "Ada County and the City of Boise use entirely different zoning vocabularies for the same asset classes: the county's industrial districts are designated M1, M2 and M3, while Boise's are I-1, I-2 and I-3, and the county's commercial districts (LO, C1, C2) have no counterpart naming in Boise's seven mixed-use districts.",
-      "quotedLanguage": null,
+      "claim": "Ada County and the City of Boise use entirely different zoning vocabularies for the same kinds of property. The county's adopted code calls its industrial districts M1 Light Industrial, M2 General Industrial and M3 Airport Industrial; Boise calls its I-1 Light Industrial, I-2 Heavy Industrial and I-3 Industrial Technology. The county's commercial districts are LO, C1 and C2; Boise's equivalents sit in its mixed-use MX series. A parcel does not change character at a city limit, but the code governing it does.",
+      "quotedLanguage": "8-2-19: LIGHT INDUSTRIAL (M1) 8-2-20: GENERAL INDUSTRIAL (M2) 8-2-21: AIRPORT INDUSTRIAL (M3)",
       "assetClass": [
         "industrial",
         "office",
@@ -443,18 +443,18 @@
         "differentiation"
       ],
       "sourceIds": [
-        "ada-county-zoning-title8-draft",
+        "ada-county-ordinance-1002",
         "boise-zoning-i1",
         "boise-zoning-i2",
         "boise-zoning-i3"
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH",
       "jurisdiction": "Ada County, Idaho",
       "temporalStatus": "ADOPTION_UNCONFIRMED",
-      "verificationFlag": "ADOPTED_TEXT_UNCONFIRMED",
-      "approvedForPublication": false,
-      "verifiedOn": null,
-      "notes": "🚨 WITHHELD pending the same verification. If it holds, this is a strong differentiator and a genuine trap for owners: an M1 parcel in unincorporated Ada County and an I-1 parcel in Boise are governed by different codes with different standards, and 'light industrial' means something different on each side of a city limit. No competitor content addresses this. It cannot be published until the county's adopted district names are confirmed."
+      "verificationFlag": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "✅ UNBLOCKED 2026-09-10 against the adopted Ordinance No. 1002. A genuine trap for owners and one no competitor addresses: 'light industrial' is M1 in unincorporated Ada County and I-1 in Boise, and they are different districts under different codes with different standards. ⚠️ NEVER carry a Boise standard across a city limit, in either direction. This claim establishes that the vocabularies differ; it does NOT establish that any particular standard corresponds."
     },
     {
       "id": "boise-mx5-no-height-maximum",
@@ -972,6 +972,40 @@
       "verificationFlag": null,
       "freshnessClass": "EVERGREEN",
       "notes": "The statutory basis for what we previously held only from the Ada County Assessor's own webpage. A statute is a stronger source than a county explainer and does not go stale when a website is redesigned. Read together with idaho-appraisal-cycle-five-years, this is the complete answer to why an assessment is not a price: a fixed date, a tolerance band, and up to five years since anyone looked."
+    },
+    {
+      "id": "ada-county-commercial-districts-tied-to-areas-of-impact",
+      "claim": "Every commercial and industrial district in Ada County's adopted zoning ordinance carries the same stated purpose: to encourage those uses primarily inside areas of impact, implementing the comprehensive plans adopted as part of the area of impact agreements, and to be established outside an area of impact only on a limited basis. The district's allowed uses turn on the availability of urban public facilities and the applicable comprehensive plan designation.",
+      "quotedLanguage": "The General Industrial (M2) District promotes the public health, safety, and welfare of Ada County by encouraging industrial uses primarily inside areas of impact to implement the applicable comprehensive plans that are adopted as part of the area of impact agreements. The General Industrial (M2) District may also be established outside areas of impact on a limited basis.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "zoning",
+        "jurisdiction",
+        "industrial",
+        "office",
+        "retail",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "ada-county-ordinance-1002"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "MATERIALLY IMPORTANT AND EASY TO MISS. County commercial and industrial zoning is written around city AREAS OF IMPACT — the county is not planning a parallel industrial economy, it is holding ground that a city's comprehensive plan expects to absorb. For an owner of unincorporated commercial or industrial ground this shapes what is realistically permitted and what happens on annexation. The identical purpose language repeats verbatim across LO, C1, C2, M1, M2 and M3, so this is a structural feature of the code rather than a quirk of one district. ⚠️ Says nothing about whether any particular parcel WILL be annexed, and nothing about timing."
     }
   ]
 }

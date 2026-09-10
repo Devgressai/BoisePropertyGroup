@@ -206,10 +206,7 @@
       "freshnessClass": "ORDINANCE",
       "authorityNotes": "⚠️ NOT A CERTIFIED ADOPTED TEXT. County-published PDF, 11.8 MB, downloaded and text-extracted; the ordinance number is left BLANK and the filename carries a PZ_JAN2025 marker, indicating a draft presented to the Planning and Zoning Commission. Substantively detailed and almost certainly close to the adopted code, but not proof of what was adopted.",
       "stalenessRisk": "HIGH — a draft superseded by whatever was actually enacted. The codified text at codelibrary.amlegal.com is the authority and returns 403 to automated retrieval; it must be read manually before any claim from this document is published.",
-      "claimsSupported": [
-        "ada-county-zoning-districts-schedule",
-        "ada-county-vs-city-zoning-vocabularies-differ"
-      ],
+      "claimsSupported": [],
       "status": "PENDING_VERIFICATION"
     },
     {
@@ -669,6 +666,64 @@
       "claimsSupported": [
         "ada-apartments-valued-by-commercial-appraisers"
       ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-county-ordinance-1002",
+      "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+      "publisher": "Ada County Clerk",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": "2025-11-01",
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the adopted ordinance itself, 615 pages, published by the Ada County CLERK, the county's record-keeping office. It carries a real ordinance number, unlike the earlier PZ_JAN2025 draft whose number line read 'ORDINANCE NO. _____'. Cached as PDF and extracted to committed text.",
+      "stalenessRisk": "LOW — amended by later ordinances rather than replaced.",
+      "claimsSupported": [
+        "ada-county-zoning-districts-schedule",
+        "ada-county-vs-city-zoning-vocabularies-differ",
+        "ada-county-commercial-districts-tied-to-areas-of-impact"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-county-cm-ordinances-2026-05-27",
+      "title": "Ada County Commissioners — ordinance notice, 27 May 2026",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2026/05/CM-Ordinances-5-27-2026.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": "2026-05-27",
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — a later county ordinance that amends the zoning map and, in doing so, refers to Title 8 'AS ADOPTED BY ORDINANCE NO. 1002'. Its value here is corroborative: the county treats 1002 as the adopted, operative Title 8 in its own subsequent official acts.",
+      "stalenessRisk": "LOW — a dated record of a past action.",
+      "claimsSupported": [],
       "status": "VERIFIED"
     }
   ]

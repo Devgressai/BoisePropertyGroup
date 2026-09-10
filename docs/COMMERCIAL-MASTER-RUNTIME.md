@@ -55,7 +55,7 @@ become "we have acquired industrial properties throughout Boise."
 | 00 | Baseline + regression protection | **COMPLETE** |
 | 01 | Commercial domain model | **COMPLETE** |
 | 02 | Source registry architecture | **COMPLETE** |
-| 03 | Ada County commercial assessment framework | **PARTIAL** — assessment done; parcel/taxing districts open |
+| 03 | Ada County commercial assessment framework | **COMPLETE** — assessment done; three Tier 1 statutes added (63-205 lien date, 63-208 the 90–110% tolerance band, 63-314 the five-year appraisal cycle) |
 | 04 | 5+ unit multifamily classification | **COMPLETE** — 6 systems mapped (Idaho ×3, Census, HUD, GSE/FHFA); no single boundary exists |
 | 05 | Boise zoning + commercial geography | **PARTIAL** — 10 districts read; footnote definitions established as UNREACHABLE (amlegal 403); geography open |
 | 06 | Meridian/Garden City/Eagle/Kuna/Star zoning | **DISPATCHED** |
@@ -79,7 +79,7 @@ become "we have acquired industrial properties throughout Boise."
 
 | # | Question | Blocks | Owner |
 |---|---|---|---|
-| 1 | Was the new Ada County Title 8 adopted, and does the codified district schedule match the draft? | every Ada County zoning claim | agent `ada-code-adoption` running; amlegal 403s re-confirmed 09-10, Municode has no Ada County client |
+| ~~1~~ | ~~Was the new Ada County Title 8 adopted?~~ | **RESOLVED 09-10** — YES. **Ordinance No. 1002**, published by the Ada County Clerk, 615 pages, cached and extracted. Adopted schedule matches the draft. Corroborated by a 27 May 2026 county ordinance amending the map of Title 8 "AS ADOPTED BY ORDINANCE NO. 1002". Two claims unblocked after nine days withheld. | closed |
 | 2 | What do the bracketed footnotes on Boise dimensional standards say? | R-3 density, I-1/I-2 0 ft setbacks, I-3 height/setback | research |
 | ~~3~~ | ~~Which systems use a 5+ unit multifamily boundary?~~ | **RESOLVED** — no system is authoritative for all purposes. Census=2+, FHFA/GSE=>4, HUD varies. Never write "5 units is legally commercial". | closed |
 | 4 | Does BPG have any completed transaction, of any asset class? | all trust architecture | **OWNER INPUT REQUIRED** |

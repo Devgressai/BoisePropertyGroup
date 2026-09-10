@@ -1,0 +1,334 @@
+                           Ada County Population
+According to COMPASS estimates, Ada County’s population reached 557,590 in 2024, with the
+majority (88.6%) living in one of the County’s six cities. Boise is the largest city with an estimated
+population of 250,060, accounting for 44.8% of the County’s total residents. The next largest
+city is Meridian with 142,830 residents, followed by Eagle (36,300), Kuna (31,490), Star (19,920),
+and Garden City (13,380). Approximately 63,610 residents (11.4%) live outside city limits within
+unincorporated areas of the County.
+
+
+                   City                   2024 Population      % of County Total
+                   Boise                      250,060                 44.8%
+                   Meridian                   142,830                 25.6%
+                   Unincorporated              63,610                 11.4%
+                   Eagle                       36,300                 6.5%
+                   Kuna                        31,490                 5.6%
+                   Star                        19,920                 3.6%
+                   Garden City                 13,380                 2.4%
+                   Total                      557,590                100.0%
+                   Source: COMPASS
+
+
+Between 2000 and 2024 Ada County’s population grew by 85.3% from 300,904 to 557,590, with
+an average annual growth rate of 3.6%. Most of this growth occurred within the County’s cities
+which together grew by 244,388 people (97.9%), with an average annual growth rate of 4.1%.
+The population of unincorporated Ada County grew by 12,298 (24.0%) over this same period
+with an average annual growth rate of 1.0%. The slower growth rate in unincorporated Ada
+County is largely a result of the gradual reduction of unincorporated land over time through
+annexations.
+
+
+        City               2000 Census        2024 Estimate      # Increase     % Increase
+        Meridian               34,919            142,830           107,911         309.0%
+        Boise                 185,787            250,060            64,273          34.6%
+        Kuna                   5,382              31,490            26,108         485.1%
+        Eagle                  11,085             36,300            25,215         227.5%
+        Star                   1,795              19,920            18,125         1009.7%
+        Unincorporated         51,312             63,610            12,298          24.0%
+        Garden City            10,624             13,380            2,756           25.9%
+        Total                 300,904            557,590           256,686         85.3%
+      Source: U.S. Census Bureau (2000 Census) & COMPASS (2024 Estimate)
+Among Ada County’s cities, Meridian saw the largest amount of total population growth
+between 2000 and 2024, adding 107,911 people. Boise saw the second largest growth in
+population during this time adding 64,273 people. Four of the County’s six cities saw their
+populations more than triple between 2000 to 2024 with Star growing by 1009.7% (1,795 to
+19,920), Kuna growing by 485.1% (5,382 to 31,490), Meridian growing by 309.0% (34,919 to
+142,830) and Eagle growing by 227.5% (11,085 to 36,300).
+
+
+                                                    City Population Growth 2000-2024
+                                                                                                                                                                                                      250,060
+                                                                                                                                                                                            235,684
+                                                           2000 CENSUS                 2020 CENSUS                   2024 ESTIMATE
+
+
+                                                                                                                                                                                 185,787
+
+                                                                                                                                                                      142,830
+                                                                                                                                                            117,635
+
+
+                                                                                                                              63,868   63,610
+                                                                                                                     51,312
+                                                                              31,490             30,346   36,300                                   34,919
+                                                  19,920             24,011
+     10,624   12,316   13,380            11,107                                        11,085
+                                1,795                       5,382
+
+
+    GARDEN CITY                         STAR                        KUNA                        EAGLE              UNINCORPORATED                    MERIDIAN                              BOISE
+
+
+
+Source: U.S. Census Bureau (2000 & 2020 Census) & COMPASS (2024 Estimate)
+
+
+                                              POPULATION OF UNINCORPORATED ADA COUNTY
+
+Only 11.4% (63,610) of Ada County’s 557,590 residents were estimated to live in unincorporated
+parts of the County in 2024. Of those living in unincorporated Ada County, 78.8% (50,143) are
+estimated to live within an Area of City Impact (ACI). Only approximately 13,467 people live in
+unincorporated areas of the County outside of ACIs, making up approximately 2.4% of the
+County’s total population, with many of these residents living in the planned communities of
+Avimor, Cartwright Ranch, Dry Creek Ranch and Hidden Springs.
+
+
+                                        POPULATION OF UNINCORPORATED ADA COUNTY
+
+
+
+                                                                                                                                                                                KUNA ACI
+                                                                                                                                                                                  7,780
+
+
+
+                                                                                                                                                                                           MERIDIAN ACI
+                                                                                                                                       BOISE ACI
+                                    CITIES                          UNINCORPORATED                                                                                                            4,590
+                                                                                                                                        34,800
+                                   493,980                               63,610
+                                                                                                                                                                                           OTHER ACI
+                                                                                                                                                                                             2,973
+                                                                                                                                                               OUTSIDE ACI
+                                                                                                                                                                 13,467
+
+
+
+
+Source: COMPASS
+                             POPULATION BY AREA OF CITY IMPACT
+
+                 Area of City Impact        2024 Estimate      % of County Total
+                 Boise                         284,860                51.1%
+                 Meridian                      147,420                26.4%
+                 Kuna                          39,270                 7.0%
+                 Eagle                         39,060                 7.0%
+                 Star                          20,063                 3.6%
+                 Garden City                   13,450                 2.4%
+                 Outside ACIs                  13,467                 2.4%
+                 Total                         557,590               100.0%
+                Source: COMPASS
+
+
+                                         PROJECTED GROWTH
+
+        City                2024 Estimate    2050 Projection    # Increase     % Increase
+        Boise                  250,060           314,520          64,460          25.8%
+        Meridian               142,830           192,540          49,710          34.8%
+        Kuna                    31,490           72,020           40,530          128.7%
+        Eagle                   36,300           54,670           18,370          50.6%
+        Garden City             13,380           19,000            5,620          42.0%
+        Star                    19,920           22,380            2,460          12.3%
+        Unincorporated          63,610           40,690           -22,920         -36.0%
+        Total                  557,590           715,820          158,230         28.4%
+      Source: COMPASS (2050 Projections are Based on ACI Boundaries as of 2021)
+
+By 2050, COMPASS projects that Ada County will grow by approximately 28.4% (158,230) to a
+population of 715,820. Of the six cities, Boise is projected to see the largest increase with 64,460
+additional residents forecast by 2050. Much of this increase would be the result of Boise
+annexing its Southwest Planning Area, currently located within its ACI. The city with the next
+largest increase is expected to be Meridian, which is projected to add 49,710 new residents,
+followed by Kuna (40,530), Eagle (18,370), Garden City (5,620), and Star (2,460).
+
+Unincorporated Ada County is projected to see a decrease of 22,920 residents by 2050, based
+on the assumption the cities will have annexed all of the area within their current ACI
+boundaries by that time. The average annual rate of growth in the County as a whole
+between 2024 and 2050 is expected to be 1.1%, compared to a growth rate of 3.6% between
+2000 and 2024. The cities expected to see the largest average annual growth rates between
+2024 and 2050 are Kuna, with a projected rate of 5.0% and Eagle with a rate of 1.9%.
+                                        RACE & ETHNICITY
+
+                Race/Ethnicity                                 2000           2022
+                White                                          92.9%      86.2%
+                Hispanic or Latino                              4.5%          8.9%
+                Two or More Races                               2.2%          6.8%
+                Asian                                           1.7%          2.6%
+                Black or African American                       0.7%          1.3%
+                American Indian & Alaskan Native                0.7%          0.6%
+                Native Hawaiian & Other Pacific Islander        0.2%          0.2%
+               Source: U.S. Census Bureau (2000 Census & 2022 ACS)
+
+
+Ada County’s racial and ethnic makeup became more diverse from 2000 to 2022. According
+to U.S. Census Bureau data, 86.2% of Ada County residents identified as White in 2022,
+compared to 92.9% in 2000. The next largest race or ethnicity was Hispanic or Latino, increasing
+from 4.5% to 8.9%. The group with the largest percentage increase from 2000 to 2022 were
+those of two or more races, growing from 2.2% to 6.8% of Ada County’s total population.
+
+                                               AGE
+
+                                Change in Median Age 2000-2022
+                        Place                 2000             2022
+                        Kuna                  26.1              30.2
+                        Boise                 32.8              37.9
+                        Meridian              30.1              38.7
+                        Star                  28.4              41.4
+                        Eagle                 35.2              46.8
+                        Garden City           35.4              47.1
+
+
+                        Ada County            32.8              39.1
+                        Idaho                 33.2              37.5
+                        United States         35.3              39.0
+                        Source: U.S. Census Bureau (2000 Census & 2022 ACS)
+
+
+There is a significant difference among Ada County’s six cities regarding age, with 16.9 years
+separating the median ages of Kuna (30.2) and Garden City (47.1) in 2022. Between 2000 and
+2022, the cities of Star (13.0), Garden City (11.7), and Eagle (11.6) all experienced increases of
+over ten years in median ages. As a whole, Ada County’s median age increased from 32.8 to
+39.1 between 2000 to 2022 while the median age of the United States rose from 35.3 to 39.0.
+                                 Percent of Residents Aged 65 & Over
+                                                       2000             2022
+
+
+                                                                       17.0%                                   17.3%
+                         16.3%
+
+
+                                                                                                     12.4%
+                                                       11.3%
+
+                 9.1%
+
+
+
+
+                 ADA COUNTY                                    IDAHO                                 UNITED STATES
+
+ Source: U.S. Census Bureau (2000 Census & 2022 ACS)
+
+
+
+
+                              Percent of Residents Aged 65 & Over
+                                                         2000          2022
+
+
+                                                                                                                        25.4%
+                                                                                      22.1%          22.3%
+
+
+                                                   16.0%
+                                   15.0%
+                                                                                                                12.5%
+              9.8%                         10.0%
+                                                                                              7.6%
+                          6.4%                                          5.7%
+       4.3%
+
+
+
+          KUNA           MERIDIAN              BOISE                           STAR             EAGLE          GARDEN CITY
+
+ Source: U.S. Census Bureau (2000 Census & 2022 ACS)
+
+
+The percentage of Ada County residents aged 65 and over (16.3%) was slightly lower than that
+of Idaho (17.0%) and the United States (17.3%) in 2022. However, the share of Ada County
+residents within this age group increased at a faster rate than that of Idaho and the U.S.
+between 2000 and 2022. All of Ada County’s cities experienced a significant increase within
+this age group from 2000 to 2022, and as with median age, there is great variation among the
+cities. Only 9.8% of Kuna residents are aged 65 or over, compared to 25.4% of Garden City
+residents.
+                                          MIGRATION
+
+The U.S. Census Bureau estimates that in 2020, approximately 32,954 people moved into Ada
+County, and approximately 25,475 people moved out. The actual number or residents moving
+out of Ada County is likely slightly higher due to the Census Bureau not having data on the
+number of Ada County residents moving to other countries. Of the residents estimated to have
+moved to Ada County in 2020, 67.1% came from other states, 28.0% came from other counties
+within Idaho, and 4.9% came from other countries.
+
+
+                             Residents Moving to Ada County (2020)
+                     From Another County in Idaho                9,224
+                     From Another State                         22,127
+                     From Another Country                        1,603
+                     Total                                      32,954
+                             Residents Leaving Ada County (2020)
+                     To Another County in Idaho                 12,916
+                     To Another State                           12,559
+                     Total                                      25,475
+                    Source: U.S. Census Bureau (2020 ACS, County to County
+                    Migration Flows). Data on Ada County residents moving to
+                    other countries not available.
+
+
+The states with the highest estimated number of residents moving to Ada County were
+California (7,699), Washington (2,630), Texas (1,903), and Oregon (1,645), together accounting
+for 42.1% of all new residents in 2020. Among residents moving to Ada County from within
+Idaho, the most popular county of origin was neighboring Canyon County (3,357), followed by
+Bannock County (1,162) and Twin Falls County (734).
+
+Among residents leaving Ada County, over half (50.7%) stayed within Idaho. For those staying
+in Idaho, Canyon County was by far the most popular destination accounting for 25.7% of all
+move-outs, followed by Bannock County (3.7%) and Bonneville County (2.7%). Among
+residents leaving Ada County for other states, Washington was the most popular destination
+accounting for 6.7% of all moves outside the County, followed by Oregon (6.1%), California
+(5.9%), and Utah (3.9%).
+                    PRIMARY SOURCES OF IN-MIGRATION
+
+
+
+
+                                     Idaho
+                                     28.0%                   California
+                                                              23.4%
+
+
+
+
+                                                                   Washington
+                                     Other                           8.0%
+                                     24.1%
+                                                                  Texas
+                                                                  5.8%
+
+
+
+                                                               Oregon
+                                               Utah Asia        5.0%
+                                               2.8% 2.9%
+
+Source: U.S. Census Bureau (2020 ACS, County to County Migration Flows)
+
+
+
+
+                 PRIMARY OUT-MIGRATION DESTINATIONS
+
+
+
+
+                                              Idaho
+                                              50.7%
+
+
+
+
+                                                                  Washington
+                                                                    6.7%
+                                     Other
+                                     26.7%                        Oregon
+                                                                   6.1%
+
+
+
+
+                                                                 California
+                                                      Utah         5.9%
+                                                      3.9%
+
+Source: U.S. Census Bureau (2020 ACS, County to County Migration Flows)
+

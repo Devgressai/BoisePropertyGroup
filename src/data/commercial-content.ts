@@ -77,6 +77,14 @@ export const INDUSTRIAL: CommercialPageContent = {
       ],
     },
     {
+      heading: "Across a city limit, the code changes completely",
+      body: [
+        "Boise's industrial districts govern Boise. Unincorporated Ada County runs its own zoning ordinance, adopted as Ordinance No. 1002, and it does not use Boise's vocabulary at all. The county's industrial districts are M1 Light Industrial, M2 General Industrial and M3 Airport Industrial. Boise's are I-1, I-2 and I-3.",
+        "So \"light industrial\" is M1 on one side of a line and I-1 on the other, and they are different districts under different codes with different standards. A parcel does not change character when a boundary moves past it, but the rules governing it do. Anyone applying what they know about Boise industrial ground to a parcel in the county — or the reverse — is reading the wrong book.",
+        "There is a second thing in the county code worth knowing if you own unincorporated ground. Every commercial and industrial district in it carries the same stated purpose: to encourage those uses primarily inside AREAS OF IMPACT, implementing the comprehensive plans adopted as part of the area of impact agreements, and to be established outside one only on a limited basis. The county is not planning a parallel industrial economy out there. It is largely holding ground that a city's plan expects to take in.",
+      ],
+    },
+    {
       heading: "Overlays sit on top of the district, they do not replace it",
       body: [
         "A parcel carries its base district and any overlay covering it, and the overlay adds constraints rather than substituting for them. Around the airport this matters more than usual: Boise's Airport Influence Area Overlay exists to address the compatibility of development with airport operations, and a large share of the city's industrial ground sits inside it.",
@@ -111,6 +119,9 @@ export const INDUSTRIAL: CommercialPageContent = {
     "boise-industrial-interstate-parking-setback",
     "boise-i2-street-frontage-minimum",
     "boise-district-pages-omit-footnote-definitions",
+    "ada-county-vs-city-zoning-vocabularies-differ",
+    "ada-county-zoning-districts-schedule",
+    "ada-county-commercial-districts-tied-to-areas-of-impact",
     "boise-airport-influence-overlay",
     "boise-flood-protection-overlay-purpose",
     "ada-commercial-assessment-uses-income",

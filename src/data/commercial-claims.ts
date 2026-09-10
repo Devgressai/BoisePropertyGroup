@@ -445,6 +445,93 @@ export const commercialClaims: CommercialClaim[] = [
     ]
   },
   {
+    "id": "ada-county-zoning-districts-schedule",
+    "claim": "Ada County's adopted zoning ordinance establishes eighteen base districts and eight overlay districts. Its commercial and industrial base districts are Limited Office (LO), Neighborhood Commercial (C1), Community Commercial (C2), Light Industrial (M1), General Industrial (M2) and Airport Industrial (M3), alongside a Planned Community (PC) district and ten residential and rural districts.",
+    "quote": "8-2-16: LIMITED OFFICE (LO) 8-2-17: NEIGHBORHOOD COMMERCIAL (C1) 8-2-18: COMMUNITY COMMERCIAL (C2) 8-2-19: LIGHT INDUSTRIAL (M1) 8-2-20: GENERAL INDUSTRIAL (M2) 8-2-21: AIRPORT INDUSTRIAL (M3) 8-2-22: PLANNED COMMUNITY (PC)",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "land",
+      "multifamily"
+    ],
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "zoning",
+      "industrial",
+      "office",
+      "retail",
+      "land",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "unincorporated Ada County, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": null,
+    "sources": [
+      {
+        "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "ada-county-vs-city-zoning-vocabularies-differ",
+    "claim": "Ada County and the City of Boise use entirely different zoning vocabularies for the same kinds of property. The county's adopted code calls its industrial districts M1 Light Industrial, M2 General Industrial and M3 Airport Industrial; Boise calls its I-1 Light Industrial, I-2 Heavy Industrial and I-3 Industrial Technology. The county's commercial districts are LO, C1 and C2; Boise's equivalents sit in its mixed-use MX series. A parcel does not change character at a city limit, but the code governing it does.",
+    "quote": "8-2-19: LIGHT INDUSTRIAL (M1) 8-2-20: GENERAL INDUSTRIAL (M2) 8-2-21: AIRPORT INDUSTRIAL (M3)",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "land"
+    ],
+    "entities": [
+      "county:ada",
+      "city:boise-city",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Ada County, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": null,
+    "sources": [
+      {
+        "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      },
+      {
+        "title": "Industrial Light (I-1) Zoning District — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-light/",
+        "publisher": "City of Boise Planning and Development Services",
+        "tier": 1
+      },
+      {
+        "title": "Industrial Heavy (I-2) Zoning District — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-heavy/",
+        "publisher": "City of Boise Planning and Development Services",
+        "tier": 1
+      },
+      {
+        "title": "Industrial Technology (I-3) Zoning District — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-technology/",
+        "publisher": "City of Boise Planning and Development Services",
+        "tier": 1
+      }
+    ]
+  },
+  {
     "id": "boise-mx5-no-height-maximum",
     "claim": "Boise's MX-5 Mixed-Use Downtown district states no maximum building height, where every other Boise district read so far carries one: MX-2 at 45 feet, R-3 at four stories not exceeding 50 feet, I-1 and I-2 at 55 feet, and I-3 at 150 feet.",
     "quote": "HEIGHT (MAXIMUM) D Building Height N/A",
@@ -963,6 +1050,41 @@ export const commercialClaims: CommercialClaim[] = [
         "title": "Idaho Code § 63-205 — Assessment — Market value for assessment purposes",
         "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH2/SECT63-205/",
         "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "ada-county-commercial-districts-tied-to-areas-of-impact",
+    "claim": "Every commercial and industrial district in Ada County's adopted zoning ordinance carries the same stated purpose: to encourage those uses primarily inside areas of impact, implementing the comprehensive plans adopted as part of the area of impact agreements, and to be established outside an area of impact only on a limited basis. The district's allowed uses turn on the availability of urban public facilities and the applicable comprehensive plan designation.",
+    "quote": "The General Industrial (M2) District promotes the public health, safety, and welfare of Ada County by encouraging industrial uses primarily inside areas of impact to implement the applicable comprehensive plans that are adopted as part of the area of impact agreements. The General Industrial (M2) District may also be established outside areas of impact on a limited basis.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "land"
+    ],
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "industrial",
+      "office",
+      "retail",
+      "land",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Ada County, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
         "tier": 1
       }
     ]

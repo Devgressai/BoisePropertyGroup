@@ -52,9 +52,20 @@ if (existsSync(CACHE))
     corpus.push({ file: `${CACHE}/${f}`, text: norm(toText(readFileSync(`${CACHE}/${f}`, "utf8"))) });
 for (const f of ["data/idaho/raw/st16_id_places.txt"])
   if (existsSync(f)) corpus.push({ file: f, text: norm(readFileSync(f, "utf8")) });
-// PDF-derived text, if extracted alongside
-for (const f of ["/tmp/irr.txt", "/tmp/demo.txt", "/tmp/mer.txt"])
-  if (existsSync(f)) corpus.push({ file: f, text: norm(readFileSync(f, "utf8")) });
+
+/**
+ * PDF-derived text, extracted by scripts/research/extract-pdf-text.mjs and
+ * COMMITTED.
+ *
+ * This used to read /tmp. Locally that passed; in CI those files do not exist,
+ * so six residential claims were being "verified" against evidence that
+ * existed on exactly one machine. A source nobody else can re-open is not a
+ * source. Never point this corpus outside the repository again.
+ */
+const EXTRACTED = "data/idaho/raw/extracted";
+if (existsSync(EXTRACTED))
+  for (const f of readdirSync(EXTRACTED).filter((x) => x.endsWith(".txt")))
+    corpus.push({ file: `${EXTRACTED}/${f}`, text: norm(readFileSync(`${EXTRACTED}/${f}`, "utf8")) });
 
 const quoted = claims.filter((c) => c.approvedForPublication && c.quotedLanguage);
 let ok = 0, partial = 0, missing = [];
