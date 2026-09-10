@@ -200,6 +200,42 @@ if (warnings.length) { console.log(`\nWARNINGS (${warnings.length}):`); for (con
   if (alt) console.log(`  cache artifacts captured outside the fetcher: ${alt} (each carries its reason)`);
 }
 
+/**
+ * An approved claim may not carry an UNRESOLVED temporal status.
+ *
+ * Two claims were unblocked against the adopted Ada County ordinance — claim
+ * text, quote, sources, confidence, approval and verification flag all updated
+ * — and temporalStatus was left at ADOPTION_UNCONFIRMED. So a live, approved
+ * claim carried a status saying its own adoption was unconfirmed, contradicting
+ * its notes. It was invisible because the field was never emitted to the app,
+ * which is the worst place for a contradiction to sit: in the registry the next
+ * person trusts.
+ *
+ * CURRENT and HISTORICAL are both fine. HISTORICAL is rendered with a visible
+ * "fixed past period" label, so a dated figure can never appear undated.
+ */
+{
+  const RESOLVED = new Set(["CURRENT", "HISTORICAL", null, undefined]);
+  /**
+   * BOTH registries. Written first over the residential claims only, and a
+   * negative control caught it immediately: the defect it was written for lives
+   * on a COMMERCIAL claim, so the guard passed while the bad status sat right
+   * where it started. That is the same one-registry blind spot the quote audit
+   * had. Any check that walks "the claims" has to say which claims.
+   */
+  const everyClaim = [
+    ...claims.map((c) => ({ ...c, registry: "residential" })),
+    ...JSON.parse(readFileSync("data/commercial/claims/commercial-claims.json", "utf8")).claims.map(
+      (c) => ({ ...c, registry: "commercial" }),
+    ),
+  ];
+  for (const c of everyClaim) {
+    if (!c.approvedForPublication) continue;
+    if (!RESOLVED.has(c.temporalStatus))
+      E(`approved [${c.registry}] claim ${c.id} carries an unresolved temporalStatus: ${c.temporalStatus}`);
+  }
+}
+
 if (errors.length) { console.log(`\nERRORS (${errors.length}):`); for (const e of errors) console.log(`  ✗ ${e}`); process.exit(1); }
 
 console.log("\nEVIDENCE INTEGRITY: PASS");

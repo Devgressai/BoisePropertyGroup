@@ -414,11 +414,11 @@
       ],
       "confidence": "HIGH",
       "jurisdiction": "unincorporated Ada County, Idaho",
-      "temporalStatus": "ADOPTION_UNCONFIRMED",
+      "temporalStatus": "CURRENT",
       "verificationFlag": null,
       "approvedForPublication": true,
       "verifiedOn": "2026-09-10",
-      "notes": "✅ UNBLOCKED 2026-09-10 after nine days withheld. It was held because the only county text we had was a PDF whose ordinance number line read literally 'ORDINANCE NO. _____' with a PZ_JAN2025 filename — a draft to the Planning and Zoning Commission, not adopted law. The adopted text is Ordinance No. 1002, published by the Ada County Clerk, and the district schedule in it matches what the draft showed. Two independent confirmations of adoption: the ordinance carries a real number, and a later county ordinance of 27 May 2026 amends the zoning map of 'TITLE 8 OF ADA COUNTY CODE, AS ADOPTED BY ORDINANCE NO. 1002'. Withholding it for nine days was correct — the draft could have changed before adoption, and publishing a district schedule that later moved would have been worse than saying nothing."
+      "notes": "✅ UNBLOCKED 2026-09-10 after nine days withheld. It was held because the only county text we had was a PDF whose ordinance number line read literally 'ORDINANCE NO. _____' with a PZ_JAN2025 filename — a draft to the Planning and Zoning Commission, not adopted law. The adopted text is Ordinance No. 1002, published by the Ada County Clerk, and the district schedule in it matches what the draft showed. Two independent confirmations of adoption: the ordinance carries a real number, and a later county ordinance of 27 May 2026 amends the zoning map of 'TITLE 8 OF ADA COUNTY CODE, AS ADOPTED BY ORDINANCE NO. 1002'. Withholding it for nine days was correct — the draft could have changed before adoption, and publishing a district schedule that later moved would have been worse than saying nothing. ⚠️ temporalStatus CORRECTED 2026-09-10 from ADOPTION_UNCONFIRMED to CURRENT. When this claim was unblocked against Ordinance No. 1002 the claim text, quote, sources, confidence, approval and verification flag were all updated and this field was not — so an APPROVED, live claim carried a status saying its adoption was unconfirmed, contradicting its own notes. Not visible to a reader (the field was never emitted to the app) but wrong in the registry, which is where the next person looks."
     },
     {
       "id": "ada-county-vs-city-zoning-vocabularies-differ",
@@ -448,11 +448,11 @@
       ],
       "confidence": "HIGH",
       "jurisdiction": "Ada County, Idaho",
-      "temporalStatus": "ADOPTION_UNCONFIRMED",
+      "temporalStatus": "CURRENT",
       "verificationFlag": null,
       "approvedForPublication": true,
       "verifiedOn": "2026-09-10",
-      "notes": "✅ UNBLOCKED 2026-09-10 against the adopted Ordinance No. 1002. A genuine trap for owners and one no competitor addresses: 'light industrial' is M1 in unincorporated Ada County and I-1 in Boise, and they are different districts under different codes with different standards. ⚠️ NEVER carry a Boise standard across a city limit, in either direction. This claim establishes that the vocabularies differ; it does NOT establish that any particular standard corresponds."
+      "notes": "✅ UNBLOCKED 2026-09-10 against the adopted Ordinance No. 1002. A genuine trap for owners and one no competitor addresses: 'light industrial' is M1 in unincorporated Ada County and I-1 in Boise, and they are different districts under different codes with different standards. ⚠️ NEVER carry a Boise standard across a city limit, in either direction. This claim establishes that the vocabularies differ; it does NOT establish that any particular standard corresponds. ⚠️ temporalStatus CORRECTED 2026-09-10 from ADOPTION_UNCONFIRMED to CURRENT. When this claim was unblocked against Ordinance No. 1002 the claim text, quote, sources, confidence, approval and verification flag were all updated and this field was not — so an APPROVED, live claim carried a status saying its adoption was unconfirmed, contradicting its own notes. Not visible to a reader (the field was never emitted to the app) but wrong in the registry, which is where the next person looks."
     },
     {
       "id": "boise-mx5-no-height-maximum",

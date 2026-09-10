@@ -22,6 +22,8 @@ export interface CommercialClaim {
   confidence: string;
   jurisdiction: string | null;
   verifiedOn: string;
+  /** CURRENT unless the claim describes a fixed past period. Rendered when not CURRENT. */
+  temporalStatus: string | null;
   freshness: string | null;
   sources: CommercialSource[];
 }
@@ -46,6 +48,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Industrial Light (I-1) Zoning District — City of Boise",
@@ -74,6 +77,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Industrial Heavy (I-2) Zoning District — City of Boise",
@@ -102,6 +106,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
@@ -130,6 +135,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Industrial Light (I-1) Zoning District — City of Boise",
@@ -165,6 +171,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Industrial Heavy (I-2) Zoning District — City of Boise",
@@ -196,6 +203,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Real & Manufactured Property Assessment — Ada County Assessor",
@@ -239,6 +247,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Assessor — Ada County",
@@ -269,6 +278,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Real & Manufactured Property Assessment — Ada County Assessor",
@@ -300,6 +310,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Real & Manufactured Property Assessment — Ada County Assessor",
@@ -328,6 +339,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Industrial Technology (I-3) Zoning District — City of Boise",
@@ -358,6 +370,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
@@ -391,6 +404,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Airport Influence Area Overlay (AI-O) — City of Boise",
@@ -423,6 +437,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Mixed-Use General (MX-2) Zoning District — City of Boise",
@@ -453,6 +468,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Boise City Code Table 11-02.11 — R-3 Lot and Building Standards",
@@ -489,6 +505,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "unincorporated Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
@@ -522,6 +539,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
@@ -574,6 +592,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Mixed-Use Downtown (MX-5) Zoning District — City of Boise",
@@ -636,6 +655,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Mixed-Use Downtown (MX-5) Zoning District — City of Boise",
@@ -669,6 +689,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Mixed-Use Transit Oriented Development Node (MX-4) — City of Boise",
@@ -701,6 +722,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Flood Protection Overlay — City of Boise",
@@ -729,6 +751,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "United States (federal)",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "12 CFR § 1282.1 — Definitions (FHFA, Enterprise Housing Goals)",
@@ -756,6 +779,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "United States (federal)",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Building Permits Survey — Definitions",
@@ -790,6 +814,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "United States (federal)",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Descriptions of Multifamily Programs",
@@ -828,6 +853,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "12 CFR § 1282.1 — Definitions (FHFA, Enterprise Housing Goals)",
@@ -888,6 +914,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Residential Urban (R-3) Zoning District — City of Boise",
@@ -920,6 +947,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "VOLATILE",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Residential Urban (R-3) Zoning District — City of Boise",
@@ -967,6 +995,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
@@ -999,6 +1028,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Idaho Code § 63-208 — Rules pertaining to market value — Duty of assessors",
@@ -1031,6 +1061,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Idaho Code § 63-314 — County valuation program to be carried on by assessor",
@@ -1063,6 +1094,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "EVERGREEN",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Idaho Code § 63-205 — Assessment — Market value for assessment purposes",
@@ -1098,6 +1130,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
@@ -1130,6 +1163,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Idaho Code § 31-2419 — Records open to inspection",
@@ -1162,6 +1196,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Idaho Code § 55-601 — Conveyance — how made",
@@ -1195,6 +1230,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Property Assessments and Records",
@@ -1233,6 +1269,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Idaho Code § 74-107 — Records exempt from disclosure — Trade secrets, personal records, personnel records, and other records",
@@ -1263,6 +1300,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "United States",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Multifamily Seller/Servicer Guide — Glossary",
@@ -1293,6 +1331,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "United States",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Multifamily Seller/Servicer Guide — Glossary",
@@ -1318,6 +1357,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Idaho Code § 54-306 — Exemptions [from the Architects chapter]",
@@ -1350,6 +1390,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "VOLATILE",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Boise City Code Table 11-02.11 — R-3 Lot and Building Standards",
@@ -1403,6 +1444,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Treasure Valley, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Kuna City Code § 5-8-504 — Schedule of Area and Structure Requirements",
@@ -1445,6 +1487,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Star, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Star City Code § 8-3D-1 — LI Light Industrial District",
@@ -1479,6 +1522,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Garden City, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Garden City Code Title 8 Development Code, Article 8-2B — Nonresidential and Mixed Use Districts",
@@ -1523,6 +1567,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Eagle, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Eagle City Code § 8-2-4 — Schedule of Building Height and Lot Area Regulations",
@@ -1553,6 +1598,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Meridian, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Meridian Unified Development Code Table 11-2C-3 — Dimensional Standards in the Industrial Districts",
@@ -1587,6 +1633,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Ada County, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
@@ -1637,6 +1684,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Star, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Star City Code Table 8-3A-4 — Zoning District Dimensional Standards",
@@ -1670,6 +1718,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Meridian, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Meridian Unified Development Code Table 11-2C-3 — Dimensional Standards in the Industrial Districts",
@@ -1700,6 +1749,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Meridian, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
@@ -1732,6 +1782,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Meridian, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
@@ -1765,6 +1816,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Treasure Valley, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
@@ -1805,6 +1857,7 @@ export const commercialClaims: CommercialClaim[] = [
     "jurisdiction": "Eagle, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
     "sources": [
       {
         "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",

@@ -20,6 +20,13 @@ export interface AppendixClaim {
   claim: string;
   quote: string | null;
   verifiedOn: string;
+  /**
+   * CURRENT unless the claim describes a fixed past period. A claim that is
+   * not CURRENT is labelled on the page, because llms.txt promises this site
+   * carries no undated statistics and a dated figure rendered without its date
+   * would make that untrue.
+   */
+  temporalStatus?: string | null;
   jurisdiction?: string | null;
   sources: { title: string; url: string; publisher: string }[];
 }
@@ -90,6 +97,11 @@ export default function EvidenceAppendix({
                       Checked {c.verifiedOn}
                       {c.jurisdiction ? ` · ${c.jurisdiction}` : ""}
                     </p>
+                    {c.temporalStatus && c.temporalStatus !== "CURRENT" && (
+                      <p className="mt-1 text-[0.8rem] font-semibold text-[var(--bpg-accent-ink)]">
+                        Describes a fixed past period — not a current figure.
+                      </p>
+                    )}
                   </li>
                 ))}
               </ul>

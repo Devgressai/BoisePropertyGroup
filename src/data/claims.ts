@@ -20,6 +20,8 @@ export interface Claim {
   topics: string[];
   confidence: string;
   verifiedOn: string;
+  /** CURRENT unless the claim describes a fixed past period. Rendered when not CURRENT. */
+  temporalStatus: string | null;
   sources: ClaimSource[];
   /** Set when the claim needs re-verification before it may be published. */
   verificationFlag: string | null;
@@ -47,7 +49,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "achd-city-highway-powers-abolished",
@@ -77,7 +80,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "achd-responsibility-within-cities",
@@ -101,7 +105,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "achd-cities-retain",
@@ -124,7 +129,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "achd-is-ada-district",
@@ -147,7 +153,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-homestead-creditor-175k",
@@ -171,7 +178,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-homeowners-tax-exemption-125k",
@@ -201,7 +209,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": "EFFECTIVE_DATE_UNCONFIRMED"
+    "verificationFlag": "EFFECTIVE_DATE_UNCONFIRMED",
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-homeowners-exemption-deadline",
@@ -224,7 +233,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-assessment-market-value-jan-1",
@@ -248,7 +258,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-reappraisal-five-year-cycle",
@@ -270,7 +281,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-assessor-does-not-set-value",
@@ -292,7 +304,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-fixture-three-factor-test",
@@ -317,7 +330,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-residential-appraisal-scope",
@@ -340,7 +354,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-trustee-sale-120-day-notice",
@@ -362,7 +377,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-trustee-sale-publication",
@@ -384,7 +400,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-trustee-sale-service-attempts",
@@ -406,7 +423,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-star-spans-two-counties",
@@ -428,7 +446,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-population-2024",
@@ -450,7 +469,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-population-two-estimates",
@@ -478,7 +498,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-growth-divergence-2020-2024",
@@ -507,7 +528,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-homestead-one-acre-limit",
@@ -532,7 +554,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-disclosure-required-1-to-4-units",
@@ -555,7 +578,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-disclosure-exempt-estate-fiduciary",
@@ -579,7 +603,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-disclosure-exempt-divorce",
@@ -602,7 +627,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-disclosure-exempt-foreclosure",
@@ -625,7 +651,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-disclosure-rescission-three-days",
@@ -649,7 +676,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-pr-power-over-title",
@@ -673,7 +701,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-pr-powers-limited-by-will",
@@ -697,7 +726,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-domestic-water-13000-gpd",
@@ -722,7 +752,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-domestic-water-exclusions",
@@ -747,7 +778,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-water-subdivision-five-lots",
@@ -772,7 +804,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-septic-authority-cdh",
@@ -796,7 +829,8 @@ export const claims: Claim[] = [
         "tier": 2
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-planning-unincorporated-only",
@@ -821,7 +855,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-engineering-scope-unincorporated",
@@ -848,7 +883,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-building-division-scope",
@@ -871,7 +907,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-treasurer-ex-officio-tax-collector",
@@ -894,7 +931,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-treasurer-ex-officio-public-administrator",
@@ -918,7 +956,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-recorder-maintains-ownership-documents",
@@ -943,7 +982,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-recorder-pii-redaction-is-submitter-duty",
@@ -966,7 +1006,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-eviction-forms-nonpayment-only",
@@ -989,7 +1030,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-cities-administer-own-land-use",
@@ -1024,7 +1066,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "star-flood-zone-building-permit-question",
@@ -1048,7 +1091,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "settlers-district-coverage",
@@ -1076,7 +1120,8 @@ export const claims: Claim[] = [
         "tier": 2
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "boise-project-five-districts",
@@ -1103,7 +1148,8 @@ export const claims: Claim[] = [
         "tier": 2
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "boise-project-federal-title",
@@ -1129,7 +1175,8 @@ export const claims: Claim[] = [
         "tier": 2
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-27-irrigation-entities",
@@ -1155,7 +1202,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-area-of-city-impact",
@@ -1181,7 +1229,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-planned-communities-outside-aci",
@@ -1206,7 +1255,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-2050-projection-divergence",
@@ -1234,7 +1284,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-median-age-divergence",
@@ -1264,7 +1315,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-county-composition",
@@ -1295,7 +1347,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "boise-wui-overlay-district",
@@ -1321,7 +1374,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "boise-nfip-flood-sources",
@@ -1344,7 +1398,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-floodplain-development-permit",
@@ -1369,7 +1424,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-fema-firm-adopted-2020",
@@ -1391,7 +1447,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "star-one-time-administrative-division",
@@ -1416,7 +1473,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "star-temporary-family-living-quarters",
@@ -1441,7 +1499,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-code-enforcement-unincorporated-only",
@@ -1466,7 +1525,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "ada-assessor-maintains-parcel-gis",
@@ -1492,7 +1552,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "eagle-planning-scope",
@@ -1518,7 +1579,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "gardencity-planning-scope",
@@ -1542,7 +1604,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-deposit-liability-transfers-on-sale",
@@ -1566,7 +1629,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-deposit-refund-timing",
@@ -1588,7 +1652,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-deposit-no-normal-wear-and-tear",
@@ -1610,7 +1675,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-tax-deed-three-year-delinquency",
@@ -1635,7 +1701,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-tax-deed-notice-service",
@@ -1658,7 +1725,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-tax-deed-redemption-fourteen-months",
@@ -1684,7 +1752,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-manufactured-home-becomes-real-property",
@@ -1710,7 +1779,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-manufactured-home-treated-as-site-built",
@@ -1735,7 +1805,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-6-310a-remove-unauthorized-persons",
@@ -1759,7 +1830,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "meridian-building-permit-activity-aug-2025",
@@ -1784,7 +1856,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "HISTORICAL"
   },
   {
     "id": "kuna-land-use-table-convention",
@@ -1808,7 +1881,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "kuna-hearing-notice-300ft-15days",
@@ -1831,7 +1905,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "kuna-property-lines-survey-guidance",
@@ -1856,7 +1931,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-recording-act-lease-one-year-carveout",
@@ -1882,7 +1958,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "boise-sewer-connection-required",
@@ -1907,7 +1984,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "boise-sewer-assessment-fee-undeveloped",
@@ -1933,7 +2011,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-manufactured-home-removal-requires-consent",
@@ -1958,7 +2037,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-manufactured-home-removal-notice-and-taxes",
@@ -1982,7 +2062,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   },
   {
     "id": "id-manufactured-homes-assessed-as-residential",
@@ -2006,7 +2087,8 @@ export const claims: Claim[] = [
         "tier": 1
       }
     ],
-    "verificationFlag": null
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT"
   }
 ];
 

@@ -31,6 +31,7 @@ const approved = reg.claims
     jurisdiction: c.jurisdiction ?? null,
     verifiedOn: c.verifiedOn,
     freshness: c.freshnessClass ?? null,
+    temporalStatus: c.temporalStatus ?? null,
     sources: (c.sourceIds ?? [])
       .map((id) => srcById[id])
       .filter(Boolean)
@@ -68,6 +69,8 @@ export interface CommercialClaim {
   confidence: string;
   jurisdiction: string | null;
   verifiedOn: string;
+  /** CURRENT unless the claim describes a fixed past period. Rendered when not CURRENT. */
+  temporalStatus: string | null;
   freshness: string | null;
   sources: CommercialSource[];
 }

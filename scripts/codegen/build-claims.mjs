@@ -26,6 +26,7 @@ const approved = reg.claims.filter((c) => c.approvedForPublication).map((c) => (
     .filter(Boolean)
     .map((s) => ({ title: s.title, url: s.url, publisher: s.publisher, tier: s.sourceTier })),
   verificationFlag: c.verificationFlag ?? null,
+  temporalStatus: c.temporalStatus ?? null,
 }));
 
 const withFlag = approved.filter((c) => c.verificationFlag);
@@ -52,6 +53,8 @@ export interface Claim {
   topics: string[];
   confidence: string;
   verifiedOn: string;
+  /** CURRENT unless the claim describes a fixed past period. Rendered when not CURRENT. */
+  temporalStatus: string | null;
   sources: ClaimSource[];
   /** Set when the claim needs re-verification before it may be published. */
   verificationFlag: string | null;
