@@ -67,3 +67,31 @@ describe("claim registry safety", () => {
     for (const c of publishable(claims)) expect(c.sources.length).toBeGreaterThan(0);
   });
 });
+
+describe("guides", () => {
+  it("every guide definition has hand-written content", async () => {
+    const { guides } = await import("../src/data/guides");
+    const { guideContentFor } = await import("../src/data/guide-content");
+    for (const g of guides) expect(guideContentFor(g.slug)).toBeDefined();
+  });
+
+  it("every guide clears the word floor", async () => {
+    const { guides } = await import("../src/data/guides");
+    const { guideContentFor } = await import("../src/data/guide-content");
+    const { countWords } = await import("../src/lib/seo/indexation");
+    for (const g of guides) {
+      const c = guideContentFor(g.slug)!;
+      const words = countWords(...c.intro, ...c.sections.flatMap((s) => s.body));
+      expect(words).toBeGreaterThanOrEqual(600);
+    }
+  });
+
+  it("the sitemap never lists a page that is not indexable", async () => {
+    const sitemap = (await import("../src/app/sitemap")).default;
+    const { places } = await import("../src/data/geography");
+    const urls = sitemap().map((e) => e.url);
+    for (const p of places) {
+      if (!p.indexable) expect(urls.some((u) => u.endsWith(`/${p.slug}`))).toBe(false);
+    }
+  });
+});
