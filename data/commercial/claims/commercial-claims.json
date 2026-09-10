@@ -454,6 +454,130 @@
       "approvedForPublication": false,
       "verifiedOn": null,
       "notes": "🚨 WITHHELD pending the same verification. If it holds, this is a strong differentiator and a genuine trap for owners: an M1 parcel in unincorporated Ada County and an I-1 parcel in Boise are governed by different codes with different standards, and 'light industrial' means something different on each side of a city limit. No competitor content addresses this. It cannot be published until the county's adopted district names are confirmed."
+    },
+    {
+      "id": "boise-mx5-no-height-maximum",
+      "claim": "Boise's MX-5 Mixed-Use Downtown district states no maximum building height, where every other Boise district read so far carries one: MX-2 at 45 feet, R-3 at four stories not exceeding 50 feet, I-1 and I-2 at 55 feet, and I-3 at 150 feet.",
+      "quotedLanguage": "HEIGHT (MAXIMUM) D Building Height N/A",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "office",
+        "retail",
+        "multifamily",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-mx5",
+        "boise-zoning-mx2",
+        "boise-zoning-r3",
+        "boise-zoning-i1",
+        "boise-zoning-i2",
+        "boise-zoning-i3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "MATERIALLY IMPORTANT FOR DOWNTOWN REDEVELOPMENT GROUND, and a genuine outlier in the code. ⚠️ Unlike R-3's density cell, which reads 'N./A' with footnotes [2][3] attached, the MX-5 height cell carries NO footnote marker — which is why this is recorded at HIGH confidence and R-3's density is not. Height is nonetheless constrained in practice by other code provisions not yet read (design review, the Capitol Boulevard Design Overlay, airport influence). Never write 'you can build to any height downtown'. The accurate statement is that the DISTRICT states no maximum."
+    },
+    {
+      "id": "boise-mx5-downtown-purpose",
+      "claim": "Boise's MX-5 district provides for a mix of higher-intensity office, commercial, institutional and residential uses, is intended to serve the Downtown Planning Area defined in the Comprehensive Plan, and sets front and side-street setbacks as a range of minimum 0 to maximum 20 feet with interior side and rear minimums of 0 feet.",
+      "quotedLanguage": "The MX-5 district is intended to provide opportunities for a mix of higher intensity office, commercial, institutional, and residential uses. The MX-5 district is intended to accommodate the needs of the city's Downtown Planning Area as defined in the Comprehensive Plan and to provide for activities conducive to a compact, concentrated, and walkable urban downtown mixed-use center.",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "office",
+        "retail",
+        "multifamily",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-mx5"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "The district explicitly references the Downtown Planning Area 'as defined in the Comprehensive Plan' — a direct instance of zoning depending on a comprehensive-plan designation, which is why zoning and future land use must never be treated as interchangeable."
+    },
+    {
+      "id": "boise-mx4-transit-oriented",
+      "claim": "Boise's MX-4 district supports transit-oriented development concentrated at identified transit stations, and the city states the district will be expanded as new best-in-class transit routes are added and stations identified.",
+      "quotedLanguage": "The MX-4 district is intended to provide opportunities for a mix of office, commercial, institutional, and residential uses to support transit. This zoning district will require transit-oriented development concentrated at identified transit stations. This zoning district will be expanded as new investments in best-in-class transit routes are added and transit stations identified.",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "multifamily",
+        "office",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-mx4"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "An EXPANDING district by the city's own statement — the map is expected to change as transit investment lands. That is a freshness hazard: any page naming MX-4 extent will go stale. Record as a periodic-revalidation claim and never state where MX-4 currently applies."
+    },
+    {
+      "id": "boise-flood-protection-overlay-purpose",
+      "claim": "Boise maintains a Flood Protection Overlay whose stated purpose recognises that the city's flood hazard areas are subject to periodic inundation, and that flood losses are caused both by natural forces and by construction practices that increase flood heights and velocities, and by structures inadequately anchored or flood-proofed.",
+      "quotedLanguage": "The flood hazard areas of Boise City are subject to periodic inundation, which may result in loss of life and property, health and safety hazards, disruption of commerce and government services, extraordinary public expenditures for flood protection and relief, and impairment of the tax base, all of which adversely affect the public health, safety, and general welfare.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "flood",
+        "zoning",
+        "land"
+      ],
+      "sourceIds": [
+        "boise-zoning-flood-overlay"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "Pairs with the already-established fact that Boise's flood exposure has three sources (Boise River, foothills gulches, upper-bench intermittent channels) and that any floodplain development requires a permit. ⚠️ Only the purpose clauses are read. The overlay's actual standards are NOT known and must not be described."
     }
   ]
 }

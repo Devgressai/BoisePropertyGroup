@@ -27,7 +27,8 @@
         "boise-i1-purpose",
         "boise-industrial-height-varies-by-district",
         "boise-industrial-interstate-parking-setback",
-        "ada-county-vs-city-zoning-vocabularies-differ"
+        "ada-county-vs-city-zoning-vocabularies-differ",
+        "boise-mx5-no-height-maximum"
       ],
       "status": "VERIFIED"
     },
@@ -57,7 +58,8 @@
         "boise-industrial-height-varies-by-district",
         "boise-industrial-interstate-parking-setback",
         "boise-i2-street-frontage-minimum",
-        "ada-county-vs-city-zoning-vocabularies-differ"
+        "ada-county-vs-city-zoning-vocabularies-differ",
+        "boise-mx5-no-height-maximum"
       ],
       "status": "VERIFIED"
     },
@@ -85,7 +87,8 @@
         "boise-industrial-height-varies-by-district",
         "boise-i3-purpose-and-buffer",
         "boise-i3-height-linked-setback",
-        "ada-county-vs-city-zoning-vocabularies-differ"
+        "ada-county-vs-city-zoning-vocabularies-differ",
+        "boise-mx5-no-height-maximum"
       ],
       "status": "VERIFIED"
     },
@@ -141,7 +144,8 @@
       "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
       "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
       "claimsSupported": [
-        "boise-mx2-mixed-use-general"
+        "boise-mx2-mixed-use-general",
+        "boise-mx5-no-height-maximum"
       ],
       "status": "VERIFIED"
     },
@@ -167,7 +171,8 @@
       "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
       "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
       "claimsSupported": [
-        "boise-r3-no-maximum-density"
+        "boise-r3-no-maximum-density",
+        "boise-mx5-no-height-maximum"
       ],
       "status": "VERIFIED"
     },
@@ -200,6 +205,92 @@
         "ada-county-vs-city-zoning-vocabularies-differ"
       ],
       "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": "boise-zoning-mx5",
+      "title": "Mixed-Use Downtown (MX-5) Zoning District — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/mixed-use-downtown/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Bracketed footnotes on dimensional cells have NOT been read.",
+      "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently. MX-4 is stated by the city to be an EXPANDING district, so its extent is HIGH staleness.",
+      "claimsSupported": [
+        "boise-mx5-no-height-maximum",
+        "boise-mx5-downtown-purpose"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-mx4",
+      "title": "Mixed-Use Transit Oriented Development Node (MX-4) — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/mixed-use-transit-oriented-development-node/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Bracketed footnotes on dimensional cells have NOT been read.",
+      "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently. MX-4 is stated by the city to be an EXPANDING district, so its extent is HIGH staleness.",
+      "claimsSupported": [
+        "boise-mx4-transit-oriented"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-flood-overlay",
+      "title": "Flood Protection Overlay — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/flood-protection-overlay/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Bracketed footnotes on dimensional cells have NOT been read.",
+      "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently. MX-4 is stated by the city to be an EXPANDING district, so its extent is HIGH staleness.",
+      "claimsSupported": [
+        "boise-flood-protection-overlay-purpose"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }
