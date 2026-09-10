@@ -57,7 +57,7 @@ become "we have acquired industrial properties throughout Boise."
 | 02 | Source registry architecture | **COMPLETE** |
 | 03 | Ada County commercial assessment framework | **PARTIAL** — assessment done; parcel/taxing districts open |
 | 04 | 5+ unit multifamily classification | **COMPLETE** — 6 systems mapped (Idaho ×3, Census, HUD, GSE/FHFA); no single boundary exists |
-| 05 | Boise zoning + commercial geography | **PARTIAL** — 6 of 30 districts read; geography open |
+| 05 | Boise zoning + commercial geography | **PARTIAL** — 10 districts read; footnote definitions established as UNREACHABLE (amlegal 403); geography open |
 | 06 | Meridian/Garden City/Eagle/Kuna/Star zoning | **DISPATCHED** |
 | 07 | Industrial intelligence | **PARTIAL** |
 | 08 | Multifamily intelligence | **PARTIAL** |
@@ -66,7 +66,7 @@ become "we have acquired industrial properties throughout Boise."
 | 11 | Land/development intelligence | **DISPATCHED** |
 | 12 | Seller-situation ontology | **COMPLETE** — `research/commercial/COMMERCIAL-SELLER-SITUATION-ONTOLOGY.md`; 7 Tier-1, 4 currently buildable |
 | 13 | Transaction-structure research | NOT STARTED |
-| 14 | Valuation education model | NOT STARTED |
+| 14 | Valuation education model | **COMPLETE** — `research/commercial/COMMERCIAL-VALUATION-EDUCATION-MODEL.md`; verdict: ONE explainer, not a cluster |
 | 15 | SERP + query ownership | **PARTIAL** — ownership map recorded (`data/commercial/queries/commercial-query-ownership.json`); risks 2+ outstanding |
 | 16 | IA decision | BLOCKED on 15 |
 | 17–30 | Implementation, validation, audit | BLOCKED on 16 |
