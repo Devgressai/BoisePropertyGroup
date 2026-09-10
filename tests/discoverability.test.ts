@@ -4,6 +4,7 @@ import sitemap from "../src/app/sitemap";
 import { site } from "../src/data/site";
 import { places } from "../src/data/geography";
 import { contentFor } from "../src/data/place-content";
+import { SITE_ROBOTS_DEFAULT } from "../src/lib/seo/defaults";
 
 describe("robots", () => {
   const r = robots();
@@ -65,12 +66,13 @@ describe("the site-wide robots default", () => {
    * them. Nothing else caught it: robots.txt was open, every page returned 200,
    * the sitemap was correct, and the canonical tags were self-referential.
    */
-  it("is indexable, so a page that sets no directive is not silently hidden", async () => {
-    const { metadata } = await import("../src/app/layout");
-    const robotsMeta = (metadata as { robots?: { index?: boolean; follow?: boolean } }).robots;
-    expect(robotsMeta?.index).toBe(true);
+  it("is indexable, so a page that sets no directive is not silently hidden", () => {
+    // Imported from lib rather than from the layout on purpose: importing the
+    // layout pulls in next/font, which does not run under vitest — which is
+    // precisely why this directive went untested and unnoticed for a launch.
+    expect(SITE_ROBOTS_DEFAULT.index).toBe(true);
     // follow is NEVER false anywhere on this site — a noindex,nofollow page
     // absorbs link equity and passes none on.
-    expect(robotsMeta?.follow).toBe(true);
+    expect(SITE_ROBOTS_DEFAULT.follow).toBe(true);
   });
 });

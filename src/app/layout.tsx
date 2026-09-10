@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import { site } from "@/data/site";
+import { SITE_ROBOTS_DEFAULT } from "@/lib/seo/defaults";
 import { graph, organizationSchema, websiteSchema } from "@/lib/seo/schema";
 
 /** TWO families only. Sierra is mid-migration across four and it shows. */
@@ -32,28 +33,7 @@ export const metadata: Metadata = {
     url: site.url,
     siteName: site.name,
   },
-  robots: {
-    /**
-     * SITE-WIDE DEFAULT. Pages that compute their own directive — the place
-     * pages, the commercial pages — override this; every page that does not
-     * inherits it.
-     *
-     * This was `index: false` and stayed that way when robots.txt was opened on
-     * 2026-09-10, because they are two separate switches and only one was
-     * flipped. The result was the worst possible shape of failure: the
-     * HOMEPAGE, /about, /contact, /how-it-works, /what-we-buy and both hub
-     * pages served `noindex, follow` while the sitemap advertised all seven.
-     * Nothing surfaced it — robots.txt was open, every page returned 200, and
-     * the sitemap looked correct. Only reading the rendered meta tag showed it.
-     *
-     * Defaulting to noindex looks like the safe choice and is not: it fails
-     * silently and it fails on the pages nobody thinks to check. Indexation is
-     * still EARNED here, but it is earned by a gate that says no explicitly
-     * (see lib/seo/indexation.ts), never by a default that says no quietly.
-     */
-    index: true,
-    follow: true,
-  },
+  robots: SITE_ROBOTS_DEFAULT,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
