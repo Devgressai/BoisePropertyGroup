@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+/* ============================================================================
+   BOISE PROPERTY GROUP — design tokens
+   Palette A "High Desert", selected 2026-09-09.
+   Sagebrush, basalt and sandstone: the Snake River Plain rather than a mountain
+   postcard. Every ratio below was COMPUTED (WCAG 2.x relative luminance) by
+   scripts/migration/build-visual-direction.mjs, not estimated.
+
+   ONE SCALE ONLY. Sierra carries two coexisting palettes as acknowledged debt
+   and we do not inherit that.
+   ========================================================================== */
+:root {
+  --bpg-ink:           #1A211C; /* headlines, dark full-bleed sections, footer */
+  --bpg-primary:       #3D5545; /* primary surface + buttons — 8.13:1 on white */
+  --bpg-primary-dark:  #2A3B31; /* pressed/hover, deep section fill */
+  --bpg-surface:       #FFFFFF; /* card and panel surface */
+  --bpg-background:    #F8F6F1; /* warm page background */
+  --bpg-sand:          #E6E0D4; /* secondary surface, subtle fills */
+  --bpg-border:        #D8D1C3; /* DECORATIVE dividers only — no WCAG minimum */
+  --bpg-border-strong: #8A8272; /* input + control boundaries — 3.52:1, meets 1.4.11 */
+  --bpg-text:          #1A211C; /* body — 15.21:1 on background */
+  --bpg-muted:         #5C645B; /* secondary text — 5.67:1 on background */
+
+  /* Accent is SPLIT from the outset. Sierra shipped a single 3.0:1 accent,
+     discovered it could not carry small text, and had to patch in a second
+     token. Measuring first avoids repeating that.
+       accent      #B4541F  4.60:1 on background — LARGE text and rules only
+       accent-ink  #93430F  6.37:1 on background — small text on light        */
+  --bpg-accent:        #B4541F;
+  --bpg-accent-ink:    #93430F;
+
+  --bpg-success:       #2F6B4F;
+  --bpg-warning:       #8A6212;
+
+  --bpg-maxw: 1200px;
+}
+
+@theme inline {
+  --color-ink: var(--bpg-ink);
+  --color-primary: var(--bpg-primary);
+  --color-primary-dark: var(--bpg-primary-dark);
+  --color-surface: var(--bpg-surface);
+  --color-background: var(--bpg-background);
+  --color-sand: var(--bpg-sand);
+  --color-edge: var(--bpg-border);
+  --color-edge-strong: var(--bpg-border-strong);
+  --color-body: var(--bpg-text);
+  --color-muted: var(--bpg-muted);
+  --color-accent: var(--bpg-accent);
+  --color-accent-ink: var(--bpg-accent-ink);
+  --font-display: var(--font-instrument-serif), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--bpg-background);
+  color: var(--bpg-text);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+:focus-visible {
+  outline: 3px solid var(--bpg-accent-ink);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+::selection { background: var(--bpg-accent); color: #fff; }
+
+/* ── Editorial display scale ────────────────────────────────────────────────
+   Bold and dominant by SIZE and CONTRAST, not by decoration. Clamped so the
+   hero never overflows a 320px viewport.                                     */
+.display-xl {
+  font-family: var(--font-instrument-serif), Georgia, serif;
+  font-size: clamp(2.75rem, 7.5vw, 6rem);
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+}
+.display-lg {
+  font-family: var(--font-instrument-serif), Georgia, serif;
+  font-size: clamp(2rem, 4.6vw, 3.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.display-md {
+  font-family: var(--font-instrument-serif), Georgia, serif;
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+}
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.lede { font-size: clamp(1.06rem, 1.6vw, 1.3rem); line-height: 1.55; }
+
+/* ── Controls ─────────────────────────────────────────────────────────────
+   Minimum 48px touch target throughout (WCAG 2.2 AA target size).           */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
+  min-height: 52px; padding: 0 1.6rem; border-radius: 3px;
+  font-weight: 600; font-size: 1rem; letter-spacing: .01em;
+  text-decoration: none; cursor: pointer; border: 2px solid transparent;
+  transition: background-color .18s ease, border-color .18s ease, transform .18s ease;
+}
+.btn:active { transform: translateY(1px); }
+.btn-primary { background: var(--bpg-accent); color: #fff; }
+.btn-primary:hover { background: var(--bpg-accent-ink); }
+.btn-secondary {
+  background: transparent; color: var(--bpg-ink);
+  border-color: var(--bpg-border-strong);
+}
+.btn-secondary:hover { border-color: var(--bpg-ink); background: var(--bpg-sand); }
+.btn-onDark { background: #fff; color: var(--bpg-ink); }
+.btn-onDark:hover { background: var(--bpg-sand); }
+
+.field {
+  width: 100%; min-height: 52px; padding: .8rem 1rem;
+  border: 2px solid var(--bpg-border-strong); border-radius: 3px;
+  background: #fff; color: var(--bpg-text); font-size: 1rem;
+}
+.field::placeholder { color: var(--bpg-muted); }
+
+.wrap { width: 100%; max-width: var(--bpg-maxw); margin-inline: auto; padding-inline: 1.25rem; }
+.rule-accent { height: 3px; width: 68px; background: var(--bpg-accent); border: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
