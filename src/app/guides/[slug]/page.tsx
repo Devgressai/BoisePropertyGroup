@@ -5,6 +5,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
+import EvidenceAppendix from "@/components/seo/EvidenceAppendix";
+import { claim as residentialClaim } from "@/data/claims";
+
 import { guides, guideBySlug } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
 import { graph, organizationSchema, breadcrumbSchema } from "@/lib/seo/schema";
@@ -36,6 +39,19 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   const content = guideContentFor(slug);
   if (!g || !content) notFound();
 
+
+  /**
+   * Claims cited by this page's sections, de-duplicated in first-appearance
+   * order. place-content.ts and guide-content.ts have carried these ids since
+   * the beginning, annotated "Kept for audit, not rendered" — so the evidence
+   * was tracked and never shown. Withheld claims are absent from the generated
+   * module entirely, so an unresolvable id simply drops out here.
+   */
+  const appendixClaims = [
+    ...new Set(content.sections.flatMap((s) => s.claims ?? [])),
+  ]
+    .map((id) => residentialClaim(id))
+    .filter((c) => c !== undefined);
   const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
   const jsonLd = graph(
     organizationSchema(),
@@ -99,6 +115,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             </ul>
           </aside>
         </article>
+        <EvidenceAppendix claims={appendixClaims} />
+
         <FinalCTA />
       </main>
       <Footer />

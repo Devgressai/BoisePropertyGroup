@@ -4,6 +4,7 @@ import sitemap from "../src/app/sitemap";
 import { site } from "../src/data/site";
 import { places } from "../src/data/geography";
 import { contentFor } from "../src/data/place-content";
+import { decideIndexation, countWords } from "../src/lib/seo/indexation";
 import { SITE_ROBOTS_DEFAULT } from "../src/lib/seo/defaults";
 
 describe("robots", () => {
@@ -50,6 +51,30 @@ describe("sitemap", () => {
   it("uses the canonical host for every entry, with no duplicates", () => {
     for (const u of urls) expect(u.startsWith(site.url)).toBe(true);
     expect(new Set(urls).size).toBe(urls.length);
+  });
+
+  it("agrees with the computed gate for every place, not a static flag", () => {
+    /**
+     * The sitemap and the page must answer "is this indexable" the same way.
+     * They used to consult different things — the sitemap read the hand-set
+     * `indexable` field, the route computed it. They agreed at the time, which
+     * is precisely how the previous defect of this shape stayed hidden.
+     */
+    for (const p of places) {
+      const content = contentFor(p.slug);
+      const listed = urls.includes(`${site.url}/${p.slug}`);
+      if (!content) {
+        expect(listed, `${p.name} has no content and must not be listed`).toBe(false);
+        continue;
+      }
+      const words = countWords(
+        ...(content.intro ?? []),
+        ...(content.sections ?? []).flatMap((s) => [s.heading, ...s.body]),
+      );
+      expect(listed, `${p.name} sitemap listing must match the computed gate`).toBe(
+        decideIndexation(p, words).indexable,
+      );
+    }
   });
 
   it("includes the commercial pages", () => {

@@ -6,6 +6,7 @@ import FinalCTA from "@/components/FinalCTA";
 import OfferForm from "@/components/OfferForm";
 import type { CommercialPageContent } from "@/data/commercial-content";
 import { commercialClaim } from "@/data/commercial-claims";
+import EvidenceAppendix from "./EvidenceAppendix";
 
 /**
  * A commercial asset page.
@@ -25,29 +26,6 @@ export default function CommercialPage({
   const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
 
   const cited = content.citedClaims.map((id) => commercialClaim(id)).filter((c) => c !== undefined);
-
-  /**
-   * Grouped by source, so a source cited by six claims appears once with its six
-   * quotes beneath it rather than six times. A claim citing two sources appears
-   * under the first — it is a reference list, not a citation graph, and
-   * repeating the same quote under every source it touches reads as padding.
-   */
-  const grouped: {
-    source: { title: string; url: string; publisher: string };
-    entries: typeof cited;
-  }[] = [];
-  const byUrl = new Map<string, (typeof grouped)[number]>();
-  for (const c of cited) {
-    const src = c.sources[0];
-    if (!src) continue;
-    let g = byUrl.get(src.url);
-    if (!g) {
-      g = { source: src, entries: [] };
-      byUrl.set(src.url, g);
-      grouped.push(g);
-    }
-    g.entries.push(c);
-  }
 
   return (
     <>
@@ -91,73 +69,10 @@ export default function CommercialPage({
           </div>
         </div>
 
-        {/**
-          * THE EVIDENCE APPENDIX.
-          *
-          * Every claim on this page carries the operative language of the source
-          * it came from, verbatim, in `quotedLanguage`. That text used to exist
-          * only in the registry: the page rendered our prose and a list of
-          * source links, and the actual words of the ordinance — the thing a
-          * reader most wants to check and the thing an answer engine most wants
-          * to quote — never reached the page at all.
-          *
-          * So it is rendered here, grouped by source, each with the date it was
-          * last checked. It is a reference section, not decoration: a reader who
-          * doubts a sentence in the body can read the code's own words without
-          * leaving the page, and follow the link if they want the rest.
-          */}
-        <section
-          className="border-t border-[var(--bpg-border)] bg-[var(--bpg-surface)] py-14"
-          aria-labelledby="sources"
-        >
-          <div className="wrap max-w-[46rem]">
-            <hr className="rule-accent" />
-            <h2 id="sources" className="display-md mt-5 text-[var(--bpg-ink)]">
-              Where this comes from
-            </h2>
-            <p className="mt-4 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">
-              Every factual statement above is traced to a published source, quoted below in the
-              source&rsquo;s own words. Zoning and assessment rules change; each entry carries the
-              date we last checked it. Where a published table attaches a footnote we could not
-              read, the figure is quoted with its marker rather than paraphrased.
-            </p>
-
-            <div className="mt-9 space-y-10">
-              {grouped.map(({ source, entries }) => (
-                <div key={source.url}>
-                  <h3 className="text-[1rem] font-semibold leading-snug text-[var(--bpg-ink)]">
-                    <a
-                      href={source.url}
-                      rel="noopener"
-                      className="underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
-                    >
-                      {source.title}
-                    </a>
-                  </h3>
-                  <p className="mt-1 text-[0.85rem] text-[var(--bpg-muted)]">{source.publisher}</p>
-                  <ul className="mt-4 space-y-5">
-                    {entries.map((c) => (
-                      <li key={c.id}>
-                        <p className="text-[0.95rem] leading-relaxed text-[var(--bpg-ink)]">
-                          {c.claim}
-                        </p>
-                        {c.quote && (
-                          <blockquote className="mt-2 border-l-2 border-[var(--bpg-accent)] pl-4 text-[0.92rem] leading-relaxed text-[var(--bpg-muted)]">
-                            &ldquo;{c.quote}&rdquo;
-                          </blockquote>
-                        )}
-                        <p className="mt-2 text-[0.8rem] text-[var(--bpg-muted)]">
-                          Checked {c.verifiedOn}
-                          {c.jurisdiction ? ` · ${c.jurisdiction}` : ""}
-                        </p>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <EvidenceAppendix
+          claims={cited}
+          intro="Every factual statement above is traced to a published source, quoted below in the source's own words. Zoning and assessment rules change; each entry carries the date we last checked it. Where a published table attaches a footnote we could not read, the figure is quoted with its marker rather than paraphrased."
+        />
 
         {siblings.length > 0 && (
           <section className="border-t border-[var(--bpg-border)] py-14">

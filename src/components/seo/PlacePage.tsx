@@ -3,6 +3,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
+import EvidenceAppendix from "@/components/seo/EvidenceAppendix";
+import { claim as residentialClaim } from "@/data/claims";
+
 import OfferForm from "@/components/OfferForm";
 import type { PlaceContent } from "@/data/place-content";
 import type { LinkItem } from "@/lib/seo/internalLinks";
@@ -22,6 +25,20 @@ export default function PlacePage({
   caveat?: string | null;
   stats?: { label: string; value: string; note: string }[];
 }) {
+
+  /**
+   * Claims cited by this page's sections, de-duplicated in first-appearance
+   * order. place-content.ts and guide-content.ts have carried these ids since
+   * the beginning, annotated "Kept for audit, not rendered" — so the evidence
+   * was tracked and never shown. Withheld claims are absent from the generated
+   * module entirely, so an unresolvable id simply drops out here.
+   */
+  const appendixClaims = [
+    ...new Set(content.sections.flatMap((s) => s.claims ?? [])),
+  ]
+    .map((id) => residentialClaim(id))
+    .filter((c) => c !== undefined);
+
   const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
   return (
     <>
@@ -106,6 +123,8 @@ export default function PlacePage({
             </ul>
           </div>
         </section>
+
+        <EvidenceAppendix claims={appendixClaims} />
 
         <FinalCTA />
       </main>
