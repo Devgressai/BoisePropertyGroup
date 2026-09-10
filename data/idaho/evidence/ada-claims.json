@@ -1857,6 +1857,79 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "DIRECTLY MATERIAL TO AN INFILL-LOT OR LOT-SPLIT SELLER IN BOISE: a buyer's cost is not just the connection fee but a separate assessment fee, and the city names lot splits and previously undeveloped lots as the cases where it will likely apply. This is a real number in a buyer's calculation that a seller is often unaware of. ⚠️ The page states no amounts — do not publish a figure. Connection fees themselves comprise trunk fees and treatment fees, and the physical connection from building to right-of-way is NOT included in either."
+    },
+    {
+      "entity": [
+        "county:ada"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "EVERGREEN",
+      "id": "id-manufactured-home-removal-requires-consent",
+      "claim": "Once an Idaho manufactured home has been converted to real property, it is deemed a fixture and an improvement to the land, and physically removing it is prohibited without the consent of every person or entity holding an interest in the real property or title to any estate in it. The homeowner must obtain a title report from a title insurance company to establish whose consent is required. Owners of rights-of-way, easements and subsurface rights are excluded from that requirement.",
+      "quotedLanguage": "Physical removal shall be prohibited without the consent of all persons or entities who, at the time of removal have an interest in the real property or title to any estate in the real property to which the manufactured home has been affixed.",
+      "topic": [
+        "manufactured-housing",
+        "real-vs-personal-property",
+        "title",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "idcode-63-305"
+      ],
+      "notes": "🎯 THE DECISIVE FACT FOR A SELLER, and the reason this subject deserves a page. Declaring a manufactured home real property under § 63-304 is a filing. Undoing it is not: it requires unanimous consent from everyone with an interest in the land, established by a title report the owner must pay for. It is a one-way door in practice even though the statute provides a route back. ⚠️ 'Physical removal' is defined broadly at § 63-305(2) to include separating the home from its foundation system, except temporarily for repair or improvement — so this reaches work an owner would not think of as removal."
+    },
+    {
+      "entity": [
+        "county:ada"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "EVERGREEN",
+      "id": "id-manufactured-home-removal-notice-and-taxes",
+      "claim": "An Idaho homeowner must give the county assessor at least thirty days' written notice before removing a manufactured home that has been converted to real property, and the assessor must require written evidence that the necessary consents have been obtained.",
+      "quotedLanguage": "At least thirty (30) days before the manufactured home is to be removed, the homeowner shall give written notice of the intended removal to the county assessor in the county in which the real property is located.",
+      "topic": [
+        "manufactured-housing",
+        "real-vs-personal-property",
+        "property-taxes"
+      ],
+      "sourceIds": [
+        "idcode-63-305"
+      ],
+      "notes": "The procedural half of § 63-305. ⚠️ The statute continues past what is quoted here into a tax-collector condition on removal that has NOT been read in full — do not state anything about outstanding taxes and removal beyond the notice requirement until § 63-305(3) is read to its end."
+    },
+    {
+      "entity": [
+        "county:ada"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "EVERGREEN",
+      "id": "id-manufactured-homes-assessed-as-residential",
+      "claim": "Idaho requires manufactured homes to be assessed as other residential housing, with those assessments entered on the property roll.",
+      "quotedLanguage": "Manufactured homes shall be assessed as other residential housing and such assessments shall be entered on the property roll.",
+      "topic": [
+        "manufactured-housing",
+        "assessment",
+        "property-taxes"
+      ],
+      "sourceIds": [
+        "idcode-63-303"
+      ],
+      "notes": "⚠️ MEDIUM AND EASY TO OVER-READ. The section is a single sentence about ASSESSMENT METHOD. It does not say a manufactured home IS real property — that is § 63-304 and it has conditions. Never cite this as evidence that the real/personal distinction does not matter; it says how the value is worked out, not what the thing legally is."
     }
   ]
 }

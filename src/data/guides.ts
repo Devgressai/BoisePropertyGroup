@@ -14,7 +14,7 @@ export interface Guide {
   title: string;
   h1: string;
   description: string;
-  cluster: "estate" | "distress" | "tenants" | "land" | "disclosure";
+  cluster: "estate" | "distress" | "tenants" | "land" | "disclosure" | "manufactured";
 }
 
 export const guides: Guide[] = [
@@ -41,6 +41,14 @@ export const guides: Guide[] = [
     description:
       "Who owes the security deposit after a sale, what Idaho's recording act says about unrecorded leases, and the narrow remedy for occupants who are not tenants.",
     cluster: "tenants",
+  },
+  {
+    slug: "selling-a-manufactured-home-in-idaho",
+    title: "Selling a Manufactured Home in Idaho",
+    h1: "Selling a manufactured home in Idaho",
+    description:
+      "Whether your manufactured home is real property or personal property decides how it is sold, who can finance it, and whether it can be moved at all. Idaho makes the conversion easy and the reversal hard.",
+    cluster: "manufactured",
   },
 ];
 

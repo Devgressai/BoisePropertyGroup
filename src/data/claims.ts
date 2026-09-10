@@ -1934,6 +1934,79 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null
+  },
+  {
+    "id": "id-manufactured-home-removal-requires-consent",
+    "claim": "Once an Idaho manufactured home has been converted to real property, it is deemed a fixture and an improvement to the land, and physically removing it is prohibited without the consent of every person or entity holding an interest in the real property or title to any estate in it. The homeowner must obtain a title report from a title insurance company to establish whose consent is required. Owners of rights-of-way, easements and subsurface rights are excluded from that requirement.",
+    "quote": "Physical removal shall be prohibited without the consent of all persons or entities who, at the time of removal have an interest in the real property or title to any estate in the real property to which the manufactured home has been affixed.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "real-vs-personal-property",
+      "title",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-10",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-305 — Reversal of declaration which treats a manufactured home as real property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-305/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null
+  },
+  {
+    "id": "id-manufactured-home-removal-notice-and-taxes",
+    "claim": "An Idaho homeowner must give the county assessor at least thirty days' written notice before removing a manufactured home that has been converted to real property, and the assessor must require written evidence that the necessary consents have been obtained.",
+    "quote": "At least thirty (30) days before the manufactured home is to be removed, the homeowner shall give written notice of the intended removal to the county assessor in the county in which the real property is located.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "real-vs-personal-property",
+      "property-taxes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-10",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-305 — Reversal of declaration which treats a manufactured home as real property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-305/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null
+  },
+  {
+    "id": "id-manufactured-homes-assessed-as-residential",
+    "claim": "Idaho requires manufactured homes to be assessed as other residential housing, with those assessments entered on the property roll.",
+    "quote": "Manufactured homes shall be assessed as other residential housing and such assessments shall be entered on the property roll.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "assessment",
+      "property-taxes"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-09-10",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-303 — Assessment of manufactured homes",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-303/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null
   }
 ];
 

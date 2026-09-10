@@ -1211,6 +1211,48 @@
         "city:boise-city"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-303",
+      "title": "Idaho Code § 63-303 — Assessment of manufactured homes",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-303/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "real-vs-personal-property"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature's site with raw HTML cached. One sentence long, and easy to over-read — see the claim notes.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-305",
+      "title": "Idaho Code § 63-305 — Reversal of declaration which treats a manufactured home as real property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-305/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "real-vs-personal-property"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, cached. The counterpart to § 63-304: it governs what happens when an owner wants to undo the declaration, and the answer is that it is far harder than making it.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [],
+      "status": "VERIFIED"
     }
   ]
 }

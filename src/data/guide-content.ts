@@ -170,6 +170,53 @@ export const guideContent: Record<string, GuideContent> = {
       },
     ],
   },
+
+  "selling-a-manufactured-home-in-idaho": {
+    intro: [
+      "A manufactured home in Idaho is one of two legally different things, and which one it is decides almost everything about selling it: whether you transfer a title or a deed, who will lend against it, how it is taxed, and whether it can be moved at all.",
+      "The conversion from personal property to real property is a filing. The reversal is not. This page describes what the Idaho statutes say. It is not legal advice and it is not applied to your situation.",
+    ],
+    sections: [
+      {
+        heading: "The three-factor test, and the statute that overrides it",
+        body: [
+          "Idaho decides whether something is real or personal property with a three-factor test — annexation, adaptation and intent. An item satisfying all three is a fixture, and therefore real property. That is the general rule for anything attached to land.",
+          "Manufactured homes get their own statute instead, and its conditions are specific rather than a matter of judgement. Under Idaho Code 63-304 a manufactured home may constitute real property only if the running gear is removed AND it becomes permanently affixed to a foundation on land the owner owns or is buying — or leases under qualifying financing — AND the owner records a statement of intent to declare it real property with the county recorder.",
+          "All of those, not any of them. A home sitting on a permanent foundation with its running gear still attached has not converted. Nor has one where nothing was ever recorded, however permanent it looks.",
+        ],
+        claims: ["ada-fixture-three-factor-test", "id-manufactured-home-becomes-real-property"],
+      },
+      {
+        heading: "What changes the moment it is declared real property",
+        body: [
+          "Once the declaration is made, county assessors must treat the home as any other site-built residence, and lending institutions are permitted to treat it as real property.",
+          "That second half is usually the reason owners do it. Financing is the practical difference between the two states: a home that is personal property is chattel, and the lending available against chattel is a different and generally worse market than mortgage lending. A buyer's ability to finance is a seller's problem as much as a buyer's.",
+          "Assessment is a separate question from legal character, and the two are easy to conflate. Idaho requires manufactured homes to be assessed as other residential housing with the assessment entered on the property roll — but that is a rule about how value is worked out, not a statement that the home is real property. Do not read it as making the distinction unimportant.",
+        ],
+        claims: ["id-manufactured-home-treated-as-site-built", "id-manufactured-homes-assessed-as-residential"],
+      },
+      {
+        heading: "Converting is a filing. Reversing it needs everyone's permission",
+        body: [
+          "This is the part that surprises people, and it is worth understanding before the declaration is made rather than after.",
+          "Once converted, the home is deemed a fixture and an improvement to the land. Physical removal is then prohibited without the consent of every person or entity holding an interest in the real property or title to any estate in it — and to find out who that is, the homeowner must obtain a title report from a title insurance company. Owners of rights-of-way, easements and subsurface rights are excluded from the consent requirement; a lender holding a deed of trust is not.",
+          "\"Physical removal\" is defined broadly. It includes separating the home from its foundation system, except temporarily for repair or improvement. So the restriction reaches work an owner would not naturally describe as removing the house.",
+          "There is also a notice requirement: at least thirty days' written notice to the county assessor before removal, and the assessor must require written evidence that the necessary consents were obtained.",
+          "None of this makes conversion a bad idea. It makes it a decision rather than a formality, and one whose cost falls at a different time from its benefit.",
+        ],
+        claims: ["id-manufactured-home-removal-requires-consent", "id-manufactured-home-removal-notice-and-taxes"],
+      },
+      {
+        heading: "What to establish before you list, or before you call anyone",
+        body: [
+          "The first question is not what the home is worth. It is which of the two things you own, because the answer changes who the buyer pool is.",
+          "If a statement of intent was recorded with the county recorder, the home is real property and sells with the land under a deed. If it was not, you are selling a titled chattel, and the transaction runs through a title rather than a deed — regardless of how permanently the home is sitting there.",
+          "Where an owner is not sure, the county recorder's records and the assessor's treatment of the parcel are the places that answer it, and a title company can tell you quickly. It is worth resolving before anything else, because almost every other question about the sale depends on it.",
+        ],
+        claims: ["id-manufactured-home-becomes-real-property", "id-manufactured-home-removal-requires-consent"],
+      },
+    ],
+  },
 };
 
 export function guideContentFor(slug: string): GuideContent | undefined {
