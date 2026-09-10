@@ -76,21 +76,20 @@ export default function HowItWorks() {
           </ol>
         </div>
         {/* Illustrative photography — not a client and not a completed sale.
-          See the note in components/HumanScale.tsx. */}
-      <div className="wrap pb-16">
-        <div className="overflow-hidden rounded-sm border border-[var(--bpg-border)]">
-          <Image
-            src="/images/people-kitchen-table.webp"
-            alt="Two people sitting at a kitchen table with an open folder of paperwork between them"
-            width={1024}
-            height={768}
-            sizes="(min-width: 1200px) 1152px, 100vw"
-            className="h-[18rem] w-full object-cover object-center sm:h-[24rem]"
-          />
+            See the note in components/HumanScale.tsx. */}
+        <div className="wrap pb-16">
+          <div className="overflow-hidden rounded-sm border border-[var(--bpg-border)]">
+            <Image
+              src="/images/people-kitchen-table.webp"
+              alt="Two people sitting at a kitchen table with an open folder of paperwork between them"
+              width={1024}
+              height={768}
+              sizes="(min-width: 1200px) 1152px, 100vw"
+              className="h-[18rem] w-full object-cover object-center sm:h-[24rem]"
+            />
+          </div>
         </div>
-      </div>
-
-      <FinalCTA />
+        <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
