@@ -19,6 +19,16 @@ const stats = [
 ];
 
 const slug = (n) => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+/**
+ * Census place name vs common name.
+ *
+ * The Census records the city as "Boise City"; nobody says that, and a slug of
+ * `boise-city` would read as a mistake. The entity registry keeps the Census
+ * name for citation accuracy; this maps it to what people actually call it.
+ */
+const DISPLAY_NAME = { "Boise City": "Boise" };
+const displayName = (n) => DISPLAY_NAME[n] ?? n;
 const uniqueFor = (id) => claims.filter((c) => (c.entity ?? []).length === 1 && c.entity[0] === id);
 const directFor = (id) => claims.filter((c) => (c.entity ?? []).includes(id));
 const statVal = (id) => stats.find((s) => s.id === id)?.value ?? null;
@@ -26,19 +36,21 @@ const statVal = (id) => stats.find((s) => s.id === id)?.value ?? null;
 const places = entities
   .filter((e) => ["CITY", "CENSUS_DESIGNATED_PLACE"].includes(e.entityType))
   .map((e) => {
-    const s = slug(e.canonicalName);
+    const display = displayName(e.canonicalName);
+    const s = slug(display);
     const unique = uniqueFor(e.id).length;
     return {
       id: e.id,
-      name: e.canonicalName,
+      name: display,
+      censusPlaceName: e.canonicalName,
       slug: `sell-my-house-fast-${s}-id`,
       placeType: e.entityType,
       counties: e.counties ?? ["Ada County"],
       spansMultipleCounties: e.spansMultipleCounties === true,
       censusName: e.censusName ?? null,
       placeFips: e.placeFips ?? null,
-      population2024Census: statVal(`${s}-pop-2024`),
-      growthPct2020to2024: statVal(`${s}-growth-2020-2024`),
+      population2024Census: statVal(`${slug(e.canonicalName)}-pop-2024`),
+      growthPct2020to2024: statVal(`${slug(e.canonicalName)}-growth-2020-2024`),
       directClaims: directFor(e.id).length,
       uniqueClaims: unique,
       // The gate: rendering is always allowed; INDEXING requires distinction.
@@ -74,7 +86,10 @@ export type BuildVerdict = "BUILD" | "RENDER_NOINDEX" | "DO_NOT_BUILD";
 
 export interface Place {
   id: string;
+  /** Common name, e.g. "Boise". */
   name: string;
+  /** Census place name, which can differ, e.g. "Boise City". */
+  censusPlaceName: string;
   slug: string;
   placeType: PlaceType;
   counties: string[];

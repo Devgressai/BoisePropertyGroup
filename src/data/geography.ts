@@ -11,7 +11,10 @@ export type BuildVerdict = "BUILD" | "RENDER_NOINDEX" | "DO_NOT_BUILD";
 
 export interface Place {
   id: string;
+  /** Common name, e.g. "Boise". */
   name: string;
+  /** Census place name, which can differ, e.g. "Boise City". */
+  censusPlaceName: string;
   slug: string;
   placeType: PlaceType;
   counties: string[];
@@ -41,8 +44,9 @@ export const county = {
 export const places: Place[] = [
   {
     "id": "city:boise-city",
-    "name": "Boise City",
-    "slug": "sell-my-house-fast-boise-city-id",
+    "name": "Boise",
+    "censusPlaceName": "Boise City",
+    "slug": "sell-my-house-fast-boise-id",
     "placeType": "CITY",
     "counties": [
       "Ada County"
@@ -61,6 +65,7 @@ export const places: Place[] = [
   {
     "id": "city:meridian",
     "name": "Meridian",
+    "censusPlaceName": "Meridian",
     "slug": "sell-my-house-fast-meridian-id",
     "placeType": "CITY",
     "counties": [
@@ -80,6 +85,7 @@ export const places: Place[] = [
   {
     "id": "city:eagle",
     "name": "Eagle",
+    "censusPlaceName": "Eagle",
     "slug": "sell-my-house-fast-eagle-id",
     "placeType": "CITY",
     "counties": [
@@ -99,6 +105,7 @@ export const places: Place[] = [
   {
     "id": "city:kuna",
     "name": "Kuna",
+    "censusPlaceName": "Kuna",
     "slug": "sell-my-house-fast-kuna-id",
     "placeType": "CITY",
     "counties": [
@@ -118,6 +125,7 @@ export const places: Place[] = [
   {
     "id": "city:star",
     "name": "Star",
+    "censusPlaceName": "Star",
     "slug": "sell-my-house-fast-star-id",
     "placeType": "CITY",
     "counties": [
@@ -138,6 +146,7 @@ export const places: Place[] = [
   {
     "id": "city:garden-city",
     "name": "Garden City",
+    "censusPlaceName": "Garden City",
     "slug": "sell-my-house-fast-garden-city-id",
     "placeType": "CITY",
     "counties": [
@@ -157,6 +166,7 @@ export const places: Place[] = [
   {
     "id": "city:hidden-spring",
     "name": "Hidden Spring",
+    "censusPlaceName": "Hidden Spring",
     "slug": "sell-my-house-fast-hidden-spring-id",
     "placeType": "CENSUS_DESIGNATED_PLACE",
     "counties": [
