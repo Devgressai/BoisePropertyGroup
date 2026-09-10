@@ -2,7 +2,9 @@
   "name": "boisepropertygroup",
   "version": "0.1.0",
   "private": true,
-  "engines": { "node": ">=20.0.0" },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,7 +15,8 @@
     "check:evidence": "node scripts/validation/check-evidence.mjs",
     "check:redteam": "node scripts/validation/red-team-arithmetic.mjs",
     "check:quotes": "node scripts/validation/verify-quotes.mjs",
-    "check:all": "npm run typecheck && npm run test && npm run check:evidence && npm run check:redteam && npm run check:quotes"
+    "check:all": "npm run typecheck && npm run test && npm run check:drift && npm run check:evidence && npm run check:redteam && npm run check:quotes",
+    "check:drift": "node scripts/codegen/check-drift.mjs"
   },
   "dependencies": {
     "next": "^15.3.0",
