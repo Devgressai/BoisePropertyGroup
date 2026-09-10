@@ -56,3 +56,21 @@ describe("sitemap", () => {
     expect(urls.some((u) => u.includes("/commercial/"))).toBe(true);
   });
 });
+
+describe("the site-wide robots default", () => {
+  /**
+   * Regression lock. robots.txt and the layout's metadata are two separate
+   * switches, and opening only the first left the homepage, both hub pages and
+   * four static pages serving `noindex, follow` while the sitemap advertised
+   * them. Nothing else caught it: robots.txt was open, every page returned 200,
+   * the sitemap was correct, and the canonical tags were self-referential.
+   */
+  it("is indexable, so a page that sets no directive is not silently hidden", async () => {
+    const { metadata } = await import("../src/app/layout");
+    const robotsMeta = (metadata as { robots?: { index?: boolean; follow?: boolean } }).robots;
+    expect(robotsMeta?.index).toBe(true);
+    // follow is NEVER false anywhere on this site — a noindex,nofollow page
+    // absorbs link equity and passes none on.
+    expect(robotsMeta?.follow).toBe(true);
+  });
+});
