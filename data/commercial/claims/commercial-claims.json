@@ -55,7 +55,7 @@
     },
     {
       "id": "boise-industrial-height-varies-by-district",
-      "claim": "Boise's industrial height limits differ sharply by district: I-1 Light and I-2 Heavy both cap building height at 55 feet, while I-3 Industrial Technology permits up to 150 feet.",
+      "claim": "Boise's industrial districts do not share a height standard. The city's published tables give I-1 Light and I-2 Heavy a maximum building height of 55 feet with no footnote attached, and give I-3 Industrial Technology 150 feet, qualified by a footnote the city does not publish.",
       "quotedLanguage": "HEIGHT (MAXIMUM) D Building Height 150 ft. [3]",
       "assetClass": [
         "industrial"
@@ -73,12 +73,12 @@
         "boise-zoning-i2",
         "boise-zoning-i3"
       ],
-      "confidence": "HIGH",
+      "confidence": "MEDIUM",
       "jurisdiction": "Boise, Idaho",
       "temporalStatus": "CURRENT",
       "approvedForPublication": true,
       "verifiedOn": "2026-09-10",
-      "notes": "⚠️⚠️ CORRECTED 2026-09-10. An earlier version of this claim asserted that BOTH industrial districts cap at 55 ft. Boise has THREE industrial districts, not two, and I-3 permits nearly three times the height. The error came from researching I-1 and I-2 and assuming the set was complete. A page built on the earlier claim would have told an owner of I-3 ground that they were capped at 55 ft. ⚠️ Building height is not clear height. ⚠️ The 150 ft figure carries footnote [3], which has NOT been read — do not present it as unconditional."
+      "notes": "⚠️⚠️ CORRECTED 2026-09-10. An earlier version of this claim asserted that BOTH industrial districts cap at 55 ft. Boise has THREE industrial districts, not two, and I-3 permits nearly three times the height. The error came from researching I-1 and I-2 and assuming the set was complete. A page built on the earlier claim would have told an owner of I-3 ground that they were capped at 55 ft. ⚠️ Building height is not clear height. ⚠️ The 150 ft figure carries footnote [3], which has NOT been read — do not present it as unconditional. ⚠️ REWORDED 2026-09-10. The earlier wording, 'I-3 permits up to 150 feet', asserted an outcome the source does not support: the 150 ft cell carries footnote [3], and a full re-read of every cached Boise district page proves the city publishes no footnote definitions at all. The claim now states what the table states and says plainly that the qualification is unread. I-1 and I-2's 55 ft carries no marker and needs no such hedge — the asymmetry between the districts is itself the useful fact."
     },
     {
       "id": "boise-industrial-interstate-parking-setback",
@@ -380,12 +380,13 @@
       "sourceIds": [
         "boise-zoning-r3"
       ],
-      "confidence": "MEDIUM",
+      "confidence": "LOW",
       "jurisdiction": "Boise, Idaho",
       "temporalStatus": "CURRENT",
-      "approvedForPublication": true,
+      "approvedForPublication": false,
       "verifiedOn": "2026-09-10",
-      "notes": "⚠️ MEDIUM confidence deliberately. The density cell reads 'N./A' with footnotes [2][3] which have NOT been read, so 'no maximum density' may be qualified by those footnotes. The absence of a density cap would be materially important for multifamily development ground, which is precisely why it must be verified against the code text before any page relies on it. The lot-area figure is transcribed from the page as '2,00 sf' and is read as 2,000; confirm before publishing."
+      "notes": "🚨 WITHDRAWN FROM PUBLICATION 2026-09-10 — it was approved when it should not have been, and COMMERCIAL-LEGAL-BOUNDARIES.md §5 already said so. Two independent defects: (1) The density cell reads 'N./A' with footnotes [2][3] attached, and a full re-read of the cached page proves the City of Boise publishes NO footnote definitions anywhere on its district pages. 'No maximum density' is therefore not a fact we hold; it is a cell we cannot finish reading. (2) The lot-area figure is printed on the city's own page as '2,00 sf' — a typo in the source. Reading it as 2,000 is a GUESS, and guessing a digit in a dimensional standard is exactly the class of error that produced the § 63-307A fabrication. Neither half is recoverable without the codified text at American Legal, which returns 403 to every automated request. The clean, unfootnoted part of this table was split out into boise-r3-height.",
+      "verificationFlag": "FOOTNOTE_DEFINITIONS_NOT_PUBLISHED"
     },
     {
       "id": "ada-county-zoning-districts-schedule",
@@ -787,6 +788,69 @@
       "verificationFlag": "SERP_OBSERVATION_NOT_A_WORLD_FACT",
       "freshnessClass": "VOLATILE",
       "notes": "🚨 INTERNAL STRATEGY ONLY — NEVER PUBLISHED AS A FACT ABOUT THE WORLD. This is an observation about search results on one date, not a property of Idaho real estate. SERPs move. Its value is architectural: it tells us where to draw the line between residential and commercial pages, and it happens to agree with the FHFA four-unit boundary, which is a genuine reason to expect the split to be stable. Recorded VOLATILE and withheld from publication permanently."
+    },
+    {
+      "id": "boise-r3-height",
+      "claim": "Boise's R-3 Residential Urban district caps building height at four stories not to exceed 50 feet.",
+      "quotedLanguage": "HEIGHT (MAXIMUM) D Building Height 4 stories not to exceed 50 ft.",
+      "assetClass": [
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "multifamily",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-r3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "Split out of the withdrawn boise-r3-no-maximum-density. This cell is safe where the rest of that table is not: the HEIGHT (MAXIMUM) row carries NO footnote marker, whereas the LOT STANDARDS block carries [1], the lot-area and density cells carry [2] and [3], and the setback rows carry [3][4][5]. Height is the only R-3 standard we can read to completion from a public source. ⚠️ Two stories of constraint sit outside the table and are not covered by this claim: a height allowance is not a density allowance, and it is not an entitlement."
+    },
+    {
+      "id": "boise-district-pages-omit-footnote-definitions",
+      "claim": "The City of Boise's online zoning district pages reproduce each district's dimensional standards table together with its bracketed footnote markers, but do not publish the footnote definitions those markers point to. As accessed on 10 September 2026, the R-3 table carried markers [1] through [5], the I-3 table carried [1] through [3], and the I-1 and I-2 tables carried [1], and no definition for any of them appeared on any of those pages.",
+      "quotedLanguage": "LOT STANDARDS [1] Lot Area (minimum) [2] Single-Family Attached: 1,500 sf. All Other Uses: 2,00 sf. Lot Width (average) 20 ft. Street Frontage (minimum) 20 ft. Density (maximum) [2][3] N./A",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "research-method",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-r3",
+        "boise-zoning-i1",
+        "boise-zoning-i2",
+        "boise-zoning-i3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "VOLATILE",
+      "notes": "Established by re-reading all eleven cached Boise district pages and searching each for a footnote definition. None has one. This is materially useful to an owner and no competitor says it: the number on the city's website is not necessarily the number that governs the parcel, and a setback of '0 ft. [1]' is not a setback of zero. It also explains why several of our own claims are withheld rather than weak. The same quoted line carries a second, separate observation worth keeping: the city's R-3 lot-area cell is printed '2,00 sf', so even the digits on the page cannot be taken at face value. ⚠️ VOLATILE — this is a fact about a website on one date. Re-verify before relying on it, and never state it as a criticism; state it as a reason to read the code."
     }
   ]
 }

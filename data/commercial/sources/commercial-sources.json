@@ -28,7 +28,8 @@
         "boise-industrial-height-varies-by-district",
         "boise-industrial-interstate-parking-setback",
         "ada-county-vs-city-zoning-vocabularies-differ",
-        "boise-mx5-no-height-maximum"
+        "boise-mx5-no-height-maximum",
+        "boise-district-pages-omit-footnote-definitions"
       ],
       "status": "VERIFIED"
     },
@@ -59,7 +60,8 @@
         "boise-industrial-interstate-parking-setback",
         "boise-i2-street-frontage-minimum",
         "ada-county-vs-city-zoning-vocabularies-differ",
-        "boise-mx5-no-height-maximum"
+        "boise-mx5-no-height-maximum",
+        "boise-district-pages-omit-footnote-definitions"
       ],
       "status": "VERIFIED"
     },
@@ -88,7 +90,8 @@
         "boise-i3-purpose-and-buffer",
         "boise-i3-height-linked-setback",
         "ada-county-vs-city-zoning-vocabularies-differ",
-        "boise-mx5-no-height-maximum"
+        "boise-mx5-no-height-maximum",
+        "boise-district-pages-omit-footnote-definitions"
       ],
       "status": "VERIFIED"
     },
@@ -172,7 +175,9 @@
       "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
       "claimsSupported": [
         "boise-r3-no-maximum-density",
-        "boise-mx5-no-height-maximum"
+        "boise-mx5-no-height-maximum",
+        "boise-r3-height",
+        "boise-district-pages-omit-footnote-definitions"
       ],
       "status": "VERIFIED"
     },

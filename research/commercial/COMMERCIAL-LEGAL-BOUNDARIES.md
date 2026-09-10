@@ -45,19 +45,45 @@ suggests the county and the cities use different vocabularies entirely (county
 M1/M2/M3 against Boise I-1/I-2/I-3), which makes casual generalisation
 particularly dangerous.
 
-## 5. Dimensional standards carry unread footnotes
+## 5. Dimensional standards carry footnotes the city does not publish
 
-Every Boise district page read so far attaches bracketed footnotes to its
-setback, density and height cells. **None of those footnotes have been read.**
+**RESOLVED 2026-09-10, and the answer is worse than assumed.** All eleven cached
+Boise district pages were re-read and searched for footnote definitions.
+**None of them defines a single footnote.** The city reproduces each dimensional
+table *and its bracketed markers* while omitting the text those markers point to.
+The definitions live in the codified ordinance at codelibrary.amlegal.com, which
+returns HTTP 403 to every automated request, including with a complete browser
+header set (re-confirmed 2026-09-10).
 
-Consequences:
-- Boise I-1/I-2 interior side and rear setbacks read "0 ft. [1]" — do not
-  characterise them as unconditional.
-- I-3's 150 ft height carries "[3]".
-- R-3's density reads "N./A" with "[2][3]", so "no maximum density" is
-  **not yet publishable**.
-- I-3's front setback offers an "OR 100 ft" alternative under "[2]" that is not
-  understood and must not be paraphrased.
+So a marker in one of our sources is not a "not yet read" — it is a
+**cannot be read without a human opening a browser**.
+
+Footnote map, established by direct re-read:
+
+| District | Table | Markers present | Clean cells |
+|---|---|---|---|
+| MX-2 | 11-02.15 | **none** | all — 45 ft height and 0 ft setbacks are fully readable |
+| I-1 | 11-02.27 | `[1]` on interior side, rear, and two parking setbacks | **55 ft height is clean** |
+| I-2 | 11-02.27 series | `[1]`, same cells | **55 ft height is clean** |
+| I-3 | 11-02.31 | `[1]` on the setback block, `[2]` on "OR 100ft", `[3]` on 150 ft height | street frontage 30 ft; parking setbacks |
+| R-3 | 11-02.11 | `[1]` on the whole LOT STANDARDS block, `[2]` on lot area and density, `[3][4][5]` on setbacks | **height only** |
+
+Consequences, now binding:
+
+- A cell with a marker may be **quoted with its marker**. It may not be
+  paraphrased, characterised, or converted into a statement about what an owner
+  may do. "0 ft. [1]" is not a setback of zero.
+- `boise-r3-no-maximum-density` is **WITHDRAWN**. Its density cell is footnoted
+  twice, and its lot-area figure is printed on the city's own page as **"2,00 sf"** —
+  a typo in the source. Reading that as 2,000 is a guess about a digit in a
+  dimensional standard, which is the § 63-307A failure mode wearing different
+  clothes. The unfootnoted height was split out as `boise-r3-height`.
+- `boise-industrial-height-varies-by-district` was **reworded** to state what the
+  table states rather than what it appears to permit. I-1/I-2's 55 ft carries no
+  marker; I-3's 150 ft does.
+- The omission itself is now an approved claim,
+  `boise-district-pages-omit-footnote-definitions`. Write it as a reason to read
+  the code, never as a criticism of the city.
 
 ## 6. Building height is not clear height
 
