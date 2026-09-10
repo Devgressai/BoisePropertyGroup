@@ -69,7 +69,7 @@ become "we have acquired industrial properties throughout Boise."
 | 14 | Valuation education model | **COMPLETE** — `research/commercial/COMMERCIAL-VALUATION-EDUCATION-MODEL.md`; verdict: ONE explainer, not a cluster |
 | 15 | SERP + query ownership | **PARTIAL** — ownership map recorded (`data/commercial/queries/commercial-query-ownership.json`); risks 2+ outstanding |
 | 16 | IA decision | **COMPLETE** — computed, not decided: `scripts/research/commercial-ia-eligibility.mjs`. **Two pages plus a hub.** |
-| 17 | Build the eligible pages | **COMPLETE** — `/commercial`, `/commercial/industrial`, `/commercial/multifamily` live, index:true, CI green |
+| 17 | Build the eligible pages | **COMPLETE** — `/commercial`, `/commercial/industrial`, `/commercial/multifamily`, `/commercial/how-value-is-determined`. The explainer became eligible only after the three Idaho Code statutes were added — the eligibility script re-decided it, which is the point of it being a script |
 | 18 | Structured data | **COMPLETE** — WebPage + BreadcrumbList + citations. No Service, Offer, Product or AggregateRating: no transaction history exists and JSON-LD is where an unearned claim slips past review |
 | 19–30 | Intake, cross-linking, audits | in progress |
 

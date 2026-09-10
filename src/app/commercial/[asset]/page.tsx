@@ -4,7 +4,7 @@ import CommercialPage from "@/components/seo/CommercialPage";
 import { commercialClaim } from "@/data/commercial-claims";
 import { graph, breadcrumbSchema, commercialPageSchema } from "@/lib/seo/schema";
 import { COMMERCIAL_PAGES, commercialPage } from "@/data/commercial-content";
-import { claimsUniqueToAssetClass } from "@/data/commercial-claims";
+import { claimsUniqueToAssetClass, commercialClaimsByTopic } from "@/data/commercial-claims";
 import { MIN_UNIQUE_CLAIMS, MIN_WORDS, countWords } from "@/lib/seo/indexation";
 
 export function generateStaticParams() {
@@ -22,7 +22,15 @@ export function generateStaticParams() {
 function gate(slug: string) {
   const content = commercialPage(slug);
   if (!content) return { indexable: false, reason: "no content" };
-  const unique = claimsUniqueToAssetClass(content.assetClass).length;
+  // An explainer is not about a kind of building, so counting claims that
+  // differentiate an asset class would measure the wrong thing. It is gated on
+  // the topics it is actually about instead.
+  const unique =
+    content.kind === "explainer"
+      ? new Set(
+          (content.gateTopics ?? []).flatMap((t) => commercialClaimsByTopic(t).map((c) => c.id)),
+        ).size
+      : claimsUniqueToAssetClass(content.assetClass).length;
   const words = countWords(
     ...content.intro,
     ...content.sections.flatMap((s) => [s.heading, ...s.body]),
@@ -79,7 +87,12 @@ export default async function Page({ params }: { params: Promise<{ asset: string
       slug: content.slug,
       title: content.title,
       description: content.description,
-      about: content.eyebrow === "Multifamily" ? "Multifamily property" : "Industrial property",
+      about:
+        content.kind === "explainer"
+          ? "Commercial property valuation"
+          : content.eyebrow === "Multifamily"
+            ? "Multifamily property"
+            : "Industrial property",
       sources: [...sources.values()],
     }),
   );

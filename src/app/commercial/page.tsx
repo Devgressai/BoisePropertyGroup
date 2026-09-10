@@ -6,6 +6,9 @@ import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
 import { COMMERCIAL_PAGES } from "@/data/commercial-content";
 
+const ASSETS = COMMERCIAL_PAGES.filter((p) => p.kind === "asset");
+const EXPLAINERS = COMMERCIAL_PAGES.filter((p) => p.kind === "explainer");
+
 export const metadata: Metadata = {
   title: "Commercial property acquisition — Boise and Ada County",
   description:
@@ -62,7 +65,7 @@ export default function CommercialHub() {
           </div>
 
           <div className="mt-9 grid gap-px overflow-hidden rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-border)] sm:grid-cols-2">
-            {COMMERCIAL_PAGES.map((p) => (
+            {ASSETS.map((p) => (
               <Link
                 key={p.slug}
                 href={`/commercial/${p.slug}`}
@@ -75,6 +78,36 @@ export default function CommercialHub() {
               </Link>
             ))}
           </div>
+
+          {EXPLAINERS.length > 0 && (
+            <div className="mt-14">
+              <div className="max-w-[46rem]">
+                <hr className="rule-accent" />
+                <h2 className="display-md mt-5 text-[var(--bpg-ink)]">Before any of that</h2>
+                <p className="mt-4 leading-relaxed">
+                  One mechanism sits underneath every asset class here. It is the difference
+                  between a house and a commercial building, and it is why the assessor&rsquo;s
+                  number and a transaction price are rarely the same figure.
+                </p>
+              </div>
+              <div className="mt-7 grid gap-px overflow-hidden rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-border)]">
+                {EXPLAINERS.map((p) => (
+                  <Link
+                    key={p.slug}
+                    href={`/commercial/${p.slug}`}
+                    className="block bg-[var(--bpg-surface)] p-8 no-underline transition-colors hover:bg-[var(--bpg-sand)]"
+                  >
+                    <h3 className="text-[1.15rem] font-semibold text-[var(--bpg-ink)]">
+                      {p.h1}
+                    </h3>
+                    <p className="mt-2 max-w-[46rem] text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">
+                      {p.description}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div className="mt-14 max-w-[46rem] space-y-4">
             <hr className="rule-accent" />

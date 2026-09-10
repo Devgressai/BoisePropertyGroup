@@ -28,6 +28,15 @@ export interface CommercialSection {
 
 export interface CommercialPageContent {
   slug: string;
+  /**
+   * An `asset` page is gated on claims that differentiate its asset class. An
+   * `explainer` is gated on claims carrying its own topics instead, because it
+   * is not about a kind of building — it is about a mechanism that applies to
+   * all of them.
+   */
+  kind: "asset" | "explainer";
+  /** For an explainer this is the topic set it must differentiate on. */
+  gateTopics?: string[];
   assetClass: string;
   title: string;
   h1: string;
@@ -41,6 +50,7 @@ export interface CommercialPageContent {
 
 export const INDUSTRIAL: CommercialPageContent = {
   slug: "industrial",
+  kind: "asset",
   assetClass: "industrial",
   title: "Selling industrial property in Boise — what changes and why",
   h1: "Selling industrial property in Boise",
@@ -95,9 +105,7 @@ export const INDUSTRIAL: CommercialPageContent = {
       heading: "How the county arrives at a value",
       body: [
         "Ada County assesses commercial property using the income the property produces, rather than by comparing it to nearby sales the way residential property is handled. That is the same logic a buyer applies, and for the same reason: industrial buildings are rarely alike enough for comparison to carry the weight.",
-        "Assessed value is set as of January 1 — 12:01 a.m. on the first day of January, by statute — which means for most of the year it is answering a question about a date that has passed.",
-        "Two further things about it are worth knowing, and neither is a criticism of anyone. Idaho law does not require an assessment to equal market value; it requires the median ratio of assessed to market value, across a category of property, to land somewhere between 90 percent and 110 percent. And every taxable property must be appraised at least once every five years, on a rolling schedule — in the years between, a property is indexed to market using recorded transactions rather than looked at individually.",
-        "So an assessed value is a figure with a fixed date, a tolerance band, and potentially several years since anyone examined that specific building. It is not wrong. It is a tax figure produced at scale, and it cannot know about a lease that expired in March or a roof that failed in June.",
+        "The assessor's figure is not a substitute for that, and the reasons are structural rather than anyone's error — a date fixed by statute, a tolerance the law states openly, and a rolling appraisal cycle. How commercial value is determined sets that out in full.",
       ],
     },
     {
@@ -126,14 +134,12 @@ export const INDUSTRIAL: CommercialPageContent = {
     "boise-flood-protection-overlay-purpose",
     "ada-commercial-assessment-uses-income",
     "ada-assessment-market-value-jan-1-commercial",
-    "idaho-assessment-lien-date-statutory",
-    "idaho-assessment-ratio-band-90-110",
-    "idaho-appraisal-cycle-five-years",
   ],
 };
 
 export const MULTIFAMILY: CommercialPageContent = {
   slug: "multifamily",
+  kind: "asset",
   assetClass: "multifamily",
   title: "Selling multifamily property in Ada County — five units and up",
   h1: "Selling multifamily property, five units and up",
@@ -179,8 +185,7 @@ export const MULTIFAMILY: CommercialPageContent = {
     {
       heading: "The assessor's number answers a different question",
       body: [
-        "Assessed value in Ada County is market value as of January 1. For most of the year that is a figure about a date in the past, produced for taxation at mass-appraisal scale rather than for a transaction.",
-        "It also carries a tolerance the statute states openly. Idaho requires the median ratio of assessed value to market value, across a category of property, to fall within 90 percent to 110 percent of market value — a band, not a point, and a band measured across a category rather than guaranteed for any one building. On top of that, a property need only be individually appraised once every five years; in the years between it is indexed to market using recorded transactions.",
+        "Assessed value in Ada County is market value as of January 1, produced for taxation at mass-appraisal scale rather than for a transaction. For most of the year it is a figure about a date in the past, and it carries a statutory tolerance and a rolling appraisal cycle behind it — all set out in how commercial value is determined.",
         "None of that makes it the wrong number. It makes it the right number to a question a seller is not asking. It cannot account for the specific facts that move a real price on an apartment property — a block of leases rolling at once, a boiler at the end of its life, units held vacant through a turn.",
       ],
     },
@@ -208,12 +213,70 @@ export const MULTIFAMILY: CommercialPageContent = {
     "boise-mx5-downtown-purpose",
     "boise-r3-height",
     "boise-district-pages-omit-footnote-definitions",
+  ],
+};
+
+export const VALUATION: CommercialPageContent = {
+  slug: "how-value-is-determined",
+  kind: "explainer",
+  gateTopics: ["assessment", "valuation"],
+  assetClass: "multifamily",
+  title: "How commercial property value is determined in Ada County",
+  h1: "How commercial value is determined",
+  eyebrow: "Valuation",
+  description:
+    "Why a commercial building is valued on its income while a house is valued by comparison, and why the assessor's number answers a different question — a fixed date, a statutory tolerance band, and a five-year appraisal cycle.",
+  intro: [
+    "A homeowner can get within striking distance of their own number. A commercial owner usually cannot, and the reason is not that the information is being kept from them — it is that the method is different, and the input the method runs on is something only they hold.",
+    "This page explains the method. It is not a valuation, and it does not tell you what your property is worth.",
+  ],
+  sections: [
+    {
+      heading: "Two methods, and which one applies is not a choice",
+      body: [
+        "A house is valued by comparison. You find properties that recently sold, adjust for the differences, and arrive at a number. It works because houses are numerous and similar and the sales are visible.",
+        "A commercial property is valued on the income it produces. Ada County does exactly this in its own assessment work, and it staffs accordingly: apartment property is handled by the county's commercial appraisers rather than its residential ones, alongside office, retail and industrial.",
+        "The switch is not a preference. Commercial buildings are too few and too unalike for comparison to carry the weight, and the thing a buyer is actually purchasing is a stream of income rather than a place to live. So above the point where a property stops being a house, the question changes from what did similar things sell for to what does this one earn.",
+      ],
+    },
+    {
+      heading: "Why an owner cannot run the method themselves",
+      body: [
+        "If value follows income, then the input to the valuation is the property's own operating performance — rent roll, actual collections, operating expenses, what is really leased versus what is on paper.",
+        "There is no portal that publishes that. The only party who holds it is the owner. This is the genuine asymmetry in commercial property, and it runs the opposite way to the one people expect: the owner has the data and lacks the method, and everyone else has the method and lacks the data.",
+        "It is also why a serious commercial conversation starts with documents rather than with a number. Anyone willing to give you a figure before seeing the income is not valuing your property. They are guessing, or they are anchoring you.",
+      ],
+    },
+    {
+      heading: "The assessor's number, and why it is not that number",
+      body: [
+        "Almost every owner looks at the assessed value first, and it is the most misleading figure available to them — not because it is wrong, but because it answers a different question. Three features of Idaho law explain the whole gap, and none of them is anyone's mistake.",
+        "First, the date is fixed. Idaho sets assessment at market value as of 12:01 a.m. on the first day of January of the year the taxes are levied. For most of the year, that is a statement about a date that has passed.",
+        "Second, the law states its own tolerance. It does not require an assessment to equal market value. It requires the median ratio of assessed value to market value, for each category of property tested, to fall within 90 percent to 110 percent of market value, tested statistically, with categories within five percentage points of one another. That is a band, and it is a band measured across a category — not a guarantee about any single building.",
+        "Third, nobody may have looked at the property recently. Idaho requires every taxable property to be appraised at least once every five years, on a rolling schedule that reaches fifteen percent of a county's properties in year one and all of them by year five. In the years between, a property is indexed to current market value using recorded transactions rather than individually examined.",
+        "Put those together and an assessed value is a figure with a fixed date, an openly stated tolerance, and potentially several years since anyone looked at that specific building. For a commercial property whose income has moved materially since, that is the entire explanation of the divergence — without anyone having erred.",
+      ],
+    },
+    {
+      heading: "What this means for a conversation with us",
+      body: [
+        "We ask for a rent roll and a trailing twelve months of operating statements, and for the things that change what those numbers will look like next year: leases expiring, concessions, units held off the market, capital work deferred.",
+        "We then tell you what we would pay and show the arithmetic. That is a commercial position, not an opinion of value, and the difference matters: we are the buyer, and an opinion of value from the buyer is not an opinion of value. If you need one of those, you need an appraiser, and we will say so.",
+        "What we will not do is give you a number before we have seen the income, or tell you what your property is worth.",
+      ],
+    },
+  ],
+  citedClaims: [
+    "ada-commercial-assessment-uses-income",
+    "ada-apartments-valued-by-commercial-appraisers",
+    "ada-assessment-market-value-jan-1-commercial",
+    "idaho-assessment-lien-date-statutory",
     "idaho-assessment-ratio-band-90-110",
     "idaho-appraisal-cycle-five-years",
   ],
 };
 
-export const COMMERCIAL_PAGES: CommercialPageContent[] = [INDUSTRIAL, MULTIFAMILY];
+export const COMMERCIAL_PAGES: CommercialPageContent[] = [INDUSTRIAL, MULTIFAMILY, VALUATION];
 
 export function commercialPage(slug: string): CommercialPageContent | undefined {
   return COMMERCIAL_PAGES.find((p) => p.slug === slug);

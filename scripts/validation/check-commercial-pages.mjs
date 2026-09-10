@@ -49,10 +49,15 @@ for (const page of content.COMMERCIAL_PAGES) {
       : `all ${page.citedClaims.length} cited claims resolve to approved evidence`,
   );
 
-  const offClass = page.citedClaims
-    .map((id) => byId.get(id))
-    .filter((c) => c && !c.assetClasses.includes(page.assetClass))
-    .map((c) => c.id);
+  // An explainer spans asset classes by nature, so the off-class check is an
+  // asset-page rule only.
+  const offClass =
+    page.kind === "explainer"
+      ? []
+      : page.citedClaims
+          .map((id) => byId.get(id))
+          .filter((c) => c && !c.assetClasses.includes(page.assetClass))
+          .map((c) => c.id);
   say(
     offClass.length === 0,
     offClass.length
@@ -60,18 +65,23 @@ for (const page of content.COMMERCIAL_PAGES) {
       : `every cited claim covers ${page.assetClass}`,
   );
 
-  const differentiating = page.citedClaims
-    .map((id) => byId.get(id))
-    .filter((c) => c && c.assetClasses.includes(page.assetClass) && c.topics.includes(page.assetClass));
+  const differentiating =
+    page.kind === "explainer"
+      ? page.citedClaims
+          .map((id) => byId.get(id))
+          .filter((c) => c && (page.gateTopics ?? []).some((t) => c.topics.includes(t)))
+      : page.citedClaims
+          .map((id) => byId.get(id))
+          .filter((c) => c && c.assetClasses.includes(page.assetClass) && c.topics.includes(page.assetClass));
   say(
     differentiating.length >= MIN_DIFFERENTIATING,
-    `${differentiating.length} cited claims differentiate this asset class (needs ${MIN_DIFFERENTIATING})`,
+    `${differentiating.length} cited claims differentiate this page (needs ${MIN_DIFFERENTIATING})`,
   );
 
   // "Put the five-unit line on the page, visibly." A multifamily page that says
   // only "we buy multifamily" is a residential lookalike and will be classified
   // as one, competing with house pages we already own.
-  if (page.assetClass === "multifamily") {
+  if (page.assetClass === "multifamily" && page.kind === "asset") {
     const prose = [...page.intro, ...page.sections.flatMap((s) => [s.heading, ...s.body])].join(" ");
     const floor = /\bfive units\b|\bfive or more units\b|\bmore than four units\b|\b5\+ units\b/i.test(prose);
     say(floor, floor ? "states its unit floor in visible copy" : "no visible unit floor — state the five-unit line in the page copy, not only in metadata");
