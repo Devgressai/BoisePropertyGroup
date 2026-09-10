@@ -1022,7 +1022,8 @@
       "stalenessRisk": "LOW — changes by ordinance; the codification line names the last one.",
       "claimsSupported": [
         "treasure-valley-setback-governed-by-residential-adjacency",
-        "garden-city-c2-is-mixed-use-not-commercial"
+        "garden-city-c2-is-mixed-use-not-commercial",
+        "star-residential-adjacency-floor-is-waivable"
       ],
       "status": "VERIFIED"
     },
@@ -1168,7 +1169,8 @@
       "authorityNotes": "TIER 1 — codified Unified Development Code, current through Ordinance No. 26-2129 enacted 2026-07-07 (Supp. No. 14). Retrieved from Municode's content API, which returns the codifier's section text as JSON; the payload's own section heading is '11-2C-3. - Standards.' ⚠️ Meridian's zoningmap.pdf is a CITY PUBLICATION, not codified text, and no dimensional standard may ever be cited to it. ⚠️ One adopted-but-uncodified ordinance exists, 26-2128, amending a flex-space use standard in Chapter 4 — it does not touch this table. See docs/commercial/CODIFICATION-FRESHNESS.md.",
       "stalenessRisk": "LOW — changes by ordinance; the codification banner names the last one.",
       "claimsSupported": [
-        "meridian-industrial-table-defers-to-exceptions"
+        "meridian-industrial-table-defers-to-exceptions",
+        "meridian-specific-area-plans-displace-the-table"
       ],
       "status": "VERIFIED"
     },

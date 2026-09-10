@@ -1281,7 +1281,7 @@
       "verifiedOn": "2026-09-10",
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
-      "notes": "🎯 THE STRONGEST CROSS-JURISDICTION FINDING WE HOLD, and no competitor content addresses it. Three cities, three mechanisms, one shared reality: the number in the dimensional table is not the number that governs a parcel that touches housing. Boise scales it by development acreage, Star sets a flat floor, Kuna makes the commercial parcel inherit the residential district's own requirement. ⚠️ It is a claim about a PATTERN, not a formula. Never compute a setback for a reader from it, and never carry one city's number to another — the whole point is that they differ. Each component is separately quoted and cached; the quoted language here is Kuna's, which is the most surprising of the three."
+      "notes": "🎯 THE STRONGEST CROSS-JURISDICTION FINDING WE HOLD, and no competitor content addresses it. Three cities, three mechanisms, one shared reality: the number in the dimensional table is not the number that governs a parcel that touches housing. Boise scales it by development acreage, Star sets a flat floor, Kuna makes the commercial parcel inherit the residential district's own requirement. ⚠️ It is a claim about a PATTERN, not a formula. Never compute a setback for a reader from it, and never carry one city's number to another — the whole point is that they differ. Each component is separately quoted and cached; the quoted language here is Kuna's, which is the most surprising of the three. ⚠️ DO NOT GENERALISE 'Kuna prints N/A'. Only C-2, C-3, CBD, M-1, M-2 and P carry N/A setbacks; Kuna's C-1 carries real figures. The inheritance provision is what N/A resolves to in those districts, not a description of Kuna's whole table."
     },
     {
       "id": "star-light-industry-300ft-residential-separation",
@@ -1440,6 +1440,69 @@
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
       "notes": "🎯 THE SHARPEST VERSION OF THE 'DISTRICT LETTERS ARE LOCAL VOCABULARY' POINT. The same three characters denote an airport-industrial district in one jurisdiction, a retired mining district in another, and nothing at all in a third. Anyone normalising district codes across the valley — which is exactly what a national template does — produces confident nonsense. ⚠️ Kuna's M-3 is consolidated, not merely unused: say it no longer operates, not that it was 'deleted'."
+    },
+    {
+      "id": "star-residential-adjacency-floor-is-waivable",
+      "claim": "Star's 15-foot minimum setback next to a residential use or zone is not absolute. The same footnote allows a waiver to be requested where the adjacent property has the potential to redevelop as a non-residential use in the future.",
+      "quotedLanguage": "A waiver may be requested if thee adjacent property has the potential to redevelop as a non-residential use in the future.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "land"
+      ],
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-code-8-3a-4"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "⚠️ CORRECTS A LIVE PAGE. The industrial page stated Star's 15-foot floor flatly, which is the same error class we correctly avoided on Star's 300-foot separation — reporting a constraint without its escape. A waiver may be REQUESTED; that is not the same as granted, and the page must not imply either that the floor is absolute or that a waiver is available on demand. ⚠️ QUOTE THE TYPO. The code reads 'if thee adjacent property'. It is the code's own error and the quote will not re-match the cache if it is silently corrected."
+    },
+    {
+      "id": "meridian-specific-area-plans-displace-the-table",
+      "claim": "Meridian's own dimensional table says it can be overridden. Setback, landscape buffer, building height and parking standards within an adopted specific area plan take precedence over the standards in the table. Where an adjacent property is vacant, the Director determines its designation from the Comprehensive Plan, so even the input to a buffer requirement can be a matter of judgement rather than a fact on the ground.",
+      "quotedLanguage": "Dimensional standards for setbacks, landscape buffers, building heights, and parking requirements within adopted specific area plans take precedence over standards provided in this table.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "zoning",
+        "land",
+        "jurisdiction",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-code-11-2c-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "A FOURTH KIND OF DISPLACEMENT — after proximity to housing (Boise, Star, Kuna), the building's own height (Eagle), and the use on the parcel (Eagle condition C), this is displacement by an OVERLYING PLAN. And again Meridian states it rather than us inferring it. ⚠️ Says nothing about which parcels sit inside an adopted specific area plan, or what any such plan requires — neither has been read. It establishes only that a plan can take precedence. ⚠️ The vacant-neighbour provision is worth stating carefully: the Director determining a designation from the Comprehensive Plan is a normal administrative mechanism, not a criticism, and must never be written as though it were arbitrary."
     }
   ]
 }

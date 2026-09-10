@@ -1606,6 +1606,71 @@ export const commercialClaims: CommercialClaim[] = [
         "tier": 1
       }
     ]
+  },
+  {
+    "id": "star-residential-adjacency-floor-is-waivable",
+    "claim": "Star's 15-foot minimum setback next to a residential use or zone is not absolute. The same footnote allows a waiver to be requested where the adjacent property has the potential to redevelop as a non-residential use in the future.",
+    "quote": "A waiver may be requested if thee adjacent property has the potential to redevelop as a non-residential use in the future.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "land"
+    ],
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "zoning",
+      "industrial",
+      "land",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Star, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Star City Code Table 8-3A-4 — Zoning District Dimensional Standards",
+        "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST&groupChunks=false",
+        "publisher": "City of Star, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "meridian-specific-area-plans-displace-the-table",
+    "claim": "Meridian's own dimensional table says it can be overridden. Setback, landscape buffer, building height and parking standards within an adopted specific area plan take precedence over the standards in the table. Where an adjacent property is vacant, the Director determines its designation from the Comprehensive Plan, so even the input to a buffer requirement can be a matter of judgement rather than a fact on the ground.",
+    "quote": "Dimensional standards for setbacks, landscape buffers, building heights, and parking requirements within adopted specific area plans take precedence over standards provided in this table.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "zoning",
+      "land",
+      "jurisdiction",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Meridian, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Meridian Unified Development Code Table 11-2C-3 — Dimensional Standards in the Industrial Districts",
+        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST&groupChunks=false",
+        "publisher": "City of Meridian, Idaho",
+        "tier": 1
+      }
+    ]
   }
 ];
 
