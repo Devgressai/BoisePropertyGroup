@@ -1,15 +1,15 @@
 COMMERCIAL IA ELIGIBILITY — computed from the registry, not decided in advance
 ==============================================================================
-approved commercial claims available: 42
+approved commercial claims available: 47
 
 ELIGIBLE TO BUILD
 ------------------------------------------------------------------------------
   Commercial acquisition overview
-    kind hub · 0 unique / 42 usable
+    kind hub · 0 unique / 47 usable
     A hub is a routing page. It is judged on whether the pages beneath it exist, never on unique claims.
 
   Industrial property — Boise
-    kind asset · 7 unique / 13 usable
+    kind asset · 7 unique / 17 usable
       · boise-i1-purpose
       · boise-i2-purpose-separation
       · boise-industrial-height-varies-by-district
@@ -30,33 +30,30 @@ ELIGIBLE TO BUILD
       · idaho-assessment-ratio-band-90-110
       · idaho-appraisal-cycle-five-years
 
-  Vacancy in a special-purpose building
-    kind situation · 3 unique / 18 usable
-      · ada-county-vs-city-zoning-vocabularies-differ
-      · boise-district-pages-omit-footnote-definitions
-      · boise-city-pages-differ-from-codified-tables
-
 NOT ELIGIBLE
 ------------------------------------------------------------------------------
   Office property — Boise  [asset]
-    ✗ G1 differentiation — 0 allocated of 7 matched, needs 3
+    ✗ G1 differentiation — 0 on-subject of 0 allocated (7 matched), needs 3
 
   Retail property — Boise  [asset]
-    ✗ G1 differentiation — 0 allocated of 6 matched, needs 3
+    ✗ G1 differentiation — 0 on-subject of 0 allocated (6 matched), needs 3
 
   Commercial and development land  [asset]
-    ✗ G1 differentiation — 1 allocated of 11 matched, needs 3
+    ✗ G1 differentiation — 2 on-subject of 2 allocated (16 matched), needs 3
 
   Lease rollover / income concentration  [situation]
-    ✗ G1 differentiation — 0 allocated of 10 matched, needs 3
+    ✗ G1 differentiation — 0 on-subject of 0 allocated (10 matched), needs 3
+
+  Vacancy in a special-purpose building  [situation]
+    ✗ G1 differentiation — 0 on-subject of 3 allocated (23 matched), needs 3 · 3 allocated claim(s) say nothing about vacancy
 
   Entity or partnership exit  [situation]
     ✗ G4 blocked — Idaho Title 30 (Uniform LLC Act) member-consent defaults not verified. No evidence held.
-    ✗ G1 differentiation — 0 allocated of 0 matched, needs 3
+    ✗ G1 differentiation — 0 on-subject of 0 allocated (0 matched), needs 3
 
   Loan maturity or refinance failure  [situation]
     ✗ G4 blocked — No evidence held. Every candidate fact is a market statistic, and undated statistics are prohibited.
-    ✗ G1 differentiation — 0 allocated of 0 matched, needs 3
+    ✗ G1 differentiation — 0 on-subject of 0 allocated (0 matched), needs 3
 
 SIBLING OVERLAP — evidence that differentiates nobody
 ------------------------------------------------------------------------------
@@ -64,7 +61,7 @@ SIBLING OVERLAP — evidence that differentiates nobody
   makes neither page distinct, so it counts for neither. A large number here
   means the candidates are one page proposed twice.
 
-    4 shared — commercial-land = industrial-boise
+    8 shared — commercial-land = industrial-boise
     2 shared — multifamily-5plus = office-boise = retail-boise
     2 shared — commercial-land = multifamily-5plus
     2 shared — commercial-land = industrial-boise = office-boise = retail-boise
@@ -77,11 +74,11 @@ HIERARCHY OVERLAP — resolved toward the less derived page
     7 claims — industrial-boise over situation-vacancy
     7 claims — valuation-income over situation-lease-rollover
     3 claims — multifamily-5plus over situation-lease-rollover, valuation-income
+    2 claims — commercial-land over situation-vacancy
     2 claims — multifamily-5plus over valuation-income
-    1 claims — commercial-land over situation-vacancy
 
 ==============================================================================
-5 eligible · 6 not eligible
+4 eligible · 7 not eligible
 
 A short list is the correct outcome. Nothing here is scheduled — eligibility
 is permission to build, never an instruction to.

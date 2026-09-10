@@ -9,6 +9,9 @@
  *
  * A candidate must clear FOUR gates:
  *
+ *   G0 RELEVANCE       A differentiating claim must be ABOUT the candidate's own
+ *                       subject. Counting claims that merely survived allocation
+ *                       is not enough — see the note on subjectTopics below.
  *   G1 DIFFERENTIATION  ≥3 approved claims that no OTHER candidate can also use.
  *                       Shared claims are real evidence but they do not
  *                       distinguish one page from another, and a page that says
@@ -45,12 +48,14 @@ const CANDIDATES = [
     id: "industrial-boise",
     label: "Industrial property — Boise",
     kind: "asset",
+    subjectTopics: ["industrial"],
     match: (c) => c.assetClass.includes("industrial") && c.topic.includes("industrial"),
   },
   {
     id: "multifamily-5plus",
     label: "Multifamily, five units and up",
     kind: "asset",
+    subjectTopics: ["multifamily"],
     match: (c) => c.assetClass.includes("multifamily") && c.topic.includes("multifamily"),
     contested: "sell multifamily property Boise",
   },
@@ -58,24 +63,28 @@ const CANDIDATES = [
     id: "office-boise",
     label: "Office property — Boise",
     kind: "asset",
+    subjectTopics: ["office"],
     match: (c) => c.assetClass.includes("office") && c.topic.includes("office"),
   },
   {
     id: "retail-boise",
     label: "Retail property — Boise",
     kind: "asset",
+    subjectTopics: ["retail"],
     match: (c) => c.assetClass.includes("retail") && c.topic.includes("retail"),
   },
   {
     id: "commercial-land",
     label: "Commercial and development land",
     kind: "asset",
+    subjectTopics: ["land"],
     match: (c) => c.assetClass.includes("land") && c.topic.includes("land"),
   },
   {
     id: "valuation-income",
     label: "Why commercial property is valued on income",
     kind: "explainer",
+    subjectTopics: ["assessment", "valuation"],
     match: (c) => c.topic.includes("assessment") || c.topic.includes("valuation"),
   },
   // Phase 12 situations. `tests` lists which of the five it changes.
@@ -83,6 +92,7 @@ const CANDIDATES = [
     id: "situation-lease-rollover",
     label: "Lease rollover / income concentration",
     kind: "situation",
+    subjectTopics: ["lease-rollover"],
     tests: ["valuation", "third-party", "documents"],
     match: (c) => c.topic.includes("assessment") && c.assetClass.some((a) => a !== "land"),
   },
@@ -90,6 +100,7 @@ const CANDIDATES = [
     id: "situation-vacancy",
     label: "Vacancy in a special-purpose building",
     kind: "situation",
+    subjectTopics: ["vacancy"],
     tests: ["valuation", "documents"],
     match: (c) => c.topic.includes("zoning") && c.assetClass.includes("industrial"),
   },
@@ -97,6 +108,7 @@ const CANDIDATES = [
     id: "situation-entity-exit",
     label: "Entity or partnership exit",
     kind: "situation",
+    subjectTopics: ["entity-exit"],
     tests: ["authority", "documents"],
     match: () => false,
     blocker: "Idaho Title 30 (Uniform LLC Act) member-consent defaults not verified. No evidence held.",
@@ -105,6 +117,7 @@ const CANDIDATES = [
     id: "situation-loan-maturity",
     label: "Loan maturity or refinance failure",
     kind: "situation",
+    subjectTopics: ["loan-maturity"],
     tests: ["clock", "third-party", "valuation"],
     match: () => false,
     blocker: "No evidence held. Every candidate fact is a market statistic, and undated statistics are prohibited.",
@@ -135,6 +148,26 @@ const MIN_UNIQUE = 3;
  *     office page and a retail page out of the same three mixed-use districts.
  */
 const KIND_RANK = { asset: 0, explainer: 1, situation: 2, hub: 99 };
+
+/**
+ * G0 — RELEVANCE. Allocation alone is not differentiation.
+ *
+ * This gate once reported the vacancy situation page as ELIGIBLE on three
+ * claims: that county and city zoning vocabularies differ, that Boise's
+ * webpages omit footnote definitions, and that they differ from the codified
+ * tables. Not one of them is about vacancy. They landed there because the
+ * candidate's match was "zoning topic AND industrial asset class", and those
+ * three claims carry a zoning topic without carrying an industrial one, so no
+ * sibling took them.
+ *
+ * A page can therefore qualify on evidence that says nothing about its subject
+ * — which is precisely the doorway page this whole script exists to refuse. So
+ * a claim only differentiates a candidate if it carries one of that candidate's
+ * SUBJECT topics. A candidate whose subject topic no claim carries scores zero,
+ * which is the honest answer: we have no evidence about it yet.
+ */
+const subjectTopicsFor = (cand) =>
+  cand.subjectTopics ?? (cand.kind === "asset" ? [cand.assetClassTopic] : []);
 
 const usableBy = new Map(CANDIDATES.map((c) => [c.id, approved.filter(c.match)]));
 
@@ -170,12 +203,18 @@ for (const claim of approved) {
 
 const results = CANDIDATES.map((c) => {
   const usable = usableBy.get(c.id);
-  const owned = allocation.get(c.id);
+  const allocated = allocation.get(c.id);
+  const subjects = subjectTopicsFor(c);
+  // G0: only claims about this candidate's own subject can differentiate it.
+  const owned =
+    c.kind === "hub" ? allocated : allocated.filter((cl) => subjects.some((t) => cl.topic.includes(t)));
+  const irrelevant = allocated.length - owned.length;
   const fails = [];
   if (c.blocker) fails.push(`G4 blocked — ${c.blocker}`);
   if (c.kind !== "hub" && owned.length < MIN_UNIQUE)
     fails.push(
-      `G1 differentiation — ${owned.length} allocated of ${usable.length} matched, needs ${MIN_UNIQUE}`,
+      `G1 differentiation — ${owned.length} on-subject of ${allocated.length} allocated (${usable.length} matched), needs ${MIN_UNIQUE}` +
+        (irrelevant ? ` · ${irrelevant} allocated claim(s) say nothing about ${subjects.join("/") || "this subject"}` : ""),
     );
   if (c.kind === "situation" && (c.tests?.length ?? 0) < 2)
     fails.push(`G2 admission — changes only ${c.tests?.length ?? 0} of 5`);
