@@ -4,6 +4,9 @@ import { places, county } from "@/data/geography";
 import { guides } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
 import { contentFor } from "@/data/place-content";
+import { COMMERCIAL_PAGES } from "@/data/commercial-content";
+import { claimsUniqueToAssetClass } from "@/data/commercial-claims";
+import { MIN_UNIQUE_CLAIMS, MIN_WORDS, countWords } from "@/lib/seo/indexation";
 
 /**
  * ONLY indexable, self-canonical URLs. A sitemap that advertises a noindex page
@@ -27,6 +30,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const p of places) {
     if (p.indexable && contentFor(p.slug)) urls.push({ url: `${site.url}/${p.slug}`, lastModified: modified });
   }
+  urls.push({ url: `${site.url}/commercial`, lastModified: modified });
+  for (const c of COMMERCIAL_PAGES) {
+    // Mirror the gate the route applies, so the sitemap never advertises a
+    // page the page itself asks not to be indexed.
+    const unique = claimsUniqueToAssetClass(c.assetClass).length;
+    const words = countWords(...c.intro, ...c.sections.flatMap((s) => [s.heading, ...s.body]));
+    if (unique >= MIN_UNIQUE_CLAIMS && words >= MIN_WORDS) {
+      urls.push({ url: `${site.url}/commercial/${c.slug}`, lastModified: modified });
+    }
+  }
+
   for (const g of guides) {
     if (guideContentFor(g.slug)) urls.push({ url: `${site.url}/guides/${g.slug}`, lastModified: modified });
   }

@@ -16,6 +16,7 @@
  * residential side, which keeps duplex through fourplex deliberately.
  * See data/commercial/queries/commercial-query-ownership.json.
  */
+import Link from "next/link";
 const RESIDENTIAL = [
   { t: "Houses", d: "Any condition. Deferred maintenance, dated, or mid-repair." },
   { t: "Rentals", d: "Occupied or vacant, up to a fourplex. Tenants, leases and deposits handled properly." },
@@ -63,6 +64,15 @@ export default function WhatWeBuy() {
 
       <h3 className="eyebrow mt-12 text-[var(--bpg-muted)]">Commercial</h3>
       <div className="mt-4"><Grid items={COMMERCIAL} /></div>
+      <p className="mt-5 text-[0.95rem] text-[var(--bpg-muted)]">
+        <Link
+          href="/commercial"
+          className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
+        >
+          More on the commercial side
+        </Link>{" "}
+        — how industrial districts differ across Boise, and where multifamily actually begins.
+      </p>
     </section>
   );
 }

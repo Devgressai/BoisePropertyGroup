@@ -851,6 +851,34 @@
       "verificationFlag": null,
       "freshnessClass": "VOLATILE",
       "notes": "Established by re-reading all eleven cached Boise district pages and searching each for a footnote definition. None has one. This is materially useful to an owner and no competitor says it: the number on the city's website is not necessarily the number that governs the parcel, and a setback of '0 ft. [1]' is not a setback of zero. It also explains why several of our own claims are withheld rather than weak. The same quoted line carries a second, separate observation worth keeping: the city's R-3 lot-area cell is printed '2,00 sf', so even the digits on the page cannot be taken at face value. ⚠️ VOLATILE — this is a fact about a website on one date. Re-verify before relying on it, and never state it as a criticism; state it as a reason to read the code."
+    },
+    {
+      "id": "boise-i1-i2-zero-interior-rear-setbacks",
+      "claim": "Boise's I-1 Light Industrial table sets the minimum interior side and rear yard setbacks at zero feet, each carrying a footnote the city does not publish, and sets the front setback at 20 feet and the side street setback at 15 feet.",
+      "quotedLanguage": "SETBACKS (MINIMUM) A Front Min 20 ft. Side Street Min 15 ft. B Interior Side Min 0 ft. [1] C Rear Yard Min 0 ft. [1]",
+      "assetClass": [
+        "industrial"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-i1"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "Added 2026-09-10 because the commercial page gate caught the industrial page stating a zero-foot setback that no claim supported — the page was asserting a dimensional standard on the strength of my memory of the source rather than the source. That is precisely the failure the gate exists to catch, and it caught it before the page shipped. ⚠️ BOTH zero-foot cells carry footnote [1] and Boise publishes no footnote definitions, so this may be quoted with its marker and must never be characterised as an unconditional right to build to the property line. The contrast that makes it worth stating is with I-3, whose setbacks grow with building height on every side: I-1 trades height for site coverage and I-3 does the reverse."
     }
   ]
 }

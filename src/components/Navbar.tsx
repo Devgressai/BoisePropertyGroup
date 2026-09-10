@@ -4,6 +4,7 @@ import { site, hasPhone } from "@/data/site";
 const NAV = [
   { label: "How It Works", href: "/how-it-works" },
   { label: "What We Buy", href: "/what-we-buy" },
+  { label: "Commercial", href: "/commercial" },
   { label: "Areas", href: "/locations" },
   { label: "Guides", href: "/guides" },
   { label: "About", href: "/about" },

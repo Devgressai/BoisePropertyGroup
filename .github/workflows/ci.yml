@@ -27,5 +27,7 @@ jobs:
         run: npm run check:commercial
       - name: Vocabulary classifier gate
         run: npm run check:vocabulary
+      - name: Commercial page gate
+        run: npm run check:pages
       - name: Production build
         run: npm run build

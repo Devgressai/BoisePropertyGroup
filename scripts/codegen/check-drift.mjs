@@ -5,6 +5,7 @@ let fail = 0;
 for (const [gen, out] of [
   ["scripts/codegen/build-geography.mjs", "src/data/geography.ts"],
   ["scripts/codegen/build-claims.mjs", "src/data/claims.ts"],
+  ["scripts/codegen/build-commercial-claims.mjs", "src/data/commercial-claims.ts"],
 ]) {
   const before = readFileSync(out, "utf8");
   execSync(`node ${gen}`, { stdio: "ignore" });
