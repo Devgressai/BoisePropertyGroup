@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-09-10",
+  "method": "Direct organic-result observation. NO keyword tool is available; observedVolume is null for every query BY POLICY and no figure is estimated anywhere.",
+  "instrumentLimits": "Ranked organic result sets only — paid ads, Local Pack, People Also Ask and AI Overviews are NOT visible. Positions are directional, not exact.",
+  "observations": [
+    {
+      "cluster": "sell commercial property / building Boise",
+      "observedOn": "2026-09-10",
+      "observedVolume": null,
+      "serpComposition": {
+        "marketplaceListingSites": 5,
+        "commercialBrokerages": 2,
+        "residentialAgentSitesWithCommercialInventory": 1,
+        "nationalCashBuyers": 1,
+        "localDirectCommercialBuyers": 0,
+        "informationalGuides": 0,
+        "governmentSources": 0
+      },
+      "resultsSeen": [
+        "loopnet.com", "commercial.century21.com", "propertyshark.com", "showcase.com",
+        "weknowboise.com", "cbboise.com", "boisehousesonline.com",
+        "sellcommercialpropertyusa.com"
+      ],
+      "dominantIntentServed": "BUY-side inventory",
+      "finding": "OBSERVED: eight of nine organic results are 'properties for sale' inventory. Exactly one result addresses an owner who wants to sell. INFERRED: Google is resolving the ambiguous 'sell / for sale' token toward buyer inventory because no sell-side page has earned the slot. This is an intent-resolution VACUUM, not a saturated SERP.",
+      "competitorWeakness": "OBSERVED: the single sell-side result (sellcommercialpropertyusa.com) is a national template — its footer carries 200+ 'Sell Commercial Property in [City] [State]' links, contact is one individual, the Boise page carries essentially no Boise-specific content, and it states a '7 days or less' timeline with no mechanism. It explains no valuation method, no due-diligence process, no tenant handling and no environmental process.",
+      "informationGap": "INFERRED: the SERP is 100% about PROPERTIES and 0% about the SELLER'S DECISION. Nothing on it tells a Boise owner what their building is worth and how that number is derived, whether to use a broker's buyer pool or sell directly, what a sale nets them, how long it takes, what happens to their tenants, or what due diligence a buyer will run.",
+      "strategicReading": "INFERRED: this is the opposite of the residential picture. The residential head term is saturated with eight established local direct buyers; the commercial head term has NO credible local direct-buyer answer at all. Content with genuine Boise-specific substance is not competing against a strong incumbent here — it is competing against buy-side inventory that only ranks because nothing better exists."
+    }
+  ],
+  "pendingClusters": [
+    "sell warehouse / industrial property Boise",
+    "sell apartment building / multifamily Boise",
+    "sell office building Boise",
+    "sell commercial land / development land Boise",
+    "sell vacant commercial building",
+    "sell tenant occupied commercial property",
+    "cash buyer commercial property Boise"
+  ]
+}
