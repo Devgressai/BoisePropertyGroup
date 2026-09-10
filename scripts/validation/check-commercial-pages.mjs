@@ -55,15 +55,21 @@ for (const page of content.COMMERCIAL_PAGES) {
   const offClass =
     page.kind === "explainer"
       ? []
-      : page.citedClaims
-          .map((id) => byId.get(id))
-          .filter((c) => c && !c.assetClasses.includes(page.assetClass))
-          .map((c) => c.id);
+      : (() => {
+          // A page may legitimately cover more than one asset class when its
+          // sources do not separate them. Every cited claim must cover at
+          // least ONE of the classes the page declares.
+          const covers = [page.assetClass, ...(page.alsoCovers ?? [])];
+          return page.citedClaims
+            .map((id) => byId.get(id))
+            .filter((c) => c && !covers.some((a) => c.assetClasses.includes(a)))
+            .map((c) => c.id);
+        })();
   say(
     offClass.length === 0,
     offClass.length
-      ? `cites claim(s) that say nothing about ${page.assetClass}: ${offClass.join(", ")}`
-      : `every cited claim covers ${page.assetClass}`,
+      ? `cites claim(s) that say nothing about ${[page.assetClass, ...(page.alsoCovers ?? [])].join(" or ")}: ${offClass.join(", ")}`
+      : `every cited claim covers ${[page.assetClass, ...(page.alsoCovers ?? [])].join(" or ")}`,
   );
 
   const differentiating =

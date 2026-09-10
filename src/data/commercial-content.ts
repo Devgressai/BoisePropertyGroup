@@ -37,7 +37,21 @@ export interface CommercialPageContent {
   kind: "asset" | "explainer";
   /** For an explainer this is the topic set it must differentiate on. */
   gateTopics?: string[];
+  /**
+   * The page's primary asset class, used for the multifamily-specific copy
+   * rules and as the default gate subject.
+   */
   assetClass: string;
+  /**
+   * Additional asset classes the page legitimately covers.
+   *
+   * Most pages are about one kind of property. The commercial-districts page is
+   * not, and that is its entire premise: the codes themselves do not separate
+   * office from retail — Meridian governs both in one table and Boise delivers
+   * both through the same MX series — so a page pretending to cover one of them
+   * would be inventing a distinction its sources do not make.
+   */
+  alsoCovers?: string[];
   title: string;
   h1: string;
   eyebrow: string;
@@ -321,7 +335,76 @@ export const VALUATION: CommercialPageContent = {
   ],
 };
 
-export const COMMERCIAL_PAGES: CommercialPageContent[] = [INDUSTRIAL, MULTIFAMILY, VALUATION];
+export const DISTRICTS: CommercialPageContent = {
+  slug: "commercial-districts",
+  kind: "asset",
+  assetClass: "retail",
+  alsoCovers: ["office"],
+  title: "Commercial districts across the Treasure Valley — what the letters mean",
+  h1: "Commercial districts, and why the letters mislead",
+  eyebrow: "Districts",
+  description:
+    "C-2 means four different things across four Treasure Valley cities, height inside one city's commercial set ranges from 35 to 95 feet, and the landscape buffer scales with the road you front rather than the district you are in.",
+  intro: [
+    "Office and retail property in this valley is governed by district codes that look like a shared system and are not one. The same letters mean different things in different cities, and the same idea travels under different letters.",
+    "This page is about what the designations actually say, city by city. It is not a valuation and it is not advice about a particular parcel.",
+  ],
+  sections: [
+    {
+      heading: "C-2 is four different districts",
+      body: [
+        "Eagle's C-2 is General Business, drawn for commercial uses more intensive than those its other commercial zones permit. Garden City's C-2 is a mixed use commercial district. Star and Kuna each use C-2 for a commercial district of their own definition. Four cities, four meanings, one label.",
+        "It fails in the other direction too, and that is the more dangerous half. A neighbourhood-scale business district is C-1 in Eagle and C-N in Meridian — the same idea under different letters. So a reader comparing districts by their codes is being misled twice over: matching letters suggest a similarity that is not there, and differing letters hide one that is.",
+        "None of this tells you what a district permits. It only tells you that the label will not travel. A permitted use in one city's C-2 says nothing about the next city's.",
+      ],
+    },
+    {
+      heading: "Height inside a single city's commercial set varies by nearly three to one",
+      body: [
+        "Meridian has six commercial districts and they do not share a height standard. Maximum building height is 35 feet in C-N Neighborhood Business and in L-O Limited Office, 50 feet in C-C Community Business, 65 feet in C-G General Retail and Service Commercial and in M-E Mixed Employment, and 95 feet in H-E High Density Employment.",
+        "That is a range of nearly three to one inside districts a seller would reasonably think of as simply commercial, in one city. An owner comparing two Meridian commercial parcels on anything other than district is comparing the wrong variable first.",
+        "Eagle's commercial set is a different shape again — L-O Limited Office, C-1 Neighborhood Business, C-2 General Business, C-3 Highway Business and CBD Central Business. Its L-O exists for professional, research, executive, administrative, accounting, clerical and similar uses, and specifies that development shall not be traffic intensive: a constraint on what happens on the site rather than on what is built.",
+      ],
+    },
+    {
+      heading: "The buffer scales with the road you front, not the district you are in",
+      body: [
+        "This is the least intuitive constraint in the valley's commercial codes and the one most likely to be missed when a parcel is assessed on paper.",
+        "Meridian's commercial districts carry a street landscape buffer set by the classification of the road a property fronts: 10 feet on a local street, 20 on a collector, 25 on an arterial, 35 on an entryway corridor and 50 along the interstate. Two otherwise identical parcels in the same district give up different amounts of land depending on which road they face.",
+        "Note which way that runs. The interstate frontage that makes a commercial site visible is the frontage that costs the most land. Visibility and usable area are in tension, and the code prices it.",
+        "A separate landscape buffer applies where the property adjoins residential uses. A buffer is not a setback and the two must not be added together or confused — and Meridian measures its setbacks from the ultimate right-of-way for the street's classification on the adopted transportation plan, not from today's property line, which is its own trap on a road planned for widening.",
+      ],
+    },
+    {
+      heading: "Where the code says nothing",
+      body: [
+        "Garden City's dimensional table leaves the maximum height cell empty for its C-1 and C-2 districts. Not a footnote, not a reference elsewhere — no value at all.",
+        "That is worth distinguishing from the situation in Boise, where the city's website omits footnote definitions that do exist in the codified ordinance. Here the code itself is silent. We do not know what the silence means and we are not going to guess, because a guess about a height limit is the kind of thing an owner would act on.",
+        "It is a reasonable question to put to the city's planning department, and a reasonable thing to resolve before making a decision that turns on how tall a building can be.",
+      ],
+    },
+    {
+      heading: "What we do with commercial property",
+      body: [
+        "We look at office, retail and mixed-use commercial property in Boise, across Ada County and selectively wider in the Treasure Valley — single tenant, multi tenant, or empty.",
+        "We are the buyer, not a party looking to assign a contract on. Timeline is set by the seller. Deferred maintenance is not a disqualifier and neither is a problem attached to title, tenancy or entitlement.",
+        "We will not tell you what your property is worth. We will tell you what we would pay and show the arithmetic behind it.",
+      ],
+    },
+  ],
+  citedClaims: [
+    "commercial-district-letters-do-not-correspond",
+    "garden-city-c2-is-mixed-use-not-commercial",
+    "meridian-commercial-height-spans-six-districts",
+    "meridian-street-buffer-scales-with-road-class",
+    "eagle-limited-office-purpose",
+    "boise-mx2-mixed-use-general",
+    "boise-mx5-downtown-purpose",
+    "ada-county-commercial-districts-tied-to-areas-of-impact",
+  ],
+};
+
+export const COMMERCIAL_PAGES: CommercialPageContent[] = [INDUSTRIAL, MULTIFAMILY, DISTRICTS, VALUATION];
 
 export function commercialPage(slug: string): CommercialPageContent | undefined {
   return COMMERCIAL_PAGES.find((p) => p.slug === slug);

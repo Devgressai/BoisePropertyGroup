@@ -1564,8 +1564,8 @@ export const commercialClaims: CommercialClaim[] = [
   },
   {
     "id": "m3-means-three-different-things-in-ada-county",
-    "claim": "The designation M-3 does not mean one thing across Ada County. In unincorporated Ada County, M-3 is Airport Industrial, a live district in the adopted zoning ordinance. In Kuna, M-3 was limited to mining uses and has been consolidated into M-2, so it no longer operates. Boise has no M-3 at all — its third industrial district is I-3 Industrial Technology, which serves technology and research uses and permits far greater height than either of the others.",
-    "quote": "The M-3 district, which is limited to mining uses, has been consolidated with the M-2 district.",
+    "claim": "The designation M-3 does not mean one thing across the Treasure Valley. In unincorporated Ada County it is Airport Industrial, a live district in the adopted zoning ordinance. In Eagle it is Extractive Industrial, for the mining, processing and storage of mineral resources. In Kuna it was limited to mining uses and has been consolidated into M-2, so it no longer operates. Boise has no M-3 at all — its third industrial district is I-3 Industrial Technology, for technology and research uses.",
+    "quote": "M-3 EXTRACTIVE INDUSTRIAL DISTRICT: To provide land for the mining, processing and storage of mineral resources.",
     "assetClasses": [
       "industrial",
       "land"
@@ -1573,7 +1573,8 @@ export const commercialClaims: CommercialClaim[] = [
     "entities": [
       "county:ada",
       "city:kuna",
-      "city:boise-city"
+      "city:boise-city",
+      "city:eagle"
     ],
     "topics": [
       "zoning",
@@ -1587,6 +1588,12 @@ export const commercialClaims: CommercialClaim[] = [
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
     "sources": [
+      {
+        "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+        "publisher": "City of Eagle, Idaho",
+        "tier": 1
+      },
       {
         "title": "Kuna City Code § 5-8-501 — Zoning Districts Established; Purpose",
         "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU&groupChunks=false",
@@ -1668,6 +1675,141 @@ export const commercialClaims: CommercialClaim[] = [
         "title": "Meridian Unified Development Code Table 11-2C-3 — Dimensional Standards in the Industrial Districts",
         "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST&groupChunks=false",
         "publisher": "City of Meridian, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "meridian-commercial-height-spans-six-districts",
+    "claim": "Meridian's six commercial districts do not share a height standard. Maximum building height runs 35 feet in C-N Neighborhood Business and L-O Limited Office, 50 feet in C-C Community Business, 65 feet in C-G General Retail and Service Commercial and in M-E Mixed Employment, and 95 feet in H-E High Density Employment — a range of nearly three to one across districts a seller would think of as simply commercial.",
+    "quote": "Maximum building height (in feet) 35 50 65 35 65 95",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "zoning",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Meridian, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
+        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false",
+        "publisher": "City of Meridian, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "meridian-street-buffer-scales-with-road-class",
+    "claim": "Meridian's commercial districts carry a street landscape buffer that scales with the classification of the road a property fronts, not with the district: 10 feet on a local street, 20 on a collector, 25 on an arterial, 35 on an entryway corridor and 50 along the interstate. A separate landscape buffer applies to adjacent residential uses, at 20 to 25 feet depending on the district.",
+    "quote": "Street landscape buffer (in feet): Local 10 Collector 20 Arterial 25 Entryway corridor 35 Interstate 50",
+    "assetClasses": [
+      "office",
+      "retail",
+      "land"
+    ],
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "zoning",
+      "office",
+      "retail",
+      "access",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Meridian, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
+        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false",
+        "publisher": "City of Meridian, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "commercial-district-letters-do-not-correspond",
+    "claim": "Commercial district letters do not correspond across Treasure Valley cities, in either direction. Eagle's C-2 is General Business, for commercial uses more intensive than those permitted in its other commercial zones; Garden City's C-2 is a mixed use commercial district; Star and Kuna both use C-2 for a commercial district of their own definition. The same idea also travels under different letters: a neighbourhood-scale business district is C-1 in Eagle and C-N in Meridian. Meridian's commercial set is C-N, C-C, C-G, L-O, M-E and H-E; Eagle's is L-O, C-1, C-2, C-3 and CBD.",
+    "quote": "C-2 GENERAL BUSINESS DISTRICT: To permit the establishment of areas for commercial uses allowed in other commercial zones and commercial uses which are more intensive than those permitted in other commercial zones.",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "city:eagle",
+      "city:garden-city",
+      "city:meridian"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Treasure Valley, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+        "publisher": "City of Eagle, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Garden City Code Title 8 Development Code, Article 8-2B — Nonresidential and Mixed Use Districts",
+        "url": "https://ecode360.com/47141205",
+        "publisher": "Garden City, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
+        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false",
+        "publisher": "City of Meridian, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "eagle-limited-office-purpose",
+    "claim": "Eagle's L-O Limited Office district exists for groupings of professional, research, executive, administrative, accounting, clerical, stenographic, limited commercial and similar uses, and specifies that development shall not be traffic intensive.",
+    "quote": "L-O LIMITED OFFICE DISTRICT: To permit the establishment of groupings of professional, research, executive, administrative, accounting, clerical, stenographic, limited commercial and similar uses.",
+    "assetClasses": [
+      "office"
+    ],
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "zoning",
+      "office",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Eagle, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+        "publisher": "City of Eagle, Idaho",
         "tier": 1
       }
     ]

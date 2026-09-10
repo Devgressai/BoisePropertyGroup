@@ -59,19 +59,27 @@ const CANDIDATES = [
     match: (c) => c.assetClass.includes("multifamily") && c.topic.includes("multifamily"),
     contested: "sell multifamily property Boise",
   },
+  /**
+   * Office and retail were separate candidates and BOTH failed at zero
+   * differentiating claims, repeatedly, as evidence roughly doubled around them.
+   * That is not a gap in the research — it is the answer. Every fact we hold
+   * about commercial districts in this valley is true of office and retail
+   * equally, because the codes themselves do not separate them: Meridian's one
+   * table covers C-N, C-C, C-G, L-O, M-E and H-E together, and Boise delivers
+   * both through the same MX series.
+   *
+   * So they are merged into ONE candidate. Two pages built from an identical
+   * evidence base would be one page proposed twice, which is the doorway pattern
+   * this script exists to refuse.
+   */
   {
-    id: "office-boise",
-    label: "Office property — Boise",
+    id: "commercial-districts",
+    label: "Commercial districts — where commercial uses can go",
     kind: "asset",
-    subjectTopics: ["office"],
-    match: (c) => c.assetClass.includes("office") && c.topic.includes("office"),
-  },
-  {
-    id: "retail-boise",
-    label: "Retail property — Boise",
-    kind: "asset",
-    subjectTopics: ["retail"],
-    match: (c) => c.assetClass.includes("retail") && c.topic.includes("retail"),
+    subjectTopics: ["office", "retail"],
+    match: (c) =>
+      (c.assetClass.includes("office") || c.assetClass.includes("retail")) &&
+      (c.topic.includes("office") || c.topic.includes("retail")),
   },
   {
     id: "commercial-land",

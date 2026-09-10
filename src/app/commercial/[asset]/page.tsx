@@ -30,7 +30,7 @@ function gate(slug: string) {
       ? new Set(
           (content.gateTopics ?? []).flatMap((t) => commercialClaimsByTopic(t).map((c) => c.id)),
         ).size
-      : claimsUniqueToAssetClass(content.assetClass).length;
+      : new Set([content.assetClass, ...(content.alsoCovers ?? [])].flatMap((a) => claimsUniqueToAssetClass(a).map((x) => x.id))).size;
   const words = countWords(
     ...content.intro,
     ...content.sections.flatMap((s) => [s.heading, ...s.body]),

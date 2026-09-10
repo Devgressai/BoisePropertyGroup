@@ -1,11 +1,11 @@
 COMMERCIAL IA ELIGIBILITY — computed from the registry, not decided in advance
 ==============================================================================
-approved commercial claims available: 47
+approved commercial claims available: 51
 
 ELIGIBLE TO BUILD
 ------------------------------------------------------------------------------
   Commercial acquisition overview
-    kind hub · 0 unique / 47 usable
+    kind hub · 0 unique / 51 usable
     A hub is a routing page. It is judged on whether the pages beneath it exist, never on unique claims.
 
   Industrial property — Boise
@@ -23,6 +23,13 @@ ELIGIBLE TO BUILD
       · gse-multifamily-more-than-four
       · census-multifamily-starts-at-two
 
+  Commercial districts — where commercial uses can go
+    kind asset · 5 unique / 11 usable
+      · garden-city-c2-is-mixed-use-not-commercial
+      · meridian-commercial-height-spans-six-districts
+      · meridian-street-buffer-scales-with-road-class
+      · commercial-district-letters-do-not-correspond
+
   Why commercial property is valued on income
     kind explainer · 9 unique / 14 usable
       · ada-commercial-assessment-uses-income
@@ -32,12 +39,6 @@ ELIGIBLE TO BUILD
 
 NOT ELIGIBLE
 ------------------------------------------------------------------------------
-  Office property — Boise  [asset]
-    ✗ G1 differentiation — 0 on-subject of 0 allocated (7 matched), needs 3
-
-  Retail property — Boise  [asset]
-    ✗ G1 differentiation — 0 on-subject of 0 allocated (6 matched), needs 3
-
   Commercial and development land  [asset]
     ✗ G1 differentiation — 2 on-subject of 2 allocated (16 matched), needs 3
 
@@ -62,12 +63,10 @@ SIBLING OVERLAP — evidence that differentiates nobody
   means the candidates are one page proposed twice.
 
     8 shared — commercial-land = industrial-boise
-    2 shared — multifamily-5plus = office-boise = retail-boise
+    2 shared — commercial-districts = multifamily-5plus
     2 shared — commercial-land = multifamily-5plus
-    2 shared — commercial-land = industrial-boise = office-boise = retail-boise
-    1 shared — commercial-land = multifamily-5plus = office-boise = retail-boise
-    1 shared — commercial-land = multifamily-5plus = office-boise
-    1 shared — office-boise = retail-boise
+    2 shared — commercial-districts = commercial-land = industrial-boise
+    2 shared — commercial-districts = commercial-land = multifamily-5plus
 
 HIERARCHY OVERLAP — resolved toward the less derived page
 ------------------------------------------------------------------------------
@@ -76,9 +75,10 @@ HIERARCHY OVERLAP — resolved toward the less derived page
     3 claims — multifamily-5plus over situation-lease-rollover, valuation-income
     2 claims — commercial-land over situation-vacancy
     2 claims — multifamily-5plus over valuation-income
+    1 claims — commercial-districts over situation-vacancy
 
 ==============================================================================
-4 eligible · 7 not eligible
+5 eligible · 5 not eligible
 
 A short list is the correct outcome. Nothing here is scheduled — eligibility
 is permission to build, never an instruction to.

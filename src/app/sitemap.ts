@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const unique =
       c.kind === "explainer"
         ? new Set((c.gateTopics ?? []).flatMap((t) => commercialClaimsByTopic(t).map((x) => x.id))).size
-        : claimsUniqueToAssetClass(c.assetClass).length;
+        : new Set([c.assetClass, ...(c.alsoCovers ?? [])].flatMap((a) => claimsUniqueToAssetClass(a).map((x) => x.id))).size;
     const words = countWords(...c.intro, ...c.sections.flatMap((s) => [s.heading, ...s.body]));
     if (unique >= MIN_UNIQUE_CLAIMS && words >= MIN_WORDS) {
       urls.push({ url: `${site.url}/commercial/${c.slug}`, lastModified: modified });

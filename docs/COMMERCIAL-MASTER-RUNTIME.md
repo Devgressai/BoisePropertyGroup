@@ -117,8 +117,8 @@ Standing prohibition: no location × asset-class × situation Cartesian product.
 
 | Candidate | Why it does not exist |
 |---|---|
-| Office property — Boise | 4 matched claims, **0 differentiating**. Every one is a mixed-use district claim that the retail and multifamily candidates can use equally well. |
-| Retail property — Boise | 3 matched, **0 differentiating**. Same three MX districts. Office and retail here are one page proposed twice. |
+| ~~Office property — Boise~~ | **MERGED, not built.** Failed at 0 differentiating claims through three rounds while evidence more than doubled around it. The reason held every time: the codes do not separate office from retail, so every fact was true of both. Now covered by `/commercial/commercial-districts`. |
+| ~~Retail property — Boise~~ | **MERGED, not built.** Same reason, same evidence. Two pages would have been one page written twice. |
 | Commercial and development land | 6 matched, 1 differentiating. Its evidence is overlays — airport influence, flood — which apply to every asset class and therefore distinguish none. |
 | Valuation explainer, standalone | 5 matched, 2 differentiating. Its best claims belong to the multifamily page, where they are concrete. Valuation becomes a section, exactly as Phase 14 predicted. |
 | Lease rollover (situation) | 0 differentiating. Entirely built on what the asset pages already establish. |

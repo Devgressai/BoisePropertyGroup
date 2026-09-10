@@ -1409,8 +1409,8 @@
     },
     {
       "id": "m3-means-three-different-things-in-ada-county",
-      "claim": "The designation M-3 does not mean one thing across Ada County. In unincorporated Ada County, M-3 is Airport Industrial, a live district in the adopted zoning ordinance. In Kuna, M-3 was limited to mining uses and has been consolidated into M-2, so it no longer operates. Boise has no M-3 at all — its third industrial district is I-3 Industrial Technology, which serves technology and research uses and permits far greater height than either of the others.",
-      "quotedLanguage": "The M-3 district, which is limited to mining uses, has been consolidated with the M-2 district.",
+      "claim": "The designation M-3 does not mean one thing across the Treasure Valley. In unincorporated Ada County it is Airport Industrial, a live district in the adopted zoning ordinance. In Eagle it is Extractive Industrial, for the mining, processing and storage of mineral resources. In Kuna it was limited to mining uses and has been consolidated into M-2, so it no longer operates. Boise has no M-3 at all — its third industrial district is I-3 Industrial Technology, for technology and research uses.",
+      "quotedLanguage": "M-3 EXTRACTIVE INDUSTRIAL DISTRICT: To provide land for the mining, processing and storage of mineral resources.",
       "assetClass": [
         "industrial",
         "land"
@@ -1418,7 +1418,8 @@
       "entity": [
         "county:ada",
         "city:kuna",
-        "city:boise-city"
+        "city:boise-city",
+        "city:eagle"
       ],
       "topic": [
         "zoning",
@@ -1428,6 +1429,7 @@
         "differentiation"
       ],
       "sourceIds": [
+        "eagle-code-8-2-1",
         "kuna-code-5-8-501",
         "ada-county-ordinance-1002",
         "boise-code-industrial-tables"
@@ -1439,7 +1441,7 @@
       "verifiedOn": "2026-09-10",
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
-      "notes": "🎯 THE SHARPEST VERSION OF THE 'DISTRICT LETTERS ARE LOCAL VOCABULARY' POINT. The same three characters denote an airport-industrial district in one jurisdiction, a retired mining district in another, and nothing at all in a third. Anyone normalising district codes across the valley — which is exactly what a national template does — produces confident nonsense. ⚠️ Kuna's M-3 is consolidated, not merely unused: say it no longer operates, not that it was 'deleted'."
+      "notes": "🎯 THE SHARPEST VERSION OF THE 'DISTRICT LETTERS ARE LOCAL VOCABULARY' POINT. The same three characters denote an airport-industrial district in one jurisdiction, a retired mining district in another, and nothing at all in a third. Anyone normalising district codes across the valley — which is exactly what a national template does — produces confident nonsense. ⚠️ Kuna's M-3 is consolidated, not merely unused: say it no longer operates, not that it was 'deleted'. ⚠️ CORRECTED 2026-09-10 from three meanings to FOUR. Eagle's M-3 is Extractive Industrial, which was missed when the claim was first written from three jurisdictions. The correction matters beyond the count: Eagle's M-3 and Kuna's former M-3 are both mining districts, so two of the four are near-siblings while Ada County's airport-industrial usage is unrelated to either. A reader could reasonably have inferred a pattern from three data points that the fourth breaks."
     },
     {
       "id": "star-residential-adjacency-floor-is-waivable",
@@ -1503,6 +1505,127 @@
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
       "notes": "A FOURTH KIND OF DISPLACEMENT — after proximity to housing (Boise, Star, Kuna), the building's own height (Eagle), and the use on the parcel (Eagle condition C), this is displacement by an OVERLYING PLAN. And again Meridian states it rather than us inferring it. ⚠️ Says nothing about which parcels sit inside an adopted specific area plan, or what any such plan requires — neither has been read. It establishes only that a plan can take precedence. ⚠️ The vacant-neighbour provision is worth stating carefully: the Director determining a designation from the Comprehensive Plan is a normal administrative mechanism, not a criticism, and must never be written as though it were arbitrary."
+    },
+    {
+      "id": "meridian-commercial-height-spans-six-districts",
+      "claim": "Meridian's six commercial districts do not share a height standard. Maximum building height runs 35 feet in C-N Neighborhood Business and L-O Limited Office, 50 feet in C-C Community Business, 65 feet in C-G General Retail and Service Commercial and in M-E Mixed Employment, and 95 feet in H-E High Density Employment — a range of nearly three to one across districts a seller would think of as simply commercial.",
+      "quotedLanguage": "Maximum building height (in feet) 35 50 65 35 65 95",
+      "assetClass": [
+        "office",
+        "retail"
+      ],
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "zoning",
+        "office",
+        "retail",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-code-11-2b-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "⚠️ The figures are read positionally from the table's column order C-N, C-C, C-G, L-O, M-E, H-E, which the same table states in its header row. Re-check the column order before amending this claim — a positional read is the fragile kind. ⚠️ The same table's setback row is NOT uniform in the same way: front, rear and interior side are 0 across the districts except L-O, which reads '10/5' under a note limiting the minimum to reuse of an existing residential structure. ⚠️ TOPICS TIGHTENED 2026-09-10. It was tagged 'land' as well, which was over-generous: a building-height table is not a claim about land. Over-tagging is not harmless — the eligibility gate treats a claim two candidates can both use as differentiating neither, so a loose topic silently destroys the claim's value to every page."
+    },
+    {
+      "id": "meridian-street-buffer-scales-with-road-class",
+      "claim": "Meridian's commercial districts carry a street landscape buffer that scales with the classification of the road a property fronts, not with the district: 10 feet on a local street, 20 on a collector, 25 on an arterial, 35 on an entryway corridor and 50 along the interstate. A separate landscape buffer applies to adjacent residential uses, at 20 to 25 feet depending on the district.",
+      "quotedLanguage": "Street landscape buffer (in feet): Local 10 Collector 20 Arterial 25 Entryway corridor 35 Interstate 50",
+      "assetClass": [
+        "office",
+        "retail",
+        "land"
+      ],
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "zoning",
+        "office",
+        "retail",
+        "access",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-code-11-2b-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "A FIFTH KIND OF CONSTRAINT and the least intuitive one yet: the usable area of a commercial parcel scales with the ROAD IT FRONTS. Two identical parcels in the same district give up 10 feet or 50 feet depending on whether they face a local street or the interstate — and the interstate frontage that makes a site visible is the one that costs the most land. ⚠️ A buffer is not a setback; do not conflate them or add them together. ⚠️ Setbacks here are measured from the ULTIMATE right-of-way for the street classification on the adopted transportation plan, not from today's property line, which is a separate trap on a road planned for widening. ⚠️ TOPIC 'land' REMOVED for the same reason as the height claim, though assetClass keeps land because a buffer genuinely consumes parcel area. The distinction matters: assetClass says who the claim is ABOUT, topic says what it is about, and only topic drives differentiation."
+    },
+    {
+      "id": "commercial-district-letters-do-not-correspond",
+      "claim": "Commercial district letters do not correspond across Treasure Valley cities, in either direction. Eagle's C-2 is General Business, for commercial uses more intensive than those permitted in its other commercial zones; Garden City's C-2 is a mixed use commercial district; Star and Kuna both use C-2 for a commercial district of their own definition. The same idea also travels under different letters: a neighbourhood-scale business district is C-1 in Eagle and C-N in Meridian. Meridian's commercial set is C-N, C-C, C-G, L-O, M-E and H-E; Eagle's is L-O, C-1, C-2, C-3 and CBD.",
+      "quotedLanguage": "C-2 GENERAL BUSINESS DISTRICT: To permit the establishment of areas for commercial uses allowed in other commercial zones and commercial uses which are more intensive than those permitted in other commercial zones.",
+      "assetClass": [
+        "office",
+        "retail"
+      ],
+      "entity": [
+        "city:eagle",
+        "city:garden-city",
+        "city:meridian"
+      ],
+      "topic": [
+        "zoning",
+        "jurisdiction",
+        "office",
+        "retail",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "eagle-code-8-2-1",
+        "garden-city-code-8-2b",
+        "meridian-code-11-2b-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Treasure Valley, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "The commercial counterpart to the M-3 finding, and it fails in both directions at once: the same letters carry different meanings, AND the same meaning travels under different letters. That second half is the more dangerous one for a search-driven business, because a page written about 'C-2 commercial property' is writing about a different thing in each city while appearing to be about one. ⚠️ Says nothing about whether the districts permit similar USES — only that the labels do not correspond. Never infer a permitted use from a district letter across a city limit."
+    },
+    {
+      "id": "eagle-limited-office-purpose",
+      "claim": "Eagle's L-O Limited Office district exists for groupings of professional, research, executive, administrative, accounting, clerical, stenographic, limited commercial and similar uses, and specifies that development shall not be traffic intensive.",
+      "quotedLanguage": "L-O LIMITED OFFICE DISTRICT: To permit the establishment of groupings of professional, research, executive, administrative, accounting, clerical, stenographic, limited commercial and similar uses.",
+      "assetClass": [
+        "office"
+      ],
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "zoning",
+        "office",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "eagle-code-8-2-1"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "One of very few claims we hold that is about OFFICE specifically rather than about commercial property generally — note the traffic-intensity condition, which is a use constraint rather than a dimensional one. Meridian also has an L-O and it caps height at 35 ft, the lowest in its commercial set alongside C-N. ⚠️ Do not assume the two cities' L-O districts permit the same uses; the letters matching is exactly the trap recorded in commercial-district-letters-do-not-correspond."
     }
   ]
 }

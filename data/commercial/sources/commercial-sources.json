@@ -1111,7 +1111,8 @@
       "authorityNotes": "TIER 1 — codified Title 8 Development Code, includes legislation through 10 November 2025. ⚠️ PROVENANCE: ecode360 returns HTTP 403 to the caching fetcher. Captured as rendered DOM via local Chrome over CDP; the meta.json records fetchedVia \"chrome-cdp\". See research/commercial/CDP-CAPTURE-RECIPE.md.",
       "stalenessRisk": "LOW — changes by ordinance; the codification line names the last one.",
       "claimsSupported": [
-        "garden-city-c2-is-mixed-use-not-commercial"
+        "garden-city-c2-is-mixed-use-not-commercial",
+        "commercial-district-letters-do-not-correspond"
       ],
       "status": "VERIFIED"
     },
@@ -1200,6 +1201,67 @@
       "stalenessRisk": "LOW — changes by ordinance; the codification banner names the last one.",
       "claimsSupported": [
         "m3-means-three-different-things-in-ada-county"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-code-11-2b-3",
+      "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
+      "publisher": "City of Meridian, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false",
+      "sourceTier": 1,
+      "jurisdiction": "Meridian, Idaho",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified Unified Development Code, current through Ordinance No. 26-2129 enacted 2026-07-07 (Supp. No. 14). Retrieved from Municode's content API; the payload's own heading is '11-2B-3. - Standards.' See docs/commercial/CODIFICATION-FRESHNESS.md.",
+      "stalenessRisk": "LOW — changes by ordinance; the banner names the last one.",
+      "claimsSupported": [
+        "meridian-commercial-height-spans-six-districts",
+        "meridian-street-buffer-scales-with-road-class",
+        "commercial-district-letters-do-not-correspond"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-8-2-1",
+      "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
+      "publisher": "City of Eagle, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-05-12",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified Eagle City Code, version 2026 S-23, current through Ord. 972 passed 12 May 2026. ⚠️ PROVENANCE: amlegal 403s the fetcher; captured as rendered DOM via Chrome over CDP, meta.json records fetchedVia \"chrome-cdp\".",
+      "stalenessRisk": "LOW — the version banner is what dates it, not the capture.",
+      "claimsSupported": [
+        "m3-means-three-different-things-in-ada-county",
+        "commercial-district-letters-do-not-correspond",
+        "eagle-limited-office-purpose"
       ],
       "status": "VERIFIED"
     }

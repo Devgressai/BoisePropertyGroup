@@ -111,16 +111,19 @@ export default function CommercialHub() {
 
           <div className="mt-14 max-w-[46rem] space-y-4">
             <hr className="rule-accent" />
-            <h2 className="display-md mt-5 text-[var(--bpg-ink)]">Office, retail and land</h2>
+            <h2 className="display-md mt-5 text-[var(--bpg-ink)]">Land, and a note on office versus retail</h2>
             <p className="leading-relaxed">
-              We buy all three. We have not written pages about them, because everything we
-              could say about office property in Boise today is equally true of retail
-              property in Boise, and a page that cannot distinguish itself from the page next
-              to it is not information — it is filler with a heading.
+              There is no separate office page and no separate retail page, and that is
+              deliberate rather than unfinished. The codes themselves do not separate them —
+              Meridian governs both in one table, Boise delivers both through the same
+              mixed-use series — so two pages would have been one page written twice. They
+              share the districts page above.
             </p>
             <p className="leading-relaxed">
-              If you own office, retail or commercial ground and want to talk about it, the
-              form is the same one. Tell us the address.
+              We buy commercial and development land as well, and have not written a page
+              about it: almost everything we hold that touches land is an overlay applying to
+              every asset class equally, which distinguishes nothing. If you own commercial
+              ground and want to talk about it, the form is the same one. Tell us the address.
             </p>
           </div>
         </div>
