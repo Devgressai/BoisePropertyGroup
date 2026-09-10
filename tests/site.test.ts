@@ -3,9 +3,26 @@ import { site, isSet, hasPhone, hasLegalEntity } from "../src/data/site";
 import { organizationSchema, graph } from "../src/lib/seo/schema";
 
 describe("business identity honesty", () => {
-  it("never emits a plausible-looking fake for an unset field", () => {
-    for (const v of [site.phone, site.email, site.legalEntity, site.address.street]) {
-      expect(v === "" || v.trim().length > 0).toBe(true);
+  it("never contains a plausible-looking fake in any business field", () => {
+    // The original version of this test compared each field to "" and was
+    // tautological — every field IS "" today, so TypeScript narrowed the else
+    // branch to `never` and CI rejected it. This is the test that actually
+    // matters: it fails the build if someone later drops in a 555 number, a
+    // lorem address or a TODO, which is exactly how fake NAP reaches
+    // production.
+    const PLACEHOLDER =
+      /\b555[-.\s]?\d{4}\b|lorem|example\.com|\bTBD\b|\bTODO\b|\bXXX\b|123[-.\s]?4567/i;
+    const fields: readonly string[] = [
+      site.phone,
+      site.email,
+      site.legalEntity,
+      site.address.street,
+      site.address.city,
+      site.address.zip,
+    ];
+    for (const value of fields) {
+      expect(PLACEHOLDER.test(value)).toBe(false);
+      expect(value).toBe(value.trim());
     }
   });
 
