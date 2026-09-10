@@ -1,5 +1,5 @@
 {
-  "project": "adapropertybuyers",
+  "project": "boisepropertygroup",
   "updated": "2026-09-09",
   "donor": { "repo": "~/sierrapropertybuyers", "commit": "bda8bc6", "access": "READ-ONLY", "lastVerifiedClean": "2026-09-09" },
   "market": { "phase1": "Ada County, Idaho", "municipalities": ["Boise","Meridian","Eagle","Kuna","Star","Garden City"], "region": "Treasure Valley", "expansionCeilingMiles": 100 },
@@ -19,7 +19,7 @@
   },
   "gates": { "adaCountyEvidence": "NOT_RUN", "ci": "NOT_CONFIGURED", "launch": "NOT_RUN" },
   "blockers": [
-    "register adapropertybuyers.com (verified available 2026-09-09)",
+    "register boisepropertygroup.com (verified available 2026-09-09)",
     "legal entity name", "Boise phone", "business address",
     "new Resend key", "real Idaho transactions/reviews", "rotate exposed Gemini key"
   ],

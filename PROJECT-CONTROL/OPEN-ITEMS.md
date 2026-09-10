@@ -7,7 +7,7 @@ Current state: **77 claims (77 approved) · 46 sources · 99 jurisdiction rows**
 
 | # | Kind | Item | Owner | Note |
 |---:|---|---|---|---|
-| 1 | BLOCKER | Register adapropertybuyers.com | owner | Verified available 2026-09-09. Blocks canonical host, schema, sitemap. |
+| 1 | BLOCKER | Register boisepropertygroup.com | owner | Verified available 2026-09-09. Blocks canonical host, schema, sitemap. |
 | 2 | BLOCKER | Legal entity name | owner | Blocks schema, footer, legal pages. |
 | 3 | BLOCKER | Boise phone + business address | owner | Blocks NAP, LocalBusiness schema, trust architecture. |
 | 4 | BLOCKER | New Resend API key (not a sibling's) | owner | Stale sibling keys fail silently. Blocks lead delivery. |

@@ -16,7 +16,7 @@ const directOf = (eid) => approved.filter((c) => (c.entity ?? []).includes(eid))
 
 // Owner-action items and research targets that no registry can infer.
 const MANUAL = [
-  ["BLOCKER", "Register adapropertybuyers.com", "owner", "Verified available 2026-09-09. Blocks canonical host, schema, sitemap."],
+  ["BLOCKER", "Register boisepropertygroup.com", "owner", "Verified available 2026-09-09. Blocks canonical host, schema, sitemap."],
   ["BLOCKER", "Legal entity name", "owner", "Blocks schema, footer, legal pages."],
   ["BLOCKER", "Boise phone + business address", "owner", "Blocks NAP, LocalBusiness schema, trust architecture."],
   ["BLOCKER", "New Resend API key (not a sibling's)", "owner", "Stale sibling keys fail silently. Blocks lead delivery."],

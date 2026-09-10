@@ -1,4 +1,4 @@
-# Ada Property Buyers — Design
+# Boise Property Group — Design
 
 **Date:** 2026-09-09 · **Status:** approved by owner · **Path:** architectural
 
@@ -23,7 +23,7 @@ factual layer from verified Idaho sources. Sierra must not be modified.
 
 ## Architecture
 
-**Repository.** `~/adapropertybuyers`, own history, GitHub `Devgressai/adapropertybuyers`,
+**Repository.** `~/boisepropertygroup`, own history, GitHub `Devgressai/boisepropertygroup`,
 main-only. Commits authored as `229847365+Devgressai@users.noreply.github.com`
 (GitHub rejected MoKan's first push with GH007 over a private address; history
 had to be rewritten).

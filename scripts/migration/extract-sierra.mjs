@@ -14,7 +14,7 @@ import { loadTsModule } from "./load-ts.mjs";
 
 const SIERRA = "/Users/george/sierrapropertybuyers";
 const SRC = `${SIERRA}/src`;
-const OUT = "/Users/george/adapropertybuyers/data/migration";
+const OUT = "data/migration";
 mkdirSync(OUT, { recursive: true });
 
 const L = (p) => loadTsModule(`${SRC}/${p}`);

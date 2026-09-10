@@ -21,7 +21,7 @@
 
 ## Blockers (owner)
 
-1. Register `adapropertybuyers.com` — verified available 2026-09-09
+1. Register `boisepropertygroup.com` — verified available 2026-09-09
 2. Legal entity name
 3. Boise phone + business address
 4. New Resend key (not a sibling's — stale sibling keys fail silently)

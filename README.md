@@ -1,4 +1,4 @@
-# Ada Property Buyers
+# Boise Property Group
 
 Direct property-buying platform for Ada County and the Treasure Valley, Idaho.
 

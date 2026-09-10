@@ -1,4 +1,4 @@
-# Ada Property Buyers — Master Implementation Plan
+# Boise Property Group — Master Implementation Plan
 
 **Created:** 2026-09-09
 **Architectural donor:** Sierra Property Buyers (read-only)
@@ -52,7 +52,7 @@ earned, and claims a competitor cannot copy.
 
 | Blocker | Blocks | Owner |
 |---|---|---|
-| Domain registration (`adapropertybuyers.com` verified available 2026-09-09) | canonical host, schema, sitemap | owner |
+| Domain registration (`boisepropertygroup.com` verified available 2026-09-09) | canonical host, schema, sitemap | owner |
 | Legal entity name | schema, footer, legal pages | owner |
 | Boise phone + business address | NAP, `LocalBusiness`, trust | owner |
 | New Resend key (not a sibling's) | lead delivery | owner |
