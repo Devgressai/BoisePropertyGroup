@@ -1111,6 +1111,35 @@
         "garden-city-c2-is-mixed-use-not-commercial"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-8-2-4",
+      "title": "Eagle City Code § 8-2-4 — Schedule of Building Height and Lot Area Regulations",
+      "publisher": "City of Eagle, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-05-12",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified Eagle City Code, version 2026 S-23, current through Ord. 972 passed 12 May 2026. Unlike Boise, Eagle publishes its note conditions A–J on the same page as the table. ⚠️ PROVENANCE: amlegal returns HTTP 403 to the caching fetcher; captured as rendered DOM via local Chrome over CDP, meta.json records fetchedVia \"chrome-cdp\". See research/commercial/CDP-CAPTURE-RECIPE.md.",
+      "stalenessRisk": "LOW — changes by ordinance; the version banner names the last one.",
+      "claimsSupported": [
+        "eagle-multistory-side-setback-increment"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

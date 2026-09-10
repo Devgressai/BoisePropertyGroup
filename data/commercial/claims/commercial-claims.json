@@ -1346,6 +1346,37 @@
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
       "notes": "A LIVE TRAP for anyone normalising district codes across the valley, which is exactly what a national template would do. C-2 means one thing in Garden City and something else a few miles away. ⚠️ MEDIUM confidence and a hard limit on wording: the height cell for C-1 and C-2 is GENUINELY BLANK in the codified table — no value, no marker, no footnote, verified cell by cell in the raw HTML. That is NOT the Boise situation of an unreachable footnote. Never state or imply a height limit for those districts, and never describe the blank as 'no maximum' — we do not know what it means and the code does not say. ⚠️ assetClass includes industrial because the claim states Garden City’s only industrial district and its height maximum; the TOPIC list deliberately does NOT include \"industrial\", so this cannot inflate the industrial page’s differentiation count. It is context, not a differentiator."
+    },
+    {
+      "id": "eagle-multistory-side-setback-increment",
+      "claim": "Eagle expands its side setback with building storeys rather than with proximity to housing. Except for single-family attached dwellings, a multi-storey structure requires an additional five feet of side setback per storey, in every district including its M-1, BP, M-2 and M-3 industrial districts, whose tables otherwise show a zero-foot interior side. Eagle also requires residential buildings located in non-residential districts to meet the residential height and area regulations.",
+      "quotedLanguage": "Except for single-family attached dwellings, an additional 5 feet per story side setback is required for multi-story structures. Height not to exceed maximum allowed within the zone.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "land"
+      ],
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "eagle-code-8-2-4"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "A FOURTH MECHANISM, and it broadens the pattern rather than repeating it. Boise, Star and Kuna all expand the setback according to PROXIMITY TO HOUSING; Eagle expands it according to the BUILDING'S OWN HEIGHT, and does so in every district. So the honest generalisation is not 'the setback next to housing is the one that governs' — it is that a tabled setback is the UNCONSTRAINED case and several different kinds of condition enlarge it. ⚠️ Condition B rides the setback columns for every row of § 8-2-4 via the header marker, which is why it reaches the industrial districts at all — that is not obvious from reading an industrial row on its own. ⚠️ Eagle's conditions F, I and J are residential-only by their own terms and H has nothing to act on in the industrial rows, whose lot area reads n/a."
     }
   ]
 }

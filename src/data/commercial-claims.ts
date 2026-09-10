@@ -1499,6 +1499,38 @@ export const commercialClaims: CommercialClaim[] = [
         "tier": 1
       }
     ]
+  },
+  {
+    "id": "eagle-multistory-side-setback-increment",
+    "claim": "Eagle expands its side setback with building storeys rather than with proximity to housing. Except for single-family attached dwellings, a multi-storey structure requires an additional five feet of side setback per storey, in every district including its M-1, BP, M-2 and M-3 industrial districts, whose tables otherwise show a zero-foot interior side. Eagle also requires residential buildings located in non-residential districts to meet the residential height and area regulations.",
+    "quote": "Except for single-family attached dwellings, an additional 5 feet per story side setback is required for multi-story structures. Height not to exceed maximum allowed within the zone.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "land"
+    ],
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "zoning",
+      "industrial",
+      "land",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Eagle, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Eagle City Code § 8-2-4 — Schedule of Building Height and Lot Area Regulations",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+        "publisher": "City of Eagle, Idaho",
+        "tier": 1
+      }
+    ]
   }
 ];
 

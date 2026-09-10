@@ -89,12 +89,13 @@ export const INDUSTRIAL: CommercialPageContent = {
       ],
     },
     {
-      heading: "The setback that governs is usually the one next to housing",
+      heading: "A tabled setback is the unconstrained case, not the general one",
       body: [
-        "Every city in the valley publishes a dimensional table, and on an industrial parcel that touches residential ground, the numbers in that table are frequently not the numbers that apply. What is striking is that all of them do this and no two do it the same way.",
-        "Boise scales it by the size of the development: the zero-foot interior side and rear yard in I-1 and I-2 becomes 30 feet under three acres, 50 feet between three and ten, and 100 feet at ten or more. Star sets a flat floor instead — a minimum of 15 feet across its CBD, C-1, C-2, LO, IL, PS, RC and M-U zones when adjacent to a residential use or zone. Kuna takes a third approach entirely and makes the commercial parcel inherit the neighbour's rule: where a commercial or industrial use abuts a residential district, the yard setbacks become the same as those required in that adjacent residential district.",
-        "Star adds something that is not a setback at all and is easy to miss because it does not appear in any dimensional table. In its Light Industrial district, mechanical equipment emissions, shipping and delivery, and other outdoor activity areas must sit at least three hundred feet from any abutting residential district, or the use requires a conditional use permit. On a modest parcel that can put loading in the wrong place.",
-        "The practical point is not any one of these numbers. It is that a parcel's relationship to the nearest housing is often worth more attention than its own district designation, and that nothing you learn about one city transfers to the next.",
+        "Every city in the valley publishes a dimensional table, and the industrial rows in those tables often show generous numbers — frequently a zero-foot interior side and rear yard. Those figures describe the case where nothing else applies. Something else usually applies.",
+        "Three cities enlarge the setback according to what is next door, and no two do it the same way. Boise scales it by the size of the development: the zero-foot interior side and rear yard in I-1 and I-2 becomes 30 feet under three acres, 50 feet between three and ten, and 100 feet at ten or more. Star sets a flat floor instead — a minimum of 15 feet across its CBD, C-1, C-2, LO, IL, PS, RC and M-U zones when adjacent to a residential use or zone. Kuna makes the parcel inherit the neighbour's rule outright: where a commercial or industrial use abuts a residential district, the yard setbacks become the same as those required in that adjacent residential district.",
+        "Eagle does something different in kind. It enlarges the side setback by the building's own height rather than by what adjoins it — except for single-family attached dwellings, a multi-storey structure requires an additional five feet of side setback per storey, and that condition rides every row of the table, industrial districts included.",
+        "Star adds a constraint that is not a setback at all and appears in no dimensional table. In its Light Industrial district, mechanical equipment emissions, shipping and delivery, and other outdoor activity areas must sit at least three hundred feet from any abutting residential district, or the use requires a conditional use permit. On a modest parcel that can put loading in the wrong place.",
+        "The practical point is not any one of these numbers. It is that the figure printed in a district table is the starting point of the analysis rather than the end of it, and that nothing you learn about one city transfers to the next.",
       ],
     },
     {
@@ -145,6 +146,7 @@ export const INDUSTRIAL: CommercialPageContent = {
     "ada-county-commercial-districts-tied-to-areas-of-impact",
     "treasure-valley-setback-governed-by-residential-adjacency",
     "star-light-industry-300ft-residential-separation",
+    "eagle-multistory-side-setback-increment",
     "garden-city-c2-is-mixed-use-not-commercial",
     "boise-airport-influence-overlay",
     "boise-flood-protection-overlay-purpose",
