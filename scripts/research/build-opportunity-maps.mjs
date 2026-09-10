@@ -24,7 +24,8 @@ const PROPERTY_TYPES = [
   ["Problem / difficult property", ["access","easements","flood","land"], "MEDIUM", "Floodplain permits and private roads evidenced for unincorporated county; easement evidence is thin."],
   ["Flood-affected property", ["flood"], "MEDIUM", "Boise's three flood sources and Ada's permit requirement evidenced; parcel-level determination is explicitly out of scope."],
   ["Fire-damaged / WUI property", ["wildfire"], "MEDIUM", "Boise WUI-O overlay evidenced. No evidence for other cities — do not assume."],
-  ["Commercial property", [], "LOW", "No evidence gathered. Out of scope for Phase 1."],
+  ["Office buildings", [], "CORE", "OWNER-CONFIRMED acquisition target (2026-09-10). NO Idaho commercial evidence gathered — may be sold as a service, may not yet be written about as a page."],
+  ["Industrial / warehouse / flex", [], "CORE", "OWNER-CONFIRMED acquisition target (2026-09-10). NO Idaho industrial evidence gathered."],
 ];
 
 const SELLER_SITUATIONS = [
