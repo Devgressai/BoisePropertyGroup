@@ -25,6 +25,9 @@ exist. A page appears here instead of being written with an invented fact.
 | Manufactured homes | Idaho titling and conversion to real property | Phase 11 | OUTSTANDING |
 | All statistics | Population, households, tenure, vacancy, housing age — with dataset and year | Phase 2 | OUTSTANDING |
 | All search data | Query volumes; currently `null` everywhere by policy | Phase 2 | OUTSTANDING |
+| **Commercial: office** | Any Idaho/Ada County office-market or regulatory evidence | dedicated page | **OUTSTANDING — owner buys these, we can write nothing sourced about them yet** |
+| **Commercial: industrial** | Any Idaho/Ada County industrial or flex evidence | dedicated page | **OUTSTANDING — same** |
+| **Multifamily 5+ units** | Assessment treatment, disclosure boundary, Ada apartment stock | dedicated page | **OUTSTANDING — Ada County routes 5+ units to commercial appraisers; residential evidence does not reach it** |
 
 ## Rule
 

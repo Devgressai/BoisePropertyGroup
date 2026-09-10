@@ -12,16 +12,25 @@ donor site covers it.
 | Single-family house | CORE | assessment, disclosure, property-taxes | 20 | disclosure (5) | **HIGH** | The default. Evidence is broad. |
 | Rental / unwanted rental | CORE | tenants, disclosure | 11 | disclosure (5) | **HIGH** | Deposit liability transfers on sale (6-321(3)); disclosure applies to non-owner-occupied rental. |
 | Small multifamily (2-4 units) | HIGH | assessment, disclosure, tenants | 18 | disclosure (5) | **HIGH** | Assessor treats up to four units as residential; disclosure act covers 1-4 dwelling units. Clean boundary. |
-| Apartments / 5+ units | LOW | assessment | 7 | assessment (7) | **LOW** | Falls outside the residential assessment and disclosure boundaries; different buyer entirely. |
+| Multifamily 5+ units | CORE | assessment | 7 | assessment (7) | **LOW** | OWNER-CONFIRMED acquisition target (2026-09-10). Falls outside the residential assessment and disclosure boundaries — Ada County routes apartments to commercial appraisers — so the residential evidence base does not reach it. |
 | Manufactured / mobile home | HIGH | manufactured-housing, real-vs-personal-property, recording | 8 | real-vs-personal-property (3) | **MEDIUM** | 63-304 conversion test is decisive and well evidenced. |
-| Vacant land / lot | HIGH | land, subdivision, water, irrigation | 17 | irrigation (4) | **MEDIUM** | Irrigation, water and subdivision evidence is strong. |
+| Vacant land / lot | HIGH | land, subdivision, water, irrigation | 18 | irrigation (4) | **MEDIUM** | Irrigation, water and subdivision evidence is strong. |
 | Acreage / rural property | HIGH | water, well, septic, irrigation, acreage | 9 | septic (1) | **LOW** | Domestic water cap, septic authority and irrigation districts all evidenced. |
-| Development land | MEDIUM | subdivision, planning, water, zoning | 26 | subdivision (6) | **HIGH** | 42-111 excludes subdivisions from domestic water — a real constraint. Land-use subdivision thresholds NOT yet researched per city. |
-| Infill lot | MEDIUM | subdivision, planning, zoning | 21 | subdivision (6) | **HIGH** | Star's one-time administrative split is evidenced; other cities' rules are not. |
-| Problem / difficult property | MEDIUM | access, easements, flood, land | 18 | access (2) | **LOW** | Floodplain permits and private roads evidenced for unincorporated county; easement evidence is thin. |
+| Development land | MEDIUM | subdivision, planning, water, zoning | 27 | subdivision (7) | **HIGH** | 42-111 excludes subdivisions from domestic water — a real constraint. Land-use subdivision thresholds NOT yet researched per city. |
+| Infill lot | MEDIUM | subdivision, planning, zoning | 22 | subdivision (7) | **HIGH** | Star's one-time administrative split is evidenced; other cities' rules are not. |
+| Problem / difficult property | MEDIUM | access, easements, flood, land | 19 | access (2) | **LOW** | Floodplain permits and private roads evidenced for unincorporated county; easement evidence is thin. |
 | Flood-affected property | MEDIUM | flood | 6 | flood (6) | **HIGH** | Boise's three flood sources and Ada's permit requirement evidenced; parcel-level determination is explicitly out of scope. |
 | Fire-damaged / WUI property | MEDIUM | wildfire | 1 | wildfire (1) | **LOW** | Boise WUI-O overlay evidenced. No evidence for other cities — do not assume. |
 | Commercial property | LOW | — | 0 | — | **INSUFFICIENT_EVIDENCE** | No evidence gathered. Out of scope for Phase 1. |
+
+## Business scope is not evidence
+
+Office, industrial and 5+ unit multifamily are owner-confirmed acquisition
+targets as of 2026-09-10 and appear on the site's "What we buy". They score
+INSUFFICIENT_EVIDENCE here, and both facts are true at once: **what the business
+buys is a fact the owner supplies; what a page may claim requires sourced
+evidence.** Listing an asset class we buy is honest. Writing a page about Idaho
+commercial property without having researched any would not be.
 
 ## Rule
 

@@ -48,8 +48,9 @@ export default function Hero() {
             on your terms.
           </h1>
           <p className="lede mt-6 max-w-[38rem] text-white/90">
-            We buy houses, land and problem property across Boise, Meridian, Eagle, Kuna, Star and
-            Garden City &mdash; in any condition, in any situation. You pick the closing date.
+            We buy houses, land, multifamily, office and industrial property across Boise, Meridian,
+            Eagle, Kuna, Star and Garden City &mdash; in any condition, in any situation. You pick
+            the closing date.
           </p>
 
           <div className="mt-9 max-w-[34rem]">

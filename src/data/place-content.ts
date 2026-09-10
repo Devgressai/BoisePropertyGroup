@@ -25,7 +25,7 @@ export interface PlaceContent {
 export const placeContent: Record<string, PlaceContent> = {
   "sell-my-house-fast-ada-county": {
     intro: [
-      "We buy property across Ada County — houses, land, rentals and parcels with problems attached. Six incorporated cities sit inside the county, plus an unincorporated balance of roughly 64,000 people, and which side of a city limit a property falls on changes who you deal with about almost everything.",
+      "We buy property across Ada County — houses, land, rentals, multifamily, office and industrial buildings, and parcels with problems attached. Six incorporated cities sit inside the county, plus an unincorporated balance of roughly 64,000 people, and which side of a city limit a property falls on changes who you deal with about almost everything.",
       "That distinction is the single most useful thing to understand before you sell here, and most of what is written about selling in Ada County gets it wrong.",
     ],
     sections: [
@@ -87,7 +87,7 @@ export const placeContent: Record<string, PlaceContent> = {
   "sell-my-house-fast-boise-id": {
     intro: [
       "Boise is the largest city in Ada County at roughly 238,000 people, and the slowest growing — about 1.0% between the 2020 census base and the 2024 estimate, against 61.4% in Star and 21.0% in Kuna. A market that is not adding people is a market where the existing housing stock, and its condition, does most of the work.",
-      "We buy houses, infill lots and problem property across the city.",
+      "We buy houses, infill lots, multifamily, office and industrial property across the city.",
     ],
     sections: [
       {

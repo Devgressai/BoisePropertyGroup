@@ -44,16 +44,16 @@
       "note": "Assessor treats up to four units as residential; disclosure act covers 1-4 dwelling units. Clean boundary."
     },
     {
-      "name": "Apartments / 5+ units",
-      "businessRelevance": "LOW",
+      "name": "Multifamily 5+ units",
+      "businessRelevance": "CORE",
       "evidenceTopics": [
         "assessment"
       ],
       "claimsUnion": 7,
       "weakestRequiredTopic": "assessment (7)",
       "evidenceGrade": "LOW",
-      "overrideReason": "No apartment-specific evidence exists. The high topic score comes entirely from general assessment claims. Out of Phase 1 scope.",
-      "note": "Falls outside the residential assessment and disclosure boundaries; different buyer entirely."
+      "overrideReason": "The business buys these, but no multifamily-specific evidence exists — the topic score comes entirely from general assessment claims. It may be SOLD as a service; it may not yet be WRITTEN ABOUT as a page.",
+      "note": "OWNER-CONFIRMED acquisition target (2026-09-10). Falls outside the residential assessment and disclosure boundaries — Ada County routes apartments to commercial appraisers — so the residential evidence base does not reach it."
     },
     {
       "name": "Manufactured / mobile home",
@@ -78,7 +78,7 @@
         "water",
         "irrigation"
       ],
-      "claimsUnion": 17,
+      "claimsUnion": 18,
       "weakestRequiredTopic": "irrigation (4)",
       "evidenceGrade": "MEDIUM",
       "overrideReason": null,
@@ -109,8 +109,8 @@
         "water",
         "zoning"
       ],
-      "claimsUnion": 26,
-      "weakestRequiredTopic": "subdivision (6)",
+      "claimsUnion": 27,
+      "weakestRequiredTopic": "subdivision (7)",
       "evidenceGrade": "HIGH",
       "overrideReason": null,
       "note": "42-111 excludes subdivisions from domestic water — a real constraint. Land-use subdivision thresholds NOT yet researched per city."
@@ -123,8 +123,8 @@
         "planning",
         "zoning"
       ],
-      "claimsUnion": 21,
-      "weakestRequiredTopic": "subdivision (6)",
+      "claimsUnion": 22,
+      "weakestRequiredTopic": "subdivision (7)",
       "evidenceGrade": "HIGH",
       "overrideReason": null,
       "note": "Star's one-time administrative split is evidenced; other cities' rules are not."
@@ -138,7 +138,7 @@
         "flood",
         "land"
       ],
-      "claimsUnion": 18,
+      "claimsUnion": 19,
       "weakestRequiredTopic": "access (2)",
       "evidenceGrade": "LOW",
       "overrideReason": null,
@@ -289,7 +289,7 @@
         "code-enforcement",
         "permits"
       ],
-      "claimsUnion": 6,
+      "claimsUnion": 7,
       "weakestRequiredTopic": "code-enforcement (1)",
       "evidenceGrade": "LOW",
       "overrideReason": null,
