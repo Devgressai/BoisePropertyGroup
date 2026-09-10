@@ -56,7 +56,7 @@ become "we have acquired industrial properties throughout Boise."
 | 01 | Commercial domain model | **COMPLETE** |
 | 02 | Source registry architecture | **COMPLETE** |
 | 03 | Ada County commercial assessment framework | **PARTIAL** — assessment done; parcel/taxing districts open |
-| 04 | 5+ unit multifamily classification | **PARTIAL** — 3 Idaho systems mapped; lending/Census/HUD open |
+| 04 | 5+ unit multifamily classification | **COMPLETE** — 6 systems mapped (Idaho ×3, Census, HUD, GSE/FHFA); no single boundary exists |
 | 05 | Boise zoning + commercial geography | **PARTIAL** — 6 of 30 districts read; geography open |
 | 06 | Meridian/Garden City/Eagle/Kuna/Star zoning | **DISPATCHED** |
 | 07 | Industrial intelligence | **PARTIAL** |
@@ -64,10 +64,10 @@ become "we have acquired industrial properties throughout Boise."
 | 09 | Office intelligence | **DISPATCHED** |
 | 10 | Retail/mixed-use intelligence | **DISPATCHED** |
 | 11 | Land/development intelligence | **DISPATCHED** |
-| 12 | Seller-situation ontology | NOT STARTED |
+| 12 | Seller-situation ontology | **COMPLETE** — `research/commercial/COMMERCIAL-SELLER-SITUATION-ONTOLOGY.md`; 7 Tier-1, 4 currently buildable |
 | 13 | Transaction-structure research | NOT STARTED |
 | 14 | Valuation education model | NOT STARTED |
-| 15 | SERP + query ownership | **DISPATCHED** |
+| 15 | SERP + query ownership | **PARTIAL** — ownership map recorded (`data/commercial/queries/commercial-query-ownership.json`); risks 2+ outstanding |
 | 16 | IA decision | BLOCKED on 15 |
 | 17–30 | Implementation, validation, audit | BLOCKED on 16 |
 
@@ -77,9 +77,9 @@ become "we have acquired industrial properties throughout Boise."
 
 | # | Question | Blocks | Owner |
 |---|---|---|---|
-| 1 | Was the new Ada County Title 8 adopted, and does the codified district schedule match the draft? | every Ada County zoning claim | **manual browser read** — amlegal 403s automation |
+| 1 | Was the new Ada County Title 8 adopted, and does the codified district schedule match the draft? | every Ada County zoning claim | agent `ada-code-adoption` running; amlegal 403s re-confirmed 09-10, Municode has no Ada County client |
 | 2 | What do the bracketed footnotes on Boise dimensional standards say? | R-3 density, I-1/I-2 0 ft setbacks, I-3 height/setback | research |
-| 3 | Which systems actually use a 5+ unit multifamily boundary (Census, HUD, GSE)? | multifamily classification page | research |
+| ~~3~~ | ~~Which systems use a 5+ unit multifamily boundary?~~ | **RESOLVED** — no system is authoritative for all purposes. Census=2+, FHFA/GSE=>4, HUD varies. Never write "5 units is legally commercial". | closed |
 | 4 | Does BPG have any completed transaction, of any asset class? | all trust architecture | **OWNER INPUT REQUIRED** |
 | 5 | Are there acquisition size limits (min/max SF, units, price)? | acquisition criteria page | **OWNER INPUT REQUIRED** |
 
@@ -100,7 +100,11 @@ become "we have acquired industrial properties throughout Boise."
 
 ## Rejected URL candidates
 
-_None yet — no commercial URL has been proposed. Architecture decision is Phase 16._
+_No commercial URL has been proposed yet — the architecture decision is Phase 16._
+
+Rejected as **situations** in Phase 12, and therefore never eligible for a URL:
+owner retirement · out-of-area owner · "tired of managing" (residential language) ·
+underperforming asset · portfolio rebalancing · partner dispute (folded into entity exit).
 
 Standing prohibition: no location × asset-class × situation Cartesian product.
 

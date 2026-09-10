@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-09-10",
+  "method": "Derived from direct SERP observation. observedVolume is null for every query BY POLICY — no keyword tool exists and nothing is estimated.",
+  "governingFinding": "The residential/commercial boundary that matters is NOT the words 'rental' versus 'apartment building' — Google treats those as interchangeable in this market. The real boundary is the BUYER POOL and the VALUATION METHOD, and it is legally and financially real: above four units the asset leaves residential comp-based appraisal and residential financing (FHFA 12 CFR 1282.1) and moves to income-based valuation. The SERP partially respects this already.",
+  "riskDirection": "ONE-WAY. Existing residential pages are NOT at risk from the SERP — they are at risk from our own copy choices. A commercial multifamily page written in landlord-exit language ('tired of managing tenants', 'no repairs, no fees') will be classified as another residential page and will compete with our own. The reverse is very unlikely: commercial marketplaces hold the large-multifamily slots and a residential page has nothing to rank on there.",
+  "serpEvidence": {
+    "sellRentalPropertyBoise": "OBSERVED 100% residential — Opendoor, Propcash, Idaho Neighborhood Solutions, Idaho Investor Group, NWC Investments, iBuyHousesBoise, plus two local blog posts. ZERO commercial marketplaces present.",
+    "sellApartmentBuildingBoise": "OBSERVED mixed — LoopNet, Crexi, CityFeet, Showcase and Realmo interleaved with Redfin residential, weknowboise fourplex/duplex pages, BuildIdaho, Templeton, and one residential cash buyer.",
+    "sharedMiddle": "The overlap between the two SERPs is precisely the 2-4 unit range — which is also where the incumbent residential cash buyers are genuinely credible."
+  },
+  "ownership": [
+    { "query": "sell rental property Boise", "owner": "RESIDENTIAL", "observedVolume": null, "note": "100% residential SERP; incumbent direct buyers hold it." },
+    { "query": "sell my rental house Boise", "owner": "RESIDENTIAL", "observedVolume": null },
+    { "query": "sell tenant occupied house Boise", "owner": "RESIDENTIAL", "observedVolume": null },
+    { "query": "sell house fast Boise (all variants)", "owner": "RESIDENTIAL", "observedVolume": null },
+    { "query": "sell duplex / triplex / fourplex Boise", "owner": "RESIDENTIAL", "observedVolume": null, "note": "DELIBERATE. Below the FHFA four-unit line, and the range where residential incumbents are actually credible — conceding nothing we would win." },
+    { "query": "sell apartment building Boise", "owner": "COMMERCIAL", "observedVolume": null },
+    { "query": "sell apartment complex Boise", "owner": "COMMERCIAL", "observedVolume": null },
+    { "query": "sell commercial multifamily Boise", "owner": "COMMERCIAL", "observedVolume": null },
+    { "query": "sell multifamily property Boise", "owner": "COMMERCIAL", "observedVolume": null, "contested": true, "note": "CONTESTED. One owner only — do not build both. Assigned commercial because the FHFA >4-unit boundary and the income-valuation shift are what the page will actually explain." },
+    { "query": "sell multi-unit property Boise", "owner": "COMMERCIAL", "observedVolume": null, "contested": true },
+    { "query": "sell commercial property / building Boise", "owner": "COMMERCIAL", "observedVolume": null, "note": "Sell-side slot currently unclaimed; SERP serves buy-side inventory." },
+    { "query": "sell warehouse / industrial property Boise", "owner": "COMMERCIAL", "observedVolume": null },
+    { "query": "sell office building Boise", "owner": "COMMERCIAL", "observedVolume": null },
+    { "query": "sell commercial land Boise", "owner": "COMMERCIAL", "observedVolume": null }
+  ],
+  "enforcementRules": [
+    "PUT THE UNIT LINE ON THE PAGE, VISIBLY. A commercial multifamily page must state that it is about five units and up, priced on rent roll and NOI. A page that merely says 'we buy multifamily' is a residential lookalike and will be classified as one.",
+    "VOCABULARY IS THE CLASSIFIER. Rent roll, NOI, cap rate, estoppel, T-12 and WALT belong on the commercial page. Landlord-exit language — 'tired of managing tenants', 'no repairs, no fees', 'sell your rental fast' — must NOT appear there.",
+    "Never write 'five units is legally commercial'. The FHFA boundary governs housing finance; Census treats two units as multifamily and HUD varies between 2, 5 and 8. State which system a boundary belongs to.",
+    "Duplex, triplex and fourplex stay residential in both copy and internal linking."
+  ]
+}

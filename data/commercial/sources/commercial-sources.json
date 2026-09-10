@@ -291,6 +291,259 @@
         "boise-flood-protection-overlay-purpose"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-307",
+      "title": "Idaho Code § 63-307 — Ownership identification",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch3/sect63-307/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "assessment"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2022",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Directs the assessor to ascertain OWNERSHIP from recorded documents; contains no sale-price disclosure requirement.",
+      "stalenessRisk": "LOW — last amended 2022 ch. 75.",
+      "claimsSupported": [
+        "idaho-63-307a-does-not-exist",
+        "idaho-no-mandatory-sale-price-disclosure"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-ch3-index",
+      "title": "Idaho Code Title 63 Chapter 3 — Assessment of Real and Personal Property (section index)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch3/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "assessment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official chapter index, read directly. Runs 63-301 through 63-316+ and contains NO section 63-307A. This is the negative evidence.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "idaho-63-307a-does-not-exist",
+        "idaho-no-mandatory-sale-price-disclosure"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idaho-sb1196-2007",
+      "title": "Senate Bill 1196 (2007) — property transfer certificate (DID NOT PASS)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/sessioninfo/2007/legislation/s1196/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "assessment",
+        "fabrication-guard"
+      ],
+      "publicationDate": "2007-03-06",
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "EVERGREEN",
+      "authorityNotes": "⚠️ A BILL, NOT LAW. Recorded history shows '03/06 Senate intro - 1st rdg - to printing' and '03/07 Rpt prt - to Loc Gov' with no further action — introduced and referred to committee. Its proposed text is the origin of the widely-repeated but non-existent 'Idaho Code 63-307A'.",
+      "stalenessRisk": "NONE — a dead 2007 bill.",
+      "claimsSupported": [
+        "idaho-63-307a-does-not-exist",
+        "idaho-no-mandatory-sale-price-disclosure"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfr-12-1282-1",
+      "title": "12 CFR § 1282.1 — Definitions (FHFA, Enterprise Housing Goals)",
+      "publisher": "Federal Housing Finance Agency / eCFR",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-XII/subchapter-E/part-1282",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "assetClass": [
+        "multifamily"
+      ],
+      "topic": [
+        "multifamily",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal regulation. The cleanest statement of the single-family (1-4) vs multifamily (>4) split that underlies GSE lending convention. Reported by a research workstream; URL is the eCFR part — verify the exact section anchor before citing visibly on a page.",
+      "stalenessRisk": "LOW — regulatory definitions change rarely.",
+      "claimsSupported": [
+        "gse-multifamily-more-than-four",
+        "multifamily-threshold-varies-across-six-systems",
+        "multifamily-serp-boundary-matches-finance-boundary"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "census-bps-definitions",
+      "title": "Building Permits Survey — Definitions",
+      "publisher": "U.S. Census Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.census.gov/construction/bps/definitions.html",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "assetClass": [
+        "multifamily"
+      ],
+      "topic": [
+        "multifamily"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Census definitions page. Establishes that BPS tabulates 2, 3-4 and 5+ and calls two-unit structures multifamily.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "census-multifamily-starts-at-two",
+        "multifamily-threshold-varies-across-six-systems"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "census-acs-subject-definitions-2023",
+      "title": "2023 American Community Survey Subject Definitions (Units in Structure, p. 44)",
+      "publisher": "U.S. Census Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2023_ACSSubjectDefinitions.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "assetClass": [
+        "multifamily"
+      ],
+      "topic": [
+        "multifamily",
+        "housing"
+      ],
+      "publicationDate": "2023",
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "Official ACS technical documentation. Gives the units-in-structure brackets and the definition of a structure.",
+      "stalenessRisk": "MEDIUM — reissued annually; cite the vintage.",
+      "claimsSupported": [
+        "census-multifamily-starts-at-two"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hud-multifamily-programs",
+      "title": "Descriptions of Multifamily Programs",
+      "publisher": "U.S. Department of Housing and Urban Development",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/hud-partners/multifamily-programs",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "assetClass": [
+        "multifamily"
+      ],
+      "topic": [
+        "multifamily",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official HUD programme descriptions. Shows unit minimums varying by programme: 5 for 207/221(d)(4)/223(f), 2 for 220, 8 for 231.",
+      "stalenessRisk": "MEDIUM — programme descriptions are revised.",
+      "claimsSupported": [
+        "hud-multifamily-not-uniform",
+        "multifamily-threshold-varies-across-six-systems"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usc-12-1713",
+      "title": "12 U.S.C. § 1713 — National Housing Act § 207, rental housing insurance",
+      "publisher": "United States Code",
+      "organizationType": "federal-government",
+      "url": "https://www.law.cornell.edu/uscode/text/12/1713",
+      "sourceTier": 2,
+      "jurisdiction": "United States",
+      "assetClass": [
+        "multifamily"
+      ],
+      "topic": [
+        "multifamily",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "⚠️ TIER 2 — Cornell LII is a faithful mirror of the U.S. Code, not the official publisher. Statutory root of HUD's 'five or more family units'. Verify against uscode.house.gov before citing visibly.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "hud-multifamily-not-uniform"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "serp-observations-commercial",
+      "title": "Commercial SERP observations — Boise/Treasure Valley seller intent",
+      "publisher": "Boise Property Group internal research",
+      "organizationType": "internal",
+      "url": "data/commercial/queries/commercial-serp-observations.json",
+      "sourceTier": 5,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "search"
+      ],
+      "publicationDate": "2026-09-10",
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "VOLATILE",
+      "authorityNotes": "⚠️ TIER 5 — INTERNAL OBSERVATION, NOT AN EXTERNAL AUTHORITY. Organic result sets only; no ads, Local Pack, PAA or AI Overviews visible. Positions directional. Supports ARCHITECTURE decisions only and may never be cited on a page as a fact about the world.",
+      "stalenessRisk": "HIGH — SERPs change continuously. Re-observe before relying on it.",
+      "claimsSupported": [
+        "multifamily-serp-boundary-matches-finance-boundary"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

@@ -578,6 +578,215 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-10",
       "notes": "Pairs with the already-established fact that Boise's flood exposure has three sources (Boise River, foothills gulches, upper-bench intermittent channels) and that any floodplain development requires a permit. ⚠️ Only the purpose clauses are read. The overlay's actual standards are NOT known and must not be described."
+    },
+    {
+      "id": "idaho-63-307a-does-not-exist",
+      "claim": "Idaho Code § 63-307A does not exist. Title 63, Chapter 3 runs from 63-301 to 63-316 with no 63-307A, and 63-307 governs ownership identification rather than sale price. The section number traces to Senate Bill 1196 of the 2007 session, which proposed a property transfer certificate requiring purchasers to disclose sales prices to county assessors; the bill's recorded history shows only introduction, printing and referral to the Local Government committee, with no further action.",
+      "quotedLanguage": "63-307. Ownership identification. (1) The assessor shall ascertain the current ownership of land from documents recorded in the county recorder's office and/or from evidence of ownership furnished to the assessor that is admissible at trial in a civil action.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "assessment",
+        "valuation",
+        "fabrication-guard"
+      ],
+      "sourceIds": [
+        "idcode-63-307",
+        "idcode-63-ch3-index",
+        "idaho-sb1196-2007"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": false,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": "NEGATIVE_FINDING_DO_NOT_CITE_63-307A",
+      "notes": "🚨🚨 FABRICATION GUARD — NOT FOR PUBLICATION, FOR INTERNAL PROTECTION. A research pass surfaced a confident, richly detailed description of 'Idaho Code 63-307A' — property transfer certificate, confidentiality, civil and criminal penalties, and a closed list of who may view it (Idaho appraisers, real estate licensees, the Tax Commission, anyone owning 5%+ of the property, and tax appeal bodies). That description matches the PROPOSED TEXT OF SB 1196 (2007), not enacted law. Verified independently: the chapter index has no 63-307A, and the bill died after referral to committee. This is the same failure mode as Missouri's phantom contract-for-deed statute caught on MoKan — a non-existent section laundered through repetition until it reads as settled law. NEVER cite 63-307A. If any future draft references it, this claim is the reason it must be removed."
+    },
+    {
+      "id": "idaho-no-mandatory-sale-price-disclosure",
+      "claim": "No Idaho statute requires a buyer or seller of real property to disclose the sale price to the county assessor. The assessor is directed to ascertain OWNERSHIP from recorded documents; the statute says nothing about price, and the 2007 bill that would have created a price-disclosure certificate for residential property was introduced and referred to committee without further action.",
+      "quotedLanguage": "The assessor shall ascertain the current ownership of land from documents recorded in the county recorder's office and/or from evidence of ownership furnished to the assessor that is admissible at trial in a civil action.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "valuation",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "idcode-63-307",
+        "idcode-63-ch3-index",
+        "idaho-sb1196-2007"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": false,
+      "verifiedOn": null,
+      "verificationFlag": "NEGATIVE_CLAIM_REQUIRES_EXHAUSTIVE_SEARCH",
+      "notes": "🚨 WITHHELD. This is potentially the single most valuable fact in the entire commercial vertical — if Idaho sale prices are not public record, commercial comparables are structurally unavailable to an owner, which explains WHY a seller cannot self-serve a valuation and reframes the whole proposition. But it is a NEGATIVE claim ('no statute requires X'), and proving a negative from two sections plus one dead bill is not sufficient. A search of 63-307 and the Chapter 3 index is not a search of the whole code. BEFORE PUBLISHING: search Title 63 exhaustively for any disclosure or transfer-declaration requirement, check Title 55 conveyancing, and reconcile against the Ada County Assessor's own statement that commercial assessments use 'market sales' data — if prices are not disclosed, the Assessor must obtain sales some other way, and how they do it is itself the most citable part of this story."
+    },
+    {
+      "id": "gse-multifamily-more-than-four",
+      "claim": "The federal housing-finance definition that produces the familiar 1-4 versus 5+ split is in FHFA regulation: multifamily housing means a residence consisting of more than four dwelling units, and single-family housing means a residence consisting of one to four dwelling units.",
+      "quotedLanguage": "Multifamily housing means a residence consisting of more than four dwelling units. … Single-family housing means a residence consisting of one to four dwelling units.",
+      "assetClass": [
+        "multifamily"
+      ],
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "multifamily",
+        "lending",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "cfr-12-1282-1"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "THIS is the actual origin of the '5+ units is commercial' folk rule — a MORTGAGE-FINANCE boundary, not a general legal one. ⚠️ It governs housing-finance classification. It does NOT make a five-unit building 'legally commercial' for zoning, assessment, disclosure or any Idaho purpose. Never write 'in Idaho, 5+ units is commercial'."
+    },
+    {
+      "id": "census-multifamily-starts-at-two",
+      "claim": "The U.S. Census Bureau treats a two-unit structure as multifamily. Its Building Permits Survey tabulates one-unit structures, then 2 units, 3 and 4 units combined, and 5 or more units — so five is where Census stops disaggregating, not where multifamily begins. The American Community Survey uses brackets of 1 detached, 1 attached, 2, 3 or 4, 5 to 9, 10 to 19, 20 to 49, and 50 or more.",
+      "quotedLanguage": "Multifamily structures are classified by the number of housing units in the structure. Data are tabulated for 2 units, 3 and 4 units combined, and 5 or more unit structures.",
+      "assetClass": [
+        "multifamily"
+      ],
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "multifamily",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "census-bps-definitions",
+        "census-acs-subject-definitions-2023"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "DIRECTLY CONTRADICTS the folk rule. In Census terms a DUPLEX is multifamily. 5+ is a tabulation bracket and carries no residential/commercial meaning at all. The ACS also defines a structure as separated from others by dividing walls ground to roof, counts occupied and vacant units alike, and EXCLUDES stores and office space from the unit count."
+    },
+    {
+      "id": "hud-multifamily-not-uniform",
+      "claim": "HUD has no single multifamily unit threshold. Its Section 207, 221(d)(4) and 223(f) programmes require five or more units, but Section 220 in urban renewal areas reaches two or more units and Section 231 rental housing for the elderly requires eight or more.",
+      "quotedLanguage": "Such property or project may include five or more family units and may include such commercial and community facilities as the Secretary deems adequate to serve the occupants.",
+      "assetClass": [
+        "multifamily"
+      ],
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "multifamily",
+        "lending",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "hud-multifamily-programs",
+        "usc-12-1713"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "NEGATIVE FINDING and a valuable one: even inside a single federal agency the threshold moves between 2, 5 and 8 depending on the programme. The quoted language is the National Housing Act §207 at 12 U.S.C. §1713(c), which is the statutory root of the '5 or more family units' figure. Anyone asserting a single HUD definition is wrong."
+    },
+    {
+      "id": "multifamily-threshold-varies-across-six-systems",
+      "claim": "At least six systems draw the residential/multifamily line differently, and no two of them agree in scope: Ada County assessment routes properties above four units to commercial appraisers; Idaho's disclosure act covers one to four dwelling units; Idaho's domestic water statute excludes multiple-dwelling developments with no unit count at all; the Census treats two units as multifamily and uses five only as a tabulation bracket; FHFA defines multifamily as more than four dwelling units for housing finance; and HUD's own programmes use two, five or eight depending on the programme.",
+      "quotedLanguage": null,
+      "assetClass": [
+        "multifamily"
+      ],
+      "entity": [
+        "county:ada",
+        "state:id"
+      ],
+      "topic": [
+        "multifamily",
+        "assessment",
+        "disclosure",
+        "water",
+        "lending",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "cfr-12-1282-1",
+        "census-bps-definitions",
+        "hud-multifamily-programs",
+        "ada-assessor-real-manufactured",
+        "idcode-55-2504",
+        "idcode-42-111"
+      ],
+      "crossRegistry": true,
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "⭐ THE FLAGSHIP MULTIFAMILY CLAIM. This is the page nobody else in this market can write, because it requires six primary sources across county, state and federal authority. The correct framing is: the '5+ units is commercial' rule is a MORTGAGE-FINANCE convention (FHFA) that has been generalised far beyond its scope. It is not an Idaho legal boundary, it is not a Census boundary, and it is not even a consistent HUD boundary. ⚠️ A page on this must NEVER conclude that five units is 'legally commercial' — it must say which system each boundary governs. Note also NO Idaho statute found so far uses a five-unit threshold for real property; Idaho consistently uses one to four."
+    },
+    {
+      "id": "multifamily-serp-boundary-matches-finance-boundary",
+      "claim": "The observed search boundary between residential and commercial multifamily intent in Boise coincides with the federal housing-finance boundary: commercial marketplaces rank on apartment-building queries and are absent from rental-property queries, while residential direct buyers rank on rental-property queries and are absent from apartment-building queries. The overlap between the two is the two-to-four unit range — the same range FHFA classifies as single-family housing.",
+      "quotedLanguage": null,
+      "assetClass": [
+        "multifamily"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "multifamily",
+        "search",
+        "differentiation",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfr-12-1282-1",
+        "serp-observations-commercial"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": false,
+      "verifiedOn": null,
+      "verificationFlag": "SERP_OBSERVATION_NOT_A_WORLD_FACT",
+      "freshnessClass": "VOLATILE",
+      "notes": "🚨 INTERNAL STRATEGY ONLY — NEVER PUBLISHED AS A FACT ABOUT THE WORLD. This is an observation about search results on one date, not a property of Idaho real estate. SERPs move. Its value is architectural: it tells us where to draw the line between residential and commercial pages, and it happens to agree with the FHFA four-unit boundary, which is a genuine reason to expect the split to be stable. Recorded VOLATILE and withheld from publication permanently."
     }
   ]
 }
