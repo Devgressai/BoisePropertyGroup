@@ -116,6 +116,24 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["boise-nfip-flood-sources", "ada-fema-firm-adopted-2020", "ada-floodplain-development-permit"],
       },
       {
+        heading: "A flat market makes condition the variable",
+        body: [
+          "Boise added roughly 1.0% to its population between the 2020 census base and the 2024 estimate. Meridian added 18.6% and Star 61.4% over the same period. Where a city is not absorbing new arrivals, prices are set far more by the condition and character of the houses already standing than by pressure from newcomers.",
+          "Boise's median age was 37.9 in 2022, against 47.1 in Garden City and 30.2 in Kuna. That spread across a single county is a reasonable proxy for very different housing stock and very different reasons for selling — estates and downsizing at one end, growing households at the other.",
+          "For a seller it means the honest comparison is not against what a similar house fetched in Meridian last quarter. It is against what your house, in its condition, is worth to the buyers actually in this market.",
+        ],
+        claims: ["ada-growth-divergence-2020-2024", "ada-median-age-divergence"],
+      },
+      {
+        heading: "Infill lots carry costs that are easy to miss",
+        body: [
+          "A lot split in Boise touches several things at once. The sewer assessment fee applies to previously undeveloped ground and to lots being split. The Assessor, who maintains parcel boundaries and Records of Survey, also runs addressing for every parcel in the county, so a new lot needs an address before it is a usable thing.",
+          "Idaho's domestic water statute is worth knowing here too, even inside the city: it caps domestic use at 13,000 gallons a day including half an acre of irrigation, and expressly excludes subdivisions of five or more lots and multiple-dwelling developments. That is a constraint on what a parcel can become, not just on how it is watered — and the statute was amended twice in two years, so it is worth checking rather than assuming.",
+          "None of this makes an infill lot a bad asset. It means the number a buyer can pay is the residual after those costs, and a seller who knows them is negotiating from the same page.",
+        ],
+        claims: ["boise-sewer-assessment-fee-undeveloped", "ada-assessor-maintains-parcel-gis", "id-domestic-water-13000-gpd", "id-water-subdivision-five-lots"],
+      },
+      {
         heading: "What that means for the offer",
         body: [
           "A Boise property with an overlay, an unconnected lot or a mapped flood hazard is not a property we decline. It is a property whose costs we have to count before we can put a number on it, and counting them out loud is how we would rather work.",
@@ -161,6 +179,24 @@ export const placeContent: Record<string, PlaceContent> = {
           "That comes up more often than you would expect on inherited property and on parcels where a relative's manufactured home has been sitting for years.",
         ],
         claims: ["star-temporary-family-living-quarters"],
+      },
+      {
+        heading: "Star Road is an irrigation boundary",
+        body: [
+          "Settlers Irrigation District describes its own western boundary as Star Road. The district delivers to 13,187 acres of agricultural and urban land through a 20-mile canal and 95 miles of laterals, running from the Boise River diversion at Ann Morrison Park south to Franklin Road and north to the Lower Bench.",
+          "Ada County's irrigation map names 27 separate entities operating in the county — districts, ditch companies, lateral associations and water companies. Which one serves a particular parcel is a question with a real answer, and it is not one you can settle from a map alone.",
+          "It matters because title to the Boise Project's transferred works remains with the United States. A lateral crossing a parcel near Star can sit on federally titled infrastructure, which changes who a landowner deals with about access, encroachment and maintenance.",
+        ],
+        claims: ["settlers-district-coverage", "ada-27-irrigation-entities", "boise-project-federal-title"],
+      },
+      {
+        heading: "Who administers what, on either side of the line",
+        body: [
+          "Land use inside Star is the city's, through its own development code. Everything else is county work, and for a property in the Ada County portion that means the Ada County Assessor values it, the Ada County Recorder holds the deed and the Ada County Treasurer collects the tax as ex officio tax collector for every district including the city and the schools.",
+          "For the small Canyon County portion, those same functions belong to Canyon County. It is a narrow case — 53 people by the 2024 estimate — but if a property sits there, every county-level answer changes.",
+          "Roads are neither. A single countywide highway district is responsible for city rights-of-way and their curbs, gutters and sidewalks; Idaho Code 40-1406 bars a city inside such a district from maintaining city highways or taxing for them.",
+        ],
+        claims: ["ada-star-spans-two-counties", "ada-treasurer-ex-officio-tax-collector", "achd-city-highway-powers-abolished"],
       },
       {
         heading: "Growth is projected to slow sharply",
