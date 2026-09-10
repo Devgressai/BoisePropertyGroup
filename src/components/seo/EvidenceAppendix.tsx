@@ -27,6 +27,14 @@ export interface AppendixClaim {
    * would make that untrue.
    */
   temporalStatus?: string | null;
+  /**
+   * The compiler's own history note for the statute, verbatim. Rendered once
+   * per SOURCE rather than per claim — three claims citing Idaho Code 42-111
+   * share one history, and printing it three times on a page would be padding.
+   * Grouping by source already does that for free, because for these claims the
+   * source IS the statute.
+   */
+  amendmentHistory?: string | null;
   jurisdiction?: string | null;
   sources: { title: string; url: string; publisher: string }[];
 }
@@ -84,6 +92,27 @@ export default function EvidenceAppendix({
                 </a>
               </h3>
               <p className="mt-1 text-[0.85rem] text-[var(--bpg-muted)]">{source.publisher}</p>
+              {(() => {
+                const history = entries.find((e) => e.amendmentHistory)?.amendmentHistory;
+                if (!history) return null;
+                /**
+                 * Deliberately NOT deriving the year a statute was added. Idaho
+                 * Code 42-111's note begins "[(42-111) 1899, p. 380, part of
+                 * sec. 12; reen. R.C. & C.L., sec. 3250; …]" and a naive parse
+                 * reads 3250 as a year. The verbatim note carries the whole
+                 * story without us interpreting it.
+                 */
+                return (
+                  <details className="mt-3">
+                    <summary className="cursor-pointer text-[0.85rem] text-[var(--bpg-muted)] underline decoration-[var(--bpg-border-strong)] underline-offset-4">
+                      Amendment history
+                    </summary>
+                    <p className="mt-2 font-mono text-[0.78rem] leading-relaxed text-[var(--bpg-muted)]">
+                      {history}
+                    </p>
+                  </details>
+                );
+              })()}
               <ul className="mt-4 space-y-5">
                 {entries.map((c) => (
                   <li key={c.id}>

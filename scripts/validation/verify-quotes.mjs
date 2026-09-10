@@ -96,7 +96,29 @@ if (existsSync(EXTRACTED))
   for (const f of readdirSync(EXTRACTED).filter((x) => x.endsWith(".txt")))
     corpus.push({ file: `${EXTRACTED}/${f}`, text: norm(readFileSync(`${EXTRACTED}/${f}`, "utf8")) });
 
-const quoted = claims.filter((c) => c.approvedForPublication && c.quotedLanguage);
+/**
+ * amendmentHistory is verbatim too, and nothing was checking it.
+ *
+ * All 18 are the Idaho Code compiler's own history note, quoted in brackets —
+ * the same kind of string as quotedLanguage and rendered under the same rule,
+ * yet verified by nothing. One of them turned out to be ELIDED: a stored
+ * "added 1996, ch. 98, sec. 7 ... am. 2024" that would have presented an
+ * abridged quote as whole, which is the exact failure the quote regime exists
+ * to prevent.
+ *
+ * Note what a naive "no ellipsis" rule would have done here: ten quotedLanguage
+ * strings legitimately join separated passages with one, and each fragment is
+ * checked against the cache individually. The problem was never the ellipsis.
+ * It was a verbatim field that nothing verified.
+ */
+const quoted = [
+  ...claims
+    .filter((c) => c.approvedForPublication && c.quotedLanguage)
+    .map((c) => ({ ...c, field: "quotedLanguage", text: c.quotedLanguage })),
+  ...claims
+    .filter((c) => c.approvedForPublication && c.amendmentHistory)
+    .map((c) => ({ ...c, field: "amendmentHistory", text: c.amendmentHistory })),
+];
 let ok = 0, partial = 0, missing = [];
 
 for (const c of quoted) {
@@ -106,18 +128,18 @@ for (const c of quoted) {
   // was checked as one long run-on string and reported NOT FOUND when both of
   // its halves were present. A false alarm in a verifier is expensive: it
   // teaches you to distrust the alarm.
-  const fragments = c.quotedLanguage.split(/\s*(?:\.\.\.|…)\s*/).map(norm).filter((f) => f.length > 25);
+  const fragments = c.text.split(/\s*(?:\.\.\.|…)\s*/).map(norm).filter((f) => f.length > 25);
   if (!fragments.length) {
     // A quote with no fragment over the length threshold was silently counted
     // as "partial" and never checked against anything. That is a hole: a claim
     // could carry a short or malformed quote and pass the audit untested.
-    missing.push({ id: c.id, registry: c.registry, kind: "NOT FOUND", fragments: 0 });
+    missing.push({ id: `${c.id} (${c.field})`, registry: c.registry, kind: "NOT FOUND", fragments: 0 });
     continue;
   }
   const results = fragments.map((f) => corpus.some((d) => d.text.includes(f)));
   if (results.every(Boolean)) ok++;
-  else if (results.some(Boolean)) { partial++; missing.push({ id: c.id, registry: c.registry, kind: "PARTIAL", fragments: results.filter((r) => !r).length }); }
-  else missing.push({ id: c.id, registry: c.registry, kind: "NOT FOUND", fragments: fragments.length });
+  else if (results.some(Boolean)) { partial++; missing.push({ id: `${c.id} (${c.field})`, registry: c.registry, kind: "PARTIAL", fragments: results.filter((r) => !r).length }); }
+  else missing.push({ id: `${c.id} (${c.field})`, registry: c.registry, kind: "NOT FOUND", fragments: fragments.length });
 }
 
 console.log(`corpus: ${corpus.length} cached artifacts`);
@@ -125,7 +147,7 @@ for (const r of REGISTRIES) {
   const n = quoted.filter((c) => c.registry === r.label).length;
   console.log(`  ${r.label.padEnd(12)} ${n} approved claims carrying a quote`);
 }
-console.log(`approved claims with quoted language: ${quoted.length}`);
+console.log(`verbatim strings checked (quotedLanguage + amendmentHistory): ${quoted.length}`);
 console.log(`  fully verified against cache : ${ok}`);
 console.log(`  partially verified           : ${partial}`);
 console.log(`  NOT FOUND in any cache       : ${missing.filter((m) => m.kind === "NOT FOUND").length}`);
@@ -133,6 +155,9 @@ if (missing.length) {
   console.log("\nclaims needing attention:");
   for (const m of missing) console.log(`  ${m.kind.padEnd(10)} [${m.registry}] ${m.id} (${m.fragments} fragment(s))`);
 }
-const notFound = missing.filter((m) => m.kind === "NOT FOUND").length;
+// PARTIAL fails as well. A quote whose second half is not in the cache is not
+// a verified quote — it is a verified fragment plus an unverified assertion,
+// and the elided amendment history that prompted this reported exactly that.
+const notFound = missing.length;
 console.log(notFound ? `\nQUOTE AUDIT: ${notFound} unverifiable` : "\nQUOTE AUDIT: every quote traced to a cached source");
 process.exit(notFound ? 1 : 0);

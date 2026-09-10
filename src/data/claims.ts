@@ -22,6 +22,8 @@ export interface Claim {
   verifiedOn: string;
   /** CURRENT unless the claim describes a fixed past period. Rendered when not CURRENT. */
   temporalStatus: string | null;
+  /** The Idaho Code compiler's own history note, verbatim. Rendered per source. */
+  amendmentHistory: string | null;
   sources: ClaimSource[];
   /** Set when the claim needs re-verification before it may be published. */
   verificationFlag: string | null;
@@ -50,7 +52,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[40-1406, added 1985, ch. 253, sec. 2, p. 659; am. 1988, ch. 298, sec. 1, p. 942; am. 2023, ch. 306, sec. 1, p. 920.]"
   },
   {
     "id": "achd-city-highway-powers-abolished",
@@ -81,7 +84,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[40-1406, added 1985, ch. 253, sec. 2, p. 659; am. 1988, ch. 298, sec. 1, p. 942; am. 2023, ch. 306, sec. 1, p. 920.]"
   },
   {
     "id": "achd-responsibility-within-cities",
@@ -106,7 +110,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[40-1415, added 1985, ch. 253, sec. 2, p. 662; am. 2021, ch. 273, sec. 1, p. 824.]"
   },
   {
     "id": "achd-cities-retain",
@@ -130,7 +135,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[40-1415, added 1985, ch. 253, sec. 2, p. 662; am. 2021, ch. 273, sec. 1, p. 824.]"
   },
   {
     "id": "achd-is-ada-district",
@@ -154,7 +160,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-homestead-creditor-175k",
@@ -179,7 +186,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[55-1003, added 1989, ch. 371, sec. 2, p. 934; am. 1992, ch. 14, sec. 1, p. 38; am. 2006, ch. 262, sec. 1, p. 814; am. 2020, ch. 232, sec. 2, p. 685.]"
   },
   {
     "id": "id-homeowners-tax-exemption-125k",
@@ -210,7 +218,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": "EFFECTIVE_DATE_UNCONFIRMED",
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]"
   },
   {
     "id": "ada-homeowners-exemption-deadline",
@@ -234,7 +243,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-assessment-market-value-jan-1",
@@ -259,7 +269,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-reappraisal-five-year-cycle",
@@ -282,7 +293,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-assessor-does-not-set-value",
@@ -305,7 +317,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-fixture-three-factor-test",
@@ -331,7 +344,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-residential-appraisal-scope",
@@ -355,7 +369,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-trustee-sale-120-day-notice",
@@ -378,7 +393,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
   },
   {
     "id": "id-trustee-sale-publication",
@@ -401,7 +417,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-trustee-sale-service-attempts",
@@ -424,7 +441,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-star-spans-two-counties",
@@ -447,7 +465,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-population-2024",
@@ -470,7 +489,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-population-two-estimates",
@@ -499,7 +519,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-growth-divergence-2020-2024",
@@ -529,7 +550,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-homestead-one-acre-limit",
@@ -555,7 +577,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-disclosure-required-1-to-4-units",
@@ -579,7 +602,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[55-2504, added 1994, ch. 366, sec. 1, p. 1173; am. 1997, ch. 229, sec. 2, p. 668.]"
   },
   {
     "id": "id-disclosure-exempt-estate-fiduciary",
@@ -604,7 +628,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-disclosure-exempt-divorce",
@@ -628,7 +653,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-disclosure-exempt-foreclosure",
@@ -652,7 +678,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-disclosure-rescission-three-days",
@@ -677,7 +704,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[55-2515, added 1994, ch. 366, sec. 1, p. 1178; am. 1997, ch. 229, sec. 5, p. 670.]"
   },
   {
     "id": "id-pr-power-over-title",
@@ -702,7 +730,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[I.C., sec. 15-3-711, as added by 1971, ch. 111, sec. 1, p. 233.]"
   },
   {
     "id": "id-pr-powers-limited-by-will",
@@ -727,7 +756,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-domestic-water-13000-gpd",
@@ -753,7 +783,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]"
   },
   {
     "id": "id-domestic-water-exclusions",
@@ -779,7 +810,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]"
   },
   {
     "id": "id-water-subdivision-five-lots",
@@ -805,7 +837,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]"
   },
   {
     "id": "ada-septic-authority-cdh",
@@ -830,7 +863,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-planning-unincorporated-only",
@@ -856,7 +890,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-engineering-scope-unincorporated",
@@ -884,7 +919,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-building-division-scope",
@@ -908,7 +944,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-treasurer-ex-officio-tax-collector",
@@ -932,7 +969,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-treasurer-ex-officio-public-administrator",
@@ -957,7 +995,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-recorder-maintains-ownership-documents",
@@ -983,7 +1022,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-recorder-pii-redaction-is-submitter-duty",
@@ -1007,7 +1047,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-eviction-forms-nonpayment-only",
@@ -1031,7 +1072,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-cities-administer-own-land-use",
@@ -1067,7 +1109,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "star-flood-zone-building-permit-question",
@@ -1092,7 +1135,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "settlers-district-coverage",
@@ -1121,7 +1165,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "boise-project-five-districts",
@@ -1149,7 +1194,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "boise-project-federal-title",
@@ -1176,7 +1222,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-27-irrigation-entities",
@@ -1203,7 +1250,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-area-of-city-impact",
@@ -1230,7 +1278,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-planned-communities-outside-aci",
@@ -1256,7 +1305,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-2050-projection-divergence",
@@ -1285,7 +1335,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-median-age-divergence",
@@ -1316,7 +1367,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-county-composition",
@@ -1348,7 +1400,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "boise-wui-overlay-district",
@@ -1375,7 +1428,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "boise-nfip-flood-sources",
@@ -1399,7 +1453,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-floodplain-development-permit",
@@ -1425,7 +1480,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-fema-firm-adopted-2020",
@@ -1448,7 +1504,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "star-one-time-administrative-division",
@@ -1474,7 +1531,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "star-temporary-family-living-quarters",
@@ -1500,7 +1558,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-code-enforcement-unincorporated-only",
@@ -1526,7 +1585,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "ada-assessor-maintains-parcel-gis",
@@ -1553,7 +1613,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "eagle-planning-scope",
@@ -1580,7 +1641,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "gardencity-planning-scope",
@@ -1605,7 +1667,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-deposit-liability-transfers-on-sale",
@@ -1630,7 +1693,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]"
   },
   {
     "id": "id-deposit-refund-timing",
@@ -1653,7 +1717,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]"
   },
   {
     "id": "id-deposit-no-normal-wear-and-tear",
@@ -1676,7 +1741,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]"
   },
   {
     "id": "id-tax-deed-three-year-delinquency",
@@ -1702,7 +1768,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-tax-deed-notice-service",
@@ -1726,7 +1793,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-tax-deed-redemption-fourteen-months",
@@ -1753,7 +1821,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-manufactured-home-becomes-real-property",
@@ -1780,7 +1849,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[63-304 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 1, p. 130.]"
   },
   {
     "id": "id-manufactured-home-treated-as-site-built",
@@ -1806,7 +1876,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": "[63-304 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 1, p. 130.]"
   },
   {
     "id": "id-6-310a-remove-unauthorized-persons",
@@ -1831,7 +1902,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "meridian-building-permit-activity-aug-2025",
@@ -1857,7 +1929,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "HISTORICAL"
+    "temporalStatus": "HISTORICAL",
+    "amendmentHistory": null
   },
   {
     "id": "kuna-land-use-table-convention",
@@ -1882,7 +1955,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "kuna-hearing-notice-300ft-15days",
@@ -1906,7 +1980,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "kuna-property-lines-survey-guidance",
@@ -1932,7 +2007,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-recording-act-lease-one-year-carveout",
@@ -1959,7 +2035,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "boise-sewer-connection-required",
@@ -1985,7 +2062,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "boise-sewer-assessment-fee-undeveloped",
@@ -2012,7 +2090,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-manufactured-home-removal-requires-consent",
@@ -2038,7 +2117,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-manufactured-home-removal-notice-and-taxes",
@@ -2063,7 +2143,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   },
   {
     "id": "id-manufactured-homes-assessed-as-residential",
@@ -2088,7 +2169,8 @@ export const claims: Claim[] = [
       }
     ],
     "verificationFlag": null,
-    "temporalStatus": "CURRENT"
+    "temporalStatus": "CURRENT",
+    "amendmentHistory": null
   }
 ];
 

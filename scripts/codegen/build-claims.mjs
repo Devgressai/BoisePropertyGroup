@@ -27,6 +27,7 @@ const approved = reg.claims.filter((c) => c.approvedForPublication).map((c) => (
     .map((s) => ({ title: s.title, url: s.url, publisher: s.publisher, tier: s.sourceTier })),
   verificationFlag: c.verificationFlag ?? null,
   temporalStatus: c.temporalStatus ?? null,
+  amendmentHistory: c.amendmentHistory ?? null,
 }));
 
 const withFlag = approved.filter((c) => c.verificationFlag);
@@ -55,6 +56,8 @@ export interface Claim {
   verifiedOn: string;
   /** CURRENT unless the claim describes a fixed past period. Rendered when not CURRENT. */
   temporalStatus: string | null;
+  /** The Idaho Code compiler's own history note, verbatim. Rendered per source. */
+  amendmentHistory: string | null;
   sources: ClaimSource[];
   /** Set when the claim needs re-verification before it may be published. */
   verificationFlag: string | null;
