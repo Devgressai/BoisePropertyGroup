@@ -60,3 +60,47 @@ export function breadcrumbSchema(items: { label: string; href?: string }[]) {
 export function graph(...nodes: Record<string, unknown>[]) {
   return { "@context": "https://schema.org", "@graph": nodes };
 }
+
+/**
+ * Structured data for a commercial asset page.
+ *
+ * Deliberately modest. It says what the page is ABOUT and lists the sources it
+ * cites, both of which are visible on the page. It does NOT emit a Service, an
+ * Offer, a Product or an AggregateRating, because we have no transaction
+ * history and structured data is exactly where an unearned claim slips past
+ * review — nobody proofreads JSON-LD.
+ *
+ * It also carries no valuation statement of any kind. See
+ * research/commercial/COMMERCIAL-VALUATION-EDUCATION-MODEL.md §6.
+ */
+export function commercialPageSchema({
+  slug,
+  title,
+  description,
+  about,
+  sources,
+}: {
+  slug: string;
+  title: string;
+  description: string;
+  about: string;
+  sources: { title: string; url: string; publisher: string }[];
+}) {
+  return {
+    "@type": "WebPage",
+    "@id": `${site.url}/commercial/${slug}#webpage`,
+    url: `${site.url}/commercial/${slug}`,
+    name: title,
+    description,
+    isPartOf: { "@id": `${site.url}/#website` },
+    publisher: { "@id": `${site.url}/#organization` },
+    about: { "@type": "Thing", name: about },
+    // Every source is a visible link in the page's evidence block.
+    citation: sources.map((s) => ({
+      "@type": "CreativeWork",
+      name: s.title,
+      url: s.url,
+      publisher: { "@type": "Organization", name: s.publisher },
+    })),
+  };
+}

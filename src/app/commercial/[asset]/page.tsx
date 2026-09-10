@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import CommercialPage from "@/components/seo/CommercialPage";
+import { commercialClaim } from "@/data/commercial-claims";
+import { graph, breadcrumbSchema, commercialPageSchema } from "@/lib/seo/schema";
 import { COMMERCIAL_PAGES, commercialPage } from "@/data/commercial-content";
 import { claimsUniqueToAssetClass } from "@/data/commercial-claims";
 import { MIN_UNIQUE_CLAIMS, MIN_WORDS, countWords } from "@/lib/seo/indexation";
@@ -62,5 +64,33 @@ export default async function Page({ params }: { params: Promise<{ asset: string
     { href: "/what-we-buy", label: "Everything we buy" },
   ];
 
-  return <CommercialPage content={content} siblings={siblings} />;
+  const sources = new Map<string, { title: string; url: string; publisher: string }>();
+  for (const id of content.citedClaims) {
+    for (const s of commercialClaim(id)?.sources ?? []) sources.set(s.url, s);
+  }
+
+  const jsonLd = graph(
+    breadcrumbSchema([
+      { label: "Home", href: "/" },
+      { label: "Commercial", href: "/commercial" },
+      { label: content.eyebrow, href: `/commercial/${content.slug}` },
+    ]),
+    commercialPageSchema({
+      slug: content.slug,
+      title: content.title,
+      description: content.description,
+      about: content.eyebrow === "Multifamily" ? "Multifamily property" : "Industrial property",
+      sources: [...sources.values()],
+    }),
+  );
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <CommercialPage content={content} siblings={siblings} />
+    </>
+  );
 }

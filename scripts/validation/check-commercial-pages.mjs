@@ -68,6 +68,17 @@ for (const page of content.COMMERCIAL_PAGES) {
     `${differentiating.length} cited claims differentiate this asset class (needs ${MIN_DIFFERENTIATING})`,
   );
 
+  // "Put the five-unit line on the page, visibly." A multifamily page that says
+  // only "we buy multifamily" is a residential lookalike and will be classified
+  // as one, competing with house pages we already own.
+  if (page.assetClass === "multifamily") {
+    const prose = [...page.intro, ...page.sections.flatMap((s) => [s.heading, ...s.body])].join(" ");
+    const floor = /\bfive units\b|\bfive or more units\b|\bmore than four units\b|\b5\+ units\b/i.test(prose);
+    say(floor, floor ? "states its unit floor in visible copy" : "no visible unit floor — state the five-unit line in the page copy, not only in metadata");
+    const income = /\brent roll\b|\bnet operating income\b|\bNOI\b/i.test(prose);
+    say(income, income ? "carries income vocabulary that marks it commercial" : "no income vocabulary — rent roll or net operating income is what tells a search engine this is not a residential page");
+  }
+
   const unsourced = page.citedClaims
     .map((id) => byId.get(id))
     .filter((c) => c && c.sources.length === 0)

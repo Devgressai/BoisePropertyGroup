@@ -13,7 +13,12 @@
  * whoever writes the next paragraph.
  *
  *   - Landlord-exit phrasing may not appear in a commercial context.
- *   - A commercial multifamily context must state its unit floor, visibly.
+ *
+ * The companion rule — that commercial multifamily copy must state its unit
+ * floor visibly — lives in check-commercial-pages.mjs instead. It belongs there
+ * because it is a property of a rendered PAGE, not of a file: applied per file
+ * it fires on routing code that merely mentions multifamily while carrying no
+ * copy at all.
  *
  * Governing record: data/commercial/queries/commercial-query-ownership.json
  */
@@ -93,20 +98,6 @@ for (const file of files) {
     }
   }
 
-  // A commercial multifamily passage must show where the unit floor falls.
-  const mfBlocks = strings.filter((s) => /\bmultifamily|apartment (?:building|complex)\b/i.test(s.text));
-  for (const s of mfBlocks) {
-    const sameFile = code;
-    const declaresFloor =
-      /\bfive units\b|\b5\+? units\b|\bfive or more units\b|\bmore than four units\b/i.test(sameFile);
-    const isCommercialScope = /COMMERCIAL/.test(sameFile) || COMMERCIAL_MARKERS.test(sameFile);
-    if (isCommercialScope && !declaresFloor) {
-      problems.push(
-        `${rel}:${s.line} — commercial multifamily copy with no visible unit floor. State the five-unit line on the page.`,
-      );
-      break;
-    }
-  }
 }
 
 if (problems.length) {
