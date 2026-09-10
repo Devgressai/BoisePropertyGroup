@@ -23,5 +23,9 @@ jobs:
         run: npm run check:redteam
       - name: Quote audit gate
         run: npm run check:quotes
+      - name: Commercial evidence gate
+        run: npm run check:commercial
+      - name: Vocabulary classifier gate
+        run: npm run check:vocabulary
       - name: Production build
         run: npm run build

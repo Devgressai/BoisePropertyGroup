@@ -6,10 +6,19 @@
  * research yet. That is why they appear here and NOT as dedicated pages — what
  * the business buys is a fact the owner supplies; what a page may claim needs
  * sourced evidence. The two are tracked separately on purpose.
+ *
+ * The unit count is on the page ON PURPOSE. Search treats "sell rental property
+ * Boise" as a wholly residential query and "sell apartment building Boise" as a
+ * mixed one, so a multifamily block written in landlord-exit language reads as
+ * another residential listing and competes with our own house pages. Rent roll
+ * and NOI are what mark this block as commercial. Do not add "tired of managing
+ * tenants", "no repairs, no fees" or equivalent here — that copy belongs on the
+ * residential side, which keeps duplex through fourplex deliberately.
+ * See data/commercial/queries/commercial-query-ownership.json.
  */
 const RESIDENTIAL = [
   { t: "Houses", d: "Any condition. Deferred maintenance, dated, or mid-repair." },
-  { t: "Rentals", d: "Occupied or vacant. Tenants, leases and deposits handled properly." },
+  { t: "Rentals", d: "Occupied or vacant, up to a fourplex. Tenants, leases and deposits handled properly." },
   { t: "Inherited property", d: "Estates, probate, multiple heirs." },
 ];
 
@@ -20,7 +29,7 @@ const LAND = [
 ];
 
 const COMMERCIAL = [
-  { t: "Multifamily", d: "Four units or four hundred. Occupied, partly vacant, or mid-turnaround." },
+  { t: "Multifamily", d: "Five units and up, priced on rent roll and NOI. Occupied, partly vacant, or mid-turnaround." },
   { t: "Office buildings", d: "Single tenant, multi tenant, or sitting empty." },
   { t: "Industrial", d: "Warehouse, flex, shop and yard space." },
 ];

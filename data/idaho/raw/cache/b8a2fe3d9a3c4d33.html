@@ -1,0 +1,3607 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<!-- Google Tag Manager for GA4 -->
+				<script>(function(w,d,s,l,i){w.GAMeasurementID='G-FQ7327T7D5';w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,'script','cpDataLayerGA4','GTM-K73C5PS');</script>
+				<!-- End Google Tag Manager for GA4 -->
+				<script type='text/javascript'>
+					var enableTelemetry = 'false'
+					var aiConfig = {
+					instrumentationKey: '1cde048e-3185-4906-aa46-c92a7312b60f'						
+					}
+					var appInsights = window.appInsights || function (a) { function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement('script'); b.src = a.url || 'https://js.monitor.azure.com/scripts/a/ai.0.js', d.getElementsByTagName('script')[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Dependency']; f.length;)b('track' + f.pop()); if (b('setAuthenticatedUserContext'), b('clearAuthenticatedUserContext'), b('startTrackEvent'), b('stopTrackEvent'), b('startTrackPage'), b('stopTrackPage'), b('flush'), !a.disableExceptionTracking) { f = 'onerror', b('_' + f); var g = e[f]; e[f] = function (a, b, d, e, h) { var i = g && g(a, b, d, e, h); return !0 !== i && c['_' + f](a, b, d, e, h), i } } return c }(aiConfig);
+					window.appInsights = appInsights, appInsights.queue && 0 === appInsights.queue.length;
+					// Add telemetry initializer
+					appInsights.queue.push(function() {
+						appInsights.context.addTelemetryInitializer(function(envelope) {
+							var telemetryItem = envelope.data.baseData;
+							// To check the telemetry item’s type:
+							if (!false)
+							{
+								//If the telemetry is not enabled, we still want to capture Google map custom event, so only allow that
+								if (envelope.name.indexOf('.Event') == -1)
+									return false;
+							}
+						});
+					});						
+					appInsights.trackPageView();
+				</script>
+	<script>
+		function populateAntiForgery(token) {
+			var input = document.createElement("input");
+			input.name = "__RequestVerificationToken";
+			input.type = "hidden";
+			input.value = token;
+			var absPat = /^https?:\/\/|^\/\//i;
+			var forms = document.getElementsByTagName("form");
+			for (var i = 0; i < forms.length; i++) {
+				if (forms[i].method == "post" &&
+					!forms[i].querySelector('[name="__RequestVerificationToken"]') &&
+					!absPat.test(forms[i].getAttribute("action"))) {
+					forms[i].appendChild(input.cloneNode());
+				}
+			}
+		}
+
+		function getAntiForgeryToken(callback, error) {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "/antiforgery");
+			xhr.addEventListener("load", function() {
+				try {
+					if (this.status !== 200) {
+						throw Error("Invalid status. Could not retrieve antiforgery token.");
+		}
+					var obj = JSON.parse(this.responseText);
+					callback(obj.token);
+				} catch (e) {
+					typeof error === "function" && error(e);
+				}
+			});
+			xhr.send();
+		}
+
+		getAntiForgeryToken(function(token) {
+			if (document.readyState === "complete"
+				|| document.readyState === "loaded" 
+				|| document.readyState === "interactive") {
+				populateAntiForgery(token);
+				return;
+			}
+			document.addEventListener("DOMContentLoaded", function() {
+				populateAntiForgery(token);
+			}, false);
+		}, console.error);
+			</script>
+			
+
+	<script type="text/javascript">
+		window.departmentHeader = {};
+		window.pageSectionTracker = {};
+		window.isResponsiveEnabled = true;
+		window.isRemoveSetHeights= true;
+		if (window.isRemoveSetHeights) {
+			document.documentElement.className += ' removeSetHeights';
+		}
+		window.mainMenuMediaQuery = 'screen and (max-width: 40em)';
+		window.isMobileBrowserIncludingTablets = false;
+		window.fixedResponsiveMenu = false;
+		window.fullWidthResponsiveMenu = false;
+		window.responsiveMenuHeight = '';
+		window.responsiveMenuFontSize = '';
+		window.isContentAdvisor = false;
+		(function () {
+			window.setSizeCookie = function () {
+				document.cookie = "dpi=" + window.devicePixelRatio + "; path=/";
+				document.cookie = "viewportWidth=" + window.innerWidth + "; path=/";
+				document.cookie = "viewportHeight=" + window.innerHeight + "; path=/";
+				if (screen && screen.width && screen.height) {
+					document.cookie = "screenWidth=" + screen.width + "; path=/";
+					document.cookie = "screenHeight=" + screen.height + "; path=/";
+				}
+				document.cookie = "responsiveGhost=1; path=/";
+			};
+
+			setSizeCookie();
+		}());
+	</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script async src="https://docaccess.com/docbox.js"></script>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11152010202"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'AW-11152010202');
+</script>
+<script>
+gtag('config', 'AW-11152010202/dD0fCI_n9PwDENrX2MUp', {
+'phone_conversion_number': '208-446-1306'
+});
+</script>
+<!-- End Google tag (gtag.js) -->
+
+
+<!-- Event snippet for Apply Now Button Click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+var callback = function () {
+if (typeof(url) != 'undefined') {
+window.location = url;
+}
+};
+gtag('event', 'conversion', {
+'send_to': 'AW-11152010202/lX6oCMTL8JgYENrX2MUp',
+'event_callback': callback
+});
+return false;
+}
+</script>
+
+	<meta name="category0" content="Home" />
+<meta name="category1" content="Government" />
+<meta name="category2" content="Board of County Commissioners" />
+<meta name="category3" content="Property Assessment Appeal" />
+<meta name="category4" content="Understanding the Property Tax Process" />
+
+	
+	<meta name="theme-color" content="rgb(31, 35, 63)">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+		<title>Understanding the Property Tax Process | Kootenai County, ID</title>
+
+		<meta name="description" content="">
+			<script src="/Assets/Scripts/jQuery/jquery-3.7.1.min.js"></script>
+	<script src="/Assets/Scripts/jQuery/jquery-migrate-3.6.0.min.js" type="text/javascript"></script>
+	
+
+	<!--[if IE 6]><script language="JavaScript" type="text/javascript"> var isie6 = true; </script><![endif]-->
+	<!--[if IE 7]><script language="JavaScript" type="text/javascript"> var isie7 = true; </script><![endif]-->
+	<!--[if IE 8]><script language="JavaScript" type="text/javascript"> var isie8 = true; </script><![endif]-->
+	<!--[if IE 9]><script language="JavaScript" type="text/javascript"> var isie8 = true; </script><![endif]-->
+	<script type="text/javascript"><!--
+	var intCountryCode = 840;
+	var order = '';
+//--></script>
+	
+<link href="/-681783051.css" rel="stylesheet" type="text/css" />	<link href="/-2140275272.css" rel="stylesheet" type="text/css" />	<link href="/1559075563.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" type="text/css" href="/Assets/Styles/Print.css" media="print">
+	<script type="text/javascript">
+		window.Pages = window.Pages || {};
+		// FrontEnd RWD initialization
+		window.Pages.rwdReady = $.Deferred();
+		window.Pages.toolBarDeferred = $.Deferred();
+		window.Pages.rwdSetupComplete = $.Deferred();
+		window.Pages.megaMenuLoaded = $.Deferred();
+		window.Pages.angularToolbarComplete = $.Deferred();
+		window.Pages.frontEndToolbarComplete = $.Deferred();
+	</script>
+	<!--CPHeadContent-->
+	<script src="/739942322.js" type="text/javascript"></script>
+	
+	
+	
+	
+
+
+
+
+	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/App_Themes/ie8.css"><![endif]-->
+	<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/App_Themes/ie7.css"><![endif]-->
+	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/App_Themes/ie6.css"><![endif]-->
+	<!--[if lt IE 9]><script type="text/javascript" src="/Scripts/html5.js"></script><![endif]-->
+
+	<script type="text/javascript">
+		setEditorVariables(false, 840);
+		function getPrintPreviewType() { return 0; } function printPreview() {pPreview(getPrintPreviewType()); }
+	</script>
+	<script src="/Assets/Scripts/AlpineJS/3.14.1/alpine.min.js" type="text/javascript" defer="defer"></script>
+</head>
+<body class="wide " >
+
+    <script>jQuery(document).click(function (event) {
+	var target = jQuery(event.target);
+	if (target.attr('src') && target.parents('.image').length && target.parents('.widget').length) {
+		var text = target.attr('title');
+		
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Image',
+				eventAction: 'Image - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.is('button') || target.hasClass('button') || target.parents().hasClass('button')) {
+		var text = "";
+		if (target.parents('.button')[0]) {
+			text = target.parents('.button').first().text();
+		} else if (target.text().length) {
+			text = target.text();
+		} else if (target.attr('title').length) {
+			text = target.attr('title');
+		}
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Button',
+				eventAction: 'Button - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetCustomHtml').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Custom Html',
+				eventAction: 'Custom Html Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.editor').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Editor',
+				eventAction: 'Editor Link Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.GraphicLinks').length) {
+		var text = "";
+		var targetGraphicLink = target;
+		if (target.hasClass('widgetGraphicLinksLink')) {
+			targetGraphicLink = jQuery(target.children()[0]);
+		}
+		if (targetGraphicLink.hasClass('text')) {
+			text = targetGraphicLink.text();
+		} else if (targetGraphicLink.attr('src').length) {
+			if (targetGraphicLink.attr('alt').length) {
+				text = targetGraphicLink.attr('alt');
+			} else {
+				text = targetGraphicLink.attr('src');
+			}
+		} else {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Graphic Links',
+				eventAction: 'Graphic Link - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.InfoAdvanced').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Info Advanced',
+				eventAction: 'Info Advanced Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.list').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'List',
+				eventAction: 'List Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.megaMenuItem').length || target.parents('.topMenuItem').length) {
+		var megaMenuText = jQuery('.topMenuItem.mouseover').find('span').text();
+		var breadCrumbs = [];
+		jQuery('.breadCrumbs > li').each(function () {
+			 breadCrumbs.push(this.textContent);
+		});
+		var pageTitle = breadCrumbs.join('>');
+		var subTitleText = target.parents('.megaMenuItem').children('.widgetTitle').children().text();
+		var text = "";
+		if (pageTitle) {
+			text += pageTitle + " | ";
+		} else {
+			text += document.title + ' - ';
+		}
+		if (target.text() == "" && megaMenuText == "") {
+			text += "N/A";
+		} else if (target.text().length && megaMenuText.length) {
+			if (megaMenuText == target.text()) {
+				text += megaMenuText;
+			} else {
+				text += megaMenuText + " - " + subTitleText + " - " + target.text();
+			}
+		} else if (target.text() == "") {
+			text += megaMenuText;
+		} else {
+			text += target.text();
+		}
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Mega Menu',
+				eventAction: 'Mega Menu : ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetNewsFlash').length && target.parents('.widgetItem').length) {
+		var text = jQuery(target.parents('.widgetItem')[0]).find('.widgetTitle').children().text();
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'News Flash',
+				eventAction: 'News Flash - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.hasClass('widgetQuickLinksLink') || target.find('.widgetQuickLinksLink').length) {
+		var text = target.text();
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Quick Links',
+				eventAction: 'Quick Links - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.attr('src') && target.parents('.cpSlideshow').length) {
+		var text = target.attr('title');
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Slideshow',
+				eventAction: 'Slideshow - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetText').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Text',
+				eventAction: 'Text Link Clicked',
+				eventLabel: window.location.href
+			});
+	}
+});</script>
+	<div id="popoverModal" class="cp-PopOver cp-PopOver--modal cp-AdminWrap" style="position: fixed; display: none;">
+	<div class="cp-PopOver-header">
+		<h3 class="cp-PopOver-title"></h3>
+		<button class="cp-Btn cp-PopOver-close" onclick="closePopOverModal(event)">
+			<svg class="cp-Icon--close" alt="close" title="close">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#iconClose"></use>
+			</svg>
+		</button>
+	</div>
+	<div id="cpPopOverBody" class="cp-PopOver-body">
+		<form id="cpPopOverForm" name="cpPopOverForm" novalidate></form>
+	</div>
+	<div id="cpPopOverFooter" class="cp-PopOver-footer">
+		<div class="cp-BtnGroup" id="actionButtons">
+			<!-- Action buttons will be dynamically added here -->
+		</div>
+	</div>
+</div>
+    <div id="fb-root"></div>
+<div id=skipToContentLinks>
+<a href="#cc24115854-21fa-468f-90c2-869c0de8599f" target="_self" class="skipToContentLink">Skip to Main Content</a>
+</div>
+    <form id="frmReferenceFormForTelerikEditorDialogs"></form>
+
+        <input type="hidden" id="GoogleMapsKey" value="AIzaSyDWUuE-ifkbhxblF920N8MjpBdTg1Wt784" />
+
+
+
+    <input type="hidden" id="cpcDomain" value="https://cp-civicplusuniversity2.civicplus.com">
+    <input type="hidden" id="hdnStructureID" value="8" />
+    <input type="hidden" id="hdnContentCollectionID" value="696248ff-7d3a-4b28-b27a-d04ee0cb2097" />
+    <input type="hidden" id="hdnWorkingCopyID" value="00000000-0000-0000-0000-000000000000" />
+    <input type="hidden" id="hdnThemeID" value="20" />
+    <input type="hidden" id="pageIsFrontEnd" value="true" />
+    <input type="hidden" id="pageModuleID" />
+    <input type="hidden" id="pagePageID" value="957" />
+
+    <div id="stickyPlaceholder"></div>
+    <div id="outer-wrap" class="outer-wrap">
+        <div id="inner-wrap" class="inner-wrap">
+                <div id="divToolbars" class="cpToolbars newCP mui-fixed" style="">
+                    
+
+
+
+<!-- Begin Signed Out Bar -->
+<div class="cpToolbar user public">
+    <div class="inner selfClear">
+        <p class="dropdown"><a href="/MyAccount/ProfileCreate" class="myConnections" id="signedOutToolbarCreateProfileButton">Create a Website Account</a> <span class="welcomeMessage">- Manage notification subscriptions, save form progress and more. &nbsp;&nbsp;</span></p>
+        <ul class="nav secondary">
+			<li><a href="/MyAccount" onclick="popupSignIn(); return false;" class="button" id="loggedOutToolbarSignInButton">Website Sign In</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#signedOutToolbarCreateProfileButton').click(function (event) {
+            event.preventDefault();
+            window.location.href = '/MyAccount/ProfileCreate?from=url&url=/&dn=' + window.location.origin;
+        });
+
+
+		if ('False' == 'True') {
+            $('#loggedOutToolbarSignInButton').hide();
+		}
+    })
+</script>
+<!-- End Signed Out Bar -->
+
+                </div>
+            <div id="bodyWrapper">
+                <div id="mainNavHolderMobile" class="mainNavHolderMobile"></div>
+                
+<div data-cpRole="structuralContainer" id="bodyContainerTS">
+<!-- <div data-cpRole="banner" id="banner3" class="fixedBannerTS"> --><!-- Header Container --><header data-cpRole="structuralContainer" id="headerContainerTS" class="fixedTopTS">
+<div class="flexWrap4" id="flexHeader1TS"><div data-cpRole="structuralContainer" id="logoTS">
+<div data-cpRole="banner" id="bannerLogoTS" class="bannerLogoTS empty">
+
+
+
+
+				<a id="bannerLogoTS-58" style="			display: block; text-align: center;
+" class="bannerObject" href="/" target="_self"><img alt="Kootenai County ID Homepage" class="bannerObject" height="200" src="/ImageRepository/Document?documentID=22654" width="831" /></a>
+</div>
+</div><div data-cpRole="structuralContainer" id="mainNavTS">
+<nav data-cpRole="nav" id="mainNav" class="siteNav mainNav" aria-label="Main">
+<ol id="mainNavMenu" data-parent="1" class="rootNavMenu" role="menu"><!--
+--><li id="MainItem27" class="topMenuItem" role="none" data-pageid="27" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu27" id = "mainNavGovernment" class="navMainItem mainNavItem mainNavItem1 " href="/27/Government" target = "_self" >   Government  </a>			<!--
+			--><!--
+			--></li><!----><li id="MainItem101" class="topMenuItem" role="none" data-pageid="101" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu101" id = "mainNavServices" class="navMainItem mainNavItem mainNavItem2 " href="/101/Services" target = "_self" >   Services  </a>			<!--
+			--><!--
+			--></li><!----><li id="MainItem35" class="topMenuItem" role="none" data-pageid="35" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu35" id = "mainNavDoingBusiness" class="navMainItem mainNavItem mainNavItem3 " href="/35/Doing-Business" target = "_self" >   Doing Business  </a>			<!--
+			--><!--
+			--></li><!----><li id="MainItem31" class="topMenuItem" role="none" data-pageid="31" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu31" id = "mainNavElections" class="navMainItem mainNavItem mainNavItem4 " href="/31/Elections" target = "_self" >   Elections  </a>			<!--
+			--><!--
+			--></li><!----><li id="MainItem9" class="topMenuItem" role="none" data-pageid="9" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu9" id = "mainNavHowDoI" class="navMainItem mainNavItem mainNavItem5 " href="/9/How-Do-I" target = "_self" >   How Do I...  </a>			<!--
+			--><!--
+			--></li><!---->
+</ol>
+
+
+	<script type="text/javascript">
+		(function () {
+			function setupMenu() {
+				const menuID = 'mainNavMenu';
+				const menuType = MAIN_MENU;
+
+				//setup menu manager properties for main menu
+				if (!menuManager.mobileMainNav && true)
+					menuManager.adjustMainItemsWidth('#' + menuID);
+				menuManager.isMainMenuEditable = false;
+				menuManager.mainMenuMaxSubMenuLevels = 4;
+				menuManager.setMOMMode(2, menuType);
+
+				//Init main menu
+				const setupDraggable = menuManager.isMainMenuEditable;
+				const urlToGetHiddenMenus = '/Pages/MenuMain/HiddenMainSubMenus?pageID=1&moduleID=&themeID=20&menuContainerID=mainNav';
+
+				menuManager.setupMenu(menuID, 'mainNav', menuType, setupDraggable, urlToGetHiddenMenus);
+				menuManager.mainMenuInit = true;
+				menuManager.mainMenuTextResizer = true;
+				if (1.00 > 0)
+					menuManager.mainMenuTextResizerRatio = 1.00;
+				if (window.isResponsiveEnabled)
+					menuManager.mainMenuReady.resolve();
+
+			}
+
+			if (document.readyState === "complete"
+				|| document.readyState === "loaded"
+				|| document.readyState === "interactive") {
+				setupMenu();
+				return;
+			}
+
+			document.addEventListener("DOMContentLoaded", setupMenu);
+		})();
+	</script>
+
+
+<aside data-cpRole="megaMenu" id="megaMenu" class="megaMenu" style="display: none;"><input type="hidden" id="megaMenuPopupDirection" value="0"><input type="hidden" id="megaMenuWidthReference" value="1"><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu27" class="contentTop mainNavMegaMenu megaMenuContainer pageID_27 hidden" data-orientation="horizontal">	<div id="cc3470fbb6-cf5d-4a2c-886a-280853364d6d" data-containerid="3470fbb6-cf5d-4a2c-886a-280853364d6d" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu101" class="contentTop mainNavMegaMenu megaMenuContainer pageID_101 hidden" data-orientation="horizontal">	<div id="cc3a6192d0-53be-4a4c-b115-aae853b98a4f" data-containerid="3a6192d0-53be-4a4c-b115-aae853b98a4f" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu35" class="contentTop mainNavMegaMenu megaMenuContainer pageID_35 hidden" data-orientation="horizontal">	<div id="cceb765f2c-5081-46e5-b8f8-64d0d9f3329b" data-containerid="eb765f2c-5081-46e5-b8f8-64d0d9f3329b" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu31" class="contentTop mainNavMegaMenu megaMenuContainer pageID_31 hidden" data-orientation="horizontal">	<div id="ccc2e39f01-e040-47d0-88de-f729df1518f1" data-containerid="c2e39f01-e040-47d0-88de-f729df1518f1" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu9" class="contentTop mainNavMegaMenu megaMenuContainer pageID_9 hidden" data-orientation="horizontal">	<div id="cc24872949-ee99-46b9-b3b3-89eda5d0f4d1" data-containerid="24872949-ee99-46b9-b3b3-89eda5d0f4d1" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside></aside></nav>
+</div><div data-cpRole="contentContainer" id="searchTS">	<div id="cc9fd4ad56-a880-40db-bed2-aada590141b7" data-containerid="9fd4ad56-a880-40db-bed2-aada590141b7" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="cab49add-222b-4c35-8cbb-ec8392356bc0">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last id98912f0d-d796-4868-ab6f-9bae450ec807" style="" data-widgetcontainerid="98912f0d-d796-4868-ab6f-9bae450ec807">	
+<div data-widget-id="dc3bf9a8-ef4b-433c-aa79-e885ac522dcf" data-widget-controller-path="/Layout/WidgetSearch">
+	
+	<script defer type="text/javascript" src="/Common/Controls/jquery-ui-1.14.2/jquery-ui.min.js"></script>
+	<script defer src="/Areas/Layout/Assets/Scripts/Search.js" type="text/javascript"></script>
+	<script defer type="text/javascript">
+
+		$(document).ready(function () {
+			try {
+				// Minimum characters required before performing a search/autocomplete
+				var minPrefixLength = 3;
+				var autoCompleteDebounceDelay = 500;
+				var searchFieldSelector = "#searchField" + 'dc3bf9a8-ef4b-433c-aa79-e885ac522dcf';
+				var checkboxSelector = "#ysnSearchOnlyDept" + 'dc3bf9a8-ef4b-433c-aa79-e885ac522dcf';
+				var buttonSelector = ".widgetSearchButton" + 'dc3bf9a8-ef4b-433c-aa79-e885ac522dcf';
+				var autoCompleteCache = {};
+				var autoCompleteCacheKeys = [];
+				var autoCompleteCacheLimit = 25;
+				var currentAutoCompleteRequest = null;
+				var currentAutoCompleteRequestKey = null;
+				var autoCompleteDebounceTimer = null;
+				var autoCompleteDebounceKey = null;
+				var pendingAutoCompleteResponses = [];
+
+				function normalizeAutoCompleteTerm(term) {
+					return $.trim((term || "") + "").replace(/\s+/g, " ");
+				}
+
+				function shouldSearch(term) {
+					return normalizeAutoCompleteTerm(term).length >= minPrefixLength;
+				}
+
+				function getAutoCompleteUrl() {
+					return '/Search/AutoComplete' + ($(checkboxSelector).is(':checked') || false? '?departmentId=0' : '');
+				}
+
+				function getAutoCompleteCacheKey(requestUrl, term) {
+					return requestUrl + "|" + term.toLowerCase();
+				}
+
+				function cacheAutoCompleteResult(cacheKey, data) {
+					if (!Object.prototype.hasOwnProperty.call(autoCompleteCache, cacheKey)) {
+						autoCompleteCacheKeys.push(cacheKey);
+						if (autoCompleteCacheKeys.length > autoCompleteCacheLimit) {
+							delete autoCompleteCache[autoCompleteCacheKeys.shift()];
+						}
+					}
+					autoCompleteCache[cacheKey] = data;
+				}
+
+				function respondToPendingAutoComplete(data) {
+					var responses = pendingAutoCompleteResponses;
+					pendingAutoCompleteResponses = [];
+					for (var i = 0; i < responses.length; i++) {
+						responses[i](data);
+					}
+				}
+
+				function cancelPendingAutoComplete() {
+					clearTimeout(autoCompleteDebounceTimer);
+					autoCompleteDebounceKey = null;
+					if (currentAutoCompleteRequest != null) {
+						currentAutoCompleteRequest.abort();
+						currentAutoCompleteRequest = null;
+					}
+					currentAutoCompleteRequestKey = null;
+					respondToPendingAutoComplete([]);
+				}
+
+				function createWidgetAutoCompleteSource(options) {
+					return function (request, response) {
+						var term = normalizeAutoCompleteTerm(request.term);
+						if (!options.shouldSearch(term)) {
+							response([]);
+							return;
+						}
+
+						var requestUrl = options.url();
+						var cacheKey = getAutoCompleteCacheKey(requestUrl, term);
+						if (Object.prototype.hasOwnProperty.call(autoCompleteCache, cacheKey)) {
+							response(autoCompleteCache[cacheKey]);
+							if (options.success) {
+								options.success(autoCompleteCache[cacheKey]);
+							}
+							return;
+						}
+
+						if (currentAutoCompleteRequestKey === cacheKey || autoCompleteDebounceKey === cacheKey) {
+							pendingAutoCompleteResponses.push(response);
+							return;
+						}
+
+						cancelPendingAutoComplete();
+						autoCompleteDebounceKey = cacheKey;
+						pendingAutoCompleteResponses.push(response);
+						autoCompleteDebounceTimer = setTimeout(function () {
+							autoCompleteDebounceKey = null;
+							currentAutoCompleteRequestKey = cacheKey;
+							currentAutoCompleteRequest = $.ajax({
+								url: requestUrl,
+								dataType: "json",
+								timeout: options.timeout,
+								data: {
+									term: term,
+								},
+								success: function (data) {
+									if (currentAutoCompleteRequestKey === cacheKey) {
+										cacheAutoCompleteResult(cacheKey, data);
+										respondToPendingAutoComplete(data);
+										if (options.success) {
+											options.success(data);
+										}
+									}
+								},
+								error: function (xmlhttprequest, textstatus, message) {
+									if (textstatus === "abort") {
+										return;
+									}
+
+									if (options.error) {
+										options.error(xmlhttprequest, textstatus, message);
+									}
+
+									respondToPendingAutoComplete([]);
+								},
+								complete: function (xmlhttprequest) {
+									if (currentAutoCompleteRequest === xmlhttprequest) {
+										currentAutoCompleteRequest = null;
+										currentAutoCompleteRequestKey = null;
+									}
+								}
+							});
+						}, options.delay);
+					};
+				}
+
+				// click handler for search buttons
+				$(buttonSelector).click(function (e) {
+					e.preventDefault();
+					var $btn = $(this);
+					var $field = $btn.siblings(".widgetSearchBox");
+					var term = $field.val() + "";
+					if (!shouldSearch(term)) {
+						// do nothing until user types enough characters
+						$field.focus();
+						return;
+					}
+
+					if ($(checkboxSelector).is(':checked') || false)
+					{
+						doWidgetSearch($.trim(term), Number(0));
+					}
+					else {
+						doWidgetSearch($.trim(term), 0);
+					}
+				});
+
+				// enter key handler for the search field
+				$(searchFieldSelector).keypress(function (e) {
+					var code = e.which || e.keyCode;
+					if (code === 13) {
+						e.preventDefault();
+						var $this = $(this);
+						var term = $this.val() + "";
+						if (!shouldSearch(term)) {
+							// do nothing until user types enough characters
+							$this.focus();
+							return false;
+						}
+
+						if ($(checkboxSelector).is(':checked') || false) {
+							doWidgetSearch($.trim(term), Number(0));
+						} else {
+							doWidgetSearch($.trim(term), 0);
+						}
+						return false;
+					}
+					return true;
+				});
+
+				// autocomplete: set minLength and guard source
+				if (true) {
+					var $searchField = $(searchFieldSelector).autocomplete({
+						minLength: minPrefixLength,
+						source: createWidgetAutoCompleteSource({
+							delay: autoCompleteDebounceDelay,
+							timeout: 10000,
+							shouldSearch: shouldSearch,
+							url: getAutoCompleteUrl,
+							success: function () {
+								$('.autoCompleteError').remove();
+							},
+							error: function (xmlhttprequest, textstatus, message) {
+								if (textstatus === "timeout") {
+									if ($(searchFieldSelector).siblings('.autoCompleteError').length == 0)
+										$('<span class="autoCompleteError"><p class="alert error">Search autocomplete is currently not responding. Please try again later.</p></span>').insertAfter($(searchFieldSelector));
+								}
+							}
+						}),
+						html: true,
+						delay: 0,
+						select: function (event, ui) {
+							$(this).val(ui.item.value);
+							$(this).next().click();
+						}
+					});
+
+					$searchField.data("ui-autocomplete")._renderItem = function (ul, item) {
+						return $("<li class=\"itemList\"></li>")
+							.data("ui-autocomplete-item", item)
+							.append("<a>" + item.label + "</a>")
+							.appendTo(ul);
+					};
+				}
+
+				// keep searchBtnApplyQuery consistent with prefix rule
+				window.searchBtnApplyQuery = function() {
+					var $field = $(searchFieldSelector);
+					var term = $field.val() + "";
+					if (shouldSearch(term)) {
+						// update href for the icon/button (if present)
+						var btn = document.getElementById("btnSearchIcon");
+						if (btn) btn.href = "/Search?searchPhrase=" + encodeURIComponent($.trim(term));
+					} else {
+						var btn = document.getElementById("btnSearchIcon");
+						if (btn) btn.href = "#";
+					}
+				};
+			}
+			catch(e) {} //we're going to eat this error. Autocomplete won't work but we dont wan't to break anything else on the page.
+		});
+	</script>
+
+	<section id="widgetPreviewSearch" class="widget widgetSearch skin63 widgetOptionSet41" style="display: block;" aria-label="Search">
+				<!-- For the button right and inside -->
+		<div class="widgetBody buttonRightInside">
+			<input class="widgetSearchBox widgetSearchBoxdc3bf9a8-ef4b-433c-aa79-e885ac522dcf" cp5ph="true" id="searchFielddc3bf9a8-ef4b-433c-aa79-e885ac522dcf" name="searchField" onchange="searchBtnApplyQuery();" placeholder="Search our site..." type="text" value="" />
+						<a href="/Search/Results" id="btnSearchIcon" class="widgetSearchButton widgetSearchButtondc3bf9a8-ef4b-433c-aa79-e885ac522dcf" role="button"><img alt="Search" class="imageHover" data-hover="/ImageRepository/Document?documentID=22664" data-image="/ImageRepository/Document?documentID=22663" src="/ImageRepository/Document?documentID=22663" /></a>
+
+			<label class="searchLabel" aria-hidden="true" for="searchFielddc3bf9a8-ef4b-433c-aa79-e885ac522dcf">Search</label>
+		</div>
+
+	</section>
+
+
+<style scoped>
+	  
+		.widgetSearch ::-webkit-input-placeholder {
+		color: #2E2E2E;
+	  }
+		.widgetSearch :-moz-placeholder { /* Firefox 18- */
+	   color: #2E2E2E;
+	}
+		.widgetSearch ::-moz-placeholder {  /* Firefox 19+ */
+	   color: #2E2E2E;
+	}
+	.widgetSearch :-ms-input-placeholder {
+	   color: #2E2E2E;
+	}
+	
+
+	.widgetSearch .widgetBody .widgetSearchBoxdc3bf9a8-ef4b-433c-aa79-e885ac522dcf
+	{
+		color: #333333;
+		height: 60px;
+background: #E9EBF7;
+box-shadow: inset 2px 2px 6px #00000029;
+border: none;
+border-radius: 10px;
+padding: 0 60px 0 20px;
+font: 600 15px Montserrat;
+	}
+	.widgetSearch .widgetBody .widgetSearchButtondc3bf9a8-ef4b-433c-aa79-e885ac522dcf
+	{
+		margin: 11px 11px 0 0;
+	}
+	.widgetSearch .widgetSearch-onlyDeptdc3bf9a8-ef4b-433c-aa79-e885ac522dcf
+	{
+		display: inline-block;
+		color: #333;
+		
+		
+		 padding-top: 10px;
+	}
+	#ysnSearchOnlyDeptdc3bf9a8-ef4b-433c-aa79-e885ac522dcf
+	{
+		position: relative;
+		top: .125em;
+	}
+
+</style>
+
+<link rel="stylesheet" href="/Common/Controls/jquery-ui-1.14.2/jquery-ui.min.css">
+<link rel="stylesheet" href="/Common/Controls/jquery-ui-1.14.2/jquery-ui.theme.min.css">
+
+
+
+<script type="text/javascript">
+	//Updates search icons href to have the correct queryString
+	function searchBtnApplyQuery() {
+		document.getElementById("btnSearchIcon").href = "/Search?searchPhrase=" + document.getElementById("searchFielddc3bf9a8-ef4b-433c-aa79-e885ac522dcf").value;
+	}
+</script>
+
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</header><!-- Banner --><div data-cpRole="structuralContainer" id="bannerContainerTS" class="noOverflowTS">
+<div data-cpRole="banner" id="banner1"><div data-cpRole="structuralContainer" id="bannerSizingTS">
+<div data-cpRole="structuralContainer" id="bannerContentTS">
+<div class="siteWrap4"><div data-cpRole="contentContainer" id="contentTS">	<div id="ccfe1dddfa-622a-45b5-8630-7e85556b13cc" data-containerid="fe1dddfa-622a-45b5-8630-7e85556b13cc" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</div></div>
+</div>
+</div>
+
+
+
+
+		<div id="bannerImagesJSON57" class="hidden"></div>
+		<div id="bannerSlideshowControls_banner1" class="bannerSlideshowControlsNew none " style="display:none">
+			<a id="arrowPrev_banner1" tabindex="0" class="arrowNew prev" aria-label="Banner Arrow Previous"><svg style=" " class=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#iconSlideshowArrowLeft"></use></svg></a>
+			<a id="arrowNext_banner1" tabindex="0" class="arrowNew next" aria-label="Banner Arrow Next"><svg style=" " class=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#iconSlideshowArrowRight"></use></svg></a>
+		</div>
+			<script type="text/javascript">
+				$(window).on("load", function () {
+					$.when(window.Pages.rwdSetupComplete)
+						.done(function () {
+							renderExternalBannerSlideshow('banner1',
+								{"BannerOptionID":57,"ThemeID":20,"SlotName":"banner1","Name":"Default","IsDefault":true,"BannerMode":2,"SlideShowSlideTiming":"5","SlideshowTransition":0,"SlideShowTransitionTiming":"1","ImageScale":true,"ImageAlignment":1,"ImageScroll":true,"MuteSound":true,"VideoType":0,"Status":40,"SlideshowControlsPosition":0,"SlideshowControlsAlignment":0,"SlideshowBannerControlsColorScheme":0,"DisplayVideoPauseButton":false,"VideoPauseButtonAlignment":1,"VideoPauseButtonControlsAlignment":0,"VideoPauseButtonStyle":"#FFFFFF","VideoPauseButtonBackgroundStyle":"#000000","VideoPauseButtonAlignmentClass":"alignRight viewport","DisplaySlideshowPauseButton":true,"SlideshowControlsColor":"#FFFFFF","SlideshowControlsBackgroundColor":"#000000","SlideshowPauseButtonClass":"isHidden","BannerImages":[{"BannerImageID":109,"BannerOptionID":57,"FileName":"/ImageRepository/Document?documentID=22653","Height":400,"Width":2200,"StartingOn":null,"StoppingOn":null,"IsLink":false,"LinkAddress":null,"Sequence":1,"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","AltText":""},{"BannerImageID":110,"BannerOptionID":57,"FileName":"/ImageRepository/Document?documentID=22652","Height":400,"Width":2200,"StartingOn":null,"StoppingOn":null,"IsLink":false,"LinkAddress":null,"Sequence":2,"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","AltText":""},{"BannerImageID":155,"BannerOptionID":57,"FileName":"/ImageRepository/Document?documentID=11040","Height":428,"Width":2200,"StartingOn":null,"StoppingOn":null,"IsLink":false,"LinkAddress":null,"Sequence":3,"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","AltText":""}],"BannerVideos":[{"BannerVideoID":1,"BannerOptionID":57,"VideoFileName":"","ImageFileName":"EmptyBannerBkg202402252033427593.png","IsLink":false,"LinkAddress":null,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","VideoFileID":"00000000-0000-0000-0000-000000000000","ImageFileID":"00000000-0000-0000-0000-000000000000","VideoWidth":0,"VideoHeight":0,"ImageWidth":0,"ImageHeight":0,"LinkedVideoUrl":"","RecordStatus":0,"AltText":null}],"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/"},
+								'/App_Themes/2024 - Interior/Images/',
+								'Rotating');
+						});
+				});
+			</script>
+
+</div>
+</div><main data-cpRole="structuralContainer" id="mainSectionTS">
+<!-- Content container --><div data-cpRole="structuralContainer" id="mainContainerTS">
+<div class="siteWrap"><div data-cpRole="structuralContainer" id="mainWrapTS" class="mainWrap flexTS">
+<div data-cpRole="structuralContainer" id="siteSidebarTS" class="siteSidebar">
+<aside data-cpRole="contentContainer" id="sidebarContainer1TS">	<div id="cc0235963a-f451-40a9-aaaf-3f2c0a756997" data-containerid="0235963a-f451-40a9-aaaf-3f2c0a756997" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</aside><nav data-cpRole="nav" id="secondaryNav" class="siteNav secondaryNav" aria-label="Secondary">
+
+
+
+
+
+	<ol role="menu" id="secondaryMenusecondaryNav" data-parent="529" class="rootNavMenu accordionNav">
+	<li class="topMenuItem sideNavLi hasAccordionChildren" id="SideItem956" data-pageid="956">
+		<div class="accordionNavItem">
+			<a href="/956/Property-Value-Appeals-What-You-Need-To-" target="_self" class="navMainItem secondaryNavItem cpComponent" data-type="SecondaryMainItem">Property Value Appeals: What You Need To Know</a>
+		</div>
+			</li>
+	<li class="topMenuItem sideNavLi hasAccordionChildren" id="SideItem957" data-pageid="957">
+		<div class="accordionNavItem">
+			<a href="/957/Understanding-the-Property-Tax-Process" target="_self" class="navMainItem secondaryNavItem cpComponent" data-type="SecondaryMainItem">Understanding the Property Tax Process</a>
+		</div>
+			</li>
+	<li class="topMenuItem sideNavLi hasAccordionChildren" id="SideItem958" data-pageid="958">
+		<div class="accordionNavItem">
+			<a href="/958/Kootenai-County-Property-Tax-Rates" target="_self" class="navMainItem secondaryNavItem cpComponent" data-type="SecondaryMainItem">Kootenai County Property Tax Rates</a>
+		</div>
+			</li>
+
+	</ol>
+
+
+	<script type="text/javascript">
+		(function () {
+			function setupSecondaryMenuProperties() {
+				//setup menu manager properties for secondary menu
+				menuManager.isSideMenuEditable = false;
+				menuManager.sideMenuMaxSubMenuLevels = 4;
+				menuManager.sideMenuHasCustomLinks = false;
+			}
+
+			if (document.readyState === "loading") {
+				document.addEventListener("DOMContentLoaded", setupSecondaryMenuProperties, { once: true });
+				return;
+			}
+
+			setupSecondaryMenuProperties();
+		})();
+	</script>
+
+	<script type="text/javascript">
+		(function () {
+			function setupAccordionSecondaryNav() {
+				var $menuContainer = $('#secondaryNav');
+
+				$menuContainer.find('*[id^="SideItem"]').each(function () {
+					var ids = $('[id="' + this.id + '"]');
+					if (ids.length > 1)
+						$.each(ids, function (index, value) {
+							value.id = value.id + '_' + index;
+						});
+				});
+
+				$menuContainer.find('.hasAccordionChildren .openAccordionNav').off('click.secondaryNav').on('click.secondaryNav', function (e) {
+					e.preventDefault();
+					showHideAccordionMenuForSecondaryNav($(this));
+				});
+
+				$menuContainer.find(".grippy").each(function () {
+					menuManager.setupDraggableElement($(this), SIDE_MENU, '#secondaryNav');
+				});
+
+				$menuContainer.find("li").each(function () {
+					menuManager.setupDroppableAccordionElement($(this), SIDE_MENU);
+				});
+			}
+
+			if (document.readyState === "loading") {
+				document.addEventListener("DOMContentLoaded", setupAccordionSecondaryNav, { once: true });
+				return;
+			}
+
+			setupAccordionSecondaryNav();
+		})();
+	</script>
+
+
+
+</nav><aside data-cpRole="contentContainer" id="sidebarContainer2TS">	<div id="ccb66975c0-210c-44d2-861d-91c47ff54ed5" data-containerid="b66975c0-210c-44d2-861d-91c47ff54ed5" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</aside>
+</div><div data-cpRole="structuralContainer" id="outerContentWrapTS" class="outerContentWrap flexTS">
+<div data-cpRole="structuralContainer" id="contentWrapTS" class="contentWrap">
+<div data-cpRole="breadCrumbs" id="breadCrumbs" class="breadCrumbContainer">		<ol class="semanticList breadCrumbs">
+			<li><a class="breadCrumb" href="/">Home</a></li><li><a class="breadCrumb" href="/27/Government">Government</a></li><li><a class="breadCrumb" href="/487/Board-of-County-Commissioners">Board of County Commissioners</a></li><li><a class="breadCrumb" href="/529/Property-Assessment-Appeal">Property Assessment Appeal</a></li><li id="currentBCPage" data-pageid="957"><a href class="breadCrumb" aria-current="page">Understanding the Property Tax Process</a></li>
+		</ol>
+
+	   
+    
+</div><div data-cpRole="mainContentContainer" id="moduleContent">
+	
+	<div id="page" class="moduleContentNew">
+		
+
+	<input id="hdnPageID" name="hdnPageID" type="hidden" value="957" />
+	<input id="hdnParentID" name="hdnParentID" type="hidden" value="529" />
+	<input id="hdnVersionID" name="hdnVersionID" type="hidden" value="9391" />
+	<input id="pageMenuTitle" name="pageMenuTitle" type="hidden" value="Understanding the Property Tax Process" />
+	<input id="pageShowFeatureColumn" name="pageShowFeatureColumn" type="hidden" value="False" />
+	<input id="hdnIsLayoutPage" name="hdnIsLayoutPage" type="hidden" value="False" />
+	<input id="hdnPageStatus" name="hdnPageStatus" type="hidden" value="Published" />
+
+				<h1 id="versionHeadLine" class="headline">
+
+Understanding the Property Tax Process		</h1>
+	
+		<div id="cc24115854-21fa-468f-90c2-869c0de8599f" data-containerid="24115854-21fa-468f-90c2-869c0de8599f" class="pageContent cpGrid cpGrid24"  >
+			
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="999f5128-38da-4f87-869e-abd63ff217f4">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last ide0ccf267-e119-4d68-ba8b-725a1a4fdf10" style="" data-widgetcontainerid="e0ccf267-e119-4d68-ba8b-725a1a4fdf10">	
+<div class="widget editor pageStyles narrow" id="divEditor95fd65ca-0c86-4feb-9eb3-4deaf0b0b86b" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}'>
+	    <div class="fr-view">
+
+
+        <p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:center;'><strong><span style="font-size:21px;line-height:107%;color:#2F5496;">The County Property Assessment and Appeal Process</span></strong></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:center;'><span style='font-size:24px;line-height:107%;font-family:"Eras Bold ITC",sans-serif;color:#2F5496;'>What&rsquo;s My Property Worth?</span></p><h3 class="subhead2"><strong id="isPasted"><span style='font-size:19px;line-height:107%;font-family:"Calibri",sans-serif;color:#2F5496;'>Let&rsquo;s begin by understanding where property assessment occurs in the property tax process.</span></strong></h3><p style="margin-left: 60px;"><span style="font-size: 12px;"><em><strong>NOTE</strong> - Please be advised that this document is for general informational purposes only, is not legal advice, you should consult with your legal counsel regarding your specific rights or responsibilities.</em></span></p><p><span style="color: rgb(85, 57, 130);"><strong><img src="/ImageRepository/Document?documentId=18661" class="fr-fil fr-dii" alt="HOW MUCH IS MY PROPERTY WORTH(1)" style="width: 260px;"></strong></span></p><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:justify;'><strong><span style="font-size:19px;line-height:107%;color:#2F5496;">First</span></strong> &ndash; <strong>The County Assessor finds the market valuation for every property</strong> throughout the county for assessment purposes. &nbsp;Assessment notices are mailed out at the end of May.</p><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:justify;'><strong><span style="font-size:19px;line-height:107%;color:#2F5496;">Second</span></strong> &ndash; <strong>Taxing districts establish their budgets</strong> &ndash; There are about 45 taxing districts and several special assessments in Kootenai County. A typical property will lie within the boundaries of 4-10 of these taxing districts. &nbsp;Each of those taxing districts are made up of elected board members. These boards will develop their budget for the upcoming fiscal year. Each board will predict anticipated revenues verses expenses and the remaining balance becomes the requested property tax levy (<em>budget $ needed that must come from property taxes</em>) for each taxing district. This budget formation activity typically occurs during the months of April through August. &nbsp;All budget meetings are open to the public.</p><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:justify;'><strong><span style="font-size:19px;line-height:107%;color:#2F5496;">Third</span></strong> &ndash; <strong>The County Auditor calculates a levy rate</strong> &ndash; This is accomplished by dividing the total tax levy by the total valuation of all properties within the boundaries of each of the 44 taxing districts. This decimal property tax levy rate value (example .002020179) is then multiplied against the assessed valuation of your property after exemptions. &nbsp;This produces that property&rsquo;s fair share of the monies needed by each taxing district. &nbsp;If there are separate voter approved levies or bonds they are also calculated. This calculation activity occurs in the months of October and November and is computed for each of the over 90,000 properties in Kootenai County.</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:justify;'><br></p><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:justify;'><strong><span style="font-size:19px;line-height:107%;color:#2F5496;">Fourth</span></strong> &ndash; <strong>On behalf of all the taxing districts the County Treasurer creates each property tax bill</strong> &ndash; The Property Tax bills are mailed out at the end of November.</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:justify;'><br></p><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:justify;'><strong><span style="font-size:19px;line-height:107%;color:#2F5496;">Fifth</span></strong> &ndash; <strong>Payments are received</strong> &ndash; The Treasurer and Auditor distribute the tax levy dollars to each respective taxing district that they are due.</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:justify;'>&nbsp;</p><h3 class="subhead2" style="text-align: center;"><strong id="isPasted"><span style='font-size:24px;line-height:107%;font-family:"Calibri",sans-serif;color:#2F5496;'>You received your assessment notice, now what?</span></strong></h3><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>Idaho&rsquo;s property tax system depends on all properties being assessed accurately. &nbsp;Annual property assessment reviews are how each property owner can be assured each property is being assessed equally to reflect market conditions in your neighborhood. &nbsp;A property worth $1 million should be assessed at $1 million. &nbsp;A property worth $100,000 should be assessed at $100,000. &nbsp;In this manner, property owners can be assured that everyone is paying their fair share of the tax burden. &nbsp;No more, no less. &nbsp;Your property assessment value is a reflection of what your property would likely sell for if listed for sale as of January 1<sup>st</sup> of the current year.</p><h3 class="subhead2"><strong id="isPasted"><span style='font-size:21px;line-height:107%;font-family:"Calibri",sans-serif;color:#2F5496;'>Step #1</span></strong><strong><span style="color: rgb(85, 57, 130);"><br><strong id="isPasted"><span style="text-decoration: underline;"><span style='font-size:19px;line-height:107%;font-family:"Calibri",sans-serif;color:#2F5496;'>Review the statement for accuracy</span></span></strong> &nbsp;</span><span style="color: rgb(44, 130, 201);"><img src="/ImageRepository/Document?documentId=18662" class="fr-dii fr-fir" alt="example assessment" style="width: 445px;"></span></strong></h3><ul id="isPasted" style="list-style-type: disc;margin-left:undefined;"><li>Is the property size correct? (i.e. 5.0 acres)</li><li>Do the valuations of the property and improvements to the property seem reasonable <strong><span style="text-decoration: underline;">based on market sales in your neighborhood</span></strong>?</li><li>Did you make any improvements to your property in the last few years that may have caused the property value to increase?</li><li>Is there something not typical about your home compared to other homes in the neighborhood that would make its market value significantly less than others in your neighborhood?</li><li>Do you have other improvements (<em>shop, landscaping, paving, concrete, etc</em>) that might increase your value above others?</li><li>If you decided to list your property for sale, and based upon sales in your neighborhood, would you list it for more or less than the value shown on your assessment notice?</li><li>IF you qualify for an exemption, is it reflected in your assessment notice? (<em>Some exemptions must be applied for each year and all exemptions require an application</em>).</li></ul><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="font-size:21px;line-height:107%;color:#2F5496;">Step #2</span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="text-decoration: underline;"><span style="font-size:19px;line-height:107%;color:#2F5496;">A few points about the property assessment</span></span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><ul style="list-style-type: disc;margin-left:undefined;"><li>The Assessor is required to follow Idaho law regarding the assessment on your property and while a mistake can sometimes occur, the Assessor&rsquo;s team is generally very accurate and follows the requirements of the law.</li><li>The Assessor must appraise your property and all other properties in Kootenai County at <strong><span style="text-decoration: underline;">fair market value</span></strong>.</li><li>There are over 92,000 properties in Kootenai County that are assessed by the Assessor&rsquo;s Office each year.</li><li>Your assessment notice reflects the market value of your property as of January 1<sup>st</sup> of the year you receive your assessment notice.</li><li>By law, the value established by the Assessor must be within 90%-110% of fair market value (<em>based on property sales information</em>).</li><li>The Assessor must make, or attempt to make, a physical inspection once in a 5-year cycle. &nbsp;It is not uncommon that the Assessor finds significant improvements made to properties based on these physical inspection visits. &nbsp;If you property jumped significantly this year, it may be related to: (a) the physical inspection revealed improvements not known by the Assessor before, or; (b) your neighborhood is a &lsquo;hot market&rdquo; resulting in higher market sales data for your neighborhood.</li><li>The Kootenai County assessment process and assessed valuations are reviewed by the State Tax Commission to ensure they fall within the 90-110% range. &nbsp;&nbsp;</li></ul><p><span style="font-size: 11px;">(a) &ldquo;Market value&quot; means the amount of United States dollars or equivalent for which, in all probability, a property would exchange hands between a willing seller, under no compulsion to sell, and an informed, capable buyer, with a reasonable time allowed to consummate the sale, substantiated by a reasonable down or full cash payment</span></p><p><span style="font-size: 11px;"><img src="/ImageRepository/Document?documentId=15601" class="fr-fil fr-dii" alt="YourNeighborhood" style="width: 545px;"></span></p><p><br></p><p><br></p><h3 class="subhead2"><br></h3><h3 class="subhead2"><br></h3><h3 class="subhead2"><br></h3><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="font-size:21px;line-height:107%;color:#2F5496;">Step #3</span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="text-decoration: underline;"><span style="font-size:19px;line-height:107%;color:#2F5496;">You believe something is wrong with your assessment</span></span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><ul style="list-style-type: disc;margin-left:undefined;"><li><strong><span style="text-decoration: underline;">The first place to go with questions about your assessed valuation is to the Assessor&rsquo;s Office.</span></strong><strong><span style="text-decoration: underline;">&nbsp;</span></strong></li></ul><p>Contact Info: Assessor&rsquo;s Office</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 208-446-1500</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; M-F 9:00am &ndash; 5:00pm</p><ul><li>As the property owner, you may have some information that the Assessor does not possess. For example, you may know some particulars about your property that makes its valuation worth less than the value the Assessor established.</li><li>Begin by writing down details about your property/home that you feel make your home/property worth less than what homes in your neighborhood sold for in the prior year.</li><li>If you have direct knowledge about prior home sales that occurred in your neighborhood that are not representative of your home or others in your neighborhood, (<em>perhaps several of those homes had much higher quality of construction</em>) write those differences out and bring them with you when you come in to talk to the Assessor.</li><li>To support your case for a lower valuation request, the Assessor may agree to meet with you on your property to talk through the home and other structures.</li></ul><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="font-size:21px;line-height:107%;color:#2F5496;">Step #4</span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="text-decoration: underline;"><span style="font-size:19px;line-height:107%;color:#2F5496;">No luck after visiting the Assessor? &nbsp;Appeal to the Board of Equalization (BOE)</span></span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>The Assessor and his team are highly qualified. &nbsp;It is rare that they over assess a property. &nbsp;If you did not provide very specific information that persuaded them to lower your valuation, your changes of convincing others may not be successful. &nbsp;Please understand that the steps that follow could result in: (1) no change in value, (2) the value being lowered, or (3) the value being raised higher than the value calculated by the Assessor. &nbsp;However, if you believe you would like to appeal the valuation you can proceed with your appeal to the Board of Equalization (BOE). &nbsp;If you still do not get the results you desire, you may then appeal to the Idaho State Board of Tax Appeals. &nbsp;If that is unsuccessful, you could pursue legal relief in district court.</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:.5in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong>BOE APPEAL:</strong> You can appeal the assessment to the Board of Equalization (BOE) which is the Kootenai County Board of Commissioners. &nbsp;<strong><span style="text-decoration: underline;">The 4<sup>th</sup> Monday in June is the deadline to apply for appeal.</span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:.5in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><ul style="list-style-type: disc;margin-left:undefined;"><li>The BOE is a &lsquo;hearing&rsquo; and operated very much like a court and serves in a quasi-judicial capacity.</li><li>Please realize that the Assessor will be in the appeal hearing arguing to keep the value where it is and the Assessor will have supporting evidence for their valuation determination.</li><li>This will be a legal proceeding, anyone testifying will be sworn in under oath. &nbsp;You may hire an attorney to represent you. &nbsp;If you do, you will need to provide an &ldquo;Affidavit of Property Owner&rdquo;. &nbsp;Attorneys representing owners must be licensed to practice law in Idaho.</li><li>Please be aware that these hearings are public hearings and are a matter of public record. &nbsp;Citizens may sit in and/or request records of your testimony.</li><li>If you plan to appear in person, <strong><span style="text-decoration: underline;">you must provide at least 5 copies of all evidence you would like to be considered</span></strong>.</li><li>The BOE can only lower your valuation on <strong>solid credible evidence that your property value should be reduced</strong>. &nbsp;Your personal opinion of value, by itself and without supporting evidence of market value, is unlikely to present a compelling case such that your property value will be altered by the BOE. &nbsp;Making changes to any single property can create inequities to other properties. &nbsp;To keep the assessment system and process sound and fair to everyone, the BOE cannot make arbitrary adjustments to individual property valuations.</li><li>Please consider that you will have approximately <strong>10 minutes to make a compelling case that your assessment was incorrect</strong>. &nbsp;The Assessor&rsquo;s appraisers will also present their case and you both will be allowed to rebut the other. &nbsp;The BOE board may ask you questions and then they will deliberate to reach a decision.</li><li>Even if the BOE were to decide to lower the value of your property, the Assessor may appeal the BOE decision to the Idaho State Board of Tax Appeals.</li></ul><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><br></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:.5in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;margin:0in;'><strong>IDAHO STATE TAX BOARD:</strong> If you do not like the BOE ruling, you can appeal the assessment valuation to the &ldquo;Idaho State Board of Tax Appeals&rdquo; &nbsp; <a href="https://bta.idaho.gov/">https://bta.idaho.gov/</a>. &nbsp;You can find the form <a href="https://bta.idaho.gov/wp-content/uploads/sites/129/2020/04/Appeal-Form-BOE20fillable.pdf">&lt;here&gt;</a>.</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><p style='margin-top: 0in; margin-right: 0in; margin-bottom: 0.0001pt; line-height: 107%; font-size: 15px; font-family: "Calibri", sans-serif;'>&nbsp;<strong>LAWSUIT:</strong> Filing a lawsuit is the final option available to you.</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:.5in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:.5in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p><p><br></p><p id="isPasted" style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:.5in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;margin:0in;'><strong><span style="font-size:19px;line-height:107%;">Idaho Code &sect;63-502</span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:.5in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;margin:0in;'>&nbsp;</p><p style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin-top:0in;background:#FAFAFA;'><span style='font-size:15px;font-family:"Calibri",sans-serif;color:#212529;'>The function of the board of equalization shall be <strong><span style="text-decoration: underline;">confined strictly to assuring that the market value for assessment</span></strong> <strong><span style="text-decoration: underline;">purposes of property has been found by the assessor</span></strong>, and to the functions provided for in chapter 6, title 63, Idaho Code, relating to exemptions from taxation. It is hereby made the duty of the board of equalization <strong><span style="text-decoration: underline;">to enforce and compel a proper classification and assessment of all property</span></strong> required under the provisions of this title to be entered on the property rolls, and in so doing, the board of equalization shall examine the rolls and shall raise or cause to be raised, or lower or cause to be lowered, the assessment of any property which in the judgment of the board has not been properly assessed. The board of equalization must examine and act upon all complaints filed with the board in regard to the assessed value of any property entered on the property rolls and must correct any assessment improperly made. <strong><span style="text-decoration: underline;"><span style="background:yellow;">The taxpayer shall have the burden of proof in seeking affirmative relief to establish that the determination of the assessor is erroneous</span></span></strong>, including any determination of assessed value. A preponderance of the evidence shall suffice to sustain the burden of proof.</span></p><p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:.5in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;margin:0in;'>&nbsp;[63-502 added 1996, ch. 98, sec. 6, p. 344; am. 2003, ch. 266, sec. 2, p. 704.]</p><p><br></p><p id="isPasted"><br></p><p><br></p>
+    </div>
+
+<script type="text/javascript">
+	$(document).ready(function (e) {		
+	    renderSlideshowIfApplicable($('#divEditor' + '95fd65ca-0c86-4feb-9eb3-4deaf0b0b86b'));
+	});
+</script>
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+		</div>
+
+	</div>
+
+	
+	<div class="newCP">
+
+	</div>
+</div>
+</div><aside data-cpRole="contentContainer" id="featureColumn" class="secondaryContent">	<div id="cc9a06b6cd-0761-40d9-b575-a96a62b89df2" data-containerid="9a06b6cd-0761-40d9-b575-a96a62b89df2" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</aside>
+</div>
+</div></div>
+</div><!-- Calendar/Carousel --><!-- <div data-cpRole="structuralContainer" id="homeContainer1">
+    <div class="siteWrap">
+      <div data-cpRole="contentContainer" id="homeContent1a"></div>
+    </div>
+  </div> -->
+</main><!-- GBs --><div data-cpRole="structuralContainer" id="gbsContainerTS">
+<div class="siteWrap"><div data-cpRole="contentContainer" id="gbsTS">	<div id="cce1482f5d-27a3-46d4-84c5-d3170a6d2bb0" data-containerid="e1482f5d-27a3-46d4-84c5-d3170a6d2bb0" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile" data-contentcontainerbreakpoint="75">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col14 first" style="" data-widgetcontainerid="88e1103f-1da7-4057-85d9-db16f5b2717e">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col14 first last id2f67fe37-cd62-49e0-bbdb-a366e6a7538d" style="" data-widgetcontainerid="2f67fe37-cd62-49e0-bbdb-a366e6a7538d">	
+<div data-widget-id="68bac423-9d64-40ff-adb8-f9a38028915e" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidget68bac423-9d64-40ff-adb8-f9a38028915e" class="widget widgetGraphicLinks skin65 widgetOptionSet4 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid3 ">
+		<nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+				<div class="row   wide">
+					<!--
+--><div class="col col1 first "><ul class="semanticList"><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/356/Employment-Opportunities" target="_self" class="fancyButton fancyButton565 " >
+		<span>
+			<span><span class="text">Employment<br>Opportunities</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton565.fancyButton:link,.fancyButton565.fancyButton:visited, .fancyButton565div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22669');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton565.fancyButton:hover,.fancyButton565.fancyButton:focus,.fancyButton565.fancyButton:active,.fancyButton565.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton565.fancyButton:link > span,.fancyButton565.fancyButton:visited > span, .fancyButton565div.fancyButton > span{
+}
+.fancyButton565.fancyButton:hover > span,.fancyButton565.fancyButton:focus > span,.fancyButton565.fancyButton:active > span,.fancyButton565.fancyButton.hover > span{
+}
+.fancyButton565.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton565 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton565 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton565.fancyButton:hover .text,.fancyButton565.fancyButton:focus .text,.fancyButton565.fancyButton:active .text,.fancyButton565.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton565:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://id-kootenai.publicaccessnow.com/Treasurer/TaxSearch.aspx" target="_self" class="fancyButton fancyButton566 " >
+		<span>
+			<span><span class="text">Pay Taxes</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton566.fancyButton:link,.fancyButton566.fancyButton:visited, .fancyButton566div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22674');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton566.fancyButton:hover,.fancyButton566.fancyButton:focus,.fancyButton566.fancyButton:active,.fancyButton566.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton566.fancyButton:link > span,.fancyButton566.fancyButton:visited > span, .fancyButton566div.fancyButton > span{
+}
+.fancyButton566.fancyButton:hover > span,.fancyButton566.fancyButton:focus > span,.fancyButton566.fancyButton:active > span,.fancyButton566.fancyButton.hover > span{
+}
+.fancyButton566.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton566 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton566 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton566.fancyButton:hover .text,.fancyButton566.fancyButton:focus .text,.fancyButton566.fancyButton:active .text,.fancyButton566.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton566:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+--></ul></div><!----><div class="col col1  "><ul class="semanticList"><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/31/Elections" target="_self" class="fancyButton fancyButton567 " >
+		<span>
+			<span><span class="text">Elections</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton567.fancyButton:link,.fancyButton567.fancyButton:visited, .fancyButton567div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22668');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton567.fancyButton:hover,.fancyButton567.fancyButton:focus,.fancyButton567.fancyButton:active,.fancyButton567.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton567.fancyButton:link > span,.fancyButton567.fancyButton:visited > span, .fancyButton567div.fancyButton > span{
+}
+.fancyButton567.fancyButton:hover > span,.fancyButton567.fancyButton:focus > span,.fancyButton567.fancyButton:active > span,.fancyButton567.fancyButton.hover > span{
+}
+.fancyButton567.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton567 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton567 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton567.fancyButton:hover .text,.fancyButton567.fancyButton:focus .text,.fancyButton567.fancyButton:active .text,.fancyButton567.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton567:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/947/Make-an-Appointment" target="_self" class="fancyButton fancyButton568 " >
+		<span>
+			<span><span class="text">Vehicle and Driver's License<br>Appointments</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton568.fancyButton:link,.fancyButton568.fancyButton:visited, .fancyButton568div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22667');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton568.fancyButton:hover,.fancyButton568.fancyButton:focus,.fancyButton568.fancyButton:active,.fancyButton568.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton568.fancyButton:link > span,.fancyButton568.fancyButton:visited > span, .fancyButton568div.fancyButton > span{
+}
+.fancyButton568.fancyButton:hover > span,.fancyButton568.fancyButton:focus > span,.fancyButton568.fancyButton:active > span,.fancyButton568.fancyButton.hover > span{
+}
+.fancyButton568.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton568 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton568 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton568.fancyButton:hover .text,.fancyButton568.fancyButton:focus .text,.fancyButton568.fancyButton:active .text,.fancyButton568.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton568:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+--></ul></div><!----><div class="col col1  last"><ul class="semanticList"><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://gis.kcgov.us/app/kcearth/" target="_self" class="fancyButton fancyButton569 " >
+		<span>
+			<span><span class="text">Map Tool</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton569.fancyButton:link,.fancyButton569.fancyButton:visited, .fancyButton569div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22672');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton569.fancyButton:hover,.fancyButton569.fancyButton:focus,.fancyButton569.fancyButton:active,.fancyButton569.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton569.fancyButton:link > span,.fancyButton569.fancyButton:visited > span, .fancyButton569div.fancyButton > span{
+}
+.fancyButton569.fancyButton:hover > span,.fancyButton569.fancyButton:focus > span,.fancyButton569.fancyButton:active > span,.fancyButton569.fancyButton.hover > span{
+}
+.fancyButton569.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton569 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton569 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton569.fancyButton:hover .text,.fancyButton569.fancyButton:focus .text,.fancyButton569.fancyButton:active .text,.fancyButton569.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton569:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/252/District-Court" target="_self" class="fancyButton fancyButton570 " >
+		<span>
+			<span><span class="text">Court Services</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton570.fancyButton:link,.fancyButton570.fancyButton:visited, .fancyButton570div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22666');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton570.fancyButton:hover,.fancyButton570.fancyButton:focus,.fancyButton570.fancyButton:active,.fancyButton570.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton570.fancyButton:link > span,.fancyButton570.fancyButton:visited > span, .fancyButton570div.fancyButton > span{
+}
+.fancyButton570.fancyButton:hover > span,.fancyButton570.fancyButton:focus > span,.fancyButton570.fancyButton:active > span,.fancyButton570.fancyButton.hover > span{
+}
+.fancyButton570.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton570 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton570 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton570.fancyButton:hover .text,.fancyButton570.fancyButton:focus .text,.fancyButton570.fancyButton:active .text,.fancyButton570.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton570:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+--></ul></div><!--				-->
+				</div>
+			</nav>
+		</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col10 last" style="" data-widgetcontainerid="cfc14f34-fee6-4e0f-85df-02403daa6936">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col10 first last idfbd6d0ce-917c-4be9-acba-6aa1b7940f87" style="" data-widgetcontainerid="fbd6d0ce-917c-4be9-acba-6aa1b7940f87">	
+<div data-widget-id="4ad9ee5a-5c0a-4cb7-b7d4-ad7861e20f50" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidget4ad9ee5a-5c0a-4cb7-b7d4-ad7861e20f50" class="widget widgetGraphicLinks skin65 widgetOptionSet4 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid2 ">
+		<nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+				<div class="row   wide">
+					<!--
+--><div class="col col1 first "><ul class="semanticList"><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/AgendaCenter" target="_self" class="fancyButton fancyButton571 " >
+		<span>
+			<span><span class="text">Agendas /<br>Notify Me</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton571.fancyButton:link,.fancyButton571.fancyButton:visited, .fancyButton571div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22665');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton571.fancyButton:hover,.fancyButton571.fancyButton:focus,.fancyButton571.fancyButton:active,.fancyButton571.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton571.fancyButton:link > span,.fancyButton571.fancyButton:visited > span, .fancyButton571div.fancyButton > span{
+}
+.fancyButton571.fancyButton:hover > span,.fancyButton571.fancyButton:focus > span,.fancyButton571.fancyButton:active > span,.fancyButton571.fancyButton.hover > span{
+}
+.fancyButton571.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton571 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton571 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton571.fancyButton:hover .text,.fancyButton571.fancyButton:focus .text,.fancyButton571.fancyButton:active .text,.fancyButton571.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton571:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/137/Online-Payments" target="_self" class="fancyButton fancyButton572 " >
+		<span>
+			<span><span class="text">Pay a Bill</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton572.fancyButton:link,.fancyButton572.fancyButton:visited, .fancyButton572div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22673');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton572.fancyButton:hover,.fancyButton572.fancyButton:focus,.fancyButton572.fancyButton:active,.fancyButton572.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton572.fancyButton:link > span,.fancyButton572.fancyButton:visited > span, .fancyButton572div.fancyButton > span{
+}
+.fancyButton572.fancyButton:hover > span,.fancyButton572.fancyButton:focus > span,.fancyButton572.fancyButton:active > span,.fancyButton572.fancyButton.hover > span{
+}
+.fancyButton572.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton572 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton572 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton572.fancyButton:hover .text,.fancyButton572.fancyButton:focus .text,.fancyButton572.fancyButton:active .text,.fancyButton572.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton572:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+--></ul></div><!----><div class="col col1  last"><ul class="semanticList"><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://www.kcgov.us/1072/Kootenai-County-Growth-and-Service-Level" target="_self" class="fancyButton fancyButton573 " >
+		<span>
+			<span><span class="text">Growth Dashboard</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton573.fancyButton:link,.fancyButton573.fancyButton:visited, .fancyButton573div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22671');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton573.fancyButton:hover,.fancyButton573.fancyButton:focus,.fancyButton573.fancyButton:active,.fancyButton573.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton573.fancyButton:link > span,.fancyButton573.fancyButton:visited > span, .fancyButton573div.fancyButton > span{
+}
+.fancyButton573.fancyButton:hover > span,.fancyButton573.fancyButton:focus > span,.fancyButton573.fancyButton:active > span,.fancyButton573.fancyButton.hover > span{
+}
+.fancyButton573.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton573 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton573 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton573.fancyButton:hover .text,.fancyButton573.fancyButton:focus .text,.fancyButton573.fancyButton:active .text,.fancyButton573.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton573:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://id-kootenai.publicaccessnow.com/Assessor/PropertySearch.aspx" target="_self" class="fancyButton fancyButton574 " >
+		<span>
+			<span><span class="text">Parcel<br>Info Search</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton574.fancyButton:link,.fancyButton574.fancyButton:visited, .fancyButton574div.fancyButton{
+	background-color: rgb(231, 232, 239);
+	padding-left: 5.25em;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-image: url('/ImageRepository/Document?documentID=22670');
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+overflow: hidden;}
+.fancyButton574.fancyButton:hover,.fancyButton574.fancyButton:focus,.fancyButton574.fancyButton:active,.fancyButton574.fancyButton.hover{
+	background-color: rgb(231, 232, 239);
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-khtml-border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-khtml-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: .75em  center;
+}
+.fancyButton574.fancyButton:link > span,.fancyButton574.fancyButton:visited > span, .fancyButton574div.fancyButton > span{
+}
+.fancyButton574.fancyButton:hover > span,.fancyButton574.fancyButton:focus > span,.fancyButton574.fancyButton:active > span,.fancyButton574.fancyButton.hover > span{
+}
+.fancyButton574.fancyButton .text{
+	color: rgb(49, 49, 49);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: rgb(248, 249, 255);
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-right: 1em;
+	padding-left: 1em;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 5.5em;
+border: 4px solid #E7E8EF;
+line-height: 1.3;
+position: relative;
+z-index: 3;
+}
+
+.fancyButton574 .text::before {
+position: absolute;
+content: "";
+height: 2.5em;
+width: .15em;
+border-radius: .15em;
+background: #8E8E8E;
+top: 50%;
+left: -1px;
+transform: translate(0%, -50%);
+z-index: 2;
+}
+
+.fancyButton574 .text::after {
+position: absolute;
+content: "";
+height: 100%;
+width: 0px;
+border-radius: 0 10px 10px 0;
+background: #E7E8EF;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fancyButton574.fancyButton:hover .text,.fancyButton574.fancyButton:focus .text,.fancyButton574.fancyButton:active .text,.fancyButton574.fancyButton.hover .text{
+	text-decoration: underline;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-khtml-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-khtml-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.fancyButton574:is(:hover, :focus, :active) .text::after {
+width: 100%;
+}
+</style>
+
+ </li><!--
+--></ul></div><!--				-->
+				</div>
+			</nav>
+		</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</div><!-- Footer --><footer data-cpRole="structuralContainer" id="footerContainerTS">
+<div class="siteWrap"><div data-cpRole="contentContainer" id="footerTS">	<div id="cc650e139e-4b65-42c0-bf59-36221cf27940" data-containerid="650e139e-4b65-42c0-bf59-36221cf27940" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col5 first" style="" data-widgetcontainerid="ee4db878-9ba4-4702-b67e-6e28e1fbf740">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col5 first last id2720daef-9ba9-48c7-b711-b8205089eec9" style="" data-widgetcontainerid="2720daef-9ba9-48c7-b711-b8205089eec9">	
+    <div data-widget-id="977e73ba-92b8-4a15-b8f4-eada0d270045" data-widget-controller-path="/InfoAdvanced/Widget">
+
+
+
+
+
+	<section id="divInfoAdv977e73ba-92b8-4a15-b8f4-eada0d270045" class="widget widgetInfoAdvanced skin68 widgetOptionSet5 wide" data-modulewidgettype="infoAdv" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-label="Info Advanced">
+			<header class="widgetHeader" id="header977e73ba-92b8-4a15-b8f4-eada0d270045">
+		<div class="">
+								</div>
+	</header>
+	<div class="widgetBody  cpGrid cpGrid1 ">
+		<div class="row  wide">
+					<div class="col col1 first last">
+						<ol class="pageStyles semanticList">
+
+<li class="InfoAdvanced widgetItem fr-view">
+	<p><a href="/"><img src="/ImageRepository/Document?documentId=22662" class="fr-dib" alt="Kootenai County ID Homepage"></a></p>
+</li>						</ol>
+					</div>
+		</div>
+	</div>
+	<div class="widgetFooter">
+
+	</div>
+
+	</section>
+
+
+
+<script type="text/javascript">
+	//Render slideshow if info advacned items contain one.
+	$(document).ready(function (e) {
+		$('#divInfoAdv977e73ba-92b8-4a15-b8f4-eada0d270045 .InfoAdvanced.widgetItem').each(function () {
+			renderSlideshowIfApplicable($(this));		
+		});
+	});
+</script></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col1" style="" data-widgetcontainerid="2957ea4f-0ef3-40ea-b874-ea61feeb1a5a">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col1 first last id14efe0d5-7a27-4bf0-b7db-64bbce843849" style="" data-widgetcontainerid="14efe0d5-7a27-4bf0-b7db-64bbce843849">	
+
+<div class="widget widgetSpacer" id="4ed6313a-fbce-4926-bd79-3086ed2fc83d"></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col4" style="" data-widgetcontainerid="21f48668-49cb-4b5e-9b03-d43b4de34f5d">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col4 first last id032887b8-d85b-4450-a58d-e0c9f83adf11" style="" data-widgetcontainerid="032887b8-d85b-4450-a58d-e0c9f83adf11">	
+    <div data-widget-id="13cc9cf3-1f01-4570-93a3-f6bf16dc9b2b" data-widget-controller-path="/InfoAdvanced/Widget">
+
+
+
+
+
+	<section id="divInfoAdv13cc9cf3-1f01-4570-93a3-f6bf16dc9b2b" class="widget widgetInfoAdvanced skin66 widgetOptionSet5 wide" data-modulewidgettype="infoAdv" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-labelledby="header13cc9cf3-1f01-4570-93a3-f6bf16dc9b2b">
+			<header class="widgetHeader" id="header13cc9cf3-1f01-4570-93a3-f6bf16dc9b2b">
+		<div class="">
+					<h3 >Contact Us</h3>
+								</div>
+	</header>
+	<div class="widgetBody  cpGrid cpGrid1 ">
+		<div class="row  wide">
+					<div class="col col1 first last">
+						<ol class="pageStyles semanticList">
+
+<li class="InfoAdvanced widgetItem fr-view">
+	<p>451 Government Way</p>
+</li>
+<li class="InfoAdvanced widgetItem fr-view">
+	<p>Coeur d&apos;Alene, ID 83814<br><br></p>
+</li>
+<li class="InfoAdvanced widgetItem fr-view">
+	<p><a href="mailto:kcinfo@kcgov.us">Email Us</a></p>
+</li>
+<li class="InfoAdvanced widgetItem fr-view">
+	<p><a href="/directory.aspx">More contact info &gt;</a></p>
+</li>						</ol>
+					</div>
+		</div>
+	</div>
+	<div class="widgetFooter">
+
+	</div>
+
+	</section>
+
+
+
+<script type="text/javascript">
+	//Render slideshow if info advacned items contain one.
+	$(document).ready(function (e) {
+		$('#divInfoAdv13cc9cf3-1f01-4570-93a3-f6bf16dc9b2b .InfoAdvanced.widgetItem').each(function () {
+			renderSlideshowIfApplicable($(this));		
+		});
+	});
+</script></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col1" style="" data-widgetcontainerid="51410b62-b446-4047-8fdc-4c50f13d163b">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col1 first last id3612a342-b30f-4e41-a713-9fb929c1c5bd" style="" data-widgetcontainerid="3612a342-b30f-4e41-a713-9fb929c1c5bd">	
+
+<div class="widget widgetSpacer" id="5bf5f0c4-0e00-4d9d-95ac-a8a9e6147b15"></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col3" style="" data-widgetcontainerid="b899a0fb-e5e3-451f-b1b3-25eb426bdde9">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col3 first last id8530e11e-455e-4294-b58d-4622a7ae1834" style="" data-widgetcontainerid="8530e11e-455e-4294-b58d-4622a7ae1834">	
+<div data-widget-id="b4c5a6ae-10a5-49a5-8352-6c83de25d27f" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidgetb4c5a6ae-10a5-49a5-8352-6c83de25d27f" class="widget widgetGraphicLinks skin66 widgetOptionSet4 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+			<h3 id="GraphicLinkHeaderText" class="class?'':'visuallyhidden" >Social Links</h3>
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid1 ">
+		<nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+					<ul class="semanticList">
+						<!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/facebook" target="_self" class="fancyButton fancyButton550 " >
+		<span>
+			<span><span class="text">Facebook</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton550.fancyButton:link,.fancyButton550.fancyButton:visited, .fancyButton550div.fancyButton{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton550.fancyButton:hover,.fancyButton550.fancyButton:focus,.fancyButton550.fancyButton:active,.fancyButton550.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton550.fancyButton:link > span,.fancyButton550.fancyButton:visited > span, .fancyButton550div.fancyButton > span{
+}
+.fancyButton550.fancyButton:hover > span,.fancyButton550.fancyButton:focus > span,.fancyButton550.fancyButton:active > span,.fancyButton550.fancyButton.hover > span{
+}
+.fancyButton550.fancyButton .text{
+	color: rgb(248, 249, 255);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-left: 1.75em;
+	font-weight: 500;
+	text-decoration: none;
+	padding-left: 1.75em;
+	background-image: url('/ImageRepository/Document?documentID=22658');
+	background-repeat: no-repeat;
+	background-position: left center;
+
+
+}
+.fancyButton550.fancyButton:hover .text,.fancyButton550.fancyButton:focus .text,.fancyButton550.fancyButton:active .text,.fancyButton550.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+
+}
+</style>
+
+ </li><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://x.com/KootenaiCounty" target="_self" class="fancyButton fancyButton551 " >
+		<span>
+			<span><span class="text">X</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton551.fancyButton:link,.fancyButton551.fancyButton:visited, .fancyButton551div.fancyButton{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton551.fancyButton:hover,.fancyButton551.fancyButton:focus,.fancyButton551.fancyButton:active,.fancyButton551.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton551.fancyButton:link > span,.fancyButton551.fancyButton:visited > span, .fancyButton551div.fancyButton > span{
+}
+.fancyButton551.fancyButton:hover > span,.fancyButton551.fancyButton:focus > span,.fancyButton551.fancyButton:active > span,.fancyButton551.fancyButton.hover > span{
+}
+.fancyButton551.fancyButton .text{
+	color: rgb(248, 249, 255);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-left: 1.75em;
+	font-weight: 500;
+	text-decoration: none;
+	padding-left: 1.75em;
+	background-image: url('/ImageRepository/Document?documentID=22660');
+	background-repeat: no-repeat;
+	background-position: left center;
+
+
+}
+.fancyButton551.fancyButton:hover .text,.fancyButton551.fancyButton:focus .text,.fancyButton551.fancyButton:active .text,.fancyButton551.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+
+}
+</style>
+
+ </li><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://www.youtube.com/c/KootenaiCountyIdaho/featured" target="_self" class="fancyButton fancyButton552 " >
+		<span>
+			<span><span class="text">YouTube</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton552.fancyButton:link,.fancyButton552.fancyButton:visited, .fancyButton552div.fancyButton{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton552.fancyButton:hover,.fancyButton552.fancyButton:focus,.fancyButton552.fancyButton:active,.fancyButton552.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton552.fancyButton:link > span,.fancyButton552.fancyButton:visited > span, .fancyButton552div.fancyButton > span{
+}
+.fancyButton552.fancyButton:hover > span,.fancyButton552.fancyButton:focus > span,.fancyButton552.fancyButton:active > span,.fancyButton552.fancyButton.hover > span{
+}
+.fancyButton552.fancyButton .text{
+	color: rgb(248, 249, 255);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-left: 1.75em;
+	font-weight: 500;
+	text-decoration: none;
+	padding-left: 1.75em;
+	background-image: url('/ImageRepository/Document?documentID=22661');
+	background-repeat: no-repeat;
+	background-position: left center;
+
+
+}
+.fancyButton552.fancyButton:hover .text,.fancyButton552.fancyButton:focus .text,.fancyButton552.fancyButton:active .text,.fancyButton552.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+
+}
+</style>
+
+ </li><!--
+
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/79/Social-Networking" target="_self" class="fancyButton fancyButton553 " >
+		<span>
+			<span><span class="text">Instagram</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton553.fancyButton:link,.fancyButton553.fancyButton:visited, .fancyButton553div.fancyButton{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton553.fancyButton:hover,.fancyButton553.fancyButton:focus,.fancyButton553.fancyButton:active,.fancyButton553.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton553.fancyButton:link > span,.fancyButton553.fancyButton:visited > span, .fancyButton553div.fancyButton > span{
+}
+.fancyButton553.fancyButton:hover > span,.fancyButton553.fancyButton:focus > span,.fancyButton553.fancyButton:active > span,.fancyButton553.fancyButton.hover > span{
+}
+.fancyButton553.fancyButton .text{
+	color: rgb(248, 249, 255);
+	font-family: "Montserrat";
+	text-align: left;
+	padding-left: 1.75em;
+	font-weight: 500;
+	text-decoration: none;
+	padding-left: 1.75em;
+	background-image: url('/ImageRepository/Document?documentID=22659');
+	background-repeat: no-repeat;
+	background-position: left center;
+
+
+}
+.fancyButton553.fancyButton:hover .text,.fancyButton553.fancyButton:focus .text,.fancyButton553.fancyButton:active .text,.fancyButton553.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left center;
+
+
+}
+</style>
+
+ </li><!--
+					-->
+					</ul>
+			</nav>
+		</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col1" style="" data-widgetcontainerid="d3b57ebe-f2e6-4404-bf02-179fef1f45f1">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col1 first last id35ca5234-e5c0-4db0-a096-dec791b90580" style="" data-widgetcontainerid="35ca5234-e5c0-4db0-a096-dec791b90580">	
+
+<div class="widget widgetSpacer" id="63c7840b-f900-4bab-b058-c4d2c81c8688"></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col4" style="" data-widgetcontainerid="ce7418d9-5e31-4786-8515-cb14fe567fe4">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col4 first last idd2e571e9-2bb3-4bf1-b8ea-ea9cdfb6fc30" style="" data-widgetcontainerid="d2e571e9-2bb3-4bf1-b8ea-ea9cdfb6fc30">	
+	<div data-widget-id="08e78759-cca6-46a4-a674-3494053799bc" data-widget-controller-path="/QuickLinks/Widget">
+
+
+
+
+
+
+
+
+	<section id="widgetQuicklink08e78759-cca6-46a4-a674-3494053799bc" class="widget widgetQuickLinks skin66 widgetOptionSet27 narrow" data-modulewidgettype="quickLinks" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-labelledby="quickLinksHeader08e78759-cca6-46a4-a674-3494053799bc">
+			<header class="widgetHeader" id="quickLinksHeader08e78759-cca6-46a4-a674-3494053799bc">
+		<div class="">
+					<h3><a  style="" href="/QuickLinks.aspx?CID=36" >Quick Links</a></h3>
+						</div>
+	</header>
+	<div class="widgetBody cpGrid cpGrid1 ">
+        <div class="row  narrow">
+				<div class="col col1 first last">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/agendacenter" target="_self" >Agendas and Minutes</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/487/Board-of-County-Commissioners" target="_self" >Board of County Commissioners</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/221/Application-Permit-Forms" target="_self" >Building Applications and Forms</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/356/Employment-Opportunities" target="_self" >Employment Opportunities</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.kcsheriff.com/169/In-Custody-Report" target="_self" >In-Custody Report</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/137/Online-Payments" target="_self" >Online Payments</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+		</div>
+        
+	</div>
+	<div class="widgetFooter">
+	</div>
+	<div class="addItemModal hidden">
+		<div class="url hidden">/QuickLinks.aspx</div>
+	</div>
+
+	</section>
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col1" style="" data-widgetcontainerid="0d238abc-986d-4432-b420-5304817d3af0">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col1 first last id440ebf0b-976d-4bb6-bd46-dd7178f3c16d" style="" data-widgetcontainerid="440ebf0b-976d-4bb6-bd46-dd7178f3c16d">	
+
+<div class="widget widgetSpacer" id="f4695348-e3d8-4fe4-b0b5-4da07f73b13f"></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col4 last" style="" data-widgetcontainerid="fae0725b-4814-4a48-ab41-d8fda25fe18f">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col4 first last id3d68876e-fc29-445a-9bcf-a14862e7dafb" style="" data-widgetcontainerid="3d68876e-fc29-445a-9bcf-a14862e7dafb">	
+	<div data-widget-id="c31d1f92-3b01-41c8-a602-da3369257a65" data-widget-controller-path="/QuickLinks/Widget">
+
+
+
+
+
+
+
+
+	<section id="widgetQuicklinkc31d1f92-3b01-41c8-a602-da3369257a65" class="widget widgetQuickLinks skin66 widgetOptionSet27 narrow" data-modulewidgettype="quickLinks" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-labelledby="quickLinksHeaderc31d1f92-3b01-41c8-a602-da3369257a65">
+			<header class="widgetHeader" id="quickLinksHeaderc31d1f92-3b01-41c8-a602-da3369257a65">
+		<div class="">
+					<h3><a  style="" href="/QuickLinks.aspx?CID=33" >Site Links</a></h3>
+						</div>
+	</header>
+	<div class="widgetBody cpGrid cpGrid1 ">
+        <div class="row  narrow">
+				<div class="col col1 first last">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/" target="_self" >Home</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/sitemap" target="_self" >Site Map</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/accessibility" target="_self" >Accessibility</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/disclaimer" target="_self" >Disclaimer</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/site/copyright" target="_self" >Copyright Notices</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+		</div>
+        
+	</div>
+	<div class="widgetFooter">
+	</div>
+	<div class="addItemModal hidden">
+		<div class="url hidden">/QuickLinks.aspx</div>
+	</div>
+
+	</section>
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</footer><!-- Powered By --><div data-cpRole="structuralContainer" id="poweredByContainerTS">
+<div class="siteWrap"><div data-cpRole="contentContainer" id="poweredByTS">	<div id="cc57f293e9-ce34-425e-96a6-e4ba33f2a75a" data-containerid="57f293e9-ce34-425e-96a6-e4ba33f2a75a" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="9f17311c-faa5-4593-81cd-641cfe31e81f">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last idae36b9fa-2724-44ae-9f38-e3233e9a3035" style="" data-widgetcontainerid="ae36b9fa-2724-44ae-9f38-e3233e9a3035">	
+ 
+	<div data-widget-id='c848a691-41d1-46c7-9385-29b083638bec' data-moduleName="customHtml" id='widgetCustomHtmlc848a691-41d1-46c7-9385-29b083638bec' class="widget widgetCustomHtml skin65 narrow" >
+	<div class="widgetBody pageStyles" id="widgetBodyc848a691-41d1-46c7-9385-29b083638bec">
+		<div id="customHtmlc848a691-41d1-46c7-9385-29b083638bec"><div><style>
+  /* CP icon */
+  .cpBylineIconTS {
+    color: #2E2E2E;
+  }
+
+.cpBylineIconTS .p {
+    color: #AF282E;
+  }
+  /* CP Text */
+  .cpBylineTextTS,
+  .cpBylineTextTS a:link {
+    color: #2E2E2E;
+  }
+
+  .cpBylineTS {
+    text-align: center;
+  }
+  
+  .cpBylineIconTS {
+    fill: currentColor;
+    width: 39px;
+    height: 26px;
+    display: inline;
+    vertical-align: middle;
+  }
+</style>
+
+<div class="widgetItem cpBylineTS">
+  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" class="cpBylineIconTS">
+    <path class="c" d="M73.4,23.2h-19v16.7h19c2.8,0,5,2.2,5,5c0,2.8-2.2,5-5,5h-19v28.4h5.5l11.3-11.7h2.2c11.9,0,21.6-9.7,21.6-21.6C95,33,85.3,23.2,73.4,23.2"></path>
+    <path class="p" d="M45.8,66.5H26.6C14.7,66.5,5,56.8,5,44.9C5,33,14.7,23.2,26.6,23.2h19.1v16.7H26.6c-2.8,0-5,2.2-5,5c0,2.8,2.2,5,5,5h19.1V66.5z"></path>
+  </svg>
+  <span class="cpBylineTextTS">Government Websites by <a href="https://connect.civicplus.com/referral">CivicPlus&reg;</a></span>
+</div>
+</div></div>
+	</div>
+	</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</div><!-- </div> -->
+</div>
+
+            </div>
+        </div>
+    </div>
+
+<link href="/745732998.css" rel="stylesheet" type="text/css" />
+
+<div id="SplashMessageWrapper" class="cp-Splash-wrapper">
+	<div role="dialog" aria-labelledby="cp-Splash-title" aria-describedby="editorContentDesc" aria-modal="true" tabindex="-1" id="SplashMessage" class="hidden cp-Splash cp-Splash--modal is-open">
+		<div class="cp-Splash-header">
+			<h2 class="cp-Splash-title" id="cp-Splash-title">Loading</h2>
+			<button class="cp-Splash-Btn cp-Splash-close" aria-label="Close this modal" title="Close this window">
+				<svg id="iconClose" viewBox="0 0 25 25">
+					<polygon style="fill:currentcolor"
+							 points="18.806,6.98 18.075,6.248 12.532,11.792 6.989,6.248 6.257,6.98 11.786,12.508 6.212,18.084 6.943,18.815 12.532,13.224 18.12,18.815 18.851,18.084 13.277,12.508"></polygon>
+				</svg>
+			</button>
+		</div>
+		<div class="cp-Splash-body">
+			<div class="cp-Splash-Prose editorContent fr-view" id="editorContentDesc">
+				<!-- Content from the Froala Editor will go here. -->
+				Loading
+			</div>
+		</div>
+		<div class="cp-Splash-footer">
+			<button class="cp-Splash-Btn cp-Splash-Btn--NoShow">Do Not Show Again</button>
+			<button class="cp-Splash-Btn cp-Splash-Btn--Close">Close</button>
+		</div>
+	</div>
+</div>
+
+<script src="/Assets/Scripts/APIClient.js"></script>
+<script src="/Assets/Mystique/Shared/Scripts/Moment/Moment.min.js"></script>
+<script src="/Assets/Scripts/SplashModal/SplashModalRender.js"></script>
+<script>
+
+		$(document).ready(function () {
+			var filter = {
+				targetId: '957',
+				targetType: 1
+			}
+
+			new SplashModalRender().triggerRender(filter);
+		});
+</script>
+
+
+	
+	
+	
+	
+
+
+
+	
+
+
+
+
+
+
+    <script src="/-1442400649.js" type="text/javascript"></script>
+    <!--ticket 554178 -->
+<script src="https://js.adsrvr.org/up_loader.1.1.0.js" type="text/javascript"></script> <script type="text/javascript"> ttd_dom_ready( function() { if (typeof TTDUniversalPixelApi === 'function') { var universalPixelApi = new TTDUniversalPixelApi(); universalPixelApi.init("mrokbv7", ["s5yp16z"], "https://insight.adsrvr.org/track/up"); } }); </script>
+
+<!--End ticket 554178 -->
+
+
+<!-- Fixed Nav Adjustment -->
+<script>
+  function getValueTS(elem, attr) {
+    const val = elem.css(attr);
+    if (val === undefined) return undefined;
+    const num = parseInt(val, 10);
+    if (num === NaN) return undefined;
+    return num;
+  }
+
+  function clampTS(number, min, max) {
+    return Math.min(Math.max(number, min), max);
+  }
+
+  function isPageEditingTS() {
+    return (
+      $("#doneEditing").length > 0 || // In live edit
+      typeof DesignCenter !== "undefined" // In theme manager
+    );
+  }
+
+  const bgColorRegexTS = /rgba\((\d+), (\d+), (\d+), (\d*\.?\d*)\)/;
+  function isTransparentTS(elem) {
+    const bg = elem.css('background-color');
+    if (typeof bg !== "string" || !bg.startsWith('rgba(')) return false;
+    const matchState = bg.match(bgColorRegexTS);
+    if (!matchState || matchState.length !== 5) return false;
+    const alpha = parseFloat(matchState[4], 10);
+    if (!(alpha >= 0 && alpha < 1)) return false;
+    return true;
+  }
+
+  function iterateLeftpads(cb) {
+    const containersTS = $("[class^='siteWrap'],[class*=' siteWrap']");
+    for (let i = 0; i < containersTS.length; i++) {
+      const containerTS = containersTS[i];
+      // Skip the body container and anything with data-skip-leftpad
+      if (
+        containerTS.id !== "bodyContainerTS" &&
+        containerTS.getAttribute('data-skip-leftpad') === null
+      ) {
+        cb(containerTS);
+      }
+    }
+  }
+
+  function iterateRightpads(cb) {
+      const containersTS = $("[class^='siteWrap'],[class*=' siteWrap']");
+      for (let i = 0; i < containersTS.length; i++) {
+        const containerTS = containersTS[i];
+        // Skip the body container and anything with data-skip-leftpad
+        if (
+          containerTS.id !== "bodyContainerTS" &&
+          containerTS.getAttribute('data-skip-rightpad') === null
+        ) {
+          cb(containerTS);
+        }
+      }
+    }
+
+  const anchor = $("#divToolbars");
+
+  // Outer banner padding (push banner down)
+  const outerSizingTS = $("#bannerContainerTS");
+  // Inner banner padding (push banner content down) - Transparent header OR on attaching headers
+  const innerSizingTS = $("#bannerSizingTS");
+  const bodyContainerTS = $("#bodyContainerTS");
+  const headerContainerTS = $("#headerContainerTS");
+  const forceUnfixClassTS = "forceUnfixTS";
+
+  const fixedTopTS = $(".fixedTopTS");
+  const fixedBottomTS = $(".fixedBottomTS");
+  const fixedLeftTS = $(".fixedLeftTS");
+  const fixedRightTS = $(".fixedRightTS");
+
+  var initialTopTS;
+  var topAttachTS;
+  if (fixedTopTS && fixedTopTS.length === 1) {
+    initialTopTS = getValueTS(fixedTopTS, 'top');
+    const attachment = fixedTopTS.attr('data-attach');
+    if (attachment) topAttachTS = $("#" + attachment);
+    if (!topAttachTS || topAttachTS.length !== 1) topAttachTS = undefined;
+  }
+
+  function resizeAdjustmentTS() {
+    const editing = isPageEditingTS();
+
+    // Fixed top script
+    (function () {
+      if (!fixedTopTS || fixedTopTS.length !== 1 || initialTopTS === undefined) return;
+
+      if (editing) {
+        fixedTopTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedTopTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      const topPosition = fixedTopTS.css('position');
+      if (topPosition === 'fixed') {
+        if (topAttachTS) {
+          scrollAdjustmentTS();
+        } else {
+          const anchorHeight = anchor.outerHeight() - 1;
+          fixedTopTS.css('top', anchorHeight + initialTopTS);
+        }
+      } else {
+        fixedTopTS.css('top', initialTopTS);
+      }
+
+      if (topPosition === 'fixed' || topPosition === 'absolute') {
+        // Bump the banner content down
+        if (isTransparentTS(fixedTopTS)) {
+          innerSizingTS.css('padding-top', initialTopTS + fixedTopTS.outerHeight() - 1);
+          outerSizingTS.css('padding-top', '');
+
+          try {
+            window.Pages.onResizeHandlersExecute();
+          } catch (e) { }
+        } else {
+          outerSizingTS.css('padding-top', fixedTopTS.outerHeight() - 1);
+          innerSizingTS.css('padding-top', '');
+        }
+      } else {
+        innerSizingTS.css('padding-top', '');
+        outerSizingTS.css('padding-top', '');
+      }
+    })();
+
+    // Fixed bottom script
+    (function () {
+      if (!fixedBottomTS || fixedBottomTS.length === 0) return;
+
+      // If the widget has gone narrow, force unfix
+      if (editing || fixedBottomTS.outerHeight() > 200) {
+        fixedBottomTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedBottomTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      if (fixedBottomTS.css('position') === 'fixed') {
+        bodyContainerTS.css('padding-bottom', fixedBottomTS.outerHeight());
+      } else {
+        bodyContainerTS.css('padding-bottom', '');
+      }
+    })();
+
+    // Fixed left script
+    (function () {
+      if (!fixedLeftTS || fixedLeftTS.length === 0) return;
+
+      if (editing) {
+        fixedLeftTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedLeftTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      if (fixedLeftTS.css('position') === 'fixed') {
+        const anchorHeight = anchor.outerHeight() - 1;
+        const headerHeight = headerContainerTS.outerHeight() - 1;
+        fixedLeftTS.css('top', anchorHeight + headerHeight + 100);
+        const leftBoundingTS = fixedLeftTS[0].getBoundingClientRect();
+        iterateLeftpads(function (containerTS) {
+          const containerBoundingTS = containerTS.getBoundingClientRect();
+          if (containerBoundingTS.left <= leftBoundingTS.right) {
+            $(containerTS).css('padding-left', leftBoundingTS.width + 16);
+          }
+        });
+      } else {
+        fixedLeftTS.css('top', '');
+        iterateLeftpads(function (containerTS) {
+          $(containerTS).css('padding-left', '');
+        });
+      }
+    })();
+
+    // Fixed right script
+    (function () {
+        if (!fixedRightTS || fixedRightTS.length === 0) return;
+  
+        if (editing) {
+          fixedRightTS[0].classList.add(forceUnfixClassTS);
+        } else {
+          fixedRightTS[0].classList.remove(forceUnfixClassTS);
+        }
+  
+        if (fixedRightTS.css('position') === 'fixed') {
+          const anchorHeight = anchor.outerHeight() - 1;
+          const headerHeight = headerContainerTS.outerHeight() - 1;
+          fixedRightTS.css('top', anchorHeight + headerHeight + 100);
+          const rightBoundingTS = fixedRightTS[0].getBoundingClientRect();
+          iterateRightpads(function (containerTS) {
+            const containerBoundingTS = containerTS.getBoundingClientRect();
+            if (containerBoundingTS.left <= rightBoundingTS.right) {
+              $(containerTS).css('padding-right', rightBoundingTS.width + 16);
+            }
+          });
+        } else {
+          fixedRightTS.css('top', '');
+          iterateRightpads(function (containerTS) {
+            $(containerTS).css('padding-right', '');
+          });
+        }
+      })();
+  }
+
+  function scrollAdjustmentTS() {
+    if (!fixedTopTS || fixedTopTS.length !== 1 || !topAttachTS || topAttachTS.length !== 1) return;
+    const topPosition = fixedTopTS.css('position');
+    if (topPosition === 'fixed' || topPosition === 'absolute') {
+      const anchorBounding = anchor[0].getBoundingClientRect();
+      const attachBounding = topAttachTS[0].getBoundingClientRect();
+      const scrollTop = $(window).scrollTop();
+
+      fixedTopTS.css('top', Math.max(anchorBounding.bottom - 1, attachBounding.bottom));
+    } else {
+      fixedTopTS.css('top', initialTopTS);
+    }
+  }
+
+  $(window).load(function () {
+    setTimeout(function () {
+      resizeAdjustmentTS();
+    }, 350);
+
+    $(window).scroll(function () {
+      scrollAdjustmentTS();
+    });
+
+    var adjustTimeoutTS;
+    $(window).resize(function () {
+      clearTimeout(adjustTimeoutTS);
+      adjustTimeoutTS = setTimeout(function () {
+        resizeAdjustmentTS();
+      }, 350);
+    });
+
+    $.when(window.Pages.angularToolbarComplete).done(function () {
+      resizeAdjustmentTS();
+    });
+  });
+</script>
+<!-- End Fixed Nav Adjustment -->
+
+
+<!-- THIS SCRIPT WAS ESTABLISHED TO ALLOW FOR BACKGROUNDS TO RETAIN FIXED POSITIONING ON MOBILE  -->
+
+<!-- Moves the assigned banner to the outer wrap.  Make sure the selector below matches the selector specified in your site's XML files! -->
+
+<script>
+  function moveBannerToOuterWrap() {
+    if ($(".fixedBannerTS #bannerDivbanner2").length) {
+      $(".fixedBannerTS #bannerDivbanner2").appendTo("#outer-wrap");
+    } else {
+      setTimeout(function () {
+        moveBannerToOuterWrap();
+      }, 500);
+    }
+  }
+
+  moveBannerToOuterWrap();
+</script>
+
+<!----------Google Translate (Mobile Friendly)--------->
+
+<style>
+  #google-translate-container {
+    float: right;
+    padding: 3px 5px 0px 0px;
+    position: fixed; 
+    bottom: 8px; 
+    right: 100px; 
+    z-index: 5;
+  }
+
+  .goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+    font-family: arial;
+    font-size: 10pt;
+    background-image: url("https://www.gstatic.com/images/branding/product/2x/translate_24dp.png");
+    background-position: 5px 5px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    text-indent: 16px;
+    background-color: #fff;
+    color: #000 !important;
+  }
+
+  .goog-logo-link {
+    display: none !important;
+  }
+
+  .goog-te-gadget {
+    color: transparent !important;
+  }
+
+  .goog-te-gadget .goog-te-combo {
+    margin: 2px 0 !important;
+    border-radius: 15px !important;
+    }
+
+  .goog-te-combo{
+    border: 1px solid !important;
+    border-color: #bcc9d7 #96a3b1 #96a3b1 #bcc9d7 !important;
+    border-radius: 50px !important;
+    height:31px !important;
+    padding: 0 1px 0 .25rem !important;
+                width: 156px;
+  }
+
+  #launcher-wrapper {
+    bottom: 50px !important;
+  }
+  
+  .skiptranslate > span {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+</style>
+
+<div id="google-translate-container">
+  <div id="google_translate_element">
+  </div>
+</div>
+
+<script>
+
+  function googleTranslateElementInit() {
+    var el = document.getElementById("google_translate_element");
+    if (el && el.innerHTML.trim() !== "") {
+        return;
+    }
+
+    new google.translate.TranslateElement({ pageLanguage: "en" }, "google_translate_element");
+    // begin accessibility compliance
+    $('img.goog-te-gadget-icon').attr('alt','Google Translate');
+    $('div#goog-gt-tt div.logo img').attr('alt','translate');
+    $('div#goog-gt-tt .original-text').css('text-align','left');
+    $('.goog-te-gadget-simple .goog-te-menu-value span').css('color','#000000');
+    $('.goog-te-combo').attr('aria-label','google translate languages');
+    $('svg.goog-te-spinner').attr('title','Google Translate Spinner');
+    $('.goog-te-gadget-simple .goog-te-menu-value span').css('color','#000000');
+  }
+
+  $(function() {
+    $.getScript("//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit");
+  });
+
+</script>
+
+<!--------------End Google Translate----------------->
+
+<script type="text/javascript">!function(){var b=function(){window.__AudioEyeSiteHash = "ce1bb5b3436189e0fe19ed007bdde0a1"; var a=document.createElement("script");a.src="https://wsmcdn.audioeye.com/aem.js";a.type="text/javascript";a.setAttribute("async","");document.getElementsByTagName("body")[0].appendChild(a)};"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",b):window.attachEvent&&window.attachEvent("onload",b):b()}();</script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            document.cookie = "responsiveGhost=0; path=/";
+        });
+        $(window).on("load", function () {
+            $('body').addClass('doneLoading').removeClass('hideContent');
+
+            if ($('#404Content').length > 0)
+                $('div#bodyWrapper').css('padding', '0px');
+        });
+    </script>
+
+    <noscript>
+        <style>
+            body.hideContent {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+
+        
+<div style="display: none;">
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+
+		<symbol id="iconArrow--left" viewbox="0 0 25 25">
+			<title>Arrow Left</title>
+			<polygon style="fill:currentcolor" points="18.044,25 19.498,23.545 8.409,12.454 19.408,1.455 17.954,0 5.502,12.452"></polygon>
+		</symbol>
+
+		<symbol id="iconArrow--right" viewbox="0 0 25 25">
+			<title>Arrow Right</title>
+			<polygon style="fill:currentcolor" points="6.957,0 5.502,1.455 16.591,12.546 5.592,23.545 7.047,25 19.498,12.548"></polygon>
+		</symbol>
+
+	</svg>
+</div>
+    <script type="text/javascript">loadCSS('//fonts.googleapis.com/css?family=Lato:300,700,italic,regular|Montserrat:500,500italic,600,700,800,900,italic,regular|The+Girl+Next+Door:regular|');</script>
+    
+
+    <div class="hidden activeWidgetSkinComponentsOnPageJson">[]</div>
+        <div style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                <symbol id="iconSlideshowArrowLeft" viewBox="0 0 22.68 40">
+                    <title>Slideshow Left Arrow</title>
+                    <g>
+                        <path style="fill:currentcolor;" d="M20,40a2.67,2.67,0,0,1-1.9-.79L.79,21.9a2.68,2.68,0,0,1,0-3.79L18.1.79a2.68,2.68,0,1,1,3.79,3.79L6.47,20,21.89,35.42A2.68,2.68,0,0,1,20,40Z"></path>
+                    </g>
+                </symbol>
+                <symbol id="iconSlideshowArrowRight" viewBox="0 0 22.68 40">
+                    <title>Slideshow Right Arrow</title>
+                    <g>
+                        <path style="fill:currentcolor;" d="M2.68,0a2.67,2.67,0,0,1,1.9.79L21.89,18.1a2.68,2.68,0,0,1,0,3.79L4.58,39.21A2.68,2.68,0,0,1,.79,35.42L16.21,20,.79,4.58A2.68,2.68,0,0,1,2.68,0Z"></path>
+                    </g>
+                </symbol>
+            </svg>
+        </div>
+    
+	
+
+    <div id="root-picker-outlet"></div>
+</body>
+</html>
