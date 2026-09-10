@@ -25,12 +25,11 @@
       "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify district standards before each publication cycle.",
       "claimsSupported": [
         "boise-i1-purpose",
-        "boise-industrial-height-varies-by-district",
         "boise-industrial-interstate-parking-setback",
         "ada-county-vs-city-zoning-vocabularies-differ",
         "boise-mx5-no-height-maximum",
         "boise-district-pages-omit-footnote-definitions",
-        "boise-i1-i2-zero-interior-rear-setbacks"
+        "boise-city-pages-differ-from-codified-tables"
       ],
       "status": "VERIFIED"
     },
@@ -57,7 +56,6 @@
       "stalenessRisk": "MEDIUM — same rewritten-code caveat as I-1.",
       "claimsSupported": [
         "boise-i2-purpose-separation",
-        "boise-industrial-height-varies-by-district",
         "boise-industrial-interstate-parking-setback",
         "boise-i2-street-frontage-minimum",
         "ada-county-vs-city-zoning-vocabularies-differ",
@@ -87,12 +85,11 @@
       "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
       "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
       "claimsSupported": [
-        "boise-industrial-height-varies-by-district",
         "boise-i3-purpose-and-buffer",
-        "boise-i3-height-linked-setback",
         "ada-county-vs-city-zoning-vocabularies-differ",
         "boise-mx5-no-height-maximum",
-        "boise-district-pages-omit-footnote-definitions"
+        "boise-district-pages-omit-footnote-definitions",
+        "boise-city-pages-differ-from-codified-tables"
       ],
       "status": "VERIFIED"
     },
@@ -175,10 +172,10 @@
       "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
       "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
       "claimsSupported": [
-        "boise-r3-no-maximum-density",
         "boise-mx5-no-height-maximum",
         "boise-r3-height",
-        "boise-district-pages-omit-footnote-definitions"
+        "boise-district-pages-omit-footnote-definitions",
+        "boise-city-pages-differ-from-codified-tables"
       ],
       "status": "VERIFIED"
     },
@@ -932,6 +929,67 @@
       "stalenessRisk": "LOW — changes only by amendment.",
       "claimsSupported": [
         "idaho-architect-exemption-ends-at-three-units"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-11-02-11-r3",
+      "title": "Boise City Code Table 11-02.11 — R-3 Lot and Building Standards",
+      "publisher": "City of Boise (American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65331",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-06-09",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the CODIFIED ordinance, current through Ord. 20-26 passed 9 June 2026. This supersedes the City's zoning-district webpages for any dimensional standard: those pages are summaries that omit every footnote definition and, in R-3, place the markers on different rows than the code does. ⚠️ PROVENANCE: amlegal returns HTTP 403 to the caching fetcher (Cloudflare bot challenge). Captured as rendered DOM via local Chrome over CDP with a non-HeadlessChrome user agent; the meta.json records fetchedVia \"chrome-cdp\". amlegal renders server-side, so the DOM is the served page.",
+      "stalenessRisk": "LOW — changes by ordinance; the version line names the last one.",
+      "claimsSupported": [
+        "boise-r3-no-maximum-density",
+        "boise-city-pages-differ-from-codified-tables"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-industrial-tables",
+      "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
+      "publisher": "City of Boise (American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65657",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-06-09",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the CODIFIED ordinance, current through Ord. 20-26 passed 9 June 2026. This supersedes the City's zoning-district webpages for any dimensional standard: those pages are summaries that omit every footnote definition and, in R-3, place the markers on different rows than the code does. ⚠️ PROVENANCE: amlegal returns HTTP 403 to the caching fetcher (Cloudflare bot challenge). Captured as rendered DOM via local Chrome over CDP with a non-HeadlessChrome user agent; the meta.json records fetchedVia \"chrome-cdp\". amlegal renders server-side, so the DOM is the served page.",
+      "stalenessRisk": "LOW — changes by ordinance; the version line names the last one.",
+      "claimsSupported": [
+        "boise-industrial-height-varies-by-district",
+        "boise-i3-height-linked-setback",
+        "boise-i1-i2-zero-interior-rear-setbacks"
       ],
       "status": "VERIFIED"
     }

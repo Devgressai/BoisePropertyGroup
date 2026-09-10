@@ -78,7 +78,13 @@ for (const c of quoted) {
   // its halves were present. A false alarm in a verifier is expensive: it
   // teaches you to distrust the alarm.
   const fragments = c.quotedLanguage.split(/\s*(?:\.\.\.|…)\s*/).map(norm).filter((f) => f.length > 25);
-  if (!fragments.length) { partial++; continue; }
+  if (!fragments.length) {
+    // A quote with no fragment over the length threshold was silently counted
+    // as "partial" and never checked against anything. That is a hole: a claim
+    // could carry a short or malformed quote and pass the audit untested.
+    missing.push({ id: c.id, registry: c.registry, kind: "NOT FOUND", fragments: 0 });
+    continue;
+  }
   const results = fragments.map((f) => corpus.some((d) => d.text.includes(f)));
   if (results.every(Boolean)) ok++;
   else if (results.some(Boolean)) { partial++; missing.push({ id: c.id, registry: c.registry, kind: "PARTIAL", fragments: results.filter((r) => !r).length }); }

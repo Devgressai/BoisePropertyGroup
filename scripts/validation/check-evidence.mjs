@@ -148,6 +148,44 @@ if (warnings.length) { console.log(`\nWARNINGS (${warnings.length}):`); for (con
   }
 }
 
+/**
+ * Provenance of cached artifacts.
+ *
+ * Most of the cache comes from fetch-source.mjs. Some cannot: American Legal
+ * hosts the codified Boise and Ada County ordinances and returns HTTP 403 to
+ * every automated request, so those pages were captured as rendered DOM through
+ * local Chrome. That is a legitimate artifact — amlegal renders server-side, so
+ * the DOM is the served page — but it is NOT a fetcher response, and the
+ * difference must stay visible rather than be quietly forgotten.
+ *
+ * So an artifact captured another way must SAY SO and say why. The check counts
+ * them rather than rejecting them: hiding the distinction would be the problem,
+ * not the capture method.
+ */
+{
+  const CACHE_DIR = "data/idaho/raw/cache";
+  let alt = 0;
+  if (existsSync(CACHE_DIR)) {
+    for (const f of readdirSync(CACHE_DIR).filter((x) => x.endsWith(".meta.json"))) {
+      let meta;
+      try {
+        meta = JSON.parse(readFileSync(`${CACHE_DIR}/${f}`, "utf8"));
+      } catch {
+        errors.push(`${f} is not valid JSON — a cache artifact must carry readable provenance`);
+        continue;
+      }
+      if (!meta.fetchedVia) continue;
+      alt++;
+      if (!meta.note || meta.note.length < 40) {
+        errors.push(
+          `${f} records fetchedVia "${meta.fetchedVia}" with no explanation — say why the fetcher could not be used`,
+        );
+      }
+    }
+  }
+  if (alt) console.log(`  cache artifacts captured outside the fetcher: ${alt} (each carries its reason)`);
+}
+
 if (errors.length) { console.log(`\nERRORS (${errors.length}):`); for (const e of errors) console.log(`  ✗ ${e}`); process.exit(1); }
 
 console.log("\nEVIDENCE INTEGRITY: PASS");

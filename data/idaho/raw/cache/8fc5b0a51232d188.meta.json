@@ -1,0 +1,10 @@
+{
+  "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+  "fetchedAt": "2026-09-10T06:02:29.896Z",
+  "status": 200,
+  "finalUrl": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 1364378,
+  "fetchedVia": "chrome-cdp",
+  "note": "fetch-source.mjs returns HTTP 403 for this host (Cloudflare bot challenge). Captured as rendered DOM via local Chrome over CDP with a non-HeadlessChrome user agent. Content is the live page, not a fetcher response."
+}

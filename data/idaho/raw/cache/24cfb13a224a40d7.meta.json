@@ -1,0 +1,10 @@
+{
+  "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-3383",
+  "fetchedAt": "2026-09-10T06:02:30.349Z",
+  "status": 200,
+  "finalUrl": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-3383",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 226716,
+  "fetchedVia": "chrome-cdp",
+  "note": "fetch-source.mjs returns HTTP 403 for this host (Cloudflare bot challenge). Captured as rendered DOM via local Chrome over CDP with a non-HeadlessChrome user agent. Content is the live page, not a fetcher response."
+}

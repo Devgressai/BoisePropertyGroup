@@ -73,17 +73,19 @@ export const INDUSTRIAL: CommercialPageContent = {
     {
       heading: "Height is not the variable that decides site yield",
       body: [
-        "I-3's 150 feet looks like the most permissive standard in Boise's industrial set until you read the setbacks, which are tied to it. The I-3 front setback is a minimum of 45 feet plus one additional foot for every foot of building height above 45 feet, and the side street, interior side and rear setbacks all follow the front standard.",
-        "So a taller building in I-3 consumes substantially more of its parcel on every side. Height is bought with land. I-1 and I-2 work the opposite way, setting interior side and rear at zero — printed on the city's table as \"0 ft. [1]\", with a footnote we cannot read.",
+        "I-3's 150 feet looks like the most permissive standard in Boise's industrial set until you read the setbacks, which are tied to it. The I-3 front setback is a minimum of 45 feet plus one additional foot for every foot of building height above 45 feet, and the street side, interior side and rear yard all follow the front standard. So a taller building in I-3 consumes substantially more of its parcel on every side. Height is bought with land.",
+        "The 150 feet is not free-standing either. It is controlled by a 45 degree angle of bulk plan measured from all exterior property lines, so the buildable envelope narrows as you approach any boundary and a small parcel cannot reach 150 feet anywhere on it.",
+        "I-1 and I-2 appear to work the opposite way, printing a minimum interior side and rear yard of zero. That zero holds only away from housing. Where the property is adjacent to a Residential zoning district or a residential use, the minimum becomes 30 feet for development under three acres, 50 feet between three and ten acres, and 100 feet for development of ten or more acres — and it applies to parking as well as buildings. On an industrial parcel that backs onto homes, that scale of setback can decide what fits on the site.",
         "There is also a standard that catches people out on parcels near the freeway: yards adjacent to I-84 and I-184 carry their own parking setback, separate from the ordinary yard setbacks.",
       ],
     },
     {
-      heading: "The number on the city's website may not be the number that governs",
+      heading: "Read the ordinance, not the summary of it",
       body: [
-        "Boise publishes each zoning district's dimensional standards as a table on its website, and those tables carry bracketed footnote markers — [1], [2], [3]. The city does not publish what the footnotes say. The definitions live in the codified ordinance, and the code library that hosts it refuses automated requests, so the markers cannot be resolved from the public web pages at all.",
-        "The practical consequence is narrow and worth stating plainly: a setback printed as \"0 ft. [1]\" is not a setback of zero. It is a setback with a condition attached that the website does not show you. The same is true of I-3's 150 feet.",
-        "This is not a criticism of the city — a summary table is a reasonable thing for a planning department to publish. It is a reason to read the ordinance, or to ask someone who has, before making a decision that depends on a dimension.",
+        "Boise publishes each zoning district's dimensional standards as a table on its website, and those tables carry bracketed footnote markers — [1], [2], [3]. The city does not publish what the footnotes say. The definitions are in the codified ordinance.",
+        "That gap is not academic, and the industrial districts are the clearest example of it. \"0 ft. [1]\" on the city's I-1 page is the same standard that becomes 100 feet next to housing once you read note [1]. \"150 ft. [3]\" is a height governed by a bulk plan. Neither qualification appears on the page carrying the number.",
+        "In R-3 the two documents diverge further: the markers sit on different rows than the code places them, and the minimum lot area for all other uses is printed as \"2,00 sf\" where the ordinance reads 2,000 square feet.",
+        "None of this is a criticism of the city — a summary table is a reasonable thing for a planning department to publish, and the code is a click away. It is a reason to read the ordinance, or to ask someone who has, before making a decision that turns on a dimension.",
       ],
     },
     {
@@ -124,6 +126,7 @@ export const INDUSTRIAL: CommercialPageContent = {
     "boise-industrial-height-varies-by-district",
     "boise-i3-height-linked-setback",
     "boise-i1-i2-zero-interior-rear-setbacks",
+    "boise-city-pages-differ-from-codified-tables",
     "boise-industrial-interstate-parking-setback",
     "boise-i2-street-frontage-minimum",
     "boise-district-pages-omit-footnote-definitions",

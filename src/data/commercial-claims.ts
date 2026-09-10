@@ -85,8 +85,8 @@ export const commercialClaims: CommercialClaim[] = [
   },
   {
     "id": "boise-industrial-height-varies-by-district",
-    "claim": "Boise's industrial districts do not share a height standard. The city's published tables give I-1 Light and I-2 Heavy a maximum building height of 55 feet with no footnote attached, and give I-3 Industrial Technology 150 feet, qualified by a footnote the city does not publish.",
-    "quote": "HEIGHT (MAXIMUM) D Building Height 150 ft. [3]",
+    "claim": "Boise's industrial districts do not share a height standard. I-1 Light and I-2 Heavy cap building height at 55 feet with no qualification attached. I-3 Industrial Technology permits 150 feet, but that height is not free-standing: it is controlled by a 45 degree angle of bulk plan measured from all exterior property lines.",
+    "quote": "Controlled by a 45 degree angle of bulk plan from all exterior property lines up to the maximum height of 150 feet.",
     "assetClasses": [
       "industrial"
     ],
@@ -98,27 +98,15 @@ export const commercialClaims: CommercialClaim[] = [
       "industrial",
       "differentiation"
     ],
-    "confidence": "MEDIUM",
+    "confidence": "HIGH",
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": null,
     "sources": [
       {
-        "title": "Industrial Light (I-1) Zoning District — City of Boise",
-        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-light/",
-        "publisher": "City of Boise Planning and Development Services",
-        "tier": 1
-      },
-      {
-        "title": "Industrial Heavy (I-2) Zoning District — City of Boise",
-        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-heavy/",
-        "publisher": "City of Boise Planning and Development Services",
-        "tier": 1
-      },
-      {
-        "title": "Industrial Technology (I-3) Zoning District — City of Boise",
-        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-technology/",
-        "publisher": "City of Boise Planning and Development Services",
+        "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65657",
+        "publisher": "City of Boise (American Legal Publishing)",
         "tier": 1
       }
     ]
@@ -351,8 +339,8 @@ export const commercialClaims: CommercialClaim[] = [
   },
   {
     "id": "boise-i3-height-linked-setback",
-    "claim": "Boise's I-3 district ties its front setback to building height: a minimum of 45 feet plus one additional foot for every foot of building height above 45 feet, or 100 feet, and the side street, interior side and rear setbacks all follow the front standard.",
-    "quote": "SETBACKS (MINIMUM) [1] A Front 45 ft. + 1 ft. for every 1-foot increase in building height above 45 ft. OR 100ft. [2] Side Street See Front B Interior Side See Front C Rear Yard See Front",
+    "claim": "Boise's I-3 district ties its front setback to building height — a minimum of 45 feet plus one additional foot for every foot of building height above 45 feet, or 100 feet — with the street side, interior side and rear yard following the front standard. The 100-foot alternative applies where the property is adjacent to a Residential zoning district or residential use. Where a development forms part of an adopted Industrial Technology master plan, the setbacks apply only to the perimeter of the campus.",
+    "quote": "If a development is part of an adopted Industrial Technology master plan, setbacks shall apply only to the perimeter of the campus.",
     "assetClasses": [
       "industrial",
       "land"
@@ -372,9 +360,9 @@ export const commercialClaims: CommercialClaim[] = [
     "freshness": null,
     "sources": [
       {
-        "title": "Industrial Technology (I-3) Zoning District — City of Boise",
-        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-technology/",
-        "publisher": "City of Boise Planning and Development Services",
+        "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65657",
+        "publisher": "City of Boise (American Legal Publishing)",
         "tier": 1
       }
     ]
@@ -440,6 +428,36 @@ export const commercialClaims: CommercialClaim[] = [
         "title": "Mixed-Use General (MX-2) Zoning District — City of Boise",
         "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/mixed-use-general/",
         "publisher": "City of Boise Planning and Development Services",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "boise-r3-no-maximum-density",
+    "claim": "Boise's R-3 Residential Urban district states no maximum density. Its codified table gives a minimum lot area of 1,500 square feet for single-family attached and 2,000 square feet for all other uses, a 20-foot average lot width, a 20-foot minimum street frontage, and a density maximum of N/A.",
+    "quote": "LOT STANDARDS [1] Lot Area (minimum) Single-Family Attached: 1,500 sf. All Other Uses: 2,000 sf. Lot Width (average) 20 ft. Street Frontage (minimum) 20 ft. Density (maximum) N/A",
+    "assetClasses": [
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "zoning",
+      "multifamily",
+      "land",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Boise, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": null,
+    "sources": [
+      {
+        "title": "Boise City Code Table 11-02.11 — R-3 Lot and Building Standards",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65331",
+        "publisher": "City of Boise (American Legal Publishing)",
         "tier": 1
       }
     ]
@@ -931,8 +949,8 @@ export const commercialClaims: CommercialClaim[] = [
   },
   {
     "id": "boise-i1-i2-zero-interior-rear-setbacks",
-    "claim": "Boise's I-1 Light Industrial table sets the minimum interior side and rear yard setbacks at zero feet, each carrying a footnote the city does not publish, and sets the front setback at 20 feet and the side street setback at 15 feet.",
-    "quote": "SETBACKS (MINIMUM) A Front Min 20 ft. Side Street Min 15 ft. B Interior Side Min 0 ft. [1] C Rear Yard Min 0 ft. [1]",
+    "claim": "Boise's I-1 and I-2 industrial tables set minimum interior side and rear yard setbacks at zero feet, but only away from housing. Where the property is adjacent to a Residential zoning district or a residential use, the minimum becomes 30 feet for development under three acres, 50 feet between three and ten acres, and 100 feet for development of ten or more acres. Front is 20 feet and street side 15 feet in both districts.",
+    "quote": "When adjacent to a Residential zoning district or residential use, 30 ft. minimum for all development under three acres, 50 ft. minimum for all development between three acres and 10 acres, and 100 ft. minimum for all development of 10 or more acres.",
     "assetClasses": [
       "industrial"
     ],
@@ -945,15 +963,15 @@ export const commercialClaims: CommercialClaim[] = [
       "land",
       "differentiation"
     ],
-    "confidence": "MEDIUM",
+    "confidence": "HIGH",
     "jurisdiction": "Boise, Idaho",
     "verifiedOn": "2026-09-10",
     "freshness": "SLOW-CHANGING",
     "sources": [
       {
-        "title": "Industrial Light (I-1) Zoning District — City of Boise",
-        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-light/",
-        "publisher": "City of Boise Planning and Development Services",
+        "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65657",
+        "publisher": "City of Boise (American Legal Publishing)",
         "tier": 1
       }
     ]
@@ -1305,6 +1323,56 @@ export const commercialClaims: CommercialClaim[] = [
         "title": "Idaho Code § 54-306 — Exemptions [from the Architects chapter]",
         "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH3/SECT54-306/",
         "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "boise-city-pages-differ-from-codified-tables",
+    "claim": "The City of Boise's zoning district webpages are summaries and differ from the codified ordinance in ways that matter. They reproduce the dimensional tables and their bracketed markers but publish no footnote definitions, so the I-1 page shows an interior side setback of \"0 ft. [1]\" and the I-3 page a building height of \"150 ft. [3]\" without the qualifications those markers point to. In the R-3 table the markers sit on different rows than the code places them, and the minimum lot area for all other uses is printed as \"2,00 sf\" where the code reads 2,000 square feet.",
+    "quote": "Lot Width (average) 20 ft. Street Frontage (minimum) 20 ft. Density (maximum) N/A",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "zoning",
+      "research-method",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Boise, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "VOLATILE",
+    "sources": [
+      {
+        "title": "Boise City Code Table 11-02.11 — R-3 Lot and Building Standards",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65331",
+        "publisher": "City of Boise (American Legal Publishing)",
+        "tier": 1
+      },
+      {
+        "title": "Residential Urban (R-3) Zoning District — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/residential-urban/",
+        "publisher": "City of Boise Planning and Development Services",
+        "tier": 1
+      },
+      {
+        "title": "Industrial Light (I-1) Zoning District — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-light/",
+        "publisher": "City of Boise Planning and Development Services",
+        "tier": 1
+      },
+      {
+        "title": "Industrial Technology (I-3) Zoning District — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-technology/",
+        "publisher": "City of Boise Planning and Development Services",
         "tier": 1
       }
     ]
