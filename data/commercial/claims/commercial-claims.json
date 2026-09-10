@@ -54,9 +54,9 @@
       "notes": "The separation expectation matters to anyone holding I-2 ground adjacent to housing — it bears on redevelopment and on what a neighbour can object to. It is a statement of intent in the district purpose, NOT a setback requirement; do not present it as a measurable buffer."
     },
     {
-      "id": "boise-industrial-height-cap-55ft",
-      "claim": "Both of Boise's industrial districts cap building height at 55 feet — I-1 and I-2 alike.",
-      "quotedLanguage": "HEIGHT (MAXIMUM) D Building Height 55 ft.",
+      "id": "boise-industrial-height-varies-by-district",
+      "claim": "Boise's industrial height limits differ sharply by district: I-1 Light and I-2 Heavy both cap building height at 55 feet, while I-3 Industrial Technology permits up to 150 feet.",
+      "quotedLanguage": "HEIGHT (MAXIMUM) D Building Height 150 ft. [3]",
       "assetClass": [
         "industrial"
       ],
@@ -70,14 +70,15 @@
       ],
       "sourceIds": [
         "boise-zoning-i1",
-        "boise-zoning-i2"
+        "boise-zoning-i2",
+        "boise-zoning-i3"
       ],
       "confidence": "HIGH",
       "jurisdiction": "Boise, Idaho",
       "temporalStatus": "CURRENT",
       "approvedForPublication": true,
       "verifiedOn": "2026-09-10",
-      "notes": "MATERIALLY USEFUL AND RARELY STATED. Modern distribution product is often designed around clear heights that push overall building height toward or past this cap, so the 55 ft limit is a real constraint on what can be built or expanded on Boise industrial ground — and it does NOT relax in the heavy district. ⚠️ Building height is not clear height; do not equate them."
+      "notes": "⚠️⚠️ CORRECTED 2026-09-10. An earlier version of this claim asserted that BOTH industrial districts cap at 55 ft. Boise has THREE industrial districts, not two, and I-3 permits nearly three times the height. The error came from researching I-1 and I-2 and assuming the set was complete. A page built on the earlier claim would have told an owner of I-3 ground that they were capped at 55 ft. ⚠️ Building height is not clear height. ⚠️ The 150 ft figure carries footnote [3], which has NOT been read — do not present it as unconditional."
     },
     {
       "id": "boise-industrial-interstate-parking-setback",
@@ -247,6 +248,144 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-10",
       "notes": "The Jan 1 lien date and the 5-year inspection cycle are county-wide and asset-class agnostic. Useful for explaining to a commercial owner why an assessment may lag a recent change in the property."
+    },
+    {
+      "id": "boise-i3-purpose-and-buffer",
+      "claim": "Boise's I-3 Industrial Technology district provides for manufacturing and technological facilities with greater impact than the mixed-use districts allow; the code states such land should be served by major transportation facilities and buffered from adjacent residential areas.",
+      "quotedLanguage": "The I-3 zoning district is intended to provide for manufacturing and technological facilities that may have a greater impact on the surrounding area than industries allowed in the mixed-use zoning districts. Lands in the I-3 zoning district should be served by major transportation facilities and be buffered from adjacent residential areas.",
+      "assetClass": [
+        "industrial"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-i3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "I-3 is benchmarked against the MIXED-USE districts rather than against I-1/I-2, which is unusual and worth noting: the code positions it as the step up from mixed-use, not as a tier of heavy industrial."
+    },
+    {
+      "id": "boise-i3-height-linked-setback",
+      "claim": "Boise's I-3 district ties its front setback to building height: a minimum of 45 feet plus one additional foot for every foot of building height above 45 feet, or 100 feet, and the side street, interior side and rear setbacks all follow the front standard.",
+      "quotedLanguage": "SETBACKS (MINIMUM) [1] A Front 45 ft. + 1 ft. for every 1-foot increase in building height above 45 ft. OR 100ft. [2] Side Street See Front B Interior Side See Front C Rear Yard See Front",
+      "assetClass": [
+        "industrial",
+        "land"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-i3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "MATERIALLY IMPORTANT FOR SITE YIELD. The 150 ft height allowance in I-3 is not free — setbacks grow with height on every side, so a taller building consumes substantially more of the parcel. I-1 and I-2 by contrast set interior side and rear at 0 ft. Anyone comparing I-3 to I-1 on height alone is comparing the wrong variable. ⚠️ Footnotes [1] and [2] have not been read; the 'OR 100 ft' alternative is not yet understood and must not be paraphrased."
+    },
+    {
+      "id": "boise-airport-influence-overlay",
+      "claim": "Boise maintains an Airport Influence Area Overlay whose stated purposes include promoting development compatible with and protective of safe airport operation, and ensuring development is compatible with noise levels from airport operations.",
+      "quotedLanguage": "The purpose of the AI-O district is to: (a) Promote development that is compatible with and protects the safe operation of the airport; (b) Ensure all development is compatible with the noise levels from operations at the airport;",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "land",
+        "multifamily"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-aio"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "DIRECTLY RELEVANT TO INDUSTRIAL AND DEVELOPMENT GROUND. Much of Boise's industrial land sits near the airport, and an overlay is an additional layer ON TOP of the base zoning — a parcel can be I-1 and AI-O simultaneously, with the overlay adding constraints. ⚠️ Only the purpose clauses have been read; the actual standards have NOT. Do not describe what the overlay requires."
+    },
+    {
+      "id": "boise-mx2-mixed-use-general",
+      "claim": "Boise's MX-2 Mixed-Use General district provides for a mix of office, commercial, institutional and residential at a scale serving community needs broader than a nearby neighbourhood, with building height capped at 45 feet and front setbacks set as a range of minimum 0 to maximum 20 feet.",
+      "quotedLanguage": "The MX-2 district is intended to provide opportunities for a mix of office, commercial, institutional, and residential at a scale designed to serve community needs broader than those of nearby neighborhoods.",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "office",
+        "retail",
+        "multifamily",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-mx2"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "A MAXIMUM front setback is a different regulatory instrument from a minimum — it pushes buildings toward the street rather than merely keeping them off it, which constrains surface parking placement. Boise has SEVEN mixed-use districts (active, downtown, general, health, neighborhood, TOD node, university); only MX-2 has been read."
+    },
+    {
+      "id": "boise-r3-no-maximum-density",
+      "claim": "Boise's R-3 Residential Urban district states no maximum density, sets minimum lot area at 1,500 square feet for single-family attached and 2,000 square feet for all other uses, and caps building height at four stories not to exceed 50 feet.",
+      "quotedLanguage": "Density (maximum) [2][3] N./A ... HEIGHT (MAXIMUM) D Building Height 4 stories not to exceed 50 ft.",
+      "assetClass": [
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "multifamily",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-zoning-r3"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "notes": "⚠️ MEDIUM confidence deliberately. The density cell reads 'N./A' with footnotes [2][3] which have NOT been read, so 'no maximum density' may be qualified by those footnotes. The absence of a density cap would be materially important for multifamily development ground, which is precisely why it must be verified against the code text before any page relies on it. The lot-area figure is transcribed from the page as '2,00 sf' and is read as 2,000; confirm before publishing."
     }
   ]
 }

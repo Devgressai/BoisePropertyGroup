@@ -10,15 +10,24 @@
       "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-light/",
       "sourceTier": 1,
       "jurisdiction": "Boise, Idaho",
-      "assetClass": ["industrial"],
-      "topic": ["zoning", "industrial"],
+      "assetClass": [
+        "industrial"
+      ],
+      "topic": [
+        "zoning",
+        "industrial"
+      ],
       "publicationDate": null,
       "updatedDate": null,
       "accessedDate": "2026-09-10",
       "freshnessClass": "IRREGULAR",
       "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Carries district purpose plus lot, setback, parking-setback and height standards. Setback footnote [1] has NOT been read.",
       "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify district standards before each publication cycle.",
-      "claimsSupported": ["boise-i1-purpose", "boise-industrial-height-cap-55ft", "boise-industrial-interstate-parking-setback"],
+      "claimsSupported": [
+        "boise-i1-purpose",
+        "boise-industrial-height-varies-by-district",
+        "boise-industrial-interstate-parking-setback"
+      ],
       "status": "VERIFIED"
     },
     {
@@ -29,15 +38,134 @@
       "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-heavy/",
       "sourceTier": 1,
       "jurisdiction": "Boise, Idaho",
-      "assetClass": ["industrial"],
-      "topic": ["zoning", "industrial"],
+      "assetClass": [
+        "industrial"
+      ],
+      "topic": [
+        "zoning",
+        "industrial"
+      ],
       "publicationDate": null,
       "updatedDate": null,
       "accessedDate": "2026-09-10",
       "freshnessClass": "IRREGULAR",
       "authorityNotes": "Official city zoning district page, read directly with raw HTML cached.",
       "stalenessRisk": "MEDIUM — same rewritten-code caveat as I-1.",
-      "claimsSupported": ["boise-i2-purpose-separation", "boise-industrial-height-cap-55ft", "boise-industrial-interstate-parking-setback", "boise-i2-street-frontage-minimum"],
+      "claimsSupported": [
+        "boise-i2-purpose-separation",
+        "boise-industrial-height-varies-by-district",
+        "boise-industrial-interstate-parking-setback",
+        "boise-i2-street-frontage-minimum"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-i3",
+      "title": "Industrial Technology (I-3) Zoning District — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-technology/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "industrial"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
+      "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
+      "claimsSupported": [
+        "boise-i3-purpose-and-buffer",
+        "boise-i3-height-linked-setback",
+        "boise-industrial-height-varies-by-district"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-aio",
+      "title": "Airport Influence Area Overlay (AI-O) — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/airport-influence-area-overlay/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "land",
+        "multifamily"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
+      "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
+      "claimsSupported": [
+        "boise-airport-influence-overlay"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-mx2",
+      "title": "Mixed-Use General (MX-2) Zoning District — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/mixed-use-general/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
+      "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
+      "claimsSupported": [
+        "boise-mx2-mixed-use-general"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-r3",
+      "title": "Residential Urban (R-3) Zoning District — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/residential-urban/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
+      "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
+      "claimsSupported": [
+        "boise-r3-no-maximum-density"
+      ],
       "status": "VERIFIED"
     }
   ]

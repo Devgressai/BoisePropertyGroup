@@ -54,10 +54,27 @@ any cap rate or NOI figure.
 
 ---
 
-## FINDING 3 — Boise's industrial districts constrain height identically
+## FINDING 3 — Boise has THREE industrial districts, and height varies enormously
 
-Both I-1 (Light) and I-2 (Heavy) cap **building height at 55 feet**. The heavy
-district does not relax it.
+**Corrected 2026-09-10.** An earlier version of this section said Boise has two
+industrial districts both capped at 55 ft. That was wrong, and the error is
+instructive: I researched I-1 and I-2 and assumed the set was complete.
+
+| District | Height max |
+|---|---|
+| I-1 Industrial: Light | 55 ft |
+| I-2 Industrial: Heavy | 55 ft |
+| **I-3 Industrial: Technology** | **150 ft** |
+
+A page built on the earlier claim would have told an owner of I-3 ground they
+were capped at 55 feet — wrong by a factor of nearly three.
+
+**But height is not the whole comparison.** I-3 buys its height with setbacks:
+front is 45 ft plus one additional foot for every foot of building height above
+45 ft (or 100 ft), and side street, interior side and rear all follow the front
+standard. I-1 and I-2 by contrast set interior side and rear at **0 ft**. A
+taller I-3 building therefore consumes far more of its parcel. Comparing the
+districts on height alone compares the wrong variable.
 
 Other differences that do exist between them:
 
@@ -72,6 +89,7 @@ Other differences that do exist between them:
 | Parking setback, front | 10 ft | 15 ft |
 | **Parking setback adjacent to I-84 / I-184** | **10 ft** | **20 ft** |
 | Building height max | 55 ft | 55 ft |
+| *(I-3 for contrast)* | *150 ft, with height-linked setbacks on all sides* | |
 
 **Why the height cap matters.** Modern distribution product is often designed
 around clear heights that push overall building height toward or past 55 feet,
@@ -86,6 +104,31 @@ relax in the heavy district.
    nothing here transfers to them.
 
 ---
+
+## FINDING 4 — Overlays stack on top of base zoning
+
+Boise maintains 30 zoning districts, of which ten are **overlays** — including
+Airport Influence Area, Flood Protection, Boise River System, Hillside
+Development and Wildland Urban Interface.
+
+An overlay is an additional layer, not an alternative: a parcel can be I-1 **and**
+AI-O simultaneously, with the overlay adding constraints on top of the base
+district. Much of Boise's industrial ground sits near the airport, so AI-O is
+directly material to industrial and development land.
+
+⚠️ Only the AI-O *purpose clauses* have been read. Its actual standards have not,
+and no page may describe what it requires.
+
+## FINDING 5 — Seven mixed-use districts, not one
+
+Boise runs MX-A (active), MX-D (downtown), MX-2 (general), MX-H (health), MX-N
+(neighborhood), MX-T (TOD node) and MX-U (university). Only MX-2 has been read.
+
+MX-2 permits office, commercial, institutional and residential together, caps
+height at 45 ft, and sets front setbacks as a **range — minimum 0, maximum 20 ft**.
+A maximum setback is a different instrument from a minimum: it pushes buildings
+toward the street rather than merely off it, which constrains where surface
+parking can go.
 
 ## What is NOT yet evidenced, and therefore unpublishable
 
