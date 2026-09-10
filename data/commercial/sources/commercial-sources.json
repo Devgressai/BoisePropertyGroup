@@ -26,7 +26,8 @@
       "claimsSupported": [
         "boise-i1-purpose",
         "boise-industrial-height-varies-by-district",
-        "boise-industrial-interstate-parking-setback"
+        "boise-industrial-interstate-parking-setback",
+        "ada-county-vs-city-zoning-vocabularies-differ"
       ],
       "status": "VERIFIED"
     },
@@ -55,7 +56,8 @@
         "boise-i2-purpose-separation",
         "boise-industrial-height-varies-by-district",
         "boise-industrial-interstate-parking-setback",
-        "boise-i2-street-frontage-minimum"
+        "boise-i2-street-frontage-minimum",
+        "ada-county-vs-city-zoning-vocabularies-differ"
       ],
       "status": "VERIFIED"
     },
@@ -80,9 +82,10 @@
       "authorityNotes": "Official city zoning district page, read directly with raw HTML cached. Dimensional-standard footnotes have NOT been read.",
       "stalenessRisk": "MEDIUM — Boise adopted a rewritten zoning code recently; re-verify before each publication cycle.",
       "claimsSupported": [
+        "boise-industrial-height-varies-by-district",
         "boise-i3-purpose-and-buffer",
         "boise-i3-height-linked-setback",
-        "boise-industrial-height-varies-by-district"
+        "ada-county-vs-city-zoning-vocabularies-differ"
       ],
       "status": "VERIFIED"
     },
@@ -167,6 +170,36 @@
         "boise-r3-no-maximum-density"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "ada-county-zoning-title8-draft",
+      "title": "Ordinance Enacting New Ada County Code Title 8 — Ada County Zoning Ordinance (DRAFT, unnumbered)",
+      "publisher": "Ada County Development Services",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/developmentservices/wp-content/uploads/sites/37/12_2_2024-ORDINANCE-ENACTING-NEW-TITLE-8-ADA-COUNTY-ZONING-CODE-PDF-PZ_JAN2025.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "unincorporated Ada County, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "land",
+        "multifamily"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": "2024-12-02",
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "ORDINANCE",
+      "authorityNotes": "⚠️ NOT A CERTIFIED ADOPTED TEXT. County-published PDF, 11.8 MB, downloaded and text-extracted; the ordinance number is left BLANK and the filename carries a PZ_JAN2025 marker, indicating a draft presented to the Planning and Zoning Commission. Substantively detailed and almost certainly close to the adopted code, but not proof of what was adopted.",
+      "stalenessRisk": "HIGH — a draft superseded by whatever was actually enacted. The codified text at codelibrary.amlegal.com is the authority and returns 403 to automated retrieval; it must be read manually before any claim from this document is published.",
+      "claimsSupported": [
+        "ada-county-zoning-districts-schedule",
+        "ada-county-vs-city-zoning-vocabularies-differ"
+      ],
+      "status": "PENDING_VERIFICATION"
     }
   ]
 }
