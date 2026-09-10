@@ -1,3 +1,4 @@
+import Image from "next/image";
 const STEPS = [
   {
     n: "01",
@@ -38,6 +39,20 @@ export default function HowItWorks() {
             </li>
           ))}
         </ol>
+
+        {/* Illustrative photography. Not a client, not a completed sale — see
+            the note in HumanScale.tsx. It sits here because the third step is
+            the one people picture, and a wall of text about escrow does not. */}
+        <div className="mt-14 overflow-hidden rounded-sm border border-[var(--bpg-border)]">
+          <Image
+            src="/images/keys-handover.webp"
+            alt="A house key being passed from one person to another across a wooden table"
+            width={1024}
+            height={768}
+            sizes="(min-width: 1200px) 1152px, 100vw"
+            className="h-[16rem] w-full object-cover object-center sm:h-[20rem]"
+          />
+        </div>
       </div>
     </section>
   );

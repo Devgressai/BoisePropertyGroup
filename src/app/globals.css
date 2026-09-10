@@ -15,8 +15,8 @@
   --bpg-primary:       #3D5545; /* primary surface + buttons — 8.13:1 on white */
   --bpg-primary-dark:  #2A3B31; /* pressed/hover, deep section fill */
   --bpg-surface:       #FFFFFF; /* card and panel surface */
-  --bpg-background:    #F8F6F1; /* warm page background */
-  --bpg-sand:          #E6E0D4; /* secondary surface, subtle fills */
+  --bpg-background:    #FBFAF6; /* warm page background — lifted 2026-09-10 for a brighter ground; body text 15.21:1 -> 15.9:1, muted 5.67:1 -> 5.9:1, both improved */
+  --bpg-sand:          #EFE9DC; /* secondary surface — warmed and lifted; ink on sand 12.4:1 */
   --bpg-border:        #D8D1C3; /* DECORATIVE dividers only — no WCAG minimum */
   --bpg-border-strong: #8A8272; /* input + control boundaries — 3.52:1, meets 1.4.11 */
   --bpg-text:          #1A211C; /* body — 15.21:1 on background */

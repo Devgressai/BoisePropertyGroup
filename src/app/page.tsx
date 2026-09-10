@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import WhatWeBuy from "@/components/WhatWeBuy";
 import HowItWorks from "@/components/HowItWorks";
+import HumanScale from "@/components/HumanScale";
 import LocalKnowledge from "@/components/LocalKnowledge";
 import WhenNotToSell from "@/components/WhenNotToSell";
 import FinalCTA from "@/components/FinalCTA";
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <WhatWeBuy />
         <HowItWorks />
+        <HumanScale />
         <LocalKnowledge />
         <WhenNotToSell />
         <FinalCTA />
