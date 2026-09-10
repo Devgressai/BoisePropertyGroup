@@ -1,9 +1,9 @@
 # OPEN ITEMS
 
-**Generated** 2026-09-09 by `scripts/validation/build-open-items.mjs`. Do not hand-edit
+**Generated** 2026-09-10 by `scripts/validation/build-open-items.mjs`. Do not hand-edit
 the derived sections; edit `MANUAL` in the generator.
 
-Current state: **75 claims (75 approved) · 45 sources · 92 jurisdiction rows**
+Current state: **77 claims (77 approved) · 46 sources · 99 jurisdiction rows**
 
 | # | Kind | Item | Owner | Note |
 |---:|---|---|---|---|
@@ -15,17 +15,15 @@ Current state: **75 claims (75 approved) · 45 sources · 92 jurisdiction rows**
 | 6 | ASK | Free Census API key | owner | api.census.gov/data/key_signup.html. ACS 302s without one. Blocks the entire Housing dimension. |
 | 7 | RESEARCH | Housing stock, tenure, vacancy, housing age | claude | Largest remaining evidence gap. Needs ACS. |
 | 8 | RESEARCH | Search demand / keyword volume | claude | No tool available. Volume must stay null; do not fabricate. |
-| 9 | RESEARCH | Boise deep dive | claude | Phase 2 step 05. Not started as a distinct dossier. |
-| 10 | WRITE | City content blueprints (7) | claude | Phase 2 steps 31/40/41 — not written. |
-| 11 | WRITE | Master research report + machine-readable manifest | claude | Phase 2 steps 43/44 — not written. |
 
 
-| 12 | UNRESEARCHED JURISDICTION | building-permits | claude | No page may state who performs this function. |
-| 13 | UNVERIFIED JURISDICTION | water-rights | claude | Authority named but not sourced — cities only. |
-| 14 | THIN ENTITY | Hidden Spring | claude | 0 direct claims — below the 6 needed to differentiate a page. |
-| 15 | THIN ENTITY | Garden City | claude | 5 direct claims — below the 6 needed to differentiate a page. |
+| 9 | UNRESEARCHED JURISDICTION | sewer | claude | No page may state who performs this function. |
+| 10 | UNRESEARCHED JURISDICTION | building-permits | claude | No page may state who performs this function. |
+| 11 | UNVERIFIED JURISDICTION | water-rights | claude | Authority named but not sourced — cities only. |
+| 12 | THIN ENTITY | Hidden Spring | claude | 0 direct claims — below the 6 needed to differentiate a page. |
+| 13 | THIN ENTITY | Garden City | claude | 5 direct claims — below the 6 needed to differentiate a page. |
 
-**15 open items.**
+**13 open items.**
 
 ## Gate status
 
