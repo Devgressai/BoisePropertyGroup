@@ -20,7 +20,7 @@ const LAND = [
 ];
 
 const COMMERCIAL = [
-  { t: "Multifamily", d: "Duplex through apartment buildings, occupied or partly vacant." },
+  { t: "Multifamily", d: "Four units or four hundred. Occupied, partly vacant, or mid-turnaround." },
   { t: "Office buildings", d: "Single tenant, multi tenant, or sitting empty." },
   { t: "Industrial", d: "Warehouse, flex, shop and yard space." },
 ];

@@ -15,7 +15,7 @@ const PROPERTY_TYPES = [
   ["Single-family house", ["assessment","disclosure","property-taxes"], "CORE", "The default. Evidence is broad."],
   ["Rental / unwanted rental", ["tenants","disclosure"], "CORE", "Deposit liability transfers on sale (6-321(3)); disclosure applies to non-owner-occupied rental."],
   ["Small multifamily (2-4 units)", ["assessment","disclosure","tenants"], "HIGH", "Assessor treats up to four units as residential; disclosure act covers 1-4 dwelling units. Clean boundary."],
-  ["Multifamily 5+ units", ["assessment"], "CORE", "OWNER-CONFIRMED acquisition target (2026-09-10). Falls outside the residential assessment and disclosure boundaries — Ada County routes apartments to commercial appraisers — so the residential evidence base does not reach it."],
+  ["Multifamily, any size", ["assessment"], "CORE", "OWNER-CONFIRMED 2026-09-10: four units or four hundred, without qualification. Note the STATUTORY boundary is unrelated to appetite — Ada County routes 5+ units to commercial appraisers and Idaho disclosure covers 1-4 dwelling units, so residential evidence stops at four even though acquisition does not."],
   ["Manufactured / mobile home", ["manufactured-housing","real-vs-personal-property","recording"], "HIGH", "63-304 conversion test is decisive and well evidenced."],
   ["Vacant land / lot", ["land","subdivision","water","irrigation"], "HIGH", "Irrigation, water and subdivision evidence is strong."],
   ["Acreage / rural property", ["water","well","septic","irrigation","acreage"], "HIGH", "Domestic water cap, septic authority and irrigation districts all evidenced."],
@@ -71,7 +71,7 @@ function score(topics) {
  * the registry can actually support, with the reason recorded.
  */
 const OVERRIDE = {
-  "Multifamily 5+ units": ["LOW", "The business buys these, but no multifamily-specific evidence exists — the topic score comes entirely from general assessment claims. It may be SOLD as a service; it may not yet be WRITTEN ABOUT as a page."],
+  "Multifamily, any size": ["LOW", "The business buys these at ANY size without qualification. No multifamily-specific Idaho evidence exists yet, so the grade reflects what a PAGE could source, not what we will acquire."],
   "Divorce": ["LOW", "The only divorce-specific evidence is one disclosure exemption, which covers spouse-to-spouse transfers ONLY. Idaho community property treatment of real property is unresearched."],
   "Liens and judgments": ["LOW", "The `liens` topic is tagged loosely across unrelated claims. No lien- or judgment-specific research has been done."],
   "Bad tenants / unauthorized occupants": ["MEDIUM", "6-310A is well evidenced but excludes former tenants and family members, which is most of what sellers mean. Narrower than the topic count suggests."],

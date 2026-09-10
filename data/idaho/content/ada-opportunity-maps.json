@@ -44,7 +44,7 @@
       "note": "Assessor treats up to four units as residential; disclosure act covers 1-4 dwelling units. Clean boundary."
     },
     {
-      "name": "Multifamily 5+ units",
+      "name": "Multifamily, any size",
       "businessRelevance": "CORE",
       "evidenceTopics": [
         "assessment"
@@ -52,8 +52,8 @@
       "claimsUnion": 7,
       "weakestRequiredTopic": "assessment (7)",
       "evidenceGrade": "LOW",
-      "overrideReason": "The business buys these, but no multifamily-specific evidence exists — the topic score comes entirely from general assessment claims. It may be SOLD as a service; it may not yet be WRITTEN ABOUT as a page.",
-      "note": "OWNER-CONFIRMED acquisition target (2026-09-10). Falls outside the residential assessment and disclosure boundaries — Ada County routes apartments to commercial appraisers — so the residential evidence base does not reach it."
+      "overrideReason": "The business buys these at ANY size without qualification. No multifamily-specific Idaho evidence exists yet, so the grade reflects what a PAGE could source, not what we will acquire.",
+      "note": "OWNER-CONFIRMED 2026-09-10: four units or four hundred, without qualification. Note the STATUTORY boundary is unrelated to appetite — Ada County routes 5+ units to commercial appraisers and Idaho disclosure covers 1-4 dwelling units, so residential evidence stops at four even though acquisition does not."
     },
     {
       "name": "Manufactured / mobile home",
