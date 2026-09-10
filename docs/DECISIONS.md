@@ -113,3 +113,31 @@ acknowledged debt. Both are avoidable by measuring first.
 
 **Technical.** Contrast is computed in
 `scripts/migration/build-visual-direction.mjs`, not asserted.
+
+---
+
+## 2026-09-10 — Vercel framework preset must be Next.js, not "Other"
+
+**Decision.** The Vercel project's Framework Preset is `Next.js`.
+
+**Symptom this fixes.** With the preset left on `Other`, every deployment
+reported **Ready** and every single path returned **404 NOT_FOUND** — including
+`/robots.txt`, which the app generates at runtime.
+
+**Cause.** On `Other`, Vercel runs `npm run build` (which succeeds, producing
+`.next/`), then discards it and serves the **`public/` directory** as a static
+site. `public/` holds one image and no `index.html`, so there is nothing to
+serve at any route.
+
+**Why it was hard to spot.** Every signal pointed away from the real cause: the
+build succeeded, CI was green, deployments were Ready in 30-40s, and the repo
+was fully pushed. Vercel's own deployment thumbnail rendered the 404, which
+looked like an application fault rather than a platform setting.
+
+**How to diagnose it next time.** `vercel project inspect <name> --scope <team>`
+prints Framework Preset and Output Directory. If Output Directory reads
+``public` if it exists, or `.`` on a Next.js app, the preset is wrong. The
+tell-tale is that `/robots.txt` 404s: a running Next app always serves it.
+
+**Note.** The setting lives under **Settings → Build and Deployment**, not
+Settings → General.
