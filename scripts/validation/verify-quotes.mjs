@@ -13,9 +13,20 @@
 import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 
-const claims = JSON.parse(readFileSync("data/idaho/evidence/ada-claims.json", "utf8")).claims;
-const sources = JSON.parse(readFileSync("data/idaho/sources/ada-county-sources.json", "utf8")).sources;
-const srcById = Object.fromEntries(sources.map((s) => [s.id, s]));
+/**
+ * BOTH registries. The commercial registry was added later and was NOT audited
+ * here for its first 27 claims — the gate reported "every quote traced" while
+ * silently checking only the residential file. A verifier that quietly covers
+ * half of what you think it covers is worse than no verifier, because it
+ * produces confidence rather than doubt.
+ */
+const REGISTRIES = [
+  { label: "residential", path: "data/idaho/evidence/ada-claims.json" },
+  { label: "commercial", path: "data/commercial/claims/commercial-claims.json" },
+];
+const claims = REGISTRIES.flatMap((r) =>
+  JSON.parse(readFileSync(r.path, "utf8")).claims.map((c) => ({ ...c, registry: r.label })),
+);
 
 function toText(html) {
   return html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ")
@@ -49,23 +60,33 @@ const quoted = claims.filter((c) => c.approvedForPublication && c.quotedLanguage
 let ok = 0, partial = 0, missing = [];
 
 for (const c of quoted) {
-  // Quotes may join separated passages with " ... " — verify each fragment.
-  const fragments = c.quotedLanguage.split(/\s*\.\.\.\s*/).map(norm).filter((f) => f.length > 25);
+  // Quotes may join separated passages with an ellipsis — verify each fragment.
+  // BOTH forms: three ASCII dots and the single U+2026 character. Only the
+  // ASCII form was handled at first, so a quote written with a real ellipsis
+  // was checked as one long run-on string and reported NOT FOUND when both of
+  // its halves were present. A false alarm in a verifier is expensive: it
+  // teaches you to distrust the alarm.
+  const fragments = c.quotedLanguage.split(/\s*(?:\.\.\.|…)\s*/).map(norm).filter((f) => f.length > 25);
   if (!fragments.length) { partial++; continue; }
   const results = fragments.map((f) => corpus.some((d) => d.text.includes(f)));
   if (results.every(Boolean)) ok++;
-  else if (results.some(Boolean)) { partial++; missing.push({ id: c.id, kind: "PARTIAL", fragments: results.filter((r) => !r).length }); }
-  else missing.push({ id: c.id, kind: "NOT FOUND", fragments: fragments.length });
+  else if (results.some(Boolean)) { partial++; missing.push({ id: c.id, registry: c.registry, kind: "PARTIAL", fragments: results.filter((r) => !r).length }); }
+  else missing.push({ id: c.id, registry: c.registry, kind: "NOT FOUND", fragments: fragments.length });
 }
 
 console.log(`corpus: ${corpus.length} cached artifacts`);
+for (const r of REGISTRIES) {
+  const n = quoted.filter((c) => c.registry === r.label).length;
+  console.log(`  ${r.label.padEnd(12)} ${n} approved claims carrying a quote`);
+}
 console.log(`approved claims with quoted language: ${quoted.length}`);
 console.log(`  fully verified against cache : ${ok}`);
 console.log(`  partially verified           : ${partial}`);
 console.log(`  NOT FOUND in any cache       : ${missing.filter((m) => m.kind === "NOT FOUND").length}`);
 if (missing.length) {
   console.log("\nclaims needing attention:");
-  for (const m of missing) console.log(`  ${m.kind.padEnd(10)} ${m.id} (${m.fragments} fragment(s))`);
+  for (const m of missing) console.log(`  ${m.kind.padEnd(10)} [${m.registry}] ${m.id} (${m.fragments} fragment(s))`);
 }
 const notFound = missing.filter((m) => m.kind === "NOT FOUND").length;
 console.log(notFound ? `\nQUOTE AUDIT: ${notFound} unverifiable` : "\nQUOTE AUDIT: every quote traced to a cached source");
+process.exit(notFound ? 1 : 0);

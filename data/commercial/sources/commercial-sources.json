@@ -550,6 +550,126 @@
         "multifamily-serp-boundary-matches-finance-boundary"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idaho-code-63-205",
+      "title": "Idaho Code § 63-205 — Assessment — Market value for assessment purposes",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH2/SECT63-205/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "assessment",
+        "valuation"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-01",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — primary statute, read from the Legislature's own site and cached. The site states Idaho Statutes are updated following the legislative session each 1 July.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "idaho-assessment-lien-date-statutory"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idaho-code-63-208",
+      "title": "Idaho Code § 63-208 — Rules pertaining to market value — Duty of assessors",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH2/SECT63-208/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "assessment",
+        "valuation"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-01",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — primary statute, read from the Legislature's own site and cached. The site states Idaho Statutes are updated following the legislative session each 1 July.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "idaho-assessment-ratio-band-90-110"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idaho-code-63-314",
+      "title": "Idaho Code § 63-314 — County valuation program to be carried on by assessor",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-314/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "assessment",
+        "valuation"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-01",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — primary statute, read from the Legislature's own site and cached. The site states Idaho Statutes are updated following the legislative session each 1 July.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "idaho-appraisal-cycle-five-years"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-assessor-overview",
+      "title": "Assessor — Ada County",
+      "publisher": "Ada County Assessor",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/assessor/",
+      "sourceTier": 2,
+      "jurisdiction": "Ada County, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "assessment",
+        "valuation"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the county's own description of how its appraisal staff is organised and what each team values. Authoritative for the county's practice; not a statute.",
+      "stalenessRisk": "MEDIUM — a departmental page can be reorganised without notice.",
+      "claimsSupported": [
+        "ada-apartments-valued-by-commercial-appraisers"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

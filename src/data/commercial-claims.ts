@@ -232,7 +232,7 @@ export const commercialClaims: CommercialClaim[] = [
   {
     "id": "ada-apartments-valued-by-commercial-appraisers",
     "claim": "Ada County's commercial appraisers, not its residential appraisers, value apartments and high-density residential — alongside office, retail and industrial.",
-    "quote": "Our team of commercial appraisers handle valuation for all commercial property types, including, office, retail, industrial, and high-density residential (apartments).",
+    "quote": "Our team of commercial appraisers handle valuation for all commercial property types, including, office, retail, industrial, and high-density residential (apartments) uses.",
     "assetClasses": [
       "multifamily",
       "office",
@@ -253,10 +253,10 @@ export const commercialClaims: CommercialClaim[] = [
     "freshness": null,
     "sources": [
       {
-        "title": "Real & Manufactured Property Assessment — Ada County Assessor",
-        "url": "https://adacounty.id.gov/assessor/property-assessments-records/real-manufactured-property-assessment/",
+        "title": "Assessor — Ada County",
+        "url": "https://adacounty.id.gov/assessor/",
         "publisher": "Ada County Assessor",
-        "tier": 1
+        "tier": 2
       }
     ]
   },
@@ -867,6 +867,102 @@ export const commercialClaims: CommercialClaim[] = [
         "title": "Industrial Light (I-1) Zoning District — City of Boise",
         "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/industrial-light/",
         "publisher": "City of Boise Planning and Development Services",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-assessment-ratio-band-90-110",
+    "claim": "Idaho law does not require an assessment to match market value exactly. It requires that the median ratio of assessed value to market value, for each category of property tested, fall within a range of 90 percent to 110 percent of market value, tested with statistical methods, and that categories be within five percentage points of one another.",
+    "quote": "The recognized appraisal methods shall, at a minimum, require the assessment of such property to reflect, within reasonable statistical certainty, the median ratio of assessed value to market value for the categories of property being tested within a range of ninety percent (90%) to one hundred ten percent (110%) of market value",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "assessment",
+      "valuation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-208 — Rules pertaining to market value — Duty of assessors",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH2/SECT63-208/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-appraisal-cycle-five-years",
+    "claim": "Idaho requires every taxable property to be appraised at least once every five years, on a rolling schedule reaching fifteen percent of a county's properties in year one and one hundred percent by year five. In the years between appraisals, a property is indexed to current market value using market value property transactions rather than individually appraised.",
+    "quote": "Annually, all taxable property, not appraised that year, shall be indexed to reflect current market value for assessment purposes using market value property transactions and results of the annual appraisal of taxable property.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "assessment",
+      "valuation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-314 — County valuation program to be carried on by assessor",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-314/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-assessment-lien-date-statutory",
+    "claim": "Idaho sets the assessment date by statute at 12:01 a.m. on the first day of January of the year the taxes are levied, for all real, personal and operating property subject to property taxation.",
+    "quote": "All real, personal and operating property subject to property taxation must be assessed annually at market value for assessment purposes as of 12:01 a.m. of the first day of January in the year in which such property taxes are levied, except as otherwise provided.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "assessment",
+      "property-taxes",
+      "valuation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "EVERGREEN",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-205 — Assessment — Market value for assessment purposes",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH2/SECT63-205/",
+        "publisher": "Idaho State Legislature",
         "tier": 1
       }
     ]

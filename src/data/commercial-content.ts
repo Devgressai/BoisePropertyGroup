@@ -87,7 +87,9 @@ export const INDUSTRIAL: CommercialPageContent = {
       heading: "How the county arrives at a value",
       body: [
         "Ada County assesses commercial property using the income the property produces, rather than by comparing it to nearby sales the way residential property is handled. That is the same logic a buyer applies, and for the same reason: industrial buildings are rarely alike enough for comparison to carry the weight.",
-        "Assessed value is set as of January 1, which means for most of the year it is answering a question about a date that has passed. It is not wrong; it is a tax figure produced at scale for a fixed date, and it cannot know about a lease that expired in March or a roof that failed in June. It is a poor proxy for what a building would transact at, in either direction.",
+        "Assessed value is set as of January 1 — 12:01 a.m. on the first day of January, by statute — which means for most of the year it is answering a question about a date that has passed.",
+        "Two further things about it are worth knowing, and neither is a criticism of anyone. Idaho law does not require an assessment to equal market value; it requires the median ratio of assessed to market value, across a category of property, to land somewhere between 90 percent and 110 percent. And every taxable property must be appraised at least once every five years, on a rolling schedule — in the years between, a property is indexed to market using recorded transactions rather than looked at individually.",
+        "So an assessed value is a figure with a fixed date, a tolerance band, and potentially several years since anyone examined that specific building. It is not wrong. It is a tax figure produced at scale, and it cannot know about a lease that expired in March or a roof that failed in June.",
       ],
     },
     {
@@ -113,6 +115,9 @@ export const INDUSTRIAL: CommercialPageContent = {
     "boise-flood-protection-overlay-purpose",
     "ada-commercial-assessment-uses-income",
     "ada-assessment-market-value-jan-1-commercial",
+    "idaho-assessment-lien-date-statutory",
+    "idaho-assessment-ratio-band-90-110",
+    "idaho-appraisal-cycle-five-years",
   ],
 };
 
@@ -164,7 +169,8 @@ export const MULTIFAMILY: CommercialPageContent = {
       heading: "The assessor's number answers a different question",
       body: [
         "Assessed value in Ada County is market value as of January 1. For most of the year that is a figure about a date in the past, produced for taxation at mass-appraisal scale rather than for a transaction.",
-        "It cannot account for the specific facts that move a real price on an apartment property — a block of leases rolling at once, a boiler at the end of its life, units that have been held vacant through a turn. It is not the wrong number. It is the right number to a question a seller is not asking.",
+        "It also carries a tolerance the statute states openly. Idaho requires the median ratio of assessed value to market value, across a category of property, to fall within 90 percent to 110 percent of market value — a band, not a point, and a band measured across a category rather than guaranteed for any one building. On top of that, a property need only be individually appraised once every five years; in the years between it is indexed to market using recorded transactions.",
+        "None of that makes it the wrong number. It makes it the right number to a question a seller is not asking. It cannot account for the specific facts that move a real price on an apartment property — a block of leases rolling at once, a boiler at the end of its life, units held vacant through a turn.",
       ],
     },
     {
@@ -191,6 +197,8 @@ export const MULTIFAMILY: CommercialPageContent = {
     "boise-mx5-downtown-purpose",
     "boise-r3-height",
     "boise-district-pages-omit-footnote-definitions",
+    "idaho-assessment-ratio-band-90-110",
+    "idaho-appraisal-cycle-five-years",
   ],
 };
 

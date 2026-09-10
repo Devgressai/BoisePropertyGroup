@@ -166,7 +166,7 @@
     {
       "id": "ada-apartments-valued-by-commercial-appraisers",
       "claim": "Ada County's commercial appraisers, not its residential appraisers, value apartments and high-density residential — alongside office, retail and industrial.",
-      "quotedLanguage": "Our team of commercial appraisers handle valuation for all commercial property types, including, office, retail, industrial, and high-density residential (apartments).",
+      "quotedLanguage": "Our team of commercial appraisers handle valuation for all commercial property types, including, office, retail, industrial, and high-density residential (apartments) uses.",
       "assetClass": [
         "multifamily",
         "office",
@@ -182,7 +182,7 @@
         "differentiation"
       ],
       "sourceIds": [
-        "ada-assessor-real-manufactured"
+        "ada-assessor-overview"
       ],
       "crossRegistry": true,
       "confidence": "HIGH",
@@ -190,7 +190,7 @@
       "temporalStatus": "CURRENT",
       "approvedForPublication": true,
       "verifiedOn": "2026-09-10",
-      "notes": "Practical consequence for an owner: an apartment building's assessed value is arrived at by a different team using different methods from a duplex two streets away. The Assessor's page also states that data on construction costs, market sales and INCOME PRODUCTION is used to develop commercial assessments — the income approach appears for commercial and not for residential."
+      "notes": "Practical consequence for an owner: an apartment building's assessed value is arrived at by a different team using different methods from a duplex two streets away. The Assessor's page also states that data on construction costs, market sales and INCOME PRODUCTION is used to develop commercial assessments — the income approach appears for commercial and not for residential. ⚠️ QUOTE CORRECTED AND RE-SOURCED 2026-09-10. Two defects, both found the moment the quote audit was extended to cover the commercial registry: the transcription dropped the final word — the county writes '(apartments) uses.' — and the claim cited the real-and-manufactured-property page, which does not contain the sentence at all. It comes from the Assessor's own landing page. The claim was live on a published page while both defects stood."
     },
     {
       "id": "ada-commercial-assessment-uses-income",
@@ -610,7 +610,7 @@
       "approvedForPublication": false,
       "verifiedOn": "2026-09-10",
       "verificationFlag": "NEGATIVE_FINDING_DO_NOT_CITE_63-307A",
-      "notes": "🚨🚨 FABRICATION GUARD — NOT FOR PUBLICATION, FOR INTERNAL PROTECTION. A research pass surfaced a confident, richly detailed description of 'Idaho Code 63-307A' — property transfer certificate, confidentiality, civil and criminal penalties, and a closed list of who may view it (Idaho appraisers, real estate licensees, the Tax Commission, anyone owning 5%+ of the property, and tax appeal bodies). That description matches the PROPOSED TEXT OF SB 1196 (2007), not enacted law. Verified independently: the chapter index has no 63-307A, and the bill died after referral to committee. This is the same failure mode as Missouri's phantom contract-for-deed statute caught on MoKan — a non-existent section laundered through repetition until it reads as settled law. NEVER cite 63-307A. If any future draft references it, this claim is the reason it must be removed."
+      "notes": "🚨🚨 FABRICATION GUARD — NOT FOR PUBLICATION, FOR INTERNAL PROTECTION. A research pass surfaced a confident, richly detailed description of 'Idaho Code 63-307A' — property transfer certificate, confidentiality, civil and criminal penalties, and a closed list of who may view it (Idaho appraisers, real estate licensees, the Tax Commission, anyone owning 5%+ of the property, and tax appeal bodies). That description matches the PROPOSED TEXT OF SB 1196 (2007), not enacted law. Verified independently: the chapter index has no 63-307A, and the bill died after referral to committee. This is the same failure mode as Missouri's phantom contract-for-deed statute caught on MoKan — a non-existent section laundered through repetition until it reads as settled law. NEVER cite 63-307A. If any future draft references it, this claim is the reason it must be removed. ⚠️ CORROBORATED 2026-09-10 by reading the full Title 63 Chapter 3 section index directly: it runs 63-306, 63-307 (OWNERSHIP IDENTIFICATION), 63-308. There is no 63-307A. The index is cached."
     },
     {
       "id": "idaho-no-mandatory-sale-price-disclosure",
@@ -879,6 +879,99 @@
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
       "notes": "Added 2026-09-10 because the commercial page gate caught the industrial page stating a zero-foot setback that no claim supported — the page was asserting a dimensional standard on the strength of my memory of the source rather than the source. That is precisely the failure the gate exists to catch, and it caught it before the page shipped. ⚠️ BOTH zero-foot cells carry footnote [1] and Boise publishes no footnote definitions, so this may be quoted with its marker and must never be characterised as an unconditional right to build to the property line. The contrast that makes it worth stating is with I-3, whose setbacks grow with building height on every side: I-1 trades height for site coverage and I-3 does the reverse."
+    },
+    {
+      "id": "idaho-assessment-ratio-band-90-110",
+      "claim": "Idaho law does not require an assessment to match market value exactly. It requires that the median ratio of assessed value to market value, for each category of property tested, fall within a range of 90 percent to 110 percent of market value, tested with statistical methods, and that categories be within five percentage points of one another.",
+      "quotedLanguage": "The recognized appraisal methods shall, at a minimum, require the assessment of such property to reflect, within reasonable statistical certainty, the median ratio of assessed value to market value for the categories of property being tested within a range of ninety percent (90%) to one hundred ten percent (110%) of market value",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "valuation",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "idaho-code-63-208"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "This is the honest way to say an assessed value is not a transaction price, and it does not require criticising anyone: the statute sets its own tolerance, and it is a band rather than a point. ⚠️ The band is a MEDIAN across a CATEGORY, not a guarantee about an individual parcel — a single property can sit well outside it while the county is fully compliant. Never write that an assessment is accurate to within ten percent."
+    },
+    {
+      "id": "idaho-appraisal-cycle-five-years",
+      "claim": "Idaho requires every taxable property to be appraised at least once every five years, on a rolling schedule reaching fifteen percent of a county's properties in year one and one hundred percent by year five. In the years between appraisals, a property is indexed to current market value using market value property transactions rather than individually appraised.",
+      "quotedLanguage": "Annually, all taxable property, not appraised that year, shall be indexed to reflect current market value for assessment purposes using market value property transactions and results of the annual appraisal of taxable property.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "valuation",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "idaho-code-63-314"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "MATERIALLY IMPORTANT and almost never said out loud to owners. An assessed value may be as much as five years from the last time anyone appraised that specific property; the intervening years are an index applied to a class. For a commercial building whose income has changed materially since its last appraisal, that gap is the whole explanation of why the assessor's number and a transaction price diverge — without anyone having made a mistake. ⚠️ Do not tell a reader their own assessment is stale. We do not know when their parcel was last appraised, and § 63-314 requires the assessor to keep records showing exactly that."
+    },
+    {
+      "id": "idaho-assessment-lien-date-statutory",
+      "claim": "Idaho sets the assessment date by statute at 12:01 a.m. on the first day of January of the year the taxes are levied, for all real, personal and operating property subject to property taxation.",
+      "quotedLanguage": "All real, personal and operating property subject to property taxation must be assessed annually at market value for assessment purposes as of 12:01 a.m. of the first day of January in the year in which such property taxes are levied, except as otherwise provided.",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "assessment",
+        "property-taxes",
+        "valuation"
+      ],
+      "sourceIds": [
+        "idaho-code-63-205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "EVERGREEN",
+      "notes": "The statutory basis for what we previously held only from the Ada County Assessor's own webpage. A statute is a stronger source than a county explainer and does not go stale when a website is redesigned. Read together with idaho-appraisal-cycle-five-years, this is the complete answer to why an assessment is not a price: a fixed date, a tolerance band, and up to five years since anyone looked."
     }
   ]
 }
