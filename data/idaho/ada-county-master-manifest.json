@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-09-10",
+  "generator": "scripts/research/build-master-report.mjs",
+  "registries": {
+    "sources": "data/idaho/sources/ada-county-sources.json",
+    "claims": "data/idaho/evidence/ada-claims.json",
+    "entities": "data/idaho/entities/ada-county-entities.json",
+    "geographicGraph": "data/idaho/entities/ada-geographic-graph.json",
+    "statisticsCensus": "data/idaho/statistics/ada-statistics.json",
+    "statisticsCompass": "data/idaho/statistics/ada-statistics-compass.json",
+    "jurisdictions": "data/idaho/jurisdictions/ada-jurisdictions.json",
+    "opportunityMaps": "data/idaho/content/ada-opportunity-maps.json",
+    "cityDifferentiation": "data/idaho/locations/ada-city-differentiation.json",
+    "serpObservations": "data/idaho/search/ada-serp-observations.json"
+  },
+  "counts": {
+    "sources": 46,
+    "claims": 77,
+    "approvedClaims": 77,
+    "statistics": 51,
+    "entities": 11,
+    "jurisdictionRows": 99,
+    "jurisdictionVerified": 81,
+    "cachedHtml": 54,
+    "cachedPdf": 3
+  },
+  "buildVerdicts": {
+    "county:ada": "BUILD",
+    "city:boise-city": "BUILD",
+    "city:eagle": "RENDER, DO NOT INDEX",
+    "city:garden-city": "RENDER, DO NOT INDEX",
+    "city:hidden-spring": "DO NOT BUILD",
+    "city:kuna": "RENDER, DO NOT INDEX",
+    "city:meridian": "RENDER, DO NOT INDEX",
+    "city:star": "BUILD"
+  },
+  "validation": {
+    "evidenceIntegrity": "scripts/validation/check-evidence.mjs",
+    "redTeamArithmetic": "scripts/validation/red-team-arithmetic.mjs",
+    "quoteAudit": "scripts/validation/verify-quotes.mjs"
+  },
+  "gate": {
+    "adaCountyEvidence": "NOT_ISSUED",
+    "openItems": "PROJECT-CONTROL/OPEN-ITEMS.md"
+  }
+}
