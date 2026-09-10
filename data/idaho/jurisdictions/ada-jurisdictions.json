@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-jurisdictions.mjs",
   "rule": "A row that is not VERIFIED must not drive published copy. An UNRESEARCHED function means no page may state who performs it.",
-  "totalRows": 92,
+  "totalRows": 99,
   "rows": [
     {
       "function": "assessment",
@@ -365,6 +365,73 @@
       ],
       "status": "VERIFIED",
       "note": "The county page does not state whether building inspection extends inside cities; do not assert that it does."
+    },
+    {
+      "function": "sewer",
+      "entity": "city:boise-city",
+      "responsibleAuthority": "City of Boise Public Works",
+      "officialResource": "https://www.cityofboise.org/departments/public-works/sewer/",
+      "sourceIds": [
+        "boise-sewer"
+      ],
+      "status": "VERIFIED",
+      "note": "Connection is MANDATORY for residential and commercial buildings inside Boise. Contrast with septic in unincorporated county."
+    },
+    {
+      "function": "sewer",
+      "entity": "area:unincorporated-ada",
+      "responsibleAuthority": "Central District Health (on-site septic)",
+      "officialResource": "https://cdh.idaho.gov/environmental-health/water-wastewater-septic/",
+      "sourceIds": [
+        "cdh-septic"
+      ],
+      "status": "VERIFIED",
+      "note": "On-site subsurface sewage disposal, permitted by the health district."
+    },
+    {
+      "function": "sewer",
+      "entity": "city:meridian",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT RESEARCHED per city."
+    },
+    {
+      "function": "sewer",
+      "entity": "city:eagle",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT RESEARCHED per city."
+    },
+    {
+      "function": "sewer",
+      "entity": "city:kuna",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT RESEARCHED per city."
+    },
+    {
+      "function": "sewer",
+      "entity": "city:star",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT RESEARCHED per city."
+    },
+    {
+      "function": "sewer",
+      "entity": "city:garden-city",
+      "responsibleAuthority": null,
+      "officialResource": null,
+      "sourceIds": [],
+      "status": "UNRESEARCHED",
+      "note": "NOT RESEARCHED per city."
     },
     {
       "function": "water-rights",

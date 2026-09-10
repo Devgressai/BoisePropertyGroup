@@ -1808,6 +1808,55 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
       "notes": "⚠️⚠️ THIS IS THE STATUTORY MECHANISM, NOT A LEGAL CONCLUSION ABOUT ANY PARTICULAR LEASE. What the statute says: a lease for a term of ONE YEAR OR LESS is carved OUT of the voiding rule, so it is not void against a later purchaser merely for being unrecorded. A lease LONGER than one year that is unrecorded falls inside the rule and may be void against a subsequent purchaser who takes in good faith, for value, and records first. Whether a specific lease binds a specific buyer turns on facts this section does not resolve — notably whether the purchaser took in GOOD FAITH, which can be affected by a tenant's visible possession. Idaho Code 55-606 states the parallel rule for grants generally. NEVER write 'a lease always survives a sale in Idaho' or 'a buyer can always terminate an unrecorded lease'. State the rule, name the one-year carve-out, and direct the reader to counsel for their own lease. This is the answer to the open lease-survival question insofar as statute answers it."
+    },
+    {
+      "id": "boise-sewer-connection-required",
+      "claim": "Residential and commercial buildings in Boise must connect to the city sewer system, which the Public Works Department operates across more than 1,000 miles of pipe.",
+      "quotedLanguage": "Residential and commercial buildings must connect to the sewer system.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "sewer",
+        "utilities",
+        "permits",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-sewer"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "THE CITY/COUNTY UTILITY CONTRAST IN ONE FACT: inside Boise, connection to city sewer is mandatory; in unincorporated Ada County, on-site septic is permitted by Central District Health. A seller's answer to 'what happens to waste water here' depends entirely on which side of the city limit the parcel sits."
+    },
+    {
+      "id": "boise-sewer-assessment-fee-undeveloped",
+      "claim": "Boise charges a one-time sewer assessment fee, separate from connection fees, for properties that have never been developed or never connected; it is likely to apply when building on a lot being split, building on a previously undeveloped lot, or connecting an existing building to sanitary sewer.",
+      "quotedLanguage": "If you are building on an existing lot which is being split, building on a previously undeveloped lot or connecting an existing building to sanitary sewer, the assessment component of the connection fees will likely be required.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "sewer",
+        "utilities",
+        "subdivision",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-sewer"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-09",
+      "notes": "DIRECTLY MATERIAL TO AN INFILL-LOT OR LOT-SPLIT SELLER IN BOISE: a buyer's cost is not just the connection fee but a separate assessment fee, and the city names lot splits and previously undeveloped lots as the cases where it will likely apply. This is a real number in a buyer's calculation that a seller is often unaware of. ⚠️ The page states no amounts — do not publish a figure. Connection fees themselves comprise trunk fees and treatment fees, and the physical connection from building to right-of-way is NOT included in either."
     }
   ]
 }

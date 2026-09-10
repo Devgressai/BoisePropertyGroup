@@ -1020,6 +1020,29 @@
         "state:id"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "boise-sewer",
+      "title": "Sewer Connections and Fees — City of Boise Public Works",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/public-works/sewer/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "sewer",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-09",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official city page, read directly with raw HTML cached. States no fee amounts.",
+      "claimsSupported": [],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

@@ -27,9 +27,6 @@ const MANUAL = [
   ["RESEARCH", "Boise deep dive", "claude", "Phase 2 step 05. Not started as a distinct dossier."],
   ["WRITE", "City content blueprints (7)", "claude", "Phase 2 steps 31/40/41 — not written."],
   ["WRITE", "Master research report + machine-readable manifest", "claude", "Phase 2 steps 43/44 — not written."],
-  ["REVIEW", "Second-pass independent review", "claude", "Phase 2 step 39 — not run."],
-  ["REVIEW", "Third-pass adversarial review", "claude", "Phase 2 step 40 — not run."],
-  ["REVIEW", "Factual red-team + search-quality red-team", "claude", "Phase 2 steps 36/37 — not run."],
 ];
 
 const withheld = claims.filter((c) => !c.approvedForPublication);
