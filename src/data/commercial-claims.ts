@@ -1531,6 +1531,81 @@ export const commercialClaims: CommercialClaim[] = [
         "tier": 1
       }
     ]
+  },
+  {
+    "id": "meridian-industrial-table-defers-to-exceptions",
+    "claim": "Meridian sets a single set of dimensional standards for both of its industrial districts, I-L and I-H: front, rear and interior side setbacks of zero feet, a street setback of 35 feet, and a maximum building height of 50 feet. The table does not present those figures as final — its own text directs the reader to exceptions and clarifications set out elsewhere in the code.",
+    "quote": "Table 11-2C-3 of this subsection shall be used for determining required setbacks, street and use landscape buffers and maximum building height standards for development in each of the industrial districts. Subsection (A)(2) of this section and subsection 11-3B-7.C.1.c of this title sets forth certain exceptions and additional clarification for the dimensional standards.",
+    "assetClasses": [
+      "industrial",
+      "land"
+    ],
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "zoning",
+      "industrial",
+      "land",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Meridian, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Meridian Unified Development Code Table 11-2C-3 — Dimensional Standards in the Industrial Districts",
+        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST&groupChunks=false",
+        "publisher": "City of Meridian, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "m3-means-three-different-things-in-ada-county",
+    "claim": "The designation M-3 does not mean one thing across Ada County. In unincorporated Ada County, M-3 is Airport Industrial, a live district in the adopted zoning ordinance. In Kuna, M-3 was limited to mining uses and has been consolidated into M-2, so it no longer operates. Boise has no M-3 at all — its third industrial district is I-3 Industrial Technology, which serves technology and research uses and permits far greater height than either of the others.",
+    "quote": "The M-3 district, which is limited to mining uses, has been consolidated with the M-2 district.",
+    "assetClasses": [
+      "industrial",
+      "land"
+    ],
+    "entities": [
+      "county:ada",
+      "city:kuna",
+      "city:boise-city"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "industrial",
+      "land",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Ada County, Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Kuna City Code § 5-8-501 — Zoning Districts Established; Purpose",
+        "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU&groupChunks=false",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      },
+      {
+        "title": "Boise City Code Tables 11-02.27, 11-02.29, 11-02.31 — I-1, I-2 and I-3 Lot and Building Standards",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65657",
+        "publisher": "City of Boise (American Legal Publishing)",
+        "tier": 1
+      }
+    ]
   }
 ];
 

@@ -19,6 +19,24 @@ wrong.
 | **Kuna** | Codified through Ordinance No. 2026-15, enacted 2026-05-19 (Supp. No. 72) | **0** | — |
 | **Garden City** | Includes legislation through 2025-11-10 | not checked — ecode360 exposes no equivalent list | — |
 
+## Provenance confirmed 2026-09-10
+
+Every Meridian, Eagle and Kuna dimensional standard we hold was re-checked against
+the cached bytes and confirmed to come from CODIFIED text, not a summary page. The
+test is mechanical rather than a matter of recollection: each Meridian and Kuna
+artifact's `meta.json` records a `url` beginning `https://api.municode.com/CodesContent?`,
+which is the codifier's own section text, and each payload carries the code's section
+heading (`11-2C-3. - Standards.`, `5-8-504: - SCHEDULE OF HEIGHT AND AREA STANDARDS:`).
+Eagle's came from amlegal, version 2026 S-23.
+
+This was asked three times before it was answered, and it was worth the repetition:
+Boise's summary page and Boise's own code disagree about which row a footnote marker
+sits on, which nobody notices without checking.
+
+**Not codified, and never citable for a number:** Meridian's `zoningmap.pdf`. It was
+used only to confirm district letters appear on the ground. If it is ever cited for a
+dimension, that citation is wrong.
+
 ## Standing rules
 
 - Quote the version banner as part of a source's `authorityNotes`, always. A

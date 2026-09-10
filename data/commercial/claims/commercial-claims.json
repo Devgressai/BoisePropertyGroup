@@ -1376,7 +1376,70 @@
       "verifiedOn": "2026-09-10",
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
-      "notes": "A FOURTH MECHANISM, and it broadens the pattern rather than repeating it. Boise, Star and Kuna all expand the setback according to PROXIMITY TO HOUSING; Eagle expands it according to the BUILDING'S OWN HEIGHT, and does so in every district. So the honest generalisation is not 'the setback next to housing is the one that governs' — it is that a tabled setback is the UNCONSTRAINED case and several different kinds of condition enlarge it. ⚠️ Condition B rides the setback columns for every row of § 8-2-4 via the header marker, which is why it reaches the industrial districts at all — that is not obvious from reading an industrial row on its own. ⚠️ Eagle's conditions F, I and J are residential-only by their own terms and H has nothing to act on in the industrial rows, whose lot area reads n/a."
+      "notes": "A FOURTH MECHANISM, and it broadens the pattern rather than repeating it. Boise, Star and Kuna all expand the setback according to PROXIMITY TO HOUSING; Eagle expands it according to the BUILDING'S OWN HEIGHT, and does so in every district. So the honest generalisation is not 'the setback next to housing is the one that governs' — it is that a tabled setback is the UNCONSTRAINED case and several different kinds of condition enlarge it. ⚠️ Condition B rides the setback columns for every row of § 8-2-4 via the header marker, which is why it reaches the industrial districts at all — that is not obvious from reading an industrial row on its own. ⚠️ Eagle's conditions F, I and J are residential-only by their own terms and H has nothing to act on in the industrial rows, whose lot area reads n/a. ⚠️ CONDITION C IS A THIRD MECHANISM AGAIN and the cleanest example of the whole argument: 'All residential buildings in other than agricultural or residential districts must meet residential official height and area regulations.' That is the district's standards being displaced by the USE, not by adjacency and not by height. An M-1 parcel carrying a residential building is not governed by the M-1 row at all."
+    },
+    {
+      "id": "meridian-industrial-table-defers-to-exceptions",
+      "claim": "Meridian sets a single set of dimensional standards for both of its industrial districts, I-L and I-H: front, rear and interior side setbacks of zero feet, a street setback of 35 feet, and a maximum building height of 50 feet. The table does not present those figures as final — its own text directs the reader to exceptions and clarifications set out elsewhere in the code.",
+      "quotedLanguage": "Table 11-2C-3 of this subsection shall be used for determining required setbacks, street and use landscape buffers and maximum building height standards for development in each of the industrial districts. Subsection (A)(2) of this section and subsection 11-3B-7.C.1.c of this title sets forth certain exceptions and additional clarification for the dimensional standards.",
+      "assetClass": [
+        "industrial",
+        "land"
+      ],
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "zoning",
+        "industrial",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-code-11-2c-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "The best single piece of evidence for the whole 'a tabled figure is the start of the analysis' argument, because MERIDIAN SAYS IT ITSELF, in the table's own preamble, rather than us inferring it from four cities. ⚠️ The exceptions at 11-3B-7.C.1.c have NOT been read, so nothing may be said about what they require — only that the code says they exist. ⚠️ Meridian's industrial height of 50 ft is LOWER than Boise's I-1/I-2 at 55 ft and far below I-3's 150 ft; do not carry a Boise height across the city limit. ⚠️ Meridian's zoningmap.pdf is a city publication, not codified — never cite a number to it."
+    },
+    {
+      "id": "m3-means-three-different-things-in-ada-county",
+      "claim": "The designation M-3 does not mean one thing across Ada County. In unincorporated Ada County, M-3 is Airport Industrial, a live district in the adopted zoning ordinance. In Kuna, M-3 was limited to mining uses and has been consolidated into M-2, so it no longer operates. Boise has no M-3 at all — its third industrial district is I-3 Industrial Technology, which serves technology and research uses and permits far greater height than either of the others.",
+      "quotedLanguage": "The M-3 district, which is limited to mining uses, has been consolidated with the M-2 district.",
+      "assetClass": [
+        "industrial",
+        "land"
+      ],
+      "entity": [
+        "county:ada",
+        "city:kuna",
+        "city:boise-city"
+      ],
+      "topic": [
+        "zoning",
+        "jurisdiction",
+        "industrial",
+        "land",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "kuna-code-5-8-501",
+        "ada-county-ordinance-1002",
+        "boise-code-industrial-tables"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "🎯 THE SHARPEST VERSION OF THE 'DISTRICT LETTERS ARE LOCAL VOCABULARY' POINT. The same three characters denote an airport-industrial district in one jurisdiction, a retired mining district in another, and nothing at all in a third. Anyone normalising district codes across the valley — which is exactly what a national template does — produces confident nonsense. ⚠️ Kuna's M-3 is consolidated, not merely unused: say it no longer operates, not that it was 'deleted'."
     }
   ]
 }
