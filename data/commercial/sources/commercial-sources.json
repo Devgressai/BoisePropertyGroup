@@ -877,6 +877,63 @@
         "idaho-is-a-non-disclosure-state"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "freddiemac-mf-guide-glossary",
+      "title": "Multifamily Seller/Servicer Guide — Glossary",
+      "publisher": "Freddie Mac",
+      "organizationType": "government-sponsored-enterprise",
+      "url": "https://mf.freddiemac.com/docs/mf_guide_glossary.pdf",
+      "sourceTier": 2,
+      "jurisdiction": "United States",
+      "assetClass": [
+        "multifamily",
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "topic": [
+        "valuation",
+        "multifamily",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the operative glossary of a GSE's Multifamily Seller/Servicer Guide, i.e. binding contract vocabulary for lenders originating multifamily loans, not a brokerage explainer. Chosen deliberately: a definition of cap rate or NOI sourced to a broker's marketing glossary is not a definition, and we would not publish one.",
+      "stalenessRisk": "MEDIUM — the Guide is updated by bulletin. Re-check the definition before relying on the exact wording.",
+      "claimsSupported": [
+        "noi-definition-freddie-mac",
+        "cap-rate-definition-freddie-mac"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idaho-code-54-306",
+      "title": "Idaho Code § 54-306 — Exemptions [from the Architects chapter]",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH3/SECT54-306/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "multifamily"
+      ],
+      "topic": [
+        "multifamily",
+        "differentiation"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-01",
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — primary statute read from the Legislature's own site and cached.",
+      "stalenessRisk": "LOW — changes only by amendment.",
+      "claimsSupported": [
+        "idaho-architect-exemption-ends-at-three-units"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

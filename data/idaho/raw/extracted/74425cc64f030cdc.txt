@@ -1,0 +1,2759 @@
+Multifamily Seller/Servicer Guide
+Glossary and List of Commonly Used Acronyms
+
+
+
+
+  Glossary and List of Commonly Used Acronyms (08/25/26)
+  abcdefghijklmnopqrstuvwxyz
+
+  Glossary
+
+  30 Days Delinquent
+
+  See Delinquency.
+
+  55-Day Multi PC
+
+  A 55-Day Multi PC is a Participation Certificate (PC) in which the payments by Borrowers on the 55-Day Multi
+  PC Securitized Mortgages are passed through, with a payment delay of 55 days, to the holders of the 55-Day
+  Multi PCs.
+
+  55-Day Multi PC Securitized Mortgages
+
+  55-Day Multi PC Securitized Mortgages are Mortgages that are pooled in 55-Day Multi PCs.
+
+  Acceptance Letter
+
+  An Acceptance Letter is used by Freddie Mac to indicate its acceptance of an early rate lock application with
+  nonmaterial modifications. The Seller will be bound by the terms of any Acceptance Letter.
+
+  Accounting Net Yield
+
+  The Accounting Net Yield is the net yield rate that the Servicer uses to report and remit interest to Freddie Mac
+  on a monthly basis. The Accounting Net Yield equals the Required Net Yield except for Mortgages sold to
+  Freddie Mac at a discount or at a premium.
+
+  Active Mortgage
+
+  An Active Mortgage is a Mortgage on which the Borrower's payments are current, or a Delinquent Mortgage
+  that has not been deactivated by the Servicer for accounting and reporting purposes.
+
+  Activity of Daily Living
+
+  See Section 21.2.
+
+  Actual Cash Value
+
+  See Section 31.1(c).
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 1
+
+         The current official electronic version of the Guide is published by AllRegs ® and accessible via either mf.freddiemac.com (for free) or the
+         AllRegs web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Actual Loan/Mortgage Amount
+
+    See Sections 17A.11(e), 19A.13(e) and 25A.8(b).
+
+    Additional Actual Loan/Mortgage Amount
+
+    See Sections 17A.11(e), 19A.13(e) and 25A.8(b).
+
+    Additional Actual Loan/Mortgage Amount Percentage
+
+    See Sections 17A.11(e), 19A.13(e) and 25A.8(b).
+
+    Adjustable-rate Mortgage
+
+    See Floating-Rate Mortgage.
+
+    Adverse Action Notice
+
+    An oral or written communication to a Borrower informing them of the refusal to grant an application for an
+    extension of credit that includes all the information required by law. See Section 10.13.
+
+    Affiliated Persons of the Seller/Servicer
+
+    Affiliated Persons of the Seller/Servicer include the following:
+
+    1. The Seller/Servicer's directors, officers, employees and controlling persons
+
+    2. Spouses or domestic partners of the Seller/Servicer's directors, officers and controlling persons
+
+    3. Members of the immediate family of the Seller/Servicer's directors, officers and controlling persons who
+       have the same home as such persons
+
+    4. Individuals who are directors or officers of any subsidiary or holding company affiliate of the Seller/Servicer
+
+    5. Corporations or organizations (other than the Seller/Servicer or a corporation or organization through
+       which the Seller/Servicer operates) of which a director, officer or controlling person of the Seller/Servicer is
+
+       •   An officer or partner
+
+       •   Directly or indirectly, either alone or with his or her spouse or domestic partner, the owner of 10 percent
+           or more of any class of equity securities
+
+       •   Owner with other directors, officers and controlling persons of the Seller/Servicer and their spouses or
+           domestic partners of 25 percent or more of any class of equity securities
+
+    6. Trusts or other estates in which a director, officer or controlling person of the Seller/Servicer or the spouse
+       or domestic partner of such person has a substantial beneficial interest or for which such person or his or
+       her spouse or domestic partner serves as trustee or in a similar fiduciary capacity
+
+
+
+                                                                                            Guide Bulletin Update 08/25/26 Glossary – Page 2
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Affiliates of the Borrower
+
+    Affiliates of the Borrower include any person or entity who Controls, is Controlled by, or is under common
+    Control with the Borrower.
+
+    Agreed Amount Provision or Agreed Value Endorsement
+
+    See Section 31.1(c).
+
+    Annual Inspection Form
+
+    See Section 40.2.
+
+    Anti-Money Laundering Laws
+
+    Anti-Money Laundering Laws are the applicable federal anti-money laundering laws and regulations including
+    18 U.S. C. Sections 1956 and 1957, as amended.
+
+    Applicable Freddie Mac Multifamily Regional Office
+
+    The Applicable Freddie Mac Multifamily Regional Office is the Freddie Mac Regional Office that has jurisdiction
+    over a multifamily Mortgage purchase. The addresses for Freddie Mac's Multifamily Regional Offices are set
+    forth in the Seller/Servicer Guide Directory.
+
+    Appraisal
+
+    An Appraisal is a report setting forth an estimate or opinion of value prepared by an appraiser having the
+    qualifications described in Sections 60.4 and 60.5.
+
+    Approved Structured Lender
+
+    An Approved Structured Lender is a Seller/Servicer that has an approved designation with the ability to
+    complete Freddie Mac Multifamily Structured Transactions on a continuous basis, as stated in Section 3.1(b).
+
+    Assisted Living Residence
+
+    See Section 21.2.
+
+    Benchmarking Data
+
+    Benchmarking Data is the Property’s energy and water usage entered by the Benchmarking Data Consultant in
+    Portfolio Manager® and which meets the requirements set forth in the term sheet located on the Freddie Mac
+    Multifamily website. If Portfolio Manager® is no longer available, the Benchmarking Data Consultant may enter
+    the data into another benchmarking tool identified by Freddie Mac.
+
+    Benchmarking Data Consultant
+
+    Benchmarking Data Consultant is a third-party consultant retained by Borrower and acceptable to Lender that
+    is qualified to collect, input and monitor Benchmarking Data from the Mortgaged Property.
+
+
+                                                                                            Guide Bulletin Update 08/25/26 Glossary – Page 3
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Benchmarking Metrics
+
+    Benchmarking Metrics are measures of Property utility consumption performance provided through Portfolio
+    Manager.
+
+    Blanket Insurance Limit
+
+    See Section 31.1(c).
+
+    Blanket Insurance Policy
+
+    See Section 31.1(c).
+
+    Bond Credit Enhancement Forward Commitment
+
+    See definition of Construction Phase Letter of Credit.
+
+    Borrower
+
+    The Borrower is the party obligated to repay the indebtedness secured by the Property. The Borrower must, in
+    Freddie Mac's judgment, have sufficient financial, operational and management capacity. Acceptable
+    Borrowers are described in Section 9.2.
+
+    Borrower Principal
+
+    A Borrower Principal is:
+
+    •   Any Key Borrower Principal
+
+    •   Any person or entity that has Control (direct or indirect) of the Borrower, Borrower-affiliated Seniors
+        Housing Operator, and Borrower-affiliated Master Tenant, including any one or more of the following:
+
+        o   General partner of a general partnership or a limited partnership
+
+        o   Non-member manager, managing member, or members of the board of managers of a limited liability
+            company
+
+        o   The settlor (grantor) of a living or revocable trust
+
+        o   The trustee of an irrevocable trust
+
+    •   Any person or entity that is pre-approved by lender to assume Control (direct or indirect) of the Borrower,
+        Borrower-affiliated Seniors Housing Operator, or Borrower-affiliated Master Tenant
+
+    •   Any person or entity with an aggregate interest (whether direct or indirect) in the Borrower equal to or
+        exceeding 25 percent including any (i) equitable ownership interest or (ii) any beneficial interest in an
+        Illinois Land Trust, irrevocable trust or Delaware Statutory Trust
+
+    •   A LIHTC Syndicator
+
+    •   Any person or entity that Freddie Mac determines to be a Borrower Principal
+                                                                                             Guide Bulletin Update 08/25/26 Glossary – Page 4
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+
+    Borrower Transaction Parties
+
+    See Section 7.1.
+
+    Breakage Fee
+
+    The Breakage Fee is the fee, as set forth in the Letter of Commitment, Forward Commitment or early rate lock
+    application, that the Borrower will owe the Seller and the Seller will owe Freddie Mac if there is a Nondelivery
+    or in certain cases, if Freddie Mac Rejects the early rate lock application.
+
+    Business Continuity Plan
+
+    See Section 2.20.
+
+    Business Day
+
+    A Business Day is a day other than:
+
+    •   A Saturday or Sunday
+
+    •   A day on which the Federal Reserve Bank of New York (or other agent acting as Freddie Mac's fiscal
+        agent) is authorized or obligated by law or executive order to remain closed
+
+    •   A day on which the principal offices of Freddie Mac are closed
+
+    •   A day on which the offices of the federal government located in the District of Columbia are generally
+        closed
+
+    In the Guide, the word "day" without the modifier "business" refers to a calendar day.
+
+    Business Disruption
+
+    See Section 2.20.
+
+    Capitalization Rate
+
+    The Capitalization Rate is the percentage rate that represents the proper relationship between the value of the
+    Property and the Net Operating Income that the Property produces.
+
+    Captive Insurance Company or Captive Insurer
+
+    See Section 31.1(c).
+
+    Cash Forward Commitment
+
+    See definition of Construction Phase Letter of Credit.
+
+
+
+
+                                                                                            Guide Bulletin Update 08/25/26 Glossary – Page 5
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Certified Inspector
+
+    See Section 40.13(b).
+
+    Certified Organizational Chart
+
+    A Certified Organizational Chart is an Organizational Chart that is attached to Form 1114, Certification –
+    Organizational Chart. If the Certified Organizational Chart is revised, the Borrower must submit a new Form
+    1114, Certification – Organizational Chart, with the revised Organizational Chart.
+
+    Change of Control
+
+    With respect to the Seller/Servicer, a change in the Control, directly or indirectly, of the management or
+    policies of a Seller/Servicer, whether through ownership or transfer of ownership interests, by contract, or
+    otherwise. A person is presumed to have such power if the person:
+
+    •   Is a director, general partner, or Senior Management of the Seller/Servicer
+
+    •   Directly or indirectly has the right to vote 10 percent or more of a class of a voting security of the company
+        or has the power to sell or direct the sale of 10 percent or more of a class of voting securities of the
+        company
+
+    •   In the case of a limited liability company, is a managing member of the limited liability company; or
+
+    •   In the case of a partnership, has the right to receive upon dissolution or has contributed 10 percent or more
+        of the capital of the partnership
+
+    Claims Made Policy Form
+
+    See Section 31.1(c).
+
+    Coinsurance Clause
+
+    See Section 31.1(c).
+
+    Commercial Property Assessed Clean Energy
+
+    Commercial Property Assessed Clean Energy is a tax lien financing program that is available to commercial,
+    industrial and multifamily property owners to access affordable financing for qualifying energy efficiency and
+    clean energy improvements to their properties.
+
+    Common Equity
+
+    See Section 9.9(b).
+
+    Complete Borrower/Key Borrower Principal Due Diligence Package
+
+    A Complete Borrower/Key Borrower Principal Due Diligence Package consists of:
+
+    •   Form 1115, Borrower and Key Borrower Principal Certificate;
+
+                                                                                            Guide Bulletin Update 08/25/26 Glossary – Page 6
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    •   Form 1116, Real Estate Schedule;
+
+    •   Certified current financial statements for the Borrower and Key Borrower Principals;
+
+    •   Credit report(s) for Guarantors that are individuals;
+
+    •   Form 1112, Borrower and Key Borrower Principal Blanket Certification; and
+
+    •   Liquidity verification documentation, if applicable
+
+    The Complete Borrower/Key Borrower Principal Due Diligence Package is submitted as part of the
+    underwriting package and/or prescreen package to Freddie Mac.
+
+    Conditions to Conversion
+
+    Conditions to Conversion is, collectively, each of the conditions precedent to Conversion set forth (i) in the
+    Forward Commitment, (ii) in Section 17A.11 (for Forward Commitments under Chapter 17A), Section 19A.13
+    (for Forward Commitments under Chapter 19A), Section 25A.7 and 25A.8 (for Forward Commitments under
+    Chapter 25A) or Section 28A.14, Section 28A.15 and Section 28A.16 (for Forward Commitments under
+    Chapter 28A), as applicable, and (iii) any other condition which may otherwise be required by Freddie Mac in
+    connection with Conversion.
+
+    Confidential Information
+
+    See Section 2.8.
+
+    Confirmation Sheet
+
+    The Confirmation Sheet is the “Interest Rate Lock and Mortgage Terms Confirmation” or “Spread Lock and
+    Mortgage Terms Confirmation” attached as an Exhibit to a Letter of Commitment, early rate lock application,
+    Acceptance Letter or Index Lock Agreement. After an index locked Loan is Rate Locked, the Confirmation
+    Sheet from the Index Lock becomes null and void and is replaced by the Confirmation Sheet that is attached to
+    the Commitment, early rate lock application or Acceptance Letter. The Confirmation Sheet is sent after Rate
+    Lock. For an early rate lock application, the Confirmation Sheet will be revised when Freddie Mac accepts the
+    early rate lock application after final underwriting and issues the Acceptance Letter.
+
+    Consent Request Tracker
+
+    See Section 36.25.
+
+    Construction Loan
+
+    Required for a Forward Commitment, the Construction Loan is the construction lender’s loan to the Borrower.
+
+    Construction Phase Financing Agreement
+
+    For a Bond Credit Enhancement Forward Commitment or a Forward Commitment under Chapter 25A, the
+    Construction Phase Financing Agreement is an agreement among Freddie Mac, the Seller/Servicer and the
+    construction lender. It must be accepted by the Borrower.
+
+
+
+                                                                                            Guide Bulletin Update 08/25/26 Glossary – Page 7
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Construction Phase Letter of Credit
+
+    The Construction Phase Letter of Credit secures Freddie Mac
+
+    • For a Cash Forward Commitment, when Freddie Mac advances funds to the construction lender during the
+       construction period
+
+    • For a Bond Credit Enhancement Forward Commitment, when Freddie Mac provides the credit
+       enhancement or Liquidity support for the bonds during the construction period
+
+    Continuing Care Retirement Community
+
+    See Section 21.2.
+
+    Control
+
+    Control is the power to manage, control or direct the decisions of an entity.
+
+    Conventional Seller/Servicer
+
+    A Conventional Seller/Servicer is a Seller/Servicer that meets the net worth requirements in Section 3.3 and
+    Freddie Mac’s other eligibility requirements and has been approved by Freddie Mac as an Optigo
+    Conventional Lender. In the Guide, an Optigo Conventional Lender is also referred to as a Conventional
+    Seller/Servicer.
+
+    Conversion
+
+    For a Forward Commitment under either Chapter 17A or 19A, the Conversion is the closing of the permanent
+    Mortgage after construction has been completed and the Property has met the applicable Conversion criteria.
+
+    For a Forward Commitment under Chapter 25A, the Conversion is the purchase of the TEL by the Seller from
+    the construction lender after construction has been completed and the Property has met the applicable
+    Conversion criteria.
+
+    For a Moderate Rehabilitation (Mod Rehab) Mortgage, the Conversion is the time when the loan terms change
+    from the Interim Phase loan terms to Permanent Phase loan terms.
+
+    Conversion Underwriting Package
+
+    The underwriting package prepared by the Seller in accordance with Section 1.31 of Exhibit 1, and submitted
+    to initiate Conversion.
+
+    Conviction or Convicted
+
+    Conviction is any (a) judgment or any other determination of guilt of a criminal offense by any court of
+    competent jurisdiction, whether entered upon a verdict or plea; or (b) any other resolution that is the functional
+    equivalent of a judgment of guilt of a criminal offense, including probation before judgment and deferred
+    prosecution. This includes nolo contendere (no contest) pleas, Alford pleas, and pardons not resulting in an
+    expungement of the conviction. A disposition without the participation of a court is the functional equivalent of
+    a judgment only if it includes an admission of guilt. Previous convictions that have been expunged by the date
+    that Form 1115, Borrower and Key Borrower Principal Certificate is completed will not be considered
+
+                                                                                            Guide Bulletin Update 08/25/26 Glossary – Page 8
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Convictions.
+
+    Cooperative
+
+    A Cooperative, or co-op, is a form of ownership of multifamily housing in which a cooperative housing
+    association or corporation owns the multifamily Property (land and improvements) and the dwelling units are
+    subject to proprietary leases between the corporation and unit “owners”. The unit owners own stock in the
+    association or corporation to evidence their “ownership” in their dwelling units. Blanket (underlying) first
+    Mortgages on multifamily housing owned by Cooperatives are eligible for purchase subject to the requirements
+    set forth in Section 9.5.
+
+    Coupon Rate
+
+    The Coupon Rate is the interest rate specified in the Note secured by the Security Instrument.
+
+    Criminal Conviction
+
+    A Criminal Conviction includes any (a) judgment or any other determination of guilt of a criminal offense by any
+    court of competent jurisdiction, whether entered upon a verdict or plea; or (b) any other resolution that is the
+    functional equivalent of a judgment of guilt of a criminal offense, including probation before judgment and
+    deferred prosecution. A plea of nolo contendere (no contest) will also be considered a Criminal Conviction. A
+    disposition without the participation of a court will be considered the functional equivalent of a judgment only if
+    it includes an admission of guilt.
+
+    Critical Repairs
+
+    See Section 62.3(b).
+
+    Crowdfunding
+
+    Raising capital from marketing directed to the public at large (via the internet or otherwise) for investment in
+    one specific property under the exemptions provided under Title III or Title IV of the Jumpstart Our Business
+    Startups (JOBS) Act.
+
+    Custodial Account
+
+    A Custodial Account is an account established and maintained by a Servicer at an “eligible depository,” as that
+    term is defined in Chapter 52, into which principal and interest payments or Reserves are deposited.
+
+    Debt Coverage Ratio
+
+    The Debt Coverage Ratio is the ratio of Net Operating Income from a multifamily Property to the annual debt
+    service, as determined by Freddie Mac.
+
+    Defeasance Period
+
+    The Defeasance Period is defined in the Loan Documents and is generally the period of time specified in the
+    Loan Documents that the Borrower is prohibited from prepaying the Mortgage and may only defease the
+    Mortgage.
+
+
+
+                                                                                            Guide Bulletin Update 08/25/26 Glossary – Page 9
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Deferred Maintenance
+
+    Deferred Maintenance is the postponement of normal maintenance, which may result in Life Safety Hazards,
+    advanced physical deterioration, lack of full operation or efficiency, or a decline in property value.
+
+    Delegated TAH Mortgage
+
+    A Mortgage originated under the Delegated Underwriting Model for Targeted Affordable Housing (TAH),
+    described in the Freddie Mac Delegated Underwriting for Targeted Affordable Housing Guide (TAH Guide).
+
+    Delinquency
+
+    Delinquency occurs when all or part of the Borrower’s monthly installment of principal, interest and, where
+    applicable, Reserves is unpaid after the Due Date.
+
+    A Mortgage is considered delinquent when it is 30 days delinquent, as described in the table below:
+
+          If the due date is                                        The Mortgage is 30 days delinquent
+          The first day of the month                                When all or part of one or more payments remains unpaid as
+                                                                    of close of business on the last Business Day of the month
+
+          Not the first day of the month                            When all or part of one or more payments remains unpaid 30
+          (from the second through the last                         or more actual calendar days as of close of business on the
+          day of the month)                                         last Business Day of the month
+
+
+    Delinquent
+
+    See Delinquency.
+
+    Delivery Assurance Fee
+
+    For Cash Forward Commitments, the Delivery Assurance Fee is a fee specified in the Forward Commitment
+    that may be payable in the form of cash, a letter of credit or a secured note.
+
+    Delivery Assurance Mortgage
+
+    For Cash Forward Commitments, the Delivery Assurance Mortgage is the mortgage that secures the Delivery
+    Assurance Note provided to Freddie Mac in payment of the Delivery Assurance Fee.
+
+    Delivery Assurance Note
+
+    For Cash Forward Commitments, the Delivery Assurance Note is a secured note that the Borrower provides to
+    Freddie Mac in payment of the Delivery Assurance Fee; it is secured by a mortgage on the Property.
+
+    Delivery Date
+
+    The Delivery Date is the date Freddie Mac receives all documentation required by the Purchase and Servicing
+    Documents. Delivery to Freddie Mac occurs when Freddie Mac takes actual possession of all documentation
+    required to be submitted. The posting of such documentation with the U.S. Postal Service or any other
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 10
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    delivery service does not constitute delivery to Freddie Mac.
+
+    Directing Certificateholder
+
+    The holder (or its authorized representative) of the most subordinate class of certificates in a Freddie Mac-
+    sponsored Securitization. The Directing Certificateholder has certain rights (e.g., consent, notice, consultation
+    and fees) with respect to the servicing of Mortgages owned by such Securitization.
+
+    Directing Party
+
+    The party holding the rights of a Directing Certificateholder in a Freddie Mac-sponsored Securitization.
+
+    Discovery Policy Form
+
+    An insurance policy form that covers losses discovered during the policy period even though they may have
+    occurred before the policy period.
+
+    Document Management System
+
+    A Multifamily Software Application used to receive, deliver, and store electronic versions of documents relating
+    to Freddie Mac Multifamily Mortgages.
+
+    Down Units
+
+    Residential units that cannot be made rent-ready with routine maintenance and repairs.
+
+    Due Date
+
+    The Due Date is the date on which the Borrower’s monthly installment of principal, interest and, where
+    applicable, Reserves is due as stated in the Note and other Loan Documents.
+
+    Due Date of Last Paid Installment
+
+    The Due Date Last Paid Installment is the Due Date of the last fully paid monthly installment of principal,
+    interest, and Reserves (if any). It is not the date on which such payment was credited or the date of the next
+    scheduled installment.
+
+    Effective Gross Income
+
+    Effective Gross Income is the maximum rental revenue the Property can generate based on: (a) (1) actual
+    rents in occupied units; (2) achievable market rents in vacant units; (3) allowable commercial income; plus (4)
+    all allowable sources of other income; less (b) vacancy, concessions and bad debt allowance. The above
+    calculation is further refined for TAH transactions, subject to Freddie Mac’s sole discretion, to take into account
+    any restricted rents affecting the Property, the maximum allowable low-income housing tax credit rents (less
+    utility allowances) (for 4% or 9% LIHTC transactions), and/or the HAP contract rents.
+
+    Electronic Delivery Package
+
+    The Electronic Delivery Package is the set of documents comprising a portion of the Final Delivery Package
+    which is delivered electronically via DMS. For identification of the documents comprising the Electronic
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 11
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Delivery Package, refer to the appropriate Final Delivery Table of Contents available at
+    mf.freddiemac.com/lenders/purchase/.
+
+    Eligible Institution
+
+    A depository institution or trust company insured by the Federal Deposit Insurance Corporation, the short term
+    unsecured debt obligations or commercial paper of which must meet the minimum rating requirements in
+    Section 52.2(a).
+
+    Energy Certification
+
+    Energy Certification is an energy certification and/or score of environmental energy savings given to the Utility
+    Efficiency Improvements on the Property by applicable local, State or federal agencies or another nationally
+    recognized building association.
+
+    Energy Star® Score
+
+    ENERGY STAR® Score is the measure of energy performance provided for the Property by Portfolio Manager.
+
+    Environmental Superlien Law
+
+    See Section 61.1(b).
+
+    EPA 1-100 Water Score
+
+    EPA 1-100 Water Score is a measure of water performance provided for the Property by Portfolio Manager®.
+
+    Equity Conflict of Interest
+
+    See Section 2.25.
+
+    Escrow Functions
+
+    The writing or issuance of the title commitment and Title Policy and related endorsements on behalf of the Title
+    Insurance Underwriter, and handling and/or recording of deeds, deeds of trusts, mortgages, leases and other
+    instruments required to close a Mortgage in accordance with the closing or escrow instruction letter.
+
+    Exception(s)
+
+    Any exceptions to the Seller/Servicer Representations and Warranties referenced in Section 5.13 of the Guide
+    and found under the “Resources” section of the Legal Documents page at mf.freddiemac.com/lenders/legal.
+
+    Exclusionary List
+
+    The Exclusionary List is a confidential list compiled, maintained and distributed by Freddie Mac, containing
+    names and other information concerning persons or entities that have been restricted or excluded from
+    participating in transactions or doing business with Freddie Mac. The Exclusionary List is updated at least
+    monthly by Freddie Mac.
+
+    Seller/Servicers can access the Exclusionary List under “Quick Links” on the Originate and Underwrite and
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 12
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Asset Management web pages.
+
+    Exempt Inspector
+
+    See Section 40.13(b).
+
+    Expiration Date
+
+    The Expiration Date is the date set forth in the Letter of Commitment by which the Seller must accept the Letter
+    of Commitment and Rate Lock. The Expiration Date for an early rate lock application is or the expiration date
+    of the Quote.
+
+    Fee Inspector Company
+
+    See Section 40.14.
+
+    FHA Mortgage
+
+    An FHA Mortgage is a Mortgage insured by the FHA.
+
+    Final Delivery Instructions
+
+    The Final Delivery Instructions are a detailed list of required Loan Documents and other items which,
+    depending on the specific features of a Mortgage, may be required to be included with the Final Delivery
+    Package. The Final Delivery Instructions are set forth in the following documents:
+
+    •   For all non-TEL Mortgages, the document called “Final Delivery Instructions and Final Delivery Package
+        Table of Contents”
+
+    •   For TEL Mortgages, the applicable document referenced below:
+
+        o   Final Delivery Instructions and Final Delivery Package Table of Contents – Unfunded Forward Tax-
+            Exempt Loan
+
+        o   Final Delivery Instructions and Final Delivery Package Table of Contents – Conversion of Unfunded
+            Forward Tax-Exempt Loan
+
+        o   Final Delivery Instructions and Final Delivery Package Table of Contents – Immediate Funding Tax-
+            Exempt Loan
+
+    Each of these documents are available at mf.freddiemac.com/lenders/purchase/.
+
+    Final Delivery Package
+
+    As further defined in Chapter 32, the Final Delivery Package is the complete set of the required Purchase and
+    Servicing Documents set forth in Chapter 32 and in the Final Delivery Instructions, which set may be
+    comprised of both hardcopies and electronic versions of such documents.
+
+
+
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 13
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Financial Crimes
+
+    Crimes to obtain personal or business advantage or that may result in conversion of property. Such crimes
+    are generally characterized by fraud, deceit, concealment, or violation of trust and typically do not depend on
+    the application of threat or physical force or violence. Examples include fraud, bribery, money laundering,
+    sanctions violations, forgery, counterfeiting and terrorist activity financing.
+
+    First Lien
+
+    A First Lien is any lien that grants to the lienholder a claim against the Property that, under the law of the
+    jurisdiction where the Property is located, is prior to the rights of all others, subject only to prior liens and
+    encumbrances that Freddie Mac has expressly waived pursuant to Section 29.2.
+
+    First-Time Sponsor
+
+    See Section 9.2(d).
+
+    Floating-Rate Mortgage
+
+    A Floating-Rate Mortgage, also known as an adjustable rate mortgage or ARM, is a Mortgage for which the
+    interest rate is adjusted at specified intervals for the entire Mortgage term. A Floating Rate Mortgage may be
+    amortizing or interest-only. Floating-Rate Mortgages must have either a Freddie Mac internal interest rate cap
+    (“internal interest rate cap”) or a third-party interest rate hedge.
+
+    Foreign Guarantor
+
+    An individual or entity who signs a Guaranty for the Mortgage is considered a Foreign Guarantor if they are
+    any of the following:
+
+    •   Not a United States entity
+
+    •   Not a United States citizen or lawful permanent resident of the United States
+
+    •   A United States citizen or lawful permanent resident of the United States who does not reside in the United
+        States
+
+    The requirements for a Foreign Guarantor are set forth in Section 9.11.
+
+    Forward Commitment
+
+    Forward Commitment has the meaning provided in Section 17A.1 for Conventional Mortgage under a Forward
+    Commitment, and Section 19A.1 for TAH Cash Mortgage under a Forward Commitment, as supplemented by
+    Chapter 25A for TEL and Chapter 28A for Bond Credit Enhancement.
+
+    Forward Commitment Maturity Date
+
+    The Forward Commitment Maturity Date is the date by which Conversion must occur unless extended
+    pursuant to an extension approval letter.
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 14
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Forward Commitment Property Inspection
+
+    A property inspection that is required prior to commitment issuance under a Funded Forward Commitment or
+    for an Unfunded Forward Commitment when requested by Freddie Mac. The requirements are set forth in
+    Section 8.16. At the time of Conversion, a complete property inspection is required.
+
+    Freddie Mac Access Manager
+
+    A Multifamily Software Application that enables Seller/Servicers who have registered and received Freddie
+    Mac’s authorization, to create, manage, and provision their users’ access to certain servicing tools and
+    applications.
+
+    Freddie Mac Approved Third Party Applications
+
+    Third party systems or software applications approved by Freddie Mac as provided in Chapter 2.
+
+    Freddie Mac Funding Date
+
+    The Freddie Mac Funding Date is:
+
+    •   The date on which Freddie Mac disburses payment to the warehouse lender or the Seller for a Mortgage
+        purchased by Freddie Mac under a cash program or product, or
+
+    •   The settlement date for Mortgages purchased by Freddie Mac under a Multifamily Structured Transaction,
+        or
+
+    •   Execution by Freddie Mac of a Credit Enhancement Agreement in a bond credit enhancement transaction.
+
+    Freddie Mac Matters
+
+    See Section 7.1.
+
+    Freddie Mac Matters Contractor
+
+    See Section 7.1.
+
+    Freddie Mac Matters Employee
+
+    See Section 7.1
+
+    Freddie Mac Preservation
+
+    Freddie Mac Preservation is defined as Properties for which rent restrictions are in place through the Loan
+    Agreement (e.g., Borrower-elected rent restrictions) or third-party, non-governmental rent restrictions. Freddie
+    Mac Preservation rent restrictions may vary by product. TAH Mortgage products eligible for Freddie Mac
+    Preservation include Non-LIHTC Preservation Rehabilitation and Affordable Forward Commitments (see
+    Sections 19.2 and 19A.2 and the TAH term sheets referenced therein). Workforce Housing Preservation is a
+    Conventional Mortgage product eligible for Freddie Mac Preservation (see Section 17.6).
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 15
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Freddie Mac Underwriting Value
+
+    The market value of a Property for purposes of Freddie Mac’s underwriting and purchase of Mortgages, and
+    for calculation of Loan-to-Value (LTV) Ratios in connection therewith, is the lower of appraised value as
+    determined by a third-party appraiser or the value determined by Freddie Mac.
+
+    FreddieMac.com
+
+    FreddieMac.com is Freddie Mac’s Internet home page. FreddieMac.com includes information about Freddie
+    Mac’s programs and products and makes multifamily Loan Documents and other Mortgage origination
+    information available to Seller/Servicers at mf.freddiemac.com.
+
+    Funded Forward Commitment
+
+    See Sections 19A.1(b) and 28A.2.
+
+    Funding Functions
+
+    The actions to:
+
+    •   Prepare the final settlement statement(s) for closing
+
+    •   Collect premiums, escrows, security deposits, sale and/or loan proceeds, and/or other funds in connection
+        with the closing of the Mortgage and, if applicable, the acquisition of the Property
+
+    •   Disburse all funds in accordance with the settlement statement(s) and the closing or escrow instruction
+        letter
+
+    •   Maintain the receipts and disbursements ledger
+
+    Gold PC
+
+    A Gold PC is a Participation Certificate (PC) in which the payments by Borrowers on the Gold PC Securitized
+    Mortgages are passed through, with a payment delay of 45 days, to the holders of the Gold PCs.
+
+    Gold PC Securitized Mortgages
+
+    Gold PC Securitized Mortgages are Mortgages that are purchased under the Multifamily Negotiated
+    Transactions Program or the Multifamily PC OneSM Program and are pooled in Gold PCs.
+
+    Governmental Entity
+
+    A Governmental Entity is an entity that is under Control of, under ownership of, is authorized by, or is itself a
+    city, county, State, commonwealth, or federal government. With respect to subordinate debt, Freddie Mac
+    considers a Governmental Entity to be an entity that provides third-party financing with the goal of expanding,
+    preserving, maintaining, or otherwise promoting affordable multifamily housing.
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 16
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Green Assessment®
+
+    Green Assessment® is a report detailing proposed property-level improvements to promote utility consumption
+    efficiency at the Property. It uses the ASHRAE Level 1 standard and otherwise meets the requirements set
+    forth in Chapter 65. The report describes projected savings in terms of utility consumption and dollars saved
+    per improvement item.
+
+    Green Consultant
+
+    Green Consultant is a certified environmental design/inspection or engineering firm that meets the
+    requirements set forth in Chapter 65.
+
+    Green Improvements
+
+    Green Improvements are the energy and water conservation measures selected by the Borrower from the list
+    of qualifying conservation measures identified in a Green Report. These selected conservation measures are
+    identified as Green Improvements in the Green Improvement Rider to the Loan Documents.
+
+    Green Up®
+
+    Green Up® is a loan option available when a Borrower commits to making Green Improvements identified in a
+    Green Assessment®.
+
+    Ground Lease
+
+    See Section 30.1.
+
+    Ground Lease Mortgage
+
+    See Section 30.1.
+
+    Ground Lessee
+
+    See Section 30.1.
+
+    Ground Lessor
+
+    See Section 30.2.
+
+    Guarantor
+
+    Any person or entity that is liable under the Guaranty. (See also Foreign Guarantor)
+
+    Guide
+
+    The Guide is the official version of the Multifamily Seller/Servicer Guide, including the exhibits and related
+    supplements, Bulletins and Industry Letters.
+
+
+
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 17
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Hardcopy Delivery Package
+
+    The Hardcopy Delivery Package is the set of documents comprising a portion of the Final Delivery Package
+    which must be delivered in their original hardcopy form. For identification of the documents comprising the
+    Hardcopy Delivery Package, refer to the appropriate Final Delivery Table of Contents available at
+    mf.freddiemac.com/lenders/purchase/.
+
+    Hard Subordinate Debt
+
+    See Section 19.2(f).
+
+    Home Mortgage
+
+    A Home Mortgage is a Mortgage secured by a First Lien on real estate on which there is located a structure
+    designed principally for residential use by one to four families.
+
+    Imminent Life Safety Hazard
+
+    An Imminent Life Safety Hazard is a hazard that is about to cause harm. Imminent Life Safety Hazards are of
+    the highest concern as they as they represent an immediate risk to any tenant that encounters such a hazard.
+    Exposed live electrical wires and balconies with inadequate guard rails are among the types of conditions that
+    represent Imminent Life Safety Hazards.
+
+    Imminent Life Safety Hazards are identified during the annual physical inspection of a Property post-purchase.
+    There is no comprehensive list of Imminent Life Safety Hazards and the inspector must exercise judgment to
+    determine the Hazard category.
+
+    See also Life Safety Hazard.
+
+    Income and Expense Statement
+
+    The Income and Expense Statement is the actual or pro forma statement of income and expense items for a
+    person, an entity, or a Property during a specified period of time.
+
+    Increased Mortgage Amount
+
+    For the purposes of the early rate lock delivery option and the early rate lock application, see Section 27.20.
+
+    Increased Scrutiny for Moisture or Mold Issues
+
+    Increased Scrutiny for Moisture or Mold Issues is a specific inspection protocol, set forth in Section 8.3(b),
+    which is used to evaluate the risk of moisture or Mold issues in certain Properties.
+
+    Independent Director/Manager
+
+    Independent Director/Manager is an individual who is not affiliated with the Borrower, any SPE Equity Owner,
+    Guarantor or any other Borrower Principal or any parties associated or affiliated with the foregoing parties.
+    See the Loan Documents for a more complete definition.
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 18
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Independent Living Property
+
+    See Section 21.2.
+
+    Index Lock
+
+    See Section 27.1(b).
+
+    Index Lock Agreement
+
+    See Section 27.1(b).
+
+    Industry Trained Inspector
+
+    See Section 40.13(b).
+
+    Insurable Value
+
+    See Section 31.1(c).
+
+    Insurance Compliance Tool
+
+    A Multifamily Software Application for Sellers to submit documentation related to Borrower’s insurance
+    compliance.
+
+    Joint Loss Agreement
+
+    See Section 31.1(c).
+
+    Key Borrower Principal
+
+    Key Borrower Principal is:
+
+    •   Any Guarantor, regardless of the amount of ownership interest in the Borrower and even if not in the
+        organizational structure of the Borrower
+
+    •   Seniors Housing Operator
+
+    •   Any operator of the Property that is a Master Tenant under a master lease structure (e.g., a Delaware
+        Statutory Trust)
+
+    •   Any person or entity that has Ultimate Control (direct or indirect) of the Borrower, Borrower-affiliated
+        Seniors Housing Operator, or Borrower-affiliated Master Tenant
+
+    •   Any Pre-Approved Transferee
+
+    •   Any non-Controlling person or entity that meets both of the following conditions, including LIHTC Investors:
+
+        o   Has aggregate ownership (direct or indirect) of 50% or more of the Borrower, Borrower-affiliated
+            Seniors Housing Operator, or Borrower-affiliated Master Tenant
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 19
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+        o   Is not owned by any other person or entity that also has aggregate ownership (direct or indirect) of 50%
+            or more of the Borrower, Borrower-affiliated Seniors Housing Operator, or Borrower-affiliated Master
+            Tenant
+
+            •    If a trust meets the two conditions above, the following parties are also considered Key Borrower
+                 Principals:
+
+                 o    The settlor (grantor) of a living or revocable trust
+
+                 o    The beneficiary of an irrevocable trust if the beneficiary has aggregate ownership (direct or
+                      indirect) of 50% or more of the Borrower, Borrower-affiliated Seniors Housing, Operator, or
+                      Borrower-affiliated Master Tenant
+
+    •   Any individual or entity that does not meet the criteria set forth above but who is determined by Freddie
+        Mac to be a Key Borrower Principal. These may include individuals or entities defined as a Required
+        Equity Owner in the Loan Agreement.
+
+    Except for a LIHTC Investor that is a U.S. publicly traded entity a Key Borrower Principal must submit a
+    Complete Borrower/Key Borrower Principal Due Diligence Package.
+
+    Leasehold Interest
+
+    See Section 30.1.
+
+    Legal Issues Analysis
+
+    See Sections 6.4 and 29.2.
+
+    Letter of Commitment
+
+    A Letter of Commitment or Commitment is the written indication that Freddie Mac has made an offer to the
+    Seller to purchase a Mortgage. The Letter of Commitment and any amendments set forth the terms and
+    conditions of the purchase transaction. For an early rate-lock delivery, a counter-signed early rate-lock
+    application, with all modification and acceptance letters, takes the place of the Letter of Commitment. Letters
+    of Commitment also include Forward Commitments.
+
+    Life Safety Hazard
+
+    Life Safety Hazards consist of conditions that increase the possibility of personal injury or death. Traditionally,
+    these hazards are associated with inadequate protections and often result from noncompliance with code
+    requirements.
+
+    See also the definitions of Imminent Life Safety Hazard and Potential Life Safety Hazard, which apply to the
+    post-purchase annual inspection of a Property. There is no comprehensive list of Imminent or Potential
+    Hazards and the inspector must exercise judgment to determine the Hazard category.
+
+
+
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 20
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    LIHTC Investor
+
+    In a LIHTC transaction, each person or entity that has aggregate ownership (direct or indirect) of 50% or more
+    of the Borrower’s limited partner. The LIHTC Investor expects to receive the benefit of the LIHTC and does
+    not Control the Borrower.
+
+    LIHTC Syndicator
+
+    In a LIHTC transaction where the LIHTC investment is made through a syndicated LIHTC fund, the entity with
+    Ultimate Control of the general partner of the LIHTC fund. In that capacity, the LIHTC Syndicator, for the
+    benefit of the LIHTC fund and the LIHTC Investor(s), provides acquisition, underwriting, portfolio management,
+    asset management and investor reporting services.
+
+    Limited Multifamily Experience Sponsor
+
+    See Section 9.2(d).
+
+    Liquid Assets
+
+    For the purposes of Seller/Servicer financial eligibility, see Section 3.3(a).
+
+    Otherwise, see Liquidity.
+
+    Liquidity
+
+    Cash, cash equivalents, Treasury bills, money market investments or certificates of deposit with maturities of
+    one year or less, and marketable securities (such as stocks and bonds). Restricted assets, pledged accounts,
+    and stocks or bonds for a company or municipality in default or bankruptcy must be excluded. All Liquidity
+    must be measured in US dollars.
+
+    Loan Agreement
+
+    The Loan Agreement is the Multifamily Loan and Security Agreement. The Loan Agreement sets forth the
+    terms of the Mortgage, including the representations and covenants of the Borrower, the events of default, the
+    securitization terms and the lender’s remedies. There is also a specially designated Loan Agreement for use
+    with Seniors Housing Mortgages.
+
+    Loan Documents
+
+    Loan Documents are the Freddie Mac Multifamily Loan Documents, the forms of which are posted at
+    mf.freddiemac.com/lenders/legal/. The Loan Documents include the following documents, together with any
+    modifications and Riders to the documents:
+
+    •   Note
+
+    •   Loan Agreement
+
+    •   Security Instrument
+
+    •   Guaranty
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 21
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    •   Omnibus Assignment
+
+    •   All other documents used in connection with the origination or Servicing of Mortgages under Freddie Mac’s
+        programs and products.
+
+    The Legal Documents page of mf.freddiemac.com includes a list of current Loan Documents. The revision
+    date is indicated for each Loan Document.
+
+    Loan-to-Value Ratio
+
+    The Loan-to-Value Ratio is the relationship between the principal amount of the Mortgage and the value of the
+    Property, expressed as a percentage of the value, as determined by Freddie Mac.
+
+    Localized Peril or Regional Peril
+
+    See Section 31.1(c).
+
+    Long Term Rental Assistance Contact
+
+    See Section 23.3(a).
+
+    Malicious Code
+
+    See Section 2.26(c).
+
+    Mandatory Delivery Date
+
+    The Mandatory Delivery Date is the delivery date identified in the Letter of Commitment or early rate-lock
+    application. The Seller must deliver the Final Delivery Package to Freddie Mac by noon Eastern time on the
+    Mandatory Delivery Date.
+
+    Mandatory Funding Date
+
+    Unless otherwise agreed upon, the Mandatory Funding Date is the date which is 15 days after the Mandatory
+    Delivery Date; provided, however, that if such day is not a Business Day, then the Mandatory Funding Date
+    will be the Business Day immediately preceding such date.
+
+    Manufactured Housing Community Product
+
+    A program under which Freddie Mac Multifamily will purchase Mortgages secured by Manufactured Housing
+    Communities, as described in Chapter 22.
+
+    Manufactured Housing Resident-Owned Community
+
+    See Section 22.1(b).
+
+    Market Overhang
+
+    See Section 19.2(e) and Section 23.3.
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 22
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Master Forward Financing Agreement
+
+    The Master Forward Financing Agreement documents the general terms and conditions governing all Forward
+    Commitments with a particular construction lender.
+
+    Master Insurance Policy
+
+    See Section 31.1(c).
+
+    Master Tenant
+
+    A Master Tenant is the tenant that operates the Property under a master lease. A master lease structure is
+    usually used in a Delaware Statutory Trust loan.
+
+    Material Modification
+
+    For the purposes of the early rate lock delivery option and the early rate lock application, a “Material
+    Modification” is as defined in Chapter 27.
+
+    Material Vendor
+
+    With respect to one or more Mortgages owned by Freddie Mac (i.e., from Freddie Mac’s purchase until
+    securitization or other disposition of such Mortgage(s)), a vendor engaged by the Servicer while Servicing such
+    Mortgage or Mortgages on behalf of Freddie Mac that has the potential to create information security risk or
+    compliance risk for Freddie Mac.
+
+    Refer to the Material Vendors Material Vendors web page for more details and examples of Material Vendors.
+
+    MHC Tenant Protections
+
+    See Section 22.1(b).
+
+    MHC Tenant Protections Notification
+
+    See Section 22.2(p).
+
+    Minimum Consumption Savings Threshold
+
+    See Section 24.3(a).
+
+    Minimum Occupancy
+
+    The minimum number of units at the Property that must have current leases that comply with the provisions of
+    the Loan Agreement in order for a Borrower to undertake or continue certain Property Improvement
+    Alterations. The Minimum Occupancy is expressed as a percentage in the Loan Agreement.
+
+    Minimum Origination Fee
+
+    The Minimum Origination Fee is the minimum fee the Seller/Servicer must charge in connection with the
+    origination of the Mortgage. The Minimum Origination Fee requirements are set forth in Section 17.1(f).
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 23
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Moderate Rehabilitation Mortgage
+
+    See Section 17.4.
+
+    Modification Letter
+
+    The Modification Letter is used by Freddie Mac to propose material modifications to an early rate lock
+    application.
+
+    Moisture Management Plan
+
+    An Moisture Management Plan is a plan provided by the Borrower to manage moisture or Mold issues at the
+    Property in accordance with the requirements set forth in Section 8.3(a). If a Moisture Management Plan is
+    required, the Moisture Management Plan must be maintained at the Property and be made available for
+    verification at annual inspections. Additional information on the requirements for a Moisture Management Plan
+    is in the Moisture Management Plan Handbook.
+
+    Mold
+
+    Mold is a naturally occurring growth that is frequently dark in color with a musty odor. Mold feeds on organic
+    material, and the growth of Mold is typically associated with damp or moist conditions. Mold is also referred to
+    as fungus or mildew.
+
+    Mortgage
+
+    A Mortgage is a loan meeting the requirements of Section 1.2 and secured by a lien on real estate held in fee
+    simple or on an acceptable leasehold estate. A Mortgage may also be: (i) a bond credit enhancement meeting
+    the requirements of Chapter 28 or Chapter 28A, (ii) the mortgage loan securing a TEL meeting the
+    requirements of Chapter 25 or Chapter 25A, or (iii) a mortgage loan, or a tax-exempt bond or loan secured by
+    a mortgage loan, not meeting the requirements of Section 1.2, Chapter 28, Chapter 28A, Chapter 25, or
+    Chapter 25A that has been: (a) deposited in a securitization sponsored by Freddie Mac or (b) or credit
+    enhanced by Freddie Mac. When used alone in the Guide, and unless the context indicates otherwise, the
+    term “Mortgage” is a multifamily Mortgage secured by a property containing five or more dwelling units.
+
+    The term "Mortgage" includes the Security Instrument (mortgage, deed of trust, or deed to secure debt), the
+    Note, the evidence of title, and all other Loan Documents that evidence the Mortgage and includes, for bond
+    credit enhancement transactions, the bond mortgage note, the bond mortgage, the reimbursement mortgage
+    and the reimbursement agreement.
+
+    Mortgage Documents
+
+    See Loan Documents.
+
+    Mortgage File
+
+    The paper and electronic file or files required to be created and maintained for each Mortgage by the
+    Seller/Servicer in accordance with Chapter 34, and any other applicable sections of the Guide.
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 24
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Mortgage Financial Terms
+
+    The Mortgage Financial Terms are the maximum Mortgage amount, Freddie Mac net spread, gross spread,
+    term, amortization period (if applicable), interest only period (if applicable), prepayment terms, yield
+    maintenance period (if applicable), lock out period (if applicable), treasury floor (if applicable), and any other
+    relevant Mortgage financial terms as determined by Freddie Mac.
+
+    Mortgages Purchased in Part
+
+    Mortgages Purchased in Part are Mortgages in which Freddie Mac has purchased or retained a participation
+    interest.
+
+    Mortgages Purchased in Whole
+
+    Mortgages Purchased in Whole have been purchased in their entirety by Freddie Mac.
+
+    Multifamily Document Management System
+
+    See Document Management System.
+
+    Multifamily Eligibility System
+
+    A Multifamily Software Application for Seller/Servicers to submit monthly, quarterly and annual certifications,
+    and update vendor inventory.
+
+    Multifamily Loan Documents
+
+    See Loan Documents.
+
+    Multifamily Securities Investor Access
+
+    A Multifamily Software Application that provides investors and analysts with information related to Freddie Mac
+    Multifamily K-Deals®, ML-DealsSM, Q-DealsSM, SB-Deals®, and Multi PC® mortgage-backed securities and their
+    underlying collateral.
+
+    Multifamily Software Applications
+
+    The software applications that Freddie Mac provides to the Seller/Servicer in connection with the sale and the
+    servicing of multifamily Mortgages. The Multifamily Software Applications include those listed in Section
+    2.12(a).
+
+    National Flood Insurance Program
+
+    See Section 31.1(c).
+
+    Net Operating Income
+
+    Net Operating Income is the income from a property's operations available for repayment of debt and return on
+    equity to the owner after deducting economic vacancy and all expenses (exclusive of debt service).
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 25
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Nondelivery
+
+    A Nondelivery is any action or failure to act that prevents or will prevent the Seller from meeting the terms of a
+    Commitment after acceptance or an early rate lock application after Rate Lock.
+
+    Nonprofit Entity
+
+    A Nonprofit Entity is an entity that has been conferred tax-exempt status by the U.S. Internal Revenue Service.
+    For Freddie Mac’s purposes, a Nonprofit Entity must have a mission of owning, developing, operating,
+    preserving, managing, or otherwise promoting affordable multifamily housing.
+
+    Non-LIHTC Property
+
+    A Property that has affordability requirements outside of a LIHTC regulatory agreement and meets the
+    requirements set forth in the term sheets available at mf.freddiemac.com for Affordable Forward Commitments,
+    Preservation Rehabilitation Financing for Non-LIHTC Properties or Non-LIHTC Bridge, as the context may
+    require.
+
+    Non-Scope Issues
+
+    See Section 61.2(b).
+
+    Non-U.S. Equity Holder
+
+    A Non-U.S. Equity Holder is any non-U.S. person or entity with a collective equity interest (whether direct or
+    indirect) in Borrower equal to or exceeding 10 percent. A Non-U.S. Equity Holder is subject to all Office of
+    Foreign Assets Control (OFAC) and Anti-Money Laundering (AML) Laws compliance-related obligations set
+    forth in this Guide including those identified in Chapters 2, 9, 41, 43, and 44.
+
+    A Non-U.S. Equity Holder that is a Key Borrower Principal is required to submit a Complete Borrower/Key
+    Borrower Principal Due Diligence Package.
+
+    A Non-U.S. Equity Holder with a 25 percent or greater interest in the Borrower will be considered a Borrower
+    Principal.
+
+    All Non-U.S. Equity Holders must be named on the Organizational Chart.
+
+    Note
+
+    A Note is the instrument evidencing the indebtedness secured by a Security Instrument, and includes, for bond
+    credit enhancement transactions, the reimbursement agreement evidencing the obligations secured by the
+    reimbursement mortgage and the bond mortgage note evidencing the obligations secured by the bond
+    mortgage.
+
+    Occurrence-based Policy Form
+
+    See Section 31.1(c).
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 26
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    OFAC Lists
+
+    The OFAC Specially Designated Nationals and Blocked Persons List and the OFAC Consolidated Sanctions
+    List.
+
+    Operator
+
+    An Operator (sometimes referred to as the “Lessee”) is an entity that operates the Property under a master
+    operating lease. Operating leases are frequently used in the Seniors Housing industry. An Operator may be
+    affiliated with the Borrower or may be an unrelated third-party Operator.
+
+    Opinion Analysis
+
+    See Section 29.5(c).
+
+    Optigo Lender
+
+    An Optigo Lender is a lender that meets Freddie Mac's eligibility requirements, including the net worth
+    requirements in Section 3.3, and has been approved by Freddie Mac to sell multifamily Mortgages to Freddie
+    Mac and to service those Mortgages. Optigo Lenders may be approved as one or more of the following
+    designations:
+
+    •   Optigo Conventional Lender
+
+    •   Optigo TAH Lender
+
+    •   Optigo Seniors Housing Lender
+
+    See Section 2.10 and Chapter 3 for more information concerning Optigo Lenders.
+
+    In the Guide, an Optigo Lender is referred to as a Seller/Servicer, Seller or Servicer.
+
+    Organizational Chart
+
+    An Organizational Chart for the Borrower, Guarantor not in the Borrower’s organizational structure, Master
+    Tenant (if applicable) or Operator (if applicable) must include the elements set forth in the Guidance –
+    Organizational Charts that can be found on mf.freddiemac.com.
+
+    Origination and Underwriting System
+
+    A Multifamily Software Application that automates the workflow involved in processing loan applications from
+    receipt of the Loan Submission Template through the underwriting process.
+
+    Origination Date
+
+    The Origination Date is the date of the Note.
+
+    Participation Certificate
+
+    A Participation Certificate represents an undivided interest in specified Mortgages purchased by Freddie Mac
+    from a single Seller, either for cash or in exchange for Participation Certificates, and placed in a discrete pool
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 27
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    bearing a unique Participation Certificate pool number. Participation Certificates are offered only in book-entry
+    form.
+
+    Pledged Mortgage
+
+    See Section 33.1.
+
+    Portfolio Manager®
+
+    Portfolio Manager® is an online tool used to measure and track energy and water consumption at the Property.
+    Portfolio Manager is located on the ENERGY STAR® website of the EPA.
+
+    Potential Life Safety Hazard
+
+    A Potential Life Safety Hazard is a hazard with a lower capacity to cause harm or consists of a condition that
+    could become harmful. A Potential Life Safety Hazard is also of concern but does not represent the same
+    immediacy of risk for tenants as an Imminent Life Safety Hazard. Potential Life Safety Hazards include
+    conditions that will be recognized by most residents and avoided, including trip hazards or conditions that
+    represent a risk only in special circumstances, such as an out-of-date fire extinguisher.
+
+    Potential Life Safety Hazards are identified during the annual physical inspection of a Property post-purchase.
+    There is no comprehensive list of Potential Life Safety Hazards and the inspector must exercise judgment to
+    determine the Hazard category.
+
+    See also Life Safety Hazard.
+
+    PR-90 Repairs
+
+    See Section 62.3(b).
+
+    Pre-Approved Transferee
+
+    Any person or entity that is pre-approved by lender to assume Ultimate Control (direct or indirect) of Borrower,
+    Borrower-affiliated Seniors Housing Operator, or Borrower-affiliated Master Tenant.
+
+    Preferred Equity
+
+    See Section 9.9(b).
+
+    Preferred Equity Return
+
+    See Section 9.9(b).
+
+    Preliminary legal issues memorandum
+
+    See Section 6.4.
+
+    Preservation Rehabilitation
+
+    See Section 19.2(e).
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 28
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Principal
+
+    A Principal, for purposes of Freddie Mac's policy concerning the exclusion of certain persons from participating
+    in transactions or doing business with Freddie Mac, may be:
+
+    •   A Seller/Servicer, or
+
+    •   A person with substantial management or supervisory responsibilities within a Seller/Servicer’s
+        organization, or
+
+    •   A person with critical influence on or substantive Control over any material aspect of a Mortgage purchase
+        or Servicing transaction or any function related to such a transaction
+
+    There are three categories of principals:
+
+    •   Seller/Servicers
+
+    •   Officers, directors, owners, partners, key employees or other persons within a Seller/Servicer’s
+        organization who have substantial management or supervisory responsibilities. Suspended or excluded
+        persons within this category are presumed to have critical influence on or substantive Control over all the
+        organization's Mortgage purchase or Servicing transactions.
+
+    •   Principals, consisting of any other person (whether an individual or an entity) who has a critical influence on
+        or substantive Control over any material aspect of a Mortgage purchase transaction or a Servicing
+        transaction or any function related to such a transaction. Such a Principal may be an employee of a
+        Seller/Servicer, a third-party provider of services to a Seller/Servicer or an employee of a third-party
+        provider of services. Persons who have a critical influence on or substantive Control over Mortgage
+        purchase transactions or Servicing transactions or related functions include loan officers, underwriters,
+        appraisers, inspectors, real estate agents and real estate brokers.
+
+    Priority Repairs
+
+    See Section 62.3(b).
+
+    Private Entity
+
+    A Private Entity is an entity such as a partnership, limited liability company, private real estate fund, LIHTC
+    fund or private REIT whose shares are not traded on a public exchange. A Private Entity can Control who
+    purchases the ownership interests in such entity.
+
+    Private Investment Fund
+
+    A U.S. private company that invests capital from different investors in various assets, including direct and
+    indirect equity interests in real estate. To qualify as a Private Investment Fund, the entity must have each of
+    the following:
+
+    •   A minimum of $50,000,000 in capital commitments
+
+    •   Liquid assets of at least $750,000
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 29
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    •   A minimum net worth of $5,000,000
+
+    •   A management team with all of the following:
+
+        1. At least 10 years of collective experience managing multifamily properties,
+
+        2. At least 10 multifamily properties under management, either in the Private Investment Fund individually,
+           or in the Private Investment Fund and other affiliated private investment funds, collectively
+
+        3. At least $100,000,000 in multifamily properties under management, either in the Private Investment
+           Fund individually, or in the Private Investment Fund and other affiliated private investment funds,
+           collectively
+
+    Private Transfer Fee
+
+    A Private Transfer Fee is any fee, charge or payment imposed by a Private Transfer Fee Covenant due in
+    connection with a transfer of title to a Property. A Private Transfer Fee is payable each time a Property is
+    transferred for a set period of time or indefinitely. The Private Transfer Fee can be a fixed amount or a
+    percentage of the Property’s sale price. A Private Transfer Fee does not include:
+
+    •   A charge payable to the federal, State or local government
+
+    •   A charge that defrays the actual cost of the transfer of the Property, such as transfer of membership in a
+        covered association such as a homeowners’ association, condominium association, cooperative
+        association or a federally tax-exempt 501(c)(3) or 501(c)(4) organization
+
+    •   A charge payable to a covered association such as a homeowners’ association, condominium association,
+        cooperative association or a federally tax-exempt 501(c)(3) and 501(c)(4) organization that is used
+        exclusively to provide a direct benefit to the Property
+
+    Private Transfer Fee Covenant
+
+    A Private Transfer Fee Covenant is any covenant, restriction or other similar document that (i) purports to run
+    with the land or to bind current and future owners whether or not such covenant is recorded and (ii) imposes a
+    Private Transfer Fee upon transfer of all or part of the Property, as defined in 12 C.F.R. Part 1228. A Private
+    Transfer Fee Covenant can be attached to a Property by the original developer or another third party.
+
+    Prohibited Substances
+
+    Prohibited Substances are any drugs or controlled substances whose use, manufacture, distribution or
+    possession are prohibited by any law, whether federal, state or local law.
+
+    Project Loan
+
+    For a Cash Funded Forward Commitment, the Project Loan is Freddie Mac’s loan to the construction lender.
+
+    Property
+
+    The Property is the land, improvements and fixtures that are, or will be, subject to the lien of a Mortgage.
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 30
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Property Improvement Alterations
+
+    Alterations and additions to the improvements existing at or upon the Property, as more fully defined in the
+    Loan Agreement. Repairs, capital replacements, restoration and other work required to be performed at the
+    Property pursuant to the terms of the Loan Documents are not considered to be Property Improvement
+    Alterations.
+
+    Property Improvement Alterations Notice
+
+    A notice to the lender from the Borrower pursuant to the terms of the Loan Agreement that the Borrower
+    intends to begin the Property Improvement Alterations specified in the Property Improvement Alterations
+    Notice.
+
+    Property Reporting System
+
+    See Section 40.2.
+
+    Public Company
+
+    A company whose shares are traded on a United States public exchange or an over-the-counter exchange
+    with no control over who purchases its shares after the initial public offering, or a pension fund that is
+    controlled by a United States municipal, county, state, or federal government unit or any subsidiary thereof.
+
+    Public Records Searches
+
+    See Section 2.28.
+
+    Purchase and Servicing Documents
+
+    The Purchase and Servicing Documents applicable to a Mortgage are the following:
+
+    1. The Purchase Contract, including all Exhibits
+
+    2. The separate Servicing Agreement, if any
+
+    3. The official version of the Guide
+
+    4. Any agreement pursuant to which a Seller or affiliate of a Seller provides a guaranty or any form of credit
+       enhancement in connection with the sale of Mortgages to Freddie Mac
+
+    5. Additionally, for Delegated TAH Mortgages, the Seller/Servicer’s Delegated TAH Master Agreement and
+       the TAH Guide in effect at the time of underwriting
+
+    6. Any Servicing transaction approval issued by Freddie Mac to a Servicer
+
+    The Guide and all of its terms are incorporated by reference into, and constitute part of, each Purchase
+    Contract. A Seller must sell Mortgages in accordance with the terms of each Purchase Contract entered into
+    between the Seller and Freddie Mac.
+
+    A Seller/Servicer must service each Mortgage that the Seller/Servicer has sold to Freddie Mac and has agreed
+    to service for Freddie Mac in accordance with the standards set forth in the Guide (including amendments to
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 31
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Servicing provisions of the Guide that Freddie Mac has made since Freddie Mac purchased the Mortgage) and
+    any applicable Purchase Contract. All of a Seller/Servicer's obligations to service Mortgages for Freddie Mac
+    will be considered to constitute, and will be performed pursuant to, a unitary, indivisible master Servicing
+    contract, and the Servicing obligations assumed under any Purchase Contract will be deemed to be merged
+    into, and will be performed under, the same unitary, indivisible master Servicing contract. The Seller/Servicer
+    agrees that any failure to service any Mortgage in accordance with the terms of the unitary, indivisible master
+    Servicing contract, or any breach of any of the Seller/Servicer's obligations under any aspect of the unitary,
+    indivisible master Servicing contract, will be deemed to constitute a breach of the entire contract and will entitle
+    Freddie Mac to terminate the contract.
+
+    If a Servicer who services Mortgages for Freddie Mac is not also the Seller of the Mortgages to Freddie Mac,
+    the Servicer must agree to service Mortgages for Freddie Mac by separate agreement, which incorporates the
+    Guide and any applicable Purchase Contract by reference. In such case, the separate agreement shall be
+    deemed to be one of the "Purchase and Servicing Documents," which constitute the unitary, indivisible master
+    Servicing contract.
+
+    Purchase Contract
+
+    The Purchase Contract is an agreement between the Seller and Freddie Mac covering the purchase of a
+    specific Mortgage or Mortgages, the Seller's obligation to deliver such Mortgages on a mandatory basis
+    (unless otherwise noted in the Letter of Commitment or early rate-lock application), the delivery period and the
+    Servicing after Freddie Mac's purchase of the Mortgage. The Purchase Contract may be a:
+
+    1. Purchase agreement
+
+    2. Letter of Commitment (as it may be amended) fully accepted by the Seller
+
+    3. Early rate-lock application (as modified or adjusted) fully accepted by Freddie Mac
+
+    4. Other offer by Freddie Mac to purchase, fully accepted by the Seller
+
+    5. Other offer by Seller to sell, fully accepted by Freddie Mac
+
+    Purchase Contract Date of Acceptance
+
+    The Purchase Contract Date of Acceptance is the date the Seller accepts Freddie Mac's offer as stated in a
+    Purchase Contract.
+
+    Quote
+
+    A Quote is Freddie Mac's non-binding statement of proposed Mortgage Financial Terms. A Quote does not
+    require the Seller to submit a full underwriting package, nor does it bind Freddie Mac to purchase a Mortgage.
+
+    Rapid Growth Sponsor
+
+    See Section 9.2(d).
+
+
+
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 32
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Rate Lock
+
+    Rate Lock is the procedure in which Freddie Mac agrees to hold the yield rate on the applicable U.S. Treasury
+    index, net spread to Freddie Mac and Servicing Spread for a fixed rate Mortgage (Interest Rate Lock) and to
+    hold the net spread to Freddie Mac and Servicing Spread for a Floating-Rate Mortgage (Spread Rate Lock).
+
+    Rate Lock Call
+
+    The Seller must call the person whose name is set forth in the Letter of Commitment or early rate lock
+    application to Rate Lock and confirm all of the other terms of the Mortgage, including the term, amortization
+    period and prepayment period. Even though the interest rate for a Floating-Rate Mortgage cannot be Rate
+    Locked, the Seller must complete a Rate Lock Call in order to confirm all of the terms of the Mortgage.
+
+    Rate Reset
+
+    A Rate Reset Mortgage is a Mortgage with a five-year term, during which there is an option to extend the term
+    of the Mortgage for an additional five years at a reset interest rate.
+
+    Rating Agencies
+
+    Rating Agencies are Fitch, Inc.; Moody’s Investors Service, Inc.; Dominion Bond Rating Service (DBRS);
+    Realpoint LLC; or Standard & Poor’s Ratings Services, a division of the McGraw Hill Companies, Inc., or any
+    successor entity of the foregoing, or any other nationally recognized statistical rating organization.
+
+    Real Estate Mortgage Investment Conduit (REMIC)
+
+    As defined in Section 860D of the Internal Revenue Code (or any successor thereto).
+
+    Real Estate Owned
+
+    Real Estate Owned is property acquired through foreclosure or deed-in-lieu of foreclosure.
+
+    Redemption Date
+
+    See Section 9.9(c).
+
+    Regulatory Agreement
+
+    See Section 23.3.
+
+    Rejection; Reject
+
+    A Rejection is Freddie Mac’s determination that it will not accept the early rate lock application submitted by
+    the Seller.
+
+    Rental Assistance Contract
+
+    See Section 23.3.
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 33
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Repair Reserve
+
+    A Repair Reserve is a Reserve established to hold funds allocated for the completion of repairs, rehabilitation
+    or incomplete items of construction. The Repair Reserve can be established by a Repair Escrow Agreement,
+    a Repair and Escrow Agreement or by a Rider to the Loan Agreement that establishes a Repair Reserve.
+
+    Replacement Reserve
+
+    A Replacement Reserve (also referred to as a Replacement Reserve Fund or Replacement Reserve Escrow)
+    is a Reserve established to hold funds allocated for the replacement of capital items. A Replacement Reserve
+    can be established by a Replacement Reserve Agreement or by a Rider to the Loan Agreement establishing a
+    Replacement Reserve.
+
+    Required Net Yield
+
+    The Required Net Yield is the amount of interest Freddie Mac receives from each Mortgage it purchases.
+
+    Reserve
+
+    Reserve is all funds, other than principal and interest, collected to cover expenses to be paid under the
+    Mortgage, including hazard insurance premiums and taxes, special assessments, ground rents, water and
+    sewer charges, any other charges that are or may become first liens on the Property, payments for fees for a
+    subsequent third-party interest rate cap agreement, and any other escrow or reserve established under the
+    terms of the Mortgage or the Loan Documents.
+
+    Restricted Non-Residential Use
+
+    A Restricted Non-Residential Use is any use or operation of the leased premises that may adversely impact (i)
+    the health and safety of the tenants or other individuals at the Mortgaged Property, or (ii) the value, occupancy
+    or rents of the Mortgaged Property, all as determined by Lender in Lender’s discretion. Restricted Non-
+    Residential Uses include the following:
+
+    • The disposition, distribution or sale of Prohibited Substances or any establishment whose primary business
+      is the sale of merchandise normally used or associated with Prohibited Substances
+
+    • Any establishment whose primary business is the disposition, distribution, sale or viewing of adult or
+      pornographic materials or activities, including strip clubs and adult bookstores
+
+    • Any use involving the disposition or sale of Hazardous Materials
+
+    • Any establishment whose primary business is gambling or off-track betting
+
+    • Any establishment whose primary business is the sale of alcoholic beverages for off-site consumption
+
+    Restricted Party
+
+    See Section 7.1.
+
+    Restricted Party Lists
+
+    See Section 7.1.
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 34
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+
+    Risk Rating
+
+    A designation Freddie Mac gives to a Mortgage to reflect Freddie Mac’s current risk outlook associated with
+    the Mortgage. Risk Ratings for all Mortgages in the retained portfolio are currently between three and 10 with
+    three deemed the lowest level of risk associated with a Mortgage and 10 being the highest level of risk.
+
+    SBL Mortgage
+
+    A Mortgage originated under the SBL Purchase Product.
+
+    SBL Physical Risk Report
+
+    A report that evaluates the property condition and environmental hazards of a Property securing a Small
+    Balance Loan (SBL) Mortgage, submitted using Form 1104.
+
+    SBL Purchase Product
+
+    An SBL Mortgage purchased from an SBL Seller/Servicer that had a principal balance between $1 million and
+    $7.5 million and met certain additional criteria, as specified at the time of origination. Freddie Mac is no
+    longer accepting SBL applications as of April 30, 2026.
+
+    Loans of this size may be purchased by Freddie Mac under the Multifamily Conventional Cash Mortgage
+    Purchase Program, described in Chapter 17. See Chapter 46SBL for Seller/Servicer obligations regarding the
+    repurchase of defaulted SBL Mortgages, loss sharing and the securitization process.
+
+    Scheduled Interest
+
+    Scheduled interest is the monthly interest scheduled to be paid under the amortization schedule applicable to
+    the Mortgage.
+
+    Scheduled Principal
+
+    Scheduled Principal is the monthly principal scheduled to be paid under the amortization schedule applicable
+    to the Mortgage, calculated in accordance with Section 53.1.
+
+    Schedule of Values
+
+    See Section 31.1(c).
+
+    Scope Issues
+
+    See Section 61.2(b).
+
+    Securitization
+
+    Securitization is the transaction in which the Note for a Mortgage is assigned to a REMIC (Real Estate
+    Mortgage Investment Conduit), grantor trust or partnership trust.
+
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 35
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Security Incident
+
+    See Section 2.26(c).
+
+    Security Instrument
+
+    A Security Instrument is an instrument (mortgage, deed of trust, deed to secure debt) creating a valid lien on
+    real estate.
+
+    Seller
+
+    Unless the context otherwise requires it, the term "Seller," as used in the Guide and the other Purchase and
+    Servicing Documents, refers to an Optigo Lender or a Multifamily Structured Transaction Lender acting in its
+    capacity as a Seller of Mortgages to Freddie Mac.
+
+    Seller/Servicer
+
+    Unless the context otherwise requires it, the term "Seller/Servicer," as used in the Guide and the other
+    Purchase and Servicing Documents, refers to a Seller, a Servicer or an Optigo Lender.
+
+    Seller Application
+
+    Seller Application is the application between the Seller/Servicer and the Borrower for the Seller/Servicer to
+    make a loan to the Borrower to be secured by the Property and to be sold to Freddie Mac.
+
+    Seller Representative
+
+    See Section 11.8.
+
+    Seniors Housing Liability Assessment
+
+    See Section 21.2.
+
+    Seniors Housing Mortgage
+
+    See Section 21.2.
+
+    Senior Management
+
+    A natural person who serves as one of the following positions for a Seller/Servicer:
+    •   Owner
+    •   President
+    •   Vice President or other officer in charge of managing or overseeing any aspect of the Seller/Servicer’s
+        Freddie Mac business
+    •   Chief Executive Officer (CEO)
+    •   Chief Operating Officer (COO)
+    •   Chief Financial Officer (CFO)
+
+
+                                                                                            Guide Bulletin Update 08/25/26 Glossary – Page 36
+             The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+             web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    •   Chief Information Officer (CIO), Chief Technology Officer (CTO), or Chief Information Security Officer
+        (CISO)
+    •   Chief Risk Officer (CRO)
+    •   Corporate Secretary
+    •   General Counsel
+    •   Director
+    •   Chairman of the Board
+    •   General Partner; or
+    •   Member or manager of an LLC
+
+    Servicer
+
+    Unless the context otherwise requires it, the term “Servicer,” as used in the Guide and the other Purchase and
+    Servicing Documents, refers to an entity acting in its capacity of Servicing multifamily Mortgages for Freddie
+    Mac. A Servicer may be an Optigo Lender, a Multifamily Structured Transaction Seller/Servicer, a Servicer
+    approved on a Servicing-only basis, or a Servicing Agent.
+
+    Servicer Delegation Requirement
+
+    The following requirement that must be satisfied in order for a certain servicing activity to be eligible for
+    delegation to a Servicer with respect to a Mortgage:
+
+    The Mortgage must either be: (i) owned by Freddie Mac, provided the Servicer has not received notification
+    from Freddie Mac that the Mortgage has been designated for inclusion in a Securitization, (ii) in a 55-Day Multi
+    PC, or (iii) in a Securitization where Freddie Mac is the master servicer.
+
+    Servicing
+
+    Servicing is the performance of applicable obligations described in the Purchase and Servicing Documents,
+    including tasks necessary to maintain Mortgages sold to Freddie Mac in a manner that protects Freddie Mac's
+    interests.
+
+    Servicing Agent
+
+    A Servicing Agent is a Servicer that has received Freddie Mac's authorization to act on behalf of another
+    Servicer in Servicing Mortgages purchased by Freddie Mac. This role may also be referred to as a
+    “subservicer” provided, as used in this definition, the reference to "subservicer" will not be construed to have
+    the same meaning as such term is used in connection with a Securitization.
+
+    Servicing Spread
+
+    For TEL Mortgages, the Servicing Spread is the fee payable by the Borrower to the Servicer under the project
+    loan agreement and specified by Freddie Mac in the Letter of Commitment.
+
+    For all other Mortgages, the Servicing Spread is the amount of the interest income received and retained by
+    the Servicer as compensation for servicing a multifamily Mortgage purchased by Freddie Mac. Freddie Mac
+    specifies the Servicing Spread in the Purchase and Servicing Documents.
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 37
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+
+    Shared Access Agreement
+
+    A Shared Access Agreement is an agreement that provides for access to a Property via an easement or
+    private road.
+
+    Shared Use Agreement
+
+    A Shared Use Agreement is an agreement that provides for the sharing, joint use and maintenance of
+    Recreational Facilities and/or Essential Facilities.
+
+    Short Term Rental Assistance Contact
+
+    See Section 23.3(a).
+
+    Significant Repairs or Replacements
+
+    Significant Repairs or Replacements are those that must be completed in order to protect the tenants from Life
+    Safety Hazards, prevent significant physical or functional decline of the Property and/or negatively impact the
+    value of the Property. Examples of Significant Repairs or Replacements include repairs or replacements to
+
+    •   Structural elements such as framing, foundations, balconies, and stairs
+
+    •   Major building systems, such as boilers, heating, ventilation and cooling (HVAC), electrical, plumbing, and
+        elevators
+
+    •   Defects that negatively impact the Property’s habitability or income potential
+
+    Single Asset Entity
+
+    A Single Asset Entity is a Borrower that is structured so that it:
+
+    •   Will not acquire, own, hold, lease, operate, manage, maintain, develop or improve any assets other than
+        the Mortgaged Property and such Personal as may be necessary for the operation of the Mortgaged
+        Property and will conduct and operate its business as presently conducted and operated
+
+    •   Will not engage in any business or activity other than the ownership, operation and maintenance of the
+        Mortgaged Property and activities incidental to such ownership, operation, and maintenance
+
+    Single Counsel
+
+    For TEL Mortgages, as further described in Chapters 25 and 25A, Single Counsel represents Freddie Mac and
+    Seller/Servicers jointly in the origination, delivery and purchase of TEL Mortgages.
+
+    Single Purpose Entity
+
+    An Single Purpose Entity is a Borrower or SPE Equity Owner that is structured with a single purpose and
+    usually owns only one asset to avoid becoming insolvent due to its owner’s conduct and that is insulated from
+    harmful effects of the insolvency of others.
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 38
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Skilled Nursing Property
+
+    See Section 21.2.
+
+    Soft Subordinate Debt
+
+    See Section 19.2(f).
+
+    SPE Equity Owner
+
+    An SPE Equity Owner is a Delaware single member limited liability company or a corporation that acts as a
+    general partner of a limited partnership Borrower or as the managing member of a limited liability company
+    Borrower. The concept of an SPE Equity Owner is not applicable if the Borrower is a Delaware single member
+    limited liability company that is a Single Purpose Entity or if the Borrower is a corporation.
+
+    Special Moisture or Mold Issues Inspection
+
+    A Special Moisture or Mold Issues Inspection is a specific inspection protocol, set forth in Section 8.3(c), which
+    is used to evaluate existing moisture or Mold issues.
+
+    Special Servicing Request
+
+    A Special Servicing Request is a Borrower request for Freddie Mac approval of certain Borrower actions. For
+    example, a Special Servicing Request is required for a Transfer of Ownership, Subordinate Financing, a
+    request for a partial release, the grant of an easement, certain changes to the Repair Reserve or Replacement
+    Reserve, and a waiver of the insurance requirements.
+
+    Specific Insurance Limit
+
+    See Section 31.1(c).
+
+    Sponsor Meeting
+
+    See Section 11.8.
+
+    Sponsor Representative
+
+    See Section 11.8.
+
+    State
+
+    As used in this Guide, the term "State" includes the District of Columbia, Guam, Puerto Rico and the Virgin
+    Islands as well as the 50 states.
+
+    Stand-Alone Memory Care Property
+
+    See Section 21.2.
+
+
+
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 39
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Student Housing Property
+
+    A Student Housing Property is a multifamily Property with a student occupancy rate of more than 50 percent.
+    These Properties cater to a student tenant base because of proximity to colleges or universities and may have
+    been constructed as “Purpose Built/Dedicated Student Housing,” or they may be conventional multifamily
+    Properties currently targeted for student tenants.
+
+    Subordinate Financing
+
+    Subordinate Financing is any Mortgage or other lien that is subordinate to the lien of the first Mortgage on the
+    Property.
+
+    Substantial Rehabilitation
+
+    The expenditure of more than $35,000 per unit in rehabilitation and/or work involving major building systems or
+    structural components that coincide with significant building code compliance repairs/upgrades or that will
+    displace significant numbers of tenants for a material amount of time.
+
+    Supplemental Mortgage
+
+    See Section 20.1.
+
+    Suspicious Activity
+
+    Activity that a Seller or Servicer reasonably believes may involve actual or possible money laundering, terrorist
+    financing, mortgage-related fraud or other financial crimes, and which is undertaken by any party involved in
+    any stage of the origination, underwriting, or Servicing of a Freddie Mac Mortgage.
+
+    Targeted Affordable Housing Mortgage
+
+    A Mortgage originated under either of the following:
+
+    •   Targeted Affordable Housing (TAH) prior approval model, described in the Multifamily Seller/Servicer
+        Guide
+
+    •   Delegated Underwriting Model for TAH, described in the Freddie Mac Delegated Underwriting for Targeted
+        Affordable Housing Guide (TAH Guide)
+
+    Tax Exempt Bond Credit Enhancement Mortgages
+
+    Tax Exempt Bond Credit Enhancement Mortgages are Mortgages that are used as collateral for tax exempt
+    bond transactions in which Freddie Mac has entered into a Credit Enhancement Agreement in a specially
+    negotiated transaction.
+
+    Tax-Exempt Loan
+
+    A Tax-Exempt Loan is originated under Chapter 25 or Chapter 25A.
+
+    Tenant-Based Rental Assistance Vouchers
+
+    See Section 23.4
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 40
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+
+    Title Agent
+
+    An approved agent or agency authorized by the Title Insurance Underwriter to write or issue a Title Policy.
+
+    Title Company
+
+    Individually and/or collectively, any Title Insurance Underwriter, Title Agent, and/or escrow and settlement
+    company that is issuing a Title Policy, recording documents and/or performing escrow and settlement
+    functions in connection with a Mortgage transaction. When a Title Insurance Underwriter and a Title Agent are
+    handling separate matters for a Mortgage closing, the term Title Company will include both such parties.
+
+    Title Insurance Underwriter
+
+    An entity that underwrites and issues, or authorizes issuance of, a Title Policy or, as applicable, reinsurance or
+    coinsurance for a Title Policy, that is the party insuring the risks addressed by the Title Policy or such
+    reinsurance or coinsurance, and which is licensed to do business in the jurisdiction where the Property is
+    located (unless such jurisdiction is Iowa) and regularly issuing title insurance in such jurisdiction. A Title
+    Insurance Underwriter may also authorize its Title Agent to write a Title Policy.
+
+    Title Policy
+
+    A single paid-up loan title insurance policy meeting the requirements in Chapter 29 and the Title Policy and
+    Endorsement Requirements.
+
+    Total Insurable Value
+
+    See Section 31.1(c).
+
+    Transfer of Ownership
+
+    For the purposes of Chapter 41, Transfers of Ownership and Chapter 41SBL, SBL Transfers of Ownership is
+    any conveyance or other transfer of (a) an interest in the Property (including fee simple title or a Mortgage or
+    other lien) or (b) an interest in the Borrower entity, which conveyance or transfer, if carried out without Freddie
+    Mac's prior written approval, would violate a due-on-transfer provision or prohibition on Subordinate Financing
+    contained in the Loan Documents.
+
+    Transfer of Servicing
+
+    See Section 42.2(a).
+
+    Ultimate Control
+
+    Ultimate persons or entities that have Control (direct or indirect) of an entity. A party with Ultimate Control
+    must be one of the following:
+    •   An individual,
+    •   Private Investment Fund,
+    •   A revocable trust (including the settlor/grantor and trustee of the revocable trust), or
+    •   A U.S. public company (U.S. publicly traded entity).
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 41
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+
+    If an individual or entity is a Control party in a Private Investment Fund which is a Key Borrower Principal, then
+    that individual or entity must be disclosed and will be subject to all Office of Foreign Assets Control (OFAC)
+    and Anti-Money Laundering (AML) Laws compliance-related obligations set forth in the Guide, including those
+    identified in Chapters 2, 9, 41, 43 and 44.
+
+    Unfunded Forward Commitment
+
+    See Sections 17A.1, 19A.1(b), 25A.2 and 28A.2.
+
+    Utility Efficiency
+
+    Utility Efficiency is a Freddie Mac suite of offerings for Borrowers who have made or plan to make their
+    Properties more energy and water efficient.
+
+    Utility Efficiency Certificate
+
+    Utility Efficiency Certificate is available for Properties that: (i) have a building performance certificate or rating
+    as set forth in Section 55.2 and (ii) meet Freddie Mac affordability requirements.
+
+    Utility Efficiency Certified
+
+    Properties are considered Utility Efficiency Certified when they have a Utility Efficiency Certificate.
+
+    Utility Efficiency Consultant
+
+    Utility Efficiency Consultant is a certified environmental design/inspection or engineering firm that meets the
+    requirements set forth in Chapter 65.
+
+    Utility Efficiency Improvements
+
+    Utility Efficiency Improvements are the energy and water conservation measures selected by the Borrower
+    from the list of qualifying conservation measures identified in a Green Assessment. These selected
+    conservation measures are identified as Utility Efficiency Improvements in the Utility Efficiency Improvement
+    Rider to the Loan Documents.
+
+    Utility Efficiency Loan
+
+    Utility Efficiency Loan is an option available when a Borrower commits to making Utility Efficiency
+    Improvements identified in a Green Assessment.
+
+    Value-Add Mortgage
+
+    See Section 17.2.
+
+    Web Searches
+
+    Web Searches are search engine reviews that are performed to identify Financial Crimes, litigation, negative
+    credit events and events that would create reputational risk for Freddie Mac.
+
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 42
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    Weighted-Average Coupon
+
+    The Weighted-Average Coupon of any group of Mortgages is calculated by:
+
+    •   Multiplying the purchased unpaid principal balance of each Mortgage by the Coupon Rate of such
+        Mortgage (resulting in a "product" for each Mortgage)
+
+    •   Adding the products so obtained for all of the Mortgages
+
+    •   Dividing the sum of the products by the aggregate purchased unpaid principal balance of all the Mortgages
+        in the group
+
+    Freddie Mac's determination of the Weighted-Average Coupon is conclusive.
+
+    Weighted-Average Remaining Maturity
+
+    The Weighted-Average Remaining Maturity of any group of Mortgages is calculated by:
+
+    •   Multiplying the unpaid principal balance of each Mortgage by the number of months remaining to maturity
+        of such Mortgage (resulting in a "product" for each Mortgage)
+
+    •   Adding the products so obtained for all of the Mortgages
+
+    •   Dividing the sum of all the products by the aggregate unpaid principal balance of all the Mortgages in the
+        group
+
+    Freddie Mac's determination of the Weighted-Average Remaining Maturity is conclusive.
+
+    Workforce Housing Preservation
+
+    Workforce Housing Preservation is a Conventional Mortgage product designed to preserve middle-income
+    rental housing stock by restricting rents through Borrower-elected rent restrictions in the Loan Agreement or
+    third-party, non-governmental rent restrictions subject to Freddie Mac review and approval of the third-party
+    agreement terms. See Section 17.6.
+
+    Yield Maintenance Period
+
+    The Yield Maintenance Period is that period of time specified in certain Notes or Riders to Notes during which
+    the Borrower's prepayment of the Mortgage results in its obligation to pay a Yield Maintenance Prepayment
+    Premium.
+
+    Yield Maintenance Prepayment Premium
+
+    The Yield Maintenance Prepayment Premium is a prepayment premium charged in connection with any
+    prepayment of certain Mortgages during the Yield Maintenance Period.
+
+    Yield Rate
+
+    The Yield Rate is the yield on the applicable U.S. Treasury.
+
+
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 43
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Multifamily Seller/Servicer Guide
+Glossary and List of Commonly Used Acronyms
+
+
+
+  Commonly Used Acronyms
+
+  ACM
+
+  Asbestos-containing materials
+
+  AIF
+
+  Annual Inspection Form
+
+  AMI
+
+  Area Median Income
+
+  AML
+
+  Anti-Money Laundering
+
+  ARM
+
+  Adjustable-Rate Mortgage
+
+  ASTM
+
+  American Society for Testing and Materials. See Chapters 61, 62, 64 and 66.
+
+  CCRC
+
+  Continuing Care Retirement Community
+
+  C-PACE
+
+  Commercial Property Assessed Clean Energy
+
+  Co-op
+
+  Cooperative
+
+  CRT
+
+  Consent Request Tracker
+
+  DCR
+
+  Debt Coverage Ratio
+
+
+
+                                                                                         Guide Bulletin Update 08/25/26 Glossary – Page 44
+
+          The current official electronic version of the Guide is published by AllRegs ® and accessible via either mf.freddiemac.com (for free) or the
+          AllRegs web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    DBRS
+
+    Dominion Bond Rating Service
+
+    DDLPI
+
+    Due Date of Last Paid Installment
+
+    DMS
+
+    Document Management System
+
+    ECOI
+
+    Equity Conflict of Interest
+
+    EGI
+
+    Effective Gross Income
+
+    EPA
+
+    The United States Environmental Protection Agency
+
+    EPSH
+
+    Employer Enabled Permanent Supportive Housing
+
+    FAM
+
+    Freddie Mac Access Manager
+
+    FEMA
+
+    Federal Emergency Management Agency
+
+    FHA
+
+    Federal Housing Administration
+
+    FIC
+
+    Fee Inspector Company
+
+    ICT
+
+    Insurance Compliance Tool
+
+
+
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 45
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    IV
+
+    Insurable Value
+
+    LBP
+
+    Lead-based paint
+
+    LIA
+
+    Legal Issues Analysis
+
+    LIHTC
+
+    Low-Income Housing Tax Credit
+
+    LODR
+
+    Letter of Determination Review
+
+    LOMA
+
+    Letter of Map Amendment
+
+    LOMR
+
+    Letter of Map Revision
+
+    LST
+
+    Loan Submission Template
+
+    LTV
+
+    Loan-to-Value
+
+    MES
+
+    Multifamily Eligibility System
+
+    MHC
+
+    Manufactured Housing Community
+
+    MHROC
+
+    Manufactured Housing Resident-Owned Community
+
+
+
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 46
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    MMP
+
+    Moisture Management Plan
+
+    MSIA
+
+    Multifamily Securities Investor Access tool
+
+    MTNA
+
+    Mortgage Transaction Narrative Analysis
+
+    NFIP
+
+    National Flood Insurance Program
+
+    NOI
+
+    Net Operating Income
+
+    OFAC
+
+    Office of Foreign Assets Control
+
+    OUS
+
+    Origination and Underwriting System
+
+    PC
+
+    Participation Certificate
+
+    PCB
+
+    Polychlorinated biphenyls
+
+    PLIM
+
+    Preliminarily Legal Issues Memorandum
+
+    PRS
+
+    Property Reporting System
+
+    RAC
+
+    Rental Assistance Contract
+
+    RCV
+
+    Replacement Cost Value
+                                                                                          Guide Bulletin Update 08/25/26 Glossary – Page 47
+           The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+           web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+
+    REIT
+
+    Real Estate Investment Trust
+
+    REMIC
+
+    Real Estate Mortgage Investment Conduit
+
+    REO
+
+    Real Estate Owned
+
+    S&P
+
+    Standard and Poor’s
+
+    SAE
+
+    Single Asset Entity
+
+    SBL
+
+    Small Balance Loan
+
+    SFHA
+
+    Special Flood Hazard Area
+
+    SOV
+
+    Schedule of Values
+
+    SPE
+
+    Single Purpose Entity
+
+    TAH
+
+    Targeted Affordable Housing
+
+    TEL
+
+    Tax-Exempt Loan
+
+    TIV
+
+    Total Insurable Value
+
+
+
+
+                                                                                           Guide Bulletin Update 08/25/26 Glossary – Page 48
+            The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+            web site of ICE Mortgage Technology (with a paid subscription).
+Guide – Glossary and List of Commonly Used Acronyms
+
+
+    UPB
+
+    Unpaid Principal Balance
+
+    WAC
+
+    Weighted Average Coupon
+
+    WARM
+
+    Weighted Average Remaining Maturity
+
+
+
+
+                                                                                         Guide Bulletin Update 08/25/26 Glossary – Page 49
+          The current official electronic version of the Guide is published by AllRegs® and accessible via either mf.freddiemac.com (for free) or the AllRegs
+          web site of ICE Mortgage Technology (with a paid subscription).
+

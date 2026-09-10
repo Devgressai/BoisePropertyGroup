@@ -156,7 +156,8 @@ export const MULTIFAMILY: CommercialPageContent = {
       body: [
         "It is often said that five units is where a property becomes commercial. That is a useful rule of thumb and it is not a legal fact, because there is no one system whose answer governs all the others.",
         "The federal housing-finance definition treats a multifamily property as one with more than four units, which is the boundary most people are reaching for. The Census Bureau's residential construction statistics treat multifamily as buildings with two or more units. Federal housing programmes are not uniform either — different programmes use different unit thresholds for different purposes. Idaho's own statutes add further variations of their own for their own purposes.",
-        "Six systems, and they do not agree. So the honest version of the rule is that the boundary depends on which question you are asking: financing, statistics, a housing programme, or a state statute. Anyone who tells you five units is the legal definition of commercial is compressing six answers into one.",
+        "Idaho adds one more, from an unexpected direction. The state's architects chapter does not reach architectural services for a building used as a single or multiple family residence not exceeding three units or three stories. The exemption stops at three — so a triplex sits inside it and a fourplex does not.",
+        "Seven systems, and no two of them agree. The lines fall at two, three, four and five depending on who is asking. So the honest version of the rule is that the boundary depends on the question: financing, statistics, a housing programme, a professional-licensing exemption, or a state statute. Anyone who tells you five units is the legal definition of commercial is compressing seven answers into one.",
       ],
     },
     {
@@ -171,6 +172,8 @@ export const MULTIFAMILY: CommercialPageContent = {
       heading: "What that means in practice",
       body: [
         "Because value follows income, the documents that describe income are the ones that matter. We ask for a rent roll and a trailing twelve months of operating statements, and for anything that changes what those numbers will look like next year: leases expiring, concessions, units held off the market, capital work that has been deferred.",
+        "The figure those documents produce is net operating income — in Freddie Mac's own definition, the income from a property's operations available for repayment of debt and return on equity to the owner, after deducting economic vacancy and all expenses, excluding debt service. That last exclusion is the part owners most often get wrong: NOI is a property-level number and is indifferent to how the building is financed. Two identical buildings with different loans have the same NOI.",
+        "A capitalization rate is then the percentage rate expressing the relationship between a property's value and the net operating income it produces. What rate applies to a particular building on a particular day is a market question, and we will not put a number on it here — an undated figure would be worth less than nothing to you.",
         "None of that is a test to pass. Partly vacant, mid-turnaround, or in the middle of a repositioning is a normal condition for a building to be in, and it is a condition we can price. What we cannot do is price a building we cannot see the income of.",
       ],
     },
@@ -204,6 +207,9 @@ export const MULTIFAMILY: CommercialPageContent = {
     "census-multifamily-starts-at-two",
     "hud-multifamily-not-uniform",
     "idaho-multifamily-boundary-is-not-one-boundary",
+    "idaho-architect-exemption-ends-at-three-units",
+    "noi-definition-freddie-mac",
+    "cap-rate-definition-freddie-mac",
     "ada-apartments-valued-by-commercial-appraisers",
     "ada-commercial-assessment-uses-income",
     "ada-assessment-market-value-jan-1-commercial",

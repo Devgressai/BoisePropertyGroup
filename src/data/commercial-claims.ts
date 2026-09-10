@@ -1223,6 +1223,91 @@ export const commercialClaims: CommercialClaim[] = [
         "tier": 1
       }
     ]
+  },
+  {
+    "id": "noi-definition-freddie-mac",
+    "claim": "Net operating income is the income from a property's operations available for repayment of debt and return on equity to the owner, after deducting economic vacancy and all expenses, excluding debt service.",
+    "quote": "Net Operating Income is the income from a property's operations available for repayment of debt and return on equity to the owner after deducting economic vacancy and all expenses (exclusive of debt service).",
+    "assetClasses": [
+      "multifamily",
+      "office",
+      "retail",
+      "industrial"
+    ],
+    "entities": [],
+    "topics": [
+      "valuation",
+      "multifamily",
+      "lending",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "United States",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Multifamily Seller/Servicer Guide — Glossary",
+        "url": "https://mf.freddiemac.com/docs/mf_guide_glossary.pdf",
+        "publisher": "Freddie Mac",
+        "tier": 2
+      }
+    ]
+  },
+  {
+    "id": "cap-rate-definition-freddie-mac",
+    "claim": "A capitalization rate is the percentage rate representing the relationship between the value of a property and the net operating income it produces.",
+    "quote": "The Capitalization Rate is the percentage rate that represents the proper relationship between the value of the Property and the Net Operating Income that the Property produces.",
+    "assetClasses": [
+      "multifamily",
+      "office",
+      "retail",
+      "industrial"
+    ],
+    "entities": [],
+    "topics": [
+      "valuation",
+      "multifamily",
+      "lending",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "United States",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Multifamily Seller/Servicer Guide — Glossary",
+        "url": "https://mf.freddiemac.com/docs/mf_guide_glossary.pdf",
+        "publisher": "Freddie Mac",
+        "tier": 2
+      }
+    ]
+  },
+  {
+    "id": "idaho-architect-exemption-ends-at-three-units",
+    "claim": "Idaho's architects chapter does not apply to architectural services for a building used as a single or multiple family residence not exceeding three units or three stories in height. The exemption stops at three units, so a fourplex sits above it and a triplex does not — a boundary at three, in a state where other systems draw the line at two, four or five.",
+    "quote": "The rendering of any architectural service required in the erection, enlargement, alteration or repair of any building, where the building is to be or is used as a single or multiple family residence not exceeding three (3) units or three (3) stories in height",
+    "assetClasses": [
+      "multifamily"
+    ],
+    "entities": [],
+    "topics": [
+      "multifamily",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-09-10",
+    "freshness": "SLOW-CHANGING",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-306 — Exemptions [from the Architects chapter]",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title54/T54CH3/SECT54-306/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
   }
 ];
 

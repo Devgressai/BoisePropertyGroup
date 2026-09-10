@@ -1132,6 +1132,88 @@
       "verificationFlag": null,
       "freshnessClass": "SLOW-CHANGING",
       "notes": "⚠️ MEDIUM on purpose, and it must never be flattened into 'sale prices are confidential in Idaho'. This exemption is CONDITIONAL — it depends on a taxpayer actively claiming it — and it covers commercial and financial information in assessor records, not sale prices as such. Its real value is the contrast in the always-disclosable list: ASSESSED VALUE is public, and a transaction price is not on the list at all. That is why an owner can look up their assessment in seconds and cannot look up what the building down the street sold for."
+    },
+    {
+      "id": "noi-definition-freddie-mac",
+      "claim": "Net operating income is the income from a property's operations available for repayment of debt and return on equity to the owner, after deducting economic vacancy and all expenses, excluding debt service.",
+      "quotedLanguage": "Net Operating Income is the income from a property's operations available for repayment of debt and return on equity to the owner after deducting economic vacancy and all expenses (exclusive of debt service).",
+      "assetClass": [
+        "multifamily",
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "entity": [],
+      "topic": [
+        "valuation",
+        "multifamily",
+        "lending",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "freddiemac-mf-guide-glossary"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "Sourced from a GSE's Seller/Servicer Guide glossary — binding contract vocabulary for lenders originating multifamily loans — rather than from a brokerage explainer. That distinction was the whole reason this sat unwritten: the vocabulary gate requires rent roll, NOI and cap rate on the commercial pages to keep them from being classified as residential, but a definition sourced to a broker's marketing glossary is not a definition. ⚠️ The exclusion of debt service is the part owners most often get wrong: NOI is a property-level figure and is indifferent to how the property is financed."
+    },
+    {
+      "id": "cap-rate-definition-freddie-mac",
+      "claim": "A capitalization rate is the percentage rate representing the relationship between the value of a property and the net operating income it produces.",
+      "quotedLanguage": "The Capitalization Rate is the percentage rate that represents the proper relationship between the value of the Property and the Net Operating Income that the Property produces.",
+      "assetClass": [
+        "multifamily",
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "entity": [],
+      "topic": [
+        "valuation",
+        "multifamily",
+        "lending",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "freddiemac-mf-guide-glossary"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "⚠️ THE DEFINITION IS PUBLISHABLE. A RATE IS NOT. Stating what a capitalization rate IS carries no valuation implication; stating what cap rates ARE in Boise is an undated market statistic and is machine-rejected, and working an example with numbers a reader could mistake for their own situation is a prohibited implicit appraisal. See COMMERCIAL-VALUATION-EDUCATION-MODEL.md §6. ⚠️ Note the direction of the relationship as the Guide states it: the rate expresses a relationship between value and income. It is not a thing that exists independently and is then applied."
+    },
+    {
+      "id": "idaho-architect-exemption-ends-at-three-units",
+      "claim": "Idaho's architects chapter does not apply to architectural services for a building used as a single or multiple family residence not exceeding three units or three stories in height. The exemption stops at three units, so a fourplex sits above it and a triplex does not — a boundary at three, in a state where other systems draw the line at two, four or five.",
+      "quotedLanguage": "The rendering of any architectural service required in the erection, enlargement, alteration or repair of any building, where the building is to be or is used as a single or multiple family residence not exceeding three (3) units or three (3) stories in height",
+      "assetClass": [
+        "multifamily"
+      ],
+      "entity": [],
+      "topic": [
+        "multifamily",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "idaho-code-54-306"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-10",
+      "verificationFlag": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "⚠️ WORDED AS AN EXEMPTION, WHICH IS WHAT THE STATUTE IS. § 54-306 lists what the architects chapter does NOT reach; it does not itself say 'an architect is required'. Saying the exemption ends at three units is exactly supported; saying 'a fourplex requires an architect' is a step beyond the text and must not be written. STRENGTHENS the boundary argument considerably: this is a SEVENTH system, and it puts the line at THREE — a number no other system in the set uses. It also lands inside the two-to-four range where residential and commercial search intent overlap, which is a nice demonstration that the ambiguity is real rather than rhetorical."
     }
   ]
 }
