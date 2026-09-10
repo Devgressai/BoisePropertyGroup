@@ -6,6 +6,7 @@ const NAV = [
   { label: "What We Buy", href: "/what-we-buy" },
   { label: "Areas", href: "/locations" },
   { label: "Guides", href: "/guides" },
+  { label: "About", href: "/about" },
 ];
 
 export default function Navbar() {

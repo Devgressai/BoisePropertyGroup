@@ -57,3 +57,30 @@ describe("business identity honesty", () => {
     );
   });
 });
+
+describe("no broken internal links", () => {
+  it("every href referenced in nav and footer has a route file", async () => {
+    const { readdirSync, existsSync, readFileSync } = await import("node:fs");
+    const routes = new Set<string>(["/"]);
+    const walk = (dir: string, base = "") => {
+      for (const e of readdirSync(dir, { withFileTypes: true })) {
+        if (!e.isDirectory()) continue;
+        const seg = e.name.startsWith("(") ? "" : `/${e.name}`;
+        const next = `${base}${seg}`;
+        if (existsSync(`${dir}/${e.name}/page.tsx`)) routes.add(next || "/");
+        walk(`${dir}/${e.name}`, next);
+      }
+    };
+    walk("src/app");
+
+    const linked = new Set<string>();
+    for (const f of ["src/components/Navbar.tsx", "src/components/Footer.tsx"]) {
+      for (const m of readFileSync(f, "utf8").matchAll(/href="(\/[a-z0-9-/]*)"/g)) linked.add(m[1]);
+    }
+    const dynamic = [...routes].some((r) => r.includes("[")) ;
+    const missing = [...linked].filter(
+      (l) => l !== "/" && !routes.has(l) && !l.startsWith("#") && !(dynamic && false)
+    );
+    expect(missing).toEqual([]);
+  });
+});

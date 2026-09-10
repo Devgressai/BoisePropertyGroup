@@ -16,6 +16,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: site.url, lastModified: modified },
     { url: `${site.url}/locations`, lastModified: modified },
     { url: `${site.url}/guides`, lastModified: modified },
+    { url: `${site.url}/how-it-works`, lastModified: modified },
+    { url: `${site.url}/what-we-buy`, lastModified: modified },
+    { url: `${site.url}/about`, lastModified: modified },
+    { url: `${site.url}/contact`, lastModified: modified },
   ];
 
   if (contentFor(county.slug)) urls.push({ url: `${site.url}/${county.slug}`, lastModified: modified });
