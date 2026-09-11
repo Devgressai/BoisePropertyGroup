@@ -39,6 +39,9 @@ export default function PlacePage({
     .map((id) => residentialClaim(id))
     .filter((c) => c !== undefined);
 
+  const geographyLinks = links.filter((l) => l.reason !== "guide" && l.reason !== "commercial");
+  const knowledgeLinks = links.filter((l) => l.reason === "guide" || l.reason === "commercial");
+
   const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
   return (
     <>
@@ -106,21 +109,39 @@ export default function PlacePage({
           </div>
         </div>
 
+        {/*
+          Two blocks, not one, because "Elsewhere in Ada County" is a geography
+          heading and a guide is not a place. The split is by LinkItem.reason,
+          so a new edge type appears under the right heading without a template
+          change. Knowledge edges are earned from this place's own claims — see
+          knowledgeLinksForPlace() — so a place with no tenancy evidence shows
+          no tenancy guide, and the block disappears entirely rather than
+          rendering an empty heading.
+        */}
         <section className="border-t border-[var(--bpg-border)] bg-[var(--bpg-surface)] py-14">
-          <div className="wrap">
-            <h2 className="eyebrow text-[var(--bpg-muted)]">Elsewhere in Ada County</h2>
-            <ul className="mt-5 flex flex-wrap gap-x-7 gap-y-3">
-              {links.map((l) => (
-                <li key={l.href}>
-                  <Link
-                    href={l.href}
-                    className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
-                  >
-                    {l.label}
-                  </Link>
-                </li>
+          <div className="wrap space-y-10">
+            {[
+              { heading: "Elsewhere in Ada County", items: geographyLinks },
+              { heading: "Research behind this page", items: knowledgeLinks },
+            ]
+              .filter((group) => group.items.length > 0)
+              .map((group) => (
+                <div key={group.heading}>
+                  <h2 className="eyebrow text-[var(--bpg-muted)]">{group.heading}</h2>
+                  <ul className="mt-5 flex flex-wrap gap-x-7 gap-y-3">
+                    {group.items.map((l) => (
+                      <li key={l.href}>
+                        <Link
+                          href={l.href}
+                          className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
+                        >
+                          {l.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
-            </ul>
           </div>
         </section>
 

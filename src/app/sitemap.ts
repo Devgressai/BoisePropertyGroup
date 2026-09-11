@@ -5,8 +5,8 @@ import { guides } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
 import { contentFor } from "@/data/place-content";
 import { COMMERCIAL_PAGES } from "@/data/commercial-content";
-import { claimsUniqueToAssetClass, commercialClaimsByTopic } from "@/data/commercial-claims";
-import { MIN_UNIQUE_CLAIMS, MIN_WORDS, countWords, decideIndexation } from "@/lib/seo/indexation";
+import { countWords, decideIndexation } from "@/lib/seo/indexation";
+import { decideCommercialIndexation } from "@/lib/seo/commercialIndexation";
 
 /**
  * ONLY indexable, self-canonical URLs. A sitemap that advertises a noindex page
@@ -54,14 +54,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
   urls.push({ url: `${site.url}/commercial`, lastModified: modified });
   for (const c of COMMERCIAL_PAGES) {
-    // Mirror the gate the route applies, so the sitemap never advertises a
-    // page the page itself asks not to be indexed.
-    const unique =
-      c.kind === "explainer"
-        ? new Set((c.gateTopics ?? []).flatMap((t) => commercialClaimsByTopic(t).map((x) => x.id))).size
-        : new Set([c.assetClass, ...(c.alsoCovers ?? [])].flatMap((a) => claimsUniqueToAssetClass(a).map((x) => x.id))).size;
-    const words = countWords(...c.intro, ...c.sections.flatMap((s) => [s.heading, ...s.body]));
-    if (unique >= MIN_UNIQUE_CLAIMS && words >= MIN_WORDS) {
+    // The SAME function the route and the link graph call — not a mirror of it.
+    // This was previously a hand-maintained copy of the route's private gate,
+    // which is how a sitemap comes to advertise a page that serves noindex.
+    if (decideCommercialIndexation(c).indexable) {
       urls.push({ url: `${site.url}/commercial/${c.slug}`, lastModified: modified });
     }
   }

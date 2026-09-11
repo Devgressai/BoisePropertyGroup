@@ -11,6 +11,7 @@ import { claim as residentialClaim } from "@/data/claims";
 import { guides, guideBySlug } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
 import { graph, organizationSchema, breadcrumbSchema } from "@/lib/seo/schema";
+import { placesForGuide } from "@/lib/seo/internalLinks";
 
 export const dynamicParams = false;
 
@@ -52,6 +53,10 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   ]
     .map((id) => residentialClaim(id))
     .filter((c) => c !== undefined);
+
+  /** Places whose own claims carry a topic in this guide's cluster. */
+  const relatedPlaces = placesForGuide(g.cluster);
+
   const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
   const jsonLd = graph(
     organizationSchema(),
@@ -99,20 +104,55 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             ))}
           </div>
 
+          {/*
+            Siblings are filtered on HAVING CONTENT, not merely on not being
+            this page. A guide with no written content renders a stub, and the
+            place pages shipped exactly that bug — sibling links sent readers to
+            four empty pages. All four guides are written today, so this filter
+            changes nothing now; it is here so writing a fifth guide cannot
+            reintroduce it.
+
+            The places block is the reverse of knowledgeLinksForPlace(): a guide
+            links back only to places whose OWN claims carry a topic in this
+            guide's cluster. Guides, places and commercial pages were three
+            sealed islands joined only through the navbar and footer.
+          */}
           <aside className="mt-16 max-w-[46rem] border-t border-[var(--bpg-border)] pt-8">
             <h2 className="eyebrow text-[var(--bpg-muted)]">Other guides</h2>
             <ul className="mt-4 space-y-2.5">
-              {guides.filter((o) => o.slug !== g.slug).map((o) => (
-                <li key={o.slug}>
-                  <Link
-                    href={`/guides/${o.slug}`}
-                    className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
-                  >
-                    {o.h1}
-                  </Link>
-                </li>
-              ))}
+              {guides
+                .filter((o) => o.slug !== g.slug && guideContentFor(o.slug))
+                .map((o) => (
+                  <li key={o.slug}>
+                    <Link
+                      href={`/guides/${o.slug}`}
+                      className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
+                    >
+                      {o.h1}
+                    </Link>
+                  </li>
+                ))}
             </ul>
+
+            {relatedPlaces.length > 0 && (
+              <>
+                <h2 className="eyebrow mt-8 text-[var(--bpg-muted)]">
+                  Where this applies in Ada County
+                </h2>
+                <ul className="mt-4 space-y-2.5">
+                  {relatedPlaces.map((l) => (
+                    <li key={l.href}>
+                      <Link
+                        href={l.href}
+                        className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
+                      >
+                        Selling property in {l.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </aside>
         </article>
         <EvidenceAppendix claims={appendixClaims} />

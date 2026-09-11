@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { places, county, placeBySlug, renderablePlaces } from "@/data/geography";
+import { places, county, placeBySlug, renderablePlaces, type Place } from "@/data/geography";
 import { contentFor, type PlaceContent } from "@/data/place-content";
 import { decideIndexation, robotsFor, countWords } from "@/lib/seo/indexation";
-import { linksForPlace, linksForCounty } from "@/lib/seo/internalLinks";
+import { linksForPlace, linksForCounty, knowledgeLinksForPlace } from "@/lib/seo/internalLinks";
 import { graph, organizationSchema, breadcrumbSchema } from "@/lib/seo/schema";
 import { site } from "@/data/site";
 import PlacePage from "@/components/seo/PlacePage";
@@ -47,7 +47,7 @@ function resolve(slug: string) {
       title: `We Buy Property in ${county.name}, Idaho`,
       eyebrow: "Ada County, Idaho",
       content,
-      links: linksForCounty(),
+      links: [...linksForCounty(), ...knowledgeLinksForPlace(county as unknown as Place)],
       caveat: null,
       indexable: county.indexable,
       stats: [
@@ -69,7 +69,7 @@ function resolve(slug: string) {
     title: `We Buy Property in ${place.name}, Idaho`,
     eyebrow: `${place.name} · Ada County, Idaho`,
     content,
-    links: linksForPlace(place),
+    links: [...linksForPlace(place), ...knowledgeLinksForPlace(place)],
     caveat: place.spansMultipleCounties ? place.caveat : null,
     indexable: decision.indexable,
     stats: [
