@@ -135,7 +135,7 @@ export const INDUSTRIAL: CommercialPageContent = {
       heading: "How the county arrives at a value",
       body: [
         "Ada County assesses commercial property using the income the property produces, rather than by comparing it to nearby sales the way residential property is handled. That is the same logic a buyer applies, and for the same reason: industrial buildings are rarely alike enough for comparison to carry the weight.",
-        "The assessor's figure is not a substitute for that, and the reasons are structural rather than anyone's error — a date fixed by statute, a tolerance the law states openly, and a rolling appraisal cycle. How commercial value is determined sets that out in full.",
+        "The assessor's figure is not a substitute for that, and the reasons are structural rather than anyone's error — a date fixed by statute, a tolerance the law states openly, and a rolling appraisal cycle. [How commercial value is determined](/commercial/how-value-is-determined) sets that out in full.",
       ],
     },
     {
@@ -227,7 +227,7 @@ export const MULTIFAMILY: CommercialPageContent = {
     {
       heading: "The assessor's number answers a different question",
       body: [
-        "Assessed value in Ada County is market value as of January 1, produced for taxation at mass-appraisal scale rather than for a transaction. For most of the year it is a figure about a date in the past, and it carries a statutory tolerance and a rolling appraisal cycle behind it — all set out in how commercial value is determined.",
+        "Assessed value in Ada County is market value as of January 1, produced for taxation at mass-appraisal scale rather than for a transaction. For most of the year it is a figure about a date in the past, and it carries a statutory tolerance and a rolling appraisal cycle behind it — all set out in [how commercial value is determined](/commercial/how-value-is-determined).",
         "None of that makes it the wrong number. It makes it the right number to a question a seller is not asking. It cannot account for the specific facts that move a real price on an apartment property — a block of leases rolling at once, a boiler at the end of its life, units held vacant through a turn.",
       ],
     },

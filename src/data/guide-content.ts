@@ -245,7 +245,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         heading: "You almost certainly do not control the road",
         body: [
-          "Idaho permits only one countywide highway district to operate in a county whose electorate has voted to form one, and Ada County has one. The consequence is unusual and catches people who have owned property in other states.",
+          "Idaho permits only one countywide highway district to operate in a county whose electorate has voted to form one, and [Ada County](/sell-my-house-fast-ada-county) has one. The consequence is unusual and catches people who have owned property in other states.",
           "A city inside that district may not maintain or supervise city highways, and may not levy taxes for their construction, repair or maintenance. The district is responsible for the design, construction, reconstruction and maintenance of city rights-of-way and their curbs, gutters, culverts and sidewalks. Ada County Development Services controls no roadway infrastructure within the county at all.",
           "So an access question, an approach question or a frontage question is a highway district matter, not a city or county one — whichever city the parcel sits in or next to.",
         ],

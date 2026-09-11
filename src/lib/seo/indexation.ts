@@ -1,5 +1,6 @@
 import type { Place } from "@/data/geography";
 import { claimsUniqueTo, claimsForEntity } from "@/data/claims";
+import { stripInline } from "@/lib/content/inline-syntax";
 
 /**
  * THE QUALITY GATE.
@@ -47,5 +48,8 @@ export function robotsFor(decision: IndexDecision) {
 }
 
 export function countWords(...blocks: string[]): number {
-  return blocks.join(" ").trim().split(/\s+/).filter(Boolean).length;
+  // Link markup is stripped first: "[the land guide](/guides/...)" is three
+  // words to a reader, and the path must not count toward the bar that decides
+  // whether a page may be indexed.
+  return blocks.map(stripInline).join(" ").trim().split(/\s+/).filter(Boolean).length;
 }

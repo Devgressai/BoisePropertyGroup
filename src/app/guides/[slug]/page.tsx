@@ -12,6 +12,7 @@ import { guides, guideBySlug } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
 import { graph, organizationSchema, breadcrumbSchema } from "@/lib/seo/schema";
 import { placesForGuide } from "@/lib/seo/internalLinks";
+import Inline from "@/lib/content/Inline";
 
 export const dynamicParams = false;
 
@@ -97,7 +98,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                 </h2>
                 <div className="mt-4 space-y-4">
                   {s.body.map((p) => (
-                    <p key={p.slice(0, 40)} className="leading-relaxed">{p}</p>
+                    <p key={p.slice(0, 40)} className="leading-relaxed"><Inline text={p} /></p>
                   ))}
                 </div>
               </section>

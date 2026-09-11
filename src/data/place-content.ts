@@ -51,7 +51,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Roads and septic answer to neither the city nor the county",
         body: [
           "Idaho Code 40-1406 bars a city inside a countywide highway district from maintaining city highways or levying property taxes for their construction, repair or maintenance. A single countywide district is responsible for the design, construction and maintenance of city rights-of-way and their curbs, gutters, sidewalks and retaining walls. Ada County confirms it controls no roadway infrastructure of its own.",
-          "That has a practical consequence for sellers: a question about a sidewalk, a driveway approach or the road frontage of a parcel in Ada County is a highway district matter, not a city public works matter.",
+          "That has a practical consequence for sellers: a question about a sidewalk, a driveway approach or the road frontage of a parcel in Ada County is [a highway district matter](/guides/selling-land-or-acreage-in-ada-county), not a city public works matter.",
           "There is no second highway district to check. Idaho law permits only one countywide highway district to operate within a county whose electorate has voted to form one, so the question of which road authority governs a given Ada County parcel has exactly one answer, everywhere in the county. That is unusual enough that people arriving from other states look for a city equivalent that does not exist here.",
           "Septic is different again. Central District Health — a public health district covering Ada, Boise, Elmore and Valley counties — permits septic systems and verifies shallow injection wells. It is not a city building department and not a county one.",
         ],
@@ -78,7 +78,7 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "Irrigation is a live question on a great many parcels",
         body: [
-          "Ada County's own map identifies 27 separate irrigation entities operating in the county — irrigation districts, ditch companies, lateral associations, water companies and a drainage district. Settlers Irrigation District alone delivers to 13,187 acres across West Boise, Meridian and South Eagle. Boise-Kuna and Nampa & Meridian are separate districts serving different ground.",
+          "Ada County's own map identifies [27 separate irrigation entities](/guides/selling-land-or-acreage-in-ada-county) operating in the county — irrigation districts, ditch companies, lateral associations, water companies and a drainage district. Settlers Irrigation District alone delivers to 13,187 acres across West Boise, Meridian and South Eagle. Boise-Kuna and Nampa & Meridian are separate districts serving different ground.",
           "Title to the Boise Project's transferred works — Diversion Dam, the New York Canal, roughly 1,500 miles of canals and laterals — remains with the United States. A canal or lateral crossing a parcel here can therefore sit on federally titled works, which changes who a landowner deals with about access and encroachment.",
         ],
         claims: ["ada-27-irrigation-entities", "settlers-district-coverage", "boise-project-federal-title"],
@@ -104,7 +104,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "A converted manufactured home has stopped being movable property",
         body: [
           "Idaho requires manufactured homes to be assessed as other residential housing, with those assessments entered on the property roll. That is the assessment side of a conversion. The ownership side is stricter than most people expect.",
-          "Once an Idaho manufactured home has been converted to real property it is deemed a fixture and an improvement to the land, and physical removal is prohibited without the consent of every person or entity holding an interest in the real property or title to any estate in it. The homeowner has to obtain a title report from a title insurance company to establish whose consent that means. Owners of rights-of-way, easements and subsurface rights are excluded from the requirement.",
+          "Once an Idaho manufactured home has been [converted to real property](/guides/selling-a-manufactured-home-in-idaho) it is deemed a fixture and an improvement to the land, and physical removal is prohibited without the consent of every person or entity holding an interest in the real property or title to any estate in it. The homeowner has to obtain a title report from a title insurance company to establish whose consent that means. Owners of rights-of-way, easements and subsurface rights are excluded from the requirement.",
           "There is a notice period as well: at least thirty days' written notice to the county assessor before removal, and the assessor must require written evidence that the necessary consents have been obtained. So a converted home is not something an owner can decide to relocate on their own timetable, and that constraint sits on the property rather than on the person.",
         ],
         claims: [
@@ -116,7 +116,7 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "When an estate has nobody to administer it",
         body: [
-          "The Ada County Treasurer serves as ex officio public administrator as well as ex officio tax collector, responsible for administering the estates of decedents who have no one to administer the estate.",
+          "The Ada County Treasurer serves as [ex officio public administrator](/guides/selling-an-inherited-house-in-idaho) as well as ex officio tax collector, responsible for administering the estates of decedents who have no one to administer the estate.",
           "That is a narrow office and it is rarely the right answer for a family that simply has not started probate yet. But it exists, it is county-level, and it means an Ada County property whose owner has died without anyone stepping forward is not in a legal vacuum — there is a named office with a statutory role.",
         ],
         claims: ["ada-treasurer-ex-officio-public-administrator"],
@@ -132,7 +132,7 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "Selling with a tenant in place",
         body: [
-          "One narrow but useful fact about the local machinery: the Ada County Court Assistance Office publishes eviction forms, and those forms may be used only to evict a tenant who has not paid rent. They cannot be used to evict a tenant who is current on rent, to sue for back rent, or to move a mobile home from a rented space.",
+          "One narrow but useful fact about the local machinery: the Ada County Court Assistance Office publishes eviction forms, and those forms may be used only to evict [a tenant who has not paid rent](/guides/selling-a-rental-with-tenants-in-idaho). They cannot be used to evict a tenant who is current on rent, to sue for back rent, or to move a mobile home from a rented space.",
           "That is a statement about the forms, not about the limits of Idaho landlord-tenant law. It is worth knowing because an owner who assumes the self-service route covers every situation can lose weeks discovering it does not. An occupied sale is usually the simpler path anyway, since a tenancy survives a change of ownership and the deposit obligation transfers with it.",
         ],
         claims: ["ada-eviction-forms-nonpayment-only"],

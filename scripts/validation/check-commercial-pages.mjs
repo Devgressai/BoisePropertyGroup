@@ -18,6 +18,8 @@ import { resolve } from "node:path";
 import { loadTsModule } from "../migration/load-ts.mjs";
 import { checkProse } from "./prose-rules.mjs";
 
+const stripInline = (t) => t.replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, "$1");
+
 const content = loadTsModule(resolve("src/data/commercial-content.ts"));
 const generated = loadTsModule(resolve("src/data/commercial-claims.ts"));
 
@@ -36,6 +38,7 @@ for (const page of content.COMMERCIAL_PAGES) {
 
   const words = [page.intro, page.sections.flatMap((s) => [s.heading, ...s.body])]
     .flat()
+    .map(stripInline)
     .join(" ")
     .trim()
     .split(/\s+/)
@@ -87,7 +90,7 @@ for (const page of content.COMMERCIAL_PAGES) {
 
   // Prose rules, shared with the vitest suite so there is one definition and
   // it can be run without a remote build.
-  const proseText = [...page.intro, ...page.sections.flatMap((s) => [s.heading, ...s.body])].join(" ");
+  const proseText = stripInline([...page.intro, ...page.sections.flatMap((s) => [s.heading, ...s.body])].join(" "));
   const proseFailures = checkProse(page, proseText);
   say(
     proseFailures.length === 0,

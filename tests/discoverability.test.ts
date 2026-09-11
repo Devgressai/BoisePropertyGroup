@@ -138,3 +138,33 @@ describe("the internal link graph", () => {
     check(linksForCounty(), "the county page");
   });
 });
+
+describe("in-prose links", () => {
+  /**
+   * Every [label](/path) in body copy must land on an INDEXABLE page. Checked
+   * against the sitemap itself, because that is where indexability is decided —
+   * a local copy of the route list would be one more place the answer could
+   * drift, and this site has fixed four defects of exactly that shape.
+   */
+  it("point only at pages the sitemap advertises", async () => {
+    const { guideContent } = await import("../src/data/guide-content");
+    const { placeContent } = await import("../src/data/place-content");
+    const { COMMERCIAL_PAGES } = await import("../src/data/commercial-content");
+    const { extractInlineLinks } = await import("../src/lib/content/inline-syntax");
+    const advertised = new Set(sitemap().map((u) => u.url.replace(site.url, "") || "/"));
+
+    const bodies = [
+      ...Object.values(guideContent),
+      ...Object.values(placeContent ?? {}),
+      ...COMMERCIAL_PAGES,
+    ].flatMap((c) => [...(c.intro ?? []), ...(c.sections ?? []).flatMap((s) => s.body)]);
+
+    const links = bodies.flatMap(extractInlineLinks);
+    expect(links.length).toBeGreaterThan(0);
+    for (const l of links) {
+      expect(advertised, `"${l.label}" -> ${l.href} is not an indexable page`).toContain(
+        l.href.split("#")[0],
+      );
+    }
+  });
+});

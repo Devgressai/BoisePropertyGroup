@@ -9,6 +9,7 @@ import { claim as residentialClaim } from "@/data/claims";
 import OfferForm from "@/components/OfferForm";
 import type { PlaceContent } from "@/data/place-content";
 import type { LinkItem } from "@/lib/seo/internalLinks";
+import Inline from "@/lib/content/Inline";
 
 export default function PlacePage({
   title,
@@ -101,7 +102,7 @@ export default function PlacePage({
                 </h2>
                 <div className="mt-4 space-y-4">
                   {s.body.map((p) => (
-                    <p key={p.slice(0, 40)} className="leading-relaxed">{p}</p>
+                    <p key={p.slice(0, 40)} className="leading-relaxed"><Inline text={p} /></p>
                   ))}
                 </div>
               </section>

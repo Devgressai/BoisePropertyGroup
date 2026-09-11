@@ -29,5 +29,7 @@ jobs:
         run: npm run check:vocabulary
       - name: Commercial page gate
         run: npm run check:pages
+      - name: In-prose link gate
+        run: npm run check:links
       - name: Production build
         run: npm run build

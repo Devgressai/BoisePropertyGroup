@@ -7,6 +7,7 @@ import OfferForm from "@/components/OfferForm";
 import type { CommercialPageContent } from "@/data/commercial-content";
 import { commercialClaim } from "@/data/commercial-claims";
 import EvidenceAppendix from "./EvidenceAppendix";
+import Inline from "@/lib/content/Inline";
 
 /**
  * A commercial asset page.
@@ -61,7 +62,7 @@ export default function CommercialPage({
                 </h2>
                 <div className="mt-4 space-y-4">
                   {s.body.map((p) => (
-                    <p key={p.slice(0, 40)} className="leading-relaxed">{p}</p>
+                    <p key={p.slice(0, 40)} className="leading-relaxed"><Inline text={p} /></p>
                   ))}
                 </div>
               </section>
