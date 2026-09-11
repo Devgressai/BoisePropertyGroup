@@ -1,9 +1,45 @@
 import Link from "next/link";
 import { site, hasPhone, hasEmail, hasAddress, hasLegalEntity } from "@/data/site";
+import { places, county } from "@/data/geography";
+import { contentFor } from "@/data/place-content";
+import { decideIndexation, countWords } from "@/lib/seo/indexation";
 
+/**
+ * Footer navigation.
+ *
+ * The Areas column lists ONLY places whose page is indexable, and links each to
+ * its own URL. It previously named Ada County, Boise and Star but pointed all
+ * three at /locations — three labels, one destination, no equity reaching the
+ * pages themselves.
+ *
+ * Places whose pages are noindex are deliberately absent — navigation must not
+ * link to a page that asks not to be indexed. They belong here when they earn
+ * it, not before.
+ *
+ * That list is COMPUTED, not typed. Hardcoding which cities are indexable would
+ * be a third copy of a decision the page and the sitemap already make, and the
+ * last two defects on this site were both exactly that: robots.txt opened while
+ * the layout still said noindex, and a sitemap reading a static flag while the
+ * route computed one. When a city earns its page, it appears here on its own.
+ */
+const areaLinks: [string, string][] = [
+  ...(contentFor(county.slug) ? ([[county.name, `/${county.slug}`]] as [string, string][]) : []),
+  ...places
+    .filter((p) => {
+      const content = contentFor(p.slug);
+      if (!content) return false;
+      const words = countWords(
+        ...(content.intro ?? []),
+        ...(content.sections ?? []).flatMap((s) => [s.heading, ...s.body]),
+      );
+      return decideIndexation(p, words).indexable;
+    })
+    .map((p) => [p.name, `/${p.slug}`] as [string, string]),
+  ["All areas", "/locations"],
+];
 const COLS = [
-  { h: "Sell", links: [["How It Works", "/how-it-works"], ["What We Buy", "/what-we-buy"], ["Get an Offer", "#offer"]] },
-  { h: "Areas", links: [["Ada County", "/locations"], ["Boise", "/locations"], ["Star", "/locations"]] },
+  { h: "Sell", links: [["How It Works", "/how-it-works"], ["What We Buy", "/what-we-buy"], ["Commercial", "/commercial"], ["Get an Offer", "#offer"]] },
+  { h: "Areas", links: areaLinks },
   { h: "Learn", links: [["Guides", "/guides"], ["About", "/about"], ["Contact", "/contact"]] },
 ];
 
