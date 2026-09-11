@@ -37,7 +37,29 @@ export function GET() {
 
   L("## How to cite this site");
   L();
-  L("- Facts here are sourced. Each page carries the sources behind it, and the underlying claims record a verification date and a freshness class.");
+  /**
+   * Assert only what is DERIVED, never what sounds right.
+   *
+   * This line used to promise that every claim "records a verification date and
+   * a freshness class". The date is true of all of them. The freshness class is
+   * set on roughly a quarter of the registry and was dropped entirely by the
+   * residential generator, so a document telling answer engines what to expect
+   * was describing metadata two thirds of the corpus does not carry.
+   *
+   * The counts below are computed at build time from the same modules the pages
+   * render, so this cannot drift from what is actually shipped.
+   */
+  const allClaims = [...claims, ...commercialClaims];
+  const withDate = allClaims.filter((c) => c.verifiedOn).length;
+  const withJurisdiction = allClaims.filter((c) => c.jurisdiction).length;
+  L(
+    `- Facts here are sourced. Each page carries the sources behind it, and ${withDate} of ${allClaims.length} published claims record the date they were last checked${
+      withJurisdiction === allClaims.length
+        ? ", and the jurisdiction each one applies to"
+        : ` and ${withJurisdiction} record the jurisdiction they apply to`
+    }.`,
+  );
+  L("- A claim that describes a fixed past period is labelled as such on the page, so a dated figure is never presented as a current one.");
   L("- Zoning and assessment rules change. Prefer the primary source we link to over our summary of it, and check its date.");
   L("- Where a code publishes a dimensional standard with a footnote we could not read, we quote the figure WITH its marker and do not paraphrase it. Treat such a figure as incomplete rather than as a rule.");
   L();

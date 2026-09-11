@@ -22,6 +22,14 @@ export interface Claim {
   verifiedOn: string;
   /** CURRENT unless the claim describes a fixed past period. Rendered when not CURRENT. */
   temporalStatus: string | null;
+  /**
+   * The scope the claim applies to — 'Idaho' and 'Boise, Idaho' are materially
+   * different things to a reader. Set on all 80 residential claims and dropped
+   * by this generator until 2026-09-11, so EvidenceAppendix rendered the scope
+   * on commercial pages and nothing on residential ones, from the same
+   * component. Nothing looked broken; the line just ended earlier.
+   */
+  jurisdiction: string | null;
   /** The Idaho Code compiler's own history note, verbatim. Rendered per source. */
   amendmentHistory: string | null;
   sources: ClaimSource[];
@@ -53,6 +61,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[40-1406, added 1985, ch. 253, sec. 2, p. 659; am. 1988, ch. 298, sec. 1, p. 942; am. 2023, ch. 306, sec. 1, p. 920.]"
   },
   {
@@ -85,6 +94,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[40-1406, added 1985, ch. 253, sec. 2, p. 659; am. 1988, ch. 298, sec. 1, p. 942; am. 2023, ch. 306, sec. 1, p. 920.]"
   },
   {
@@ -111,6 +121,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[40-1415, added 1985, ch. 253, sec. 2, p. 662; am. 2021, ch. 273, sec. 1, p. 824.]"
   },
   {
@@ -136,6 +147,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[40-1415, added 1985, ch. 253, sec. 2, p. 662; am. 2021, ch. 273, sec. 1, p. 824.]"
   },
   {
@@ -161,6 +173,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -187,6 +200,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[55-1003, added 1989, ch. 371, sec. 2, p. 934; am. 1992, ch. 14, sec. 1, p. 38; am. 2006, ch. 262, sec. 1, p. 814; am. 2020, ch. 232, sec. 2, p. 685.]"
   },
   {
@@ -219,6 +233,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": "EFFECTIVE_DATE_UNCONFIRMED",
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]"
   },
   {
@@ -244,6 +259,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -270,6 +286,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -294,6 +311,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -318,6 +336,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -345,6 +364,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -370,6 +390,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -394,6 +415,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
   },
   {
@@ -418,6 +440,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -442,6 +465,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -466,6 +490,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -490,6 +515,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -520,6 +546,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -551,6 +578,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -578,6 +606,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -603,6 +632,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[55-2504, added 1994, ch. 366, sec. 1, p. 1173; am. 1997, ch. 229, sec. 2, p. 668.]"
   },
   {
@@ -629,6 +659,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -654,6 +685,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -679,6 +711,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -705,6 +738,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[55-2515, added 1994, ch. 366, sec. 1, p. 1178; am. 1997, ch. 229, sec. 5, p. 670.]"
   },
   {
@@ -731,6 +765,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[I.C., sec. 15-3-711, as added by 1971, ch. 111, sec. 1, p. 233.]"
   },
   {
@@ -757,6 +792,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -784,6 +820,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]"
   },
   {
@@ -811,6 +848,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]"
   },
   {
@@ -838,6 +876,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[(42-111) 1899, p. 380, part of sec. 12; reen. R.C. & C.L., sec. 3250; C.S., sec. 5566; I.C.A., sec. 41-111; am. 1990, ch. 319, sec. 1, p. 870; am. 1995, ch. 233, sec. 1, p. 790; am. 2025, ch. 129, sec. 1, p. 663; am. 2026, ch. 2, sec. 1, p. 7.]"
   },
   {
@@ -864,6 +903,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -891,6 +931,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -920,6 +961,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -945,6 +987,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -970,6 +1013,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -996,6 +1040,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1023,6 +1068,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1048,6 +1094,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1073,6 +1120,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1110,6 +1158,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1136,6 +1185,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1166,6 +1216,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1195,6 +1246,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -1223,6 +1275,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -1251,6 +1304,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1279,6 +1333,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1306,6 +1361,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1336,6 +1392,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1368,6 +1425,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1401,6 +1459,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1429,6 +1488,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1454,6 +1514,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1481,6 +1542,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1505,6 +1567,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1532,6 +1595,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1559,6 +1623,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1586,6 +1651,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1614,6 +1680,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1642,6 +1709,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1668,6 +1736,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Garden City, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1694,6 +1763,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]"
   },
   {
@@ -1718,6 +1788,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]"
   },
   {
@@ -1742,6 +1813,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]"
   },
   {
@@ -1769,6 +1841,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -1794,6 +1867,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -1822,6 +1896,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -1850,6 +1925,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[63-304 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 1, p. 130.]"
   },
   {
@@ -1877,6 +1953,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": "[63-304 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 1, p. 130.]"
   },
   {
@@ -1903,6 +1980,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -1930,6 +2008,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "HISTORICAL",
+    "jurisdiction": "Meridian, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1956,6 +2035,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
     "amendmentHistory": null
   },
   {
@@ -1981,6 +2061,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
     "amendmentHistory": null
   },
   {
@@ -2008,6 +2089,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
     "amendmentHistory": null
   },
   {
@@ -2036,6 +2118,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -2063,6 +2146,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
     "amendmentHistory": null
   },
   {
@@ -2091,6 +2175,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
     "amendmentHistory": null
   },
   {
@@ -2118,6 +2203,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -2144,6 +2230,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   },
   {
@@ -2170,6 +2257,7 @@ export const claims: Claim[] = [
     ],
     "verificationFlag": null,
     "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
     "amendmentHistory": null
   }
 ];

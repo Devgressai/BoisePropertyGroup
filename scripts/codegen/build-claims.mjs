@@ -27,6 +27,7 @@ const approved = reg.claims.filter((c) => c.approvedForPublication).map((c) => (
     .map((s) => ({ title: s.title, url: s.url, publisher: s.publisher, tier: s.sourceTier })),
   verificationFlag: c.verificationFlag ?? null,
   temporalStatus: c.temporalStatus ?? null,
+  jurisdiction: c.jurisdiction ?? null,
   amendmentHistory: c.amendmentHistory ?? null,
 }));
 
@@ -56,6 +57,14 @@ export interface Claim {
   verifiedOn: string;
   /** CURRENT unless the claim describes a fixed past period. Rendered when not CURRENT. */
   temporalStatus: string | null;
+  /**
+   * The scope the claim applies to — 'Idaho' and 'Boise, Idaho' are materially
+   * different things to a reader. Set on all 80 residential claims and dropped
+   * by this generator until 2026-09-11, so EvidenceAppendix rendered the scope
+   * on commercial pages and nothing on residential ones, from the same
+   * component. Nothing looked broken; the line just ended earlier.
+   */
+  jurisdiction: string | null;
   /** The Idaho Code compiler's own history note, verbatim. Rendered per source. */
   amendmentHistory: string | null;
   sources: ClaimSource[];
