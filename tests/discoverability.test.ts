@@ -101,3 +101,40 @@ describe("the site-wide robots default", () => {
     expect(SITE_ROBOTS_DEFAULT.follow).toBe(true);
   });
 });
+
+describe("the internal link graph", () => {
+  /**
+   * One question, one answer. "Is this place worth linking to" was being decided
+   * four different ways across this repo: `buildVerdict` in internalLinks, the
+   * hand-set `indexable` flag in geography, and decideIndexation() in the route,
+   * the sitemap and the footer.
+   *
+   * The cost was real rather than theoretical — five of Boise's seven sibling
+   * links pointed at ~338-word stubs that render noindex, so most of a reader's
+   * options from the strongest page on the site led nowhere.
+   */
+  it("never links to a place whose page asks not to be indexed", async () => {
+    const { linksForPlace, linksForCounty } = await import("../src/lib/seo/internalLinks");
+    const bySlug = new Map(places.map((p) => [`/${p.slug}`, p]));
+
+    const check = (links: { href: string }[], from: string) => {
+      for (const l of links) {
+        const target = bySlug.get(l.href);
+        if (!target) continue; // hub or non-place link
+        const content = contentFor(target.slug);
+        expect(content, `${from} links to ${target.name}, which has no content`).toBeTruthy();
+        const words = countWords(
+          ...(content!.intro ?? []),
+          ...(content!.sections ?? []).flatMap((s) => [s.heading, ...s.body]),
+        );
+        expect(
+          decideIndexation(target, words).indexable,
+          `${from} links to ${target.name}, which renders noindex`,
+        ).toBe(true);
+      }
+    };
+
+    for (const p of places) check(linksForPlace(p), p.name);
+    check(linksForCounty(), "the county page");
+  });
+});
