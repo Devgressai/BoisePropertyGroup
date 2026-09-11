@@ -1448,13 +1448,13 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Kuna City Code § 5-8-504 — Schedule of Area and Structure Requirements",
-        "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST&groupChunks=false",
+        "url": "https://library.municode.com/id/kuna/codes/code_of_ordinances?nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST",
         "publisher": "City of Kuna, Idaho",
         "tier": 1
       },
       {
         "title": "Star City Code Table 8-3A-4 — Zoning District Dimensional Standards",
-        "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST&groupChunks=false",
+        "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST",
         "publisher": "City of Star, Idaho",
         "tier": 1
       },
@@ -1491,7 +1491,7 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Star City Code § 8-3D-1 — LI Light Industrial District",
-        "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTDADLIINDIST_8-3D-1LILIINDI&groupChunks=false",
+        "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTDADLIINDIST_8-3D-1LILIINDI",
         "publisher": "City of Star, Idaho",
         "tier": 1
       }
@@ -1532,13 +1532,13 @@ export const commercialClaims: CommercialClaim[] = [
       },
       {
         "title": "Star City Code Table 8-3A-4 — Zoning District Dimensional Standards",
-        "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST&groupChunks=false",
+        "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST",
         "publisher": "City of Star, Idaho",
         "tier": 1
       },
       {
         "title": "Kuna City Code § 5-8-504 — Schedule of Area and Structure Requirements",
-        "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST&groupChunks=false",
+        "url": "https://library.municode.com/id/kuna/codes/code_of_ordinances?nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST",
         "publisher": "City of Kuna, Idaho",
         "tier": 1
       }
@@ -1602,7 +1602,7 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Meridian Unified Development Code Table 11-2C-3 — Dimensional Standards in the Industrial Districts",
-        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST&groupChunks=false",
+        "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST",
         "publisher": "City of Meridian, Idaho",
         "tier": 1
       }
@@ -1643,7 +1643,7 @@ export const commercialClaims: CommercialClaim[] = [
       },
       {
         "title": "Kuna City Code § 5-8-501 — Zoning Districts Established; Purpose",
-        "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU&groupChunks=false",
+        "url": "https://library.municode.com/id/kuna/codes/code_of_ordinances?nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU",
         "publisher": "City of Kuna, Idaho",
         "tier": 1
       },
@@ -1688,7 +1688,7 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Star City Code Table 8-3A-4 — Zoning District Dimensional Standards",
-        "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST&groupChunks=false",
+        "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST",
         "publisher": "City of Star, Idaho",
         "tier": 1
       }
@@ -1722,7 +1722,7 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Meridian Unified Development Code Table 11-2C-3 — Dimensional Standards in the Industrial Districts",
-        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST&groupChunks=false",
+        "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST",
         "publisher": "City of Meridian, Idaho",
         "tier": 1
       }
@@ -1753,7 +1753,7 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
-        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false",
+        "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST",
         "publisher": "City of Meridian, Idaho",
         "tier": 1
       }
@@ -1786,7 +1786,7 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
-        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false",
+        "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST",
         "publisher": "City of Meridian, Idaho",
         "tier": 1
       }
@@ -1832,7 +1832,7 @@ export const commercialClaims: CommercialClaim[] = [
       },
       {
         "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
-        "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false",
+        "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST",
         "publisher": "City of Meridian, Idaho",
         "tier": 1
       }

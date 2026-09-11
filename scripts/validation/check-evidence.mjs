@@ -236,6 +236,39 @@ if (warnings.length) { console.log(`\nWARNINGS (${warnings.length}):`); for (con
   }
 }
 
+/**
+ * A CITED URL MUST BE ONE A READER CAN OPEN, AND KEEP OPENING.
+ *
+ * Six sources cited Municode's content API — the endpoint the text was
+ * retrieved through. That URL embeds a jobId which Municode rotates on every
+ * supplement, so all six had already gone dead while our cached copies stayed
+ * perfectly valid. Ten approved claims on two live pages pointed a reader at a
+ * 404. Nothing detected it: the quote audit verifies against the CACHE, not the
+ * URL, so the evidence was sound and only the citation was broken.
+ *
+ * Retrieval and citation are different jobs. How we got the bytes belongs in
+ * retrievalUrl; what a reader should open belongs in url, and it must be stable.
+ */
+{
+  const VOLATILE = [
+    { pattern: /api\.municode\.com/i, why: "Municode's content API — cite the library.municode.com permalink instead" },
+    { pattern: /[?&]jobId=/i, why: "embeds a jobId that rotates on every supplement" },
+    { pattern: /[?&](sessionid|token|sig)=/i, why: "embeds a session or signing parameter" },
+  ];
+  const allSources = [
+    ...sources.map((s) => ({ ...s, registry: "residential" })),
+    ...JSON.parse(readFileSync("data/commercial/sources/commercial-sources.json", "utf8")).sources.map(
+      (s) => ({ ...s, registry: "commercial" }),
+    ),
+  ];
+  for (const s of allSources) {
+    for (const v of VOLATILE) {
+      if (v.pattern.test(s.url ?? ""))
+        E(`[${s.registry}] source ${s.id} cites an unstable URL — ${v.why}`);
+    }
+  }
+}
+
 if (errors.length) { console.log(`\nERRORS (${errors.length}):`); for (const e of errors) console.log(`  ✗ ${e}`); process.exit(1); }
 
 console.log("\nEVIDENCE INTEGRITY: PASS");

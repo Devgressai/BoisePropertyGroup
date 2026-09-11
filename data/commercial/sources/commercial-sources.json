@@ -1001,7 +1001,7 @@
       "title": "Star City Code Table 8-3A-4 — Zoning District Dimensional Standards",
       "publisher": "City of Star, Idaho",
       "organizationType": "municipal-government",
-      "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST&groupChunks=false",
+      "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST",
       "sourceTier": 1,
       "jurisdiction": "City of Star, Idaho",
       "assetClass": [
@@ -1018,21 +1018,22 @@
       "updatedDate": null,
       "accessedDate": "2026-09-10",
       "freshnessClass": "SLOW-CHANGING",
-      "authorityNotes": "TIER 1 — codified Title 8 Unified Development Code, current through Ordinance No. 428-2025 enacted 16 December 2025 (Supp. No. 2). Retrieved from Municode's content API, which returns the codified text as JSON. ⚠️ Two DRAFTS must be kept out of this: pending Ord. 437-2026 and an unnumbered 'UDC REVISIONS 2026' redline. Neither is adopted.",
+      "authorityNotes": "TIER 1 — codified Title 8 Unified Development Code, current through Ordinance No. 428-2025 enacted 16 December 2025 (Supp. No. 2). Retrieved from Municode's content API, which returns the codified text as JSON. ⚠️ Two DRAFTS must be kept out of this: pending Ord. 437-2026 and an unnumbered 'UDC REVISIONS 2026' redline. Neither is adopted. ⚠️ URL CHANGED 2026-09-11. This cited Municode's content API, which is how the text was RETRIEVED — and that endpoint embeds a jobId that Municode rotates on every supplement. The recorded API URL had already gone dead, so a reader clicking the source on a live page got a 404 while our cached copy stayed perfectly valid. It now cites the stable public permalink a human can open; the API URL is kept in retrievalUrl as the record of how the bytes were obtained.",
       "stalenessRisk": "LOW — changes by ordinance; the codification line names the last one.",
       "claimsSupported": [
         "treasure-valley-setback-governed-by-residential-adjacency",
         "garden-city-c2-is-mixed-use-not-commercial",
         "star-residential-adjacency-floor-is-waivable"
       ],
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-4ZODIDIST&groupChunks=false"
     },
     {
       "id": "star-code-8-3d-1",
       "title": "Star City Code § 8-3D-1 — LI Light Industrial District",
       "publisher": "City of Star, Idaho",
       "organizationType": "municipal-government",
-      "url": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTDADLIINDIST_8-3D-1LILIINDI&groupChunks=false",
+      "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTDADLIINDIST_8-3D-1LILIINDI",
       "sourceTier": 1,
       "jurisdiction": "City of Star, Idaho",
       "assetClass": [
@@ -1049,19 +1050,20 @@
       "updatedDate": null,
       "accessedDate": "2026-09-10",
       "freshnessClass": "SLOW-CHANGING",
-      "authorityNotes": "TIER 1 — codified Title 8, same codification line as Table 8-3A-4.",
+      "authorityNotes": "TIER 1 — codified Title 8, same codification line as Table 8-3A-4. ⚠️ URL CHANGED 2026-09-11. This cited Municode's content API, which is how the text was RETRIEVED — and that endpoint embeds a jobId that Municode rotates on every supplement. The recorded API URL had already gone dead, so a reader clicking the source on a live page got a 404 while our cached copy stayed perfectly valid. It now cites the stable public permalink a human can open; the API URL is kept in retrievalUrl as the record of how the bytes were obtained.",
       "stalenessRisk": "LOW — changes by ordinance; the codification line names the last one.",
       "claimsSupported": [
         "star-light-industry-300ft-residential-separation"
       ],
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTDADLIINDIST_8-3D-1LILIINDI&groupChunks=false"
     },
     {
       "id": "kuna-code-5-8-504",
       "title": "Kuna City Code § 5-8-504 — Schedule of Area and Structure Requirements",
       "publisher": "City of Kuna, Idaho",
       "organizationType": "municipal-government",
-      "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST&groupChunks=false",
+      "url": "https://library.municode.com/id/kuna/codes/code_of_ordinances?nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST",
       "sourceTier": 1,
       "jurisdiction": "City of Kuna, Idaho",
       "assetClass": [
@@ -1078,13 +1080,14 @@
       "updatedDate": null,
       "accessedDate": "2026-09-10",
       "freshnessClass": "SLOW-CHANGING",
-      "authorityNotes": "TIER 1 — codified Kuna Zoning Code, Title 5 Chapter 8.",
+      "authorityNotes": "TIER 1 — codified Kuna Zoning Code, Title 5 Chapter 8. ⚠️ URL CHANGED 2026-09-11. This cited Municode's content API, which is how the text was RETRIEVED — and that endpoint embeds a jobId that Municode rotates on every supplement. The recorded API URL had already gone dead, so a reader clicking the source on a live page got a 404 while our cached copy stayed perfectly valid. It now cites the stable public permalink a human can open; the API URL is kept in retrievalUrl as the record of how the bytes were obtained.",
       "stalenessRisk": "LOW — changes by ordinance; the codification line names the last one.",
       "claimsSupported": [
         "treasure-valley-setback-governed-by-residential-adjacency",
         "garden-city-c2-is-mixed-use-not-commercial"
       ],
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-504SCHEARST&groupChunks=false"
     },
     {
       "id": "garden-city-code-8-2b",
@@ -1150,7 +1153,7 @@
       "title": "Meridian Unified Development Code Table 11-2C-3 — Dimensional Standards in the Industrial Districts",
       "publisher": "City of Meridian, Idaho",
       "organizationType": "municipal-government",
-      "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST&groupChunks=false",
+      "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST",
       "sourceTier": 1,
       "jurisdiction": "City of Meridian, Idaho",
       "assetClass": [
@@ -1167,20 +1170,21 @@
       "updatedDate": null,
       "accessedDate": "2026-09-10",
       "freshnessClass": "SLOW-CHANGING",
-      "authorityNotes": "TIER 1 — codified Unified Development Code, current through Ordinance No. 26-2129 enacted 2026-07-07 (Supp. No. 14). Retrieved from Municode's content API, which returns the codifier's section text as JSON; the payload's own section heading is '11-2C-3. - Standards.' ⚠️ Meridian's zoningmap.pdf is a CITY PUBLICATION, not codified text, and no dimensional standard may ever be cited to it. ⚠️ One adopted-but-uncodified ordinance exists, 26-2128, amending a flex-space use standard in Chapter 4 — it does not touch this table. See docs/commercial/CODIFICATION-FRESHNESS.md.",
+      "authorityNotes": "TIER 1 — codified Unified Development Code, current through Ordinance No. 26-2129 enacted 2026-07-07 (Supp. No. 14). Retrieved from Municode's content API, which returns the codifier's section text as JSON; the payload's own section heading is '11-2C-3. - Standards.' ⚠️ Meridian's zoningmap.pdf is a CITY PUBLICATION, not codified text, and no dimensional standard may ever be cited to it. ⚠️ One adopted-but-uncodified ordinance exists, 26-2128, amending a flex-space use standard in Chapter 4 — it does not touch this table. See docs/commercial/CODIFICATION-FRESHNESS.md. ⚠️ URL CHANGED 2026-09-11. This cited Municode's content API, which is how the text was RETRIEVED — and that endpoint embeds a jobId that Municode rotates on every supplement. The recorded API URL had already gone dead, so a reader clicking the source on a live page got a 404 while our cached copy stayed perfectly valid. It now cites the stable public permalink a human can open; the API URL is kept in retrievalUrl as the record of how the bytes were obtained.",
       "stalenessRisk": "LOW — changes by ordinance; the codification banner names the last one.",
       "claimsSupported": [
         "meridian-industrial-table-defers-to-exceptions",
         "meridian-specific-area-plans-displace-the-table"
       ],
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTCINDI_11-2C-3ST&groupChunks=false"
     },
     {
       "id": "kuna-code-5-8-501",
       "title": "Kuna City Code § 5-8-501 — Zoning Districts Established; Purpose",
       "publisher": "City of Kuna, Idaho",
       "organizationType": "municipal-government",
-      "url": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU&groupChunks=false",
+      "url": "https://library.municode.com/id/kuna/codes/code_of_ordinances?nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU",
       "sourceTier": 1,
       "jurisdiction": "City of Kuna, Idaho",
       "assetClass": [
@@ -1197,19 +1201,20 @@
       "updatedDate": null,
       "accessedDate": "2026-09-10",
       "freshnessClass": "SLOW-CHANGING",
-      "authorityNotes": "TIER 1 — codified Kuna Zoning Code, current through Ordinance No. 2026-15 enacted 2026-05-19 (Supp. No. 72). No adopted-but-uncodified ordinances outstanding as of 2026-09-10.",
+      "authorityNotes": "TIER 1 — codified Kuna Zoning Code, current through Ordinance No. 2026-15 enacted 2026-05-19 (Supp. No. 72). No adopted-but-uncodified ordinances outstanding as of 2026-09-10. ⚠️ URL CHANGED 2026-09-11. This cited Municode's content API, which is how the text was RETRIEVED — and that endpoint embeds a jobId that Municode rotates on every supplement. The recorded API URL had already gone dead, so a reader clicking the source on a live page got a 404 while our cached copy stayed perfectly valid. It now cites the stable public permalink a human can open; the API URL is kept in retrievalUrl as the record of how the bytes were obtained.",
       "stalenessRisk": "LOW — changes by ordinance; the codification banner names the last one.",
       "claimsSupported": [
         "m3-means-three-different-things-in-ada-county"
       ],
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU&groupChunks=false"
     },
     {
       "id": "meridian-code-11-2b-3",
       "title": "Meridian Unified Development Code Table 11-2B-3 — Dimensional Standards in the Commercial Districts",
       "publisher": "City of Meridian, Idaho",
       "organizationType": "municipal-government",
-      "url": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false",
+      "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST",
       "sourceTier": 1,
       "jurisdiction": "Meridian, Idaho",
       "assetClass": [
@@ -1225,14 +1230,15 @@
       "updatedDate": null,
       "accessedDate": "2026-09-10",
       "freshnessClass": "SLOW-CHANGING",
-      "authorityNotes": "TIER 1 — codified Unified Development Code, current through Ordinance No. 26-2129 enacted 2026-07-07 (Supp. No. 14). Retrieved from Municode's content API; the payload's own heading is '11-2B-3. - Standards.' See docs/commercial/CODIFICATION-FRESHNESS.md.",
+      "authorityNotes": "TIER 1 — codified Unified Development Code, current through Ordinance No. 26-2129 enacted 2026-07-07 (Supp. No. 14). Retrieved from Municode's content API; the payload's own heading is '11-2B-3. - Standards.' See docs/commercial/CODIFICATION-FRESHNESS.md. ⚠️ URL CHANGED 2026-09-11. This cited Municode's content API, which is how the text was RETRIEVED — and that endpoint embeds a jobId that Municode rotates on every supplement. The recorded API URL had already gone dead, so a reader clicking the source on a live page got a 404 while our cached copy stayed perfectly valid. It now cites the stable public permalink a human can open; the API URL is kept in retrievalUrl as the record of how the bytes were obtained.",
       "stalenessRisk": "LOW — changes by ordinance; the banner names the last one.",
       "claimsSupported": [
         "meridian-commercial-height-spans-six-districts",
         "meridian-street-buffer-scales-with-road-class",
         "commercial-district-letters-do-not-correspond"
       ],
-      "status": "VERIFIED"
+      "status": "VERIFIED",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17170&jobId=490886&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-3ST&groupChunks=false"
     },
     {
       "id": "eagle-code-8-2-1",
