@@ -52,9 +52,10 @@ export const placeContent: Record<string, PlaceContent> = {
         body: [
           "Idaho Code 40-1406 bars a city inside a countywide highway district from maintaining city highways or levying property taxes for their construction, repair or maintenance. A single countywide district is responsible for the design, construction and maintenance of city rights-of-way and their curbs, gutters, sidewalks and retaining walls. Ada County confirms it controls no roadway infrastructure of its own.",
           "That has a practical consequence for sellers: a question about a sidewalk, a driveway approach or the road frontage of a parcel in Ada County is a highway district matter, not a city public works matter.",
+          "There is no second highway district to check. Idaho law permits only one countywide highway district to operate within a county whose electorate has voted to form one, so the question of which road authority governs a given Ada County parcel has exactly one answer, everywhere in the county. That is unusual enough that people arriving from other states look for a city equivalent that does not exist here.",
           "Septic is different again. Central District Health — a public health district covering Ada, Boise, Elmore and Valley counties — permits septic systems and verifies shallow injection wells. It is not a city building department and not a county one.",
         ],
-        claims: ["achd-city-highway-powers-abolished", "achd-responsibility-within-cities", "achd-is-ada-district", "ada-septic-authority-cdh"],
+        claims: ["achd-city-highway-powers-abolished", "achd-responsibility-within-cities", "achd-is-ada-district", "achd-one-district-per-county", "ada-septic-authority-cdh"],
       },
       {
         heading: "The county's cities are not growing at the same rate",
@@ -62,8 +63,9 @@ export const placeContent: Record<string, PlaceContent> = {
           "Between the 2020 census base and the 2024 Census population estimate, Star grew 61.4% and Kuna 21.0%, while Boise grew 1.0%. Those are not variations on a trend; they are different property markets inside one county.",
           "COMPASS projections reverse parts of that picture by 2050 — Kuna is projected to grow a further 128.7% while Star is projected to add 12.3%, and unincorporated Ada County is projected to lose 36% of its population on the assumption that cities annex the areas they already plan for.",
           "Two estimates of Ada County's population circulate and both are legitimate: COMPASS puts 2024 at 557,590, the Census Bureau's Vintage 2024 estimates put it at 535,799. They are different bodies measuring the same year, and anyone quoting one without naming it is inviting confusion.",
+          "We use the Census figure of 535,799 where a single number is needed, and name it as an estimate rather than a count. The two sources differ by about 4%, which is small enough to ignore in conversation and large enough to matter if someone is building an argument on it.",
         ],
-        claims: ["ada-growth-divergence-2020-2024", "ada-2050-projection-divergence", "ada-population-two-estimates"],
+        claims: ["ada-growth-divergence-2020-2024", "ada-2050-projection-divergence", "ada-population-two-estimates", "ada-population-2024"],
       },
       {
         heading: "Areas of City Impact",
@@ -80,6 +82,69 @@ export const placeContent: Record<string, PlaceContent> = {
           "Title to the Boise Project's transferred works — Diversion Dam, the New York Canal, roughly 1,500 miles of canals and laterals — remains with the United States. A canal or lateral crossing a parcel here can therefore sit on federally titled works, which changes who a landowner deals with about access and encroachment.",
         ],
         claims: ["ada-27-irrigation-entities", "settlers-district-coverage", "boise-project-federal-title"],
+      },
+      {
+        heading: "What the assessed value is, and what it is not",
+        body: [
+          "The Assessor's own guidance is unusually direct about this: the assessor does not set a value for a property, but estimates what a typical buyer would reasonably pay for it on January 1. An assessment is an opinion of market value on a fixed date, not a price and not a ceiling.",
+          "It is also not the product of a fresh inspection every year. State law requires a physical inspection every five years, so roughly 20% of Ada County properties are reappraised in a given year and the rest are trended on market conditions. A property that has changed materially since its last inspection may be carrying a value derived from a trend rather than from anyone looking at it.",
+          "Which appraiser handles a property depends on what it is. Ada County's residential appraisers value detached single-family dwellings, attached townhomes, condominium units, multi-family residential up to four units, and manufactured housing. Apartments and higher-density residential go to commercial appraisers instead — the same four-unit line that separates residential from commercial in lending and in this county's own staffing.",
+        ],
+        claims: ["ada-assessor-does-not-set-value", "ada-reappraisal-five-year-cycle", "ada-residential-appraisal-scope"],
+      },
+      {
+        heading: "The homeowner's exemption turns on a single day in December",
+        body: [
+          "To qualify for the homeowner's exemption for a tax year, an owner must own and occupy the home on or before the last county business day in December, and must file the application by the close of business on that same day. Both conditions land on one date, and the filing is not a formality that can follow later.",
+          "Once approved it carries forward. An owner only needs to reapply on a move or on a change of ownership — which is precisely what a sale is. If you are buying or selling here, the exemption does not travel with the property by itself.",
+        ],
+        claims: ["ada-homeowners-exemption-deadline"],
+      },
+      {
+        heading: "A converted manufactured home has stopped being movable property",
+        body: [
+          "Idaho requires manufactured homes to be assessed as other residential housing, with those assessments entered on the property roll. That is the assessment side of a conversion. The ownership side is stricter than most people expect.",
+          "Once an Idaho manufactured home has been converted to real property it is deemed a fixture and an improvement to the land, and physical removal is prohibited without the consent of every person or entity holding an interest in the real property or title to any estate in it. The homeowner has to obtain a title report from a title insurance company to establish whose consent that means. Owners of rights-of-way, easements and subsurface rights are excluded from the requirement.",
+          "There is a notice period as well: at least thirty days' written notice to the county assessor before removal, and the assessor must require written evidence that the necessary consents have been obtained. So a converted home is not something an owner can decide to relocate on their own timetable, and that constraint sits on the property rather than on the person.",
+        ],
+        claims: [
+          "id-manufactured-homes-assessed-as-residential",
+          "id-manufactured-home-removal-requires-consent",
+          "id-manufactured-home-removal-notice-and-taxes",
+        ],
+      },
+      {
+        heading: "When an estate has nobody to administer it",
+        body: [
+          "The Ada County Treasurer serves as ex officio public administrator as well as ex officio tax collector, responsible for administering the estates of decedents who have no one to administer the estate.",
+          "That is a narrow office and it is rarely the right answer for a family that simply has not started probate yet. But it exists, it is county-level, and it means an Ada County property whose owner has died without anyone stepping forward is not in a legal vacuum — there is a named office with a statutory role.",
+        ],
+        claims: ["ada-treasurer-ex-officio-public-administrator"],
+      },
+      {
+        heading: "The flood maps in force here were adopted in 2020",
+        body: [
+          "Ada County adopted new FEMA Flood Insurance Rate Maps in June 2020. A parcel's flood status is therefore governed by maps that are recent enough to differ from whatever a prior owner, an older survey or an out-of-date listing described.",
+          "This matters most on the properties where it is least expected — ground near the Boise River and its side channels, and parcels crossed by the canal and lateral network described above. Whether a specific parcel is in or out of a mapped zone is a question for the current effective map, not for institutional memory.",
+        ],
+        claims: ["ada-fema-firm-adopted-2020"],
+      },
+      {
+        heading: "Selling with a tenant in place",
+        body: [
+          "One narrow but useful fact about the local machinery: the Ada County Court Assistance Office publishes eviction forms, and those forms may be used only to evict a tenant who has not paid rent. They cannot be used to evict a tenant who is current on rent, to sue for back rent, or to move a mobile home from a rented space.",
+          "That is a statement about the forms, not about the limits of Idaho landlord-tenant law. It is worth knowing because an owner who assumes the self-service route covers every situation can lose weeks discovering it does not. An occupied sale is usually the simpler path anyway, since a tenancy survives a change of ownership and the deposit obligation transfers with it.",
+        ],
+        claims: ["ada-eviction-forms-nonpayment-only"],
+      },
+      {
+        heading: "Where the parcel record actually lives",
+        body: [
+          "The Assessor maintains comprehensive records on all real and personal property in the county — parcel ownership, land and improvement characteristics, parcel boundaries and road rights-of-way — and manages the addressing process for every parcel. Its online maps carry parcel boundaries, streets, hydrography, section boundaries, city limits, parks and schools, alongside Records of Survey and subdivision plats.",
+          "For most questions a seller has about what they actually own, that is the first place to look, and it is county-wide regardless of which city a property sits in. City limits are a layer on the county's map rather than a separate mapping system.",
+          "Permits are the opposite. Ada County's building division reviews plans and inspects buildings, and its permitting division accepts building, manufactured home and mechanical permit applications through an online portal — for the unincorporated county. Cities inside a countywide highway district do retain a few defined powers of their own: responsibility for local improvement district bonds issued before the city highway system was dissolved, the ability to spend city funds on trees, shrubs, grass and other plants in rights-of-way, and control of parking meters. Beyond that short list, the road is the highway district's.",
+        ],
+        claims: ["ada-assessor-maintains-parcel-gis", "ada-building-division-scope", "achd-cities-retain"],
       },
     ],
   },
