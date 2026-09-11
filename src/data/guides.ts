@@ -50,6 +50,14 @@ export const guides: Guide[] = [
       "Whether your manufactured home is real property or personal property decides how it is sold, who can finance it, and whether it can be moved at all. Idaho makes the conversion easy and the reversal hard.",
     cluster: "manufactured",
   },
+  {
+    slug: "selling-land-or-acreage-in-ada-county",
+    title: "Selling Land or Acreage in Ada County",
+    h1: "Selling land or acreage in Ada County",
+    description:
+      "What the ground can legally become is decided by water, irrigation, access and who governs the parcel — not by its size. The constraints that actually bind on Ada County land, and where each one is administered.",
+    cluster: "land",
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {
