@@ -2259,6 +2259,304 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "boise-str-license-repealed-2026",
+    "claim": "Boise no longer requires a short-term rental license. The City Council approved repeal of the city's short-term rental ordinance on May 12, 2026, to align with changes in Idaho state law on local regulation of short-term rentals, effective May 18, 2026. The city says it will continue enforcing nuisance, noise, parking, safety and occupancy rules.",
+    "quote": "On May 12, 2026, Boise City Council approved the repeal of the city’s short-term rental ordinance to align with changes in Idaho state law regarding local regulation of short-term rentals.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "rentals",
+      "licensing",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Short-Term Rental License",
+        "url": "https://www.cityofboise.org/departments/city-clerk/licensing/other/short-term-rental-license/",
+        "publisher": "City of Boise — City Clerk",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-impact-fees-by-development-type",
+    "claim": "Boise charges development impact fees that differ by type of development: new residential development pays parks, fire and police impact fees, while commercial development pays only fire and police fees because it typically does not directly impact regional and local parks.",
+    "quote": "New residential development pays parks, fire, and police impact fee types because they impact all three services. Commercial development pays only fire and police impact fees, because it typically does not directly impact regional and local parks.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "fees",
+      "development",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Impact Fees",
+        "url": "https://www.cityofboise.org/departments/finance/impact-fees/",
+        "publisher": "City of Boise — Finance",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-impact-fee-replacement-exemption",
+    "claim": "Boise exempts several activities from impact fees, including replacing a residential unit — a manufactured home included — with another residential unit on the same lot where the number of service units does not increase, remodeling that does not add service units, and rebuilding the same floor area after a fire or other catastrophe if it is ready for occupancy within two years.",
+    "quote": "Replacing a residential unit, including a manufactured home, with another residential unit on the same lot, provided that the number of service units does not increase",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "fees",
+      "development",
+      "manufactured-housing",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Impact Fees",
+        "url": "https://www.cityofboise.org/departments/finance/impact-fees/",
+        "publisher": "City of Boise — Finance",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-modern-zoning-code-effective-2023",
+    "claim": "Boise replaced its zoning code with a modern zoning code approved by the City Council and effective December 1, 2023, so zoning rules for a Boise parcel may differ from what applied before that date.",
+    "quote": "A similar process was followed by Boise City Council, hearing community testimony, advising revisions and approving the zoning code effective December 1, 2023.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "zoning",
+      "planning",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "A Modern Zoning Code",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/designing-our-city/guiding-plans/zoning-code-rewrite/",
+        "publisher": "City of Boise — Planning and Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-demolition-waste-plan-and-reuse-window",
+    "claim": "Boise's demolition and deconstruction permit application includes a material and waste management plan with photos of the building and its materials; the city emails reuse and recycling companies about available materials and allows up to five business days for them to respond before salvage is arranged. A building inspector sets a bond, and hazardous materials must be abated under applicable EPA and other requirements.",
+    "quote": "Allow up to five (5) business days for response of interest in any materials from Reuse Companies.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "permits",
+      "demolition",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Demolition/Deconstruction",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/building/demolitiondeconstruction/",
+        "publisher": "City of Boise — Planning and Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-ten-historic-districts",
+    "claim": "Boise has ten designated historic districts: six residential (East End, East Main Street, Harrison Boulevard, Hays Street, North End and Warm Springs Avenue), three commercial (Hyde Park, Old Boise and South Eighth Street) and one agricultural (Spaulding Ranch).",
+    "quote": "Boise has ten designated historic districts that serve as visible reminders of the historical, archaeological, architectural, educational, and cultural heritage of Boise.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "historic",
+      "planning",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Historic Districts",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/planning-a-project/planning-process-overview/historic-preservation/historic-districts/",
+        "publisher": "City of Boise — Planning and Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-historic-certificate-of-appropriateness",
+    "claim": "In Boise's historic districts, most exterior changes beyond standard maintenance require a Certificate of Appropriateness — including new construction, additions, accessory buildings, and changes such as siding and windows — with the level of review set by a decision matrix based on the district, the property's status and the scope of work.",
+    "quote": "Most exterior changes in the historic districts require a Certificate of Appropriateness to make modifications to a home in a Historic District outside of standard maintenance",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "historic",
+      "permits",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Historic Preservation",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/planning-a-project/planning-process-overview/historic-preservation/",
+        "publisher": "City of Boise — Planning and Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-water-sewer-separate-district",
+    "claim": "In Star, water and sewer service is provided by the Star Sewer & Water District, a separate entity from the City of Star.",
+    "quote": "Star Sewer & Water District",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "utilities",
+      "water",
+      "sewer",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Utilities",
+        "url": "https://www.staridaho.org/1412/Utilities",
+        "publisher": "City of Star",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-building-permit-triggers",
+    "claim": "The City of Star requires building permits for, among other things, re-roofing, replacing more than 100 square feet of siding, replacing windows or doors where the openings are enlarged or reduced, decks 30 or more inches above grade, sheds or outbuildings of 200 square feet or larger, fences over 6 feet, retaining walls over 4 feet, setting manufactured homes, and demolition. No building permit is required for a concrete slab.",
+    "quote": "Replacement of windows or doors where the openings are enlarged or reduced",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "permits",
+      "manufactured-housing",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Planning & Zoning FAQ — City of Star, Idaho",
+        "url": "https://staridaho.org/FAQ.aspx",
+        "publisher": "City of Star",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-homeowner-permit-must-occupy",
+    "claim": "In Star a homeowner who pulls a building permit must perform all the work on it, may pull permits on a primary or secondary residence without registering as a contractor with the state, and must plan on living in the residence within 12 months of completing the project; otherwise a licensed contractor must pull the permit.",
+    "quote": "Homeowners can pull permits on their primary or secondary residence without registering as a contractor with the state and must plan on living in the residence within 12 months of completion of the project.",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "permits",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Planning & Zoning FAQ — City of Star, Idaho",
+        "url": "https://staridaho.org/FAQ.aspx",
+        "publisher": "City of Star",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-certificate-of-occupancy-city-vs-zip",
+    "claim": "The City of Star notes that a Certificate of Occupancy names the municipality actually responsible for permitting and inspection, which can differ from the city associated with the property's ZIP code, because ZIP codes are managed by the Postal Service for mail delivery and do not follow municipal boundaries.",
+    "quote": "ZIP codes are created and managed by the United States Postal Service for mail delivery purposes and do not reflect municipal boundaries.",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "jurisdiction",
+      "permits",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Planning & Zoning FAQ — City of Star, Idaho",
+        "url": "https://staridaho.org/FAQ.aspx",
+        "publisher": "City of Star",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
   }
 ];
 

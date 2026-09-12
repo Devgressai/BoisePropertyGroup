@@ -56,8 +56,8 @@ export const places: Place[] = [
     "placeFips": "08830",
     "population2024Census": 237963,
     "growthPct2020to2024": 1,
-    "directClaims": 9,
-    "uniqueClaims": 4,
+    "directClaims": 16,
+    "uniqueClaims": 11,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -137,8 +137,8 @@ export const places: Place[] = [
     "placeFips": "76870",
     "population2024Census": 18208,
     "growthPct2020to2024": 61.4,
-    "directClaims": 9,
-    "uniqueClaims": 4,
+    "directClaims": 13,
+    "uniqueClaims": 8,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": "SPANS 2 COUNTIES (Ada County, Canyon County). Never describe as wholly within Ada County. Jurisdiction-dependent facts must be qualified by which county part is meant."

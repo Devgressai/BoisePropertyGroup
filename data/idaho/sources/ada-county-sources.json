@@ -874,7 +874,10 @@
       "claimsSupported": [
         "star-flood-zone-building-permit-question",
         "star-one-time-administrative-division",
-        "star-temporary-family-living-quarters"
+        "star-temporary-family-living-quarters",
+        "star-building-permit-triggers",
+        "star-homeowner-permit-must-occupy",
+        "star-certificate-of-occupancy-city-vs-zip"
       ],
       "entitiesSupported": [
         "city:star"
@@ -1264,6 +1267,170 @@
       "claimsSupported": [
         "id-manufactured-home-removal-requires-consent",
         "id-manufactured-home-removal-notice-and-taxes"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-str-license",
+      "title": "Short-Term Rental License",
+      "publisher": "City of Boise — City Clerk",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/city-clerk/licensing/other/short-term-rental-license/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "rentals",
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "VOLATILE",
+      "authorityNotes": "The City Clerk's own licensing page, recording a Council action and its effective date. Read directly, raw HTML cached.",
+      "stalenessRisk": "HIGH — policy page that changes with ordinance and state law.",
+      "claimsSupported": [
+        "boise-str-license-repealed-2026"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-impact-fees",
+      "title": "Impact Fees",
+      "publisher": "City of Boise — Finance",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/finance/impact-fees/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "fees",
+        "development"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The Finance Department's page for the city's development impact fee program, including the Council-approved exemptions. Fee AMOUNTS are in a separate schedule that was not read and are not claimed.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-impact-fees-by-development-type",
+        "boise-impact-fee-replacement-exemption"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-code-rewrite",
+      "title": "A Modern Zoning Code",
+      "publisher": "City of Boise — Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/designing-our-city/guiding-plans/zoning-code-rewrite/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "zoning",
+        "planning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The city's project page for the zoning code rewrite, recording Council approval and the effective date.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-modern-zoning-code-effective-2023"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-demolition-deconstruction",
+      "title": "Demolition/Deconstruction",
+      "publisher": "City of Boise — Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/building/demolitiondeconstruction/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "permits",
+        "demolition"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The Building division's explanation of the moving, deconstruction and demolition code and its recycle and reuse process.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-demolition-waste-plan-and-reuse-window"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-historic-preservation",
+      "title": "Historic Preservation",
+      "publisher": "City of Boise — Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/planning-a-project/planning-process-overview/historic-preservation/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "historic",
+        "permits",
+        "planning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The Planning division's historic preservation overview, including when a Certificate of Appropriateness is required.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-historic-certificate-of-appropriateness"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-historic-districts",
+      "title": "Historic Districts",
+      "publisher": "City of Boise — Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/planning-a-project/planning-process-overview/historic-preservation/historic-districts/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "historic",
+        "planning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The city's list of designated historic districts, grouped as residential, commercial and agricultural.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-ten-historic-districts"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-utilities",
+      "title": "Utilities",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://www.staridaho.org/1412/Utilities",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "utilities",
+        "water",
+        "sewer"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The City of Star's resident information page listing which provider serves each utility.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "star-water-sewer-separate-district"
       ],
       "status": "VERIFIED"
     }
