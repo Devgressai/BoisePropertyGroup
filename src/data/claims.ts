@@ -2938,6 +2938,202 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Garden City, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "meridian-city-water-from-aquifer-wells",
+    "claim": "Meridian's municipal drinking water is supplied by the City of Meridian's Water Division from 25 large-capacity groundwater wells, between 400 and 800 feet deep, drawing on the Snake River Plain Aquifer System. Federal records list the Meridian system as supplied by groundwater, serving 147,340 people through 47,953 connections.",
+    "quote": "The City of Meridian gets its water from the Snake River Plain Aquifer System flowing underneath the City. ... Water is accessed through 25 large capacity, deep (between 400 and 800 feet) groundwater wells throughout the City.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Water — Contact, FAQ & Stats",
+        "url": "https://meridiancity.org/public-works/water/contact-faq/",
+        "publisher": "City of Meridian — Public Works",
+        "tier": 2
+      },
+      {
+        "title": "EPA Safe Drinking Water Information System — water system record ID4010097 (Meridian Water Dept)",
+        "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010097/JSON",
+        "publisher": "U.S. Environmental Protection Agency",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-final-utility-bill-at-ownership-transfer",
+    "claim": "When a Meridian property is sold or refinanced, the agency handling the transaction must request a final billing option from the City of Meridian's Utility Billing office so the city can provide a final assessment for the property at the time of ownership transfer.",
+    "quote": "These requests are required in order to provide a final assessment for the property in question at the time of ownership transfer.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "utilities",
+      "closing",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Selling or Refinancing Property",
+        "url": "https://meridiancity.org/finance/utility-billing/selling-refinancing/",
+        "publisher": "City of Meridian — Finance, Utility Billing",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-utility-debt-stays-with-property",
+    "claim": "City of Meridian utility accounts stay with the property rather than travelling with the customer, any debt at the property for city services is the property owner's responsibility regardless of who used the services, and the account number changes when the property is sold to another owner.",
+    "quote": "City accounts do not travel with the customer; they stay with the property. ... Any debt at the property regarding City services is the responsibility of the property owner regardless of ... If the property is sold to another owner",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "utilities",
+      "rental",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Rental Properties",
+        "url": "https://meridiancity.org/finance/utility-billing/rental-properties/",
+        "publisher": "City of Meridian — Finance, Utility Billing",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-pressurized-irrigation-not-city",
+    "claim": "The City of Meridian does not control any surface (ditch) water supplies. Most Meridian subdivisions have pressurized irrigation systems along the back-lot lines, mostly fed by surface water that is not safe to drink, and those systems are not owned or operated by the city.",
+    "quote": "The City of Meridian does not control any surface water (ditch water) supplies. ... Pressurized irrigation systems are not owned or operated by the City of Meridian.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "water",
+      "irrigation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Irrigation",
+        "url": "https://meridiancity.org/public-works/water/irrigation/",
+        "publisher": "City of Meridian — Public Works",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-water-sewer-rates-march-2025",
+    "claim": "The City of Meridian's water and sewer fee schedule effective March 5, 2025 sets a water base fee of $5.94, a water usage charge of $2.06 per 1,000 gallons, a sewer base fee of $9.35, a sewer usage charge of $5.99 per 1,000 gallons and a water turn-on charge of $32.00.",
+    "quote": "Effective March 5, 2025 Water and Sewer Fee Schedule ... Water Base Fee $5.94 ... Water Usage Charge (per 1,000 gallons) $2.06 ... Sewer Base Fee $9.35 ... Sewer Usage Charge (per 1,000 gallons) $5.99 ... Water Turn-On Charge $32.00",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "utilities",
+      "water",
+      "sewer"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Rates — Water and Sewer Fee Schedule",
+        "url": "https://meridiancity.org/finance/utility-billing/rates/",
+        "publisher": "City of Meridian — Finance, Utility Billing",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-private-sewer-lateral-owner-responsibility",
+    "claim": "In Meridian a homeowner or business owner is responsible for maintaining and repairing a portion of the water and sewer lines that run from the property to the street. The city maintains the lines in the public right of way; if a problem is on the owner's side of the property line, the owner must hire a plumber.",
+    "quote": "As a homeowner or business owner, you are responsible for the maintenance and repair of a portion of the water and sewer lines that run from your property to the street. ... If the issue is on the owner's side of the property line, the property owner will need to call a plumbing company for assistance.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "sewer",
+      "water",
+      "utilities",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Private Sewer Lateral",
+        "url": "https://meridiancity.org/public-works/private-sewer-lateral/",
+        "publisher": "City of Meridian — Public Works",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-city-wastewater-treatment",
+    "claim": "Meridian's wastewater is treated by the City of Meridian at its Wastewater Resource Recovery Facility, while the city directs stormwater questions to the Ada County Highway District.",
+    "quote": "That is where Meridian's Wastewater Resource Recovery Facility (WRRF) comes into play. ... For information about stormwater, please contact ACHD at (208) 387-6100",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "sewer",
+      "utilities",
+      "stormwater"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Wastewater Division",
+        "url": "https://meridiancity.org/public-works/wastewater/",
+        "publisher": "City of Meridian — Public Works",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
   }
 ];
 

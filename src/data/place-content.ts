@@ -136,6 +136,71 @@ export const placeContent: Record<string, PlaceContent> = {
     ],
   },
 
+  "sell-my-house-fast-meridian-id": {
+    intro: [
+      "Meridian has about 139,740 residents, grew 18.6% between the 2020 census base and the 2024 estimate, and had a median age of 38.7 in 2022 — close to the county's 39.1. It is Ada County's second-largest city, and most of what a seller needs to know about it comes down to how the city runs its utilities.",
+      "We buy houses, land and commercial property across Meridian, in any condition.",
+    ],
+    sections: [
+      {
+        heading: "The city runs the water, from deep wells",
+        body: [
+          "Meridian's drinking water comes from the City of Meridian's own Water Division. The city draws it from 25 large-capacity groundwater wells, between 400 and 800 feet deep, tapping the Snake River Plain Aquifer System under the city. Federal records list the system as supplied by groundwater, serving 147,340 people through 47,953 connections — more than the city's own population estimate, so the system's reach and the city limits are not the same thing.",
+          "That is a real difference from [Boise](/sell-my-house-fast-boise-id), where drinking water comes from private utilities regulated by the Idaho Public Utilities Commission. In Meridian a drinking water question about a city-served property goes to the city.",
+        ],
+        claims: ["meridian-city-water-from-aquifer-wells", "boise-drinking-water-private-utilities"],
+      },
+      {
+        heading: "Utility debt stays with the property",
+        body: [
+          "This is the rule that matters most at a sale. City of Meridian utility accounts do not travel with the customer; they stay with the property. Any debt at the property for city services is the property owner's responsibility regardless of who used the services, and when the property is sold to another owner the account number changes.",
+          "For a landlord, that means a tenant's unpaid city utility balance is the owner's to clear. The city offers optional tenant billing, but only when both the tenant and the owner or property manager have filed their forms, and the landlord still receives any delinquent notices for the property.",
+          "At closing, the title, mortgage or finance company handling the sale has to request a final billing option from the city's Utility Billing office. The city says those requests are required so it can provide a final assessment for the property at the time of ownership transfer. An open balance does not stop us buying a house, but it is a line on the settlement statement, and we would rather find it early than at the closing table.",
+        ],
+        claims: ["meridian-utility-debt-stays-with-property", "meridian-final-utility-bill-at-ownership-transfer"],
+      },
+      {
+        heading: "What water and sewer cost",
+        body: [
+          "Under the city's fee schedule effective March 5, 2025, water carries a base fee of $5.94 and a usage charge of $2.06 per 1,000 gallons, and sewer carries a base fee of $9.35 and a usage charge of $5.99 per 1,000 gallons. Turning water on costs $32.00.",
+          "Sewer usage costs nearly three times what water usage does per 1,000 gallons, which is worth knowing when a vacant or rental property's bills look out of line. Rates are reset by the city, so treat these as the figures in force on that date, not as a quote.",
+        ],
+        claims: ["meridian-water-sewer-rates-march-2025"],
+      },
+      {
+        heading: "Irrigation water is a separate system",
+        body: [
+          "The city does not control any surface water. Most Meridian subdivisions have pressurized irrigation systems along the back-lot lines, mostly fed by ditch water that is not safe to drink, and those systems are not owned or operated by the City of Meridian. Who runs a given system is a question for the homeowners association or the irrigation entity.",
+          "Several irrigation districts reach into Meridian. Settlers Irrigation District delivers water across the West Boise, Meridian and South Eagle areas, and Nampa & Meridian is one of five districts operated through the Boise Project Board of Control. We do not assume which one serves a particular lot; we check.",
+        ],
+        claims: ["meridian-pressurized-irrigation-not-city", "settlers-district-coverage", "boise-project-five-districts"],
+      },
+      {
+        heading: "Part of the line to the street is yours",
+        body: [
+          "In Meridian a homeowner or business owner is responsible for maintaining and repairing a portion of the water and sewer lines that run from the property to the street. The city maintains the lines in the public right of way; if a problem is on the owner's side of the property line, the owner calls a plumber.",
+          "Wastewater itself is treated by the city at its Wastewater Resource Recovery Facility. Stormwater is a different matter: the city sends those questions to the Ada County Highway District, which also holds the roads, because Idaho law bars a city inside a countywide highway district from maintaining or supervising city highways.",
+        ],
+        claims: ["meridian-private-sewer-lateral-owner-responsibility", "meridian-city-wastewater-treatment", "achd-city-highway-powers-abolished"],
+      },
+      {
+        heading: "Building activity, and projected growth",
+        body: [
+          "In August 2025 the city issued 103 new residential building permits with a stated total valuation of $23,900,907.90, and 10 new commercial permits valued at $35,391,436.00. That is one month, not a trend, and we do not present it as one.",
+          "COMPASS, the regional planning association, projects Ada County will reach 715,820 people by 2050. Meridian is projected to grow 34.8 percent, against 25.8 percent for Boise and 128.7 percent for Kuna. A projection is not a forecast of prices and we do not treat it as one — but it does show where the region's own planning expects people to go.",
+        ],
+        claims: ["meridian-building-permit-activity-aug-2025", "ada-2050-projection-divergence"],
+      },
+      {
+        heading: "What that means for an offer",
+        body: [
+          "A Meridian house with an unpaid city utility balance, a failing sewer lateral or a tenant who left owing money is not one we decline. Those are costs, and we would rather show you how they shape the number than pretend they are not there.",
+          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
+        ],
+        claims: [],
+      },
+    ],
+  },
   "sell-my-house-fast-garden-city-id": {
     intro: [
       "Garden City has about 12,936 residents, grew 5.1% between the 2020 census base and the 2024 estimate, and had the oldest median age of any Ada County city in 2022, at 47.1. It sits along the Boise River, and the river shapes several of the rules that matter most to a seller here.",

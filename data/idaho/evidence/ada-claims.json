@@ -2498,6 +2498,176 @@
         "gardencity-zoning-information"
       ],
       "notes": "⚠️ Names the tables; does not claim what any of them permits. Garden City's C-2 district is mixed use, unlike the C-2 districts of neighbouring cities — see the commercial registry — so district letters must never be read across city limits."
+    },
+    {
+      "id": "meridian-city-water-from-aquifer-wells",
+      "claim": "Meridian's municipal drinking water is supplied by the City of Meridian's Water Division from 25 large-capacity groundwater wells, between 400 and 800 feet deep, drawing on the Snake River Plain Aquifer System. Federal records list the Meridian system as supplied by groundwater, serving 147,340 people through 47,953 connections.",
+      "quotedLanguage": "The City of Meridian gets its water from the Snake River Plain Aquifer System flowing underneath the City. ... Water is accessed through 25 large capacity, deep (between 400 and 800 feet) groundwater wells throughout the City.",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "water",
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-water-contact-faq",
+        "epa-sdwis-meridian"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "Contrast with Boise, where drinking water comes from private Commission-regulated utilities. ⚠️ EPA's owner_type_code for this system is P; the city's own Water Division pages say the city runs it, and the owner type is deliberately not asserted. ⚠️ EPA's population served exceeds the city's population estimate, so the system's reach and the city limits are not the same thing; 'the city serves every Meridian parcel' is not claimed."
+    },
+    {
+      "id": "meridian-final-utility-bill-at-ownership-transfer",
+      "claim": "When a Meridian property is sold or refinanced, the agency handling the transaction must request a final billing option from the City of Meridian's Utility Billing office so the city can provide a final assessment for the property at the time of ownership transfer.",
+      "quotedLanguage": "These requests are required in order to provide a final assessment for the property in question at the time of ownership transfer.",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "utilities",
+        "closing",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-utility-billing-selling-refinancing"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "The request is made by the title, mortgage or finance company handling the sale. The page does not state a deadline or a fee for the request, and none is claimed."
+    },
+    {
+      "id": "meridian-utility-debt-stays-with-property",
+      "claim": "City of Meridian utility accounts stay with the property rather than travelling with the customer, any debt at the property for city services is the property owner's responsibility regardless of who used the services, and the account number changes when the property is sold to another owner.",
+      "quotedLanguage": "City accounts do not travel with the customer; they stay with the property. ... Any debt at the property regarding City services is the responsibility of the property owner regardless of ... If the property is sold to another owner",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "utilities",
+        "rental",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-utility-billing-rental-properties"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "Stated on the city's rental-properties billing page, but the ownership rule is general: it is what makes a landlord liable for a tenant's unpaid city utility balance. Optional third-party (tenant) billing requires a Renters Addendum and a Billing Directive and carries a one-time $20.00 charge; the landlord still receives delinquent notices."
+    },
+    {
+      "id": "meridian-pressurized-irrigation-not-city",
+      "claim": "The City of Meridian does not control any surface (ditch) water supplies. Most Meridian subdivisions have pressurized irrigation systems along the back-lot lines, mostly fed by surface water that is not safe to drink, and those systems are not owned or operated by the city.",
+      "quotedLanguage": "The City of Meridian does not control any surface water (ditch water) supplies. ... Pressurized irrigation systems are not owned or operated by the City of Meridian.",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "water",
+        "irrigation",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-water-irrigation"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "The city directs owners to their homeowners association or an online map to find who runs a given system, and lists eight irrigation entities including Settlers, Nampa & Meridian, Boise-Kuna, New York and Pioneer. Which entity serves a particular parcel is not claimed."
+    },
+    {
+      "id": "meridian-water-sewer-rates-march-2025",
+      "claim": "The City of Meridian's water and sewer fee schedule effective March 5, 2025 sets a water base fee of $5.94, a water usage charge of $2.06 per 1,000 gallons, a sewer base fee of $9.35, a sewer usage charge of $5.99 per 1,000 gallons and a water turn-on charge of $32.00.",
+      "quotedLanguage": "Effective March 5, 2025 Water and Sewer Fee Schedule ... Water Base Fee $5.94 ... Water Usage Charge (per 1,000 gallons) $2.06 ... Sewer Base Fee $9.35 ... Sewer Usage Charge (per 1,000 gallons) $5.99 ... Water Turn-On Charge $32.00",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "utilities",
+        "water",
+        "sewer"
+      ],
+      "sourceIds": [
+        "meridian-utility-rates"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "freshnessClass": "VOLATILE",
+      "notes": "⚠️ Rates change; always state the effective date alongside the figures. The page does not state the base-fee billing period beyond 'monthly bills', and no annual total is computed or claimed."
+    },
+    {
+      "id": "meridian-private-sewer-lateral-owner-responsibility",
+      "claim": "In Meridian a homeowner or business owner is responsible for maintaining and repairing a portion of the water and sewer lines that run from the property to the street. The city maintains the lines in the public right of way; if a problem is on the owner's side of the property line, the owner must hire a plumber.",
+      "quotedLanguage": "As a homeowner or business owner, you are responsible for the maintenance and repair of a portion of the water and sewer lines that run from your property to the street. ... If the issue is on the owner's side of the property line, the property owner will need to call a plumbing company for assistance.",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "sewer",
+        "water",
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "meridian-private-sewer-lateral"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "⚠️ The city also says neither Digline nor the city can locate lines on private property — an 811 call marks lines in easements and streets only. Where exactly the owner's portion ends on a given lot is not claimed."
+    },
+    {
+      "id": "meridian-city-wastewater-treatment",
+      "claim": "Meridian's wastewater is treated by the City of Meridian at its Wastewater Resource Recovery Facility, while the city directs stormwater questions to the Ada County Highway District.",
+      "quotedLanguage": "That is where Meridian's Wastewater Resource Recovery Facility (WRRF) comes into play. ... For information about stormwater, please contact ACHD at (208) 387-6100",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "sewer",
+        "utilities",
+        "stormwater"
+      ],
+      "sourceIds": [
+        "meridian-wastewater-division"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "notes": "Facility location on the city page: 3401 N. Ten Mile Road. That every Meridian parcel is on city sewer is not claimed."
     }
   ]
 }

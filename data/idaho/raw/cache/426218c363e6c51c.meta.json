@@ -1,0 +1,10 @@
+{
+  "url": "https://meridiancity.org/public-works/water/contact-faq/",
+  "fetchedAt": "2026-09-12T18:04:38.543Z",
+  "status": 200,
+  "finalUrl": "https://meridiancity.org/public-works/water/contact-faq/",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 65554,
+  "fetchedVia": "chrome-cdp",
+  "note": "fetch-source.mjs returns HTTP 403 for this host (bot challenge). Captured as rendered DOM via local Chrome over CDP with a non-HeadlessChrome user agent. Content is the live page, not a fetcher response."
+}

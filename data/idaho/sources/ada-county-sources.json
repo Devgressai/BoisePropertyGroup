@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 46,
+  "totalSources": 80,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -1825,6 +1825,194 @@
       "stalenessRisk": "MEDIUM — refreshed periodically; re-check figures.",
       "claimsSupported": [
         "gardencity-city-water-and-sewer-system"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-water-contact-faq",
+      "title": "Water — Contact, FAQ & Stats",
+      "publisher": "City of Meridian — Public Works",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/public-works/water/contact-faq/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city Water Division's own description of where Meridian's drinking water comes from. Captured through Chrome over the DevTools protocol because meridiancity.org returns HTTP 403 to automated fetches; the cached artifact records fetchedVia chrome-cdp.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-city-water-from-aquifer-wells"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-water-irrigation",
+      "title": "Irrigation",
+      "publisher": "City of Meridian — Public Works",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/public-works/water/irrigation/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "water",
+        "irrigation",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city Water Division's statement of what irrigation it does and does not control. Captured through Chrome over the DevTools protocol because meridiancity.org returns HTTP 403 to automated fetches; the cached artifact records fetchedVia chrome-cdp.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-pressurized-irrigation-not-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-private-sewer-lateral",
+      "title": "Private Sewer Lateral",
+      "publisher": "City of Meridian — Public Works",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/public-works/private-sewer-lateral/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "water",
+        "sewer",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city Public Works page dividing lateral responsibility between owner and city. Captured through Chrome over the DevTools protocol because meridiancity.org returns HTTP 403 to automated fetches; the cached artifact records fetchedVia chrome-cdp.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-private-sewer-lateral-owner-responsibility"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-wastewater-division",
+      "title": "Wastewater Division",
+      "publisher": "City of Meridian — Public Works",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/public-works/wastewater/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "sewer",
+        "utilities",
+        "stormwater"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city Wastewater Division landing page. Captured through Chrome over the DevTools protocol because meridiancity.org returns HTTP 403 to automated fetches; the cached artifact records fetchedVia chrome-cdp.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-city-wastewater-treatment"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-utility-billing-selling-refinancing",
+      "title": "Selling or Refinancing Property",
+      "publisher": "City of Meridian — Finance, Utility Billing",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/finance/utility-billing/selling-refinancing/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "utilities",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city Utility Billing instructions to title, mortgage and finance companies at a sale or refinance. Captured through Chrome over the DevTools protocol because meridiancity.org returns HTTP 403 to automated fetches; the cached artifact records fetchedVia chrome-cdp.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-final-utility-bill-at-ownership-transfer"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-utility-billing-rental-properties",
+      "title": "Rental Properties",
+      "publisher": "City of Meridian — Finance, Utility Billing",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/finance/utility-billing/rental-properties/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "utilities",
+        "rental"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city Utility Billing rules for tenant billing and for who owes a property's utility debt. Captured through Chrome over the DevTools protocol because meridiancity.org returns HTTP 403 to automated fetches; the cached artifact records fetchedVia chrome-cdp.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-utility-debt-stays-with-property"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-utility-rates",
+      "title": "Rates — Water and Sewer Fee Schedule",
+      "publisher": "City of Meridian — Finance, Utility Billing",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/finance/utility-billing/rates/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "utilities",
+        "water",
+        "sewer"
+      ],
+      "publicationDate": "2025-03-05",
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "ANNUAL",
+      "authorityNotes": "TIER 2 — the city's published water and sewer fee schedule, stated as effective March 5, 2025. Captured through Chrome over the DevTools protocol because meridiancity.org returns HTTP 403 to automated fetches; the cached artifact records fetchedVia chrome-cdp.",
+      "stalenessRisk": "HIGH — rates are reset by the city; re-check the effective date before relying on the figures.",
+      "claimsSupported": [
+        "meridian-water-sewer-rates-march-2025"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "epa-sdwis-meridian",
+      "title": "EPA Safe Drinking Water Information System — water system record ID4010097 (Meridian Water Dept)",
+      "publisher": "U.S. Environmental Protection Agency",
+      "organizationType": "federal-government",
+      "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010097/JSON",
+      "sourceTier": 1,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — the federal record of the public water system. Refreshed quarterly by EPA. ⚠️ The record's owner_type_code is P, which conflicts with the city's own pages describing a city-run Water Division; the owner type is not relied on.",
+      "stalenessRisk": "MEDIUM — refreshed periodically; re-check figures.",
+      "claimsSupported": [
+        "meridian-city-water-from-aquifer-wells"
       ],
       "status": "VERIFIED"
     }

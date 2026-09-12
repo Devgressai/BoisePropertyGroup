@@ -1,0 +1,10 @@
+{
+  "url": "https://meridiancity.org/finance/utility-billing/selling-refinancing/",
+  "fetchedAt": "2026-09-12T18:01:43.521Z",
+  "status": 200,
+  "finalUrl": "https://meridiancity.org/finance/utility-billing/selling-refinancing/",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 42090,
+  "fetchedVia": "chrome-cdp",
+  "note": "fetch-source.mjs returns HTTP 403 for this host (bot challenge). Captured as rendered DOM via local Chrome over CDP with a non-HeadlessChrome user agent. Content is the live page, not a fetcher response."
+}
