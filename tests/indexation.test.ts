@@ -22,10 +22,12 @@ describe("indexation gate", () => {
   });
 
   it("refuses to index a place whose claims are all inherited", () => {
-    const thin = places.find((p) => p.buildVerdict === "RENDER_NOINDEX");
-    expect(thin).toBeDefined();
-    expect(claimsUniqueTo(thin!.id).length).toBeLessThan(MIN_UNIQUE_CLAIMS);
-    expect(decideIndexation(thin!, 100000).indexable).toBe(false);
+    // A synthetic place, not a real one: once every real city has enough
+    // evidence of its own there is no RENDER_NOINDEX place left to borrow,
+    // and the gate must still refuse one however long its page is.
+    const thin = { ...places[0], id: "city:fixture-inherited-only", buildVerdict: "RENDER_NOINDEX" as const };
+    expect(claimsUniqueTo(thin.id).length).toBeLessThan(MIN_UNIQUE_CLAIMS);
+    expect(decideIndexation(thin, 100000).indexable).toBe(false);
   });
 
   it("indexes only places with enough distinctive material", () => {
