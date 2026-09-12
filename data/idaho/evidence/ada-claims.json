@@ -2414,7 +2414,7 @@
       "verifiedOn": "2026-09-12",
       "id": "kuna-permit-triggers-include-fences",
       "freshnessClass": "SLOW-CHANGING",
-      "claim": "Kuna requires a residential building permit for, among other things, a new residence, mobile home or accessory dwelling unit; accessory structures such as garages, though detached storage buildings under 200 square feet are exempt; improvements and additions; decks over 30 inches above grade; retaining walls over 4 feet including footing; the installation of fences; heating, air-conditioning, fireplaces and wood stoves; and relocating or demolishing a structure.",
+      "claim": "Kuna requires a residential building permit for, among other things, a new residence, mobile home or accessory dwelling unit; accessory structures such as garages or residential storage structures, though detached storage buildings under 200 square feet are exempt; improvements and additions to existing residences or accessory structures; decks over 30 inches above grade; retaining walls over 4 feet including footing; the installation of fences; heating, air-conditioning, fireplaces, wood stoves and ventilation systems; and relocating or demolishing a structure.",
       "quotedLanguage": "Detached storage buildings less than 200 square feet in area are exempt",
       "topic": [
         "permits",

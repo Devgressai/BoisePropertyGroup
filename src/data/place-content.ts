@@ -23,6 +23,176 @@ export interface PlaceContent {
 }
 
 export const placeContent: Record<string, PlaceContent> = {
+  "sell-my-house-fast-eagle-id": {
+    intro: [
+      "Eagle has about 33,451 residents and grew 7.4% between the 2020 census base and the 2024 estimate — steady rather than fast by Ada County standards. Its median age of 46.8 in 2022 was among the oldest in the county, behind only Garden City.",
+      "We buy houses, land and commercial property across Eagle, in any condition.",
+    ],
+    sections: [
+      {
+        heading: "Two neighbours can be on two different water utilities",
+        body: [
+          "Water service in Eagle is split by area, and the split does not follow anything visible from the street. The City of Eagle Water Department provides water to approximately 3,800 households in the city, mainly in a listed set of subdivisions. In separately designated areas of Eagle, residents may receive water from Veolia instead — the private utility formerly known as SUEZ.",
+          "Veolia's part has its own history. It acquired Eagle Water Company, and its Commission-approved tariff keeps a separate rate schedule for the Eagle Water Service Area, covering customers in the area formerly served by Eagle Water Company as of January 1, 2022. Veolia also bills a 1 percent City of Eagle franchise fee under Eagle Ordinance No. 414.",
+          "Sewer is a third organisation again: the Eagle Sewer District, separate from the city. For a seller the useful point is that which water utility serves a house is a question for the utilities, not something to assume from a subdivision name or from what the neighbours pay.",
+        ],
+        claims: ["eagle-water-split-city-and-veolia", "eagle-veolia-acquired-eagle-water-company"],
+      },
+      {
+        heading: "Flooding comes from the creek as well as the river",
+        body: [
+          "The City of Eagle identifies two sources of flooding in the city: Dry Creek and the Boise River. Owners along the river tend to know it; owners near the creek are often less aware that it counts too.",
+          "The city participates in the National Flood Insurance Program, which is what makes federally backed flood insurance available to property owners and tenants. It also publishes elevation certificates that can be searched by address — a document a buyer's lender or insurer may ask about, and one worth looking up before listing rather than during escrow.",
+        ],
+        claims: ["eagle-flood-dry-creek-and-boise-river"],
+      },
+      {
+        heading: "The city plans its own ground, but not its own roads",
+        body: [
+          "Land use inside Eagle is the city's. Its Planning and Zoning Department administers the Eagle Zoning Ordinance, the Land Subdivision Ordinance, the Flood Control Ordinance and the Comprehensive Plan. Each Ada County city runs its own planning department and development code, so another city's rules say nothing about an Eagle parcel.",
+          "Roads are different. Eagle sits inside a countywide highway district, and Idaho law bars a city in that position from maintaining or supervising city highways or taxing for them. A driveway approach, a sidewalk or a frontage question on an Eagle property is [a highway district matter](/guides/selling-land-or-acreage-in-ada-county), even though the planning department works with that district on transportation.",
+        ],
+        claims: ["eagle-planning-scope", "ada-cities-administer-own-land-use", "achd-city-highway-powers-abolished"],
+      },
+      {
+        heading: "Irrigation reaches into South Eagle",
+        body: [
+          "Settlers Irrigation District delivers irrigation water to 13,187 acres of agricultural and urban land in western Ada County, including the South Eagle area, through a 20-mile canal and 95 miles of laterals. Where a lateral crosses a parcel, who you deal with depends on which entity runs it, and that is worth establishing before a buyer asks.",
+        ],
+        claims: ["settlers-district-coverage"],
+      },
+      {
+        heading: "Growth is projected to continue, at a middling pace",
+        body: [
+          "COMPASS, the regional planning association, projects Ada County will reach 715,820 people by 2050, with the growth very unevenly distributed between cities. Eagle is projected to grow 50.6 percent — faster than Boise at 25.8 percent or Meridian at 34.8 percent, and slower than Kuna, projected at 128.7 percent.",
+          "A projection is not a forecast of prices, and we do not treat it as one. What it does tell a seller is which direction the city's own planning is pointed, and that ground on the edge of a growing city is ground other people are also planning around.",
+        ],
+        claims: ["ada-2050-projection-divergence"],
+      },
+      {
+        heading: "What that means for an offer",
+        body: [
+          "An Eagle property with a creek-side flood question, a split between utilities or an irrigation lateral across it is not a property we decline. It is one where those facts shape the price, and we would rather show you how they do than guess.",
+          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
+        ],
+        claims: [],
+      },
+    ],
+  },
+
+  "sell-my-house-fast-kuna-id": {
+    intro: [
+      "Kuna has about 29,127 residents, grew 21.0% between the 2020 census base and the 2024 estimate, and had the youngest median age of any Ada County city in 2022, at 30.2. COMPASS projects it will more than double by 2050 — the fastest projected growth in the county.",
+      "We buy houses, land and commercial property across Kuna, in any condition.",
+    ],
+    sections: [
+      {
+        heading: "The city runs the water",
+        body: [
+          "Kuna's drinking water comes from wells owned and operated by the City of Kuna. Federal records list the city system as owned by local government and supplied by groundwater, serving 32,038 people through 11,363 connections — more than the city's own population estimate, so the system's reach and the city limits are not the same thing.",
+          "That is a real difference from [Boise](/sell-my-house-fast-boise-id), where drinking water comes from private utilities regulated by the Idaho Public Utilities Commission. In Kuna a water question about a city-served property goes to the city's public works department. We have not mapped every small system in the area, so we do not assume the city serves every parcel near Kuna.",
+        ],
+        claims: ["kuna-city-owned-wells", "boise-drinking-water-private-utilities"],
+      },
+      {
+        heading: "A fence needs a permit",
+        body: [
+          "Kuna's list of residential work that needs a building permit includes the obvious — a new house, a mobile home, an accessory dwelling unit, additions — and several things owners routinely do without one: decks over 30 inches above grade, retaining walls over 4 feet including the footing, heating and air-conditioning work, fireplaces and wood stoves, relocating or demolishing a structure, and the installation of fences.",
+          "Kuna lists fences without a height threshold. That is not the rule everywhere — [Star](/sell-my-house-fast-star-id), for example, requires a permit only for fences over six feet — so what a neighbour in another city was allowed to do is no guide. Detached storage buildings under 200 square feet are exempt in Kuna.",
+          "At a sale, unpermitted work tends to come up when a buyer's inspector or lender asks for the record. It is rarely fatal, but it is better known before listing than discovered in escrow.",
+        ],
+        claims: ["kuna-permit-triggers-include-fences", "star-building-permit-triggers"],
+      },
+      {
+        heading: "What the zone allows, and who gets told",
+        body: [
+          "Kuna assigns a zone to every property inside city limits, and Kuna Municipal Code 5-3-2 holds the Official Land Use Table. A use marked 'P' is permitted, 'S' needs a Special Use Permit, and a use that is not listed is prohibited in that zone.",
+          "When something needs a public hearing, Kuna notifies property owners within 300 feet of the subject property in writing, at least fifteen days beforehand. If you own near a parcel being rezoned or developed, that notice is how you would hear about it; if you are selling land for development, it is part of the timeline your buyer faces.",
+        ],
+        claims: ["kuna-land-use-table-convention", "kuna-hearing-notice-300ft-15days", "ada-cities-administer-own-land-use"],
+      },
+      {
+        heading: "Where the lines actually are",
+        body: [
+          "Kuna's own advice on property lines applies well beyond Kuna: the best way to find them is a professional survey. Before hiring one, look for corner pins or stakes, and the Ada County Assessor's Office may hold a copy showing the size of the property and the lots around it. Do not assume that fence lines or street curbs follow property lines — on acreage in particular, they often do not.",
+        ],
+        claims: ["kuna-property-lines-survey-guidance"],
+      },
+      {
+        heading: "Irrigation runs through its own organisations",
+        body: [
+          "Irrigation around Kuna has its own structure. The Boise Project Board of Control is the operating agent for five irrigation districts, including the Boise-Kuna district, managing facilities transferred from the U.S. Bureau of Reclamation and delivering water to their landowners. A lateral crossing a Kuna parcel is a matter for the irrigation entity that runs it.",
+        ],
+        claims: ["boise-project-five-districts"],
+      },
+      {
+        heading: "What that means for an offer",
+        body: [
+          "A Kuna property with unpermitted work, an unclear boundary or an irrigation lateral across it is not one we decline. Those are the facts that shape a price, and we would rather show you the arithmetic than guess.",
+          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
+        ],
+        claims: [],
+      },
+    ],
+  },
+
+  "sell-my-house-fast-garden-city-id": {
+    intro: [
+      "Garden City has about 12,936 residents, grew 5.1% between the 2020 census base and the 2024 estimate, and had the oldest median age of any Ada County city in 2022, at 47.1. It sits along the Boise River, and the river shapes several of the rules that matter most to a seller here.",
+      "We buy houses, land and commercial property across Garden City, in any condition.",
+    ],
+    sections: [
+      {
+        heading: "The 50 percent rule in the flood hazard area",
+        body: [
+          "This is the single most important rule for anyone selling an older house near the river. In Garden City's Special Flood Hazard Area, any reconstruction, rehabilitation, addition or other improvement to a building that equals or exceeds 50 percent of the building's value must meet the same standards as new development.",
+          "So a buyer planning a major renovation is not just buying a renovation. Past that threshold the whole building has to be brought up to new-construction flood standards, which changes what the project costs and therefore what that buyer can pay. How the city calculates the building's value is a question for the city, and we do not estimate it for anyone.",
+          "Smaller work can still need the city. A floodplain application is required before working in the floodplain or floodway, before removing or damaging vegetation within 25 feet of the river or on the riverside of the greenbelt or nature path, and to request a Letter of Map Change to a flood map.",
+        ],
+        claims: ["gardencity-floodplain-50-percent-improvement-rule"],
+      },
+      {
+        heading: "Water and sewer are a city system",
+        body: [
+          "Garden City's public water system is the Garden City Water and Sewer System. Federal records list it as owned by local government and supplied by groundwater, serving 12,500 people through 4,595 connections.",
+          "That is a different arrangement from [Boise](/sell-my-house-fast-boise-id) next door, where drinking water comes from private utilities regulated by the state. Federal records also list a few small private systems with Garden City addresses, so a particular property's water service is worth confirming rather than assuming.",
+        ],
+        claims: ["gardencity-city-water-and-sewer-system", "boise-drinking-water-private-utilities"],
+      },
+      {
+        heading: "Zoning, and an overlay worth checking",
+        body: [
+          "Garden City runs its own planning. Its Planning Division handles annexation, zoning, conditional use permits, design review, signage and subdivisions, and like every city in Ada County it administers land use inside its own limits under its own code.",
+          "The uses allowed in each zoning district are set out in Garden City Code Table 8-2B-1, with further conditions on some uses under Code 8-2C. A property can also sit in the Neighborhood Commercial Node overlay district, whose allowed uses are in Table 8-3A-1. District letters here mean what Garden City's code says they mean, and they do not carry over from neighbouring cities.",
+        ],
+        claims: ["gardencity-zoning-table-and-ncn-overlay", "gardencity-planning-scope", "ada-cities-administer-own-land-use"],
+      },
+      {
+        heading: "Roads belong to the highway district",
+        body: [
+          "Garden City sits inside a countywide highway district, and Idaho law bars a city in that position from maintaining or supervising city highways or taxing for them. A question about a curb, a driveway approach or the frontage of a Garden City property is [a highway district matter](/guides/selling-land-or-acreage-in-ada-county).",
+        ],
+        claims: ["achd-city-highway-powers-abolished"],
+      },
+      {
+        heading: "Projected growth, from a small base",
+        body: [
+          "COMPASS, the regional planning association, projects Ada County will reach 715,820 people by 2050, with the growth very unevenly distributed. Garden City is projected to grow 42.0 percent, against 25.8 percent for Boise and 128.7 percent for Kuna, while unincorporated Ada County is projected to lose 36.0 percent of its population.",
+          "Garden City starts from the smallest base of the county's cities, so a large percentage is still a modest number of people. A projection is not a forecast of prices and we do not treat it as one — but it does show where the region's own planning expects people to go, and a riverside city with little open land is not a place that absorbs that growth by spreading outward.",
+        ],
+        claims: ["ada-2050-projection-divergence"],
+      },
+      {
+        heading: "What that means for an offer",
+        body: [
+          "A Garden City property in the flood hazard area, or one that needs more work than the 50 percent line comfortably allows, is not one we decline. It is one where the rules shape the number, and we would rather show you how they do.",
+          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
+        ],
+        claims: [],
+      },
+    ],
+  },
+
   "sell-my-house-fast-ada-county": {
     intro: [
       "We buy property across Ada County — houses, land, rentals, multifamily, office and industrial buildings, and parcels with problems attached. Six incorporated cities sit inside the county, plus an unincorporated balance of roughly 64,000 people, and which side of a city limit a property falls on changes who you deal with about almost everything.",
