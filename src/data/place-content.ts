@@ -199,6 +199,50 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["boise-sewer-assessment-fee-undeveloped", "ada-assessor-maintains-parcel-gis", "id-domestic-water-13000-gpd", "id-water-subdivision-five-lots"],
       },
       {
+        heading: "The zoning code was replaced in December 2023",
+        body: [
+          "Boise did not amend its zoning code; it replaced it. The City Council approved a modern zoning code after community testimony and revisions, and it took effect on 1 December 2023.",
+          "That matters to a seller for a simple reason. Owners carry an understanding of what their lot allows, usually formed when they bought, and for anyone who bought before the end of 2023 that understanding was formed under a different code. What can be added, what can be built and what uses are allowed may not be what they were.",
+          "None of that means a given property gained or lost anything — the effect varies by district and by parcel, and we do not assume it in either direction. It means the current code is the one to read, and an old recollection is not.",
+        ],
+        claims: ["boise-modern-zoning-code-effective-2023"],
+      },
+      {
+        heading: "Short-term rental licensing ended in May 2026",
+        body: [
+          "Until recently a Boise short-term rental needed a city license. On 12 May 2026 the City Council approved repeal of the short-term rental ordinance to align with a change in Idaho law on local regulation of short-term rentals, and from 18 May 2026 a city license is no longer required.",
+          "For a buyer weighing a Boise house as a short-term rental, that removes one layer. It does not remove the rest: the city says it will keep enforcing nuisance, noise, parking, safety and occupancy rules consistent with state law and city code. A license that no longer exists is not the same thing as a use that is unregulated.",
+        ],
+        claims: ["boise-str-license-repealed-2026"],
+      },
+      {
+        heading: "Impact fees: replacing a house is not adding one",
+        body: [
+          "Boise charges development impact fees to cover the cost new development places on regional parks, local parks, fire response and policing. They are not the same for every project: new residential development pays parks, fire and police fees, while commercial development pays only fire and police.",
+          "The exemptions are where the difference between buyers is decided. The city exempts replacing a residential unit — including [a manufactured home](/guides/selling-a-manufactured-home-in-idaho) — with another on the same lot, as long as the number of service units does not increase. Remodeling that adds no service units is exempt, and so is rebuilding the same floor area after a fire or other catastrophe if it is ready to occupy within two years.",
+          "So a buyer who plans to replace an old house with one new house is in a different position from a buyer who plans to put more units on the same lot. The second carries fees the first does not, and that shows up in what each can pay. We are not quoting amounts: the city publishes a separate fee schedule, and it changes when the underlying study is updated.",
+        ],
+        claims: ["boise-impact-fees-by-development-type", "boise-impact-fee-replacement-exemption"],
+      },
+      {
+        heading: "Demolition is a permitted process, with a reuse step built in",
+        body: [
+          "A teardown in Boise is not a same-week job. Demolition and deconstruction go through a building permit, and the application includes a material and waste management plan with photographs of the building and the materials in it.",
+          "The city then emails reuse and recycling companies about what is available and allows up to five business days for them to respond before salvage is arranged. A building inspector sets a bond, and any hazardous materials have to be abated under the applicable EPA and other requirements.",
+          "If you are selling an older house on a lot a buyer values for what could replace it, that timeline and that bond are part of the buyer's cost — and so part of the price.",
+        ],
+        claims: ["boise-demolition-waste-plan-and-reuse-window"],
+      },
+      {
+        heading: "Ten historic districts, and a review for exterior changes",
+        body: [
+          "Boise has ten designated historic districts. Six are residential — East End, East Main Street, Harrison Boulevard, Hays Street, North End and Warm Springs Avenue — three are commercial, and one, Spaulding Ranch, is agricultural.",
+          "Inside them, most exterior changes beyond standard maintenance need a Certificate of Appropriateness: new construction, additions, accessory buildings, and changes such as siding and windows. The level of review depends on the district, the property's status and the scope of the work.",
+          "Two cautions. A neighbourhood name is not a boundary: whether a particular house sits inside a historic district is answered by the city's address lookup, not by what people call the area. And most changes is not all of them. But a buyer planning to re-side or re-window a house in one of these districts is taking on a review as well as a project, and a seller who knows that can price it rather than be surprised by it.",
+        ],
+        claims: ["boise-ten-historic-districts", "boise-historic-certificate-of-appropriateness"],
+      },
+      {
         heading: "What that means for the offer",
         body: [
           "A Boise property with an overlay, an unconnected lot or a mapped flood hazard is not a property we decline. It is a property whose costs we have to count before we can put a number on it, and counting them out loud is how we would rather work.",
@@ -262,6 +306,38 @@ export const placeContent: Record<string, PlaceContent> = {
           "Roads are neither. A single countywide highway district is responsible for city rights-of-way and their curbs, gutters and sidewalks; Idaho Code 40-1406 bars a city inside such a district from maintaining city highways or taxing for them.",
         ],
         claims: ["ada-star-spans-two-counties", "ada-treasurer-ex-officio-tax-collector", "achd-city-highway-powers-abolished"],
+      },
+      {
+        heading: "Water and sewer come from a district, not the city",
+        body: [
+          "Most owners assume the city runs the water and sewer. In Star it does not: the city lists the Star Sewer & Water District as the water and sewer provider, and the district is a separate entity from the City of Star.",
+          "That changes who you call. A service, connection or billing question about water or sewer on a Star property goes to the district rather than city hall, and a buyer planning to add a unit or split a parcel is dealing with the district as well as the city. We have not read the district's own service boundaries, so we do not assume it serves every parcel inside city limits.",
+        ],
+        claims: ["star-water-sewer-separate-district"],
+      },
+      {
+        heading: "Work that needs a permit in Star",
+        body: [
+          "Star publishes its own list of what needs a building permit, and several items on it are things owners often do without one: re-roofing, replacing more than 100 square feet of siding, replacing windows or doors where the openings are enlarged or reduced, decks 30 or more inches above grade, sheds or outbuildings of 200 square feet or larger, fences over six feet, retaining walls over four feet, setting a manufactured home, and demolition. A concrete slab of any size does not need one.",
+          "At a sale, unpermitted work tends to surface — a buyer's inspector or lender notices a re-roof or a raised deck with no record behind it. It is rarely fatal, but it is a conversation better had before listing than during escrow. This is Star's list; Boise and the other cities keep their own.",
+        ],
+        claims: ["star-building-permit-triggers"],
+      },
+      {
+        heading: "A homeowner permit assumes you will live there",
+        body: [
+          "Star lets a homeowner pull a building permit on a primary or secondary residence without registering as a contractor, on specific terms. The homeowner has to do all the work on that permit, and has to plan on living in the residence within 12 months of completing the project. Otherwise a licensed contractor must pull the permit.",
+          "That matters for repairs before a sale. An owner fixing up a Star house in order to sell it, rather than to live in it, does not fit the homeowner route as the city describes it.",
+        ],
+        claims: ["star-homeowner-permit-must-occupy"],
+      },
+      {
+        heading: "The ZIP code does not decide which city you are in",
+        body: [
+          "In a city growing as fast as Star, mailing addresses and municipal boundaries drift apart, and Star makes the point itself. A Certificate of Occupancy names the city actually responsible for permitting, inspections and code compliance, which can differ from the city associated with the property's ZIP code — because ZIP codes are managed by the Postal Service for mail delivery and do not follow municipal boundaries.",
+          "Together with Star lying partly outside [Ada County](/sell-my-house-fast-ada-county), in Canyon County, it is a reminder that an address is not a jurisdiction. Which city's code governs a parcel, and which county's offices serve it, are questions to answer from the record rather than from the envelope.",
+        ],
+        claims: ["star-certificate-of-occupancy-city-vs-zip", "ada-star-spans-two-counties"],
       },
       {
         heading: "Growth is projected to slow sharply",
