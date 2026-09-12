@@ -1,0 +1,104 @@
+                                                                                                    The following table reflects your drinking water quality for the period of January 1, 2025 through
+                                                                                                    December 31, 2025. While contaminants in drinking water are unavoidable due to the nature of
+                                                                                                    drinking water sources, Capitol Water Corp. maintains consistent sampling schedules to ensure
+                                                Consumer Confidence                                 that contaminants that are present are within acceptable ranges for public health and water
+                                                    Report 2025                                     quality. Our system identified 6 contaminants present in the drinking water, with two at levels
+                                                                                                    surpassing current federal health standards. More information on these two contaminants is on the
+                                                                                                    second page. Our system had several monitoring and public notification violations in the year of
+                                                                                                    this report, which are described on the second page.
+Capitol Water Corp. provides an annual water quality report to provide the resources for our
+customers to make informed decisions regarding their drinking water. This report is designed to
+provide details about where your water comes from, what it contains, and how it compares to the                                              CONTAMINANT TABLE
+health and quality standards set by regulatory agencies.                                           Constituent   Violation   MCLG        MCL        Lowest     Highest       Year            Typical Sources of
+                                                                                                                  (Y/N)                             Detect     Detect       Tested            Contamination
+                                What is a contaminant?                                                                                   INORGANIC CONTAMINANTS
+  Any physical, chemical, biological, or radiological substance present in water that, in high     Arsenic          N          0           10          0          3.5        2025    Erosion of natural deposits; Runoff
+ doses, could be harmful to human health or affect water quality. Common in almost all water       (ppm)                                                                             from orchards, glass/production
+sources, most contaminants come from naturally-occurring substances or from human activity.                                                                                          wastes
+                                                                                                   Copper           N         1.3        1.3 (AL)     N/A        0.472       2023    Corrosion of household plumbing;
+                                                                                                   (ppm)                                                                             Erosion of natural deposits
+                                                                                                   Nitrate          N         10           10         0.9         4.0        2025    Runoff from fertilizer; Leaching from
+                                                    Common Types of Contaminants                   (ppm)                                                                             septic tanks, sewage; Erosion
+                                                                                                                                                                                     of natural deposits
+                                                    Inorganic contaminants: salts and
+                                                    metals, naturally-occurring or result from                                             ORGANIC CONTAMINANTS
+                                                    urban storm water runoff, industrial or        Trichloro-       N          0            5          0         2.05        2025    Discharge from metal degreasing
+                                                    domestic wastewater discharges, oil and        ethylene                                                                          sites and other factories
+                                                                                                   (ppb)
+                                                    gas production, mining, or agriculture.
+                                                                                                                                     RADIOLOGICAL CONTAMINANTS
+                                                    Pesticides and herbicides: may come            Alpha            N          0           15          0         18.31       2025    Erosion of natural deposits
+                                                    from agriculture, urban storm water runoff,    Emitters                                                                          Average samples were within
+                                                    and residential uses.                          (pCi/L)                                                                           Federal health standards
+                                                                                                   Uranium          Y          0           30          4          31         2025    Erosion of natural deposits
+                                                    Microbial contaminants: viruses and            (ppb)                                                                             Violation Notice: See page 2 of this
+                                                    bacteria, which may come from sewage                                                                                             report for more information.
+                                                    treatment plants, septic systems, wildlife,                     Parts per billion (ppb): corresponds to one minute in 2,000 years
+                                                    and agricultural livestock operations.                            Parts per million (ppm): corresponds to one penny in $10,000
+                                                                                                                   Picocuries per Liter (pCi/L): a measurement of radioactivity in water
+                                                    Organic chemical contaminants: by-
+                                                    products of industrial processes and                             MCLG                                   MCL                                     AL
+                                                    petroleum production, and can also come             (Max. Contaminant Level Goal)            (Max. Contaminant Level)                    (Action Level)
+                                                    from gas stations, urban storm water runoff,           The level of a contaminant           The highest allowed level of a       The level of a contaminant that,
+                                                    and septic systems.                                  below which there is no known           contaminant in your drinking        if exceeded, requires specified
+                                                                                                                 risk to health.                           water.                            action to treat.
+                                                    Radioactive contaminants: naturally-
+                                                                                                   Some people may be more vulnerable to contaminants in drinking water. This can include
+                                                    occurring or the result of oil and gas
+More information about contaminants and potential                                                  persons undergoing chemotherapy, persons who have undergone organ transplants, people with
+                                                    production and mining activities.
+ health effects can be obtained by calling EPA’s                                                   HIV/AIDS or other immune system disorders, elderly individuals, and young children. If you or
+Safe Drinking Water Hotline at 1-800-426-4791 or                                                   someone in your household fits one of these vulnerabilities, you may wish to consult with a health
+          at epa.gov/safewater/hotline/.                                                           care provider if you are concerned about the impact of your drinking water.
+System Violations in 2025                              Where does my drinking water
+Uranium Exceedence—July & August 2025                  come from?
+THE FOLLOWING IS A SUMMARY OF A                        Capitol Water Corp. supplies drinking
+PREVIOUS VIOLATION IN 2025 AND HAS                     water from four primary wells and one
+BEEN RESOLVED.
+                                                       backup well. (Well #3, Well #4, Well #5
+Our drinking water system received sample results
+indicating a presence of combined uranium in           (NEW), Well #6 (Back-Up), and Well #7).
+excess of the Maximum Contaminant Level (MCL)          As water moves through the ground, it
+of 30ppb. The exceedance was present in samples        picks up naturally-occurring and manmade
+taken in July and August 2025. The well was            substances. It is common for all drinking
+turned off to remove it from the water supply until
+                                                       water—including bottled water—to have
+the situation could be resolved. Customers were
+notified at the time of the occurrence. Some people    some contaminant presence, and they do                                                               About the Capitol Water Corp.
+who drink water containing uranium in excess of        not necessarily pose a health risk.                                                                     Drinking Water System
+the MCL over many years may have kidney
+problems or an increased risk of cancer.                                                                                                                 Water System ID: ID4010022
+Current samples (in 2026) show Uranium levels                                                                                                            Population Served: 9000
+are below the MCL.                                                       SAFE SIPS                                                                       Service Connections: 2811
+                                                                         ADDRESSING COMMON CONTAMINANTS
+Monitoring Violations                                                                                                                                    Accessing this Report
+Our system failed to submit required sample result         Nitrate in Drinking Water                       Arsenic in Drinking Water                     If you are an individual experiencing
+information to our regulatory agency, Idaho DEQ,           Your drinking water has a nitrate presence      Your drinking water has an arsenic            difficulties accessing the information in
+by the required deadline for the contaminants listed       within federal safety standards. Nitrate        presence within federal safety standards.     this report, or have follow-up questions,
+below. We cannot account for the presence or lack          commonly enters drinking water through          Arsenic can enter ground water from           please contact your Drinking Water
+of presence of these contaminants in your water.           excessive fertilizer application or failing     multiple sources, including the erosion of    Operations Specialist using the contact
+Unmonitored Contaminants:                                  septic systems. Nitrate levels may rise         natural deposits or runoff from orchards or   information below.
+1,2-Dibromo-3-Chloropropane, 2,4,5-TP, Atrazine,           quickly for short periods of time because of    glass and electronics production wastes
+Benzo(a)pyrene, BHC-Gamma, Carbofuran,                     rainfall or agricultural activity. Nitrate in   The EPA continues to research the health      Este informe contiene informacion muy
+Chlordane, Dalapon, Di(20Ethylhexyl) Adipate,              drinking water at levels above 10 ppm is a      effects of levels of arsenic. Some people     importante sobre la calidad de su agua
+Dinoseb, Diquat, Endothall, Endrin, Ethylene               health risk for infants of less than six        who drink water containing arsenic in         beber. Traduscalo o hable con alguien
+Dibromide, Glyphosate, Heptachlor, Heptachlor              months of age, increasing the risk of Blue      excess of the MCL over many years could       que lo entienda bien.
+Expoxide, Hexachlorobenzene, Hexachlorocyclo-              Baby Syndrome. If you are caring for an         experience skin damage or problems with
+pentadiene, Lasso, Methoxychlor, nitrate (back-up          infant, you should ask for advice from your     their circulatory system and may have an
+well only), oxamyl, pentachlorophenol, picloram,                                                                                                         For More Information, Please Contact:
+                                                           health care provider.                           increased risk of cancer.
+simazine, synthetic organic contaminant group,                                                                                                                      Michelle Frisch
+total polychlorinated biphenyls (PCB), and                                                                                                                           208-375-0931
+                                                           Lead in Drinking Water                                                                           michelle@capitolwatercorp.com
+toxaphene.                                                 Lead in drinking water is primarily from materials and components associated with
+The majority of these are organic chemicals                service lines and home plumbing, which falls outside the control of your drinking water
+present in a variety of agriculture and industry           operators. If present, elevated levels of lead can cause serious health problems, espe-
+products that may be discharged from farms,                cially for pregnant women and young children. You can minimize the potential for lead
+chemical plants, factories, and other sources.             exposure by flushing your tap for up to 2 minutes before use. If you are concerned about                                This Consumer
+While uncommon in your area, our system is                 lead in your water, you may wish to have your water tested. For more information, visit                               Confidence Report
+required to monitor for the presence of these              epa.gov/safewater/lead. Capitol Water Corp. conducted a Lead Service Line                                              was developed in
+contaminants for their potential health impacts to         Inventory (LSLI) to locate all lead plumbing within the drinking water system, within both                           collaboration with the
+                                                           the infrastructure and individual consumers’ homes. You may request information from                                  Idaho Rural Water
+water users. Learn more at epa.gov/dwreginfo/                                                                                                                                        Association.
+chemical-contaminant-rules/                                the LSLI from the utility.
+

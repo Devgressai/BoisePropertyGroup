@@ -2198,6 +2198,136 @@
       ],
       "freshnessClass": "EVERGREEN",
       "notes": "A genuine trap in a fast-growing edge city: a mailing address that says one city does not settle which city's code governs the parcel. ⚠️ The general ZIP-versus-boundary point is true everywhere, but this claim is the City of Star saying it about its own certificates; attribute it that way."
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "boise-drinking-water-private-utilities",
+      "temporalStatus": "CURRENT",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Drinking water in Boise is supplied by privately owned utilities regulated by the Idaho Public Utilities Commission, chiefly Veolia Water Idaho and Capitol Water Corporation. Both bill their customers inside Boise city limits a 3 percent City of Boise franchise fee — for Veolia under City of Boise Ordinance No. 5623, effective December 17, 2003.",
+      "quotedLanguage": "City of Boise 5623 December 17, 2003 3.0%",
+      "topic": [
+        "water",
+        "utilities",
+        "fees",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "veolia-water-idaho-tariff",
+        "capitol-water-service-agreement",
+        "ipuc-order-35762",
+        "epa-sdwis-veolia-water-idaho",
+        "epa-sdwis-capitol-water"
+      ],
+      "notes": "🎯 Resolves an open question recorded 2026-09-12: who supplies Boise's drinking water. The city's own 'water future' page is about WASTEWATER and names no supplier, which is why this was withheld until primary sources were found. The strongest evidence is the franchise fee: Veolia's Commission-approved tariff bills it 'to its customers within the corporate limits of a municipality', and Capitol Water's service agreement collects '3% of customer basic charges for the City of Boise Franchise Fees' — so both demonstrably serve inside city limits. ⚠️ Worded affirmatively on purpose. Do NOT state that 'the city does not supply any drinking water' as a fact — that is a negative claim, and this project has learned those are traps. ⚠️ 'Chiefly', not 'only': EPA records list many small private community systems (homeowners associations, water associations, mobile home parks) with Boise addresses, and their service locations were not mapped. ⚠️ Third-party water-quality sites claiming Veolia serves Meridian and Kuna are NOT sources and conflict with those cities running their own systems — never cite them."
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "boise-water-utility-customer-counts-2023",
+      "temporalStatus": "HISTORICAL",
+      "freshnessClass": "PERIODIC",
+      "claim": "In 2023 the Idaho Public Utilities Commission described Veolia Water Idaho as providing service to Boise City and surrounding areas and serving approximately 105,000 customers in Ada County, under Amended Certificate of Public Convenience No. 143. The Commission's 2023 annual report lists Veolia Water Idaho at 105,445 customers and Capitol Water at 3,019, both with Boise as the nearest city.",
+      "quotedLanguage": "Veolia is a Commission-regulated water corporation that provides service to Boise City and surrounding areas and currently serves approximately 105,000 customers in Ada County, Idaho.",
+      "topic": [
+        "water",
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "ipuc-order-35762",
+        "ipuc-annual-report-2023-water"
+      ],
+      "notes": "HISTORICAL because both figures are 2023 snapshots — the page labels it as a fixed past period so a dated count is never presented as current. The City of Boise was an intervenor in the same rate case. ⚠️ Veolia's customers are in Ada County, not all inside Boise city limits, so 105,000 is not a count of Boise households."
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "boise-veolia-surface-and-groundwater",
+      "temporalStatus": "CURRENT",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Veolia Water Idaho draws on both surface and ground water: the state's drinking water record lists two treatment plants, Columbia and Marden, alongside dozens of wells, and federal records classify the system's primary source as surface water and put it at 264,978 people served through 108,138 connections. The City of Boise, for its part, states that 70 percent of Boise's drinking water supply comes from groundwater.",
+      "quotedLanguage": "Principal County Served : ADA Primary Source : SW",
+      "topic": [
+        "water",
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "deq-dww-veolia-water-idaho",
+        "epa-sdwis-veolia-water-idaho",
+        "boise-water-conservation"
+      ],
+      "notes": "⚠️ These two statements look contradictory and are NOT presented as reconciled. A federal 'primary source: surface water' classification and a city statement that 70 percent of supply is groundwater measure different things, and neither source explains the other. State both, attributed, and never write that Boise's water is 'mostly surface water' or 'mostly groundwater' on this evidence. The well count is left as 'dozens' because it was counted from a listing page rather than stated."
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "boise-capitol-water-wells",
+      "temporalStatus": "CURRENT",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Capitol Water Corporation, Boise's second regulated water utility, supplies groundwater: its 2025 water quality report describes water from four primary wells and one backup well, and federal records put the system at 9,000 people served through 2,811 connections.",
+      "quotedLanguage": "water from four primary wells and one",
+      "topic": [
+        "water",
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "capitol-water-quality-report-2025",
+        "epa-sdwis-capitol-water"
+      ],
+      "notes": "⚠️ The same 2025 report discusses a water quality violation. It is deliberately not part of this claim: it is not relevant to which utility serves a property, and describing another business's compliance history on a property-buying site invites a characterisation this evidence does not support. Do not add it."
+    },
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "eagle-veolia-acquired-eagle-water-company",
+      "temporalStatus": "CURRENT",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Veolia Water Idaho acquired Eagle Water Company, and its Commission-approved tariff keeps a separate General Metered Service schedule for the Eagle Water Service Area covering customers in the area formerly served by Eagle Water Company as of January 1, 2022. Veolia also bills a 1 percent City of Eagle franchise fee under Eagle Ordinance No. 414.",
+      "quotedLanguage": "All existing customers at time of acquisition in the area formerly serviced by Eagle Water Company",
+      "topic": [
+        "water",
+        "utilities",
+        "fees",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "veolia-water-idaho-tariff"
+      ],
+      "notes": "Useful to an Eagle seller or buyer because a property in the former Eagle Water Company area can sit on a different rate schedule from neighbouring Veolia customers. ⚠️ Rates themselves are not claimed; they change on the next rate order. ⚠️ The acquisition date is not stated in what was read — only the January 1, 2022 customer cutoff."
     }
   ]
 }

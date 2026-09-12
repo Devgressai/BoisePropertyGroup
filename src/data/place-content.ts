@@ -243,6 +243,16 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["boise-ten-historic-districts", "boise-historic-certificate-of-appropriateness"],
       },
       {
+        heading: "Drinking water comes from a regulated private utility",
+        body: [
+          "In Boise the water company and the city are different organisations. Drinking water is supplied by privately owned utilities regulated by the Idaho Public Utilities Commission — chiefly Veolia Water Idaho and, for a much smaller area, Capitol Water Corporation. Both bill a 3 percent City of Boise franchise fee to customers inside city limits, for Veolia under City of Boise Ordinance No. 5623.",
+          "The two are very different in scale. In 2023 the Commission described Veolia as providing service to Boise City and surrounding areas, with approximately 105,000 customers across [Ada County](/sell-my-house-fast-ada-county); its annual report that year put Veolia at 105,445 customers and Capitol Water at 3,019. Those are 2023 figures, and Veolia's customers extend beyond the city, so neither number is a count of Boise households.",
+          "Their water comes from different places too. Veolia runs two treatment plants, Columbia and Marden, alongside dozens of wells, and federal records classify its primary source as surface water. Capitol Water supplies groundwater from four primary wells and a backup well. The City of Boise, for its part, states that 70 percent of Boise's drinking water supply comes from groundwater — a different measure from the federal classification, and we do not try to reconcile the two.",
+          "For a seller the practical point is simple. Which utility serves a property is a question for the utility, not for city hall, and a buyer taking over service is dealing with a company whose rates are approved by a state commission rather than by the city council. We do not assume which of the two — or which of the smaller private systems in the area — serves any particular address.",
+        ],
+        claims: ["boise-drinking-water-private-utilities", "boise-water-utility-customer-counts-2023", "boise-veolia-surface-and-groundwater", "boise-capitol-water-wells"],
+      },
+      {
         heading: "What that means for the offer",
         body: [
           "A Boise property with an overlay, an unconnected lot or a mapped flood hazard is not a property we decline. It is a property whose costs we have to count before we can put a number on it, and counting them out loud is how we would rather work.",

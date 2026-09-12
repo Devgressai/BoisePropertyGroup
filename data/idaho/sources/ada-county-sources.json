@@ -1433,6 +1433,218 @@
         "star-water-sewer-separate-district"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "ipuc-order-35762",
+      "title": "Idaho Public Utilities Commission Final Order No. 35762 — Veolia Water Idaho general rate case (VEO-W-22-02)",
+      "publisher": "Idaho Public Utilities Commission",
+      "organizationType": "state-government",
+      "url": "https://puc.idaho.gov/Fileroom/PublicFiles/WATER/VEO/VEOW2202/OrdNotc/20230428Final_Order_No_35762.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": "2023-04-28",
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — the regulator's own final order, describing the company it regulates. PDF cached and extracted to committed text.",
+      "stalenessRisk": "MEDIUM — a dated figure; re-check against the next filing.",
+      "claimsSupported": [
+        "boise-drinking-water-private-utilities",
+        "boise-water-utility-customer-counts-2023"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ipuc-annual-report-2023-water",
+      "title": "IPUC 2023 Annual Report, Section III — Water",
+      "publisher": "Idaho Public Utilities Commission",
+      "organizationType": "state-government",
+      "url": "https://puc.idaho.gov/Fileroom/PublicFiles/annualreports/ar2023/Section%20III%20Water.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": "2023",
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — the Commission's table of regulated water companies with customer counts and nearest city. Counts are a 2023 snapshot.",
+      "stalenessRisk": "MEDIUM — a dated figure; re-check against the next filing.",
+      "claimsSupported": [
+        "boise-water-utility-customer-counts-2023"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "veolia-water-idaho-tariff",
+      "title": "Veolia Water Idaho, Inc. — Rate Schedules and Rules and Regulations (IPUC-approved tariff)",
+      "publisher": "Veolia Water Idaho, Inc. (approved by the Idaho Public Utilities Commission)",
+      "organizationType": "utility",
+      "url": "https://puc.idaho.gov/Fileroom/PublicFiles/WATER/VEO/General/0Tariff/Veolia%20Water%20Idaho%20Inc.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "water",
+        "utilities",
+        "fees"
+      ],
+      "publicationDate": "2025-06-01",
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the tariff on file with and approved by the Commission (approved June 30, 2025, effective June 1, 2025, per Order No. 36656). A tariff is the binding statement of what the utility charges and to whom. Retrieved from the Commission's own file room, not the company's website, which refuses automated requests.",
+      "stalenessRisk": "LOW — changes only through a new filing or order.",
+      "claimsSupported": [
+        "boise-drinking-water-private-utilities",
+        "eagle-veolia-acquired-eagle-water-company"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "capitol-water-service-agreement",
+      "title": "Capitol Water Corporation — Service Agreement",
+      "publisher": "Capitol Water Corporation",
+      "organizationType": "utility",
+      "url": "https://capitolwatercorp.com/service-agreement/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "water",
+        "utilities",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the utility's own customer rules and rate summary, including the franchise fee it collects for the City of Boise.",
+      "stalenessRisk": "LOW — changes only through a new filing or order.",
+      "claimsSupported": [
+        "boise-drinking-water-private-utilities"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "capitol-water-quality-report-2025",
+      "title": "Capitol Water Corporation — Water Quality Report 2025",
+      "publisher": "Capitol Water Corporation",
+      "organizationType": "utility",
+      "url": "https://capitolwatercorp.com/assets/water_quality_report_2025.pdf",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": "2025",
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 2 — the utility's annual consumer confidence report for public water system ID4010022. Cited only for its water sources and system identity.",
+      "stalenessRisk": "MEDIUM — a dated figure; re-check against the next filing.",
+      "claimsSupported": [
+        "boise-capitol-water-wells"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "epa-sdwis-veolia-water-idaho",
+      "title": "EPA Safe Drinking Water Information System — water system record ID4010016 (Veolia Water Idaho)",
+      "publisher": "U.S. Environmental Protection Agency",
+      "organizationType": "federal-government",
+      "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010016/JSON",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — the federal record of the public water system: owner type, population served, service connections and primary source classification. Refreshed quarterly by EPA.",
+      "stalenessRisk": "MEDIUM — a dated figure; re-check against the next filing.",
+      "claimsSupported": [
+        "boise-drinking-water-private-utilities",
+        "boise-veolia-surface-and-groundwater"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "epa-sdwis-capitol-water",
+      "title": "EPA Safe Drinking Water Information System — water system record ID4010022 (Capitol Water Corp)",
+      "publisher": "U.S. Environmental Protection Agency",
+      "organizationType": "federal-government",
+      "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010022/JSON",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — the federal record of the public water system. Refreshed quarterly by EPA.",
+      "stalenessRisk": "MEDIUM — a dated figure; re-check against the next filing.",
+      "claimsSupported": [
+        "boise-drinking-water-private-utilities",
+        "boise-capitol-water-wells"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "deq-dww-veolia-water-idaho",
+      "title": "Idaho DEQ Drinking Water Watch — Water System Details, ID4010016 Veolia Water Idaho",
+      "publisher": "Idaho Department of Environmental Quality",
+      "organizationType": "state-government",
+      "url": "http://dww.deq.idaho.gov/IDPDWW/JSP/WaterSystemDetail.jsp?tinwsys_is_number=1458&tinwsys_st_code=ID&wsnumber=ID4010016",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — the state primacy agency's record of the system, including its listed sources of water.",
+      "stalenessRisk": "MEDIUM — a dated figure; re-check against the next filing.",
+      "claimsSupported": [
+        "boise-veolia-surface-and-groundwater"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-water-conservation",
+      "title": "Water Conservation",
+      "publisher": "City of Boise — Climate Action",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/programs/climate-action/water-conservation/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "water"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's own statement about where Boise's drinking water supply comes from.",
+      "stalenessRisk": "LOW — changes only through a new filing or order.",
+      "claimsSupported": [
+        "boise-veolia-surface-and-groundwater"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

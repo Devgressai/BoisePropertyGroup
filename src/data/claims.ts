@@ -2557,6 +2557,191 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Star, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "boise-drinking-water-private-utilities",
+    "claim": "Drinking water in Boise is supplied by privately owned utilities regulated by the Idaho Public Utilities Commission, chiefly Veolia Water Idaho and Capitol Water Corporation. Both bill their customers inside Boise city limits a 3 percent City of Boise franchise fee — for Veolia under City of Boise Ordinance No. 5623, effective December 17, 2003.",
+    "quote": "City of Boise 5623 December 17, 2003 3.0%",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "fees",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Veolia Water Idaho, Inc. — Rate Schedules and Rules and Regulations (IPUC-approved tariff)",
+        "url": "https://puc.idaho.gov/Fileroom/PublicFiles/WATER/VEO/General/0Tariff/Veolia%20Water%20Idaho%20Inc.pdf",
+        "publisher": "Veolia Water Idaho, Inc. (approved by the Idaho Public Utilities Commission)",
+        "tier": 1
+      },
+      {
+        "title": "Capitol Water Corporation — Service Agreement",
+        "url": "https://capitolwatercorp.com/service-agreement/",
+        "publisher": "Capitol Water Corporation",
+        "tier": 2
+      },
+      {
+        "title": "Idaho Public Utilities Commission Final Order No. 35762 — Veolia Water Idaho general rate case (VEO-W-22-02)",
+        "url": "https://puc.idaho.gov/Fileroom/PublicFiles/WATER/VEO/VEOW2202/OrdNotc/20230428Final_Order_No_35762.pdf",
+        "publisher": "Idaho Public Utilities Commission",
+        "tier": 1
+      },
+      {
+        "title": "EPA Safe Drinking Water Information System — water system record ID4010016 (Veolia Water Idaho)",
+        "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010016/JSON",
+        "publisher": "U.S. Environmental Protection Agency",
+        "tier": 1
+      },
+      {
+        "title": "EPA Safe Drinking Water Information System — water system record ID4010022 (Capitol Water Corp)",
+        "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010022/JSON",
+        "publisher": "U.S. Environmental Protection Agency",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-water-utility-customer-counts-2023",
+    "claim": "In 2023 the Idaho Public Utilities Commission described Veolia Water Idaho as providing service to Boise City and surrounding areas and serving approximately 105,000 customers in Ada County, under Amended Certificate of Public Convenience No. 143. The Commission's 2023 annual report lists Veolia Water Idaho at 105,445 customers and Capitol Water at 3,019, both with Boise as the nearest city.",
+    "quote": "Veolia is a Commission-regulated water corporation that provides service to Boise City and surrounding areas and currently serves approximately 105,000 customers in Ada County, Idaho.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Idaho Public Utilities Commission Final Order No. 35762 — Veolia Water Idaho general rate case (VEO-W-22-02)",
+        "url": "https://puc.idaho.gov/Fileroom/PublicFiles/WATER/VEO/VEOW2202/OrdNotc/20230428Final_Order_No_35762.pdf",
+        "publisher": "Idaho Public Utilities Commission",
+        "tier": 1
+      },
+      {
+        "title": "IPUC 2023 Annual Report, Section III — Water",
+        "url": "https://puc.idaho.gov/Fileroom/PublicFiles/annualreports/ar2023/Section%20III%20Water.pdf",
+        "publisher": "Idaho Public Utilities Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "HISTORICAL",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-veolia-surface-and-groundwater",
+    "claim": "Veolia Water Idaho draws on both surface and ground water: the state's drinking water record lists two treatment plants, Columbia and Marden, alongside dozens of wells, and federal records classify the system's primary source as surface water and put it at 264,978 people served through 108,138 connections. The City of Boise, for its part, states that 70 percent of Boise's drinking water supply comes from groundwater.",
+    "quote": "Principal County Served : ADA Primary Source : SW",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Idaho DEQ Drinking Water Watch — Water System Details, ID4010016 Veolia Water Idaho",
+        "url": "http://dww.deq.idaho.gov/IDPDWW/JSP/WaterSystemDetail.jsp?tinwsys_is_number=1458&tinwsys_st_code=ID&wsnumber=ID4010016",
+        "publisher": "Idaho Department of Environmental Quality",
+        "tier": 1
+      },
+      {
+        "title": "EPA Safe Drinking Water Information System — water system record ID4010016 (Veolia Water Idaho)",
+        "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010016/JSON",
+        "publisher": "U.S. Environmental Protection Agency",
+        "tier": 1
+      },
+      {
+        "title": "Water Conservation",
+        "url": "https://www.cityofboise.org/programs/climate-action/water-conservation/",
+        "publisher": "City of Boise — Climate Action",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-capitol-water-wells",
+    "claim": "Capitol Water Corporation, Boise's second regulated water utility, supplies groundwater: its 2025 water quality report describes water from four primary wells and one backup well, and federal records put the system at 9,000 people served through 2,811 connections.",
+    "quote": "water from four primary wells and one",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Capitol Water Corporation — Water Quality Report 2025",
+        "url": "https://capitolwatercorp.com/assets/water_quality_report_2025.pdf",
+        "publisher": "Capitol Water Corporation",
+        "tier": 2
+      },
+      {
+        "title": "EPA Safe Drinking Water Information System — water system record ID4010022 (Capitol Water Corp)",
+        "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010022/JSON",
+        "publisher": "U.S. Environmental Protection Agency",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "eagle-veolia-acquired-eagle-water-company",
+    "claim": "Veolia Water Idaho acquired Eagle Water Company, and its Commission-approved tariff keeps a separate General Metered Service schedule for the Eagle Water Service Area covering customers in the area formerly served by Eagle Water Company as of January 1, 2022. Veolia also bills a 1 percent City of Eagle franchise fee under Eagle Ordinance No. 414.",
+    "quote": "All existing customers at time of acquisition in the area formerly serviced by Eagle Water Company",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "fees",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Veolia Water Idaho, Inc. — Rate Schedules and Rules and Regulations (IPUC-approved tariff)",
+        "url": "https://puc.idaho.gov/Fileroom/PublicFiles/WATER/VEO/General/0Tariff/Veolia%20Water%20Idaho%20Inc.pdf",
+        "publisher": "Veolia Water Idaho, Inc. (approved by the Idaho Public Utilities Commission)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
   }
 ];
 

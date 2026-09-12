@@ -1,0 +1,1228 @@
+                                                                                              Office of the Secretary
+                                                                                                   Service Date
+                                                                                                  April 28, 2023
+
+          BEFORE THE IDAHO PUBLIC UTILITIES COMMISSION
+
+    IN THE MATTER OF THE APPLICATION                       )   CASE NO. VEO-W-22-02
+    OF VEOLIA WATER IDAHO INC. FOR                         )
+    AUTHORITY TO INCREASE ITS RATES                        )
+    AND CHARGES FOR WATER SERVICE IN                       )   ORDER NO. 35762
+    THE STATE OF IDAHO                                     )
+                                                           )
+                                                           )
+
+        This Order establishes the revenue requirement and rates for Veolia Water Idaho, Inc.
+(“Company” or “Veolia”). The Commission establishes a rate base for the Company of
+$255,162,220, and a revenue requirement of $56,157,933. Attachment A. The Commission
+approves a 9.25% return on equity, and an overall 6.91% rate of return. This $2,756,227 revenue
+increase will increase customer rates by 7.06%, to be implemented equally across the board to all
+rate components and customer classes, Residential, Commercial, Public Authority, and Private
+Fire Service. The Commission denies the Company’s request to implement a Distribution System
+Improvement Charge.
+                                    PROCEDURAL HISTORY
+        On September 30, 2022, the Company filed an Application with the Idaho Public Utilities
+Commission (“Commission”) requesting authorization to raise the rates it charges for water
+service. The Company requested an October 31, 2022, effective date.
+        On October 20, 2022, the Commission issued a Notice of Application, Notice of
+Suspension of Proposed Effective Date, and Notice of Intervention Deadline. Order No. 35569.
+Subsequently, the Commission granted intervention to Ada County; Sharon Ullman, pro se;
+Micron Technology, Inc.; and the city of Boise City (collectively “Intervenors”). Order Nos. 35589
+and 35604.
+        On December 15, 2022, the Commission issued a Notice of Schedule setting forth
+submission deadlines for Commission Staff (“Staff”)1, Intervenor, and Company written
+testimony. Order No. 35628. On February 21, 2023, the Commission issued a Notice of Schedule,
+Notice of Customer Hearing, and Notice of Technical Hearing. Order No. 35683.
+        On March 27, 2023, the Commission held a Customer Hearing. On April 4, 2023, the
+Commission held a Technical Hearing at which all Intervenors participated.
+
+1
+ Pursuant to Commission Rule of Procedure 37 the “Commission Staff may appear in any Commission proceeding
+as an impartial representative of the public interest[.]” IDAPA 31.01.01.037.
+
+ORDER NO. 35762                                      1
+                                          APPLICATION
+        Veolia is a Commission-regulated water corporation that provides service to Boise City
+and surrounding areas and currently serves approximately 105,000 customers in Ada County,
+Idaho. See Idaho Code §§ 61-125 and 61-129. The Company provides service under Amended
+Certificate of Public Convenience No. 143. Veolia’s most recent general rate case was filed in
+2020, Case No. SUZ-W-20-02.
+        Veolia has submitted proposed Schedule Numbers 1, 1B, 2, 3, and 4 setting forth the
+proposed changes to be made to customers’ rates. Application at 2. Veolia represents that if the
+Commission approves the request in full, customer bills would be adjusted by 24.1% and Company
+revenues would increase by 23.4% or $12.1 million per year. Id. Veolia represents that the
+proposed rate of return under the revised rates and charges will be 7.77%. Id.
+        Veolia represents that the revenue realized under its presently authorized rates produces a
+rate of return of 4.59% based on a historical year ending June 30, 2022. Id. at 3. Veolia states that
+it seeks additional revenues to recover increased operating expenses and costs associated with
+plant additions, and to produce a fair rate of return. Id.
+        Veolia is proposing a revision to its Rules and Regulations Governing the Rendering of
+Water Service to reflect the name change from Suez Water Idaho Inc. to Veolia Water Idaho, Inc.;
+to eliminate 1¼-inch meters reference from the tariff; to revise the service line connection from
+one-inch or smaller to two-inch or smaller according to NFPA 13D standards; and to implement a
+Distribution System Improvement Charge (“DSIC”). Id.
+        Veolia proposes to implement the requested increase in revenue by a uniform percentage
+increase to all rate elements, except for Private Fire Service rates which would see no increase. Id.
+Veolia represents that the average residential bill would increase by $0.25 a day or $7.59 per
+month, the average commercial bill by $0.93 a day or $27.92 a month, and the average public
+authority bill by $0.85 a day or $25.46 a month. Legacy Eagle Water Company area customer rates
+will continue to phase-in over time. Press Release at 1; see also Order No. 35247. The existing
+Eagle average residential bill would increase by $0.15 a day or $4.43 per month, the average
+commercial bill by $0.54 a day or $16.29 a month, and the average public authority bill by $0.50
+a day or $14.85 a month. Press Release at 1.
+
+
+
+
+ORDER NO. 35762                                     2
+                          PUBLIC COMMENTS AND TESTIMONY
+  I.   Public Comments
+       The Commission received and reviewed one hundred and seventy-nine (179) written
+comments from the public. The vast majority of the written comments oppose the Company’s
+proposed 24.1% rate increase. These generally asserted that the proposed rate increase was
+unreasonable citing the present state of the economy, inflation, and the Company’s recent
+acquisition and transition from Suez Water Idaho Inc. to Veolia Water Idaho Inc.
+ II.   Customer Hearing
+       On March 27, 2023, the Commission held a Customer Hearing. During the hearing seven
+members of the public testified. Members of the public who testified voiced many of the same
+concerns found in the written public comments including issues with fixed income, and hardships
+that would result if the Company’s proposed rate increase was approved.
+                        COMMISSION FINDINGS AND DECISIONS
+       Veolia is a water corporation and a public utility, as defined under Title 61 of the Idaho
+Code, and provides water service to the public in Idaho. Idaho Code §§ 61-125, and -129. The
+Commission has jurisdiction over the Company and this matter under Idaho Code §§ 61-501, -
+502, -503, -507, -520, -523, and -622.
+       In a general rates case, the Company’s intrastate revenue requirement, and every
+component of it, both rate base and expense, are at issue. IDAPA 31.01.01.124.01. The
+Commission may grant, deny, or modify the revenue requirement requested and may find a
+revenue requirement different from that proposed by any party is just, fair, and reasonable. Id.
+       The Company’s retail rates and charges, both recurring and non-recurring, including those
+of special contract customers, are at issue, and every component of every existing and proposed
+rate and charge is at issue. IDAPA 31.01.01.124.02. The Commission may approve, reject, or
+modify the rates and charges proposed and may find that rates and charges different from those
+proposed by any party are just, fair, and reasonable. Id.
+Test Year, Capital Structure, and Rate of Return
+       A. Test Year
+       In ratemaking, the purpose of a test year is to “develop representative operating data that
+will provide a meaningful comparison and guide for developing future revenue requirements, and
+allow the parties to work with actual data, while still recognizing projected changes which are
+reasonably certain to occur.” Order No. 33757 at 4 (internal citations omitted).
+
+ORDER NO. 35762                                   3
+        The Company requests a test year consisting of a 12-month historic period beginning July
+1, 2021, ending on June 30, 2022, and a nine-month adjustment period ending on March 31, 2023.
+Tr. vol. II, 532. Staff initially proposed using the Company’s test year, with a cut-off date of
+December 31, 2022, for pro forma adjustments. Tr. vol. III, 927. However, as the 2022 actual
+amounts became available, Staff adjusted the Company’s test year of July 1, 2021, through June
+30, 2022, to a calendar year test year ending December 31, 2022, with no pro forma adjustments
+Id. at 928.
+        The Company disagrees with Staff’s recommendation and argues that known and
+measurable adjustments should be included in the Company’s operating expenses for recovery
+after Staff’s proposed December 31, 2022, test year end period. Tr. vol. II, 163. The Company
+argues that costs that have already been incurred or that can be reasonably measured before the
+conclusion of a rate proceeding should be included for the Commission’s consideration. Id. No
+Intervenor proposed an alternative test year.
+        The Commission finds it fair, just, and reasonable to adopt a calendar year test year ending
+December 31, 2022, with limited pro forma adjustments. The Commission has previously
+explained that “[i]t simply is not possible to carefully review investment cost figures and
+information that are provided close to or at the time of hearing.” Order No. 29838 at 6. Company
+data should be provided with sufficient time so that Staff and other parties may incorporate the
+information in prefiled testimony. This will facilitate the technical hearing process and eliminate
+the need to argue over forecasts or pro forma adjustments outside of an established test year. “Not
+only will data be known and measurable by the time other parties prefile testimony and for the
+hearing, it will be more convenient and administratively easier for all parties.” Id. at 7. We continue
+to believe that partial projections should be limited and accepted only when Staff and parties have
+the opportunity to verify any projected data prior to presentations of their cases.
+        B. Capital Structure
+        The Company proposes to use the capital structure of its parent company Veolia Water
+Resources, which maintains capitalization percentages of 44.43% debt and 55.57% equity. Tr. vol.
+II, 271. Nether Staff nor any Intervenors object to the Company’s proposed capital structure.
+        The Commission finds it fair, just, and reasonable to adopt a capital structure of 44.43%
+debt and 55.57% equity for ratemaking purposes.
+
+
+
+
+ORDER NO. 35762                                    4
+       C. Rate of Return
+       For utility purposes, the rate of return (“ROR”) is determined by calculating the weighted
+average cost of capital (“WACC”). WACC is calculated by multiplying the cost of each capital
+source, debt and equity, by its relevant weight and then adding the products together.
+       To determine a fair and adequate rate of return, the Commission is guided by United States
+Supreme Court decisions. In Bluefield Water Works & Improvement Company v. West Virginia
+Public Service Commission, the Supreme Court stated:
+       A public utility is entitled to such rates as will permit it to earn a return on the value
+       of the property which it employs for the convenience of the public equal to that
+       generally being made at the same time and in the same general part of the country
+       on investments in other business undertakings which are attended by
+       corresponding, risks and uncertainties; but it has no constitutional right to profits
+       such as are realized or anticipated in highly profitable enterprises or speculative
+       ventures. The return should be reasonably sufficient to assure confidence in the
+       financial soundness of the utility and should be adequate, under efficient and
+       economical management, to maintain and support its credit and enable it to raise
+       the money necessary for the proper discharge of its public duties. A rate of return
+       may be reasonable at one time and become too high or too low by changes affecting
+       opportunities for investment, the money market and business conditions generally.
+Bluefield Waterworks & Imp. Co. v. Pub. Serv. Comm’n of W. Va., 262 U.S. 679, 692–93, 43 S.
+Ct. 675, 679, 67 L. Ed. 1176 (1923).
+       From the investor or company point of view it is important that there be enough
+       revenue not only for operating expenses but also for the capital costs of the
+       business. These include service on the debt and dividends on the stock. By that
+       standard the return to the equity owner should be commensurate with returns on
+       investments in other enterprises having corresponding risks. That return, moreover,
+       should be sufficient to assure confidence in the financial integrity of the enterprise,
+       so as to maintain its credit and to attract capital.
+Fed. Power Comm’n v. Hope Nat. Gas Co., 320 U.S. 591, 603, 64 S. Ct. 281, 288, 88 L. Ed. 333
+(1944) (internal citation omitted). As a result of these Supreme Court decisions, three primary
+standards have evolved for determining a fair and reasonable rate of return: (1) the financial
+integrity or credit maintenance standard; (2) the capital attraction standard; and (3) the comparable
+earnings standard. Order No. 30722 at 29.
+               1. Requested Rate of Return
+       The Company requests an overall ROR of 7.77%, including a 10.80% return on common
+equity (“ROE”), a 3.99% cost of debt, and based on a capital structure of 44.43% debt and 55.57%
+equity. Tr. vol. II, 271; Walker Ex. 1, Sched. 1.
+
+
+
+ORDER NO. 35762                                     5
+                                   Company Proposal
+              Capital                                             Weighted
+  Line       Structure                                   Cost of Avg. Cost of
+  No.       Component        Amount         Percentage   Source    Capital
+   1        Debt         $1,222,046,487        44.43%     3.99%        1.77%
+   2        Equity       $1,528,664,904        55.57%    10.80%        6.00%
+   3        Total        $2,750,711,391       100.00%                 7.77%
+
+
+         Staff proposes an overall ROR of 6.77%, including a 9.00% ROE, a 3.99% cost of debt,
+and based on a capital structure of 44.43% debt and 55.57% equity. Tr. vol. III, 814; Terry Ex.
+119, Sched. 5.
+                                      Staff Proposal
+              Capital                                             Weighted
+  Line       Structure                                   Cost of Avg. Cost of
+  No.       Component        Amount         Percentage   Source    Capital
+   1        Debt         $1,222,046,487        44.43%     3.99%        1.77%
+   2        Equity       $1,528,664,904        55.57%     9.00%        5.00%
+   3        Total        $2,750,711,391       100.00%                 6.77%
+
+
+         Micron proposes an overall ROR of 6.97%, including a 9.35% ROE, a 3.99% cost of debt,
+and based on a capital structure of 44.43% debt and 55.57% equity. Tr. vol. III, 978; Gorman Ex.
+401.
+                                     Micron Proposal
+              Capital                                             Weighted
+  Line       Structure                                   Cost of Avg. Cost of
+  No.       Component        Amount         Percentage   Source    Capital
+   1        Debt         $1,222,046,487        44.43%     3.99%        1.77%
+   2        Equity       $1,528,664,904        55.57%     9.35%        5.20%
+   3        Total        $2,750,711,391       100.00%                 6.97%
+
+
+                 2. Cost of Debt
+         The Company presented evidence that its embedded cost of debt is 3.99%. Staff accepts
+this cost as reasonable and no Intervenor challenges the Company’s calculation of its cost of debt.
+         The Commission finds it fair, just, and reasonable to adopt a cost of debt is 3.99% for
+ratemaking purposes.
+                 3. Cost of Common Equity or Return on Equity
+         The Company requests a ROE of 10.80%. Tr. vol. II, 246. The Company argues that a ROE
+of 10.80% reflects the Company’s unique risk characteristics. Id. The Company presented
+
+
+ORDER NO. 35762                                  6
+testimony discussing the present state of the utility industry, analyzing the Company’s selection
+and application of a comparable group, discussing capital cost rates, conducting a financial
+analysis, and conducting a risk analysis.
+       The Company used several models to help formulate its requested ROE, the Discounted
+Cash Flow (“DCF”), Capital Asset Pricing Model (“CAPM”), and Risk Premium (“RP”). Id. at
+247. The Company states that the current range of its ROE calculations is 9.60% calculated by the
+DCF method to 11.60% calculated under CAPM. The Company’s RP analysis elicited an 11.3%
+ROE. Id. The Company then used a comparable group of seven publicly traded companies to
+estimate the requested ROE. Id.
+       Staff does not agree with the Company’s inclusion of an adder based on applying the
+Hamada Formula to the Company’s calculation that would increase the Company’s ROE by 110
+basis points or 1.1%. Tr. vol. III, 805. Staff argues: (1) the Hamada formula is not designed for a
+company that follows a constant leverage policy; (2) the Hamada formula is usually recommended
+for a company that has a high level of debt that is far above optimal; and (3) the Hamada formula
+does not take into account default risk. Id. at 805-07.
+       Micron also does not agree with the Company’s risk adjustments as applied to the
+Company’s DCF, CAPM, and Risk Premium. Tr. vol. III, 1114. Specifically, Micron argues that
+the Company’s Hamada adjustment is a market-to-book ratio or leverage adjustment that is not
+applicable in this case and produces results that are unjust and unreasonable. Id. at 1114-15.
+       Staff proposes a ROE of 9.00%. Tr. vol. III, 814; Terry Ex. 119, Sched. 5. Staff provided
+testimony concerning the state of the economy, the Company’s status as a wholly owned
+subsidiary, the application of the Hamada Formula in the calculation of a ROE, and Staff’s
+selection of a proxy group for its analysis. Tr. vol. III, 801. Staff utilized the Comparable Earnings
+Model, the DCF model, and CAPM methods to calculate a proposed ROE. Id. Staff used a proxy
+group consisting of the same seven publicly traded companies selected by the Company in its
+comparable group, with the addition of Veolia Environnement S.A. to estimate Staff’s proposed
+ROE. Id. at 807-08; Terry Ex. 119, Sched. 1.
+       For the Comparable Earnings Model, Staff used the last three years of ROE as a
+comparison. The 2021 ROE results ranged from 3.51% to 17.31% with an average of 9.78%. The
+2020 ROE results ranged from 1.23% to 13.42% with an average of 8.94%. The 2019 ROE results
+ranged from 2.63% to 13.99% with an average of 9.02%. The average of all the results together is
+a ROE of 9.25% with a median of 10.26%. Id. at 809; Terry Ex. 119, Sched. 1.
+
+ORDER NO. 35762                                    7
+       For the DCF model, Staff’s ROE results ranged from 3.50% to 11.39% with an average of
+7.91% and median of 9.04%. Id. at 810; Terry Ex. 119, Sched. 2.
+       For the CAPM analysis, Staff’s ROE results ranged from 6.32% to 13.11% with an average
+of 9.33% and a median of 8.98%. Id. at 813; Ex. 119, Sched. 3.
+       Micron recommends that the Commission award a ROE within a recommended range of
+9.00% to 9.70%, with a midpoint of 9.35%. Tr. vol. III, 978. Micron provided testimony
+concerning observable market evidence, the impact of Federal Reserve policies on current and
+expected long-term capital market costs, an assessment of the current risk premium built into
+current market securities, and a general assessment of the current investment risk characteristics
+of the regulated utility industry and the market’s demand for utility securities. Id at 1105.
+       Micron conducted a Constant Growth DCF Model with Analysts’ Growth, a Constant
+Growth DCF Model with Sustainable Growth, and a Multi-Stage Growth DCF Model. Id. at 1075.
+Based on the current market conditions, Micron represents that its DCF studies indicate a fair ROE
+in the range of 8.60% to 9.50%, with an approximate midpoint of 9.00%. Id.
+       Micron conducted a Risk Premium analysis and recommends high-end equity risk premium
+in forming a proposed ROE. Id. at 1085. Micron’s Treasury bond risk premium and utility bond
+risk premium analysis indicates a ROE in the range of 9.41% to 9.73%, with an approximate
+midpoint of 9.60%. Id. at 1087.
+       Micron conducted a CAPM study using a normalized utility beta, which produced a ROE
+of approximately 9.70%. Id. at 1104.
+       The Company does not agree with Staff and Micron’s proposed ROE calculations. Among
+its objections, the Company does not agree with Staff’s inclusion of Veolia Environnement S.A.
+in Staff’s proxy group. Tr. vol. II, 371. The Company does not agree with Micron’s inclusion of a
+Gas proxy group. Id. at 371-77. The Company also argues that Staff and Micron did not conduct
+a proper risk analysis of the Company as compared to the proxy group. Id. at 371.
+       Having reviewed the record, the arguments of the parties, and all submitted materials, the
+Commission finds a ROE of 9.25% is fair, just, and reasonable in this case. To determine a fair
+ROE, the Commission is guided by the standards set forth in the above Supreme Court decision:
+(1) the financial integrity or credit maintenance standard; (2) the capital attraction standard; and
+(3) the comparable earnings standard. Order No. 33757 at 7-8. The Commission has previously
+explained that there are:
+
+
+
+ORDER NO. 35762                                    8
+        various methods for determining a fair ROE, including DCF analyses, the
+        Comparable Earnings method, Risk Premium analyses, and the Capital Asset
+        Pricing Model. Each method attempts to estimate a sufficient ROE to attract free
+        market investors into buying the Company’s stock. In summary:
+        •   A DCF method assumes an investor buys stock at a price reflecting the
+            present value of the future cash the investor expects to receive from
+            dividends and the ultimate sale of the stock. Since future dollars are worth
+            less than present dollars, the future cash flow is discounted back to the
+            present at the investor’s required ROR;
+        •   A Comparable Earnings method evaluates returns earned by other
+            companies, including utilities, to quantify an investor’s expected return,
+            taking into account the risks associated with a particular investment;
+        •   A Risk Premium method starts with the ROR for a low-risk investment—
+            such as government or utility bonds—and adds a premium based on the
+            relative risk associated with a utility’s stock; and
+        •   A Capital Asset Pricing Model, measures risk in relation to the market as a
+            whole. As markets change new concerns develop in disparate financial
+            circles related to the calculations used to determine the cost of equity.
+        While each of these methods can be useful in estimating a utility’s ROE, as with
+        other analytical tools used in ratemaking, these methods only imperfectly predict
+        the Company’s future requirements and performance. Further, the ROE allowed by
+        a regulatory agency is but one factor that a prudent investor might consider when
+        deciding whether to buy the Company’s stock.
+Id. at 8.
+        In reaching its decision, the Commission notes that a ROE of 9.25% falls within the ranges
+determined by Staff, Micron, and the Company’s own ROE calculations when not adjusted by the
+Company’s adders. The Commission is not persuaded by Company’s arguments regarding the
+application of the Hamada Formula, and the associated adjustments to its ROE calculations, to
+resolve alleged financial risk difference between market value cost rates and book value cost rates.
+Similarly, the Commission is not persuaded by the Company’s risk analysis and size comparison
+to the proxy group that ignores the Company’s status as a wholly owned subsidiary.
+        The Commission finds that a ROE of 9.25% will allow the Company to earn a return
+“generally being made at the same time and in the same general part of the country on investments
+in other business undertakings which are attended by corresponding, risks and uncertainties.”
+Bluefield, 262 U.S. at 692. The Commission also finds that the associated rate of return will be
+“reasonably sufficient to assure confidence in the financial soundness of the utility” and adequate,
+“to maintain and support its credit and enable it to raise the money necessary for the proper
+discharge of its public duties.” Id. at 693.
+
+ORDER NO. 35762                                   9
+ II.    Adjustments to Test Year Revenues, Expenses
+        Once a test year is selected, the test year revenue and expense accounts and rate base are
+adjusted to reflect known and measurable changes so the test year totals will accurately reflect
+anticipated amounts for the future period when rates will be in effect. There are generally three
+types of adjustments: (1) normalizing adjustments made for unusual occurrences, like one-time
+events or extreme weather conditions, so they do not unduly affect the test year; (2) annualizing
+adjustments made for events that occurred at some point in the test year to average their effect as
+if they had been in existence during the entire year; and (3) known and measurable adjustments
+made to include events that are certain to occur outside the test year but will continue in the future,
+provided that the effect on the Company’s income and expenses can be measured with reasonable
+certainty.
+        In this case some of the Company’s proposed adjustments to test year revenues and
+expenses are uncontested including Post-Retirement Benefits other than Pension (“PBOP”),
+Employee Tuition Benefits, Customer Billing, Safety Expenses, unadjusted Operation and
+Maintenance expense, and the Gross Revenue Conversion Factor (“GRCF”). The Commission
+considers the contested adjustments below.
+             A. Revenue Adjustment
+                     1. Weather Usage Adjustment
+        Staff proposes a revenue adjustment based on the Company’s calculation of weather usage
+and the predicted normal residential consumption for the year 2022. Tr. vol. III, 859. Staff argues
+that the Company erred in its calculations by predicting normal residential consumption for the
+year 2023 instead of 2022. Id. at 862. Staff contends that the Company’s approach extrapolates
+outside the actual data set and uses a year that does not match Staff’s test year. Id.
+        Micron also testified that the Company’s residential sales forecast underestimates
+normalized sales and results in an understated and unreasonable projection of residential sales in
+the test year. Id. at 984-86. The Company argues that its calculations are correct. Tr. vol. II, 625-
+26.
+        Having reviewed the record, the Commission finds it fair, just, and reasonable to adopt
+Staff’s calculation of the predicted normal residential consumption for the year 2022, and the
+resulting adjustment of $738,348 (including the meter error rebilling adjustment below) to the
+Company’s test year revenues at present rates.
+
+
+
+ORDER NO. 35762                                    10
+                       2. Meter Error Rebilling
+        Staff proposes a revenue adjustment related to rebilling that occurred after the 2022 test
+year but is a result of inaccurate meter readings that occurred from July 2022 through January
+2023. Tr. vol. III, 856. The adjustment represents rebilled revenue that was not included in the
+2022 Test Year Booked Values. Id. The Company agrees that the Commission should use the most
+up-to-date information concerning the meter error rebilling in calculating the revenue at present
+rates. Tr. vol. II, 638.
+        The Commission finds the most up-to-date number of rebills due to meter reading errors
+to be 1,810. Therefore, the Commission applies an associate adjustment to the calculation of test
+year revenues at present rates.
+            B. Expense Adjustments
+                       1. Payroll Expense Adjustments
+        The Commission finds it fair, just, and reasonable to reduce the Company’s payroll expense
+by a total of $635,883 as set forth below.
+                           a. Unfilled Positions, Stand-By Pay, and Overtime
+        Staff proposes an adjustment to remove four employee positions that had not been filled
+by Staff’s test year cut-off date of December 31, 2022. Tr. vol. III, 731. Similarly, Staff proposes
+to remove the Company’s proposed pro forma 2023 increase in the Company’s calculation of
+Stand-By Pay. Id. at 734. Staff also proposes to remove the Company’s Overtime adjustment
+arguing that it is an estimate and is not known and measurable, and the Company’s proposed
+addition of 15 new employees should decrease the amount of overtime hours incurred during the
+year and thus decrease total overtime expense. Id at 740.
+        Micron proposes removing all unfilled positions because the Company has not justified the
+additional employees or explained why they are required. Id. at 981.
+        The Company argues that all employee positions will be filled, and the last employee start
+date will be in April 2023, before the conclusion of this case and the effective date of new tariff
+rates. Tr. vol. II, 168. The Company also contends that Overtime and Stand-By pay rates are
+identified in the collective bargaining unit agreement and follow the established rates of pay. Tr.
+vol. II, 171.
+        Having reviewed the record, the Commission notes the rapid growth in the Company’s
+employee count and the uncertainty that the added positions will remain filled. While Micron’s
+contention that the Company has not justified the new positions has merit, we decline to disallow
+
+ORDER NO. 35762                                   11
+the positions that have been filled by December 31, 2022. We do have concern with the Company
+adding numerous positions in a test year prior to filing a general rate case, and generally believe
+that new positions should be added gradually. In this case, the Commission finds it fair, just, and
+reasonable to exclude the four unfilled positions corresponding to the test year cut-off date of
+December 31, 2022. We note that the wages and associated payroll expense for each new employee
+added in 2022 has been captured in the revenue requirement at an annualized amount, ensuring the
+Company with adequate funds to cover payroll expenses for all employees of the Company on
+December 31, 2022. The Commission also excludes the Company’s pro forma adjustments to
+Stand-By and Overtime pay in this case as not known and measurable.
+                           b. Incentive Pay
+       Staff proposes to remove the Company’s incentive pay from the revenue requirement. Staff
+argues that the Company: (1) already compensates its employees with a base salary and additional
+benefits; (2) that short-term incentive plans (“STEP”) vary from year to year and are speculative;
+and (3) that Incentive Plans are self-funding. Tr. vol. III, 734-36.
+       The Company represents that the Incentive Programs are based on employee performance
+as it relates to achievement of specific objectives, as well as Company performance, both in terms
+of safety and financial results. Tr. vol. II, 172. The Company argues that the 2022 objectives and
+achievements have been evaluated for non-bargaining employees and the Incentive Plan payments
+based on achieving those employee goals and Company results are paid in March 2023. Id. The
+Company represents that for non-bargaining employees performance ratings consist of 25%
+individual objective performance and 75% Veolia Values performance (Respect, Customer Focus,
+Solidarity, and Innovation). Id. at 171.
+       Based upon the record before it, the Commission cannot find that the amount the Company
+expended on employee incentive pay in this case is reasonable. The Commission has no basis to
+quantify how Veolia Values directly translates to customer benefits, nor the extent to which an
+employee’s personal goals and objectives improve the service provided to customers. When Veolia
+can demonstrate that the metrics and criteria of its Incentive Program are transparent and readily
+able to be reviewed, and provide a discernible customer benefit, the Commission will consider
+including incentive payments for recovery in rates. Portions of incentive plans that provide benefits
+to shareholders will continue to be funded by shareholders. The Company retains the burden to
+show that the wages it pays are fair and reasonable for the territory in which is serves. Thus, the
+Commission finds it fair, just, and reasonable to exclude the Company’s incentive payments.
+
+ORDER NO. 35762                                    12
+                             c. 2023 Pay Increases
+        In its Application, the Company adjusted its historical test year payroll to include a 4%
+wage increase for non-bargaining unit employees and a 2.75% wage increase for bargaining unit
+employees expected to occur on April 1, 2023. Tr. vol. II, 168-71. Staff proposes to remove the
+Company’s pro forma 2023 pay increases in keeping with a December 31, 2022, test year cut-off
+date. Tr. vol. II, 733-34.
+        In response, the Company argues that bargaining unit employees contract reflects a 2.75%
+increase in bargaining unit wages effective April 1, 2023, and that the overall non-bargaining unit
+2022 performance rating completed in March 2023 resulted in a wage increase of 3.6% with an
+effective date of April 1, 2023. Tr. vol. II, 168-70.
+        The Commission finds it fair, just, and reasonable to approve the Company’s requested
+adjustment for a wage increase of 3.6% for non-bargaining unit employees and a 2.75% increase
+to bargaining unit employees, as adjusted by the Commission’s above approved adjustment
+removing the four unfilled positions.
+                      2. Workers’ Compensation
+        Workers’ compensation is based on a percentage of payroll. As the payroll increases, so
+does workers’ compensation insurance. Staff and the Company agree on a percentage amount of
+1.004%. The Commission finds it fair, just, and reasonable to reduce workers’ compensation by
+$9,645 in conformity with the Commission’s payroll decisions above and the calculation of the
+total gross payroll amount.
+                      3. Healthcare Insurance
+        The Commission finds it fair, just, and reasonable to increase Healthcare Insurance by
+$240,439 in conformity with the Commission’s adjustments to payroll expenses to include the
+additional positions filled during 2022.
+                      4. Employee 401k
+        Staff proposes that the Company recover its actual 401(k) Match expense incurred in 2022.
+Tr. Vol. III, 747. The Company argues that the 401(k) amount should be based on the Company’s
+rebuttal gross payroll amount, less incentives. Tr. Vol. II, 232-33.
+        Consistent with our prior Orders, the Commission finds it fair, just, and reasonable to use
+actual test year contributions to calculate the 401k contribution adjustment. The Company’s 401(k)
+plan allows employees to cease or commence payroll deductions at any time, either ending or
+creating the Company’s responsibility to make a matching contribution. With vacant positions,
+
+ORDER NO. 35762                                    13
+employee turnover, and the unknown elections of each employee to commence or cease
+deductions, pro forma adjustments to the test year data are not known and measurable. Thus, the
+Company’s 401k expense is reduced by $44,890 in conformity with the Commission’s above
+decisions using a calendar year 2022 test year.
+                     5. Fringe Benefits
+       The Fringe Benefits allocation incorporates payroll taxes, workers’ compensation, pension
+service cost, PBOP service cost, Group Health & Life, 401k, and Other Employee benefits to
+calculate the percentage of labor charged to capital projects. Staff and the intervening parties do
+not object to the formulaic method used by the Company to calculate the Fringe Benefit allocation.
+The Commission finds it fair, just, and reasonable to reduce the Company’s Fringe Benefits by
+$41,646 in conformity with the Commission’s decisions on the previously discussed payroll
+adjustments.
+                     6. Payroll Taxes
+       The Commission finds it fair, just, and reasonable to reduce the Company’s Payroll Taxes
+by $74,381 in conformity with the Commission’s decisions herein.
+                     7. Vehicle Allocation
+       The Commission finds it fair, just, and reasonable to reduce the Company’s Vehicle
+Allocation expense by a total of $167,893 as set forth below.
+                           a. Mechanic Pay Increase
+       The Commission finds it fair, just, and reasonable to allow an adjustment for 2023 pay
+increase for the Company Mechanic in conformity with the Commission’s decision to include a
+3.6% wage increase for non-bargaining unit employees in 2023.
+                           b. Vehicle Lease Expense
+       Staff proposes excluding the vehicle lease expense for 22 vehicles that were included in
+the Company’s case that had not been delivered to the Company prior the test year cut-off date of
+December 31, 2022. Tr. Vol. III, 754. Staff contends that it is not appropriate for the Company to
+include the lease expense in customer rates when no party had the opportunity to review the terms
+of the lease and need for the additional vehicles. Id.
+       The Company argues that since Staff’s onsite audit in January of 2023, the Company has
+received 15 of the new leased vehicles, and the Company has worked with local Kendall Ford of
+Meridian dealership to secure the other 7 vehicles, four of which have arrived, and the other three
+are confirmed by the dealership to arrive in mid-April. Tr. vol. II, 236-37.
+
+ORDER NO. 35762                                    14
+       In keeping with the chosen test year and our preference that the parties have the opportunity
+to review and evaluate expenses prior to presenting their case, the Commission finds it fair, just,
+and reasonable to adopt Staff’s adjustment to vehicle allocation expense with respect to leased
+vehicles that were not in the Company’s possession within the selected test year.
+                           c. Fuel
+                                  i.   Fuel Cost
+       Staff argues that the Company’s fuel cost estimates may be overstated and not reflective of
+the entire test year. Staff proposes fuel costs using the average AAA prices for regular and diesel
+fuel on January 30, 2023. Tr. Vol. III, 754-55. In rebuttal, the Company argues that given the
+volatility in fuel prices the Company proposes to use an updated average price of regular fuel of
+$3.792 and $4.513 for diesel fuel as of March 6, 2023, per AAA “Boise City” prices. Tr. Vol. II,
+237-38.
+       The Commission finds it fair, just, and reasonable to calculate the Company’s fuel cost
+adjustment using an updated average price of regular fuel of $3.72 and $4 for diesel fuel as of
+April 17, 2023.
+                                 ii.   Fuel Consumption
+       Staff proposes removing the additional estimated 5.5% increase in fuel consumption from
+the Company’s fuel consumption adjustment. Tr. Vol. III, 754-55. Staff argues that the Company’s
+projected fuel consumption is not a known and measurable, as fuel consumption can vary from
+year to year, and it would be impossible to predict the number of gallons of fuel consumed in any
+given year. Id. The Company proposes to use actual fuel consumed for the 12-month period ending
+February 28, 2023. Tr. Vol. II, 238.
+       The Commission finds it fair, just, and reasonable to calculate the Company’s fuel
+consumption adjustment without pro forma adjustments using actual fuel consumed for calendar
+year test year ending December 31, 2022. These amounts were provided to Staff and parties to
+review prior to the presentation of their cases in direct testimony.
+                           d. Vehicle Materials, Maintenance, 3% Inflation
+       Staff proposes removing the Company’s inflation adjustment to its vehicle materials and
+maintenance adjustment. Tr. Vol. III, 755-57. Staff argues that it has historically opposed inflation
+adjustments because they are not known and measurable. Id. The Company argues that the impact
+of inflation during 2022 was known and measurable as 2022 year-end material and maintenance
+costs totaled $258,557. Tr. Vol. II, 239-40. The Company represents that this is an increase of
+
+ORDER NO. 35762                                    15
+$42,487 over the as-filed historic test year amount of $216,070 which included the 3% inflation
+projection. Id. The Company does not propose to increase vehicle expenses by the actual 2022
+year-end amount but stands by its as filed position of $216,070 which includes a 3% inflation
+increase. Id.
+        The Commission continues to find that inflation adjustments or other escalation
+adjustments based on estimates are not known and measurable. Therefore, we find it fair, just, and
+reasonable to exclude the Company’s 3% inflation adjustment to its vehicle materials and
+maintenance adjustment.
+                     8. Advertising Expense
+        Staff proposes removing the Company’s pro forma cost adjustment for printing Consumer
+Confidence Reports (“CCRs”) that the Company physically mails to its customers. Tr. Vol. III,
+747-61. Staff argues that the Company is not required to provide a physical copy, rather, the
+Company is only required to make the CCRs available to customers. Id.
+        The Company argues that important and regulatory required information should be mailed
+to all customers. Tr. Vol. II, 234-35. The Company represents that it will continue to provide
+notification via our Facebook and Twitter pages, a digital banner ad on IdahoStatesman.com with
+a link to a sponsored news article about the CCR, and a bill message for customers who receive
+their statement on paper or electronically. Id. The Company testified that all forms of notification
+let customers know how to find the CCR on its website; however, the printed mailer is the version
+the Company feels is the most effective. Id.
+        The Commission is not persuaded by the Company’s arguments that customers are more
+likely to read the CCRs when a copy is received by mail. The Company provides several methods
+of notification to customers regarding the whereabouts of the report, and we encourage the
+Company to continue to notify customers of the report in a cost-efficient manner. The Commission
+finds it fair, just, and reasonable to remove the unnecessary expense for printing CCRs as the
+Company is not required to provide physical copies to its customers. This reduces the Company’s
+advertising expenses by $30,000.
+                     9. Office Expense-Cityworks License and CCR Postage
+        Staff proposes removing the cost of four Cityworks licenses corresponding to the four
+unfilled employee positions at Staff’s calendar year test year ending December 31, 2022. Tr. Vol.
+III, 757-59. Staff also proposes removing the costs associated with physically mailing CCRs to
+customers. Id.
+
+ORDER NO. 35762                                   16
+        As the Commission has already excluded the unfilled employee positions from the
+Company’s payroll adjustments, and the Commission has also removed the costs to physically
+print the CCRs, the Commission finds it fair, just, and reasonable to removing the cost of four
+Cityworks licenses and the costs associated with physically mailing CCRs to customers. This
+adjustment reduces the Company’s office expenses by $27,544.
+                      10. Shared Management & Services (“M&S”) Fees
+        The Commission finds it fair, just, and reasonable to reduce the Company’s Shared M&S
+fees by a total of $161,101 as set forth below.
+                            a. Return on Shared IT Assets
+        Staff proposes removing the return on shared IT assets because the Company is including
+a return on the shared M&S IT assets at the Company’s requested pre-tax rate of return of 9.85%.
+Tr. Vol. III, 776-79. Staff is concerned that the parent company is attempting to include additional
+profits from its allocated charges to its subsidiary. Id.
+        The Company argues that for ratemaking purposes, the Company is requesting that a return
+be allowed on the overall investment made to serve its utilities customers including Idaho. Tr. Vol.
+II, 686-89. The Company states that the intention is that the return be consistent with that ultimately
+allowed by the Commission in this proceeding. Id. If the Commission allows a return different
+than that proposed by the Company, an adjustment should be made to the return amount consistent
+with that decision. Id.
+        The Commission finds it fair, just, and reasonable to include a return on shared IT assets
+at a rate consistent with this Order.
+                            b. Depreciation Expenses
+        Staff proposes adjusting the shared M&S IT assets depreciation expenses because the
+Company uses depreciation rates that are not approved by the Commission, and the Company adds
+a pro forma adjustment to the depreciation expenses out to March 2023. Tr. Vol. III, 777-78.
+        The Company argues that under its current methodology, capital expenditures, generally
+related to information technology are recorded on the VWM&S balance sheet and the depreciation
+expense on these assets is allocated to the operating companies based upon the three-factor formula
+as a part of VWM&S charges. Tr. Vol. II, 686-89. The Company represents that the carrying costs
+associated with assets are calculated and recovered from the utility customers who receive the
+benefit of the assets, and the carrying costs are calculated utilizing the capital structure, debt and
+equity rates included in the rate case filing. Id.
+
+ORDER NO. 35762                                      17
+       The Commission finds that all depreciation expenses must be calculated using rates
+approved by this Commission. It is unreasonable to allow recovery of depreciation expense that is
+based on rates that have not been reviewed by Staff and the parties nor approved by the
+Commission. The Commission finds it fair, just, and reasonable to include depreciation expenses
+at a rate approved by the Commission and without pro forma adjustments.
+                           c. Legal and HR Wages
+       Staff proposes removing the wages for four VWM&S attorneys that do not work in Idaho’s
+jurisdiction. Tr. Vol. III, 780-81. Staff also recommends decreasing M&S fees to account for four
+HR employees that are not doing work on the regulated side of the parent company. Id.
+       The Company argues that there are 10 VWM&S employees in the legal department that
+provide services that benefit Idaho. Tr. Vol. II, 697-98. Three provide services to the utilities while
+7 provide services to the utilities as well as other Veolia business units. Id. The Company contends
+that there are 12 VWM&S employees in the HR department that provide services benefiting the
+Company. Id. at 703. Two provide services to the utilities while 10 provide services to the utilities
+as well as other VWM&S business units. Id.
+       The Company represents that approximately 9.5% of the costs of the “utility only”
+employees are allocated to Idaho while approximately 7.7% of the employee costs that provide
+services to all business units to which VWM&S provides services, including the utilities, are
+allocated to Idaho. Id.
+       Having reviewed the record, the Commission cannot find sufficient evidence to allocate
+the expenses associated with the Company’s representation of work done for the benefit of Idaho
+customers. The Commission finds it fair, just, and reasonable to adopt Staff’s calculations and
+adjustments with respect to Legal and HR wages.
+                           d. COO Wages, 2023 Corporate Salary Increase, Executive
+                              Training, Pro forma Insurance Premium, and Board of
+                              Directors’ Compensation
+       Staff proposes removing the Company’s wage adjustment for the COO. Tr. Vol. III, 781.
+Staff argues that the COO does not benefit Idaho ratepayers but supports the board of directors
+and helps the parent company earn a profit for shareholders. Id. Similarly, Staff proposes removing
+the 2023 salary increase for corporate employees, the expenses associated with executive training
+and travel, pro forma Insurance Premium, and Board of Directors’ compensation. Id. at 781-83.
+
+
+
+
+ORDER NO. 35762                                    18
+       The Commission has already determined an appropriate adjustment for the Company’s
+2023 wage increases, and the Commission finds that 2023 M&S corporate salary increases should
+be similarly treated. With respect to COO wages, executive training, pro forma Insurance
+Premium, and Board of Directors’ compensation, the Commission once again cannot find
+sufficient evidence to fully allocate the Company’s claimed expenses to work done for the benefit
+of Idaho customers. However, the Commission believes that in this case some portion of the
+expenses should be allocated to Idaho. Therefore, the Commission finds it fair, just, and reasonable
+to apply a 50% reduction to the amounts requested by the Company.
+                     11. General Insurance, and Injuries and Damages
+       Staff proposes using a three-year average of $206,119 compared to the Company’s two-
+year average of $242,524 in calculating general insurance. Tr. Vol. III, 783-84. This adjustment
+provides the Company an additional $72,810 over the actual amounts incurred during 2022 to
+account for year-to-year volatility. Id. Staff proposes removing $28,947 from Injuries and
+Damages caused by employees errantly leaving valves open and vehicle crashes where the
+employee was at fault. Id. Staff argues that customers should not pay for injuries and damages that
+are due to negligence of the Company’s employees. Id.
+       The Company accepts Staff’s proposal for a three-year average calculation for general
+insurance; however, the Company disagrees with the exclusion of injuries and damages associated
+with Company negligence. Tr. Vol. II, 184-87. The Company argues that insurance is a valid
+expense regardless of the cause. Id.
+       The Commission finds it fair, just, and reasonable to approve using a three-year average in
+calculating general insurance; however, the Commission excludes those expense for injuries and
+damages associated with the Company’s own actions and employees as identified by Staff.
+Customers should not bear the responsibility of paying for injuries and damages caused by agents
+of the Company. To do so would erode the Company’s accountability for the actions of its
+employees.
+                     12. Cost of Service Study (“COSS”) and Load Study
+       Staff proposes removing the expense associated with the COSS and Load Study. Tr. Vol.
+III, 870-73. Staff argues that the Load Study did not perform a robust analysis to verify that the
+current classes or any other potential classes are the appropriate classes. Id. Staff contends that the
+purpose of determining appropriate classes was identified in the Stipulation authorized in Case No.
+SUZ-W-20-02 through Commission Order No. 35030. Id.
+
+ORDER NO. 35762                                    19
+       Order No. 35030 provides in relevant part:
+       3. Future load study
+       The Company agreed to complete a load study to “provide calculated max-day and
+       max-hour factors for the total system as well as by appropriate customer class.”
+       Id. at 6. The Company will work with interested parties to take input on load study
+       components including “customer class definitions, sampling methodologies
+       from those classes, and data sources.” Id. The Company would commence these
+       discussions soon after the final decision in this docket and will finish within 12
+       months.
+Order No. 35030 at 4 (emphasis added).
+       Staff argues that the Load Study was not performed in a manner that makes it used and
+useful to inform the COSS. Tr. Vol. III, 870-73. Staff testified that to make it useful, the Load
+Study should have identified the appropriate classes based on data collected during the Load Study.
+Id. Because the Load Study did not identify potential classes prior to data collection, differences
+in demand and consumption patterns of potential customer classes could not be determined. Id. As
+a result, the values used from the Load Study and the results of the COSS are not useful. Id.
+       The Company argues that the Company’s COSS and Load Study was used and useful
+because using AMI data, the Load Study identifies how typical water utility customer classes use
+the system; therefore, if customers are “grouped” incorrectly, their pattern of behavior will create
+outliers in the data. Tr. Vol. II, 468-69. Further, the Company argues that collecting the data that
+Staff is requesting would likely require significant costs. Id. at 472-73.
+       Having reviewed the record, the arguments of the parties, and all submitted materials, the
+Commission finds it fair, just, and reasonable to remove the Company’s COSS and Load Study
+expenses. Specifically, the Commission notes its previous Order No. 35030 authorizing a
+stipulation in which the Company agreed to conduct a Load Study to collect data “by appropriate
+customer class” and to take input from interested parties on Load Study components including
+“customer class definitions, sampling methodologies from those classes, and data sources.” Order
+No. 35030 at 4. However, the record shows that the Company did not consider new sampling
+methodologies, customer class definitions, nor data sources in its analysis. Rather, the Company
+collected and analyzed its data only in comparison to “typical water utility customer classes” and
+relied upon its preconceived assumptions as to the correctness of those typical classes.
+
+
+
+
+ORDER NO. 35762                                    20
+                      13. Rate Case Amortization Expense, Intervenor Funding
+        Staff proposes removing the Company’s expense adjustment for the current rate case
+intervenor funding, and to change the amortization timeframe for rate case expenses from two
+years to four years. Tr. Vol. III, 817-20.
+        The Company agrees with removing intervenor funding; however, the Company argues
+that using a 2-year amortization period will ensure that the costs are recovered without adding the
+burden of unamortized expenses on the rates in the following rate case. Tr. Vol. II, 604-06.
+        Based on the particular facts of this case, including the frequency of rate case filings the
+contested issues the amounts in controversy, the proportional differences in recommendations
+from the Company, Staff, and our review of the record and evidence presented on the issue, we
+find that a proper amortization period for the recovery of the Company’s rate case expense is four
+years, which will provide the Company with timely recovery of the expenses incurred to process
+this case.
+                      14. Tank Painting Amortization Expense
+        Staff proposes removing the Hidden Hollow tank painting deferral and amortization
+because the Hidden Hollow tank was not scheduled to be finished until March of 2023, after Staff’s
+proposed test year. Tr. vol. III, 821-22.
+        The Company agrees with removing the costs related to the painting of Hidden Hollow
+tank interior; however, the Company argues that it will complete the painting of the interior of the
+Ustick tank prior to the end of March 31, 2023, and proposes adding $430,100 of tank painting
+costs as part of rate base and therefore within the proposed amortization expense. Tr. vol. II, 604.
+        In keeping with the chosen test year, the Commission finds it fair, just, and reasonable to
+adopt Staff’s adjustment and exclude the Hidden Hollow tank painting deferral and amortization
+as outside of the selected test year.
+                      15. Deferred Power Expense
+        Staff proposes using the actual expenses the Company has incurred through the year ended
+December 31, 2022, along with interest at the customer deposit rate. Tr. vol. III, 815-17. Staff also
+proposes a 4-year amortization period based on the average time between rate cases. Id.
+        The Company argues that its original proposal includes the actual deferred power expenses
+through June 30, 2022, including the related interest and a projected amount for the expected
+deferral of power expenses and accrued interest through March 31, 2023. Tr. vol. II, 600-04. The
+Company proposes using the actual deferred power expenses and accrued interest through
+
+
+ORDER NO. 35762                                   21
+February 28, 2023, of $695,112 in its calculation of the test year deferred power amortization
+expense. Id. The Company believes that using a 2-year amortization period will ensure that the
+costs are recovered without adding the burden of unamortized expenses on the rates in the
+following rate case. Id.
+       In keeping with the chosen test year, the Commission finds it fair, just, and reasonable to
+adopt Staff’s adjustment to deferred power expense. The Commission also finds that a proper
+amortization period for the recovery of the Company’s deferred power expense is four years, which
+is consistent with the amortization period allowed for rate case expenses.
+                     16. Miscellaneous Expenses
+       Staff proposes an adjustment to the Company’s Miscellaneous Account to remove several
+expenses related to advertising, the chamber of commerce, and support for political candidates.
+Tr. vol. III, 762. The Company argues that Staff’s proposal excludes $3,592 of costs for events
+such as the Company’s Water Summit event and two Company open house events for engaging
+and educating customers. Tr. vol. II, 187-92. The Company contends that those types of expenses
+should be recoverable. Id.
+       The Commission finds it fair, just, and reasonable to adopt most of Staff’s adjustments;
+however, the Commission finds that the Company should recover the costs and expenses
+associated with the Company’s three engagement and education events.
+                     17. Variable Expense due to Volume
+       The Commission finds it fair, just, and reasonable to calculate Power and Chemical
+expenses in conformity with the Commission’s other determinations and decisions to normalize
+the Company’s sales revenue.
+                     18. Depreciation Adjustment for Test Year
+       Because Staff proposes removing all 2023 plant additions from rate base, Staff argues it is
+necessary to remove the depreciation expense associated with those capital projects, which reduces
+the Company’s proposed depreciation expense by $546,459. Tr. vol. III, 935.
+       The Company argues that it is committed to completing projects as planned and should be
+allowed to include these projects in its rate base and depreciation expense calculated based on the
+plant projected to be in service as at the end of March 31, 2023. Tr. vol. II, 560-61.
+       In keeping with the chosen test year, the Commission finds it fair, just, and reasonable to
+remove the depreciation expense associated with those capital projects not completed by
+
+
+
+ORDER NO. 35762                                   22
+December 31, 2022. The Company shall not recover depreciation expense associated with new
+plant investment that has not been reviewed and evaluated by Staff and the parties.
+III.    Rate Base
+            A. End of Year v. Average Monthly Average (“AMA”)
+        Generally, there are two ways to value a Company’s rate base: (1) using a terminal rate
+base which is the value of plant, net of any offsets, at a single point in time at the end of the year;
+or (2) calculating an average value of plant, net of any offsets, throughout the year.
+        Staff proposes to establish a revenue requirement for the Company using rate base levels
+based on the AMA from December 31, 2021, through December 31, 2022. Tr. vol. III, 923-24.
+        The Company argues that it uses a historical test period adjusted for known and measurable
+changes to coincide with when rates will be in effect. Tr. vol. II, 673-77. The Company contends
+that in an environment where the Company is making large capital investments, using the
+averaging of historical rate base method omits capital additions in-service when new rates will be
+in effect, and may decrease or deny the Company the opportunity to recover the value of
+investments made during this period. Id. The Company recommends that the Commission
+reconsider the old Orders relied on by Staff and consider the regulatory lag created, the mismatch
+in revenues to rate base, rate base growth, inflation, from a holistic standpoint and utilize a test
+year end rate base in this case. Id.
+        The Commission finds it fair, just, and reasonable to establish a revenue requirement for
+the Company using rate base levels based on the AMA from December 31, 2021, through
+December 31, 2022. The Commission continues to believe that including plant investment in the
+calculation of rate base as if it were in service the entire year creates a mismatch between test year
+revenue and expenses, and it is unreasonable to expect the Commission to allow full recovery of
+plant investment as if the plant has been in operation the full year without a corresponding
+adjustment to revenues and expenses.
+            B. Rate Base Adjustments
+                      1. Working Capital
+        Staff proposes to remove working capital from the Company’s rate base calculation. Tr.
+vol. III, 938-41. Staff notes that the Company used the 1/8 Method to calculate its working capital,
+and Staff contends that a utility the size of the Company should not be recovering its estimated
+working capital using such an elementary calculation. Id. Further, Staff argues that without an
+
+
+
+ORDER NO. 35762                                    23
+explicit showing that working capital was provided by shareholders rather than customers, utilities
+should not include working capital in rate base. Id.
+       The Company argues that it used an acceptable methodology to calculate working capital.
+Tr. vol. II, 673-77. However, the Company contends that if the Commission agrees with Staff
+regarding Cash Working Capital, the balance of Materials and Supplies and Prepayments
+$1,583,204 at December 31, 2022 or $1,555,760 as projected at March 31, 2023, should be
+included in rate base because if the Company had performed a lead/lag study to calculate working
+capital, these items would have been included as separate line items in rate base. Id.
+       Having reviewed the record, the arguments of the parties, and all submitted materials, the
+Commission finds it fair, just, and reasonable to remove working capital from the Company’s rate
+base calculation. The Commission cannot find sufficient evidence in the record showing that
+working capital was provided by shareholders rather than customers.
+                     2. Deferred Debits
+       When calculating the AMA rate base, Staff removed the short-term deferred debits that the
+Company included. Tr. vol. III, 934-35. The deferred debits consist of the Company’s power cost
+deferrals, rate case expense deferrals, and deferrals for the payment of convenience fees. Id. Staff
+argues that because they are relatively short-term regulatory asset, the Commission has historically
+stated that the opportunity to recover expenses is sufficient and a return is unnecessary. Id. at 815-
+22.
+       The Company argues that the inclusion of the unamortized balance of the deferred power
+costs, deferred rate case expense, and deferred convenience fees in rate base should be similar to
+the rate base treatment that has been allowed for deferred Tank Painting Expenses and given an
+amortization period of 2 years. Tr. vol. II, 563.
+       Having reviewed the record, the arguments of the parties, and all submitted materials, the
+Commission finds it fair, just, and reasonable to adopt Staff’s calculation of rate base adjustments
+and to exclude deferred debits. The Commission has not authorized the Company to include the
+deferred debits in rate base to earn a return. When authorization to defer expenses is granted, and
+no return is authorized, we direct the Company to exclude the regulatory assets from its net rate
+base calculations.
+
+
+
+
+ORDER NO. 35762                                     24
+                     3. Tax Cuts and Jobs Acts (“TCJA”) Federal Tax error
+        The Company and Staff agree on the application of the regulatory liability created by the
+TCJA which reduces rate base in this case, and the Commission finds that rate base shall be
+adjusted accordingly.
+IV.     Cost-Of-Service Study
+        A cost-of-service study is an imperfect tool for assigning system and service costs to
+customer classes. The Commission has previously recognized that cost-of-service modeling is not
+an exact science, and that while most generally accepted cost-of-service methods are based on
+similar principles, they may lead to disparate results and recommendations for class revenue
+allocation. Thus, the Commission has repeatedly emphasized that a cost-of-service study is not a
+perfect tool for assigning system and service costs to customer classes. Order No. 33757 at 27.
+            A. Company COSS and Load Study Results
+        The Company represents that for the test year ending March 31, 2023, the total revenue
+requirement reflects a 23.4% revenue increase. The Company argues that the COSS suggests that
+the overall average revenue increase by customer class would be:
+        ● Residential – an increase of 27.5%
+        ● Commercial – an increase of 21.8%
+        ● Public Authority – an increase of 2.5%
+        ● Private Fire – a decrease of 62.9%
+Tr. vol. II, 463; Bui Ex. 14-1. With respect to the Load Study, the Company argues that the Load
+Study results indicate that the System maximum day ratios are consistent with the Company’s
+ratios based on correlating the highest annual maximum water production day for the last ten years.
+Tr. vol. II, 461.
+            B. Staff Response
+        As noted above, Staff argues that the Load Study did not perform a robust analysis to verify
+that the current classes or any other potential classes are the appropriate classes. Tr. vol. III, 870-
+73. Staff argues that the purpose of determining appropriate classes was identified in the
+Stipulation authorized in Case No. SUZ-W-20-02 through Commission Order No. 35030.
+        Staff contends that the Load Study was not performed in a manner that makes it used and
+useful to inform the COSS, and to make it useful, the Load Study should have identified the
+appropriate classes based on data collected during the load study. Tr. vol. III, 870-73. Staff argues
+that because the Load Study did not identify potential classes prior to data collection, differences
+
+ORDER NO. 35762                                    25
+in demand and consumption patterns of potential customer classes could not be determined. Id. As
+a result, the values used from the Load Study and the results of the COSS are not useful. Id.
+            C. Micron Response
+       Micron argues that the Company’s COSS follows the generally accepted Base-Extra
+Capacity cost allocation method, which is a reasonable approach. Tr. vol. III, 1150. However,
+Micron contends that the COSS needs to be modified to improve the accuracy of the measurement
+of its cost of providing service to each customer class. Id. Specifically, Micron argues that the
+Company’s proposed revenue apportionment should be rejected, as it does not make a meaningful
+movement toward cost of service for each customer class and continues the interclass subsidies
+that have existed for years. Id.
+ V.    Rate Design
+       Based upon its COSS, Load Study, and accompanying analysis, the Company’s rate design
+reflects an across-the-board increase of 24.1% to Residential, Commercial, and Public Authority
+customers. The Company does not request any increase for Private Fire Service. Bui Ex. 14.1.
+       Based upon the lack of a useful COSS and Load Study, Staff proposes a uniform percentage
+increase across all rate components and customer classes. Tr. vol. III, 875-77. Staff argues that
+without the establishment of consumptive classes and a valid COSS study, it is impossible to fairly
+allocate the increase based on traditional cost causation principles. Id.
+       Micron proposes rates be established that account for a revenue apportionment where all
+classes are brought to cost of service in this case, subject to the limitation that no class receives an
+increase greater than 1.25x the system average increase, with any remaining revenue deficiency
+spread to classes that would receive a rate change below the system average, in proportion to each
+of the noncapped class’s total cost of service. Tr. vol. III, 1150.
+       Having reviewed the record, the arguments of the parties, and all submitted materials, the
+Commission finds it fair, just, and reasonable to adopt Staff’s rate design including an across-the-
+board increase for all customer classes including Private Fire Service. The Commission does not
+find the COSS and Load Study useful, and while the Commission agrees with Micron regarding
+the need for meaningful movement toward cost of service for each customer class, such movement
+shall have to wait until the Commission is given adequate information upon which to make such
+meaningful changes.
+
+
+
+
+ORDER NO. 35762                                     26
+VI.     Distribution System Improvement Charge (“DSIC”)
+        A DSIC is a surcharge mechanism which allows for rate increases between general rate
+case proceedings that specifically relate to non-revenue producing investments to replace aging
+utility infrastructure.
+        The Company argues that the major benefits of these types of capital surcharges include
+enhanced service quality, accelerated pace of system improvements, high level of customer
+acceptance, smoothing of revenue increases to customers, reduction of water lost in the distribution
+system through leaks, long term viability of the water system, and support of economic
+development through increased investment and employment activity. Tr. vol. II, 658-60.
+        Staff recommends the Commission deny the Company’s request for a DSIC mechanism.
+Tr. vol. III, 787-93. Staff supports the Company’s work to maintain safe and reliable service by
+replacing or upgrading aging infrastructure; however, Staff argues that these costs are more
+appropriately reviewed and recovered through traditional ratemaking in general rate cases rather
+than through a bi-annual cost recovery mechanism as proposed by the Company. Id. Staff argues
+that the types of expenses the Company wishes to recover through the DSIC are known and
+predictable capital expenditures that can be planned well in advance, can be included for recovery
+in a general rate case, and the Company has the financial ability and access to capital to fund these
+projects between rate cases. Id. Micron also recommends the Commission reject the Company’s
+proposed DSIC mechanism. Tr. vol. III, 1151.
+        Having reviewed the record, the arguments of the parties, and all submitted materials, the
+Commission finds it fair, just, and reasonable to deny the Company request for a DSIC mechanism.
+The Commission agrees with Staff in that the types of expenses the Company is trying to recover
+are known and predictable expenditures that are better suited for recovery in a general rates case.
+Further, the Commission is not persuaded by the Company’s arguments that the Commission
+should provide incentives for the Company to make distribution system improvements that the
+Company is already duty bound to make to provide safe and adequate service to its customers.
+VII.    Other Company requests
+        In addition to the general rates issues, the Company proposes a revision to its Rules and
+Regulations Governing the Rendering of Water Service to reflect the name change from Suez
+Water Idaho Inc. to Veolia Water Idaho, Inc.; to eliminate 1¼-inch meters reference from the tariff;
+and to revise the service line connection from one-inch or smaller to two-inch or smaller according
+to NFPA 13D standards.
+
+ORDER NO. 35762                                   27
+       Having reviewed the record, the arguments of the parties, and all submitted materials, the
+Commission finds it fair, just, and reasonable to grant the Company’s other requests.
+                                            ORDER
+       IT IS HEREBY ORDERED that the Company file tariffs and schedules in conformance
+with this Order, to be effective on May 1, 2023, for service rendered on and after that date. The
+authorized rates are set forth in Attachment B.
+       IT IS FURTHER ORDERED that the Company is authorized an overall ROR of 6.91%,
+and to recover an additional $2,756,227 in annual base revenues.
+       IT IS FURTHER ORDERED that the Company’s request for a DSIC mechanism is denied.
+       IT IS FURTHER ORDERED that the Company may revise its Rules and Regulations
+Governing the Rendering of Water Service to reflect the name change from Suez Water Idaho Inc.
+to Veolia Water Idaho, Inc.
+       IT IS FURTHER ORDERED that the Company may eliminate the 1¼-inch meters
+reference from the Company’s tariff; and may revise the service line connection from one-inch or
+smaller to two-inch or smaller according to NFPA 13D standards.
+       IT IS FURTHER ORDERED that the Company take such other actions as may be set forth
+in the body of this Order.
+       THIS IS A FINAL ORDER. Any person interested in this Order may petition for
+reconsideration within twenty-one (21) days of the service date upon this Order regarding any
+matter decided in this Order. Within seven (7) days after any person has petitioned for
+reconsideration, any other person may cross-petition for reconsideration. Idaho Code §§ 61-626
+and 62-619.
+///
+
+
+
+
+ORDER NO. 35762                                   28
+            DONE by Order of the Idaho Public Utilities Commission at Boise, Idaho this 28th day of
+April 2023.
+
+
+
+                                                              __________________________________________
+                                                              ERIC ANDERSON, PRESIDENT
+
+
+
+                                                              __________________________________________
+                                                              JOHN R. HAMMOND JR., COMMISSIONER
+
+
+
+                                                              __________________________________________
+                                                              EDWARD LODGE, COMMISSIONER
+
+
+ATTEST:
+
+
+_________________________________
+Jan Noriyuki
+Commission Secretary
+I:\Legal\WATER\VEO-W-22-02 rates\Orders\VEOW2202_FO_cb.docx
+
+
+
+
+ORDER NO. 35762                                                  29
+       Commission Ordered Revenue Requirement Summary
+
+Line
+No.    Description                                                           Company Direct          Commission Order
+
+ 1     Operating Revenues                                                    $   51,717,859          $     52,456,207
+
+ 2     Operation & Maintenance Expenses:
+ 3        Payroll                                                            $    7,661,608          $      7,025,725
+ 4        Workers Compensation                                               $      116,207          $        106,562
+ 5        Pension Cash Contributions                                         $      585,796          $        585,796
+ 6        Post-retirement Benefits Other than Pension (PBOP)                 $     (523,756)         $       (577,900)
+ 7        Employee Healthcare                                                $    2,103,710          $      2,344,149
+ 8        Employee 401k                                                      $      456,431          $        411,541
+ 9        Other Employee Benefits - Tuition                                  $       14,634          $          9,273
+10        Payroll Overheads (Fringe Benefits Allocation)                     $   (1,466,411)         $     (1,508,057)
+11        Purchased Water                                                    $      316,694          $        316,694
+12        Energy- Purchased Power and Other Utilities                        $    2,595,630          $      2,595,630
+13        Chemicals                                                          $      594,376          $        594,376
+14        Subcontractors                                                     $      830,455          $        830,455
+15        Customer Billing Expenses                                          $      323,463          $        324,074
+16        Bad Debts                                                          $      305,063          $        305,063
+17        Materials                                                          $      306,324          $        306,324
+18        Vehicle Allocation                                                 $    1,025,350          $        857,457
+19        Office Expenses                                                    $      815,647          $        788,103
+20        Advertising Expense                                                $      227,683          $        197,683
+21        Management & Service Fees                                          $    4,566,635          $      4,405,534
+22        General Insurance                                                  $      242,524          $        177,172
+23        IPUC Fees                                                          $      103,177          $        103,177
+24        Safety                                                             $      195,406          $        166,156
+25        Amortization Expense - Deferred Rate Case                          $      202,923          $         50,967
+26        Amortization Expense - Deferred Pension                            $       23,218          $         23,218
+27        Amortization Expense - Deferred Tank Painting                      $      177,283          $        154,783
+28        Amortization of Excess Deferred Income Taxes                       $     (200,000)         $       (200,000)
+29        Amortization Expense - Deferred Power                              $      534,778          $        264,073
+30        AFUDC Equity Gross Up Amortization                                 $       30,523          $         30,523
+31        Adjustment to Variable Expenses Due to Volume Normalization        $     (127,937)         $       (136,841)
+32     Total Unadjusted Operating & Maintenance Expenses                     $      350,189          $        361,916
+33     Total Depreciation and Amortization                                   $   10,929,675          $     10,383,216
+34     Ad Valorem                                                            $    2,145,032          $      2,145,032
+35     Payroll Taxes                                                         $      898,783          $        824,402
+36     Total Operating Expense
+37           Before Income Taxes                                             $   36,361,115          $     34,266,277
+
+38     Income Taxes                                                          $    2,475,051          $      3,304,448
+
+39     Total Operating Expenses                                              $   38,836,166          $     37,570,725
+40     Net Operating Income                                                  $   12,881,693          $     14,885,482
+
+41     Plant in Service:
+42     Gross Utility Plant in Service                                        $ 578,861,098           $    551,849,764
+43     Total Accumulated Depreciation and CIAC Amortization                  $ (191,267,542)         $   (185,726,732)
+44     Net Utility Plant in Service                                          $ 387,593,556           $    366,123,032
+45     Customer Advances for Construction                                    $   (3,797,814)         $     (3,853,268)
+46     Contributions in Aid of Construction (net of amortization)            $ (112,913,720)         $   (112,545,711)
+47     Utility Plant Acquistion Adjustment Net                               $   10,771,089          $     10,808,444
+48     Accumulated Deferred Income Taxes                                     $   (5,307,577)         $     (4,398,563)
+49     Deferred Charges Included in Rate Base                                $    4,933,851          $      3,363,566
+50     Working Capital Allowance                                             $    3,552,571          $            -
+51     Regulatory Liability-New Federal Tax Law (TCJA)                       $   (4,075,931)         $     (4,335,280)
+52     Rate Base                                                             $ 280,756,025           $    255,162,220
+
+53     Operating Income at Present Rates                                     $   12,881,693          $     14,885,482
+54     Cost of Capital                                                                7.77%                      6.91%
+55     Operating Income at Proposed Rates                                    $   21,814,743          $     17,631,709
+56     Operating Income Deficiency                                           $    8,933,050          $      2,746,227
+57     Gross Revenue Conversion Factor                                               1.3573                   1.35445
+
+58     Deficiency in Operating Revenue less Intervenor Funding               $   12,107,227          $      3,701,726
+59     Percent Increase                                                              23.41%                     7.06%
+
+60     Total Revenue Requirement                                             $   63,825,085          $     56,157,933
+
+61     Capital Structure:
+62     Total Debt                                                   44.43%                  44.43%
+63     Cost of Debt                                                  3.99%            1.77%  3.99%              1.77%
+64     Total Equity                                                 55.57%                  55.57%
+65     Return on Equity                                             10.80%            6.00% 9.25%               5.14%
+66     Total Cost of Capital                                                          7.77%                     6.91%
+                                                                                                                                  Attachment A
+                                                                                                                               Order No. 35762
+                                                                                                                         Case No. VEO-W-22-02
+                          VEOLIA WATER IDAHO, INC.
+                                 Bi-Monthly
+
+                                    Company Company       CommissionCommission
+                         Current    Proposed % Increase    Ordered % Increase
+Residential
+5/8 Inch                   22.96       28.48     24.05%       24.58     7.06%
+3/4 Inch                   22.96       28.48     24.05%       24.58     7.06%
+1 Inch                     29.35       36.41     24.05%       31.42     7.06%
+1 1/2 Inch                 50.21       62.29     24.05%       53.75     7.06%
+2 Inch                     77.92       96.66     24.05%       83.42     7.06%
+
+Winter Usage               1.5959     1.9797     24.05%      1.7086     7.06%
+Summer Usage
+  Up to 3 CCF              1.5959     1.9797     24.05%      1.7086     7.06%
+  Over 3 CCF               2.0204     2.5063     24.05%      2.1630     7.06%
+
+
+Commercial
+5/8 Inch                   22.96       28.48     24.05%       24.58     7.06%
+3/4 Inch                   22.96       28.48     24.05%       24.58     7.06%
+1 Inch                     29.35       36.41     24.05%       31.42     7.06%
+1 1/2 Inch                 50.21       62.29     24.05%       53.75     7.06%
+2 Inch                     77.92       96.66     24.05%       83.42     7.06%
+3 Inch                    151.97      188.52     24.05%      162.70     7.06%
+4 Inch                    283.52      351.71     24.05%      303.54     7.06%
+6 Inch                    473.35      587.20     24.05%      506.77     7.06%
+
+Temporary Meter Charge     25.00       31.01     24.05%       26.77     7.06%
+
+Winter Usage              1.5959      1.9797     24.05%      1.7086     7.06%
+Summer Usage
+  Up to 3 CCF             1.5959      1.9797     24.05%      1.7086     7.06%
+  Over 3 CCF              2.0204      2.5063     24.05%      2.1630     7.06%
+
+
+Public Authority
+5/8 Inch                   22.96        28.48    24.05%        24.58    7.06%
+3/4 Inch                   22.96        28.48    24.05%        24.58    7.06%
+1 Inch                     29.35        36.41    24.05%        31.42    7.06%
+1 1/2 Inch                 50.21        62.29    24.05%        53.75    7.06%
+2 Inch                     77.92        96.66    24.05%        83.42    7.06%
+3 Inch                    151.97       188.52    24.05%       162.70    7.06%
+Street Sweeping          #######     4,565.61    24.05%     3,940.24    7.06%
+
+Winter Usage              1.5959      1.9797     24.05%      1.7086     7.06%
+Summer Usage
+  Up to 3 CCF             1.5959      1.9797     24.05%      1.7086     7.06%
+  Over 3 CCF              2.0204      2.5063     24.05%      2.1630     7.06%
+
+
+Private Fire Lines
+3 Inch and smaller         40.48       40.48     0.00%        43.34     7.06%
+4 Inch                     61.36       61.36     0.00%        65.69     7.06%
+6 Inch                    152.39      152.39     0.00%       163.15     7.06%
+8 Inch                    250.43      250.43     0.00%       268.11     7.06%
+10 Inch                   390.54      390.54     0.00%       418.11     7.06%
+12 Inch                   584.98      584.98     0.00%       626.28     7.06%
+Hydrants                   24.56       24.56     0.00%        26.29     7.06%
+
+
+
+
+                                                                                           Attachment B
+                                                                                        Order No.35762
+                                                                                 Case No. VEO-W-22-02
+                          VEOLIA WATER IDAHO, INC.
+                     Existing Eagle Water Company Customers
+                                     Monthly
+
+                                  Company Company       CommissionCommission
+                       Current    Proposed % Increase    Ordered % Increase
+Residential
+5/8 Inch                   6.70       8.31     24.05%           7.17   7.06%
+3/4 Inch                   6.70       8.31     24.05%           7.17   7.06%
+1 Inch                     8.56      10.62     24.05%           9.16   7.06%
+1 1/2 Inch                14.64      18.16     24.05%          15.67   7.06%
+2 Inch                    22.73      28.20     24.05%          24.33   7.06%
+
+Winter Usage             0.9309     1.1548     24.05%         0.9966   7.06%
+Summer Usage
+  Up to 3 CCF            0.9309     1.1548     24.05%         0.9966   7.06%
+  Over 3 CCF             1.1786     1.4621     24.05%         1.2618   7.06%
+
+
+Commercial
+5/8 Inch                   6.70       8.31     24.05%           7.17   7.06%
+3/4 Inch                   6.70       8.31     24.05%           7.17   7.06%
+1 Inch                     8.56      10.62     24.05%           9.16   7.06%
+1 1/2 Inch                14.64      18.16     24.05%          15.67   7.06%
+2 Inch                    22.73      28.20     24.05%          24.33   7.06%
+3 Inch                    44.32      54.98     24.05%          47.45   7.06%
+4 Inch                    82.69     102.58     24.05%          88.53   7.06%
+6 Inch                   138.06     171.27     24.05%         147.81   7.06%
+
+Winter Usage             0.9309     1.1548     24.05%         0.9966   7.06%
+Summer Usage
+  Up to 3 CCF            0.9309     1.1548     24.05%         0.9966   7.06%
+  Over 3 CCF             1.1786     1.4621     24.05%         1.2618   7.06%
+
+
+Public Authority
+5/8 Inch                   6.70       8.31     24.05%           7.17   7.06%
+3/4 Inch                   6.70       8.31     24.05%           7.17   7.06%
+1 1/2 Inch                14.64      18.16     24.05%          15.67   7.06%
+2 Inch                    22.73      28.20     24.05%          24.33   7.06%
+
+Winter Usage             0.9309     1.1548     24.05%         0.9966   7.06%
+Summer Usage
+  Up to 3 CCF            0.9309     1.1548     24.05%         0.9966   7.06%
+  Over 3 CCF             1.1786     1.4621     24.05%         1.2618   7.06%
+
+
+Private Fire Lines
+3 Inch and smaller        11.81      11.81      0.00%          12.64   7.06%
+4 Inch                    17.90      17.90      0.00%          19.16   7.06%
+6 Inch                    44.45      44.45      0.00%          47.59   7.06%
+8 Inch                    73.04      73.04      0.00%          78.20   7.06%
+
+
+
+
+                                                                                        Attachment B
+                                                                                      Order No.35762
+                                                                               Case No. VEO-W-22-02
+
