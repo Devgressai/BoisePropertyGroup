@@ -96,10 +96,10 @@ export const places: Place[] = [
     "placeFips": "23410",
     "population2024Census": 33451,
     "growthPct2020to2024": 7.4,
-    "directClaims": 7,
-    "uniqueClaims": 2,
-    "indexable": false,
-    "buildVerdict": "RENDER_NOINDEX",
+    "directClaims": 9,
+    "uniqueClaims": 4,
+    "indexable": true,
+    "buildVerdict": "BUILD",
     "caveat": null
   },
   {
@@ -116,10 +116,10 @@ export const places: Place[] = [
     "placeFips": "44290",
     "population2024Census": 29127,
     "growthPct2020to2024": 21,
-    "directClaims": 9,
-    "uniqueClaims": 2,
-    "indexable": false,
-    "buildVerdict": "RENDER_NOINDEX",
+    "directClaims": 11,
+    "uniqueClaims": 4,
+    "indexable": true,
+    "buildVerdict": "BUILD",
     "caveat": null
   },
   {
@@ -157,10 +157,10 @@ export const places: Place[] = [
     "placeFips": "29620",
     "population2024Census": 12936,
     "growthPct2020to2024": 5.1,
-    "directClaims": 5,
-    "uniqueClaims": 1,
-    "indexable": false,
-    "buildVerdict": "RENDER_NOINDEX",
+    "directClaims": 8,
+    "uniqueClaims": 4,
+    "indexable": true,
+    "buildVerdict": "BUILD",
     "caveat": null
   },
   {

@@ -2742,6 +2742,202 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Eagle, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "eagle-water-split-city-and-veolia",
+    "claim": "Water service in Eagle is split by area. The City of Eagle Water Department provides water to approximately 3,800 households within the city, mainly in a listed set of subdivisions, while in separately designated areas of Eagle residents may receive water from Veolia, formerly SUEZ. Sewer service comes from the Eagle Sewer District, a separate entity from the city.",
+    "quote": "The City of Eagle Water Department provides water services to approximately 3,800 households within the City of Eagle. ... In separately designated areas of Eagle, residents may receive water services from Veolia (FKA SUEZ).",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "sewer",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Areas of Service and other Utility Information",
+        "url": "https://www.cityofeagle.org/419/Areas-of-Service-and-other-Utility-Infor",
+        "publisher": "City of Eagle — Water Department",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "eagle-flood-dry-creek-and-boise-river",
+    "claim": "The City of Eagle identifies two sources of flooding in the city, Dry Creek and the Boise River. The city participates in the National Flood Insurance Program, which makes federally backed flood insurance available to property owners and tenants, and it publishes elevation certificates searchable by address.",
+    "quote": "Flooding in our city may be caused by two sources; Dry Creek and the Boise River.",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "flood",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Floodplain Information",
+        "url": "https://www.cityofeagle.org/270/Floodplain-Information",
+        "publisher": "City of Eagle",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-city-owned-wells",
+    "claim": "Kuna's drinking water comes from wells owned and operated by the City of Kuna. Federal records list the Kuna city system as owned by local government and supplied by groundwater, serving 32,038 people through 11,363 connections.",
+    "quote": "The City of Kuna owns and operates several wells that provide potable drinking water to Kuna residents.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Water & Irrigation",
+        "url": "https://www.kunacity.id.gov/406/Water-Irrigation",
+        "publisher": "City of Kuna — Public Works",
+        "tier": 2
+      },
+      {
+        "title": "EPA Safe Drinking Water Information System — water system record ID4010085 (Kuna City of)",
+        "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010085/JSON",
+        "publisher": "U.S. Environmental Protection Agency",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-permit-triggers-include-fences",
+    "claim": "Kuna requires a residential building permit for, among other things, a new residence, mobile home or accessory dwelling unit; accessory structures such as garages, though detached storage buildings under 200 square feet are exempt; improvements and additions; decks over 30 inches above grade; retaining walls over 4 feet including footing; the installation of fences; heating, air-conditioning, fireplaces and wood stoves; and relocating or demolishing a structure.",
+    "quote": "Detached storage buildings less than 200 square feet in area are exempt",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "permits",
+      "manufactured-housing",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Residential Building Information",
+        "url": "https://www.kunacity.id.gov/122/Residential-Building-Information",
+        "publisher": "City of Kuna — Building Department",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "gardencity-city-water-and-sewer-system",
+    "claim": "Garden City's public water system is the Garden City Water and Sewer System, which federal records list as owned by local government and supplied by groundwater, serving 12,500 people through 4,595 connections.",
+    "quote": "GARDEN CITY WATER AND SEWER SYSTEM",
+    "entities": [
+      "city:garden-city"
+    ],
+    "topics": [
+      "water",
+      "utilities",
+      "sewer",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "EPA Safe Drinking Water Information System — water system record ID4010066 (Garden City Water and Sewer System)",
+        "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010066/JSON",
+        "publisher": "U.S. Environmental Protection Agency",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Garden City, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "gardencity-floodplain-50-percent-improvement-rule",
+    "claim": "In Garden City's Special Flood Hazard Area, any reconstruction, rehabilitation, addition or other improvement to a building equal to or exceeding 50 percent of the building's value must meet the same standards as new development. A city floodplain application is also required before working in the floodplain or floodway, before removing or damaging vegetation within 25 feet of the river or on the riverside of the greenbelt or nature path, and to request a Letter of Map Change.",
+    "quote": "any reconstruction, rehabilitation, addition or other improvements to a building that equal or exceed 50% of the building’s value, must comply with the same standards as any new development in the SFHA",
+    "entities": [
+      "city:garden-city"
+    ],
+    "topics": [
+      "flood",
+      "permits",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Floodplain Development",
+        "url": "https://gardencityidaho.org/floodplain-development",
+        "publisher": "City of Garden City — Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Garden City, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "gardencity-zoning-table-and-ncn-overlay",
+    "claim": "In Garden City the uses allowed in each zoning district are set out in Garden City Code Table 8-2B-1, some uses carry further conditions under Code 8-2C, and a property may also sit within the Neighborhood Commercial Node (NCN) overlay district, whose allowed uses are in Table 8-3A-1.",
+    "quote": "Garden City Code Table 8-2B-1 shows what uses are allowed in a specific zoning district.",
+    "entities": [
+      "city:garden-city"
+    ],
+    "topics": [
+      "zoning",
+      "planning",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-09-12",
+    "sources": [
+      {
+        "title": "Zoning Information",
+        "url": "https://gardencityidaho.org/departments/development-services/zoning-information",
+        "publisher": "City of Garden City — Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Garden City, Idaho",
+    "amendmentHistory": null
   }
 ];
 

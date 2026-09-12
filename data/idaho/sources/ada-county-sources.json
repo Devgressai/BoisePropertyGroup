@@ -1645,6 +1645,188 @@
         "boise-veolia-surface-and-groundwater"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-water-areas-of-service",
+      "title": "Areas of Service and other Utility Information",
+      "publisher": "City of Eagle — Water Department",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/419/Areas-of-Service-and-other-Utility-Infor",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "water",
+        "utilities",
+        "sewer"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city water department's own description of the households and subdivisions it serves, and of the other utilities in Eagle.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-water-split-city-and-veolia"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-floodplain-information",
+      "title": "Floodplain Information",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/270/Floodplain-Information",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "flood"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's floodplain page.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-flood-dry-creek-and-boise-river"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-water-irrigation",
+      "title": "Water & Irrigation",
+      "publisher": "City of Kuna — Public Works",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/406/Water-Irrigation",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city public works department's description of its drinking water system.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-city-owned-wells"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-residential-building-information",
+      "title": "Residential Building Information",
+      "publisher": "City of Kuna — Building Department",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/122/Residential-Building-Information",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the building department's list of residential work requiring a permit.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-permit-triggers-include-fences"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "epa-sdwis-kuna",
+      "title": "EPA Safe Drinking Water Information System — water system record ID4010085 (Kuna City of)",
+      "publisher": "U.S. Environmental Protection Agency",
+      "organizationType": "federal-government",
+      "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010085/JSON",
+      "sourceTier": 1,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — the federal record of the public water system. Refreshed quarterly by EPA.",
+      "stalenessRisk": "MEDIUM — refreshed periodically; re-check figures.",
+      "claimsSupported": [
+        "kuna-city-owned-wells"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-floodplain-development",
+      "title": "Floodplain Development",
+      "publisher": "City of Garden City — Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/floodplain-development",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "flood",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's floodplain application requirements.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-floodplain-50-percent-improvement-rule"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-zoning-information",
+      "title": "Zoning Information",
+      "publisher": "City of Garden City — Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/development-services/zoning-information",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's guide to finding a property's zoning and the code tables that govern it.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-zoning-table-and-ncn-overlay"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "epa-sdwis-garden-city",
+      "title": "EPA Safe Drinking Water Information System — water system record ID4010066 (Garden City Water and Sewer System)",
+      "publisher": "U.S. Environmental Protection Agency",
+      "organizationType": "federal-government",
+      "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010066/JSON",
+      "sourceTier": 1,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-12",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — the federal record of the public water system. Refreshed quarterly by EPA.",
+      "stalenessRisk": "MEDIUM — refreshed periodically; re-check figures.",
+      "claimsSupported": [
+        "gardencity-city-water-and-sewer-system"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "url": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010272/JSON",
+  "fetchedAt": "2026-09-12T17:49:13.422Z",
+  "status": 200,
+  "finalUrl": "https://data.epa.gov/efservice/sdwis.water_system/pwsid/equals/ID4010272/JSON",
+  "contentType": "application/json",
+  "bytes": 1350
+}

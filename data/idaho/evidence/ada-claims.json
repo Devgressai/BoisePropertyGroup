@@ -2328,6 +2328,176 @@
         "veolia-water-idaho-tariff"
       ],
       "notes": "Useful to an Eagle seller or buyer because a property in the former Eagle Water Company area can sit on a different rate schedule from neighbouring Veolia customers. ⚠️ Rates themselves are not claimed; they change on the next rate order. ⚠️ The acquisition date is not stated in what was read — only the January 1, 2022 customer cutoff."
+    },
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "eagle-water-split-city-and-veolia",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Water service in Eagle is split by area. The City of Eagle Water Department provides water to approximately 3,800 households within the city, mainly in a listed set of subdivisions, while in separately designated areas of Eagle residents may receive water from Veolia, formerly SUEZ. Sewer service comes from the Eagle Sewer District, a separate entity from the city.",
+      "quotedLanguage": "The City of Eagle Water Department provides water services to approximately 3,800 households within the City of Eagle. ... In separately designated areas of Eagle, residents may receive water services from Veolia (FKA SUEZ).",
+      "topic": [
+        "water",
+        "utilities",
+        "sewer",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "eagle-water-areas-of-service"
+      ],
+      "notes": "The practical point: two Eagle neighbours can be on different water utilities, with different billing and different rules. ⚠️ Never infer which utility serves an address from a neighbourhood name; the city lists subdivisions, and federal records also show a private Dry Creek Water Company and a separate Avimor system whose areas were not mapped. ⚠️ Veolia's former Eagle Water Company customers sit on their own rate schedule — see eagle-veolia-acquired-eagle-water-company."
+    },
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "eagle-flood-dry-creek-and-boise-river",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "The City of Eagle identifies two sources of flooding in the city, Dry Creek and the Boise River. The city participates in the National Flood Insurance Program, which makes federally backed flood insurance available to property owners and tenants, and it publishes elevation certificates searchable by address.",
+      "quotedLanguage": "Flooding in our city may be caused by two sources; Dry Creek and the Boise River.",
+      "topic": [
+        "flood",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "eagle-floodplain-information"
+      ],
+      "notes": "Useful because owners watch the river and forget the creek. ⚠️ The same page quotes a FloodSmart.gov statistic on flood risk over a 30-year mortgage; it is the federal program's figure, not the city's, and is not claimed here. ⚠️ Whether a specific parcel is in a mapped flood hazard area is not inferred from either source's name."
+    },
+    {
+      "entity": [
+        "city:kuna"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Kuna, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "kuna-city-owned-wells",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Kuna's drinking water comes from wells owned and operated by the City of Kuna. Federal records list the Kuna city system as owned by local government and supplied by groundwater, serving 32,038 people through 11,363 connections.",
+      "quotedLanguage": "The City of Kuna owns and operates several wells that provide potable drinking water to Kuna residents.",
+      "topic": [
+        "water",
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "kuna-water-irrigation",
+        "epa-sdwis-kuna"
+      ],
+      "notes": "Contrast worth making on the page: in Boise drinking water comes from private Commission-regulated utilities, while in Kuna the city itself runs the wells. ⚠️ The city describes its system as one of the newest in the state; that is the city's own characterisation and is not claimed as a fact. ⚠️ Commission records also list two very small regulated water companies with Kuna as their nearest town; their service areas were not mapped, so 'the city serves Kuna' must not become 'the city serves every Kuna parcel'."
+    },
+    {
+      "entity": [
+        "city:kuna"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Kuna, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "kuna-permit-triggers-include-fences",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Kuna requires a residential building permit for, among other things, a new residence, mobile home or accessory dwelling unit; accessory structures such as garages, though detached storage buildings under 200 square feet are exempt; improvements and additions; decks over 30 inches above grade; retaining walls over 4 feet including footing; the installation of fences; heating, air-conditioning, fireplaces and wood stoves; and relocating or demolishing a structure.",
+      "quotedLanguage": "Detached storage buildings less than 200 square feet in area are exempt",
+      "topic": [
+        "permits",
+        "manufactured-housing",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "kuna-residential-building-information"
+      ],
+      "notes": "⚠️ Kuna lists 'installation of fences' without a height threshold, where Star requires a permit only for fences over 6 feet. Kuna's own list is quoted; do not add a height exemption Kuna does not state, and never carry either city's rule to the other. Seller relevance is unpermitted work surfacing at inspection."
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "gardencity-city-water-and-sewer-system",
+      "freshnessClass": "PERIODIC",
+      "claim": "Garden City's public water system is the Garden City Water and Sewer System, which federal records list as owned by local government and supplied by groundwater, serving 12,500 people through 4,595 connections.",
+      "quotedLanguage": "GARDEN CITY WATER AND SEWER SYSTEM",
+      "topic": [
+        "water",
+        "utilities",
+        "sewer",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "epa-sdwis-garden-city"
+      ],
+      "notes": "⚠️ Sourced to the federal record only — the city's own water page was not read. Ownership is EPA's owner-type code, which is reliable for a municipal system but should be confirmed against the city before anything more specific is said. ⚠️ Federal records also list small private mobile home park systems with Garden City addresses."
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "gardencity-floodplain-50-percent-improvement-rule",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "In Garden City's Special Flood Hazard Area, any reconstruction, rehabilitation, addition or other improvement to a building equal to or exceeding 50 percent of the building's value must meet the same standards as new development. A city floodplain application is also required before working in the floodplain or floodway, before removing or damaging vegetation within 25 feet of the river or on the riverside of the greenbelt or nature path, and to request a Letter of Map Change.",
+      "quotedLanguage": "any reconstruction, rehabilitation, addition or other improvements to a building that equal or exceed 50% of the building’s value, must comply with the same standards as any new development in the SFHA",
+      "topic": [
+        "flood",
+        "permits",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "gardencity-floodplain-development"
+      ],
+      "notes": "🎯 One of the most seller-relevant facts on any place page: a buyer planning a large renovation of a house in Garden City's flood hazard area may have to bring the whole building up to new-construction flood standards, which changes what that buyer can pay. ⚠️ How the city calculates 'the building's value' is not stated on the page read; never compute the threshold for a reader."
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-12",
+      "id": "gardencity-zoning-table-and-ncn-overlay",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "In Garden City the uses allowed in each zoning district are set out in Garden City Code Table 8-2B-1, some uses carry further conditions under Code 8-2C, and a property may also sit within the Neighborhood Commercial Node (NCN) overlay district, whose allowed uses are in Table 8-3A-1.",
+      "quotedLanguage": "Garden City Code Table 8-2B-1 shows what uses are allowed in a specific zoning district.",
+      "topic": [
+        "zoning",
+        "planning",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "gardencity-zoning-information"
+      ],
+      "notes": "⚠️ Names the tables; does not claim what any of them permits. Garden City's C-2 district is mixed use, unlike the C-2 districts of neighbouring cities — see the commercial registry — so district letters must never be read across city limits."
     }
   ]
 }
