@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 80,
+  "totalSources": 98,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -334,6 +334,7 @@
       "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
       "claimsSupported": [
         "id-disclosure-required-1-to-4-units",
+        "id-disclosure-applies-to-sale-contract-options",
         "idaho-multifamily-boundary-is-not-one-boundary",
         "multifamily-threshold-varies-across-six-systems"
       ],
@@ -364,7 +365,9 @@
       "claimsSupported": [
         "id-disclosure-exempt-estate-fiduciary",
         "id-disclosure-exempt-divorce",
-        "id-disclosure-exempt-foreclosure"
+        "id-disclosure-exempt-foreclosure",
+        "id-disclosure-sixteen-exemptions",
+        "id-disclosure-new-construction-annexation"
       ],
       "entitiesSupported": [
         "state:id"
@@ -2013,6 +2016,450 @@
       "stalenessRisk": "MEDIUM — refreshed periodically; re-check figures.",
       "claimsSupported": [
         "meridian-city-water-from-aquifer-wells"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2503",
+      "title": "Idaho Code § 55-2503 — Definitions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2503/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-residential-definition"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2506",
+      "title": "Idaho Code § 55-2506 — Disclosure information",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2506/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1994",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-form-covers-water-sewer-structure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2507",
+      "title": "Idaho Code § 55-2507 — Mandatory required disclosure statements",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2507/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1994",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-actual-knowledge-not-warranty"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2508",
+      "title": "Idaho Code § 55-2508 — Disclosure form",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2002",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-new-construction-annexation"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2509",
+      "title": "Idaho Code § 55-2509 — Delivery of disclosure form and acceptance",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2509/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1994",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-deliver-within-ten-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2511",
+      "title": "Idaho Code § 55-2511 — Errors, inaccuracies or omissions — Liability of transferor",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2511/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1994",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-no-liability-outside-personal-knowledge"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2512",
+      "title": "Idaho Code § 55-2512 — Information subsequently rendered inaccurate — Required information unknown or not available",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2512/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1994",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-later-inaccuracy-and-approximations"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2513",
+      "title": "Idaho Code § 55-2513 — Amendment to form",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2513/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-amend-before-closing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2514",
+      "title": "Idaho Code § 55-2514 — Chapter does not relieve seller or his agent of obligation to disclose other information",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2514/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1994",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-other-duties-preserved"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2516",
+      "title": "Idaho Code § 55-2516 — Good faith required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2516/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1994",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-good-faith-honesty-in-fact"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2517",
+      "title": "Idaho Code § 55-2517 — Failure to comply",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2517/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1994",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-disclosure-failure-actual-damages"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2801",
+      "title": "Idaho Code § 55-2801 — Psychologically impacted defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch28/sect55-2801/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-psych-impacted-no-cause-of-action"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2802",
+      "title": "Idaho Code § 55-2802 — No cause of action",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch28/sect55-2802/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-psych-impacted-no-cause-of-action"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2803",
+      "title": "Idaho Code § 55-2803 — Request for disclosure",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch28/sect55-2803/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history checked; no future-dated amendment.",
+      "claimsSupported": [
+        "id-psych-impacted-written-request"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-40-cfr-745-101",
+      "title": "40 CFR § 745.101 — Scope and applicability (lead-based paint disclosure in housing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.101",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=745&section=745.101",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "disclosure",
+        "lead-paint"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the current eCFR text of EPA's lead-based paint disclosure rule (40 CFR Part 745 Subpart F), retrieved through the eCFR renderer API and cached. Future-dated amendments were not checked, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fed-lead-paint-pre-1978-seller-disclosure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-40-cfr-745-103",
+      "title": "40 CFR § 745.103 — Definitions (lead-based paint disclosure in housing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.103",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=745&section=745.103",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "disclosure",
+        "lead-paint"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the current eCFR text of EPA's lead-based paint disclosure rule (40 CFR Part 745 Subpart F), retrieved through the eCFR renderer API and cached. Future-dated amendments were not checked, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fed-lead-paint-pre-1978-seller-disclosure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-40-cfr-745-107",
+      "title": "40 CFR § 745.107 — Disclosure requirements for sellers and lessors (lead-based paint disclosure in housing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.107",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=745&section=745.107",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "disclosure",
+        "lead-paint"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the current eCFR text of EPA's lead-based paint disclosure rule (40 CFR Part 745 Subpart F), retrieved through the eCFR renderer API and cached. Future-dated amendments were not checked, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fed-lead-paint-pre-1978-seller-disclosure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-40-cfr-745-110",
+      "title": "40 CFR § 745.110 — Opportunity to conduct an evaluation (lead-based paint disclosure in housing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.110",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=745&section=745.110",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "disclosure",
+        "lead-paint"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the current eCFR text of EPA's lead-based paint disclosure rule (40 CFR Part 745 Subpart F), retrieved through the eCFR renderer API and cached. Future-dated amendments were not checked, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fed-lead-paint-ten-day-evaluation"
+      ],
+      "entitiesSupported": [
+        "state:id"
       ],
       "status": "VERIFIED"
     }

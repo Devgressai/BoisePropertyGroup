@@ -2668,6 +2668,402 @@
       "verifiedOn": "2026-09-12",
       "freshnessClass": "SLOW-CHANGING",
       "notes": "Facility location on the city page: 3401 N. Ten Mile Road. That every Meridian parcel is on city sewer is not claimed."
+    },
+    {
+      "id": "id-disclosure-residential-definition",
+      "claim": "For Idaho's property condition disclosure act, residential real property means real property improved by a building or structure with one to four dwelling units, or an individually owned unit in a structure of any size, and the term also covers real property with a combined residential and commercial use.",
+      "quotedLanguage": "\"Residential real property\" means real property that is improved by a building or other structure that has one (1) to four (4) dwelling units or an individually owned unit in a structure of any size. This also applies to real property which has a combined residential and commercial use.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "condominiums",
+        "mixed-use"
+      ],
+      "sourceIds": [
+        "idcode-55-2503"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2503, added 1994, ch. 366, sec. 1, p. 1173; am. 1997, ch. 229, sec. 1, p. 668.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "An individually owned unit in a building of any size (a condominium) is covered; a building of five or more units sold whole is outside this definition. ⚠️ This is the disclosure act's definition only — never generalise it into 'five units is legally commercial'."
+    },
+    {
+      "id": "id-disclosure-applies-to-sale-contract-options",
+      "claim": "Idaho's disclosure requirement applies to transfers of one-to-four-unit residential property by sale, exchange, installment sale contract, lease with an option to purchase, any other option to purchase, or ground lease coupled with improvements, unless the transfer is exempt.",
+      "quotedLanguage": "this chapter applies to any transfer by sale, exchange, installment sale contract, a lease with an option to purchase, any other option to purchase, or ground lease coupled with improvements",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "seller-financing"
+      ],
+      "sourceIds": [
+        "idcode-55-2504"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2504, added 1994, ch. 366, sec. 1, p. 1173; am. 1997, ch. 229, sec. 2, p. 668.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "Shows seller-financed and lease-option deals are covered, not only conventional sales."
+    },
+    {
+      "id": "id-disclosure-sixteen-exemptions",
+      "claim": "Idaho Code 55-2505 lists sixteen kinds of transfer exempt from the disclosure requirement, including transfers to a buyer who has occupied the property as a personal residence for a year or more, transfers of inherited property by a seller who has not lived there within the prior year, transfers between co-owners, transfers to a spouse or lineal relatives, government transfers, uninhabited new construction, relocation-company transfers within a year, and transfers from a decedent's estate. None of the sixteen turns on the property being sold as-is.",
+      "quotedLanguage": "(8) A transfer from one (1) co-owner to one (1) or more other co-owners; (9) A transfer made to the transferor's spouse or to one (1) or more persons in the lineal line of consanguinity of one (1) or more of the transferors; ... (13) A transfer to a transferee who has occupied the property as a personal residence for one (1) or more years immediately prior to the transfer; (14) A transfer from a transferor who both has not occupied the property as a personal residence within one (1) year immediately prior to the transfer and has acquired the property through inheritance or devise; ... (16) A transfer from a decedent's estate.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "inheritance",
+        "tenants"
+      ],
+      "sourceIds": [
+        "idcode-55-2505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2505, added 1994, ch. 366, sec. 1, p. 1174; am. 1997, ch. 229, sec. 3, p. 669; am. 2002, ch. 333, sec. 4, p. 944.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "'None turns on as-is' is a reading of the complete sixteen-item list (all sixteen read on 2026-09-13), not a quotation — there is no as-is, repair-condition or cash-sale exemption. Exemption (13) matters for a tenant buying the home they have lived in; (14) needs BOTH conditions (inherited AND not occupied within a year)."
+    },
+    {
+      "id": "id-disclosure-new-construction-annexation",
+      "claim": "Uninhabited newly constructed residential property is exempt from Idaho's disclosure form, except that its sellers must still disclose annexation and city-service status.",
+      "quotedLanguage": "A transfer that involved newly constructed residential real property that previously has not been inhabited, except that disclosure of annexation and city service status shall be declared by the sellers of such newly constructed residential real property",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "annexation",
+        "new-construction"
+      ],
+      "sourceIds": [
+        "idcode-55-2505",
+        "idcode-55-2508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2505, added 1994, ch. 366, sec. 1, p. 1174; am. 1997, ch. 229, sec. 3, p. 669; am. 2002, ch. 333, sec. 4, p. 944.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "The statutory form's three questions ask whether the property is in an area of city impact subject to annexation, receives city services outside city limits, or has a recorded consent to annex."
+    },
+    {
+      "id": "id-disclosure-form-covers-water-sewer-structure",
+      "claim": "Idaho's disclosure form must let the seller disclose material matters about the property's physical condition, including the source of water supply, the nature of the sewer system, the condition of the structure including roof, foundation, walls and floors, and the known presence of hazardous materials or substances.",
+      "quotedLanguage": "the source of water supply to the property; the nature of the sewer system serving the property; the condition of the structure of the property including the roof, foundation, walls and floors; the known presence of hazardous materials or substances",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "water",
+        "sewer"
+      ],
+      "sourceIds": [
+        "idcode-55-2506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2506, added 1994, ch. 366, sec. 1, p. 1174.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "Alternative forms are allowed if they carry the same information and the mandatory statements in 55-2507."
+    },
+    {
+      "id": "id-disclosure-actual-knowledge-not-warranty",
+      "claim": "An Idaho disclosure form must state that it records conditions and information actually known by the seller, that it is not a warranty of any kind by the seller or the seller's agent, and that it is not a substitute for any inspections.",
+      "quotedLanguage": "(1) The form constitutes a statement of the conditions of the property and of information concerning the property actually known by the transferor. ... (3) That the statement is not a warranty of any kind by the transferor or by any agent or subsequent agent representing the transferor in this transaction. (4) That the statement is not a substitute for any inspections.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "inspections"
+      ],
+      "sourceIds": [
+        "idcode-55-2507"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2507, added 1994, ch. 366, sec. 1, p. 1175.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": ""
+    },
+    {
+      "id": "id-disclosure-deliver-within-ten-days",
+      "claim": "An Idaho seller must deliver a signed and dated copy of the completed disclosure form to each prospective buyer or the buyer's agent within ten days of accepting the buyer's offer, and the buyer acknowledges receipt by signing, dating and returning a copy.",
+      "quotedLanguage": "Every transferor shall deliver, in accordance with section 55-2510, Idaho Code, a signed and dated copy of the completed disclosure form to each prospective transferee or his agent within ten (10) days of transferor's acceptance of transferee's offer.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-2509"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2509, added 1994, ch. 366, sec. 1, p. 1176.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "The statute says ten (10) days without specifying business days. Do not add 'business'."
+    },
+    {
+      "id": "id-disclosure-no-liability-outside-personal-knowledge",
+      "claim": "An Idaho seller and the seller's agents are not liable for an error, inaccuracy or omission in disclosed information that was not within the seller's personal knowledge, or that was based on information timely provided by public agencies or hired inspectors and obtained and passed on with ordinary care.",
+      "quotedLanguage": "Neither the transferor or transferor's agents shall be liable for any error, inaccuracy or omission of any information delivered pursuant to this chapter if the error, inaccuracy or omission was not within the personal knowledge of the transferor",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-55-2511"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2511, added 1994, ch. 366, sec. 1, p. 1177.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "⚠️ Never present this as 'sellers are not liable'. It protects only what was outside personal knowledge or properly relied on; 55-2514 preserves other statutory and common-law duties. Not legal advice."
+    },
+    {
+      "id": "id-disclosure-later-inaccuracy-and-approximations",
+      "claim": "Under Idaho's disclosure act, information that becomes inaccurate because of something that happens after the disclosures are delivered is not a violation, and an item the seller cannot know may be given as an approximation if it is clearly identified as one, reasonable, based on the best information available and not used to evade the chapter.",
+      "quotedLanguage": "If information disclosed in accordance with this chapter is subsequently rendered inaccurate as a result of any act, occurrence or agreement subsequent to the delivery of the required disclosures, the inaccuracy resulting therefrom does not constitute a violation of this chapter.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure"
+      ],
+      "sourceIds": [
+        "idcode-55-2512"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2512, added 1994, ch. 366, sec. 1, p. 1177.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "The approximation route is conditioned on the seller's agent having made a reasonable effort to ascertain the item."
+    },
+    {
+      "id": "id-disclosure-amend-before-closing",
+      "claim": "An Idaho seller must amend the disclosure statement before closing on discovering that information in it has changed, and a buyer's right to rescind after an amendment is strictly limited to the amendments.",
+      "quotedLanguage": "Transferor shall amend the disclosure statement prior to closing if transferor discovers any of the (the) information on the original statement has changed. In the event of amendments to the statement, transferee's right to rescind is strictly limited to the amendments to the disclosure statement.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-2513"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2513, added 1994, ch. 366, sec. 1, p. 1178; am. 1997, ch. 229, sec. 4, p. 670.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "'(the)' is a doubled word in the statute itself and is quoted as printed."
+    },
+    {
+      "id": "id-disclosure-other-duties-preserved",
+      "claim": "Idaho's disclosure act does not limit any obligation to disclose information that arises under any other section of the Idaho Code or under Idaho common law.",
+      "quotedLanguage": "does not limit and shall not be construed as limiting any obligation to disclose an item of information that is created by any other section of the Idaho Code or the common law of the state of Idaho",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-55-2514"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2514, added 1994, ch. 366, sec. 1, p. 1178.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "The reason an exemption from the FORM is never an exemption from honesty."
+    },
+    {
+      "id": "id-disclosure-good-faith-honesty-in-fact",
+      "claim": "Every disclosure under Idaho's disclosure act must be made in good faith, which the act defines as honesty in fact in the conduct of the transaction.",
+      "quotedLanguage": "Each disclosure required in this chapter and each act which may be performed in making the disclosure shall be made in good faith. For the purposes of this chapter, good faith means honesty in fact, in the conduct of the transaction.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure"
+      ],
+      "sourceIds": [
+        "idcode-55-2516"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2516, added 1994, ch. 366, sec. 1, p. 1178.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": ""
+    },
+    {
+      "id": "id-disclosure-failure-actual-damages",
+      "claim": "A failure to comply with Idaho's disclosure act does not by itself invalidate a transfer, but a person who willfully or negligently violates or fails to perform its duties is liable for the buyer's actual damages.",
+      "quotedLanguage": "No transfer, subject to this chapter, shall be invalidated solely because of the failure of any person to comply with any provision of this chapter. However, any person who willfully or negligently violates or fails to perform any duties prescribed by any provision of this chapter shall be liable in the amount of actual damages suffered by the transferee.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-55-2517"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2517, added 1994, ch. 366, sec. 1, p. 1179.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "Not legal advice; the measure of damages in a given case is for counsel."
+    },
+    {
+      "id": "id-psych-impacted-no-cause-of-action",
+      "claim": "Under Idaho law no cause of action arises against an owner or the owner's representative for failing to disclose that real property is psychologically impacted — defined to include a suspected or actual suicide, homicide or felony at the property that had no effect on its physical condition, an occupant's non-transmissible disease, and a registered or suspected sex offender occupying or living near the property.",
+      "quotedLanguage": "No cause of action shall arise against an owner of real property or a representative of the owner for a failure to disclose to the transferee of the real property or a representative of the transferee that the real property was psychologically impacted. ... That the real property was at any time suspected of being the site of suicide, homicide or the commission of a felony which had no effect on the physical condition of the property or its environment or the structures located thereon",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "psychologically-impacted"
+      ],
+      "sourceIds": [
+        "idcode-55-2802",
+        "idcode-55-2801"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-2802) 55-2702, added 1998, ch. 335, sec. 1, p. 1081; am. and redesig. 2005, ch. 25, sec. 110, p. 128.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "⚠️ Limited to events with NO effect on physical condition. A felony that damaged the structure is not covered by this carve-out. amendmentHistory is 55-2802's; 55-2801 was redesignated by the same 2005 act."
+    },
+    {
+      "id": "id-psych-impacted-written-request",
+      "claim": "If a buyer making a bona fide offer tells the owner's representative in writing that whether the property is psychologically impacted is important to the decision, the representative must ask the owner and, with the owner's consent and consistent with privacy law, report the findings; if the owner refuses, the buyer must be told the information will not be disclosed.",
+      "quotedLanguage": "If the owner refuses disclosure, the owner's representative shall advise the purchaser or the purchaser's representative that the information will not be disclosed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "psychologically-impacted"
+      ],
+      "sourceIds": [
+        "idcode-55-2803"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-2803) 55-2703, added 1998, ch. 335, sec. 1, p. 1081; am. and redesig. 2005, ch. 25, sec. 111, p. 128.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": ""
+    },
+    {
+      "id": "fed-lead-paint-pre-1978-seller-disclosure",
+      "claim": "For housing built before 1978, federal rules require the seller, before the buyer is obligated under the contract, to give the buyer an EPA-approved lead hazard pamphlet and disclose any known lead-based paint or lead-based paint hazards and any available records or reports; sales at foreclosure are excepted, as are housing for the elderly or persons with disabilities and 0-bedroom dwellings unless a child under six lives or is expected to live there.",
+      "quotedLanguage": "Target housing means any housing constructed prior to 1978, except housing for the elderly or persons with disabilities or any 0-bedroom dwelling ... The following activities shall be completed before the purchaser or lessee is obligated under any contract to purchase or lease target housing ... Sales of target housing at foreclosure.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "lead-paint"
+      ],
+      "sourceIds": [
+        "ecfr-40-cfr-745-107",
+        "ecfr-40-cfr-745-103",
+        "ecfr-40-cfr-745-101"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": "Federal, applies in Idaho alongside the state form. 40 CFR 745.107 says nothing in the section obliges the seller to test or abate. No Idaho exemption (estate, inheritance, as-is) removes this federal duty — the only sale exception in 745.101 is foreclosure."
+    },
+    {
+      "id": "fed-lead-paint-ten-day-evaluation",
+      "claim": "Before a buyer is obligated to purchase housing built before 1978, the seller must allow a 10-day period to conduct a lead-based paint risk assessment or inspection, unless the parties agree in writing on a different period; the buyer may waive the opportunity in writing.",
+      "quotedLanguage": "the seller shall permit the purchaser a 10-day period (unless the parties mutually agree, in writing, upon a different period of time) to conduct a risk assessment or inspection for the presence of lead-based paint and/or lead-based paint hazards",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "lead-paint",
+        "inspections"
+      ],
+      "sourceIds": [
+        "ecfr-40-cfr-745-110"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-09-13",
+      "notes": ""
     }
   ]
 }

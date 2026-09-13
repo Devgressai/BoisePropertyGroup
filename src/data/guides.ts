@@ -58,6 +58,14 @@ export const guides: Guide[] = [
       "What the ground can legally become is decided by water, irrigation, access and who governs the parcel — not by its size. The constraints that actually bind on Ada County land, and where each one is administered.",
     cluster: "land",
   },
+  {
+    slug: "idaho-seller-disclosure-when-selling-as-is",
+    title: "Idaho Seller Disclosure When Selling a House As-Is",
+    h1: "Idaho seller disclosure when you sell a house as-is",
+    description:
+      "Selling as-is does not remove Idaho's property condition disclosure. Who must disclose, the sixteen exemptions, the ten-day and three-day deadlines, where seller liability sits, and the federal lead-paint rule for pre-1978 homes.",
+    cluster: "disclosure",
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {
