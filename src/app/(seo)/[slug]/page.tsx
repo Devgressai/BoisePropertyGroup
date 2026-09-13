@@ -84,6 +84,19 @@ function resolve(slug: string) {
   };
 }
 
+/**
+ * A description cut at a fixed character count ends mid-word ("close to the
+ * co"). Prefer the first sentence when it fits; otherwise stop at a word
+ * boundary and mark the cut.
+ */
+function metaDescription(text: string | undefined): string | undefined {
+  if (!text) return undefined;
+  if (text.length <= 160) return text;
+  const sentence = text.match(/^.{60,160}?[.!?](?=\s|$)/);
+  if (sentence) return sentence[0];
+  return `${text.slice(0, 155).replace(/\s+\S*$/, "")}…`;
+}
+
 export async function generateMetadata({
   params,
 }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -92,7 +105,7 @@ export async function generateMetadata({
   if (!r) return {};
   return {
     title: r.title,
-    description: r.content.intro[0]?.slice(0, 155),
+    description: metaDescription(r.content.intro[0]),
     alternates: { canonical: `/${slug}` },
     // Pre-launch the site-wide robots directive still applies; this records the
     // page-level decision so flipping the launch flag needs no further edits.

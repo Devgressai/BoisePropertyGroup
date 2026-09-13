@@ -44,14 +44,13 @@ export default function HumanScale() {
               Most of this is a conversation, not a transaction.
             </h2>
             <p className="lede mt-5 text-white/80">
-              People come to us mid-something — an estate to settle, a rental they are done with,
-              ground they inherited and have never seen. The property question is usually the
+              A property sale usually arrives mid-something — an estate to settle, a rental someone is done
+              with, ground inherited and never seen. The property question is usually the
               easiest part of it.
             </p>
             <p className="mt-4 leading-relaxed text-white/70">
               You can ask us what a number would look like without deciding anything, and we will
-              tell you when selling to a buyer like us is the wrong move. That happens more than
-              you would expect.
+              tell you when selling to a buyer like us is the wrong move.
             </p>
             <Link
               href="/how-it-works"

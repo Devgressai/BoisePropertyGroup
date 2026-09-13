@@ -18,7 +18,7 @@ const STEPS = [
     t: "You give us the address",
     d: [
       "That is genuinely the whole first step. Before asking you anything else we pull the parcel record, the assessed value and history, comparable sales, and what the property actually is — zoning, lot, structure, and whether it sits in a mapped floodplain or an overlay.",
-      "Most of that is public. We would rather do the work than make you describe it.",
+      "The parcel record, assessed value, zoning and floodplain maps are public. Sale prices are not — an Idaho deed does not have to state the price — so we tell you which comparable sales we relied on. We would rather do the work than make you describe it.",
     ],
   },
   {
@@ -33,7 +33,7 @@ const STEPS = [
     n: "03",
     t: "We show you the arithmetic",
     d: [
-      "You get the number and the working behind it — the after-repair value we used, the scope we priced, the holding period we assumed, and the margin. Every input is one you can check against the same public records we used.",
+      "You get the number and the working behind it — the after-repair value we used, the scope we priced, the holding period we assumed, and the margin. The parcel, zoning and assessment inputs are public records you can check yourself, and we name the comparable sales behind the value.",
       "We do not label that margin profit and we do not present it as a percentage markup. It is the spread the business runs on, and stating it plainly is the point.",
     ],
   },
@@ -42,7 +42,7 @@ const STEPS = [
     t: "You choose the date, and we close",
     d: [
       "If you accept, we open escrow with a local title company. Timing is yours — a fast close where speed is the point, or months where it is not.",
-      "We do not tie a property up and shop the contract to someone else. If we agree a number, we are the buyer.",
+      "If we agree a number, we sign the purchase agreement and fund the purchase with our own capital.",
     ],
   },
 ];

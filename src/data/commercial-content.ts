@@ -142,7 +142,7 @@ export const INDUSTRIAL: CommercialPageContent = {
       heading: "What we do with industrial property",
       body: [
         "We look at warehouse, flex, shop and yard property in Boise and across Ada County — single tenant, multi tenant, or empty. Deferred maintenance is not a disqualifier and neither is a problem attached to title, tenancy or entitlement.",
-        "We are the buyer. We do not tie a property up under contract while looking for someone to assign it to, and if we agree a number we are the party closing on it.",
+        "We buy with our own capital, and a purchase closes through a local title company.",
         "What we will not do is tell you what your building is worth. We can tell you what we would pay and show the arithmetic behind it, which is a different thing and should be treated as a different thing.",
       ],
     },
@@ -235,7 +235,7 @@ export const MULTIFAMILY: CommercialPageContent = {
       heading: "What we do with multifamily property",
       body: [
         "Five units through several hundred, in Boise and across Ada County and selectively wider in the Treasure Valley. Stabilised, partly vacant, or mid-turnaround.",
-        "Timeline is set by the seller. We can work to a fast close or wait months where that is what the situation needs, and we are the party closing — not a party looking to assign the contract to someone else.",
+        "Timeline is set by the seller. We can work to a fast close or wait months where that is what the situation needs.",
         "We will not tell you what your property is worth. We will tell you what we would pay and show how we got there.",
       ],
     },
@@ -387,7 +387,7 @@ export const DISTRICTS: CommercialPageContent = {
       heading: "What we do with commercial property",
       body: [
         "We look at office, retail and mixed-use commercial property in Boise, across Ada County and selectively wider in the Treasure Valley — single tenant, multi tenant, or empty.",
-        "We are the buyer, not a party looking to assign a contract on. Timeline is set by the seller. Deferred maintenance is not a disqualifier and neither is a problem attached to title, tenancy or entitlement.",
+        "We buy with our own capital. Timeline is set by the seller. Deferred maintenance is not a disqualifier and neither is a problem attached to title, tenancy or entitlement.",
         "We will not tell you what your property is worth. We will tell you what we would pay and show the arithmetic behind it.",
       ],
     },

@@ -44,7 +44,7 @@ export default function About() {
                 <p className="leading-relaxed">
                   We buy property directly in Ada County and the Treasure Valley — single houses
                   through apartment buildings, office and industrial, and land with complications
-                  attached. We use our own capital and we do not assign contracts.
+                  attached. We use our own capital.
                 </p>
                 <p className="leading-relaxed">
                   For a seller that means an offer that closes on a date you choose. For a broker it

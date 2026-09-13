@@ -363,7 +363,7 @@ export const guideContent: Record<string, GuideContent> = {
         heading: "What this means if you are selling",
         body: [
           "The value of land in this county tracks what it can become, and what it can become is a stack of separate answers — water right, irrigation entity, highway district, health district, floodplain, and whichever authority actually governs the parcel. Nobody holds all of those in one place, which is why land takes longer to price than a house does.",
-          "We look at ground with complications: access issues, easements, floodplain, irrigation crossings, parcels without a clean boundary, and land where a previous plan fell over. We are the buyer rather than a party looking to assign a contract on.",
+          "We look at ground with complications: access issues, easements, floodplain, irrigation crossings, parcels without a clean boundary, and land where a previous plan fell over. We buy with our own capital.",
           "We will not tell you what your land is worth. We will tell you what we would pay and show the reasoning, including which of these constraints we think binds hardest on your parcel.",
         ],
         claims: ["id-homestead-one-acre-limit", "ada-area-of-city-impact"],

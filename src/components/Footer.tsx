@@ -87,7 +87,7 @@ export default function Footer() {
             &copy; {year} {hasLegalEntity ? site.legalEntity : site.name}. All rights reserved.
           </p>
           <p>
-            Site by <a href="https://webvello.com" className="text-white no-underline">webvello.com</a>
+            Site by <a href="https://webvello.com" rel="nofollow" className="text-white no-underline">webvello.com</a>
           </p>
         </div>
         <p className="mt-5 max-w-[70ch] text-xs leading-relaxed text-white/45">

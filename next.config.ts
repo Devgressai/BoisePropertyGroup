@@ -15,6 +15,14 @@ const nextConfig: NextConfig = {
         destination: "https://boisepropertygroup.com/:path*",
         permanent: true,
       },
+      {
+        // The production alias serves the whole site too. The canonical tag
+        // already names the apex; a redirect stops a second host being crawled.
+        source: "/:path*",
+        has: [{ type: "host", value: "boise-property-group.vercel.app" }],
+        destination: "https://boisepropertygroup.com/:path*",
+        permanent: true,
+      },
     ];
   },
   async headers() {

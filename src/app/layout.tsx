@@ -26,7 +26,6 @@ export const metadata: Metadata = {
   },
   description:
     "We buy houses, land, multifamily, office and industrial property across Ada County and the Treasure Valley — Boise, Meridian, Eagle, Kuna, Star and Garden City. Direct offers, your timeline.",
-  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "en_US",

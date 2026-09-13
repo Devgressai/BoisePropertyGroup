@@ -19,7 +19,7 @@ const FACTS = [
   {
     fact: "Idaho has two different “homestead exemptions”.",
     detail:
-      "One protects $175,000 of equity from creditors (55-1003). The other removes up to $125,000 from your property tax assessment (63-602G). Ada County's own website calls both by the same name.",
+      "One protects $175,000 of equity from creditors (55-1003). The other takes part of a home's value off its property tax assessment (63-602G). Ada County's own website calls both by the same name.",
     cite: "Idaho Code §§ 55-1003, 63-602G",
   },
   {

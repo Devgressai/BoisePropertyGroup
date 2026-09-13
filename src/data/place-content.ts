@@ -491,7 +491,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "What that means for the offer",
         body: [
           "A Boise property with an overlay, an unconnected lot or a mapped flood hazard is not a property we decline. It is a property whose costs we have to count before we can put a number on it, and counting them out loud is how we would rather work.",
-          "When we make an offer we show the after-repair value we used, the work we think the property needs, our holding costs and the spread we run on. You can check every line of it against the same public records we used.",
+          "When we make an offer we show the after-repair value we used, the work we think the property needs, our holding costs and the spread we run on. You can check every line of it: the public records yourself, and the comparable sales because we name them.",
         ],
       },
     ],

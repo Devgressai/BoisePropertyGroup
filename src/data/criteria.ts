@@ -28,5 +28,5 @@ export const criteria: Criterion[] = [
   { label: "Land", value: "Infill lots, acreage, rural parcels, and ground with access, easement, water or floodplain complications." },
   { label: "Condition", value: "Deferred maintenance is not a disqualifier. Neither is a problem attached to title, tenancy or entitlement." },
   { label: "Timeline", value: "Set by the seller. We can work to a fast close or wait months if that is what the situation needs." },
-  { label: "What we will not do", value: "Tie a property up under contract while we look for someone to assign it to. If we agree a number, we are the buyer." },
+  { label: "Funding", value: "Our own capital, with the purchase closing through a local title company." },
 ];
