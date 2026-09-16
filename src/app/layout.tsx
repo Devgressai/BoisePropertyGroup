@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Instrument_Serif } from "next/font/google";
+import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import { site } from "@/data/site";
 import { SITE_ROBOTS_DEFAULT } from "@/lib/seo/defaults";
@@ -11,10 +11,10 @@ const inter = Inter({
   variable: "--font-inter",
   display: "swap",
 });
-const instrument = Instrument_Serif({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: "400",
-  variable: "--font-instrument-serif",
+  weight: ["500", "600", "700"],
+  variable: "--font-montserrat",
   display: "swap",
 });
 
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const jsonLd = graph(organizationSchema(), websiteSchema());
   return (
-    <html lang="en" className={`${inter.variable} ${instrument.variable}`}>
+    <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
       <body>
         <a
           href="#main"

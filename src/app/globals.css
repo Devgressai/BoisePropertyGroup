@@ -2,38 +2,48 @@
 
 /* ============================================================================
    BOISE PROPERTY GROUP — design tokens
-   Palette A "High Desert", selected 2026-09-09.
-   Sagebrush, basalt and sandstone: the Snake River Plain rather than a mountain
-   postcard. Every ratio below was COMPUTED (WCAG 2.x relative luminance) by
-   scripts/migration/build-visual-direction.mjs, not estimated.
+   Palette D "Sky", selected by the owner 2026-09-16, superseding Palette A
+   "High Desert" (2026-09-09). The brief: lighter, happier, easier to look at.
+   White reading surfaces everywhere, no dark full-bleed bands, a sky-blue
+   accent. Every ratio below is COMPUTED (WCAG 2.x relative luminance) and
+   ENFORCED by tests/palette.test.ts, which reads this file — a token that
+   fails contrast fails CI.
 
    ONE SCALE ONLY. Sierra carries two coexisting palettes as acknowledged debt
    and we do not inherit that.
    ========================================================================== */
 :root {
-  --bpg-ink:           #1A211C; /* headlines, dark full-bleed sections, footer */
-  --bpg-primary:       #3D5545; /* primary surface + buttons — 8.13:1 on white */
-  --bpg-primary-dark:  #2A3B31; /* pressed/hover, deep section fill */
+  --bpg-ink:           #1E2A36; /* headlines and body — 14.59:1 on white */
+  --bpg-primary:       #1668B0; /* button fill — white on it 5.77:1 */
+  --bpg-primary-dark:  #155FA3; /* pressed/hover — white on it 6.57:1 */
   --bpg-surface:       #FFFFFF; /* card and panel surface */
-  --bpg-background:    #FBFAF6; /* warm page background — lifted 2026-09-10 for a brighter ground; body text 15.21:1 -> 15.9:1, muted 5.67:1 -> 5.9:1, both improved */
-  --bpg-sand:          #EFE9DC; /* secondary surface — warmed and lifted; ink on sand 12.4:1 */
-  --bpg-border:        #D8D1C3; /* DECORATIVE dividers only — no WCAG minimum */
-  --bpg-border-strong: #8A8272; /* input + control boundaries — 3.52:1, meets 1.4.11 */
-  --bpg-text:          #1A211C; /* body — 15.21:1 on background */
-  --bpg-muted:         #5C645B; /* secondary text — 5.67:1 on background */
+  --bpg-background:    #FFFFFF; /* page background — white, like the reference */
+  --bpg-sand:          #F4F7FA; /* alternate band — pale cool grey */
+  --bpg-tint:          #EAF4FB; /* soft blue band (final CTA, evidence cards) */
+  --bpg-tint-res:      #EAF4FB; /* pastel card tints for the three What-we-buy groups */
+  --bpg-tint-land:     #EAF7F1;
+  --bpg-tint-com:      #F3EEFB;
+  --bpg-border:        #DCE4EC; /* DECORATIVE dividers only — no WCAG minimum */
+  --bpg-border-strong: #6F8093; /* input + control boundaries — 3.63:1 on tint, meets 1.4.11 */
+  --bpg-text:          #1E2A36;
+  --bpg-muted:         #4F5E6B; /* secondary text — 5.86:1 on the darkest tint */
 
-  /* Accent is SPLIT from the outset. Sierra shipped a single 3.0:1 accent,
-     discovered it could not carry small text, and had to patch in a second
-     token. Measuring first avoids repeating that.
-       accent      #B4541F  4.60:1 on background — LARGE text and rules only
-       accent-ink  #93430F  6.37:1 on background — small text on light        */
-  --bpg-accent:        #B4541F;
-  --bpg-accent-ink:    #93430F;
+  /* Accent is SPLIT, as before. The reference site's sky blue (#2EA3F2) is
+     2.75:1 on white — it cannot carry text of any size — so it survives only
+     as a decorative token. The two working accents:
+       accent      #1E8FE0  3.04:1 on the darkest tint — LARGE text, rules, icons
+       accent-ink  #1668B0  5.06:1 on the darkest tint — small text on light    */
+  --bpg-accent:        #1E8FE0;
+  --bpg-accent-ink:    #1668B0;
+  --bpg-sky:           #2EA3F2; /* decorative only: gradients, glows, never text */
+  --bpg-teal:          #1AA6BB; /* decorative only */
 
   --bpg-success:       #2F6B4F;
   --bpg-warning:       #8A6212;
 
   --bpg-maxw: 1200px;
+  --bpg-radius: 14px;
+  --bpg-shadow: 0 1px 2px rgba(30, 42, 54, 0.04), 0 10px 30px -12px rgba(30, 42, 54, 0.12);
 }
 
 @theme inline {
@@ -43,13 +53,14 @@
   --color-surface: var(--bpg-surface);
   --color-background: var(--bpg-background);
   --color-sand: var(--bpg-sand);
+  --color-tint: var(--bpg-tint);
   --color-edge: var(--bpg-border);
   --color-edge-strong: var(--bpg-border-strong);
   --color-body: var(--bpg-text);
   --color-muted: var(--bpg-muted);
   --color-accent: var(--bpg-accent);
   --color-accent-ink: var(--bpg-accent-ink);
-  --font-display: var(--font-instrument-serif), Georgia, "Times New Roman", serif;
+  --font-display: var(--font-montserrat), system-ui, -apple-system, sans-serif;
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
@@ -67,71 +78,92 @@ body {
 :focus-visible {
   outline: 3px solid var(--bpg-accent-ink);
   outline-offset: 3px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 ::selection { background: var(--bpg-accent); color: #fff; }
 
-/* ── Editorial display scale ────────────────────────────────────────────────
-   Bold and dominant by SIZE and CONTRAST, not by decoration. Clamped so the
-   hero never overflows a 320px viewport.                                     */
+/* ── Display scale ──────────────────────────────────────────────────────────
+   Montserrat, semi-bold, open line-height. Clamped so the hero never
+   overflows a 320px viewport.                                                */
 .display-xl {
-  font-family: var(--font-instrument-serif), Georgia, serif;
-  font-size: clamp(2.75rem, 7.5vw, 6rem);
-  line-height: 0.96;
-  letter-spacing: -0.025em;
-  font-weight: 400;
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-size: clamp(2.25rem, 5.4vw, 4rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  font-weight: 600;
 }
 .display-lg {
-  font-family: var(--font-instrument-serif), Georgia, serif;
-  font-size: clamp(2rem, 4.6vw, 3.5rem);
-  line-height: 1.02;
-  letter-spacing: -0.02em;
-  font-weight: 400;
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-size: clamp(1.75rem, 3.4vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  font-weight: 600;
 }
 .display-md {
-  font-family: var(--font-instrument-serif), Georgia, serif;
-  font-size: clamp(1.6rem, 3vw, 2.25rem);
-  line-height: 1.12;
-  letter-spacing: -0.015em;
-  font-weight: 400;
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  font-weight: 600;
 }
 .eyebrow {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
-.lede { font-size: clamp(1.06rem, 1.6vw, 1.3rem); line-height: 1.55; }
+.lede { font-size: clamp(1.06rem, 1.6vw, 1.25rem); line-height: 1.6; }
 
 /* ── Controls ─────────────────────────────────────────────────────────────
    Minimum 48px touch target throughout (WCAG 2.2 AA target size).           */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
-  min-height: 52px; padding: 0 1.6rem; border-radius: 3px;
+  min-height: 52px; padding: 0 1.6rem; border-radius: 8px;
   font-weight: 600; font-size: 1rem; letter-spacing: .01em;
   text-decoration: none; cursor: pointer; border: 2px solid transparent;
-  transition: background-color .18s ease, border-color .18s ease, transform .18s ease;
+  transition: background-color .18s ease, border-color .18s ease, transform .18s ease, box-shadow .18s ease;
 }
 .btn:active { transform: translateY(1px); }
-.btn-primary { background: var(--bpg-accent); color: #fff; }
-.btn-primary:hover { background: var(--bpg-accent-ink); }
+.btn-primary { background: var(--bpg-primary); color: #fff; box-shadow: 0 6px 18px -8px rgba(22, 104, 176, 0.6); }
+.btn-primary:hover { background: var(--bpg-primary-dark); }
 .btn-secondary {
-  background: transparent; color: var(--bpg-ink);
-  border-color: var(--bpg-border-strong);
+  background: #fff; color: var(--bpg-accent-ink);
+  border-color: var(--bpg-accent);
 }
-.btn-secondary:hover { border-color: var(--bpg-ink); background: var(--bpg-sand); }
-.btn-onDark { background: #fff; color: var(--bpg-ink); }
-.btn-onDark:hover { background: var(--bpg-sand); }
+.btn-secondary:hover { background: var(--bpg-tint); border-color: var(--bpg-accent-ink); }
 
 .field {
   width: 100%; min-height: 52px; padding: .8rem 1rem;
-  border: 2px solid var(--bpg-border-strong); border-radius: 3px;
+  border: 2px solid var(--bpg-border-strong); border-radius: 8px;
   background: #fff; color: var(--bpg-text); font-size: 1rem;
 }
 .field::placeholder { color: var(--bpg-muted); }
+.field:focus { border-color: var(--bpg-accent-ink); }
 
 .wrap { width: 100%; max-width: var(--bpg-maxw); margin-inline: auto; padding-inline: 1.25rem; }
-.rule-accent { height: 3px; width: 68px; background: var(--bpg-accent); border: 0; }
+.rule-accent { height: 3px; width: 56px; background: var(--bpg-accent); border: 0; border-radius: 3px; }
+.rule-accent.centered { margin-inline: auto; }
+
+/* ── Cards ────────────────────────────────────────────────────────────────
+   In the components layer so a Tailwind utility (bg-[...], p-*) on the same
+   element wins — unlayered rules would beat every utility.                  */
+@layer components {
+  .card {
+    background: var(--bpg-surface);
+    border: 1px solid var(--bpg-border);
+    border-radius: var(--bpg-radius);
+    box-shadow: var(--bpg-shadow);
+  }
+  .card-tint { border-color: transparent; }
+}
+
+/* Soft decorative glow behind light sections — never carries content. */
+.glow {
+  background:
+    radial-gradient(60% 60% at 15% 0%, rgba(46, 163, 242, 0.14), transparent 70%),
+    radial-gradient(50% 50% at 90% 100%, rgba(26, 166, 187, 0.12), transparent 70%);
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

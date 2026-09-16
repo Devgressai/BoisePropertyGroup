@@ -72,17 +72,17 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     <>
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
-        <header className="bg-[var(--bpg-ink)] py-16 text-white sm:py-20">
+        <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
-            <nav aria-label="Breadcrumb" className="mb-6 text-sm text-white/60">
-              <Link href="/" className="no-underline hover:text-white">Home</Link>
+            <nav aria-label="Breadcrumb" className="mb-6 text-sm text-[var(--bpg-muted)]">
+              <Link href="/" className="no-underline hover:text-[var(--bpg-ink)]">Home</Link>
               <span className="mx-2" aria-hidden="true">/</span>
-              <Link href="/guides" className="no-underline hover:text-white">Guides</Link>
+              <Link href="/guides" className="no-underline hover:text-[var(--bpg-ink)]">Guides</Link>
             </nav>
-            <h1 className="display-lg max-w-[22ch] text-white">{g.h1}</h1>
+            <h1 className="display-lg max-w-[22ch] text-[var(--bpg-ink)]">{g.h1}</h1>
             <div className="mt-7 max-w-[44rem] space-y-4">
               {content.intro.map((p) => (
-                <p key={p.slice(0, 40)} className="lede text-white/80">{p}</p>
+                <p key={p.slice(0, 40)} className="lede text-[var(--bpg-muted)]">{p}</p>
               ))}
             </div>
           </div>

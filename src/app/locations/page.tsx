@@ -18,11 +18,11 @@ export default function Locations() {
     <>
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
-        <header className="bg-[var(--bpg-ink)] py-16 text-white sm:py-20">
+        <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
             <p className="eyebrow text-[var(--bpg-accent)]">Ada County, Idaho</p>
-            <h1 className="display-xl mt-4 max-w-[16ch] text-white">Where we buy</h1>
-            <p className="lede mt-6 max-w-[42rem] text-white/80">
+            <h1 className="display-xl mt-4 max-w-[16ch] text-[var(--bpg-ink)]">Where we buy</h1>
+            <p className="lede mt-6 max-w-[42rem] text-[var(--bpg-muted)]">
               Six incorporated cities and the unincorporated balance of the county. Which side of a
               city limit a property falls on changes who governs almost everything about it.
             </p>
@@ -34,7 +34,7 @@ export default function Locations() {
               is the top source of duplication in a location silo. */}
           <Link
             href={`/${county.slug}`}
-            className="block rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-surface)] p-8 no-underline transition-colors hover:border-[var(--bpg-border-strong)]"
+            className="block rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-surface)] p-8 no-underline transition-colors hover:border-[var(--bpg-border-strong)]"
           >
             <h2 className="display-md text-[var(--bpg-ink)]">{county.name}</h2>
             <p className="mt-2 max-w-[52ch] text-[var(--bpg-muted)]">
@@ -43,7 +43,7 @@ export default function Locations() {
           </Link>
 
           <h2 className="eyebrow mt-14 text-[var(--bpg-muted)]">Cities</h2>
-          <ul className="mt-5 grid gap-px overflow-hidden rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-border)] sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-5 grid gap-px overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-border)] sm:grid-cols-2 lg:grid-cols-3">
             {renderablePlaces.map((p) => (
               <li key={p.slug} className="bg-[var(--bpg-surface)]">
                 <Link href={`/${p.slug}`} className="block p-6 no-underline">

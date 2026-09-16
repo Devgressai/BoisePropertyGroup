@@ -22,22 +22,26 @@ const CASES = [
 
 export default function WhenNotToSell() {
   return (
-    <section className="wrap py-20 sm:py-24" aria-labelledby="wrong-move">
-      <hr className="rule-accent" />
-      <h2 id="wrong-move" className="display-lg mt-6 max-w-[22ch] text-[var(--bpg-ink)]">
-        When selling to us is the wrong move
-      </h2>
-      <p className="lede mt-5 max-w-[46rem] text-[var(--bpg-muted)]">
-        A direct sale buys speed and certainty, and it costs you some of the price. Sometimes that
-        trade is wrong. Here is when.
-      </p>
-      <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-border)] md:grid-cols-3">
-        {CASES.map((c) => (
-          <div key={c.t} className="bg-[var(--bpg-surface)] p-7">
-            <h3 className="text-[1.05rem] font-semibold leading-snug text-[var(--bpg-ink)]">{c.t}</h3>
-            <p className="mt-2.5 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">{c.d}</p>
-          </div>
-        ))}
+    <section className="bg-[var(--bpg-sand)] py-20 sm:py-24" aria-labelledby="wrong-move">
+      <div className="wrap">
+        <div className="text-center">
+          <hr className="rule-accent centered" />
+          <h2 id="wrong-move" className="display-lg mx-auto mt-6 max-w-[22ch] text-[var(--bpg-ink)]">
+            When selling to us is the wrong move
+          </h2>
+          <p className="lede mx-auto mt-5 max-w-[46rem] text-[var(--bpg-muted)]">
+            A direct sale buys speed and certainty, and it costs you some of the price. Sometimes that
+            trade is wrong. Here is when.
+          </p>
+        </div>
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
+          {CASES.map((c) => (
+            <div key={c.t} className="card p-7">
+              <h3 className="text-[1.05rem] font-semibold leading-snug text-[var(--bpg-ink)]">{c.t}</h3>
+              <p className="mt-2.5 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">{c.d}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

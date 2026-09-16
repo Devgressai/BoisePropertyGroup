@@ -46,19 +46,19 @@ const COLS = [
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="bg-[var(--bpg-ink)] pb-10 pt-16 text-white/70">
+    <footer className="border-t border-[var(--bpg-border)] bg-[var(--bpg-sand)] pb-10 pt-16 text-[var(--bpg-muted)]">
       <div className="wrap">
         <div className="grid gap-10 md:grid-cols-[1.4fr_repeat(3,1fr)]">
           <div>
-            <p className="display-md text-white" style={{ fontSize: "1.35rem", lineHeight: 1.1 }}>
+            <p className="display-md text-[var(--bpg-ink)]" style={{ fontSize: "1.25rem", lineHeight: 1.1 }}>
               Boise Property Group
             </p>
             <p className="mt-3 max-w-[28ch] text-sm leading-relaxed">
               Direct property buyers in Ada County and the Treasure Valley, Idaho.
             </p>
             {/* NAP renders only when real. Never a plausible placeholder. */}
-            {hasPhone && <p className="mt-4 text-sm"><a href={site.phoneHref} className="text-white no-underline">{site.phone}</a></p>}
-            {hasEmail && <p className="mt-1 text-sm"><a href={`mailto:${site.email}`} className="text-white no-underline">{site.email}</a></p>}
+            {hasPhone && <p className="mt-4 text-sm"><a href={site.phoneHref} className="text-[var(--bpg-ink)] no-underline">{site.phone}</a></p>}
+            {hasEmail && <p className="mt-1 text-sm"><a href={`mailto:${site.email}`} className="text-[var(--bpg-ink)] no-underline">{site.email}</a></p>}
             {hasAddress && (
               <address className="mt-3 text-sm not-italic leading-relaxed">
                 {site.address.street}<br />
@@ -68,11 +68,11 @@ export default function Footer() {
           </div>
           {COLS.map((c) => (
             <div key={c.h}>
-              <h2 className="eyebrow text-white">{c.h}</h2>
+              <h2 className="eyebrow text-[var(--bpg-ink)]">{c.h}</h2>
               <ul className="mt-4 space-y-2.5">
                 {c.links.map(([label, href]) => (
                   <li key={label}>
-                    <Link href={href} className="text-sm no-underline transition-colors hover:text-white">
+                    <Link href={href} className="text-sm no-underline transition-colors hover:text-[var(--bpg-accent-ink)]">
                       {label}
                     </Link>
                   </li>
@@ -82,15 +82,15 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-14 flex flex-col gap-3 border-t border-white/15 pt-7 text-sm sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-14 flex flex-col gap-3 border-t border-[var(--bpg-border)] pt-7 text-sm sm:flex-row sm:items-center sm:justify-between">
           <p>
             &copy; {year} {hasLegalEntity ? site.legalEntity : site.name}. All rights reserved.
           </p>
           <p>
-            Site by <a href="https://webvello.com" rel="nofollow" className="text-white no-underline">webvello.com</a>
+            Site by <a href="https://webvello.com" rel="nofollow" className="text-[var(--bpg-ink)] no-underline">webvello.com</a>
           </p>
         </div>
-        <p className="mt-5 max-w-[70ch] text-xs leading-relaxed text-white/45">
+        <p className="mt-5 max-w-[70ch] text-xs leading-relaxed">
           Information on this site describes Idaho statutes and Ada County procedures and cites its
           sources. It is not legal advice and is not applied to your circumstances. Consult an
           attorney about your own property.

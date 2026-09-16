@@ -17,16 +17,16 @@ export default function Contact() {
     <>
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
-        <header className="bg-[var(--bpg-ink)] py-16 text-white sm:py-20">
+        <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
             <p className="eyebrow text-[var(--bpg-accent)]">Contact</p>
-            <h1 className="display-xl mt-4 max-w-[16ch] text-white">Start with the address</h1>
-            <p className="lede mt-6 max-w-[42rem] text-white/85">
+            <h1 className="display-xl mt-4 max-w-[16ch] text-[var(--bpg-ink)]">Start with the address</h1>
+            <p className="lede mt-6 max-w-[42rem] text-[var(--bpg-muted)]">
               Houses, multifamily at any size, office, industrial or land. Tell us what it is and
               we will come back with a number and the working behind it.
             </p>
             <div className="mt-9 max-w-[34rem]">
-              <OfferForm tone="dark" />
+              <OfferForm />
             </div>
           </div>
         </header>

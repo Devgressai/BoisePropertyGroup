@@ -12,13 +12,15 @@ const NAV = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-40 border-b border-[var(--bpg-border)] bg-[var(--bpg-background)]/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-[var(--bpg-border)] bg-white/90 backdrop-blur">
       <nav className="wrap flex h-[72px] items-center justify-between gap-6" aria-label="Primary">
-        <Link href="/" className="flex items-baseline gap-2 no-underline">
+        <Link href="/" className="flex items-center gap-2.5 no-underline">
           <span
-            className="display-md text-[var(--bpg-ink)]"
-            style={{ fontSize: "1.35rem", lineHeight: 1 }}
-          >
+            aria-hidden="true"
+            className="inline-block h-3 w-3 rounded-full"
+            style={{ background: "linear-gradient(135deg, var(--bpg-sky), var(--bpg-teal))" }}
+          />
+          <span className="display-md text-[var(--bpg-ink)]" style={{ fontSize: "1.2rem", lineHeight: 1 }}>
             Boise Property Group
           </span>
         </Link>
@@ -28,7 +30,7 @@ export default function Navbar() {
             <li key={l.href}>
               <Link
                 href={l.href}
-                className="text-sm font-medium text-[var(--bpg-muted)] no-underline transition-colors hover:text-[var(--bpg-ink)]"
+                className="text-sm font-medium text-[var(--bpg-muted)] no-underline transition-colors hover:text-[var(--bpg-accent-ink)]"
               >
                 {l.label}
               </Link>

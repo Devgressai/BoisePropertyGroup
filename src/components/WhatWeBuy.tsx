@@ -35,15 +35,19 @@ const COMMERCIAL = [
   { t: "Industrial", d: "Warehouse, flex, shop and yard space." },
 ];
 
-function Grid({ items }: { items: { t: string; d: string }[] }) {
+/** Each group carries its own pastel tint, like the reference site's tiles. */
+function Group({ label, tint, items }: { label: string; tint: string; items: { t: string; d: string }[] }) {
   return (
-    <div className="grid gap-px overflow-hidden rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-border)] sm:grid-cols-2 lg:grid-cols-3">
-      {items.map((i) => (
-        <div key={i.t} className="bg-[var(--bpg-surface)] p-7">
-          <h3 className="text-[1.05rem] font-semibold text-[var(--bpg-ink)]">{i.t}</h3>
-          <p className="mt-2 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">{i.d}</p>
-        </div>
-      ))}
+    <div>
+      <h3 className="eyebrow text-[var(--bpg-accent-ink)]">{label}</h3>
+      <div className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((i) => (
+          <div key={i.t} className="card card-tint p-7" style={{ background: tint }}>
+            <h4 className="text-[1.05rem] font-semibold text-[var(--bpg-ink)]">{i.t}</h4>
+            <p className="mt-2 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">{i.d}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -51,23 +55,25 @@ function Grid({ items }: { items: { t: string; d: string }[] }) {
 export default function WhatWeBuy() {
   return (
     <section className="wrap py-20 sm:py-24" aria-labelledby="what-we-buy">
-      <hr className="rule-accent" />
-      <h2 id="what-we-buy" className="display-lg mt-6 max-w-[24ch] text-[var(--bpg-ink)]">
-        What we buy
-      </h2>
+      <div className="text-center">
+        <hr className="rule-accent centered" />
+        <h2 id="what-we-buy" className="display-lg mt-6 text-[var(--bpg-ink)]">
+          What we buy
+        </h2>
+        <p className="lede mx-auto mt-4 max-w-[36rem] text-[var(--bpg-muted)]">
+          Houses, ground and commercial buildings, in any condition.
+        </p>
+      </div>
 
-      <h3 className="eyebrow mt-11 text-[var(--bpg-muted)]">Residential</h3>
-      <div className="mt-4"><Grid items={RESIDENTIAL} /></div>
-
-      <h3 className="eyebrow mt-12 text-[var(--bpg-muted)]">Land</h3>
-      <div className="mt-4"><Grid items={LAND} /></div>
-
-      <h3 className="eyebrow mt-12 text-[var(--bpg-muted)]">Commercial</h3>
-      <div className="mt-4"><Grid items={COMMERCIAL} /></div>
-      <p className="mt-5 text-[0.95rem] text-[var(--bpg-muted)]">
+      <div className="mt-12 space-y-12">
+        <Group label="Residential" tint="var(--bpg-tint-res)" items={RESIDENTIAL} />
+        <Group label="Land" tint="var(--bpg-tint-land)" items={LAND} />
+        <Group label="Commercial" tint="var(--bpg-tint-com)" items={COMMERCIAL} />
+      </div>
+      <p className="mt-8 text-center text-[0.95rem] text-[var(--bpg-muted)]">
         <Link
           href="/commercial"
-          className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
+          className="text-[var(--bpg-accent-ink)] underline decoration-[var(--bpg-accent)] underline-offset-4 hover:decoration-[var(--bpg-accent-ink)]"
         >
           More on the commercial side
         </Link>{" "}

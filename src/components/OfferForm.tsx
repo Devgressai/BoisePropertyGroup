@@ -17,16 +17,13 @@ import { useState } from "react";
  * costs more trust than a form with an extra field.
  */
 export default function OfferForm({
-  tone = "light",
   context = "residential",
 }: {
-  tone?: "light" | "dark";
+  /** `tone` was removed 2026-09-16: there are no dark surfaces left. */
   context?: "residential" | "commercial";
 }) {
   const [address, setAddress] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
-
-  const onDark = tone === "dark";
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -47,12 +44,10 @@ export default function OfferForm({
   if (state === "sent") {
     return (
       <div
-        className={`rounded-sm border-2 p-5 ${
-          onDark ? "border-white/25 bg-white/10 text-white" : "border-[var(--bpg-border-strong)] bg-white"
-        }`}
+        className="card p-5"
       >
         <p className="font-semibold">Got it — we have your address.</p>
-        <p className={`mt-1 text-sm ${onDark ? "text-white/80" : "text-[var(--bpg-muted)]"}`}>
+        <p className="mt-1 text-sm text-[var(--bpg-muted)]">
           {context === "commercial"
             ? "We\u2019ll pull the parcel record and the zoning district, then come back with what we\u2019d pay and the arithmetic behind it. If it produces income, we\u2019ll ask for a rent roll and a trailing twelve months."
             : "We\u2019ll look at comparable sales and the parcel record, then come back to you with a number and how we reached it."}
@@ -88,18 +83,18 @@ export default function OfferForm({
         />
         <button
           type="submit"
-          className={`btn ${onDark ? "btn-primary" : "btn-primary"} sm:w-auto`}
+          className="btn btn-primary sm:w-auto"
           disabled={state === "sending"}
         >
           {state === "sending" ? "Sending…" : "Get My Offer"}
         </button>
       </div>
       {state === "error" && (
-        <p className={`mt-2 text-sm ${onDark ? "text-white" : "text-[var(--bpg-accent-ink)]"}`}>
+        <p className="mt-2 text-sm text-[var(--bpg-accent-ink)]">
           Something went wrong sending that. Please try again.
         </p>
       )}
-      <p className={`mt-3 text-sm ${onDark ? "text-white/75" : "text-[var(--bpg-muted)]"}`}>
+      <p className="mt-3 text-sm text-[var(--bpg-muted)]">
         {context === "commercial"
           ? "No obligation. We\u2019ll show our working \u2014 what we\u2019d pay, not what it\u2019s worth."
           : "No obligation. We\u2019ll show you how we got to the number."}

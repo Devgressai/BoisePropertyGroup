@@ -50,23 +50,25 @@ const FACTS = [
 
 export default function LocalKnowledge() {
   return (
-    <section className="bg-[var(--bpg-ink)] py-20 text-white sm:py-28" aria-labelledby="local">
+    <section className="py-20 sm:py-28" aria-labelledby="local">
       <div className="wrap">
-        <hr className="rule-accent" />
-        <h2 id="local" className="display-lg mt-6 max-w-[20ch] text-white">
-          We know the ground we buy on.
-        </h2>
-        <p className="lede mt-5 max-w-[46rem] text-white/75">
-          Every claim on this site cites the statute or the county record it came from. Here is a
-          sample of what actually governs property in Ada County.
-        </p>
+        <div className="text-center">
+          <hr className="rule-accent centered" />
+          <h2 id="local" className="display-lg mx-auto mt-6 max-w-[18ch] text-[var(--bpg-ink)]">
+            We know the ground we buy on.
+          </h2>
+          <p className="lede mx-auto mt-5 max-w-[46rem] text-[var(--bpg-muted)]">
+            Every claim on this site cites the statute or the county record it came from. Here is a
+            sample of what actually governs property in Ada County.
+          </p>
+        </div>
 
-        <div className="mt-14 grid gap-x-12 gap-y-11 md:grid-cols-2">
+        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {FACTS.map((f) => (
-            <article key={f.cite} className="border-t border-white/20 pt-6">
-              <h3 className="text-[1.12rem] font-semibold leading-snug text-white">{f.fact}</h3>
-              <p className="mt-2.5 leading-relaxed text-white/70">{f.detail}</p>
-              <p className="eyebrow mt-4 text-[var(--bpg-accent)]">{f.cite}</p>
+            <article key={f.cite} className="card card-tint bg-[var(--bpg-tint)] p-7">
+              <h3 className="text-[1.12rem] font-semibold leading-snug text-[var(--bpg-ink)]">{f.fact}</h3>
+              <p className="mt-2.5 leading-relaxed text-[var(--bpg-muted)]">{f.detail}</p>
+              <p className="eyebrow mt-4 text-[var(--bpg-accent-ink)]">{f.cite}</p>
             </article>
           ))}
         </div>

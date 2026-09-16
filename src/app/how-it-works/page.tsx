@@ -52,11 +52,11 @@ export default function HowItWorks() {
     <>
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
-        <header className="bg-[var(--bpg-ink)] py-16 text-white sm:py-20">
+        <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
             <p className="eyebrow text-[var(--bpg-accent)]">Process</p>
-            <h1 className="display-xl mt-4 max-w-[16ch] text-white">How it works</h1>
-            <p className="lede mt-6 max-w-[44rem] text-white/85">
+            <h1 className="display-xl mt-4 max-w-[16ch] text-[var(--bpg-ink)]">How it works</h1>
+            <p className="lede mt-6 max-w-[44rem] text-[var(--bpg-muted)]">
               An offer is arithmetic, not a negotiating position. Here is the arithmetic.
             </p>
           </div>
@@ -78,7 +78,7 @@ export default function HowItWorks() {
         {/* Illustrative photography — not a client and not a completed sale.
             See the note in components/HumanScale.tsx. */}
         <div className="wrap pb-16">
-          <div className="overflow-hidden rounded-sm border border-[var(--bpg-border)]">
+          <div className="overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)]">
             <Image
               src="/images/people-kitchen-table.webp"
               alt="Two people sitting at a kitchen table with an open folder of paperwork between them"

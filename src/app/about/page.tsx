@@ -26,10 +26,10 @@ export default function About() {
     <>
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
-        <header className="bg-[var(--bpg-ink)] py-16 text-white sm:py-20">
+        <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
             <p className="eyebrow text-[var(--bpg-accent)]">About</p>
-            <h1 className="display-xl mt-4 max-w-[18ch] text-white">
+            <h1 className="display-xl mt-4 max-w-[18ch] text-[var(--bpg-ink)]">
               A property acquisition group in Ada County.
             </h1>
           </div>

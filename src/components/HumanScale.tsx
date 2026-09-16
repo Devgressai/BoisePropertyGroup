@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 /**
- * A full-bleed image band between the process and the evidence sections.
+ * A photograph-and-copy band between the process and the evidence sections.
  *
  * ⚠️ THIS IS NOT A TESTIMONIAL, AND MUST NEVER BECOME ONE.
  *
@@ -20,45 +20,35 @@ import Link from "next/link";
  */
 export default function HumanScale() {
   return (
-    <section className="relative isolate overflow-hidden" aria-labelledby="human-scale">
-      <div className="relative min-h-[26rem] lg:min-h-[32rem]">
-        <Image
-          src="/images/porch-conversation.webp"
-          alt="Two people talking on the covered porch of a single-storey Idaho house at the end of the day"
-          fill
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-        <div
-          aria-hidden="true"
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(90deg, rgba(26,33,28,0.92) 0%, rgba(26,33,28,0.82) 34%, rgba(26,33,28,0.28) 62%, rgba(26,33,28,0.05) 100%)",
-          }}
-        />
-        <div className="wrap relative flex min-h-[26rem] items-center py-16 lg:min-h-[32rem]">
-          <div className="max-w-[34rem]">
-            <hr className="rule-accent" />
-            <h2 id="human-scale" className="display-lg mt-6 text-white">
-              Most of this is a conversation, not a transaction.
-            </h2>
-            <p className="lede mt-5 text-white/80">
-              A property sale usually arrives mid-something — an estate to settle, a rental someone is done
-              with, ground inherited and never seen. The property question is usually the
-              easiest part of it.
-            </p>
-            <p className="mt-4 leading-relaxed text-white/70">
-              You can ask us what a number would look like without deciding anything, and we will
-              tell you when selling to a buyer like us is the wrong move.
-            </p>
-            <Link
-              href="/how-it-works"
-              className="btn btn-onDark mt-8 inline-flex !min-h-[46px] !px-6"
-            >
-              How it actually works
-            </Link>
-          </div>
+    <section className="py-20 sm:py-24" aria-labelledby="human-scale">
+      <div className="wrap grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+        <div className="max-w-[34rem]">
+          <hr className="rule-accent" />
+          <h2 id="human-scale" className="display-lg mt-6 text-[var(--bpg-ink)]">
+            Most of this is a conversation, not a transaction.
+          </h2>
+          <p className="lede mt-5 text-[var(--bpg-muted)]">
+            A property sale usually arrives mid-something — an estate to settle, a rental someone is done
+            with, ground inherited and never seen. The property question is usually the
+            easiest part of it.
+          </p>
+          <p className="mt-4 leading-relaxed text-[var(--bpg-muted)]">
+            You can ask us what a number would look like without deciding anything, and we will
+            tell you when selling to a buyer like us is the wrong move.
+          </p>
+          <Link href="/how-it-works" className="btn btn-secondary mt-8 inline-flex !min-h-[46px] !px-6">
+            How it actually works
+          </Link>
+        </div>
+        <div className="card overflow-hidden">
+          <Image
+            src="/images/porch-conversation.webp"
+            alt="Two people talking on the covered porch of a single-storey Idaho house at the end of the day"
+            width={1536}
+            height={1024}
+            sizes="(min-width: 1024px) 560px, 100vw"
+            className="h-[18rem] w-full object-cover object-center sm:h-[24rem] lg:h-[26rem]"
+          />
         </div>
       </div>
     </section>

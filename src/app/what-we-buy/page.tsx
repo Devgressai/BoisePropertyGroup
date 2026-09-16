@@ -18,11 +18,11 @@ export default function WhatWeBuyPage() {
     <>
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
-        <header className="bg-[var(--bpg-ink)] py-16 text-white sm:py-20">
+        <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
             <p className="eyebrow text-[var(--bpg-accent)]">Acquisition criteria</p>
-            <h1 className="display-xl mt-4 max-w-[16ch] text-white">What we buy</h1>
-            <p className="lede mt-6 max-w-[44rem] text-white/85">
+            <h1 className="display-xl mt-4 max-w-[16ch] text-[var(--bpg-ink)]">What we buy</h1>
+            <p className="lede mt-6 max-w-[44rem] text-[var(--bpg-muted)]">
               Specific enough to be useful. If your property is on this page, it is worth a
               conversation; if it is not, we will tell you rather than waste your time.
             </p>

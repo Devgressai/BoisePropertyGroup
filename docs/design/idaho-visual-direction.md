@@ -183,3 +183,43 @@ lots, acreage and problem parcels; the imagery should show those. Generated
 imagery is permitted as illustration and must be captioned as illustration —
 never a face presented as a real person, never a property captioned as one we
 bought. That rule is inherited from Sierra verbatim and is not negotiable.
+
+---
+
+## Palette D — Sky (ADOPTED 2026-09-16, supersedes A)
+
+Owner decision, 2026-09-16: the site should feel lighter, happier and easier to
+look at, in the manner of a white, sky-blue reference site. Palette A was live
+2026-09-10 → 2026-09-16. The four dark full-bleed bands (hero, conversation,
+evidence, footer) were the main source of the heaviness and no longer exist:
+every surface is white or a pale tint, and the display face is Montserrat
+rather than a serif.
+
+The ratios below are computed AND enforced: `tests/palette.test.ts` reads
+`src/app/globals.css` and fails CI on any pair under threshold.
+
+### Tokens
+
+| Token | Hex | Role |
+|---|---|---|
+| `--bpg-ink` | `#1E2A36` | Headlines, body — 14.59:1 on white |
+| `--bpg-primary` | `#1668B0` | Button fill — white on it 5.77:1 |
+| `--bpg-primary-dark` | `#155FA3` | Hover/pressed — white on it 6.57:1 |
+| `--bpg-surface` / `--bpg-background` | `#FFFFFF` | Page and cards |
+| `--bpg-sand` | `#F4F7FA` | Alternate band |
+| `--bpg-tint` | `#EAF4FB` | Soft blue band and evidence cards |
+| `--bpg-tint-res` / `-land` / `-com` | `#EAF4FB` / `#EAF7F1` / `#F3EEFB` | Pastel card tints, What-we-buy groups |
+| `--bpg-border` | `#DCE4EC` | Decorative dividers only |
+| `--bpg-border-strong` | `#6F8093` | Input boundaries — 3.63:1 on tint |
+| `--bpg-muted` | `#4F5E6B` | Secondary text — 5.86:1 on the darkest tint |
+| `--bpg-accent` | `#1E8FE0` | Large text, rules, icons — 3.04:1 on the darkest tint |
+| `--bpg-accent-ink` | `#1668B0` | Small text on light — 5.06:1 on the darkest tint |
+| `--bpg-sky` | `#2EA3F2` | DECORATIVE ONLY (2.75:1 on white) |
+| `--bpg-teal` | `#1AA6BB` | DECORATIVE ONLY (2.91:1 on white) |
+
+The reference site's own sky blue cannot carry text at any size on white, which
+is why it survives here only as a gradient colour. Constraint 1 ("light reading
+surfaces") is now absolute rather than "deep colour confined to header and
+footer". Constraint 5 ("not a costume") still applies; the risk with this
+palette is the opposite one — reading as generic SaaS — which spacing, the
+pastel tints and the photography are there to counter.

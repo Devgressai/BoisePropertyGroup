@@ -18,11 +18,11 @@ export default function GuidesHub() {
     <>
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
-        <header className="bg-[var(--bpg-ink)] py-16 text-white sm:py-20">
+        <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
             <p className="eyebrow text-[var(--bpg-accent)]">Idaho property</p>
-            <h1 className="display-xl mt-4 max-w-[14ch] text-white">Guides</h1>
-            <p className="lede mt-6 max-w-[46rem] text-white/85">
+            <h1 className="display-xl mt-4 max-w-[14ch] text-[var(--bpg-ink)]">Guides</h1>
+            <p className="lede mt-6 max-w-[46rem] text-[var(--bpg-muted)]">
               What the statutes actually say — quoted, attributed and dated. Written because most of
               what is published about selling property in Idaho is either generic or wrong, and a
               seller making a decision deserves better than either.
@@ -31,7 +31,7 @@ export default function GuidesHub() {
         </header>
 
         <div className="wrap py-16">
-          <ul className="grid gap-px overflow-hidden rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-border)] md:grid-cols-2">
+          <ul className="grid gap-px overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-border)] md:grid-cols-2">
             {guides.map((g) => (
               <li key={g.slug} className="bg-[var(--bpg-surface)]">
                 <Link href={`/guides/${g.slug}`} className="block h-full p-8 no-underline">

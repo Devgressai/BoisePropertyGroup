@@ -31,20 +31,20 @@ export default function CommercialHub() {
     <>
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
-        <header className="bg-[var(--bpg-ink)] py-16 text-white sm:py-20">
+        <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
             <p className="eyebrow text-[var(--bpg-accent)]">Commercial</p>
-            <h1 className="display-xl mt-4 max-w-[20ch] text-white">
+            <h1 className="display-xl mt-4 max-w-[20ch] text-[var(--bpg-ink)]">
               Commercial property, valued on what it earns
             </h1>
             <div className="mt-8 max-w-[42rem] space-y-4">
-              <p className="lede text-white/80">
+              <p className="lede text-[var(--bpg-muted)]">
                 Above four units, and across office, industrial and retail, a property stops
                 being valued by comparison to its neighbours and starts being valued on the
                 income it produces. That single change is behind almost everything else that
                 is different about selling one.
               </p>
-              <p className="lede text-white/80">
+              <p className="lede text-[var(--bpg-muted)]">
                 We buy industrial, multifamily from five units up, office and commercial land
                 in Boise and across Ada County.
               </p>
@@ -64,7 +64,7 @@ export default function CommercialHub() {
             </p>
           </div>
 
-          <div className="mt-9 grid gap-px overflow-hidden rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-border)] sm:grid-cols-2">
+          <div className="mt-9 grid gap-px overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-border)] sm:grid-cols-2">
             {ASSETS.map((p) => (
               <Link
                 key={p.slug}
@@ -90,7 +90,7 @@ export default function CommercialHub() {
                   number and a transaction price are rarely the same figure.
                 </p>
               </div>
-              <div className="mt-7 grid gap-px overflow-hidden rounded-sm border border-[var(--bpg-border)] bg-[var(--bpg-border)]">
+              <div className="mt-7 grid gap-px overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-border)]">
                 {EXPLAINERS.map((p) => (
                   <Link
                     key={p.slug}
