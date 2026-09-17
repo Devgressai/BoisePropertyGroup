@@ -48,6 +48,16 @@ const FACTS = [
   },
 ];
 
+/** Decorative top edges, full saturation: nothing reads on top of them. */
+const EDGES = [
+  "var(--bpg-sky)",
+  "var(--bpg-teal)",
+  "var(--bpg-warm-bright)",
+  "var(--bpg-accent)",
+  "var(--bpg-success)",
+  "#7C5BC7",
+];
+
 export default function LocalKnowledge() {
   return (
     <section className="py-20 sm:py-28" aria-labelledby="local">
@@ -64,11 +74,20 @@ export default function LocalKnowledge() {
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {FACTS.map((f) => (
-            <article key={f.cite} className="card card-tint bg-[var(--bpg-tint)] p-7">
-              <h3 className="text-[1.12rem] font-semibold leading-snug text-[var(--bpg-ink)]">{f.fact}</h3>
-              <p className="mt-2.5 leading-relaxed text-[var(--bpg-muted)]">{f.detail}</p>
-              <p className="eyebrow mt-4 text-[var(--bpg-accent-ink)]">{f.cite}</p>
+          {FACTS.map((f, idx) => (
+            <article key={f.cite} className="card card-lift overflow-hidden p-0">
+              {/* The bar rotates through the palette so six cards read as a set
+                  rather than six copies. It is decorative and carries no text. */}
+              <span
+                aria-hidden="true"
+                className="block h-1.5 w-full"
+                style={{ background: EDGES[idx % EDGES.length] }}
+              />
+              <div className="p-7">
+                <h3 className="text-[1.12rem] font-semibold leading-snug text-[var(--bpg-ink)]">{f.fact}</h3>
+                <p className="mt-2.5 leading-relaxed text-[var(--bpg-muted)]">{f.detail}</p>
+                <p className="eyebrow mt-4 text-[var(--bpg-accent-ink)]">{f.cite}</p>
+              </div>
             </article>
           ))}
         </div>

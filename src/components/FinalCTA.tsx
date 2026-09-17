@@ -3,7 +3,7 @@ import { site } from "@/data/site";
 
 export default function FinalCTA() {
   return (
-    <section id="offer" className="bg-[var(--bpg-tint)] py-20 sm:py-28">
+    <section id="offer" className="glow-close py-20 sm:py-28">
       <div className="wrap">
         <div className="mx-auto max-w-[42rem] text-center">
           <hr className="rule-accent centered" />

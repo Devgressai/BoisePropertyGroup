@@ -34,7 +34,7 @@ export default function Locations() {
               is the top source of duplication in a location silo. */}
           <Link
             href={`/${county.slug}`}
-            className="block rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-surface)] p-8 no-underline transition-colors hover:border-[var(--bpg-border-strong)]"
+            className="card card-lift block p-8 no-underline"
           >
             <h2 className="display-md text-[var(--bpg-ink)]">{county.name}</h2>
             <p className="mt-2 max-w-[52ch] text-[var(--bpg-muted)]">

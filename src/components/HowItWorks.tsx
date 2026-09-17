@@ -1,19 +1,30 @@
 import Image from "next/image";
+import { IconPin, IconMath, IconCalendar } from "./Icons";
+
 const STEPS = [
   {
     n: "1",
     t: "Tell us the address",
     d: "That is the whole first step. We pull the parcel record, comparable sales and what the property actually is before we ask you anything else.",
+    Icon: IconPin,
+    chip: "#DCEBF9",
+    ink: "var(--bpg-accent-ink)",
   },
   {
     n: "2",
     t: "We show you the number and the maths",
     d: "Not just an offer — the after-repair value we used, the work we think it needs, our holding costs and the spread we run on. You can check every line.",
+    Icon: IconMath,
+    chip: "#D8EFE3",
+    ink: "var(--bpg-success)",
   },
   {
     n: "3",
     t: "You choose the date",
     d: "Accept, and we open escrow with a local title company. Need three weeks, or three months? Your call, not ours.",
+    Icon: IconCalendar,
+    chip: "#FBE8CE",
+    ink: "var(--bpg-warm)",
   },
 ];
 
@@ -32,13 +43,15 @@ export default function HowItWorks() {
         </div>
         <ol className="mt-12 grid gap-6 md:grid-cols-3">
           {STEPS.map((s) => (
-            <li key={s.n} className="card p-7 text-center">
-              <span
-                className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-[var(--bpg-tint)] text-[1.15rem] font-semibold text-[var(--bpg-accent-ink)]"
-                aria-hidden="true"
-              >
-                {s.n}
-              </span>
+            <li key={s.n} className="card card-lift p-7">
+              <div className="flex items-center gap-3.5">
+                <span className="chip" style={{ background: s.chip, color: s.ink }}>
+                  <s.Icon />
+                </span>
+                <span className="eyebrow text-[var(--bpg-muted)]" aria-hidden="true">
+                  Step {s.n}
+                </span>
+              </div>
               <h3 className="mt-4 text-[1.15rem] font-semibold text-[var(--bpg-ink)]">{s.t}</h3>
               <p className="mt-2.5 leading-relaxed text-[var(--bpg-muted)]">{s.d}</p>
             </li>

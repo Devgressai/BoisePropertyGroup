@@ -46,8 +46,9 @@ const COLS = [
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="border-t border-[var(--bpg-border)] bg-[var(--bpg-sand)] pb-10 pt-16 text-[var(--bpg-muted)]">
-      <div className="wrap">
+    <footer className="bg-[var(--bpg-sand)] pb-10 text-[var(--bpg-muted)]">
+      <hr className="accent-rule" />
+      <div className="wrap pt-16">
         <div className="grid gap-10 md:grid-cols-[1.4fr_repeat(3,1fr)]">
           <div>
             <p className="display-md text-[var(--bpg-ink)]" style={{ fontSize: "1.25rem", lineHeight: 1.1 }}>

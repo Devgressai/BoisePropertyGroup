@@ -31,7 +31,18 @@ const t = (name: string) => {
   return v;
 };
 
-const LIGHT_SURFACES = ["surface", "background", "sand", "tint", "tint-res", "tint-land", "tint-com"];
+const LIGHT_SURFACES = [
+  "surface",
+  "background",
+  "sand",
+  "tint",
+  "tint-res",
+  "tint-land",
+  "tint-com",
+  "warm-tint",
+  "mint",
+  "lilac",
+];
 
 describe("palette contrast (computed from globals.css)", () => {
   it("parses the tokens", () => {
@@ -71,5 +82,23 @@ describe("palette contrast (computed from globals.css)", () => {
 
   it("the page is light: every reading surface is near-white", () => {
     for (const s of LIGHT_SURFACES) expect(lum(t(s)), s).toBeGreaterThan(0.8);
+  });
+
+  /**
+   * The warm secondary is split on the same rule as the blue. `warm` carries
+   * small text; `warm-bright` is a fill that ink sits on and must NEVER be used
+   * for text on a light surface — this test is what keeps that from drifting.
+   */
+  it("warm carries small text on every light surface (>= 4.5:1)", () => {
+    for (const s of LIGHT_SURFACES) {
+      expect(ratio(t("warm"), t(s)), `warm on ${s}`).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+
+  it("ink reads on the bright warm fill (>= 4.5:1), which is a fill and not a text colour", () => {
+    expect(ratio(t("ink"), t("warm-bright"))).toBeGreaterThanOrEqual(4.5);
+    // Stated as a fact about the token, so a later edit to something that could
+    // pass as text colour fails here rather than silently shipping.
+    expect(ratio(t("warm-bright"), t("surface"))).toBeLessThan(3);
   });
 });
