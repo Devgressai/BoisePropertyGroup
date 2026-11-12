@@ -50,27 +50,25 @@ const FACTS = [
 
 export default function LocalKnowledge() {
   return (
-    <section className="border-t border-[var(--bpg-border)] bg-[var(--bpg-tint)] py-20 sm:py-28" aria-labelledby="local">
+    <section className="section bg-[var(--bpg-sand)]" aria-labelledby="local">
       <div className="wrap">
-        <div className="text-center">
-          <hr className="rule-accent centered" />
-          <h2 id="local" className="display-lg mx-auto mt-6 max-w-[18ch] text-[var(--bpg-ink)]">
+        <div className="section-head">
+          <p className="eyebrow text-[var(--bpg-warm)]">Local knowledge, with sources</p>
+          <h2 id="local" className="display-lg mt-4 text-[var(--bpg-ink)]">
             We know the ground we buy on.
           </h2>
-          <p className="lede mx-auto mt-5 max-w-[46rem] text-[var(--bpg-muted)]">
+          <p className="lede mt-5 text-[var(--bpg-muted)]">
             Every claim on this site cites the statute or the county record it came from. Here is a
             sample of what actually governs property in Ada County.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-x-12 md:grid-cols-2">
           {FACTS.map((f) => (
-            <article key={f.cite} className="card card-lift overflow-hidden p-0">
-              <div className="p-7">
-                <h3 className="text-[1.12rem] font-semibold leading-snug text-[var(--bpg-ink)]">{f.fact}</h3>
-                <p className="mt-2.5 leading-relaxed text-[var(--bpg-muted)]">{f.detail}</p>
-                <p className="eyebrow mt-5 border-t border-[var(--bpg-border)] pt-4 text-[var(--bpg-warm)]">{f.cite}</p>
-              </div>
+            <article key={f.cite} className="border-t border-[var(--bpg-border)] py-7">
+              <h3 className="serif text-[1.3rem] font-semibold leading-snug text-[var(--bpg-ink)]">{f.fact}</h3>
+              <p className="mt-2.5 leading-relaxed text-[var(--bpg-muted)]">{f.detail}</p>
+              <p className="eyebrow mt-4 text-[var(--bpg-warm)]">{f.cite}</p>
             </article>
           ))}
         </div>

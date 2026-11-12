@@ -4,6 +4,9 @@ import Hero from "@/components/Hero";
 import WhatWeBuy from "@/components/WhatWeBuy";
 import HowItWorks from "@/components/HowItWorks";
 import HumanScale from "@/components/HumanScale";
+import TrustBar from "@/components/TrustBar";
+import Situations from "@/components/Situations";
+import OfferMath from "@/components/OfferMath";
 import LocalKnowledge from "@/components/LocalKnowledge";
 import WhenNotToSell from "@/components/WhenNotToSell";
 import FinalCTA from "@/components/FinalCTA";
@@ -33,11 +36,14 @@ export default function Home() {
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
         <Hero />
+        <TrustBar />
+        <Situations />
         <WhatWeBuy />
-        <HowItWorks />
+        <OfferMath />
         <HumanScale />
-        <LocalKnowledge />
+        <HowItWorks />
         <WhenNotToSell />
+        <LocalKnowledge />
         <Explore />
         <FinalCTA anchor={false} />
       </main>

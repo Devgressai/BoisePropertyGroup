@@ -1,73 +1,68 @@
-import Image from "next/image";
-import { IconPin, IconMath, IconCalendar } from "./Icons";
+import Link from "next/link";
 
+/**
+ * The process as a numbered timeline.
+ *
+ * Time labels are deliberately conditional ("When you accept", "Your call").
+ * The owner has confirmed the seller picks the date and that three weeks is
+ * realistic; no response-time or same-day promise has been confirmed, so none
+ * appears here.
+ */
 const STEPS = [
-  {
-    n: "1",
-    t: "Tell us the address",
-    d: "That is the whole first step. We pull the parcel record, comparable sales and what the property actually is before we ask you anything else.",
-    Icon: IconPin,
-  },
-  {
-    n: "2",
-    t: "We show you the number and the maths",
-    d: "Not just an offer — the after-repair value we used, the work we think it needs, our holding costs and the spread we run on. You can check every line.",
-    Icon: IconMath,
-  },
-  {
-    n: "3",
-    t: "You choose the date",
-    d: "Accept, and we open escrow with a local title company. Need three weeks, or three months? Your call, not ours.",
-    Icon: IconCalendar,
-  },
+  { when: "Day one", t: "You send the address", d: "Then a name and a phone number. That is the whole of what we ask to start." },
+  { when: "Before we call", t: "We look the property up", d: "Parcel record, assessed value, zoning, floodplain maps. Most of it is public, and we do it before we bother you." },
+  { when: "Next", t: "We value it", d: "For a house, comparable sales nearby — and since Idaho does not publish sale prices, we tell you which ones we used. For income property, the rent roll and the real operating costs." },
+  { when: "With the number", t: "You get the working, not just the answer", d: "The value we used, the work we priced, the holding costs and the margin. If the number disappoints you, the working shows where we might be wrong." },
+  { when: "As long as you need", t: "You decide", d: "No obligation. Talk to family, get a second opinion, compare it with listing." },
+  { when: "When you accept", t: "Escrow opens with a local title company", d: "A neutral third party holds the money and handles the paperwork. We fund the purchase with our own capital." },
+  { when: "Your call", t: "You pick the closing date", d: "A three-week close is realistic. If you need longer — a move, a school year, a probate hearing — the date is yours." },
+  { when: "Closing day", t: "Title records the sale and pays you", d: "The deed is recorded and the title company pays out the proceeds." },
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="border-y border-[var(--bpg-border)] bg-[var(--bpg-sand)] py-20 sm:py-28" aria-labelledby="how-it-works">
+    <section className="section bg-[var(--bpg-sand)]" aria-labelledby="how-it-works">
       <div className="wrap">
-        <div className="text-center">
-          <hr className="rule-accent centered" />
-          <h2 id="how-it-works" className="display-lg mt-6 text-[var(--bpg-ink)]">
-            How it works
+        <div className="section-head">
+          <p className="eyebrow text-[var(--bpg-warm)]">The process</p>
+          <h2 id="how-it-works" className="display-lg mt-4 text-[var(--bpg-ink)]">
+            Eight steps, from the address to the money.
           </h2>
-          <p className="lede mx-auto mt-4 max-w-[36rem] text-[var(--bpg-muted)]">
-            Three steps, and you are in charge of the last one.
+          <p className="lede mt-5 text-[var(--bpg-muted)]">
+            Most of the stress in selling comes from not knowing what happens next. Here is the
+            whole thing, including the parts where nothing is expected of you.
           </p>
         </div>
-        <ol className="mt-12 grid gap-6 md:grid-cols-3">
-          {STEPS.map((s) => (
-            <li key={s.n} className="card card-lift relative p-7 pt-8">
-              <span aria-hidden="true" className="absolute inset-x-7 top-0 h-[3px] rounded-b bg-[var(--bpg-primary)]" />
-              <div className="flex items-center justify-between">
-                <span
-                  aria-hidden="true"
-                  className="font-[family-name:var(--font-display)] text-[2.6rem] font-semibold leading-none text-[var(--bpg-accent)]"
-                >
-                  {s.n}
-                </span>
-                <span className="chip bg-[var(--bpg-tint)] text-[var(--bpg-ink)]">
-                  <s.Icon />
-                </span>
+
+        <ol className="mt-12">
+          {STEPS.map((s, i) => (
+            <li
+              key={s.t}
+              className="grid gap-x-8 gap-y-1 border-t border-[var(--bpg-border)] py-7 last:border-b md:grid-cols-[4rem_11rem_1fr]"
+            >
+              <span aria-hidden="true" className="serif text-[1.6rem] leading-none text-[var(--bpg-accent)]">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span className="eyebrow pt-1 text-[var(--bpg-warm)]">{s.when}</span>
+              <div>
+                <h3 className="serif text-[1.3rem] font-semibold text-[var(--bpg-ink)]">{s.t}</h3>
+                <p className="mt-2 max-w-[42rem] leading-relaxed text-[var(--bpg-muted)]">{s.d}</p>
               </div>
-              <h3 className="mt-5 text-[1.15rem] font-semibold text-[var(--bpg-ink)]">{s.t}</h3>
-              <p className="mt-2.5 leading-relaxed text-[var(--bpg-muted)]">{s.d}</p>
             </li>
           ))}
         </ol>
 
-        {/* Illustrative photography. Not a client, not a completed sale — see
-            the note in HumanScale.tsx. It sits here because the third step is
-            the one people picture, and a wall of text about escrow does not. */}
-        <div className="card mt-10 overflow-hidden">
-          <Image
-            src="/images/keys-handover.webp"
-            alt="A house key being passed from one person to another across a wooden table"
-            width={1024}
-            height={768}
-            sizes="(min-width: 1200px) 1152px, 100vw"
-            className="h-[16rem] w-full object-cover object-center sm:h-[20rem]"
-          />
+        <p className="mt-10 max-w-[40rem] text-[1.02rem] leading-relaxed text-[var(--bpg-muted)]">
+          Nothing above obligates you, including the offer. Walking away at any stage is a normal
+          outcome, not a failure.
+        </p>
+        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3">
+          <a href="#offer" className="btn btn-primary">
+            Start with step one <span aria-hidden="true">→</span>
+          </a>
+          <Link href="/how-it-works" className="text-sm font-semibold text-[var(--bpg-ink)] underline decoration-[var(--bpg-brass)] underline-offset-4">
+            Read the longer version
+          </Link>
         </div>
       </div>
     </section>

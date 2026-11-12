@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
           {COLS.map((c) => (
             <div key={c.h}>
-              <h2 className="eyebrow text-[var(--bpg-primary)]">{c.h}</h2>
+              <h2 className="eyebrow text-[var(--bpg-brass)]">{c.h}</h2>
               <ul className="mt-4 space-y-2.5">
                 {c.links.map(([label, href]) => (
                   <li key={label}>

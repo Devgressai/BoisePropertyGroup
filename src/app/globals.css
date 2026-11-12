@@ -8,10 +8,13 @@
      NAVY   — ink, the closing band and the footer. Stability; the colour of
               the institutions a seller already trusts with money.
      IVORY  — the alternate band. Warm paper, not screen grey.
-     BRASS  — the ONLY saturated colour, and it means one thing: the action.
-              Buttons are brass with navy text, so the eye has one place to go
-              on every screen (isolation effect). Brass also draws hairlines
-              and numerals; it never carries small text on a light surface.
+     BRASS  — the ONLY saturated colour. On light pages it draws hairlines,
+              numerals and labels; on navy bands it is the button. Buttons on
+              light surfaces are solid navy with white text.
+
+   Layout rule (2026-11-12): editorial, not cards. Sections are left-aligned
+   and lists are divided by hairlines (.rule-list). A grid of icon cards is
+   the single strongest "template" signal and is not used on the homepage.
 
    Restraint is the premium signal: the pastel set (blue / mint / lilac /
    amber) is gone, and those token names now resolve to neutrals.
@@ -25,8 +28,10 @@
   --bpg-navy-soft:     #183252; /* cards and rules on navy */
   --bpg-on-navy:       #FFFFFF; /* headings on navy — 16.1:1 */
   --bpg-on-navy-muted: #B9C5D3; /* body on navy — 9.19:1 */
-  --bpg-primary:       #E3B44B; /* THE button fill. Navy text on it 8.35:1 */
-  --bpg-primary-dark:  #D6A53A; /* hover/pressed — navy on it 7.13:1 */
+  --bpg-primary:       #0E2238; /* button fill on light — white on it 16.1:1 */
+  --bpg-primary-dark:  #1D3A5C; /* hover — white on it 11.6:1 */
+  --bpg-brass:         #E3B44B; /* button fill on NAVY bands — navy text 8.35:1 */
+  --bpg-brass-dark:    #D6A53A; /* hover — navy on it 7.13:1 */
   --bpg-surface:       #FFFFFF; /* card and panel surface */
   --bpg-background:    #FFFFFF; /* page background */
   --bpg-sand:          #F7F4EE; /* alternate band — warm ivory */
@@ -139,19 +144,20 @@ body {
    Minimum 48px touch target throughout (WCAG 2.2 AA target size).           */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
-  min-height: 52px; padding: 0 1.6rem; border-radius: 8px;
+  min-height: 52px; padding: 0 1.6rem; border-radius: 6px;
   font-weight: 600; font-size: 1rem; letter-spacing: .01em;
   text-decoration: none; cursor: pointer; border: 2px solid transparent;
   transition: background-color .18s ease, border-color .18s ease, transform .18s ease, box-shadow .18s ease;
 }
 .btn:active { transform: translateY(1px); }
-/* Brass fill, navy text: the one saturated thing on the screen. */
 .btn-primary {
-  background: linear-gradient(180deg, #EBC162 0%, var(--bpg-primary) 100%);
-  color: var(--bpg-ink);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), 0 10px 24px -10px rgba(166, 122, 30, 0.75);
+  background: var(--bpg-primary); color: #fff;
+  box-shadow: 0 10px 24px -12px rgba(14, 34, 56, 0.6);
 }
-.btn-primary:hover { background: var(--bpg-primary-dark); transform: translateY(-1px); }
+.btn-primary:hover { background: var(--bpg-primary-dark); }
+/* The action on a navy band. */
+.btn-brass { background: var(--bpg-brass); color: var(--bpg-ink); }
+.btn-brass:hover { background: var(--bpg-brass-dark); }
 .btn-primary:disabled { opacity: .7; cursor: default; transform: none; }
 .btn-secondary {
   background: #fff; color: var(--bpg-ink);
@@ -188,7 +194,7 @@ textarea.field { resize: vertical; line-height: 1.5; }
 .pill-choice:has(input:focus-visible) { outline: 3px solid var(--bpg-accent); outline-offset: 2px; }
 
 .wrap { width: 100%; max-width: var(--bpg-maxw); margin-inline: auto; padding-inline: 1.25rem; }
-.rule-accent { height: 2px; width: 48px; background: var(--bpg-primary); border: 0; border-radius: 2px; }
+.rule-accent { height: 2px; width: 48px; background: var(--bpg-brass); border: 0; border-radius: 2px; }
 .rule-accent.centered { margin-inline: auto; }
 
 /* ── Cards ────────────────────────────────────────────────────────────────
@@ -230,7 +236,7 @@ textarea.field { resize: vertical; line-height: 1.5; }
   /* The elevated form panel: the single heaviest object on the page. */
   .form-panel {
     background: #fff; border: 1px solid var(--bpg-border);
-    border-top: 3px solid var(--bpg-primary);
+    border-top: 3px solid var(--bpg-brass);
     border-radius: var(--bpg-radius); box-shadow: var(--bpg-shadow-form);
   }
 }
@@ -265,7 +271,7 @@ textarea.field { resize: vertical; line-height: 1.5; }
    gradient is safe, because nothing reads on top of it. */
 .accent-rule {
   height: 3px; border: 0;
-  background: linear-gradient(90deg, transparent, var(--bpg-primary) 50%, transparent);
+  background: linear-gradient(90deg, transparent, var(--bpg-brass) 50%, transparent);
   opacity: .7;
 }
 
@@ -273,3 +279,20 @@ textarea.field { resize: vertical; line-height: 1.5; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
 }
+
+/* ── Editorial primitives ─────────────────────────────────────────────────
+   Hairline-divided rows instead of cards.                                   */
+.rule-list > * { border-top: 1px solid var(--bpg-border); }
+.rule-list > *:last-child { border-bottom: 1px solid var(--bpg-border); }
+.on-navy .rule-list > *, .on-navy .rule-list > *:last-child { border-color: rgba(255, 255, 255, 0.14); }
+.serif { font-family: var(--font-display-face), Georgia, serif; }
+.section { padding-block: clamp(4.5rem, 9vw, 7.5rem); }
+.section-head { max-width: 46rem; }
+
+/* Range input, drawn. */
+.range { -webkit-appearance: none; appearance: none; width: 100%; height: 28px; background: transparent; cursor: pointer; }
+.range::-webkit-slider-runnable-track { height: 3px; border-radius: 3px; background: rgba(255, 255, 255, 0.22); }
+.range::-moz-range-track { height: 3px; border-radius: 3px; background: rgba(255, 255, 255, 0.22); }
+.range::-webkit-slider-thumb { -webkit-appearance: none; height: 22px; width: 22px; margin-top: -9.5px; border-radius: 50%; background: var(--bpg-brass); border: 3px solid var(--bpg-navy); box-shadow: 0 0 0 1px var(--bpg-brass); }
+.range::-moz-range-thumb { height: 18px; width: 18px; border-radius: 50%; background: var(--bpg-brass); border: 3px solid var(--bpg-navy); }
+.range:focus-visible { outline: 3px solid var(--bpg-brass); outline-offset: 2px; }

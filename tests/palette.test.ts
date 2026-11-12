@@ -69,20 +69,22 @@ describe("palette contrast (computed from globals.css)", () => {
     }
   });
 
-  it("navy text reads on the brass button and its hover state (>= 4.5:1)", () => {
-    expect(ratio(t("ink"), t("primary"))).toBeGreaterThanOrEqual(4.5);
-    expect(ratio(t("ink"), t("primary-dark"))).toBeGreaterThanOrEqual(4.5);
+  it("white text reads on the navy button and its hover state (>= 4.5:1)", () => {
+    expect(ratio("#FFFFFF", t("primary"))).toBeGreaterThanOrEqual(4.5);
+    expect(ratio("#FFFFFF", t("primary-dark"))).toBeGreaterThanOrEqual(4.5);
   });
 
-  it("the brass button stands out on both white and navy (>= 3:1 against navy)", () => {
-    expect(ratio(t("primary"), t("navy"))).toBeGreaterThanOrEqual(3);
+  it("navy text reads on the brass button used on navy bands (>= 4.5:1)", () => {
+    expect(ratio(t("ink"), t("brass"))).toBeGreaterThanOrEqual(4.5);
+    expect(ratio(t("ink"), t("brass-dark"))).toBeGreaterThanOrEqual(4.5);
+    expect(ratio(t("brass"), t("navy"))).toBeGreaterThanOrEqual(3);
   });
 
   it("text on the navy bands reads (>= 4.5:1), including the brass column headings", () => {
     for (const bg of ["navy", "navy-soft"]) {
       expect(ratio(t("on-navy"), t(bg)), `on-navy on ${bg}`).toBeGreaterThanOrEqual(4.5);
       expect(ratio(t("on-navy-muted"), t(bg)), `on-navy-muted on ${bg}`).toBeGreaterThanOrEqual(4.5);
-      expect(ratio(t("primary"), t(bg)), `primary on ${bg}`).toBeGreaterThanOrEqual(4.5);
+      expect(ratio(t("brass"), t(bg)), `brass on ${bg}`).toBeGreaterThanOrEqual(4.5);
     }
   });
 

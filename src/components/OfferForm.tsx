@@ -13,6 +13,7 @@ import {
   normalizePhone,
   type LeadContext,
 } from "@/lib/lead";
+import { IconPin } from "./Icons";
 
 /**
  * Two steps, deliberately.
@@ -34,7 +35,13 @@ export default function OfferForm({
   context = "residential",
   bare = false,
   stack = false,
+  bar = false,
+  note,
 }: {
+  /** Hero style: one white address bar with the button inside it. */
+  bar?: boolean;
+  /** Replaces the line under step 1. */
+  note?: string;
   context?: LeadContext;
   /** Sits inside a panel that already draws the card, so it draws none of its own. */
   bare?: boolean;
@@ -266,6 +273,36 @@ export default function OfferForm({
       <label htmlFor={`${uid}-address`} className="sr-only">
         Property address
       </label>
+      {bar ? (
+        <div className="flex flex-col gap-2 rounded-xl border border-[var(--bpg-border)] bg-white p-2 shadow-[var(--bpg-shadow-form)] focus-within:border-[var(--bpg-ink)] focus-within:ring-[3px] focus-within:ring-[rgba(227,180,75,0.55)] sm:flex-row sm:items-center">
+          <div className="flex flex-1 items-center gap-3 pl-3">
+            <IconPin className="h-5 w-5 flex-none text-[var(--bpg-ink)]" />
+            <input
+              id={`${uid}-address`}
+              name="address"
+              className="min-h-[48px] w-full bg-transparent text-[1.02rem] text-[var(--bpg-ink)] outline-none placeholder:text-[var(--bpg-muted)]"
+              placeholder="Enter the property address"
+              autoComplete="street-address"
+              value={address}
+              onChange={(e) => setAddress(e.target.value)}
+              required
+            />
+          </div>
+          {/* Honeypot — hidden from people, catches naive bots. */}
+          <input
+            ref={trapRef}
+            type="text"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+            aria-hidden="true"
+            className="absolute left-[-9999px] h-0 w-0 opacity-0"
+          />
+          <button type="submit" className="btn btn-primary sm:w-auto" disabled={busy}>
+            {busy ? "Sending…" : "See what we’d offer"} <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      ) : (
       <div className={`flex flex-col gap-3 ${stack ? "" : "sm:flex-row"}`}>
         <input
           id={`${uid}-address`}
@@ -291,11 +328,13 @@ export default function OfferForm({
           {busy ? "Sending…" : "Get My Offer"}
         </button>
       </div>
+      )}
       {errorLine}
       <p className="mt-3 text-sm text-[var(--bpg-muted)]">
-        {context === "commercial"
+        {note ??
+          (context === "commercial"
           ? "No obligation. We’ll show our working — what we’d pay, not what it’s worth."
-          : "No obligation. We’ll show you how we got to the number."}
+          : "No obligation. We’ll show you how we got to the number.")}
       </p>
     </form>
   );

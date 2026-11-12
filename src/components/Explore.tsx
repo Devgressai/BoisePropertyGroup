@@ -2,7 +2,6 @@ import Link from "next/link";
 import { county } from "@/data/geography";
 import { contentFor } from "@/data/place-content";
 import { publishedPlaces, publishedGuides } from "@/lib/seo/registry";
-import { IconPin, IconScale } from "./Icons";
 
 /**
  * The homepage's routes into the site: every published area and every
@@ -20,56 +19,50 @@ export default function Explore() {
   ];
   const guides = publishedGuides();
   return (
-    <section className="wrap py-20 sm:py-24" aria-labelledby="explore">
-      <div className="text-center">
-        <hr className="rule-accent centered" />
-        <h2 id="explore" className="display-lg mt-6 text-[var(--bpg-ink)]">
-          Start where you are
-        </h2>
-        <p className="lede mx-auto mt-4 max-w-[38rem] text-[var(--bpg-muted)]">
-          Find your city, or read what Idaho law says about the situation you are in.
-        </p>
-      </div>
-
-      <div className="mt-12 grid gap-6 lg:grid-cols-2">
-        <div className="card p-7">
-          <div className="flex items-center gap-3.5">
-            <span className="chip bg-[var(--bpg-tint)] text-[var(--bpg-ink)]">
-              <IconPin />
-            </span>
-            <h3 className="text-[1.15rem] font-semibold text-[var(--bpg-ink)]">
-              <Link href="/locations" className="no-underline hover:text-[var(--bpg-accent-ink)]">Areas we buy in</Link>
-            </h3>
-          </div>
-          <ul className="mt-5 grid grid-cols-2 gap-x-6 gap-y-2.5">
-            {areas.map((a) => (
-              <li key={a.href}>
-                <Link href={a.href} className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]">
-                  {a.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+    <section className="section bg-white" aria-labelledby="explore">
+      <div className="wrap">
+        <div className="section-head">
+          <p className="eyebrow text-[var(--bpg-warm)]">Areas and guides</p>
+          <h2 id="explore" className="display-lg mt-4 text-[var(--bpg-ink)]">
+            Find your city, or read the law.
+          </h2>
+          <p className="lede mt-5 text-[var(--bpg-muted)]">
+            Each area page covers what governs property there. Each guide covers one situation under
+            Idaho law, with its sources.
+          </p>
         </div>
 
-        <div className="card p-7">
-          <div className="flex items-center gap-3.5">
-            <span className="chip bg-[var(--bpg-tint)] text-[var(--bpg-ink)]">
-              <IconScale />
-            </span>
-            <h3 className="text-[1.15rem] font-semibold text-[var(--bpg-ink)]">
-              <Link href="/guides" className="no-underline hover:text-[var(--bpg-accent-ink)]">Idaho selling guides</Link>
+        <div className="mt-12 grid gap-12 lg:grid-cols-[1fr_2fr]">
+          <div>
+            <h3 className="serif text-[1.3rem] font-semibold text-[var(--bpg-ink)]">
+              <Link href="/locations" className="no-underline hover:underline">Areas we buy in</Link>
             </h3>
+            <ul className="mt-4">
+              {areas.map((a) => (
+                <li key={a.href} className="border-t border-[var(--bpg-border)] last:border-b">
+                  <Link href={a.href} className="group flex items-center justify-between py-3.5 text-[var(--bpg-ink)] no-underline">
+                    {a.label}
+                    <span aria-hidden="true" className="text-[var(--bpg-accent)] transition-transform group-hover:translate-x-1">→</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
-          <ul className="mt-5 space-y-2.5">
-            {guides.map((g) => (
-              <li key={g.slug}>
-                <Link href={`/guides/${g.slug}`} className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]">
-                  {g.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <div>
+            <h3 className="serif text-[1.3rem] font-semibold text-[var(--bpg-ink)]">
+              <Link href="/guides" className="no-underline hover:underline">Idaho selling guides</Link>
+            </h3>
+            <ul className="mt-4 grid gap-x-10 sm:grid-cols-2">
+              {guides.map((g) => (
+                <li key={g.slug} className="border-t border-[var(--bpg-border)]">
+                  <Link href={`/guides/${g.slug}`} className="group flex items-center justify-between gap-4 py-3.5 text-[var(--bpg-ink)] no-underline">
+                    {g.title}
+                    <span aria-hidden="true" className="text-[var(--bpg-accent)] transition-transform group-hover:translate-x-1">→</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </section>

@@ -20,11 +20,11 @@ import Link from "next/link";
  */
 export default function HumanScale() {
   return (
-    <section className="py-20 sm:py-24" aria-labelledby="human-scale">
+    <section className="section bg-white" aria-labelledby="human-scale">
       <div className="wrap grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
         <div className="max-w-[34rem]">
-          <hr className="rule-accent" />
-          <h2 id="human-scale" className="display-lg mt-6 text-[var(--bpg-ink)]">
+          <p className="eyebrow text-[var(--bpg-warm)]">Before anything else</p>
+          <h2 id="human-scale" className="display-lg mt-4 text-[var(--bpg-ink)]">
             Most of this is a conversation, not a transaction.
           </h2>
           <p className="lede mt-5 text-[var(--bpg-muted)]">
@@ -40,7 +40,7 @@ export default function HumanScale() {
             How it actually works
           </Link>
         </div>
-        <div className="card overflow-hidden">
+        <div className="overflow-hidden rounded-2xl">
           <Image
             src="/images/porch-conversation.webp"
             alt="Two people talking on the covered porch of a single-storey Idaho house at the end of the day"

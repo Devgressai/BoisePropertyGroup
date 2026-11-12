@@ -17,7 +17,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2.5 no-underline">
           <span
             aria-hidden="true"
-            className="flex h-8 w-8 items-center justify-center rounded-[7px] bg-[var(--bpg-navy)] font-[family-name:var(--font-display)] text-[1.05rem] font-semibold leading-none text-[var(--bpg-primary)]"
+            className="flex h-8 w-8 items-center justify-center rounded-[7px] bg-[var(--bpg-navy)] font-[family-name:var(--font-display)] text-[1.05rem] font-semibold leading-none text-[var(--bpg-brass)]"
           >
             B
           </span>
