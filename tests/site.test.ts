@@ -84,3 +84,37 @@ describe("no broken internal links", () => {
     expect(missing).toEqual([]);
   });
 });
+
+import { parseDetails, normalizePhone, SITUATIONS, SITUATION_FROM_PATH } from "../src/lib/lead";
+import { TOPIC_PAGES } from "../src/data/topic-pages";
+
+describe("lead form step 2 (lib/lead.ts)", () => {
+  const base = { name: "Pat Seller", address: "123 Main St, Boise", leadId: "ab12cd34" };
+
+  it("needs a name and at least one way to reach the seller", () => {
+    expect(parseDetails({ ...base, name: "" })).toMatchObject({ ok: false });
+    expect(parseDetails({ ...base })).toMatchObject({ ok: false, error: /phone number or an email/ });
+    expect(parseDetails({ ...base, email: "pat@example.com" })).toMatchObject({ ok: true });
+    expect(parseDetails({ ...base, phone: "208 555 0134" })).toMatchObject({ ok: true });
+  });
+
+  it("rejects a malformed phone or email rather than delivering a dead lead", () => {
+    expect(parseDetails({ ...base, phone: "555-01" })).toMatchObject({ ok: false });
+    expect(parseDetails({ ...base, email: "pat@" })).toMatchObject({ ok: false });
+  });
+
+  it("normalises US phone numbers and drops unknown option values", () => {
+    expect(normalizePhone("+1 (208) 555-0134")).toBe("(208) 555-0134");
+    const r = parseDetails({ ...base, phone: "2085550134", situation: "<script>", timeline: "asap", leadId: "x<y>z" });
+    expect(r.ok && r.lead.situation).toBe("");
+    expect(r.ok && r.lead.timeline).toBe("asap");
+    expect(r.ok && r.lead.leadId).toBe("xyz");
+  });
+
+  it("pre-selects only situations that exist, on pages that exist", () => {
+    const all = new Set([...SITUATIONS.residential, ...SITUATIONS.commercial].map((o) => o.value));
+    for (const v of Object.values(SITUATION_FROM_PATH)) expect(all.has(v), v).toBe(true);
+    for (const t of TOPIC_PAGES.filter((p) => p.kind === "situation"))
+      expect(SITUATION_FROM_PATH[`/${t.slug}`], `${t.slug} has no form preset`).toBeDefined();
+  });
+});

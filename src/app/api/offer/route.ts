@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { parseDetails, labelOf, SITUATIONS, TIMELINES, CONTACT_PREFS, ROLES } from "@/lib/lead";
 
 /**
  * Lead intake.
@@ -39,7 +40,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Too many requests" }, { status: 429 });
   }
 
-  let body: { address?: unknown; context?: unknown; website?: unknown };
+  let body: Record<string, unknown>;
   try {
     body = await req.json();
   } catch {
@@ -48,18 +49,61 @@ export async function POST(req: Request) {
 
   // Honeypot: real people leave this empty.
   if (typeof body.website === "string" && body.website.trim() !== "") {
-    return NextResponse.json({ ok: true });
+    return NextResponse.json({ ok: true, leadId: "x" });
   }
 
-  const address = typeof body.address === "string" ? body.address.trim().slice(0, 300) : "";
-  if (address.length < 4) {
-    return NextResponse.json({ error: "Address required" }, { status: 400 });
-  }
-
+  const step = body.step === 2 ? 2 : 1;
   // Which side of the site the lead came from. Commercial and residential
   // enquiries need different first questions, so the subject line says which
   // rather than leaving it to be guessed from the address.
   const context = body.context === "commercial" ? "commercial" : "residential";
+  const address = typeof body.address === "string" ? body.address.trim().slice(0, 300) : "";
+  const page = typeof body.page === "string" ? body.page.slice(0, 200).replace(/[^\w\-/.]/g, "") : "";
+
+  let subject: string;
+  let html: string;
+  let replyTo: string | undefined;
+  let leadId: string;
+
+  if (step === 1) {
+    if (address.length < 4) {
+      return NextResponse.json({ error: "Address required" }, { status: 400 });
+    }
+    leadId = crypto.randomUUID().replace(/-/g, "").slice(0, 8);
+    // Branded: this inbox receives mail for several businesses.
+    subject = `[Boise Property Group] New ${context} enquiry — ${address}`;
+    html =
+      `<p><strong>Address:</strong> ${escapeHtml(address)}</p>` +
+      `<p><strong>Came from:</strong> the ${context} side of the site${page ? ` — <code>${escapeHtml(page)}</code>` : ""}</p>` +
+      `<p><strong>Lead id:</strong> ${leadId} — contact details follow in a second email if the seller completes step 2.</p>` +
+      (context === "commercial"
+        ? "<p>Ask for a rent roll and a trailing twelve months before quoting anything.</p>"
+        : "");
+  } else {
+    const parsed = parseDetails(body);
+    if (!parsed.ok) return NextResponse.json({ error: parsed.error }, { status: 400 });
+    const l = parsed.lead;
+    leadId = l.leadId || "—";
+    replyTo = l.email || undefined;
+    subject = `[Boise Property Group] Details — ${l.name} — ${l.address || "address in earlier email"}`;
+    const row = (k: string, v: string) =>
+      `<tr><td style="padding:4px 12px 4px 0;color:#4F5E6B">${k}</td><td style="padding:4px 0"><strong>${escapeHtml(v || "—")}</strong></td></tr>`;
+    html =
+      `<table style="font-family:sans-serif;font-size:15px">` +
+      row("Name", l.name) +
+      row("Phone", l.phone) +
+      row("Email", l.email) +
+      row("Prefers", labelOf(CONTACT_PREFS, l.contactPref)) +
+      row("Address", l.address) +
+      row("Situation", labelOf(SITUATIONS[l.context], l.situation)) +
+      row("Timeline", labelOf(TIMELINES, l.timeline)) +
+      row("Relationship", labelOf(ROLES, l.role)) +
+      row("Side of site", l.context) +
+      row("Page", l.page) +
+      row("Lead id", leadId) +
+      `</table>` +
+      (l.notes ? `<p style="font-family:sans-serif;font-size:15px"><strong>Notes:</strong><br>${escapeHtml(l.notes).replace(/\n/g, "<br>")}</p>` : "");
+  }
 
   const key = process.env.RESEND_API_KEY;
   if (typeof key !== "string" || key.trim() === "") {
@@ -79,18 +123,13 @@ export async function POST(req: Request) {
   const sent = await resend.emails.send({
     from: "Boise Property Group <leads@boisepropertygroup.com>",
     to,
-    // Branded: this inbox receives mail for several businesses.
-    subject: `[Boise Property Group] New ${context} enquiry — ${address}`,
-    html:
-      `<p><strong>Address:</strong> ${escapeHtml(address)}</p>` +
-      `<p><strong>Came from:</strong> the ${context} side of the site</p>` +
-      (context === "commercial"
-        ? "<p>Ask for a rent roll and a trailing twelve months before quoting anything.</p>"
-        : ""),
+    subject,
+    html,
+    ...(replyTo ? { replyTo } : {}),
   });
   if (sent.error) {
     console.error("[offer] resend error", sent.error);
     return NextResponse.json({ error: "Send failed" }, { status: 502 });
   }
-  return NextResponse.json({ ok: true });
+  return NextResponse.json({ ok: true, leadId });
 }
