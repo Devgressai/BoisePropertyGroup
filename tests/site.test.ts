@@ -89,18 +89,30 @@ import { parseDetails, normalizePhone, SITUATIONS, SITUATION_FROM_PATH } from ".
 import { TOPIC_PAGES } from "../src/data/topic-pages";
 
 describe("lead form step 2 (lib/lead.ts)", () => {
-  const base = { name: "Pat Seller", address: "123 Main St, Boise", leadId: "ab12cd34" };
+  const base = { name: "Pat Seller", address: "123 Main St, Boise", leadId: "ab12cd34", consentContact: true };
 
-  it("needs a name and at least one way to reach the seller", () => {
-    expect(parseDetails({ ...base, name: "" })).toMatchObject({ ok: false });
-    expect(parseDetails({ ...base })).toMatchObject({ ok: false, error: /phone number or an email/ });
-    expect(parseDetails({ ...base, email: "pat@example.com" })).toMatchObject({ ok: true });
-    expect(parseDetails({ ...base, phone: "208 555 0134" })).toMatchObject({ ok: true });
+  it("requires address, name and phone; email is optional", () => {
+    const ok = { ...base, phone: "208 555 0134" };
+    expect(parseDetails(ok)).toMatchObject({ ok: true });
+    expect(parseDetails({ ...ok, address: "" })).toMatchObject({ ok: false, error: /address/ });
+    expect(parseDetails({ ...ok, name: "" })).toMatchObject({ ok: false, error: /name/ });
+    expect(parseDetails({ ...base, email: "pat@example.com" })).toMatchObject({ ok: false, error: /phone number/ });
+    expect(parseDetails({ ...ok, email: "pat@example.com" })).toMatchObject({ ok: true });
+  });
+
+  it("requires call/text consent; partner consent is optional and off by default", () => {
+    const ok = { ...base, phone: "208 555 0134" };
+    expect(parseDetails({ ...ok, consentContact: false })).toMatchObject({ ok: false, error: /call or text/ });
+    expect(parseDetails({ ...ok, consentContact: "true" })).toMatchObject({ ok: false });
+    const r = parseDetails(ok);
+    expect(r.ok && r.lead.consentPartners).toBe(false);
+    const r2 = parseDetails({ ...ok, consentPartners: true });
+    expect(r2.ok && r2.lead.consentPartners).toBe(true);
   });
 
   it("rejects a malformed phone or email rather than delivering a dead lead", () => {
     expect(parseDetails({ ...base, phone: "555-01" })).toMatchObject({ ok: false });
-    expect(parseDetails({ ...base, email: "pat@" })).toMatchObject({ ok: false });
+    expect(parseDetails({ ...base, phone: "2085550134", email: "pat@" })).toMatchObject({ ok: false });
   });
 
   it("normalises US phone numbers and drops unknown option values", () => {

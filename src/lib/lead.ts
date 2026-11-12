@@ -75,6 +75,17 @@ const clip = (v: unknown, n: number) => (typeof v === "string" ? v.trim().slice(
 const oneOf = (v: unknown, list: { value: string }[]) =>
   typeof v === "string" && list.some((o) => o.value === v) ? v : "";
 
+/**
+ * Consent wording (TCPA). The EXACT text the seller ticked is copied into the
+ * lead email with a timestamp, so there is a record of what they agreed to.
+ * Contact consent is required to send the form; partner consent is optional,
+ * unticked by default, and is never a condition of getting an offer.
+ */
+export const CONSENT_CONTACT =
+  "I agree that Boise Property Group may contact me about this property by phone call or text message at the number I gave, including by automated means. Message and data rates may apply. Reply STOP to opt out of texts.";
+export const CONSENT_PARTNERS =
+  "Optional: I also agree that Boise Property Group's marketing partners may contact me by phone call or text message at the number I gave, including by automated means. Consent is not a condition of receiving an offer.";
+
 export const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 /** US numbers: 10 digits, optionally a leading 1. */
 export function normalizePhone(v: string): string {
@@ -96,6 +107,8 @@ export interface LeadDetails {
   role: string;
   notes: string;
   page: string;
+  consentContact: boolean;
+  consentPartners: boolean;
 }
 
 /** Validates step 2. Returns the clean lead, or the first problem a person can fix. */
@@ -105,15 +118,19 @@ export function parseDetails(body: Record<string, unknown>): { ok: true; lead: L
   const rawPhone = clip(body.phone, 40);
   const phone = rawPhone ? normalizePhone(rawPhone) : "";
   const email = clip(body.email, 200).toLowerCase();
+  const address = clip(body.address, 300);
+  // Required: address, name, phone. Email is optional.
+  if (address.length < 4) return { ok: false, error: "Please enter the property address." };
   if (!name) return { ok: false, error: "Please add your name." };
-  if (rawPhone && !phone) return { ok: false, error: "That phone number doesn't look complete." };
+  if (!rawPhone) return { ok: false, error: "Please add a phone number." };
+  if (!phone) return { ok: false, error: "That phone number doesn't look complete." };
   if (email && !EMAIL_RE.test(email)) return { ok: false, error: "That email address doesn't look right." };
-  if (!phone && !email) return { ok: false, error: "Add a phone number or an email so we can reach you." };
+  if (body.consentContact !== true) return { ok: false, error: "Please tick the box agreeing that we may call or text you." };
   return {
     ok: true,
     lead: {
       leadId: clip(body.leadId, 16).replace(/[^a-z0-9]/gi, ""),
-      address: clip(body.address, 300),
+      address,
       context,
       name,
       phone,
@@ -124,6 +141,8 @@ export function parseDetails(body: Record<string, unknown>): { ok: true; lead: L
       role: oneOf(body.role, ROLES),
       notes: clip(body.notes, 2000),
       page: clip(body.page, 200).replace(/[^\w\-/.]/g, ""),
+      consentContact: true,
+      consentPartners: body.consentPartners === true,
     },
   };
 }

@@ -8,6 +8,8 @@ import {
   ROLES,
   SITUATION_FROM_PATH,
   EMAIL_RE,
+  CONSENT_CONTACT,
+  CONSENT_PARTNERS,
   normalizePhone,
   type LeadContext,
 } from "@/lib/lead";
@@ -46,6 +48,8 @@ export default function OfferForm({ context = "residential" }: { context?: LeadC
     role: "owner",
     notes: "",
   });
+  const [consentContact, setConsentContact] = useState(false);
+  const [consentPartners, setConsentPartners] = useState(false);
   const nameRef = useRef<HTMLInputElement>(null);
   const doneRef = useRef<HTMLDivElement>(null);
   const trapRef = useRef<HTMLInputElement>(null);
@@ -97,13 +101,14 @@ export default function OfferForm({ context = "residential" }: { context?: LeadC
     // Same rules as the server (lib/lead.ts), checked here first so the seller
     // gets the message without a round trip.
     if (!d.name.trim()) return setError("Please add your name.");
-    if (d.phone && !normalizePhone(d.phone)) return setError("That phone number doesn't look complete.");
+    if (!d.phone.trim()) return setError("Please add a phone number.");
+    if (!normalizePhone(d.phone)) return setError("That phone number doesn't look complete.");
     if (d.email && !EMAIL_RE.test(d.email.trim())) return setError("That email address doesn't look right.");
-    if (!d.phone.trim() && !d.email.trim()) return setError("Add a phone number or an email so we can reach you.");
+    if (!consentContact) return setError("Please tick the box agreeing that we may call or text you.");
     setBusy(true);
     setError("");
     try {
-      const r = await post({ step: 2, leadId, address, ...d });
+      const r = await post({ step: 2, leadId, address, ...d, consentContact, consentPartners });
       if (!r.ok) throw new Error(r.error);
       setStep(3);
     } catch (err) {
@@ -152,19 +157,20 @@ export default function OfferForm({ context = "residential" }: { context?: LeadC
         <div className="mt-5 grid gap-4">
           <div>
             <label htmlFor={`${uid}-name`} className={lab}>Your name</label>
-            <input ref={nameRef} id={`${uid}-name`} className="field" autoComplete="name" value={d.name} onChange={set("name")} required />
+            <input ref={nameRef} id={`${uid}-name`} className="field" autoComplete="name" value={d.name} onChange={set("name")} required aria-required="true" />
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label htmlFor={`${uid}-phone`} className={lab}>Phone</label>
-              <input id={`${uid}-phone`} className="field" type="tel" inputMode="tel" autoComplete="tel" value={d.phone} onChange={set("phone")} />
+              <input id={`${uid}-phone`} className="field" type="tel" inputMode="tel" autoComplete="tel" value={d.phone} onChange={set("phone")} required aria-required="true" />
             </div>
             <div>
-              <label htmlFor={`${uid}-email`} className={lab}>Email</label>
+              <label htmlFor={`${uid}-email`} className={lab}>
+                Email <span className="font-normal text-[var(--bpg-muted)]">(optional)</span>
+              </label>
               <input id={`${uid}-email`} className="field" type="email" autoComplete="email" value={d.email} onChange={set("email")} />
             </div>
           </div>
-          <p className="-mt-2 text-xs text-[var(--bpg-muted)]">Phone or email — whichever you prefer.</p>
 
           <fieldset>
             <legend className={lab}>Best way to reach you</legend>
@@ -224,14 +230,23 @@ export default function OfferForm({ context = "residential" }: { context?: LeadC
           </div>
         </div>
 
+        <div className="mt-5 grid gap-3">
+          <label className="flex items-start gap-3 text-xs leading-relaxed text-[var(--bpg-muted)]">
+            <input type="checkbox" className="mt-0.5 h-4 w-4 flex-none accent-[var(--bpg-accent)]" checked={consentContact} onChange={(e) => setConsentContact(e.target.checked)} required aria-required="true" />
+            <span>{CONSENT_CONTACT} <span className="text-[var(--bpg-ink)]">(required)</span></span>
+          </label>
+          <label className="flex items-start gap-3 text-xs leading-relaxed text-[var(--bpg-muted)]">
+            <input type="checkbox" className="mt-0.5 h-4 w-4 flex-none accent-[var(--bpg-accent)]" checked={consentPartners} onChange={(e) => setConsentPartners(e.target.checked)} />
+            <span>{CONSENT_PARTNERS}</span>
+          </label>
+        </div>
+
         {errorLine}
 
         <button type="submit" className="btn btn-primary mt-5 w-full" disabled={busy}>
           {busy ? "Sending…" : "Send"}
         </button>
-        <p className="mt-3 text-xs leading-relaxed text-[var(--bpg-muted)]">
-          By sending, you agree we may contact you about this property by the phone number or email you gave, including by text if you chose it. No obligation.
-        </p>
+        <p className="mt-3 text-xs leading-relaxed text-[var(--bpg-muted)]">No obligation.</p>
       </form>
     );
   }
