@@ -1,0 +1,683 @@
+{
+  "claims": [
+    {
+      "id": "vb-license-required-single-act",
+      "claim": "Idaho law prohibits anyone from engaging in the business or acting in the capacity of a real estate broker or salesperson in Idaho without an active Idaho real estate license, and unless an exemption applies, a single act within those definitions is enough to count as engaging in the business.",
+      "quotedLanguage": "No person shall engage in the business or act in the capacity of real estate broker or real estate salesperson in this state without an active Idaho real estate license therefor. Unless exempted from this chapter, any single act described within the definitions of \"real estate broker\" or \"real estate salesperson\" shall be sufficient to constitute \"engaging in the business\" within the meaning of this chapter.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2002"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[54-2002, added 2000, ch. 285, sec. 3, p. 911; am. 2015, ch. 51, sec. 1, p. 111.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "One act is enough; do not say 'regularly' or 'in the business of'. Describe only; never say whether a given buyer needs a license."
+    },
+    {
+      "id": "vb-broker-definition-acting-for-others",
+      "claim": "Under Idaho's license law, a 'real estate broker' includes any person who, acting for another for compensation or the expectation of it, sells, lists, buys, negotiates or offers to do so for others; any person who represents to the public that they do these things; and any person who takes any part in procuring prospects or negotiating or closing a transaction calculated to result in those acts.",
+      "quotedLanguage": "\"Real estate broker\" means and includes: (a) Any person other than a real estate salesperson who, directly or indirectly, while acting for another for compensation or a promise or an expectation thereof, engages in any of the following: sells, lists, buys, or negotiates, or offers to sell, list, buy or negotiate the purchase, sale, option or exchange of real estate or any interest therein or business opportunity or interest therein for others; ... (c) Any person who represents to the public that the person is engaged in any of the activities in this subsection; (d) Any person who directly or indirectly engages in, directs, or takes any part in the procuring of prospects or in the negotiating or closing of any transaction which does or is calculated to result in any of the acts in this subsection; (e) A dealer in options as defined in this section.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2004"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[54-2004, added 2000, ch. 285, sec. 3, p. 912; am. 2001, ch. 123, sec. 1, p. 418; am. 2002, ch. 220, sec. 1, p. 606; am. 2002, ch. 280, sec. 1, p. 817; am. 2003, ch. 16, sec. 14, p. 61; am. 2005, ch. 107, sec. 1, p. 334; am. 2006, ch. 166, sec. 1, p. 501; am. 2007, ch. 98, sec. 1, p. 283; am. 2008, ch. 144, sec. 1, p. 235; am. 2011, ch. 108, sec. 1, p. 275; am. 2014, ch. 42, sec. 1, p. 98; am. 2014, ch. 67, sec. 1, p. 170; am. 2015, ch. 51, sec. 2, p. 111; am. 2017, ch. 232, sec. 1, p. 564; am. 2021, ch. 261, sec. 1, p. 802.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Subsection is 54-2004(39) in the current text. IREC Guideline 2 (rev. 2018) still cites it as 54-2004(36) — numbering has shifted; cite (39) or no subsection number."
+    },
+    {
+      "id": "vb-dealer-in-options-definition",
+      "claim": "Idaho's license law defines a 'dealer in options' as anyone who takes, obtains or uses options to purchase real property for another or others, whether or not the options are in their own name and whether or not title passes through them; a dealer in options falls within the definition of real estate broker.",
+      "quotedLanguage": "\"Dealer in options\" means any person, firm, partnership, association or corporation who shall directly or indirectly take, obtain or use options to purchase, exchange, lease option or lease purchase real property or any interest therein for another or others whether or not the options shall be in his or its name and whether or not title to the property shall pass through the name of the person, firm, partnership, association or corporation",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2004"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[54-2004, added 2000, ch. 285, sec. 3, p. 912; am. 2001, ch. 123, sec. 1, p. 418; am. 2002, ch. 220, sec. 1, p. 606; am. 2002, ch. 280, sec. 1, p. 817; am. 2003, ch. 16, sec. 14, p. 61; am. 2005, ch. 107, sec. 1, p. 334; am. 2006, ch. 166, sec. 1, p. 501; am. 2007, ch. 98, sec. 1, p. 283; am. 2008, ch. 144, sec. 1, p. 235; am. 2011, ch. 108, sec. 1, p. 275; am. 2014, ch. 42, sec. 1, p. 98; am. 2014, ch. 67, sec. 1, p. 170; am. 2015, ch. 51, sec. 2, p. 111; am. 2017, ch. 232, sec. 1, p. 564; am. 2021, ch. 261, sec. 1, p. 802.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Subsection 54-2004(20). Pair with vb-broker-definition-acting-for-others for the 'falls within broker' half (54-2004(39)(e))."
+    },
+    {
+      "id": "vb-own-account-exception-no-evasion",
+      "claim": "An Idaho real estate license is not required to buy, option, exchange or sell an interest in real property for a person's own account or use, or for an owner to dispose of its own property; but the exceptions may not be used to evade the license law, and any attempt to do so is treated as unlicensed practice.",
+      "quotedLanguage": "an Idaho real estate license is not required for the following: (a) The purchase, option, exchange or sale of any interest in real property, or business opportunity for a person’s own account or use; (b) The acquisition, exchange or other disposition of any interest in real property or business opportunity by its owner ... (4) Exceptions to licensure shall not be used in any way to evade the purposes of this chapter. Any such attempt to evade this chapter shall be considered the unlicensed and unlawful practice of real estate.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2003"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[54-2003, added 2000, ch. 285, sec. 3, p. 911; am. 2003, ch. 65, sec. 1, p. 212.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "This is why a direct buyer purchasing for itself needs no license. State the exception and the anti-evasion clause together."
+    },
+    {
+      "id": "vb-unlicensed-practice-penalty",
+      "claim": "Acting as a real estate broker or salesperson in Idaho without a license is a misdemeanor; on conviction a natural person faces a fine of up to $5,000, up to one year in county jail, or both, and an LLC or corporation a fine of up to $10,000. A court may also assess civil penalties of up to $5,000 against a person and $10,000 against an LLC or corporation.",
+      "quotedLanguage": "Any person acting as a real estate broker or real estate salesperson within the meaning of this chapter without a license as herein provided shall be guilty of a misdemeanor and, upon conviction thereof, if a natural person, be punished by a fine of not to exceed five thousand dollars ($5,000) or by imprisonment in the county jail for a term not to exceed one (1) year, or by both such fine and imprisonment in the discretion of the court; or if a limited liability company or corporation, by a fine of not to exceed ten thousand dollars ($10,000). Additionally, the court may assess a civil penalty against a natural person in an amount not to exceed five thousand dollars ($5,000) and against a limited liability company or corporation in an amount not to exceed ten thousand dollars ($10,000).",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2065"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[54-2065, added 2000, ch. 285, sec. 3, p. 948; am. 2021, ch. 224, sec. 52, p. 677.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Penalties fall on the unlicensed actor, not the seller. Do not imply a seller is exposed to them."
+    },
+    {
+      "id": "vb-licensee-must-disclose-license",
+      "claim": "An Idaho real estate licensee who buys or sells an interest in real property for personal use or any other purpose, or acquires or intends to acquire an interest or option, must disclose in writing to the other party, no later than when the purchase and sale agreement is presented, that they hold an active Idaho license.",
+      "quotedLanguage": "A licensee shall disclose in writing to any buyer or seller no later than at the time of presentation of the purchase and sale agreement that the licensee holds an active Idaho real estate license, if the licensee directly, indirectly, or through a third party, sells or purchases an interest in real property for personal use or any other purpose; or acquires or intends to acquire any interest in real property or any option to purchase real property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "idcode-54-2055"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[54-2055, added 2000, ch. 285, sec. 3, p. 943; am. 2003, ch. 65, sec. 7, p. 220; am. 2010, ch. 217, sec. 4, p. 490.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Applies to ACTIVE Idaho licensees only. Covers purchases 'through a third party' — e.g. an entity."
+    },
+    {
+      "id": "vb-offer-must-state-earnest-money",
+      "claim": "When an Idaho broker or sales associate handles an offer to purchase real property, the license law requires it to be in writing and to state the actual form and amount of the earnest money and include a provision for dividing earnest money retained as forfeited payment if the transaction does not close.",
+      "quotedLanguage": "The broker or sales associate shall make certain that all offers to purchase real property or any interest therein are in writing and contain all of the following specific terms, provisions and statements: ... (b) The actual form and amount of the consideration received as earnest money; ... (e) A provision for division of earnest money retained by any person as forfeited payment should the transaction not close;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2051"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[54-2051, added 2000, ch. 285, sec. 3, p. 940; am. 2007, ch. 98, sec. 11, p. 300; am. 2015, ch. 51, sec. 10, p. 122; am. 2020, ch. 88, sec. 2, p. 239.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Duty is on the BROKER/SALES ASSOCIATE. A direct sale with no licensee is not governed by this section — say so plainly."
+    },
+    {
+      "id": "vb-earnest-money-at-title-not-entrusted",
+      "claim": "Under Idaho's license law, money is not treated as entrusted to a broker when the parties have instructed the broker in writing to transfer it to a third party such as a title, escrow or trust company and the broker then has no right to control its safekeeping or disposition.",
+      "quotedLanguage": "moneys or property shall not be considered entrusted to the broker or to any licensee representing the broker when the parties to the transaction have instructed the broker or its licensees, in writing, to transfer such moneys or property to a third party, including, but not limited to, a title, an escrow or a trust company if upon transfer, the broker or its licensees have no right to exercise control over the safekeeping or disposition of said moneys or property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2041"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[54-2041, added 2000, ch. 285, sec. 3, p. 933; am. 2001, ch. 123, sec. 16, p. 436; am. 2002, ch. 220, sec. 9, p. 617; am. 2005, ch. 107, sec. 12, p. 352; am. 2009, ch. 134, sec. 1, p. 415.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Broker-side rule. Use only to explain that earnest money held at a title or escrow company sits with that company, not with a broker."
+    },
+    {
+      "id": "vb-escrow-agency-license-required",
+      "claim": "It is unlawful to engage in, carry on, or purport to carry on the business of an escrow agency in or from Idaho without a license under the Idaho Escrow Act, and the Act applies to any escrow transaction for the sale or transfer of property located in Idaho.",
+      "quotedLanguage": "It shall be unlawful for any person to directly or indirectly engage in or carry on, or purport to engage in or carry on, the business of, or act in the capacity of, an escrow agency in or from Idaho without first obtaining a license under this chapter. (2) The requirements of this chapter shall also apply to any escrow transaction effecting the sale, transfer, encumbrance or lease to another person of any real or personal property located in Idaho.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-30-903"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[30-903, added 2005, ch. 236, sec. 2, p. 718.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Read with the 30-905 exemptions; licensed title agents, lawyers, banks and brokers acting incidentally are exempt."
+    },
+    {
+      "id": "vb-escrow-exempt-title-agents",
+      "claim": "The Idaho Escrow Act's licensing requirements do not apply to title insurance companies holding a certificate of authority, or to title insurance agents holding a title insurance agent license, issued by the Idaho Department of Insurance.",
+      "quotedLanguage": "The requirements of this chapter do not apply to: ... (3) Title insurance companies having a valid certificate of authority, and title insurance agents having a valid license as a title insurance agent, issued by the Idaho department of insurance;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing",
+        "title",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-30-905"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[30-905, added 2005, ch. 236, sec. 2, p. 718.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "This is why a title company's credential to check is a Department of Insurance license, while a standalone escrow company's is a Department of Finance license. Ten other exemptions exist (lawyers, banks, brokers etc.) — do not say title agents are the only exempt group."
+    },
+    {
+      "id": "vb-escrow-unlicensed-felony",
+      "claim": "Acting as an escrow agency in Idaho without the required license, unless exempt, is a felony and carries a civil penalty of up to $5,000 per violation.",
+      "quotedLanguage": "Any person, except a person exempt under section 30-905, Idaho Code, who engages in activity as an escrow agency without first obtaining a license in accordance with this chapter, shall be guilty of a felony. Such person is also subject to a civil penalty in an amount no greater than five thousand dollars ($5,000) for each violation of this chapter or rule or order thereunder, in addition to other sanctions allowed by law.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-30-913"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[30-913, added 2005, ch. 236, sec. 2, p. 722.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": null
+    },
+    {
+      "id": "vb-title-agent-license-by-county",
+      "claim": "No one may act in Idaho as an agent for a title insurer without a license from the Director of the Idaho Department of Insurance, and a title insurance agent's license is required for each county for which policies are written.",
+      "quotedLanguage": "A title insurer shall not allow or permit any person, firm, association or corporation to act as its agent in relation to the issuance of any certificate, title insurance policy, or other underwriting contract unless such person, firm, association or corporation shall first have obtained a title insurance agent’s license for each county for which policies are to be written from the director of the department of insurance. No person, firm, association or corporation shall act within this state as such agent for any title insurer without first having obtained a license from the director of insurance and filed a bond or cash deposit in lieu thereof as required herein.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "closing",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-41-2710"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[41-2710, added 1973, ch. 135, sec. 7, p. 252; am. 2010, ch. 96, sec. 1, p. 182; am. 2015, ch. 141, sec. 111, p. 461.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "County-by-county license: an agent licensed for one county is not thereby licensed for Ada. Do not say 'must be licensed in Ada' for a given file — say the license is per county."
+    },
+    {
+      "id": "vb-cfpa-legislative-findings",
+      "claim": "In enacting the Consumer Foreclosure Protection Act, the Idaho Legislature found that some persons and businesses defraud homeowners of their title, equity or other value under the guise of stopping or postponing a foreclosure sale, and set notice requirements for contracts made during the foreclosure period, while directing that the chapter not inhibit transactions with legitimate lenders and investors.",
+      "quotedLanguage": "The legislature finds that some persons and businesses are engaging in patterns of conduct that defraud innocent homeowners of their title, equity interest, or other value in residential dwellings under the guise of stopping or postponing a foreclosure sale. The legislature also finds this activity to be contrary to the public policy of this state and therefore establishes notice requirements governing contracts or agreements entered into during the foreclosure period. The legislature further finds that the provisions of this chapter shall be construed in such a manner that it does not inhibit transactions with legitimate lenders and investors.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1601"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1601, added 2008, ch. 192, sec. 1, p. 601.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": null
+    },
+    {
+      "id": "vb-cfpa-written-notice-required",
+      "claim": "During the foreclosure period described in Idaho Code 45-1506, any contract with the record owner involving the transfer of an interest in residential real property subject to foreclosure must be in writing and accompanied by a statutory notice in at least 12-point boldface type, which warns that some individuals or businesses may say they can 'save' a home from foreclosure, that a 'rescue' plan may cost the owner valuable equity, and that the owner should consult an attorney or financial professional, and points to HUD's list of approved housing counselors who provide free information.",
+      "quotedLanguage": "During the foreclosure period described in section 45-1506, Idaho Code, any contract or agreement with the owner or owners of record that involves the transfer of any interest in residential real property, as defined in section 45-525 (5)(b), Idaho Code, subject to foreclosure must be in writing and must be accompanied by the following notice in at least 12-point boldface type: ... Some individuals or businesses may say they can \"save\" your home from foreclosure. You should be cautious about such claims. It is important that you understand all the terms of a plan to \"rescue\" you from mortgage foreclosure and how it will affect you. It may result in your losing valuable equity that you may have in your home. If possible, you should consult with an attorney or financial professional to find out what other options you may have. ... HUD maintains on its website a list of approved housing counselors who can provide free information to assist homeowners with financial problems.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1602"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1602, added 2008, ch. 192, sec. 1, p. 601; am. 2009, ch. 136, sec. 2, p. 418; am. 2023, ch. 266, sec. 2, p. 796.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "TRAP: the statutory notice text says 'five (5) days' to rescind, but the operative section 45-1603 says five BUSINESS days. Use 45-1603's wording for the right itself. A Spanish-language form is required when the deal was negotiated in Spanish (45-1602(2))."
+    },
+    {
+      "id": "vb-cfpa-five-business-day-rescission",
+      "claim": "An Idaho owner whose property is in foreclosure may cancel any contract relating to that property entered into during the foreclosure period within five business days of entering into it, by written notice to the other parties in any form showing an intent not to be bound; no funds or interest in the property may be transferred until the five days have passed.",
+      "quotedLanguage": "any person whose property is in foreclosure as described in section 45-1505, Idaho Code, has the right to cancel or rescind any and all contracts or agreements relating to such property entered into during the foreclosure period within five (5) business days of entering into such contract or agreement. Neither funds nor an interest in the property shall be transferred or transferable until the five (5) days have passed. (2) Cancellation occurs when such person gives written notice of cancellation to all other parties to the contract. Notice of cancellation need not take any particular form and, however expressed, is effective if it indicates the intention not to be bound by the contract.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-45-1603"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1603, added 2008, ch. 192, sec. 1, p. 602.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Business days, from entering into the contract. Mailed notice effective on deposit; certified mail = conclusive proof (45-1603(3)). Never tell a reader whether their property is 'in foreclosure' for this purpose."
+    },
+    {
+      "id": "vb-cfpa-exclusions",
+      "claim": "Idaho's Consumer Foreclosure Protection Act does not apply to regulated lenders, banks and similar chartered institutions, licensed mortgage lenders and brokers, their employees and agents acting in that capacity, or close family members of the owner.",
+      "quotedLanguage": "The provisions of this chapter shall not apply to: (1) Regulated lenders, as defined in section 28-41-301, Idaho Code; (2) Any person licensed or chartered under the laws of any state or of the United States as a bank, trust company, savings and loan association, credit union, or industrial loan company. ... (3) Mortgage lenders and mortgage brokers licensed under the Idaho residential mortgage practices act, sections 26-31-101 et seq., Idaho Code; (4) Employees and agents of the organizations specified in subsections (1), (2) and (3) of this section, when acting within the scope of such employment or agency; and (5) Family member or members of the owner or owners of record of any interest in residential real property subject to foreclosure.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1604"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1604, added 2008, ch. 192, sec. 1, p. 602; am. 2013, ch. 54, sec. 15, p. 122; am. 2015, ch. 244, sec. 27, p. 1022.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Investors and cash buyers are NOT in the exclusion list. Do not state that as 'applies to cash buyers' application to a reader — just that the excluded groups are these."
+    },
+    {
+      "id": "vb-cfpa-penalties-title-48",
+      "claim": "A violation of Idaho's Consumer Foreclosure Protection Act makes the violator liable for penalties and damages under the Idaho Consumer Protection Act (chapter 6, title 48), in addition to any other penalty provided by law.",
+      "quotedLanguage": "In addition to any other penalty provided by law, any person who violates the provisions of this chapter shall be liable for penalties and damages in accordance with chapter 6, title 48, Idaho Code.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1605"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1605, added 2008, ch. 192, sec. 1, p. 603.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Title 48 ch. 6 sections themselves not researched; do not describe their remedies."
+    },
+    {
+      "id": "vb-irec-guideline18-property-not-owned",
+      "claim": "The Idaho Real Estate Commission's Guideline 18 states its interpretation that an option holder is not an owner and may not broker the property without a license, and that whether or not an investor holds an option, the investor may be engaged in unlicensed practice if they list, sell or negotiate the sale of property they do not own, or procure buyers for it. The Commission states that the guideline is not a new law but an agency interpretation of existing law.",
+      "quotedLanguage": "Because an option holder is not an owner of the property, he may not list, sell, negotiate, procure buyers for, or otherwise broker that property unless he has a license. ... Whether an Investor has an option to purchase or not, he may be engaged in Unlicensed Practice if he lists, sells, or negotiates the sale of property he does not own, or if he procures buyers for property that he does not own. ... This guideline is not a new law but is an agency interpretation of existing law.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "irec-guideline-18"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Agency INTERPRETATION, not statute — always attribute to the Commission and say it is interpretation. Do not use the words 'wholesaling' or 'assignment': the guideline does not use them and no Idaho statute does. Never say what this site's company does."
+    },
+    {
+      "id": "vb-irec-guideline2-procuring-prospects-marketing",
+      "claim": "The Idaho Real Estate Commission interprets 'procuring prospects' in the broker definition to include any marketing or advertising designed to attract the attention of buyers or sellers.",
+      "quotedLanguage": "The Commission interprets procuring prospects to include any marketing or advertising designed to attract the attention of buyers or sellers.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "irec-guideline-2"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Agency interpretation (Guideline 2, rev. May 2018). Pair with 54-2004(39)(d)."
+    },
+    {
+      "id": "vb-irec-license-lookup",
+      "claim": "The Idaho Real Estate Commission's License Lookup lets consumers confirm that an agent or brokerage is licensed in Idaho and see any formal disciplinary actions taken against an agent within the last five years.",
+      "quotedLanguage": "Consumers can utilize the Commission’s License Lookup application to ensure an agent or brokerage are licensed to practice real estate in Idaho. Additionally, consumers can see any formal disciplinary actions taken against an agent within the last five years.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "irec-faqs-consumer-info"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The Commission is now administered through DOPL (dopl.idaho.gov/rec); the old irec.idaho.gov is not the current home."
+    },
+    {
+      "id": "vb-irec-investigates-unlicensed-practice",
+      "claim": "The Idaho Real Estate Commission investigates complaints involving, among other things, dishonest or dishonorable dealings, failure to account for money or property, misrepresentation and unlicensed practice; it cannot enforce or cancel purchase and sale agreements, award damages or order the return of earnest money.",
+      "quotedLanguage": "The Commission investigates complaints against licensees involving: ... Dishonest or Dishonorable Dealings Failure to Account for Money or Property ... Misrepresentation ... Unlicensed Practice ... The Commission is NOT empowered to enforce, modify, rescind or cancel listing agreements, purchase and sale agreements, or any other contract; compel the payment of money, award damages, or render a judgment in your favor; order the return of earnest money;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing",
+        "closing"
+      ],
+      "sourceIds": [
+        "irec-faqs-consumer-info"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": null
+    },
+    {
+      "id": "vb-irec-earnest-money-disputes-civil",
+      "claim": "The Idaho Real Estate Commission treats earnest money disputes as civil matters: it cannot decide them or order earnest money released, and it points consumers to the Idaho State Bar to find an attorney.",
+      "quotedLanguage": "Earnest Money Disputes Disputes over earnest money are civil matters. The Commission is not empowered to decide earnest money disputes or order the release of earnest money. The Idaho State Bar can help you find an attorney.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing"
+      ],
+      "sourceIds": [
+        "irec-faqs-consumer-info"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": null
+    },
+    {
+      "id": "vb-irec-escrow-and-title-regulators",
+      "claim": "According to the Idaho Real Estate Commission, the Idaho Department of Finance has jurisdiction over escrow companies and the Idaho Department of Insurance regulates title insurance providers.",
+      "quotedLanguage": "Escrow Companies The Idaho Department of Finance has jurisdiction over escrow companies. ... Title Insurance The Idaho Department of Insurance regulates insurance providers in Idaho.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing",
+        "title",
+        "licensing"
+      ],
+      "sourceIds": [
+        "irec-faqs-consumer-info"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": null
+    },
+    {
+      "id": "vb-irec-wire-diversion-warning",
+      "claim": "The Idaho Real Estate Commission warns that hackers try to divert closing payments to their own accounts by sending last-minute wiring instructions that differ from those provided by the settlement agent or real estate agent.",
+      "quotedLanguage": "A recent trend in real estate transactions involves hackers attempting to divert payments meant for the settlement agent to their own accounts by providing last minute wiring instructions different than those provided by the settlement agent or your real estate agent.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing"
+      ],
+      "sourceIds": [
+        "irec-faqs-consumer-info"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The page's 'nearly $1 billion in 2017' FBI figure is secondhand and dated — do not use it."
+    },
+    {
+      "id": "vb-sos-business-search",
+      "claim": "The Idaho Secretary of State's Business Search at sosbiz.idaho.gov lets anyone look up business information and registered agents; a registered agent must have a physical street address in Idaho (no P.O. box) and be an Idaho resident or a business entity authorized to do business in Idaho.",
+      "quotedLanguage": "Use the Business Search to lookup business information, registered agents, and more at sosbiz.idaho.gov. ... To be a registered agent in Idaho, you must: Have a physical street address in Idaho (no P.O. boxes) Be available during normal business hours Be either: An individual who lives in Idaho, or A business entity authorized to do business in Idaho",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "idsos-business-services"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "SOSBiz search results page is JavaScript-driven and could not be cached; do NOT list specific fields (status, formation date, officers) the search shows. Say only 'business information and registered agents'."
+    },
+    {
+      "id": "vb-sos-certificate-not-required",
+      "claim": "The Idaho Secretary of State says a certificate of existence is not required to do business in Idaho and warns of scam websites or mailings that suggest one is necessary.",
+      "quotedLanguage": "A certificate of existence is not required to do business in Idaho. Scam websites or mailings may try to indicate a certificate is necessary and offer to provide one at a high markup.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "licensing"
+      ],
+      "sourceIds": [
+        "idsos-business-services"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Means a buyer cannot be expected to produce one; the free search is the check."
+    },
+    {
+      "id": "vb-doi-find-title-agent",
+      "claim": "The Idaho Department of Insurance's title insurance page offers a 'Find a Title Agent / Company' search and a title insurance specialist contact, and states that title insurance is not required in Idaho, though a lender may require a lender's policy.",
+      "quotedLanguage": "Title Insurance is not required in the state of Idaho. However, your lender may require you to purchase a Title Insurance Lender's Policy to protect their interests. Find a Title Agent / Company",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "closing",
+        "licensing"
+      ],
+      "sourceIds": [
+        "iddoi-title-insurance"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Link target is an external NAIC lookup not cached; state only that the DOI page offers the search."
+    },
+    {
+      "id": "vb-ftc-deed-transfer-warning",
+      "claim": "The Federal Trade Commission warns that mortgage relief scammers may try to get homeowners to transfer the deed to them, and that a homeowner who transfers the deed is not likely to get it back; it adds that transferring the deed does not transfer the mortgage.",
+      "quotedLanguage": "Scammers may try to convince you to transfer the deed to your home to them. The deed is the legal document that proves who owns the home. If you transfer the deed, you’re not likely to get it back. ... Transferring the deed does not transfer the mortgage, so you’ll still owe payments on your mortgage loan.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "deeds"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Federal consumer guidance, not Idaho law."
+    },
+    {
+      "id": "vb-ftc-equity-skimming",
+      "claim": "The FTC describes 'equity-skimming' schemes in which a homeowner is told they can get the home back later, or is tricked into selling for much less than similar homes, and the scammer then rents out the home while the lender proceeds with foreclosure, leaving the homeowner still responsible for the mortgage.",
+      "quotedLanguage": "Scammers say: “If you sell us your home, we’ll help you. You can get your home back once you’re on your feet again.” Others trick you into selling them your home for cash for much lower than the selling price of similar homes in your neighborhood. ... Once you sell your home to the scammer (and transfer the deed), they simply rent out the home and pocket the rent money while your lender goes ahead with the foreclosure. You lose your home — and you’re still responsible for the unpaid mortgage.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "deeds"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The FTC itself names 'selling ... for cash for much lower' as a scam pattern. Quote it straight; do not soften it — this page is about checking cash buyers, us included."
+    },
+    {
+      "id": "vb-ftc-upfront-payment-methods",
+      "claim": "The FTC warns homeowners never to pay a company upfront for promises of mortgage relief, and notes that scammers may want payment only by cashier's check, wire transfer or a mobile payment app because such payments are hard to recover.",
+      "quotedLanguage": "Never pay a company upfront for promises to help you get relief on paying your mortgage. ... Scammers may want you to pay only by cashier’s check, wire transfer , or a mobile payment app . Scammers like you to pay this way because it’s hard to get your money back.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "closing"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Mortgage-relief context. Apply only to 'a buyer or company asking the seller to pay money'."
+    }
+  ]
+}

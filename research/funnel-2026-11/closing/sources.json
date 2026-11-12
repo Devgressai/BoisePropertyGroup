@@ -1,0 +1,604 @@
+{
+  "sources": [
+    {
+      "id": "idcode-55-601",
+      "title": "Idaho Code § 55-601 — Conveyance — How made",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-601/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "deeds",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-deed-writing-subscribed-grantee-address"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-606",
+      "title": "Idaho Code § 55-606 — Conclusiveness of conveyance — Bona fide purchasers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-606/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-bona-fide-purchaser-first-recorded"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-612",
+      "title": "Idaho Code § 55-612 — Covenants implied from grant",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-612/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "deeds",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-grant-deed-implied-covenants"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-613",
+      "title": "Idaho Code § 55-613 — Encumbrances defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-613/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "deeds",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-encumbrances-include-taxes-liens"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-805",
+      "title": "Idaho Code § 55-805 — Acknowledgment necessary to authorize recording",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-805/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-acknowledgment-required-to-record"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-808",
+      "title": "Idaho Code § 55-808 — Place of record",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-808/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-record-in-county-where-situated"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-809",
+      "title": "Idaho Code § 55-809 — When deemed recorded",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-809/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-deemed-recorded-on-deposit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-811",
+      "title": "Idaho Code § 55-811 — Record as notice",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-811/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-recorded-conveyance-constructive-notice"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-815",
+      "title": "Idaho Code § 55-815 — Unrecorded instruments valid between parties",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-815/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-unrecorded-valid-between-parties"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-31-2419",
+      "title": "Idaho Code § 31-2419 — Records open to inspection",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title31/t31ch24/sect31-2419/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-recorder-records-open-without-charge"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-51-105",
+      "title": "Idaho Code § 51-105 — Requirements for certain notarial acts",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-105/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-notary-acknowledgment-identity"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-51-106",
+      "title": "Idaho Code § 51-106 — Personal appearance required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-106/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-notary-personal-appearance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-51-114a",
+      "title": "Idaho Code § 51-114A — Notarial act performed by remotely located individual",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-114A/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-remote-notarization-satisfies-appearance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-30-905",
+      "title": "Idaho Code § 30-905 — Escrow Act — Exempt persons and transactions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-905/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "escrow",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-escrow-act-exempts-title-companies"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2704",
+      "title": "Idaho Code § 41-2704 — Application of act — Business of title insurance",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2704/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "escrow"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-title-business-includes-escrow-closing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2707",
+      "title": "Idaho Code § 41-2707 — Filing of title insurance rates — Hearings",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2707/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-title-filed-rate-floor"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2708",
+      "title": "Idaho Code § 41-2708 — Determination of insurability — Prohibited risks — Rebates",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2708/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-title-search-before-policy",
+        "cl-title-filed-rate-floor"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2711",
+      "title": "Idaho Code § 41-2711 — Requirements for title insurance related business — Bonds",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2711/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "escrow"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-escrow-officer-bond"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2714",
+      "title": "Idaho Code § 41-2714 — Closing or settlement protection",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2714/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "escrow"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-closing-protection-buyer-lender"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-i1099s",
+      "title": "Instructions for Form 1099-S (12/2026)",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/instructions/i1099s",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "reporting",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-12",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS's own instructions, raw HTML cached. Page states 'Revised: 12/2026' (continuous-use revision for 2026 information filed in early 2027) even though accessed in November 2026.",
+      "stalenessRisk": "MEDIUM — instructions are revised periodically; check the revision line before republishing.",
+      "claimsSupported": [
+        "cl-1099s-reports-real-estate-sales",
+        "cl-1099s-principal-residence-certification",
+        "cl-1099s-tin-requested-at-closing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-firpta-withholding",
+      "title": "FIRPTA withholding",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "firpta",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-21",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS page, raw HTML cached. 'Page Last Reviewed or Updated: 21-Jul-2026'.",
+      "stalenessRisk": "LOW — rate set by statute (IRC 1445); page wording can change.",
+      "claimsSupported": [
+        "cl-firpta-buyer-withholds-15-percent"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-firpta-exceptions",
+      "title": "Exceptions from FIRPTA withholding",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/individuals/international-taxpayers/exceptions-from-firpta-withholding",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "firpta",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-15",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS page, raw HTML cached. 'Page Last Reviewed or Updated: 15-Jul-2026'.",
+      "stalenessRisk": "LOW — page wording can change.",
+      "claimsSupported": [
+        "cl-firpta-non-foreign-certification"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "canyon-county-assessor-faq",
+      "title": "Assessor FAQ",
+      "publisher": "Canyon County Assessor",
+      "organizationType": "county-government",
+      "url": "https://www.canyoncounty.id.gov/elected-officials/assessor/assessor-faq/",
+      "sourceTier": 2,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure",
+        "assessment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — an Idaho county assessor describing Idaho's disclosure regime in its own words. NOT Ada County; cited only for the statewide characterisation. Same id and URL as the commercial registry's source (cache shared, from 2026-09-10); live page re-checked 2026-11-12 and the sentence is unchanged.",
+      "stalenessRisk": "MEDIUM — a departmental page can be rewritten without notice.",
+      "claimsSupported": [
+        "cl-idaho-non-disclosure-state"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

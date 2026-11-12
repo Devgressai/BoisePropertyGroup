@@ -1,0 +1,98 @@
+{
+  "guide": {
+    "slug": "how-a-property-sale-closes-in-idaho",
+    "title": "How a Property Sale Closes in Idaho",
+    "h1": "What actually happens at closing when you sell property in Idaho",
+    "description": "What Idaho law says a deed must contain, how it is notarised and recorded, who runs the closing, and the federal tax forms involved. Sourced to statute.",
+    "cluster": "closing",
+    "published": "2026-11-12",
+    "updated": "2026-11-12"
+  },
+  "content": {
+    "intro": [
+      "At an Idaho closing the seller signs a written deed naming the buyer and the buyer's mailing address, the signature is acknowledged before a notary so the deed can be recorded, and the deed is recorded with the recorder of the county where the property sits, which is what protects the buyer against later purchasers and mortgagees. Around that core, Idaho's title insurance statutes regulate the escrow and closing work of title companies, and federal rules decide who reports the sale to the IRS and when tax must be withheld from a foreign seller.",
+      "This page describes what Idaho statutes, Ada County and the IRS say. It is not legal or tax advice and it is not applied to your situation. If anything about your sale is in question, an Idaho attorney or a tax professional should look at it."
+    ],
+    "sections": [
+      {
+        "heading": "What an Idaho deed has to contain",
+        "body": [
+          "Idaho Code 55-601 is short. A conveyance of real property \"may be made by an instrument in writing, subscribed by the party disposing of the same, or by his agent thereunto authorized by writing. The name of the grantee and his complete mailing address must appear on such instrument.\" In plain terms: it is in writing, the seller (or an agent authorised in writing) signs it, and the buyer's name and full mailing address are on it.",
+          "Notice what the section does not list. The sale price is not among the elements it requires. The statute neither requires a price nor forbids one, and some deeds do recite what was paid. That silence matters later on this page, when we get to whether Idaho sale prices are public.",
+          "The words in a deed carry weight of their own. Under Idaho Code 55-612, using the word \"grant\" in a conveyance of a fee simple implies two promises by the seller, \"and none other,\" unless the deed expressly says otherwise: that the seller has not already conveyed the same estate or any interest in it to someone else, and that the estate is free from encumbrances \"done, made or suffered by the grantor, or any person claiming under him.\" The next section, 55-613, defines encumbrances to include \"taxes, assessments, and all liens upon real property.\"",
+          "The second promise is narrower than it sounds. It covers encumbrances the seller, or someone claiming under the seller, created or allowed — not every problem the property has ever had. What a particular deed form promises beyond that depends on its own wording, and that is a question for the attorney or title company preparing it."
+        ],
+        "claims": ["cl-deed-writing-subscribed-grantee-address", "cl-grant-deed-implied-covenants", "cl-encumbrances-include-taxes-liens"]
+      },
+      {
+        "heading": "Why the seller signs in front of a notary",
+        "body": [
+          "A deed can be valid without being recorded — Idaho Code 55-815 says \"An unrecorded instrument is valid as between the parties thereto and those who have notice thereof.\" But a buyer wants the deed recorded, and recording has a gate. Under Idaho Code 55-805, \"Before an instrument may be recorded, unless it is otherwise expressly provided, its execution must be acknowledged by the person executing it,\" or proved, with the acknowledgment certified substantially as Idaho's notary law in chapter 1, title 51 prescribes. A deed acknowledged in another state or country under that place's laws is also entitled to record.",
+          "Idaho's notary law sets what the notary must check. A notary taking an acknowledgment must determine, \"from personal knowledge or satisfactory evidence of the identity of the individual,\" that the person in front of them is who they claim to be and that the signature is theirs (Idaho Code 51-105). The signer must \"appear personally before the notary public\" (51-106).",
+          "Personal appearance does not always mean the same room. Idaho Code 51-114A lets a remotely located individual satisfy 51-106 \"by appearing before a notary public by means of communication technology\" — technology that lets the notary and the signer communicate simultaneously by sight and sound — provided the Idaho notary meets the section's identity, record-confirmation and audio-visual recording conditions. The statute permits remote notarisation; whether a particular closing offers it is up to the title company or closing agent handling it."
+        ],
+        "claims": ["cl-unrecorded-valid-between-parties", "cl-acknowledgment-required-to-record", "cl-notary-acknowledgment-identity", "cl-notary-personal-appearance", "cl-remote-notarization-satisfies-appearance"]
+      },
+      {
+        "heading": "Recording is what protects the buyer against everyone else",
+        "body": [
+          "The deed goes to the recorder of the county where the property is, not the city: Idaho Code 55-808 requires instruments to be recorded \"by the county recorder of the county in which the real property affected thereby is situated.\" For a property anywhere in Ada County — Boise, Meridian, Eagle, Kuna, Star, Garden City or unincorporated land — that is the Ada County Recorder, which maintains all documents related to property ownership in the county.",
+          "Under 55-809, an acknowledged instrument \"is deemed to be recorded when\" it is deposited in the recorder's office with the proper officer for record. From the time it is filed, 55-811 makes a recorded conveyance \"constructive notice of the contents thereof to subsequent purchasers and mortgag(e)es\" — the compiler's text, odd spelling included.",
+          "The reason the order matters is in 55-606 and 55-812. A conveyance is conclusive against the seller and everyone later claiming under the seller, \"except a purchaser or encumbrancer, who in good faith, and for a valuable consideration, acquires a title or lien by an instrument or valid judgment lien that is first duly recorded.\" And 55-812 makes an unrecorded conveyance (other than a lease of one year or less) void against a later good-faith purchaser or mortgagee for value whose own conveyance is recorded first. Whether any particular person counts as a good-faith purchaser is a fact question for counsel; the mechanism is what the statutes describe.",
+          "Ada County publishes its recording fees. Any deed transferring or affecting ownership falls in a predictable-fee category of $15.00 covering the first 30 pages, with $3.00 per page after that, and a document that cannot take a recording label needs a cover sheet that may increase the fee. That is the county's fee for recording the deed document itself — it says nothing about who pays it, which is a matter for the purchase contract. Redacting personal identifying information such as Social Security numbers before recording is the submitter's responsibility, not the Recorder's."
+        ],
+        "claims": ["cl-record-in-county-where-situated", "ada-recorder-maintains-ownership-documents", "cl-deemed-recorded-on-deposit", "cl-recorded-conveyance-constructive-notice", "cl-bona-fide-purchaser-first-recorded", "id-recording-act-lease-one-year-carveout", "cl-ada-deed-recording-fee", "ada-recorder-pii-redaction-is-submitter-duty"]
+      },
+      {
+        "heading": "Will my sale price become public?",
+        "body": [
+          "Idaho's recorded documents are open. Idaho Code 31-2419 requires that \"All books of record, maps, charts, surveys and other papers on file in the recorder's office, must, during office hours, be open for the inspection of any person who may desire to inspect them, and may be inspected without charge.\" Ada County cites the same section for its statement that recorded documents are open for public inspection.",
+          "What is not there, as a rule, is the price. The deed statute does not require one, and Idaho is described by its own county assessors as a non-disclosure state. Canyon County's assessor puts it this way: \"Since Idaho is a non-disclosure state, the Assessor's office depends heavily on the public to provide sales information when property is bought and sold.\" That is Canyon County describing Idaho law generally, not an Ada County statement.",
+          "So the accurate framing is not that Idaho hides sale prices. The record of who owns what is public and free to inspect; the price is simply not a required part of the deed. One Ada County detail is worth knowing: the Recorder currently blocks deeds, among other document types, from viewing or downloading online, and asks that copy requests go to the office directly. The record is still public — the online view of deeds is what is restricted, and the county calls that restriction current, so it can change."
+        ],
+        "claims": ["cl-recorder-records-open-without-charge", "ada-recorder-maintains-ownership-documents", "cl-deed-writing-subscribed-grantee-address", "cl-idaho-non-disclosure-state", "cl-ada-deeds-blocked-online"]
+      },
+      {
+        "heading": "Who handles the money and the paperwork",
+        "body": [
+          "Idaho regulates a title company's closing work as part of the business of title insurance. Idaho Code 41-2704 applies the title insurance chapter to title insurers, title agents and everyone in the business, and defines that business to include a title insurer's or agent's \"handling of escrows, settlements or closing incident to any contract or policy of title insurance.\" Idaho's separate Escrow Act does not apply to title insurance companies with a valid certificate of authority or to title insurance agents \"having a valid license as a title insurance agent, issued by the Idaho department of insurance\" (Idaho Code 30-905). The same section also exempts, among others, Idaho attorneys performing professional duties (unless running a separate escrow business) and real estate licensees acting in the course of sales they handle.",
+          "Escrow officers are covered by statute too. Under 41-2711 an escrow officer is an officer or employee of a title agent whose duties include \"handling escrows, settlements, closings, and funds related thereto.\" Each title agent must file its escrow officers' names with the Director of Insurance and carry a corporate surety bond of at least $10,000 per county, rising by $10,000 for each additional escrow officer in the county, to a maximum of $50,000 per agent regardless of how many counties or officers. That cap is per agent, not per transaction.",
+          "Idaho also allows a title insurer to sell closing or settlement protection, under 41-2714, against a licensed title agent's theft or misappropriation of closing funds or failure to follow agreed written closing instructions. The rate may not exceed $25.00, and nobody is required to buy it. Read the list of who may receive it carefully: the statute names \"a buyer, borrower or lender.\" It does not name the seller."
+        ],
+        "claims": ["cl-title-business-includes-escrow-closing", "cl-escrow-act-exempts-title-companies", "cl-escrow-officer-bond", "cl-closing-protection-buyer-lender"]
+      },
+      {
+        "heading": "What Idaho requires before a title policy is issued",
+        "body": [
+          "Title insurance on Idaho real property cannot be issued, under Idaho Code 41-2708(1), \"unless and until the title insurer or its agent\" owns or leases tract indexes and abstract records for the county where the property is, and \"Has caused to be made a search and examination of the title and a determination of insurability of title in accordance with sound title underwriting practices.\" The statute requires a search and an underwriting decision. It does not promise that a search finds everything, and the policy itself — not this page — sets out what is covered.",
+          "Title insurance pricing is filed with the state. Every title insurer must file its schedule of rates with the Director of the Department of Insurance (41-2707), and under 41-2708(3) no title company or agent may \"quote or make any charge for title insurance to any person less than the currently filed rate for such risk with the department of insurance.\" The section carves out one narrow exception for a bona fide employee's residence. We have not sourced any actual rate, so this page does not quote one."
+        ],
+        "claims": ["cl-title-search-before-policy", "cl-title-filed-rate-floor"]
+      },
+      {
+        "heading": "Why the closing agent asks for your Social Security number",
+        "body": [
+          "The IRS instructions are direct: \"File Form 1099-S, Proceeds From Real Estate Transactions, to report the sale or exchange of real estate.\" The person who files it is \"the person responsible for closing the transaction,\" and where a Closing Disclosure or other settlement statement lists a settlement agent, that is the person listed. The instructions also allow a written agreement at or before closing designating who files.",
+          "To file, the closing agent needs the seller's taxpayer identification number. The instructions say \"You must request the transferor's TIN no later than the time of closing,\" and the seller \"is required to furnish their complete, non-truncated TIN and to certify that the TIN is correct.\"",
+          "There is a reporting exception for some home sales. A filer does not have to report the sale of a residence for $250,000 or less — $500,000 if the certification includes an assurance that the seller is married — if it receives an acceptable written certification, signed by each seller under penalties of perjury, that the home is the seller's principal residence and the full gain is excludable under section 121, with the further assurances the instructions list. Without the certification, the instructions say, \"you must file and furnish Form 1099-S.\" This is an exception to reporting, not a statement about whether any tax is owed; that is a question for a tax professional."
+        ],
+        "claims": ["cl-1099s-reports-real-estate-sales", "cl-1099s-tin-requested-at-closing", "cl-1099s-principal-residence-certification"]
+      },
+      {
+        "heading": "If the seller is a foreign person: FIRPTA withholding",
+        "body": [
+          "Under the Foreign Investment in Real Property Tax Act, as the IRS describes it, a disposition of U.S. real property by a foreign person is subject to income tax withholding. Buyers, certain purchasers' agents and settlement officers \"are required to withhold 15% (10% for dispositions before Feb. 17, 2016) of the amount realized on the disposition.\" In most cases the buyer is the withholding agent, must find out whether the seller is a foreign person, and \"may be held liable for the tax\" if it fails to withhold. The IRS lists exceptions and reduced-rate rules; 15% is the general rate, not the answer for every sale.",
+          "That is why a seller may be asked for a certification at closing. Among the IRS's listed exceptions is a seller's certification, under penalties of perjury, \"that the transferor is not a foreign person,\" containing the seller's name, U.S. taxpayer identification number and home address. The seller can give it to a qualified substitute, which includes \"the person (including any attorney or title company) responsible for closing the transaction, other than the transferor's agent.\" The certification is not effective if the buyer or substitute knows it is false. Whether you are a foreign person for these rules is a tax question this page cannot answer."
+        ],
+        "claims": ["cl-firpta-buyer-withholds-15-percent", "cl-firpta-non-foreign-certification"]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in Ada County with our own capital, in any condition, and our purchases close through a local title company — so the steps above — the acknowledged deed, the recording and the federal forms — are handled by a title company working under the Idaho statutes described on this page. You choose the closing date, and a three-week close is realistic. If you want to see how an offer from us works, [how it works](/how-it-works) lays it out, and you can [contact us](/contact) when you are ready. If your sale also raises disclosure questions, our [seller disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers what Idaho requires.",
+          "A direct sale is not always the right one. If the property is in good shape and you have time, listing it with an agent will often net more, and the deed, notary and recording rules above apply either way. If an estate, a title problem or a tax question is involved, talk to an attorney or a tax professional before you sign anything — ours included."
+        ]
+      }
+    ]
+  }
+}

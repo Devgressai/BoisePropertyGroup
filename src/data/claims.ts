@@ -4558,6 +4558,2850 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "United States (applies in Idaho)",
     "amendmentHistory": null
+  },
+  {
+    "id": "pb-venue-domicile-county",
+    "claim": "Under Idaho Code 15-3-201, the first probate or appointment proceeding after a death is venued in the county where the decedent was domiciled at death; for a decedent not domiciled in Idaho, in any county where the decedent's property was located.",
+    "quote": "(a) Venue for the first informal or formal testacy or appointment proceedings after a decedent's death is: (1) In the county where the decedent had his domicile at the time of his death; or (2) If the decedent was not domiciled in this state, in any county where property of the decedent was located at the time of his death.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-201 — Venue for first and subsequent estate proceedings — Location of property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-201/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(15-3-201) added 1971, ch. 111, sec. 1, p. 233; am. 2009, ch. 11, sec. 4, p. 15.]"
+  },
+  {
+    "id": "pb-ada-magistrates-hear-probates",
+    "claim": "In Ada County, probates are heard by magistrate judges; because of Ada County's case volume, its magistrates are assigned by the Administrative District Judge to specific types of cases, and probates are one of the listed assignments.",
+    "quote": "Magistrate judges have jurisdiction to hear infractions, misdemeanors, felony preliminary hearings, probates, guardianships, conservatorships ... because of the comparatively high volume of cases filed in Ada County, magistrate judges serving Ada County are assigned by the Administrative District Judge to hear specific types of cases. ... Probates, Guardianships, Conservatorships, Miscellaneous Civil",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "probate",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Magistrate Court — Ada County Courts",
+        "url": "https://adacounty.id.gov/judicial-court/magistrate-court/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "pb-fourth-district-ada",
+    "claim": "Ada County's courts are part of the Fourth Judicial District of the Idaho State Courts, which serves Ada, Boise, Elmore and Valley counties.",
+    "quote": "Welcome to the Fourth Judicial District of the Idaho State Courts. ... If you need a court interpreter in Ada, Boise, Elmore, or Valley Counties, please email the Interpreter Office",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "probate",
+      "jurisdiction"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Fourth Judicial District — Idaho State Courts",
+        "url": "https://fourthjudicialcourt.idaho.gov/",
+        "publisher": "Idaho Supreme Court",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "pb-registrar-is-judge",
+    "claim": "In Idaho the acts the probate code assigns to the 'registrar' are performed by a magistrate or district judge.",
+    "quote": "The acts and orders which this code specifies as performable by the registrar will be performed by a magistrate or district judge.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "informal-probate"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-1-307 — Registrar — Powers",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-307/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-1-307, as added by 1971, ch. 111, sec. 1, p. 233; am. 1971, ch. 126, sec. 1, p. 487.]"
+  },
+  {
+    "id": "pb-informal-probate-five-days",
+    "claim": "On an application for informal probate, the registrar issues a written statement of informal probate once the required findings are made, if at least five days have passed since the death; informal probate is conclusive until superseded by an order in a formal testacy proceeding.",
+    "quote": "the registrar, upon making the findings required by section 15-3-303 of this chapter shall issue a written statement of informal probate if at least five (5) days have elapsed since the decedent's death. Informal probate is conclusive as to all persons until superseded by an order in a formal testacy proceeding.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "informal-probate",
+      "timing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-302 — Informal probate — Duty of registrar — Effect of informal probate",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-302/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-302, as added by 1971, ch. 111, sec. 1, p. 233; am. 1971, ch. 126, sec. 1, p. 487; am. 1973, ch. 167, sec. 8, p. 319.]"
+  },
+  {
+    "id": "pb-informal-appointment-120-hours",
+    "claim": "On an application for informal appointment, the registrar appoints the applicant, subject to qualification and acceptance, once at least 120 hours have passed since the death (delayed to 30 days for a nonresident decedent, with exceptions); informal appointment fully establishes the status, powers and duties of a personal representative.",
+    "quote": "if at least one hundred twenty (120) hours have elapsed since the decedent's death, the registrar, after making the findings required by section 15-3-308 of this chapter, shall appoint the applicant subject to qualification and acceptance; provided, that if the decedent was a nonresident, the registrar shall delay the order of appointment until thirty (30) days have elapsed since death ... The status of personal representative and the powers and duties pertaining to the office are fully established by informal appointment.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "informal-probate",
+      "appointment",
+      "timing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-307 — Informal appointment proceedings — Delay in order — Duty of registrar — Effect of appointment",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-307/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-307, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-formal-testacy-litigation",
+    "claim": "A formal testacy proceeding in Idaho is litigation to determine whether the decedent left a valid will. Once a previously appointed personal representative receives notice of one, they must refrain from further distribution while it is pending; a petitioner may ask the court to restrain the acting representative's powers, but absent such an order the proceeding affects only powers relating to distribution.",
+    "quote": "A formal testacy proceeding is litigation to determine whether a decedent left a valid will. ... a previously appointed personal representative, after receipt of notice of the commencement of a formal probate proceeding, must refrain from exercising his power to make any further distribution of the estate during the pendency of the formal proceeding. A petitioner who seeks the appointment of a different personal representative in a formal proceeding also may request an order restraining the acting personal representative from exercising any of the powers of his office and requesting the appointment of a special administrator. In the absence of a request, or if the request is denied, the commencement of a formal proceeding has no effect on the powers and duties of a previously appointed personal representative other than those relating to distribution.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "formal-probate"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-401 — Formal testacy proceedings — Nature — When commenced",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-401/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-401, as added by 1971, ch. 111, sec. 1, p. 233; am. 1972, ch. 201, sec. 11, p. 510.]"
+  },
+  {
+    "id": "pb-supervised-administration",
+    "claim": "Supervised administration is a single proceeding under the continuing authority of the court; a supervised personal representative answers to the court and is subject to its directions, but otherwise has the same duties and powers as an unsupervised one.",
+    "quote": "Supervised administration is a single in rem proceeding to secure complete administration and settlement of a decedent's estate under the continuing authority of the court ... A supervised personal representative is responsible to the court, as well as to the interested parties, and is subject to directions concerning the estate made by the court on its own motion or on the motion of any interested party.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "supervised-administration"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-501 — Supervised administration — Nature of proceeding",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-501/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-501, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-pr-proceeds-without-court-order",
+    "claim": "An Idaho personal representative must proceed expeditiously with settling and distributing the estate and, except where supervised administration provides otherwise, does so without adjudication, order or direction of the court, though they may invoke the court to resolve questions.",
+    "quote": "A personal representative shall proceed expeditiously with the settlement and distribution of a decedent's estate and, except as otherwise specified or ordered in regard to a supervised personal representative, do so without adjudication, order, or direction of the court, but he may invoke the jurisdiction of the court, in proceedings authorized by this code, to resolve questions concerning the estate or its administration.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-704 — Personal representative to proceed without court order — Exception",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-704/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-704, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-appointment-priority",
+    "claim": "Idaho sets a priority order for appointment as personal representative: the person with priority under a probated will; a surviving spouse who is a devisee; other devisees; the surviving spouse; other heirs; then, 45 days after death, any creditor; and if a petition has been filed and 60 days pass with no proper person consenting to act, the public administrator. Persons sharing a priority who do not renounce must concur in nominating someone or in applying.",
+    "quote": "(a) Whether the proceedings are formal or informal, persons who are not disqualified have priority for appointment in the following order: (1) the person with priority as determined by a probated will including a person nominated by a power conferred in a will; (2) the surviving spouse of the decedent who is a devisee of the decedent; (3) other devisees of the decedent; (4) the surviving spouse of the decedent; (5) other heirs of the decedent; (6) forty-five (45) days after the death of the decedent, any creditor; (7) if a petition for appointment of a personal representative has been filed and sixty (60) days have elapsed during which no consent to act has been filed by any proper person, the public administrator shall act as personal representative unless and until a proper person consents to act. ... When two (2) or more persons share a priority, those of them who do not renounce must concur in nominating another to act for them, or in applying for appointment.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "appointment"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-203 — Priority among persons seeking appointment as personal representative",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-203/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-203, as added by 1971, ch. 111, sec. 1, p. 233; am. 1972, ch. 201, sec. 8, p. 510.]"
+  },
+  {
+    "id": "pb-letters-required",
+    "claim": "To acquire the powers of a personal representative in Idaho, a person must be appointed by the court or registrar, qualify, and be issued letters; administration of an estate begins with the issuance of letters.",
+    "quote": "Except as otherwise provided in chapter 4 of this code, to acquire the powers and undertake the duties and liabilities of a personal representative of a decedent, a person must be appointed by order of the court or registrar, qualify and be issued letters. Administration of an estate is commenced by the issuance of letters.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "letters"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-103 — Necessity of appointment for administration",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-103/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-103, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-qualification-before-letters",
+    "claim": "Before receiving letters, an Idaho personal representative qualifies by filing any required bond and a statement of acceptance, including an oath to perform the duties of the office according to law.",
+    "quote": "Prior to receiving letters, a personal representative shall qualify by filing with the appointing court any required bond and a statement of acceptance of the duties of the office. In his statement of acceptance, the personal representative shall subscribe an oath to the effect that he will perform the duties of his office according to the law.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "letters",
+      "appointment"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-601 — Qualification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-601/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-601, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-powers-commence-on-appointment",
+    "claim": "A personal representative's duties and powers begin on appointment; the powers relate back to give beneficial acts done before appointment the same effect, and the representative may ratify proper acts done by others.",
+    "quote": "Duties and powers of a personal representative commence upon his appointment. The powers of a personal representative relate back in time to give acts by the person appointed which are beneficial to the estate occurring prior to appointment the same effect as those occurring thereafter.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "appointment"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-701 — Time of accrual of duties and powers",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-701/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-701, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-certified-letters-date",
+    "claim": "On payment of the required fees, the Idaho court clerk must issue certified copies of probated wills, letters issued to personal representatives and other filed records; certificates relating to letters must show the date of appointment.",
+    "quote": "Upon payment of the fees required by law the clerk must issue certified copies of any probated wills, letters issued to personal representatives, or any other record or paper filed or recorded. ... Certificates relating to letters must show the date of appointment.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "letters",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-1-305 — Records and certified copies",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-305/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-1-305, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-letters-recordable",
+    "claim": "Letters of a personal representative, a statement of informal probate, and any deed executed by an appointed personal representative, among other documents affecting title to real property, may be recorded with the county recorder where the property is, and from filing they give notice of their contents to everyone.",
+    "quote": "Letters of personal representatives (foreign or domestic), a statement of informal probate, probated will, determination of heirship, order made in a testacy proceeding ... any deed, assignment, release or other instrument executed by an appointed personal representative of the decedent; an affidavit of a successor in interest to property of a decedent ... may be recorded in the office of the county recorder of the county in which the real property affected by any such letters, statement, determination, order, document or decree is located. From the time of filing the same for record, notice is imparted to all persons of the contents thereof.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "letters",
+      "recording",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-1-305A — Recording permitted — Effect",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-305A/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-1-305A, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-good-faith-buyer-protected",
+    "claim": "A person who in good faith deals with an Idaho personal representative for value is protected as if the representative properly exercised the power, need not inquire into the existence or propriety of the power, and is bound by a will or court limitation on the representative's power only with actual knowledge of it — except for restrictions on supervised representatives endorsed on the letters, and without regard to recording-based constructive notice.",
+    "quote": "A person who in good faith either assists a personal representative or deals with him for value is protected as if the personal representative properly exercised his power. The fact that a person knowingly deals with a personal representative does not alone require the person to inquire into the existence of a power or the propriety of its exercise. Except for restrictions on powers of supervised personal representatives which are endorsed on letters as provided in section 15-3-504 of this code, and without regard to the constructive notice provisions of section 15-1-305A of this code, no provision in any will or order of court purporting to limit the power of a personal representative is effective except as to persons with actual knowledge thereof.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-714 — Persons dealing with personal representative — Protection",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-714/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-714, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-pr-may-sell-real-property",
+    "claim": "Among the transactions Idaho Code 15-3-715 authorises for a personal representative are acquiring or disposing of an asset, including land, at public or private sale, and selling, mortgaging or leasing any real property of the estate for cash or credit.",
+    "quote": "(6) Acquire or dispose of an asset, including land in this or another state, for cash or on credit, at public or private sale; ... (23) Sell, mortgage, or lease any real or personal property of the estate or any interest therein for cash, credit, or for part cash and part credit, and with or without security for unpaid balances;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-715 — Transactions authorized for personal representatives — Exceptions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-715/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-3-715, added 1971, ch. 111, sec. 1, p. 233; am. 2011, ch. 69, sec. 1, p. 144.]"
+  },
+  {
+    "id": "pb-pr-possession-and-taxes",
+    "claim": "Unless the will provides otherwise, an Idaho personal representative has the right to take possession or control of the decedent's property, though real property may be left with the person presumptively entitled to it until the representative judges possession necessary for administration; the representative must pay taxes on, and take reasonable steps to manage, protect and preserve, the estate in their possession.",
+    "quote": "Except as otherwise provided by a decedent's will, every personal representative has a right to, and shall take possession or control of, the decedent's property, except that any real property or tangible personal property may be left with or surrendered to the person presumptively entitled thereto unless or until, in the judgment of the personal representative, possession of the property by him will be necessary for purposes of administration. ... The personal representative shall pay taxes on, and take all steps reasonably necessary for the management, protection and preservation of, the estate in his possession.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "property-taxes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-709 — Duty of personal representative — Possession of estate",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-709/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-709, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-creditor-notice-four-months",
+    "claim": "On appointment, an Idaho personal representative may publish a notice to creditors once a week for three successive weeks in a newspaper of general circulation in the county, requiring claims within four months of first publication or be forever barred; written notice to a known creditor sets a deadline of four months after publication or 60 days after mailing or delivery, whichever is later.",
+    "quote": "(a) Unless notice has already been given under this section, a personal representative upon his appointment may publish a notice to creditors once a week for three (3) successive weeks in a newspaper of general circulation in the county announcing his appointment and address and notifying creditors of the estate to present their claims within four (4) months after the date of the first publication of the notice or be forever barred. (b) A personal representative may give written notice by mail or other delivery to any creditor, notifying the creditor to present his claim within four (4) months after the published notice if given as provided in subsection (a) of this section or within sixty (60) days after the mailing or delivery of the notice, whichever is later, or be forever barred.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "creditor-claims",
+      "timing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-801 — Notice to creditors",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-801/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-3-801, added 1971, ch. 111, sec. 1, p. 233; am. 1991, ch. 87, sec. 1, p. 192; am. 1998, ch. 9, sec. 2, p. 108.]"
+  },
+  {
+    "id": "pb-claims-barred-three-years",
+    "claim": "Pre-death claims against an Idaho estate (other than state tax claims) are barred unless presented by the earlier of three years after death or the deadline set by a notice to creditors under 15-3-801; the section does not affect proceedings to enforce a mortgage or other lien on estate property.",
+    "quote": "(a) All claims against a decedent's estate which arose before the death of the decedent, including claims of the state and any subdivision thereof (except claims for state taxes), whether due or to become due ... are barred against the estate, the personal representative, and the heirs and devisees of the decedent, unless presented within the earlier of the following dates: (1) three (3) years after the decedent's death; or (2) within the time provided in section 15-3-801 (b), Idaho Code, for creditors who are given actual notice, and within the time provided in section 15-3-801 (a), Idaho Code, for all creditors barred by publication. ... (e) Nothing in this section affects or prevents: (1) any proceeding to enforce any mortgage, pledge, or other lien upon property of the estate;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "creditor-claims",
+      "timing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-803 — Limitations on presentation of claims",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-803/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-3-803, added 1991, ch. 87, sec. 4, p. 193; am. 1997, ch. 113, sec. 2, p. 279; am. 2004, ch. 130, sec. 1, p. 449.]"
+  },
+  {
+    "id": "pb-close-no-earlier-six-months",
+    "claim": "Unless the court prohibits it, and outside supervised administration, an Idaho personal representative may close an estate by sworn statement filed no earlier than six months after the original appointment, stating among other things that the time for presenting creditors' claims has expired; if nothing is pending a year after filing, the appointment terminates.",
+    "quote": "Unless prohibited by order of the court and except for estates being administered in supervised administration proceedings, a personal representative may close an estate by filing with the court no earlier than six (6) months after the date of original appointment of a general personal representative for the estate, a verified statement stating that he, or a previous personal representative whom he has succeeded, has or have: (1) determined that the time limitation for presentation of creditors' claims has expired; ... (b) If no proceedings involving the personal representative are pending in the court one (1) year after the closing statement is filed, the appointment of the personal representative terminates.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "timing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-1003 — Closing estates — By sworn statement of personal representative",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1003/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-1003, as added by 1971, ch. 111, sec. 1, p. 233; am. 1991, ch. 87, sec. 6, p. 194.]"
+  },
+  {
+    "id": "pb-probate-three-year-limit",
+    "claim": "Subject to listed exceptions, no informal or formal probate or appointment proceeding may be commenced in Idaho more than three years after the death; the limit does not apply to proceedings under 15-3-1201 or 15-3-1205, or to proceedings to construe probated wills or determine heirs of an intestate.",
+    "quote": "may be commenced more than three (3) years after the decedent's death, except: ... These limitations do not apply to proceedings to construe probated wills or determine heirs of an intestate or to proceedings under section 15-3-1201 , Idaho Code, or section 15-3-1205 , Idaho Code.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "timing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-108 — Probate — Testacy and appointment proceedings — Ultimate time limit",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-108/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-3-108, added 1971, ch. 111, sec. 1, p. 233; am. 2014, ch. 264, sec. 1, p. 659.]"
+  },
+  {
+    "id": "pb-small-estate-affidavit-conditions",
+    "claim": "Idaho Code 15-3-1201 lets a successor collect a decedent's debts owed and tangible personal property by affidavit, 30 days after death, if the probate estate's value less liens and encumbrances does not exceed $100,000 and no application or petition for a personal representative or summary administration is pending or granted anywhere.",
+    "quote": "(a) Thirty (30) days after the death of a decedent, any person indebted to the decedent or having possession of tangible personal property or an instrument evidencing a debt, obligation, stock or chose in action belonging to the decedent shall make payment of the indebtedness or deliver the tangible personal property or an instrument evidencing a debt, obligation, stock or chose in action to a person or entity claiming to be the successor of the decedent upon being presented an affidavit made by or on behalf of the successor stating that: (1) The fair market value of the entire estate of the decedent which is subject to probate, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars ($100,000); (2) Thirty (30) days have elapsed since the death of the decedent; (3) No application or petition for the appointment of a personal representative or for summary administration is pending or has been granted in any jurisdiction;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "small-estate"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-1201 — Collection of personal property by affidavit",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1201/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-3-1201, as added by 1971, ch. 111, sec. 1, p. 233; am. 1993, ch. 253, sec. 1, p. 879; am. 1995, ch. 167, sec. 1, p. 650; am. 1997, ch. 212, sec. 1, p. 631; am. 2002, ch. 216, sec. 1, p. 595; am. 2006, ch. 160, sec. 1, p. 480; am. 2006, ch. 179, sec. 1, p. 553.]"
+  },
+  {
+    "id": "pb-ada-small-estate-affidavit-no-real-estate",
+    "claim": "Ada County's Court Assistance Office describes the small estate affidavit as usable where the decedent did not own real estate and had personal property with a net value under $100,000; it lets a successor collect property owed to the decedent, is signed before a notary, and is not filed with the court.",
+    "quote": "When a person dies, an affidavit may be used if he or she did not own real estate and had personal property with a net value of less than $100,000. The affidavit allows a successor to collect any property, money or other items owed to the deceased. The successor would complete the affidavit and sign it in front of a notary. The affidavit is not filed with the court.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "probate",
+      "small-estate"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Small Estate Affidavit — Ada County Clerk Court Assistance",
+        "url": "https://adacounty.id.gov/clerk/small-estate-affidavit/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "pb-surviving-spouse-summary",
+    "claim": "Where a surviving spouse is the sole devisee or heir, the spouse may petition for summary administration; after notice and hearing the court may enter a decree with the effect of a formal decree of distribution, and a spouse who elects this route assumes liability for the estate's debts, with no administration of the estate.",
+    "quote": "(a) Upon the testate or intestate death of a person leaving a surviving spouse as the sole devisee or beneficiary, the surviving spouse (or any person claiming title to any property through or under such surviving spouse) may file a verified petition setting out marriage and the death of a person leaving a surviving spouse as the sole devisee or heir. ... This decree shall thereafter have the same effect as a formal decree approving or determining distribution. ... (c) In the event that the surviving spouse (or person claiming through or under the surviving spouse) shall elect to proceed under this section, the surviving spouse shall assume and be liable for any and all indebtedness that might be a claim against the estate of the decedent and there will be no administration of the estate of the decedent.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "small-estate"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-1205 — Summary administration of estates in which a surviving spouse is the sole beneficiary",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1205/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-3-1205, added 1973, ch. 124, sec. 2, p. 234; am. 1974, ch. 199, sec. 4, p. 1516; am. 2003, ch. 60, sec. 1, p. 206; am. 2005, ch. 121, sec. 1, p. 396.]"
+  },
+  {
+    "id": "pb-deed-of-distribution",
+    "claim": "When an Idaho personal representative distributes property in kind, they execute an instrument or deed of distribution as evidence of the distributee's title.",
+    "quote": "If distribution in kind is made, the personal representative shall execute an instrument or deed of distribution assigning, transferring or releasing the assets to the distributee as evidence of the distributee's title to the property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "distribution",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-907 — Distribution in kind — Evidence",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-907/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-907, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "pb-purchaser-from-distributee-protected",
+    "claim": "A purchaser for value from a distributee who received a deed of distribution from the personal representative takes title free of the rights of interested persons in the estate, whether or not the distribution was proper, and need not inquire whether the representative acted properly.",
+    "quote": "If property distributed in kind or a security interest therein is acquired for value by a purchaser from, or lender to, a distributee who has received an instrument or deed of distribution from the personal representative, or is so acquired by a purchaser from or lender to a transferee from such distributee, the purchaser or lender takes title free of rights of any interested person in the estate and incurs no personal liability to the estate, or to any interested person, whether or not the distribution was proper or supported by court order",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "distribution",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-910 — Purchasers from distributees protected",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-910/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-910, as added by 1971, ch. 111, sec. 1, p. 233; am. 1978, ch. 350, sec. 14, p. 922.]"
+  },
+  {
+    "id": "cl-deed-writing-subscribed-grantee-address",
+    "claim": "Under Idaho Code 55-601, a conveyance of an estate in real property may be made by a written instrument subscribed by the party disposing of the property or by that party's agent authorised in writing, and the grantee's name and complete mailing address must appear on the instrument. The sale price is not among the elements the section requires.",
+    "quote": "A conveyance of an estate in real property may be made by an instrument in writing, subscribed by the party disposing of the same, or by his agent thereunto authorized by writing. The name of the grantee and his complete mailing address must appear on such instrument.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "deeds",
+      "closing",
+      "title",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-601 — Conveyance — How made",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-601/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-601) 1863, p. 528, sec. 1; R.S., sec. 2920; reen. R.C. & C.L., sec. 3105; C.S., sec. 5373; I.C.A., sec. 54-601; am. 1973, ch. 284, sec. 1, p. 600; am. 1989, ch. 105, sec. 1, p. 238.]"
+  },
+  {
+    "id": "cl-grant-deed-implied-covenants",
+    "claim": "Idaho Code 55-612 provides that using the word 'grant' in a conveyance of a fee simple implies two covenants by the grantor, and no others, unless the conveyance expressly restrains them: that the grantor has not previously conveyed the same estate or any interest in it to anyone else, and that the estate is free from encumbrances done, made or suffered by the grantor or anyone claiming under the grantor.",
+    "quote": "From the use of the word \"grant\" in any conveyance by which an estate of inheritance, possessory right, or fee simple is to be passed, the following covenants, and none other, on the part of the grantor, for himself and his heirs, to the grantee, his heirs and assigns, are implied, unless restrained by express terms contained in such conveyance: 1. That previous to the time of the execution of such conveyance, the grantor has not conveyed the same estate, or any right, title or interest therein, to any person other than the grantee. 2. That such estate is at the time of the execution of such conveyance free from encumbrances done, made or suffered by the grantor, or any person claiming under him.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "deeds",
+      "title",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-612 — Covenants implied from grant",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-612/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-612) 1863, p. 528, sec. 50; R.S., sec. 2935; reen. R.C. & C.L., sec. 3120; C.S., sec. 5384; I.C.A., sec. 54-612.]"
+  },
+  {
+    "id": "cl-encumbrances-include-taxes-liens",
+    "claim": "Idaho Code 55-613 defines 'encumbrances' to include taxes, assessments and all liens upon real property.",
+    "quote": "The term \"encumbrances\" includes taxes, assessments, and all liens upon real property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "deeds",
+      "title",
+      "liens",
+      "property-taxes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-613 — Encumbrances defined",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-613/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-613) R.S., sec. 2936; reen. R.C. & C.L., sec. 3121; C.S., sec. 5385; I.C.A., sec. 54-613.]"
+  },
+  {
+    "id": "cl-acknowledgment-required-to-record",
+    "claim": "Under Idaho Code 55-805, before an instrument may be recorded — unless otherwise expressly provided — its execution must be acknowledged by the person executing it (or by a listed officer, partner, manager or member for an entity), or the execution must be proved, with the acknowledgment or proof certified substantially as prescribed by Idaho's notarial law in chapter 1, title 51. An acknowledgment taken in another state or country according to its laws is also entitled to record.",
+    "quote": "Before an instrument may be recorded, unless it is otherwise expressly provided, its execution must be acknowledged by the person executing it ... or the execution must be proved and the acknowledgment or proof, certified in substantially the manner prescribed by chapter 1, title 51, Idaho Code; provided, that if such instrument shall have been executed and acknowledged in any other state or territory of the United States, or in any foreign country, according to the laws of the state, territory or country wherein such acknowledgment was taken, the same shall be entitled to record",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "deeds",
+      "recording",
+      "closing",
+      "notary"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-805 — Acknowledgment necessary to authorize recording",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-805/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-805) R.S., sec. 2994; am. 1907, p. 6, sec. 1; reen. R.C. & C.L., sec. 3153; C.S., sec. 5417; am. 1923, ch. 144, sec. 3, p. 209; am. 1929, ch. 183, sec. 6, p. 94; I.C.A., sec. 54-805; am. 1937, ch. 176, sec. 3, p. 291; am. 1999, ch. 213, sec. 4, p. 571; am. 2017, ch. 192, sec. 13, p. 457; am. 2021, ch. 283, sec. 1, p. 857.]"
+  },
+  {
+    "id": "cl-notary-acknowledgment-identity",
+    "claim": "Under Idaho Code 51-105(1), a notary public taking an acknowledgment must determine, from personal knowledge or satisfactory evidence of identity, that the person appearing and acknowledging has the identity claimed and that the signature on the record is that person's signature.",
+    "quote": "A notary public who takes an acknowledgment of a record shall determine, from personal knowledge or satisfactory evidence of the identity of the individual, that the individual appearing before the notary public and making the acknowledgment has the identity claimed and that the signature on the record is the signature of the individual.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "deeds",
+      "closing",
+      "notary"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 51-105 — Requirements for certain notarial acts",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-105/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[51-105, added 2017, ch. 192, sec. 3, p. 443.]"
+  },
+  {
+    "id": "cl-notary-personal-appearance",
+    "claim": "Idaho Code 51-106 requires a person whose signature or statement is the subject of a notarial act to appear personally before the notary public.",
+    "quote": "If a notarial act relates to a statement made in or a signature executed on a record, the individual making the statement or executing the signature shall appear personally before the notary public.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "deeds",
+      "closing",
+      "notary"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 51-106 — Personal appearance required",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-106/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[51-106, added 2017, ch. 192, sec. 3, p. 443.]"
+  },
+  {
+    "id": "cl-remote-notarization-satisfies-appearance",
+    "claim": "Idaho Code 51-114A allows a remotely located individual to satisfy the personal-appearance requirement of 51-106 by appearing before a notary public through communication technology, which the section defines as a device or process allowing the notary and the individual to communicate simultaneously by sight and sound; the Idaho notary must also meet identity, record-confirmation and audio-visual recording conditions.",
+    "quote": "A remotely located individual may comply with the provisions of section 51-106, Idaho Code, by appearing before a notary public by means of communication technology. ... Allows a notary public and a remotely located individual to communicate with each other simultaneously by sight and sound ... The notary public, or a person acting on behalf of the notary public, creates an audio-visual recording of the performance of the notarial act",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "deeds",
+      "closing",
+      "notary"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 51-114A — Notarial act performed by remotely located individual",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-114A/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[51-114A, added 2019, ch. 160, sec. 4, p. 521.]"
+  },
+  {
+    "id": "cl-record-in-county-where-situated",
+    "claim": "Idaho Code 55-808 requires instruments entitled to be recorded to be recorded by the county recorder of the county in which the affected real property is situated.",
+    "quote": "Instruments entitled to be recorded must be recorded by the county recorder of the county in which the real property affected thereby is situated.",
+    "entities": [
+      "state:id",
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "deeds",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-808 — Place of record",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-808/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-808) 1863, p. 528, sec. 23; R.S., sec. 2997; reen. R.C. & C.L., sec. 3156; C.S., sec. 5420; I.C.A., sec. 54-808.]"
+  },
+  {
+    "id": "cl-deemed-recorded-on-deposit",
+    "claim": "Under Idaho Code 55-809, an instrument is deemed recorded when, being duly acknowledged or proved and certified, it is deposited in the recorder's office with the proper officer for record.",
+    "quote": "An instrument is deemed to be recorded when, being duly acknowledged, or proved and certified, it is deposited in the recorder's office with the proper officer for record.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "recording",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-809 — When deemed recorded",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-809/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-809) R.S., sec. 2998; reen. R.C. & C.L., sec. 3157; C.S., sec. 5421; I.C.A., sec. 54-809.]"
+  },
+  {
+    "id": "cl-recorded-conveyance-constructive-notice",
+    "claim": "Under Idaho Code 55-811, every conveyance of real property that is acknowledged or proved, certified and recorded as prescribed by law is, from the time it is filed with the recorder for record, constructive notice of its contents to subsequent purchasers and mortgagees.",
+    "quote": "Every conveyance of real property acknowledged or proved, and certified, and recorded as prescribed by law, from the time it is filed with the recorder for record, is constructive notice of the contents thereof to subsequent purchasers and mortgag(e)es.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "recording",
+      "title",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-811 — Record as notice",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-811/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-811) 1863, p. 528, sec. 24; R.S., sec. 3000; reen. R.C. & C.L., sec. 3159; C.S., sec. 5423; I.C.A., sec. 54-811; am. 1941, ch. 119, sec. 1, p. 240.]"
+  },
+  {
+    "id": "cl-bona-fide-purchaser-first-recorded",
+    "claim": "Idaho Code 55-606 makes every grant or conveyance of real property conclusive against the grantor and everyone later claiming under the grantor, except a purchaser or encumbrancer who, in good faith and for valuable consideration, acquires a title or lien by an instrument or valid judgment lien that is first duly recorded.",
+    "quote": "Every grant or conveyance of an estate in real property is conclusive against the grantor, also against every one subsequently claiming under him, except a purchaser or encumbrancer, who in good faith, and for a valuable consideration, acquires a title or lien by an instrument or valid judgment lien that is first duly recorded.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "recording",
+      "title",
+      "deeds",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-606 — Conclusiveness of conveyance — Bona fide purchasers",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-606/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-606) R.S., sec. 2929; reen. R.C. & C.L., sec. 3114; C.S., sec. 5378; I.C.A., sec. 54-606; am. 1989, ch. 107, sec. 1, p. 247.]"
+  },
+  {
+    "id": "cl-unrecorded-valid-between-parties",
+    "claim": "Idaho Code 55-815 states that an unrecorded instrument is valid as between the parties to it and those who have notice of it.",
+    "quote": "An unrecorded instrument is valid as between the parties thereto and those who have notice thereof.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "recording",
+      "deeds",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-815 — Unrecorded instruments valid between parties",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-815/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-815) 1863, p. 528, sec. 23; R.S., sec. 3004; reen. R.C. & C.L., sec. 3163; C.S., sec. 5427; I.C.A., sec. 54-815.]"
+  },
+  {
+    "id": "cl-recorder-records-open-without-charge",
+    "claim": "Idaho Code 31-2419 requires all books of record, maps, charts, surveys and other papers on file in a county recorder's office to be open during office hours for inspection by any person, without charge.",
+    "quote": "All books of record, maps, charts, surveys and other papers on file in the recorder's office, must, during office hours, be open for the inspection of any person who may desire to inspect them, and may be inspected without charge",
+    "entities": [
+      "state:id",
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "disclosure",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 31-2419 — Records open to inspection",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title31/t31ch24/sect31-2419/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(31-2419) 1863, p. 475, sec. 80; R.S., sec. 2035; reen. R.C. & C.L., sec. 2078; C.S., sec. 3651; I.C.A., sec. 30-1919; am. 2005, ch. 243, sec. 8, p. 761.]"
+  },
+  {
+    "id": "cl-ada-deeds-blocked-online",
+    "claim": "The Ada County Recorder's Office states that certain document types, including deeds, are currently blocked from viewing or downloading online, and that copies must be requested from the office directly.",
+    "quote": "The following documents are currently blocked from viewing or downloading online. If you need copies, please contact our office directly at ... Affidavits in Lieu of Probate Agreements Deeds Appointment of Successor Trustee",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "deeds",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Property Records — Ada County Clerk/Recorder",
+        "url": "https://adacounty.id.gov/clerk/property-records/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cl-ada-deed-recording-fee",
+    "claim": "Ada County's recording fee schedule places any deed transferring or affecting ownership of a property — including warranty, quitclaim, trustee, probate and tax deeds and deeds in lieu of foreclosure — in a predictable-fee category of $15.00, which covers the first 30 pages, with an additional $3.00 per page beyond 30.",
+    "quote": "Any deed document transferring or affecting ownership of a property will fall into this category ... Deed in lieu of foreclosure, Deed in Satisfaction of mortgage debt, etc.) $15.00 ... Predictable fees cover the first 30 pages of a document. Documents that exceed 30 pages will be charged an additional $3.00 per page.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "deeds",
+      "fees",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Property Records — Ada County Clerk/Recorder",
+        "url": "https://adacounty.id.gov/clerk/property-records/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cl-idaho-non-disclosure-state",
+    "claim": "An Idaho county assessor describes Idaho as a non-disclosure state and says that, as a result, the assessor's office depends heavily on the public to provide sales information when property is bought and sold.",
+    "quote": "Since Idaho is a non-disclosure state, the Assessor's office depends heavily on the public to provide sales information when property is bought and sold.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure",
+      "assessment",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Assessor FAQ",
+        "url": "https://www.canyoncounty.id.gov/elected-officials/assessor/assessor-faq/",
+        "publisher": "Canyon County Assessor",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cl-title-business-includes-escrow-closing",
+    "claim": "Idaho's title insurance chapter (Title 41, chapter 27) applies to title insurers, title insurance agents and everyone engaged in the business of title insurance, and that business is defined to include a title insurer's or agent's handling of escrows, settlements or closings incident to a title insurance contract or policy.",
+    "quote": "The provisions of chapter 27, title 41, Idaho Code, shall apply to all title insurance companies, title insurance rating organizations, title insurance agents, applicants for title insurance, policyholders and to all persons and business entities engaged in the business of title insurance. ... The performance of any act included herein by a title insurer or a title insurance agent including, but not limited to, handling of escrows, settlements or closing incident to any contract or policy of title insurance",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "escrow",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-2704 — Application of act — Business of title insurance",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2704/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[41-2704, added 1973, ch. 135, sec. 1, p. 252; am. 2015, ch. 275, sec. 1, p. 1132.]"
+  },
+  {
+    "id": "cl-escrow-act-exempts-title-companies",
+    "claim": "Idaho's Escrow Act (Title 30, chapter 9) does not apply to, among others, Idaho-licensed attorneys performing professional duties (unless running a separate escrow business), banks and credit unions, title insurance companies with a valid certificate of authority and title insurance agents licensed by the Idaho Department of Insurance, and real estate licensees acting incidentally to sales they handle.",
+    "quote": "The requirements of this chapter do not apply to: (1) Any person licensed to practice law in this state while engaged in the performance of his professional duties, except an attorney or law firm actively engaging in a separate business as an escrow agency; ... (3) Title insurance companies having a valid certificate of authority, and title insurance agents having a valid license as a title insurance agent, issued by the Idaho department of insurance; (4) Any real estate company, broker or salesperson licensed by and subject to the jurisdiction of the Idaho real estate commission, while performing acts in the course of or incidental to sales or purchases of real or personal property handled or negotiated by such real estate company, broker or salesperson;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "escrow",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 30-905 — Escrow Act — Exempt persons and transactions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-905/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[30-905, added 2005, ch. 236, sec. 2, p. 718.]"
+  },
+  {
+    "id": "cl-title-search-before-policy",
+    "claim": "Idaho Code 41-2708(1) bars issuing title insurance on Idaho real property until the title insurer or its agent owns or leases tract indexes and abstract records of the county where the property is located and has caused a search and examination of the title and a determination of insurability to be made in accordance with sound title underwriting practices.",
+    "quote": "No title insurance on real property in the state of Idaho shall be issued unless and until the title insurer or its agent: (a) Owns or leases, separately or jointly with another, tract indexes and abstract records of the county in which the property is located; and (b) Has caused to be made a search and examination of the title and a determination of insurability of title in accordance with sound title underwriting practices.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-2708 — Determination of insurability — Prohibited risks — Rebates",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2708/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[41-2708, added 1973, ch. 135, sec. 5, p. 252; am. 2018, ch. 213, sec. 2, p. 482.]"
+  },
+  {
+    "id": "cl-title-filed-rate-floor",
+    "claim": "Idaho Code 41-2708(3) prohibits a title insurance company or title insurance agent from quoting or charging anyone less than the rate currently filed for the risk with the Department of Insurance, and every title insurer must file its rate schedule with the Director of the Department of Insurance under 41-2707.",
+    "quote": "No title insurance company or title insurance agent shall quote or make any charge for title insurance to any person less than the currently filed rate for such risk with the department of insurance. ... every title insurer or rating organization shall file with the director of the department of insurance its schedule of rates",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "fees",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-2708 — Determination of insurability — Prohibited risks — Rebates",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2708/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      },
+      {
+        "title": "Idaho Code § 41-2707 — Filing of title insurance rates — Hearings",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2707/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[41-2708, added 1973, ch. 135, sec. 5, p. 252; am. 2018, ch. 213, sec. 2, p. 482.]"
+  },
+  {
+    "id": "cl-escrow-officer-bond",
+    "claim": "Idaho Code 41-2711 defines an escrow officer as an officer or employee of a title insurance agent whose duties include handling escrows, settlements, closings and related funds, requires each title insurance agent to file escrow officers' names with the Director of Insurance, and requires a corporate surety bond of at least $10,000 per county, increasing by $10,000 per additional escrow officer in the county, up to a maximum of $50,000.",
+    "quote": "An escrow officer is an officer or an employee of a title insurance agent whose duties include any of the following: handling escrows, settlements, closings, and funds related thereto ... The bond shall be in the minimum amount of ten thousand dollars ($10,000) per county in which the title insurance agent is licensed and increased in increments of ten thousand dollars ($10,000) corresponding to each additional person employed as an escrow officer in the county, provided that the maximum bond required of any title insurance agent shall be fifty thousand dollars ($50,000)",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "escrow",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-2711 — Requirements for title insurance related business — Bonds",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2711/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 41-2711, as added by 1973, ch. 135, sec. 8, p. 252; am. 1975, ch. 209, sec. 1, p. 580.]"
+  },
+  {
+    "id": "cl-closing-protection-buyer-lender",
+    "claim": "Under Idaho Code 41-2714, a title insurer may issue closing or settlement protection to a buyer, borrower or lender in a transaction in which a title policy will be issued, limited to loss from a licensed title agent's theft or misappropriation of closing funds or failure to follow agreed written closing instructions; the rate may not exceed $25.00, and no party is required to obtain it.",
+    "quote": "A title insurer may issue closing or settlement protection to a buyer, borrower or lender that is a party to a transaction in which a title insurance policy will be issued. ... Theft or misappropriation of closing or settlement funds in connection with a transaction in which a title insurance policy or title insurance policies will be issued by or on behalf of the title insurer issuing the closing or settlement protection. ... Not exceed twenty-five dollars ($25.00). ... Nothing in this section shall be construed to require a buyer, borrower or lender to obtain closing or settlement protection.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "escrow",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-2714 — Closing or settlement protection",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2714/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[41-2714, added 2015, ch. 275, sec. 3, p. 1133.]"
+  },
+  {
+    "id": "cl-1099s-reports-real-estate-sales",
+    "claim": "IRS instructions direct that Form 1099-S, Proceeds From Real Estate Transactions, be filed to report the sale or exchange of real estate, and that the person responsible for closing the transaction files it — where a Closing Disclosure or other settlement statement lists a settlement agent, that is the person listed as settlement agent.",
+    "quote": "File Form 1099-S, Proceeds From Real Estate Transactions, to report the sale or exchange of real estate. ... If you are the person responsible for closing the transaction, you must file Form 1099-S. If a Closing Disclosure or other settlement form is used, as prescribed under the Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank), and a person is listed as the settlement agent on the Closing Disclosure or other settlement statement, the person responsible for closing the transaction is the person listed as the settlement agent on that Closing Disclosure or other settlement statement.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "closing",
+      "reporting"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Instructions for Form 1099-S (12/2026)",
+        "url": "https://www.irs.gov/instructions/i1099s",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cl-1099s-principal-residence-certification",
+    "claim": "IRS instructions provide that a Form 1099-S filer need not report the sale of a residence for $250,000 or less ($500,000 if the certification includes an assurance that the seller is married) if the filer receives an acceptable written certification, signed by each seller under penalties of perjury, that the home is the seller's principal residence and the full gain is excludable under section 121; without the certification, the form must be filed.",
+    "quote": "Sale or exchange of a residence (including stock in a cooperative housing corporation) for $250,000 or less if you received an acceptable written assurance (certification) from the seller that such residence is the principal residence (within the meaning of section 121) of the seller and the full amount of the gain on such sale is excludable from gross income under section 121. If the certification includes an assurance that the seller is married, the preceding sentence shall be applied by substituting \"$500,000\" for \"$250,000.\" ... The certification must be signed by each seller under penalties of perjury. ... You are not required to obtain the certification. However, if you do not obtain it, you must file and furnish Form 1099-S.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "closing",
+      "reporting"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Instructions for Form 1099-S (12/2026)",
+        "url": "https://www.irs.gov/instructions/i1099s",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cl-1099s-tin-requested-at-closing",
+    "claim": "IRS instructions require the Form 1099-S filer to request the seller's taxpayer identification number no later than the time of closing, and the seller is required to furnish a complete, non-truncated TIN and certify that it is correct.",
+    "quote": "You must request the transferor's TIN no later than the time of closing. ... The transferor is required to furnish their complete, non-truncated TIN and to certify that the TIN is correct.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "closing",
+      "reporting"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Instructions for Form 1099-S (12/2026)",
+        "url": "https://www.irs.gov/instructions/i1099s",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cl-firpta-buyer-withholds-15-percent",
+    "claim": "Under FIRPTA, as the IRS describes it, a disposition of a U.S. real property interest by a foreign person is subject to income tax withholding; buyers, certain purchasers' agents and settlement officers are required to withhold 15% of the amount realized (10% for dispositions before Feb. 17, 2016), and in most cases the buyer is the withholding agent and may be held liable if it fails to withhold.",
+    "quote": "The disposition of a U.S. real property interest by a foreign person (the transferor) is subject to the Foreign Investment in Real Property Tax Act of 1980 (FIRPTA) income tax withholding. ... Persons purchasing U.S. real property interests (transferees) from foreign persons, certain purchasers' agents, and settlement officers are required to withhold 15% (10% for dispositions before Feb. 17, 2016) of the amount realized on the disposition (special rules for foreign corporations). In most cases, the buyer (transferee) is the withholding agent. The transferee must find out if the transferor is a foreign person. If the transferor is a foreign person and the transferee fails to withhold, the transferee may be held liable for the tax.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "closing",
+      "firpta"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "FIRPTA withholding",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cl-firpta-non-foreign-certification",
+    "claim": "The IRS lists as an exception from FIRPTA withholding a seller's certification, under penalties of perjury, that the seller is not a foreign person, containing the seller's name, U.S. taxpayer identification number and home address; the certification may be given to a qualified substitute such as the person or title company responsible for closing, and it is not effective if the buyer or substitute knows it is false.",
+    "quote": "The seller (transferor) gives the transferee a certification stating, under penalties of perjury, that the transferor is not a foreign person. The certification should contain the transferor's name, U.S. taxpayer identification number, and home address (or office address, in the case of an entity). The transferor can give the certification to a qualified substitute. ... a qualified substitute is (a) the person (including any attorney or title company) responsible for closing the transaction, other than the transferor's agent, and (b) the transferee's agent. ... The certifications in items 3 and 4 above are not effective if the transferee (or the qualified substitute) has actual knowledge or receives a notice from an agent (or substitute), that the certifications are false.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "closing",
+      "firpta"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Exceptions from FIRPTA withholding",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/exceptions-from-firpta-withholding",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-deq-health-districts-administer-septic-rules",
+    "claim": "Idaho DEQ's septic rules (IDAPA 58.01.03) are administered by Idaho's seven public health districts under a memorandum of understanding with DEQ; the districts conduct site evaluations, issue septic permits, inspect installations and help with property-specific questions, including permit status and existing permit records.",
+    "quote": "Idaho's seven public health districts administer these rules under a memorandum of understanding (MOU) with DEQ. The public health districts conduct site evaluations, issue septic system permits, inspect installations, and assist with property-specific questions about permitting, existing systems, and permit records. ... Permit status and existing permit records",
+    "entities": [
+      "state:id",
+      "county:ada"
+    ],
+    "topics": [
+      "septic",
+      "utilities",
+      "jurisdiction",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Septic and Septage — Idaho Department of Environmental Quality",
+        "url": "https://www.deq.idaho.gov/water-quality/wastewater/septic-and-septage/",
+        "publisher": "Idaho Department of Environmental Quality",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-deq-site-evaluation-before-purchase",
+    "claim": "DEQ says a property owner must obtain a public health district permit to have an individual septic system installed, and should have a site evaluation performed by the health district and a licensed installer before purchasing property and applying for a permit.",
+    "quote": "To have a septic system installed, the property owner must obtain a permit from a public health district . The property owner should have a site evaluation performed by the public health district and a licensed septic system installer before purchasing property and applying for a permit.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "septic",
+      "permits",
+      "land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Septic and Septage — Idaho Department of Environmental Quality",
+        "url": "https://www.deq.idaho.gov/water-quality/wastewater/septic-and-septage/",
+        "publisher": "Idaho Department of Environmental Quality",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-idapa-owner-responsible-wastewater",
+    "claim": "Under IDAPA 58.01.03, every owner of real property is jointly and individually responsible for storing, treating and disposing of the blackwaste and wastewater generated on that property.",
+    "quote": "Every owner of real property is jointly and individually responsible for: ... Storing, treating, and disposing of blackwaste and wastewater generated on that property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "septic",
+      "liability"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "IDAPA 58.01.03 — Individual/Subsurface Sewage Disposal Rules and Rules for Cleaning of Septic Tanks",
+        "url": "https://adminrules.idaho.gov/rules/current/58/580103.pdf",
+        "publisher": "Idaho Department of Environmental Quality (via Idaho Office of the Administrative Rules Coordinator)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-idapa-permit-required-to-repair",
+    "claim": "Under IDAPA 58.01.03, except for listed exceptions, no one may modify, repair, expand or install an individual or subsurface sewage disposal system in Idaho without a valid installation permit authorizing that work.",
+    "quote": "Except as specified in Subsection 005.02 no person may modify, repair or expand or install any individual or subsurface sewage disposal system within the state of Idaho unless there is a valid installation permit authorizing that activity.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "septic",
+      "permits",
+      "repairs"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "IDAPA 58.01.03 — Individual/Subsurface Sewage Disposal Rules and Rules for Cleaning of Septic Tanks",
+        "url": "https://adminrules.idaho.gov/rules/current/58/580103.pdf",
+        "publisher": "Idaho Department of Environmental Quality (via Idaho Office of the Administrative Rules Coordinator)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-idapa-failing-system-must-be-repaired",
+    "claim": "IDAPA 58.01.03 defines a failing system to include one that fails to accept blackwaste and wastewater or discharges it into waters or onto the ground surface, and requires the owner of a failing system to obtain a permit and repair it as soon as practical after becoming aware of the failure, or as directed with proper notice from the Director.",
+    "quote": "Failing System. Any system that exhibits one (1) or more of the following characteristics: ... Fails to accept blackwaste and wastewater; or ... Discharges blackwaste or wastewater into the waters or onto the ground surface. ... The owner of any failing system must obtain a permit and repair the failing system: ... As soon as practical after the owner becomes aware of its failure; or ... As directed with proper notice from the Director.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "septic",
+      "repairs",
+      "permits"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "IDAPA 58.01.03 — Individual/Subsurface Sewage Disposal Rules and Rules for Cleaning of Septic Tanks",
+        "url": "https://adminrules.idaho.gov/rules/current/58/580103.pdf",
+        "publisher": "Idaho Department of Environmental Quality (via Idaho Office of the Administrative Rules Coordinator)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-idapa-om-requirements-perpetual",
+    "claim": "Under IDAPA 58.01.03 the Director may attach operation, maintenance and monitoring procedures to an installation permit, and those requirements, including effluent sampling, are perpetual unless the system is not installed, is removed, abandoned or replaced, or the permit is amended or revoked.",
+    "quote": "The Director may require, as a condition of issuing a permit, specific operation, maintenance, and monitoring procedures be observed. Those procedures will be contained in the installation permit. ... All operation, maintenance, and monitoring requirements of installation permits including effluent sampling must be perpetual unless: ... The system is removed, abandoned, or replaced; or ... The permit is amended or revoked by the Director.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "septic",
+      "permits",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "IDAPA 58.01.03 — Individual/Subsurface Sewage Disposal Rules and Rules for Cleaning of Septic Tanks",
+        "url": "https://adminrules.idaho.gov/rules/current/58/580103.pdf",
+        "publisher": "Idaho Department of Environmental Quality (via Idaho Office of the Administrative Rules Coordinator)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-deq-guide-keep-septic-records",
+    "claim": "DEQ's homeowner septic guide (January 2001) says a tank's location can be found from plot plans, septic inspection records, drawings or the house plumbing; recommends that an average family of four have its tank pumped every three to five years; and advises keeping a permanent record of maintenance, repairs, sludge and scum levels, pumping, drainfield condition and backups.",
+    "quote": "The location of your septic tank can be determined from plot plans, septic system inspection records, architectural or landscape drawings, or from observations of the house plumbing. ... It is recommended that an average family of four have its septic tank pumped out every three to five years. ... Maintain a permanent record of any septic system maintenance, repair, sludge and scum levels, pumping, drainfield condition, household backups, and operations notes.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "septic",
+      "records",
+      "maintenance"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "A Homeowner's Guide to Septic Systems — Idaho DEQ (January 2001)",
+        "url": "https://cdhidahogov.wpenginepowered.com/wp-content/uploads/2023/10/Homeowners-Guide-to-Septic-Systems.pdf",
+        "publisher": "Idaho Department of Environmental Quality",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-cdh-public-records-request",
+    "claim": "Central District Health takes public records requests through a form on its About page and asks requesters to be specific about the documents they want.",
+    "quote": "To submit a public records request, complete the form above. Be specific regarding the document(s) you are requesting.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "septic",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "About — Central District Health (Public Records Request)",
+        "url": "https://cdh.idaho.gov/about/",
+        "publisher": "Central District Health",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-cdh-mortgage-survey-lender-request",
+    "claim": "Central District Health describes a mortgage survey as something a lender often requests, to locate a well or septic system and check the water and sewage systems before a property sale, and says it provides water quality testing and mortgage survey inspections of private wells and septic systems.",
+    "quote": "A mortgage survey is often requested by a lender to determine the location of a well or septic system to check water and sewage systems prior to a property sale. ... CDH provides drinking water quality testing and mortgage survey inspections of private wells and septic systems.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "septic",
+      "well",
+      "water",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Septic, Subdivisions & Water — Central District Health (Licenses, Permits & Inspections)",
+        "url": "https://cdh.idaho.gov/licenses-permits-inspections/water-septic-subdivisions/",
+        "publisher": "Central District Health",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-cdh-mortgage-survey-fees-july-2026",
+    "claim": "CDH's mortgage survey fee schedule dated July 2026 lists $178 for a well-only survey plus a $20 lab fee, $178 for septic only, $178 for well and septic plus a $20 lab fee, and $178 plus the lab fee for a revisit.",
+    "quote": "Mortgage Survey Fees: – July 2026 MS – Well Only – $178 (plus lab fee of $20) MS – Septic Only – $178 MS – Well and Septic – $178 (plus lab fee of $20) MS – Lab Fee – $20 MS – Revisit – $178 (plus lab fee of $20)",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "septic",
+      "well",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Septic, Subdivisions & Water — Central District Health (Licenses, Permits & Inspections)",
+        "url": "https://cdh.idaho.gov/licenses-permits-inspections/water-septic-subdivisions/",
+        "publisher": "Central District Health",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-cdh-mortgage-survey-requirements",
+    "claim": "CDH's mortgage survey information sheet requires a complete, signed application with the legal description and county parcel number, a plot plan showing the septic tank, drainfield and all domestic wells relative to the house, the fees, and a pumping receipt if the tank has been or will be pumped; the inspector must have access to the drainfield, tank and well head, and results are available three to five days after sampling.",
+    "quote": "Application must be filled out thoroughly. Name, addresses, phone number, email, legal description, location, county parcel #, and directions to property. All questions answered and then signed and dated. ... A plot plan must be drawn on the application showing the location of the septic tank, drainfield, and all domestic wells in relationship to the house. ... If the septic tank has been or will be pumped, we will need a copy of the pumping receipt. ... The inspector must have access to the entire area of the drainfield, septic tank, and well head. ... Survey results will be available 3-5 days after the sample is taken.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "septic",
+      "well",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Mortgage Survey Information Sheet — Central District Health",
+        "url": "https://cdh.idaho.gov/wp-content/uploads/2023/10/Mortgage-Survey-Info-Sheet.pdf",
+        "publisher": "Central District Health",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-cdh-well-owner-responsible-testing",
+    "claim": "CDH says that in Idaho private well owners are responsible for ensuring their water is safe to drink, that private water may have to be tested for house sales if a lender or buyer requires it, and that well water should be tested once a year for bacteria and nitrates.",
+    "quote": "In Idaho, private well owners are responsible for ensuring their water is safe to drink. ... Private water sources can be required to be tested under other regulations or requirements if the water is being used for small daycares, small food processors, bottled water plants, foster/care homes, and house sales if required by lender or buyer. ... You should test your well water once a year for bacteria and nitrates.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "well",
+      "water",
+      "testing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Septic, Subdivisions & Water — Central District Health (Licenses, Permits & Inspections)",
+        "url": "https://cdh.idaho.gov/licenses-permits-inspections/water-septic-subdivisions/",
+        "publisher": "Central District Health",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-well-driller-report-public-record",
+    "claim": "Idaho Code 42-238(11) requires every well driller — including for domestic wells excepted under 42-227 — to complete a well driller's report and deposit it with the IDWR director within 30 days after the well is completed; the reports become a permanent record available for public use.",
+    "quote": "every well driller is hereby required to keep available for inspection at the well site a daily well log and pertinent data concerning each well, and its construction or abandonment, that is constructed or abandoned under the driller's direction in Idaho, including wells excepted under sections 42-227 and 42-228 , Idaho Code, and to complete a report on forms furnished by the director. These reports shall be properly prepared and signed by the driller and deposited with the director within thirty (30) days following the completion of the well. ... The reports shall become a permanent record in the office of the director for hydrologic and geologic analysis and research and shall be available for public use.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "well",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 42-238 — Well drillers' licenses; well driller's report",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-238/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[42-238 as reen. by 1967, ch. 339, sec. 1, p. 977; am. 1970, ch. 187, sec. 4, p. 541; am. 1971, ch. 149, sec. 2, p. 730; am. 1974, ch. 20, sec. 1, p. 533; am. 1980, ch. 238, sec. 9, p. 538; am. 1987, ch. 347, sec. 8, p. 748; am. 1990, ch. 366, sec. 1, p. 999; am. 1993, ch. 216, sec. 33, p. 613; am. 1997, ch. 361, sec. 1, p. 1062; am. 1998, ch. 173, sec. 2, p. 597; am. 2021, ch. 65, sec. 1, p. 197.]"
+  },
+  {
+    "id": "ws-idwr-well-construction-search",
+    "claim": "IDWR's Well Construction Search lets anyone look up wells and view the related well driller's reports; IDWR says the database contains most reports from July 1987 on, that it has assigned a unique well tag number to each well since 1997, printed on a metal plate fixed to the above-ground casing, that the tag number is the first-listed of its search methods, which it lists in order of effectiveness, and that wells can also be searched by township/range/section, physical address, or the name of the owner when the well was drilled.",
+    "quote": "Search for wells in Idaho and view the related Well Driller's Reports (Logs). ... The database contains most of the Well Drillers Reports from July 1987 to current. ... The search methods are listed in the order of effectiveness. Use only ONE of the methods listed: Input the Well Tag Number (for example: D0012345). ... Beginning in 1997, IDWR began assigning a unique well tag number to each well. ... A well's tag number is printed on a metal plate ... that is welded or riveted to the portion of the metal well casing that sits above ground level. ... Input the physical address of the well. ... Input the last name of the person OR the organization who owned the well when it was drilled.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "well",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Well Construction & Drilling — Idaho Department of Water Resources",
+        "url": "https://idwr.idaho.gov/wells/well-construction-drilling/",
+        "publisher": "Idaho Department of Water Resources",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-well-drilling-permit-42-235",
+    "claim": "Idaho Code 42-235 requires the driller or well owner to obtain a permit from the IDWR director before beginning construction of any well or changing a well's construction, with a $75 charge for a domestic or monitoring well and $200 otherwise.",
+    "quote": "Prior to beginning construction of any well, or changing the construction of any well, the driller or well owner shall obtain a permit from the director of the department of water resources to protect the public health, safety and welfare and the environment, and to prevent the waste of water or mixture of water from different aquifers. There shall be a seventy-five dollar ($75.00) charge for the permit if the well is to be used for domestic or monitoring purposes. If the well is to be used for other than domestic or monitoring purposes, the charge for the permit shall be two hundred dollars ($200).",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "well",
+      "permits",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 42-235 — Drilling permits",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-235/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[42-235, added 1987, ch. 347, sec. 4, p. 745; am. 1990, ch. 164, sec. 1, p. 361; am. 1996, ch. 267, sec. 1, p. 868; am. 1998, ch. 173, sec. 1, p. 596.]"
+  },
+  {
+    "id": "ws-domestic-well-exempt-42-227",
+    "claim": "Idaho Code 42-227 provides that, except for certain new subdivision diversions in regulated groundwater areas, drilling a well and withdrawing water for domestic purposes as defined in 42-111 is not subject to the water-right permit requirement of 42-229; rights to groundwater for such domestic purposes may be acquired by withdrawal and use, and domestic wells are subject to inspection by IDWR and DEQ.",
+    "quote": "Except as provided in subsection (4) of this section, excavation and opening of wells and the withdrawal of water therefrom for domestic purposes or uses as defined in section 42-111 , Idaho Code, shall not be subject to permit requirements under section 42-229 , Idaho Code. Rights to ground water for such domestic purposes may be acquired by withdrawal and use. (2) Wells and withdrawal devices for domestic purposes or uses shall be subject to inspection by the department of water resources and the department of environmental quality.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "well",
+      "water",
+      "water-rights"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 42-227 — Drilling and use of wells for domestic purposes excepted",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-227/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[42-227, added 1951, ch. 200, sec. 2, p. 423; am. 1970, ch. 187, sec. 1, p. 541; am. 1978, ch. 324, sec. 1, p. 819 ; am. 2001, ch. 103, sec. 79, p. 318; am. 2025, ch. 129, sec. 2, p. 664; am. 2026, ch. 2, sec. 2, p. 8.]"
+  },
+  {
+    "id": "ws-domestic-exemption-revised-2026",
+    "claim": "IDWR reports that the 2025 Legislature passed Senate Bill 1083a revising the domestic-use, shared-well and subdivision statutes, and that Senate Bill 1222, signed February 17, 2026, further revised them, effective that day, changing the requirements for establishing a domestic water right without an IDWR permit.",
+    "quote": "The 2025 Idaho Legislature passed Senate Bill 1083a revising several statutes dealing with domestic uses of water, shared wells, and subdivisions. On February 17, 2026, Governor Little signed Senate Bill 1222, which further revised the statutes dealing with ground water wells and domestic uses. These statutory changes became effective on February 17, 2026.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "well",
+      "water",
+      "water-rights"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Domestic Exemption — Idaho Department of Water Resources",
+        "url": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+        "publisher": "Idaho Department of Water Resources",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-water-right-ownership-notice-120-days",
+    "claim": "Idaho Code 42-248 requires anyone owning or claiming a water right represented by a court decree, a claim filed with IDWR, or an IDWR permit or license to notify IDWR of any change in ownership of any part of the right, or of the owner's mailing address, within 120 days, using forms acceptable to the director.",
+    "quote": "All persons owning or claiming ownership of a right to use the water of this state, whether the right is represented by decree of the court, by claim to a water right filed with the department of water resources or by permit or license issued by the director of the department, shall provide notice to the department of any change in ownership of any part of the water right or of any change in the owner's mailing address. Notice shall be provided within one hundred twenty (120) days of any change using forms acceptable to the director.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "water-rights",
+      "water",
+      "transfer"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 42-248 — Notification of change in ownership of a water right or change of address",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-248/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[42-248, added 1996, ch. 149, sec. 1, p. 487; am. 2000, ch. 313, sec. 1, p. 1052; am. 2011, ch. 172, sec. 2, p. 493; am. 2021, ch. 157, sec. 1, p. 433.]"
+  },
+  {
+    "id": "ws-water-right-notice-fee-and-evidence",
+    "claim": "Under Idaho Code 42-248 a notice of change of water right ownership must carry a $25 filing fee per right ($100 per right if the records are to show the right divided), with no fee for a claim pending in an adjudication; it must be accompanied by deeds, court decrees or other evidence of conveyance; and IDWR updating its records is not a determination of who owns the right.",
+    "quote": "A filing fee of twenty-five dollars ($25.00) per right shall accompany a notice of change of water right ownership, provided that the fee shall be one hundred dollars ($100) per right if a request is made to change the department's records to reflect a division in the ownership of the water right. No fee is required for a notice of change of ownership of a claim pending in a water rights adjudication. ... A notice of change of water right ownership of all or part of a water right shall be accompanied by deeds, court decrees, or other evidence of conveyance of the water right and how the water right is divided if the change divides the water right among multiple owners. ... Any action by the department updating the ownership of a water right in the department's records or returning the notice of change of ownership to the person filing the notice is not a determination of water right ownership",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "water-rights",
+      "fees",
+      "transfer"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 42-248 — Notification of change in ownership of a water right or change of address",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-248/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[42-248, added 1996, ch. 149, sec. 1, p. 487; am. 2000, ch. 313, sec. 1, p. 1052; am. 2011, ch. 172, sec. 2, p. 493; am. 2021, ch. 157, sec. 1, p. 433.]"
+  },
+  {
+    "id": "ws-idwr-water-right-may-pass-with-land",
+    "claim": "IDWR says a landowner may have acquired a valid water right with the land if water was used on the property before they acquired it, the prior owner did not reserve the right in the deed, and the right has not been forfeited through five or more years of non-use; and it tells buyers of property with a water right or adjudication claim to make sure they are listed as current owner with a correct address.",
+    "quote": "You might have acquired a valid water right along with your land if: water was used on your property before you acquired it, the person you acquired the property from did not \"reserve\" the water right in the deed conveying the property to you, and the water right has not been forfeited due to five or more years of non-use. ... If you purchase property that has with it a water right or adjudication claim, make certain that you are listed as the current owner and that your address is correct.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "water-rights",
+      "water",
+      "transfer",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "About Water Rights — Idaho Department of Water Resources",
+        "url": "https://idwr.idaho.gov/water-rights/",
+        "publisher": "Idaho Department of Water Resources",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-idwr-1978-claims-excluded-domestic",
+    "claim": "IDWR explains that a 1978 statute required holders of beneficial-use water rights, other than rights used solely for domestic purposes, to record them with IDWR, and that these statutory claims are affidavits that do not confirm the right. IDWR points owners to its Water Right & Adjudication Search to view water right records and documents.",
+    "quote": "In 1978, a statute was enacted requiring persons with beneficial use rights (other than water rights used solely for domestic purposes) to record their water rights with IDWR. The purpose of the statute was to provide some means to make records of water rights for which there were previously no records. However, these records are merely affidavits of the water users, and do not result in a license, decree, or other confirmation of the water right. ... Use the Water Right & Adjudication Search to view water right records and associated documents.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "water-rights",
+      "well",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "About Water Rights — Idaho Department of Water Resources",
+        "url": "https://idwr.idaho.gov/water-rights/",
+        "publisher": "Idaho Department of Water Resources",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ws-irrigation-easements-no-adverse-possession",
+    "claim": "Idaho Code 42-1204 provides that easements, rights-of-way and real property owned by irrigation districts, Carey Act operating companies, nonprofit irrigation entities, lateral ditch associations and drainage districts are not subject to adverse possession, and that no one may block authorized personnel's free access to them.",
+    "quote": "The easements, rights-of-way, or real property owned by irrigation districts, Carey act operating companies, nonprofit irrigation entities, lateral ditch associations, and drainage districts are not subject to adverse possession. (2) No person shall prevent free access of authorized personnel on such easements, rights-of-way, or other real property",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "irrigation",
+      "easements",
+      "title",
+      "land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 42-1204 — Easements, rights-of-way, and other real property not subject to adverse possession",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch12/sect42-1204/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(42-1204) 42-1208, added 1981, ch. 344, sec. 1, p. 714; am. 2004, ch. 179, sec. 2, p. 563; am. 2021, ch. 112, sec. 1, p. 354; am. and redesig. 2026, ch. 109, sec. 5, p. 562.]"
+  },
+  {
+    "id": "ws-irrigation-encroachment-written-permission",
+    "claim": "Idaho Code 42-1205 bars anyone from causing or permitting encroachments — including roads, utilities, fences, gates, pipelines, structures, landscaping, trees or vegetation — onto easements or rights-of-way of irrigation districts, lateral ditch associations and similar entities without that entity's written permission, which may not be unreasonably withheld; encroachments placed without permission that unreasonably or materially interfere must be removed or modified at the expense of whoever caused or permitted them.",
+    "quote": "no person or entity shall cause or permit any encroachments onto the easements or rights-of-way, including any public or private roads, utilities, fences, gates, pipelines, structures, landscaping, trees, vegetation, or other construction or placement of objects, without the written permission of the irrigation district, Carey act operating company, nonprofit irrigation entity, lateral ditch association, or drainage district owning, operating, maintaining, or controlling the easement or right-of-way ... Such written permission shall not be unreasonably withheld. ... Encroachments of any kind placed in such easement or right-of-way, without such express written permission, shall be removed or modified, and the irrigation conduit, easement, or right-of-way shall be repaired or restored at the expense of the person or entity causing or permitting such encroachments",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "irrigation",
+      "easements",
+      "land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 42-1205 — Encroachments on easements and rights-of-way",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch12/sect42-1205/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(42-1205) 42-1209, added 2004, ch. 179, sec. 3, p. 563; am. 2019, ch. 158, sec. 5, p. 514; am. 2019, ch. 183, sec. 3, p. 592; am. 2024, ch. 93, sec. 15, p. 438; am. and redesig. 2026, ch. 109, sec. 6, p. 562.]"
+  },
+  {
+    "id": "vb-license-required-single-act",
+    "claim": "Idaho law prohibits anyone from engaging in the business or acting in the capacity of a real estate broker or salesperson in Idaho without an active Idaho real estate license, and unless an exemption applies, a single act within those definitions is enough to count as engaging in the business.",
+    "quote": "No person shall engage in the business or act in the capacity of real estate broker or real estate salesperson in this state without an active Idaho real estate license therefor. Unless exempted from this chapter, any single act described within the definitions of \"real estate broker\" or \"real estate salesperson\" shall be sufficient to constitute \"engaging in the business\" within the meaning of this chapter.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2002 — Licensure required",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2002/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2002, added 2000, ch. 285, sec. 3, p. 911; am. 2015, ch. 51, sec. 1, p. 111.]"
+  },
+  {
+    "id": "vb-broker-definition-acting-for-others",
+    "claim": "Under Idaho's license law, a 'real estate broker' includes any person who, acting for another for compensation or the expectation of it, sells, lists, buys, negotiates or offers to do so for others; any person who represents to the public that they do these things; and any person who takes any part in procuring prospects or negotiating or closing a transaction calculated to result in those acts.",
+    "quote": "\"Real estate broker\" means and includes: (a) Any person other than a real estate salesperson who, directly or indirectly, while acting for another for compensation or a promise or an expectation thereof, engages in any of the following: sells, lists, buys, or negotiates, or offers to sell, list, buy or negotiate the purchase, sale, option or exchange of real estate or any interest therein or business opportunity or interest therein for others; ... (c) Any person who represents to the public that the person is engaged in any of the activities in this subsection; (d) Any person who directly or indirectly engages in, directs, or takes any part in the procuring of prospects or in the negotiating or closing of any transaction which does or is calculated to result in any of the acts in this subsection; (e) A dealer in options as defined in this section.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2004 — Definitions (Idaho Real Estate License Law)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2004/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2004, added 2000, ch. 285, sec. 3, p. 912; am. 2001, ch. 123, sec. 1, p. 418; am. 2002, ch. 220, sec. 1, p. 606; am. 2002, ch. 280, sec. 1, p. 817; am. 2003, ch. 16, sec. 14, p. 61; am. 2005, ch. 107, sec. 1, p. 334; am. 2006, ch. 166, sec. 1, p. 501; am. 2007, ch. 98, sec. 1, p. 283; am. 2008, ch. 144, sec. 1, p. 235; am. 2011, ch. 108, sec. 1, p. 275; am. 2014, ch. 42, sec. 1, p. 98; am. 2014, ch. 67, sec. 1, p. 170; am. 2015, ch. 51, sec. 2, p. 111; am. 2017, ch. 232, sec. 1, p. 564; am. 2021, ch. 261, sec. 1, p. 802.]"
+  },
+  {
+    "id": "vb-dealer-in-options-definition",
+    "claim": "Idaho's license law defines a 'dealer in options' as anyone who takes, obtains or uses options to purchase real property for another or others, whether or not the options are in their own name and whether or not title passes through them; a dealer in options falls within the definition of real estate broker.",
+    "quote": "\"Dealer in options\" means any person, firm, partnership, association or corporation who shall directly or indirectly take, obtain or use options to purchase, exchange, lease option or lease purchase real property or any interest therein for another or others whether or not the options shall be in his or its name and whether or not title to the property shall pass through the name of the person, firm, partnership, association or corporation",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2004 — Definitions (Idaho Real Estate License Law)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2004/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2004, added 2000, ch. 285, sec. 3, p. 912; am. 2001, ch. 123, sec. 1, p. 418; am. 2002, ch. 220, sec. 1, p. 606; am. 2002, ch. 280, sec. 1, p. 817; am. 2003, ch. 16, sec. 14, p. 61; am. 2005, ch. 107, sec. 1, p. 334; am. 2006, ch. 166, sec. 1, p. 501; am. 2007, ch. 98, sec. 1, p. 283; am. 2008, ch. 144, sec. 1, p. 235; am. 2011, ch. 108, sec. 1, p. 275; am. 2014, ch. 42, sec. 1, p. 98; am. 2014, ch. 67, sec. 1, p. 170; am. 2015, ch. 51, sec. 2, p. 111; am. 2017, ch. 232, sec. 1, p. 564; am. 2021, ch. 261, sec. 1, p. 802.]"
+  },
+  {
+    "id": "vb-own-account-exception-no-evasion",
+    "claim": "An Idaho real estate license is not required to buy, option, exchange or sell an interest in real property for a person's own account or use, or for an owner to dispose of its own property; but the exceptions may not be used to evade the license law, and any attempt to do so is treated as unlicensed practice.",
+    "quote": "an Idaho real estate license is not required for the following: (a) The purchase, option, exchange or sale of any interest in real property, or business opportunity for a person’s own account or use; (b) The acquisition, exchange or other disposition of any interest in real property or business opportunity by its owner ... (4) Exceptions to licensure shall not be used in any way to evade the purposes of this chapter. Any such attempt to evade this chapter shall be considered the unlicensed and unlawful practice of real estate.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2003 — Exceptions to licensure",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2003/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2003, added 2000, ch. 285, sec. 3, p. 911; am. 2003, ch. 65, sec. 1, p. 212.]"
+  },
+  {
+    "id": "vb-unlicensed-practice-penalty",
+    "claim": "Acting as a real estate broker or salesperson in Idaho without a license is a misdemeanor; on conviction a natural person faces a fine of up to $5,000, up to one year in county jail, or both, and an LLC or corporation a fine of up to $10,000. A court may also assess civil penalties of up to $5,000 against a person and $10,000 against an LLC or corporation.",
+    "quote": "Any person acting as a real estate broker or real estate salesperson within the meaning of this chapter without a license as herein provided shall be guilty of a misdemeanor and, upon conviction thereof, if a natural person, be punished by a fine of not to exceed five thousand dollars ($5,000) or by imprisonment in the county jail for a term not to exceed one (1) year, or by both such fine and imprisonment in the discretion of the court; or if a limited liability company or corporation, by a fine of not to exceed ten thousand dollars ($10,000). Additionally, the court may assess a civil penalty against a natural person in an amount not to exceed five thousand dollars ($5,000) and against a limited liability company or corporation in an amount not to exceed ten thousand dollars ($10,000).",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2065 — Penalty for acting as a broker or salesperson without license",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2065/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2065, added 2000, ch. 285, sec. 3, p. 948; am. 2021, ch. 224, sec. 52, p. 677.]"
+  },
+  {
+    "id": "vb-licensee-must-disclose-license",
+    "claim": "An Idaho real estate licensee who buys or sells an interest in real property for personal use or any other purpose, or acquires or intends to acquire an interest or option, must disclose in writing to the other party, no later than when the purchase and sale agreement is presented, that they hold an active Idaho license.",
+    "quote": "A licensee shall disclose in writing to any buyer or seller no later than at the time of presentation of the purchase and sale agreement that the licensee holds an active Idaho real estate license, if the licensee directly, indirectly, or through a third party, sells or purchases an interest in real property for personal use or any other purpose; or acquires or intends to acquire any interest in real property or any option to purchase real property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2055 — Licensees dealing with their own property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2055/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2055, added 2000, ch. 285, sec. 3, p. 943; am. 2003, ch. 65, sec. 7, p. 220; am. 2010, ch. 217, sec. 4, p. 490.]"
+  },
+  {
+    "id": "vb-offer-must-state-earnest-money",
+    "claim": "When an Idaho broker or sales associate handles an offer to purchase real property, the license law requires it to be in writing and to state the actual form and amount of the earnest money and include a provision for dividing earnest money retained as forfeited payment if the transaction does not close.",
+    "quote": "The broker or sales associate shall make certain that all offers to purchase real property or any interest therein are in writing and contain all of the following specific terms, provisions and statements: ... (b) The actual form and amount of the consideration received as earnest money; ... (e) A provision for division of earnest money retained by any person as forfeited payment should the transaction not close;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2051 — Offers to purchase",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2051/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2051, added 2000, ch. 285, sec. 3, p. 940; am. 2007, ch. 98, sec. 11, p. 300; am. 2015, ch. 51, sec. 10, p. 122; am. 2020, ch. 88, sec. 2, p. 239.]"
+  },
+  {
+    "id": "vb-earnest-money-at-title-not-entrusted",
+    "claim": "Under Idaho's license law, money is not treated as entrusted to a broker when the parties have instructed the broker in writing to transfer it to a third party such as a title, escrow or trust company and the broker then has no right to control its safekeeping or disposition.",
+    "quote": "moneys or property shall not be considered entrusted to the broker or to any licensee representing the broker when the parties to the transaction have instructed the broker or its licensees, in writing, to transfer such moneys or property to a third party, including, but not limited to, a title, an escrow or a trust company if upon transfer, the broker or its licensees have no right to exercise control over the safekeeping or disposition of said moneys or property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2041 — Trust accounts and entrusted property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2041/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2041, added 2000, ch. 285, sec. 3, p. 933; am. 2001, ch. 123, sec. 16, p. 436; am. 2002, ch. 220, sec. 9, p. 617; am. 2005, ch. 107, sec. 12, p. 352; am. 2009, ch. 134, sec. 1, p. 415.]"
+  },
+  {
+    "id": "vb-escrow-agency-license-required",
+    "claim": "It is unlawful to engage in, carry on, or purport to carry on the business of an escrow agency in or from Idaho without a license under the Idaho Escrow Act, and the Act applies to any escrow transaction for the sale or transfer of property located in Idaho.",
+    "quote": "It shall be unlawful for any person to directly or indirectly engage in or carry on, or purport to engage in or carry on, the business of, or act in the capacity of, an escrow agency in or from Idaho without first obtaining a license under this chapter. (2) The requirements of this chapter shall also apply to any escrow transaction effecting the sale, transfer, encumbrance or lease to another person of any real or personal property located in Idaho.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 30-903 — Escrow agency license required",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-903/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[30-903, added 2005, ch. 236, sec. 2, p. 718.]"
+  },
+  {
+    "id": "vb-escrow-exempt-title-agents",
+    "claim": "The Idaho Escrow Act's licensing requirements do not apply to title insurance companies holding a certificate of authority, or to title insurance agents holding a title insurance agent license, issued by the Idaho Department of Insurance.",
+    "quote": "The requirements of this chapter do not apply to: ... (3) Title insurance companies having a valid certificate of authority, and title insurance agents having a valid license as a title insurance agent, issued by the Idaho department of insurance;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing",
+      "title",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 30-905 — Escrow Act — Exempt persons and transactions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-905/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[30-905, added 2005, ch. 236, sec. 2, p. 718.]"
+  },
+  {
+    "id": "vb-escrow-unlicensed-felony",
+    "claim": "Acting as an escrow agency in Idaho without the required license, unless exempt, is a felony and carries a civil penalty of up to $5,000 per violation.",
+    "quote": "Any person, except a person exempt under section 30-905, Idaho Code, who engages in activity as an escrow agency without first obtaining a license in accordance with this chapter, shall be guilty of a felony. Such person is also subject to a civil penalty in an amount no greater than five thousand dollars ($5,000) for each violation of this chapter or rule or order thereunder, in addition to other sanctions allowed by law.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 30-913 — Escrow Act unlawful acts",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-913/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[30-913, added 2005, ch. 236, sec. 2, p. 722.]"
+  },
+  {
+    "id": "vb-title-agent-license-by-county",
+    "claim": "No one may act in Idaho as an agent for a title insurer without a license from the Director of the Idaho Department of Insurance, and a title insurance agent's license is required for each county for which policies are written.",
+    "quote": "A title insurer shall not allow or permit any person, firm, association or corporation to act as its agent in relation to the issuance of any certificate, title insurance policy, or other underwriting contract unless such person, firm, association or corporation shall first have obtained a title insurance agent’s license for each county for which policies are to be written from the director of the department of insurance. No person, firm, association or corporation shall act within this state as such agent for any title insurer without first having obtained a license from the director of insurance and filed a bond or cash deposit in lieu thereof as required herein.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "closing",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-2710 — Requirements for title insurance agents",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2710/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[41-2710, added 1973, ch. 135, sec. 7, p. 252; am. 2010, ch. 96, sec. 1, p. 182; am. 2015, ch. 141, sec. 111, p. 461.]"
+  },
+  {
+    "id": "vb-cfpa-legislative-findings",
+    "claim": "In enacting the Consumer Foreclosure Protection Act, the Idaho Legislature found that some persons and businesses defraud homeowners of their title, equity or other value under the guise of stopping or postponing a foreclosure sale, and set notice requirements for contracts made during the foreclosure period, while directing that the chapter not inhibit transactions with legitimate lenders and investors.",
+    "quote": "The legislature finds that some persons and businesses are engaging in patterns of conduct that defraud innocent homeowners of their title, equity interest, or other value in residential dwellings under the guise of stopping or postponing a foreclosure sale. The legislature also finds this activity to be contrary to the public policy of this state and therefore establishes notice requirements governing contracts or agreements entered into during the foreclosure period. The legislature further finds that the provisions of this chapter shall be construed in such a manner that it does not inhibit transactions with legitimate lenders and investors.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1601 — Consumer Foreclosure Protection Act — legislative findings",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1601/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1601, added 2008, ch. 192, sec. 1, p. 601.]"
+  },
+  {
+    "id": "vb-cfpa-written-notice-required",
+    "claim": "During the foreclosure period described in Idaho Code 45-1506, any contract with the record owner involving the transfer of an interest in residential real property subject to foreclosure must be in writing and accompanied by a statutory notice in at least 12-point boldface type, which warns that some individuals or businesses may say they can 'save' a home from foreclosure, that a 'rescue' plan may cost the owner valuable equity, and that the owner should consult an attorney or financial professional, and points to HUD's list of approved housing counselors who provide free information.",
+    "quote": "During the foreclosure period described in section 45-1506, Idaho Code, any contract or agreement with the owner or owners of record that involves the transfer of any interest in residential real property, as defined in section 45-525 (5)(b), Idaho Code, subject to foreclosure must be in writing and must be accompanied by the following notice in at least 12-point boldface type: ... Some individuals or businesses may say they can \"save\" your home from foreclosure. You should be cautious about such claims. It is important that you understand all the terms of a plan to \"rescue\" you from mortgage foreclosure and how it will affect you. It may result in your losing valuable equity that you may have in your home. If possible, you should consult with an attorney or financial professional to find out what other options you may have. ... HUD maintains on its website a list of approved housing counselors who can provide free information to assist homeowners with financial problems.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1602 — Consumer Foreclosure Protection Act — contract notice",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1602/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1602, added 2008, ch. 192, sec. 1, p. 601; am. 2009, ch. 136, sec. 2, p. 418; am. 2023, ch. 266, sec. 2, p. 796.]"
+  },
+  {
+    "id": "vb-cfpa-five-business-day-rescission",
+    "claim": "An Idaho owner whose property is in foreclosure may cancel any contract relating to that property entered into during the foreclosure period within five business days of entering into it, by written notice to the other parties in any form showing an intent not to be bound; no funds or interest in the property may be transferred until the five days have passed.",
+    "quote": "any person whose property is in foreclosure as described in section 45-1505, Idaho Code, has the right to cancel or rescind any and all contracts or agreements relating to such property entered into during the foreclosure period within five (5) business days of entering into such contract or agreement. Neither funds nor an interest in the property shall be transferred or transferable until the five (5) days have passed. (2) Cancellation occurs when such person gives written notice of cancellation to all other parties to the contract. Notice of cancellation need not take any particular form and, however expressed, is effective if it indicates the intention not to be bound by the contract.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1603 — Consumer Foreclosure Protection Act — right of rescission",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1603/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1603, added 2008, ch. 192, sec. 1, p. 602.]"
+  },
+  {
+    "id": "vb-cfpa-exclusions",
+    "claim": "Idaho's Consumer Foreclosure Protection Act does not apply to regulated lenders, banks and similar chartered institutions, licensed mortgage lenders and brokers, their employees and agents acting in that capacity, or close family members of the owner.",
+    "quote": "The provisions of this chapter shall not apply to: (1) Regulated lenders, as defined in section 28-41-301, Idaho Code; (2) Any person licensed or chartered under the laws of any state or of the United States as a bank, trust company, savings and loan association, credit union, or industrial loan company. ... (3) Mortgage lenders and mortgage brokers licensed under the Idaho residential mortgage practices act, sections 26-31-101 et seq., Idaho Code; (4) Employees and agents of the organizations specified in subsections (1), (2) and (3) of this section, when acting within the scope of such employment or agency; and (5) Family member or members of the owner or owners of record of any interest in residential real property subject to foreclosure.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1604 — Consumer Foreclosure Protection Act — exclusions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1604/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1604, added 2008, ch. 192, sec. 1, p. 602; am. 2013, ch. 54, sec. 15, p. 122; am. 2015, ch. 244, sec. 27, p. 1022.]"
+  },
+  {
+    "id": "vb-cfpa-penalties-title-48",
+    "claim": "A violation of Idaho's Consumer Foreclosure Protection Act makes the violator liable for penalties and damages under the Idaho Consumer Protection Act (chapter 6, title 48), in addition to any other penalty provided by law.",
+    "quote": "In addition to any other penalty provided by law, any person who violates the provisions of this chapter shall be liable for penalties and damages in accordance with chapter 6, title 48, Idaho Code.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1605 — Consumer Foreclosure Protection Act — penalties",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1605/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1605, added 2008, ch. 192, sec. 1, p. 603.]"
+  },
+  {
+    "id": "vb-irec-guideline18-property-not-owned",
+    "claim": "The Idaho Real Estate Commission's Guideline 18 states its interpretation that an option holder is not an owner and may not broker the property without a license, and that whether or not an investor holds an option, the investor may be engaged in unlicensed practice if they list, sell or negotiate the sale of property they do not own, or procure buyers for it. The Commission states that the guideline is not a new law but an agency interpretation of existing law.",
+    "quote": "Because an option holder is not an owner of the property, he may not list, sell, negotiate, procure buyers for, or otherwise broker that property unless he has a license. ... Whether an Investor has an option to purchase or not, he may be engaged in Unlicensed Practice if he lists, sells, or negotiates the sale of property he does not own, or if he procures buyers for property that he does not own. ... This guideline is not a new law but is an agency interpretation of existing law.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Real Estate Commission Guideline #18 — Dealer in Options (rev. March 2019)",
+        "url": "https://dopl.idaho.gov/wp-content/uploads/2023/11/REC-Guideline-18-rev-3.19.pdf",
+        "publisher": "Idaho Real Estate Commission (Division of Occupational and Professional Licenses)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-irec-guideline2-procuring-prospects-marketing",
+    "claim": "The Idaho Real Estate Commission interprets 'procuring prospects' in the broker definition to include any marketing or advertising designed to attract the attention of buyers or sellers.",
+    "quote": "The Commission interprets procuring prospects to include any marketing or advertising designed to attract the attention of buyers or sellers.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Real Estate Commission Guideline #2 — Brokering Idaho Property Requires an Idaho Real Estate License (rev. May 2018)",
+        "url": "https://dopl.idaho.gov/wp-content/uploads/2023/11/REC-Guideline-2-rev-5.18.pdf",
+        "publisher": "Idaho Real Estate Commission (Division of Occupational and Professional Licenses)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-irec-license-lookup",
+    "claim": "The Idaho Real Estate Commission's License Lookup lets consumers confirm that an agent or brokerage is licensed in Idaho and see any formal disciplinary actions taken against an agent within the last five years.",
+    "quote": "Consumers can utilize the Commission’s License Lookup application to ensure an agent or brokerage are licensed to practice real estate in Idaho. Additionally, consumers can see any formal disciplinary actions taken against an agent within the last five years.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Real Estate Commission — FAQs and Consumer Information",
+        "url": "https://dopl.idaho.gov/rec/rec-faqs-and-consumer-info/",
+        "publisher": "Idaho Division of Occupational and Professional Licenses (Real Estate Commission)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-irec-investigates-unlicensed-practice",
+    "claim": "The Idaho Real Estate Commission investigates complaints involving, among other things, dishonest or dishonorable dealings, failure to account for money or property, misrepresentation and unlicensed practice; it cannot enforce or cancel purchase and sale agreements, award damages or order the return of earnest money.",
+    "quote": "The Commission investigates complaints against licensees involving: ... Dishonest or Dishonorable Dealings Failure to Account for Money or Property ... Misrepresentation ... Unlicensed Practice ... The Commission is NOT empowered to enforce, modify, rescind or cancel listing agreements, purchase and sale agreements, or any other contract; compel the payment of money, award damages, or render a judgment in your favor; order the return of earnest money;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Real Estate Commission — FAQs and Consumer Information",
+        "url": "https://dopl.idaho.gov/rec/rec-faqs-and-consumer-info/",
+        "publisher": "Idaho Division of Occupational and Professional Licenses (Real Estate Commission)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-irec-earnest-money-disputes-civil",
+    "claim": "The Idaho Real Estate Commission treats earnest money disputes as civil matters: it cannot decide them or order earnest money released, and it points consumers to the Idaho State Bar to find an attorney.",
+    "quote": "Earnest Money Disputes Disputes over earnest money are civil matters. The Commission is not empowered to decide earnest money disputes or order the release of earnest money. The Idaho State Bar can help you find an attorney.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Real Estate Commission — FAQs and Consumer Information",
+        "url": "https://dopl.idaho.gov/rec/rec-faqs-and-consumer-info/",
+        "publisher": "Idaho Division of Occupational and Professional Licenses (Real Estate Commission)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-irec-escrow-and-title-regulators",
+    "claim": "According to the Idaho Real Estate Commission, the Idaho Department of Finance has jurisdiction over escrow companies and the Idaho Department of Insurance regulates title insurance providers.",
+    "quote": "Escrow Companies The Idaho Department of Finance has jurisdiction over escrow companies. ... Title Insurance The Idaho Department of Insurance regulates insurance providers in Idaho.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing",
+      "title",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Real Estate Commission — FAQs and Consumer Information",
+        "url": "https://dopl.idaho.gov/rec/rec-faqs-and-consumer-info/",
+        "publisher": "Idaho Division of Occupational and Professional Licenses (Real Estate Commission)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-irec-wire-diversion-warning",
+    "claim": "The Idaho Real Estate Commission warns that hackers try to divert closing payments to their own accounts by sending last-minute wiring instructions that differ from those provided by the settlement agent or real estate agent.",
+    "quote": "A recent trend in real estate transactions involves hackers attempting to divert payments meant for the settlement agent to their own accounts by providing last minute wiring instructions different than those provided by the settlement agent or your real estate agent.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Real Estate Commission — FAQs and Consumer Information",
+        "url": "https://dopl.idaho.gov/rec/rec-faqs-and-consumer-info/",
+        "publisher": "Idaho Division of Occupational and Professional Licenses (Real Estate Commission)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-sos-business-search",
+    "claim": "The Idaho Secretary of State's Business Search at sosbiz.idaho.gov lets anyone look up business information and registered agents; a registered agent must have a physical street address in Idaho (no P.O. box) and be an Idaho resident or a business entity authorized to do business in Idaho.",
+    "quote": "Use the Business Search to lookup business information, registered agents, and more at sosbiz.idaho.gov. ... To be a registered agent in Idaho, you must: Have a physical street address in Idaho (no P.O. boxes) Be available during normal business hours Be either: An individual who lives in Idaho, or A business entity authorized to do business in Idaho",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Business Services — Idaho Secretary of State",
+        "url": "https://sos.idaho.gov/business-services/",
+        "publisher": "Idaho Secretary of State",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-sos-certificate-not-required",
+    "claim": "The Idaho Secretary of State says a certificate of existence is not required to do business in Idaho and warns of scam websites or mailings that suggest one is necessary.",
+    "quote": "A certificate of existence is not required to do business in Idaho. Scam websites or mailings may try to indicate a certificate is necessary and offer to provide one at a high markup.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Business Services — Idaho Secretary of State",
+        "url": "https://sos.idaho.gov/business-services/",
+        "publisher": "Idaho Secretary of State",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-doi-find-title-agent",
+    "claim": "The Idaho Department of Insurance's title insurance page offers a 'Find a Title Agent / Company' search and a title insurance specialist contact, and states that title insurance is not required in Idaho, though a lender may require a lender's policy.",
+    "quote": "Title Insurance is not required in the state of Idaho. However, your lender may require you to purchase a Title Insurance Lender's Policy to protect their interests. Find a Title Agent / Company",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "closing",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Title Insurance — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/title-insurance/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-ftc-deed-transfer-warning",
+    "claim": "The Federal Trade Commission warns that mortgage relief scammers may try to get homeowners to transfer the deed to them, and that a homeowner who transfers the deed is not likely to get it back; it adds that transferring the deed does not transfer the mortgage.",
+    "quote": "Scammers may try to convince you to transfer the deed to your home to them. The deed is the legal document that proves who owns the home. If you transfer the deed, you’re not likely to get it back. ... Transferring the deed does not transfer the mortgage, so you’ll still owe payments on your mortgage loan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-ftc-equity-skimming",
+    "claim": "The FTC describes 'equity-skimming' schemes in which a homeowner is told they can get the home back later, or is tricked into selling for much less than similar homes, and the scammer then rents out the home while the lender proceeds with foreclosure, leaving the homeowner still responsible for the mortgage.",
+    "quote": "Scammers say: “If you sell us your home, we’ll help you. You can get your home back once you’re on your feet again.” Others trick you into selling them your home for cash for much lower than the selling price of similar homes in your neighborhood. ... Once you sell your home to the scammer (and transfer the deed), they simply rent out the home and pocket the rent money while your lender goes ahead with the foreclosure. You lose your home — and you’re still responsible for the unpaid mortgage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "vb-ftc-upfront-payment-methods",
+    "claim": "The FTC warns homeowners never to pay a company upfront for promises of mortgage relief, and notes that scammers may want payment only by cashier's check, wire transfer or a mobile payment app because such payments are hard to recover.",
+    "quote": "Never pay a company upfront for promises to help you get relief on paying your mortgage. ... Scammers may want you to pay only by cashier’s check, wire transfer , or a mobile payment app . Scammers like you to pay this way because it’s hard to get your money back.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
   }
 ];
 

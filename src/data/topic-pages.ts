@@ -601,6 +601,7 @@ export const TOPIC_PAGES: TopicPage[] = [
           "Which title company, and when does earnest money go in? A purchase that closes through a local title company, with the deposit held there, is one you can check at every step.",
           "Can I see how you got to the number? A buyer who will not show the working is asking you to trust a figure you have no way to test.",
           "Who sets the date? If the closing date suits the buyer rather than you, you have traded the price for less certainty than you thought.",
+          "Idaho gives you ways to check the answers — the Secretary of State's business records, the licensing rules for title and escrow, and a cancellation right on certain foreclosure-related contracts. They are set out in [how to check a cash buyer in Idaho](/how-to-check-a-cash-buyer-in-idaho).",
         ],
       },
       {
@@ -688,6 +689,147 @@ export const TOPIC_PAGES: TopicPage[] = [
         ],
       },
     ],
+  },
+  {
+    "slug": "how-to-check-a-cash-buyer-in-idaho",
+    "kind": "decision",
+    "title": "How to Check a Cash Buyer in Idaho",
+    "h1": "How to check that a cash buyer in Idaho is legitimate before you sign",
+    "eyebrow": "Before you sign",
+    "description": "What Idaho's Secretary of State, Real Estate Commission, escrow and title laws let a seller check about any cash buyer, and the questions to ask first.",
+    "published": "2026-11-12",
+    "updated": "2026-11-12",
+    "guides": [],
+    "intro": [
+      "Before you sign, look up the buyer's entity on the Idaho Secretary of State's free business search, confirm that the title or escrow company closing the sale holds an Idaho Department of Insurance or Department of Finance license, and ask in writing whether the buyer is purchasing for its own account. Idaho's real estate license law, the Real Estate Commission's guidance and the Consumer Foreclosure Protection Act tell you what those answers mean.",
+      "This page describes what those statutes, agency guidelines and consumer pages say. It is not legal advice and it is not applied to your situation. If you are deciding whether to sign a specific contract, an Idaho attorney should read it first."
+    ],
+    "sections": [
+      {
+        "heading": "Find out exactly who the buyer is",
+        "body": [
+          "If the offer comes from a company, the first check is free: the Idaho Secretary of State's Business Search at sosbiz.idaho.gov lets anyone look up business information and registered agents. Ask the buyer for the exact legal name that will appear on the purchase agreement and on the deed, then search for that name rather than for a brand or a website.",
+          "The registered agent tells you something too. To serve as one in Idaho, a person or company must have a physical street address in Idaho, not a P.O. box, and must be either an Idaho resident or a business entity authorized to do business in Idaho.",
+          "One thing not to ask for: the Secretary of State says a certificate of existence is not required to do business in Idaho, and warns about websites and mailings that suggest otherwise. The search is the check. A seller who cannot find the named buyer at all has a question to put to that buyer before going further."
+        ],
+        "claims": [
+          "vb-sos-business-search",
+          "vb-sos-certificate-not-required"
+        ]
+      },
+      {
+        "heading": "When Idaho requires a real estate license",
+        "body": [
+          "Idaho Code 54-2002 bars anyone from acting as a real estate broker or salesperson in Idaho without an active Idaho license. Unless an exemption applies, a single act that fits the definition is enough to count as being in the business.",
+          "The definition, in Idaho Code 54-2004, is broad. A real estate broker includes anyone who, acting for another for compensation or the expectation of it, sells, lists, buys or negotiates, or offers to, the purchase, sale, option or exchange of real estate for others. It also includes anyone who represents to the public that they do those things, and anyone who takes any part in procuring prospects or in negotiating or closing a transaction meant to result in them. A dealer in options, someone who takes or uses options to purchase property for another or others, is also included.",
+          "The license law also says who is outside it. Idaho Code 54-2003 says no license is needed to buy, option, exchange or sell an interest in real property for a person's own account or use, or for an owner to dispose of its own property. The same section adds that these exceptions may not be used in any way to evade the chapter, and that an attempt to do so is treated as unlicensed practice.",
+          "Unlicensed brokerage is a misdemeanor under Idaho Code 54-2065. On conviction, an individual faces a fine of up to $5,000, up to one year in county jail, or both, and an LLC or corporation a fine of up to $10,000. A court may also add civil penalties of up to $5,000 against an individual and up to $10,000 against a company. Those penalties fall on the person acting without a license, not on the seller."
+        ],
+        "claims": [
+          "vb-license-required-single-act",
+          "vb-broker-definition-acting-for-others",
+          "vb-dealer-in-options-definition",
+          "vb-own-account-exception-no-evasion",
+          "vb-unlicensed-practice-penalty"
+        ]
+      },
+      {
+        "heading": "What the Real Estate Commission says about property a buyer does not own",
+        "body": [
+          "The Idaho Real Estate Commission publishes guidelines that explain how it reads the license law. Each one says it is not a new law but the agency's interpretation of existing law. That is the right weight to give them: they are not statutes, but they are the regulator's stated view.",
+          "Guideline 18 deals with options and with investors. In the Commission's reading, an option holder is not an owner and may not list, sell, negotiate, procure buyers for or otherwise broker the property without a license. The guideline goes further: whether or not an investor holds an option, it says the investor may be engaged in unlicensed practice if they list, sell or negotiate the sale of property they do not own, or procure buyers for it.",
+          "Guideline 2 adds that the Commission reads procuring prospects to include any marketing or advertising designed to attract the attention of buyers or sellers.",
+          "None of this tells you whether a particular buyer is doing anything wrong. It does tell you what to ask any buyer, in writing, before you sign: Are you buying this house for your own account, and will you be the party that takes title at closing? Do you intend to offer the house, or your contract to buy it, to anyone else before closing? Whose money funds the purchase? Keep the answers with the contract, check that they match what the purchase agreement says, and show both to an attorney if you have the contract reviewed."
+        ],
+        "claims": [
+          "vb-irec-guideline18-property-not-owned",
+          "vb-irec-guideline2-procuring-prospects-marketing",
+          "vb-broker-definition-acting-for-others"
+        ]
+      },
+      {
+        "heading": "If the buyer holds a real estate license, they have to tell you",
+        "body": [
+          "Some cash buyers are licensed agents investing for themselves. Idaho Code 54-2055 requires an active Idaho licensee who buys an interest in real property, for personal use or any other purpose, directly, indirectly or through a third party, to disclose in writing that they hold an active Idaho license. The disclosure has to come no later than when the purchase and sale agreement is presented.",
+          "You can check a license yourself. The Real Estate Commission's License Lookup lets consumers confirm that an agent or brokerage is licensed in Idaho, and shows any formal disciplinary actions taken against an agent within the last five years.",
+          "Know what the Commission can and cannot do. It investigates complaints involving, among other things, dishonest or dishonorable dealings, failure to account for money or property, misrepresentation and unlicensed practice. It cannot enforce or cancel a purchase and sale agreement, award damages or order earnest money returned. For those, you would need an attorney."
+        ],
+        "claims": [
+          "vb-licensee-must-disclose-license",
+          "vb-irec-license-lookup",
+          "vb-irec-investigates-unlicensed-practice"
+        ]
+      },
+      {
+        "heading": "Check the title or escrow company yourself",
+        "body": [
+          "The company that closes the sale and holds the money can be checked independently of anything the buyer says about itself. Idaho licenses that work through two different agencies.",
+          "Title companies answer to the Idaho Department of Insurance. Under Idaho Code 41-2710, no one may act in Idaho as an agent for a title insurer without a license from the Director of Insurance, and the license is issued for each county in which policies are written. The Department's title insurance page offers a Find a Title Agent / Company search and a title insurance specialist to contact.",
+          "Escrow companies answer to the Idaho Department of Finance, which the Real Estate Commission names as having jurisdiction over them. Idaho Code 30-903 makes it unlawful to act as an escrow agency in or from Idaho without a license, and Idaho Code 30-913 makes doing so without an exemption a felony, with civil penalties of up to $5,000 per violation. Idaho Code 30-905 exempts several groups from the escrow license, including title insurance agents licensed by the Department of Insurance.",
+          "So the practical check is short. Get the name of the closing company from the buyer, look it up with the Department of Insurance or the Department of Finance, and contact the company using a phone number you found yourself rather than one in an email. Call the closing company directly before you sign anything."
+        ],
+        "claims": [
+          "vb-title-agent-license-by-county",
+          "vb-doi-find-title-agent",
+          "vb-irec-escrow-and-title-regulators",
+          "vb-escrow-agency-license-required",
+          "vb-escrow-unlicensed-felony",
+          "vb-escrow-exempt-title-agents"
+        ]
+      },
+      {
+        "heading": "Earnest money: where it sits and who settles a dispute",
+        "body": [
+          "When a real estate broker or sales associate handles an offer, Idaho Code 54-2051 requires the offer to be in writing and to state the actual form and amount of the earnest money, along with a provision for dividing forfeited earnest money if the sale does not close. That duty sits with the licensee. If no licensee is involved in your sale, read what the purchase agreement itself says about the deposit.",
+          "Idaho Code 54-2041 adds that money is not treated as entrusted to a broker once the parties have told the broker in writing to transfer it to a title, escrow or trust company and the broker no longer controls it. In other words, earnest money held at a title company sits with the title company.",
+          "If the deposit becomes a dispute, the Real Estate Commission is plain: earnest money disputes are civil matters, the Commission cannot decide them or order the money released, and it points consumers to the Idaho State Bar to find an attorney. Before you sign, it is reasonable to ask how much earnest money the buyer will deposit, with which company, by when, and what the contract says happens to it if the buyer does not close."
+        ],
+        "claims": [
+          "vb-offer-must-state-earnest-money",
+          "vb-earnest-money-at-title-not-entrusted",
+          "vb-irec-earnest-money-disputes-civil"
+        ]
+      },
+      {
+        "heading": "Wire instructions and upfront fees are where to slow down",
+        "body": [
+          "The Real Estate Commission warns that hackers try to divert closing payments to their own accounts by sending last-minute wiring instructions that differ from those the settlement agent or real estate agent provided. Confirm any change to wiring instructions by phone with the title company, using a number you looked up yourself.",
+          "The Federal Trade Commission's guidance on mortgage relief scams adds two warnings that apply to anyone asking a homeowner for money. It says never to pay a company upfront for promises to help with mortgage relief, and that scammers may want payment only by cashier's check, wire transfer or a mobile payment app because those payments are hard to get back. If anyone on the buyer's side asks you to pay money before closing, get the reason in writing and run it past an attorney."
+        ],
+        "claims": [
+          "vb-irec-wire-diversion-warning",
+          "vb-ftc-upfront-payment-methods"
+        ]
+      },
+      {
+        "heading": "If the house is in foreclosure, Idaho adds a notice and a five-business-day cancellation right",
+        "body": [
+          "Idaho's Consumer Foreclosure Protection Act begins with a finding by the Legislature that some persons and businesses defraud homeowners of their title, equity or other value under the guise of stopping or postponing a foreclosure sale. It also directs that the Act not be read to inhibit transactions with legitimate lenders and investors.",
+          "Under Idaho Code 45-1602, during the foreclosure period described in Idaho Code 45-1506, a contract with the record owner involving the transfer of an interest in residential property subject to foreclosure must be in writing and must come with a statutory notice in at least 12-point boldface type. The notice warns that some individuals or businesses may say they can save a home from foreclosure, that a rescue plan may cost the owner valuable equity, and that the owner should consult an attorney or financial professional.",
+          "Idaho Code 45-1603 then gives an owner whose property is in foreclosure the right to cancel any contract relating to the property made during the foreclosure period within five business days of entering into it. The cancellation must be in writing to all other parties but need not take any particular form, and no funds or interest in the property may transfer until the five days have passed. The Act excludes banks and similar institutions, regulated lenders, licensed mortgage lenders and brokers, and close family members, and a violation exposes the violator to penalties and damages under the Idaho Consumer Protection Act.",
+          "The FTC describes what these rules are aimed at. It warns that scammers may try to get a homeowner to transfer the deed, that a homeowner who does so is not likely to get it back, and that transferring the deed does not transfer the mortgage. It also describes equity-skimming schemes in which a homeowner is promised the home back later, or is tricked into selling for cash for much less than similar homes nearby, and the scammer rents the home out while the lender forecloses. Our [foreclosure guide](/guides/idaho-foreclosure-vs-property-tax-delinquency) covers the timeline of an Idaho trustee's sale."
+        ],
+        "claims": [
+          "vb-cfpa-legislative-findings",
+          "vb-cfpa-written-notice-required",
+          "vb-cfpa-five-business-day-rescission",
+          "vb-cfpa-exclusions",
+          "vb-cfpa-penalties-title-48",
+          "vb-ftc-deed-transfer-warning",
+          "vb-ftc-equity-skimming"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "Every check on this page applies to us as much as to any other buyer, and we would rather you ran them. What we can show you is this: we buy with our own capital, our purchases close through a local title company you can look up and call yourself, you choose the closing date, and we buy in any condition. A three-week close is realistic when you want one. [How it works](/how-it-works) sets out the steps, and you can [contact us](/contact) with any of the questions above.",
+          "A direct sale is not always the right route. If you want the widest pool of buyers competing on price, listing with a licensed Idaho agent is built for that, and no single cash offer, ours included, replaces it. If your house is in foreclosure or you are unsure about a contract you have already been handed, talk to an Idaho attorney or a HUD-approved housing counselor before you sign with anyone."
+        ],
+        "claims": [
+          "vb-cfpa-written-notice-required"
+        ]
+      }
+    ]
   },
 ];
 

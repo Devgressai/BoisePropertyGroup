@@ -1,0 +1,140 @@
+{
+  "guide": {
+    "slug": "selling-a-house-with-a-well-or-septic-in-ada-county",
+    "title": "Selling a House With a Well or Septic",
+    "h1": "Selling an Ada County house on a private well or septic system",
+    "description": "Who regulates septic and wells in Ada County, where the permit and well records are, what a CDH mortgage survey is, and when a water right must be updated.",
+    "cluster": "well-septic",
+    "published": "2026-11-12",
+    "updated": "2026-11-12"
+  },
+  "content": {
+    "intro": [
+      "In Ada County a septic system is a Central District Health matter: the district issues septic permits under the state's DEQ rules and can help with existing permit records, and it offers a mortgage survey of the well and septic that, in its words, a lender often requests before a sale. The well itself is an Idaho Department of Water Resources matter: drillers must file a report that becomes a public record, and if the property carries a water right on IDWR's books, Idaho Code 42-248 requires notice of a change in ownership within 120 days.",
+      "This page describes what those agencies and statutes say. It is not legal advice and it is not applied to your property. If a water right, an easement or a failing system is part of your sale, an Idaho attorney, and the agency that holds the record, should look at it."
+    ],
+    "sections": [
+      {
+        "heading": "Septic in Ada County belongs to Central District Health",
+        "body": [
+          "Central District Health's Environmental Health Division permits septic systems, reviews land development applications and verifies the location of shallow injection wells across Ada, Boise, Elmore and Valley counties. It is a public health district, not a city or county building department, so a septic question goes to CDH rather than to a city permit counter.",
+          "The rules CDH applies are the state's. Idaho's Individual/Subsurface Sewage Disposal Rules, IDAPA 58.01.03, are written by the Department of Environmental Quality, and DEQ says Idaho's seven public health districts administer them under a memorandum of understanding — conducting site evaluations, issuing permits, inspecting installations, and helping with property-specific questions about existing systems and permit records.",
+          "Whether a property is on septic at all can turn on which side of a city limit it sits. Inside Boise, residential and commercial buildings must connect to the city sewer system. Our [Ada County page](/sell-my-house-fast-ada-county) covers the county as a whole; the point here is only that a rule for one city does not travel to the parcel next door."
+        ],
+        "claims": [
+          "ada-septic-authority-cdh",
+          "ws-deq-health-districts-administer-septic-rules",
+          "boise-sewer-connection-required"
+        ]
+      },
+      {
+        "heading": "How do I find the septic permit for my property?",
+        "body": [
+          "Start with the health district. DEQ lists permit status and existing permit records among the things a district can help with, and tells owners to contact the district for the county where the property is located. CDH takes public records requests through a form on its About page and asks that you be specific about the documents you want — the property address, the parcel number and the legal description are the obvious things to include.",
+          "Two cautions. CDH's own pages do not say what a septic file contains or how long a request takes, so expect neither to be predictable. And not every system will have a tidy file; that is a reason to gather what you hold yourself.",
+          "DEQ's homeowner guide, which CDH still links as its guide for homeowners, says a tank's location can be found from plot plans, septic inspection records, architectural or landscape drawings, or the house plumbing, and it advises keeping a permanent record of maintenance, repairs, sludge and scum levels, pumping, drainfield condition and backups. CDH's own mortgage survey asks for the pumping receipt when a tank has been or will be pumped, so receipts are worth keeping with the deed."
+        ],
+        "claims": [
+          "ws-deq-health-districts-administer-septic-rules",
+          "ws-cdh-public-records-request",
+          "ws-deq-guide-keep-septic-records",
+          "ws-cdh-mortgage-survey-requirements"
+        ]
+      },
+      {
+        "heading": "What the septic rule asks of an owner",
+        "body": [
+          "The septic rule is written around ownership, not around the moment of sale. Its duties sit with whoever owns the land, and they pass to the next owner with it. Whether anything more applies to a particular property at sale — a lender’s request, a condition on the permit — is worth asking Central District Health directly.",
+          "Under IDAPA 58.01.03 every owner of real property is jointly and individually responsible for storing, treating and disposing of the wastewater generated on it. With listed exceptions, no one may modify, repair, expand or install a system without a valid installation permit. A failing system — the rule's definition includes one that will not accept wastewater, or discharges it into waters or onto the ground surface — must be permitted and repaired by its owner as soon as practical after the owner becomes aware of the failure, or as directed with proper notice.",
+          "One more provision matters at a sale. The rule allows a permit to carry operation, maintenance and monitoring conditions, and those conditions are perpetual unless the system is removed, abandoned or replaced, or the permit is amended or revoked. If your system's permit carries conditions, they are part of what a buyer is taking on, which is one more reason to get the permit itself rather than rely on memory.",
+          "Separately, DEQ advises that anyone planning to install a new system have a site evaluation done by the health district and a licensed installer before buying the land. That is advice to a buyer of unbuilt ground, not a rule about selling a house with a working system."
+        ],
+        "claims": [
+          "ws-idapa-owner-responsible-wastewater",
+          "ws-idapa-permit-required-to-repair",
+          "ws-idapa-failing-system-must-be-repaired",
+          "ws-idapa-om-requirements-perpetual",
+          "ws-deq-site-evaluation-before-purchase"
+        ]
+      },
+      {
+        "heading": "What a CDH mortgage survey is",
+        "body": [
+          "CDH describes a mortgage survey as something a lender often requests, to locate a well or septic system and check the water and sewage systems before a property sale. It is CDH's service, offered alongside its drinking water testing; CDH does not say any particular loan requires it, and neither do we.",
+          "CDH's information sheet asks for a complete, signed application with the legal description and county parcel number, and a plot plan drawn on the application showing the septic tank, the drainfield and every domestic well in relation to the house. If the tank has been or will be pumped, CDH wants the pumping receipt. The inspector must be able to reach the whole drainfield, the tank and the well head. CDH says results are available three to five days after the sample is taken.",
+          "On CDH's July 2026 schedule, a survey costs $178 for the septic only, and $178 plus a $20 lab fee for the well only or for the well and septic together; a revisit is $178 plus the lab fee. CDH resets its fees, so check the current schedule before you budget."
+        ],
+        "claims": [
+          "ws-cdh-mortgage-survey-lender-request",
+          "ws-cdh-mortgage-survey-requirements",
+          "ws-cdh-mortgage-survey-fees-july-2026"
+        ]
+      },
+      {
+        "heading": "The well's own paperwork lives at IDWR",
+        "body": [
+          "Idaho Code 42-238 requires every well driller, including for domestic wells, to complete a well driller's report and deposit it with the Idaho Department of Water Resources within 30 days after the well is completed. The reports become a permanent record available for public use. Before any well is built or its construction changed, Idaho Code 42-235 requires the driller or owner to get a drilling permit from IDWR — $75 for a domestic well.",
+          "IDWR's Well Construction Search is where those reports can be read. IDWR says the database holds most driller's reports from July 1987 onward, so an older well may not appear. Since 1997 IDWR has assigned each well a tag number, printed on a metal plate fixed to the casing above ground, and the tag is the most effective way to search; the township, range and section, the well's address, or the name of whoever owned the well when it was drilled also work. Because the report is public, finding it before you list costs nothing but time.",
+          "Water quality is a separate question, and CDH puts it on the owner: in Idaho, it says, private well owners are responsible for ensuring their water is safe to drink, and it recommends testing well water once a year for bacteria and nitrates. CDH also says private water can be required to be tested for a house sale if the lender or buyer requires it — so whether a test happens in your sale depends on the buyer and the financing, not on a rule that applies to every sale."
+        ],
+        "claims": [
+          "ws-well-driller-report-public-record",
+          "ws-well-drilling-permit-42-235",
+          "ws-idwr-well-construction-search",
+          "ws-cdh-well-owner-responsible-testing"
+        ]
+      },
+      {
+        "heading": "A domestic well usually works without a water-right permit — within limits",
+        "body": [
+          "Idaho Code 42-227 says that drilling a well and withdrawing water for domestic purposes, as Idaho Code 42-111 defines them, is not subject to the water-right permit process, and that rights to groundwater for those purposes may be acquired by withdrawal and use. The exception is narrow: certain new diversions within subdivisions in regulated groundwater areas need a permit. Domestic wells remain subject to inspection by IDWR and DEQ.",
+          "The definition sets the limits. Domestic use covers homes, livestock and related uses including irrigation of up to half an acre, if total use does not exceed 13,000 gallons per day — or any other use not exceeding 2.8 acre-feet a year. It excludes apartments, condominiums and similar multiple-dwelling developments, subdivisions, and commercial establishments unless they fit within that smaller volume limit. For a larger lot watered from the house well, the half-acre figure is the one to read closely.",
+          "This law has moved. IDWR reports that the 2025 Legislature revised the domestic-use, shared-well and subdivision statutes and that a further bill, signed February 17, 2026, took effect that day. Anything you read about the domestic exemption from before then may be out of date."
+        ],
+        "claims": [
+          "ws-domestic-well-exempt-42-227",
+          "id-domestic-water-13000-gpd",
+          "id-domestic-water-exclusions",
+          "ws-domestic-exemption-revised-2026"
+        ]
+      },
+      {
+        "heading": "Does a water right have to be updated when the property sells?",
+        "body": [
+          "If the property has a water right on record, yes. Idaho Code 42-248 requires anyone owning or claiming a water right represented by a court decree, a claim filed with IDWR, or an IDWR permit or license to notify IDWR of any change in ownership of any part of the right within 120 days, using IDWR's forms. The notice needs a $25 fee per right — $100 per right if the right is being divided — with no fee for a claim still pending in an adjudication, and it must come with deeds, decrees or other evidence of the conveyance. IDWR updating its records is not, the statute says, a determination of who owns the right.",
+          "Whether there is such a record is a fact about your parcel, and the answer is in IDWR's Water Right and Adjudication Search, not in an assumption. IDWR explains that a 1978 statute required holders of beneficial-use rights to record them, other than rights used solely for domestic purposes, so a house well may have nothing on file — or may.",
+          "IDWR also says a landowner may have acquired a water right with the land if water was used there before, the prior owner did not reserve the right in the deed, and the right was not forfeited by five or more years of non-use. It tells buyers to make sure they are listed as the current owner with a correct address. If your deed should reserve or convey a right, or a right is to be split, that is a question for an attorney before closing."
+        ],
+        "claims": [
+          "ws-water-right-ownership-notice-120-days",
+          "ws-water-right-notice-fee-and-evidence",
+          "ws-idwr-1978-claims-excluded-domestic",
+          "ws-idwr-water-right-may-pass-with-land"
+        ]
+      },
+      {
+        "heading": "Irrigation water and laterals are a separate system",
+        "body": [
+          "Surface irrigation water is a different system again, delivered by a different set of entities. Ada County's own irrigation districts map identifies 27 of them — irrigation districts, ditch companies, lateral associations, water companies and a drainage district — plus the Boise Project Board of Control as operating agent for five districts. The map shows which entities exist, not which one serves a given address.",
+          "If a canal or lateral crosses the lot, two statutes are worth knowing. Idaho Code 42-1204 says the easements and rights-of-way of irrigation districts, lateral ditch associations and similar entities cannot be acquired by adverse possession, and no one may block their personnel's access. Idaho Code 42-1205 bars encroachments onto those easements — fences, gates, structures, landscaping, trees and more — without the entity's written permission, which may not be unreasonably withheld; an unpermitted encroachment that unreasonably or materially interferes must be removed or modified at the expense of whoever caused or permitted it. Both sections were renumbered in 2026, so older documents cite them as 42-1208 and 42-1209.",
+          "All of this meets the seller's disclosure form, which must let the seller disclose the source of the water supply and the nature of the sewer system. Our [disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers when the form applies, and the [land and acreage guide](/guides/selling-land-or-acreage-in-ada-county) covers irrigation on larger parcels."
+        ],
+        "claims": [
+          "ada-27-irrigation-entities",
+          "boise-project-five-districts",
+          "ws-irrigation-easements-no-adverse-possession",
+          "ws-irrigation-encroachment-written-permission",
+          "id-disclosure-form-covers-water-sewer-structure"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy houses in any condition with our own capital, including houses on a well and septic, and our purchases close through a local title company on a closing date the seller chooses. A three-week close is realistic. That can suit a seller who would rather not schedule a survey, chase a permit file or line up repairs before selling. [How it works](/how-it-works) sets out the steps.",
+          "If your well tests clean, your septic file is in order and the house shows well, listing with an agent may reach more buyers, and that may serve you better. And a direct sale does not change the rules on this page: a failing system's repair duty, a water right's ownership notice and the disclosure form are set by statute and rule, not by who the buyer is."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

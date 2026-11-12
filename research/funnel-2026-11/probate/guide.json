@@ -1,0 +1,147 @@
+{
+  "guide": {
+    "slug": "selling-a-house-in-probate-in-idaho",
+    "title": "Selling a House in Probate in Idaho",
+    "h1": "Selling a house that is going through probate in Idaho",
+    "description": "How an Idaho estate gets a personal representative, what letters are, how the creditor clock runs, and when a house in probate can be sold in Ada County.",
+    "cluster": "probate",
+    "published": "2026-11-12",
+    "updated": "2026-11-12"
+  },
+  "content": {
+    "intro": [
+      "In Idaho, a house in an open estate is sold by the personal representative, and nobody holds that power until a magistrate or district judge has appointed them and letters have been issued. Once appointed, the Idaho Code gives the personal representative an owner's power over estate title, exercisable without a court order — unless the will or an order in a formal proceeding restricts it. The creditor-claim period, which runs four months from the first published notice to creditors, controls when the estate can be closed; the statute does not write it as a condition of the sale.",
+      "This page describes what Idaho statutes and Ada County's own pages say. It is not legal advice and does not apply the law to your estate; an Idaho probate attorney should look at yours."
+    ],
+    "sections": [
+      {
+        "heading": "Probate is opened in the county where the person lived, not where the house is",
+        "body": [
+          "Idaho Code 15-3-201 sets venue for the first probate or appointment proceeding \"In the county where the decedent had his domicile at the time of his death.\" Only for someone who was not domiciled in Idaho does the location of property decide it: then venue is \"in any county where property of the decedent was located at the time of his death.\"",
+          "In Ada County, probates are a magistrate-court matter. The county's courts page lists probates among the cases magistrate judges hear, and explains that \"because of the comparatively high volume of cases filed in Ada County, magistrate judges serving Ada County are assigned by the Administrative District Judge to hear specific types of cases\" — probates, guardianships and conservatorships being one such assignment. Ada County sits in the Fourth Judicial District of the Idaho State Courts, which also serves Boise, Elmore and Valley counties."
+        ],
+        "claims": [
+          "pb-venue-domicile-county",
+          "pb-ada-magistrates-hear-probates",
+          "pb-fourth-district-ada"
+        ]
+      },
+      {
+        "heading": "Informal or formal: the two ways an estate gets a personal representative",
+        "body": [
+          "Idaho's probate code has an informal track and a formal track. The word that confuses people is \"registrar\". Idaho Code 15-1-307: \"The acts and orders which this code specifies as performable by the registrar will be performed by a magistrate or district judge.\" So informal probate in Idaho still goes through a judge.",
+          "On the informal track, the statutes set minimum waiting periods, not processing times. Under 15-3-302 the registrar issues a written statement of informal probate of a will once the required findings are made, \"if at least five (5) days have elapsed since the decedent's death,\" and that informal probate \"is conclusive as to all persons until superseded by an order in a formal testacy proceeding.\" Under 15-3-307 the registrar appoints the applicant as personal representative once \"at least one hundred twenty (120) hours have elapsed since the decedent's death,\" with a delay to 30 days for a nonresident decedent, subject to exceptions. The same section says \"The status of personal representative and the powers and duties pertaining to the office are fully established by informal appointment.\"",
+          "The formal track is different in kind. Idaho Code 15-3-401: \"A formal testacy proceeding is litigation to determine whether a decedent left a valid will.\" Separately, an estate can be placed under supervised administration, which 15-3-501 describes as a proceeding \"under the continuing authority of the court,\" with a supervised personal representative who \"is responsible to the court\" and subject to its directions.",
+          "There is also an outer limit on starting at all. Subject to exceptions, 15-3-108 provides that no probate or appointment proceeding \"may be commenced more than three (3) years after the decedent's death.\" If the owner died years ago and nobody opened an estate, that section — and its exceptions — is the first thing to raise with an attorney."
+        ],
+        "claims": [
+          "pb-registrar-is-judge",
+          "pb-informal-probate-five-days",
+          "pb-informal-appointment-120-hours",
+          "pb-formal-testacy-litigation",
+          "pb-supervised-administration",
+          "pb-probate-three-year-limit"
+        ]
+      },
+      {
+        "heading": "Who can be appointed, and what happens when several heirs share the right",
+        "body": [
+          "Idaho Code 15-3-203 sets the order of priority for appointment, whether the proceedings are formal or informal: first, the person with priority under a probated will; then a surviving spouse who is a devisee; other devisees; the surviving spouse; other heirs; and, \"forty-five (45) days after the death of the decedent, any creditor.\"",
+          "When several people share a priority — for example, several adult children who are all heirs — \"those of them who do not renounce must concur in nominating another to act for them, or in applying for appointment.\"",
+          "And if nobody steps forward, the statute has a fallback. Where a petition has been filed and 60 days pass with no proper person consenting to act, \"the public administrator shall act as personal representative unless and until a proper person consents to act.\" In Ada County, the Treasurer serves as ex officio public administrator, responsible for the estates of people who die with no one to administer them."
+        ],
+        "claims": [
+          "pb-appointment-priority",
+          "ada-treasurer-ex-officio-public-administrator"
+        ]
+      },
+      {
+        "heading": "Nothing can be signed until letters are issued",
+        "body": [
+          "Being named executor in a will does not, by itself, give power over the house. Idaho Code 15-3-103: \"to acquire the powers and undertake the duties and liabilities of a personal representative of a decedent, a person must be appointed by order of the court or registrar, qualify and be issued letters. Administration of an estate is commenced by the issuance of letters.\"",
+          "Qualifying is its own step. Under 15-3-601, before receiving letters the personal representative files \"any required bond and a statement of acceptance of the duties of the office,\" including an oath to perform those duties according to law. And under 15-3-701, the \"Duties and powers of a personal representative commence upon his appointment.\"",
+          "Letters are also how that authority is shown to others. Idaho Code 15-1-305 requires the clerk, on payment of the fees, to issue certified copies of \"letters issued to personal representatives,\" and adds: \"Certificates relating to letters must show the date of appointment.\" Under 15-1-305A, letters, a statement of informal probate, and any deed executed by an appointed personal representative \"may be recorded in the office of the county recorder of the county in which the real property affected\" is located, and from filing they give notice of their contents to everyone. Probate is opened where the person lived; documents affecting the house are recorded where the house is.",
+          "We have not found a primary source that sets out what a particular title company will require from a personal representative before insuring a sale, so this page does not guess. Ask the title company handling the closing early, and ask the estate's attorney what the letters do and do not cover."
+        ],
+        "claims": [
+          "pb-letters-required",
+          "pb-qualification-before-letters",
+          "pb-powers-commence-on-appointment",
+          "pb-certified-letters-date",
+          "pb-letters-recordable"
+        ]
+      },
+      {
+        "heading": "Once appointed, the personal representative can usually sell without a court order — with two limits",
+        "body": [
+          "Idaho Code 15-3-711 gives an appointed personal representative \"the same power over the title to property of the estate that an absolute owner would have, in trust however, for the benefit of the creditors and others interested in the estate. This power may be exercised without notice, hearing, or order of court.\" Idaho Code 15-3-715 lists the transactions this covers, including \"(23) Sell, mortgage, or lease any real or personal property of the estate\" and disposing of land \"at public or private sale.\"",
+          "That list does not stand alone. 15-3-715 opens: \"Except as restricted or otherwise provided by the will or by an order in a formal proceeding and subject to the priorities stated in section 15-3-902 of this code, a personal representative, acting reasonably for the benefit of the interested persons, may properly:\" — so a will can restrict a sale, a formal-proceeding order can restrict it, and the power is to be used reasonably for the people interested in the estate.",
+          "15-3-704 states the default the same way: the personal representative proceeds \"without adjudication, order, or direction of the court,\" except as specified or ordered for a supervised personal representative. A formal testacy proceeding does not by itself stop everything either. Under 15-3-401, once a personal representative receives notice of a formal proceeding they \"must refrain from exercising his power to make any further distribution of the estate\" while it is pending; a petitioner may ask for an order restraining the representative's other powers, and absent such an order the proceeding \"has no effect on the powers and duties of a previously appointed personal representative other than those relating to distribution.\" Whether a sale is wise while a formal proceeding is pending is a question for the estate's attorney, not for a buyer.",
+          "The buyer's side is covered in 15-3-714: \"A person who in good faith either assists a personal representative or deals with him for value is protected as if the personal representative properly exercised his power.\" That protects the purchaser; it does not loosen the personal representative's own duty to follow the will. The same section keeps restrictions on a supervised personal representative that are endorsed on the letters effective. The inherited-property side of these sections, including why estate sales are exempt from Idaho's seller disclosure form, is covered in [the inherited-house guide](/guides/selling-an-inherited-house-in-idaho)."
+        ],
+        "claims": [
+          "id-pr-power-over-title",
+          "id-pr-powers-limited-by-will",
+          "pb-pr-may-sell-real-property",
+          "pb-pr-proceeds-without-court-order",
+          "pb-supervised-administration",
+          "pb-formal-testacy-litigation",
+          "pb-good-faith-buyer-protected"
+        ]
+      },
+      {
+        "heading": "The creditor clock: four months from first publication, three years at the outside",
+        "body": [
+          "Under Idaho Code 15-3-801, a personal representative \"upon his appointment may publish a notice to creditors once a week for three (3) successive weeks in a newspaper of general circulation in the county,\" requiring creditors to present claims \"within four (4) months after the date of the first publication of the notice or be forever barred.\" A known creditor can be sent written notice, which sets the later of four months after publication or \"sixty (60) days after the mailing or delivery of the notice.\" The text says \"may\": it is framed as something the personal representative can do, not a step the statute requires.",
+          "15-3-803 then sets the outer limit. Claims that arose before death are barred unless presented by the earlier of \"three (3) years after the decedent's death\" or the deadline set by the notice. Two carve-outs matter on a house. State tax claims run on their own clock. And \"Nothing in this section affects or prevents: (1) any proceeding to enforce any mortgage, pledge, or other lien upon property of the estate\" — a mortgage or other lien on the house is not cut off by the creditor deadline.",
+          "How does this bear on a sale? The sale power in 15-3-711 is not written as conditional on the claim period running out. What the claim period does control is closing the estate: under 15-3-1003 a personal representative may close by sworn statement \"no earlier than six (6) months after the date of original appointment,\" stating, among other things, that \"the time limitation for presentation of creditors' claims has expired.\" Meanwhile the owner's power is held \"in trust however, for the benefit of the creditors,\" and 15-3-715 makes transactions subject to the statutory priority of claims. When to sell relative to the claim period is a decision for the personal representative and their attorney.",
+          "While the house sits in the estate, someone is responsible for it. Under 15-3-709 the personal representative may leave real property with the person presumptively entitled to it until possession is needed for administration, but \"shall pay taxes on, and take all steps reasonably necessary for the management, protection and preservation of, the estate in his possession.\""
+        ],
+        "claims": [
+          "pb-creditor-notice-four-months",
+          "pb-claims-barred-three-years",
+          "pb-close-no-earlier-six-months",
+          "id-pr-power-over-title",
+          "id-pr-powers-limited-by-will",
+          "pb-pr-possession-and-taxes"
+        ]
+      },
+      {
+        "heading": "Can a small-estate affidavit be used to sell the house?",
+        "body": [
+          "Idaho's affidavit procedure is in 15-3-1201, under the Part heading \"Collection of personal property by affidavit.\" Thirty days after death, a person holding debts owed to the decedent, tangible personal property, or instruments such as stock must hand them to a successor who presents an affidavit stating, among other things, that the probate estate's value \"less liens and encumbrances, does not exceed one hundred thousand dollars ($100,000)\" and that no application or petition for a personal representative or for summary administration \"is pending or has been granted in any jurisdiction.\"",
+          "The section's text speaks of debts, tangible personal property and instruments; it does not mention real property. Ada County's Court Assistance Office is more direct: the affidavit \"may be used if he or she did not own real estate\" and had personal property under the dollar limit, and \"The affidavit is not filed with the court.\"",
+          "One narrower summary route exists where a surviving spouse is the sole devisee or heir. Under 15-3-1205 the spouse may petition, and after notice and hearing the decree \"shall thereafter have the same effect as a formal decree approving or determining distribution.\" It has a real cost: a spouse who elects it \"shall assume and be liable for any and all indebtedness that might be a claim against the estate of the decedent and there will be no administration of the estate of the decedent.\" The three-year limit in 15-3-108 does not apply to proceedings under 15-3-1201 or 15-3-1205."
+        ],
+        "claims": [
+          "pb-small-estate-affidavit-conditions",
+          "pb-ada-small-estate-affidavit-no-real-estate",
+          "pb-surviving-spouse-summary",
+          "pb-probate-three-year-limit"
+        ]
+      },
+      {
+        "heading": "Selling during administration, or after distribution to the heirs",
+        "body": [
+          "An estate does not have to sell the house itself. Under 15-3-907, when property is distributed in kind \"the personal representative shall execute an instrument or deed of distribution assigning, transferring or releasing the assets to the distributee as evidence of the distributee's title to the property.\" 15-3-910 then deals with a sale by the heir who receives it.",
+          "A buyer from that heir is protected by 15-3-910: a purchaser for value from a distributee holding a deed of distribution \"takes title free of rights of any interested person in the estate and incurs no personal liability to the estate, or to any interested person, whether or not the distribution was proper or supported by court order.\" That protects the purchaser. It says nothing about what the heir may still owe other heirs or creditors, and it is not a way around the estate's debts.",
+          "The Ada County Recorder maintains the documents related to property ownership in the county, and recorded documents are open to public inspection. And whichever route is taken, the homeowner's exemption does not carry over: Ada County requires a new application \"if you move or if ownership of the property changes,\" so whoever ends up owning and living in the house must apply again."
+        ],
+        "claims": [
+          "pb-deed-of-distribution",
+          "pb-purchaser-from-distributee-protected",
+          "ada-recorder-maintains-ownership-documents",
+          "ada-homeowners-exemption-deadline"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in Ada County with our own capital, in any condition, and our purchases close through a local title company. We can only sign with someone who has the authority to sell — in an open estate, that means an appointed personal representative with letters. The seller chooses the closing date, and a three-week close is realistic. [How it works](/how-it-works) sets out the steps, or you can [contact us](/contact).",
+          "We are often not the best route. If the house is in good shape, the estate is in no hurry and the heirs agree, listing it with an agent will usually net more. If the will restricts a sale, a formal proceeding is pending, or the debts may exceed what the estate holds, the first call should be to the estate's attorney, not to any buyer."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

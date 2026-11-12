@@ -107,6 +107,36 @@ export const guides: Guide[] = [
     published: "2026-11-12",
     updated: "2026-11-12",
   },
+  {
+    slug: "selling-a-house-in-probate-in-idaho",
+    title: "Selling a House in Probate in Idaho",
+    h1: "Selling a house that is going through probate in Idaho",
+    description:
+      "How an Idaho estate gets a personal representative, what letters are, how the creditor clock runs, and when a house in probate can be sold in Ada County.",
+    cluster: "probate",
+    published: "2026-11-12",
+    updated: "2026-11-12",
+  },
+  {
+    slug: "how-a-property-sale-closes-in-idaho",
+    title: "How a Property Sale Closes in Idaho",
+    h1: "What actually happens at closing when you sell property in Idaho",
+    description:
+      "What Idaho law says a deed must contain, how it is notarised and recorded, who runs the closing, and the federal tax forms involved. Sourced to statute.",
+    cluster: "closing",
+    published: "2026-11-12",
+    updated: "2026-11-12",
+  },
+  {
+    slug: "selling-a-house-with-a-well-or-septic-in-ada-county",
+    title: "Selling a House With a Well or Septic",
+    h1: "Selling an Ada County house on a private well or septic system",
+    description:
+      "Who regulates septic and wells in Ada County, where the permit and well records are, what a CDH mortgage survey is, and when a water right must be updated.",
+    cluster: "well-septic",
+    published: "2026-11-12",
+    updated: "2026-11-12",
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {

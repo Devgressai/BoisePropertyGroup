@@ -1,0 +1,690 @@
+{
+  "sources": [
+    {
+      "id": "idcode-15-1-305",
+      "title": "Idaho Code § 15-1-305 — Records and certified copies",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-305/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "letters",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-certified-letters-date"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-1-305A",
+      "title": "Idaho Code § 15-1-305A — Recording permitted — Effect",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-305A/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "letters",
+        "recording",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-letters-recordable"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-1-307",
+      "title": "Idaho Code § 15-1-307 — Registrar — Powers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-307/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-registrar-is-judge"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-103",
+      "title": "Idaho Code § 15-3-103 — Necessity of appointment for administration",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-103/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "letters"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-letters-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-108",
+      "title": "Idaho Code § 15-3-108 — Probate — Testacy and appointment proceedings — Ultimate time limit",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-108/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "timing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-probate-three-year-limit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-201",
+      "title": "Idaho Code § 15-3-201 — Venue for first and subsequent estate proceedings — Location of property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-201/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-venue-domicile-county"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-203",
+      "title": "Idaho Code § 15-3-203 — Priority among persons seeking appointment as personal representative",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-203/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "appointment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-appointment-priority"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-302",
+      "title": "Idaho Code § 15-3-302 — Informal probate — Duty of registrar — Effect of informal probate",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-302/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "informal-probate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-informal-probate-five-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-307",
+      "title": "Idaho Code § 15-3-307 — Informal appointment proceedings — Delay in order — Duty of registrar — Effect of appointment",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-307/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "informal-probate",
+        "appointment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-informal-appointment-120-hours"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-401",
+      "title": "Idaho Code § 15-3-401 — Formal testacy proceedings — Nature — When commenced",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-401/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "formal-probate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-formal-testacy-litigation"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-501",
+      "title": "Idaho Code § 15-3-501 — Supervised administration — Nature of proceeding",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-501/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "supervised-administration"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-supervised-administration"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-601",
+      "title": "Idaho Code § 15-3-601 — Qualification",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-601/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "letters",
+        "appointment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-qualification-before-letters"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-701",
+      "title": "Idaho Code § 15-3-701 — Time of accrual of duties and powers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-701/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "appointment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-powers-commence-on-appointment"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-704",
+      "title": "Idaho Code § 15-3-704 — Personal representative to proceed without court order — Exception",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-704/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-pr-proceeds-without-court-order"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-709",
+      "title": "Idaho Code § 15-3-709 — Duty of personal representative — Possession of estate",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-709/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-pr-possession-and-taxes"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-714",
+      "title": "Idaho Code § 15-3-714 — Persons dealing with personal representative — Protection",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-714/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-good-faith-buyer-protected"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-801",
+      "title": "Idaho Code § 15-3-801 — Notice to creditors",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-801/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "creditor-claims",
+        "timing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-creditor-notice-four-months"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-803",
+      "title": "Idaho Code § 15-3-803 — Limitations on presentation of claims",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-803/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "creditor-claims",
+        "timing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-claims-barred-three-years"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-907",
+      "title": "Idaho Code § 15-3-907 — Distribution in kind — Evidence",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-907/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "distribution",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-deed-of-distribution"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-910",
+      "title": "Idaho Code § 15-3-910 — Purchasers from distributees protected",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-910/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "distribution",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-purchaser-from-distributee-protected"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-1003",
+      "title": "Idaho Code § 15-3-1003 — Closing estates — By sworn statement of personal representative",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1003/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "timing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-close-no-earlier-six-months"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-1201",
+      "title": "Idaho Code § 15-3-1201 — Collection of personal property by affidavit",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1201/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-small-estate-affidavit-conditions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-1205",
+      "title": "Idaho Code § 15-3-1205 — Summary administration of estates in which a surviving spouse is the sole beneficiary",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1205/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-surviving-spouse-summary"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-magistrate-court",
+      "title": "Magistrate Court — Ada County Courts",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/judicial-court/magistrate-court/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "probate",
+        "jurisdiction",
+        "courts"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official Ada County courts page, raw HTML cached. Lists case-type assignments of Ada County magistrates, including probates.",
+      "stalenessRisk": "MEDIUM — judge assignments change; only the structural statement (magistrates hear probates; assignment by case type) is used.",
+      "claimsSupported": [
+        "pb-ada-magistrates-hear-probates"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "fourth-judicial-district",
+      "title": "Fourth Judicial District — Idaho State Courts",
+      "publisher": "Idaho Supreme Court",
+      "organizationType": "state-government",
+      "url": "https://fourthjudicialcourt.idaho.gov/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "courts",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official district court site (linked from Ada County Clerk's Judicial & Gov't Links page). Raw HTML cached; page carries little text.",
+      "stalenessRisk": "LOW — district composition rarely changes.",
+      "claimsSupported": [
+        "pb-fourth-district-ada"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-small-estate-affidavit",
+      "title": "Small Estate Affidavit — Ada County Clerk Court Assistance",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/small-estate-affidavit/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Ada County Court Assistance Office guidance page (links form Pb 01). Guidance, not law: its threshold wording ('less than') differs from Idaho Code 15-3-1201 ('does not exceed').",
+      "stalenessRisk": "MEDIUM — county guidance; would need updating if 15-3-1201's threshold changes.",
+      "claimsSupported": [
+        "pb-ada-small-estate-affidavit-no-real-estate"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

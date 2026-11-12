@@ -444,7 +444,8 @@
       "freshnessClass": "STATUTORY",
       "authorityNotes": "Official statute text, read directly with raw HTML cached. Idaho has adopted the Uniform Probate Code; these are the UPC personal-representative powers as enacted in Idaho.",
       "claimsSupported": [
-        "id-pr-powers-limited-by-will"
+        "id-pr-powers-limited-by-will",
+        "pb-pr-may-sell-real-property"
       ],
       "entitiesSupported": [
         "state:id"
@@ -584,7 +585,9 @@
       "authorityNotes": "Official county page, read directly with raw HTML cached.",
       "claimsSupported": [
         "ada-recorder-maintains-ownership-documents",
-        "ada-recorder-pii-redaction-is-submitter-duty"
+        "ada-recorder-pii-redaction-is-submitter-duty",
+        "cl-ada-deeds-blocked-online",
+        "cl-ada-deed-recording-fee"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -3207,6 +3210,2250 @@
       "entitiesSupported": [
         "state:id"
       ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-1-305",
+      "title": "Idaho Code § 15-1-305 — Records and certified copies",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-305/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "letters",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-certified-letters-date"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-1-305A",
+      "title": "Idaho Code § 15-1-305A — Recording permitted — Effect",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-305A/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "letters",
+        "recording",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-letters-recordable"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-1-307",
+      "title": "Idaho Code § 15-1-307 — Registrar — Powers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-307/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-registrar-is-judge"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-103",
+      "title": "Idaho Code § 15-3-103 — Necessity of appointment for administration",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-103/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "letters"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-letters-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-108",
+      "title": "Idaho Code § 15-3-108 — Probate — Testacy and appointment proceedings — Ultimate time limit",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-108/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "timing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-probate-three-year-limit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-201",
+      "title": "Idaho Code § 15-3-201 — Venue for first and subsequent estate proceedings — Location of property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-201/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-venue-domicile-county"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-203",
+      "title": "Idaho Code § 15-3-203 — Priority among persons seeking appointment as personal representative",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-203/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "appointment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-appointment-priority"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-302",
+      "title": "Idaho Code § 15-3-302 — Informal probate — Duty of registrar — Effect of informal probate",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-302/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "informal-probate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-informal-probate-five-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-307",
+      "title": "Idaho Code § 15-3-307 — Informal appointment proceedings — Delay in order — Duty of registrar — Effect of appointment",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-307/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "informal-probate",
+        "appointment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-informal-appointment-120-hours"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-401",
+      "title": "Idaho Code § 15-3-401 — Formal testacy proceedings — Nature — When commenced",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-401/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "formal-probate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-formal-testacy-litigation"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-501",
+      "title": "Idaho Code § 15-3-501 — Supervised administration — Nature of proceeding",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-501/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "supervised-administration"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-supervised-administration"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-601",
+      "title": "Idaho Code § 15-3-601 — Qualification",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-601/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "letters",
+        "appointment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-qualification-before-letters"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-701",
+      "title": "Idaho Code § 15-3-701 — Time of accrual of duties and powers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-701/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "appointment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-powers-commence-on-appointment"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-704",
+      "title": "Idaho Code § 15-3-704 — Personal representative to proceed without court order — Exception",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-704/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-pr-proceeds-without-court-order"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-709",
+      "title": "Idaho Code § 15-3-709 — Duty of personal representative — Possession of estate",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-709/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-pr-possession-and-taxes"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-714",
+      "title": "Idaho Code § 15-3-714 — Persons dealing with personal representative — Protection",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-714/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-good-faith-buyer-protected"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-801",
+      "title": "Idaho Code § 15-3-801 — Notice to creditors",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-801/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "creditor-claims",
+        "timing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-creditor-notice-four-months"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-803",
+      "title": "Idaho Code § 15-3-803 — Limitations on presentation of claims",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-803/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "creditor-claims",
+        "timing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-claims-barred-three-years"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-907",
+      "title": "Idaho Code § 15-3-907 — Distribution in kind — Evidence",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-907/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "distribution",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-deed-of-distribution"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-910",
+      "title": "Idaho Code § 15-3-910 — Purchasers from distributees protected",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-910/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "distribution",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-purchaser-from-distributee-protected"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-1003",
+      "title": "Idaho Code § 15-3-1003 — Closing estates — By sworn statement of personal representative",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1003/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "timing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-close-no-earlier-six-months"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-1201",
+      "title": "Idaho Code § 15-3-1201 — Collection of personal property by affidavit",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1201/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-small-estate-affidavit-conditions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-1205",
+      "title": "Idaho Code § 15-3-1205 — Summary administration of estates in which a surviving spouse is the sole beneficiary",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1205/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "pb-surviving-spouse-summary"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-magistrate-court",
+      "title": "Magistrate Court — Ada County Courts",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/judicial-court/magistrate-court/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "probate",
+        "jurisdiction",
+        "courts"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official Ada County courts page, raw HTML cached. Lists case-type assignments of Ada County magistrates, including probates.",
+      "stalenessRisk": "MEDIUM — judge assignments change; only the structural statement (magistrates hear probates; assignment by case type) is used.",
+      "claimsSupported": [
+        "pb-ada-magistrates-hear-probates"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "fourth-judicial-district",
+      "title": "Fourth Judicial District — Idaho State Courts",
+      "publisher": "Idaho Supreme Court",
+      "organizationType": "state-government",
+      "url": "https://fourthjudicialcourt.idaho.gov/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "courts",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official district court site (linked from Ada County Clerk's Judicial & Gov't Links page). Raw HTML cached; page carries little text.",
+      "stalenessRisk": "LOW — district composition rarely changes.",
+      "claimsSupported": [
+        "pb-fourth-district-ada"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-small-estate-affidavit",
+      "title": "Small Estate Affidavit — Ada County Clerk Court Assistance",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/small-estate-affidavit/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Ada County Court Assistance Office guidance page (links form Pb 01). Guidance, not law: its threshold wording ('less than') differs from Idaho Code 15-3-1201 ('does not exceed').",
+      "stalenessRisk": "MEDIUM — county guidance; would need updating if 15-3-1201's threshold changes.",
+      "claimsSupported": [
+        "pb-ada-small-estate-affidavit-no-real-estate"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-601",
+      "title": "Idaho Code § 55-601 — Conveyance — How made",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-601/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "deeds",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-deed-writing-subscribed-grantee-address"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-606",
+      "title": "Idaho Code § 55-606 — Conclusiveness of conveyance — Bona fide purchasers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-606/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-bona-fide-purchaser-first-recorded"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-612",
+      "title": "Idaho Code § 55-612 — Covenants implied from grant",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-612/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "deeds",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-grant-deed-implied-covenants"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-613",
+      "title": "Idaho Code § 55-613 — Encumbrances defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch6/sect55-613/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "deeds",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-encumbrances-include-taxes-liens"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-805",
+      "title": "Idaho Code § 55-805 — Acknowledgment necessary to authorize recording",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-805/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-acknowledgment-required-to-record"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-808",
+      "title": "Idaho Code § 55-808 — Place of record",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-808/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-record-in-county-where-situated"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-809",
+      "title": "Idaho Code § 55-809 — When deemed recorded",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-809/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-deemed-recorded-on-deposit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-811",
+      "title": "Idaho Code § 55-811 — Record as notice",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-811/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-recorded-conveyance-constructive-notice"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-815",
+      "title": "Idaho Code § 55-815 — Unrecorded instruments valid between parties",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-815/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-unrecorded-valid-between-parties"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-31-2419",
+      "title": "Idaho Code § 31-2419 — Records open to inspection",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title31/t31ch24/sect31-2419/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "recording",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-recorder-records-open-without-charge"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-51-105",
+      "title": "Idaho Code § 51-105 — Requirements for certain notarial acts",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-105/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-notary-acknowledgment-identity"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-51-106",
+      "title": "Idaho Code § 51-106 — Personal appearance required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-106/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-notary-personal-appearance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-51-114a",
+      "title": "Idaho Code § 51-114A — Notarial act performed by remotely located individual",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-114A/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-remote-notarization-satisfies-appearance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-30-905",
+      "title": "Idaho Code § 30-905 — Escrow Act — Exempt persons and transactions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-905/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "escrow",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-escrow-act-exempts-title-companies",
+        "vb-escrow-exempt-title-agents"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2704",
+      "title": "Idaho Code § 41-2704 — Application of act — Business of title insurance",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2704/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "escrow"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-title-business-includes-escrow-closing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2707",
+      "title": "Idaho Code § 41-2707 — Filing of title insurance rates — Hearings",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2707/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-title-filed-rate-floor"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2708",
+      "title": "Idaho Code § 41-2708 — Determination of insurability — Prohibited risks — Rebates",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2708/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-title-search-before-policy",
+        "cl-title-filed-rate-floor"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2711",
+      "title": "Idaho Code § 41-2711 — Requirements for title insurance related business — Bonds",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2711/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "escrow"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-escrow-officer-bond"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2714",
+      "title": "Idaho Code § 41-2714 — Closing or settlement protection",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2714/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "escrow"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
+      "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
+      "claimsSupported": [
+        "cl-closing-protection-buyer-lender"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-i1099s",
+      "title": "Instructions for Form 1099-S (12/2026)",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/instructions/i1099s",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "reporting",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-12",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS's own instructions, raw HTML cached. Page states 'Revised: 12/2026' (continuous-use revision for 2026 information filed in early 2027) even though accessed in November 2026.",
+      "stalenessRisk": "MEDIUM — instructions are revised periodically; check the revision line before republishing.",
+      "claimsSupported": [
+        "cl-1099s-reports-real-estate-sales",
+        "cl-1099s-principal-residence-certification",
+        "cl-1099s-tin-requested-at-closing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-firpta-withholding",
+      "title": "FIRPTA withholding",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "firpta",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-21",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS page, raw HTML cached. 'Page Last Reviewed or Updated: 21-Jul-2026'.",
+      "stalenessRisk": "LOW — rate set by statute (IRC 1445); page wording can change.",
+      "claimsSupported": [
+        "cl-firpta-buyer-withholds-15-percent"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-firpta-exceptions",
+      "title": "Exceptions from FIRPTA withholding",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/individuals/international-taxpayers/exceptions-from-firpta-withholding",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "firpta",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07-15",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS page, raw HTML cached. 'Page Last Reviewed or Updated: 15-Jul-2026'.",
+      "stalenessRisk": "LOW — page wording can change.",
+      "claimsSupported": [
+        "cl-firpta-non-foreign-certification"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "canyon-county-assessor-faq-residential",
+      "title": "Assessor FAQ",
+      "publisher": "Canyon County Assessor",
+      "organizationType": "county-government",
+      "url": "https://www.canyoncounty.id.gov/elected-officials/assessor/assessor-faq/",
+      "sourceTier": 2,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "disclosure",
+        "assessment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — an Idaho county assessor describing Idaho's disclosure regime in its own words. NOT Ada County; cited only for the statewide characterisation. Same id and URL as the commercial registry's source (cache shared, from 2026-09-10); live page re-checked 2026-11-12 and the sentence is unchanged.",
+      "stalenessRisk": "MEDIUM — a departmental page can be rewritten without notice.",
+      "claimsSupported": [
+        "cl-idaho-non-disclosure-state"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cdh-water-septic-subdivisions",
+      "title": "Septic, Subdivisions & Water — Central District Health (Licenses, Permits & Inspections)",
+      "publisher": "Central District Health",
+      "organizationType": "public-health-district",
+      "url": "https://cdh.idaho.gov/licenses-permits-inspections/water-septic-subdivisions/",
+      "sourceTier": 2,
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "topic": [
+        "septic",
+        "well",
+        "water",
+        "fees",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-07",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official public health district page, read directly with raw HTML cached 2026-11-12. Same content family as the registry's cdh-septic page (environmental-health URL), but cached fresh. Fee tables are labelled July 2026. NOTE: the online 'Septic System Search' and its 1971 records note, present in the cdh-septic cache of 2026-09-09, are no longer on either live CDH page.",
+      "stalenessRisk": "HIGH — fee schedules are reset each July and the page was restructured between September and November 2026.",
+      "claimsSupported": [
+        "ws-cdh-mortgage-survey-lender-request",
+        "ws-cdh-mortgage-survey-fees-july-2026",
+        "ws-cdh-well-owner-responsible-testing"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cdh-mortgage-survey-info-sheet",
+      "title": "Mortgage Survey Information Sheet — Central District Health",
+      "publisher": "Central District Health",
+      "organizationType": "public-health-district",
+      "url": "https://cdh.idaho.gov/wp-content/uploads/2023/10/Mortgage-Survey-Info-Sheet.pdf",
+      "sourceTier": 2,
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "topic": [
+        "septic",
+        "well",
+        "records"
+      ],
+      "publicationDate": "2025-06-11",
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "CDH's own PDF, linked from the live CDH septic page. Footer dated 6/11/25. PDF cached and text extracted with extract-pdf-text.mjs (data/idaho/raw/extracted/45d12a413a1fc5e5.txt).",
+      "stalenessRisk": "MEDIUM — agency handout; can be replaced without notice.",
+      "claimsSupported": [
+        "ws-cdh-mortgage-survey-requirements"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cdh-about",
+      "title": "About — Central District Health (Public Records Request)",
+      "publisher": "Central District Health",
+      "organizationType": "public-health-district",
+      "url": "https://cdh.idaho.gov/about/",
+      "sourceTier": 2,
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "topic": [
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official CDH page, raw HTML cached. Carries the public records request instructions.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "ws-cdh-public-records-request"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "deq-septic-and-septage",
+      "title": "Septic and Septage — Idaho Department of Environmental Quality",
+      "publisher": "Idaho Department of Environmental Quality",
+      "organizationType": "state-government",
+      "url": "https://www.deq.idaho.gov/water-quality/wastewater/septic-and-septage/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "septic",
+        "jurisdiction",
+        "permits",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "State agency page that administers IDAPA 58.01.03, raw HTML cached. States the health-district MOU arrangement and what districts handle, including existing permit records.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "ws-deq-health-districts-administer-septic-rules",
+        "ws-deq-site-evaluation-before-purchase"
+      ],
+      "entitiesSupported": [
+        "state:id",
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idapa-58-01-03",
+      "title": "IDAPA 58.01.03 — Individual/Subsurface Sewage Disposal Rules and Rules for Cleaning of Septic Tanks",
+      "publisher": "Idaho Department of Environmental Quality (via Idaho Office of the Administrative Rules Coordinator)",
+      "organizationType": "state-government",
+      "url": "https://adminrules.idaho.gov/rules/current/58/580103.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "septic",
+        "permits",
+        "repairs"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-07-01",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current administrative rule PDF from adminrules.idaho.gov, linked from CDH's septic page. PDF was already in the raw cache; text extracted (data/idaho/raw/extracted/5c032278f9f49c84.txt). Most provisions carry a (7-1-25) effective-date marker. Pending rulemaking was NOT checked, so these are not marked statutory.",
+      "stalenessRisk": "LOW — administrative rule; changes only through rulemaking. Re-check the current PDF before refresh.",
+      "claimsSupported": [
+        "ws-idapa-owner-responsible-wastewater",
+        "ws-idapa-permit-required-to-repair",
+        "ws-idapa-failing-system-must-be-repaired",
+        "ws-idapa-om-requirements-perpetual"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "deq-homeowners-guide-septic-2001",
+      "title": "A Homeowner's Guide to Septic Systems — Idaho DEQ (January 2001)",
+      "publisher": "Idaho Department of Environmental Quality",
+      "organizationType": "state-government",
+      "url": "https://cdhidahogov.wpenginepowered.com/wp-content/uploads/2023/10/Homeowners-Guide-to-Septic-Systems.pdf",
+      "sourceTier": 2,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "septic",
+        "records",
+        "maintenance"
+      ],
+      "publicationDate": "2001-01",
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "DEQ booklet, hosted by CDH and linked from CDH's live septic page as its 'Homeowner's Guide to Septic Systems'. PDF cached and extracted (data/idaho/raw/extracted/89f418bab865f61b.txt). Guidance only; dated 2001.",
+      "stalenessRisk": "HIGH — 25-year-old guidance; use only for recommendations, attributed, and never for rules or figures about the current program.",
+      "claimsSupported": [
+        "ws-deq-guide-keep-septic-records"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-227",
+      "title": "Idaho Code § 42-227 — Drilling and use of wells for domestic purposes excepted",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-227/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "well",
+        "water",
+        "water-rights"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. Amended 2025 ch. 129 and 2026 ch. 2. Chapter 2 index checked 2026-11-12 — single entry, no future-dated version.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "ws-domestic-well-exempt-42-227"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-235",
+      "title": "Idaho Code § 42-235 — Drilling permits",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-235/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "well",
+        "permits",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. Amendment history copied; no future-dated version on the chapter index.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "ws-well-drilling-permit-42-235"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-238",
+      "title": "Idaho Code § 42-238 — Well drillers' licenses; well driller's report",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-238/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "well",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. Subsection (11) is the well driller's report requirement. No future-dated version on the chapter index (42-238a is a separate section).",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "ws-well-driller-report-public-record"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-248",
+      "title": "Idaho Code § 42-248 — Notification of change in ownership of a water right or change of address",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch2/sect42-248/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "water-rights",
+        "transfer",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. Text verified: 120-day notice, $25/$100 fee, evidence of conveyance, landowner-notice and no-determination provisions. Chapter 2 index checked; no future-dated version.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "ws-water-right-ownership-notice-120-days",
+        "ws-water-right-notice-fee-and-evidence"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-1204",
+      "title": "Idaho Code § 42-1204 — Easements, rights-of-way, and other real property not subject to adverse possession",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch12/sect42-1204/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "easements",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. Redesignated from 42-1208 by 2026 ch. 109. Chapter 12 index checked 2026-11-12.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment; note the 2026 renumbering.",
+      "claimsSupported": [
+        "ws-irrigation-easements-no-adverse-possession"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-1205",
+      "title": "Idaho Code § 42-1205 — Encroachments on easements and rights-of-way",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title42/t42ch12/sect42-1205/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "easements",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. Redesignated from 42-1209 by 2026 ch. 109 (the old URL sect42-1209 now returns 404). Chapter 12 index checked 2026-11-12.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment; note the 2026 renumbering.",
+      "claimsSupported": [
+        "ws-irrigation-encroachment-written-permission"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idwr-water-rights-overview",
+      "title": "About Water Rights — Idaho Department of Water Resources",
+      "publisher": "Idaho Department of Water Resources",
+      "organizationType": "state-government",
+      "url": "https://idwr.idaho.gov/water-rights/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "water-rights",
+        "water",
+        "transfer",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "State agency overview page, raw HTML cached. Agency explanation, not statute — attribute as IDWR guidance.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "ws-idwr-water-right-may-pass-with-land",
+        "ws-idwr-1978-claims-excluded-domestic"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idwr-domestic-exemption",
+      "title": "Domestic Exemption — Idaho Department of Water Resources",
+      "publisher": "Idaho Department of Water Resources",
+      "organizationType": "state-government",
+      "url": "https://idwr.idaho.gov/water-rights/domestic-exemption/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "well",
+        "water",
+        "water-rights"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "State agency page, raw HTML cached. Describes SB 1083a (2025) and SB 1222 (signed and effective February 17, 2026).",
+      "stalenessRisk": "HIGH — tracks statutes amended in each of the last two sessions.",
+      "claimsSupported": [
+        "ws-domestic-exemption-revised-2026"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idwr-well-construction-drilling",
+      "title": "Well Construction & Drilling — Idaho Department of Water Resources",
+      "publisher": "Idaho Department of Water Resources",
+      "organizationType": "state-government",
+      "url": "https://idwr.idaho.gov/wells/well-construction-drilling/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "well",
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "State agency page, raw HTML cached. Describes the Well Construction Search database (most reports from July 1987), well tag numbers (since 1997) and search methods.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "ws-idwr-well-construction-search"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2002",
+      "title": "Idaho Code § 54-2002 — Licensure required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2002/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2015",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-license-required-single-act"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2003",
+      "title": "Idaho Code § 54-2003 — Exceptions to licensure",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2003/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2003",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-own-account-exception-no-evasion"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2004",
+      "title": "Idaho Code § 54-2004 — Definitions (Idaho Real Estate License Law)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2004/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-broker-definition-acting-for-others",
+        "vb-dealer-in-options-definition"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2041",
+      "title": "Idaho Code § 54-2041 — Trust accounts and entrusted property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2041/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2009",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-earnest-money-at-title-not-entrusted"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2051",
+      "title": "Idaho Code § 54-2051 — Offers to purchase",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2051/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-offer-must-state-earnest-money"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2055",
+      "title": "Idaho Code § 54-2055 — Licensees dealing with their own property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2055/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2010",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-licensee-must-disclose-license"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2065",
+      "title": "Idaho Code § 54-2065 — Penalty for acting as a broker or salesperson without license",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2065/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-unlicensed-practice-penalty"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-30-903",
+      "title": "Idaho Code § 30-903 — Escrow agency license required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-903/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-escrow-agency-license-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-30-913",
+      "title": "Idaho Code § 30-913 — Escrow Act unlawful acts",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-913/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-escrow-unlicensed-felony"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2710",
+      "title": "Idaho Code § 41-2710 — Requirements for title insurance agents",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2710/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2015",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-title-agent-license-by-county"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1601",
+      "title": "Idaho Code § 45-1601 — Consumer Foreclosure Protection Act — legislative findings",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1601/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-legislative-findings"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1602",
+      "title": "Idaho Code § 45-1602 — Consumer Foreclosure Protection Act — contract notice",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1602/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-written-notice-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1603",
+      "title": "Idaho Code § 45-1603 — Consumer Foreclosure Protection Act — right of rescission",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1603/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-five-business-day-rescission"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1604",
+      "title": "Idaho Code § 45-1604 — Consumer Foreclosure Protection Act — exclusions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1604/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2015",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-exclusions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1605",
+      "title": "Idaho Code § 45-1605 — Consumer Foreclosure Protection Act — penalties",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1605/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-penalties-title-48"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irec-guideline-18",
+      "title": "Idaho Real Estate Commission Guideline #18 — Dealer in Options (rev. March 2019)",
+      "publisher": "Idaho Real Estate Commission (Division of Occupational and Professional Licenses)",
+      "organizationType": "state-government",
+      "url": "https://dopl.idaho.gov/wp-content/uploads/2023/11/REC-Guideline-18-rev-3.19.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": "2019-03",
+      "updatedDate": "2019-03",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Commission guideline PDF, cached and extracted with pdftotext. Each page states it is 'not a new law but is an agency interpretation of existing law' — authoritative for the Commission's reading, not binding as statute.",
+      "stalenessRisk": "MEDIUM — guideline is dated 2019 and cites pre-renumbering subsections (54-2004(19)); re-check the guidance index for revisions.",
+      "claimsSupported": [
+        "vb-irec-guideline18-property-not-owned"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irec-guideline-2",
+      "title": "Idaho Real Estate Commission Guideline #2 — Brokering Idaho Property Requires an Idaho Real Estate License (rev. May 2018)",
+      "publisher": "Idaho Real Estate Commission (Division of Occupational and Professional Licenses)",
+      "organizationType": "state-government",
+      "url": "https://dopl.idaho.gov/wp-content/uploads/2023/11/REC-Guideline-2-rev-5.18.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": "2018-05",
+      "updatedDate": "2018-05",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Commission guideline PDF, cached and extracted. Agency interpretation. Cites the broker definition as 54-2004(36); current numbering is (39).",
+      "stalenessRisk": "MEDIUM — subsection numbers in the guideline are stale.",
+      "claimsSupported": [
+        "vb-irec-guideline2-procuring-prospects-marketing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irec-faqs-consumer-info",
+      "title": "Real Estate Commission — FAQs and Consumer Information",
+      "publisher": "Idaho Division of Occupational and Professional Licenses (Real Estate Commission)",
+      "organizationType": "state-government",
+      "url": "https://dopl.idaho.gov/rec/rec-faqs-and-consumer-info/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "closing",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official Commission consumer page, read directly with raw HTML cached. The Commission's own statement of what it does and does not regulate.",
+      "stalenessRisk": "MEDIUM — DOPL is restructuring REC licensing (biennial from Oct 2026); page wording may change.",
+      "claimsSupported": [
+        "vb-irec-license-lookup",
+        "vb-irec-investigates-unlicensed-practice",
+        "vb-irec-earnest-money-disputes-civil",
+        "vb-irec-escrow-and-title-regulators",
+        "vb-irec-wire-diversion-warning"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idsos-business-services",
+      "title": "Business Services — Idaho Secretary of State",
+      "publisher": "Idaho Secretary of State",
+      "organizationType": "state-government",
+      "url": "https://sos.idaho.gov/business-services/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official Secretary of State page, raw HTML cached. The SOSBiz search itself (sosbiz.idaho.gov) is a JavaScript app and returned no cacheable content, so no claim describes its result fields.",
+      "stalenessRisk": "MEDIUM — page layout and fees change.",
+      "claimsSupported": [
+        "vb-sos-business-search",
+        "vb-sos-certificate-not-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "iddoi-title-insurance",
+      "title": "Title Insurance — Idaho Department of Insurance",
+      "publisher": "Idaho Department of Insurance",
+      "organizationType": "state-government",
+      "url": "https://doi.idaho.gov/consumers/title-insurance/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official DOI consumer page, raw HTML cached. The 'Find a Title Agent / Company' button links out to an NAIC license lookup that was not cached.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "vb-doi-find-title-agent"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ftc-mortgage-relief-scams",
+      "title": "Mortgage Relief Scams — FTC Consumer Advice",
+      "publisher": "Federal Trade Commission",
+      "organizationType": "federal-government",
+      "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "vb-ftc-deed-transfer-warning",
+        "vb-ftc-equity-skimming",
+        "vb-ftc-upfront-payment-methods"
+      ],
+      "entitiesSupported": [],
       "status": "VERIFIED"
     }
   ]

@@ -1,0 +1,633 @@
+{
+  "claims": [
+    {
+      "id": "pb-venue-domicile-county",
+      "claim": "Under Idaho Code 15-3-201, the first probate or appointment proceeding after a death is venued in the county where the decedent was domiciled at death; for a decedent not domiciled in Idaho, in any county where the decedent's property was located.",
+      "quotedLanguage": "(a) Venue for the first informal or formal testacy or appointment proceedings after a decedent's death is: (1) In the county where the decedent had his domicile at the time of his death; or (2) If the decedent was not domiciled in this state, in any county where property of the decedent was located at the time of his death.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "idcode-15-3-201"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(15-3-201) added 1971, ch. 111, sec. 1, p. 233; am. 2009, ch. 11, sec. 4, p. 15.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Venue turns on DOMICILE, not on where the house is. A house in Ada County owned by someone who lived in Canyon County is probated in Canyon. Never say 'probate is filed where the property is' except for a non-Idaho domiciliary. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-ada-magistrates-hear-probates",
+      "claim": "In Ada County, probates are heard by magistrate judges; because of Ada County's case volume, its magistrates are assigned by the Administrative District Judge to specific types of cases, and probates are one of the listed assignments.",
+      "quotedLanguage": "Magistrate judges have jurisdiction to hear infractions, misdemeanors, felony preliminary hearings, probates, guardianships, conservatorships ... because of the comparatively high volume of cases filed in Ada County, magistrate judges serving Ada County are assigned by the Administrative District Judge to hear specific types of cases. ... Probates, Guardianships, Conservatorships, Miscellaneous Civil",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "probate",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "ada-magistrate-court"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The page names individual judges assigned to probates; do NOT publish names — assignments change. Publish only the structure."
+    },
+    {
+      "id": "pb-fourth-district-ada",
+      "claim": "Ada County's courts are part of the Fourth Judicial District of the Idaho State Courts, which serves Ada, Boise, Elmore and Valley counties.",
+      "quotedLanguage": "Welcome to the Fourth Judicial District of the Idaho State Courts. ... If you need a court interpreter in Ada, Boise, Elmore, or Valley Counties, please email the Interpreter Office",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "probate",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "fourth-judicial-district"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The four-county list is taken from the district's own service notices (ADA accommodations, interpreters, records), which name the same four counties. The page is light on text; the county list is not stated as a formal definition."
+    },
+    {
+      "id": "pb-registrar-is-judge",
+      "claim": "In Idaho the acts the probate code assigns to the 'registrar' are performed by a magistrate or district judge.",
+      "quotedLanguage": "The acts and orders which this code specifies as performable by the registrar will be performed by a magistrate or district judge.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "informal-probate"
+      ],
+      "sourceIds": [
+        "idcode-15-1-307"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-1-307, as added by 1971, ch. 111, sec. 1, p. 233; am. 1971, ch. 126, sec. 1, p. 487.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Idaho departs from the model UPC here (where a clerk may act as registrar). 'Informal' therefore does not mean 'no judge'; it means no notice and hearing. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-informal-probate-five-days",
+      "claim": "On an application for informal probate, the registrar issues a written statement of informal probate once the required findings are made, if at least five days have passed since the death; informal probate is conclusive until superseded by an order in a formal testacy proceeding.",
+      "quotedLanguage": "the registrar, upon making the findings required by section 15-3-303 of this chapter shall issue a written statement of informal probate if at least five (5) days have elapsed since the decedent's death. Informal probate is conclusive as to all persons until superseded by an order in a formal testacy proceeding.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "informal-probate",
+        "timing"
+      ],
+      "sourceIds": [
+        "idcode-15-3-302"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-302, as added by 1971, ch. 111, sec. 1, p. 233; am. 1971, ch. 126, sec. 1, p. 487; am. 1973, ch. 167, sec. 8, p. 319.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Five days is a statutory MINIMUM before the registrar may act, not a processing time. Never present it as how long probate takes. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-informal-appointment-120-hours",
+      "claim": "On an application for informal appointment, the registrar appoints the applicant, subject to qualification and acceptance, once at least 120 hours have passed since the death (delayed to 30 days for a nonresident decedent, with exceptions); informal appointment fully establishes the status, powers and duties of a personal representative.",
+      "quotedLanguage": "if at least one hundred twenty (120) hours have elapsed since the decedent's death, the registrar, after making the findings required by section 15-3-308 of this chapter, shall appoint the applicant subject to qualification and acceptance; provided, that if the decedent was a nonresident, the registrar shall delay the order of appointment until thirty (30) days have elapsed since death ... The status of personal representative and the powers and duties pertaining to the office are fully established by informal appointment.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "informal-probate",
+        "appointment",
+        "timing"
+      ],
+      "sourceIds": [
+        "idcode-15-3-307"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-307, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "120 hours is a minimum, not a processing time. The nonresident 30-day delay has two exceptions (domiciliary PR is the applicant; will directs Idaho law) — say 'with exceptions' if the 30 days is mentioned. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-formal-testacy-litigation",
+      "claim": "A formal testacy proceeding in Idaho is litigation to determine whether the decedent left a valid will. Once a previously appointed personal representative receives notice of one, they must refrain from further distribution while it is pending; a petitioner may ask the court to restrain the acting representative's powers, but absent such an order the proceeding affects only powers relating to distribution.",
+      "quotedLanguage": "A formal testacy proceeding is litigation to determine whether a decedent left a valid will. ... a previously appointed personal representative, after receipt of notice of the commencement of a formal probate proceeding, must refrain from exercising his power to make any further distribution of the estate during the pendency of the formal proceeding. A petitioner who seeks the appointment of a different personal representative in a formal proceeding also may request an order restraining the acting personal representative from exercising any of the powers of his office and requesting the appointment of a special administrator. In the absence of a request, or if the request is denied, the commencement of a formal proceeding has no effect on the powers and duties of a previously appointed personal representative other than those relating to distribution.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "formal-probate"
+      ],
+      "sourceIds": [
+        "idcode-15-3-401"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-401, as added by 1971, ch. 111, sec. 1, p. 233; am. 1972, ch. 201, sec. 11, p. 510.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Do not say a will contest 'freezes' a sale. The statute freezes DISTRIBUTION; other powers continue unless a restraining order is sought and granted. Whether a given sale is wise during a contest is for the estate's attorney. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-supervised-administration",
+      "claim": "Supervised administration is a single proceeding under the continuing authority of the court; a supervised personal representative answers to the court and is subject to its directions, but otherwise has the same duties and powers as an unsupervised one.",
+      "quotedLanguage": "Supervised administration is a single in rem proceeding to secure complete administration and settlement of a decedent's estate under the continuing authority of the court ... A supervised personal representative is responsible to the court, as well as to the interested parties, and is subject to directions concerning the estate made by the court on its own motion or on the motion of any interested party.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "supervised-administration"
+      ],
+      "sourceIds": [
+        "idcode-15-3-501"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-501, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Supervised administration is the exception to the 'no court order' default in 15-3-704. State it alongside pb-pr-proceeds-without-court-order. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-pr-proceeds-without-court-order",
+      "claim": "An Idaho personal representative must proceed expeditiously with settling and distributing the estate and, except where supervised administration provides otherwise, does so without adjudication, order or direction of the court, though they may invoke the court to resolve questions.",
+      "quotedLanguage": "A personal representative shall proceed expeditiously with the settlement and distribution of a decedent's estate and, except as otherwise specified or ordered in regard to a supervised personal representative, do so without adjudication, order, or direction of the court, but he may invoke the jurisdiction of the court, in proceedings authorized by this code, to resolve questions concerning the estate or its administration.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-15-3-704"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-704, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Must be stated with the supervised-administration exception and, wherever sale power is discussed, with id-pr-powers-limited-by-will. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-appointment-priority",
+      "claim": "Idaho sets a priority order for appointment as personal representative: the person with priority under a probated will; a surviving spouse who is a devisee; other devisees; the surviving spouse; other heirs; then, 45 days after death, any creditor; and if a petition has been filed and 60 days pass with no proper person consenting to act, the public administrator. Persons sharing a priority who do not renounce must concur in nominating someone or in applying.",
+      "quotedLanguage": "(a) Whether the proceedings are formal or informal, persons who are not disqualified have priority for appointment in the following order: (1) the person with priority as determined by a probated will including a person nominated by a power conferred in a will; (2) the surviving spouse of the decedent who is a devisee of the decedent; (3) other devisees of the decedent; (4) the surviving spouse of the decedent; (5) other heirs of the decedent; (6) forty-five (45) days after the death of the decedent, any creditor; (7) if a petition for appointment of a personal representative has been filed and sixty (60) days have elapsed during which no consent to act has been filed by any proper person, the public administrator shall act as personal representative unless and until a proper person consents to act. ... When two (2) or more persons share a priority, those of them who do not renounce must concur in nominating another to act for them, or in applying for appointment.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "appointment"
+      ],
+      "sourceIds": [
+        "idcode-15-3-203"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-203, as added by 1971, ch. 111, sec. 1, p. 233; am. 1972, ch. 201, sec. 8, p. 510.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Pairs with ada-treasurer-ex-officio-public-administrator (the Ada Treasurer is the public administrator). The concurrence rule is what bites when several siblings share priority as heirs. Objections are only heard in formal proceedings (15-3-203(b)) — not separately claimed. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-letters-required",
+      "claim": "To acquire the powers of a personal representative in Idaho, a person must be appointed by the court or registrar, qualify, and be issued letters; administration of an estate begins with the issuance of letters.",
+      "quotedLanguage": "Except as otherwise provided in chapter 4 of this code, to acquire the powers and undertake the duties and liabilities of a personal representative of a decedent, a person must be appointed by order of the court or registrar, qualify and be issued letters. Administration of an estate is commenced by the issuance of letters.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "letters"
+      ],
+      "sourceIds": [
+        "idcode-15-3-103"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-103, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The basis for saying a named executor in a will has no power to sell until appointed and issued letters. 'Except as otherwise provided in chapter 4' refers to foreign personal representatives — not covered on the page. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-qualification-before-letters",
+      "claim": "Before receiving letters, an Idaho personal representative qualifies by filing any required bond and a statement of acceptance, including an oath to perform the duties of the office according to law.",
+      "quotedLanguage": "Prior to receiving letters, a personal representative shall qualify by filing with the appointing court any required bond and a statement of acceptance of the duties of the office. In his statement of acceptance, the personal representative shall subscribe an oath to the effect that he will perform the duties of his office according to the law.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "letters",
+        "appointment"
+      ],
+      "sourceIds": [
+        "idcode-15-3-601"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-601, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "'Any required bond' — the page must not say a bond is always required. When one is required is not covered. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-powers-commence-on-appointment",
+      "claim": "A personal representative's duties and powers begin on appointment; the powers relate back to give beneficial acts done before appointment the same effect, and the representative may ratify proper acts done by others.",
+      "quotedLanguage": "Duties and powers of a personal representative commence upon his appointment. The powers of a personal representative relate back in time to give acts by the person appointed which are beneficial to the estate occurring prior to appointment the same effect as those occurring thereafter.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "appointment"
+      ],
+      "sourceIds": [
+        "idcode-15-3-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-701, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Relation-back is NOT an invitation to sign a purchase contract before appointment. The page should say only that powers start on appointment and leave pre-appointment acts to an attorney. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-certified-letters-date",
+      "claim": "On payment of the required fees, the Idaho court clerk must issue certified copies of probated wills, letters issued to personal representatives and other filed records; certificates relating to letters must show the date of appointment.",
+      "quotedLanguage": "Upon payment of the fees required by law the clerk must issue certified copies of any probated wills, letters issued to personal representatives, or any other record or paper filed or recorded. ... Certificates relating to letters must show the date of appointment.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "letters",
+        "records"
+      ],
+      "sourceIds": [
+        "idcode-15-1-305"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-1-305, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "This says what the CLERK must issue. It does NOT say what a title company requires; no primary source found says that. Do not write 'the title company will ask for certified letters dated within X days'. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-letters-recordable",
+      "claim": "Letters of a personal representative, a statement of informal probate, and any deed executed by an appointed personal representative, among other documents affecting title to real property, may be recorded with the county recorder where the property is, and from filing they give notice of their contents to everyone.",
+      "quotedLanguage": "Letters of personal representatives (foreign or domestic), a statement of informal probate, probated will, determination of heirship, order made in a testacy proceeding ... any deed, assignment, release or other instrument executed by an appointed personal representative of the decedent; an affidavit of a successor in interest to property of a decedent ... may be recorded in the office of the county recorder of the county in which the real property affected by any such letters, statement, determination, order, document or decree is located. From the time of filing the same for record, notice is imparted to all persons of the contents thereof.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "letters",
+        "recording",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-15-1-305A"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-1-305A, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "'MAY be recorded' — permissive. Do not say recording is required. Recording county = county where the PROPERTY is (contrast venue, which follows domicile). Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-good-faith-buyer-protected",
+      "claim": "A person who in good faith deals with an Idaho personal representative for value is protected as if the representative properly exercised the power, need not inquire into the existence or propriety of the power, and is bound by a will or court limitation on the representative's power only with actual knowledge of it — except for restrictions on supervised representatives endorsed on the letters, and without regard to recording-based constructive notice.",
+      "quotedLanguage": "A person who in good faith either assists a personal representative or deals with him for value is protected as if the personal representative properly exercised his power. The fact that a person knowingly deals with a personal representative does not alone require the person to inquire into the existence of a power or the propriety of its exercise. Except for restrictions on powers of supervised personal representatives which are endorsed on letters as provided in section 15-3-504 of this code, and without regard to the constructive notice provisions of section 15-1-305A of this code, no provision in any will or order of court purporting to limit the power of a personal representative is effective except as to persons with actual knowledge thereof.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-15-3-714"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-714, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ This protects the BUYER, not the personal representative. Never present it as meaning the PR may ignore a will restriction (id-pr-powers-limited-by-will still binds the PR). Keep the endorsed-on-letters exception in any statement of it. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-pr-may-sell-real-property",
+      "claim": "Among the transactions Idaho Code 15-3-715 authorises for a personal representative are acquiring or disposing of an asset, including land, at public or private sale, and selling, mortgaging or leasing any real property of the estate for cash or credit.",
+      "quotedLanguage": "(6) Acquire or dispose of an asset, including land in this or another state, for cash or on credit, at public or private sale; ... (23) Sell, mortgage, or lease any real or personal property of the estate or any interest therein for cash, credit, or for part cash and part credit, and with or without security for unpaid balances;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-15-3-715"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-715, added 1971, ch. 111, sec. 1, p. 233; am. 2011, ch. 69, sec. 1, p. 144.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ MUST BE STATED WITH id-pr-powers-limited-by-will — the same section's lead-in ('Except as restricted or otherwise provided by the will or by an order in a formal proceeding ... acting reasonably for the benefit of the interested persons'). History note copied from the cached 15-3-715 page (existing source; the existing claim id-pr-powers-limited-by-will carries no amendmentHistory). Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-pr-possession-and-taxes",
+      "claim": "Unless the will provides otherwise, an Idaho personal representative has the right to take possession or control of the decedent's property, though real property may be left with the person presumptively entitled to it until the representative judges possession necessary for administration; the representative must pay taxes on, and take reasonable steps to manage, protect and preserve, the estate in their possession.",
+      "quotedLanguage": "Except as otherwise provided by a decedent's will, every personal representative has a right to, and shall take possession or control of, the decedent's property, except that any real property or tangible personal property may be left with or surrendered to the person presumptively entitled thereto unless or until, in the judgment of the personal representative, possession of the property by him will be necessary for purposes of administration. ... The personal representative shall pay taxes on, and take all steps reasonably necessary for the management, protection and preservation of, the estate in his possession.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "property-taxes"
+      ],
+      "sourceIds": [
+        "idcode-15-3-709"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-709, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Relevant to a vacant house during administration (taxes, insurance, upkeep). Do not convert into advice about a specific heir occupying the house. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-creditor-notice-four-months",
+      "claim": "On appointment, an Idaho personal representative may publish a notice to creditors once a week for three successive weeks in a newspaper of general circulation in the county, requiring claims within four months of first publication or be forever barred; written notice to a known creditor sets a deadline of four months after publication or 60 days after mailing or delivery, whichever is later.",
+      "quotedLanguage": "(a) Unless notice has already been given under this section, a personal representative upon his appointment may publish a notice to creditors once a week for three (3) successive weeks in a newspaper of general circulation in the county announcing his appointment and address and notifying creditors of the estate to present their claims within four (4) months after the date of the first publication of the notice or be forever barred. (b) A personal representative may give written notice by mail or other delivery to any creditor, notifying the creditor to present his claim within four (4) months after the published notice if given as provided in subsection (a) of this section or within sixty (60) days after the mailing or delivery of the notice, whichever is later, or be forever barred.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "creditor-claims",
+        "timing"
+      ],
+      "sourceIds": [
+        "idcode-15-3-801"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-801, added 1971, ch. 111, sec. 1, p. 233; am. 1991, ch. 87, sec. 1, p. 192; am. 1998, ch. 9, sec. 2, p. 108.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "'MAY publish' — notice is permissive in the text, not mandatory (subsection (d) adds a medical-assistance notice duty for decedents 55+, not claimed here). Four months runs from FIRST publication. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-claims-barred-three-years",
+      "claim": "Pre-death claims against an Idaho estate (other than state tax claims) are barred unless presented by the earlier of three years after death or the deadline set by a notice to creditors under 15-3-801; the section does not affect proceedings to enforce a mortgage or other lien on estate property.",
+      "quotedLanguage": "(a) All claims against a decedent's estate which arose before the death of the decedent, including claims of the state and any subdivision thereof (except claims for state taxes), whether due or to become due ... are barred against the estate, the personal representative, and the heirs and devisees of the decedent, unless presented within the earlier of the following dates: (1) three (3) years after the decedent's death; or (2) within the time provided in section 15-3-801 (b), Idaho Code, for creditors who are given actual notice, and within the time provided in section 15-3-801 (a), Idaho Code, for all creditors barred by publication. ... (e) Nothing in this section affects or prevents: (1) any proceeding to enforce any mortgage, pledge, or other lien upon property of the estate;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "creditor-claims",
+        "timing"
+      ],
+      "sourceIds": [
+        "idcode-15-3-803"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-803, added 1991, ch. 87, sec. 4, p. 193; am. 1997, ch. 113, sec. 2, p. 279; am. 2004, ch. 130, sec. 1, p. 449.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ The (e)(1) carve-out is essential on a house page: a mortgage on the house is NOT cut off by the creditor deadline. State tax claims run on a separate clock (803(d)) — not covered. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-close-no-earlier-six-months",
+      "claim": "Unless the court prohibits it, and outside supervised administration, an Idaho personal representative may close an estate by sworn statement filed no earlier than six months after the original appointment, stating among other things that the time for presenting creditors' claims has expired; if nothing is pending a year after filing, the appointment terminates.",
+      "quotedLanguage": "Unless prohibited by order of the court and except for estates being administered in supervised administration proceedings, a personal representative may close an estate by filing with the court no earlier than six (6) months after the date of original appointment of a general personal representative for the estate, a verified statement stating that he, or a previous personal representative whom he has succeeded, has or have: (1) determined that the time limitation for presentation of creditors' claims has expired; ... (b) If no proceedings involving the personal representative are pending in the court one (1) year after the closing statement is filed, the appointment of the personal representative terminates.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "timing"
+      ],
+      "sourceIds": [
+        "idcode-15-3-1003"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-1003, as added by 1971, ch. 111, sec. 1, p. 233; am. 1991, ch. 87, sec. 6, p. 194.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Six months is the earliest CLOSING by sworn statement — it is not a waiting period for a sale. Do not conflate. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-probate-three-year-limit",
+      "claim": "Subject to listed exceptions, no informal or formal probate or appointment proceeding may be commenced in Idaho more than three years after the death; the limit does not apply to proceedings under 15-3-1201 or 15-3-1205, or to proceedings to construe probated wills or determine heirs of an intestate.",
+      "quotedLanguage": "may be commenced more than three (3) years after the decedent's death, except: ... These limitations do not apply to proceedings to construe probated wills or determine heirs of an intestate or to proceedings under section 15-3-1201 , Idaho Code, or section 15-3-1205 , Idaho Code.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "timing"
+      ],
+      "sourceIds": [
+        "idcode-15-3-108"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-108, added 1971, ch. 111, sec. 1, p. 233; am. 2014, ch. 264, sec. 1, p. 659.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "There are three listed exceptions plus carve-outs (prior domiciliary probate, prior appointment). Always say 'subject to exceptions'. Relevant to a house where the owner died years ago and nobody opened probate — refer to an attorney. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-small-estate-affidavit-conditions",
+      "claim": "Idaho Code 15-3-1201 lets a successor collect a decedent's debts owed and tangible personal property by affidavit, 30 days after death, if the probate estate's value less liens and encumbrances does not exceed $100,000 and no application or petition for a personal representative or summary administration is pending or granted anywhere.",
+      "quotedLanguage": "(a) Thirty (30) days after the death of a decedent, any person indebted to the decedent or having possession of tangible personal property or an instrument evidencing a debt, obligation, stock or chose in action belonging to the decedent shall make payment of the indebtedness or deliver the tangible personal property or an instrument evidencing a debt, obligation, stock or chose in action to a person or entity claiming to be the successor of the decedent upon being presented an affidavit made by or on behalf of the successor stating that: (1) The fair market value of the entire estate of the decedent which is subject to probate, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars ($100,000); (2) Thirty (30) days have elapsed since the death of the decedent; (3) No application or petition for the appointment of a personal representative or for summary administration is pending or has been granted in any jurisdiction;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "sourceIds": [
+        "idcode-15-3-1201"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-1201, as added by 1971, ch. 111, sec. 1, p. 233; am. 1993, ch. 253, sec. 1, p. 879; am. 1995, ch. 167, sec. 1, p. 650; am. 1997, ch. 212, sec. 1, p. 631; am. 2002, ch. 216, sec. 1, p. 595; am. 2006, ch. 160, sec. 1, p. 480; am. 2006, ch. 179, sec. 1, p. 553.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ The section's text addresses debts, tangible personal property and instruments — it does not mention real property, and its Part heading is 'Collection of personal property by affidavit'. Pair with pb-ada-small-estate-affidavit-no-real-estate. Threshold wording: statute 'does not exceed $100,000'; Ada page says 'less than $100,000' — quote the statute for the threshold. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-ada-small-estate-affidavit-no-real-estate",
+      "claim": "Ada County's Court Assistance Office describes the small estate affidavit as usable where the decedent did not own real estate and had personal property with a net value under $100,000; it lets a successor collect property owed to the decedent, is signed before a notary, and is not filed with the court.",
+      "quotedLanguage": "When a person dies, an affidavit may be used if he or she did not own real estate and had personal property with a net value of less than $100,000. The affidavit allows a successor to collect any property, money or other items owed to the deceased. The successor would complete the affidavit and sign it in front of a notary. The affidavit is not filed with the court.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "sourceIds": [
+        "ada-small-estate-affidavit"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "County guidance, not statute. 'less than $100,000' differs from the statute's 'does not exceed' — on the page, cite the statute for the number and the county page only for 'did not own real estate' and 'not filed with the court'."
+    },
+    {
+      "id": "pb-surviving-spouse-summary",
+      "claim": "Where a surviving spouse is the sole devisee or heir, the spouse may petition for summary administration; after notice and hearing the court may enter a decree with the effect of a formal decree of distribution, and a spouse who elects this route assumes liability for the estate's debts, with no administration of the estate.",
+      "quotedLanguage": "(a) Upon the testate or intestate death of a person leaving a surviving spouse as the sole devisee or beneficiary, the surviving spouse (or any person claiming title to any property through or under such surviving spouse) may file a verified petition setting out marriage and the death of a person leaving a surviving spouse as the sole devisee or heir. ... This decree shall thereafter have the same effect as a formal decree approving or determining distribution. ... (c) In the event that the surviving spouse (or person claiming through or under the surviving spouse) shall elect to proceed under this section, the surviving spouse shall assume and be liable for any and all indebtedness that might be a claim against the estate of the decedent and there will be no administration of the estate of the decedent.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "small-estate"
+      ],
+      "sourceIds": [
+        "idcode-15-3-1205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-1205, added 1973, ch. 124, sec. 2, p. 234; am. 1974, ch. 199, sec. 4, p. 1516; am. 2003, ch. 60, sec. 1, p. 206; am. 2005, ch. 121, sec. 1, p. 396.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "No dollar threshold in the text. The debt-assumption consequence must always be stated with it. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-deed-of-distribution",
+      "claim": "When an Idaho personal representative distributes property in kind, they execute an instrument or deed of distribution as evidence of the distributee's title.",
+      "quotedLanguage": "If distribution in kind is made, the personal representative shall execute an instrument or deed of distribution assigning, transferring or releasing the assets to the distributee as evidence of the distributee's title to the property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "distribution",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-15-3-907"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-907, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Pairs with pb-purchaser-from-distributee-protected and the existing ada-recorder-maintains-ownership-documents. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    },
+    {
+      "id": "pb-purchaser-from-distributee-protected",
+      "claim": "A purchaser for value from a distributee who received a deed of distribution from the personal representative takes title free of the rights of interested persons in the estate, whether or not the distribution was proper, and need not inquire whether the representative acted properly.",
+      "quotedLanguage": "If property distributed in kind or a security interest therein is acquired for value by a purchaser from, or lender to, a distributee who has received an instrument or deed of distribution from the personal representative, or is so acquired by a purchaser from or lender to a transferee from such distributee, the purchaser or lender takes title free of rights of any interested person in the estate and incurs no personal liability to the estate, or to any interested person, whether or not the distribution was proper or supported by court order",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "distribution",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-15-3-910"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-910, as added by 1971, ch. 111, sec. 1, p. 233; am. 1978, ch. 350, sec. 14, p. 922.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Protects the purchaser; says nothing about the distributee's liability to other heirs or creditors (see 15-3-104 / 15-3-1004, not claimed). Do not present distribution-then-sale as a way around creditors. Future-dated check: the 2026 session subject index lists one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), which repeals/replaces chapter 5 (guardianship/conservatorship) and amends 15-1-201; it does not amend this section."
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "claims": [
+    {
+      "id": "cl-deed-writing-subscribed-grantee-address",
+      "claim": "Under Idaho Code 55-601, a conveyance of an estate in real property may be made by a written instrument subscribed by the party disposing of the property or by that party's agent authorised in writing, and the grantee's name and complete mailing address must appear on the instrument. The sale price is not among the elements the section requires.",
+      "quotedLanguage": "A conveyance of an estate in real property may be made by an instrument in writing, subscribed by the party disposing of the same, or by his agent thereunto authorized by writing. The name of the grantee and his complete mailing address must appear on such instrument.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "deeds",
+        "closing",
+        "title",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "idcode-55-601"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-601) 1863, p. 528, sec. 1; R.S., sec. 2920; reen. R.C. & C.L., sec. 3105; C.S., sec. 5373; I.C.A., sec. 54-601; am. 1973, ch. 284, sec. 1, p. 600; am. 1989, ch. 105, sec. 1, p. 238.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Mirrors commercial-registry claim idaho-deed-content-requirement-omits-price (source idaho-code-55-601, cached at the uppercase Title55/T55CH6 URL). That claim lives in the separate commercial registry, which residential guides do not resolve, so it is restated here against the lowercase section URL. ⚠️ The statute is SILENT on price — never write that Idaho deeds 'do not state' or 'may not state' a price. Some deeds recite consideration. 'May be made' — the section does not say this is the only way title can pass (wills, court decrees etc. exist); do not write 'must'."
+    },
+    {
+      "id": "cl-grant-deed-implied-covenants",
+      "claim": "Idaho Code 55-612 provides that using the word 'grant' in a conveyance of a fee simple implies two covenants by the grantor, and no others, unless the conveyance expressly restrains them: that the grantor has not previously conveyed the same estate or any interest in it to anyone else, and that the estate is free from encumbrances done, made or suffered by the grantor or anyone claiming under the grantor.",
+      "quotedLanguage": "From the use of the word \"grant\" in any conveyance by which an estate of inheritance, possessory right, or fee simple is to be passed, the following covenants, and none other, on the part of the grantor, for himself and his heirs, to the grantee, his heirs and assigns, are implied, unless restrained by express terms contained in such conveyance: 1. That previous to the time of the execution of such conveyance, the grantor has not conveyed the same estate, or any right, title or interest therein, to any person other than the grantee. 2. That such estate is at the time of the execution of such conveyance free from encumbrances done, made or suffered by the grantor, or any person claiming under him.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "deeds",
+        "title",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-612"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-612) 1863, p. 528, sec. 50; R.S., sec. 2935; reen. R.C. & C.L., sec. 3120; C.S., sec. 5384; I.C.A., sec. 54-612.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Describes what the word 'grant' implies by statute. Do NOT characterise warranty deeds vs quitclaim deeds from this — the statute says nothing about deed names, and the warranties in a 'warranty deed' come from its express terms, which no source here covers. Covenant (2) is limited to encumbrances made or suffered by THIS grantor, not all encumbrances ever."
+    },
+    {
+      "id": "cl-encumbrances-include-taxes-liens",
+      "claim": "Idaho Code 55-613 defines 'encumbrances' to include taxes, assessments and all liens upon real property.",
+      "quotedLanguage": "The term \"encumbrances\" includes taxes, assessments, and all liens upon real property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "deeds",
+        "title",
+        "liens",
+        "property-taxes"
+      ],
+      "sourceIds": [
+        "idcode-55-613"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-613) R.S., sec. 2936; reen. R.C. & C.L., sec. 3121; C.S., sec. 5385; I.C.A., sec. 54-613.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Definition sits in chapter 6 next to 55-612; pair them. Do not use this to say how taxes are prorated at closing — no source here addresses proration."
+    },
+    {
+      "id": "cl-acknowledgment-required-to-record",
+      "claim": "Under Idaho Code 55-805, before an instrument may be recorded — unless otherwise expressly provided — its execution must be acknowledged by the person executing it (or by a listed officer, partner, manager or member for an entity), or the execution must be proved, with the acknowledgment or proof certified substantially as prescribed by Idaho's notarial law in chapter 1, title 51. An acknowledgment taken in another state or country according to its laws is also entitled to record.",
+      "quotedLanguage": "Before an instrument may be recorded, unless it is otherwise expressly provided, its execution must be acknowledged by the person executing it ... or the execution must be proved and the acknowledgment or proof, certified in substantially the manner prescribed by chapter 1, title 51, Idaho Code; provided, that if such instrument shall have been executed and acknowledged in any other state or territory of the United States, or in any foreign country, according to the laws of the state, territory or country wherein such acknowledgment was taken, the same shall be entitled to record",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "deeds",
+        "recording",
+        "closing",
+        "notary"
+      ],
+      "sourceIds": [
+        "idcode-55-805"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-805) R.S., sec. 2994; am. 1907, p. 6, sec. 1; reen. R.C. & C.L., sec. 3153; C.S., sec. 5417; am. 1923, ch. 144, sec. 3, p. 209; am. 1929, ch. 183, sec. 6, p. 94; I.C.A., sec. 54-805; am. 1937, ch. 176, sec. 3, p. 291; am. 1999, ch. 213, sec. 4, p. 571; am. 2017, ch. 192, sec. 13, p. 457; am. 2021, ch. 283, sec. 1, p. 857.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ Acknowledgment is a condition of RECORDING, not stated here as a condition of the deed's validity between the parties (see 55-815: unrecorded instruments are valid between the parties). Never write 'a deed is invalid unless notarised'. Title 55 chapter 7 (Acknowledgments) is REPEALED — the old acknowledgment rules moved to the Revised Uniform Law on Notarial Acts, Title 51 chapter 1 (2017). Do not cite 55-701 et seq."
+    },
+    {
+      "id": "cl-notary-acknowledgment-identity",
+      "claim": "Under Idaho Code 51-105(1), a notary public taking an acknowledgment must determine, from personal knowledge or satisfactory evidence of identity, that the person appearing and acknowledging has the identity claimed and that the signature on the record is that person's signature.",
+      "quotedLanguage": "A notary public who takes an acknowledgment of a record shall determine, from personal knowledge or satisfactory evidence of the identity of the individual, that the individual appearing before the notary public and making the acknowledgment has the identity claimed and that the signature on the record is the signature of the individual.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "deeds",
+        "closing",
+        "notary"
+      ],
+      "sourceIds": [
+        "idcode-51-105"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[51-105, added 2017, ch. 192, sec. 3, p. 443.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Do not list acceptable ID documents from this section — they are in 51-107, which this claim does not cite."
+    },
+    {
+      "id": "cl-notary-personal-appearance",
+      "claim": "Idaho Code 51-106 requires a person whose signature or statement is the subject of a notarial act to appear personally before the notary public.",
+      "quotedLanguage": "If a notarial act relates to a statement made in or a signature executed on a record, the individual making the statement or executing the signature shall appear personally before the notary public.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "deeds",
+        "closing",
+        "notary"
+      ],
+      "sourceIds": [
+        "idcode-51-106"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[51-106, added 2017, ch. 192, sec. 3, p. 443.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Must be read with 51-114A: personal appearance can be satisfied by communication technology. Never state 51-106 alone as 'you must be in the room'."
+    },
+    {
+      "id": "cl-remote-notarization-satisfies-appearance",
+      "claim": "Idaho Code 51-114A allows a remotely located individual to satisfy the personal-appearance requirement of 51-106 by appearing before a notary public through communication technology, which the section defines as a device or process allowing the notary and the individual to communicate simultaneously by sight and sound; the Idaho notary must also meet identity, record-confirmation and audio-visual recording conditions.",
+      "quotedLanguage": "A remotely located individual may comply with the provisions of section 51-106, Idaho Code, by appearing before a notary public by means of communication technology. ... Allows a notary public and a remotely located individual to communicate with each other simultaneously by sight and sound ... The notary public, or a person acting on behalf of the notary public, creates an audio-visual recording of the performance of the notarial act",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "deeds",
+        "closing",
+        "notary"
+      ],
+      "sourceIds": [
+        "idcode-51-114a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[51-114A, added 2019, ch. 160, sec. 4, p. 521.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The statute PERMITS remote notarisation; it does not oblige any title company, lender or recorder to offer or accept it in a given transaction. Never write 'you can sign remotely'. Write 'Idaho law allows' and that whether a particular closing offers it is up to the closing agent. Extra conditions apply when the signer is outside the United States (51-114A(3)(d))."
+    },
+    {
+      "id": "cl-record-in-county-where-situated",
+      "claim": "Idaho Code 55-808 requires instruments entitled to be recorded to be recorded by the county recorder of the county in which the affected real property is situated.",
+      "quotedLanguage": "Instruments entitled to be recorded must be recorded by the county recorder of the county in which the real property affected thereby is situated.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "deeds",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-808"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-808) 1863, p. 528, sec. 23; R.S., sec. 2997; reen. R.C. & C.L., sec. 3156; C.S., sec. 5420; I.C.A., sec. 54-808.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "For an Ada County property that is the Ada County Recorder regardless of city — recording is county-level, not city-level."
+    },
+    {
+      "id": "cl-deemed-recorded-on-deposit",
+      "claim": "Under Idaho Code 55-809, an instrument is deemed recorded when, being duly acknowledged or proved and certified, it is deposited in the recorder's office with the proper officer for record.",
+      "quotedLanguage": "An instrument is deemed to be recorded when, being duly acknowledged, or proved and certified, it is deposited in the recorder's office with the proper officer for record.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "recording",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-809"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-809) R.S., sec. 2998; reen. R.C. & C.L., sec. 3157; C.S., sec. 5421; I.C.A., sec. 54-809.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Does not address e-recording mechanics; do not extend."
+    },
+    {
+      "id": "cl-recorded-conveyance-constructive-notice",
+      "claim": "Under Idaho Code 55-811, every conveyance of real property that is acknowledged or proved, certified and recorded as prescribed by law is, from the time it is filed with the recorder for record, constructive notice of its contents to subsequent purchasers and mortgagees.",
+      "quotedLanguage": "Every conveyance of real property acknowledged or proved, and certified, and recorded as prescribed by law, from the time it is filed with the recorder for record, is constructive notice of the contents thereof to subsequent purchasers and mortgag(e)es.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "recording",
+        "title",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-811"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-811) 1863, p. 528, sec. 24; R.S., sec. 3000; reen. R.C. & C.L., sec. 3159; C.S., sec. 5423; I.C.A., sec. 54-811; am. 1941, ch. 119, sec. 1, p. 240.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The odd 'mortgag(e)es' is the compiler's text on the Legislature page; keep it verbatim in the quote. 'Constructive notice' is a legal term — describe it as the statute's phrase, do not paraphrase into 'everyone is deemed to know'."
+    },
+    {
+      "id": "cl-bona-fide-purchaser-first-recorded",
+      "claim": "Idaho Code 55-606 makes every grant or conveyance of real property conclusive against the grantor and everyone later claiming under the grantor, except a purchaser or encumbrancer who, in good faith and for valuable consideration, acquires a title or lien by an instrument or valid judgment lien that is first duly recorded.",
+      "quotedLanguage": "Every grant or conveyance of an estate in real property is conclusive against the grantor, also against every one subsequently claiming under him, except a purchaser or encumbrancer, who in good faith, and for a valuable consideration, acquires a title or lien by an instrument or valid judgment lien that is first duly recorded.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "recording",
+        "title",
+        "deeds",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-606"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-606) R.S., sec. 2929; reen. R.C. & C.L., sec. 3114; C.S., sec. 5378; I.C.A., sec. 54-606; am. 1989, ch. 107, sec. 1, p. 247.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Pair with id-recording-act-lease-one-year-carveout (55-812). Describe the mechanism only; whether a given buyer is 'in good faith' is a fact question for counsel."
+    },
+    {
+      "id": "cl-unrecorded-valid-between-parties",
+      "claim": "Idaho Code 55-815 states that an unrecorded instrument is valid as between the parties to it and those who have notice of it.",
+      "quotedLanguage": "An unrecorded instrument is valid as between the parties thereto and those who have notice thereof.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "recording",
+        "deeds",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-55-815"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-815) 1863, p. 528, sec. 23; R.S., sec. 3004; reen. R.C. & C.L., sec. 3163; C.S., sec. 5427; I.C.A., sec. 54-815.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Use it to explain what recording is FOR (protection against third parties), never to suggest recording is optional or unimportant."
+    },
+    {
+      "id": "cl-recorder-records-open-without-charge",
+      "claim": "Idaho Code 31-2419 requires all books of record, maps, charts, surveys and other papers on file in a county recorder's office to be open during office hours for inspection by any person, without charge.",
+      "quotedLanguage": "All books of record, maps, charts, surveys and other papers on file in the recorder's office, must, during office hours, be open for the inspection of any person who may desire to inspect them, and may be inspected without charge",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "disclosure",
+        "deeds"
+      ],
+      "sourceIds": [
+        "idcode-31-2419"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(31-2419) 1863, p. 475, sec. 80; R.S., sec. 2035; reen. R.C. & C.L., sec. 2078; C.S., sec. 3651; I.C.A., sec. 30-1919; am. 2005, ch. 243, sec. 8, p. 761.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Mirrors commercial claim idaho-recorded-documents-are-public (uppercase URL). Closes the gap noted on ada-recorder-maintains-ownership-documents ('31-2419 not yet read at the Legislature') — it has now been read. ⚠️ Inspection 'without charge' is in-office inspection; COPIES carry fees (Ada fee schedule). Pair with cl-ada-deeds-blocked-online: Ada currently blocks online viewing of deeds, so 'open' does not mean 'downloadable online'."
+    },
+    {
+      "id": "cl-ada-deeds-blocked-online",
+      "claim": "The Ada County Recorder's Office states that certain document types, including deeds, are currently blocked from viewing or downloading online, and that copies must be requested from the office directly.",
+      "quotedLanguage": "The following documents are currently blocked from viewing or downloading online. If you need copies, please contact our office directly at ... Affidavits in Lieu of Probate Agreements Deeds Appointment of Successor Trustee",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "deeds",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ FAST-CHANGING: 'currently' is the county's word; the block could be lifted any time. Cache is from 2026-09-09; I re-fetched the live page on 2026-11-12 to a scratch file (not the cache) and the block list still includes Deeds. The second fragment is the rendered list (Affidavits in Lieu of Probate / Agreements / Deeds / Appointment of Successor Trustee) collapsed to one line. Always present with 31-2419: the record is public and inspectable; the online view of deeds is what is restricted."
+    },
+    {
+      "id": "cl-ada-deed-recording-fee",
+      "claim": "Ada County's recording fee schedule places any deed transferring or affecting ownership of a property — including warranty, quitclaim, trustee, probate and tax deeds and deeds in lieu of foreclosure — in a predictable-fee category of $15.00, which covers the first 30 pages, with an additional $3.00 per page beyond 30.",
+      "quotedLanguage": "Any deed document transferring or affecting ownership of a property will fall into this category ... Deed in lieu of foreclosure, Deed in Satisfaction of mortgage debt, etc.) $15.00 ... Predictable fees cover the first 30 pages of a document. Documents that exceed 30 pages will be charged an additional $3.00 per page.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "deeds",
+        "fees",
+        "closing"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ FAST-CHANGING fee. This is the county RECORDING fee for the deed document only — never present it as 'closing costs' or as what a seller pays; who pays recording fees is a contract matter no source here addresses. The page also says a document that does not support a recording label needs a cover sheet, which 'may increase the recording fee'. Live page re-checked 2026-11-12 (scratch copy): $15.00 unchanged."
+    },
+    {
+      "id": "cl-idaho-non-disclosure-state",
+      "claim": "An Idaho county assessor describes Idaho as a non-disclosure state and says that, as a result, the assessor's office depends heavily on the public to provide sales information when property is bought and sold.",
+      "quotedLanguage": "Since Idaho is a non-disclosure state, the Assessor's office depends heavily on the public to provide sales information when property is bought and sold.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "assessment",
+        "closing"
+      ],
+      "sourceIds": [
+        "canyon-county-assessor-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Mirrors commercial claim idaho-is-a-non-disclosure-state. ⚠️ THE SOURCE IS CANYON COUNTY, NOT ADA. It is cited for a statewide characterisation of Idaho law, which is what it asserts. Attribute it ('Canyon County's assessor puts it this way') — never write 'Ada County says'. Ada's own assessor pages do not use the phrase (per commercial-registry notes). ALWAYS publish with cl-recorder-records-open-without-charge and cl-deed-writing-subscribed-grantee-address: the record is open; the price simply is not a required element of the deed. Never write 'Idaho keeps sale prices secret'. Live page re-checked 2026-11-12: sentence still present. NEVER cite 'Idaho Code 63-307A' — it does not exist (see commercial claim idaho-63-307a-does-not-exist)."
+    },
+    {
+      "id": "cl-title-business-includes-escrow-closing",
+      "claim": "Idaho's title insurance chapter (Title 41, chapter 27) applies to title insurers, title insurance agents and everyone engaged in the business of title insurance, and that business is defined to include a title insurer's or agent's handling of escrows, settlements or closings incident to a title insurance contract or policy.",
+      "quotedLanguage": "The provisions of chapter 27, title 41, Idaho Code, shall apply to all title insurance companies, title insurance rating organizations, title insurance agents, applicants for title insurance, policyholders and to all persons and business entities engaged in the business of title insurance. ... The performance of any act included herein by a title insurer or a title insurance agent including, but not limited to, handling of escrows, settlements or closing incident to any contract or policy of title insurance",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "escrow",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-41-2704"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[41-2704, added 1973, ch. 135, sec. 1, p. 252; am. 2015, ch. 275, sec. 1, p. 1132.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "This is the statutory basis for saying a title company's closing/escrow work falls under the title insurance chapter supervised by the Director of the Department of Insurance. No Department of Insurance consumer web page was cached; the regulator link rests on statute text (41-2707, 41-2711 name the director)."
+    },
+    {
+      "id": "cl-escrow-act-exempts-title-companies",
+      "claim": "Idaho's Escrow Act (Title 30, chapter 9) does not apply to, among others, Idaho-licensed attorneys performing professional duties (unless running a separate escrow business), banks and credit unions, title insurance companies with a valid certificate of authority and title insurance agents licensed by the Idaho Department of Insurance, and real estate licensees acting incidentally to sales they handle.",
+      "quotedLanguage": "The requirements of this chapter do not apply to: (1) Any person licensed to practice law in this state while engaged in the performance of his professional duties, except an attorney or law firm actively engaging in a separate business as an escrow agency; ... (3) Title insurance companies having a valid certificate of authority, and title insurance agents having a valid license as a title insurance agent, issued by the Idaho department of insurance; (4) Any real estate company, broker or salesperson licensed by and subject to the jurisdiction of the Idaho real estate commission, while performing acts in the course of or incidental to sales or purchases of real or personal property handled or negotiated by such real estate company, broker or salesperson;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "escrow",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-30-905"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[30-905, added 2005, ch. 236, sec. 2, p. 718.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Banks/credit unions are subsection (2), omitted from the quote by ellipsis — the claim text mentions them; if the page cites banks, quote (2) too. Who licenses NON-exempt escrow agencies is not stated in 30-905 (the Department of Finance PDF found in search was an 'unofficial copy' and was not cached) — do not name the Department of Finance as the escrow regulator on the page."
+    },
+    {
+      "id": "cl-title-search-before-policy",
+      "claim": "Idaho Code 41-2708(1) bars issuing title insurance on Idaho real property until the title insurer or its agent owns or leases tract indexes and abstract records of the county where the property is located and has caused a search and examination of the title and a determination of insurability to be made in accordance with sound title underwriting practices.",
+      "quotedLanguage": "No title insurance on real property in the state of Idaho shall be issued unless and until the title insurer or its agent: (a) Owns or leases, separately or jointly with another, tract indexes and abstract records of the county in which the property is located; and (b) Has caused to be made a search and examination of the title and a determination of insurability of title in accordance with sound title underwriting practices.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-41-2708"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[41-2708, added 1973, ch. 135, sec. 5, p. 252; am. 2018, ch. 213, sec. 2, p. 482.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Do not say a title search 'finds every problem' — the statute requires a search and determination of insurability, not a guarantee of clean title."
+    },
+    {
+      "id": "cl-title-filed-rate-floor",
+      "claim": "Idaho Code 41-2708(3) prohibits a title insurance company or title insurance agent from quoting or charging anyone less than the rate currently filed for the risk with the Department of Insurance, and every title insurer must file its rate schedule with the Director of the Department of Insurance under 41-2707.",
+      "quotedLanguage": "No title insurance company or title insurance agent shall quote or make any charge for title insurance to any person less than the currently filed rate for such risk with the department of insurance. ... every title insurer or rating organization shall file with the director of the department of insurance its schedule of rates",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "fees",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-41-2708",
+        "idcode-41-2707"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[41-2708, added 1973, ch. 135, sec. 5, p. 252; am. 2018, ch. 213, sec. 2, p. 482.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "amendmentHistory is 41-2708's. 41-2707's history note, verbatim: [I.C., sec. 41-2707, as added by 1973, ch. 135, sec. 4, p. 252; am. 1977, ch. 142, sec. 9, p. 310.] 41-2708(3) carves out one narrow exception: a reimbursement or discount of the premium and escrow fees 'in a transaction handled by such title insurance company or title insurance agent involving a bona fide employee's residence'. It also makes anyone giving or receiving an illegal rebate or reduced rate liable for three times the amount. Do not generalise either point beyond that. No actual rate numbers are sourced — never print a title premium."
+    },
+    {
+      "id": "cl-escrow-officer-bond",
+      "claim": "Idaho Code 41-2711 defines an escrow officer as an officer or employee of a title insurance agent whose duties include handling escrows, settlements, closings and related funds, requires each title insurance agent to file escrow officers' names with the Director of Insurance, and requires a corporate surety bond of at least $10,000 per county, increasing by $10,000 per additional escrow officer in the county, up to a maximum of $50,000.",
+      "quotedLanguage": "An escrow officer is an officer or an employee of a title insurance agent whose duties include any of the following: handling escrows, settlements, closings, and funds related thereto ... The bond shall be in the minimum amount of ten thousand dollars ($10,000) per county in which the title insurance agent is licensed and increased in increments of ten thousand dollars ($10,000) corresponding to each additional person employed as an escrow officer in the county, provided that the maximum bond required of any title insurance agent shall be fifty thousand dollars ($50,000)",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "escrow",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-41-2711"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 41-2711, as added by 1973, ch. 135, sec. 8, p. 252; am. 1975, ch. 209, sec. 1, p. 580.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ The $50,000 cap is per AGENT, irrespective of counties or officers — not per transaction. Never imply the bond covers a seller's sale proceeds in full. The page should describe the bond as a regulatory requirement, not as consumer protection with a stated payout."
+    },
+    {
+      "id": "cl-closing-protection-buyer-lender",
+      "claim": "Under Idaho Code 41-2714, a title insurer may issue closing or settlement protection to a buyer, borrower or lender in a transaction in which a title policy will be issued, limited to loss from a licensed title agent's theft or misappropriation of closing funds or failure to follow agreed written closing instructions; the rate may not exceed $25.00, and no party is required to obtain it.",
+      "quotedLanguage": "A title insurer may issue closing or settlement protection to a buyer, borrower or lender that is a party to a transaction in which a title insurance policy will be issued. ... Theft or misappropriation of closing or settlement funds in connection with a transaction in which a title insurance policy or title insurance policies will be issued by or on behalf of the title insurer issuing the closing or settlement protection. ... Not exceed twenty-five dollars ($25.00). ... Nothing in this section shall be construed to require a buyer, borrower or lender to obtain closing or settlement protection.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "escrow",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-41-2714"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[41-2714, added 2015, ch. 275, sec. 3, p. 1133.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "🚨 TRAP: the statute lists BUYER, BORROWER OR LENDER — the SELLER is not named. Never tell a seller they can buy closing protection. The page states the list as written and lets the omission speak."
+    },
+    {
+      "id": "cl-1099s-reports-real-estate-sales",
+      "claim": "IRS instructions direct that Form 1099-S, Proceeds From Real Estate Transactions, be filed to report the sale or exchange of real estate, and that the person responsible for closing the transaction files it — where a Closing Disclosure or other settlement statement lists a settlement agent, that is the person listed as settlement agent.",
+      "quotedLanguage": "File Form 1099-S, Proceeds From Real Estate Transactions, to report the sale or exchange of real estate. ... If you are the person responsible for closing the transaction, you must file Form 1099-S. If a Closing Disclosure or other settlement form is used, as prescribed under the Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank), and a person is listed as the settlement agent on the Closing Disclosure or other settlement statement, the person responsible for closing the transaction is the person listed as the settlement agent on that Closing Disclosure or other settlement statement.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "closing",
+        "reporting"
+      ],
+      "sourceIds": [
+        "irs-i1099s"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Instructions page header reads 'Instructions for Form 1099-S (12/2026)' / 'Revised: 12/2026' — a continuous-use revision for 2026 information filed in early 2027. The instructions also allow a written designation agreement naming a different filer. Not tax advice; the page must not tell a seller whether their sale is reportable."
+    },
+    {
+      "id": "cl-1099s-principal-residence-certification",
+      "claim": "IRS instructions provide that a Form 1099-S filer need not report the sale of a residence for $250,000 or less ($500,000 if the certification includes an assurance that the seller is married) if the filer receives an acceptable written certification, signed by each seller under penalties of perjury, that the home is the seller's principal residence and the full gain is excludable under section 121; without the certification, the form must be filed.",
+      "quotedLanguage": "Sale or exchange of a residence (including stock in a cooperative housing corporation) for $250,000 or less if you received an acceptable written assurance (certification) from the seller that such residence is the principal residence (within the meaning of section 121) of the seller and the full amount of the gain on such sale is excludable from gross income under section 121. If the certification includes an assurance that the seller is married, the preceding sentence shall be applied by substituting \"$500,000\" for \"$250,000.\" ... The certification must be signed by each seller under penalties of perjury. ... You are not required to obtain the certification. However, if you do not obtain it, you must file and furnish Form 1099-S.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "closing",
+        "reporting"
+      ],
+      "sourceIds": [
+        "irs-i1099s"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ This is an exception to REPORTING, not to TAX. Never conflate the two or imply a seller owes or does not owe tax. The certification must also assure no nonqualified use after 2008 — mention or omit, but never shorten the conditions to 'under $250,000 is not reported'. The raw page uses curly quotes around $500,000/$250,000; verify-quotes normalises them."
+    },
+    {
+      "id": "cl-1099s-tin-requested-at-closing",
+      "claim": "IRS instructions require the Form 1099-S filer to request the seller's taxpayer identification number no later than the time of closing, and the seller is required to furnish a complete, non-truncated TIN and certify that it is correct.",
+      "quotedLanguage": "You must request the transferor's TIN no later than the time of closing. ... The transferor is required to furnish their complete, non-truncated TIN and to certify that the TIN is correct.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "closing",
+        "reporting"
+      ],
+      "sourceIds": [
+        "irs-i1099s"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Explains why the closing agent asks for a Social Security number / W-9. Pairs with ada-recorder-pii-redaction-is-submitter-duty only by contrast (the TIN goes on a tax form, not on the recorded deed) — do not assert where the TIN is or is not written beyond what the sources say."
+    },
+    {
+      "id": "cl-firpta-buyer-withholds-15-percent",
+      "claim": "Under FIRPTA, as the IRS describes it, a disposition of a U.S. real property interest by a foreign person is subject to income tax withholding; buyers, certain purchasers' agents and settlement officers are required to withhold 15% of the amount realized (10% for dispositions before Feb. 17, 2016), and in most cases the buyer is the withholding agent and may be held liable if it fails to withhold.",
+      "quotedLanguage": "The disposition of a U.S. real property interest by a foreign person (the transferor) is subject to the Foreign Investment in Real Property Tax Act of 1980 (FIRPTA) income tax withholding. ... Persons purchasing U.S. real property interests (transferees) from foreign persons, certain purchasers' agents, and settlement officers are required to withhold 15% (10% for dispositions before Feb. 17, 2016) of the amount realized on the disposition (special rules for foreign corporations). In most cases, the buyer (transferee) is the withholding agent. The transferee must find out if the transferor is a foreign person. If the transferor is a foreign person and the transferee fails to withhold, the transferee may be held liable for the tax.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "closing",
+        "firpta"
+      ],
+      "sourceIds": [
+        "irs-firpta-withholding"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "IRS page last reviewed 21-Jul-2026. '15% generally' — the page lists exceptions and reduced rates (e.g. buyer-residence rules between $300,000 and $1 million). Do not state reduced rates on the page unless separately claimed; say 'generally' and point to the IRS and a tax professional. Never tell a reader whether they are a 'foreign person'."
+    },
+    {
+      "id": "cl-firpta-non-foreign-certification",
+      "claim": "The IRS lists as an exception from FIRPTA withholding a seller's certification, under penalties of perjury, that the seller is not a foreign person, containing the seller's name, U.S. taxpayer identification number and home address; the certification may be given to a qualified substitute such as the person or title company responsible for closing, and it is not effective if the buyer or substitute knows it is false.",
+      "quotedLanguage": "The seller (transferor) gives the transferee a certification stating, under penalties of perjury, that the transferor is not a foreign person. The certification should contain the transferor's name, U.S. taxpayer identification number, and home address (or office address, in the case of an entity). The transferor can give the certification to a qualified substitute. ... a qualified substitute is (a) the person (including any attorney or title company) responsible for closing the transaction, other than the transferor's agent, and (b) the transferee's agent. ... The certifications in items 3 and 4 above are not effective if the transferee (or the qualified substitute) has actual knowledge or receives a notice from an agent (or substitute), that the certifications are false.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "closing",
+        "firpta"
+      ],
+      "sourceIds": [
+        "irs-firpta-exceptions"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "IRS page last reviewed 15-Jul-2026. This is why a U.S. seller is commonly asked to sign a non-foreign certification at closing — but 'commonly' is NOT sourced; write only what the IRS lists."
+    }
+  ]
+}

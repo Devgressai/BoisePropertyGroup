@@ -1,0 +1,557 @@
+{
+  "claims": [
+    {
+      "id": "ws-deq-health-districts-administer-septic-rules",
+      "claim": "Idaho DEQ's septic rules (IDAPA 58.01.03) are administered by Idaho's seven public health districts under a memorandum of understanding with DEQ; the districts conduct site evaluations, issue septic permits, inspect installations and help with property-specific questions, including permit status and existing permit records.",
+      "quotedLanguage": "Idaho's seven public health districts administer these rules under a memorandum of understanding (MOU) with DEQ. The public health districts conduct site evaluations, issue septic system permits, inspect installations, and assist with property-specific questions about permitting, existing systems, and permit records. ... Permit status and existing permit records",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "septic",
+        "utilities",
+        "jurisdiction",
+        "records"
+      ],
+      "sourceIds": [
+        "deq-septic-and-septage"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Pairs with existing claim ada-septic-authority-cdh (CDH is the district for Ada County). DEQ writes the rule; the health district is the office a seller actually deals with. DEQ's page says to contact the district 'for the county where the property is located' — do not route an Ada County seller to DEQ for a permit file."
+    },
+    {
+      "id": "ws-deq-site-evaluation-before-purchase",
+      "claim": "DEQ says a property owner must obtain a public health district permit to have an individual septic system installed, and should have a site evaluation performed by the health district and a licensed installer before purchasing property and applying for a permit.",
+      "quotedLanguage": "To have a septic system installed, the property owner must obtain a permit from a public health district . The property owner should have a site evaluation performed by the public health district and a licensed septic system installer before purchasing property and applying for a permit.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "septic",
+        "permits",
+        "land"
+      ],
+      "sourceIds": [
+        "deq-septic-and-septage"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ TRAP: this is about INSTALLING a new system (it is advice to a buyer of unbuilt land), and it is a 'should', not a rule. Never present it as a requirement that an existing system be evaluated at sale."
+    },
+    {
+      "id": "ws-idapa-owner-responsible-wastewater",
+      "claim": "Under IDAPA 58.01.03, every owner of real property is jointly and individually responsible for storing, treating and disposing of the blackwaste and wastewater generated on that property.",
+      "quotedLanguage": "Every owner of real property is jointly and individually responsible for: ... Storing, treating, and disposing of blackwaste and wastewater generated on that property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "septic",
+        "liability"
+      ],
+      "sourceIds": [
+        "idapa-58-01-03"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Rule text from the current adminrules.idaho.gov PDF (section 001.03.a.i; provision dated 3-31-22). Describe only; never tell a reader what this means for their liability after a sale."
+    },
+    {
+      "id": "ws-idapa-permit-required-to-repair",
+      "claim": "Under IDAPA 58.01.03, except for listed exceptions, no one may modify, repair, expand or install an individual or subsurface sewage disposal system in Idaho without a valid installation permit authorizing that work.",
+      "quotedLanguage": "Except as specified in Subsection 005.02 no person may modify, repair or expand or install any individual or subsurface sewage disposal system within the state of Idaho unless there is a valid installation permit authorizing that activity.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "septic",
+        "permits",
+        "repairs"
+      ],
+      "sourceIds": [
+        "idapa-58-01-03"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Section 005.01 (7-1-25). There ARE exceptions in 005.02 that this page does not enumerate — always say 'with listed exceptions'."
+    },
+    {
+      "id": "ws-idapa-failing-system-must-be-repaired",
+      "claim": "IDAPA 58.01.03 defines a failing system to include one that fails to accept blackwaste and wastewater or discharges it into waters or onto the ground surface, and requires the owner of a failing system to obtain a permit and repair it as soon as practical after becoming aware of the failure, or as directed with proper notice from the Director.",
+      "quotedLanguage": "Failing System. Any system that exhibits one (1) or more of the following characteristics: ... Fails to accept blackwaste and wastewater; or ... Discharges blackwaste or wastewater into the waters or onto the ground surface. ... The owner of any failing system must obtain a permit and repair the failing system: ... As soon as practical after the owner becomes aware of its failure; or ... As directed with proper notice from the Director.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "septic",
+        "repairs",
+        "permits"
+      ],
+      "sourceIds": [
+        "idapa-58-01-03"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Definition 003.15 and duty 004.05. The definition has a third limb (not meeting the intent in 004.01) not quoted here — say 'includes'. ⚠️ Never imply a seller can avoid this duty by selling as-is; and never say whether a particular system is 'failing'."
+    },
+    {
+      "id": "ws-idapa-om-requirements-perpetual",
+      "claim": "Under IDAPA 58.01.03 the Director may attach operation, maintenance and monitoring procedures to an installation permit, and those requirements, including effluent sampling, are perpetual unless the system is not installed, is removed, abandoned or replaced, or the permit is amended or revoked.",
+      "quotedLanguage": "The Director may require, as a condition of issuing a permit, specific operation, maintenance, and monitoring procedures be observed. Those procedures will be contained in the installation permit. ... All operation, maintenance, and monitoring requirements of installation permits including effluent sampling must be perpetual unless: ... The system is removed, abandoned, or replaced; or ... The permit is amended or revoked by the Director.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "septic",
+        "permits",
+        "records"
+      ],
+      "sourceIds": [
+        "idapa-58-01-03"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Section 005.12. Matters at sale because the conditions travel with the permit, not the seller — the reason to read the permit itself. Do not claim any particular system type carries such conditions; the rule says the Director MAY require them."
+    },
+    {
+      "id": "ws-deq-guide-keep-septic-records",
+      "claim": "DEQ's homeowner septic guide (January 2001) says a tank's location can be found from plot plans, septic inspection records, drawings or the house plumbing; recommends that an average family of four have its tank pumped every three to five years; and advises keeping a permanent record of maintenance, repairs, sludge and scum levels, pumping, drainfield condition and backups.",
+      "quotedLanguage": "The location of your septic tank can be determined from plot plans, septic system inspection records, architectural or landscape drawings, or from observations of the house plumbing. ... It is recommended that an average family of four have its septic tank pumped out every three to five years. ... Maintain a permanent record of any septic system maintenance, repair, sludge and scum levels, pumping, drainfield condition, household backups, and operations notes.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "septic",
+        "records",
+        "maintenance"
+      ],
+      "sourceIds": [
+        "deq-homeowners-guide-septic-2001"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ OLD GUIDANCE: dated January 2001, but CDH still links it from its current septic page as the homeowner's guide. MEDIUM confidence for that reason. It is a recommendation, not a rule — always attribute it ('DEQ's guide recommends'). The same booklet elsewhere says 'every three years (or as determined by your inspections)'; if the interval is used, quote the family-of-four sentence and attribute it."
+    },
+    {
+      "id": "ws-cdh-public-records-request",
+      "claim": "Central District Health takes public records requests through a form on its About page and asks requesters to be specific about the documents they want.",
+      "quotedLanguage": "To submit a public records request, complete the form above. Be specific regarding the document(s) you are requesting.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "septic",
+        "records"
+      ],
+      "sourceIds": [
+        "cdh-about"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ The CDH septic page cached 2026-09-09 (source cdh-septic) carried an online 'Septic System Search' with a note that records date to 1971 and some pre-2000 Ada records are missing. That section is GONE from the live page as of 2026-11-12. Do not cite the search or the 1971 note. This page does not say what a septic file contains or how long a request takes — say neither."
+    },
+    {
+      "id": "ws-cdh-mortgage-survey-lender-request",
+      "claim": "Central District Health describes a mortgage survey as something a lender often requests, to locate a well or septic system and check the water and sewage systems before a property sale, and says it provides water quality testing and mortgage survey inspections of private wells and septic systems.",
+      "quotedLanguage": "A mortgage survey is often requested by a lender to determine the location of a well or septic system to check water and sewage systems prior to a property sale. ... CDH provides drinking water quality testing and mortgage survey inspections of private wells and septic systems.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "septic",
+        "well",
+        "water",
+        "lending"
+      ],
+      "sourceIds": [
+        "cdh-water-septic-subdivisions"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ LENDER TRAP: this is CDH saying lenders OFTEN request it. It is not a statement that any lender or loan program requires it, and it is not a legal requirement at sale. Always attribute to CDH and keep the word 'often'."
+    },
+    {
+      "id": "ws-cdh-mortgage-survey-fees-july-2026",
+      "claim": "CDH's mortgage survey fee schedule dated July 2026 lists $178 for a well-only survey plus a $20 lab fee, $178 for septic only, $178 for well and septic plus a $20 lab fee, and $178 plus the lab fee for a revisit.",
+      "quotedLanguage": "Mortgage Survey Fees: – July 2026 MS – Well Only – $178 (plus lab fee of $20) MS – Septic Only – $178 MS – Well and Septic – $178 (plus lab fee of $20) MS – Lab Fee – $20 MS – Revisit – $178 (plus lab fee of $20)",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "septic",
+        "well",
+        "fees"
+      ],
+      "sourceIds": [
+        "cdh-water-septic-subdivisions"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "FAST-CHANGING: CDH resets fees each July. Always state with 'as of CDH's July 2026 schedule'. Re-check before every refresh."
+    },
+    {
+      "id": "ws-cdh-mortgage-survey-requirements",
+      "claim": "CDH's mortgage survey information sheet requires a complete, signed application with the legal description and county parcel number, a plot plan showing the septic tank, drainfield and all domestic wells relative to the house, the fees, and a pumping receipt if the tank has been or will be pumped; the inspector must have access to the drainfield, tank and well head, and results are available three to five days after sampling.",
+      "quotedLanguage": "Application must be filled out thoroughly. Name, addresses, phone number, email, legal description, location, county parcel #, and directions to property. All questions answered and then signed and dated. ... A plot plan must be drawn on the application showing the location of the septic tank, drainfield, and all domestic wells in relationship to the house. ... If the septic tank has been or will be pumped, we will need a copy of the pumping receipt. ... The inspector must have access to the entire area of the drainfield, septic tank, and well head. ... Survey results will be available 3-5 days after the sample is taken.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "septic",
+        "well",
+        "records"
+      ],
+      "sourceIds": [
+        "cdh-mortgage-survey-info-sheet"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Sheet is footer-dated 6/11/25 and still linked from the live CDH page. The 3–5 day figure is CDH's own estimate for results after sampling, not a total turnaround — never present it as 'the survey takes a week'."
+    },
+    {
+      "id": "ws-cdh-well-owner-responsible-testing",
+      "claim": "CDH says that in Idaho private well owners are responsible for ensuring their water is safe to drink, that private water may have to be tested for house sales if a lender or buyer requires it, and that well water should be tested once a year for bacteria and nitrates.",
+      "quotedLanguage": "In Idaho, private well owners are responsible for ensuring their water is safe to drink. ... Private water sources can be required to be tested under other regulations or requirements if the water is being used for small daycares, small food processors, bottled water plants, foster/care homes, and house sales if required by lender or buyer. ... You should test your well water once a year for bacteria and nitrates.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "well",
+        "water",
+        "testing"
+      ],
+      "sourceIds": [
+        "cdh-water-septic-subdivisions"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada, Boise, Elmore and Valley counties, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ 'if required by lender or buyer' — testing at sale is driven by a lender or buyer, per CDH; it is not stated as a legal requirement of every sale. Do not convert this into 'lenders require a water test'."
+    },
+    {
+      "id": "ws-well-driller-report-public-record",
+      "claim": "Idaho Code 42-238(11) requires every well driller — including for domestic wells excepted under 42-227 — to complete a well driller's report and deposit it with the IDWR director within 30 days after the well is completed; the reports become a permanent record available for public use.",
+      "quotedLanguage": "every well driller is hereby required to keep available for inspection at the well site a daily well log and pertinent data concerning each well, and its construction or abandonment, that is constructed or abandoned under the driller's direction in Idaho, including wells excepted under sections 42-227 and 42-228 , Idaho Code, and to complete a report on forms furnished by the director. These reports shall be properly prepared and signed by the driller and deposited with the director within thirty (30) days following the completion of the well. ... The reports shall become a permanent record in the office of the director for hydrologic and geologic analysis and research and shall be available for public use.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "well",
+        "records"
+      ],
+      "sourceIds": [
+        "idcode-42-238"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[42-238 as reen. by 1967, ch. 339, sec. 1, p. 977; am. 1970, ch. 187, sec. 4, p. 541; am. 1971, ch. 149, sec. 2, p. 730; am. 1974, ch. 20, sec. 1, p. 533; am. 1980, ch. 238, sec. 9, p. 538; am. 1987, ch. 347, sec. 8, p. 748; am. 1990, ch. 366, sec. 1, p. 999; am. 1993, ch. 216, sec. 33, p. 613; am. 1997, ch. 361, sec. 1, p. 1062; am. 1998, ch. 173, sec. 2, p. 597; am. 2021, ch. 65, sec. 1, p. 197.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Chapter index checked 2026-11-12: one 42-238 entry, no future-dated version. The statute does not say a report exists for every well — older wells may predate it; pair with ws-idwr-well-construction-search for coverage."
+    },
+    {
+      "id": "ws-idwr-well-construction-search",
+      "claim": "IDWR's Well Construction Search lets anyone look up wells and view the related well driller's reports; IDWR says the database contains most reports from July 1987 on, that it has assigned a unique well tag number to each well since 1997, printed on a metal plate fixed to the above-ground casing, that the tag number is the first-listed of its search methods, which it lists in order of effectiveness, and that wells can also be searched by township/range/section, physical address, or the name of the owner when the well was drilled.",
+      "quotedLanguage": "Search for wells in Idaho and view the related Well Driller's Reports (Logs). ... The database contains most of the Well Drillers Reports from July 1987 to current. ... The search methods are listed in the order of effectiveness. Use only ONE of the methods listed: Input the Well Tag Number (for example: D0012345). ... Beginning in 1997, IDWR began assigning a unique well tag number to each well. ... A well's tag number is printed on a metal plate ... that is welded or riveted to the portion of the metal well casing that sits above ground level. ... Input the physical address of the well. ... Input the last name of the person OR the organization who owned the well when it was drilled.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "well",
+        "records"
+      ],
+      "sourceIds": [
+        "idwr-well-construction-drilling"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "'most' — IDWR's own hedge. A well drilled before July 1987 may have no report in the database; never say 'every well has a log online'. The plate-size parenthetical is elided with '...' because the cache encodes the inch marks as &Prime;, which the verifier does not decode."
+    },
+    {
+      "id": "ws-well-drilling-permit-42-235",
+      "claim": "Idaho Code 42-235 requires the driller or well owner to obtain a permit from the IDWR director before beginning construction of any well or changing a well's construction, with a $75 charge for a domestic or monitoring well and $200 otherwise.",
+      "quotedLanguage": "Prior to beginning construction of any well, or changing the construction of any well, the driller or well owner shall obtain a permit from the director of the department of water resources to protect the public health, safety and welfare and the environment, and to prevent the waste of water or mixture of water from different aquifers. There shall be a seventy-five dollar ($75.00) charge for the permit if the well is to be used for domestic or monitoring purposes. If the well is to be used for other than domestic or monitoring purposes, the charge for the permit shall be two hundred dollars ($200).",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "well",
+        "permits",
+        "fees"
+      ],
+      "sourceIds": [
+        "idcode-42-235"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[42-235, added 1987, ch. 347, sec. 4, p. 745; am. 1990, ch. 164, sec. 1, p. 361; am. 1996, ch. 267, sec. 1, p. 868; am. 1998, ch. 173, sec. 1, p. 596.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "A DRILLING permit is not a WATER RIGHT permit. 42-227 exempts domestic wells from the water-right permit (42-229) — not from this drilling permit. Keep the two separate in prose."
+    },
+    {
+      "id": "ws-domestic-well-exempt-42-227",
+      "claim": "Idaho Code 42-227 provides that, except for certain new subdivision diversions in regulated groundwater areas, drilling a well and withdrawing water for domestic purposes as defined in 42-111 is not subject to the water-right permit requirement of 42-229; rights to groundwater for such domestic purposes may be acquired by withdrawal and use, and domestic wells are subject to inspection by IDWR and DEQ.",
+      "quotedLanguage": "Except as provided in subsection (4) of this section, excavation and opening of wells and the withdrawal of water therefrom for domestic purposes or uses as defined in section 42-111 , Idaho Code, shall not be subject to permit requirements under section 42-229 , Idaho Code. Rights to ground water for such domestic purposes may be acquired by withdrawal and use. (2) Wells and withdrawal devices for domestic purposes or uses shall be subject to inspection by the department of water resources and the department of environmental quality.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "well",
+        "water",
+        "water-rights"
+      ],
+      "sourceIds": [
+        "idcode-42-227"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[42-227, added 1951, ch. 200, sec. 2, p. 423; am. 1970, ch. 187, sec. 1, p. 541; am. 1978, ch. 324, sec. 1, p. 819 ; am. 2001, ch. 103, sec. 79, p. 318; am. 2025, ch. 129, sec. 2, p. 664; am. 2026, ch. 2, sec. 2, p. 8.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ FAST-MOVING: amended 2025 and 2026, same as 42-111. Subsection (4) (new subdivision diversions filed on/after July 1, 2025 in moratorium/critical/management areas) is summarised, not quoted — never apply it to a reader's parcel."
+    },
+    {
+      "id": "ws-domestic-exemption-revised-2026",
+      "claim": "IDWR reports that the 2025 Legislature passed Senate Bill 1083a revising the domestic-use, shared-well and subdivision statutes, and that Senate Bill 1222, signed February 17, 2026, further revised them, effective that day, changing the requirements for establishing a domestic water right without an IDWR permit.",
+      "quotedLanguage": "The 2025 Idaho Legislature passed Senate Bill 1083a revising several statutes dealing with domestic uses of water, shared wells, and subdivisions. On February 17, 2026, Governor Little signed Senate Bill 1222, which further revised the statutes dealing with ground water wells and domestic uses. These statutory changes became effective on February 17, 2026.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "well",
+        "water",
+        "water-rights"
+      ],
+      "sourceIds": [
+        "idwr-domestic-exemption"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Agency description of the change, used only to tell the reader the law moved recently. The statute pages (42-111, 42-227) carry 'am. 2026, ch. 2', consistent with this."
+    },
+    {
+      "id": "ws-water-right-ownership-notice-120-days",
+      "claim": "Idaho Code 42-248 requires anyone owning or claiming a water right represented by a court decree, a claim filed with IDWR, or an IDWR permit or license to notify IDWR of any change in ownership of any part of the right, or of the owner's mailing address, within 120 days, using forms acceptable to the director.",
+      "quotedLanguage": "All persons owning or claiming ownership of a right to use the water of this state, whether the right is represented by decree of the court, by claim to a water right filed with the department of water resources or by permit or license issued by the director of the department, shall provide notice to the department of any change in ownership of any part of the water right or of any change in the owner's mailing address. Notice shall be provided within one hundred twenty (120) days of any change using forms acceptable to the director.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water-rights",
+        "water",
+        "transfer"
+      ],
+      "sourceIds": [
+        "idcode-42-248"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[42-248, added 1996, ch. 149, sec. 1, p. 487; am. 2000, ch. 313, sec. 1, p. 1052; am. 2011, ch. 172, sec. 2, p. 493; am. 2021, ch. 157, sec. 1, p. 433.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ SCOPE TRAP: the duty attaches to rights represented by a decree, filed claim, or permit/license. Whether a particular domestic well has any such record is a parcel fact — never assert that a seller's well does or does not. The statute places the duty on 'all persons owning or claiming ownership' — it does not say 'the buyer' or 'the seller'; do not assign it to either. Chapter index checked: no future-dated version."
+    },
+    {
+      "id": "ws-water-right-notice-fee-and-evidence",
+      "claim": "Under Idaho Code 42-248 a notice of change of water right ownership must carry a $25 filing fee per right ($100 per right if the records are to show the right divided), with no fee for a claim pending in an adjudication; it must be accompanied by deeds, court decrees or other evidence of conveyance; and IDWR updating its records is not a determination of who owns the right.",
+      "quotedLanguage": "A filing fee of twenty-five dollars ($25.00) per right shall accompany a notice of change of water right ownership, provided that the fee shall be one hundred dollars ($100) per right if a request is made to change the department's records to reflect a division in the ownership of the water right. No fee is required for a notice of change of ownership of a claim pending in a water rights adjudication. ... A notice of change of water right ownership of all or part of a water right shall be accompanied by deeds, court decrees, or other evidence of conveyance of the water right and how the water right is divided if the change divides the water right among multiple owners. ... Any action by the department updating the ownership of a water right in the department's records or returning the notice of change of ownership to the person filing the notice is not a determination of water right ownership",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water-rights",
+        "fees",
+        "transfer"
+      ],
+      "sourceIds": [
+        "idcode-42-248"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[42-248, added 1996, ch. 149, sec. 1, p. 487; am. 2000, ch. 313, sec. 1, p. 1052; am. 2011, ch. 172, sec. 2, p. 493; am. 2021, ch. 157, sec. 1, p. 433.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Subsections (4), (5), (8). Ownership disputes go to adjudication or quiet title per (8) — point to an attorney, never resolve."
+    },
+    {
+      "id": "ws-idwr-water-right-may-pass-with-land",
+      "claim": "IDWR says a landowner may have acquired a valid water right with the land if water was used on the property before they acquired it, the prior owner did not reserve the right in the deed, and the right has not been forfeited through five or more years of non-use; and it tells buyers of property with a water right or adjudication claim to make sure they are listed as current owner with a correct address.",
+      "quotedLanguage": "You might have acquired a valid water right along with your land if: water was used on your property before you acquired it, the person you acquired the property from did not \"reserve\" the water right in the deed conveying the property to you, and the water right has not been forfeited due to five or more years of non-use. ... If you purchase property that has with it a water right or adjudication claim, make certain that you are listed as the current owner and that your address is correct.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water-rights",
+        "water",
+        "transfer",
+        "title"
+      ],
+      "sourceIds": [
+        "idwr-water-rights-overview"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "IDWR says 'might' — agency guidance, not a rule of title. The deed-reservation point is the one a seller controls; any reservation question is for an attorney."
+    },
+    {
+      "id": "ws-idwr-1978-claims-excluded-domestic",
+      "claim": "IDWR explains that a 1978 statute required holders of beneficial-use water rights, other than rights used solely for domestic purposes, to record them with IDWR, and that these statutory claims are affidavits that do not confirm the right. IDWR points owners to its Water Right & Adjudication Search to view water right records and documents.",
+      "quotedLanguage": "In 1978, a statute was enacted requiring persons with beneficial use rights (other than water rights used solely for domestic purposes) to record their water rights with IDWR. The purpose of the statute was to provide some means to make records of water rights for which there were previously no records. However, these records are merely affidavits of the water users, and do not result in a license, decree, or other confirmation of the water right. ... Use the Water Right & Adjudication Search to view water right records and associated documents.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water-rights",
+        "well",
+        "records"
+      ],
+      "sourceIds": [
+        "idwr-water-rights-overview"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Explains why a domestic-only well may have no claim on file. ⚠️ Do not extend this to 'domestic wells never have water right records' — some may have been decreed in an adjudication or permitted. Tell the reader to search the record, not to assume."
+    },
+    {
+      "id": "ws-irrigation-easements-no-adverse-possession",
+      "claim": "Idaho Code 42-1204 provides that easements, rights-of-way and real property owned by irrigation districts, Carey Act operating companies, nonprofit irrigation entities, lateral ditch associations and drainage districts are not subject to adverse possession, and that no one may block authorized personnel's free access to them.",
+      "quotedLanguage": "The easements, rights-of-way, or real property owned by irrigation districts, Carey act operating companies, nonprofit irrigation entities, lateral ditch associations, and drainage districts are not subject to adverse possession. (2) No person shall prevent free access of authorized personnel on such easements, rights-of-way, or other real property",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "irrigation",
+        "easements",
+        "title",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-42-1204"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(42-1204) 42-1208, added 1981, ch. 344, sec. 1, p. 714; am. 2004, ch. 179, sec. 2, p. 563; am. 2021, ch. 112, sec. 1, p. 354; am. and redesig. 2026, ch. 109, sec. 5, p. 562.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ RENUMBERED 2026: this was 42-1208 until 2026 ch. 109. Older documents and other sites cite 42-1208 — cite 42-1204. Chapter 12 index checked 2026-11-12; no future-dated version listed."
+    },
+    {
+      "id": "ws-irrigation-encroachment-written-permission",
+      "claim": "Idaho Code 42-1205 bars anyone from causing or permitting encroachments — including roads, utilities, fences, gates, pipelines, structures, landscaping, trees or vegetation — onto easements or rights-of-way of irrigation districts, lateral ditch associations and similar entities without that entity's written permission, which may not be unreasonably withheld; encroachments placed without permission that unreasonably or materially interfere must be removed or modified at the expense of whoever caused or permitted them.",
+      "quotedLanguage": "no person or entity shall cause or permit any encroachments onto the easements or rights-of-way, including any public or private roads, utilities, fences, gates, pipelines, structures, landscaping, trees, vegetation, or other construction or placement of objects, without the written permission of the irrigation district, Carey act operating company, nonprofit irrigation entity, lateral ditch association, or drainage district owning, operating, maintaining, or controlling the easement or right-of-way ... Such written permission shall not be unreasonably withheld. ... Encroachments of any kind placed in such easement or right-of-way, without such express written permission, shall be removed or modified, and the irrigation conduit, easement, or right-of-way shall be repaired or restored at the expense of the person or entity causing or permitting such encroachments",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "irrigation",
+        "easements",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-42-1205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(42-1205) 42-1209, added 2004, ch. 179, sec. 3, p. 563; am. 2019, ch. 158, sec. 5, p. 514; am. 2019, ch. 183, sec. 3, p. 592; am. 2024, ch. 93, sec. 15, p. 438; am. and redesig. 2026, ch. 109, sec. 6, p. 562.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ RENUMBERED 2026: formerly 42-1209. The removal duty is triggered 'in the event that any such encroachments unreasonably or materially interfere' and on request of the operator/owner — always keep both conditions. Never say whether a reader's fence or shed is an encroachment."
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "sources": [
+    {
+      "id": "idcode-54-2002",
+      "title": "Idaho Code § 54-2002 — Licensure required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2002/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2015",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-license-required-single-act"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2003",
+      "title": "Idaho Code § 54-2003 — Exceptions to licensure",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2003/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2003",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-own-account-exception-no-evasion"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2004",
+      "title": "Idaho Code § 54-2004 — Definitions (Idaho Real Estate License Law)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2004/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-broker-definition-acting-for-others",
+        "vb-dealer-in-options-definition"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2041",
+      "title": "Idaho Code § 54-2041 — Trust accounts and entrusted property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2041/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2009",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-earnest-money-at-title-not-entrusted"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2051",
+      "title": "Idaho Code § 54-2051 — Offers to purchase",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2051/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-offer-must-state-earnest-money"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2055",
+      "title": "Idaho Code § 54-2055 — Licensees dealing with their own property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2055/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2010",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-licensee-must-disclose-license"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-54-2065",
+      "title": "Idaho Code § 54-2065 — Penalty for acting as a broker or salesperson without license",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2065/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-unlicensed-practice-penalty"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-30-903",
+      "title": "Idaho Code § 30-903 — Escrow agency license required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-903/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-escrow-agency-license-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-30-905",
+      "title": "Idaho Code § 30-905 — Escrow Act exempt persons and transactions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-905/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "licensing",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-escrow-exempt-title-agents"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-30-913",
+      "title": "Idaho Code § 30-913 — Escrow Act unlawful acts",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title30/t30ch9/sect30-913/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-escrow-unlicensed-felony"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-2710",
+      "title": "Idaho Code § 41-2710 — Requirements for title insurance agents",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2710/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2015",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-title-agent-license-by-county"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1601",
+      "title": "Idaho Code § 45-1601 — Consumer Foreclosure Protection Act — legislative findings",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1601/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-legislative-findings"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1602",
+      "title": "Idaho Code § 45-1602 — Consumer Foreclosure Protection Act — contract notice",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1602/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-written-notice-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1603",
+      "title": "Idaho Code § 45-1603 — Consumer Foreclosure Protection Act — right of rescission",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1603/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-five-business-day-rescission"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1604",
+      "title": "Idaho Code § 45-1604 — Consumer Foreclosure Protection Act — exclusions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1604/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2015",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-exclusions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1605",
+      "title": "Idaho Code § 45-1605 — Consumer Foreclosure Protection Act — penalties",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1605/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "vb-cfpa-penalties-title-48"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irec-guideline-18",
+      "title": "Idaho Real Estate Commission Guideline #18 — Dealer in Options (rev. March 2019)",
+      "publisher": "Idaho Real Estate Commission (Division of Occupational and Professional Licenses)",
+      "organizationType": "state-government",
+      "url": "https://dopl.idaho.gov/wp-content/uploads/2023/11/REC-Guideline-18-rev-3.19.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": "2019-03",
+      "updatedDate": "2019-03",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Commission guideline PDF, cached and extracted with pdftotext. Each page states it is 'not a new law but is an agency interpretation of existing law' — authoritative for the Commission's reading, not binding as statute.",
+      "stalenessRisk": "MEDIUM — guideline is dated 2019 and cites pre-renumbering subsections (54-2004(19)); re-check the guidance index for revisions.",
+      "claimsSupported": [
+        "vb-irec-guideline18-property-not-owned"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irec-guideline-2",
+      "title": "Idaho Real Estate Commission Guideline #2 — Brokering Idaho Property Requires an Idaho Real Estate License (rev. May 2018)",
+      "publisher": "Idaho Real Estate Commission (Division of Occupational and Professional Licenses)",
+      "organizationType": "state-government",
+      "url": "https://dopl.idaho.gov/wp-content/uploads/2023/11/REC-Guideline-2-rev-5.18.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": "2018-05",
+      "updatedDate": "2018-05",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Commission guideline PDF, cached and extracted. Agency interpretation. Cites the broker definition as 54-2004(36); current numbering is (39).",
+      "stalenessRisk": "MEDIUM — subsection numbers in the guideline are stale.",
+      "claimsSupported": [
+        "vb-irec-guideline2-procuring-prospects-marketing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irec-faqs-consumer-info",
+      "title": "Real Estate Commission — FAQs and Consumer Information",
+      "publisher": "Idaho Division of Occupational and Professional Licenses (Real Estate Commission)",
+      "organizationType": "state-government",
+      "url": "https://dopl.idaho.gov/rec/rec-faqs-and-consumer-info/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "closing",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official Commission consumer page, read directly with raw HTML cached. The Commission's own statement of what it does and does not regulate.",
+      "stalenessRisk": "MEDIUM — DOPL is restructuring REC licensing (biennial from Oct 2026); page wording may change.",
+      "claimsSupported": [
+        "vb-irec-license-lookup",
+        "vb-irec-investigates-unlicensed-practice",
+        "vb-irec-earnest-money-disputes-civil",
+        "vb-irec-escrow-and-title-regulators",
+        "vb-irec-wire-diversion-warning"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idsos-business-services",
+      "title": "Business Services — Idaho Secretary of State",
+      "publisher": "Idaho Secretary of State",
+      "organizationType": "state-government",
+      "url": "https://sos.idaho.gov/business-services/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official Secretary of State page, raw HTML cached. The SOSBiz search itself (sosbiz.idaho.gov) is a JavaScript app and returned no cacheable content, so no claim describes its result fields.",
+      "stalenessRisk": "MEDIUM — page layout and fees change.",
+      "claimsSupported": [
+        "vb-sos-business-search",
+        "vb-sos-certificate-not-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "iddoi-title-insurance",
+      "title": "Title Insurance — Idaho Department of Insurance",
+      "publisher": "Idaho Department of Insurance",
+      "organizationType": "state-government",
+      "url": "https://doi.idaho.gov/consumers/title-insurance/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official DOI consumer page, raw HTML cached. The 'Find a Title Agent / Company' button links out to an NAIC license lookup that was not cached.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "vb-doi-find-title-agent"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ftc-mortgage-relief-scams",
+      "title": "Mortgage Relief Scams — FTC Consumer Advice",
+      "publisher": "Federal Trade Commission",
+      "organizationType": "federal-government",
+      "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "vb-ftc-deed-transfer-warning",
+        "vb-ftc-equity-skimming",
+        "vb-ftc-upfront-payment-methods"
+      ],
+      "entitiesSupported": [],
+      "status": "VERIFIED"
+    }
+  ]
+}
