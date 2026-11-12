@@ -79,7 +79,8 @@ export async function POST(req: Request) {
   const sent = await resend.emails.send({
     from: "Boise Property Group <leads@boisepropertygroup.com>",
     to,
-    subject: `New ${context} enquiry — ${address}`,
+    // Branded: this inbox receives mail for several businesses.
+    subject: `[Boise Property Group] New ${context} enquiry — ${address}`,
     html:
       `<p><strong>Address:</strong> ${escapeHtml(address)}</p>` +
       `<p><strong>Came from:</strong> the ${context} side of the site</p>` +
