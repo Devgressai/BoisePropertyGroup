@@ -34,7 +34,7 @@ export default function Explore() {
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
         <div className="card p-7">
           <div className="flex items-center gap-3.5">
-            <span className="chip" style={{ background: "#DCEBF9", color: "var(--bpg-accent-ink)" }}>
+            <span className="chip bg-[var(--bpg-tint)] text-[var(--bpg-ink)]">
               <IconPin />
             </span>
             <h3 className="text-[1.15rem] font-semibold text-[var(--bpg-ink)]">
@@ -54,7 +54,7 @@ export default function Explore() {
 
         <div className="card p-7">
           <div className="flex items-center gap-3.5">
-            <span className="chip" style={{ background: "#FBE8CE", color: "var(--bpg-warm)" }}>
+            <span className="chip bg-[var(--bpg-tint)] text-[var(--bpg-ink)]">
               <IconScale />
             </span>
             <h3 className="text-[1.15rem] font-semibold text-[var(--bpg-ink)]">

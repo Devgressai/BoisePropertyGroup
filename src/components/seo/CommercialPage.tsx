@@ -39,7 +39,7 @@ export default function CommercialPage({
               <span className="mx-2" aria-hidden="true">/</span>
               <Link href="/commercial" className="no-underline hover:text-[var(--bpg-ink)]">Commercial</Link>
             </nav>
-            <p className="eyebrow text-[var(--bpg-accent)]">{content.eyebrow}</p>
+            <p className="eyebrow text-[var(--bpg-warm)]">{content.eyebrow}</p>
             <h1 className="display-xl mt-4 max-w-[20ch] text-[var(--bpg-ink)]">{content.h1}</h1>
             <div className="mt-8 max-w-[42rem] space-y-4">
               {content.intro.map((p) => (

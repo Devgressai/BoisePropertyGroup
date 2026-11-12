@@ -22,7 +22,7 @@ export default function GuidesHub() {
       <main id="main" className="pb-20 lg:pb-0">
         <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
-            <p className="eyebrow text-[var(--bpg-accent)]">Idaho property</p>
+            <p className="eyebrow text-[var(--bpg-warm)]">Idaho property</p>
             <h1 className="display-xl mt-4 max-w-[14ch] text-[var(--bpg-ink)]">Guides</h1>
             <p className="lede mt-6 max-w-[46rem] text-[var(--bpg-muted)]">
               What the statutes actually say — quoted, attributed and dated. Written because most of

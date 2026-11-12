@@ -25,7 +25,7 @@ export default function WhenNotToSell() {
     <section className="bg-[var(--bpg-warm-tint)] py-20 sm:py-24" aria-labelledby="wrong-move">
       <div className="wrap">
         <div className="text-center">
-          <hr className="rule-accent centered" style={{ background: "var(--bpg-warm-bright)" }} />
+          <hr className="rule-accent centered" />
           <h2 id="wrong-move" className="display-lg mx-auto mt-6 max-w-[22ch] text-[var(--bpg-ink)]">
             When selling to us is the wrong move
           </h2>

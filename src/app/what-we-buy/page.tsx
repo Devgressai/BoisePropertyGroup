@@ -23,7 +23,7 @@ export default function WhatWeBuyPage() {
       <main id="main" className="pb-20 lg:pb-0">
         <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
-            <p className="eyebrow text-[var(--bpg-accent)]">Acquisition criteria</p>
+            <p className="eyebrow text-[var(--bpg-warm)]">Acquisition criteria</p>
             <h1 className="display-xl mt-4 max-w-[16ch] text-[var(--bpg-ink)]">What we buy</h1>
             <p className="lede mt-6 max-w-[44rem] text-[var(--bpg-muted)]">
               Specific enough to be useful. If your property is on this page, it is worth a

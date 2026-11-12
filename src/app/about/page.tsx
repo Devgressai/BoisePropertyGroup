@@ -30,7 +30,7 @@ export default function About() {
       <main id="main" className="pb-20 lg:pb-0">
         <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
-            <p className="eyebrow text-[var(--bpg-accent)]">About</p>
+            <p className="eyebrow text-[var(--bpg-warm)]">About</p>
             <h1 className="display-xl mt-4 max-w-[18ch] text-[var(--bpg-ink)]">
               A property acquisition group in Ada County.
             </h1>

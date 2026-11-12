@@ -39,7 +39,7 @@ export default function Home() {
         <LocalKnowledge />
         <WhenNotToSell />
         <Explore />
-        <FinalCTA />
+        <FinalCTA anchor={false} />
       </main>
       <Footer />
       <MobileCTA />

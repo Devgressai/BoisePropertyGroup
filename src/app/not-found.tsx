@@ -19,7 +19,7 @@ export default function NotFound() {
       <Navbar />
       <main id="main" className="glow py-24 sm:py-32">
         <div className="wrap max-w-[44rem]">
-          <p className="eyebrow text-[var(--bpg-accent)]">Page not found</p>
+          <p className="eyebrow text-[var(--bpg-warm)]">Page not found</p>
           <h1 className="display-xl mt-4 text-[var(--bpg-ink)]">That page is not here.</h1>
           <p className="lede mt-6 text-[var(--bpg-muted)]">
             It may have moved, or the link may be mistyped. One of these will get you back on track.

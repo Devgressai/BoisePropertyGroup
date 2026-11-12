@@ -22,7 +22,7 @@ export default function Locations() {
       <main id="main" className="pb-20 lg:pb-0">
         <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
-            <p className="eyebrow text-[var(--bpg-accent)]">Ada County, Idaho</p>
+            <p className="eyebrow text-[var(--bpg-warm)]">Ada County, Idaho</p>
             <h1 className="display-xl mt-4 max-w-[16ch] text-[var(--bpg-ink)]">Where we buy</h1>
             <p className="lede mt-6 max-w-[42rem] text-[var(--bpg-muted)]">
               Six incorporated cities and the unincorporated balance of the county. Which side of a

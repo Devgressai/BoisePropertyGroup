@@ -12,15 +12,16 @@ const NAV = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-40 border-b border-[var(--bpg-border)] bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-[var(--bpg-border)] bg-white/95 backdrop-blur">
       <nav className="wrap flex h-[72px] items-center justify-between gap-6" aria-label="Primary">
         <Link href="/" className="flex items-center gap-2.5 no-underline">
           <span
             aria-hidden="true"
-            className="inline-block h-3 w-3 rounded-full"
-            style={{ background: "linear-gradient(135deg, var(--bpg-sky), var(--bpg-teal))" }}
-          />
-          <span className="display-md text-[var(--bpg-ink)]" style={{ fontSize: "1.2rem", lineHeight: 1 }}>
+            className="flex h-8 w-8 items-center justify-center rounded-[7px] bg-[var(--bpg-navy)] font-[family-name:var(--font-display)] text-[1.05rem] font-semibold leading-none text-[var(--bpg-primary)]"
+          >
+            B
+          </span>
+          <span className="display-md whitespace-nowrap text-[var(--bpg-ink)] max-[400px]:!text-[1rem]" style={{ fontSize: "1.2rem", lineHeight: 1 }}>
             Boise Property Group
           </span>
         </Link>
@@ -47,7 +48,7 @@ export default function Navbar() {
               {site.phone}
             </a>
           )}
-          <Link href="#offer" className="btn btn-primary !min-h-[46px] !px-5 !text-[0.94rem]">
+          <Link href="#offer" className="btn btn-primary !min-h-[46px] whitespace-nowrap !px-5 !text-[0.94rem] max-[400px]:!px-3.5">
             Get an Offer
           </Link>
         </div>

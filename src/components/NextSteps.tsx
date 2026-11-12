@@ -19,7 +19,7 @@ export default function NextSteps({ path, heading = "Where to next" }: { path: s
             <Link href={s.href} className="card card-lift block h-full p-6 no-underline">
               <span className="block text-[1.05rem] font-semibold text-[var(--bpg-ink)]">{s.label}</span>
               <span className="mt-1.5 block text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">{s.note}</span>
-              <span className="eyebrow mt-4 block text-[var(--bpg-accent-ink)]" aria-hidden="true">→</span>
+              <span className="eyebrow mt-4 block text-[var(--bpg-warm)]" aria-hidden="true">→</span>
             </Link>
           </li>
         ))}

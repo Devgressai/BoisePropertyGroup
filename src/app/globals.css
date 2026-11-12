@@ -2,62 +2,66 @@
 
 /* ============================================================================
    BOISE PROPERTY GROUP — design tokens
-   Palette D "Sky", selected by the owner 2026-09-16, superseding Palette A
-   "High Desert" (2026-09-09). The brief: lighter, happier, easier to look at.
-   White reading surfaces everywhere, no dark full-bleed bands, a sky-blue
-   accent. Every ratio below is COMPUTED (WCAG 2.x relative luminance) and
-   ENFORCED by tests/palette.test.ts, which reads this file — a token that
-   fails contrast fails CI.
+   Palette E "Title", 2026-11-12, superseding Palette D "Sky" (2026-09-16).
+   The brief: premium, high-trust, and one unmistakable action.
 
-   ONE SCALE ONLY. Sierra carries two coexisting palettes as acknowledged debt
-   and we do not inherit that.
+     NAVY   — ink, the closing band and the footer. Stability; the colour of
+              the institutions a seller already trusts with money.
+     IVORY  — the alternate band. Warm paper, not screen grey.
+     BRASS  — the ONLY saturated colour, and it means one thing: the action.
+              Buttons are brass with navy text, so the eye has one place to go
+              on every screen (isolation effect). Brass also draws hairlines
+              and numerals; it never carries small text on a light surface.
+
+   Restraint is the premium signal: the pastel set (blue / mint / lilac /
+   amber) is gone, and those token names now resolve to neutrals.
+
+   Every ratio is COMPUTED (WCAG 2.x) and ENFORCED by tests/palette.test.ts,
+   which reads this file — a token that fails contrast fails CI.
    ========================================================================== */
 :root {
-  --bpg-ink:           #1E2A36; /* headlines and body — 14.59:1 on white */
-  --bpg-primary:       #1668B0; /* button fill — white on it 5.77:1 */
-  --bpg-primary-dark:  #155FA3; /* pressed/hover — white on it 6.57:1 */
+  --bpg-ink:           #0E2238; /* headlines and body — 16.1:1 on white */
+  --bpg-navy:          #0E2238; /* dark bands: closing CTA, footer, trust strip */
+  --bpg-navy-soft:     #183252; /* cards and rules on navy */
+  --bpg-on-navy:       #FFFFFF; /* headings on navy — 16.1:1 */
+  --bpg-on-navy-muted: #B9C5D3; /* body on navy — 9.19:1 */
+  --bpg-primary:       #E3B44B; /* THE button fill. Navy text on it 8.35:1 */
+  --bpg-primary-dark:  #D6A53A; /* hover/pressed — navy on it 7.13:1 */
   --bpg-surface:       #FFFFFF; /* card and panel surface */
-  --bpg-background:    #FFFFFF; /* page background — white, like the reference */
-  --bpg-sand:          #F4F7FA; /* alternate band — pale cool grey */
-  --bpg-tint:          #EAF4FB; /* soft blue band (final CTA, evidence cards) */
-  --bpg-tint-res:      #EAF4FB; /* pastel card tints for the three What-we-buy groups */
-  --bpg-tint-land:     #EAF7F1;
-  --bpg-tint-com:      #F3EEFB;
-  --bpg-border:        #DCE4EC; /* DECORATIVE dividers only — no WCAG minimum */
-  --bpg-border-strong: #6F8093; /* input + control boundaries — 3.63:1 on tint, meets 1.4.11 */
-  --bpg-text:          #1E2A36;
-  --bpg-muted:         #4F5E6B; /* secondary text — 5.86:1 on the darkest tint */
+  --bpg-background:    #FFFFFF; /* page background */
+  --bpg-sand:          #F7F4EE; /* alternate band — warm ivory */
+  --bpg-tint:          #EFF3F7; /* cool pale band, icon chips */
+  --bpg-tint-res:      #FFFFFF; /* legacy names: one neutral now, not three hues */
+  --bpg-tint-land:     #FFFFFF;
+  --bpg-tint-com:      #FFFFFF;
+  --bpg-border:        #E2E0DA; /* DECORATIVE dividers only — no WCAG minimum */
+  --bpg-border-strong: #6B7A8A; /* input + control boundaries — 3.94:1 on tint */
+  --bpg-text:          #0E2238;
+  --bpg-muted:         #4A5868; /* secondary text — 6.52:1 on the darkest tint */
 
-  /* Accent is SPLIT, as before. The reference site's sky blue (#2EA3F2) is
-     2.75:1 on white — it cannot carry text of any size — so it survives only
-     as a decorative token. The two working accents:
-       accent      #1E8FE0  3.04:1 on the darkest tint — LARGE text, rules, icons
-       accent-ink  #1668B0  5.06:1 on the darkest tint — small text on light    */
-  --bpg-accent:        #1E8FE0;
-  --bpg-accent-ink:    #1668B0;
-  --bpg-sky:           #2EA3F2; /* decorative only: gradients, glows, never text */
-  --bpg-teal:          #1AA6BB; /* decorative only */
+  /* accent      brass — LARGE text, rules, icons (3.47:1 on the darkest tint)
+     accent-ink  deep blue — links and small text on light (7.59:1)           */
+  --bpg-accent:        #A67A1E;
+  --bpg-accent-ink:    #1B4E86;
+  --bpg-sky:           #E3B44B; /* decorative only (legacy name) */
+  --bpg-teal:          #A67A1E; /* decorative only (legacy name) */
 
-  /* WARM SECONDARY, added 2026-09-17. A single cool accent reads competent and
-     a little cold; the brief is optimistic and high-end. Warmth does that work,
-     and it is split on the same rule as the blue:
-       warm        #A8510A  4.79:1 on the darkest tint — small text, icons
-       warm-bright #F59E0B  2.15:1 on white — DECORATIVE FILLS ONLY, ink on top
-     Accent scarcity still holds: warm marks a different KIND of thing from
-     blue (reassurance, not action), never a second competing call to action. */
-  --bpg-warm:          #A8510A;
-  --bpg-warm-bright:   #F59E0B;
-  --bpg-warm-tint:     #FDF3E7;
-  --bpg-mint:          #EAF7F1;
-  --bpg-lilac:         #F3EEFB;
+  /* warm        small text and icons on light — 5.49:1 on the darkest tint
+     warm-bright the brass fill; navy sits on it, it is never text on light  */
+  --bpg-warm:          #85590B;
+  --bpg-warm-bright:   #E3B44B;
+  --bpg-warm-tint:     #FBF5E9;
+  --bpg-mint:          #F7F4EE;
+  --bpg-lilac:         #EFF3F7;
 
   --bpg-success:       #2F6B4F;
   --bpg-warning:       #8A6212;
 
   --bpg-maxw: 1200px;
-  --bpg-radius: 16px;
-  --bpg-shadow: 0 1px 2px rgba(30, 42, 54, 0.04), 0 10px 30px -12px rgba(30, 42, 54, 0.12);
-  --bpg-shadow-lift: 0 2px 4px rgba(30, 42, 54, 0.05), 0 22px 44px -18px rgba(30, 42, 54, 0.22);
+  --bpg-radius: 14px;
+  --bpg-shadow: 0 1px 2px rgba(14, 34, 56, 0.05), 0 12px 32px -14px rgba(14, 34, 56, 0.14);
+  --bpg-shadow-lift: 0 2px 4px rgba(14, 34, 56, 0.06), 0 26px 50px -20px rgba(14, 34, 56, 0.28);
+  --bpg-shadow-form: 0 2px 6px rgba(14, 34, 56, 0.06), 0 40px 80px -30px rgba(14, 34, 56, 0.38);
 }
 
 @theme inline {
@@ -75,7 +79,7 @@
   --color-accent: var(--bpg-accent);
   --color-accent-ink: var(--bpg-accent-ink);
   --color-warm: var(--bpg-warm);
-  --font-display: var(--font-montserrat), system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-display-face), Georgia, serif;
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
@@ -95,34 +99,35 @@ body {
   outline-offset: 3px;
   border-radius: 4px;
 }
-::selection { background: var(--bpg-accent); color: #fff; }
+::selection { background: var(--bpg-navy); color: #fff; }
 
 /* ── Display scale ──────────────────────────────────────────────────────────
-   Montserrat, semi-bold, open line-height. Clamped so the hero never
+   Source Serif 4, semi-bold. A serif headline over a sans body is the
+   register of a title company or a private bank, not an app. Clamped so the hero never
    overflows a 320px viewport.                                                */
 .display-xl {
-  font-family: var(--font-montserrat), system-ui, sans-serif;
-  font-size: clamp(2.25rem, 5.4vw, 4rem);
-  line-height: 1.08;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display-face), Georgia, "Times New Roman", serif;
+  font-size: clamp(2.3rem, 5.2vw, 4rem);
+  line-height: 1.06;
+  letter-spacing: -0.022em;
   font-weight: 600;
 }
 .display-lg {
-  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-family: var(--font-display-face), Georgia, "Times New Roman", serif;
   font-size: clamp(1.75rem, 3.4vw, 2.6rem);
   line-height: 1.15;
   letter-spacing: -0.015em;
   font-weight: 600;
 }
 .display-md {
-  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-family: var(--font-display-face), Georgia, "Times New Roman", serif;
   font-size: clamp(1.35rem, 2.2vw, 1.8rem);
   line-height: 1.2;
   letter-spacing: -0.01em;
   font-weight: 600;
 }
 .eyebrow {
-  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.14em;
@@ -140,13 +145,22 @@ body {
   transition: background-color .18s ease, border-color .18s ease, transform .18s ease, box-shadow .18s ease;
 }
 .btn:active { transform: translateY(1px); }
-.btn-primary { background: var(--bpg-primary); color: #fff; box-shadow: 0 6px 18px -8px rgba(22, 104, 176, 0.6); }
-.btn-primary:hover { background: var(--bpg-primary-dark); }
-.btn-secondary {
-  background: #fff; color: var(--bpg-accent-ink);
-  border-color: var(--bpg-accent);
+/* Brass fill, navy text: the one saturated thing on the screen. */
+.btn-primary {
+  background: linear-gradient(180deg, #EBC162 0%, var(--bpg-primary) 100%);
+  color: var(--bpg-ink);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), 0 10px 24px -10px rgba(166, 122, 30, 0.75);
 }
-.btn-secondary:hover { background: var(--bpg-tint); border-color: var(--bpg-accent-ink); }
+.btn-primary:hover { background: var(--bpg-primary-dark); transform: translateY(-1px); }
+.btn-primary:disabled { opacity: .7; cursor: default; transform: none; }
+.btn-secondary {
+  background: #fff; color: var(--bpg-ink);
+  border-color: var(--bpg-ink);
+}
+.btn-secondary:hover { background: var(--bpg-ink); color: #fff; }
+/* Secondary on a navy band. */
+.btn-ghost { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.45); }
+.btn-ghost:hover { border-color: #fff; background: rgba(255, 255, 255, 0.08); }
 
 .field {
   width: 100%; min-height: 52px; padding: .8rem 1rem;
@@ -154,7 +168,7 @@ body {
   background: #fff; color: var(--bpg-text); font-size: 1rem;
 }
 .field::placeholder { color: var(--bpg-muted); }
-.field:focus { border-color: var(--bpg-accent-ink); }
+.field:focus { border-color: var(--bpg-ink); outline: 3px solid rgba(227, 180, 75, 0.55); outline-offset: 1px; }
 /* Selects share .field; a drawn chevron replaces the platform arrow. */
 select.field {
   appearance: none; padding-right: 2.5rem; cursor: pointer;
@@ -170,11 +184,11 @@ textarea.field { resize: vertical; line-height: 1.5; }
   transition: background-color .15s ease, border-color .15s ease, color .15s ease;
 }
 .pill-choice:hover { border-color: var(--bpg-accent-ink); }
-.pill-choice.is-on { background: var(--bpg-primary); border-color: var(--bpg-primary); color: #fff; }
+.pill-choice.is-on { background: var(--bpg-navy); border-color: var(--bpg-navy); color: #fff; }
 .pill-choice:has(input:focus-visible) { outline: 3px solid var(--bpg-accent); outline-offset: 2px; }
 
 .wrap { width: 100%; max-width: var(--bpg-maxw); margin-inline: auto; padding-inline: 1.25rem; }
-.rule-accent { height: 3px; width: 56px; background: var(--bpg-accent); border: 0; border-radius: 3px; }
+.rule-accent { height: 2px; width: 48px; background: var(--bpg-primary); border: 0; border-radius: 2px; }
 .rule-accent.centered { margin-inline: auto; }
 
 /* ── Cards ────────────────────────────────────────────────────────────────
@@ -212,41 +226,47 @@ textarea.field { resize: vertical; line-height: 1.5; }
     box-shadow: 0 1px 2px rgba(30, 42, 54, .04);
   }
   .pill svg { height: 1rem; width: 1rem; flex: none; }
+
+  /* The elevated form panel: the single heaviest object on the page. */
+  .form-panel {
+    background: #fff; border: 1px solid var(--bpg-border);
+    border-top: 3px solid var(--bpg-primary);
+    border-radius: var(--bpg-radius); box-shadow: var(--bpg-shadow-form);
+  }
 }
 
 /* ── Decorative washes ────────────────────────────────────────────────────
    Never carry content, never sit under small text at an alpha that would move
    its contrast below the tested pairs — every stop here stays under 0.20.    */
 
-/* Page-header wash: cool on the left, warm on the right. The warm stop is what
-   makes it read as morning rather than as a dashboard. */
+/* Page-header wash: warm paper fading to white. Quiet on purpose. */
 .glow {
   background:
-    radial-gradient(70% 70% at 8% 0%, rgba(46, 163, 242, 0.16), transparent 72%),
-    radial-gradient(55% 60% at 96% 6%, rgba(245, 158, 11, 0.13), transparent 70%),
-    radial-gradient(60% 60% at 70% 100%, rgba(26, 166, 187, 0.10), transparent 72%);
+    radial-gradient(60% 80% at 100% 0%, rgba(227, 180, 75, 0.10), transparent 70%),
+    linear-gradient(180deg, var(--bpg-sand) 0%, #FFFFFF 100%);
 }
 
-/* Stronger version for the homepage hero only. */
+/* Homepage hero: the same paper, with a little more light behind the form. */
 .glow-hero {
   background:
-    radial-gradient(60% 55% at 12% -5%, rgba(46, 163, 242, 0.20), transparent 70%),
-    radial-gradient(50% 55% at 88% 0%, rgba(245, 158, 11, 0.16), transparent 68%),
-    radial-gradient(70% 60% at 50% 108%, rgba(26, 166, 187, 0.14), transparent 70%);
+    radial-gradient(45% 60% at 82% 30%, rgba(227, 180, 75, 0.16), transparent 70%),
+    linear-gradient(180deg, var(--bpg-sand) 0%, #FFFFFF 100%);
 }
 
-/* Closing band: warmer still, so the page ends on the brighter note. */
+/* Closing band: navy. The page ends on its most serious note, with the one
+   brass button on it. */
 .glow-close {
   background:
-    linear-gradient(180deg, var(--bpg-tint) 0%, #F2F8FD 55%, var(--bpg-warm-tint) 100%),
-    radial-gradient(50% 60% at 85% 20%, rgba(245, 158, 11, 0.14), transparent 70%);
+    radial-gradient(50% 70% at 85% 0%, rgba(227, 180, 75, 0.14), transparent 70%),
+    var(--bpg-navy);
 }
 
 /* Hairline of colour above the footer — the one place a full-saturation
    gradient is safe, because nothing reads on top of it. */
 .accent-rule {
   height: 3px; border: 0;
-  background: linear-gradient(90deg, var(--bpg-sky), var(--bpg-teal) 45%, var(--bpg-warm-bright));
+  background: linear-gradient(90deg, transparent, var(--bpg-primary) 50%, transparent);
+  opacity: .7;
 }
 
 @media (prefers-reduced-motion: reduce) {

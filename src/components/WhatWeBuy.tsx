@@ -38,19 +38,19 @@ const COMMERCIAL = [
 ];
 
 /**
- * Each group carries its own tint and chip colour. Three quiet hues rather than
- * one repeated: the groups are genuinely different kinds of property, and the
- * colour is doing that work rather than decorating.
+ * One treatment for all three groups. They used to carry three pastel hues;
+ * the label already says which kind of property it is, and nine cards in one
+ * quiet style read as a considered list rather than a colour chart.
  */
 const GROUPS = [
-  { label: "Residential", items: RESIDENTIAL, tint: "var(--bpg-tint-res)", chip: "#DCEBF9", ink: "var(--bpg-accent-ink)" },
-  { label: "Land", items: LAND, tint: "var(--bpg-tint-land)", chip: "#D8EFE3", ink: "var(--bpg-success)" },
-  { label: "Commercial", items: COMMERCIAL, tint: "var(--bpg-tint-com)", chip: "#E7DEF6", ink: "#5B3FA8" },
+  { label: "Residential", items: RESIDENTIAL },
+  { label: "Land", items: LAND },
+  { label: "Commercial", items: COMMERCIAL },
 ];
 
 export default function WhatWeBuy() {
   return (
-    <section className="wrap py-20 sm:py-24" aria-labelledby="what-we-buy">
+    <section className="wrap py-20 sm:py-28" aria-labelledby="what-we-buy">
       <div className="text-center">
         <hr className="rule-accent centered" />
         <h2 id="what-we-buy" className="display-lg mt-6 text-[var(--bpg-ink)]">
@@ -64,11 +64,14 @@ export default function WhatWeBuy() {
       <div className="mt-12 space-y-12">
         {GROUPS.map((g) => (
           <div key={g.label}>
-            <h3 className="eyebrow text-[var(--bpg-accent-ink)]">{g.label}</h3>
+            <h3 className="eyebrow flex items-center gap-3 text-[var(--bpg-warm)]">
+              {g.label}
+              <span aria-hidden="true" className="h-px flex-1 bg-[var(--bpg-border)]" />
+            </h3>
             <div className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {g.items.map((i) => (
-                <div key={i.t} className="card card-tint card-lift p-7" style={{ background: g.tint }}>
-                  <span className="chip" style={{ background: g.chip, color: g.ink }}>
+                <div key={i.t} className="card card-lift p-7">
+                  <span className="chip bg-[var(--bpg-tint)] text-[var(--bpg-ink)]">
                     <i.Icon />
                   </span>
                   <h4 className="mt-4 text-[1.05rem] font-semibold text-[var(--bpg-ink)]">{i.t}</h4>

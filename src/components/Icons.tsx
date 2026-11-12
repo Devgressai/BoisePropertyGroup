@@ -162,3 +162,11 @@ export function IconWarehouse(p: IconProps) {
     </Svg>
   );
 }
+
+export function IconCheck(p: IconProps) {
+  return (
+    <Svg {...p}>
+      <path d="m5 12.5 4.5 4.5L19 7.5" />
+    </Svg>
+  );
+}

@@ -30,7 +30,17 @@ import {
  * Copy rule: only owner-confirmed business facts. No response-time promise —
  * none has been confirmed.
  */
-export default function OfferForm({ context = "residential" }: { context?: LeadContext }) {
+export default function OfferForm({
+  context = "residential",
+  bare = false,
+  stack = false,
+}: {
+  context?: LeadContext;
+  /** Sits inside a panel that already draws the card, so it draws none of its own. */
+  bare?: boolean;
+  /** Narrow column: the address field and the button stack at every width. */
+  stack?: boolean;
+}) {
   const uid = useId();
   const [address, setAddress] = useState("");
   const [step, setStep] = useState<1 | 2 | 3>(1);
@@ -129,7 +139,7 @@ export default function OfferForm({ context = "residential" }: { context?: LeadC
     const first = d.name.trim().split(/\s+/)[0];
     const how = d.contactPref === "email" ? "by email" : d.contactPref === "text" ? "by text" : "by phone";
     return (
-      <div ref={doneRef} tabIndex={-1} className="card p-6 text-left outline-none" aria-live="polite">
+      <div ref={doneRef} tabIndex={-1} className={`${bare ? "" : "card p-6 "}text-left outline-none`} aria-live="polite">
         <p className="text-[1.05rem] font-semibold text-[var(--bpg-ink)]">Thanks{first ? `, ${first}` : ""} — we have everything we need.</p>
         <p className="mt-2 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">
           {context === "commercial"
@@ -143,7 +153,7 @@ export default function OfferForm({ context = "residential" }: { context?: LeadC
   if (step === 2) {
     const lab = "mb-1.5 block text-sm font-medium text-[var(--bpg-ink)]";
     return (
-      <form onSubmit={submitDetails} noValidate className="card p-6 text-left" aria-labelledby={`${uid}-h`}>
+      <form onSubmit={submitDetails} noValidate className={`${bare ? "" : "card p-6 "}text-left`} aria-labelledby={`${uid}-h`}>
         <p id={`${uid}-h`} className="text-[1.05rem] font-semibold text-[var(--bpg-ink)]">
           Got it — we have the address.
         </p>
@@ -256,7 +266,7 @@ export default function OfferForm({ context = "residential" }: { context?: LeadC
       <label htmlFor={`${uid}-address`} className="sr-only">
         Property address
       </label>
-      <div className="flex flex-col gap-3 sm:flex-row">
+      <div className={`flex flex-col gap-3 ${stack ? "" : "sm:flex-row"}`}>
         <input
           id={`${uid}-address`}
           name="address"

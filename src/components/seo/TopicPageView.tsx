@@ -38,7 +38,7 @@ export default function TopicPageView({ page }: { page: TopicPage }) {
               <span className="mx-2" aria-hidden="true">/</span>
               <Link href={parent.href} className="no-underline hover:text-[var(--bpg-ink)]">{parent.label}</Link>
             </nav>
-            <p className="eyebrow text-[var(--bpg-accent)]">{page.eyebrow}</p>
+            <p className="eyebrow text-[var(--bpg-warm)]">{page.eyebrow}</p>
             <h1 className="display-lg mt-4 max-w-[22ch] text-[var(--bpg-ink)]">{page.h1}</h1>
             <p className="mt-5 text-sm text-[var(--bpg-muted)]">
               Updated <time dateTime={page.updated}>{fmt(page.updated)}</time>

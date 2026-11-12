@@ -15,7 +15,7 @@ const DESCRIPTION =
 export const metadata: Metadata = pageMetadata({ path: "/contact", title: TITLE, description: DESCRIPTION });
 
 const NEXT = [
-  { t: "You send the address", d: "Then a name and a phone number or email, so we can send you the number." },
+  { t: "You send the address", d: "Then your name and a phone number, so we can reach you with the number." },
   { t: "We do the arithmetic", d: "We look at the parcel record and the property and build an offer you can check line by line." },
   { t: "You decide, and you set the date", d: "No obligation. If you accept, the sale closes through a local title company on the date you choose. A three-week close is realistic." },
 ];
@@ -29,7 +29,7 @@ export default function Contact() {
         <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap grid gap-12 lg:grid-cols-[1fr_minmax(0,34rem)] lg:items-start">
             <div>
-              <p className="eyebrow text-[var(--bpg-accent)]">Contact</p>
+              <p className="eyebrow text-[var(--bpg-warm)]">Contact</p>
               <h1 className="display-xl mt-4 max-w-[16ch] text-[var(--bpg-ink)]">Start with the address</h1>
               <p className="lede mt-6 max-w-[38rem] text-[var(--bpg-muted)]">
                 Houses, land, multifamily at any size, office or industrial. Tell us where it is and
@@ -58,7 +58,9 @@ export default function Contact() {
 
             {/* id="offer": the navbar and mobile bar link to #offer on every page. */}
             <div id="offer" className="scroll-mt-24 lg:sticky lg:top-24">
-              <OfferForm />
+              <div className="form-panel p-6 sm:p-7">
+                <OfferForm bare />
+              </div>
             </div>
           </div>
         </header>

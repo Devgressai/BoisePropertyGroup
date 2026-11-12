@@ -59,7 +59,7 @@ export default function PlacePage({
               <span className="mx-2" aria-hidden="true">/</span>
               <Link href="/locations" className="no-underline hover:text-[var(--bpg-ink)]">Areas</Link>
             </nav>
-            <p className="eyebrow text-[var(--bpg-accent)]">{eyebrow}</p>
+            <p className="eyebrow text-[var(--bpg-warm)]">{eyebrow}</p>
             <h1 className="display-xl mt-4 max-w-[18ch] text-[var(--bpg-ink)]">{title}</h1>
             <div className="mt-8 max-w-[42rem] space-y-4">
               {content.intro.map((p) => (

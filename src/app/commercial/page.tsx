@@ -34,7 +34,7 @@ export default function CommercialHub() {
       <main id="main" className="pb-20 lg:pb-0">
         <header className="glow border-b border-[var(--bpg-border)] py-16 sm:py-20">
           <div className="wrap">
-            <p className="eyebrow text-[var(--bpg-accent)]">Commercial</p>
+            <p className="eyebrow text-[var(--bpg-warm)]">Commercial</p>
             <h1 className="display-xl mt-4 max-w-[20ch] text-[var(--bpg-ink)]">
               Commercial property, valued on what it earns
             </h1>
