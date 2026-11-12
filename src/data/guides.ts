@@ -137,6 +137,16 @@ export const guides: Guide[] = [
     published: "2026-11-12",
     updated: "2026-11-12",
   },
+  {
+    slug: "idaho-property-taxes-when-you-sell",
+    title: "Idaho Property Taxes When You Sell a House",
+    h1: "What happens to Idaho property taxes when you sell a house",
+    description:
+      "The January 1 lien, the December and June due dates, why the homeowner's exemption does not pass to a buyer, and what a sale does to tax relief and deferrals.",
+    cluster: "property-tax",
+    published: "2026-11-12",
+    updated: "2026-11-12",
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {

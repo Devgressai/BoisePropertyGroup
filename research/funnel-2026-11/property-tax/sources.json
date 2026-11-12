@@ -1,0 +1,474 @@
+{
+  "sources": [
+    {
+      "id": "idcode-63-205",
+      "title": "Idaho Code § 63-205 — Assessment — Market value for assessment purposes",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch2/sect63-205/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1996",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12. Never amended since 1996. States the ASSESSMENT date only; not a lien provision.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-assessment-as-of-jan-1"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-903",
+      "title": "Idaho Code § 63-903 — When payable",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch9/sect63-903/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12. Last amended 2026 ch. 20 (H0594), effective 07/01/2026 per the bill page — in force.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-taxes-due-dec-20-two-halves",
+        "pt-late-charges-if-half-unpaid"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-308",
+      "title": "Idaho Code § 63-308 — Valuation assessment notice to be furnished to the taxpayer",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch3/sect63-308/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12. ⚠️ Page displays a superseded '[EFFECTIVE UNTIL JANUARY 1, 2024]' version above the current '[effective january 1, 2024]' version; quote only the latter.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-assessment-notice-first-monday-june"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-501a",
+      "title": "Idaho Code § 63-501A — Taxpayer's right to appeal",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch5/sect63-501a/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2012",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-appeal-deadline-fourth-monday-june"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-502",
+      "title": "Idaho Code § 63-502 — Function of board of equalization on assessments",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch5/sect63-502/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2003",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-boe-burden-preponderance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-702",
+      "title": "Idaho Code § 63-702 — Reduction in property taxes or occupancy taxes — Claim is personal — Exceptions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch7/sect63-702/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-circuit-breaker-occupancy-window",
+        "pt-circuit-breaker-personal-to-claimant"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-704",
+      "title": "Idaho Code § 63-704 — Amount of property tax or occupancy tax reduction",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch7/sect63-704/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-circuit-breaker-current-year-only"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-705",
+      "title": "Idaho Code § 63-705 — Publication of changes in income limitations and property tax or occupancy tax reduction amounts",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch7/sect63-705/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-circuit-breaker-max-and-value-threshold"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-716",
+      "title": "Idaho Code § 63-716 — Deferral — Interest — Lien — Priority",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch7/sect63-716/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-deferral-recorded-lien"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-718",
+      "title": "Idaho Code § 63-718 — Events terminating deferral — Payment of deferred tax and interest",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch7/sect63-718/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2013",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-12). Compiler's history note copied verbatim into each claim's amendmentHistory. No [EFFECTIVE …] alternate version displayed on 2026-11-12.",
+      "stalenessRisk": "LOW — re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "pt-deferral-ends-on-sale-180-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idleg-2026-h0843",
+      "title": "House Bill 843 (2026) — bill status page",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0843/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "legislation"
+      ],
+      "publicationDate": "2026-03-06",
+      "updatedDate": "2026-03-31",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official legislative record. States: 'Amends existing law to eliminate proration of the homestead property tax exemption'; signed by the Governor March 31, 2026; Session Law Chapter 236; 'Effective: Retroactive to 01/01/2026'. Those strings are HTML-entity-encoded (&#160;) in the cache, so they are cited, not quoted; the quotable effective-date language is in the printed bill (idleg-2026-h0843-text). The 2026 legislation index (fetched to scratch, not cached) lists the chapter-236 row as 'Homestead exemption, proration | 03/31/26 | Retroactive to 01/01/2026'.",
+      "stalenessRisk": "NONE — historical record of an enacted bill.",
+      "claimsSupported": [
+        "pt-homestead-exemption-cap-in-force-2026",
+        "pt-h0843-retroactive-jan-1-2026"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idleg-2026-h0843-text",
+      "title": "House Bill 843 (2026) — printed bill text (PDF)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0843.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "legislation"
+      ],
+      "publicationDate": "2026-03-09",
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Printed bill as introduced, cached as PDF and extracted with scripts/research/extract-pdf-text.mjs to data/idaho/raw/extracted/dea662824b1ba20c.txt. SECTION 2 is the emergency and retroactivity clause. pdftotext does not show strike-through/underline, so deleted and inserted statute text run together: never quote 63-602G from this file. Bill passed both chambers without recorded amendment; the enrolled session-law text was not separately retrieved.",
+      "stalenessRisk": "NONE — historical record.",
+      "claimsSupported": [
+        "pt-homestead-exemption-cap-in-force-2026",
+        "pt-h0843-retroactive-jan-1-2026"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idleg-2026-h0843-sop",
+      "title": "House Bill 843 (2026) — Statement of Purpose / Fiscal Note (PDF)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0843SOP.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "legislation"
+      ],
+      "publicationDate": "2026-03-06",
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Sponsor's statement, extracted to data/idaho/raw/extracted/4d61c52e554f7a03.txt. Carries its own disclaimer (Joint Rule 18): prepared by a proponent; not an expression of legislative intent. Use only to describe what the bill changed, alongside the statute text.",
+      "stalenessRisk": "NONE — historical record.",
+      "claimsSupported": [
+        "pt-h0843-sop-removes-proration"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idleg-2026-h0594",
+      "title": "House Bill 594 (2026) — bill status page",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0594/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "payment",
+        "legislation"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-03-12",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official legislative record for the 2026 amendment to 63-903 (Session Law Chapter 20): 'Amends existing law to revise provisions regarding late charges and interest on certain taxes due and the apportionment of collected late charges and interest to taxing districts.' Signed March 12, 2026; 'Effective: 07/01/2026' (entity-encoded; cited for the effective date, not quoted).",
+      "stalenessRisk": "NONE — historical record.",
+      "claimsSupported": [
+        "pt-taxes-due-dec-20-two-halves"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-treasurer-faq",
+      "title": "Frequently Asked Questions — Ada County Treasurer",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/treasurer/calculation-of-property-taxes/frequently-asked-questions/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-taxes",
+        "payment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official county page, raw HTML cached 2026-11-12. Contains a dated table for the 2025 tax year (Dec 20 2025 / June 20 2026) and a stale-looking deferral date ('by September 3, 2024') — neither is used. ⚠️ The table's '(January – June 2025)' / '(July – December 2025)' labels are descriptive, not a buyer/seller proration rule.",
+      "stalenessRisk": "MEDIUM — the county revises the FAQ table each tax year; re-check before the next billing cycle.",
+      "claimsSupported": [
+        "pt-ada-billed-november-due-december",
+        "pt-ada-late-charge-and-interest-rates",
+        "pt-ada-faq-bill-shows-exemption"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-treasurer-tax-dates",
+      "title": "Important Tax Dates — Ada County Treasurer",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/treasurer/calculation-of-property-taxes/remember-important-tax-dates/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-taxes",
+        "payment"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official county page, raw HTML cached 2026-11-12. Month-by-month calendar. ⚠️ Its February line ('This bill is for the assessment of property from the date of an ownership change to December 31st') describes the missed roll in terms that may pre-date the 2026 removal of exemption proration; it is NOT used and should not be.",
+      "stalenessRisk": "LOW — calendar tracks statute.",
+      "claimsSupported": [
+        "pt-ada-billed-november-due-december"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-assessor-assessment-notices-appeals",
+      "title": "Assessment Notices and Appeals — Ada County Assessor",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/assessor/property-assessments-records/assessment-notices-appeals/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-taxes",
+        "assessment",
+        "appeals"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official county page, raw HTML cached 2026-11-12. ⚠️ Two statements diverge from statute: subsequent-roll notices 'no later than the fourth Monday in November' (63-308(7) says third Monday), and a quoted 'clear and convincing evidence' standard (63-502 says preponderance suffices before the board). Neither is used.",
+      "stalenessRisk": "LOW.",
+      "claimsSupported": [
+        "pt-ada-appeal-filed-with-commissioners",
+        "pt-ada-notices-online"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-assessor-circuit-breaker",
+      "title": "Property Tax Reduction Program — Ada County Assessor",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/assessor/tax-relief-programs/circuit-breaker-tax-reduction/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-taxes",
+        "tax-relief"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official county page, raw HTML cached 2026-11-12. Corroborates the $1,500 maximum (63-705) and the January 1–April 15 window.",
+      "stalenessRisk": "LOW — income limits it links to change annually; none are used.",
+      "claimsSupported": [
+        "pt-ada-circuit-breaker-apply-each-year"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

@@ -65,11 +65,26 @@ commercial grids do not) and this site's own GSC (2026-11-11: 15/25 indexed,
 4. **GEO/AEO** — keep llms.txt generated; add per-guide "key facts" lists
    (claim-backed) that answer engines can lift verbatim.
 
+## Shipped 2026-11-12 (waves 1–3)
+
+| Stage | Pages |
+|---|---|
+| TOFU guides (12) | 6 originals + probate, divorce, liens & judgments, how a sale closes, well & septic, property taxes when you sell |
+| MOFU decision (3) | `/cash-offer-vs-listing-idaho`, `/how-we-calculate-an-offer`, `/how-to-check-a-cash-buyer-in-idaho` |
+| BOFU situation (7) | `/sell-inherited-house-idaho`, `/sell-house-as-is-idaho`, `/sell-rental-property-idaho`, `/sell-house-before-foreclosure-idaho`, `/sell-land-idaho`, `/sell-manufactured-home-idaho`, `/sell-house-divorce-idaho` |
+
+Topic pages live in `src/data/topic-pages.ts`, gated by `lib/seo/topicIndexation.ts`.
+Research for each new guide is in `research/funnel-2026-11/<topic>/` (NOTES.md
+lists what could NOT be sourced — read it before editing a guide). Merge a new
+reviewed folder with `node scripts/research/merge-funnel-topic.mjs <topic> [--as decision]`,
+then `sync-sources` → `build-claims` → `npm run check:local`.
+
+Measure from ~2026-12-15: `gsc inspect` (indexation of the 15 new URLs) and
+GSC performance by registry stage.
+
 ## Owner blockers that cap everything above
 
-- **Lead form is DOWN** (`/api/offer` → 500 "Lead delivery not configured"):
-  Resend DNS records not added, `RESEND_API_KEY` + `LEAD_TO_EMAIL` not set in
-  Vercel. Every CTA on the site currently fails.
+- ~~Lead form down~~ — FIXED 2026-11-12, leads go to the owner's inbox.
 - **No analytics** — funnel stages cannot be measured. Needs a GA4 property
   (and a consent decision) or Vercel Web Analytics enabled.
 - NAP (phone/address/entity) and real reviews — unlock LocalBusiness schema

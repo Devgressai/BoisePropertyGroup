@@ -176,7 +176,7 @@
       "futureDatedAmendment": false,
       "approvedForPublication": true,
       "verifiedOn": "2026-09-09",
-      "notes": "⚠️ TERMINOLOGY TRAP: this is NOT Idaho Code 55-1003 (creditor-protection homestead, $125,000 vs $175,000 caps, different purposes). Ada County's own site calls both 'Homestead Exemption'. Any page using that phrase must say which is meant. FUTURE-DATING CHECKED: the statute page states 'Idaho Statutes are updated to the website July 1 following the legislative session'; the most recent amendment is 2026 ch. 236 and, today being after 1 July 2026, the displayed text is in force. The $125,000 figure is independently corroborated by the Ada County Assessor. The acreage limit is NOT in this section — see id-homestead-one-acre-limit. 🚨 RED-TEAM FINDING 1: the effective date of the 2026 amendment (ch. 236) is UNCONFIRMED. The statute page carries no effective-date line, and a secondary result suggests 1 January 2026, which does not reconcile with the site's July-1 posting convention. The $125,000 figure is independently corroborated by the Ada County Assessor, so the figure itself is unlikely to be wrong, but the 2026 session law must be read before any page states this exemption. ⚠️ amendmentHistory REPAIRED 2026-09-10. The stored string was ELIDED — it read 'added 1996, ch. 98, sec. 7 ... am. 2024' with a literal ellipsis standing in for roughly twenty amendments. Rendering that under the verbatim rule would have presented an abridged quote as a whole one, which is the precise failure the quote regime exists to prevent. Replaced with the compiler's complete history note from the cached statute page. The elision was invisible for as long as it existed because nothing verified amendmentHistory at all; verify-quotes now checks it against the cache like any other verbatim string.",
+      "notes": "⚠️ TERMINOLOGY TRAP: this is NOT Idaho Code 55-1003 (creditor-protection homestead, $125,000 vs $175,000 caps, different purposes). Ada County's own site calls both 'Homestead Exemption'. Any page using that phrase must say which is meant. FUTURE-DATING CHECKED: the statute page states 'Idaho Statutes are updated to the website July 1 following the legislative session'; the most recent amendment is 2026 ch. 236 and, today being after 1 July 2026, the displayed text is in force. The $125,000 figure is independently corroborated by the Ada County Assessor. The acreage limit is NOT in this section — see id-homestead-one-acre-limit. 🚨 RED-TEAM FINDING 1: the effective date of the 2026 amendment (ch. 236) is UNCONFIRMED. The statute page carries no effective-date line, and a secondary result suggests 1 January 2026, which does not reconcile with the site's July-1 posting convention. The $125,000 figure is independently corroborated by the Ada County Assessor, so the figure itself is unlikely to be wrong, but the 2026 session law must be read before any page states this exemption. ⚠️ amendmentHistory REPAIRED 2026-09-10. The stored string was ELIDED — it read 'added 1996, ch. 98, sec. 7 ... am. 2024' with a literal ellipsis standing in for roughly twenty amendments. Rendering that under the verbatim rule would have presented an abridged quote as a whole one, which is the precise failure the quote regime exists to prevent. Replaced with the compiler's complete history note from the cached statute page. The elision was invisible for as long as it existed because nothing verified amendmentHistory at all; verify-quotes now checks it against the cache like any other verbatim string. SUPERSEDED 2026-11-12 by pt-homestead-exemption-cap-in-force-2026, which verifies the 2026 amendment (ch. 236, H0843) took effect retroactively to 2026-01-01. Keep this one held; cite the new id.",
       "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]",
       "verificationFlag": "EFFECTIVE_DATE_UNCONFIRMED"
     },
@@ -6414,6 +6414,710 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-11-12",
       "notes": "Mortgage-relief context. Apply only to 'a buyer or company asking the seller to pay money'."
+    },
+    {
+      "id": "pt-assessment-as-of-jan-1",
+      "claim": "Idaho requires all taxable real, personal and operating property to be assessed annually at market value for assessment purposes as of 12:01 a.m. on January 1 of the year in which the taxes are levied, except as otherwise provided.",
+      "quotedLanguage": "All real, personal and operating property subject to property taxation must be assessed annually at market value for assessment purposes as of 12:01 a.m. of the first day of January in the year in which such property taxes are levied, except as otherwise provided.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "assessment"
+      ],
+      "sourceIds": [
+        "idcode-63-205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-205 added 1996, ch. 98, sec. 3, p. 321.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "This is the ASSESSMENT date, not the lien date. 63-205 says nothing about liens — do not cite it for the lien. The lien is 63-206 (real property; existing claim ln-property-tax-first-lien-perpetual) and the January 1 lien date for real property is stated by the Ada County Assessor (pt-ada-lien-date-jan-1)."
+    },
+    {
+      "id": "pt-ada-lien-date-jan-1",
+      "claim": "The Ada County Assessor states that the lien date for real property and most personal property is January 1.",
+      "quotedLanguage": "The lien date for real property and most personal property is January 1.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "liens"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Same cached page as existing claim ada-assessment-market-value-jan-1, whose quotedLanguage carries only the market-value sentence; this claim puts the lien-date sentence itself on record so it can be quoted. County guidance, not statute — attribute to the Assessor."
+    },
+    {
+      "id": "pt-taxes-due-dec-20-two-halves",
+      "claim": "Idaho property taxes are due in full by December 20 of the year they are levied, or may be paid in two halves: the first by December 20, with a grace period to June 20 for the second half if the first half is paid in full.",
+      "quotedLanguage": "All property taxes extended on the property and operating property rolls shall be due and payable in full to the tax collector without late charges and interest on or before December 20 of the year in which the property taxes are levied. The property taxes may be paid in full or paid in two (2) halves, the first half on or before December 20 with a grace period extending to June 20 for the second half if the first half is totally paid.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "payment"
+      ],
+      "sourceIds": [
+        "idcode-63-903",
+        "idleg-2026-h0594"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-903 added 1996, ch. 98, sec. 10, p. 378; am. 2018, ch. 69, sec. 1, p. 164; am. 2025, ch. 202, sec. 4, p. 922; am. 2026, ch. 20, sec. 1, p. 107.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "FUTURE-DATING CHECKED 2026-11-12: last amendment 2026 ch. 20 (H0594), which the Legislature's bill page shows as 'Effective: 07/01/2026' — already in force, and the section page shows no [EFFECTIVE ...] alternate version. H0594 concerned late charges/interest and their apportionment; the December 20 / June 20 structure is the text displayed now."
+    },
+    {
+      "id": "pt-late-charges-if-half-unpaid",
+      "claim": "If the first half of Idaho property tax is not fully paid by December 20, or the second half by June 20, late charges and interest are assessed.",
+      "quotedLanguage": "If the first one-half (1/2) is not totally paid on or before December 20, late charges as defined in section 63-201, Idaho Code, and interest as provided in section 63-1001, Idaho Code, shall be assessed. ... If the second one-half (1/2) is not totally paid on or before June 20, late charges as defined in section 63-201, Idaho Code, and interest as provided in section 63-1001, Idaho Code, shall be assessed.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "payment",
+        "delinquency"
+      ],
+      "sourceIds": [
+        "idcode-63-903"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-903 added 1996, ch. 98, sec. 10, p. 378; am. 2018, ch. 69, sec. 1, p. 164; am. 2025, ch. 202, sec. 4, p. 922; am. 2026, ch. 20, sec. 1, p. 107.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The statute defines the charges by cross-reference; the percentages on the page come from the Ada County Treasurer (pt-ada-late-charge-and-interest-rates), not from this section."
+    },
+    {
+      "id": "pt-ada-billed-november-due-december",
+      "claim": "The Ada County Treasurer explains that values assessed as of January 1 are used for taxes billed in November and due in December of the same year, with primary-roll bills mailed by the fourth Monday in November.",
+      "quotedLanguage": "Property values in Idaho are assessed as of January 1 and billed and due later that same year. For example, values assessed on January 1, are used to determine your taxes that will be billed in November and due in December. ... the Treasurer’s Office to prepare the current year’s Primary Roll tax bills to be mailed out by the fourth Monday in November.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "payment"
+      ],
+      "sourceIds": [
+        "ada-treasurer-faq",
+        "ada-treasurer-tax-dates"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The practical consequence for a seller: a sale that closes before late November closes before that year's bill exists. Stating that consequence is arithmetic on these dates, not a rule about who pays. ⚠️ The same FAQ page labels the installments '1st half of 2025 taxes (January – June 2025)' and '2nd half … (July – December 2025)'. That is the Treasurer's description of the installments, NOT a statutory proration rule between buyer and seller — never cite it as one."
+    },
+    {
+      "id": "pt-ada-late-charge-and-interest-rates",
+      "claim": "The Ada County Treasurer states that a missed December installment draws a 2% late charge plus interest at 1% per month from the following January 1, and that payments are applied to the oldest tax balance first.",
+      "quotedLanguage": "If the December installment is not paid by the deadline, a 2% late charge is added, along with interest at 1% per month beginning January 1 following the due date. ... Payments are applied to the oldest tax balance first.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "payment",
+        "delinquency"
+      ],
+      "sourceIds": [
+        "ada-treasurer-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "County statement of current practice. The statutory definitions are in 63-201 and 63-1001, which were NOT read for this page — attribute the figures to the Treasurer. 'Oldest balance first' matters to a seller with arrears: a payment intended for the current year may go to an older delinquency."
+    },
+    {
+      "id": "pt-ada-faq-bill-shows-exemption",
+      "claim": "The Ada County Treasurer says a consolidated property tax bill reflects the homestead exemption, which can also be checked on the Assessor's website.",
+      "quotedLanguage": "Your consolidated property tax bill will reflect your homestead exemption, or your can view that information on the Assessor’s website.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "ada-treasurer-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "'your can view' is the county's typo, kept verbatim."
+    },
+    {
+      "id": "pt-homestead-exemption-cap-in-force-2026",
+      "claim": "Idaho's homeowner's (homestead) property-tax exemption is the lesser of the first $125,000 of the homestead's market value for assessment purposes or 50% of that value; the text displayed on 2026-11-12 reflects the section's latest amendment (2026 ch. 236, H0843), which took effect retroactively to January 1, 2026, and no later-dated version is displayed.",
+      "quotedLanguage": "For each tax year, the first one hundred twenty-five thousand dollars ($125,000) of the market value for assessment purposes of the homestead as that term is defined in section 63-701, Idaho Code, or fifty percent (50%) of the market value for assessment purposes of the homestead as that term is defined in section 63-701, Idaho Code, whichever is the lesser, shall be exempt from property taxation.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "idcode-63-602g",
+        "idleg-2026-h0843",
+        "idleg-2026-h0843-text",
+        "ada-assessor-homeowners-exemption"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "🎯 RESOLVES red-team FINDING 1 (verificationFlag EFFECTIVE_DATE_UNCONFIRMED on existing claim id-homeowners-tax-exemption-125k). Chain of evidence, all cached 2026-11-12: (1) the section page shows the 2026 ch. 236 amendment as the latest and carries no [EFFECTIVE …] alternate text (re-fetched today and compared: byte-identical to the 2026-09-09 cache); (2) the Legislature's H0843 bill page reads 'Signed by Governor on March 31, 2026 … Session Law Chapter 236 … Effective: Retroactive to 01/01/2026' (entity-encoded, so it is cited but not quoted); (3) the printed bill's SECTION 2 declares an emergency and makes the act effective 'retroactively to January 1, 2026' (claim pt-h0843-retroactive-jan-1-2026); (4) the Statement of Purpose says the change was the removal of proration; (5) the Ada County Assessor independently states 50% up to a maximum of $125,000. No other 2026 bill amending 63-602G passed (H0885 and H0961 remained in committee per the 2026 legislation index). This duplicates the existing claim's quote ON PURPOSE because the existing claim is held back at render by its flag; a reviewer may instead clear that flag and swap ids. ⚠️ Still a TERMINOLOGY TRAP: not 55-1003 (creditor homestead, $175,000)."
+    },
+    {
+      "id": "pt-h0843-retroactive-jan-1-2026",
+      "claim": "House Bill 843 of 2026, which amended Idaho Code 63-602G, declared an emergency and took effect on passage and approval and retroactively to January 1, 2026.",
+      "quotedLanguage": "AMENDING SECTION 63-602G, IDAHO CODE, TO REVISE PROVI- ... An emergency existing therefor, which emergency is hereby ... declared to exist, this act shall be in full force and effect on and after its ... passage and approval, and retroactively to January 1, 2026.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "legislation"
+      ],
+      "sourceIds": [
+        "idleg-2026-h0843-text",
+        "idleg-2026-h0843"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Quoted from the pdftotext extraction of the PRINTED bill (data/idaho/raw/extracted/dea662824b1ba20c.txt). The PDF carries line numbers in the margin, so the quote is split on each printed line; each fragment is verbatim. The bill page records no amendment between printing and passage (passed House 68-0-2 and Senate 32-0-3 as printed). The enrolled session-law PDF was not separately retrieved. pdftotext does not render strike-through, so struck and new text appear run together in the extraction — never quote statute text from this PDF; quote the section page."
+    },
+    {
+      "id": "pt-h0843-sop-removes-proration",
+      "claim": "The sponsor's Statement of Purpose for H0843 says the bill removes provisions requiring the homeowner's exemption to be prorated when a property's eligibility status changes during the tax year.",
+      "quotedLanguage": "The bill removes provisions requiring the exemption to be prorated when the eligibility status of a property changes during the tax year.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "legislation"
+      ],
+      "sourceIds": [
+        "idleg-2026-h0843-sop"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "MEDIUM because the SOP carries its own disclaimer: it is 'prepared by a proponent of the bill' and is 'neither intended as an expression of legislative intent'. Use only to explain WHAT changed, and pair with the operative statute text (pt-homestead-exemption-not-prorated)."
+    },
+    {
+      "id": "pt-homestead-exemption-not-prorated",
+      "claim": "Under Idaho Code 63-602G(5) as now in force, the full homeowner's exemption applies as of January 1 of the tax year in which a complete application is submitted and approved, the exemption is not prorated, and the application for the current year is due by the end of the county's business hours on the last business day of the year.",
+      "quotedLanguage": "The full amount of the exemption allowed by this section shall be in effect as of January 1 of the tax year in which a complete application is submitted and approved, and shall be taken before the reductions in taxes provided in sections 63-701 through 63-710, Idaho Code, are applied. The exemption allowed by this section shall not be prorated. In order to receive the exemption for the current tax year, the homeowner shall make application on or before the end of the county's normal business hours on the last business day of the year.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "idcode-63-602g"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ This is about the EXEMPTION, not about splitting the tax bill between buyer and seller — that split is contractual and no statute read for this page sets it. Before 2026 the section's (5)(b) prorated taxes by day count on an eligibility change (visible in the printed H0843); that text is gone as of 1 Jan 2026. Older secondary material describing day-count proration of the exemption is now stale."
+    },
+    {
+      "id": "pt-homestead-apply-once-conditions",
+      "claim": "An Idaho homeowner need apply for the exemption only once so long as the owner received it the previous year on a valid application and still occupies the same homestead as a primary dwelling.",
+      "quotedLanguage": "An owner need make application for the exemption described in subsection (1) of this section only once, as long as all of the following conditions are met: ... The owner or beneficiary, partner, member or shareholder, as appropriate, still occupies the same homestead for which the owner made application.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "idcode-63-602g"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Pairs with existing ada-homeowners-exemption-deadline and pt-ada-new-owner-must-apply: a sale breaks the 'same owner, same homestead' condition, so the buyer applies afresh."
+    },
+    {
+      "id": "pt-ada-new-owner-must-apply",
+      "claim": "The Ada County Assessor states that an approved homestead exemption lasts as long as the owner owns and occupies the property, and that if the property is sold the new owner must file an application.",
+      "quotedLanguage": "When the application is approved, the exemption is permanent as long as one owns and occupies the property. If the property is sold, the new owner must file an application with the assessor’s office.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "County guidance. Also on the page: reapplication is needed on 'ownership updates such as adding or removing owners from a property, or properties being transferred into trusts' — relevant to an owner who deeds into a trust before selling."
+    },
+    {
+      "id": "pt-homestead-new-claim-removes-old",
+      "claim": "Idaho allows a homestead exemption to be claimed after January 1 on a property not already exempt; if that taxpayer is also receiving an exemption on a separate property from a prior tax year, the exemption on the separate property is removed the following tax year.",
+      "quotedLanguage": "Nothing in this paragraph shall prohibit a taxpayer from claiming a homestead exemption after January 1 for a property that is not already subject to the homestead exemption, provided any claim for an exemption is consistent with the requirements of subsection (2)(c)(iii) of this section. If a taxpayer claims a homestead exemption after January 1 and is receiving a homestead exemption claimed on a separate property in a prior tax year, the exemption on such separate property shall be removed the following tax year.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "idcode-63-602g"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ DISCREPANCY: the Ada Assessor's page (cached 2026-09-09) says exemptions are not removed in the current assessment year if the owner qualified on Jan 1, 'unless said property owner(s) were to apply and qualify for an exemption on a different property by the second Monday in July within the same assessment year' — which reads as removal in the SAME year. The statute says 'the following tax year'. The page states only the statute and sends the reader to the Assessor. Do not reconcile the two in prose."
+    },
+    {
+      "id": "pt-homestead-double-claim-penalty",
+      "claim": "A taxpayer first discovered to have claimed more than one Idaho homestead exemption owes a penalty equal to the recovered property tax, in addition to the recovery, and a further violation within seven years is a misdemeanor.",
+      "quotedLanguage": "Upon the first instance of a taxpayer being discovered to have claimed more than one (1) homestead exemption, the taxpayer shall be subject to a penalty, payable to the county treasurer, in an amount equal to the amount of property tax recovered pursuant to subparagraph (ii) of this paragraph, which shall be paid in addition to such recovery amount. ... Any subsequent violation within seven (7) years of an instance pursuant to subparagraph (iii) of this paragraph shall be a misdemeanor",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions"
+      ],
+      "sourceIds": [
+        "idcode-63-602g"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Relevant to an owner who buys and occupies a new home before the old one sells. Describe the statute only; never tell a reader whether their own situation is a double claim."
+    },
+    {
+      "id": "pt-homestead-death-carryover",
+      "claim": "An Idaho homestead that qualified the previous year keeps its exemption through the year of the owner's death and the following tax year, provided it remains part of the owner's estate; after that, the new owner must reapply and qualify.",
+      "quotedLanguage": "A homestead that previously qualified for exemption under this section in the preceding year shall not lose such qualification due to the owner's, beneficiary's, partner's, member's or shareholder's death during the year of the owner's, beneficiary's, partner's, member's or shareholder's death and the tax year immediately following such death, provided that the homestead continues to be a part of the owner's, beneficiary's, partner's, member's or shareholder's estate. After such time, the new owner shall reapply to receive the exemption pursuant to this section and shall meet the qualification criteria contained in this section.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "probate"
+      ],
+      "sourceIds": [
+        "idcode-63-602g"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The condition is that the homestead 'continues to be a part of the … estate'. Do not say the exemption survives a sale out of the estate."
+    },
+    {
+      "id": "pt-circuit-breaker-claimant-categories",
+      "claim": "To claim Idaho's property tax reduction a person must have applied for the homeowner's exemption, own the homestead on January 1 or before April 15 of the first claim year, have lawful presence, and on January 1 fall in a listed category such as being 65 or older, a widow or widower, blind, or disabled as the statute defines.",
+      "quotedLanguage": "\"Claimant\" means a person who has filed an application under section 63-602G, Idaho Code, and has filed a claim under the provisions of sections 63-701 through 63-710, Idaho Code. Except as provided in section 63-702 (2), Idaho Code, on January 1 or before April 15 of the year in which the claimant first filed a claim on the homestead in question, a claimant must be an owner of the homestead, a claimant must have lawful presence in the United States pursuant to section 67-7903, Idaho Code, and on January 1 of said year a claimant must be: ... Not less than sixty-five (65) years old; or ... A widow or widower; or ... Blind.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "tax-relief"
+      ],
+      "sourceIds": [
+        "idcode-63-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-701, added 1996, ch. 98, sec. 8, p. 362; am. 1997, ch. 24, sec. 1, p. 33; am. 1997, ch. 117, sec. 23, p. 323; am. 1998, ch. 352, sec. 1, p. 1108; am. 1999, ch. 40, sec. 1, p. 77; am. 1999, ch. 382, sec. 2, p. 1049; am. 2000, ch. 20, sec. 1, p. 38; am. 2000, ch. 109, sec. 1, p. 239; am. 2000, ch. 154, sec. 1, p. 390; am. 2000, ch. 274, sec. 149, p. 883; am. 2001, ch. 69, sec. 2, p. 131; am. 2001, ch. 325, sec. 1, p. 1140; am. 2004, ch. 156, sec. 2, p. 497; am. 2005, ch. 31, sec. 1, p. 143; am. 2005, ch. 241, sec. 1, p. 749; am. 2005, ch. 280, sec. 58, p. 912; am. 2006, ch. 350, sec. 2, p. 1066; am. 2008, ch. 117, sec. 1, p. 323; am. 2010, ch. 235, sec. 55, p. 591; am. 2011, ch. 85, sec. 1, p. 176; am. 2015, ch. 224, sec. 1, p. 687; am. 2017, ch. 14, sec. 1, p. 22; am. 2019, ch. 159, sec. 3, p. 517; am. 2020, ch. 65, sec. 2, p. 151; am. 2022, ch. 307, sec. 1, p. 993; am. 2025, ch. 122, sec. 41, p. 649; am. 2025, ch. 208, sec. 22, p. 950.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Income limits are published annually by the State Tax Commission (63-705) and are NOT stated on the page. The full category list also includes certain fatherless/motherless children, disabled persons recognised by named agencies, disabled veterans, and former POWs/hostages; the page summarises rather than lists eligibility rules for a reader's own case."
+    },
+    {
+      "id": "pt-circuit-breaker-occupancy-window",
+      "claim": "Idaho allows the property tax reduction if the owner occupies the residential improvements after January 1 but before April 15, and has not claimed another such reduction for the same year.",
+      "quotedLanguage": "A property tax reduction shall be allowed pursuant to the provisions of sections 63-701 through 63-710, Idaho Code, if the owner occupies the residential improvements after January 1 but before April 15, and if no other property tax reductions or occupancy tax reductions under this section have been claimed by the owner for the same year.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "tax-relief"
+      ],
+      "sourceIds": [
+        "idcode-63-702"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-702, added 1996, ch. 98, sec. 8, p. 364; am. 1997, ch. 117, sec. 24, p. 325; am. 2001, ch. 69, sec. 3, p. 135; am. 2001, ch. 166, sec. 2, p. 578; am. 2004, ch. 156, sec. 3, p. 501; am. 2019, ch. 31, sec. 2, p. 87; am. 2021, ch. 68, sec. 1, p. 249.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "There is a narrow transfer rule for veterans rated 100% disabled who move between April 15 and October 1 (63-702(1)(c)); the page mentions it only as an exception and does not explain it."
+    },
+    {
+      "id": "pt-circuit-breaker-personal-to-claimant",
+      "claim": "The right to file an Idaho property tax reduction claim is personal to the claimant and does not survive the claimant's death, except that a timely claim filed before death is allowed to the personal representative, heirs, or owning trust or entity, among other listed exceptions.",
+      "quotedLanguage": "The right to file a claim under the provisions of sections 63-701 through 63-710, Idaho Code, shall be personal to the claimant and shall not survive his death except: ... If a claimant dies after having filed a timely claim, the amount thereof shall be allowed to his personal representative, if one is appointed, or to surviving heirs or to the trust or other entity owning the property, as appropriate",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "tax-relief",
+        "probate"
+      ],
+      "sourceIds": [
+        "idcode-63-702"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-702, added 1996, ch. 98, sec. 8, p. 364; am. 1997, ch. 117, sec. 24, p. 325; am. 2001, ch. 69, sec. 3, p. 135; am. 2001, ch. 166, sec. 2, p. 578; am. 2004, ch. 156, sec. 3, p. 501; am. 2019, ch. 31, sec. 2, p. 87; am. 2021, ch. 68, sec. 1, p. 249.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "There is a further exception for a widow or widower succeeding to an entity-held property (63-702(2)(b)); not described on the page."
+    },
+    {
+      "id": "pt-circuit-breaker-current-year-only",
+      "claim": "Idaho's property tax reduction is allowed on the claimant's homestead for the current year only, and is based on the current year's assessed value and levy.",
+      "quotedLanguage": "shall be allowed a reduction in taxes on his homestead for the current year only, in the amounts provided by subsection (4) of this section. ... The claimant property owner's tax reduction shall be based upon the current year's assessed value and the current year's levy.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "tax-relief"
+      ],
+      "sourceIds": [
+        "idcode-63-704"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-704, added 1996, ch. 98, sec. 8, p. 365; am. 1997, ch. 117, sec. 26, p. 326; am. 2001, ch. 69, sec. 5, p. 137; am. 2018, ch. 183, sec. 1, p. 401; am. 2019, ch. 31, sec. 4, p. 89; am. 2020, ch. 246, sec. 1, p. 719.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": ""
+    },
+    {
+      "id": "pt-circuit-breaker-max-and-value-threshold",
+      "claim": "Idaho's property tax reduction ranges from a maximum of $1,500 (or actual taxes, if less) at the lowest income limit down to $250 at the highest, and a home whose current assessed value exceeds the greater of $400,000 or 200% of the county median for exempt homes is referred to the property tax deferral program instead (with an exception for 100%-disabled veterans).",
+      "quotedLanguage": "The lowest income limitation shall allow a maximum reduction of one thousand five hundred dollars ($1,500) in tax year 2021 and thereafter or actual property taxes or occupancy taxes, as applicable, whichever is less. Each income limitation and reduction amount shall be prorated based on the basic maximum reduction, in practicable increments, so that the highest income limitation will provide for a reduction of two hundred fifty dollars ($250) or actual property taxes, whichever is less. ... if the current year's assessed value of the home owned by the individual, according to the current year's assessment notice, exceeds the greater of four hundred thousand dollars ($400,000) or two hundred percent (200%) of the median assessed valuation for all homes in the county receiving the homestead exemption pursuant to section 63-602G, Idaho Code, then the individual will instead be referred to the property tax deferral program set forth in sections 63-712 through 63-721, Idaho Code.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "tax-relief"
+      ],
+      "sourceIds": [
+        "idcode-63-705"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-705, added 1996, ch. 98, sec. 8, p. 365; am. 1997, ch. 117, sec. 27, p. 327; am. 1998, ch. 102, sec. 2, p. 351; am. 2006, ch. 350, sec. 1, p. 1065; am. 2019, ch. 31, sec. 5, p. 89; am. 2021, ch. 360, sec. 4, p. 1116; am. 2022, ch. 230, sec. 1, p. 751; am. 2023, ch. 200, sec. 10, p. 546.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Ada's median figure is not stated anywhere read for this page — never compute or state Ada's threshold. The Ada Assessor independently says 'by as much as $1,500'."
+    },
+    {
+      "id": "pt-ada-circuit-breaker-apply-each-year",
+      "claim": "The Ada County Assessor says Property Tax Reduction applications must be received between January 1 and April 15, that applicants must apply every year, and that an approved reduction appears on the December tax bill.",
+      "quotedLanguage": "Applications must be received between January 1 and April 15*. ... If your application is approved, your property tax reduction will appear on your December tax bill. ... Applicants must apply every year.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "tax-relief"
+      ],
+      "sourceIds": [
+        "ada-assessor-circuit-breaker"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The asterisk is the county's: a weekend/holiday April 15 rolls to the next business day."
+    },
+    {
+      "id": "pt-deferral-ends-on-sale-180-days",
+      "claim": "An Idaho property tax deferral ends on a sale or other transfer of title to any part of the property (except to a surviving spouse of a deceased qualified claimant), and any unpaid deferred tax and interest must then be paid to the State Tax Commission within 180 days.",
+      "quotedLanguage": "A sale or other transfer of title to the property or any part of the property except a transfer of title to a surviving spouse of a deceased qualified claimant; ... When a deferral of property tax is terminated any unpaid amount of deferred tax and interest shall be paid to the state tax commission no later than one hundred eighty (180) days after the termination.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "tax-relief",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-63-718"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-718, added 2006, ch. 234, sec. 1, p. 696; am. 2013, ch. 22, sec. 3, p. 43.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Deferral also terminates on the death of the last qualified claimant and when the property stops qualifying for the 63-602G exemption. The page does not say how a title company handles a deferral lien at closing — not sourced."
+    },
+    {
+      "id": "pt-deferral-recorded-lien",
+      "claim": "Deferred Idaho property taxes accrue interest and remain a lien on the property; the State Tax Commission records a notice of lien with the county recorder, and that lien takes priority from its filing rather than as a first and prior lien.",
+      "quotedLanguage": "The lien imposed by section 63-206, Idaho Code, shall continue to be a lien on the property in the amount of deferred taxes and interest thereon. The state tax commission shall file with the county recorder of the county in which the property is located a notice of lien for deferred property taxes. ... the lien for deferred taxes and interest shall not be a first and prior lien but shall take its priority from the date and time of filing of the notice of lien.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "tax-relief",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-63-716"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-716, added 2006, ch. 234, sec. 1, p. 695; am. 2011, ch. 85, sec. 5, p. 181; am. 2021, ch. 238, sec. 2, p. 729.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": ""
+    },
+    {
+      "id": "pt-assessment-notice-first-monday-june",
+      "claim": "Idaho requires the valuation assessment notice to be delivered or mailed by the first Monday in June, and the notice must state the current market value for assessment purposes, the right to appeal to the county board of equalization, and the previous two years' values and taxes.",
+      "quotedLanguage": "mailed to the taxpayer or to his agent or representative at his last known post office address no later than the first Monday in June. ... The notice shall, in clear terms, inform the taxpayer of the market value for assessment purposes of the taxpayer's property for the current year and the right to appeal to the county board of equalization. The notice shall also state: ... The market value for assessment purposes of the taxpayer's property for the previous two (2) years; ... The property taxes on the taxpayer's property by each taxing district and unit for the previous two (2) years;",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "assessment",
+        "appeals"
+      ],
+      "sourceIds": [
+        "idcode-63-308"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-308 added 1996, ch. 98, sec. 4, p. 330; am. 2013, ch. 191, sec. 1, p. 472; am. 2021, ch. 26, sec. 2, p. 67; am. 2023, ch. 35, sec. 1, p. 169.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ The section page displays TWO versions: one marked '[EFFECTIVE UNTIL JANUARY 1, 2024]' and one '[effective january 1, 2024]'. Only the latter is current; every quote here is from it. ⚠️ DISCREPANCY: for the subsequent roll the statute says notices go out 'not later than the third Monday in November'; the Ada Assessor's appeals page says 'no later than the fourth Monday in November'. The page does not state the subsequent-roll notice date."
+    },
+    {
+      "id": "pt-appeal-deadline-fourth-monday-june",
+      "claim": "An Idaho taxpayer may appeal an assessment or exemption decision to the county board of equalization in writing; an appeal of an assessment on the property roll must be filed by the end of the county's normal business hours on the fourth Monday of June, and the board may consider only timely appeals.",
+      "quotedLanguage": "Taxpayers may file an appeal of an assessment or exemption decision with the county board of equalization. An appeal shall be made in writing on a form provided by the county board of equalization or assessor and must identify the taxpayer, the property which is the subject of the appeal and the reason for the appeal. An appeal of an assessment listed on the property roll must be filed on or before the end of the county's normal business hours on the fourth Monday of June. ... The board of equalization may consider an appeal only if it is timely filed.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "assessment",
+        "appeals"
+      ],
+      "sourceIds": [
+        "idcode-63-501a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-501A, added 1996, ch. 98, sec. 6, p. 343; am. 1997, ch. 117, sec. 18, p. 319; am. 2012, ch. 4, sec. 2, p. 7.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": ""
+    },
+    {
+      "id": "pt-boe-burden-preponderance",
+      "claim": "Before an Idaho county board of equalization the taxpayer bears the burden of proving the assessor's determination wrong, and a preponderance of the evidence suffices.",
+      "quotedLanguage": "The taxpayer shall have the burden of proof in seeking affirmative relief to establish that the determination of the assessor is erroneous, including any determination of assessed value. A preponderance of the evidence shall suffice to sustain the burden of proof.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "assessment",
+        "appeals"
+      ],
+      "sourceIds": [
+        "idcode-63-502"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-502 added 1996, ch. 98, sec. 6, p. 344; am. 2003, ch. 266, sec. 2, p. 704.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ DISCREPANCY: the Ada Assessor's appeals page quotes a standard of 'clear and convincing evidence' (unattributed quotation). 63-502 as displayed says preponderance suffices for the board. The page cites the statute only. A reviewer may want to check whether the county's quote comes from the 63-511 appeal stage; not read here."
+    },
+    {
+      "id": "pt-ada-appeal-filed-with-commissioners",
+      "claim": "The Ada County Assessor says board of equalization appeals address only market value, not taxes, and completed forms must be filed with the Ada County Commissioner's Office by 5:00 p.m. on the fourth Monday of June.",
+      "quotedLanguage": "The appeal will only address the market value of your property. An appeal to the Board is not a forum to protest property taxes. ... Completed forms must be filed with the Ada County Commissioner’s Office on or before the 4th Monday of June at 5:00 p.m.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "assessment",
+        "appeals"
+      ],
+      "sourceIds": [
+        "ada-assessor-assessment-notices-appeals"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": ""
+    },
+    {
+      "id": "pt-ada-notices-online",
+      "claim": "The Ada County Assessor says owners can view and download their assessment notices from the Assessor's online property records, and that the appraiser will consider market evidence an owner submits.",
+      "quotedLanguage": "Property owners may view and download copies of their assessment notices from the Assessor's Online Property Records page. ... The appraiser assigned to assess your property will consider any evidence you wish to submit.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "assessment"
+      ],
+      "sourceIds": [
+        "ada-assessor-assessment-notices-appeals"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": ""
     }
   ]
 }

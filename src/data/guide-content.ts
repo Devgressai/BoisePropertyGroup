@@ -1009,6 +1009,128 @@ export const guideContent: Record<string, GuideContent> = {
       }
     ]
   },
+
+  "idaho-property-taxes-when-you-sell": {
+    "intro": [
+      "Idaho values a house as of January 1 each year, and the tax on it is a first and prior lien on the property itself, discharged only by payment or cancellation. That year's bill is not mailed until late November and is due by December 20, or in halves by December 20 and June 20. A sale does not move the homeowner's exemption to the buyer, who has to apply for it, and a sale ends any state property tax deferral on the house.",
+      "This page describes what the Idaho Code and Ada County's Assessor and Treasurer say. It is not legal or tax advice, and it does not apply any of this to your sale. How a year's taxes are split between buyer and seller is set by the purchase contract, not by the statutes on this page, so ask your title company or an Idaho attorney about your own closing."
+    ],
+    "sections": [
+      {
+        "heading": "Idaho taxes the house as of January 1, and the lien stays on the property",
+        "body": [
+          "Idaho Code 63-205 requires all taxable property to be assessed every year at market value for assessment purposes as of 12:01 a.m. on January 1 of the year the taxes are levied. The Ada County Assessor puts it plainly: the assessor does not set a value, but estimates what a typical buyer would reasonably pay for the property on January 1. The Assessor also gives January 1 as the lien date for real property.",
+          "The lien itself comes from Idaho Code 63-206. Property taxes levied on real property are \"a first and prior lien upon the real property assessed therefor\", and they \"shall only be discharged by the payment or cancellation of the property taxes\". The same section makes property tax liens perpetual and continuous. The statute attaches the lien to the real property and names payment or cancellation as the only ways it is discharged. A change of owner is not on that list.",
+          "One detail is easy to get wrong. Section 63-205 sets the assessment date, not the lien date. The January 1 attachment wording in 63-206 appears in the subsection on personal and operating property. For a house, the January 1 lien date in Ada County comes from the Assessor's own statement."
+        ],
+        "claims": [
+          "pt-assessment-as-of-jan-1",
+          "ada-assessor-does-not-set-value",
+          "pt-ada-lien-date-jan-1",
+          "ln-property-tax-first-lien-perpetual"
+        ]
+      },
+      {
+        "heading": "When are Idaho property taxes due, and what if the bill has not come yet?",
+        "body": [
+          "Under Idaho Code 63-903, property taxes are due in full by December 20 of the year they are levied. They may instead be paid in two halves: the first by December 20, with a grace period to June 20 for the second half, but only if the first half is paid in full. If the first half is not fully paid by December 20, or the second by June 20, the statute says late charges and interest are assessed. The Ada County Treasurer describes the charge on a missed December installment as 2%, plus interest at 1% per month from the following January 1.",
+          "The timing matters in a sale. The Treasurer explains that values assessed on January 1 are used for taxes billed in November and due in December, and that primary-roll bills are mailed by the fourth Monday in November. So a sale that closes in, say, August closes before that year's bill exists. The December and June payments for the year still fall due on the same dates whoever owns the house.",
+          "Arrears behave differently from the current year. The Treasurer applies payments to the oldest tax balance first, so a payment meant for this year can go to an older delinquency instead. Unpaid Idaho property taxes also run on a much longer clock than a mortgage foreclosure. A tax deed cannot issue until three years after the delinquency, and our [foreclosure and tax delinquency guide](/guides/idaho-foreclosure-vs-property-tax-delinquency) explains that clock in full. The Ada County Treasurer is the county's tax collector for every taxing district, cities and schools included, so a question about what is owed on a parcel goes to the Treasurer."
+        ],
+        "claims": [
+          "pt-taxes-due-dec-20-two-halves",
+          "pt-late-charges-if-half-unpaid",
+          "pt-ada-late-charge-and-interest-rates",
+          "pt-ada-billed-november-due-december",
+          "id-tax-deed-three-year-delinquency",
+          "ada-treasurer-ex-officio-tax-collector"
+        ]
+      },
+      {
+        "heading": "The homeowner's exemption belongs to the owner who lives there, not to the house",
+        "body": [
+          "Idaho Code 63-602G exempts from property tax the lesser of the first $125,000 of a homestead's market value for assessment purposes, or 50% of that value. For tax purposes a homestead is the owner-occupied primary dwelling plus no more than one acre of the land around it. The Ada County Assessor gives the same 50%-up-to-$125,000 figure. This is the property-tax exemption. It is not the separate creditor-protection homestead in Idaho Code 55-1003, even though Ada County's website calls both a \"Homestead Exemption\".",
+          "We did not publish the $125,000 figure until we could confirm when the statute's latest amendment (2026 chapter 236, House Bill 843) took effect, because the statute page shows no effective date. The Legislature's own record settles it. The bill declared an emergency and took effect \"retroactively to January 1, 2026\", and no later version of the section is displayed. The text quoted here is the law in force for the 2026 tax year.",
+          "The exemption does not pass to a buyer. Under 63-602G an owner applies only once as long as they still occupy the same homestead. The Ada County Assessor says that once approved the exemption is permanent as long as one owns and occupies the property, and that \"if the property is sold, the new owner must file an application\". To get it for a given tax year, a buyer has to own and occupy the home and file by the close of business on the last county business day in December. The Treasurer notes that the tax bill shows whether a parcel has the exemption, and so does the Assessor's website."
+        ],
+        "claims": [
+          "pt-homestead-exemption-cap-in-force-2026",
+          "id-homestead-one-acre-limit",
+          "pt-h0843-retroactive-jan-1-2026",
+          "pt-homestead-apply-once-conditions",
+          "pt-ada-new-owner-must-apply",
+          "ada-homeowners-exemption-deadline",
+          "pt-ada-faq-bill-shows-exemption"
+        ]
+      },
+      {
+        "heading": "Since 2026 the exemption is no longer prorated, and a second claim has consequences",
+        "body": [
+          "Until this year, 63-602G contained a day-count proration: when a property's eligibility changed during the year, its taxes were prorated by the days spent in each status. House Bill 843 removed that, retroactively to January 1, 2026. The section now says the full exemption is in effect as of January 1 of the tax year in which a complete application is submitted and approved, and that \"the exemption allowed by this section shall not be prorated\". The sponsor's statement of purpose describes the change in the same terms. Material written before 2026 that describes a day-by-day exemption for the year of a sale is out of date.",
+          "This is a rule about the exemption, not about the bill. It does not say which party to a sale pays which part of the year's taxes. That is still a term of the purchase contract.",
+          "Sellers who move into another home before the old one sells should read one more provision. The statute lets a taxpayer claim the exemption after January 1 on a property that does not already have it. If that taxpayer is still receiving an exemption on a separate property from a prior year, the exemption on the separate property is removed the following tax year. Separately, a taxpayer first found to have claimed more than one homestead exemption owes a penalty equal to the recovered tax, on top of the recovery itself, and a further violation within seven years is a misdemeanor. The Assessor's office applies these rules, and it is the place to ask how they work for your two addresses."
+        ],
+        "claims": [
+          "pt-homestead-exemption-not-prorated",
+          "pt-h0843-retroactive-jan-1-2026",
+          "pt-h0843-sop-removes-proration",
+          "pt-homestead-new-claim-removes-old",
+          "pt-homestead-double-claim-penalty"
+        ]
+      },
+      {
+        "heading": "The property tax reduction is personal, and it covers one year",
+        "body": [
+          "Idaho's property tax reduction, often called the circuit breaker, is a separate program from the exemption. A claimant must have applied for the homeowner's exemption and must own the homestead on January 1 or before April 15 of the first claim year. On January 1 they must also fall within a listed group, such as being 65 or older, a widow or widower, blind, or disabled as the statute defines it. Under Idaho Code 63-705 the reduction is at most $1,500, or the actual tax if less, at the lowest income level, falling to $250 at the highest. If the home's current assessed value exceeds the greater of $400,000 or 200% of the county median for exempt homes, the owner is referred to the property tax deferral program instead. That rule has an exception for veterans rated 100% disabled.",
+          "Three features matter in a sale. The reduction is allowed \"for the current year only\" and is based on that year's assessed value and levy, and the Ada County Assessor says applicants must apply every year, between January 1 and April 15. Under 63-702, an owner qualifies by occupying the home after January 1 but before April 15, and must not have claimed another reduction for the same year. There is a narrow exception for some disabled veterans who move later in the year. And the right to claim is \"personal to the claimant\" and does not survive the claimant's death, except that a timely claim filed before death is allowed to the personal representative, the heirs or the trust or entity that owns the property.",
+          "The homeowner's exemption has its own rule on death. A homestead that qualified the previous year keeps the exemption through the year of the owner's death and the following tax year, provided it stays part of the owner's estate. After that the new owner must reapply. Our [inherited-house guide](/guides/selling-an-inherited-house-in-idaho) covers the estate side of that sale."
+        ],
+        "claims": [
+          "pt-circuit-breaker-claimant-categories",
+          "pt-circuit-breaker-max-and-value-threshold",
+          "pt-circuit-breaker-current-year-only",
+          "pt-ada-circuit-breaker-apply-each-year",
+          "pt-circuit-breaker-occupancy-window",
+          "pt-circuit-breaker-personal-to-claimant",
+          "pt-homestead-death-carryover"
+        ]
+      },
+      {
+        "heading": "A sale ends a property tax deferral, and the deferred tax comes due",
+        "body": [
+          "Idaho's Property Tax Deferral Act lets a qualified owner put off paying property tax. The deferred amount does not go away. It accrues interest and remains a lien on the property under 63-206, and the State Tax Commission records a notice of that lien with the county recorder. Unlike the ordinary tax lien, the deferral lien is not first and prior. Its priority runs from the date it was filed.",
+          "Idaho Code 63-718 lists what ends a deferral. One is \"a sale or other transfer of title to the property or any part of the property\", with an exception for a transfer to the surviving spouse of a deceased qualified claimant. Others are the death of the last qualified claimant and the property ceasing to qualify for the homeowner's exemption. Once a deferral ends, any unpaid deferred tax and interest must be paid to the State Tax Commission within 180 days. An owner with a deferral on record can ask the State Tax Commission for the balance well before closing."
+        ],
+        "claims": [
+          "pt-deferral-recorded-lien",
+          "pt-deferral-ends-on-sale-180-days"
+        ]
+      },
+      {
+        "heading": "Assessment notices arrive in June, and appeals are due the same month",
+        "body": [
+          "Idaho Code 63-308 requires the valuation assessment notice to be mailed or delivered by the first Monday in June, to the taxpayer's last known address. It must state the current year's market value for assessment purposes and the right to appeal to the county board of equalization. It must also give the previous two years' values and the taxes charged by each taxing district. The Ada County Assessor says owners can view and download their notices from its online property records, and that the appraiser will consider any market evidence an owner submits.",
+          "Under Idaho Code 63-501A, an appeal of an assessment on the property roll must be filed in writing by the end of the county's normal business hours on the fourth Monday of June, and the board may consider an appeal only if it is filed on time. In Ada County the Assessor says completed forms go to the Commissioner's Office by 5:00 p.m. that day. The appeal \"will only address the market value of your property\" and \"is not a forum to protest property taxes\". Under 63-502 the taxpayer carries the burden of showing the assessor's determination is wrong, and a preponderance of the evidence is enough.",
+          "For a seller, the June calendar is mainly a way to know what the coming bill rests on. If a sale closes before the deadline, whether the seller or the buyer should pursue an appeal is a question for an attorney, not something this page can answer. The Assessor also keeps the county's parcel, ownership and boundary records."
+        ],
+        "claims": [
+          "pt-assessment-notice-first-monday-june",
+          "pt-ada-notices-online",
+          "pt-appeal-deadline-fourth-monday-june",
+          "pt-ada-appeal-filed-with-commissioners",
+          "pt-boe-burden-preponderance",
+          "ada-assessor-maintains-parcel-gis"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy homes in Ada County in any condition, with our own capital, and purchases close through a local title company on a date the seller chooses. A three-week close is realistic. That can help a seller who needs to time a sale around a December or June due date, a deferral, or an estate's year-end. How the year's taxes are handled at closing is still set out in the contract and settled by the title company, as in any sale. You can read more on [how it works](/how-it-works).",
+          "If the house is in good shape and timing is not pressing, listing it with an agent will often net more, and the property tax picture is the same either way. If arrears or a deferral are what is driving the decision, call the Treasurer or the State Tax Commission for the balance first, and talk to an Idaho attorney."
+        ]
+      }
+    ]
+  },
 };
 
 export function guideContentFor(slug: string): GuideContent | undefined {
