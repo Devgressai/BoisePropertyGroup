@@ -3,6 +3,7 @@ import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import { site } from "@/data/site";
 import { SITE_ROBOTS_DEFAULT } from "@/lib/seo/defaults";
+import { OG_IMAGE } from "@/lib/seo/meta";
 import { graph, organizationSchema, websiteSchema } from "@/lib/seo/schema";
 
 /** TWO families only. Sierra is mid-migration across four and it shows. */
@@ -26,12 +27,15 @@ export const metadata: Metadata = {
   },
   description:
     "We buy houses, land, multifamily, office and industrial property across Ada County and the Treasure Valley — Boise, Meridian, Eagle, Kuna, Star and Garden City. Direct offers, your timeline.",
+  // No `url` here: pages that set no openGraph inherited it, so every page
+  // declared og:url = the homepage. Pages set their own via pageMetadata().
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: site.url,
     siteName: site.name,
+    images: [OG_IMAGE],
   },
+  twitter: { card: "summary_large_image" },
   robots: SITE_ROBOTS_DEFAULT,
 };
 

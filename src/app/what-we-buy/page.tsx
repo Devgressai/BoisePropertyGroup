@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/meta";
+import NextSteps from "@/components/NextSteps";
+import PageSchema from "@/components/seo/PageSchema";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
@@ -6,12 +9,11 @@ import FinalCTA from "@/components/FinalCTA";
 import WhatWeBuy from "@/components/WhatWeBuy";
 import { criteria } from "@/data/criteria";
 
-export const metadata: Metadata = {
-  title: "What We Buy — Acquisition Criteria",
-  description:
-    "Acquisition criteria for Ada County and the Treasure Valley: residential, multifamily at any size, office, industrial and land — including property with problems attached.",
-  alternates: { canonical: "/what-we-buy" },
-};
+const TITLE = "What We Buy — Acquisition Criteria";
+const DESCRIPTION =
+  "Acquisition criteria for Ada County and the Treasure Valley: residential, multifamily at any size, office, industrial and land — including property with problems attached.";
+
+export const metadata: Metadata = pageMetadata({ path: "/what-we-buy", title: TITLE, description: DESCRIPTION });
 
 export default function WhatWeBuyPage() {
   return (
@@ -41,10 +43,12 @@ export default function WhatWeBuyPage() {
         </div>
 
         <WhatWeBuy />
+        <NextSteps path="/what-we-buy" />
         <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
+      <PageSchema path="/what-we-buy" name={TITLE} description={DESCRIPTION} type="WebPage" />
     </>
   );
 }

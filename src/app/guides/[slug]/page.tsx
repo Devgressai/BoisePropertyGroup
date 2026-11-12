@@ -10,7 +10,10 @@ import { claim as residentialClaim } from "@/data/claims";
 
 import { guides, guideBySlug } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
-import { graph, organizationSchema, breadcrumbSchema } from "@/lib/seo/schema";
+import { articleSchema } from "@/lib/seo/schema";
+import { pageMetadata, metaDescription } from "@/lib/seo/meta";
+import PageSchema from "@/components/seo/PageSchema";
+import NextSteps from "@/components/NextSteps";
 import { placesForGuide } from "@/lib/seo/internalLinks";
 import Inline from "@/lib/content/Inline";
 
@@ -26,13 +29,14 @@ export async function generateMetadata({
   const { slug } = await params;
   const g = guideBySlug(slug);
   if (!g) return {};
-  return {
+  return pageMetadata({
+    path: `/guides/${slug}`,
     title: g.title,
     description: g.description,
-    alternates: { canonical: `/guides/${slug}` },
+    type: "article",
     // A guide indexes only when it has hand-written content behind it.
     robots: { index: !!guideContentFor(slug), follow: true },
-  };
+  });
 }
 
 export default async function GuidePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -59,14 +63,19 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   const relatedPlaces = placesForGuide(g.cluster);
 
   const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
-  const jsonLd = graph(
-    organizationSchema(),
-    breadcrumbSchema([
-      { label: "Home", href: "/" },
-      { label: "Guides", href: "/guides" },
-      { label: g.title },
-    ])
-  );
+  const path = `/guides/${g.slug}`;
+  const sources = new Map<string, { title: string; url: string; publisher: string }>();
+  for (const c of appendixClaims) for (const src of c.sources) sources.set(src.url, src);
+  const article = articleSchema({
+    path,
+    headline: g.h1,
+    description: g.description,
+    published: g.published,
+    updated: g.updated,
+    sources: [...sources.values()],
+  });
+  const fmt = (d: string) =>
+    new Date(`${d}T12:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 
   return (
     <>
@@ -80,6 +89,14 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
               <Link href="/guides" className="no-underline hover:text-[var(--bpg-ink)]">Guides</Link>
             </nav>
             <h1 className="display-lg max-w-[22ch] text-[var(--bpg-ink)]">{g.h1}</h1>
+            {/* The same dates as the Article schema — they must always agree. */}
+            <p className="mt-5 text-sm text-[var(--bpg-muted)]">
+              Published <time dateTime={g.published}>{fmt(g.published)}</time>
+              {g.updated !== g.published && (
+                <> · Updated <time dateTime={g.updated}>{fmt(g.updated)}</time></>
+              )}
+              {" "}· {sources.size} sources cited
+            </p>
             <div className="mt-7 max-w-[44rem] space-y-4">
               {content.intro.map((p) => (
                 <p key={p.slice(0, 40)} className="lede text-[var(--bpg-muted)]">{p}</p>
@@ -158,11 +175,12 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         </article>
         <EvidenceAppendix claims={appendixClaims} />
 
+        <NextSteps path={path} />
         <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <PageSchema path={path} name={g.title} description={metaDescription(g.description)} extra={[article]} />
     </>
   );
 }

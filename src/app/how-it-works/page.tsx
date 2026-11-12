@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/meta";
+import NextSteps from "@/components/NextSteps";
+import PageSchema from "@/components/seo/PageSchema";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
 
-export const metadata: Metadata = {
-  title: "How It Works",
-  description:
-    "How we underwrite a property in Ada County: what we look at, how we reach a number, and what we show you about it.",
-  alternates: { canonical: "/how-it-works" },
-};
+const TITLE = "How Selling Your Property to Us Works";
+const DESCRIPTION =
+  "How we underwrite a property in Ada County: what we look at, how we reach a number, and what we show you about it.";
+
+export const metadata: Metadata = pageMetadata({ path: "/how-it-works", title: TITLE, description: DESCRIPTION });
 
 const STEPS = [
   {
@@ -89,10 +91,12 @@ export default function HowItWorks() {
             />
           </div>
         </div>
+        <NextSteps path="/how-it-works" />
         <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
+      <PageSchema path="/how-it-works" name={TITLE} description={DESCRIPTION} type="WebPage" />
     </>
   );
 }

@@ -79,10 +79,12 @@ export function commercialPageSchema({
   description,
   about,
   sources,
+  updated,
 }: {
   slug: string;
   title: string;
   description: string;
+  updated?: string;
   about: string;
   sources: { title: string; url: string; publisher: string }[];
 }) {
@@ -92,10 +94,89 @@ export function commercialPageSchema({
     url: `${site.url}/commercial/${slug}`,
     name: title,
     description,
+    ...(updated ? { dateModified: updated } : {}),
+    inLanguage: "en-US",
     isPartOf: { "@id": `${site.url}/#website` },
     publisher: { "@id": `${site.url}/#organization` },
     about: { "@type": "Thing", name: about },
     // Every source is a visible link in the page's evidence block.
+    citation: sources.map((s) => ({
+      "@type": "CreativeWork",
+      name: s.title,
+      url: s.url,
+      publisher: { "@type": "Organization", name: s.publisher },
+    })),
+  };
+}
+
+/**
+ * A WebPage node for every page, tied into the site graph by @id.
+ *
+ * Before this only the four commercial pages said what they were; the rest
+ * emitted Organization + WebSite and nothing about themselves, so an answer
+ * engine had no machine-readable date, breadcrumb or page identity to cite.
+ */
+export function webPageSchema({
+  path,
+  name,
+  description,
+  updated,
+  type = "WebPage",
+}: {
+  path: string;
+  name: string;
+  description?: string;
+  updated?: string;
+  type?: "WebPage" | "CollectionPage" | "AboutPage" | "ContactPage";
+}) {
+  const url = path === "/" ? site.url : `${site.url}${path}`;
+  return {
+    "@type": type,
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    ...(description ? { description } : {}),
+    ...(updated ? { dateModified: updated } : {}),
+    inLanguage: "en-US",
+    isPartOf: { "@id": `${site.url}/#website` },
+    publisher: { "@id": `${site.url}/#organization` },
+  };
+}
+
+/**
+ * Article for a guide. Author is the ORGANIZATION: the owner chose to keep the
+ * site anonymous (2026-09-13), and a schema author that names no visible person
+ * is the honest form. Dates are the same values printed on the page. Citations
+ * are the sources listed in the page's own evidence appendix.
+ */
+export function articleSchema({
+  path,
+  headline,
+  description,
+  published,
+  updated,
+  sources,
+}: {
+  path: string;
+  headline: string;
+  description: string;
+  published: string;
+  updated: string;
+  sources: { title: string; url: string; publisher: string }[];
+}) {
+  const url = `${site.url}${path}`;
+  return {
+    "@type": "Article",
+    "@id": `${url}#article`,
+    headline,
+    description,
+    datePublished: published,
+    dateModified: updated,
+    inLanguage: "en-US",
+    mainEntityOfPage: { "@id": `${url}#webpage` },
+    author: { "@id": `${site.url}/#organization` },
+    publisher: { "@id": `${site.url}/#organization` },
+    image: `${site.url}/og.jpg`,
     citation: sources.map((s) => ({
       "@type": "CreativeWork",
       name: s.title,

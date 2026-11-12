@@ -15,6 +15,13 @@ export interface Guide {
   h1: string;
   description: string;
   cluster: "estate" | "distress" | "tenants" | "land" | "disclosure" | "manufactured";
+  /**
+   * ISO dates, taken from git history. `updated` moves ONLY when the guide's
+   * substance changes — never to look fresh. Rendered visibly on the page and
+   * in its Article schema, and the two must always agree.
+   */
+  published: string;
+  updated: string;
 }
 
 export const guides: Guide[] = [
@@ -25,6 +32,8 @@ export const guides: Guide[] = [
     description:
       "What an Idaho personal representative can and cannot do with estate property, when a court order is needed, and why estate sales are exempt from the seller disclosure requirement.",
     cluster: "estate",
+    published: "2026-09-10",
+    updated: "2026-09-10",
   },
   {
     slug: "idaho-foreclosure-vs-property-tax-delinquency",
@@ -33,6 +42,8 @@ export const guides: Guide[] = [
     description:
       "A trustee's sale needs 120 days' notice. A tax deed takes three years. Confusing the two is the most expensive mistake a distressed Idaho owner can make.",
     cluster: "distress",
+    published: "2026-09-10",
+    updated: "2026-09-10",
   },
   {
     slug: "selling-a-rental-with-tenants-in-idaho",
@@ -41,6 +52,8 @@ export const guides: Guide[] = [
     description:
       "Who owes the security deposit after a sale, what Idaho's recording act says about unrecorded leases, and the narrow remedy for occupants who are not tenants.",
     cluster: "tenants",
+    published: "2026-09-10",
+    updated: "2026-09-10",
   },
   {
     slug: "selling-a-manufactured-home-in-idaho",
@@ -49,6 +62,8 @@ export const guides: Guide[] = [
     description:
       "Whether your manufactured home is real property or personal property decides how it is sold, who can finance it, and whether it can be moved at all. Idaho makes the conversion easy and the reversal hard.",
     cluster: "manufactured",
+    published: "2026-09-10",
+    updated: "2026-09-10",
   },
   {
     slug: "selling-land-or-acreage-in-ada-county",
@@ -57,6 +72,8 @@ export const guides: Guide[] = [
     description:
       "What the ground can legally become is decided by water, irrigation, access and who governs the parcel — not by its size. The constraints that actually bind on Ada County land, and where each one is administered.",
     cluster: "land",
+    published: "2026-09-11",
+    updated: "2026-09-12",
   },
   {
     slug: "idaho-seller-disclosure-when-selling-as-is",
@@ -65,6 +82,8 @@ export const guides: Guide[] = [
     description:
       "Selling as-is does not remove Idaho's property condition disclosure. Who must disclose, the sixteen exemptions, the ten-day and three-day deadlines, where seller liability sits, and the federal lead-paint rule for pre-1978 homes.",
     cluster: "disclosure",
+    published: "2026-09-12",
+    updated: "2026-09-12",
   },
 ];
 

@@ -53,6 +53,8 @@ export interface CommercialPageContent {
    */
   alsoCovers?: string[];
   title: string;
+  /** Search title when `title` is too long to display (~60 chars). Falls back to `title`. */
+  seoTitle?: string;
   h1: string;
   eyebrow: string;
   description: string;
@@ -67,6 +69,7 @@ export const INDUSTRIAL: CommercialPageContent = {
   kind: "asset",
   assetClass: "industrial",
   title: "Selling industrial property in Boise — what changes and why",
+  seoTitle: "Selling Industrial Property in Boise, Idaho",
   h1: "Selling industrial property in Boise",
   eyebrow: "Industrial",
   description:
@@ -181,6 +184,7 @@ export const MULTIFAMILY: CommercialPageContent = {
   kind: "asset",
   assetClass: "multifamily",
   title: "Selling multifamily property in Ada County — five units and up",
+  seoTitle: "Selling Multifamily Property in Ada County (5+ Units)",
   h1: "Selling multifamily property, five units and up",
   eyebrow: "Multifamily",
   description:
@@ -267,6 +271,7 @@ export const VALUATION: CommercialPageContent = {
   gateTopics: ["assessment", "valuation"],
   assetClass: "multifamily",
   title: "How commercial property value is determined in Ada County",
+  seoTitle: "How Commercial Property Value Is Determined in Ada County",
   h1: "How commercial value is determined",
   eyebrow: "Valuation",
   description:
@@ -341,6 +346,7 @@ export const DISTRICTS: CommercialPageContent = {
   assetClass: "retail",
   alsoCovers: ["office"],
   title: "Commercial districts across the Treasure Valley — what the letters mean",
+  seoTitle: "Commercial Zoning Districts in the Treasure Valley",
   h1: "Commercial districts, and why the letters mislead",
   eyebrow: "Districts",
   description:

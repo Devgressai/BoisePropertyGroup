@@ -1,9 +1,7 @@
 import { site } from "@/data/site";
-import { places, county } from "@/data/geography";
-import { guides } from "@/data/guides";
-import { guideContentFor } from "@/data/guide-content";
+import { county } from "@/data/geography";
 import { contentFor } from "@/data/place-content";
-import { COMMERCIAL_PAGES } from "@/data/commercial-content";
+import { publishedPlaces, publishedGuides, publishedCommercial } from "@/lib/seo/registry";
 import { claims } from "@/data/claims";
 import { commercialClaims } from "@/data/commercial-claims";
 
@@ -22,8 +20,10 @@ import { commercialClaims } from "@/data/commercial-claims";
 export const dynamic = "force-static";
 
 export function GET() {
-  const indexablePlaces = places.filter((p) => p.indexable && contentFor(p.slug));
-  const publishedGuides = guides.filter((g) => guideContentFor(g.slug));
+  // The registry's gates — the same ones the routes and the sitemap use. This
+  // read the static `indexable` flag, the drift pattern sitemap.ts was fixed for.
+  const indexablePlaces = publishedPlaces();
+  const guidesOut = publishedGuides();
 
   const lines: string[] = [];
   const L = (s = "") => lines.push(s);
@@ -84,7 +84,7 @@ export function GET() {
 
   L("### Commercial");
   L();
-  for (const p of COMMERCIAL_PAGES) {
+  for (const p of publishedCommercial()) {
     L(`- [${p.h1}](${site.url}/commercial/${p.slug}): ${p.description}`);
   }
   L(`- [Commercial overview](${site.url}/commercial)`);
@@ -98,7 +98,7 @@ export function GET() {
 
   L("### Guides");
   L();
-  for (const g of publishedGuides) L(`- [${g.title}](${site.url}/guides/${g.slug})`);
+  for (const g of guidesOut) L(`- [${g.title}](${site.url}/guides/${g.slug}) (updated ${g.updated}): ${g.description}`);
   L();
 
   L("## Evidence base");

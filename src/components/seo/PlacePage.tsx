@@ -10,6 +10,7 @@ import OfferForm from "@/components/OfferForm";
 import type { PlaceContent } from "@/data/place-content";
 import type { LinkItem } from "@/lib/seo/internalLinks";
 import Inline from "@/lib/content/Inline";
+import NextSteps from "@/components/NextSteps";
 
 export default function PlacePage({
   title,
@@ -18,6 +19,7 @@ export default function PlacePage({
   links,
   caveat,
   stats,
+  path,
 }: {
   title: string;
   eyebrow: string;
@@ -25,6 +27,8 @@ export default function PlacePage({
   links: LinkItem[];
   caveat?: string | null;
   stats?: { label: string; value: string; note: string }[];
+  /** Registry path; drives the funnel's next-step links. */
+  path: string;
 }) {
 
   /**
@@ -148,6 +152,7 @@ export default function PlacePage({
 
         <EvidenceAppendix claims={appendixClaims} />
 
+        <NextSteps path={path} heading="Before you decide" />
         <FinalCTA />
       </main>
       <Footer />

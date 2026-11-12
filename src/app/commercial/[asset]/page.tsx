@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import CommercialPage from "@/components/seo/CommercialPage";
 import { commercialClaim } from "@/data/commercial-claims";
 import { graph, breadcrumbSchema, commercialPageSchema } from "@/lib/seo/schema";
+import { pageMetadata, metaDescription } from "@/lib/seo/meta";
+import { entryFor } from "@/lib/seo/registry";
 import { COMMERCIAL_PAGES, commercialPage } from "@/data/commercial-content";
 import { decideCommercialIndexationBySlug } from "@/lib/seo/commercialIndexation";
 
@@ -26,12 +28,12 @@ export async function generateMetadata({
   const content = commercialPage(asset);
   if (!content) return {};
   const decision = gate(asset);
-  return {
-    title: content.title,
+  return pageMetadata({
+    path: `/commercial/${content.slug}`,
+    title: content.seoTitle ?? content.title,
     description: content.description,
-    alternates: { canonical: `/commercial/${content.slug}` },
     robots: { index: decision.indexable, follow: true },
-  };
+  });
 }
 
 export default async function Page({ params }: { params: Promise<{ asset: string }> }) {
@@ -62,7 +64,8 @@ export default async function Page({ params }: { params: Promise<{ asset: string
     commercialPageSchema({
       slug: content.slug,
       title: content.title,
-      description: content.description,
+      description: metaDescription(content.description) ?? content.description,
+      updated: entryFor(`/commercial/${content.slug}`)?.updated,
       about:
         content.kind === "explainer"
           ? "Commercial property valuation"

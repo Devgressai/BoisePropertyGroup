@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/meta";
+import NextSteps from "@/components/NextSteps";
+import PageSchema from "@/components/seo/PageSchema";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import OfferForm from "@/components/OfferForm";
 import { site, hasPhone, hasEmail, hasAddress } from "@/data/site";
 
-export const metadata: Metadata = {
-  title: "Contact",
-  description: "Talk to Boise Property Group about a property in Ada County or the Treasure Valley.",
-  alternates: { canonical: "/contact" },
-};
+const TITLE = "Get an Offer on Your Ada County Property";
+const DESCRIPTION =
+  "Houses, land or commercial property in Ada County, Idaho. Start with the address and we come back with a number and the working behind it.";
+
+export const metadata: Metadata = pageMetadata({ path: "/contact", title: TITLE, description: DESCRIPTION });
 
 export default function Contact() {
   const anyNap = hasPhone || hasEmail || hasAddress;
@@ -25,7 +28,8 @@ export default function Contact() {
               Houses, multifamily at any size, office, industrial or land. Tell us what it is and
               we will come back with a number and the working behind it.
             </p>
-            <div className="mt-9 max-w-[34rem]">
+            {/* id="offer": the navbar and mobile bar link to #offer on every page. */}
+            <div id="offer" className="mt-9 max-w-[34rem] scroll-mt-24">
               <OfferForm />
             </div>
           </div>
@@ -48,9 +52,11 @@ export default function Contact() {
             </div>
           </div>
         )}
+        <NextSteps path="/contact" />
       </main>
       <Footer />
       <MobileCTA />
+      <PageSchema path="/contact" name={TITLE} description={DESCRIPTION} type="ContactPage" />
     </>
   );
 }

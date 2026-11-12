@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/meta";
+import NextSteps from "@/components/NextSteps";
+import PageSchema from "@/components/seo/PageSchema";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -6,12 +9,11 @@ import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
 import { guides } from "@/data/guides";
 
-export const metadata: Metadata = {
-  title: "Guides — Selling Property in Idaho",
-  description:
-    "What Idaho statutes actually say about probate sales, foreclosure and tax deeds, selling with tenants, and disclosure. Sourced, quoted and dated.",
-  alternates: { canonical: "/guides" },
-};
+const TITLE = "Guides — Selling Property in Idaho";
+const DESCRIPTION =
+  "What Idaho statutes actually say about probate sales, foreclosure and tax deeds, selling with tenants, and disclosure. Sourced, quoted and dated.";
+
+export const metadata: Metadata = pageMetadata({ path: "/guides", title: TITLE, description: DESCRIPTION });
 
 export default function GuidesHub() {
   return (
@@ -48,10 +50,12 @@ export default function GuidesHub() {
             They are not legal advice and are not applied to your circumstances.
           </p>
         </div>
+        <NextSteps path="/guides" />
         <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
+      <PageSchema path="/guides" name={TITLE} description={DESCRIPTION} type="CollectionPage" />
     </>
   );
 }

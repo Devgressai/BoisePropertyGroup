@@ -27,7 +27,7 @@ import { claimsForAssetClass } from "@/data/commercial-claims";
  * linked from the footer and every place page, which is the right home for a
  * page that exists but has not earned its own audience yet.
  */
-function isWorthLinking(p: Place): boolean {
+export function isWorthLinking(p: Place): boolean {
   const content = contentFor(p.slug);
   if (!content) return false;
   const words = countWords(

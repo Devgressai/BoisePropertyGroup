@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/meta";
+import NextSteps from "@/components/NextSteps";
+import PageSchema from "@/components/seo/PageSchema";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -6,12 +9,11 @@ import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
 import { site, hasLegalEntity } from "@/data/site";
 
-export const metadata: Metadata = {
-  title: "About",
-  description:
-    "A property acquisition group in Ada County, Idaho. What we buy, how we underwrite, and why this market.",
-  alternates: { canonical: "/about" },
-};
+const TITLE = "About Us";
+const DESCRIPTION =
+  "A property acquisition group in Ada County, Idaho. What we buy, how we underwrite, and why this market.";
+
+export const metadata: Metadata = pageMetadata({ path: "/about", title: TITLE, description: DESCRIPTION });
 
 /**
  * HONESTY CONSTRAINT ON THIS PAGE.
@@ -118,10 +120,12 @@ export default function About() {
             </section>
           </div>
         </div>
+        <NextSteps path="/about" />
         <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
+      <PageSchema path="/about" name={TITLE} description={DESCRIPTION} type="AboutPage" />
     </>
   );
 }

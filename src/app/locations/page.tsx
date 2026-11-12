@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/meta";
+import NextSteps from "@/components/NextSteps";
+import PageSchema from "@/components/seo/PageSchema";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -6,12 +9,11 @@ import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
 import { county, renderablePlaces } from "@/data/geography";
 
-export const metadata: Metadata = {
-  title: "Areas We Buy In — Ada County, Idaho",
-  description:
-    "We buy property across Ada County, Idaho — Boise, Meridian, Eagle, Kuna, Star, Garden City and unincorporated county.",
-  alternates: { canonical: "/locations" },
-};
+const TITLE = "Areas We Buy In — Ada County, Idaho";
+const DESCRIPTION =
+  "We buy property across Ada County, Idaho — Boise, Meridian, Eagle, Kuna, Star, Garden City and unincorporated county.";
+
+export const metadata: Metadata = pageMetadata({ path: "/locations", title: TITLE, description: DESCRIPTION });
 
 export default function Locations() {
   return (
@@ -59,10 +61,12 @@ export default function Locations() {
             ))}
           </ul>
         </div>
+        <NextSteps path="/locations" />
         <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
+      <PageSchema path="/locations" name={TITLE} description={DESCRIPTION} type="CollectionPage" />
     </>
   );
 }

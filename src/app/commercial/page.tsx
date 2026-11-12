@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo/meta";
+import NextSteps from "@/components/NextSteps";
+import PageSchema from "@/components/seo/PageSchema";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -9,13 +12,11 @@ import { COMMERCIAL_PAGES } from "@/data/commercial-content";
 const ASSETS = COMMERCIAL_PAGES.filter((p) => p.kind === "asset");
 const EXPLAINERS = COMMERCIAL_PAGES.filter((p) => p.kind === "explainer");
 
-export const metadata: Metadata = {
-  title: "Commercial property acquisition — Boise and Ada County",
-  description:
-    "What we buy on the commercial side, and what actually changes when a property is valued on its income rather than by comparison to nearby sales.",
-  alternates: { canonical: "/commercial" },
-  robots: { index: true, follow: true },
-};
+const TITLE = "Commercial Property Buyers in Ada County";
+const DESCRIPTION =
+  "What we buy on the commercial side, and what actually changes when a property is valued on its income rather than by comparison to nearby sales.";
+
+export const metadata: Metadata = pageMetadata({ path: "/commercial", title: TITLE, description: DESCRIPTION });
 
 /**
  * The commercial hub.
@@ -128,10 +129,12 @@ export default function CommercialHub() {
           </div>
         </div>
 
+        <NextSteps path="/commercial" />
         <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
+      <PageSchema path="/commercial" name={TITLE} description={DESCRIPTION} type="CollectionPage" />
     </>
   );
 }

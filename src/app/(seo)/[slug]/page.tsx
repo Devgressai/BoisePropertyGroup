@@ -4,8 +4,8 @@ import { places, county, placeBySlug, renderablePlaces, type Place } from "@/dat
 import { contentFor, type PlaceContent } from "@/data/place-content";
 import { decideIndexation, robotsFor, countWords } from "@/lib/seo/indexation";
 import { linksForPlace, linksForCounty, knowledgeLinksForPlace } from "@/lib/seo/internalLinks";
-import { graph, organizationSchema, breadcrumbSchema } from "@/lib/seo/schema";
-import { site } from "@/data/site";
+import { pageMetadata, metaDescription } from "@/lib/seo/meta";
+import PageSchema from "@/components/seo/PageSchema";
 import PlacePage from "@/components/seo/PlacePage";
 
 /**
@@ -84,47 +84,24 @@ function resolve(slug: string) {
   };
 }
 
-/**
- * A description cut at a fixed character count ends mid-word ("close to the
- * co"). Prefer the first sentence when it fits; otherwise stop at a word
- * boundary and mark the cut.
- */
-function metaDescription(text: string | undefined): string | undefined {
-  if (!text) return undefined;
-  if (text.length <= 160) return text;
-  const sentence = text.match(/^.{60,160}?[.!?](?=\s|$)/);
-  if (sentence) return sentence[0];
-  return `${text.slice(0, 155).replace(/\s+\S*$/, "")}…`;
-}
-
 export async function generateMetadata({
   params,
 }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const r = resolve(slug);
   if (!r) return {};
-  return {
+  return pageMetadata({
+    path: `/${slug}`,
     title: r.title,
-    description: metaDescription(r.content.intro[0]),
-    alternates: { canonical: `/${slug}` },
-    // Pre-launch the site-wide robots directive still applies; this records the
-    // page-level decision so flipping the launch flag needs no further edits.
+    description: r.content.intro[0],
     robots: robotsFor({ indexable: r.indexable, reason: "" }),
-  };
+  });
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const r = resolve(slug);
   if (!r) notFound();
-  const jsonLd = graph(
-    organizationSchema(),
-    breadcrumbSchema([
-      { label: "Home", href: "/" },
-      { label: "Areas", href: "/locations" },
-      { label: r.name },
-    ])
-  );
   return (
     <>
       <PlacePage
@@ -134,8 +111,9 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         links={r.links}
         caveat={r.caveat}
         stats={r.stats}
+        path={`/${slug}`}
       />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <PageSchema path={`/${slug}`} name={r.title} description={metaDescription(r.content.intro[0])} />
     </>
   );
 }
