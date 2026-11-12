@@ -1,0 +1,281 @@
+A Homeowner’s Guide to Septic Systems
+
+
+
+
+       Idaho Department of Environmental Quality
+                    1410 N. Hilton
+                   Boise, ID 83706
+
+                     January 2001
+Do you have a home septic system? As an Idaho resident, there is a good chance you do—thirty-six percent of Idaho’s
+homes, or about 210,000 residences, use septic systems to treat their sewage. These systems discharge more than 53 million
+gallons of wastewater into Idaho’s soils annually, and this figure grows each year. In 1999, Idaho’s seven health districts
+issued over 6,100 permits for new septic systems.
+
+Septic systems dispose of household sewage, or wastewater, generated from toilet use, bathing, laundry, and kitchen and
+cleaning activities. Because septic systems are underground and seldom require daily care, many homeowners rarely think
+about routine operations and maintenance. However, if a septic system is not properly designed, located, constructed, and
+maintained, groundwater may become contaminated.
+
+                                              Household Wastewater
+
+Households that are not served by public sewers depend on septic tank systems to treat and dispose of wastewater.
+Household wastewater carries with it all wastes that go down the drains in our homes, including human waste, dirt, food,
+toilet paper, soap, detergents, and cleaning products. It contains dissolved nutrients, household chemicals, grease, oil,
+microorganisms (including some that cause disease), and solid particles. If not properly treated by your septic system,
+chemicals and microorganisms in wastewater can travel through the soil to groundwater and pose a health hazard.
+
+
+
+
+                                             Kitchen    Misc.
+                                              10%        5%                   Bathing
+                                                                               30%
+
+
+
+
+                                           Toilet
+                                                                            Laundry
+                                           40%
+                                                                             15%
+
+
+
+
+The average person uses between 50 and 75 gallons of water per day; mostly in the bathroom. Reducing your water use will
+help your septic system to work more efficiently.
+
+
+                                                Your Septic System
+
+A conventional septic system has three working parts: a septic tank, a drainfield, and surrounding soil.
+
+Septic Tank
+
+Septic tanks can be made of concrete, fiberglass, or plastic and must be approved by the state. Minimum sizes of tanks have
+been established for residences based on the number of bedrooms in the dwelling. In Idaho, a 1,000-gallon septic tank is
+required for homes with three or four bedrooms. Larger tanks are required for larger homes. Local district health
+departments issue permits for septic systems and specify the minimum size tank. Some systems installed before the current
+rules and regulations may have smaller septic tanks.
+A septic tank has three main functions:
+
+    •    to remove as many solids as possible from household wastewater before sending the liquid, called “effluent,” to a
+         drainfield;
+
+    •    to decompose solids in the tank; and
+
+    •    to store solids that do not decompose.
+
+When raw wastewater enters the tank, heavy solids sink to the bottom of the tank as sludge. Light solids, such as grease and
+paper, float to the surface as scum. During the wastewater storage period, bacteria digest organic material in the wastewater.
+During this process, the solid material is reduced in volume and composition. Solids that do not decompose accumulate in
+the tank and eventually must be pumped out.
+
+
+
+
+Tees, or baffles, are provided at the tank’s inlet and outlet pipes. The inlet tee slows the incoming wastes and reduces
+disturbance of the settled sludge. The outlet tee keeps the solids and scum in the tank. As new wastewater enters the tank
+through the inlet tee, an equal amount of wastewater is pushed out of the tank through the outlet tee. The effluent that leaves
+the tank has been partially treated but still contains disease-causing bacteria and other pollutants.
+
+Drainfield
+
+Each time raw wastewater enters the tank it forces an equal amount of effluent into a drainfield. A standard drainfield is
+composed of a series of perforated pipes buried in gravel-filled trenches in the soil. The effluent seeps out of the perforated
+pipes and percolates through the gravel to the soil.
+
+
+
+
+Soil
+
+The soil below the drainfield provides the final treatment and disposal of the septic tank effluent. After the effluent has
+passed into the soil, most of it percolates downward and outward, eventually entering the groundwater. Soils are critical to
+the treatment of septic tank wastewater.
+A system that is not functioning properly will release nutrient-rich and bacterial-laden wastewater into the groundwater
+and/or surface water. These contaminated waters pose a significant public health threat to people that come into contact with
+them. Wastewater that moves with groundwater can transport bacteria considerable distances. This can result in a threat to
+public health and adversely affect the quality of ground and surface waters.
+
+                                          Caring for Your Septic System
+
+Installing Your System
+
+In order to have a septic system installed on your property, you must first obtain a permit. Permit applications are available
+from your local district health department. Next, you must have a site evaluation performed. Make arrangements for this
+with your district health department and with a licensed septic system installer. Note that not all property is suitable for
+septic systems, so some permits may be denied. It is recommended that you have a site evaluation performed before you
+purchase property. Finally, have your system installed by a licensed installer and inspected by your local health district.
+Provide regular, preventative, maintenance to keep your system running smoothly.
+
+Inspecting Your System
+
+When too much sludge and scum are allowed to accumulate in your tank, the incoming sewage will not have enough time in
+the septic tank for solids to settle. Solids may flow to the drainfield and clog the pipes, causing the sewage to overflow to the
+ground surface, where it exposes humans and animals to disease-causing organisms. To prevent this from happening, it is
+very important to inspect your tank regularly and have it serviced when needed. All tanks have accessible manholes for
+inspecting and pumping. Some excavation work may be needed to uncover the manhole.
+
+Properly designed tanks should have enough capacity for three to eight years of use before needing service. This is
+dependent upon the amount of wastewater generated. It is recommended that an average family of four have its septic tank
+pumped out every three to five years. Don’t wait for signs of system failure to have your tank pumped. Your tank should be
+checked annually to measure sludge and scum levels. A licensed septic tank pumper can provide a septic tank inspection and
+recommend when the tank should be pumped. A tank inspection should include measuring the depth of scum and sludge and
+inspecting the tees in the septic tank.
+
+If you do the inspection yourself, it is important to understand that septic tanks always appear full because both the inlet and
+the outlet are at the top of the tank. What you will need to know is how much of the tank’s volume is being taken up by scum
+and sludge. When sludge and scum take up more than 35 percent of the tank volume, these solids need to be removed by
+pumping. A pole wrapped in a course weave cloth can be used to check the sludge depth. An extension on the pole can be
+used to measure the scum depth. Record these measurements as part of your pumping records. To check the tees, uncover
+the inspection ports.
+
+Never allow anyone to enter your septic tank. Dangerous gases and the lack of oxygen can kill in minutes.
+
+While it is impractical to inspect the pipes in your drainfield, it is important to watch for drainfield failure or overuse. See
+“Warning Signs of System Failure” in this booklet for information.
+
+Maintaining Your System
+
+Pumping your septic tank every three years (or as determined by your inspections) will remove accumulations of solids, help
+keep the drainfield from becoming clogged, and help prevent you from experiencing sewage backups or septic system failure.
+An accumulation of sludge exceeding 35% of the total water depth in the septic tank could cause solids to enter the drainfield
+and clog the system. Hire a licensed septic tank pumper to pump your tank for you.
+
+Mapping Your System
+
+In order to take proper care of your septic system, you must know the location of the septic tank and drainfield. The location
+of your septic tank can be determined from plot plans, septic system inspection records, architectural or landscape drawings,
+or from observations of the house plumbing. If you do not have access to drawings, find where the sewer pipe leaves your
+house. Some installers mark the location where the waste pipe comes out of the house with an “S” on the foundation. You
+may want to do this as well. Probe in the ground 10 to 15 feet directly out from the location where the pipe leaves your
+house to find your tank.
+Once the septic tank has been located, make several plot plan diagrams (with measurements) that include a rough sketch of
+your house, septic tank cover, drainfield area, well, and any other permanent reference points (such as trees or large rocks)
+and place them with your important papers. You’ll find a sample system diagram on the next page, and a place to draw your
+own inside the front cover of this booklet. You may also want to hang a diagram in your garage and provide one to your
+local district health office.
+
+Maintain a permanent record of any septic system maintenance, repair, sludge and scum levels, pumping, drainfield
+condition, household backups, and operations notes.
+
+
+
+
+           Create a septic system diagram, similar to this one, for your system.
+                                       Warning Signs of System Failure
+
+While proper use, inspections, and maintenance should prevent most septic tank problems, it is still important to be aware of
+changes in your septic system and to act immediately if you suspect a system failure. There are many signs of septic system
+failure:
+
+     •   surfacing sewage or wet spots in the drainfield area;
+     •   plumbing or septic tank backups;
+     •   slow draining fixtures;
+     •   gurgling sounds in the plumbing system;
+     •   sewage odors in the house or yard (note that the house plumbing vent on the roof will emit sewage odors and this is
+         normal); and
+     •   tests showing the presence of bacteria in well water.
+
+If you notice any of these signs, or if you suspect your septic tank system may be having problems, contact a licensed septic
+system professional or your local district health agency for assistance.
+
+                                        Septic System Dos and Don’ts
+
+Proper operation of a septic system can prevent costly repairs or replacement. Observing the following guidelines will help
+to keep your system running efficiently.
+
+Do
+
+     •   …practice water conservation. The more wastewater you produce, the more wastewater your system must treat and
+         dispose. By reducing and balancing your use, you can extend the life of your system and avoid costly repairs.
+
+             o    Use water saving devices such as low flow showerheads.
+             o    Repair leaky faucets and plumbing fixtures immediately.
+             o    Reduce toilet reservoir volume or flow.
+             o    Take short showers.
+             o    Take baths with a partially filled tub.
+             o    Wash only full loads of dishes and laundry.
+             o    Shut off the water while shaving or brushing your teeth.
+             o    Balance your water use (e.g., avoid washing several loads of laundry in one day).
+
+     •   …keep accurate records. Know where your septic tank is, keep a diagram of its location using the space provided in
+         this booklet, and keep a record of system maintenance.
+
+     •   …inspect your system annually. Check the sludge and scum levels inside the tank and periodically check the
+         drainfield for odors, wet spots, or surfacing sewage.
+
+     •   …pump your system routinely. Pumping your septic tank is probably the single most important thing you can do to
+         protect your system.
+
+     •   …keep all runoff away from your system. Water from roofs and driveways should be diverted away from the septic
+         tank and drainfield area. Soil over your system should be mounded slightly to encourage runoff.
+
+     •   …protect your system from damage. Keep vehicles and livestock off your drainfield. The pressure can compact the
+         soil or damage the pipes. Before you dig for any reason, check the location of your system and drainfield area.
+
+     •   …landscape your system properly. Plant grass over the drainfield area. Don’t plant trees or shrubs or place
+         impermeable materials, such as concrete or plastic, over the drainfield.
+
+     •   …use cleaning chemicals in moderation and only according to manufacturer’s directions.
+Don’t
+
+        •   …flood irrigate over your system or drainfield area. The best way to irrigate these areas is with sprinklers.
+
+        •   …use caustic drain openers for clogged drains. Use boiling water or a drain snake to clean out clogs.
+
+        •   …enter a septic tank. Poisonous gases or a lack of oxygen can be fatal.
+
+        •   …use septic tank additives. They are not necessary for the proper functioning of your tank and they do not
+            reduce the need for pumping. In fact, some additives can even harm your system.
+
+        •   …flush harmful materials into your tank. Grease, cooking oil, coffee grounds, sanitary napkins, and cigarettes
+            do not easily decompose in septic tanks. Chemicals, such as solvents, oils, paints, and pesticides, are harmful to
+            your systems operation and may pollute groundwater.
+
+        •   …use a garbage disposal. Using a garbage disposal will increase the amount of solids entering the septic tank
+            and will result in the need for more frequent pumping.
+Map your septic system here
+                                               For More Information
+
+If you need to obtain a permit for a new or replacement septic system, or if you have questions about septic systems and their
+operation and maintenance, please contact your local health district.
+
+Panhandle District Health Department
+1295 Ironwood Court
+Coeur d’ Alene, ID 83814
+208-667-9513
+
+North Central District Health Department
+215 10th Street
+Lewiston, ID 83501
+208-799-0353
+
+Southwest District Health Department
+920 Main Street
+Caldwell, ID 83605
+208-455-5400
+
+Central District Health Department
+707 N. Armstrong Place
+Boise, ID 83704
+208-327-7499
+
+South Central District Health Department
+1020 Washington Street North
+Twin Falls, ID 83303
+208-734-5900
+
+Southeastern District Health Department
+1901 Alvin Ricken Drive
+Pocatello, ID 83201
+208-239-5270
+
+District 7 Health Department
+254 “E” Street
+Idaho Falls, ID 83402
+208-523-5382
+

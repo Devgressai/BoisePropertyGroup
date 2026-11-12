@@ -1,0 +1,480 @@
+{
+  "sources": [
+    {
+      "id": "idcode-10-1110",
+      "title": "Idaho Code § 10-1110 — Filing transcript of judgments — Lien acquired",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title10/t10ch11/sect10-1110/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "judgments",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-judgment-lien-arises-on-recording",
+        "ln-judgment-lien-ten-years",
+        "ln-judgment-lien-child-support",
+        "ln-judgment-lien-restitution-twenty-years"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-10-1111",
+      "title": "Idaho Code § 10-1111 — Orders renewing judgment — Lien",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title10/t10ch11/sect10-1111/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "judgments",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-judgment-renewal-order"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-7-1202",
+      "title": "Idaho Code § 7-1202 — Definitions (enforcement of child support orders)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch12/sect7-1202/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "child-support",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-child-support-department-lien"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-7-1206",
+      "title": "Idaho Code § 7-1206 — Department lien for child support delinquency",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch12/sect7-1206/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "child-support",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-child-support-department-lien"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-501",
+      "title": "Idaho Code § 45-501 — Right to lien (liens of mechanics and materialmen)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-501/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "mechanics-liens",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-mechanics-lien-who-can-claim"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-506",
+      "title": "Idaho Code § 45-506 — Liens preferred claims (liens of mechanics and materialmen)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-506/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "mechanics-liens",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-mechanics-lien-priority"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-507",
+      "title": "Idaho Code § 45-507 — Claim of lien (liens of mechanics and materialmen)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-507/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "mechanics-liens",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-mechanics-lien-ninety-day-filing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-510",
+      "title": "Idaho Code § 45-510 — Duration of lien (liens of mechanics and materialmen)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-510/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "mechanics-liens",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-mechanics-lien-six-month-duration"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-518",
+      "title": "Idaho Code § 45-518 — Release of lien on real property by posting surety bond — Manner",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-518/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "mechanics-liens",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-mechanics-lien-bond-release"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-519",
+      "title": "Idaho Code § 45-519 — Release of lien on real property by posting surety bond — Form of bond",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-519/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "mechanics-liens",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-mechanics-lien-bond-release"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3203",
+      "title": "Idaho Code § 55-3203 — Definitions (Homeowner's Association Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3203/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-hoa-definition-lien-authority"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3205",
+      "title": "Idaho Code § 55-3205 — Disclosure of fees and financial disclosures (Homeowner's Association Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3205/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-hoa-statement-of-account"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3207",
+      "title": "Idaho Code § 55-3207 — Homeowner's association liens",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3207/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-hoa-lien-claim-requirements",
+        "ln-hoa-lien-enforcement"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-1518",
+      "title": "Idaho Code § 55-1518 — Assessment and other charges a lien — Notice recorded — Payment and release — Priority of liens — Expiration — Extension — Enforcement by sale — Purchase by management body",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch15/sect55-1518/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa",
+        "condominiums",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-condo-assessment-lien-one-year"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-206",
+      "title": "Idaho Code § 63-206 — Lien of property taxes",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch2/sect63-206/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; no future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ln-property-tax-first-lien-perpetual"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-understanding-federal-tax-lien",
+      "title": "Understanding a federal tax lien — Internal Revenue Service",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/understanding-a-federal-tax-lien",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "federal-tax-lien",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-09-14",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — IRS's own explanatory page, raw HTML cached. It is agency guidance, not the Internal Revenue Code; 26 U.S.C. 6321–6325 were not read for this topic.",
+      "stalenessRisk": "MEDIUM — IRS guidance and publication revisions change without legislative notice; re-check the current revision before relying on it.",
+      "claimsSupported": [
+        "ln-irs-federal-tax-lien-what-it-is",
+        "ln-irs-release-thirty-days",
+        "ln-irs-discharge-subordination-withdrawal"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-pub-783",
+      "title": "IRS Publication 783 — How to Apply for a Certificate of Discharge From Federal Tax Lien (Rev. 12-2022)",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/pub/irs-pdf/p783.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "federal-tax-lien",
+        "liens"
+      ],
+      "publicationDate": "2022-12",
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — official IRS publication, PDF cached and text-extracted with pdftotext (-layout). ⚠️ Two-column layout interleaves in the extracted text; quotes bridge column breaks with '...'.",
+      "stalenessRisk": "MEDIUM — IRS guidance and publication revisions change without legislative notice; re-check the current revision before relying on it.",
+      "claimsSupported": [
+        "ln-irs-discharge-apply-45-days",
+        "ln-irs-discharge-partial-payment-or-no-value"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-pub-784",
+      "title": "IRS Publication 784 — How to Apply for a Certificate of Subordination of Federal Tax Lien (Rev. 12-2022)",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/pub/irs-pdf/p784.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "federal-tax-lien",
+        "liens"
+      ],
+      "publicationDate": "2022-12",
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — official IRS publication, PDF cached and text-extracted with pdftotext (-layout). ⚠️ Two-column layout interleaves in the extracted text; quotes bridge column breaks with '...'. ",
+      "stalenessRisk": "MEDIUM — IRS guidance and publication revisions change without legislative notice; re-check the current revision before relying on it.",
+      "claimsSupported": [
+        "ln-irs-subordination-pub-784"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

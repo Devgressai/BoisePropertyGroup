@@ -15,11 +15,13 @@ const LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
 const gc = loadTsModule(resolve("src/data/guide-content.ts"));
 const pc = loadTsModule(resolve("src/data/place-content.ts"));
 const cc = loadTsModule(resolve("src/data/commercial-content.ts"));
+const tp = loadTsModule(resolve("src/data/topic-pages.ts"));
 
 const pages = [
   ...Object.entries(gc.guideContent).map(([slug, c]) => ({ path: `/guides/${slug}`, c })),
   ...Object.entries(pc.placeContent ?? {}).map(([slug, c]) => ({ path: `/${slug}`, c })),
   ...cc.COMMERCIAL_PAGES.map((c) => ({ path: `/commercial/${c.slug}`, c })),
+  ...tp.TOPIC_PAGES.map((c) => ({ path: `/${c.slug}`, c })),
 ];
 const known = new Set([
   "/", "/locations", "/guides", "/how-it-works", "/what-we-buy", "/about", "/contact", "/commercial",

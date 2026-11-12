@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
 import WhatWeBuy from "@/components/WhatWeBuy";
+import TopicList from "@/components/TopicList";
 import { criteria } from "@/data/criteria";
 
 const TITLE = "What We Buy — Acquisition Criteria";
@@ -43,6 +44,7 @@ export default function WhatWeBuyPage() {
         </div>
 
         <WhatWeBuy />
+        <TopicList kind="situation" heading="By situation" lede="Inherited, as-is, tenanted, divorcing, behind on payments, land, manufactured homes — what a direct sale looks like in each, and the Idaho rules that apply." />
         <NextSteps path="/what-we-buy" />
         <FinalCTA />
       </main>

@@ -1,0 +1,293 @@
+{
+  "claims": [
+    {
+      "id": "dv-separate-property-defined",
+      "claim": "Idaho Code 32-903 makes a spouse's sole and separate property: property owned before marriage, property acquired afterward by gift, bequest, devise or descent, and property acquired with the proceeds of separate property.",
+      "quotedLanguage": "All property of either the husband or the wife owned by him or her before marriage, and that acquired afterward by either by gift, bequest, devise or descent, or that which either he or she shall acquire with the proceeds of his or her separate property, by way of moneys or other property, shall remain his or her sole and separate property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "community-property",
+        "separate-property"
+      ],
+      "sourceIds": [
+        "idcode-32-903"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(32-903) 1866, p. 65, sec. 1; R.S., sec. 2495; am. 1903, p. 345, sec. 1; reen. R.C. & C.L., sec. 2676; C.S., sec. 4656; I.C.A., sec. 31-903; am. 1941, ch. 62, sec. 1, p. 123.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ State the categories as the statute lists them. Do NOT tell a reader that a house bought before marriage 'stays separate' as a conclusion about their facts: whether later payments, refinancing, a deed change or commingling affect character is a question this statute does not answer, and case law (not read here) does. Phrase as 'the statute lists' and send to an attorney."
+    },
+    {
+      "id": "dv-community-property-default",
+      "claim": "Under Idaho Code 32-906(1), all other property acquired after marriage by either spouse — that is, property not within the separate-property categories of 32-903 — is community property, and the income of all property, separate or community, is community property unless the acquiring conveyance or a written agreement of both spouses provides otherwise.",
+      "quotedLanguage": "(1) All other property acquired after marriage by either husband or wife is community property. The income, including the rents, issues and profits, of all property, separate or community, is community property unless the conveyance by which it is acquired provides or both spouses, by written agreement specifically so providing, declare that all or specifically designated property and the income, including the rents, issues and profits, from all or the specifically designated property shall be the separate property of one of the spouses",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "community-property"
+      ],
+      "sourceIds": [
+        "idcode-32-906"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[32-906, added 1980, ch. 300, sec. 2, p. 777; am. 2003, ch. 139, sec. 2, p. 407.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ 'All OTHER property' only makes sense read with 32-903; never quote the first sentence as 'everything acquired during marriage is community' without the 32-903 categories. ⚠️ The statute uses the words 'is community property'; it does not itself use the word 'presumption'. Do not write 'Idaho presumes' as if quoting this section. Income-from-separate-property rule is a real trap for a rental bought before marriage — state it, never apply it."
+    },
+    {
+      "id": "dv-interspouse-deed-presumed-separate",
+      "claim": "Under Idaho Code 32-906(2), property conveyed by one spouse to the other is presumed to be the grantee's sole and separate estate, and only the grantor spouse need sign and acknowledge that deed, notwithstanding 32-912; income from it is not the grantee's separate property unless the deed says so.",
+      "quotedLanguage": "(2) Property conveyed by one spouse to the other shall be presumed to be the sole and separate estate of the grantee and only the grantor spouse need execute and acknowledge the deed or other instrument of conveyance notwithstanding the provisions of section 32-912, Idaho Code; provided, however, that the income, including the rents, issues and profits, from such property shall not be the separate property of the grantee spouse unless this fact is specifically stated in the instrument of conveyance.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "community-property",
+        "deeds"
+      ],
+      "sourceIds": [
+        "idcode-32-906"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[32-906, added 1980, ch. 300, sec. 2, p. 777; am. 2003, ch. 139, sec. 2, p. 407.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ A PRESUMPTION, the statute's word. Never write that a quitclaim between spouses 'makes' the house separate property or is conclusive. Rebuttal is case law not read here."
+    },
+    {
+      "id": "dv-both-spouses-join-community-real-estate",
+      "claim": "Under Idaho Code 32-912, either spouse may manage and control community property, but neither may sell, convey or encumber community real estate unless the other joins in executing the sale agreement, deed or other instrument by which it is sold, conveyed or encumbered.",
+      "quotedLanguage": "Either the husband or the wife shall have the right to manage and control the community property, and either may bind the community property by contract, except that neither the husband nor wife may sell, convey or encumber the community real estate unless the other joins in executing the sale agreement, deed or other instrument of conveyance by which the real estate is sold, conveyed or encumbered,",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "community-property",
+        "signatures",
+        "deeds"
+      ],
+      "sourceIds": [
+        "idcode-32-912"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(32-912) 1866, p. 65, sec. 9; 1885, p. 137, sec. 1; R.S., sec. 2505; reen. R.C., sec. 2686; am. 1913, ch. 105, p. 425; am. 1915, ch. 75, sec. 1, p. 187; compiled and reen. C.L., sec. 2686; C.S., sec. 4666; I.C.A., sec. 31-913; am. 1945, ch. 18, sec. 1, p. 26; am. 1974, ch. 194, sec. 2, p. 1502; am. 1991, ch. 63, sec. 1, p. 157.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ Applies to COMMUNITY real estate. It covers the SALE AGREEMENT as well as the deed — the purchase contract, not only closing documents. Say nothing about what happens to a contract signed by one spouse alone (void/voidable is case law, not read). The statute does not address separate real property; 32-904 (not used) concerns a wife's separate property in old gendered language — do not cite it for a general rule."
+    },
+    {
+      "id": "dv-power-of-attorney-exception",
+      "claim": "Idaho Code 32-912 allows one spouse, by express power of attorney, to give the other complete power to sell, convey or encumber community property, real or personal.",
+      "quotedLanguage": "provided, however, that the husband or wife may by express power of attorney give to the other the complete power to sell, convey or encumber community property, either real or personal.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "community-property",
+        "signatures"
+      ],
+      "sourceIds": [
+        "idcode-32-912"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(32-912) 1866, p. 65, sec. 9; 1885, p. 137, sec. 1; R.S., sec. 2505; reen. R.C., sec. 2686; am. 1913, ch. 105, p. 425; am. 1915, ch. 75, sec. 1, p. 187; compiled and reen. C.L., sec. 2686; C.S., sec. 4666; I.C.A., sec. 31-913; am. 1945, ch. 18, sec. 1, p. 26; am. 1974, ch. 194, sec. 2, p. 1502; am. 1991, ch. 63, sec. 1, p. 157.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "'Express' power of attorney — do not imply a general or informal authority suffices. Whether a title company will accept a given POA is a title-company decision, not stated here."
+    },
+    {
+      "id": "dv-revocable-trust-community",
+      "claim": "Under Idaho Code 32-906A, community property that a married couple transfers to a revocable trust meeting the section's conditions remains community property during the marriage unless the trust expressly provides otherwise, and the section does not stop the trustee conveying trust property under the trust's terms without a spouse's consent unless the trust expressly requires it.",
+      "quotedLanguage": "the property so transferred to such trust, and the interests of the spouses in such trust, shall be community property during the continuance of the marriage, unless the trust otherwise expressly provides. ... nor shall this section be construed to prohibit the trustee from conveying any trust property, real or personal, in accordance with the provisions of the trust without the consent of the husband or wife unless the trust expressly required the consent of one or both spouses.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "community-property",
+        "trusts"
+      ],
+      "sourceIds": [
+        "idcode-32-906a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 32-906A, as added by 1973, ch. 159, sec. 1, p. 304.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ Only for a trust meeting ALL THREE conditions (a)-(c) in the section (revocable during joint lives; provides property stays community; amendable on joint consent). Who signs for a trust-held house turns on the trust document — point to the trust and an attorney; never generalise."
+    },
+    {
+      "id": "dv-marriage-settlement-overrides-chapter",
+      "claim": "Idaho Code 32-916 says spouses' property rights are governed by chapter 9 of Title 32 unless a marriage settlement agreement entered into during marriage contains contrary stipulations, and 32-917 requires marriage settlement contracts to be in writing and executed and acknowledged like conveyances of land.",
+      "quotedLanguage": "The property rights of husband and wife are governed by this chapter, unless there is a marriage settlement agreement entered into during marriage containing stipulations contrary thereto. ... All contracts for marriage settlements must be in writing, and executed and acknowledged or proved in like manner as conveyances of land are required to be executed and acknowledged or proved.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "community-property",
+        "agreements"
+      ],
+      "sourceIds": [
+        "idcode-32-916",
+        "idcode-32-917"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(32-916) 1866, p. 65, sec. 15; R.S., sec. 2508; reen. R.C. & C.L., sec. 2689; C.S., sec. 4670; I.C.A., sec. 31-917; am. 1980, ch. 299, sec. 1, p. 777; am. 1995, ch. 229, sec. 1, p. 780.] ... [(32-917) 1866, p. 65, sec. 16; R.S., sec. 2509; reen. R.C. & C.L., sec. 2690; C.S., sec. 4671; I.C.A., sec. 31-918.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Two sections, two sources; quote joined with '...'. 32-916 as quoted refers to an agreement 'entered into during marriage'; premarital agreements (Uniform Premarital Agreement Act, 32-921 onward) were NOT read and must not be described from this claim."
+    },
+    {
+      "id": "dv-decree-substantially-equal-division",
+      "claim": "Idaho Code 32-712 directs that on a divorce decree the court assigns community property in proportions it deems just, and that unless there are compelling reasons otherwise there shall be a substantially equal division in value, considering debts; it lists factors that may bear on whether the division is equal, including the length of the marriage, any antenuptial agreement, each spouse's needs and earning capability, and retirement benefits.",
+      "quotedLanguage": "1. The community property must be assigned by the court in such proportions as the court, from all the facts of the case and the condition of the parties, deems just, with due consideration of the following factors: (a) Unless there are compelling reasons otherwise, there shall be a substantially equal division in value, considering debts, between the spouses. (b) Factors which may bear upon whether a division shall be equal, or the manner of division, include, but are not limited to: (1) Duration of the marriage;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "community-property",
+        "decree"
+      ],
+      "sourceIds": [
+        "idcode-32-712"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(32-712) 1874, p. 634, sec. 12; R.S., sec. 2480; reen. R.C. & C.L., sec. 2670; C.S., sec. 4650; I.C.A., sec. 31-712; am. 1965, ch. 63, sec. 1, p. 98; am. 1980, ch. 378, sec. 9, p. 964.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ NEVER write '50/50' or 'split equally' as a rule: the statute says 'substantially equal ... unless there are compelling reasons otherwise' and lists non-exclusive factors. Applies to COMMUNITY property; it does not divide separate property. Describe, never predict an outcome."
+    },
+    {
+      "id": "dv-decree-homestead-assign-or-sell",
+      "claim": "Under Idaho Code 32-712, a homestead selected from community property may be assigned to either spouse absolutely or for a limited period, or divided, or sold and the proceeds divided; a homestead selected from one spouse's separate property must be assigned to that former owner, subject to the court's power to assign it for a limited period to the other spouse.",
+      "quotedLanguage": "2. If a homestead has been selected from the community property, it may be assigned to either party, either absolutely, provided such assignment is considered in distribution of the community property, or for a limited period, subject in the latter case to the future disposition of the court; or it may be divided or be sold and the proceeds divided. 3. If a homestead has been selected from the separate property of either, it must be assigned to the former owner of such property, subject to the power of the court to assign it for a limited period to the other spouse.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "homestead",
+        "decree"
+      ],
+      "sourceIds": [
+        "idcode-32-712"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(32-712) 1874, p. 634, sec. 12; R.S., sec. 2480; reen. R.C. & C.L., sec. 2670; C.S., sec. 4650; I.C.A., sec. 31-712; am. 1965, ch. 63, sec. 1, p. 98; am. 1980, ch. 378, sec. 9, p. 964.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ 'Homestead ... selected' is the statute's own term and predates the 1989 rewrite of Title 55 ch. 10 (automatic homestead, 55-1004). How the two interact was NOT researched — do not connect them in prose. Do not confuse with the creditor homestead exemption (55-1003) or the property-tax homeowner's exemption (63-602G)."
+    },
+    {
+      "id": "dv-irflp-temporary-order-divide-property",
+      "claim": "Under Idaho Rule of Family Law Procedure 504(a)(2), a party may move for a temporary order to exclude a party from a residence, to divide community property or to order payment of debts and expenses, and the motion must state the specific relief requested, including the proposed division of property.",
+      "quotedLanguage": "A motion requesting a temporary order to exclude a party from a residence, to divide community property, or to order payment of debt and expenses, must state the specific relief requested, including the proposed division of property, the responsibility that each party would have to pay debts and expenses, and the income and assets that would be available to each party if the motion is granted.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "court-procedure",
+        "temporary-orders"
+      ],
+      "sourceIds": [
+        "irflp-rule-504"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "(Adopted March 29, 2021, effective July 1, 2021.)",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ A temporary order is something a party ASKS FOR by motion; it is not automatic. Say nothing about what any particular court has ordered or typically orders."
+    },
+    {
+      "id": "dv-irflp-injunction-dispose-property",
+      "claim": "Under Idaho Rule of Family Law Procedure 506(e)(4), one ground on which a preliminary injunction may be granted in a family law case is that it appears by affidavit the responding party is about to remove or dispose of their property with intent to defraud the moving party.",
+      "quotedLanguage": "(e) Grounds for Preliminary Injunction. A preliminary injunction may be granted in the following cases: ... (4) when it appears, by affidavit, that the responding party is about to remove or to dispose of the responding party’s property with intent to defraud the moving party or;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "court-procedure",
+        "injunctions"
+      ],
+      "sourceIds": [
+        "irflp-rule-506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "(Adopted March 29, 2021, effective July 1, 2021.)",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ The trailing 'or;' is verbatim from the court's page. Rule 506 also lists other grounds (e)(1)-(3),(5); (4) is the one that names disposing of property. ⚠️ NEGATIVE FINDING, NOT A CLAIM: a search of the full IRFLP text cached 2026-11-12 found no automatic restraining order on transferring property upon filing. Do not state 'Idaho has no automatic restraining order' as fact — local orders, standing orders or a specific court's practice were not checked."
+    },
+    {
+      "id": "dv-irflp-401-disclose-deeds",
+      "claim": "Idaho Rule of Family Law Procedure 401(f) requires each party in a contested family law action, unless the parties have a written agreement disposing of all property issues or no property is at issue, to list real and personal property worth more than $100 with an estimated current fair market value, and to give the other party copies of all deeds, deeds of trust, purchase agreements, escrow documents and settlement sheets for real property owned by any party.",
+      "quotedLanguage": "(f) Property. Unless the parties have entered into a written agreement disposing of all property issues in the case or no property is at issue in the case, each party will prepare a list of all items having a fair market value more than $100 of real and personal property, ... (1) all deeds, deeds of trust, purchase agreements, escrow documents, settlement sheets, and all other documents that disclose the ownership, legal description, purchase price, and encumbrances of all real property owned by any party;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "divorce",
+        "court-procedure",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "irflp-rule-401"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "(Adopted March 29, 2021, effective July 1, 2021.)",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Rule 401 is titled 'Mandatory Disclosure in Contested Proceedings'; 401(a) sets the deadline at 35 days after a responsive pleading (not used in prose; if used, quote 401(a) separately). ⚠️ This is DISCOVERY between spouses — never confuse with the seller property condition disclosure to a buyer (55-2504)."
+    }
+  ]
+}

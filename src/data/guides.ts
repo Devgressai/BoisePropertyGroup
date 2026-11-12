@@ -14,7 +14,9 @@ export interface Guide {
   title: string;
   h1: string;
   description: string;
-  cluster: "estate" | "distress" | "tenants" | "land" | "disclosure" | "manufactured";
+  cluster:
+    | "estate" | "distress" | "tenants" | "land" | "disclosure" | "manufactured"
+    | "probate" | "divorce" | "liens" | "closing" | "property-tax" | "well-septic";
   /**
    * ISO dates, taken from git history. `updated` moves ONLY when the guide's
    * substance changes — never to look fresh. Rendered visibly on the page and
@@ -84,6 +86,26 @@ export const guides: Guide[] = [
     cluster: "disclosure",
     published: "2026-09-12",
     updated: "2026-09-12",
+  },
+  {
+    slug: "selling-a-house-during-a-divorce-in-idaho",
+    title: "Selling a House During a Divorce in Idaho",
+    h1: "Selling a house during a divorce in Idaho: who has to sign",
+    description:
+      "What Idaho's community property statutes say about who must sign a sale, how temporary orders and injunctions fit in, and how a divorce decree divides a house.",
+    cluster: "divorce",
+    published: "2026-11-12",
+    updated: "2026-11-12",
+  },
+  {
+    slug: "liens-and-judgments-when-selling-in-idaho",
+    title: "Selling an Idaho House With a Lien",
+    h1: "Liens and judgments when you sell an Idaho house",
+    description:
+      "What Idaho Code and the IRS say about judgment, mechanic's, HOA, child-support, property-tax and federal tax liens on a house, and how each one ends.",
+    cluster: "liens",
+    published: "2026-11-12",
+    updated: "2026-11-12",
   },
 ];
 

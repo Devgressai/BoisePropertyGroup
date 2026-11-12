@@ -1,0 +1,408 @@
+How to Apply for a
+Certificate of Subordination of Federal Tax Lien
+A Certificate of Subordination under Internal Revenue Code                   Notice of Federal Tax Lien, enter your name (include any
+Section 6325(d)(1) and 6325(d)(2) allows a named creditor to                 name changes), current address, daytime phone number
+move their junior creditor position ahead of the United States’              and fax number.
+position for the property named in the certificate. For How to             4. If you are not the taxpayer, enter in the box next to “Name”
+Apply for a Certificate of Subordination of Federal Estate Tax                your relationship to the taxpayer (e.g. parent, uncle, sister,
+Lien Under Section 6325(d)(3) of the Internal Revenue Code use                no relation, etc).
+Publication 1153.
+                                                                        Section 3 - Property Owner
+  1. Complete Form 14134, Application for Certificate of
+     Subordination of Federal Tax Lien, attached with this                 1. Check the box on the first line of Section 3 if you are both
+     publication.                                                             the property owner and the applicant.
+
+  2. Mail the completed Form 14134 and the appropriate                     2. Enter the name of the property owner. Or if you have
+     attachments to:                                                          checked the box indicating you are both the applicant and
+     IRS Advisory Consolidated Receipts                                       the property owner, enter, “same as applicant”.
+     7940 Kentucky Drive, Stop 2850F                                       3. Enter the property owner’s relationship to the taxpayer (e.g.
+     Florence, KY 41042                                                       taxpayer, parent, no relation, etc.).
+     (Refer to Publication 4235, Collection Advisory Group
+     Addresses, for additional contact information.)                    Section 4 - Attorney/Representative Information
+If you have any questions, contact the Advisory Consolidated            This section is used to list the taxpayer’s representative or a
+Receipts Office at 859-594-6090.                                        representative of a party other than the taxpayer, such as the
+                                                                        lender, needing to receive information from the IRS. However,
+If you want to know how much you owe in order to pay the                you do not need a representative to request discharge of the
+lien(s) in full, call 1-800-913-6050, visit the nearest Taxpayer        federal tax lien.
+Assistance Center, or contact the revenue officer assigned to
+your case.                                                                 1. Check the box on the first line of Section 4 if you are
+                                                                              attaching a Form 8821 (Tax Information Authority) or Form
+Important!                                                                    2848 (Power of Attorney) with your application. If you
+Please submit your application at least 45 days before the                    are attaching one of these forms, please make sure it is
+transaction date that the certificate of subordination is needed.             completely filled out, signed, and dated. You must provide
+Doing so will allow sufficient time for review, determination,                one of these forms if the representative represents an
+notification and the furnishing of any applicable documents by                interest other than the taxpayer.
+the transaction date.                                                      2. Enter the name, address, phone number, and fax number
+                                                                              of your representative in this action. The IRS will work with
+Information Required on the Application                                       you and your representative to process your application.
+                                                                              Or enter “NA” on the name line if you are not using a
+Section 1 - Taxpayer Information                                              representative.
+  1. Enter the name and address of the individual(s) or business           3. Enter whose interest the representative represents (e.g.
+     as it appears on the Notice(s) of Federal Tax Lien (NFTL). A             taxpayer, lender, title company, etc.). This allows the IRS
+     second name line is provided if needed.                                  to determine what information can be shared with the
+  2. Enter, if known, the last 4 digits of the social security                representative.
+     number (SSN) or full employer identification number as it
+                                                                        Section 5 – Lender/Finance Company Information
+     appears on the NFTL.
+                                                                           1. Enter the company name, contact name, phone number,
+  3. Enter, if known and if applicable, the last 4 digits of any
+                                                                              and fax number for the lender you are requesting the
+     spousal SSN (secondary SSN) associated with the tax debt
+                                                                              United States subordinate its interest to.
+     listed on the NFTL.
+                                                                           2. Enter the type of transaction. For example, a loan
+  4. Provide a daytime phone number and a fax number.
+                                                                              consolidation or refinance often prompts a subordination
+Section 2 - Applicant Information                                             request.
+
+  1. Check the box on the first line of Section 2 if you are both       Section 6 – Monetary Information
+     the taxpayer and the applicant. If you are not the taxpayer,          1. Enter the amount of your existing or outstanding financing.
+     attach a copy of the NFTL.
+                                                                           2. Enter the amount of new financing you are seeking.
+  2. If you have checked the box indicating that you are the
+     taxpayer and your information is the same as listed on the            3. Enter the amount anticipated being paid toward the United
+     NFTL, enter “same as taxpayer” on the name line.                         States’ interest (For applications requested under 6325(d)
+                                                                              (1) only).
+  3. If you are not the taxpayer or you are the taxpayer but your
+     information is no longer the same as the information on the
+
+
+
+           Publication 784 (Rev. 12-2022) Catalog Number 46756T Department of the Treasury Internal Revenue Services www.irs.gov
+Section 7 - Basis for Subordination                                         which you want the lien interest subordinated to the loan or
+A subordination may be granted under Internal Revenue Code                  financing. If this is real estate, you must provide the legal
+(IRC) 6325(d)(1) or 6325(d)(2). Review the information below                description.
+and select the section which best applies to your subordination           2. When the property is real estate include the type of
+request. If the IRS does not agree with your selection after its             property. For example, 3-bedroom house; etc. When the
+review, an explanation of the decision will be provided.                     property is personal property include serial or vehicle
+                                                                             numbers, as appropriate. For example, 2002 Cessna twin
+6325(b)(1) – a subordination may be issued under this section                engine airplane, serial number AT919000000000X00; etc.
+if you pay an amount equal to the lien or interest to which
+the certificate subordinates the lien of the United States. The           3. Provide the property’s physical address if it is real estate or
+following example uses an 80% loan to value and a 3% closing                 provide the physical address where the property is located,
+cost to financing ratio.                                                     if it is personal property.
+
+         Example                                                          4. Check the appropriate box to indicate whether you
+                                                                             attached a copy of the title or deed to the property
+				Current/New                                           Original
+ Fair Market Value      $200,000                            N/A        Section 9 – Appraisal and Valuations
+ Refinance		            $160,000                          $145,000        1. Check the “Attached” box after “Appraisal” to indicate
+ Closing Costs		          $4,800                            N/A              whether you have attached an appraisal completed by a
+ United States Interest  $10,200                            N/A              disinterested third party. This is typically a professional
+                                                                             appraisal providing neighborhood analysis; description of
+    In this example the United States’ interest is the equity                the site; description of the improvements; cost approach;
+    you obtain from your refinanced loan after paying off the                comparable sales; definition of market value; certification;
+    existing loan of $145,000 and paying the closing costs to                contingent and limiting conditions; interior and exterior
+    obtain the loan. ($200,000 property value x 80% loan to                  photos of the property; exterior photos of comparable
+    value ratio = $160,000 refinance loan amount. $160,000 -                 sales used; comparable sales location map; sketch of
+    $145,000 loan payoff = $15,000 potential equity. $160,000                subject property showing room layout; flood map and
+    x 3% = $4800 closing costs to obtain the loan. $15,000                   qualifications of the appraiser. This type of appraisal is
+    potential equity - $4,800 closing costs = $10,200) The                   not required for a certificate of subordination.
+    IRS would ask for $10,200 in return for the United States
+    subordinating its interest to the refinanced loan. The lien           2. Check the appropriate box under the “Or One of the
+    remains on the property but the refinanced loan has priority             Following Valuations” section to indicate which type
+    over the lien.                                                           of property value verification is attached with your
+                                                                             application.
+  4. 6325(d)(2) – a subordination may be issued under this
+     section if the IRS determines that the issuance of the            Section 10 − Notices of Federal Tax Lien (NFTLs)
+     certificate will increase the amount the government realizes      This section is important when the applicant and the taxpayer
+     and make collection of the tax liability easier. This might       are different. If the applicant and the taxpayer are the same, this
+     involve a refinance to a lower interest rate which would,         section may be skipped.
+     if the subordination were granted, allow a larger monthly
+     repayment rate on the tax liability. Or the situation might          1. Check the “Attached” box if you have attached copies of
+     be more complex. For example, AAA Auto Sales currently                  the NFTL with your application.
+     pays the IRS $2000 per month on a $120,000 tax debt.                 2. If you checked the “no” box list the System Lien
+     Their inventory needs replenishing but their wholesaler is              Identification Number (SLID) found in the top right hand
+     reluctant to provide added inventory because of the federal             box of the NFTL document, if available. If you do not have
+     tax lien. AAA requests subordination and provides the IRS               the numbers enter “unknown” in the first box.
+     with documentation that an inventory replenishment of 500
+     cars could allow them to increase their monthly payment           Section 11 − Proposed loan agreement
+     to $3000 as well as increase their pay back rate to bi-
+                                                                          1. Check the “attached” box if you have attached the
+     weekly. In this example the United States’ interest would
+                                                                             proposed mortgage contract and describe how
+     be second on the new inventory, if the subordination is
+                                                                             subordination is in the best interests of the United States
+     granted.
+                                                                          2. If you checked the “no” box, describe how subordination is
+    For applications under section 6325(d)(2), complete and
+                                                                             in the best interests of the United States.
+    attach a signed and dated statement describing how the
+    amount the United States may ultimately realize through            Section 12 − Current Title Report
+    this subordination will increase and how collection will be
+    facilitated by the subordination.                                     1. Check the “attached” box if you attached the title report.
+                                                                             This is required for subordination.
+  5. 6325(d)(3) – Questions and applications for this                     2. If you checked the “no” box and the title report is not
+     sectionrefer to Publication 1153 for instructions.                      attached, use the space provided to list any encumbrances
+                                                                             (liens or claims) against the property and whether those
+Section 8 – Description of Property
+                                                                             encumbrances are senior to the United States’ lien interest.
+  1. Enter a detailed description of the collateral you will use             Include the name and address of the holder; description
+     for the loan or other financing. This is the collateral on              of the encumbrance, e.g., mortgage, state lien, etc.;
+
+
+          Publication 784 (Rev. 12-2022) Catalog Number 46756T Department of the Treasury Internal Revenue Services www.irs.gov
+    date of agreement; original loan amount and interest rate;         Q2: What is an acceptable form of payment?
+    amount due at time of application; and family relationship, if     Make payments in cash or by the following types of checks:
+    applicable.                                                        certified; cashiers; or treasurer’s check. The check must be
+  3. If any mortgages listed on your title report are home equity      drawn on any bank or trust company incorporated under the
+     lines of credit (HELOCs), the NFTL takes priority over            laws of the United States, or of any state, or possession of
+     advances made via the HELOC on the 46th day after the             the United States. Payment can also be made using a United
+     NFTL is filed. This means any advances made to you more           States postal, bank, express or telegraph money order.
+     than 46 days after the NFTL is filed, were made subject to
+     the NFTL. The advances need to be included in the equity          Important! If you pay by personal check, issuance of the
+     interest to which the United States attaches. To make an          certificate of subordination will be delayed until the bank honors
+     accurate value determination and to avoid processing              the check.
+     delays with your application, provide documentation on any
+     HELOC advances from the 46th day after the NFTL was               Q3: Who makes the decision to issue a Certificate of
+     filed, through the date you submit your application, and          Subordination?
+     include expected advances through the date the certificate
+                                                                       In all cases Advisory staff will review and verify the information
+     will be issued.
+                                                                       provided, determine whether a certificate of subordination
+  4. Attach a separate sheet titled “Section 12” with the              should be issued, and contact you with any questions. Advisory
+     information in item # 2 and # 3 above if there is not enough      may contact you, your representative, or any person relative to
+     space provided on the form.                                       the transaction for additional information.
+
+Section 13 − Proposed closing statement                                The Advisory Group Manager has the responsibility to review
+  1. Check the “attached” box if you attached the proposed             and approve the determination and let you know the outcome.
+     closing statement. This statement is often referred to as a       If approved, you will receive a conditional commitment letter.
+     HUD-1.
+                                                                       Q4: When will I receive the Certificate of Subordination?
+  2. If you checked the “no” box and you did not attach the
+     proposed closing statement, use the space provided to             The Internal Revenue Code under which the certificate of
+     itemize all proposed costs, commissions, and expenses to          subordination will be issued or granted determines when you
+     refinance the property                                            will receive the certificate.
+  3. Attach a separate sheet titled “Section 13” with the                 • Under 6325(d)(1), you will receive the certificate upon
+     information in item # 2 above if there is not enough space             receipt of the amount determined to be the interest of the
+     provided on the form.                                                  United States in the property subject to the federal tax lien.
+Section 14 − Additional Information                                       • Under 6325(d)(2), you will receive the certificate after your
+                                                                            application has been investigated and the information
+  1. Check the “attached” box if you have attached other
+                                                                            verified. The Advisory Group Manager will notify you of the
+     documents relevant to the subordination application. This
+                                                                            decision and provide you with a projected date for mailing
+     could include affidavits or court documents.
+                                                                            the certificate of subordination.
+  2. Check the “no” box if you do not have any additional
+     documentation.                                                    Q5: What happens if my application is denied?
+                                                                       If your application is denied, you will receive Form 9423,
+Section 15 − Declaration
+                                                                       Collection Appeal Request, and Publication 1660, Collection
+The applicant or their authorized Power of Attorney signs              Appeal Rights, with an explanation of why your application was
+the application form. You must sign your application under             denied.
+penalties of perjury attesting to having examined the application,
+accompanying schedules or documents, exhibits, affidavits, and         Privacy and Paperwork Reduction
+statements and declaring to the best of your knowledge and
+belief that the application is true, correct and complete.
+                                                                       Act Notice
+                                                                       The Privacy act of 1974 says that when we ask you for
+Frequently Asked Questions                                             information about yourself, we must first tell you our legal right
+                                                                       to ask for the information, why we are asking for it, and how it
+Q1: When do I make a payment?                                          will be used. We must also tell you what could happen if you do
+                                                                       not provide it and whether or not you must respond under the
+The Internal Revenue Code section under which the certificate
+                                                                       law.
+of subordination will be issued or granted determines the details
+regarding making a payment.                                            We ask for the information on this form to carry out the Internal
+                                                                       Revenue laws of the United States. This information requested
+  • Subordination under 6325(d)(1) requires a payment, but
+                                                                       on this form is needed to process your application and to
+    do not send a payment with the application. The Advisory
+                                                                       determine whether the federal tax lien can be subordinated.
+    Group Manager will notify you after determining the amount
+                                                                       You are not required to apply for subordination; however, if you
+    due and when to send payment.
+                                                                       want the federal tax lien to be subordinated, you are required
+  • Subordination under 6325(d)(2) does not require a payment.         to provide the information requested on this form. Section 6109
+
+
+
+
+          Publication 784 (Rev. 12-2022) Catalog Number 46756T Department of the Treasury Internal Revenue Services www.irs.gov
+requires you to provide the requested identification numbers.          Routine uses of this information include giving it to the
+Failure to provide this information may delay or prevent               Department of Justice for civil and criminal litigation, and
+processing your application; providing any false information           to cities, states, the District of Columbia, and United States
+may subject you to penalties.                                          commonwealths and possessions for use in administering their
+                                                                       tax laws. Advisory may contact you, your representative, or any
+The time needed to complete and file this form will vary               person relative to the transaction for additional information.
+depending on individual circumstances. The estimated burden            We may also disclose this information to other countries
+for individuals filing this form is approved under OMB control         under a tax treaty, to federal and state agencies to enforce
+number 1545-2174. The estimated burden for those who file              federal nontax criminal laws, or to federal law enforcement and
+this form is shown below.                                              intelligence agencies to combat terrorism.
+
+  • Recordkeeping 2 hr., 45 min.
+  • Learning about the law or the form 2 hr.
+  • Preparing the form 1 hr., 30 min.
+  • Copying, assembling, and sending the form to the IRS 85
+    min.
+
+
+
+
+          Publication 784 (Rev. 12-2022) Catalog Number 46756T Department of the Treasury Internal Revenue Services www.irs.gov
+                                          Department of the Treasury — Internal Revenue Service
+Form   14134            Application for Certificate of Subordination of                                                   OMB No. 1545-2174
+(June 2010)
+                                       Federal Tax Lien
+Complete the entire application. Enter NA (not applicable), when appropriate. Attachments and exhibits should be included as
+necessary. Additional information may be requested to clarify the details of the transaction(s).
+
+1. Taxpayer Information (Individual or Business named on the notice of lien)
+Name (Individual First, Middle Initial, Last) or (Business) as it appears on lien                  Primary Social Security Number
+                                                                                                   (last 4 digits only)
+Name Continuation (Individual First, Middle Initial, Last) or (Business d/b/a)                     Secondary Social Security Number
+                                                                                                   (last 4 digits only)
+Address (Number, Street, P.O. Box)                                                                 Employer Identification Number
+
+
+City                                                    State                                      ZIP Code
+
+
+Telephone Number (with area code)                       Fax Number (with area code)
+
+
+2. Applicant Information                            Check if also the Taxpayer (If not the taxpayer, attach copy of lien. See Sec.10)
+Name (First, Middle Initial, Last)                                                       Relationship to taxpayer
+
+
+Address (Number, Street, P.O. Box)
+
+
+City                                                    State                                      ZIP Code
+
+
+Telephone Number (with area code)                       Fax Number (with area code)
+
+
+3. Property Owner                                                                            Check if also the Applicant
+                                                                                      Relationship to Taxpayer
+
+
+4. Attorney/Representative Information                  Attached: Form 8821 or               Yes            No
+                                                        Power of Attorney Form 2848
+Name (First, Middle Initial, Last)                                                   Interest Represented (e.g. taxpayer, lender, etc.)
+
+
+Address (Number, Street, P.O. Box)
+
+
+City                                                    State                                      ZIP Code
+
+
+Telephone Number (with area code)                       Fax Number (with area code)
+
+
+5. Lending/Finance Company
+Company Name                                            Contact Name                               Contact Phone Number
+
+
+Type of transaction (For example, loan consolidation, refinance, etc)
+
+
+Catalog Number 54726H                                           www.irs.gov                                    Form 14134 (Rev. 06-2010)
+                                                                                                                         Page 2 of 3
+ 6. Monetary Information
+
+   Amount of existing loan (if refinancing)
+
+   Amount of new loan
+
+   Amount to be paid to the United States (6325(d)(1) applications only)
+
+ 7. Basis for Subordination: Check the box below that best addresses what you would like the United States to consider
+    in your application for subordination. (Publication 784 has additional descriptions of the Internal Revenue Code sections listed
+   below.)
+
+       6325(d)(1)       the United States will receive an amount equal to the lien or interest to which the certificate of
+                        subordination is issued (provide amount in Section 6 above)
+
+       6325(d)(2)       the issuance of the certificate of subordination will increase the government's interest and make
+                        collection of the tax liability easier. (Complete and attach a signed and dated statement describing how
+                        the amount the United States may ultimately realize will increase and how collection will be facilitated by
+                        the subordination.)
+
+                        Statement         Attached          NA
+
+ 8. Description of property (For example, 3 bedroom rental house; 2002 Cessna twin engine airplane, serial number
+   AT919000000000X00; etc.):
+
+
+
+
+    Address of real property (If this is personal property list the address where the property is located):
+    Address (Number, Street, P.O. Box)
+
+
+    City                                               State                          ZIP Code
+
+
+    Real Estate:
+    Legible copy of deed or title showing legal description                           Attached         NA
+
+ 9. Appraisal and Valuations
+
+    Appraisal: (Professional appraisal completed by a disinterested                   Attached
+               third party but it is not required for a subordination)
+
+    OR ONE OF THE FOLLOWING VALUATIONS:
+    County valuation of property (real property)                                      Attached
+
+    Informal valuation of property by disinterested third party                       Attached
+
+    Proposed selling price (for property being sold at auction)                       Attached
+
+    Other:                                                                            Attached
+
+Catalog Number 54726H                                        www.irs.gov                                Form 14134 (Rev. 06-2010)
+                                                                                                                    Page 3 of 3
+ 10. Copy of Federal Tax Lien(s) (Complete if applicant and taxpayer differ)              Attached         No
+    OR list the lien number(s) found near the top right corner on the lien document(s) (if known)
+
+
+
+
+ 11. Copy of the proposed loan agreement (if available)                                 Attached           No
+    AND
+    Describe how subordination is in the best interests of the United States:
+
+
+
+
+ 12. Copy of a current title report (required for subordination)                        Attached           No
+    OR
+    List encumbrances with seniority over the Federal Tax Lien. Include name and address of the holder; description of
+    the encumbrance, e.g., mortgage, state lien, etc.; date of agreement; original loan amount and interest rate; amount
+    due at time of application; and family relationship, if applicable. Include any home equity line of credit (HELOCs)
+    advances beginning the 46th day after the NFTL was filed, through the date you submit your application, and include
+    expected advances through the date the certificate will be issued. (Attach additional sheets as needed):
+
+
+
+
+ 13. Copy of proposed closing statement (aka HUD-1)                                     Attached           No
+    OR
+    Itemize all proposed costs, commissions, and expenses of any transfer or sale associated with property (Attach
+    additional sheets as needed):
+
+
+
+
+ 14. Additional information that may have a bearing on this request,
+                                                                                        Yes           No
+     such as pending litigation, explanations of unusual situations, etc.,
+     is attached for consideration
+ 15. Declaration
+     Under penalties of perjury, I declare that I have examined this application, including any accompanying schedules,
+     exhibits, affidavits, and statements and to the best of my knowledge and belief it is true, correct and complete.
+
+
+
+                                      Signature/Title                                                  Date
+
+
+
+                                      Signature/Title                                                  Date
+
+Catalog Number 54726H                                      www.irs.gov                               Form 14134 (Rev. 06-2010)
+

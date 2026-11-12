@@ -14,6 +14,7 @@ import { articleSchema } from "@/lib/seo/schema";
 import { pageMetadata, metaDescription } from "@/lib/seo/meta";
 import PageSchema from "@/components/seo/PageSchema";
 import NextSteps from "@/components/NextSteps";
+import { situationForGuide } from "@/lib/seo/registry";
 import { placesForGuide } from "@/lib/seo/internalLinks";
 import Inline from "@/lib/content/Inline";
 
@@ -61,6 +62,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
   /** Places whose own claims carry a topic in this guide's cluster. */
   const relatedPlaces = placesForGuide(g.cluster);
+  /** The funnel's TOFU→BOFU edge: the page that buys what this guide explains. */
+  const sellPage = situationForGuide(g.slug);
 
   const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
   const path = `/guides/${g.slug}`;
@@ -135,6 +138,13 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             guide's cluster. Guides, places and commercial pages were three
             sealed islands joined only through the navbar and footer.
           */}
+          {sellPage && (
+            <Link href={`/${sellPage.slug}`} className="card card-lift mt-16 block max-w-[46rem] p-7 no-underline" style={{ background: "var(--bpg-tint)" }}>
+              <span className="eyebrow text-[var(--bpg-accent-ink)]">Ready to sell?</span>
+              <span className="display-md mt-2 block text-[var(--bpg-ink)]">{sellPage.h1}</span>
+              <span className="mt-2 block text-[var(--bpg-muted)]">{sellPage.description}</span>
+            </Link>
+          )}
           <aside className="mt-16 max-w-[46rem] border-t border-[var(--bpg-border)] pt-8">
             <h2 className="eyebrow text-[var(--bpg-muted)]">Other guides</h2>
             <ul className="mt-4 space-y-2.5">

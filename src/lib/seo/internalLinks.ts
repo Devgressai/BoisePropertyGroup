@@ -68,28 +68,37 @@ export function linksForPlace(place: Place): LinkItem[] {
  * `disclosure` are deliberately listed so the edges appear on their own if
  * those guides are ever written, rather than needing a second edit here.
  */
-const TOPIC_TO_CLUSTER: Record<string, Guide["cluster"]> = {
-  probate: "estate",
-  inheritance: "estate",
-  title: "estate",
-  deeds: "estate",
-  recording: "estate",
-  foreclosure: "distress",
-  "property-taxes": "distress",
-  liens: "distress",
-  "code-enforcement": "distress",
-  tenants: "tenants",
-  "manufactured-housing": "manufactured",
-  "real-vs-personal-property": "manufactured",
-  land: "land",
-  acreage: "land",
-  water: "land",
-  irrigation: "land",
-  subdivision: "land",
-  easements: "land",
-  access: "land",
-  septic: "land",
-  disclosure: "disclosure",
+const TOPIC_TO_CLUSTER: Record<string, Guide["cluster"][]> = {
+  probate: ["estate", "probate"],
+  inheritance: ["estate", "probate"],
+  creditors: ["probate"],
+  title: ["estate", "closing"],
+  deeds: ["estate", "closing"],
+  recording: ["estate", "closing"],
+  closing: ["closing"],
+  foreclosure: ["distress"],
+  "property-taxes": ["distress", "property-tax"],
+  assessment: ["property-tax"],
+  exemptions: ["property-tax"],
+  homestead: ["property-tax"],
+  liens: ["distress", "liens"],
+  judgments: ["liens"],
+  "code-enforcement": ["distress"],
+  tenants: ["tenants"],
+  "manufactured-housing": ["manufactured"],
+  "real-vs-personal-property": ["manufactured"],
+  land: ["land"],
+  acreage: ["land"],
+  water: ["land", "well-septic"],
+  irrigation: ["land", "well-septic"],
+  well: ["well-septic"],
+  septic: ["land", "well-septic"],
+  subdivision: ["land"],
+  easements: ["land"],
+  access: ["land"],
+  disclosure: ["disclosure"],
+  divorce: ["divorce"],
+  "community-property": ["divorce"],
 };
 
 /**
@@ -120,7 +129,7 @@ const TOPIC_TO_CLUSTER: Record<string, Guide["cluster"]> = {
 export function knowledgeLinksForPlace(place: Place): LinkItem[] {
   const topics = new Set(claimsForEntity(place.id).flatMap((c) => c.topics));
   const clusters = new Set(
-    [...topics].map((t) => TOPIC_TO_CLUSTER[t]).filter((c): c is Guide["cluster"] => Boolean(c)),
+    [...topics].flatMap((t) => TOPIC_TO_CLUSTER[t] ?? []),
   );
 
   const out: LinkItem[] = [];
@@ -145,7 +154,7 @@ export function knowledgeLinksForPlace(place: Place): LinkItem[] {
 /** The reverse edge: which places a guide's cluster is evidenced in. */
 export function placesForGuide(cluster: Guide["cluster"]): LinkItem[] {
   const topics = Object.entries(TOPIC_TO_CLUSTER)
-    .filter(([, c]) => c === cluster)
+    .filter(([, cs]) => cs.includes(cluster))
     .map(([t]) => t);
   const out: LinkItem[] = [];
   /**

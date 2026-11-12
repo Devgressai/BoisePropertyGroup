@@ -3603,6 +3603,961 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "United States (applies in Idaho)",
     "amendmentHistory": null
+  },
+  {
+    "id": "dv-separate-property-defined",
+    "claim": "Idaho Code 32-903 makes a spouse's sole and separate property: property owned before marriage, property acquired afterward by gift, bequest, devise or descent, and property acquired with the proceeds of separate property.",
+    "quote": "All property of either the husband or the wife owned by him or her before marriage, and that acquired afterward by either by gift, bequest, devise or descent, or that which either he or she shall acquire with the proceeds of his or her separate property, by way of moneys or other property, shall remain his or her sole and separate property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "community-property",
+      "separate-property"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-903 — Separate property of husband and wife",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-903/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(32-903) 1866, p. 65, sec. 1; R.S., sec. 2495; am. 1903, p. 345, sec. 1; reen. R.C. & C.L., sec. 2676; C.S., sec. 4656; I.C.A., sec. 31-903; am. 1941, ch. 62, sec. 1, p. 123.]"
+  },
+  {
+    "id": "dv-community-property-default",
+    "claim": "Under Idaho Code 32-906(1), all other property acquired after marriage by either spouse — that is, property not within the separate-property categories of 32-903 — is community property, and the income of all property, separate or community, is community property unless the acquiring conveyance or a written agreement of both spouses provides otherwise.",
+    "quote": "(1) All other property acquired after marriage by either husband or wife is community property. The income, including the rents, issues and profits, of all property, separate or community, is community property unless the conveyance by which it is acquired provides or both spouses, by written agreement specifically so providing, declare that all or specifically designated property and the income, including the rents, issues and profits, from all or the specifically designated property shall be the separate property of one of the spouses",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "community-property"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-906 — Community property — Income from separate and community property — Conveyance between spouses",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-906/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[32-906, added 1980, ch. 300, sec. 2, p. 777; am. 2003, ch. 139, sec. 2, p. 407.]"
+  },
+  {
+    "id": "dv-interspouse-deed-presumed-separate",
+    "claim": "Under Idaho Code 32-906(2), property conveyed by one spouse to the other is presumed to be the grantee's sole and separate estate, and only the grantor spouse need sign and acknowledge that deed, notwithstanding 32-912; income from it is not the grantee's separate property unless the deed says so.",
+    "quote": "(2) Property conveyed by one spouse to the other shall be presumed to be the sole and separate estate of the grantee and only the grantor spouse need execute and acknowledge the deed or other instrument of conveyance notwithstanding the provisions of section 32-912, Idaho Code; provided, however, that the income, including the rents, issues and profits, from such property shall not be the separate property of the grantee spouse unless this fact is specifically stated in the instrument of conveyance.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "community-property",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-906 — Community property — Income from separate and community property — Conveyance between spouses",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-906/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[32-906, added 1980, ch. 300, sec. 2, p. 777; am. 2003, ch. 139, sec. 2, p. 407.]"
+  },
+  {
+    "id": "dv-both-spouses-join-community-real-estate",
+    "claim": "Under Idaho Code 32-912, either spouse may manage and control community property, but neither may sell, convey or encumber community real estate unless the other joins in executing the sale agreement, deed or other instrument by which it is sold, conveyed or encumbered.",
+    "quote": "Either the husband or the wife shall have the right to manage and control the community property, and either may bind the community property by contract, except that neither the husband nor wife may sell, convey or encumber the community real estate unless the other joins in executing the sale agreement, deed or other instrument of conveyance by which the real estate is sold, conveyed or encumbered,",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "community-property",
+      "signatures",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-912 — Control of community property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-912/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(32-912) 1866, p. 65, sec. 9; 1885, p. 137, sec. 1; R.S., sec. 2505; reen. R.C., sec. 2686; am. 1913, ch. 105, p. 425; am. 1915, ch. 75, sec. 1, p. 187; compiled and reen. C.L., sec. 2686; C.S., sec. 4666; I.C.A., sec. 31-913; am. 1945, ch. 18, sec. 1, p. 26; am. 1974, ch. 194, sec. 2, p. 1502; am. 1991, ch. 63, sec. 1, p. 157.]"
+  },
+  {
+    "id": "dv-power-of-attorney-exception",
+    "claim": "Idaho Code 32-912 allows one spouse, by express power of attorney, to give the other complete power to sell, convey or encumber community property, real or personal.",
+    "quote": "provided, however, that the husband or wife may by express power of attorney give to the other the complete power to sell, convey or encumber community property, either real or personal.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "community-property",
+      "signatures"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-912 — Control of community property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-912/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(32-912) 1866, p. 65, sec. 9; 1885, p. 137, sec. 1; R.S., sec. 2505; reen. R.C., sec. 2686; am. 1913, ch. 105, p. 425; am. 1915, ch. 75, sec. 1, p. 187; compiled and reen. C.L., sec. 2686; C.S., sec. 4666; I.C.A., sec. 31-913; am. 1945, ch. 18, sec. 1, p. 26; am. 1974, ch. 194, sec. 2, p. 1502; am. 1991, ch. 63, sec. 1, p. 157.]"
+  },
+  {
+    "id": "dv-revocable-trust-community",
+    "claim": "Under Idaho Code 32-906A, community property that a married couple transfers to a revocable trust meeting the section's conditions remains community property during the marriage unless the trust expressly provides otherwise, and the section does not stop the trustee conveying trust property under the trust's terms without a spouse's consent unless the trust expressly requires it.",
+    "quote": "the property so transferred to such trust, and the interests of the spouses in such trust, shall be community property during the continuance of the marriage, unless the trust otherwise expressly provides. ... nor shall this section be construed to prohibit the trustee from conveying any trust property, real or personal, in accordance with the provisions of the trust without the consent of the husband or wife unless the trust expressly required the consent of one or both spouses.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "community-property",
+      "trusts"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-906A — Community property conveyed in a revocable trust remains community property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-906A/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 32-906A, as added by 1973, ch. 159, sec. 1, p. 304.]"
+  },
+  {
+    "id": "dv-marriage-settlement-overrides-chapter",
+    "claim": "Idaho Code 32-916 says spouses' property rights are governed by chapter 9 of Title 32 unless a marriage settlement agreement entered into during marriage contains contrary stipulations, and 32-917 requires marriage settlement contracts to be in writing and executed and acknowledged like conveyances of land.",
+    "quote": "The property rights of husband and wife are governed by this chapter, unless there is a marriage settlement agreement entered into during marriage containing stipulations contrary thereto. ... All contracts for marriage settlements must be in writing, and executed and acknowledged or proved in like manner as conveyances of land are required to be executed and acknowledged or proved.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "community-property",
+      "agreements"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-916 — Property rights governed by chapter",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-916/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      },
+      {
+        "title": "Idaho Code § 32-917 — Formalities required of marriage settlements",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-917/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(32-916) 1866, p. 65, sec. 15; R.S., sec. 2508; reen. R.C. & C.L., sec. 2689; C.S., sec. 4670; I.C.A., sec. 31-917; am. 1980, ch. 299, sec. 1, p. 777; am. 1995, ch. 229, sec. 1, p. 780.] ... [(32-917) 1866, p. 65, sec. 16; R.S., sec. 2509; reen. R.C. & C.L., sec. 2690; C.S., sec. 4671; I.C.A., sec. 31-918.]"
+  },
+  {
+    "id": "dv-decree-substantially-equal-division",
+    "claim": "Idaho Code 32-712 directs that on a divorce decree the court assigns community property in proportions it deems just, and that unless there are compelling reasons otherwise there shall be a substantially equal division in value, considering debts; it lists factors that may bear on whether the division is equal, including the length of the marriage, any antenuptial agreement, each spouse's needs and earning capability, and retirement benefits.",
+    "quote": "1. The community property must be assigned by the court in such proportions as the court, from all the facts of the case and the condition of the parties, deems just, with due consideration of the following factors: (a) Unless there are compelling reasons otherwise, there shall be a substantially equal division in value, considering debts, between the spouses. (b) Factors which may bear upon whether a division shall be equal, or the manner of division, include, but are not limited to: (1) Duration of the marriage;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "community-property",
+      "decree"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-712 — Community property and homestead — Disposition",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch7/sect32-712/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(32-712) 1874, p. 634, sec. 12; R.S., sec. 2480; reen. R.C. & C.L., sec. 2670; C.S., sec. 4650; I.C.A., sec. 31-712; am. 1965, ch. 63, sec. 1, p. 98; am. 1980, ch. 378, sec. 9, p. 964.]"
+  },
+  {
+    "id": "dv-decree-homestead-assign-or-sell",
+    "claim": "Under Idaho Code 32-712, a homestead selected from community property may be assigned to either spouse absolutely or for a limited period, or divided, or sold and the proceeds divided; a homestead selected from one spouse's separate property must be assigned to that former owner, subject to the court's power to assign it for a limited period to the other spouse.",
+    "quote": "2. If a homestead has been selected from the community property, it may be assigned to either party, either absolutely, provided such assignment is considered in distribution of the community property, or for a limited period, subject in the latter case to the future disposition of the court; or it may be divided or be sold and the proceeds divided. 3. If a homestead has been selected from the separate property of either, it must be assigned to the former owner of such property, subject to the power of the court to assign it for a limited period to the other spouse.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "homestead",
+      "decree"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 32-712 — Community property and homestead — Disposition",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch7/sect32-712/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(32-712) 1874, p. 634, sec. 12; R.S., sec. 2480; reen. R.C. & C.L., sec. 2670; C.S., sec. 4650; I.C.A., sec. 31-712; am. 1965, ch. 63, sec. 1, p. 98; am. 1980, ch. 378, sec. 9, p. 964.]"
+  },
+  {
+    "id": "dv-irflp-temporary-order-divide-property",
+    "claim": "Under Idaho Rule of Family Law Procedure 504(a)(2), a party may move for a temporary order to exclude a party from a residence, to divide community property or to order payment of debts and expenses, and the motion must state the specific relief requested, including the proposed division of property.",
+    "quote": "A motion requesting a temporary order to exclude a party from a residence, to divide community property, or to order payment of debt and expenses, must state the specific relief requested, including the proposed division of property, the responsibility that each party would have to pay debts and expenses, and the income and assets that would be available to each party if the motion is granted.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "court-procedure",
+      "temporary-orders"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Rules of Family Law Procedure Rule 504 — Motion for Temporary Orders",
+        "url": "https://isc.idaho.gov/rules-procedure/print/irfl/504",
+        "publisher": "Idaho Supreme Court",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "(Adopted March 29, 2021, effective July 1, 2021.)"
+  },
+  {
+    "id": "dv-irflp-injunction-dispose-property",
+    "claim": "Under Idaho Rule of Family Law Procedure 506(e)(4), one ground on which a preliminary injunction may be granted in a family law case is that it appears by affidavit the responding party is about to remove or dispose of their property with intent to defraud the moving party.",
+    "quote": "(e) Grounds for Preliminary Injunction. A preliminary injunction may be granted in the following cases: ... (4) when it appears, by affidavit, that the responding party is about to remove or to dispose of the responding party’s property with intent to defraud the moving party or;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "court-procedure",
+      "injunctions"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Rules of Family Law Procedure Rule 506 — Injunctions and Restraining Orders",
+        "url": "https://isc.idaho.gov/rules-procedure/print/irfl/506",
+        "publisher": "Idaho Supreme Court",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "(Adopted March 29, 2021, effective July 1, 2021.)"
+  },
+  {
+    "id": "dv-irflp-401-disclose-deeds",
+    "claim": "Idaho Rule of Family Law Procedure 401(f) requires each party in a contested family law action, unless the parties have a written agreement disposing of all property issues or no property is at issue, to list real and personal property worth more than $100 with an estimated current fair market value, and to give the other party copies of all deeds, deeds of trust, purchase agreements, escrow documents and settlement sheets for real property owned by any party.",
+    "quote": "(f) Property. Unless the parties have entered into a written agreement disposing of all property issues in the case or no property is at issue in the case, each party will prepare a list of all items having a fair market value more than $100 of real and personal property, ... (1) all deeds, deeds of trust, purchase agreements, escrow documents, settlement sheets, and all other documents that disclose the ownership, legal description, purchase price, and encumbrances of all real property owned by any party;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "divorce",
+      "court-procedure",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Rules of Family Law Procedure Rule 401 — Mandatory Disclosure in Contested Proceedings",
+        "url": "https://isc.idaho.gov/rules-procedure/print/irfl/401",
+        "publisher": "Idaho Supreme Court",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "(Adopted March 29, 2021, effective July 1, 2021.)"
+  },
+  {
+    "id": "ln-judgment-lien-arises-on-recording",
+    "claim": "In Idaho a money judgment becomes a lien on the debtor's real property in a county only when a transcript or abstract of it is recorded with that county's recorder — from the time of recording, and not before — and the lien then reaches non-exempt real property the debtor owns in that county at the time or acquires before the lien expires.",
+    "quote": "may be recorded with the recorder of any county of this state, who shall immediately record and docket the same as by law provided, and from the time of such recording, and not before, the judgment so recorded becomes a lien upon all real property of the judgment debtor in the county, not exempt from execution, owned by him at the time or acquired afterwards at any time prior to the expiration of the lien",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "judgments",
+      "liens",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 10-1110 — Filing transcript of judgments — Lien acquired",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title10/t10ch11/sect10-1110/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(10-1110) C.S., sec. 6902B, added 1929, ch. 51, sec. 3, p. 70; I.C.A., sec. 7-1110; am. 1955, ch. 45, sec. 1, p. 63; am. 1963, ch. 209, sec. 1, p. 598; am. 1995, ch. 264, sec. 2, p. 847; am. 1998, ch. 68, sec. 1, p. 261; am. 2011, ch. 104, sec. 2, p. 267; am. 2015, ch. 139, sec. 1, p. 343; am. 2015, ch. 278, sec. 4, p. 1138.]"
+  },
+  {
+    "id": "ln-judgment-lien-ten-years",
+    "claim": "Apart from child-support and recorded crime-victim restitution judgments, the lien from a recorded Idaho judgment continues ten years from the date of the judgment, unless the judgment is satisfied sooner or enforcement is stayed on appeal.",
+    "quote": "The lien resulting from recording of a judgment other than for support of a child or for restitution owed to a crime victim where the order of restitution has been recorded as a judgment pursuant to section 19-5305 , Idaho Code, continues ten (10) years from the date of the judgment, unless the judgment be previously satisfied, or unless the enforcement of the judgment be stayed upon an appeal as provided by law.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "judgments",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 10-1110 — Filing transcript of judgments — Lien acquired",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title10/t10ch11/sect10-1110/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(10-1110) C.S., sec. 6902B, added 1929, ch. 51, sec. 3, p. 70; I.C.A., sec. 7-1110; am. 1955, ch. 45, sec. 1, p. 63; am. 1963, ch. 209, sec. 1, p. 598; am. 1995, ch. 264, sec. 2, p. 847; am. 1998, ch. 68, sec. 1, p. 261; am. 2011, ch. 104, sec. 2, p. 267; am. 2015, ch. 139, sec. 1, p. 343; am. 2015, ch. 278, sec. 4, p. 1138.]"
+  },
+  {
+    "id": "ln-judgment-renewal-order",
+    "claim": "Before an Idaho judgment lien (or any renewal of it) expires, and unless the judgment has been satisfied, the court that entered the judgment may on motion enter an order renewing it; once recorded like the original, the lien continues ten years from the date of the renewal order, keeping the original judgment's date and priority.",
+    "quote": "Unless the judgment has been satisfied, at any time prior to the expiration of the lien created by section 10-1110 , Idaho Code, or any renewal thereof, the court that entered the judgment, other than a judgment for child support, may, upon motion, renew such judgment by entry of an order renewing judgment. The order renewing judgment may be recorded in the same manner as the original judgment, and the lien established or continued thereby shall continue for ten (10) years from the date of the order renewing judgment. Entry of an order renewing judgment maintains both the date of the original judgment and the priority of collection thereof",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "judgments",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 10-1111 — Orders renewing judgment — Lien",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title10/t10ch11/sect10-1111/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[10-1111, added 1978, ch. 115, sec. 1, p. 266; am. 1995, ch. 264, sec. 3, p. 847; am. 2011, ch. 104, sec. 3, p. 268; am. 2016, ch. 269, sec. 1, p. 724; am. 2017, ch. 177, sec. 1, p. 407; am. 2018, ch. 284, sec. 1, p. 672.]"
+  },
+  {
+    "id": "ln-judgment-lien-child-support",
+    "claim": "A recorded Idaho divorce or separate-maintenance decree providing for periodic child support or alimony is a lien only for payments that are delinquent or not made when due; a lien arising from a delinquency under an Idaho child-support judgment continues until ten years after the death or emancipation of the last child owed support, unless renewed, satisfied or stayed on appeal.",
+    "quote": "such judgment or decree shall be a lien only in an amount for payments so provided, delinquent or not made when due ... A lien arising from the delinquency of a payment due under a judgment for support of a child issued by an Idaho court continues until ten (10) years after the death or emancipation of the last child for whom support is owed under the judgment unless the underlying judgment is renewed, is previously satisfied or the enforcement of the judgment is stayed upon an appeal as provided by law.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "judgments",
+      "child-support",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 10-1110 — Filing transcript of judgments — Lien acquired",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title10/t10ch11/sect10-1110/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(10-1110) C.S., sec. 6902B, added 1929, ch. 51, sec. 3, p. 70; I.C.A., sec. 7-1110; am. 1955, ch. 45, sec. 1, p. 63; am. 1963, ch. 209, sec. 1, p. 598; am. 1995, ch. 264, sec. 2, p. 847; am. 1998, ch. 68, sec. 1, p. 261; am. 2011, ch. 104, sec. 2, p. 267; am. 2015, ch. 139, sec. 1, p. 343; am. 2015, ch. 278, sec. 4, p. 1138.]"
+  },
+  {
+    "id": "ln-judgment-lien-restitution-twenty-years",
+    "claim": "A lien from an Idaho crime-victim restitution order recorded as a judgment under Idaho Code 19-5305 continues twenty years from the date of the judgment, unless satisfied sooner or stayed or set aside.",
+    "quote": "A lien arising from an order for restitution to a crime victim where the order of restitution has been recorded as a judgment pursuant to section 19-5305 , Idaho Code, continues until twenty (20) years from the date of the judgment, unless the judgment be previously satisfied, or unless the judgment is stayed or set aside.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "judgments",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 10-1110 — Filing transcript of judgments — Lien acquired",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title10/t10ch11/sect10-1110/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(10-1110) C.S., sec. 6902B, added 1929, ch. 51, sec. 3, p. 70; I.C.A., sec. 7-1110; am. 1955, ch. 45, sec. 1, p. 63; am. 1963, ch. 209, sec. 1, p. 598; am. 1995, ch. 264, sec. 2, p. 847; am. 1998, ch. 68, sec. 1, p. 261; am. 2011, ch. 104, sec. 2, p. 267; am. 2015, ch. 139, sec. 1, p. 343; am. 2015, ch. 278, sec. 4, p. 1138.]"
+  },
+  {
+    "id": "ln-child-support-department-lien",
+    "claim": "Where Idaho's Department of Health and Welfare is or has been providing child-support enforcement services, a delinquency under a child-support order creates a lien that arises on and attaches to the obligor's real and personal property; once it equals at least 90 days of support or $2,000, whichever is less, it may be perfected by filing with the Idaho Secretary of State, and a perfected lien is automatically released when the delinquency reaches a zero balance.",
+    "quote": "Upon a delinquency under a child support order for which the department is or has been providing child support enforcement services, a lien arises upon and attaches to the real and personal property of an obligor. When the amount of the lien is equal to or greater than the total support owing for at least ninety (90) days, or two thousand dollars ($2,000), whichever is less, the lien may be perfected by a filing with the office of the secretary of state. A perfected lien shall include all subsequently arising delinquencies. When a lien has been perfected pursuant to this section and the underlying delinquency reaches a zero balance or is otherwise satisfied, the lien is automatically released. ... \"Department\" means the department of health and welfare.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "child-support",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 7-1206 — Department lien for child support delinquency",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch12/sect7-1206/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      },
+      {
+        "title": "Idaho Code § 7-1202 — Definitions (enforcement of child support orders)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title7/t7ch12/sect7-1202/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[7-1206, added 1998, ch. 207, sec. 4, p. 735; am. 2025, ch. 201, sec. 2, p. 913.] ... [7-1202, added 1985, ch. 159, sec. 1, p. 418; am. 1986, ch. 221, sec. 10, p. 591; am. 1988, ch. 294, sec. 1, p. 933; am. 1990, ch. 92, sec. 1, p. 192; am. 1993, ch. 335, sec. 6, p. 1252; am. 1993, ch. 335, sec. 13, p. 1262; am. 1994, ch. 308, sec. 1, p. 964; am. 1998, ch. 207, sec. 1, p. 733.]"
+  },
+  {
+    "id": "ln-mechanics-lien-who-can-claim",
+    "claim": "Under Idaho's mechanics' and materialmen's lien law, every person who performs labor on, or furnishes materials for, the construction, alteration or repair of a building or other structure — and licensed engineers and surveyors under contract for professional services on a land or building improvement — has a lien on that property, whether the work was ordered by the owner or the owner's agent; contractors and subcontractors in charge of the work are treated as the owner's agent for this purpose.",
+    "quote": "Every person performing labor upon, or furnishing materials to be used in the construction, alteration or repair of any mining claim, building, wharf, bridge, ditch, dike, flume, tunnel, fence, machinery, railroad, wagon road, aqueduct to create hydraulic power, or any other structure ... has a lien upon the same for the work or labor done or professional services or materials furnished, whether done or furnished at the instance of the owner of the building or other improvement or his agent; and every contractor, subcontractor, architect, builder or any person having charge of any mining claim, or of the construction, alteration or repair, either in whole or in part, of any building or other improvement, as aforesaid, shall be held to be the agent of the owner for the purpose of this chapter",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "mechanics-liens",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-501 — Right to lien (liens of mechanics and materialmen)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-501/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(45-501) 1893, p. 49, ch. 1, sec. 1; reen. 1899, p. 147, ch. 1, sec. 1; reen. R.C. & C.L., sec. 5110; C.S., sec. 7339; I.C.A., sec. 44-501; am. 1951, ch. 199, sec. 1, p. 422; am. 1971, ch. 91, sec. 1, p. 196; am. 1998, ch. 269, sec. 1, p. 898; am. 2001, ch. 152, sec. 1, p. 550.]"
+  },
+  {
+    "id": "ln-mechanics-lien-ninety-day-filing",
+    "claim": "An Idaho mechanic's lien claimant must file the claim for record with the recorder of the county where the property sits within 90 days after completing the labor or services or furnishing the materials, verified by oath, and must serve a copy on the owner or reputed owner, personally or by certified mail, no later than five business days after filing.",
+    "quote": "Any person claiming a lien pursuant to the provisions of this chapter must file a claim for record with the county recorder for the county in which such property or some part thereof is situated. (2) The claim shall be filed within ninety (90) days after the completion of the labor or services, or furnishing of materials. ... Such delivery or mailing shall be made no later than five (5) business days following the filing of said claim of lien.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "mechanics-liens",
+      "liens",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-507 — Claim of lien (liens of mechanics and materialmen)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-507/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(45-507) 1893, p. 49, ch. 1, sec. 6; am. 1895, p. 48, ch. 1, sec. 6; reen. 1899, p. 147, ch. 1, sec. 6; reen. R.C. & C.L., sec. 5115; C.S., sec. 7346; I.C.A., sec. 44-507; am. 1971, ch. 91, sec. 5, p. 196; am. 1983, ch. 127, sec. 1, p. 324; am. 1993, ch. 378, sec. 1, p. 1387; am. 2001, ch. 152, sec. 5, p. 552; am. 2002, ch. 307, sec. 1, p. 876; am. 2015, ch. 339, sec. 1, p. 1271; am. 2022, ch. 66, sec. 1, p. 202.]"
+  },
+  {
+    "id": "ln-mechanics-lien-six-month-duration",
+    "claim": "An Idaho mechanic's lien binds the property for no longer than six months after the claim is filed unless proceedings to enforce it are commenced in a proper court within that time, or unless a payment on account or an extension of credit is endorsed on the record of the lien (in which case six months after that payment or the extension's expiry); the lien of a final judgment obtained on such a lien ceases ten years after the judgment becomes final.",
+    "quote": "No lien provided for in this chapter binds any building, mining claim, improvement or structure for a longer period than six (6) months after the claim has been filed, unless proceedings be commenced in a proper court within that time to enforce such lien; or unless a payment on account is made, or extension of credit given with expiration date thereof, and such payment or credit and expiration date, is endorsed on the record of the lien, then six (6) months after the date of such payment or expiration of extension. The lien of a final judgment obtained on any lien provided for in this chapter shall cease ten (10) years from the date the judgment becomes final.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "mechanics-liens",
+      "liens",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-510 — Duration of lien (liens of mechanics and materialmen)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-510/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(45-510) 1893, p. 49, ch. 1, sec. 9; reen. 1899, p. 147, ch. 1, sec. 9; reen. R.C. & C.L., sec. 5118; C.S., sec. 7349; I.C.A., sec. 44-510; am. 1947, ch. 125, sec. 1, p. 292; am. 2015, ch. 278, sec. 5, p. 1138; am. 2015, ch. 339, sec. 2, p. 1272.]"
+  },
+  {
+    "id": "ln-mechanics-lien-priority",
+    "claim": "Idaho mechanics' liens share equal footing within their class regardless of filing date, and are preferred to any lien, mortgage or other encumbrance that attached after the building or improvement was commenced or work or materials began, and to any unrecorded encumbrance of which the lienholder had no notice at that time.",
+    "quote": "The liens provided for in this chapter shall be on equal footing with those liens within the same class of liens, without reference to the date of the filing of the lien claim or claims and are preferred to any lien, mortgage or other encumbrance, which may have attached subsequent to the time when the building, improvement or structure was commenced, work done, equipment, materials or fixtures were rented or leased, or materials or professional services were commenced to be furnished",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "mechanics-liens",
+      "liens",
+      "title"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-506 — Liens preferred claims (liens of mechanics and materialmen)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(45-506) 1893, p. 49, ch. 1, sec. 5; reen. 1899, p. 147, ch. 1, sec. 5; reen. R.C. & C.L., sec. 5114; C.S., sec. 7345; I.C.A., sec. 44-506; am. 1971, ch. 91, sec. 4, p. 196; am. 2001, ch. 152, sec. 4, p. 552.]"
+  },
+  {
+    "id": "ln-mechanics-lien-bond-release",
+    "claim": "Idaho allows a mechanic's lien of record on real property to be released by posting a surety bond under Idaho Code 45-519 through 45-524; the statutory bond form is in one and a half times the amount of the claim, from which the surety pays what a court adjudges was secured by the lien, with interest, costs and attorney's fees.",
+    "quote": "A mechanic's lien of record upon real property may be released upon the posting of a surety bond in the manner provided in sections 45-519 through 45-524 , Idaho Code. ... (1-1/2 x claim), from which sum they will pay the claimant such amount as a court of competent jurisdiction may adjudge to have been secured by his lien, with interest, costs and attorney's fees.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "mechanics-liens",
+      "liens",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-518 — Release of lien on real property by posting surety bond — Manner",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-518/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      },
+      {
+        "title": "Idaho Code § 45-519 — Release of lien on real property by posting surety bond — Form of bond",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch5/sect45-519/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-518, added 1993, ch. 378, sec. 3, p. 1388.] ... [45-519, added 1993, ch. 378, sec. 4, p. 1388; am. 2002, ch. 32, sec. 18, p. 56.]"
+  },
+  {
+    "id": "ln-hoa-definition-lien-authority",
+    "claim": "Idaho's Homeowner's Association Act defines a homeowner's association as an incorporated or unincorporated residential association whose membership is based on owning or possessing an interest in real property and which has authority, under recorded covenants, bylaws or other governing documents, to assess and record liens against its members' real property.",
+    "quote": "\"Homeowner's association\" means any incorporated or unincorporated residential association: (i) In which membership is based on owning or possessing an interest in real property; and (ii) That has the authority, pursuant to recorded covenants, bylaws, or other governing documents, to assess and record liens against the real property of its members.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3203 — Definitions (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3203/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3203, added 2022, ch. 323, sec. 4, p. 1039; am. 2024, ch. 162, sec. 1, p. 618; am. 2024, ch. 214, sec. 1, p. 759; am. 2025, ch. 204, sec. 2, p. 926; am. 2025, ch. 211, sec. 23, p. 993; am. 2026, ch. 251, sec. 23, p. 1077.]"
+  },
+  {
+    "id": "ln-hoa-lien-claim-requirements",
+    "claim": "An Idaho homeowner's association may levy an assessment against a lot for the reasonable costs of maintaining common areas it owns and maintains; to claim a lien for it, the association must file a verified claim in the county where the lot sits stating the amount due, and within five business days of recording must serve a copy on the owner by personal delivery or certified mail; once recorded, the claim automatically accumulates later unpaid assessments.",
+    "quote": "A homeowner's association may levy an assessment against a lot for the reasonable costs incurred in the maintenance of common areas consisting of real property owned and maintained by the homeowner's association. (2)(a) A homeowner's association claiming a lien under subsection (1) of this section must file a claim in the county in which the lot or some part thereof is located. ... such claim shall automatically accumulate the subsequent unpaid assessments without the necessity of further filings under this section. ... Within five (5) business days after recording a lien on the property, the homeowner's association shall serve, by personal delivery to the owner or reputed owner or by certified mail to the last known address of the owner or reputed owner, a true and correct copy of the recorded lien.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "liens",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3207 — Homeowner's association liens",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3207/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3207, added 2022, ch. 323, sec. 4, p. 1042.]"
+  },
+  {
+    "id": "ln-hoa-lien-enforcement",
+    "claim": "An Idaho homeowner's association lien may be enforced by the board on the association's behalf; the association may also sue for a money judgment for unpaid assessments without foreclosing or waiving the lien, or take a deed in lieu of foreclosure, and recovery in such an action satisfies the lien to that extent.",
+    "quote": "The lien may be enforced by the board acting on behalf of the homeowner's association. (4) This section does not prohibit a homeowner's association from pursuing an action to recover sums for which subsection (1) of this section creates a lien or from taking a deed in lieu of foreclosure in satisfaction of the lien. (5) An action to recover a money judgment for unpaid assessments may be maintained without foreclosing or waiving the lien securing the claim for unpaid assessments. However, recovery on the action operates to satisfy the lien, or the portion thereof, for which recovery is made.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "liens",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3207 — Homeowner's association liens",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3207/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3207, added 2022, ch. 323, sec. 4, p. 1042.]"
+  },
+  {
+    "id": "ln-hoa-statement-of-account",
+    "claim": "An Idaho homeowner's association must give a member, or the member's agent, a free statement of the member's assessment account within five business days of a written request, listing all outstanding assessments, charges and fees including any transfer fee, late fees and interest; the association is bound by the amounts in the statement, and charging for it violates the Idaho Consumer Protection Act.",
+    "quote": "A homeowner's association or its agent shall provide a member and the member's agent, if any, a statement of the member's assessment account no more than five (5) business days after a written request by the member or the member's agent is received by the manager, president, board member, or other agent of the homeowner's association, or any combination thereof. The homeowner's association will be bound by the amounts set forth within the statement of assessment account. The statement of assessment account shall include all outstanding assessments, charges, and fees, including any transfer fee, that are due and owing to the homeowner's association, including any late fees or interest that may have accrued. ... No fee shall be charged by a homeowner's association or its agent for providing a statement of the member's assessment account.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "liens",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3205 — Disclosure of fees and financial disclosures (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3205/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3205, added 2022, ch. 323, sec. 4, p. 1041; am. 2023, ch. 247, sec. 2, p. 764; am. 2024, ch. 162, sec. 2, p. 618; am. 2025, ch. 204, sec. 5, p. 928.]"
+  },
+  {
+    "id": "ln-condo-assessment-lien-one-year",
+    "claim": "Under Idaho's Condominium Property Act, a condominium assessment and authorized charges become a lien when the management body records a notice of assessment with the county recorder; unless satisfied and released or enforcement is begun, the lien expires one year after the notice is recorded, extendable by the management body for no more than one additional year by recording a written extension.",
+    "quote": "shall be and become a lien upon the condominium assessed when the management body causes to be recorded with the county recorder of the county in which such condominium is located a notice of assessment ... Unless sooner satisfied and released or the enforcement thereof initiated as hereafter provided such lien shall expire and be of no further force or effect one (1) year from the date of recordation of said notice of assessment; provided, however, that said one-year period may be extended by the management body for not to exceed one (1) additional year by recording a written extension thereof.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "condominiums",
+      "liens",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-1518 — Assessment and other charges a lien — Notice recorded — Payment and release — Priority of liens — Expiration — Extension — Enforcement by sale — Purchase by management body",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch15/sect55-1518/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-1518, added 1965, ch. 225, sec. 18, p. 515.]"
+  },
+  {
+    "id": "ln-property-tax-first-lien-perpetual",
+    "claim": "Idaho property taxes levied on real property are a first and prior lien on the assessed property, discharged only by payment or cancellation of the taxes as the tax title provides, and property tax liens are perpetual and continuous.",
+    "quote": "All property taxes levied upon real property shall be a first and prior lien upon the real property assessed therefor, and shall only be discharged by the payment or cancellation of the property taxes as provided in this title. ... Property tax liens shall be perpetual and continuous on all personal, operating and real property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "property-taxes",
+      "liens",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-206 — Lien of property taxes",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch2/sect63-206/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-206 added 1996, ch. 98, sec. 3, p. 321.]"
+  },
+  {
+    "id": "ln-irs-federal-tax-lien-what-it-is",
+    "claim": "The IRS describes a federal tax lien as the government's legal claim against a taxpayer's property — including real estate — when a tax debt is not paid; it exists after the IRS assesses the liability, sends a Notice and Demand for Payment, and the taxpayer neglects or refuses to pay in time, and the IRS may file a public Notice of Federal Tax Lien to alert creditors.",
+    "quote": "A federal tax lien is the government's legal claim against your property when you neglect or fail to pay a tax debt. The lien protects the government's interest in all your property, including real estate, personal property and financial assets. ... The IRS files a public document, the Notice of Federal Tax Lien , to alert creditors that the government has a legal right to your property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax-lien",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Understanding a federal tax lien — Internal Revenue Service",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/understanding-a-federal-tax-lien",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ln-irs-release-thirty-days",
+    "claim": "The IRS says paying the tax debt in full is the best way to get rid of a federal tax lien, and that it releases the lien within 30 days after the debt is paid.",
+    "quote": "Paying your tax debt - in full - is the best way to get rid of a federal tax lien. The IRS releases your lien within 30 days after you have paid your tax debt.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax-lien",
+      "liens",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Understanding a federal tax lien — Internal Revenue Service",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/understanding-a-federal-tax-lien",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ln-irs-discharge-subordination-withdrawal",
+    "claim": "The IRS distinguishes three tools: a discharge removes the federal tax lien from specific property; a subordination does not remove the lien but lets other creditors move ahead of the IRS; and a withdrawal removes the public Notice of Federal Tax Lien while the taxpayer remains liable for the amount due.",
+    "quote": "A \"discharge\" removes the lien from specific property. ... \"Subordination\" does not remove the lien but allows other creditors to move ahead of the IRS, which may make it easier to get a loan or mortgage. ... A \"withdrawal\" removes the public Notice of Federal Tax Lien and assures that the IRS is not competing with other creditors for your property; however, you are still liable for the amount due.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax-lien",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "Understanding a federal tax lien — Internal Revenue Service",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/understanding-a-federal-tax-lien",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ln-irs-discharge-apply-45-days",
+    "claim": "IRS Publication 783 says a Certificate of Discharge under Internal Revenue Code section 6325(b) removes the United States' lien from the property named in the certificate, that the application is made on Form 14135, and that it should be submitted at least 45 days before the transaction date on which the certificate is needed.",
+    "quote": "6325(b) removes the United States' lien from the property ... Complete Form 14135, Application for Certificate ... Please submit your application at least 45 days before the ... transaction date that the certificate of discharge is needed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax-lien",
+      "liens",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "IRS Publication 783 — How to Apply for a Certificate of Discharge From Federal Tax Lien (Rev. 12-2022)",
+        "url": "https://www.irs.gov/pub/irs-pdf/p783.pdf",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ln-irs-discharge-partial-payment-or-no-value",
+    "claim": "IRS Publication 783 describes, among other bases, a discharge under section 6325(b)(2)(A) when the liability is partly paid with an amount not less than the value of the United States' interest in the property being discharged, and under section 6325(b)(2)(B) when the government's interest has no value because debts senior to the federal tax lien exceed the property's fair market value or sale value.",
+    "quote": "provision when the tax liability is partially satisfied with an ... amount paid that is not less than the value of the United ... States' interest in the property being discharged. ... provision when it is determined that the government's ... interest in the property has no value. The debts senior to ... the federal tax lien are greater than the fair market value of ... the property or greater than the sale value of the property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax-lien",
+      "liens",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "IRS Publication 783 — How to Apply for a Certificate of Discharge From Federal Tax Lien (Rev. 12-2022)",
+        "url": "https://www.irs.gov/pub/irs-pdf/p783.pdf",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ln-irs-subordination-pub-784",
+    "claim": "IRS Publication 784 says a Certificate of Subordination under Internal Revenue Code section 6325(d)(1) and (d)(2) allows a named creditor to move its junior position ahead of the United States' position for the property named in the certificate.",
+    "quote": "Section 6325(d)(1) and 6325(d)(2) allows a named creditor to ... move their junior creditor position ahead of the United States' ... position for the property named in the certificate.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax-lien",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-12",
+    "sources": [
+      {
+        "title": "IRS Publication 784 — How to Apply for a Certificate of Subordination of Federal Tax Lien (Rev. 12-2022)",
+        "url": "https://www.irs.gov/pub/irs-pdf/p784.pdf",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
   }
 ];
 

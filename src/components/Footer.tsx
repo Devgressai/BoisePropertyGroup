@@ -3,6 +3,7 @@ import { site, hasPhone, hasEmail, hasAddress, hasLegalEntity } from "@/data/sit
 import { places, county } from "@/data/geography";
 import { contentFor } from "@/data/place-content";
 import { decideIndexation, countWords } from "@/lib/seo/indexation";
+import { publishedTopics } from "@/lib/seo/registry";
 
 /**
  * Footer navigation.
@@ -37,8 +38,11 @@ const areaLinks: [string, string][] = [
     .map((p) => [p.name, `/${p.slug}`] as [string, string]),
   ["All areas", "/locations"],
 ];
+/** BOFU situation pages, computed from the registry like the Areas column. */
+const situationLinks: [string, string][] = publishedTopics("situation").map((p) => [p.eyebrow, `/${p.slug}`]);
 const COLS = [
   { h: "Sell", links: [["How It Works", "/how-it-works"], ["What We Buy", "/what-we-buy"], ["Commercial", "/commercial"], ["Get an Offer", "#offer"]] },
+  { h: "Situations", links: situationLinks },
   { h: "Areas", links: areaLinks },
   { h: "Learn", links: [["Guides", "/guides"], ["About", "/about"], ["Contact", "/contact"]] },
 ];
@@ -49,7 +53,7 @@ export default function Footer() {
     <footer className="bg-[var(--bpg-sand)] pb-10 text-[var(--bpg-muted)]">
       <hr className="accent-rule" />
       <div className="wrap pt-16">
-        <div className="grid gap-10 md:grid-cols-[1.4fr_repeat(3,1fr)]">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.4fr_repeat(4,1fr)]">
           <div>
             <p className="display-md text-[var(--bpg-ink)]" style={{ fontSize: "1.25rem", lineHeight: 1.1 }}>
               Boise Property Group

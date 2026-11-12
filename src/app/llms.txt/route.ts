@@ -1,7 +1,7 @@
 import { site } from "@/data/site";
 import { county } from "@/data/geography";
 import { contentFor } from "@/data/place-content";
-import { publishedPlaces, publishedGuides, publishedCommercial } from "@/lib/seo/registry";
+import { publishedPlaces, publishedGuides, publishedCommercial, publishedTopics } from "@/lib/seo/registry";
 import { claims } from "@/data/claims";
 import { commercialClaims } from "@/data/commercial-claims";
 
@@ -94,6 +94,16 @@ export function GET() {
   L();
   if (contentFor(county.slug)) L(`- [${county.name}](${site.url}/${county.slug})`);
   for (const p of indexablePlaces) L(`- [${p.name}](${site.url}/${p.slug})`);
+  L();
+
+  L("### Selling situations");
+  L();
+  for (const t of publishedTopics("situation")) L(`- [${t.h1}](${site.url}/${t.slug}): ${t.description}`);
+  L();
+
+  L("### Deciding how to sell");
+  L();
+  for (const t of publishedTopics("decision")) L(`- [${t.h1}](${site.url}/${t.slug}): ${t.description}`);
   L();
 
   L("### Guides");

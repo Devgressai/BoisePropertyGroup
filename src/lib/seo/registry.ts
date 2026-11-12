@@ -5,6 +5,8 @@ import { guideContentFor } from "@/data/guide-content";
 import { COMMERCIAL_PAGES } from "@/data/commercial-content";
 import { decideCommercialIndexation } from "@/lib/seo/commercialIndexation";
 import { isWorthLinking } from "@/lib/seo/internalLinks";
+import { TOPIC_PAGES } from "@/data/topic-pages";
+import { decideTopicIndexation } from "@/lib/seo/topicIndexation";
 
 /**
  * THE PAGE REGISTRY — every published, indexable URL, and what job it does.
@@ -30,7 +32,7 @@ import { isWorthLinking } from "@/lib/seo/internalLinks";
  * lastmod, schema dateModified and the visible date — they must always agree.
  */
 export type Stage = "tofu" | "mofu" | "bofu";
-export type Kind = "home" | "hub" | "place" | "guide" | "commercial" | "process" | "trust" | "conversion";
+export type Kind = "home" | "hub" | "place" | "guide" | "commercial" | "process" | "trust" | "conversion" | "situation" | "decision";
 
 export interface PageEntry {
   path: string;
@@ -52,6 +54,13 @@ export function publishedPlaces() {
 }
 export function publishedGuides() {
   return guides.filter((g) => guideContentFor(g.slug));
+}
+export function publishedTopics(kind?: "situation" | "decision") {
+  return TOPIC_PAGES.filter((p) => (!kind || p.kind === kind) && decideTopicIndexation(p).indexable);
+}
+/** The BOFU situation page a guide hands its reader to, if one is published. */
+export function situationForGuide(guideSlug: string) {
+  return publishedTopics("situation").find((p) => p.guides.includes(guideSlug));
 }
 export function publishedCommercial() {
   return COMMERCIAL_PAGES.filter((c) => decideCommercialIndexation(c).indexable);
@@ -80,6 +89,16 @@ export function registry(): PageEntry[] {
   }
   for (const c of publishedCommercial()) {
     out.push({ path: `/commercial/${c.slug}`, label: c.eyebrow, kind: "commercial", stage: commercialStage(c.kind), parent: "/commercial", updated: COMMERCIAL_CONTENT_UPDATED });
+  }
+  for (const t of publishedTopics()) {
+    out.push({
+      path: `/${t.slug}`,
+      label: t.h1,
+      kind: t.kind,
+      stage: t.kind === "situation" ? "bofu" : "mofu",
+      parent: t.kind === "situation" ? "/what-we-buy" : "/how-it-works",
+      updated: t.updated,
+    });
   }
   for (const g of publishedGuides()) {
     out.push({ path: `/guides/${g.slug}`, label: g.h1, kind: "guide", stage: "tofu", parent: "/guides", updated: g.updated });
@@ -113,10 +132,20 @@ export function nextSteps(path: string): NextStep[] {
   const about = { href: "/about", label: "Who we are", note: "How we work, and what we will not claim." };
   const contact = { href: "/contact", label: "Get an offer", note: "Start with the address — one field." };
 
+  const compare = { href: "/cash-offer-vs-listing-idaho", label: "Direct sale or listing?", note: "An honest comparison, and when to list." };
+  const offerMath = { href: "/how-we-calculate-an-offer", label: "How we calculate an offer", note: "The four numbers, all shown to you." };
+  // A guide hands its reader to the situation page that buys what it explains.
+  const situation = e.kind === "guide" ? situationForGuide(path.replace("/guides/", "")) : undefined;
+  const sell = situation ? { href: `/${situation.slug}`, label: situation.h1, note: "When you are ready to sell." } : undefined;
+
   const pick =
-    e.stage === "tofu" ? [howItWorks, whatWeBuy, areas]
-    : e.stage === "mofu" ? [whatWeBuy, areas, guidesHub]
+    e.stage === "tofu" ? [...(sell ? [sell] : []), compare, howItWorks, whatWeBuy]
+    : e.kind === "situation" ? [offerMath, compare, about]
+    : e.kind === "decision" ? [whatWeBuy, offerMath, areas]
+    : e.stage === "mofu" ? [compare, whatWeBuy, guidesHub]
     : [howItWorks, about, guidesHub];
   // A page never recommends itself, and the offer is always reachable.
-  return [...pick.filter((s) => s.href !== path).slice(0, 2), contact].filter((s) => s.href !== path);
+  // Only published destinations: a topic page whose gate fails must not be linked.
+  const live = (s: NextStep) => s.href !== path && (s.href === "/contact" || !!entryFor(s.href));
+  return [...pick.filter(live).slice(0, 2), contact].filter(live);
 }

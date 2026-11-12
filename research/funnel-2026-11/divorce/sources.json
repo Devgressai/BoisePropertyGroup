@@ -1,0 +1,274 @@
+{
+  "sources": [
+    {
+      "id": "idcode-32-903",
+      "title": "Idaho Code § 32-903 — Separate property of husband and wife",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-903/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "community-property"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1941",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "dv-separate-property-defined"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-32-906",
+      "title": "Idaho Code § 32-906 — Community property — Income from separate and community property — Conveyance between spouses",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-906/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "community-property"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2003",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "dv-community-property-default",
+        "dv-interspouse-deed-presumed-separate"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-32-906a",
+      "title": "Idaho Code § 32-906A — Community property conveyed in a revocable trust remains community property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-906A/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "community-property",
+        "trusts"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1973",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "dv-revocable-trust-community"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-32-912",
+      "title": "Idaho Code § 32-912 — Control of community property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-912/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "community-property",
+        "signatures"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1991",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "dv-both-spouses-join-community-real-estate",
+        "dv-power-of-attorney-exception"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-32-916",
+      "title": "Idaho Code § 32-916 — Property rights governed by chapter",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-916/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "community-property",
+        "agreements"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1995",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "dv-marriage-settlement-overrides-chapter"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-32-917",
+      "title": "Idaho Code § 32-917 — Formalities required of marriage settlements",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-917/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "agreements"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "dv-marriage-settlement-overrides-chapter"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-32-712",
+      "title": "Idaho Code § 32-712 — Community property and homestead — Disposition",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch7/sect32-712/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "community-property",
+        "homestead",
+        "decree"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1980",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page.",
+      "stalenessRisk": "LOW — statutory text changes only by amendment.",
+      "claimsSupported": [
+        "dv-decree-substantially-equal-division",
+        "dv-decree-homestead-assign-or-sell"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irflp-rule-401",
+      "title": "Idaho Rules of Family Law Procedure Rule 401 — Mandatory Disclosure in Contested Proceedings",
+      "publisher": "Idaho Supreme Court",
+      "organizationType": "state-government",
+      "url": "https://isc.idaho.gov/rules-procedure/print/irfl/401",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the Idaho Supreme Court's official text of I.R.F.L.P. Rule 401, read from the court's printer-friendly rule page with raw HTML cached (the full rules index page https://isc.idaho.gov/irflp was also cached and searched). Rule footer reads '(Adopted March 29, 2021, effective July 1, 2021.)' with no later amendment shown.",
+      "stalenessRisk": "LOW — court rule; changes only by Supreme Court order. Re-check the rule's adoption/amendment line before relying on it.",
+      "claimsSupported": [
+        "dv-irflp-401-disclose-deeds"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irflp-rule-504",
+      "title": "Idaho Rules of Family Law Procedure Rule 504 — Motion for Temporary Orders",
+      "publisher": "Idaho Supreme Court",
+      "organizationType": "state-government",
+      "url": "https://isc.idaho.gov/rules-procedure/print/irfl/504",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "court-procedure",
+        "temporary-orders"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the Idaho Supreme Court's official text of I.R.F.L.P. Rule 504, read from the court's printer-friendly rule page with raw HTML cached (the full rules index page https://isc.idaho.gov/irflp was also cached and searched). Rule footer reads '(Adopted March 29, 2021, effective July 1, 2021.)' with no later amendment shown.",
+      "stalenessRisk": "LOW — court rule; changes only by Supreme Court order. Re-check the rule's adoption/amendment line before relying on it.",
+      "claimsSupported": [
+        "dv-irflp-temporary-order-divide-property"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irflp-rule-506",
+      "title": "Idaho Rules of Family Law Procedure Rule 506 — Injunctions and Restraining Orders",
+      "publisher": "Idaho Supreme Court",
+      "organizationType": "state-government",
+      "url": "https://isc.idaho.gov/rules-procedure/print/irfl/506",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "divorce",
+        "court-procedure",
+        "injunctions"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-12",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the Idaho Supreme Court's official text of I.R.F.L.P. Rule 506, read from the court's printer-friendly rule page with raw HTML cached (the full rules index page https://isc.idaho.gov/irflp was also cached and searched). Rule footer reads '(Adopted March 29, 2021, effective July 1, 2021.)' with no later amendment shown.",
+      "stalenessRisk": "LOW — court rule; changes only by Supreme Court order. Re-check the rule's adoption/amendment line before relying on it.",
+      "claimsSupported": [
+        "dv-irflp-injunction-dispose-property"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

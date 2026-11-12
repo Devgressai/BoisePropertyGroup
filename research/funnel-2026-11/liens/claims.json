@@ -1,0 +1,550 @@
+{
+  "claims": [
+    {
+      "id": "ln-judgment-lien-arises-on-recording",
+      "claim": "In Idaho a money judgment becomes a lien on the debtor's real property in a county only when a transcript or abstract of it is recorded with that county's recorder — from the time of recording, and not before — and the lien then reaches non-exempt real property the debtor owns in that county at the time or acquires before the lien expires.",
+      "quotedLanguage": "may be recorded with the recorder of any county of this state, who shall immediately record and docket the same as by law provided, and from the time of such recording, and not before, the judgment so recorded becomes a lien upon all real property of the judgment debtor in the county, not exempt from execution, owned by him at the time or acquired afterwards at any time prior to the expiration of the lien",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "judgments",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-10-1110"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(10-1110) C.S., sec. 6902B, added 1929, ch. 51, sec. 3, p. 70; I.C.A., sec. 7-1110; am. 1955, ch. 45, sec. 1, p. 63; am. 1963, ch. 209, sec. 1, p. 598; am. 1995, ch. 264, sec. 2, p. 847; am. 1998, ch. 68, sec. 1, p. 261; am. 2011, ch. 104, sec. 2, p. 267; am. 2015, ch. 139, sec. 1, p. 343; am. 2015, ch. 278, sec. 4, p. 1138.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ COUNTY-BY-COUNTY. The lien attaches only in the county where the abstract is recorded. A judgment entered in court but not recorded in Ada County is not a lien on Ada County real property under this section — but the debt itself still exists. Never write 'a judgment automatically attaches to your house'. ⚠️ 'not exempt from execution' interacts with the homestead exemption (55-1003, claim id-homestead-creditor-175k); how they interact on a voluntary sale is NOT stated here — send readers to an attorney."
+    },
+    {
+      "id": "ln-judgment-lien-ten-years",
+      "claim": "Apart from child-support and recorded crime-victim restitution judgments, the lien from a recorded Idaho judgment continues ten years from the date of the judgment, unless the judgment is satisfied sooner or enforcement is stayed on appeal.",
+      "quotedLanguage": "The lien resulting from recording of a judgment other than for support of a child or for restitution owed to a crime victim where the order of restitution has been recorded as a judgment pursuant to section 19-5305 , Idaho Code, continues ten (10) years from the date of the judgment, unless the judgment be previously satisfied, or unless the enforcement of the judgment be stayed upon an appeal as provided by law.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "judgments",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-10-1110"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(10-1110) C.S., sec. 6902B, added 1929, ch. 51, sec. 3, p. 70; I.C.A., sec. 7-1110; am. 1955, ch. 45, sec. 1, p. 63; am. 1963, ch. 209, sec. 1, p. 598; am. 1995, ch. 264, sec. 2, p. 847; am. 1998, ch. 68, sec. 1, p. 261; am. 2011, ch. 104, sec. 2, p. 267; am. 2015, ch. 139, sec. 1, p. 343; am. 2015, ch. 278, sec. 4, p. 1138.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ Ten years runs from the DATE OF THE JUDGMENT, not from the date of recording. Must be stated with the renewal rule (ln-judgment-renewal-order) — a lien can be extended, so 'it expires after ten years' alone is wrong. Restitution judgments run 20 years (ln-judgment-lien-restitution-twenty-years); child support runs differently (ln-judgment-lien-child-support)."
+    },
+    {
+      "id": "ln-judgment-renewal-order",
+      "claim": "Before an Idaho judgment lien (or any renewal of it) expires, and unless the judgment has been satisfied, the court that entered the judgment may on motion enter an order renewing it; once recorded like the original, the lien continues ten years from the date of the renewal order, keeping the original judgment's date and priority.",
+      "quotedLanguage": "Unless the judgment has been satisfied, at any time prior to the expiration of the lien created by section 10-1110 , Idaho Code, or any renewal thereof, the court that entered the judgment, other than a judgment for child support, may, upon motion, renew such judgment by entry of an order renewing judgment. The order renewing judgment may be recorded in the same manner as the original judgment, and the lien established or continued thereby shall continue for ten (10) years from the date of the order renewing judgment. Entry of an order renewing judgment maintains both the date of the original judgment and the priority of collection thereof",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "judgments",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-10-1111"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[10-1111, added 1978, ch. 115, sec. 1, p. 266; am. 1995, ch. 264, sec. 3, p. 847; am. 2011, ch. 104, sec. 3, p. 268; am. 2016, ch. 269, sec. 1, p. 724; am. 2017, ch. 177, sec. 1, p. 407; am. 2018, ch. 284, sec. 1, p. 672.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ 'or any renewal thereof' — renewal can repeat. Subsection (2) separately allows renewal of child-support judgments. Renewal is discretionary ('may') and must be sought BEFORE expiry. Do not tell a reader an old judgment 'has expired' — whether it was renewed is a records question."
+    },
+    {
+      "id": "ln-judgment-lien-child-support",
+      "claim": "A recorded Idaho divorce or separate-maintenance decree providing for periodic child support or alimony is a lien only for payments that are delinquent or not made when due; a lien arising from a delinquency under an Idaho child-support judgment continues until ten years after the death or emancipation of the last child owed support, unless renewed, satisfied or stayed on appeal.",
+      "quotedLanguage": "such judgment or decree shall be a lien only in an amount for payments so provided, delinquent or not made when due ... A lien arising from the delinquency of a payment due under a judgment for support of a child issued by an Idaho court continues until ten (10) years after the death or emancipation of the last child for whom support is owed under the judgment unless the underlying judgment is renewed, is previously satisfied or the enforcement of the judgment is stayed upon an appeal as provided by law.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "judgments",
+        "child-support",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-10-1110"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(10-1110) C.S., sec. 6902B, added 1929, ch. 51, sec. 3, p. 70; I.C.A., sec. 7-1110; am. 1955, ch. 45, sec. 1, p. 63; am. 1963, ch. 209, sec. 1, p. 598; am. 1995, ch. 264, sec. 2, p. 847; am. 1998, ch. 68, sec. 1, p. 261; am. 2011, ch. 104, sec. 2, p. 267; am. 2015, ch. 139, sec. 1, p. 343; am. 2015, ch. 278, sec. 4, p. 1138.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The lien amount is limited to DELINQUENT payments, not the whole future obligation. Separate from the Department of Health and Welfare lien under 7-1206 (ln-child-support-department-lien), which is perfected with the Secretary of State, not the county recorder."
+    },
+    {
+      "id": "ln-judgment-lien-restitution-twenty-years",
+      "claim": "A lien from an Idaho crime-victim restitution order recorded as a judgment under Idaho Code 19-5305 continues twenty years from the date of the judgment, unless satisfied sooner or stayed or set aside.",
+      "quotedLanguage": "A lien arising from an order for restitution to a crime victim where the order of restitution has been recorded as a judgment pursuant to section 19-5305 , Idaho Code, continues until twenty (20) years from the date of the judgment, unless the judgment be previously satisfied, or unless the judgment is stayed or set aside.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "judgments",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-10-1110"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(10-1110) C.S., sec. 6902B, added 1929, ch. 51, sec. 3, p. 70; I.C.A., sec. 7-1110; am. 1955, ch. 45, sec. 1, p. 63; am. 1963, ch. 209, sec. 1, p. 598; am. 1995, ch. 264, sec. 2, p. 847; am. 1998, ch. 68, sec. 1, p. 261; am. 2011, ch. 104, sec. 2, p. 267; am. 2015, ch. 139, sec. 1, p. 343; am. 2015, ch. 278, sec. 4, p. 1138.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Niche; mentioned only so the ten-year rule is not stated as universal."
+    },
+    {
+      "id": "ln-child-support-department-lien",
+      "claim": "Where Idaho's Department of Health and Welfare is or has been providing child-support enforcement services, a delinquency under a child-support order creates a lien that arises on and attaches to the obligor's real and personal property; once it equals at least 90 days of support or $2,000, whichever is less, it may be perfected by filing with the Idaho Secretary of State, and a perfected lien is automatically released when the delinquency reaches a zero balance.",
+      "quotedLanguage": "Upon a delinquency under a child support order for which the department is or has been providing child support enforcement services, a lien arises upon and attaches to the real and personal property of an obligor. When the amount of the lien is equal to or greater than the total support owing for at least ninety (90) days, or two thousand dollars ($2,000), whichever is less, the lien may be perfected by a filing with the office of the secretary of state. A perfected lien shall include all subsequently arising delinquencies. When a lien has been perfected pursuant to this section and the underlying delinquency reaches a zero balance or is otherwise satisfied, the lien is automatically released. ... \"Department\" means the department of health and welfare.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "child-support",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-7-1206",
+        "idcode-7-1202"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[7-1206, added 1998, ch. 207, sec. 4, p. 735; am. 2025, ch. 201, sec. 2, p. 913.] ... [7-1202, added 1985, ch. 159, sec. 1, p. 418; am. 1986, ch. 221, sec. 10, p. 591; am. 1988, ch. 294, sec. 1, p. 933; am. 1990, ch. 92, sec. 1, p. 192; am. 1993, ch. 335, sec. 6, p. 1252; am. 1993, ch. 335, sec. 13, p. 1262; am. 1994, ch. 308, sec. 1, p. 964; am. 1998, ch. 207, sec. 1, p. 733.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ Applies ONLY to cases where the Department provides enforcement services. ⚠️ Filed with the SECRETARY OF STATE, not the county recorder — a county-records search will not necessarily show it. Amended 2025 (ch. 201). 'Department' = the Idaho Department of Health and Welfare per 7-1202(3). Subsection (3): no enforcement until 10 days after certified-mail notice to the obligor."
+    },
+    {
+      "id": "ln-mechanics-lien-who-can-claim",
+      "claim": "Under Idaho's mechanics' and materialmen's lien law, every person who performs labor on, or furnishes materials for, the construction, alteration or repair of a building or other structure — and licensed engineers and surveyors under contract for professional services on a land or building improvement — has a lien on that property, whether the work was ordered by the owner or the owner's agent; contractors and subcontractors in charge of the work are treated as the owner's agent for this purpose.",
+      "quotedLanguage": "Every person performing labor upon, or furnishing materials to be used in the construction, alteration or repair of any mining claim, building, wharf, bridge, ditch, dike, flume, tunnel, fence, machinery, railroad, wagon road, aqueduct to create hydraulic power, or any other structure ... has a lien upon the same for the work or labor done or professional services or materials furnished, whether done or furnished at the instance of the owner of the building or other improvement or his agent; and every contractor, subcontractor, architect, builder or any person having charge of any mining claim, or of the construction, alteration or repair, either in whole or in part, of any building or other improvement, as aforesaid, shall be held to be the agent of the owner for the purpose of this chapter",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "mechanics-liens",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-45-501"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(45-501) 1893, p. 49, ch. 1, sec. 1; reen. 1899, p. 147, ch. 1, sec. 1; reen. R.C. & C.L., sec. 5110; C.S., sec. 7339; I.C.A., sec. 44-501; am. 1951, ch. 199, sec. 1, p. 422; am. 1971, ch. 91, sec. 1, p. 196; am. 1998, ch. 269, sec. 1, p. 898; am. 2001, ch. 152, sec. 1, p. 550.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ The 'agent of the owner' clause means a SUBCONTRACTOR or SUPPLIER the homeowner never hired can claim a lien. Do not state whether a homeowner who already paid the general contractor is protected — the statute here does not say, and that is a classic attorney question."
+    },
+    {
+      "id": "ln-mechanics-lien-ninety-day-filing",
+      "claim": "An Idaho mechanic's lien claimant must file the claim for record with the recorder of the county where the property sits within 90 days after completing the labor or services or furnishing the materials, verified by oath, and must serve a copy on the owner or reputed owner, personally or by certified mail, no later than five business days after filing.",
+      "quotedLanguage": "Any person claiming a lien pursuant to the provisions of this chapter must file a claim for record with the county recorder for the county in which such property or some part thereof is situated. (2) The claim shall be filed within ninety (90) days after the completion of the labor or services, or furnishing of materials. ... Such delivery or mailing shall be made no later than five (5) business days following the filing of said claim of lien.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "mechanics-liens",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-45-507"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(45-507) 1893, p. 49, ch. 1, sec. 6; am. 1895, p. 48, ch. 1, sec. 6; reen. 1899, p. 147, ch. 1, sec. 6; reen. R.C. & C.L., sec. 5115; C.S., sec. 7346; I.C.A., sec. 44-507; am. 1971, ch. 91, sec. 5, p. 196; am. 1983, ch. 127, sec. 1, p. 324; am. 1993, ch. 378, sec. 1, p. 1387; am. 2001, ch. 152, sec. 5, p. 552; am. 2002, ch. 307, sec. 1, p. 876; am. 2015, ch. 339, sec. 1, p. 1271; am. 2022, ch. 66, sec. 1, p. 202.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ 90 days runs from COMPLETION of that claimant's work or materials, not from the start of the job or the invoice date. Subsection (7): prevailing party in a court proceeding on the lien recovers reasonable attorney's fees and costs — not used in prose. Do not say whether a particular lien was timely."
+    },
+    {
+      "id": "ln-mechanics-lien-six-month-duration",
+      "claim": "An Idaho mechanic's lien binds the property for no longer than six months after the claim is filed unless proceedings to enforce it are commenced in a proper court within that time, or unless a payment on account or an extension of credit is endorsed on the record of the lien (in which case six months after that payment or the extension's expiry); the lien of a final judgment obtained on such a lien ceases ten years after the judgment becomes final.",
+      "quotedLanguage": "No lien provided for in this chapter binds any building, mining claim, improvement or structure for a longer period than six (6) months after the claim has been filed, unless proceedings be commenced in a proper court within that time to enforce such lien; or unless a payment on account is made, or extension of credit given with expiration date thereof, and such payment or credit and expiration date, is endorsed on the record of the lien, then six (6) months after the date of such payment or expiration of extension. The lien of a final judgment obtained on any lien provided for in this chapter shall cease ten (10) years from the date the judgment becomes final.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "mechanics-liens",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-45-510"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(45-510) 1893, p. 49, ch. 1, sec. 9; reen. 1899, p. 147, ch. 1, sec. 9; reen. R.C. & C.L., sec. 5118; C.S., sec. 7349; I.C.A., sec. 44-510; am. 1947, ch. 125, sec. 1, p. 292; am. 2015, ch. 278, sec. 5, p. 1138; am. 2015, ch. 339, sec. 2, p. 1272.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ A lapsed claim may still SIT ON THE RECORD — the statute says it no longer binds the property, not that it disappears from the county index. Whether a given recorded claim is still enforceable (was suit filed?) is a court-records and attorney question. Never tell a reader their lien 'has expired'."
+    },
+    {
+      "id": "ln-mechanics-lien-priority",
+      "claim": "Idaho mechanics' liens share equal footing within their class regardless of filing date, and are preferred to any lien, mortgage or other encumbrance that attached after the building or improvement was commenced or work or materials began, and to any unrecorded encumbrance of which the lienholder had no notice at that time.",
+      "quotedLanguage": "The liens provided for in this chapter shall be on equal footing with those liens within the same class of liens, without reference to the date of the filing of the lien claim or claims and are preferred to any lien, mortgage or other encumbrance, which may have attached subsequent to the time when the building, improvement or structure was commenced, work done, equipment, materials or fixtures were rented or leased, or materials or professional services were commenced to be furnished",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "mechanics-liens",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-45-506"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(45-506) 1893, p. 49, ch. 1, sec. 5; reen. 1899, p. 147, ch. 1, sec. 5; reen. R.C. & C.L., sec. 5114; C.S., sec. 7345; I.C.A., sec. 44-506; am. 1971, ch. 91, sec. 4, p. 196; am. 2001, ch. 152, sec. 4, p. 552.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ Priority relates back to when the WORK STARTED, not to when the claim was filed. Describe only; do not rank liens on a reader's property."
+    },
+    {
+      "id": "ln-mechanics-lien-bond-release",
+      "claim": "Idaho allows a mechanic's lien of record on real property to be released by posting a surety bond under Idaho Code 45-519 through 45-524; the statutory bond form is in one and a half times the amount of the claim, from which the surety pays what a court adjudges was secured by the lien, with interest, costs and attorney's fees.",
+      "quotedLanguage": "A mechanic's lien of record upon real property may be released upon the posting of a surety bond in the manner provided in sections 45-519 through 45-524 , Idaho Code. ... (1-1/2 x claim), from which sum they will pay the claimant such amount as a court of competent jurisdiction may adjudge to have been secured by his lien, with interest, costs and attorney's fees.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "mechanics-liens",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-45-518",
+        "idcode-45-519"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-518, added 1993, ch. 378, sec. 3, p. 1388.] ... [45-519, added 1993, ch. 378, sec. 4, p. 1388; am. 2002, ch. 32, sec. 18, p. 56.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "The 1.5x figure appears in the STATUTORY BOND FORM in 45-519, not in operative prose; state it as 'the statutory bond form is written for one and a half times the claim'. Bond must be executed by a corporation authorized to do surety business in Idaho. Sections 45-520 to 45-524 (procedure) were NOT read — do not describe the procedure beyond this."
+    },
+    {
+      "id": "ln-hoa-definition-lien-authority",
+      "claim": "Idaho's Homeowner's Association Act defines a homeowner's association as an incorporated or unincorporated residential association whose membership is based on owning or possessing an interest in real property and which has authority, under recorded covenants, bylaws or other governing documents, to assess and record liens against its members' real property.",
+      "quotedLanguage": "\"Homeowner's association\" means any incorporated or unincorporated residential association: (i) In which membership is based on owning or possessing an interest in real property; and (ii) That has the authority, pursuant to recorded covenants, bylaws, or other governing documents, to assess and record liens against the real property of its members.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "hoa",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-55-3203"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-3203, added 2022, ch. 323, sec. 4, p. 1039; am. 2024, ch. 162, sec. 1, p. 618; am. 2024, ch. 214, sec. 1, p. 759; am. 2025, ch. 204, sec. 2, p. 926; am. 2025, ch. 211, sec. 23, p. 993; am. 2026, ch. 251, sec. 23, p. 1077.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Lien AUTHORITY flows from the recorded governing documents; the Act's definition presupposes it. Amended 2026 (ch. 251) — current text read 2026-11-12."
+    },
+    {
+      "id": "ln-hoa-lien-claim-requirements",
+      "claim": "An Idaho homeowner's association may levy an assessment against a lot for the reasonable costs of maintaining common areas it owns and maintains; to claim a lien for it, the association must file a verified claim in the county where the lot sits stating the amount due, and within five business days of recording must serve a copy on the owner by personal delivery or certified mail; once recorded, the claim automatically accumulates later unpaid assessments.",
+      "quotedLanguage": "A homeowner's association may levy an assessment against a lot for the reasonable costs incurred in the maintenance of common areas consisting of real property owned and maintained by the homeowner's association. (2)(a) A homeowner's association claiming a lien under subsection (1) of this section must file a claim in the county in which the lot or some part thereof is located. ... such claim shall automatically accumulate the subsequent unpaid assessments without the necessity of further filings under this section. ... Within five (5) business days after recording a lien on the property, the homeowner's association shall serve, by personal delivery to the owner or reputed owner or by certified mail to the last known address of the owner or reputed owner, a true and correct copy of the recorded lien.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "hoa",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-55-3207"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-3207, added 2022, ch. 323, sec. 4, p. 1042.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ The lien in 55-3207(1) is tied to assessments for COMMON-AREA MAINTENANCE. The section does not say fines are lienable — do not claim either way. Condominiums are under a different act (55-1518, ln-condo-assessment-lien-one-year). No duration/expiry is stated in 55-3207 — do not invent one."
+    },
+    {
+      "id": "ln-hoa-lien-enforcement",
+      "claim": "An Idaho homeowner's association lien may be enforced by the board on the association's behalf; the association may also sue for a money judgment for unpaid assessments without foreclosing or waiving the lien, or take a deed in lieu of foreclosure, and recovery in such an action satisfies the lien to that extent.",
+      "quotedLanguage": "The lien may be enforced by the board acting on behalf of the homeowner's association. (4) This section does not prohibit a homeowner's association from pursuing an action to recover sums for which subsection (1) of this section creates a lien or from taking a deed in lieu of foreclosure in satisfaction of the lien. (5) An action to recover a money judgment for unpaid assessments may be maintained without foreclosing or waiving the lien securing the claim for unpaid assessments. However, recovery on the action operates to satisfy the lien, or the portion thereof, for which recovery is made.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "hoa",
+        "liens",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-55-3207"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-3207, added 2022, ch. 323, sec. 4, p. 1042.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Describe only. The section does not set out a foreclosure procedure or timeline."
+    },
+    {
+      "id": "ln-hoa-statement-of-account",
+      "claim": "An Idaho homeowner's association must give a member, or the member's agent, a free statement of the member's assessment account within five business days of a written request, listing all outstanding assessments, charges and fees including any transfer fee, late fees and interest; the association is bound by the amounts in the statement, and charging for it violates the Idaho Consumer Protection Act.",
+      "quotedLanguage": "A homeowner's association or its agent shall provide a member and the member's agent, if any, a statement of the member's assessment account no more than five (5) business days after a written request by the member or the member's agent is received by the manager, president, board member, or other agent of the homeowner's association, or any combination thereof. The homeowner's association will be bound by the amounts set forth within the statement of assessment account. The statement of assessment account shall include all outstanding assessments, charges, and fees, including any transfer fee, that are due and owing to the homeowner's association, including any late fees or interest that may have accrued. ... No fee shall be charged by a homeowner's association or its agent for providing a statement of the member's assessment account.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "hoa",
+        "liens",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-3205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-3205, added 2022, ch. 323, sec. 4, p. 1041; am. 2023, ch. 247, sec. 2, p. 764; am. 2024, ch. 162, sec. 2, p. 618; am. 2025, ch. 204, sec. 5, p. 928.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Five BUSINESS days, after the WRITTEN request is RECEIVED. The 'bound by' sentence is the useful one for a seller. Amended 2023, 2024, 2025. Subsection (2): transfer fee only if the CC&Rs expressly authorize it — not used in prose."
+    },
+    {
+      "id": "ln-condo-assessment-lien-one-year",
+      "claim": "Under Idaho's Condominium Property Act, a condominium assessment and authorized charges become a lien when the management body records a notice of assessment with the county recorder; unless satisfied and released or enforcement is begun, the lien expires one year after the notice is recorded, extendable by the management body for no more than one additional year by recording a written extension.",
+      "quotedLanguage": "shall be and become a lien upon the condominium assessed when the management body causes to be recorded with the county recorder of the county in which such condominium is located a notice of assessment ... Unless sooner satisfied and released or the enforcement thereof initiated as hereafter provided such lien shall expire and be of no further force or effect one (1) year from the date of recordation of said notice of assessment; provided, however, that said one-year period may be extended by the management body for not to exceed one (1) additional year by recording a written extension thereof.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "hoa",
+        "condominiums",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-55-1518"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-1518, added 1965, ch. 225, sec. 18, p. 515.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ CONDOMINIUMS ONLY. Whether a given association falls under 55-1518, the HOA Act (55-3207), or both is a question for an attorney; do not assign a reader's community to one. The section also says the lien may be enforced by sale in the manner for powers of sale in deeds of trust."
+    },
+    {
+      "id": "ln-property-tax-first-lien-perpetual",
+      "claim": "Idaho property taxes levied on real property are a first and prior lien on the assessed property, discharged only by payment or cancellation of the taxes as the tax title provides, and property tax liens are perpetual and continuous.",
+      "quotedLanguage": "All property taxes levied upon real property shall be a first and prior lien upon the real property assessed therefor, and shall only be discharged by the payment or cancellation of the property taxes as provided in this title. ... Property tax liens shall be perpetual and continuous on all personal, operating and real property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "liens",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-63-206"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-206 added 1996, ch. 98, sec. 3, p. 321.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ 'First and prior' — property taxes outrank the other liens on this page. 'Perpetual' means there is no expiry clock comparable to judgment or mechanic's liens. Pair with the existing tax-deed claims (id-tax-deed-three-year-delinquency, id-tax-deed-redemption-fourteen-months) for what happens on delinquency. The Jan 1 lien date is in ada-assessment-market-value-jan-1."
+    },
+    {
+      "id": "ln-irs-federal-tax-lien-what-it-is",
+      "claim": "The IRS describes a federal tax lien as the government's legal claim against a taxpayer's property — including real estate — when a tax debt is not paid; it exists after the IRS assesses the liability, sends a Notice and Demand for Payment, and the taxpayer neglects or refuses to pay in time, and the IRS may file a public Notice of Federal Tax Lien to alert creditors.",
+      "quotedLanguage": "A federal tax lien is the government's legal claim against your property when you neglect or fail to pay a tax debt. The lien protects the government's interest in all your property, including real estate, personal property and financial assets. ... The IRS files a public document, the Notice of Federal Tax Lien , to alert creditors that the government has a legal right to your property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax-lien",
+        "liens"
+      ],
+      "sourceIds": [
+        "irs-understanding-federal-tax-lien"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "IRS explanatory web page, not the Internal Revenue Code itself (26 USC 6321-6325 were not read). The page also says the lien attaches to future assets acquired during the lien's duration."
+    },
+    {
+      "id": "ln-irs-release-thirty-days",
+      "claim": "The IRS says paying the tax debt in full is the best way to get rid of a federal tax lien, and that it releases the lien within 30 days after the debt is paid.",
+      "quotedLanguage": "Paying your tax debt - in full - is the best way to get rid of a federal tax lien. The IRS releases your lien within 30 days after you have paid your tax debt.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax-lien",
+        "liens",
+        "closing"
+      ],
+      "sourceIds": [
+        "irs-understanding-federal-tax-lien"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "30 days is the IRS's stated practice on its own page. Do not convert it into a closing-timeline promise."
+    },
+    {
+      "id": "ln-irs-discharge-subordination-withdrawal",
+      "claim": "The IRS distinguishes three tools: a discharge removes the federal tax lien from specific property; a subordination does not remove the lien but lets other creditors move ahead of the IRS; and a withdrawal removes the public Notice of Federal Tax Lien while the taxpayer remains liable for the amount due.",
+      "quotedLanguage": "A \"discharge\" removes the lien from specific property. ... \"Subordination\" does not remove the lien but allows other creditors to move ahead of the IRS, which may make it easier to get a loan or mortgage. ... A \"withdrawal\" removes the public Notice of Federal Tax Lien and assures that the IRS is not competing with other creditors for your property; however, you are still liable for the amount due.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax-lien",
+        "liens"
+      ],
+      "sourceIds": [
+        "irs-understanding-federal-tax-lien"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ Withdrawal ≠ debt forgiven. Subordination is a refinancing tool, not a sale tool. Eligibility is in Pub 783 / Pub 784 / Form 12277 — do not state that anyone qualifies."
+    },
+    {
+      "id": "ln-irs-discharge-apply-45-days",
+      "claim": "IRS Publication 783 says a Certificate of Discharge under Internal Revenue Code section 6325(b) removes the United States' lien from the property named in the certificate, that the application is made on Form 14135, and that it should be submitted at least 45 days before the transaction date on which the certificate is needed.",
+      "quotedLanguage": "6325(b) removes the United States' lien from the property ... Complete Form 14135, Application for Certificate ... Please submit your application at least 45 days before the ... transaction date that the certificate of discharge is needed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax-lien",
+        "liens",
+        "closing"
+      ],
+      "sourceIds": [
+        "irs-pub-783"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ VERIFIER NOTE: pdftotext -layout interleaves Pub 783's two columns, so contiguous sentences are split across lines in the extracted text; the '...' joins here bridge column breaks, not omitted words (except between the three sentences). Pub 783 Rev. 12-2022. 45 days is the IRS's request, not a guaranteed processing time."
+    },
+    {
+      "id": "ln-irs-discharge-partial-payment-or-no-value",
+      "claim": "IRS Publication 783 describes, among other bases, a discharge under section 6325(b)(2)(A) when the liability is partly paid with an amount not less than the value of the United States' interest in the property being discharged, and under section 6325(b)(2)(B) when the government's interest has no value because debts senior to the federal tax lien exceed the property's fair market value or sale value.",
+      "quotedLanguage": "provision when the tax liability is partially satisfied with an ... amount paid that is not less than the value of the United ... States' interest in the property being discharged. ... provision when it is determined that the government's ... interest in the property has no value. The debts senior to ... the federal tax lien are greater than the fair market value of ... the property or greater than the sale value of the property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax-lien",
+        "liens",
+        "closing"
+      ],
+      "sourceIds": [
+        "irs-pub-783"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "⚠️ Same column-interleave caveat as ln-irs-discharge-apply-45-days. Pub 783 also requires an appraisal by a disinterested third party and lists other bases (6325(b)(1), (b)(3), (b)(4)). Never say a reader's lien 'has no value' or that the IRS will accept a figure — the IRS decides."
+    },
+    {
+      "id": "ln-irs-subordination-pub-784",
+      "claim": "IRS Publication 784 says a Certificate of Subordination under Internal Revenue Code section 6325(d)(1) and (d)(2) allows a named creditor to move its junior position ahead of the United States' position for the property named in the certificate.",
+      "quotedLanguage": "Section 6325(d)(1) and 6325(d)(2) allows a named creditor to ... move their junior creditor position ahead of the United States' ... position for the property named in the certificate.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax-lien",
+        "liens"
+      ],
+      "sourceIds": [
+        "irs-pub-784"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-12",
+      "notes": "Same column-interleave caveat. Subordination is about letting a lender go first — typically a refinance, not a sale; included so readers do not confuse it with discharge."
+    }
+  ]
+}

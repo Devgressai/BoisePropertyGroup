@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo/meta";
 import NextSteps from "@/components/NextSteps";
+import TopicList from "@/components/TopicList";
 import PageSchema from "@/components/seo/PageSchema";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
@@ -91,6 +92,7 @@ export default function HowItWorks() {
             />
           </div>
         </div>
+        <TopicList kind="decision" heading="Before you decide" lede="How our number is built, how it compares with listing, and how to check any buyer." />
         <NextSteps path="/how-it-works" />
         <FinalCTA />
       </main>

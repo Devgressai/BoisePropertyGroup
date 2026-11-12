@@ -23,6 +23,9 @@ import { createHash } from "node:crypto";
 const REGISTRIES = [
   { label: "residential", path: "data/idaho/evidence/ada-claims.json" },
   { label: "commercial", path: "data/commercial/claims/commercial-claims.json" },
+  // Candidate registries under research (same shape: { claims: [...] }), so a
+  // draft can be audited before it is merged: node verify-quotes.mjs <file>…
+  ...process.argv.slice(2).map((path) => ({ label: "candidate", path })),
 ];
 const claims = REGISTRIES.flatMap((r) =>
   JSON.parse(readFileSync(r.path, "utf8")).claims.map((c) => ({ ...c, registry: r.label })),

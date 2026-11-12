@@ -7,6 +7,9 @@ import { linksForPlace, linksForCounty, knowledgeLinksForPlace } from "@/lib/seo
 import { pageMetadata, metaDescription } from "@/lib/seo/meta";
 import PageSchema from "@/components/seo/PageSchema";
 import PlacePage from "@/components/seo/PlacePage";
+import TopicPageView from "@/components/seo/TopicPageView";
+import { TOPIC_PAGES, topicPage } from "@/data/topic-pages";
+import { decideTopicIndexation } from "@/lib/seo/topicIndexation";
 
 /**
  * Every valid slug is prerendered, so an unknown slug is a true 404 rather
@@ -16,7 +19,12 @@ import PlacePage from "@/components/seo/PlacePage";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [{ slug: county.slug }, ...renderablePlaces.map((p) => ({ slug: p.slug }))];
+  return [
+    { slug: county.slug },
+    ...renderablePlaces.map((p) => ({ slug: p.slug })),
+    // BOFU situation and MOFU decision pages share this flat, depth-1 URL space.
+    ...TOPIC_PAGES.map((p) => ({ slug: p.slug })),
+  ];
 }
 
 /** Placeholder shown for a place that renders but has not earned an index. */
@@ -88,6 +96,16 @@ export async function generateMetadata({
   params,
 }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  const topic = topicPage(slug);
+  if (topic) {
+    return pageMetadata({
+      path: `/${slug}`,
+      title: topic.title,
+      description: topic.description,
+      type: "article",
+      robots: { index: decideTopicIndexation(topic).indexable, follow: true },
+    });
+  }
   const r = resolve(slug);
   if (!r) return {};
   return pageMetadata({
@@ -100,6 +118,15 @@ export async function generateMetadata({
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const topic = topicPage(slug);
+  if (topic) {
+    return (
+      <>
+        <TopicPageView page={topic} />
+        <PageSchema path={`/${slug}`} name={topic.title} description={metaDescription(topic.description)} />
+      </>
+    );
+  }
   const r = resolve(slug);
   if (!r) notFound();
   return (
