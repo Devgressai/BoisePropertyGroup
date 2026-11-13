@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArticleBody, { LinkList } from "@/components/seo/ArticleBody";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
@@ -9,7 +10,6 @@ import { claim as residentialClaim } from "@/data/claims";
 import OfferForm from "@/components/OfferForm";
 import type { PlaceContent } from "@/data/place-content";
 import type { LinkItem } from "@/lib/seo/internalLinks";
-import Inline from "@/lib/content/Inline";
 import NextSteps from "@/components/NextSteps";
 
 export default function PlacePage({
@@ -47,7 +47,6 @@ export default function PlacePage({
   const geographyLinks = links.filter((l) => l.reason !== "guide" && l.reason !== "commercial");
   const knowledgeLinks = links.filter((l) => l.reason === "guide" || l.reason === "commercial");
 
-  const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
   return (
     <>
       <Navbar />
@@ -67,7 +66,7 @@ export default function PlacePage({
               ))}
             </div>
             <div className="mt-9 max-w-[34rem]">
-              <OfferForm />
+              <OfferForm bar />
             </div>
           </div>
         </header>
@@ -96,23 +95,7 @@ export default function PlacePage({
           </div>
         )}
 
-        <div className="wrap py-16 sm:py-20">
-          <div className="max-w-[46rem] space-y-14">
-            {content.sections.map((s) => (
-              <section key={s.heading} aria-labelledby={anchor(s.heading)}>
-                <hr className="rule-accent" />
-                <h2 id={anchor(s.heading)} className="display-md mt-5 text-[var(--bpg-ink)]">
-                  {s.heading}
-                </h2>
-                <div className="mt-4 space-y-4">
-                  {s.body.map((p) => (
-                    <p key={p.slice(0, 40)} className="leading-relaxed"><Inline text={p} /></p>
-                  ))}
-                </div>
-              </section>
-            ))}
-          </div>
-        </div>
+        <ArticleBody sections={content.sections} />
 
         {/*
           Two blocks, not one, because "Elsewhere in Ada County" is a geography
@@ -123,30 +106,10 @@ export default function PlacePage({
           no tenancy guide, and the block disappears entirely rather than
           rendering an empty heading.
         */}
-        <section className="border-t border-[var(--bpg-border)] bg-[var(--bpg-surface)] py-14">
-          <div className="wrap space-y-10">
-            {[
-              { heading: "Elsewhere in Ada County", items: geographyLinks },
-              { heading: "Research behind this page", items: knowledgeLinks },
-            ]
-              .filter((group) => group.items.length > 0)
-              .map((group) => (
-                <div key={group.heading}>
-                  <h2 className="eyebrow text-[var(--bpg-muted)]">{group.heading}</h2>
-                  <ul className="mt-5 flex flex-wrap gap-x-7 gap-y-3">
-                    {group.items.map((l) => (
-                      <li key={l.href}>
-                        <Link
-                          href={l.href}
-                          className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
-                        >
-                          {l.label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+        <section className="border-t border-[var(--bpg-border)] bg-[var(--bpg-sand)] py-14">
+          <div className="wrap grid gap-10 lg:grid-cols-2">
+            <LinkList heading="Elsewhere in Ada County" cols={2} items={geographyLinks} />
+            <LinkList heading="Research behind this page" cols={1} items={knowledgeLinks} />
           </div>
         </section>
 

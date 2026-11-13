@@ -66,12 +66,12 @@ export default function EvidenceAppendix({
 
   return (
     <section
-      className="border-t border-[var(--bpg-border)] bg-[var(--bpg-surface)] py-14"
+      className="border-t border-[var(--bpg-border)] bg-[var(--bpg-sand)] py-16"
       aria-labelledby="sources"
     >
       <div className="wrap max-w-[46rem]">
-        <hr className="rule-accent" />
-        <h2 id="sources" className="display-md mt-5 text-[var(--bpg-ink)]">
+        <p className="eyebrow text-[var(--bpg-warm)]">Sources</p>
+        <h2 id="sources" className="display-md mt-3 text-[var(--bpg-ink)]">
           Where this comes from
         </h2>
         <p className="mt-4 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">

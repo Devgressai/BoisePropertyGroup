@@ -36,7 +36,7 @@ export default function WhatWeBuyPage() {
           <dl className="max-w-[52rem] divide-y divide-[var(--bpg-border)] border-y border-[var(--bpg-border)]">
             {criteria.map((c) => (
               <div key={c.label} className="grid gap-2 py-6 sm:grid-cols-[13rem_1fr] sm:gap-8">
-                <dt className="font-semibold text-[var(--bpg-ink)]">{c.label}</dt>
+                <dt className="serif text-[1.25rem] font-semibold text-[var(--bpg-ink)]">{c.label}</dt>
                 <dd className="leading-relaxed text-[var(--bpg-muted)]">{c.value}</dd>
               </div>
             ))}

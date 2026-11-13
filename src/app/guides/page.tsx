@@ -33,17 +33,21 @@ export default function GuidesHub() {
         </header>
 
         <div className="wrap py-16">
-          <ul className="grid gap-px overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-border)] md:grid-cols-2">
-            {guides.map((g) => (
-              <li key={g.slug} className="bg-[var(--bpg-surface)]">
-                <Link href={`/guides/${g.slug}`} className="block h-full p-8 no-underline">
-                  <h2 className="display-md text-[var(--bpg-ink)]">{g.h1}</h2>
-                  <p className="mt-3 leading-relaxed text-[var(--bpg-muted)]">{g.description}</p>
-                  <span className="eyebrow mt-5 block text-[var(--bpg-accent-ink)]">Read</span>
+          <ol className="grid gap-x-12 md:grid-cols-2">
+            {guides.map((g, i) => (
+              <li key={g.slug} className="border-t border-[var(--bpg-border)]">
+                <Link href={`/guides/${g.slug}`} className="group grid h-full grid-cols-[2.5rem_1fr] gap-x-3 py-7 no-underline">
+                  <span aria-hidden="true" className="serif text-[1.3rem] leading-tight text-[var(--bpg-accent)]">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span>
+                    <h2 className="display-md text-[var(--bpg-ink)] group-hover:underline group-hover:decoration-[var(--bpg-brass)] group-hover:underline-offset-4">{g.h1}</h2>
+                    <p className="mt-2.5 leading-relaxed text-[var(--bpg-muted)]">{g.description}</p>
+                  </span>
                 </Link>
               </li>
             ))}
-          </ul>
+          </ol>
 
           <p className="mt-12 max-w-[60ch] text-sm leading-relaxed text-[var(--bpg-muted)]">
             These pages describe Idaho statutes and Ada County procedures and cite their sources.

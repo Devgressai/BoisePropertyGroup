@@ -18,16 +18,18 @@ export default function TopicList({
   const pages = publishedTopics(kind);
   if (pages.length === 0) return null;
   return (
-    <section className="wrap py-16" aria-labelledby={`topics-${kind}`}>
-      <hr className="rule-accent" />
-      <h2 id={`topics-${kind}`} className="display-md mt-5 text-[var(--bpg-ink)]">{heading}</h2>
-      <p className="mt-3 max-w-[44rem] text-[var(--bpg-muted)]">{lede}</p>
-      <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <section className="wrap py-16 sm:py-20" aria-labelledby={`topics-${kind}`}>
+      <h2 id={`topics-${kind}`} className="display-lg text-[var(--bpg-ink)]">{heading}</h2>
+      <p className="lede mt-4 max-w-[44rem] text-[var(--bpg-muted)]">{lede}</p>
+      <ul className="mt-10 grid gap-x-12 md:grid-cols-2">
         {pages.map((p) => (
-          <li key={p.slug}>
-            <Link href={`/${p.slug}`} className="card card-lift block h-full p-6 no-underline">
-              <span className="eyebrow text-[var(--bpg-accent-ink)]">{p.eyebrow}</span>
-              <span className="mt-2 block text-[1.05rem] font-semibold text-[var(--bpg-ink)]">{p.h1}</span>
+          <li key={p.slug} className="border-t border-[var(--bpg-border)]">
+            <Link href={`/${p.slug}`} className="group block py-6 no-underline">
+              <span className="eyebrow text-[var(--bpg-warm)]">{p.eyebrow}</span>
+              <span className="serif mt-2 flex items-start justify-between gap-4 text-[1.3rem] font-semibold leading-snug text-[var(--bpg-ink)]">
+                {p.h1}
+                <span aria-hidden="true" className="text-[var(--bpg-accent)] transition-transform group-hover:translate-x-1">→</span>
+              </span>
               <span className="mt-2 block text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">{p.description}</span>
             </Link>
           </li>

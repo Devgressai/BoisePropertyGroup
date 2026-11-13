@@ -55,8 +55,7 @@ export default function CommercialHub() {
 
         <div className="wrap py-16 sm:py-20">
           <div className="max-w-[46rem]">
-            <hr className="rule-accent" />
-            <h2 className="display-md mt-5 text-[var(--bpg-ink)]">By asset class</h2>
+            <h2 className="display-lg text-[var(--bpg-ink)]">By asset class</h2>
             <p className="mt-4 leading-relaxed">
               Two pages here go into detail, because those are the two where we have
               something specific to Boise to say. Where we do not, we have not written a page
@@ -65,14 +64,14 @@ export default function CommercialHub() {
             </p>
           </div>
 
-          <div className="mt-9 grid gap-px overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-border)] sm:grid-cols-2">
+          <div className="mt-9 grid gap-x-12 sm:grid-cols-2">
             {ASSETS.map((p) => (
               <Link
                 key={p.slug}
                 href={`/commercial/${p.slug}`}
-                className="block bg-[var(--bpg-surface)] p-8 no-underline transition-colors hover:bg-[var(--bpg-sand)]"
+                className="group block border-t border-[var(--bpg-border)] py-7 no-underline"
               >
-                <h3 className="text-[1.15rem] font-semibold text-[var(--bpg-ink)]">{p.eyebrow}</h3>
+                <h3 className="serif text-[1.35rem] font-semibold text-[var(--bpg-ink)] group-hover:underline group-hover:decoration-[var(--bpg-brass)] group-hover:underline-offset-4">{p.eyebrow}</h3>
                 <p className="mt-2 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">
                   {p.description}
                 </p>
@@ -83,22 +82,21 @@ export default function CommercialHub() {
           {EXPLAINERS.length > 0 && (
             <div className="mt-14">
               <div className="max-w-[46rem]">
-                <hr className="rule-accent" />
-                <h2 className="display-md mt-5 text-[var(--bpg-ink)]">Before any of that</h2>
+                <h2 className="display-lg text-[var(--bpg-ink)]">Before any of that</h2>
                 <p className="mt-4 leading-relaxed">
                   One mechanism sits underneath every asset class here. It is the difference
                   between a house and a commercial building, and it is why the assessor&rsquo;s
                   number and a transaction price are rarely the same figure.
                 </p>
               </div>
-              <div className="mt-7 grid gap-px overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-border)]">
+              <div className="mt-7 grid">
                 {EXPLAINERS.map((p) => (
                   <Link
                     key={p.slug}
                     href={`/commercial/${p.slug}`}
-                    className="block bg-[var(--bpg-surface)] p-8 no-underline transition-colors hover:bg-[var(--bpg-sand)]"
+                    className="group block border-t border-[var(--bpg-border)] py-7 no-underline"
                   >
-                    <h3 className="text-[1.15rem] font-semibold text-[var(--bpg-ink)]">
+                    <h3 className="serif text-[1.35rem] font-semibold text-[var(--bpg-ink)] group-hover:underline group-hover:decoration-[var(--bpg-brass)] group-hover:underline-offset-4">
                       {p.h1}
                     </h3>
                     <p className="mt-2 max-w-[46rem] text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">
@@ -110,9 +108,8 @@ export default function CommercialHub() {
             </div>
           )}
 
-          <div className="mt-14 max-w-[46rem] space-y-4">
-            <hr className="rule-accent" />
-            <h2 className="display-md mt-5 text-[var(--bpg-ink)]">Land, and a note on office versus retail</h2>
+          <div className="mt-16 max-w-[46rem] space-y-4">
+            <h2 className="display-lg text-[var(--bpg-ink)]">Land, and a note on office versus retail</h2>
             <p className="leading-relaxed">
               There is no separate office page and no separate retail page, and that is
               deliberate rather than unfinished. The codes themselves do not separate them —

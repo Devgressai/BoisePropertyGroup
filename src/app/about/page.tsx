@@ -38,11 +38,10 @@ export default function About() {
         </header>
 
         <div className="wrap py-16 sm:py-20">
-          <div className="max-w-[46rem] space-y-14">
-            <section>
-              <hr className="rule-accent" />
-              <h2 className="display-md mt-5 text-[var(--bpg-ink)]">What we are</h2>
-              <div className="mt-4 space-y-4">
+          <div className="border-b border-[var(--bpg-border)]">
+            <section className="grid gap-x-12 gap-y-4 border-t border-[var(--bpg-border)] py-10 md:grid-cols-[15rem_1fr]">
+              <h2 className="display-md text-[var(--bpg-ink)]">What we are</h2>
+              <div className="max-w-[44rem] space-y-4 text-[1.05rem] leading-[1.75] text-[#26384A]">
                 <p className="leading-relaxed">
                   We buy property directly in Ada County and the Treasure Valley — single houses
                   through apartment buildings, office and industrial, and land with complications
@@ -56,10 +55,9 @@ export default function About() {
               </div>
             </section>
 
-            <section>
-              <hr className="rule-accent" />
-              <h2 className="display-md mt-5 text-[var(--bpg-ink)]">Why Ada County</h2>
-              <div className="mt-4 space-y-4">
+            <section className="grid gap-x-12 gap-y-4 border-t border-[var(--bpg-border)] py-10 md:grid-cols-[15rem_1fr]">
+              <h2 className="display-md text-[var(--bpg-ink)]">Why Ada County</h2>
+              <div className="max-w-[44rem] space-y-4 text-[1.05rem] leading-[1.75] text-[#26384A]">
                 <p className="leading-relaxed">
                   Because the county is not one market. Between the 2020 census base and the 2024
                   estimate, Star grew 61.4% and Kuna 21.0%, while Boise grew 1.0%. Those are
@@ -81,10 +79,9 @@ export default function About() {
               </div>
             </section>
 
-            <section>
-              <hr className="rule-accent" />
-              <h2 className="display-md mt-5 text-[var(--bpg-ink)]">How we work</h2>
-              <div className="mt-4 space-y-4">
+            <section className="grid gap-x-12 gap-y-4 border-t border-[var(--bpg-border)] py-10 md:grid-cols-[15rem_1fr]">
+              <h2 className="display-md text-[var(--bpg-ink)]">How we work</h2>
+              <div className="max-w-[44rem] space-y-4 text-[1.05rem] leading-[1.75] text-[#26384A]">
                 <p className="leading-relaxed">
                   Every factual claim on this site cites the statute or county record it came from,
                   and each one was checked against a stored copy of the source page rather than
@@ -102,10 +99,9 @@ export default function About() {
               </div>
             </section>
 
-            <section>
-              <hr className="rule-accent" />
-              <h2 className="display-md mt-5 text-[var(--bpg-ink)]">Where we are</h2>
-              <div className="mt-4 space-y-4">
+            <section className="grid gap-x-12 gap-y-4 border-t border-[var(--bpg-border)] py-10 md:grid-cols-[15rem_1fr]">
+              <h2 className="display-md text-[var(--bpg-ink)]">Where we are</h2>
+              <div className="max-w-[44rem] space-y-4 text-[1.05rem] leading-[1.75] text-[#26384A]">
                 <p className="leading-relaxed">
                   {hasLegalEntity ? site.legalEntity : "Boise Property Group"} buys in Ada County
                   and, selectively, wider across the Treasure Valley. We are early, and we would

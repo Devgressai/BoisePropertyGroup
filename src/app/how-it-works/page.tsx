@@ -66,13 +66,15 @@ export default function HowItWorks() {
         </header>
 
         <div className="wrap py-16 sm:py-20">
-          <ol className="max-w-[46rem] space-y-14">
+          <ol>
             {STEPS.map((s) => (
-              <li key={s.n}>
-                <span className="display-md block text-[var(--bpg-accent-ink)]" aria-hidden="true">{s.n}</span>
-                <h2 className="display-md mt-2 text-[var(--bpg-ink)]">{s.t}</h2>
-                <div className="mt-4 space-y-4">
-                  {s.d.map((p) => <p key={p.slice(0, 30)} className="leading-relaxed">{p}</p>)}
+              <li key={s.n} className="grid gap-x-10 gap-y-2 border-t border-[var(--bpg-border)] py-10 last:border-b md:grid-cols-[5rem_1fr]">
+                <span className="serif text-[2.2rem] leading-none text-[var(--bpg-accent)]" aria-hidden="true">{s.n}</span>
+                <div className="max-w-[46rem]">
+                  <h2 className="display-md text-[var(--bpg-ink)]">{s.t}</h2>
+                  <div className="mt-4 space-y-4 text-[1.05rem] leading-[1.75] text-[#26384A]">
+                    {s.d.map((p) => <p key={p.slice(0, 30)}>{p}</p>)}
+                  </div>
                 </div>
               </li>
             ))}
@@ -81,7 +83,7 @@ export default function HowItWorks() {
         {/* Illustrative photography — not a client and not a completed sale.
             See the note in components/HumanScale.tsx. */}
         <div className="wrap pb-16">
-          <div className="overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)]">
+          <div className="overflow-hidden rounded-2xl">
             <Image
               src="/images/people-kitchen-table.webp"
               alt="Two people sitting at a kitchen table with an open folder of paperwork between them"

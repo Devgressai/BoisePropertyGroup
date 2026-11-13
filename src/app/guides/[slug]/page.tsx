@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ArticleBody, { LinkList } from "@/components/seo/ArticleBody";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -16,7 +17,6 @@ import PageSchema from "@/components/seo/PageSchema";
 import NextSteps from "@/components/NextSteps";
 import { situationForGuide } from "@/lib/seo/registry";
 import { placesForGuide } from "@/lib/seo/internalLinks";
-import Inline from "@/lib/content/Inline";
 
 export const dynamicParams = false;
 
@@ -65,7 +65,6 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   /** The funnel's TOFU→BOFU edge: the page that buys what this guide explains. */
   const sellPage = situationForGuide(g.slug);
 
-  const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
   const path = `/guides/${g.slug}`;
   const sources = new Map<string, { title: string; url: string; publisher: string }>();
   for (const c of appendixClaims) for (const src of c.sources) sources.set(src.url, src);
@@ -91,7 +90,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
               <span className="mx-2" aria-hidden="true">/</span>
               <Link href="/guides" className="no-underline hover:text-[var(--bpg-ink)]">Guides</Link>
             </nav>
-            <h1 className="display-lg max-w-[22ch] text-[var(--bpg-ink)]">{g.h1}</h1>
+            <p className="eyebrow text-[var(--bpg-warm)]">Idaho guide</p>
+            <h1 className="display-xl mt-4 max-w-[20ch] text-[var(--bpg-ink)]">{g.h1}</h1>
             {/* The same dates as the Article schema — they must always agree. */}
             <p className="mt-5 text-sm text-[var(--bpg-muted)]">
               Published <time dateTime={g.published}>{fmt(g.published)}</time>
@@ -108,81 +108,32 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           </div>
         </header>
 
-        <article className="wrap py-16 sm:py-20">
-          <div className="max-w-[46rem] space-y-14">
-            {content.sections.map((s) => (
-              <section key={s.heading} aria-labelledby={anchor(s.heading)}>
-                <hr className="rule-accent" />
-                <h2 id={anchor(s.heading)} className="display-md mt-5 text-[var(--bpg-ink)]">
-                  {s.heading}
-                </h2>
-                <div className="mt-4 space-y-4">
-                  {s.body.map((p) => (
-                    <p key={p.slice(0, 40)} className="leading-relaxed"><Inline text={p} /></p>
-                  ))}
-                </div>
-              </section>
-            ))}
-          </div>
-
-          {/*
-            Siblings are filtered on HAVING CONTENT, not merely on not being
-            this page. A guide with no written content renders a stub, and the
-            place pages shipped exactly that bug — sibling links sent readers to
-            four empty pages. All four guides are written today, so this filter
-            changes nothing now; it is here so writing a fifth guide cannot
-            reintroduce it.
-
-            The places block is the reverse of knowledgeLinksForPlace(): a guide
-            links back only to places whose OWN claims carry a topic in this
-            guide's cluster. Guides, places and commercial pages were three
-            sealed islands joined only through the navbar and footer.
-          */}
+        <ArticleBody sections={content.sections}>
           {sellPage && (
-            <Link href={`/${sellPage.slug}`} className="card card-lift mt-16 block max-w-[46rem] p-7 no-underline" style={{ background: "var(--bpg-tint)" }}>
-              <span className="eyebrow text-[var(--bpg-accent-ink)]">Ready to sell?</span>
-              <span className="display-md mt-2 block text-[var(--bpg-ink)]">{sellPage.h1}</span>
-              <span className="mt-2 block text-[var(--bpg-muted)]">{sellPage.description}</span>
-            </Link>
+            <div className="mt-16 rounded-2xl bg-[var(--bpg-navy)] p-7 text-[var(--bpg-on-navy-muted)] sm:p-9">
+              <p className="eyebrow text-[var(--bpg-brass)]">Ready to sell?</p>
+              <p className="serif mt-3 text-[1.5rem] font-semibold leading-snug text-white">{sellPage.h1}</p>
+              <p className="mt-2 leading-relaxed">{sellPage.description}</p>
+              <Link href={`/${sellPage.slug}`} className="btn btn-brass mt-6">
+                How a direct sale works for this <span aria-hidden="true">→</span>
+              </Link>
+            </div>
           )}
-          <aside className="mt-16 max-w-[46rem] border-t border-[var(--bpg-border)] pt-8">
-            <h2 className="eyebrow text-[var(--bpg-muted)]">Other guides</h2>
-            <ul className="mt-4 space-y-2.5">
-              {guides
+          <div className="mt-16 space-y-10 border-t-2 border-[var(--bpg-ink)] pt-8">
+            <LinkList
+              heading="Other guides"
+              cols={1}
+              items={guides
                 .filter((o) => o.slug !== g.slug && guideContentFor(o.slug))
-                .map((o) => (
-                  <li key={o.slug}>
-                    <Link
-                      href={`/guides/${o.slug}`}
-                      className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
-                    >
-                      {o.h1}
-                    </Link>
-                  </li>
-                ))}
-            </ul>
-
-            {relatedPlaces.length > 0 && (
-              <>
-                <h2 className="eyebrow mt-8 text-[var(--bpg-muted)]">
-                  Where this applies in Ada County
-                </h2>
-                <ul className="mt-4 space-y-2.5">
-                  {relatedPlaces.map((l) => (
-                    <li key={l.href}>
-                      <Link
-                        href={l.href}
-                        className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]"
-                      >
-                        Selling property in {l.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
-          </aside>
-        </article>
+                .map((o) => ({ href: `/guides/${o.slug}`, label: o.h1 }))}
+            />
+            <LinkList
+              heading="Where this applies in Ada County"
+              cols={2}
+              items={relatedPlaces.map((l) => ({ href: l.href, label: `Selling property in ${l.label}` }))}
+            />
+          </div>
+        </ArticleBody>
         <EvidenceAppendix claims={appendixClaims} />
 
         <NextSteps path={path} />

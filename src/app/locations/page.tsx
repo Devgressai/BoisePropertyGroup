@@ -36,20 +36,27 @@ export default function Locations() {
               is the top source of duplication in a location silo. */}
           <Link
             href={`/${county.slug}`}
-            className="card card-lift block p-8 no-underline"
+            className="group block rounded-2xl bg-[var(--bpg-navy)] p-8 no-underline sm:p-10"
           >
-            <h2 className="display-md text-[var(--bpg-ink)]">{county.name}</h2>
-            <p className="mt-2 max-w-[52ch] text-[var(--bpg-muted)]">
+            <p className="eyebrow text-[var(--bpg-brass)]">The county</p>
+            <h2 className="display-lg mt-3 flex items-center justify-between gap-4 text-white">
+              {county.name}
+              <span aria-hidden="true" className="text-[var(--bpg-brass)] transition-transform group-hover:translate-x-1">→</span>
+            </h2>
+            <p className="mt-3 max-w-[52ch] text-[var(--bpg-on-navy-muted)]">
               How property is administered county-wide, and where city jurisdiction takes over.
             </p>
           </Link>
 
-          <h2 className="eyebrow mt-14 text-[var(--bpg-muted)]">Cities</h2>
-          <ul className="mt-5 grid gap-px overflow-hidden rounded-[var(--bpg-radius)] border border-[var(--bpg-border)] bg-[var(--bpg-border)] sm:grid-cols-2 lg:grid-cols-3">
+          <h2 className="eyebrow mt-14 text-[var(--bpg-warm)]">Cities</h2>
+          <ul className="mt-5 grid gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
             {renderablePlaces.map((p) => (
-              <li key={p.slug} className="bg-[var(--bpg-surface)]">
-                <Link href={`/${p.slug}`} className="block p-6 no-underline">
-                  <span className="text-[1.1rem] font-semibold text-[var(--bpg-ink)]">{p.name}</span>
+              <li key={p.slug} className="border-t border-[var(--bpg-border)]">
+                <Link href={`/${p.slug}`} className="group block py-6 no-underline">
+                  <span className="serif flex items-center justify-between text-[1.4rem] font-semibold text-[var(--bpg-ink)]">
+                    {p.name}
+                    <span aria-hidden="true" className="text-[var(--bpg-accent)] transition-transform group-hover:translate-x-1">→</span>
+                  </span>
                   {p.population2024Census && (
                     <span className="mt-1 block text-sm text-[var(--bpg-muted)]">
                       {p.population2024Census.toLocaleString()} residents

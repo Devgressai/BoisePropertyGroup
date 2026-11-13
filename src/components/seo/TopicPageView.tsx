@@ -6,6 +6,7 @@ import FinalCTA from "@/components/FinalCTA";
 import NextSteps from "@/components/NextSteps";
 import EvidenceAppendix from "@/components/seo/EvidenceAppendix";
 import Inline from "@/lib/content/Inline";
+import ArticleBody, { LinkList } from "@/components/seo/ArticleBody";
 import type { TopicPage } from "@/data/topic-pages";
 import { guideBySlug } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
@@ -18,7 +19,6 @@ import { publishedPlaces } from "@/lib/seo/registry";
  * offer form high on situation pages, where the reader has come to sell.
  */
 export default function TopicPageView({ page }: { page: TopicPage }) {
-  const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
   const guides = page.guides
     .map(guideBySlug)
     .filter((g): g is NonNullable<typeof g> => !!g && !!guideContentFor(g.slug));
@@ -39,7 +39,7 @@ export default function TopicPageView({ page }: { page: TopicPage }) {
               <Link href={parent.href} className="no-underline hover:text-[var(--bpg-ink)]">{parent.label}</Link>
             </nav>
             <p className="eyebrow text-[var(--bpg-warm)]">{page.eyebrow}</p>
-            <h1 className="display-lg mt-4 max-w-[22ch] text-[var(--bpg-ink)]">{page.h1}</h1>
+            <h1 className="display-xl mt-4 max-w-[20ch] text-[var(--bpg-ink)]">{page.h1}</h1>
             <p className="mt-5 text-sm text-[var(--bpg-muted)]">
               Updated <time dateTime={page.updated}>{fmt(page.updated)}</time>
             </p>
@@ -59,54 +59,14 @@ export default function TopicPageView({ page }: { page: TopicPage }) {
           </div>
         </header>
 
-        <article className="wrap py-16 sm:py-20">
-          <div className="max-w-[46rem] space-y-14">
-            {page.sections.map((s) => (
-              <section key={s.heading} aria-labelledby={anchor(s.heading)}>
-                <hr className="rule-accent" />
-                <h2 id={anchor(s.heading)} className="display-md mt-5 text-[var(--bpg-ink)]">{s.heading}</h2>
-                <div className="mt-4 space-y-4">
-                  {s.body.map((p) => (
-                    <p key={p.slice(0, 40)} className="leading-relaxed"><Inline text={p} /></p>
-                  ))}
-                </div>
-              </section>
-            ))}
-          </div>
-
+        <ArticleBody sections={page.sections}>
           {(guides.length > 0 || places.length > 0) && (
-            <aside className="mt-16 grid max-w-[46rem] gap-10 border-t border-[var(--bpg-border)] pt-8 sm:grid-cols-2">
-              {guides.length > 0 && (
-                <div>
-                  <h2 className="eyebrow text-[var(--bpg-muted)]">The law in full</h2>
-                  <ul className="mt-4 space-y-2.5">
-                    {guides.map((g) => (
-                      <li key={g.slug}>
-                        <Link href={`/guides/${g.slug}`} className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]">
-                          {g.h1}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-              {places.length > 0 && (
-                <div>
-                  <h2 className="eyebrow text-[var(--bpg-muted)]">Where we buy</h2>
-                  <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2.5">
-                    {places.map((p) => (
-                      <li key={p.slug}>
-                        <Link href={`/${p.slug}`} className="text-[var(--bpg-ink)] underline decoration-[var(--bpg-border-strong)] underline-offset-4 hover:decoration-[var(--bpg-accent)]">
-                          {p.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </aside>
+            <div className="mt-16 space-y-10 border-t-2 border-[var(--bpg-ink)] pt-8">
+              <LinkList heading="The law in full" cols={1} items={guides.map((g) => ({ href: `/guides/${g.slug}`, label: g.h1 }))} />
+              <LinkList heading="Where we buy" cols={3} items={places.map((p) => ({ href: `/${p.slug}`, label: p.name }))} />
+            </div>
           )}
-        </article>
+        </ArticleBody>
 
         <EvidenceAppendix claims={citedClaims(page)} />
         <NextSteps path={`/${page.slug}`} />
