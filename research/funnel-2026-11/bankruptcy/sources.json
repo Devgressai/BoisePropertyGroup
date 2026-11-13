@@ -1,0 +1,401 @@
+{
+ "sources": [
+  {
+   "id": "usc-11-362",
+   "title": "11 U.S.C. § 362 — Automatic stay — United States Code, 2024 Edition",
+   "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+   "organizationType": "federal-government",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec362.htm",
+   "sourceTier": 1,
+   "jurisdiction": "United States (applies in Idaho)",
+   "topic": [
+    "bankruptcy"
+   ],
+   "publicationDate": null,
+   "updatedDate": "2024",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code (Bankruptcy Code), raw HTML cached. Subsections (a), (c), (d), (e) read in full; (b) skimmed. The HTML carries typesetting breaks in places (for example 'pre vious' in (c)(3)(C)(ii)); no broken passage is quoted. Subsection (a) does not use the word 'foreclosure'.",
+   "stalenessRisk": "LOW to MEDIUM — federal statute, changes only by Act of Congress, but this is the 2024 Edition. Re-check the newest edition on govinfo.gov (or uscode.house.gov) before each refresh.",
+   "claimsSupported": [
+    "bk-362a-stay-scope",
+    "bk-362c-stay-duration",
+    "bk-362c3-prior-case-thirty-days",
+    "bk-362c4-two-prior-cases-no-stay",
+    "bk-362d-relief-from-stay",
+    "bk-362d4-scheme-order-two-years",
+    "bk-362e-thirty-and-sixty-days"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "usc-11-363",
+   "title": "11 U.S.C. § 363 — Use, sale, or lease of property — United States Code, 2024 Edition",
+   "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+   "organizationType": "federal-government",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec363.htm",
+   "sourceTier": 1,
+   "jurisdiction": "United States (applies in Idaho)",
+   "topic": [
+    "bankruptcy"
+   ],
+   "publicationDate": null,
+   "updatedDate": "2024",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code (Bankruptcy Code), raw HTML cached. Only the opening clause of (b)(1) is used. (f) (sale free and clear) and (m) were seen and not claimed. 'After notice and a hearing' is defined in 11 U.S.C. 102(1), not read.",
+   "stalenessRisk": "LOW to MEDIUM — federal statute, changes only by Act of Congress, but this is the 2024 Edition. Re-check the newest edition on govinfo.gov (or uscode.house.gov) before each refresh.",
+   "claimsSupported": [
+    "bk-363b-sale-after-notice-and-hearing"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "usc-11-109",
+   "title": "11 U.S.C. § 109 — Who may be a debtor — United States Code, 2024 Edition",
+   "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+   "organizationType": "federal-government",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap1-sec109.htm",
+   "sourceTier": 1,
+   "jurisdiction": "United States (applies in Idaho)",
+   "topic": [
+    "bankruptcy"
+   ],
+   "publicationDate": null,
+   "updatedDate": "2024",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code (Bankruptcy Code), raw HTML cached. Subsection (h) read in full. NOTE: the dollar limits shown in subsection (e) of this edition carry an adjustment footnote and differ from the figures on the U.S. Courts chapter 13 page; no debt limit is claimed from either.",
+   "stalenessRisk": "LOW to MEDIUM — federal statute, changes only by Act of Congress, but this is the 2024 Edition. Re-check the newest edition on govinfo.gov (or uscode.house.gov) before each refresh.",
+   "claimsSupported": [
+    "bk-109h-credit-counseling-180-days",
+    "bk-109h-exigent-circumstances-exception"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "usc-11-1322",
+   "title": "11 U.S.C. § 1322 — Contents of plan — United States Code, 2024 Edition",
+   "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+   "organizationType": "federal-government",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap13-subchapII-sec1322.htm",
+   "sourceTier": 1,
+   "jurisdiction": "United States (applies in Idaho)",
+   "topic": [
+    "bankruptcy"
+   ],
+   "publicationDate": null,
+   "updatedDate": "2024",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code (Bankruptcy Code), raw HTML cached. Subsections (b)(2), (b)(3), (b)(5) and (c) read.",
+   "stalenessRisk": "LOW to MEDIUM — federal statute, changes only by Act of Congress, but this is the 2024 Edition. Re-check the newest edition on govinfo.gov (or uscode.house.gov) before each refresh.",
+   "claimsSupported": [
+    "bk-1322-cure-until-foreclosure-sale"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "usc-11-1303",
+   "title": "11 U.S.C. § 1303 — Rights and powers of debtor — United States Code, 2024 Edition",
+   "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+   "organizationType": "federal-government",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap13-subchapI-sec1303.htm",
+   "sourceTier": 1,
+   "jurisdiction": "United States (applies in Idaho)",
+   "topic": [
+    "bankruptcy"
+   ],
+   "publicationDate": null,
+   "updatedDate": "2024",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code (Bankruptcy Code), raw HTML cached. One-sentence section, quoted whole. Unamended since 1978 per the source credit.",
+   "stalenessRisk": "LOW to MEDIUM — federal statute, changes only by Act of Congress, but this is the 2024 Edition. Re-check the newest edition on govinfo.gov (or uscode.house.gov) before each refresh.",
+   "claimsSupported": [
+    "bk-1303-chapter-13-debtor-sale-powers"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "usc-11-1306",
+   "title": "11 U.S.C. § 1306 — Property of the estate — United States Code, 2024 Edition",
+   "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+   "organizationType": "federal-government",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap13-subchapI-sec1306.htm",
+   "sourceTier": 1,
+   "jurisdiction": "United States (applies in Idaho)",
+   "topic": [
+    "bankruptcy"
+   ],
+   "publicationDate": null,
+   "updatedDate": "2024",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code (Bankruptcy Code), raw HTML cached. Subsection (b) quoted. Section 1327 (effect of confirmation) was not read.",
+   "stalenessRisk": "LOW to MEDIUM — federal statute, changes only by Act of Congress, but this is the 2024 Edition. Re-check the newest edition on govinfo.gov (or uscode.house.gov) before each refresh.",
+   "claimsSupported": [
+    "bk-1303-chapter-13-debtor-sale-powers"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "uscourts-chapter-7-basics",
+   "title": "Chapter 7 — Bankruptcy Basics",
+   "publisher": "Administrative Office of the U.S. Courts",
+   "organizationType": "federal-government",
+   "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
+   "sourceTier": 1,
+   "jurisdiction": "United States",
+   "topic": [
+    "bankruptcy",
+    "court-procedure"
+   ],
+   "publicationDate": null,
+   "updatedDate": null,
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "SLOW-CHANGING",
+   "authorityNotes": "The federal judiciary's plain-language description of chapter 7, raw HTML cached. An explanatory page, not the Bankruptcy Code itself; it cites Code sections throughout. No visible review date found on the page.",
+   "stalenessRisk": "LOW to MEDIUM — general description. Fee amounts and means-test detail elsewhere on the page change periodically and are not used.",
+   "claimsSupported": [
+    "bk-uscourts-stay-described",
+    "bk-uscourts-chapter-7-liquidation",
+    "bk-uscourts-chapter-7-trustee-sells-when",
+    "bk-uscourts-estate-temporary-owner",
+    "bk-uscourts-discharge-does-not-remove-lien",
+    "bk-uscourts-180-day-bar",
+    "bk-uscourts-exemptions-ask-an-attorney"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "uscourts-credit-counseling-debtor-education",
+   "title": "Credit Counseling and Debtor Education Courses",
+   "publisher": "Administrative Office of the U.S. Courts",
+   "organizationType": "federal-government",
+   "url": "https://www.uscourts.gov/court-programs/bankruptcy/credit-counseling-and-debtor-education-courses",
+   "sourceTier": 1,
+   "jurisdiction": "United States",
+   "topic": [
+    "bankruptcy",
+    "court-procedure"
+   ],
+   "publicationDate": null,
+   "updatedDate": null,
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "SLOW-CHANGING",
+   "authorityNotes": "Federal judiciary page on the two required courses, raw HTML cached. Its first sentence contains a typo ('bankrutpcy') and is not quoted. Undated.",
+   "stalenessRisk": "LOW — the requirement is statutory (11 U.S.C. 109(h), 111).",
+   "claimsSupported": [
+    "bk-uscourts-counseling-before-education-after"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "uscourts-bankruptcy-overview",
+   "title": "Bankruptcy — Court Programs",
+   "publisher": "Administrative Office of the U.S. Courts",
+   "organizationType": "federal-government",
+   "url": "https://www.uscourts.gov/court-programs/bankruptcy",
+   "sourceTier": 1,
+   "jurisdiction": "United States",
+   "topic": [
+    "bankruptcy",
+    "court-procedure"
+   ],
+   "publicationDate": null,
+   "updatedDate": null,
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "SLOW-CHANGING",
+   "authorityNotes": "Federal judiciary landing page for bankruptcy, raw HTML cached. Source of the 'qualified lawyer is strongly recommended' sentence. Undated.",
+   "stalenessRisk": "LOW — general guidance.",
+   "claimsSupported": [
+    "bk-uscourts-lawyer-strongly-recommended"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "ust-credit-counseling-debtor-education",
+   "title": "Credit Counseling & Debtor Education Information — U.S. Trustee Program",
+   "publisher": "U.S. Department of Justice, U.S. Trustee Program",
+   "organizationType": "federal-government",
+   "url": "https://www.justice.gov/ust/credit-counseling-debtor-education-information",
+   "sourceTier": 1,
+   "jurisdiction": "United States",
+   "topic": [
+    "bankruptcy",
+    "court-procedure"
+   ],
+   "publicationDate": null,
+   "updatedDate": null,
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "SLOW-CHANGING",
+   "authorityNotes": "U.S. Department of Justice page of the program that approves credit counseling agencies, raw HTML cached. Short page; links to the approved-agency lists, which were not fetched. No visible update date captured.",
+   "stalenessRisk": "LOW — re-check that the page still exists at this address.",
+   "claimsSupported": [
+    "bk-ust-counseling-case-could-be-dismissed"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "idcode-11-609",
+   "title": "Idaho Code § 11-609 — Nonauthorization of federal bankruptcy exemptions",
+   "publisher": "Idaho State Legislature",
+   "organizationType": "state-government",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/title11/t11ch6/sect11-609/",
+   "sourceTier": 1,
+   "jurisdiction": "Idaho",
+   "topic": [
+    "bankruptcy",
+    "creditors"
+   ],
+   "publicationDate": null,
+   "updatedDate": "1981",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "Official statute text, one sentence, added 1981 ch. 81 and not amended since. No future-dated amendment displayed.",
+   "stalenessRisk": "LOW — statute; changes only by legislative act. The site updates each July 1.",
+   "claimsSupported": [
+    "bk-idaho-exemptions-state-law-only"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "idcode-55-1005",
+   "title": "Idaho Code § 55-1005 — To what judgments subject",
+   "publisher": "Idaho State Legislature",
+   "organizationType": "state-government",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch10/sect55-1005/",
+   "sourceTier": 1,
+   "jurisdiction": "Idaho",
+   "topic": [
+    "homestead",
+    "creditors"
+   ],
+   "publicationDate": null,
+   "updatedDate": "1989",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "Official statute text. Added 1989 ch. 371; no later amendment in the history note. No future-dated amendment displayed. Lists the debts the creditor-protection homestead does NOT shield, including deeds of trust.",
+   "stalenessRisk": "LOW — statute; changes only by legislative act. The site updates each July 1.",
+   "claimsSupported": [
+    "bk-homestead-subject-to-deeds-of-trust"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "idcode-55-1008",
+   "title": "Idaho Code § 55-1008 — Homestead exempt from execution — When presumed valid",
+   "publisher": "Idaho State Legislature",
+   "organizationType": "state-government",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch10/sect55-1008/",
+   "sourceTier": 1,
+   "jurisdiction": "Idaho",
+   "topic": [
+    "homestead",
+    "creditors"
+   ],
+   "publicationDate": null,
+   "updatedDate": "1989",
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "STATUTORY",
+   "authorityNotes": "Official statute text. Added 1989 ch. 371; no later amendment in the history note. No future-dated amendment displayed. The operative exemption; the dollar amount is in 55-1003.",
+   "stalenessRisk": "LOW — statute; changes only by legislative act. The site updates each July 1.",
+   "claimsSupported": [
+    "bk-homestead-exempt-from-forced-sale"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "id-uscourts-home",
+   "title": "U.S. District & Bankruptcy Courts, District of Idaho — home page",
+   "publisher": "United States District and Bankruptcy Courts, District of Idaho",
+   "organizationType": "federal-government",
+   "url": "https://www.id.uscourts.gov/",
+   "sourceTier": 1,
+   "jurisdiction": "Idaho (federal court)",
+   "topic": [
+    "bankruptcy",
+    "court-procedure"
+   ],
+   "publicationDate": null,
+   "updatedDate": null,
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "FAST-CHANGING",
+   "authorityNotes": "The federal court's own site, raw HTML cached. Used only for the existence of the consolidated court and its three office cities. The page is a home page with rotating news; the welcome text is stable but undated.",
+   "stalenessRisk": "MEDIUM — home page content rotates; names of court officers on the page are not used.",
+   "claimsSupported": [
+    "bk-idaho-bankruptcy-court-offices"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "id-uscourts-bankruptcy",
+   "title": "U.S. Bankruptcy Court, District of Idaho — bankruptcy home page",
+   "publisher": "United States Bankruptcy Court, District of Idaho",
+   "organizationType": "federal-government",
+   "url": "https://www.id.uscourts.gov/bankruptcy/",
+   "sourceTier": 1,
+   "jurisdiction": "Idaho (federal court)",
+   "topic": [
+    "bankruptcy",
+    "court-procedure"
+   ],
+   "publicationDate": null,
+   "updatedDate": null,
+   "accessedDate": "2026-11-13",
+   "freshnessClass": "FAST-CHANGING",
+   "authorityNotes": "The bankruptcy court's own landing page, raw HTML cached. Used only to name the court. Calendars, general orders and the judge's name on the page are not used.",
+   "stalenessRisk": "MEDIUM — landing page with rotating news.",
+   "claimsSupported": [
+    "bk-idaho-bankruptcy-court-offices"
+   ],
+   "entitiesSupported": [
+    "state:id"
+   ],
+   "status": "VERIFIED"
+  }
+ ]
+}

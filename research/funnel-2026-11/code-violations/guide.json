@@ -1,0 +1,161 @@
+{
+  "guide": {
+    "slug": "selling-a-house-with-unpermitted-work-in-ada-county",
+    "title": "Selling a House With Unpermitted Work",
+    "h1": "Selling a house with unpermitted work or an open code case in Ada County",
+    "description": "What Idaho's disclosure form asks about permits, which Ada County office handles permits and code cases for your address, and what an as-is sale changes.",
+    "cluster": "disclosure",
+    "published": "2026-11-13",
+    "updated": "2026-11-13"
+  },
+  "content": {
+    "intro": [
+      "Idaho's seller disclosure form asks directly whether any substantial additions or alterations were made without a building permit, and no exemption from the form depends on the house being sold as-is. Building permits and code enforcement in Ada County belong to the city the property sits in, or to Ada County for unincorporated land. Ada County, Boise and Eagle each have a written rule for seeking a permit after work has started. Each adds an investigation fee, and none promises that a permit will be issued.",
+      "This page describes what the statutes, local codes and agency pages say. It is not legal advice and it is not applied to your property. We are a direct buyer of property. We cannot tell you whether past work needed a permit, how to answer a disclosure question, or how an enforcement case will end. The building department for your address can answer the first question, and an Idaho attorney can answer the other two."
+    ],
+    "sections": [
+      {
+        "heading": "What the Idaho disclosure form asks about permits and violations",
+        "body": [
+          "Idaho Code 55-2504 requires a seller of residential property with one to four dwelling units to complete a property condition disclosure form unless the transfer is exempt. The form is printed in Idaho Code 55-2508. Three of its questions bear on unpermitted work and code cases.",
+          "Question 8 reads: \"Have any substantial additions or alterations been made without a building permit?\" The statute does not define \"substantial\", and the question is worded without naming who did the work.",
+          "Question 6 asks the seller to describe any conditions that may affect the ability to clear title, and lists encroachments, easements, zoning violations and lot line disputes as examples. Question 9 asks for \"any other problems, including legal, physical or other not listed above that you know concerning the property.\"",
+          "The form does not use the words \"code enforcement\". Whether an open case belongs under question 6 or question 9 on your form is a question for an Idaho attorney. Our guide to [Idaho seller disclosure in an as-is sale](/guides/idaho-seller-disclosure-when-selling-as-is) covers the rest of the chapter."
+        ],
+        "claims": [
+          "id-disclosure-required-1-to-4-units",
+          "cv-form-q8-additions-without-permit",
+          "cv-form-q6-zoning-violations-title",
+          "cv-form-q9-other-problems-legal"
+        ]
+      },
+      {
+        "heading": "The form records what you know, and it must be completed in good faith",
+        "body": [
+          "The form says that, unless otherwise advised, the seller has no expertise in construction, architecture or engineering. It encourages the purchaser to obtain professional inspections. It ends with the seller certifying that the information is true and correct to the best of the seller's knowledge as of the date signed.",
+          "Idaho Code 55-2507 requires the form to state that it records conditions and information actually known by the seller, that it is not a warranty, and that it is not a substitute for inspections. Idaho Code 55-2511 says a seller is not liable for an error or omission that was not within the seller's personal knowledge. By its terms that section reaches errors and omissions outside the seller's personal knowledge.",
+          "Idaho Code 55-2516 requires every disclosure to be made in good faith, defined as honesty in fact in the conduct of the transaction. Idaho Code 55-2513 requires the seller to amend the form before closing on discovering that information in it has changed.",
+          "Under Idaho Code 55-2517, a failure to comply does not by itself invalidate a transfer, and a person who willfully or negligently violates the chapter is liable for the buyer's actual damages."
+        ],
+        "claims": [
+          "cv-form-seller-certification-and-purpose",
+          "id-disclosure-actual-knowledge-not-warranty",
+          "id-disclosure-no-liability-outside-personal-knowledge",
+          "id-disclosure-good-faith-honesty-in-fact",
+          "id-disclosure-amend-before-closing",
+          "id-disclosure-failure-actual-damages"
+        ]
+      },
+      {
+        "heading": "Idaho law leaves the permit rules to the local government",
+        "body": [
+          "Idaho Code 39-4111(2) makes it unlawful to do, or cause or permit to be done, any construction, improvement, extension or alteration of a building in a local government jurisdiction enforcing building codes without first procuring a permit under that local government's ordinance. The statute does not list which jobs need a permit. The local ordinance does.",
+          "The lists differ from one jurisdiction to the next. Ada County's residential code amendment, which applies in unincorporated Ada County, exempts roof repair including complete replacement of roof coverings on one- and two-family dwellings. It also exempts one-story detached storage sheds whose floor area does not exceed 200 square feet, fences not over 6 feet high, and decks not more than 30 inches above grade that do not serve the required exit door. The City of Star lists re-roofing among the jobs that need a building permit. Kuna lists the installation of fences among the work that needs a residential building permit.",
+          "A rule read on one city's website says nothing about the house across the city limit. These are also the current lists. They do not show what was required in the year older work was done.",
+          "Idaho Code 39-4126 makes a willful violation of the state building code act a misdemeanor, with a fine of not more than $300, imprisonment for not more than 90 days, or both. Each day a violation continues is a separate offense under that section. Local codes set their own penalties, described below."
+        ],
+        "claims": [
+          "cv-id-permit-required-local-jurisdiction",
+          "cv-ada-exempt-work-list",
+          "cv-ada-building-code-applies-unincorporated",
+          "star-building-permit-triggers",
+          "kuna-permit-triggers-include-fences",
+          "cv-id-building-code-violation-misdemeanor"
+        ]
+      },
+      {
+        "heading": "Who issues building permits for your address",
+        "body": [
+          "Start by confirming which jurisdiction the parcel is in. The City of Star notes that ZIP codes are managed by the Postal Service for mail delivery and do not reflect municipal boundaries, and it points to the Ada County Assessor's website, which shows city boundaries.",
+          "Boise: the Planning and Development Services Building Division is responsible for issuing building permits and overseeing building construction within the City of Boise. Its phone number is (208) 608-7070.",
+          "Meridian: Building Services is responsible for structural, fire, electrical, mechanical and plumbing permits within the City of Meridian, from application through field inspection. It also handles permits for remodels, fences, sheds and garages. Its phone number is 208-887-2211.",
+          "Eagle: the Building Department tells owners never to guess whether a permit is needed and to contact the department before starting. Its phone number is 208-489-8760.",
+          "Kuna: the Building Department conducts plan reviews and inspects all phases of construction and modifications. The city says electrical and plumbing permits are available at the Kuna Building Department.",
+          "Star: the Building Department administers and enforces the adopted building codes and the city's unified code. Its page lists 208-286-7247. Star says its building department is only required to keep residential permitting records for 2 years.",
+          "Garden City: the Building Division processes building permits, plan reviews and permit issuance. The city contracts with outside providers for plan review and inspection, and building permits are still submitted through Garden City. Mechanical, electrical and plumbing permits go directly through the state. The phone number is (208) 472-2921.",
+          "Unincorporated Ada County: the county's building code ordinance applies in the unincorporated areas, and the Building Division reviews plans and inspects buildings. The Permitting Division says all electrical and plumbing work needs separate permits through the State of Idaho. Its phone number is 208-287-7900."
+        ],
+        "claims": [
+          "star-certificate-of-occupancy-city-vs-zip",
+          "cv-star-records-two-years-and-boundary-lookup",
+          "cv-boise-building-division-issues-permits",
+          "cv-meridian-building-services-scope",
+          "cv-eagle-building-department-permit-faq",
+          "cv-kuna-building-department-scope",
+          "cv-star-building-department-scope",
+          "cv-gardencity-building-services-contract",
+          "cv-ada-building-code-applies-unincorporated",
+          "ada-building-division-scope",
+          "cv-ada-electrical-plumbing-permits-state"
+        ]
+      },
+      {
+        "heading": "Who handles an open code enforcement case",
+        "body": [
+          "Ada County Code Enforcement investigates land use and building code complaints in unincorporated Ada County only, and states that it does not enforce code violations within city limits. It lists construction or remodeling without building permits among the issues it handles. When a specialist confirms a violation, the property owner is notified in writing and given an opportunity to cure it within a specified time frame. An owner who does not cure may face civil District Court proceedings.",
+          "Boise: the Code Compliance office says it enforces Boise City Code for businesses, sanitation and zoning. Boise's dwelling building code also says the Building Division may request assistance from code compliance officers to gain compliance in noncompliant cases. The city's online case lookup shows closed cases only. Open or active cases do not appear, so a clean search there does not show that a property has no open case.",
+          "Meridian: Code Enforcement officers, part of the Meridian Police Department, investigate and enforce city ordinances that include parcel zoning issues and permit violations. The city's number for reporting is 208-846-7326.",
+          "Eagle: complaints go through an online form that assigns a tracking number and a Code Enforcement Officer. The city lists building without a permit as an example of a request, and gives 208-489-8810 for help.",
+          "Star: for a public nuisance, the city says its Code Enforcement Officer visits the property and the Zoning Administrator sends a letter. The owner or resident then has fifteen days from receipt to abate the nuisance before the matter can go to the City Council. The page describes nuisances such as weeds, trash and abandoned vehicles. It does not say whether the same steps apply to unpermitted construction.",
+          "Kuna: the city says code enforcement covers its zoning, sanitation and nuisance ordinances and works on a complaint-driven basis. Garden City: the Code Enforcement page gives (208) 472-2950 for speaking to a code enforcement officer and states no procedure.",
+          "If you have a notice in hand, the office named on the notice is the one to call. Ask for the case status and the steps to close it in writing."
+        ],
+        "claims": [
+          "ada-code-enforcement-unincorporated-only",
+          "cv-ada-code-enforcement-notice-and-cure",
+          "cv-boise-code-compliance-scope",
+          "cv-boise-building-code-penalties",
+          "cv-boise-case-lookup-closed-cases-only",
+          "cv-meridian-code-enforcement-scope",
+          "cv-eagle-code-enforcement-complaints",
+          "cv-star-code-enforcement-fifteen-days",
+          "cv-kuna-code-enforcement-complaint-driven",
+          "cv-gardencity-code-enforcement-contact"
+        ]
+      },
+      {
+        "heading": "Can you get a permit after the work is done?",
+        "body": [
+          "We found a written rule on this in three local codes. None of the three promises approval.",
+          "Unincorporated Ada County: if work is commenced without first obtaining a required county building permit, an investigative fee equal to the county permit fee for that work must be paid before the county accepts a building permit application. The fee is in addition to any later permit fee. The ordinance says payment \"does not vest the illegal work with any legitimacy, nor does it establish any right to an Ada County permit\". Ada County Code 7-2-12 makes each violation of the building code chapter a misdemeanor and lets the county bring an action to correct or abate a violation.",
+          "Boise: under Boise City Code 9-1B-21, a person who commences work before obtaining the necessary permits is subject to a special investigation before a permit may be issued for that work. A special investigation fee equal to the permit fee is collected in addition to the permit fee, whether or not a permit is issued. Boise City Code 9-1B-29 makes a violation of the dwelling code a misdemeanor with a fine of not more than $1,000, imprisonment for not more than 180 days, or both. The same section lets the building official charge an infraction with a $300 fine instead, and lets a prosecuting attorney reduce a misdemeanor charge to that infraction if the defendant engages in corrective actions resulting in fully completed and permitted work.",
+          "Eagle: under the city's residential code section R108.6, work begun before obtaining the necessary permits is subject to a special investigation that is made before a permit may be issued, with an investigation fee in addition to the permit fee.",
+          "For Meridian, Kuna, Star and Garden City we did not find a primary source on after-the-fact permits, so this page says nothing about their rules. Call the building department listed above for the address.",
+          "None of these sources says what the inspector will need to see. Ask the building department that question before you spend money on plans."
+        ],
+        "claims": [
+          "cv-ada-investigative-fee-work-without-permit",
+          "cv-ada-building-code-penalties",
+          "cv-boise-special-investigation-fee",
+          "cv-boise-building-code-penalties",
+          "cv-eagle-investigation-fee-work-before-permit"
+        ]
+      },
+      {
+        "heading": "What an as-is sale changes and what it does not",
+        "body": [
+          "An as-is sale does not remove the disclosure form. Idaho Code 55-2505 lists sixteen kinds of exempt transfer, and none of them turns on the property being sold as-is, for cash, or in poor repair. If one of the sixteen fits your sale, such as certain inherited property, the form is not required. Idaho Code 55-2514 then still preserves any duty to disclose that comes from another Idaho statute or from Idaho common law.",
+          "An as-is sale does not change the local government's records. In unincorporated Ada County, a building division permit is issued to the owner of the property and remains tied to the specific property even as the ownership may change. In Boise, a building permit can be transferred to another party who provides a document signed by the original permit holder consenting to the transfer and to the conditions of the original approval.",
+          "We found no city or county page that says what happens to an open enforcement case when the property is sold. Ask the office that opened the case before closing, and ask an Idaho attorney how the answer should be reflected in the contract.",
+          "What an as-is clause does between a seller and a buyer comes from the contract itself. This page does not interpret contracts. Our page on [selling a house as-is in Idaho](/sell-house-as-is-idaho) describes how that kind of sale works with us."
+        ],
+        "claims": [
+          "id-disclosure-sixteen-exemptions",
+          "id-disclosure-other-duties-preserved",
+          "cv-ada-permit-required-tied-to-property",
+          "cv-boise-permit-transfer"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital, and unpermitted work is part of a property's condition. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. A sale to us is not one of the exemptions in Idaho Code 55-2505, so the disclosure form still applies unless another exemption fits your transfer. Tell us about unpermitted work and any open case when you [contact us](/contact). [How we calculate an offer](/how-we-calculate-an-offer) explains what goes into the number.",
+          "We are not the right route for every seller. If the building department tells you the work can be permitted and you have the time and money to finish that process, listing the house afterward on the open market may bring you more than a direct sale. We cannot resolve an enforcement case for you, obtain a permit for you before closing, or tell you what the law requires of you. The building department and an Idaho attorney can."
+        ],
+        "claims": [
+          "id-disclosure-sixteen-exemptions"
+        ]
+      }
+    ]
+  }
+}

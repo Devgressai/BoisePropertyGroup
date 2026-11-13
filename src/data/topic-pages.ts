@@ -52,7 +52,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       "A direct sale for an Idaho estate: who can sign, why a court order is usually not needed, and what changes when the house leaves the family. Any condition.",
     published: "2026-11-12",
     updated: "2026-11-12",
-    guides: ["selling-an-inherited-house-in-idaho", "selling-a-house-in-probate-in-idaho"],
+    guides: ["selling-an-inherited-house-in-idaho", "selling-a-house-in-probate-in-idaho", "inheriting-a-house-with-a-mortgage-in-idaho", "reverse-mortgage-after-the-borrower-dies-in-idaho"],
     intro: [
       "Yes — we buy inherited houses across Ada County, in whatever condition the estate finds them, and whoever is selling sets the closing date. The first question is not the price but who has authority to sign. In Idaho that is usually an appointed personal representative, and usually without a court order, unless the will or a formal proceeding says otherwise.",
       NOT_ADVICE,
@@ -123,7 +123,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       "We buy Ada County houses as they stand — no repairs, no staging. What Idaho still requires of an as-is seller, and how condition is priced.",
     published: "2026-11-12",
     updated: "2026-11-12",
-    guides: ["idaho-seller-disclosure-when-selling-as-is"],
+    guides: ["idaho-seller-disclosure-when-selling-as-is", "selling-a-house-with-unpermitted-work-in-ada-county"],
     intro: [
       "You can sell a house as-is in Idaho, and we buy Ada County houses in any condition without asking for a single repair. What as-is does not do is switch off Idaho's disclosure law: a seller of one-to-four unit residential property still owes the property condition disclosure form unless the transfer is one of the statutory exemptions.",
       NOT_ADVICE,
@@ -268,7 +268,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       "Behind on payments in Ada County? How Idaho's trustee-sale clock works, what a sale before the date can and cannot do, and what we can honestly offer.",
     published: "2026-11-12",
     updated: "2026-11-13",
-    guides: ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency"],
+    guides: ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "bankruptcy-and-foreclosure-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency"],
     intro: [
       "If an Ada County house is heading toward a trustee's sale, selling it before the sale date is one option the owner still has — and if the property is worth more than what is owed, it is the option that can leave the difference with the owner rather than at the auction. Idaho requires notice of a trustee's sale at least 120 days before the sale, so the clock is real but not instant.",
       NOT_ADVICE,
@@ -719,7 +719,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       "When selling to a direct buyer makes sense in Ada County, when listing nets more, and what is the same either way under Idaho law.",
     published: "2026-11-12",
     updated: "2026-11-12",
-    guides: ["idaho-seller-disclosure-when-selling-as-is", "how-a-property-sale-closes-in-idaho"],
+    guides: ["idaho-seller-disclosure-when-selling-as-is", "how-a-property-sale-closes-in-idaho", "taxes-when-you-sell-a-house-in-idaho"],
     intro: [
       "Listing usually gets the highest price; a direct sale usually gets the most certainty. If the house is in good shape, financeable and you have a few months, list it. If it needs work, carries a complication, or the date matters more than the last dollar, a direct sale is worth pricing — and either way, Idaho's disclosure rules apply.",
       NOT_ADVICE,
@@ -1011,7 +1011,7 @@ export const TOPIC_PAGES: TopicPage[] = [
     "description": "When selling an Idaho house before a trustee's sale works, when curing the default is the better route, and when a sale needs the lender's agreement.",
     "published": "2026-11-13",
     "updated": "2026-11-13",
-    "guides": ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency"],
+    "guides": ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "bankruptcy-and-foreclosure-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency"],
     "intro": [
       "Selling works when the sale will pay the loan in full and can close before the trustee's sale. Keeping the house works when you can pay the amount Idaho Code 45-1506(12) requires to cure the default, or when your servicer approves a plan you can afford. If you owe more than the house will sell for, a sale needs the lender's agreement, and that is a short sale.",
       "This page describes what Idaho statutes, federal mortgage rules and federal consumer pages say. It is not legal or tax advice and it is not applied to your situation. We cannot stop a foreclosure or negotiate with a lender. An Idaho attorney or a HUD-approved housing counselor should look at your notices and your loan before you decide."

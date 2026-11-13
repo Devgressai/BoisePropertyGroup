@@ -1,0 +1,2582 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<!-- Google Tag Manager for GA4 -->
+				<script>(function(w,d,s,l,i){w.GAMeasurementID='G-1NN3GEL9S3';w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,'script','cpDataLayerGA4','GTM-K73C5PS');</script>
+				<!-- End Google Tag Manager for GA4 -->
+				<script type='text/javascript'>
+					var enableTelemetry = 'false'
+					var aiConfig = {
+					instrumentationKey: '1cde048e-3185-4906-aa46-c92a7312b60f'						
+					}
+					var appInsights = window.appInsights || function (a) { function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement('script'); b.src = a.url || 'https://js.monitor.azure.com/scripts/a/ai.0.js', d.getElementsByTagName('script')[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Dependency']; f.length;)b('track' + f.pop()); if (b('setAuthenticatedUserContext'), b('clearAuthenticatedUserContext'), b('startTrackEvent'), b('stopTrackEvent'), b('startTrackPage'), b('stopTrackPage'), b('flush'), !a.disableExceptionTracking) { f = 'onerror', b('_' + f); var g = e[f]; e[f] = function (a, b, d, e, h) { var i = g && g(a, b, d, e, h); return !0 !== i && c['_' + f](a, b, d, e, h), i } } return c }(aiConfig);
+					window.appInsights = appInsights, appInsights.queue && 0 === appInsights.queue.length;
+					// Add telemetry initializer
+					appInsights.queue.push(function() {
+						appInsights.context.addTelemetryInitializer(function(envelope) {
+							var telemetryItem = envelope.data.baseData;
+							// To check the telemetry item’s type:
+							if (!false)
+							{
+								//If the telemetry is not enabled, we still want to capture Google map custom event, so only allow that
+								if (envelope.name.indexOf('.Event') == -1)
+									return false;
+							}
+						});
+					});						
+					appInsights.trackPageView();
+				</script>
+	<script>
+		function populateAntiForgery(token) {
+			var input = document.createElement("input");
+			input.name = "__RequestVerificationToken";
+			input.type = "hidden";
+			input.value = token;
+			var absPat = /^https?:\/\/|^\/\//i;
+			var forms = document.getElementsByTagName("form");
+			for (var i = 0; i < forms.length; i++) {
+				if (forms[i].method == "post" &&
+					!forms[i].querySelector('[name="__RequestVerificationToken"]') &&
+					!absPat.test(forms[i].getAttribute("action"))) {
+					forms[i].appendChild(input.cloneNode());
+				}
+			}
+		}
+
+		function getAntiForgeryToken(callback, error) {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "/antiforgery");
+			xhr.addEventListener("load", function() {
+				try {
+					if (this.status !== 200) {
+						throw Error("Invalid status. Could not retrieve antiforgery token.");
+					}
+					var obj = JSON.parse(this.responseText);
+					callback(obj.token);
+				} catch (e) {
+					typeof error === "function" && error(e);
+				}
+			});
+			xhr.send();
+		}
+
+		getAntiForgeryToken(function(token) {
+			if (document.readyState === "complete"
+				|| document.readyState === "loaded" 
+				|| document.readyState === "interactive") {
+				populateAntiForgery(token);
+				return;
+			}
+			document.addEventListener("DOMContentLoaded", function() {
+				populateAntiForgery(token);
+			}, false);
+		}, console.error);
+	</script>
+			
+
+	<script type="text/javascript">
+		window.departmentHeader = {};
+		window.pageSectionTracker = {};
+		window.isResponsiveEnabled = true;
+		window.isRemoveSetHeights= false;
+		if (window.isRemoveSetHeights) {
+			document.documentElement.className += ' removeSetHeights';
+		}
+		window.mainMenuMediaQuery = 'screen and (max-width: 40em)';
+		window.isMobileBrowserIncludingTablets = false;
+		window.fixedResponsiveMenu = false;
+		window.fullWidthResponsiveMenu = false;
+		window.responsiveMenuHeight = '';
+		window.responsiveMenuFontSize = '';
+		window.isContentAdvisor = false;
+		(function () {
+			window.setSizeCookie = function () {
+				document.cookie = "dpi=" + window.devicePixelRatio + "; path=/";
+				document.cookie = "viewportWidth=" + window.innerWidth + "; path=/";
+				document.cookie = "viewportHeight=" + window.innerHeight + "; path=/";
+				if (screen && screen.width && screen.height) {
+					document.cookie = "screenWidth=" + screen.width + "; path=/";
+					document.cookie = "screenHeight=" + screen.height + "; path=/";
+				}
+				document.cookie = "responsiveGhost=1; path=/";
+			};
+
+			setSizeCookie();
+		}());
+	</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script async src="https://docaccess.com/docbox.js"></script>
+	
+	<meta name="category0" content="Home" />
+<meta name="category1" content="Government" />
+<meta name="category2" content="Departments" />
+<meta name="category3" content="Eagle Museum of History and Preservation" />
+<meta name="category4" content="Oral History" />
+<meta name="category5" content="Nancy Merrill Interview" />
+
+	
+	<meta name="theme-color" content="#4a815a">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+		<title>Nancy Merrill Interview | Eagle, ID</title>
+
+		<meta name="description" content="Listen to an interview with Mayor Nancy Merrill">
+			<script src="/Assets/Scripts/jQuery/jquery-3.7.1.min.js"></script>
+	<script src="/Assets/Scripts/jQuery/jquery-migrate-3.6.0.min.js" type="text/javascript"></script>
+	
+
+	<!--[if IE 6]><script language="JavaScript" type="text/javascript"> var isie6 = true; </script><![endif]-->
+	<!--[if IE 7]><script language="JavaScript" type="text/javascript"> var isie7 = true; </script><![endif]-->
+	<!--[if IE 8]><script language="JavaScript" type="text/javascript"> var isie8 = true; </script><![endif]-->
+	<!--[if IE 9]><script language="JavaScript" type="text/javascript"> var isie8 = true; </script><![endif]-->
+	<script type="text/javascript"><!--
+	var intCountryCode = 840;
+	var order = '';
+//--></script>
+	
+	<link href="/-2140275272.css" rel="stylesheet" type="text/css" />	<link href="/305109803.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" type="text/css" href="/Assets/Styles/Print.css" media="print">
+	<script type="text/javascript">
+		window.Pages = window.Pages || {};
+		// FrontEnd RWD initialization
+		window.Pages.rwdReady = $.Deferred();
+		window.Pages.toolBarDeferred = $.Deferred();
+		window.Pages.rwdSetupComplete = $.Deferred();
+		window.Pages.megaMenuLoaded = $.Deferred();
+		window.Pages.angularToolbarComplete = $.Deferred();
+		window.Pages.frontEndToolbarComplete = $.Deferred();
+	</script>
+	<!--CPHeadContent-->
+	<script src="/739942322.js" type="text/javascript"></script>
+	
+	
+	
+	
+
+
+
+
+	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/App_Themes/ie8.css"><![endif]-->
+	<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/App_Themes/ie7.css"><![endif]-->
+	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/App_Themes/ie6.css"><![endif]-->
+	<!--[if lt IE 9]><script type="text/javascript" src="/Scripts/html5.js"></script><![endif]-->
+
+	<script type="text/javascript">
+		setEditorVariables(false, 840);
+		function getPrintPreviewType() { return 0; } function printPreview() {pPreview(getPrintPreviewType()); }
+	</script>
+	<script src="/Assets/Scripts/AlpineJS/3.14.1/alpine.min.js" type="text/javascript" defer="defer"></script>
+</head>
+<body class="wide " >
+
+    <script>jQuery(document).click(function (event) {
+	var target = jQuery(event.target);
+	if (target.attr('src') && target.parents('.image').length && target.parents('.widget').length) {
+		var text = target.attr('title');
+		
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Image',
+				eventAction: 'Image - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.is('button') || target.hasClass('button') || target.parents().hasClass('button')) {
+		var text = "";
+		if (target.parents('.button')[0]) {
+			text = target.parents('.button').first().text();
+		} else if (target.text().length) {
+			text = target.text();
+		} else if (target.attr('title').length) {
+			text = target.attr('title');
+		}
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Button',
+				eventAction: 'Button - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetCustomHtml').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Custom Html',
+				eventAction: 'Custom Html Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.editor').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Editor',
+				eventAction: 'Editor Link Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.GraphicLinks').length) {
+		var text = "";
+		var targetGraphicLink = target;
+		if (target.hasClass('widgetGraphicLinksLink')) {
+			targetGraphicLink = jQuery(target.children()[0]);
+		}
+		if (targetGraphicLink.hasClass('text')) {
+			text = targetGraphicLink.text();
+		} else if (targetGraphicLink.attr('src').length) {
+			if (targetGraphicLink.attr('alt').length) {
+				text = targetGraphicLink.attr('alt');
+			} else {
+				text = targetGraphicLink.attr('src');
+			}
+		} else {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Graphic Links',
+				eventAction: 'Graphic Link - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.InfoAdvanced').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Info Advanced',
+				eventAction: 'Info Advanced Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.list').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'List',
+				eventAction: 'List Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.megaMenuItem').length || target.parents('.topMenuItem').length) {
+		var megaMenuText = jQuery('.topMenuItem.mouseover').find('span').text();
+		var breadCrumbs = [];
+		jQuery('.breadCrumbs > li').each(function () {
+			 breadCrumbs.push(this.textContent);
+		});
+		var pageTitle = breadCrumbs.join('>');
+		var subTitleText = target.parents('.megaMenuItem').children('.widgetTitle').children().text();
+		var text = "";
+		if (pageTitle) {
+			text += pageTitle + " | ";
+		} else {
+			text += document.title + ' - ';
+		}
+		if (target.text() == "" && megaMenuText == "") {
+			text += "N/A";
+		} else if (target.text().length && megaMenuText.length) {
+			if (megaMenuText == target.text()) {
+				text += megaMenuText;
+			} else {
+				text += megaMenuText + " - " + subTitleText + " - " + target.text();
+			}
+		} else if (target.text() == "") {
+			text += megaMenuText;
+		} else {
+			text += target.text();
+		}
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Mega Menu',
+				eventAction: 'Mega Menu : ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetNewsFlash').length && target.parents('.widgetItem').length) {
+		var text = jQuery(target.parents('.widgetItem')[0]).find('.widgetTitle').children().text();
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'News Flash',
+				eventAction: 'News Flash - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.hasClass('widgetQuickLinksLink') || target.find('.widgetQuickLinksLink').length) {
+		var text = target.text();
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Quick Links',
+				eventAction: 'Quick Links - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.attr('src') && target.parents('.cpSlideshow').length) {
+		var text = target.attr('title');
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Slideshow',
+				eventAction: 'Slideshow - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetText').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Text',
+				eventAction: 'Text Link Clicked',
+				eventLabel: window.location.href
+			});
+	}
+});</script>
+	<div id="popoverModal" class="cp-PopOver cp-PopOver--modal cp-AdminWrap" style="position: fixed; display: none;">
+	<div class="cp-PopOver-header">
+		<h3 class="cp-PopOver-title"></h3>
+		<button class="cp-Btn cp-PopOver-close" onclick="closePopOverModal(event)">
+			<svg class="cp-Icon--close" alt="close" title="close">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#iconClose"></use>
+			</svg>
+		</button>
+	</div>
+	<div id="cpPopOverBody" class="cp-PopOver-body">
+		<form id="cpPopOverForm" name="cpPopOverForm" novalidate></form>
+	</div>
+	<div id="cpPopOverFooter" class="cp-PopOver-footer">
+		<div class="cp-BtnGroup" id="actionButtons">
+			<!-- Action buttons will be dynamically added here -->
+		</div>
+	</div>
+</div>
+    <div id="fb-root"></div>
+<div id=skipToContentLinks>
+<a href="#cc0ae109a5-1e94-4a37-9ce7-94a48aa0b1b6" target="_self" class="skipToContentLink">Skip to Main Content</a>
+</div>
+    <form id="frmReferenceFormForTelerikEditorDialogs"></form>
+
+        <input type="hidden" id="GoogleMapsKey" value="AIzaSyDWUuE-ifkbhxblF920N8MjpBdTg1Wt784" />
+
+
+
+    <input type="hidden" id="cpcDomain" value="https://cp-civicplusuniversity2.civicplus.com">
+    <input type="hidden" id="hdnStructureID" value="7" />
+    <input type="hidden" id="hdnContentCollectionID" value="38d77476-7b08-4fbe-9f77-cae5db69353e" />
+    <input type="hidden" id="hdnWorkingCopyID" value="8689610f-4dad-49e0-878d-f471ba4fb5ca" />
+    <input type="hidden" id="hdnThemeID" value="18" />
+    <input type="hidden" id="pageIsFrontEnd" value="true" />
+    <input type="hidden" id="pageModuleID" />
+    <input type="hidden" id="pagePageID" value="171" />
+
+    <div id="stickyPlaceholder"></div>
+    <div id="outer-wrap" class="outer-wrap">
+        <div id="inner-wrap" class="inner-wrap">
+                <div id="divToolbars" class="cpToolbars newCP mui-fixed" style="">
+                    
+
+
+
+<!-- Begin Signed Out Bar -->
+<div class="cpToolbar user public">
+    <div class="inner selfClear">
+        <p class="dropdown"><a href="/MyAccount/ProfileCreate" class="myConnections" id="signedOutToolbarCreateProfileButton">Create a Website Account</a> <span class="welcomeMessage">- Manage notification subscriptions, save form progress and more. &nbsp;&nbsp;</span></p>
+        <ul class="nav secondary">
+	        <li><a href="/MyAccount" class="button" id="loggedOutToolbarSignInButton">Website Sign In</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#signedOutToolbarCreateProfileButton').click(function (event) {
+            event.preventDefault();
+            window.location.href = '/MyAccount/ProfileCreate?from=url&url=/&dn=' + window.location.origin;
+        });
+
+			
+				$('#loggedOutToolbarSignInButton').click(function (event) {
+					event.preventDefault();
+					window.location.href = '/MyAccount/?from=url&url=' + encodeURIComponent(window.location.href.replace(window.location.origin, '')) + '&dn=' + window.location.host;
+				});
+			
+
+		if ('False' == 'True') {
+            $('#loggedOutToolbarSignInButton').hide();
+		}
+    })
+</script>
+<!-- End Signed Out Bar -->
+
+                </div>
+            <div id="bodyWrapper">
+                <div id="mainNavHolderMobile" class="mainNavHolderMobile"></div>
+                
+<div data-cpRole="structuralContainer" id="bodyContainerTS">
+<!-- Header Container --><header data-cpRole="structuralContainer" id="headerContainerTS" class="fixedTopTS">
+<div class="siteWrap"><div data-cpRole="banner" id="bannerLogoTS" class="bannerLogoTS empty">
+
+
+
+
+				<a id="bannerLogoTS-55" style="			display: block; text-align: center;
+" class="bannerObject" href="/" target="_self"><img alt="Home page" class="bannerObject" height="113" src="/ImageRepository/Document?documentID=5781" width="296" /></a>
+</div><div data-cpRole="contentContainer" id="searchTS">	<div id="cc3b500e49-adea-4075-8384-5995e4965e38" data-containerid="3b500e49-adea-4075-8384-5995e4965e38" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="9c715741-c6bd-44ff-af9e-c3e37f482d31">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last id599dbb69-09a2-46c2-9b97-4cc970ccf8ab" style="" data-widgetcontainerid="599dbb69-09a2-46c2-9b97-4cc970ccf8ab">	
+<div data-widget-id="b260bab6-3d30-41f0-87e2-59eff599d5fa" data-widget-controller-path="/Layout/WidgetSearch">
+	
+	<script defer type="text/javascript" src="/Common/Controls/jquery-ui-1.14.2/jquery-ui.min.js"></script>
+	<script defer src="/Areas/Layout/Assets/Scripts/Search.js" type="text/javascript"></script>
+	<script defer type="text/javascript">
+
+		$(document).ready(function () {
+			try {
+				// Minimum characters required before performing a search/autocomplete
+				var minPrefixLength = 3;
+				var autoCompleteDebounceDelay = 500;
+				var searchFieldSelector = "#searchField" + 'b260bab6-3d30-41f0-87e2-59eff599d5fa';
+				var checkboxSelector = "#ysnSearchOnlyDept" + 'b260bab6-3d30-41f0-87e2-59eff599d5fa';
+				var buttonSelector = ".widgetSearchButton" + 'b260bab6-3d30-41f0-87e2-59eff599d5fa';
+				var autoCompleteCache = {};
+				var autoCompleteCacheKeys = [];
+				var autoCompleteCacheLimit = 25;
+				var currentAutoCompleteRequest = null;
+				var currentAutoCompleteRequestKey = null;
+				var autoCompleteDebounceTimer = null;
+				var autoCompleteDebounceKey = null;
+				var pendingAutoCompleteResponses = [];
+
+				function normalizeAutoCompleteTerm(term) {
+					return $.trim((term || "") + "").replace(/\s+/g, " ");
+				}
+
+				function shouldSearch(term) {
+					return normalizeAutoCompleteTerm(term).length >= minPrefixLength;
+				}
+
+				function getAutoCompleteUrl() {
+					return '/Search/AutoComplete' + ($(checkboxSelector).is(':checked') || false? '?departmentId=0' : '');
+				}
+
+				function getAutoCompleteCacheKey(requestUrl, term) {
+					return requestUrl + "|" + term.toLowerCase();
+				}
+
+				function cacheAutoCompleteResult(cacheKey, data) {
+					if (!Object.prototype.hasOwnProperty.call(autoCompleteCache, cacheKey)) {
+						autoCompleteCacheKeys.push(cacheKey);
+						if (autoCompleteCacheKeys.length > autoCompleteCacheLimit) {
+							delete autoCompleteCache[autoCompleteCacheKeys.shift()];
+						}
+					}
+					autoCompleteCache[cacheKey] = data;
+				}
+
+				function respondToPendingAutoComplete(data) {
+					var responses = pendingAutoCompleteResponses;
+					pendingAutoCompleteResponses = [];
+					for (var i = 0; i < responses.length; i++) {
+						responses[i](data);
+					}
+				}
+
+				function cancelPendingAutoComplete() {
+					clearTimeout(autoCompleteDebounceTimer);
+					autoCompleteDebounceKey = null;
+					if (currentAutoCompleteRequest != null) {
+						currentAutoCompleteRequest.abort();
+						currentAutoCompleteRequest = null;
+					}
+					currentAutoCompleteRequestKey = null;
+					respondToPendingAutoComplete([]);
+				}
+
+				function createWidgetAutoCompleteSource(options) {
+					return function (request, response) {
+						var term = normalizeAutoCompleteTerm(request.term);
+						if (!options.shouldSearch(term)) {
+							response([]);
+							return;
+						}
+
+						var requestUrl = options.url();
+						var cacheKey = getAutoCompleteCacheKey(requestUrl, term);
+						if (Object.prototype.hasOwnProperty.call(autoCompleteCache, cacheKey)) {
+							response(autoCompleteCache[cacheKey]);
+							if (options.success) {
+								options.success(autoCompleteCache[cacheKey]);
+							}
+							return;
+						}
+
+						if (currentAutoCompleteRequestKey === cacheKey || autoCompleteDebounceKey === cacheKey) {
+							pendingAutoCompleteResponses.push(response);
+							return;
+						}
+
+						cancelPendingAutoComplete();
+						autoCompleteDebounceKey = cacheKey;
+						pendingAutoCompleteResponses.push(response);
+						autoCompleteDebounceTimer = setTimeout(function () {
+							autoCompleteDebounceKey = null;
+							currentAutoCompleteRequestKey = cacheKey;
+							currentAutoCompleteRequest = $.ajax({
+								url: requestUrl,
+								dataType: "json",
+								timeout: options.timeout,
+								data: {
+									term: term,
+								},
+								success: function (data) {
+									if (currentAutoCompleteRequestKey === cacheKey) {
+										cacheAutoCompleteResult(cacheKey, data);
+										respondToPendingAutoComplete(data);
+										if (options.success) {
+											options.success(data);
+										}
+									}
+								},
+								error: function (xmlhttprequest, textstatus, message) {
+									if (textstatus === "abort") {
+										return;
+									}
+
+									if (options.error) {
+										options.error(xmlhttprequest, textstatus, message);
+									}
+
+									respondToPendingAutoComplete([]);
+								},
+								complete: function (xmlhttprequest) {
+									if (currentAutoCompleteRequest === xmlhttprequest) {
+										currentAutoCompleteRequest = null;
+										currentAutoCompleteRequestKey = null;
+									}
+								}
+							});
+						}, options.delay);
+					};
+				}
+
+				// click handler for search buttons
+				$(buttonSelector).click(function (e) {
+					e.preventDefault();
+					var $btn = $(this);
+					var $field = $btn.siblings(".widgetSearchBox");
+					var term = $field.val() + "";
+					if (!shouldSearch(term)) {
+						// do nothing until user types enough characters
+						$field.focus();
+						return;
+					}
+
+					if ($(checkboxSelector).is(':checked') || false)
+					{
+						doWidgetSearch($.trim(term), Number(0));
+					}
+					else {
+						doWidgetSearch($.trim(term), 0);
+					}
+				});
+
+				// enter key handler for the search field
+				$(searchFieldSelector).keypress(function (e) {
+					var code = e.which || e.keyCode;
+					if (code === 13) {
+						e.preventDefault();
+						var $this = $(this);
+						var term = $this.val() + "";
+						if (!shouldSearch(term)) {
+							// do nothing until user types enough characters
+							$this.focus();
+							return false;
+						}
+
+						if ($(checkboxSelector).is(':checked') || false) {
+							doWidgetSearch($.trim(term), Number(0));
+						} else {
+							doWidgetSearch($.trim(term), 0);
+						}
+						return false;
+					}
+					return true;
+				});
+
+				// autocomplete: set minLength and guard source
+				if (true) {
+					var $searchField = $(searchFieldSelector).autocomplete({
+						minLength: minPrefixLength,
+						source: createWidgetAutoCompleteSource({
+							delay: autoCompleteDebounceDelay,
+							timeout: 10000,
+							shouldSearch: shouldSearch,
+							url: getAutoCompleteUrl,
+							success: function () {
+								$('.autoCompleteError').remove();
+							},
+							error: function (xmlhttprequest, textstatus, message) {
+								if (textstatus === "timeout") {
+									if ($(searchFieldSelector).siblings('.autoCompleteError').length == 0)
+										$('<span class="autoCompleteError"><p class="alert error">Search autocomplete is currently not responding. Please try again later.</p></span>').insertAfter($(searchFieldSelector));
+								}
+							}
+						}),
+						html: true,
+						delay: 0,
+						select: function (event, ui) {
+							$(this).val(ui.item.value);
+							$(this).next().click();
+						}
+					});
+
+					$searchField.data("ui-autocomplete")._renderItem = function (ul, item) {
+						return $("<li class=\"itemList\"></li>")
+							.data("ui-autocomplete-item", item)
+							.append("<a>" + item.label + "</a>")
+							.appendTo(ul);
+					};
+				}
+
+				// keep searchBtnApplyQuery consistent with prefix rule
+				window.searchBtnApplyQuery = function() {
+					var $field = $(searchFieldSelector);
+					var term = $field.val() + "";
+					if (shouldSearch(term)) {
+						// update href for the icon/button (if present)
+						var btn = document.getElementById("btnSearchIcon");
+						if (btn) btn.href = "/Search?searchPhrase=" + encodeURIComponent($.trim(term));
+					} else {
+						var btn = document.getElementById("btnSearchIcon");
+						if (btn) btn.href = "#";
+					}
+				};
+			}
+			catch(e) {} //we're going to eat this error. Autocomplete won't work but we dont wan't to break anything else on the page.
+		});
+	</script>
+
+	<section id="widgetPreviewSearch" class="widget widgetSearch skin62 widgetOptionSet35" style="display: block;" aria-label="Search">
+				<!-- For the button right and inside -->
+		<div class="widgetBody buttonRightInside">
+			<input class="widgetSearchBox widgetSearchBoxb260bab6-3d30-41f0-87e2-59eff599d5fa" cp5ph="true" id="searchFieldb260bab6-3d30-41f0-87e2-59eff599d5fa" name="searchField" onchange="searchBtnApplyQuery();" placeholder="Search..." type="text" value="" />
+						<a href="/Search/Results" id="btnSearchIcon" class="widgetSearchButton widgetSearchButtonb260bab6-3d30-41f0-87e2-59eff599d5fa" role="button"><img alt="Go to Site Search" class="imageHover" data-hover="/ImageRepository/Document?documentID=5785" data-image="/ImageRepository/Document?documentID=5786" src="/ImageRepository/Document?documentID=5786" /></a>
+
+			<label class="searchLabel" aria-hidden="true" for="searchFieldb260bab6-3d30-41f0-87e2-59eff599d5fa">Search</label>
+		</div>
+
+	</section>
+
+
+<style scoped>
+	  
+		.widgetSearch ::-webkit-input-placeholder {
+		color: #555555;
+	  }
+		.widgetSearch :-moz-placeholder { /* Firefox 18- */
+	   color: #555555;
+	}
+		.widgetSearch ::-moz-placeholder {  /* Firefox 19+ */
+	   color: #555555;
+	}
+	.widgetSearch :-ms-input-placeholder {
+	   color: #555555;
+	}
+	
+
+	.widgetSearch .widgetBody .widgetSearchBoxb260bab6-3d30-41f0-87e2-59eff599d5fa
+	{
+		color: #555555;
+		background: #fff; border: 0; border-left: 1px solid #AACC6A; height: 82px; padding: 0 90px 0 20px; font-family: Lato; font-style: italic; font-size: 1.2em;
+	}
+	.widgetSearch .widgetBody .widgetSearchButtonb260bab6-3d30-41f0-87e2-59eff599d5fa
+	{
+		margin: 11px 11px 0 0;
+	}
+	.widgetSearch .widgetSearch-onlyDeptb260bab6-3d30-41f0-87e2-59eff599d5fa
+	{
+		display: inline-block;
+		color: #333;
+		
+		
+		 padding-top: 10px;
+	}
+	#ysnSearchOnlyDeptb260bab6-3d30-41f0-87e2-59eff599d5fa
+	{
+		position: relative;
+		top: .125em;
+	}
+
+</style>
+
+<link rel="stylesheet" href="/Common/Controls/jquery-ui-1.14.2/jquery-ui.min.css">
+<link rel="stylesheet" href="/Common/Controls/jquery-ui-1.14.2/jquery-ui.theme.min.css">
+
+
+
+<script type="text/javascript">
+	//Updates search icons href to have the correct queryString
+	function searchBtnApplyQuery() {
+		document.getElementById("btnSearchIcon").href = "/Search?searchPhrase=" + document.getElementById("searchFieldb260bab6-3d30-41f0-87e2-59eff599d5fa").value;
+	}
+</script>
+
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div><nav data-cpRole="nav" id="mainNav" class="siteNav mainNav" role="navigation">
+<ol id="mainNavMenu" data-parent="1" class="rootNavMenu" role="menu"><!--
+--><li id="MainItem27" class="topMenuItem" role="none" data-pageid="27" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu27" id = "mainNavGovernment" class="navMainItem mainNavItem mainNavItem1 " href="/27/Government" target = "_self" >   Government  </a>			<!--
+			--><!--
+			--></li><!----><li id="MainItem31" class="topMenuItem" role="none" data-pageid="31" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu31" id = "mainNavLivingHere" class="navMainItem mainNavItem mainNavItem2 " href="/31/Living-Here" target = "_self" >   Living Here  </a>			<!--
+			--><!--
+			--></li><!----><li id="MainItem35" class="topMenuItem" role="none" data-pageid="35" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu35" id = "mainNavDoingBusiness" class="navMainItem mainNavItem mainNavItem3 " href="/35/Doing-Business" target = "_self" >   Doing Business  </a>			<!--
+			--><!--
+			--></li><!----><li id="MainItem9" class="topMenuItem" role="none" data-pageid="9" data-displaymegamenu="True"><!--
+			--><!--
+			--> <a role = "menuitem"  aria-haspopup=true aria-expanded='false' aria-controls="mainNavMegaMenu9" id = "mainNavHowDoI" class="navMainItem mainNavItem mainNavItem4 " href="/9/How-Do-I" target = "_self" >   How Do I...  </a>			<!--
+			--><!--
+			--></li><!---->
+</ol>
+
+
+	<script type="text/javascript">
+		(function () {
+			function setupMenu() {
+				const menuID = 'mainNavMenu';
+				const menuType = MAIN_MENU;
+
+				//setup menu manager properties for main menu
+				if (!menuManager.mobileMainNav && true)
+					menuManager.adjustMainItemsWidth('#' + menuID);
+				menuManager.isMainMenuEditable = false;
+				menuManager.mainMenuMaxSubMenuLevels = 4;
+				menuManager.setMOMMode(2, menuType);
+
+				//Init main menu
+				const setupDraggable = menuManager.isMainMenuEditable;
+				const urlToGetHiddenMenus = '/Pages/MenuMain/HiddenMainSubMenus?pageID=1&moduleID=&themeID=18&menuContainerID=mainNav';
+
+				menuManager.setupMenu(menuID, 'mainNav', menuType, setupDraggable, urlToGetHiddenMenus);
+				menuManager.mainMenuInit = true;
+				menuManager.mainMenuTextResizer = true;
+				if (1.00 > 0)
+					menuManager.mainMenuTextResizerRatio = 1.00;
+				if (window.isResponsiveEnabled)
+					menuManager.mainMenuReady.resolve();
+
+			}
+
+			if (document.readyState === "complete"
+				|| document.readyState === "loaded"
+				|| document.readyState === "interactive") {
+				setupMenu();
+				return;
+			}
+
+			document.addEventListener("DOMContentLoaded", setupMenu);
+		})();
+	</script>
+
+
+<aside data-cpRole="megaMenu" id="megaMenu" class="megaMenu" style="display: none;"><input type="hidden" id="megaMenuPopupDirection" value="0"><input type="hidden" id="megaMenuWidthReference" value="1"><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu27" class="contentTop mainNavMegaMenu megaMenuContainer pageID_27 hidden" data-orientation="horizontal">	<div id="cc463a0ed6-7051-4fd8-a7e6-5b367df3b77a" data-containerid="463a0ed6-7051-4fd8-a7e6-5b367df3b77a" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu31" class="contentTop mainNavMegaMenu megaMenuContainer pageID_31 hidden" data-orientation="horizontal">	<div id="ccb63d9f06-0c70-4ed3-a09b-3f903a4f477a" data-containerid="b63d9f06-0c70-4ed3-a09b-3f903a4f477a" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu35" class="contentTop mainNavMegaMenu megaMenuContainer pageID_35 hidden" data-orientation="horizontal">	<div id="cc9c5373b0-e64e-4f02-a54d-e4b0d1abf495" data-containerid="9c5373b0-e64e-4f02-a54d-e4b0d1abf495" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside><aside role="menu" data-cpRole="contentContainer" id="mainNavMegaMenu9" class="contentTop mainNavMegaMenu megaMenuContainer pageID_9 hidden" data-orientation="horizontal">	<div id="ccb650debd-6e50-46cf-90dd-effc5192f14a" data-containerid="b650debd-6e50-46cf-90dd-effc5192f14a" class="pageContent cpGrid cpGrid24">
+				                
+
+
+
+	</div>
+</aside></aside></nav></div>
+</header><!-- Banner --><div data-cpRole="structuralContainer" id="bannerContainerTS" class="noOverflowTS">
+<div data-cpRole="banner" id="banner1"><div data-cpRole="structuralContainer" id="bannerSizingTS">
+<div data-cpRole="structuralContainer" id="bannerSearchTS">
+<div class="siteWrap"><div data-cpRole="contentContainer" id="welcomeTS">	<div id="ccc54b5779-1a65-43d7-840f-4ef9869c32da" data-containerid="c54b5779-1a65-43d7-840f-4ef9869c32da" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</div></div>
+</div>
+</div>
+
+
+
+
+		<div id="bannerImagesJSON54" class="hidden"></div>
+		<div id="bannerSlideshowControls_banner1" class="bannerSlideshowControlsNew none " style="display:none">
+			<a id="arrowPrev_banner1" tabindex="0" class="arrowNew prev" aria-label="Banner Arrow Previous"><svg style=" " class=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#iconSlideshowArrowLeft"></use></svg></a>
+			<a id="arrowNext_banner1" tabindex="0" class="arrowNew next" aria-label="Banner Arrow Next"><svg style=" " class=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#iconSlideshowArrowRight"></use></svg></a>
+		</div>
+			<script type="text/javascript">
+				$(window).on("load", function () {
+					$.when(window.Pages.rwdSetupComplete)
+						.done(function () {
+							renderExternalBannerSlideshow('banner1',
+								{"BannerOptionID":54,"ThemeID":18,"SlotName":"banner1","Name":"Default","IsDefault":true,"BannerMode":2,"SlideShowSlideTiming":"5","SlideshowTransition":0,"SlideShowTransitionTiming":"1","ImageScale":true,"ImageAlignment":1,"ImageScroll":true,"MuteSound":true,"VideoType":0,"Status":40,"SlideshowControlsPosition":0,"SlideshowControlsAlignment":0,"SlideshowBannerControlsColorScheme":0,"DisplayVideoPauseButton":false,"VideoPauseButtonAlignment":1,"VideoPauseButtonControlsAlignment":0,"VideoPauseButtonStyle":"#FFFFFF","VideoPauseButtonBackgroundStyle":"#000000","VideoPauseButtonAlignmentClass":"alignRight viewport","DisplaySlideshowPauseButton":true,"SlideshowControlsColor":"#FFFFFF","SlideshowControlsBackgroundColor":"#000000","SlideshowPauseButtonClass":"isHidden","BannerImages":[{"BannerImageID":137,"BannerOptionID":54,"FileName":"/ImageRepository/Document?documentID=5783","Height":700,"Width":2200,"StartingOn":null,"StoppingOn":null,"IsLink":false,"LinkAddress":null,"Sequence":1,"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","AltText":""},{"BannerImageID":138,"BannerOptionID":54,"FileName":"/ImageRepository/Document?documentID=5782","Height":700,"Width":2200,"StartingOn":null,"StoppingOn":null,"IsLink":false,"LinkAddress":null,"Sequence":2,"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","AltText":""}],"BannerVideos":[{"BannerVideoID":1,"BannerOptionID":54,"VideoFileName":"","ImageFileName":"EmptyBannerBkg202203151128579266.png","IsLink":false,"LinkAddress":null,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","VideoFileID":"00000000-0000-0000-0000-000000000000","ImageFileID":"00000000-0000-0000-0000-000000000000","VideoWidth":0,"VideoHeight":0,"ImageWidth":0,"ImageHeight":0,"LinkedVideoUrl":"","RecordStatus":0,"AltText":null}],"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/"},
+								'/App_Themes/Interior/Images/',
+								'Rotating');
+						});
+				});
+			</script>
+
+</div>
+</div><!-- Content container --><div data-cpRole="structuralContainer" id="mainContainerTS">
+<div class="siteWrap2"><div data-cpRole="structuralContainer" id="mainWrapTS" class="mainWrap" role="main">
+<div data-cpRole="structuralContainer" id="outerContentWrapTS" class="outerContentWrap">
+<div data-cpRole="structuralContainer" id="contentWrapTS" class="contentWrap">
+<div data-cpRole="breadCrumbs" id="breadCrumbs" class="breadCrumbContainer">		<ol class="semanticList breadCrumbs">
+			<li><a class="breadCrumb" href="/">Home</a></li><li><a class="breadCrumb" href="/27/Government">Government</a></li><li><a class="breadCrumb" href="/149/Departments">Departments</a></li><li><a class="breadCrumb" href="/163/Eagle-Museum-of-History-and-Preservation">Eagle Museum of History and Preservation</a></li><li><a class="breadCrumb" href="/168/Oral-History">Oral History</a></li><li id="currentBCPage" data-pageid="171"><a href class="breadCrumb" aria-current="page">Nancy Merrill Interview</a></li>
+		</ol>
+
+	   
+    
+</div><div data-cpRole="mainContentContainer" id="moduleContent">
+	
+	<div id="page" class="moduleContentNew">
+		
+
+	<input id="hdnPageID" name="hdnPageID" type="hidden" value="171" />
+	<input id="hdnParentID" name="hdnParentID" type="hidden" value="168" />
+	<input id="hdnVersionID" name="hdnVersionID" type="hidden" value="1732" />
+	<input id="pageMenuTitle" name="pageMenuTitle" type="hidden" value="Nancy Merrill Interview" />
+	<input id="pageShowFeatureColumn" name="pageShowFeatureColumn" type="hidden" value="False" />
+	<input id="hdnIsLayoutPage" name="hdnIsLayoutPage" type="hidden" value="False" />
+	<input id="hdnPageStatus" name="hdnPageStatus" type="hidden" value="Published" />
+
+				<h1 id="versionHeadLine" class="headline">
+
+Nancy Merrill Interview		</h1>
+	
+		<div id="cc0ae109a5-1e94-4a37-9ce7-94a48aa0b1b6" data-containerid="0ae109a5-1e94-4a37-9ce7-94a48aa0b1b6" class="pageContent cpGrid cpGrid24"  data-contentcontainerbreakpoint="30" >
+			
+
+		<div class="row outer wide"><!--
+--><div class="outer col col12 first" style="" data-widgetcontainerid="b4804045-1b46-494b-8a1a-5b817ac58b41">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col12 first last ida57a9969-641f-4b5a-b5a7-1cbef65111b8" style="" data-widgetcontainerid="a57a9969-641f-4b5a-b5a7-1cbef65111b8">	
+<div class="widget editor pageStyles narrow" id="divEditor8ab68ab5-125e-4912-80c4-8678fe08ad82" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}'>
+	    <div class="fr-view">
+
+
+        <h2 class="subhead1 "><img class="fr-fil fr-draggable fr-dii" src="/ImageRepository/Document?documentId=117" alt="Mayor Nancy Merrill">Interview Details</h2><ul><li>Interviewee: Merrill, Nancy &nbsp;</li><li>Interviewer: Arthur Hart &nbsp;&nbsp;</li><li>Date: October 17, 2006</li><li>Location: Eagle, Idaho</li><li>Project: History of Eagle</li></ul>
+    </div>
+
+<script type="text/javascript">
+	$(document).ready(function (e) {		
+	    renderSlideshowIfApplicable($('#divEditor' + '8ab68ab5-125e-4912-80c4-8678fe08ad82'));
+	});
+</script>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col12 last" style="" data-widgetcontainerid="d1cffdbf-0d72-4bc8-bf4c-b9a89b06da89">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col12 first last idd0d14c26-ef05-447f-9b4d-f27bfe927099" style="" data-widgetcontainerid="d0d14c26-ef05-447f-9b4d-f27bfe927099">	
+<div class="widget editor pageStyles narrow" id="divEditorb7135a45-9f6a-4d50-aad6-cc8e980b8409" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}'>
+	    <div class="fr-view">
+
+
+        <p>interview</p><p><br></p><audio controls="" preload="metadata"><source src="https://www.cityofeagle.org/DocumentCenter/View/124/Nancy-Merrill-Interview-MP3" type="audio/mpeg">&nbsp;
+<source src="https://www.cityofeagle.org/DocumentCenter/View/124/Nancy-Merrill-Interview-MP3" type="audio/ogg"><p><a href="https://www.cityofeagle.org/DocumentCenter/View/124/Nancy-Merrill-Interview-MP3" download="">Download the MP3 file</a> instead.</p></audio>
+    </div>
+
+<script type="text/javascript">
+	$(document).ready(function (e) {		
+	    renderSlideshowIfApplicable($('#divEditor' + 'b7135a45-9f6a-4d50-aad6-cc8e980b8409'));
+	});
+</script>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="c87d0245-ae26-44be-9c06-8ec03b5332a5">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last id97186b64-341c-4997-bc5b-bd16ac43a421" style="" data-widgetcontainerid="97186b64-341c-4997-bc5b-bd16ac43a421">	
+<div class="widget editor pageStyles narrow" id="divEditor79b3ec33-9b44-4e78-a3f3-3e6427ad621b" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}'>
+	    <div class="fr-view">
+
+
+        <h2 class="subhead1 ">Related Documents</h2><ul><li><a aria-label="Interview Audio (MP3) Opens in new window" href="/DocumentCenter/View/124/Nancy-Merrill-Interview-MP3" rel="noopener noreferrer" target="_blank">Interview Audio (MP3)</a></li><li><a aria-label="Transcript (PDF) Opens in new window" href="/DocumentCenter/View/126/Nancy-Merrill-Interview-Transcript-PDF" rel="noopener noreferrer" target="_blank">Transcript (PDF)</a></li></ul><h2 class="subhead1 ">Transcript of Interview</h2><p>AH: &nbsp; &nbsp; Mayor Merrill, has a nice ring to it, doesn&rsquo;t it? Let&rsquo;s start out with a little biographical information. Where were you born?</p><p>NM: &nbsp; &nbsp; I was born in Pocatello, Idaho. My parents were going to school there.</p><p>AH: &nbsp; &nbsp; Just like Judy Garland, right? Only you weren&rsquo;t born in a trunk.</p><p>NM: &nbsp; &nbsp; Exactly right.</p><p>AH: &nbsp; &nbsp; And there&rsquo;s no Princess Theater in Pocatello, nor ever has been. Pocatello has a nice sound to it. I suppose that&rsquo;s why they used it. Do you mind saying what year you were born?</p><p>NM: &nbsp; &nbsp; I was born in 1947.</p><p>AH: &nbsp; &nbsp; You&rsquo;re the same age as my oldest daughter.</p><p>NM: &nbsp; &nbsp; The years go by faster every day.</p><p>AH: &nbsp; &nbsp; Did you live in Pocatello, then, for a long time?</p><p>NM: &nbsp; &nbsp; No, I think we only lived there for a couple of years and then my parents moved back to Emmett, where my Dad was born. They did some businesses there, one of them was a SpudNut Shop &ndash; those were wonderful. Then he began to work at the U. S. Post Office. And my mother was a nurse and my father was a postal officer.</p><p>AH: &nbsp; &nbsp; What was your father&rsquo;s name?</p><p>NM: &nbsp; &nbsp; Joseph G. Cheney. C-H-E-N-E-Y. My mother&rsquo;s name was Zola Hites, H-I-T-E-S. My Dad was one of eight children, his father passed away when he was two and his mother raised all eight children in the Emmett Valley. My mother was born and raised in Arizona, the Phoenix, Arizona, area. They met when my dad was in the service, and married, and moved out west.</p><p>AH: &nbsp; &nbsp; Is your family L.D.S.?</p><p>NM: &nbsp; &nbsp; My family is L.D.S., that&rsquo;s L.D.S. background.</p><p>AH: &nbsp; &nbsp; I know the older Mrs. Merrill is, and her husband was. She told me the, someways sad, story of her life. They both lost their mates, very close to the same time.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Now what did your father do for a living in Emmett? You said it&hellip;</p><p>NM: &nbsp; &nbsp; Well, they just &hellip;I think they did a myriad of things. They worked in the fruit orchards. They had a small little business of a SpudNut Shop, but they actually gave away too many doughnuts to the family so the business didn&rsquo;t survive very well. And then he began working for the U.S. Postal Office, and they moved over here to Boise. So from that, my Dad stayed with the Postal Service and worked in that until he retired at the age of 55. And my mother was a nurse, and worked up at St. Luke&rsquo;s Hospital. We also, during that period of time, were foster parents for numerous children (from) throughout the valley. And one of which is my youngest brother, whom we adopted, through that program. So we had many, many opportunities to have other children as family members in our home as we were growing up.</p><p>AH: &nbsp; &nbsp; Great, nothing like a big family. When did you first end up in Eagle?</p><p>NM: &nbsp; &nbsp; We moved a home from Boise, off of State Street and Riveria Drive, out to Eagle and Highway 55, across from what used to be the Lake Parachute Club. There was an airport there.</p><p>AH: &nbsp; &nbsp; Yeah, Floating Feather. &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>NM: &nbsp; &nbsp; Floating Feather Airport. And we moved a home out there that had hot water heating underneath in the floor, and we dug a basement and our home was heated with the hot water. We lived out there on five acres, and we raised horses, and cows, and milked. I grew up on horses and riding in the foothills out there in Eagle valley when I was twelve. So we&rsquo;ve lived in Eagle ever since then.</p><p>AH: &nbsp; &nbsp; No wonder you care about the foothills, and saving what&rsquo;s left.</p><p>NM: &nbsp; &nbsp; I love the foothills, and the equestrians, and riding there&hellip;it&rsquo;s been such a part of my life.</p><p>AH: &nbsp; &nbsp; When did you become involved in local politics?</p><p>NM: &nbsp; &nbsp; Umm&hellip;I&rsquo;ll go back to just one more thing before that. I&rsquo;ll begin where we met with my husband and the egg farm, I&rsquo;ll finish that story.</p><p>AH: &nbsp; &nbsp; Oh, yes.</p><p>NM: &nbsp; &nbsp; I began working at Merrill&rsquo;s Egg Farm when I was about&hellip; well, before that I started working in Emmett Valley and was driving a little Henry J. over the mountains at the age of fourteen. On Freeze-Out Hill, I&hellip;I can not tell why my mother allowed that. But I picked cherries over in Emmett until I was about sixteen, and, at which time I started working at Merrill&rsquo;s Egg Farm. And I met my husband there at church and through the egg farm there, and we dated and were good friends, and became engaged in 1965. Actually we got married in 1965 and out first baby was born in 1967. And I have four brothers and five&hellip; three brothers and a sister who live in the area here, so we began our family here in the Eagle valley.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;My political career started when we, you knew that we had the egg farm in Eagle?</p><p>AH: &nbsp; &nbsp; Yes.</p><p>NM: &nbsp; &nbsp; And we were annexed into the City of Eagle, and I went down to City Hall to find out why. And I could not understand why they would annex an egg farm and how they were going to provide sewer for three-hundred fifty thousand chickens. So I began just attending some meetings and becoming involved. My background, at that point, as my children were being raised, I was in the design world and in the painting world. And I had a little shop, retail shop, and a teaching studio in my garage that we turned into a full-time studio. So I had full-time teachers working for me, as well as myself, and had a retail shop in there; I traveled with interior designers throughout the northwest, both teaching my classes as well as painting and working at homes throughout the northwest, in California, Oregon, and Washington. And I would go and travel with those folks, and would do the murals on the walls, the hand-painting, the changing the colors of the furniture, and those types of things. So that&rsquo;s kind of my background on that.</p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Mayor Guerber asked me to serve on a downtown redevelopment committee with Joe Schrieber, in which they were looking at an urban renewal district. And also if I would serve on design review, a little design review board where we sat around a table. I think there were four members on it and the City Clerk, at that time. And we began designing the community.</p><p>AH: &nbsp; &nbsp; That would be where the Historical Museum is now.</p><p>NM: &nbsp; &nbsp; That&rsquo;s about right. So that&rsquo;s where I began.</p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I remember sitting in a meeting one time and they were talking about the planning; I remember Councilman Yzaguirre and Councilman Bastian and Mayor Guerber were there talking about the planning for the future in Eagle, and at that time we didn&rsquo;t have a planner, and I remember saying to them, &ldquo;I have a question. I don&rsquo;t understand why we don&rsquo;t have a planner for the City of Eagle. It would seem to me each of you are experts in your own field of business but none of you are planners. How can we plan for the City if we don&rsquo;t have a planner?&rdquo; It was shortly after that we hired a planner, and it was shortly after that that Mayor Guerber asked me to serve on Planning and Zoning. And I took, what was his name? Tom, a large fellow&hellip;Eastland or&hellip; I can&rsquo;t remember the Councilman&rsquo;s name, Mayor Guerber would remember. And that&rsquo;s the person I took his place, was not able to continue his term.</p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;So I started serving on Planning and Zoning. Served on Planning and Zoning for a couple of years, one of which things I was involved in was these large public notice signs. And one of the things I&rsquo;ve always thought was very, very important to a community is public involvement. &nbsp;At that time we had eight-by-ten little public notices that were tacked on telephone poles. I really felt we needed to involve the public more in the decision making as well as making them aware of what was going on. So we created these large four-by-eight signs as part of an ordinance requirement. And we now see other cities and the county around the valley doing that. So I served on Planning and Zoning, I really liked it. We served on one night a week&hellip;one night a month, on Monday nights, was a nice time to serve, back to the community. I was slowing my business down a bit, so I was able to balance the two.</p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;And I had a, one of the Councilmen, Morgan Masner, came to me during election time, and said &ldquo;We want you to run for city council.&rdquo; And I scoffed at that, I thought&hellip;I don&rsquo;t know anything, I&rsquo;ve never been involved in public, I&rsquo;m just loving learning about Planning and Zoning, and I love to sit on this board and be able to help. But I&rsquo;m surely not a person that anybody would vote me in to serve their community. And I don&rsquo;t have that background. And they convinced me by bringing me a signed petition of people that would support me, and so I turned that in and thought maybe the Merrill name might carry it, because we knew so many people in the valley. Well, I started going around talking to people out here and knocking on doors, and I found out that a lot of people didn&rsquo;t even know who Merrill&rsquo;s Egg Farm was particularly, and that there were new people in the community. So I found their interests, and&hellip;was elected, I had the highest votes for that year, in 1995, and began my career working on the Council.</p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I realized that working on the City Council was a lot different than Planning and Zoning, that my commitment was much heavier &ndash; besides just coming to the regular Tuesday night meetings twice a month, I had extra meetings that I would represent the City on; one of those was the Design Review Board, one of them was the opportunity to work still with the planning in the Planning Department on that. My background enabled me to work through some of these issues of what architecture should be, and colors and design for the streetscape, and I was heavily involved with all those things. I ran my platform on increasing recreation opportunities and pathways for the community, bringing the community&hellip;making sure it had opportunities for families, and that it built on the family and community. And so the first park that we did was the Heritage Park in the downtown area. We acquired that, and I&rsquo;m sure you heard the history of that. It was a huge success, and it&rsquo;s been a great sense of place for our community. We&rsquo;ve planted a live Christmas tree, instead of bringing a Christmas tree in every year; we figured it would grow with our community, it was small when we started, but we knew that it would grow in the park there. And trees became a huge part of my life.</p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Eagle Road was being widened and the bypass came in. One of the things that was being requested was that Eagle Road be widened to five lanes from the bypass into State Street. Well, that was our corridor into our downtown area. We had some historic old trees in that area which we wanted to keep, particularly the Shari Sharp&rsquo;s big sycamores. We had some large ones there where the Albertsons was going to go; they were going to remove the big trees that are now there where McDonalds are. So we worked with those businesses, and realigned the street. We had the Ada County Highway District digging around the roots with shovels instead of coming in with equipment to save the trees. We kept the road narrow where we put the arch sigh over that, and began that entry into the city. And I began my quest on trying to save the large trees in the community as much as possible so that we didn&rsquo;t look like a brand new city.</p><p>AH: &nbsp; &nbsp; Did you have a lot of resistance to the bypass in your time?</p><p>NM: &nbsp; &nbsp; We did. The bypass was a large resistance. In fact, it went right through the egg farm and it cut our personal property in half. And it was difficult, a very difficult time for the farmers that lived out here. The Kunklers were very much affected, as were some others out here, simply because we couldn&rsquo;t get an alignment decision that we could depend upon. It took quite a while to do that. The bypass cost a lot more money than we anticipated, simply because of the property values, and there were some lawsuits and condemnation involved with that. So that was a big, a big problem in our community at that time. And Mayor Guerber was the forefront leader on that, and we supported him on that. It took a while to get that through but I think as everyone sees now it was absolutely necessary. Clear back before the bypass happened, all the traffic came through Eagle, including the logging trucks.</p><p>AH: &nbsp; &nbsp; I know.</p><p>NM: &nbsp; &nbsp; There was concern that the downtown would not recover from the bypass, but the design for the community was that the bypass would compliment, not compete, with our downtown. We&rsquo;d keep our downtown with different requirements than our bypass.</p><p>AH: &nbsp; &nbsp; If they had widened Highway 44, it would have wiped out downtown.</p><p>NM: &nbsp; &nbsp; And many of our historic buildings. We are, all of us, are very keen to the need to retain our roots in this community. And the council that&rsquo;s here, has been here for a while, and that is one of the things we want to do is keep our history. And that&rsquo;s why the old Eagle Drug Store, which just nearly made its hundred-year birthday, was required and requested of the developers, don&rsquo;t take that down. Let&rsquo;s see what we can do to work around it. And they have agreed to build a steel frame inside the building, and to keep the exterior with its historic nature. So we&rsquo;re hoping we can still do that.</p><p>AH: &nbsp; &nbsp; Do we have it in writing? That they&rsquo;re not going to take it down?</p><p>NM: &nbsp; &nbsp; We&rsquo;re working on that. When they come in for their review and for their new building on that, that&rsquo;s one of the things that will happen as part of their development agreement, their conditions of approval, for that.</p><p>AH: &nbsp; &nbsp; Of course, without the signage, it isn&rsquo;t a particularly interesting building.</p><p>NM: &nbsp; &nbsp; Yes, that&rsquo;s true. That&rsquo;s true.</p><p>AH: &nbsp; &nbsp; So hopefully whatever goes in there can still keep its name and those signs. Because historic signs can be put on the National Register of Historic Places.</p><p>NM: &nbsp; &nbsp; That&rsquo;s a good idea. I didn&rsquo;t realize that, but that&rsquo;s a great idea.</p><p>AH: &nbsp; &nbsp; My experience is that you don&rsquo;t trust what a developer says he&rsquo;s going to do unless he&rsquo;s absolutely nailed down, in writing.</p><p>NM: &nbsp; &nbsp; And you&rsquo;re exactly right. So we try to get them interested and work with them on that, as much as we possibly can, give them incentives to do that and keep that going.</p><p>AH: &nbsp; &nbsp; Well, you&rsquo;ve dealt with lots of developers. You&rsquo;d probably agree there are good ones and bad ones, there are trustworthy ones. I picked up on the internet that you had given an award to one developer fairly recently for the quality of their commitment and the quality of their product. I can&rsquo;t recall the name of it right now.</p><p>NM: &nbsp; &nbsp; I think it&rsquo;s the Eagle River, and with Chuck Harlese. That&rsquo;s one of those first developments that when it first came in it took a long time for them to see our vision. And we butted heads and we locked horns for quite a bit of time. One of the things was that we wanted that pathway to continue along the levee, behind the hotel and where all those businesses are. They wanted to flatten that and put houses in there and move them closer to the river because river-front property is beautiful for homes. We didn&rsquo;t want that. We really wanted to keep them away from that. We knew there was historical flooding in that area, and even though the levees were not a registered levee from the Corps of Engineers, that they were indeed working and they were part of our flood plain protection out there. So we locked horns with them, and we did get them to finally come out and stand on that levee with us and agree that that was a good place for a pathway, regional pathway. And we prevailed, and that is now part of the regional pathway that will go to Lucky Peak.</p><p>AH: &nbsp; &nbsp; Now that was one of the platform points of Chuck Bower. Tell me about your experience with Chuck Bower.</p><p>NM: &nbsp; &nbsp; Well, you know, Chuck Bower was a very interesting fellow. We had a very trying time during that period of time with our, both with our staff and with the community. There was quite a division, at that point of time, and I don&rsquo;t that&rsquo;s anything unusual when you&rsquo;ve got a growing community, you&rsquo;ve got the old guard and the new people coming in, type of situation. The most disconcerting thing for me, and probably the reason for requesting the recall also, was the turnover of staff. We had thirteen people that moved through.</p><p>AH: &nbsp; &nbsp; How did he rub staff the wrong way, to that extent?</p><p>NM: &nbsp; &nbsp; He was very condescending, he was &hellip;in fact; I&rsquo;ve got a whole file from Barbara Montgomery. He worked behind their backs, from the Council, when the Council would give direction, he would work behind the back of the Council. Just not very, not supportive, demeaning, wanted to change times of work without Council approval. Very questionable behavior in meeting and making deals with people off site, and different organizations; that brought a lot of contention into the community. I think the thing that concerned me the most was a&hellip;what seem to be a bi-polar, and I would not say that for sure because it was never diagnosed as that&hellip;but a different kind of personality. One of the times at the Council there was a decision being made, and Mayor Bower stood up from his chair and got behind the Council table and started walking back and forth and ranting and raving, and he literally sent the attorney and staff underneath the table for fear. He carried a metal suitcase that he strategically placed wherever he felt he needed it, and openly said that he carried a gun. I was called in to the FBI, and was questioned by the FBI about his behavior, and was told never to go anywhere alone. It was a very fearful time for us.</p><p>AH: &nbsp; &nbsp; How did the FBI become involved?</p><p>NM: &nbsp; &nbsp; They would not tell me. They would not tell me, we simply had no background on the gentleman. It only went back so far, and there was no way of defining who he was or where he was from.</p><p>AH: &nbsp; &nbsp; I&rsquo;ve heard the suggestion that the credentials he offered were not all bona fide.</p><p>NM: &nbsp; &nbsp; And we agreed with that. There was just many, many questions out there. And he was not a team player in working with the Council. It was just not that kind of situation. He actually won by a very narrow, several votes.</p><p>AH: &nbsp; &nbsp; That was pretty astonishing to everyone, wasn&rsquo;t it?</p><p>NM: &nbsp; &nbsp; And I think it was even to him. Even to him. So it was a very controversial time in our community, our community was very split, and we really had a desire to bring it back, to bring cohesiveness back to our community.</p><p>AH: &nbsp; &nbsp; Well, I have an hour interview with Chuck Bower, and an hour with Morgan Masner, so I&rsquo;ve heard two sides of the question. And to me, you really understand these things only if you listen to both sides of every issue. Which old-timers in the community should I be talking to, that you think might have information important to the background of Eagle and how it developed?</p><p>NM: &nbsp; &nbsp; Well, I think certainly the Kunkler family would be one. They have been here a long, long time. Umm, let&rsquo;s see, who else would I&hellip;</p><p>AH: &nbsp; &nbsp; I&rsquo;ve talked to the Fishers.</p><p>NM: &nbsp; &nbsp; The Mace family.</p><p>AH: &nbsp; &nbsp; The Mace, yes.</p><p>NM: &nbsp; &nbsp; The Fishers, the Mace, the DeShazo&rsquo;s have been here for a while. Now Robert with his water company has quite a history in the community. We didn&rsquo;t&hellip;years ago, you know, there was a real divisiveness in, in, that divided the community, with Eagle&rsquo;s&hellip; the City of Eagle and the Sewer District. And there were several other different groups out here which we could not work together with. And over the years we&rsquo;ve crossed those bounds and are working very, very well with each other, we&rsquo;re communicating, planning together, trusting each other, and it certainly builds a better community with all the organizations working together. So, I think those are some of the things we&rsquo;ve done that are positive. That, and Mr. DeShazo and the Water Company, one of the water companies in town, and he has a long history here also. Shari Sharp, of course, would be one you surely would want to talk to.</p><p>AH: &nbsp; &nbsp; I&rsquo;ve talked to Shari.</p><p>NM: &nbsp; &nbsp; And Lynne, Lynne Sedlacek, with her family, the Kunkler family, Lynne&rsquo;s got a long history here also.</p><p>AH: &nbsp; &nbsp; Well, we can&rsquo;t talk to everybody. But I appreciate your suggestions. How good a mayor was Steve Guerber?</p><p>NM: &nbsp; &nbsp; Steve was an excellent mayor. Steve was a very visionary mayor, he was not afraid of stepping outside the box and leading. And he did a tremendous job in bringing a lot of things to our community. He brought in to us the Community Block Grants for the Senior Center and the City Hall, the first little City Hall there. Was always moving things forward, very progressive in putting together the Horizon Task Force, which was looking at our Comprehensive Plan and planning in the community. Steve was not afraid to reach out and bring others in to the process of the decision making, and gathering others around to help in that decision. And I believe that he was a very good leader.</p><p>AH: &nbsp; &nbsp; Well, he&rsquo;s done a good job at the Idaho Historical Society. I don&rsquo;t know how this trouble he&rsquo;s in now is going to shake down.</p><p>NM: &nbsp; &nbsp; I think it&rsquo;ll come out all right. I think when you find, when everything is laid out, that we will find out that he&rsquo;s O.K., that he&rsquo;s done everything to the best of his knowledge, that he was doing the right things.</p><p>AH: &nbsp; &nbsp; I noticed the Council came out in support of him when it first happened, and his board of trustees did. But I talked to somebody else in state government a couple of days ago, who said he&rsquo;s done, he&rsquo;s washed up. I hope that&rsquo;s not true because I directed that Society for seventeen years, and anything that puts them on the front page of a negative nature is not good. I feel personal pain over that.</p><p>NM: &nbsp; &nbsp; It&rsquo;s not good because you have to go and stand before those folks and ask them for money. And that&rsquo;s difficult to do. And you know, unfortunately, when ever the media gets a hold of something, whether they&rsquo;re right or they&rsquo;re wrong, there&rsquo;s public opinion that is formed and that can never go back and be changed. And that is very harmful and very sad that it has happened.</p><p>AH: &nbsp; &nbsp; And the public tends to feel somebody&rsquo;s guilty immediately. Instead of innocent until proven guilty, it works the other way around. I suppose the adoption of a master plan for growth is probably the most critical thing that can happen in a community like this. Probably the only community in Idaho that&rsquo;s growing faster is Meridian right now. I did a history of Nampa for Idaho Magazine recently, and you probably knew Winston Goering?</p><p>NM: &nbsp; &nbsp; I did. What a gentleman.</p><p>AH: &nbsp; &nbsp; Of course he wasn&rsquo;t mayor at that point, but, in fact he died shortly afterward. But he was a far-sighted leader, I&rsquo;ve always thought, and a good front man for his town. We never had an event over there in their Center without him being right out there greeting every body. Well, I know there are a number of organizations acting, right now, that are dealing with planning for growth. You&rsquo;re a member of all of them.</p><p>NM: &nbsp; &nbsp; I certainly am.</p><p>AH: &nbsp; &nbsp; How do you have time for all of those meetings?</p><p>NM: &nbsp; &nbsp; Well, you just schedule them better, and take good notes, and sometimes you send staff people to some of those, make sure that you are aware that you can make those decisions if you have to. This year I&rsquo;m also serving as president of the Association of Idaho Cities, so that&rsquo;s the 202 cities across the state.</p><p>AH: &nbsp; &nbsp; Oh, boy.</p><p>NM: &nbsp; &nbsp; And so I&rsquo;ve made a commitment to contact those cities and be able to see what we can do as a state organization to be &hellip;</p><p>AH: &nbsp; &nbsp; That&rsquo;s part of Steve&rsquo;s background, isn&rsquo;t it? Association of Idaho Cities?</p><p>NM: &nbsp; &nbsp; He&rsquo;s never served in a leadership part of that, but he&rsquo;s been a member, yeah.</p><p>AH: &nbsp; &nbsp; Now there&rsquo;s a thing called Treasure Valley Partnership which I gather is elected officials from all of the towns in the valley?</p><p>NM: &nbsp; &nbsp; From Nampa and Caldwell, and&hellip;I&rsquo;m president of that organization also. That is a great organization because we deal with events and situations and problems that cross boundary lines. For example, the pseudoephedrine bill was one of the ones that we put together with our Mayor&rsquo;s Youth Committees and we took that individually to our Councils, we passed our ordinances for that, and then we took it to the legislature. After the legislature had not passed it for the previous year, we as cities passed it, said &ldquo;This is important enough that we will support you, and this is our legislation saying that we will.&rdquo; &nbsp;At the next legislative session last year that same bill was passed. So we feel like a coalition of Mayors across the valley can make some difference. Right now we are also doing the same thing with a program where we are hiring a federal prosecutor that will serve in Owyhee County and will be just for gangs and prosecuting gang members. And the reason we are doing that on a federal level is because if we can prosecute, have those kids prosecuted, have those gang members prosecuted on a federal level, they won&rsquo;t be housed in state prisons, they&rsquo;ll be housed elsewhere. Part of the problems with the gang members in the valley is that they&rsquo;re caught, they go to jail, and they&rsquo;re in jail with their friends. And so the gang activity continues in the jails. And so this is an effort to separate them, away from anyone that they can continue to contact. So this is another program that we&rsquo;re working on.</p><p>AH: &nbsp; &nbsp; Any gang activity in Eagle, as far as you know?</p><p>NM: &nbsp; &nbsp; Not that I know of. We&rsquo;ve had, I think, some wanabe&rsquo;s; we&rsquo;ve had very little problems with graffiti or any that kind of thing. I think our officers in our community policing are very on top of that. It&rsquo;s certainly not that we&rsquo;re immune to that, and as the community continues to grow it&rsquo;s something we&rsquo;ll be looking at.</p><p>AH: &nbsp; &nbsp; What happened in the Steve Smylie campaign? I know you were a supporter.</p><p>NM: &nbsp; &nbsp; As far as what happened?</p><p>AH: &nbsp; &nbsp; Maybe I&rsquo;m remembering this wrong. I thought much to everybody&rsquo;s astonishment, he lost in the primary.</p><p>NM: &nbsp; &nbsp; He did. He did. And I&hellip;</p><p>AH: &nbsp; &nbsp; How could that happen? He was supported by everybody.</p><p>NM: &nbsp; &nbsp; It was, you know&hellip; I don&rsquo;t know how that could happen. It&rsquo;s that old adage of going and knocking on doors, and contacting people; and a lot of new people moving in that don&rsquo;t know the history behind a person that has served for a long period of time. Those are some of the things that happen.</p><p>AH: &nbsp; &nbsp; I was quite flabbergasted by that. What happened to Judy Peavey-Derr?</p><p>NM: &nbsp; &nbsp; Well, Judy Peavy-Derr, as well as many county commissioners across the state of Idaho, I believe they got caught up into the property tax revolt, if you will, from the folks out here, who have seen a huge increase in taxes, particularly from the county assessors, was very discerning. Also the role that Ada County commissioners have taken as far as changing the county to an urbanized development has caused a lot of concern with city officials, as growth is being directed towards the county, instead of towards the cities. So you see, a, urbanized developments being approved in the county, where before the county was to preserve the county land. So there&rsquo;s been a philosophy change in the county, and Ada County particularly. And I think those are two of the things that were Judy&rsquo;s demise.</p><p>AH: &nbsp; &nbsp; I had the impression that she and Rick agreed on most things on the Commission.</p><p>NM: &nbsp; &nbsp; I agree with that. I&rsquo;ve seen that happen.</p><p>AH: &nbsp; &nbsp; Well, I suppose it&rsquo;s healthy to keep changing horses along the way as long as it&rsquo;s not in midstream. Tell me more about your philosophy of foothills development. Are we going to be able to save enough foothills so that this town doesn&rsquo;t totally lose its rural feel?</p><p>NM: &nbsp; &nbsp; I think we will, Arthur. I think that we&rsquo;ve just gone through some studies and some scenarios and some building of maps where we&rsquo;ve looked at, kind of looking at it a little different than going out and saying, &ldquo;How many houses can we put up here?&rdquo; What we&rsquo;re doing is looking at it from a backwards point of view, but perhaps it&rsquo;s forward. And that is looking at what are the resources that we want to preserve? What&rsquo;s important to us as a view corridor? What&rsquo;s important to us to wildlife management? What are the sensitive species up here? How much traffic can we hold? And where will the traffic go? Where are the existing trails, and which are the ones that we want to interconnect, so that we have an interconnecting trail system that can move all the way through the foothills as well as come down and hit our river trails? We&rsquo;re looking at those types of things. What is our, what&rsquo;s the availability of water in those areas? So we&rsquo;re looking all of those issues up there and then we&rsquo;re seeing there are areas where we can put development. It won&rsquo;t be on every hill, it won&rsquo;t be on every inch of space up there, but it may be in a cluster, it may be in a different type of setting. We&rsquo;re looking at the slopes and erosion, so we&rsquo;re looking at all those kinds of things that very near and dear to all us that have lived in this valley for a long time. Realizing that, number one, if Eagle is to become involved in this process, and that land is to be developed, that we would much prefer that it&rsquo;s to be developed under our standards, developed with our planning, that its commensurate with what we are doing, where we can establish where the schools, the infrastructure is going, how we can help control that. As well as guide it. If it is developed in the county, it still will be developed, and still a number of homes will be up there. It just won&rsquo;t be, it won&rsquo;t be complimentary to Eagle. And so as City officials and leaders, we are having to open our eyes to a new area and a new horizon that we&rsquo;ve never looked at before. You put us down on the river and we can tell you every inch of that river and what kind of development can go down there, and what&rsquo;s going to happen down there, and&hellip;we&rsquo;ve been called river rats. You take us up to the foothills and we&rsquo;re babes in a new area up here. So we are gathering around us all of the experts that we can, all of the agencies that we can, to educate us and to help us make the best decisions we can for the future. We&rsquo;re looking at a lot of years out here.</p><p>AH: &nbsp; &nbsp; How much land around can you annex? Are you butting heads with the county when you try to annex the foothills?</p><p><br></p><p>NM &nbsp; &nbsp; &nbsp;Actually, we do requested annexations. When a property owner comes into the City of Eagle and requests to be annexed in, then we look to that to see what is the benefit to the community on that; State law allows cities to annex outside their areas of impact on requested annexations. We do that if they are contiguous, and if they can fit into our plan. The counties don&rsquo;t really have anything to say with that part of it. They would like us to, in fact the Blueprint for Good Growth is asking us to set up twenty-year horizons impact area and then not annex outside of that. So the cities are, all across the valley are now looking at where we&rsquo;ll be growing in the next twenty years, and looking at the services that will be needed, and how the funding will be provided.</p><p>AH: &nbsp; &nbsp; How many new communities are we going to start in this county?</p><p>NM: &nbsp; &nbsp; Well, I can tell you that there are twenty-four planned communities outside the areas of impact, that are being looked at by the county. And that is this new philosophy that I have been telling you about. We believe that planned communities should be within the city limits; that they should be contiguous to the infrastructure that&rsquo;s there, that they will indeed affect our libraries, our police, our fire, and that those tax dollars need to go to the community that they&rsquo;re affecting.</p><p>AH: &nbsp; &nbsp; Well, I&rsquo;ve been a consultant on three of them, two I would approve; one I&rsquo;m dead against. That&rsquo;s Hammer Flat, you probably know about that.</p><p>NM: &nbsp; &nbsp; I do know about that one, yes.</p><p>AH: &nbsp; &nbsp; To say that they&rsquo;re going to build that many houses up there and improve the habitat for game, that&rsquo;s totally ridiculous.</p><p>NM: &nbsp; &nbsp; That&rsquo;s kind of like saying, the developers come and tell us that their development won&rsquo;t affect the river if they do a Letter of Map Revision. We&rsquo;re on a floodway where the river has historically flowed and you see it on the trees, where the high water marks are. And my comment to them is, &ldquo;Who&rsquo;s going to tell the river, that that&rsquo;s where it has to go?&rdquo; And that about what you&rsquo;re saying, who&rsquo;s going to tell the habitat and the animals that THAT&rsquo;s their place to stay.</p><p>AH: &nbsp; &nbsp; Well, only if you&rsquo;re willing to give them up totally. Well, there&rsquo;s an awful lot of greed in the world, to develop whatever can be developed, to build where ever you can. We lived in Massachusetts for sixteen years while I was teaching back there, and I ended up being the chairman of the town conservation commission. And developers wanted to build in the Connecticut Valley, in an area that had traditionally, had fourteen feet of water. They were going to build and get out, never mind. So we finally got flood plain zoning that protected all of that from any development of that kind. What we did was turn it into a nature preserve, a wildlife sanctuary. We had the Boy Scouts build trails. But we saved the town from a potential disaster. So I have a feeling that a lot of developers have no conscience.</p><p>NM: &nbsp; &nbsp; Well, you&rsquo;ve had those experiences on that. That&rsquo;s why we have conservation easements, and why we are, the preservation of as much of the river as we possibly can on that, as we try to do that with development, don&rsquo;t allow development to encroach.</p><p>AH: &nbsp; &nbsp; What kind of teeth does current flood plain zoning have? We know that people are building on the flood plain, and I guess everybody on Eagle Island is on a flood plain, and a lot of people on Dry Creek are on a flood plain.</p><p>NM: &nbsp; &nbsp; You know, you&rsquo;ve probably read Susan Stacy&rsquo;s book When the River Rises.</p><p>AH: &nbsp; &nbsp; Yes.</p><p>NM: &nbsp; &nbsp; And one of the things that was amazing to me in that book was when they built the political battle around Lucky Peak, and when Lucky Peak was finally built, and of course a lot of water users helped pay for that, for irrigation as well as flood control, but one of the main reasons why that was built was for economic development on the Island. And so the reason for that being there was that&rsquo;s how development started happening on the Island, or downstream, on the Island, to allow for that economic development to occur. So when that first started, once you open those flood gates, with development occurring in those areas, the only thing you can do is control that as to where it can and cannot happen. And so that&rsquo;s very important, as we look at those things, the history of that. &nbsp;&nbsp;</p><p>AH: &nbsp; &nbsp; Well, the history of this town is fascinating. I&rsquo;ve been collecting it for twenty years before I ever had the opportunity to write a book about it.</p><p>NM: &nbsp; &nbsp; It is, it is an interesting town. Eagle is, the topography of Eagle is so different from other communities. Of course it&rsquo;s not all just flat. We have the bluff, we have the river, you know, then we have another bluff, and now we&rsquo;re looking at the foothills. So we have a variety of opportunities for development as well as protection of land, both in space and open land that we need do. So it really creates a different kind of community with a lot of opportunities.</p><p>AH: &nbsp; &nbsp; Well, I think, in my view, Eagle has managed its growth about as well as you can, knowing there are some things you really can&rsquo;t control.</p><p>NM: &nbsp; &nbsp; And some things you&rsquo;d like to do better, if you possible could.</p><p>AH: &nbsp; &nbsp; Well, I attribute it to good leadership and community involvement. Part of the history of Eagle that fascinates me, in fact it&rsquo;s what I am working on right now, a chapter on the ethnic history of this town. This morning I was working on (a chapter) &ldquo;Wet or Dry - Eagle and Alcohol&rdquo;. Because in 1909 when local option was possible, and counties could decide to be wet or dry, Ada County voted to stay wet. And there were people who talked in the Odd Fellows Hall here, representing Boise, what amounted to the Chamber of Commerce, and they were all against prohibition, because they were sure that if prohibition for Ada County were passed all the business would go to Canyon County. And the voters made a terrible mistake, and the farmers in this valley, in the Eagle area, they wouldn&rsquo;t go to Boise to shop any more, they&rsquo;d go to Nampa or Caldwell, where Dad could get a drink while Mother was doing the weekly shopping. But the ethnic aspect of that is, of course, that we had lots of Germans, French, Italians, and Europeans, sometimes first generation, who were used to making their own wine. You know, they weren&rsquo;t alcoholics or drunkards, but they were used to having a glass of red wine on the table when they had their pasta, or whatever. And obviously national prohibition was a tremendous failure, did more to organize crime than anything ever had, horrible thing, impossible to enforce. I haven&rsquo;t really found out yet whether there were any moonshiners in what&rsquo;s now Eagle. There could have been. Have you heard any stories?</p><p>NM: &nbsp; &nbsp; I have not heard any stories on that. That would be very interesting to know that.</p><p>AH: &nbsp; &nbsp; Well, they sure collected a lot of them over in Canyon County. In fact, where ever you could put up a whiskey still, they did. And then they were importing Canadian liquor illegally. Well, what I&rsquo;m trying to do in the book is get a context within the regional and national context as well, because everything that happened here was played out on a bigger field. So what I love to do is make connections between things.</p><p>NM: &nbsp; &nbsp; That is great. That is a good connection. And those are good connections. One of the things we&rsquo;re talking about right now, there is an organization, the Idaho Wine Growers, and there&rsquo;s a member of that Idaho Wine organization that&rsquo;s here in Eagle that is putting in a vineyard up off of Beacon Light. &nbsp;And what they have decided and learned is that the soil is so conducive, and the weather and the way the sun hits, is so conducive to growing grapes that they think this area could be a great grape growing area for wine. So that comes full circle back around again.</p><p>AH: &nbsp; &nbsp; That&rsquo;s zoned agricultural still?</p><p>NM: &nbsp; &nbsp; Yes. And of course Ag land can always be, any land can be Ag land, and they can always grow something on that. So that would be good.</p><p>AH: &nbsp; &nbsp; How hard is it for a farmer, in what&rsquo;s now Eagle, to resist developers when he is being taxed for development values instead of farm values?</p><p>NM: &nbsp; &nbsp; Well, actually, if he&rsquo;s farming and his Ag land&hellip;look at Mr. Kunkler out there. His land is zoned Ag and he&rsquo;s taxed on Ag. And until his property changes hands and changes use, it will be Ag land and taxed as Ag land.</p><p>AH: &nbsp; &nbsp; But as soon as he stops farming, then its potential development land, is that right?</p><p>NM: &nbsp; &nbsp; It still is zoned Ag until the use actually changes, somebody has to come in and request that change.</p><p>AH: &nbsp; &nbsp; I was with Carla Mace out on Eagle Island on what&rsquo;s left of the old Mace property, her son is fifth generation living on that land, have you been out there?</p><p>NM: &nbsp; &nbsp; I have, I have. In fact, I&rsquo;ve had a developer come in and show me a plan for the Mace property.</p><p>AH: &nbsp; &nbsp; Well, she says she&rsquo;s being taxed five hundred dollars a year and it&rsquo;s being assessed as development property. Now it&rsquo;s abandoned, there&rsquo;s nobody farming there or anything, it&rsquo;s a sad, sad, shambles.</p><p>NM: &nbsp; &nbsp; Well, if she&rsquo;s only being, if all that land&rsquo;s only being assessed five hundred dollars a year, then it&rsquo;s not development land. I mean, it&hellip;</p><p>AH: &nbsp; &nbsp; Oh, well. It&rsquo;s eight and a half acres or something like that, and naturally she thinks she&rsquo;d like to hang on to it because of the family history, but at five hundred dollars a year she&rsquo;s wondering how long she can continue to do that.</p><p>NM: &nbsp; &nbsp; And some of the land may have that problem with it, but I, the ones that I know, particularly where development has come in&hellip;for example, when the Legacy folks came in to do their development, they bought the land from the farmer, and they kept their Ag designation on that until their plan was approved. And so that stayed, they paid their taxes as Ag land, until their plan was approved on that.</p><p>AH: &nbsp; &nbsp; I guess I&rsquo;ve never really understood that. Because I&rsquo;ve heard this from a lot of farmers, who say, &ldquo;We were taxed as though this were developable property rather than Ag land, and so we finally had to sell.&rdquo;</p><p>NM: &nbsp; &nbsp; There isn&rsquo;t that designation on that. If you look on our comprehensive plan, all of that is designated as A-R, what that land is, that&rsquo;s their taxable, that&rsquo;s what they&rsquo;re taxed at.</p><p>AH: &nbsp; &nbsp; O.K. Well, they&rsquo;re not telling it right.</p><p>NM: &nbsp; &nbsp; They may not be understanding, or they may, or the assessor may not be assessing it right. But from our point of view, that&rsquo;s what that land is designated as, and that&rsquo;s what it should be taxed as. Now if they&rsquo;re, maybe they&rsquo;re in the county, and the county has other requirements or they might do different in the county than the city. But in the city, that&rsquo;s the way our city code reads.</p><p>AH: &nbsp; &nbsp; One of the things I&rsquo;m trying to get from all my interviewees is something that will add a little spice and humor to the story.</p><p>NM: &nbsp; &nbsp; Well, I could tell you some real fun ones for Merrill&rsquo;s Egg Farm. As we had a community growing around us, we had our growing problems. Part of the problems was the fact that we would move the manure away from our business, simply to get it away - the odor out &ndash; we had to clean our buildings out. I remember a time when we had a request for the manure to go to Pine Top, which is a church, was a church camp up in Idaho City. And so they loaded up the truck and headed up to Pine Top. And when they got up to Pine Top, there wasn&rsquo;t any manure left. But it had been dropped&hellip;the tailgate had opened and it had been dropped all along State Street, up along Warm Springs Avenue, all the way up the hill, and they were slipping and sliding and the car washes were full. We got the call that that had happened. Another time going through town, the bosses said to the drivers, &ldquo;Don&rsquo;t step on the brakes. When you come into town go very, very slow, and make sure that you go with the stop lights but don&rsquo;t step on the brakes.&rdquo; Well, the driver was a new driver, and the light changed red, and he stepped on the brakes and the manure came out of that truck and hit all four corners of the down town. And we always paid a lot of money to the fire department because they were our very best friends; when they came for volunteers, came for money, we would always pay a lot of money to the volunteers for those kinds of things. So we have several stories like that with the, in the farming of this egg farm around the city. I can&rsquo;t imagine an egg farm in the middle of the City right now. You know, I don&rsquo;t believe I would probably be a Mayor. So when we had a fire in 1989 and had to move our business, I guess there&rsquo;s always somebody else that&rsquo;s watching out over you, that knows better what&rsquo;s going to happen in your life. And while it seemed so devastating at that time, it was a proper thing to go ahead and move it out of the valley.</p>
+    </div>
+
+<script type="text/javascript">
+	$(document).ready(function (e) {		
+	    renderSlideshowIfApplicable($('#divEditor' + '79b3ec33-9b44-4e78-a3f3-3e6427ad621b'));
+	});
+</script>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+		</div>
+
+	</div>
+
+	
+	<div class="newCP">
+
+	</div>
+</div>
+</div><aside data-cpRole="contentContainer" id="featureColumn" class="secondaryContent">	<div id="cc49bfedf2-d803-4492-8a2c-6aa3455f95f4" data-containerid="49bfedf2-d803-4492-8a2c-6aa3455f95f4" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</aside>
+</div><div data-cpRole="structuralContainer" id="siteSidebarTS" class="siteSidebar">
+<aside data-cpRole="contentContainer" id="sidebarContainer1TS">	<div id="ccc74de5ac-9c6a-4b3d-87a5-cb670950bcba" data-containerid="c74de5ac-9c6a-4b3d-87a5-cb670950bcba" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</aside><nav data-cpRole="nav" id="secondaryNav" class="siteNav secondaryNav">
+
+
+
+
+
+	<ol role="menu" id="secondaryMenusecondaryNav" data-parent="168" class="rootNavMenu accordionNav">
+	<li class="topMenuItem sideNavLi hasAccordionChildren" role="menuitem" tabindex="0" id="SideItem171" data-pageid="171">
+		<div class="accordionNavItem">
+			<a href="/171/Nancy-Merrill-Interview" target="_self" class="navMainItem secondaryNavItem cpComponent" data-type="SecondaryMainItem">Nancy Merrill Interview</a>
+		</div>
+			</li>
+
+	</ol>
+
+
+	<script type="text/javascript">
+		(function () {
+			function setupSecondaryMenuProperties() {
+				//setup menu manager properties for secondary menu
+				menuManager.isSideMenuEditable = false;
+				menuManager.sideMenuMaxSubMenuLevels = 4;
+				menuManager.sideMenuHasCustomLinks = false;
+			}
+
+			if (document.readyState === "loading") {
+				document.addEventListener("DOMContentLoaded", setupSecondaryMenuProperties, { once: true });
+				return;
+			}
+
+			setupSecondaryMenuProperties();
+		})();
+	</script>
+
+	<script type="text/javascript">
+		(function () {
+			function setupAccordionSecondaryNav() {
+				var $menuContainer = $('#secondaryNav');
+
+				$menuContainer.find('*[id^="SideItem"]').each(function () {
+					var ids = $('[id="' + this.id + '"]');
+					if (ids.length > 1)
+						$.each(ids, function (index, value) {
+							value.id = value.id + '_' + index;
+						});
+				});
+
+				$menuContainer.find('.hasAccordionChildren .openAccordionNav').off('click.secondaryNav').on('click.secondaryNav', function (e) {
+					e.preventDefault();
+					showHideAccordionMenuForSecondaryNav($(this));
+				});
+
+				$menuContainer.find(".grippy").each(function () {
+					menuManager.setupDraggableElement($(this), SIDE_MENU, '#secondaryNav');
+				});
+
+				$menuContainer.find("li").each(function () {
+					menuManager.setupDroppableAccordionElement($(this), SIDE_MENU);
+				});
+			}
+
+			if (document.readyState === "loading") {
+				document.addEventListener("DOMContentLoaded", setupAccordionSecondaryNav, { once: true });
+				return;
+			}
+
+			setupAccordionSecondaryNav();
+		})();
+	</script>
+
+
+
+</nav><aside data-cpRole="contentContainer" id="sidebarContainer2TS">	<div id="cc027061cc-36da-47d5-aebd-734bdd00af80" data-containerid="027061cc-36da-47d5-aebd-734bdd00af80" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</aside>
+</div>
+</div></div>
+</div><!-- Footer --><footer data-cpRole="structuralContainer" id="footerContainerTS">
+<div class="siteWrap2"><div data-cpRole="contentContainer" id="gbsTS">	<div id="cc048ad361-1208-4654-800c-ce8571eb0328" data-containerid="048ad361-1208-4654-800c-ce8571eb0328" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile" data-contentcontainerbreakpoint="35">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col8 first" style="" data-widgetcontainerid="89c8d415-99ff-4d33-aec8-53d7d43e2b21">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col8 first last ida86086d1-1e4d-4f4f-9ac0-de4b94cf1424" style="" data-widgetcontainerid="a86086d1-1e4d-4f4f-9ac0-de4b94cf1424">	
+<div data-widget-id="96091029-9b2c-47bc-8dd0-d18f53909f55" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidget96091029-9b2c-47bc-8dd0-d18f53909f55" class="widget widgetGraphicLinks skin65 widgetOptionSet4 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid2 ">
+		<nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+				<div class="row   wide">
+					<!--
+--><div class="col col1 first "><ul class="semanticList"><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/2075/Mayors-Office" target="_self" class="fancyButton fancyButton357 " >
+		<span>
+			<span><span class="text">Meet the Mayor</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton357.fancyButton:link,.fancyButton357.fancyButton:visited, .fancyButton357div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5790');
+	background-repeat: no-repeat;
+	background-position: center 10px ;
+transition: all .3s ease-in-out;}
+.fancyButton357.fancyButton:hover,.fancyButton357.fancyButton:focus,.fancyButton357.fancyButton:active,.fancyButton357.fancyButton.hover{
+	background-image: url('/ImageRepository/Document?documentID=5795');
+	background-repeat: no-repeat;
+	background-position: center 0px ;
+}
+.fancyButton357.fancyButton:link > span,.fancyButton357.fancyButton:visited > span, .fancyButton357div.fancyButton > span{
+}
+.fancyButton357.fancyButton:hover > span,.fancyButton357.fancyButton:focus > span,.fancyButton357.fancyButton:active > span,.fancyButton357.fancyButton.hover > span{
+}
+.fancyButton357.fancyButton .text{
+	color: #ffffff;
+	font-size: 1.1em;
+	font-family: "Lato";
+	padding-top: 170px;
+	font-weight: 900;
+	text-decoration: none;
+	padding-top: 170px;
+	background-image: url('/ImageRepository/Document?documentID=5874');
+	background-repeat: no-repeat;
+	background-position: center 55px ;
+line-height: 1.2;
+transition: all .3s ease-in-out;text-transform: uppercase;}
+.fancyButton357.fancyButton:hover .text,.fancyButton357.fancyButton:focus .text,.fancyButton357.fancyButton:active .text,.fancyButton357.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: center 45px ;
+
+
+}
+</style>
+
+ </li><!--
+--></ul></div><!----><div class="col col1  last"><ul class="semanticList"><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://otc.cdc.nicusa.com/Public2.aspx?portal=id&amp;organization=City%20of%20Eagle" target="_self" class="fancyButton fancyButton358 " >
+		<span>
+			<span><span class="text">Online Payments</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton358.fancyButton:link,.fancyButton358.fancyButton:visited, .fancyButton358div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5790');
+	background-repeat: no-repeat;
+	background-position: center 10px ;
+transition: all .3s ease-in-out;}
+.fancyButton358.fancyButton:hover,.fancyButton358.fancyButton:focus,.fancyButton358.fancyButton:active,.fancyButton358.fancyButton.hover{
+	background-image: url('/ImageRepository/Document?documentID=5795');
+	background-repeat: no-repeat;
+	background-position: center 0px ;
+}
+.fancyButton358.fancyButton:link > span,.fancyButton358.fancyButton:visited > span, .fancyButton358div.fancyButton > span{
+}
+.fancyButton358.fancyButton:hover > span,.fancyButton358.fancyButton:focus > span,.fancyButton358.fancyButton:active > span,.fancyButton358.fancyButton.hover > span{
+}
+.fancyButton358.fancyButton .text{
+	color: #ffffff;
+	font-size: 1.1em;
+	font-family: "Lato";
+	padding-top: 170px;
+	font-weight: 900;
+	text-decoration: none;
+	padding-top: 170px;
+	background-image: url('/ImageRepository/Document?documentID=5793');
+	background-repeat: no-repeat;
+	background-position: center 55px ;
+line-height: 1.2;
+transition: all .3s ease-in-out;text-transform: uppercase;}
+.fancyButton358.fancyButton:hover .text,.fancyButton358.fancyButton:focus .text,.fancyButton358.fancyButton:active .text,.fancyButton358.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: center 45px ;
+
+
+}
+</style>
+
+ </li><!--
+--></ul></div><!--				-->
+				</div>
+			</nav>
+		</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col8" style="" data-widgetcontainerid="64bc3dbf-c4bf-4813-9971-8c77f1396eef">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col8 first last id45704d6c-a72a-4a58-bcf4-c22b4c5186dc" style="" data-widgetcontainerid="45704d6c-a72a-4a58-bcf4-c22b4c5186dc">	
+<div data-widget-id="e681ff6c-04f5-448c-b15a-09132902ab67" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidgete681ff6c-04f5-448c-b15a-09132902ab67" class="widget widgetGraphicLinks skin65 widgetOptionSet4 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid2 ">
+		<nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+				<div class="row   wide">
+					<!--
+--><div class="col col1 first "><ul class="semanticList"><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/446/Public-Records" target="_self" class="fancyButton fancyButton365 " >
+		<span>
+			<span><span class="text">Public Records</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton365.fancyButton:link,.fancyButton365.fancyButton:visited, .fancyButton365div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5790');
+	background-repeat: no-repeat;
+	background-position: center 10px ;
+transition: all .3s ease-in-out;}
+.fancyButton365.fancyButton:hover,.fancyButton365.fancyButton:focus,.fancyButton365.fancyButton:active,.fancyButton365.fancyButton.hover{
+	background-image: url('/ImageRepository/Document?documentID=5795');
+	background-repeat: no-repeat;
+	background-position: center 0px ;
+}
+.fancyButton365.fancyButton:link > span,.fancyButton365.fancyButton:visited > span, .fancyButton365div.fancyButton > span{
+}
+.fancyButton365.fancyButton:hover > span,.fancyButton365.fancyButton:focus > span,.fancyButton365.fancyButton:active > span,.fancyButton365.fancyButton.hover > span{
+}
+.fancyButton365.fancyButton .text{
+	color: #ffffff;
+	font-size: 1.1em;
+	font-family: "Lato";
+	padding-top: 170px;
+	font-weight: 900;
+	text-decoration: none;
+	padding-top: 170px;
+	background-image: url('/ImageRepository/Document?documentID=5794');
+	background-repeat: no-repeat;
+	background-position: center 55px ;
+line-height: 1.2;
+transition: all .3s ease-in-out;text-transform: uppercase;}
+.fancyButton365.fancyButton:hover .text,.fancyButton365.fancyButton:focus .text,.fancyButton365.fancyButton:active .text,.fancyButton365.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: center 45px ;
+
+
+}
+</style>
+
+ </li><!--
+--></ul></div><!----><div class="col col1  last"><ul class="semanticList"><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/268/Permits-Licenses-Applications-Events-Mor" target="_self" class="fancyButton fancyButton366 " >
+		<span>
+			<span><span class="text">Forms &amp; Permits</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton366.fancyButton:link,.fancyButton366.fancyButton:visited, .fancyButton366div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5790');
+	background-repeat: no-repeat;
+	background-position: center 10px ;
+transition: all .3s ease-in-out;}
+.fancyButton366.fancyButton:hover,.fancyButton366.fancyButton:focus,.fancyButton366.fancyButton:active,.fancyButton366.fancyButton.hover{
+	background-image: url('/ImageRepository/Document?documentID=5795');
+	background-repeat: no-repeat;
+	background-position: center 0px ;
+}
+.fancyButton366.fancyButton:link > span,.fancyButton366.fancyButton:visited > span, .fancyButton366div.fancyButton > span{
+}
+.fancyButton366.fancyButton:hover > span,.fancyButton366.fancyButton:focus > span,.fancyButton366.fancyButton:active > span,.fancyButton366.fancyButton.hover > span{
+}
+.fancyButton366.fancyButton .text{
+	color: #ffffff;
+	font-size: 1.1em;
+	font-family: "Lato";
+	padding-top: 170px;
+	font-weight: 900;
+	text-decoration: none;
+	padding-top: 170px;
+	background-image: url('/ImageRepository/Document?documentID=5792');
+	background-repeat: no-repeat;
+	background-position: center 55px ;
+line-height: 1.2;
+transition: all .3s ease-in-out;text-transform: uppercase;}
+.fancyButton366.fancyButton:hover .text,.fancyButton366.fancyButton:focus .text,.fancyButton366.fancyButton:active .text,.fancyButton366.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: center 45px ;
+
+
+}
+</style>
+
+ </li><!--
+--></ul></div><!--				-->
+				</div>
+			</nav>
+		</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col8 last" style="" data-widgetcontainerid="a3aaadb9-e8f9-4ffd-9080-c0184c1e33c9">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col8 first last id10a8d0a0-4be2-4f8d-b7d8-660d64ad5440" style="" data-widgetcontainerid="10a8d0a0-4be2-4f8d-b7d8-660d64ad5440">	
+<div data-widget-id="a7bf7591-e044-493e-a8df-e2093b7e7a4f" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidgeta7bf7591-e044-493e-a8df-e2093b7e7a4f" class="widget widgetGraphicLinks skin65 widgetOptionSet4 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid2 ">
+		<nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+				<div class="row   wide">
+					<!--
+--><div class="col col1 first "><ul class="semanticList"><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/305/City-Agendas-Videos" target="_self" class="fancyButton fancyButton367 " >
+		<span>
+			<span><span class="text">Agendas &amp; Videos</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton367.fancyButton:link,.fancyButton367.fancyButton:visited, .fancyButton367div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5790');
+	background-repeat: no-repeat;
+	background-position: center 10px ;
+transition: all .3s ease-in-out;}
+.fancyButton367.fancyButton:hover,.fancyButton367.fancyButton:focus,.fancyButton367.fancyButton:active,.fancyButton367.fancyButton.hover{
+	background-image: url('/ImageRepository/Document?documentID=5795');
+	background-repeat: no-repeat;
+	background-position: center 0px ;
+}
+.fancyButton367.fancyButton:link > span,.fancyButton367.fancyButton:visited > span, .fancyButton367div.fancyButton > span{
+}
+.fancyButton367.fancyButton:hover > span,.fancyButton367.fancyButton:focus > span,.fancyButton367.fancyButton:active > span,.fancyButton367.fancyButton.hover > span{
+}
+.fancyButton367.fancyButton .text{
+	color: #ffffff;
+	font-size: 1.1em;
+	font-family: "Lato";
+	padding-top: 170px;
+	font-weight: 900;
+	text-decoration: none;
+	padding-top: 170px;
+	background-image: url('/ImageRepository/Document?documentID=5788');
+	background-repeat: no-repeat;
+	background-position: center 55px ;
+line-height: 1.2;
+transition: all .3s ease-in-out;text-transform: uppercase;}
+.fancyButton367.fancyButton:hover .text,.fancyButton367.fancyButton:focus .text,.fancyButton367.fancyButton:active .text,.fancyButton367.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: center 45px ;
+
+
+}
+</style>
+
+ </li><!--
+--></ul></div><!----><div class="col col1  last"><ul class="semanticList"><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="http://www.cityofeagle.org/Jobs.aspx" target="_self" class="fancyButton fancyButton368 " >
+		<span>
+			<span><span class="text">Employment</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton368.fancyButton:link,.fancyButton368.fancyButton:visited, .fancyButton368div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5790');
+	background-repeat: no-repeat;
+	background-position: center 10px ;
+transition: all .3s ease-in-out;}
+.fancyButton368.fancyButton:hover,.fancyButton368.fancyButton:focus,.fancyButton368.fancyButton:active,.fancyButton368.fancyButton.hover{
+	background-image: url('/ImageRepository/Document?documentID=5795');
+	background-repeat: no-repeat;
+	background-position: center 0px ;
+}
+.fancyButton368.fancyButton:link > span,.fancyButton368.fancyButton:visited > span, .fancyButton368div.fancyButton > span{
+}
+.fancyButton368.fancyButton:hover > span,.fancyButton368.fancyButton:focus > span,.fancyButton368.fancyButton:active > span,.fancyButton368.fancyButton.hover > span{
+}
+.fancyButton368.fancyButton .text{
+	color: #ffffff;
+	font-size: 1.1em;
+	font-family: "Lato";
+	padding-top: 170px;
+	font-weight: 900;
+	text-decoration: none;
+	padding-top: 170px;
+	background-image: url('/ImageRepository/Document?documentID=5791');
+	background-repeat: no-repeat;
+	background-position: center 55px ;
+line-height: 1.2;
+transition: all .3s ease-in-out;text-transform: uppercase;}
+.fancyButton368.fancyButton:hover .text,.fancyButton368.fancyButton:focus .text,.fancyButton368.fancyButton:active .text,.fancyButton368.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: center 45px ;
+
+
+}
+</style>
+
+ </li><!--
+--></ul></div><!--				-->
+				</div>
+			</nav>
+		</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div><div data-cpRole="contentContainer" id="footerTS">	<div id="ccf8ada5d0-aae4-42d7-af89-d86bf9faa860" data-containerid="f8ada5d0-aae4-42d7-af89-d86bf9faa860" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile" data-contentcontainerbreakpoint="60">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col3 first" style="" data-widgetcontainerid="34fdbc46-7c06-46bd-98b1-0f16cae9e3b0">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col3 first last id5e378378-1cb0-4f8d-8288-340ae40d1269" style="" data-widgetcontainerid="5e378378-1cb0-4f8d-8288-340ae40d1269">	
+    <div data-widget-id="c87def02-13dd-4ec1-98fa-2d256cc60585" data-widget-controller-path="/InfoAdvanced/Widget">
+
+
+
+
+
+	<section id="divInfoAdvc87def02-13dd-4ec1-98fa-2d256cc60585" class="widget widgetInfoAdvanced skin66 widgetOptionSet5 wide" data-modulewidgettype="infoAdv" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-labelledby="headerc87def02-13dd-4ec1-98fa-2d256cc60585">
+			<header class="widgetHeader" id="headerc87def02-13dd-4ec1-98fa-2d256cc60585">
+		<div class="">
+					<h3 >Contact Eagle</h3>
+								</div>
+	</header>
+	<div class="widgetBody  cpGrid cpGrid1 ">
+		<div class="row  wide">
+					<div class="col col1 first last">
+						<ol class="pageStyles semanticList">
+
+<li class="InfoAdvanced widgetItem fr-view">
+	<style>
+	p {
+		margin-bottom: 2px;/* Adjust the spacing between paragraphs */
+	}
+
+</style><p>660 E Civic Lane<br>P.O. Box 1520<br>Eagle, ID<br>Phone: <a href="tel:208-939-6813">208-939-6813</a></p><p><a href="https://www.cityofeagle.org/Jobs.aspx" target="_blank" rel="noopener"></a><a href="https://lf.cityofeagle.org/Forms/Photographic-Consent-and-Release-Form" target="_blank" rel="noopener"></a><a href="/directory.aspx" id="isPasted">Staff Directory</a></p><p><a href="https://www.cityofeagle.org/Jobs.aspx" target="_blank" rel="noopener" id="isPasted">Careers</a></p>
+</li>						</ol>
+					</div>
+		</div>
+	</div>
+	<div class="widgetFooter">
+
+	</div>
+
+	</section>
+
+
+
+<script type="text/javascript">
+	//Render slideshow if info advacned items contain one.
+	$(document).ready(function (e) {
+		$('#divInfoAdvc87def02-13dd-4ec1-98fa-2d256cc60585 .InfoAdvanced.widgetItem').each(function () {
+			renderSlideshowIfApplicable($(this));		
+		});
+	});
+</script></div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col2" style="" data-widgetcontainerid="8b3bd686-961b-4bd6-b9ae-b34ac1adb072">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col2 first last id1e910e7e-282d-450a-aee3-41dd46741641" style="" data-widgetcontainerid="1e910e7e-282d-450a-aee3-41dd46741641">	
+
+<div class="widget widgetSpacer" id="3806cf0f-b5f9-4f5b-ad90-c07ca82839d9"></div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col4" style="" data-widgetcontainerid="7b1fe687-7d7b-4dc9-a42d-d689c5690793">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col4 first last id5ea75a2c-23f8-4189-9dd0-193078697a25" style="" data-widgetcontainerid="5ea75a2c-23f8-4189-9dd0-193078697a25">	
+<div data-widget-id="5563358d-8173-4085-9efc-d383170da39a" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidget5563358d-8173-4085-9efc-d383170da39a" class="widget widgetGraphicLinks skin66 widgetOptionSet4 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+			<h3 id="GraphicLinkHeaderText" class="" >Social Media</h3>
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid1 ">
+		<nav class="widgetGraphicLinksNav" aria-labelledby="GraphicLinkHeaderText">
+					<ul class="semanticList">
+						<!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://www.facebook.com/cityofeagleidaho" target="_self" class="fancyButton fancyButton359 " >
+		<span>
+			<span><span class="text">Facebook</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton359.fancyButton:link,.fancyButton359.fancyButton:visited, .fancyButton359div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5796');
+	background-repeat: no-repeat;
+	background-position: left center;
+max-width: 100px;
+margin: 0 auto;}
+.fancyButton359.fancyButton:hover,.fancyButton359.fancyButton:focus,.fancyButton359.fancyButton:active,.fancyButton359.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton359.fancyButton:link > span,.fancyButton359.fancyButton:visited > span, .fancyButton359div.fancyButton > span{
+}
+.fancyButton359.fancyButton:hover > span,.fancyButton359.fancyButton:focus > span,.fancyButton359.fancyButton:active > span,.fancyButton359.fancyButton.hover > span{
+}
+.fancyButton359.fancyButton .text{
+	color: #ffffff;
+	text-align: left;
+	padding-left: 35px;
+	text-decoration: none;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-position: left top;
+height: 23px;
+}
+.fancyButton359.fancyButton:hover .text,.fancyButton359.fancyButton:focus .text,.fancyButton359.fancyButton:active .text,.fancyButton359.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left top;
+
+
+}
+</style>
+
+ </li><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://www.instagram.com/cityofeagleid/?hl=en" target="_self" class="fancyButton fancyButton361 " >
+		<span>
+			<span><span class="text">Instagram</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton361.fancyButton:link,.fancyButton361.fancyButton:visited, .fancyButton361div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5797');
+	background-repeat: no-repeat;
+	background-position: left center;
+max-width: 100px;
+margin: 0 auto;}
+.fancyButton361.fancyButton:hover,.fancyButton361.fancyButton:focus,.fancyButton361.fancyButton:active,.fancyButton361.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton361.fancyButton:link > span,.fancyButton361.fancyButton:visited > span, .fancyButton361div.fancyButton > span{
+}
+.fancyButton361.fancyButton:hover > span,.fancyButton361.fancyButton:focus > span,.fancyButton361.fancyButton:active > span,.fancyButton361.fancyButton.hover > span{
+}
+.fancyButton361.fancyButton .text{
+	color: #ffffff;
+	text-align: left;
+	padding-left: 35px;
+	text-decoration: none;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-position: left top;
+height: 23px;
+}
+.fancyButton361.fancyButton:hover .text,.fancyButton361.fancyButton:focus .text,.fancyButton361.fancyButton:active .text,.fancyButton361.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left top;
+
+
+}
+</style>
+
+ </li><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/youtube" target="_self" class="fancyButton fancyButton362 " >
+		<span>
+			<span><span class="text">YouTube</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton362.fancyButton:link,.fancyButton362.fancyButton:visited, .fancyButton362div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5806');
+	background-repeat: no-repeat;
+	background-position: left center;
+max-width: 100px;
+margin: 0 auto;}
+.fancyButton362.fancyButton:hover,.fancyButton362.fancyButton:focus,.fancyButton362.fancyButton:active,.fancyButton362.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton362.fancyButton:link > span,.fancyButton362.fancyButton:visited > span, .fancyButton362div.fancyButton > span{
+}
+.fancyButton362.fancyButton:hover > span,.fancyButton362.fancyButton:focus > span,.fancyButton362.fancyButton:active > span,.fancyButton362.fancyButton.hover > span{
+}
+.fancyButton362.fancyButton .text{
+	color: #ffffff;
+	text-align: left;
+	padding-left: 35px;
+	text-decoration: none;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-position: left top;
+height: 23px;
+}
+.fancyButton362.fancyButton:hover .text,.fancyButton362.fancyButton:focus .text,.fancyButton362.fancyButton:active .text,.fancyButton362.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left top;
+
+
+}
+</style>
+
+ </li><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://nextdoor.com/city/eagle--id/" target="_self" class="fancyButton fancyButton363 " >
+		<span>
+			<span><span class="text">NextDoor</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton363.fancyButton:link,.fancyButton363.fancyButton:visited, .fancyButton363div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5799');
+	background-repeat: no-repeat;
+	background-position: left center;
+max-width: 100px;
+margin: 0 auto;}
+.fancyButton363.fancyButton:hover,.fancyButton363.fancyButton:focus,.fancyButton363.fancyButton:active,.fancyButton363.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton363.fancyButton:link > span,.fancyButton363.fancyButton:visited > span, .fancyButton363div.fancyButton > span{
+}
+.fancyButton363.fancyButton:hover > span,.fancyButton363.fancyButton:focus > span,.fancyButton363.fancyButton:active > span,.fancyButton363.fancyButton.hover > span{
+}
+.fancyButton363.fancyButton .text{
+	color: #ffffff;
+	text-align: left;
+	padding-left: 35px;
+	text-decoration: none;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-position: left top;
+height: 23px;
+}
+.fancyButton363.fancyButton:hover .text,.fancyButton363.fancyButton:focus .text,.fancyButton363.fancyButton:active .text,.fancyButton363.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left top;
+
+
+}
+</style>
+
+ </li><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://x.com/cityofeagle_id" target="_self" class="fancyButton fancyButton462 " >
+		<span>
+			<span><span class="text">X</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton462.fancyButton:link,.fancyButton462.fancyButton:visited, .fancyButton462div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5803');
+	background-repeat: no-repeat;
+	background-position: left center;
+max-width: 100px;
+margin: 0 auto;}
+.fancyButton462.fancyButton:hover,.fancyButton462.fancyButton:focus,.fancyButton462.fancyButton:active,.fancyButton462.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton462.fancyButton:link > span,.fancyButton462.fancyButton:visited > span, .fancyButton462div.fancyButton > span{
+}
+.fancyButton462.fancyButton:hover > span,.fancyButton462.fancyButton:focus > span,.fancyButton462.fancyButton:active > span,.fancyButton462.fancyButton.hover > span{
+}
+.fancyButton462.fancyButton .text{
+	color: #ffffff;
+	text-align: left;
+	padding-left: 35px;
+	text-decoration: none;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-position: left top;
+height: 23px;
+}
+.fancyButton462.fancyButton:hover .text,.fancyButton462.fancyButton:focus .text,.fancyButton462.fancyButton:active .text,.fancyButton462.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left top;
+
+
+}
+</style>
+
+ </li><!--
+	    --><li class="widgetItem GraphicLinks">
+
+<div>
+	<a href="https://www.linkedin.com/company/cityofeagle" target="_self" class="fancyButton fancyButton364 " >
+		<span>
+			<span><span class="text">LinkedIn</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton364.fancyButton:link,.fancyButton364.fancyButton:visited, .fancyButton364div.fancyButton{
+	background-image: url('/ImageRepository/Document?documentID=5798');
+	background-repeat: no-repeat;
+	background-position: left center;
+max-width: 100px;
+margin: 0 auto;}
+.fancyButton364.fancyButton:hover,.fancyButton364.fancyButton:focus,.fancyButton364.fancyButton:active,.fancyButton364.fancyButton.hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.fancyButton364.fancyButton:link > span,.fancyButton364.fancyButton:visited > span, .fancyButton364div.fancyButton > span{
+}
+.fancyButton364.fancyButton:hover > span,.fancyButton364.fancyButton:focus > span,.fancyButton364.fancyButton:active > span,.fancyButton364.fancyButton.hover > span{
+}
+.fancyButton364.fancyButton .text{
+	color: #ffffff;
+	text-align: left;
+	padding-left: 35px;
+	text-decoration: none;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-position: left top;
+height: 23px;
+}
+.fancyButton364.fancyButton:hover .text,.fancyButton364.fancyButton:focus .text,.fancyButton364.fancyButton:active .text,.fancyButton364.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: left top;
+
+
+}
+</style>
+
+ </li><!--
+					-->
+					</ul>
+			</nav>
+		</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col1" style="" data-widgetcontainerid="304af502-5f39-4b68-9b6b-b51382ba68ae">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col1 first last idfed36e97-606b-4db8-8148-2edd7141d07c" style="" data-widgetcontainerid="fed36e97-606b-4db8-8148-2edd7141d07c">	
+
+<div class="widget widgetSpacer" id="0d8338ba-b8bf-48e4-b035-0247f8ee73c6"></div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col4" style="" data-widgetcontainerid="2572bea0-b376-4f06-958d-f70ab0096a18">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col4 first last idcc0181f4-8b63-429a-b5a7-fe88a1243054" style="" data-widgetcontainerid="cc0181f4-8b63-429a-b5a7-fe88a1243054">	
+	<div data-widget-id="c11d8180-5ccb-4746-ac02-5d1ed4c67b70" data-widget-controller-path="/QuickLinks/Widget">
+
+
+
+
+
+
+
+
+	<section id="widgetQuicklinkc11d8180-5ccb-4746-ac02-5d1ed4c67b70" class="widget widgetQuickLinks skin66 widgetOptionSet27 narrow" data-modulewidgettype="quickLinks" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-labelledby="quickLinksHeaderc11d8180-5ccb-4746-ac02-5d1ed4c67b70">
+			<header class="widgetHeader" id="quickLinksHeaderc11d8180-5ccb-4746-ac02-5d1ed4c67b70">
+		<div class="">
+					<h3><a  style="" href="/QuickLinks.aspx?CID=36" >Popular Resources</a></h3>
+						</div>
+	</header>
+	<div class="widgetBody cpGrid cpGrid1 ">
+        <div class="row  narrow">
+				<div class="col col1 first last">
+					<ol class="semanticList">
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://commerce.idaho.gov/" target="_blank" aria-label="Idaho Department of Commerce - Helpful Links - Economic Development opens in new window" rel="noopener">Idaho Department of Commerce</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.bvep.org/" target="_blank" aria-label="Boise Valley Economic Partnership - Helpful Links - Economic Development opens in new window" rel="noopener">Boise Valley Economic Partnership </a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.labor.idaho.gov/" target="_blank" aria-label="Idaho Department of Labor - Helpful Links - Economic Development opens in new window" rel="noopener">Idaho Department of Labor</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.idahopower.com/" target="_blank" aria-label="Idaho Power Company - Helpful Links - Economic Development opens in new window" rel="noopener">Idaho Power Company</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.eaglesewer.org/" target="_blank" aria-label="Eagle Sewer District - Helpful Links - Economic Development opens in new window" rel="noopener">Eagle Sewer District</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.eaglechamber.com/" target="_self" aria-label="Eagle Chamber of Commerce - Helpful Links - Economic Development" rel="">Eagle Chamber of Commerce</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+		</div>
+        
+	</div>
+	<div class="widgetFooter">
+	</div>
+	<div class="addItemModal hidden">
+		<div class="url hidden">/QuickLinks.aspx</div>
+	</div>
+
+	</section>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col2" style="" data-widgetcontainerid="4f1f81ff-765f-4288-af3c-ad285bad9973">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col2 first last idf822c2e3-f22f-45b3-9e17-54dbfa6b02d1" style="" data-widgetcontainerid="f822c2e3-f22f-45b3-9e17-54dbfa6b02d1">	
+
+<div class="widget widgetSpacer" id="e94b2a7a-080f-46ad-b1a4-8bacfde17c6a"></div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col3" style="" data-widgetcontainerid="ac96f102-11c9-41af-837a-bfc37c9f5281">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col3 first last ide0fcea4d-3b56-47d7-99f5-9030627cca5a" style="" data-widgetcontainerid="e0fcea4d-3b56-47d7-99f5-9030627cca5a">	
+	<div data-widget-id="b9a553dc-b2d2-4be0-9064-476fa288bb53" data-widget-controller-path="/QuickLinks/Widget">
+
+
+
+
+
+
+
+
+	<section id="widgetQuicklinkb9a553dc-b2d2-4be0-9064-476fa288bb53" class="widget widgetQuickLinks skin66 widgetOptionSet27 narrow" data-modulewidgettype="quickLinks" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-labelledby="quickLinksHeaderb9a553dc-b2d2-4be0-9064-476fa288bb53">
+			<header class="widgetHeader" id="quickLinksHeaderb9a553dc-b2d2-4be0-9064-476fa288bb53">
+		<div class="">
+					<h3><a  style="" href="/QuickLinks.aspx?CID=11" >Site Links</a></h3>
+						</div>
+	</header>
+	<div class="widgetBody cpGrid cpGrid1 ">
+        <div class="row  narrow">
+				<div class="col col1 first last">
+					<ol class="semanticList">
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.cityofeagle.org/" target="_blank" aria-label="Homepage - Site Links opens in new window" rel="noopener">Homepage</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/sitemap" target="_self" aria-label="Site Map - Site Links" rel="">Site Map</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.cityofeagle.org/contactus" target="_blank" aria-label="Contact Us - Site Links opens in new window" rel="noopener">Contact Us</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/Accessibility" target="_self" aria-label="Accessibility - Site Links" rel="">Accessibility</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/site/copyright" target="_self" aria-label="Copyright Notices - Site Links" rel="">Copyright Notices</a>
+        <div class="widgetMeta"></div>
+    </li>
+
+
+
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/privacy" target="_self" aria-label="Privacy Policy - Site Links" rel="">Privacy Policy</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+		</div>
+        
+	</div>
+	<div class="widgetFooter">
+	</div>
+	<div class="addItemModal hidden">
+		<div class="url hidden">/QuickLinks.aspx</div>
+	</div>
+
+	</section>
+</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col2" style="" data-widgetcontainerid="20df1272-0fcc-4a53-b967-bdedef18babc">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col2 first last id802ad01c-6c38-4414-843b-9dd165f66fcb" style="" data-widgetcontainerid="802ad01c-6c38-4414-843b-9dd165f66fcb">	
+
+<div class="widget widgetSpacer" id="ec3814e6-71ff-47c8-adf0-a3f022da0f71"></div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col2" style="" data-widgetcontainerid="0a2ea86d-e51c-4e42-adc4-16a96f9fd8ed">				
+	<div class="row nest first wide">
+	
+	<div class="inner col col2 first last id9c3d36a7-dfa9-4f6c-bebc-895304f91a38" style="" data-widgetcontainerid="9c3d36a7-dfa9-4f6c-bebc-895304f91a38">	
+    <div data-widget-id="6190e54e-5255-4d5f-8190-0c0d16714985" data-widget-controller-path="/InfoAdvanced/Widget">
+
+
+
+
+
+	<section id="divInfoAdv6190e54e-5255-4d5f-8190-0c0d16714985" class="widget widgetInfoAdvanced skin62 widgetOptionSet5 wide" data-modulewidgettype="infoAdv" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-label="Info Advanced">
+			<header class="widgetHeader" id="header6190e54e-5255-4d5f-8190-0c0d16714985">
+		<div class="">
+								</div>
+	</header>
+	<div class="widgetBody  cpGrid cpGrid1 ">
+		<div class="row  wide">
+					<div class="col col1 first last">
+						<ol class="pageStyles semanticList">
+
+<li class="InfoAdvanced widgetItem fr-view">
+	<p><img src="/ImageRepository/Document?documentId=5787" class="fr-dib" alt="Eagle Idaho"></p>
+</li>						</ol>
+					</div>
+		</div>
+	</div>
+	<div class="widgetFooter">
+
+	</div>
+
+	</section>
+
+
+
+<script type="text/javascript">
+	//Render slideshow if info advacned items contain one.
+	$(document).ready(function (e) {
+		$('#divInfoAdv6190e54e-5255-4d5f-8190-0c0d16714985 .InfoAdvanced.widgetItem').each(function () {
+			renderSlideshowIfApplicable($(this));		
+		});
+	});
+</script></div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+	<div class="row nest last wide">
+	
+	<div class="inner col col2 first last idee093235-a678-4f85-86d9-01f231205dd7" style="" data-widgetcontainerid="ee093235-a678-4f85-86d9-01f231205dd7">	
+    <div data-widget-id="94b42ffd-2e51-420b-ba4a-9238fe1501de" data-widget-controller-path="/InfoAdvanced/Widget">
+
+
+
+
+
+	<section id="divInfoAdv94b42ffd-2e51-420b-ba4a-9238fe1501de" class="widget widgetInfoAdvanced skin62 widgetOptionSet5 wide" data-modulewidgettype="infoAdv" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-label="Info Advanced">
+			<header class="widgetHeader" id="header94b42ffd-2e51-420b-ba4a-9238fe1501de">
+		<div class="">
+								</div>
+	</header>
+	<div class="widgetBody  cpGrid cpGrid1 ">
+		<div class="row  wide">
+					<div class="col col1 first last">
+						<ol class="pageStyles semanticList">
+
+<li class="InfoAdvanced widgetItem fr-view">
+	<p><a href="https://www.visitsouthwestidaho.org/"><img src="/ImageRepository/Document?documentId=6534" class="fr-dib" alt="Visit Southwest Idaho Logo"></a></p>
+</li>						</ol>
+					</div>
+		</div>
+	</div>
+	<div class="widgetFooter">
+
+	</div>
+
+	</section>
+
+
+
+<script type="text/javascript">
+	//Render slideshow if info advacned items contain one.
+	$(document).ready(function (e) {
+		$('#divInfoAdv94b42ffd-2e51-420b-ba4a-9238fe1501de .InfoAdvanced.widgetItem').each(function () {
+			renderSlideshowIfApplicable($(this));		
+		});
+	});
+</script></div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col1 last" style="" data-widgetcontainerid="2fc1bbae-0ebe-46a6-a5cb-501eff1190b4">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col1 first last ida23c6786-eb70-458d-97cf-3c050426bcf7" style="" data-widgetcontainerid="a23c6786-eb70-458d-97cf-3c050426bcf7">	
+
+<div class="widget widgetSpacer" id="cfb54a71-684b-4432-9491-82557d59373f"></div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</footer><!-- Powered By --><div data-cpRole="structuralContainer" id="poweredByContainerTS">
+<div class="siteWrap2"><div data-cpRole="contentContainer" id="poweredByTS">	<div id="cc651800d0-ff68-43a6-aa42-bcdc0aab6448" data-containerid="651800d0-ff68-43a6-aa42-bcdc0aab6448" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="74a749bb-7b7d-4d7d-a956-4467e1711a21">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last ide75ce1f5-0169-4547-a4f9-eca42075007c" style="" data-widgetcontainerid="e75ce1f5-0169-4547-a4f9-eca42075007c">	
+ 
+	<div data-widget-id='173ff7cc-d9e7-4153-8132-97552cc8e9dc' data-moduleName="customHtml" id='widgetCustomHtml173ff7cc-d9e7-4153-8132-97552cc8e9dc' class="widget widgetCustomHtml skin67 narrow" >
+	<div class="widgetBody pageStyles" id="widgetBody173ff7cc-d9e7-4153-8132-97552cc8e9dc">
+		<div id="customHtml173ff7cc-d9e7-4153-8132-97552cc8e9dc"><div><style>
+  /* CP icon */
+  .cpBylineIconTS {
+  }
+  /* CP Text */
+  .cpBylineTextTS,
+  .cpBylineTextTS a:link {
+  }
+
+  .cpBylineTS {
+    text-align: center;
+  }
+  
+  .cpBylineIconTS {
+    fill: currentColor;
+    width: 39px;
+    height: 26px;
+    display: inline;
+    vertical-align: middle;
+  }
+</style>
+
+<div class="widgetItem cpBylineTS">
+  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" class="cpBylineIconTS">
+    <path class="c" d="M73.4,23.2h-19v16.7h19c2.8,0,5,2.2,5,5c0,2.8-2.2,5-5,5h-19v28.4h5.5l11.3-11.7h2.2c11.9,0,21.6-9.7,21.6-21.6C95,33,85.3,23.2,73.4,23.2"></path>
+    <path class="p" d="M45.8,66.5H26.6C14.7,66.5,5,56.8,5,44.9C5,33,14.7,23.2,26.6,23.2h19.1v16.7H26.6c-2.8,0-5,2.2-5,5c0,2.8,2.2,5,5,5h19.1V66.5z"></path>
+  </svg>
+  <span class="cpBylineTextTS">Government Websites by <a href="https://connect.civicplus.com/referral">CivicPlus&reg;</a></span>
+</div>
+</div></div>
+	</div>
+
+	</div>
+
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</div>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+<link href="/745732998.css" rel="stylesheet" type="text/css" />
+
+<div id="SplashMessageWrapper" class="cp-Splash-wrapper">
+	<div role="dialog" aria-labelledby="cp-Splash-title" aria-describedby="editorContentDesc" aria-modal="true" tabindex="-1" id="SplashMessage" class="hidden cp-Splash cp-Splash--modal is-open">
+		<div class="cp-Splash-header">
+			<h2 class="cp-Splash-title" id="cp-Splash-title">Loading</h2>
+			<button class="cp-Splash-Btn cp-Splash-close" aria-label="Close this modal" title="Close this window">
+				<svg id="iconClose" viewBox="0 0 25 25">
+					<polygon style="fill:currentcolor"
+							 points="18.806,6.98 18.075,6.248 12.532,11.792 6.989,6.248 6.257,6.98 11.786,12.508 6.212,18.084 6.943,18.815 12.532,13.224 18.12,18.815 18.851,18.084 13.277,12.508"></polygon>
+				</svg>
+			</button>
+		</div>
+		<div class="cp-Splash-body">
+			<div class="cp-Splash-Prose editorContent fr-view" id="editorContentDesc">
+				<!-- Content from the Froala Editor will go here. -->
+				Loading
+			</div>
+		</div>
+		<div class="cp-Splash-footer">
+			<button class="cp-Splash-Btn cp-Splash-Btn--NoShow">Do Not Show Again</button>
+			<button class="cp-Splash-Btn cp-Splash-Btn--Close">Close</button>
+		</div>
+	</div>
+</div>
+
+<script src="/Assets/Scripts/APIClient.js"></script>
+<script src="/Assets/Mystique/Shared/Scripts/Moment/Moment.min.js"></script>
+<script src="/Assets/Scripts/SplashModal/SplashModalRender.js"></script>
+<script>
+
+		$(document).ready(function () {
+			var filter = {
+				targetId: '171',
+				targetType: 1
+			}
+
+			new SplashModalRender().triggerRender(filter);
+		});
+</script>
+
+
+	
+	
+	
+	
+
+
+
+	
+
+
+
+
+
+
+    <script src="/-1442400649.js" type="text/javascript"></script>
+    <!-- Google Translate -->
+	<script type="text/javascript">
+	var translateActiveCookie = getCookieValue('translateActive');
+
+	if (translateActiveCookie == 'true') {
+		enableGoogleTranslate();
+	} else {
+		var button = '<a class="translateWidget" title="Enable Google Translate" style="background-color: #FFF;border-color: #9b9b9b #d5d5d5 transparent #d5d5d5;border-style: solid;border-width: 1px 1px 0 1px;bottom: 0px;color: #000;cursor: pointer;font-size: .9em;padding: 2px 6px 3px 4px;position: fixed;right: 20px;z-index: 5;">';
+		button += '<img alt="Google Translate Icon" src="/Assets/Images/GoogleTranslate.gif" style="box-sizing: content-box !important;height:19px;margin: -2px 0 0 -2px;padding-right: 5px;width:19px;">Enable Google Translate</a>';
+		$('div[data-cprole="structuralContainer"]').last().after(button);
+	}
+
+	function googleTranslateElementInit() {
+  		var el = document.getElementById("google_translate_element");
+  		if (el && el.innerHTML.trim() !== "") {
+  		    return;
+  		}
+
+  		new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+	}
+
+	function enableGoogleTranslate() {
+		$('#google_translate_element').show();
+		var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+		sz.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+		$('div[data-cprole="structuralContainer"]').last().after('<div id="google_translate_element" style="position: fixed; bottom: 0px; right: 20px; z-index: 5;"></div>');
+	        document.cookie = "translateActive=true; expires=12/31/2999; path=/";
+	}
+
+	$('a.translateWidget').unbind('click').click(function (e) {
+		$(this).hide();
+		enableGoogleTranslate();
+	});
+	</script>
+	<!-- End Google Translate -->
+
+<!-- Fixed Nav Adjustment -->
+<script>
+  function getValueTS(elem, attr) {
+    const val = elem.css(attr);
+    if (val === undefined) return undefined;
+    const num = parseInt(val, 10);
+    if (num === NaN) return undefined;
+    return num;
+  }
+
+  function clampTS(number, min, max) {
+    return Math.min(Math.max(number, min), max);
+  }
+
+  function isPageEditingTS() {
+    return (
+      $("#doneEditing").length > 0 || // In live edit
+      typeof DesignCenter !== "undefined" // In theme manager
+    );
+  }
+
+  const bgColorRegexTS = /rgba\((\d+), (\d+), (\d+), (\d*\.?\d*)\)/;
+  function isTransparentTS(elem) {
+    const bg = elem.css('background-color');
+    if (typeof bg !== "string" || !bg.startsWith('rgba(')) return false;
+    const matchState = bg.match(bgColorRegexTS);
+    if (!matchState || matchState.length !== 5) return false;
+    const alpha = parseFloat(matchState[4], 10);
+    if (!(alpha >= 0 && alpha < 1)) return false;
+    return true;
+  }
+
+  function iterateLeftpads(cb) {
+    const containersTS = $("[class^='siteWrap'],[class*=' siteWrap']");
+    for (let i = 0; i < containersTS.length; i++) {
+      const containerTS = containersTS[i];
+      // Skip the body container and anything with data-skip-leftpad
+      if (
+        containerTS.id !== "bodyContainerTS" &&
+        containerTS.getAttribute('data-skip-leftpad') === null
+      ) {
+        cb(containerTS);
+      }
+    }
+  }
+
+  const anchor = $("#divToolbars");
+
+  // Outer banner padding (push banner down)
+  const outerSizingTS = $("#bannerContainerTS");
+  // Inner banner padding (push banner content down) - Transparent header OR on attaching headers
+  const innerSizingTS = $("#bannerSizingTS");
+  const bodyContainerTS = $("#bodyContainerTS");
+
+  const forceUnfixClassTS = "forceUnfixTS";
+
+  const fixedTopTS = $(".fixedTopTS");
+  const fixedBottomTS = $(".fixedBottomTS");
+  const fixedLeftTS = $(".fixedLeftTS");
+
+  var initialTopTS;
+  var topAttachTS;
+  if (fixedTopTS && fixedTopTS.length === 1) {
+    initialTopTS = getValueTS(fixedTopTS, 'top');
+    const attachment = fixedTopTS.attr('data-attach');
+    if (attachment) topAttachTS = $("#" + attachment);
+    if (!topAttachTS || topAttachTS.length !== 1) topAttachTS = undefined;
+  }
+
+  function resizeAdjustmentTS() {
+    const editing = isPageEditingTS();
+
+    // Fixed top script
+    (function () {
+      if (!fixedTopTS || fixedTopTS.length !== 1 || initialTopTS === undefined) return;
+
+      if (editing) {
+        fixedTopTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedTopTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      const topPosition = fixedTopTS.css('position');
+      if (topPosition === 'fixed') {
+        if (topAttachTS) {
+          scrollAdjustmentTS();
+        } else {
+          const anchorHeight = anchor.outerHeight() - 1;
+          fixedTopTS.css('top', anchorHeight + initialTopTS);
+        }
+      } else {
+        fixedTopTS.css('top', initialTopTS);
+      }
+
+      if (topPosition === 'fixed' || topPosition === 'absolute') {
+        // Bump the banner content down
+        if (isTransparentTS(fixedTopTS)) {
+          innerSizingTS.css('padding-top', initialTopTS + fixedTopTS.outerHeight() - 1);
+          outerSizingTS.css('padding-top', '');
+
+          try {
+            window.Pages.onResizeHandlersExecute();
+          } catch (e) { }
+        } else {
+          outerSizingTS.css('padding-top', fixedTopTS.outerHeight() - 1);
+          innerSizingTS.css('padding-top', '');
+        }
+      } else {
+        innerSizingTS.css('padding-top', '');
+        outerSizingTS.css('padding-top', '');
+      }
+    })();
+
+    // Fixed bottom script
+    (function () {
+      if (!fixedBottomTS || fixedBottomTS.length === 0) return;
+
+      // If the widget has gone narrow, force unfix
+      if (editing || fixedBottomTS.outerHeight() > 200) {
+        fixedBottomTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedBottomTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      if (fixedBottomTS.css('position') === 'fixed') {
+        bodyContainerTS.css('padding-bottom', fixedBottomTS.outerHeight());
+      } else {
+        bodyContainerTS.css('padding-bottom', '');
+      }
+    })();
+
+    // Fixed left script
+    (function () {
+      if (!fixedLeftTS || fixedLeftTS.length === 0) return;
+
+      if (editing) {
+        fixedLeftTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedLeftTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      if (fixedLeftTS.css('position') === 'fixed') {
+        const anchorHeight = anchor.outerHeight() - 1;
+        fixedLeftTS.css('top', anchorHeight);
+        const leftBoundingTS = fixedLeftTS[0].getBoundingClientRect();
+        iterateLeftpads(function (containerTS) {
+          const containerBoundingTS = containerTS.getBoundingClientRect();
+          if (containerBoundingTS.left <= leftBoundingTS.right) {
+            $(containerTS).css('padding-left', leftBoundingTS.width + 16);
+          }
+        });
+      } else {
+        fixedLeftTS.css('top', '');
+        iterateLeftpads(function (containerTS) {
+          $(containerTS).css('padding-left', '');
+        });
+      }
+    })();
+  }
+
+  function scrollAdjustmentTS() {
+    if (!fixedTopTS || fixedTopTS.length !== 1 || !topAttachTS || topAttachTS.length !== 1) return;
+    const topPosition = fixedTopTS.css('position');
+    if (topPosition === 'fixed' || topPosition === 'absolute') {
+      const anchorBounding = anchor[0].getBoundingClientRect();
+      const attachBounding = topAttachTS[0].getBoundingClientRect();
+      const scrollTop = $(window).scrollTop();
+
+      fixedTopTS.css('top', Math.max(anchorBounding.bottom - 1, attachBounding.bottom));
+    } else {
+      fixedTopTS.css('top', initialTopTS);
+    }
+  }
+
+  $(window).load(function () {
+    setTimeout(function () {
+      resizeAdjustmentTS();
+    }, 350);
+
+    $(window).scroll(function () {
+      scrollAdjustmentTS();
+    });
+
+    var adjustTimeoutTS;
+    $(window).resize(function () {
+      clearTimeout(adjustTimeoutTS);
+      adjustTimeoutTS = setTimeout(function () {
+        resizeAdjustmentTS();
+      }, 350);
+    });
+
+    $.when(window.Pages.angularToolbarComplete).done(function () {
+      resizeAdjustmentTS();
+    });
+  });
+</script>
+<!-- End Fixed Nav Adjustment -->
+
+<!-- Move banner to outer wrap --> 
+<script> 
+function moveBannerToOuterWrap() { 
+    if ($(".fixedBannerTS").length) { 
+		if ($("#bannerDivbanner2").length) { 
+			$("#bannerDivbanner2").appendTo("#outer-wrap"); 
+		} else { 
+			setTimeout(function() { 
+				moveBannerToOuterWrap(); 
+			}, 500); 
+		} 
+	}
+} 
+moveBannerToOuterWrap(); 
+</script> 
+<!-- end move banner to outer wrap -->
+
+
+    <script type="text/javascript">
+        $(function () {
+            document.cookie = "responsiveGhost=0; path=/";
+        });
+        $(window).on("load", function () {
+            $('body').addClass('doneLoading').removeClass('hideContent');
+
+            if ($('#404Content').length > 0)
+                $('div#bodyWrapper').css('padding', '0px');
+        });
+    </script>
+
+    <noscript>
+        <style>
+            body.hideContent {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+
+        
+<div style="display: none;">
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+
+		<symbol id="iconArrow--left" viewbox="0 0 25 25">
+			<title>Arrow Left</title>
+			<polygon style="fill:currentcolor" points="18.044,25 19.498,23.545 8.409,12.454 19.408,1.455 17.954,0 5.502,12.452"></polygon>
+		</symbol>
+
+		<symbol id="iconArrow--right" viewbox="0 0 25 25">
+			<title>Arrow Right</title>
+			<polygon style="fill:currentcolor" points="6.957,0 5.502,1.455 16.591,12.546 5.592,23.545 7.047,25 19.498,12.548"></polygon>
+		</symbol>
+
+	</svg>
+</div>
+    <script type="text/javascript">loadCSS('//fonts.googleapis.com/css?family=Alex+Brush:regular|Fira+Sans:500,500italic,600,600italic,700,700italic,italic,regular|Heebo:500,700,800,regular|Lato:700,700italic,900,900italic,italic,regular|Libre+Baskerville:700,italic,regular|');</script>
+    
+
+    <div class="hidden activeWidgetSkinComponentsOnPageJson">[]</div>
+        <div style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                <symbol id="iconSlideshowArrowLeft" viewBox="0 0 22.68 40">
+                    <title>Slideshow Left Arrow</title>
+                    <g>
+                        <path style="fill:currentcolor;" d="M20,40a2.67,2.67,0,0,1-1.9-.79L.79,21.9a2.68,2.68,0,0,1,0-3.79L18.1.79a2.68,2.68,0,1,1,3.79,3.79L6.47,20,21.89,35.42A2.68,2.68,0,0,1,20,40Z"></path>
+                    </g>
+                </symbol>
+                <symbol id="iconSlideshowArrowRight" viewBox="0 0 22.68 40">
+                    <title>Slideshow Right Arrow</title>
+                    <g>
+                        <path style="fill:currentcolor;" d="M2.68,0a2.67,2.67,0,0,1,1.9.79L21.89,18.1a2.68,2.68,0,0,1,0,3.79L4.58,39.21A2.68,2.68,0,0,1,.79,35.42L16.21,20,.79,4.58A2.68,2.68,0,0,1,2.68,0Z"></path>
+                    </g>
+                </symbol>
+            </svg>
+        </div>
+    
+	
+	
+
+    <div id="root-picker-outlet"></div>
+</body>
+</html>

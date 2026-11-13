@@ -1,0 +1,162 @@
+{
+ "guide": {
+  "slug": "bankruptcy-and-foreclosure-in-idaho",
+  "title": "Bankruptcy and Foreclosure in Idaho",
+  "h1": "Bankruptcy and foreclosure in Idaho: what a filing does and does not do to a trustee's sale",
+  "description": "What federal law and the U.S. Courts say a bankruptcy filing does to a pending Idaho trustee's sale: the automatic stay, chapter 7, chapter 13, selling.",
+  "cluster": "distress",
+  "published": "2026-11-13",
+  "updated": "2026-11-13"
+ },
+ "content": {
+  "intro": [
+   "A bankruptcy petition triggers the automatic stay in 11 U.S.C. 362, and the U.S. Courts say that in a chapter 13 case the stay stops a foreclosure proceeding as soon as the petition is filed. The stay can end: section 362(d) lets a creditor ask the bankruptcy court for relief from it, and Idaho Code 45-1506A lets a trustee's sale be rescheduled after the stay expires or terminates. The U.S. Courts also say the debtor may still lose the home if the foreclosure sale is completed under state law before the petition is filed, or if the regular mortgage payments that come due after filing are not made.",
+   "This page describes what the Bankruptcy Code, Idaho Code and the federal courts' own publications say, quoted from the official sources. It is not legal advice and it is not applied to your loan, your sale date or your case. Whether to file, when, and under which chapter are decisions to make with a bankruptcy attorney. We are a property buyer. We cannot stop a foreclosure, negotiate with a lender or promise an outcome."
+  ],
+  "sections": [
+   {
+    "heading": "What the automatic stay is, in the statute's words",
+    "body": [
+     "Section 362(a) of the Bankruptcy Code says a petition \"operates as a stay, applicable to all entities\" of a list of acts. The list includes any act to obtain possession of property of the estate or to exercise control over it, any act to create, perfect, or enforce any lien against property of the estate, and any act to collect a claim against the debtor that arose before the case began.",
+     "Subsection (a) does not use the word foreclosure. The plain statement comes from the U.S. Courts, which say of chapter 13: \"The automatic stay stops the foreclosure proceeding as soon as the individual files the chapter 13 petition.\" Idaho's trust deed statute points the same way. Idaho Code 45-1506A deals with a sale that \"cannot be held at the time scheduled by reason of automatic stay provisions of the U.S. bankruptcy code (11 U.S.C. 362)\".",
+     "The U.S. Courts attach three qualifiers. Filing stops \"most\" collection actions. It does not stay \"certain types of actions\" listed in section 362(b). And \"the stay may be effective only for a short time in some situations.\""
+    ],
+    "claims": [
+     "bk-362a-stay-scope",
+     "bk-uscourts-stay-described",
+     "af-uscourts-chapter-13-foreclosure",
+     "ft-rescheduled-sale-after-stay"
+    ]
+   },
+   {
+    "heading": "A creditor can ask the court to lift the stay",
+    "body": [
+     "Section 362(d) says that on request of a party in interest, and after notice and a hearing, the court \"shall grant relief from the stay\" in the situations it lists. Relief can mean terminating, annulling, modifying or conditioning the stay. The first ground is \"for cause, including the lack of adequate protection of an interest in property\" of the party asking. The second applies to a stay of an act against property where the debtor does not have an equity in the property and the property is not necessary to an effective reorganization.",
+     "Section 362(e) sets clocks on that request. Thirty days after a request for relief from the stay of an act against property of the estate, the stay ends as to the party that asked, unless the court orders it continued. In an individual's chapter 7, 11 or 13 case, the stay terminates 60 days after the request unless the court decides within that period or the period is extended. These are deadlines for handling a request. They do not measure how long a stay lasts.",
+     "Earlier cases change the picture. Under section 362(c)(3), if an individual had a case pending within the preceding 1-year period that was dismissed, the stay as to a debt or property securing that debt terminates with respect to the debtor on the 30th day after the later case is filed, unless the court extends it on a showing of good faith. Under section 362(c)(4), if two or more cases were pending within the previous year and were dismissed, the stay does not go into effect at all unless a party asks within 30 days and shows the later case was filed in good faith.",
+     "Section 362(d)(4) addresses real property directly. A secured creditor is entitled to relief if the court finds the filing was part of a scheme to delay, hinder, or defraud creditors that involved either a transfer of an interest in the property without the secured creditor's consent or court approval, or multiple bankruptcy filings affecting the property. If recorded under state law, that order binds any other bankruptcy case affecting the property filed within 2 years, subject to a later debtor's motion for relief."
+    ],
+    "claims": [
+     "bk-362d-relief-from-stay",
+     "bk-362e-thirty-and-sixty-days",
+     "bk-362c3-prior-case-thirty-days",
+     "bk-362c4-two-prior-cases-no-stay",
+     "bk-362d4-scheme-order-two-years"
+    ]
+   },
+   {
+    "heading": "What Idaho's trust deed statute says about a sale stopped by a stay",
+    "body": [
+     "An Idaho trust deed foreclosure requires notice of the trustee's sale at least 120 days before the day fixed for the sale, as [the Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline) sets out. The clocks after a bankruptcy stay are shorter.",
+     "Under Idaho Code 45-1506A, a sale that could not be held because of the automatic stay may be rescheduled and conducted after the stay expires or terminates. Notice of the rescheduled sale must be mailed at least 30 days before the new date and published once a week for three successive weeks, with the last publication at least 10 days before the sale.",
+     "Idaho Code 45-1506B covers a stay that is lifted before the original sale date. A person with the right to reinstate may ask the trustee in writing, before the time set for the original sale, to postpone the sale so that at least 115 days elapse from the recording of the notice of default to the new sale date, not counting the time the stay was in effect.",
+     "A sale that has already happened is treated differently. The U.S. Courts say the debtor may still lose the home if the mortgage company completes the foreclosure sale under state law before the petition is filed. Under Idaho Code 45-1508, a trustee's sale terminates the interest of every person who was given notice, with no right to redeem the property from the purchaser. Idaho Code 45-1510(2) describes a sale that is invalid because of the automatic stay, and lets only the trustee or beneficiary who recorded the trustee's deed record a notice of rescission. Whether a particular sale was valid is a question for a bankruptcy attorney."
+    ],
+    "claims": [
+     "id-trustee-sale-120-day-notice",
+     "ft-rescheduled-sale-after-stay",
+     "ft-stay-lifted-postponement-request",
+     "af-uscourts-chapter-13-foreclosure",
+     "ft-sale-final-no-redemption",
+     "as-rescission-of-trustee-deed-invalid-sale"
+    ]
+   },
+   {
+    "heading": "Chapter 7, as the U.S. Courts describe it",
+    "body": [
+     "The U.S. Courts describe chapter 7 as liquidation: \"the sale of a debtor's nonexempt property and the distribution of the proceeds to creditors.\" There is no repayment plan. A bankruptcy trustee gathers and sells the debtor's nonexempt assets and pays creditors from the proceeds. The page warns that \"the filing of a petition under chapter 7 may result in the loss of property.\"",
+     "On when a chapter 7 trustee sells, the U.S. Courts say the trustee sells the debtor's property if it is free and clear of liens and not exempt, or \"if it is worth more than any security interest or lien attached to the property and any exemption that the debtor holds in the property.\" If all the debtor's assets are exempt or subject to valid liens, the trustee will normally file a \"no asset\" report. The page says most chapter 7 cases involving individual debtors are no asset cases.",
+     "A chapter 7 discharge does not remove the mortgage lien. The U.S. Courts say \"a bankruptcy discharge does not extinguish a lien on property\" and that secured creditors may retain some rights to seize property securing a debt even after a discharge is granted."
+    ],
+    "claims": [
+     "bk-uscourts-chapter-7-liquidation",
+     "bk-uscourts-chapter-7-trustee-sells-when",
+     "bk-uscourts-discharge-does-not-remove-lien"
+    ]
+   },
+   {
+    "heading": "Chapter 13 and catching up on mortgage arrears through a plan",
+    "body": [
+     "The U.S. Courts describe chapter 13 as adjustment of debts of an individual with regular income, also called a wage earner's plan. The debtor proposes a plan to repay all or part of the debts in installments, usually over three to five years, and no plan may run longer than five years.",
+     "On mortgages, the U.S. Courts say that by filing under chapter 13 a person can halt foreclosure proceedings and may cure delinquent mortgage payments over time. The same page adds: \"Nevertheless, they must still make all mortgage payments that come due during the chapter 13 plan on time.\" The page adds that payments to the home mortgage lender may be made over the original loan schedule so long as any arrearage is made up during the plan.",
+     "The statute behind this is 11 U.S.C. 1322. Subsection (b)(5) lets a plan provide for \"the curing of any default within a reasonable time and maintenance of payments while the case is pending\" on a long-term secured claim. Subsection (c)(1) says a default on a lien on the debtor's principal residence may be cured \"until such residence is sold at a foreclosure sale that is conducted in accordance with applicable nonbankruptcy law.\" The section does not say at what moment an Idaho trustee's sale counts as sold for this purpose. That is a question for a bankruptcy attorney.",
+     "A plan carries duties. The U.S. Courts say the debtor must start making plan payments to the trustee within 30 days after filing, even before the court approves the plan, and may not incur new debt without consulting the trustee. If the debtor fails to make the payments due under the confirmed plan, the court may dismiss the case or convert it to a chapter 7 liquidation. Under section 362(c), the stay of an act against property of the estate continues until the property is no longer property of the estate, and the stay of any other act continues until the case is closed or dismissed or a discharge is granted or denied, whichever comes first."
+    ],
+    "claims": [
+     "bk-uscourts-chapter-13-described",
+     "bk-uscourts-chapter-13-cure-over-time",
+     "af-uscourts-chapter-13-foreclosure",
+     "bk-1322-cure-until-foreclosure-sale",
+     "bk-uscourts-chapter-13-payments-and-failure",
+     "bk-362c-stay-duration"
+    ]
+   },
+   {
+    "heading": "Selling a house during a bankruptcy case runs through the case",
+    "body": [
+     "The U.S. Courts say that commencement of a bankruptcy case creates an estate, and that \"the estate technically becomes the temporary legal owner of all the debtor's property.\"",
+     "The sale power over that property is in 11 U.S.C. 363(b)(1): \"The trustee, after notice and a hearing, may use, sell, or lease, other than in the ordinary course of business, property of the estate\". In chapter 13, section 1303 gives the debtor, exclusive of the trustee, the rights and powers of a trustee under section 363(b), and section 1306(b) says the debtor remains in possession of all property of the estate except as provided in a confirmed plan or the order confirming it.",
+     "Read together, these sections place a sale of estate property inside the bankruptcy case, with notice and a hearing, in either chapter. We did not read the definition of \"after notice and a hearing\", the section on what plan confirmation does to ownership, or the District of Idaho's local rules on sale motions, so this page does not describe the procedure.",
+     "Section 362(d)(4), described above, names a transfer of an interest in the property without the secured creditor's consent or court approval. If the house is in an open bankruptcy case, whether, how and when it can be sold are questions for the debtor's bankruptcy attorney and the case trustee, before any buyer."
+    ],
+    "claims": [
+     "bk-uscourts-estate-temporary-owner",
+     "bk-363b-sale-after-notice-and-hearing",
+     "bk-1303-chapter-13-debtor-sale-powers",
+     "bk-362d4-scheme-order-two-years"
+    ]
+   },
+   {
+    "heading": "Idaho's homestead exemption protects equity from some creditors, and it does not reach the deed of trust",
+    "body": [
+     "The U.S. Courts say the Bankruptcy Code lets an individual debtor protect some property because it is exempt under federal bankruptcy law or under the laws of the debtor's home state, and that many states have adopted their own exemption law in place of the federal exemptions. Idaho is one of them. Idaho Code 11-609 says that in any federal bankruptcy proceeding an individual debtor \"may exempt from property of the estate only such property as is specified under the laws of this state.\"",
+     "Idaho Code 55-1008 makes the homestead exempt from attachment and from execution or forced sale for the debts of the owner, up to the amount in section 55-1003, which is capped at $175,000. This creditor-protection homestead is a different statute from the property tax homeowner's exemption in Idaho Code 63-602G.",
+     "The exemption has stated exceptions. Under Idaho Code 55-1005, the homestead is subject to execution or forced sale in satisfaction of judgments on debts secured by mortgages, deeds of trust or other consensual liens on the premises, where the lien was executed and acknowledged by the husband and wife or by an unmarried claimant, or was recorded before the homestead became effective. A trustee's sale forecloses a deed of trust, one of the liens the section names. The section speaks of judgments and does not mention a trustee's sale by name.",
+     "The U.S. Courts' description of when a chapter 7 trustee sells property compares what the property is worth with the liens on it plus any exemption the debtor holds. We do not work that comparison through here, because which exemptions apply to a given debtor depends on the Bankruptcy Code and the facts. The U.S. Courts' own advice is: \"The debtor should consult an attorney to determine the exemptions available in the state where the debtor lives.\""
+    ],
+    "claims": [
+     "bk-uscourts-exemptions-ask-an-attorney",
+     "bk-idaho-exemptions-state-law-only",
+     "bk-homestead-exempt-from-forced-sale",
+     "id-homestead-creditor-175k",
+     "id-homeowners-tax-exemption-125k",
+     "bk-homestead-subject-to-deeds-of-trust",
+     "ft-foreclosure-conditions",
+     "bk-uscourts-chapter-7-trustee-sells-when"
+    ]
+   },
+   {
+    "heading": "Credit counseling comes first, and the court is in Boise, Coeur d'Alene and Pocatello",
+    "body": [
+     "Under 11 U.S.C. 109(h)(1), an individual may not be a debtor unless, during the 180-day period ending on the date the petition is filed, the individual received a briefing from an approved nonprofit budget and credit counseling agency. Section 109(h)(3) has a narrow exception for a debtor who certifies exigent circumstances and an unsuccessful request for counseling, in a form satisfactory to the court. That exception lasts no more than 30 days after the petition is filed, or 15 days more if the court orders it for cause.",
+     "The U.S. Trustee Program, which approves the agencies, says that if the credit counseling course is not completed before filing, \"the case could be dismissed.\" The U.S. Courts say a second course, debtor education, takes place after filing, and that only providers approved by the U.S. Trustee Program may issue the certificates.",
+     "This counseling is separate from housing counseling. HUD says it funds free or very low-cost housing counseling nationwide. The non-bankruptcy options a housing counselor goes through are in [how to avoid foreclosure in Idaho](/guides/how-to-avoid-foreclosure-in-idaho).",
+     "The federal bankruptcy court for Idaho is the U.S. Bankruptcy Court for the District of Idaho. The District of Idaho says its offices are located in Boise, Coeur d'Alene, and Pocatello.",
+     "The U.S. Courts say: \"Seeking the advice of a qualified lawyer is strongly recommended because bankruptcy has long-term financial and legal consequences.\" The same page says a person who is unable to afford an attorney may qualify for free legal services. One filing also affects the next: the U.S. Courts say a person who voluntarily dismissed a case after creditors sought relief from the stay cannot file under any chapter during the following 180 days."
+    ],
+    "claims": [
+     "bk-109h-credit-counseling-180-days",
+     "bk-109h-exigent-circumstances-exception",
+     "bk-ust-counseling-case-could-be-dismissed",
+     "bk-uscourts-counseling-before-education-after",
+     "af-hud-counseling-free-or-low-cost",
+     "bk-idaho-bankruptcy-court-offices",
+     "bk-uscourts-lawyer-strongly-recommended",
+     "bk-uscourts-180-day-bar"
+    ]
+   },
+   {
+    "heading": "Where we fit, and where we do not",
+    "body": [
+     "We buy property in Ada County in any condition, with our own capital. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. That can suit an owner who has not filed, has decided to sell, and has enough time before the trustee's sale for a sale to close and pay off the loan. The page on [whether to sell or keep a house facing foreclosure](/sell-or-keep-house-facing-foreclosure-idaho) sets out when a sale works. Under Idaho Code 45-1603, an owner whose property is in foreclosure may cancel a contract signed during the foreclosure period within five business days, and that includes a contract with us.",
+     "We cannot stop a foreclosure, negotiate with a lender, or give legal advice, and we have no say in a bankruptcy case. If you want to keep the house, the routes are the lender, the cure right, a housing counselor, and whatever a bankruptcy attorney advises. If you have already filed, talk to your bankruptcy attorney before any buyer, because the sources above place a sale of estate property inside the case. If there is time to list the house on the open market, a listing may bring a higher price than we would offer."
+    ],
+    "claims": [
+     "vb-cfpa-five-business-day-rescission",
+     "bk-363b-sale-after-notice-and-hearing",
+     "af-cure-within-115-days"
+    ]
+   }
+  ]
+ }
+}

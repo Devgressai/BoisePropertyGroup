@@ -102,3 +102,14 @@ Brief addendum: `research/funnel-2026-11/FORECLOSURE-CLUSTER.md`. Each folder's 
 lists what could not be sourced. Re-read before editing: the IRS cancelled-debt section
 (short-sale guide) and 12 CFR 1024.41 (avoid + sell-or-keep) are the two that can change.
 Guide pages now show same-cluster guides and their decision page under "Related".
+
+## Wave 5 and the lead pass (2026-11-13)
+
+Audit that drove it: 15 of 48 URLs known to Google; 104 impressions and 0 clicks in 90 days, at positions 45 to 95. Queries were "sell my house as is / for cash / fast" plus a city.
+
+- New BOFU pages from existing evidence: `/sell-house-with-liens-idaho`, `/sell-house-delinquent-property-taxes-idaho`.
+- New guides (research in `research/funnel-2026-11/<folder>`, each with NOTES.md listing what an attorney or tax professional should check): inheriting a house with a mortgage, reverse mortgage after the borrower dies, bankruptcy and foreclosure, unpermitted work in Ada County, income taxes on a sale.
+- Place pages: search title and description are set in `src/app/(seo)/[slug]/page.tsx`, separate from the H1.
+- Schema: Service (home, place, situation), Article (decision), FAQPage (home), ItemList (guides hub), contactPoint on Organization.
+- Links: place pages list all selling pages; selling and decision pages list siblings; guides hub grouped by topic.
+- Re-read in early 2027: the tax-year 2025 figures in the income-tax guide.

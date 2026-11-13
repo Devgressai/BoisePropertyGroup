@@ -1,0 +1,654 @@
+{
+  "claims": [
+    {
+      "id": "cg-irs-exclusion-250k-500k",
+      "claim": "IRS Topic 701 says a taxpayer with a capital gain from the sale of a main home may qualify to exclude up to $250,000 of that gain from income, or up to $500,000 on a joint return with a spouse.",
+      "quotedLanguage": "If you have a capital gain from the sale of your main home, you may qualify to exclude up to $250,000 of that gain from your income, or up to $500,000 of that gain if you file a joint return with your spouse.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion"
+      ],
+      "sourceIds": [
+        "irs-topic-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'May qualify', and only for a MAIN home. Topic 701 reads 'Page Last Reviewed or Updated: 09-Nov-2026' and gives no tax year for the figures. Never write that a seller 'will not owe tax'. Always pair with the ownership and use tests."
+    },
+    {
+      "id": "cg-irs-ownership-and-use-tests",
+      "claim": "IRS Topic 701 says that in general a seller must meet both an ownership test and a use test: owning the home for at least 24 months out of the 5 years leading up to the sale, and using it as a residence for at least 24 months of the previous 5 years. The two tests can be met during different 2-year periods, but both must be met within the 5-year period ending on the date of sale.",
+      "quotedLanguage": "In general, to qualify for this exclusion, you must meet both the ownership test and the use test. ... owned the home for at least 24 months (2 years) out of the last 5 years leading up to the date of the sale, you meet the ownership test. ... used the home as a residence for at least 24 months (2 years) of the previous 5 years, you meet the use test. You can meet the ownership and use tests during different 2-year periods. However, you must meet both tests during the 5-year period ending on the date of the sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion"
+      ],
+      "sourceIds": [
+        "irs-topic-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'In general'. Publication 523 holds exceptions (surviving spouses, military, partial exclusion). Do not tell a reader whether they pass the tests."
+    },
+    {
+      "id": "cg-irs-two-year-lookback",
+      "claim": "IRS Topic 701 says a seller is generally not eligible for the exclusion if they excluded the gain from the sale of another home during the two-year period before the sale.",
+      "quotedLanguage": "not eligible for the exclusion if you excluded the gain from the sale of another home during the two-year period prior to the sale of your home.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion"
+      ],
+      "sourceIds": [
+        "irs-topic-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'Generally'. Topic 701 refers to Publication 523 for exceptions to the two-year rule."
+    },
+    {
+      "id": "cg-irs-report-sale-if-1099s",
+      "claim": "IRS Topic 701 says a seller who receives an informational document such as Form 1099-S must report the sale of the home even if the gain is excludable, and must also report the sale if not all of the gain can be excluded; Schedule D (Form 1040) and Form 8949 are used when the sale must be reported.",
+      "quotedLanguage": "you must report the sale of the home even if the gain from the sale is excludable. Additionally, you must report the sale of the home if you can't exclude all of your capital gain from income. Use Schedule D (Form 1040), Capital Gains and Losses and Form 8949, Sales and Other Dispositions of Capital Assets when required to report the home sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "reporting"
+      ],
+      "sourceIds": [
+        "irs-topic-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Reporting is not the same as owing tax. Pair with cl-1099s-principal-residence-certification, which is about whether the closing agent files the form at all."
+    },
+    {
+      "id": "cg-irs-pub523-joint-return-tests",
+      "claim": "IRS Publication 523 (2025) says that for a married couple filing jointly only one spouse has to meet the ownership requirement, that the residence requirement is a total of 24 months (730 days) within the 5-year period and need not be one block of time, and that each spouse must meet the residence requirement individually for the couple to get the full exclusion.",
+      "quotedLanguage": "For a married couple filing jointly, only one spouse has to meet the ownership requirement. ... The 24 months of residence can fall anywhere within the 5-year period, and it doesn't have to be a single block of time. All that is required is a total of 24 months (730 days) of residence during the 5-year period. Unlike the ownership requirement, each spouse must meet the residence requirement individually for a married couple filing jointly to get the full exclusion.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Publication 523 is the 2025 edition ('For use in preparing 2025 Returns'; page last reviewed 30-Apr-2026). No 2026 edition existed on 2026-11-13. State the edition year in prose."
+    },
+    {
+      "id": "cg-irs-partial-exclusion",
+      "claim": "IRS Publication 523 (2025) says a seller who does not meet the Eligibility Test may still qualify for a partial exclusion of gain if the main reason for the home sale was a change in workplace location, a health issue, or an unforeseeable event.",
+      "quotedLanguage": "If you don't meet the Eligibility Test, you may still qualify for a partial exclusion of gain. You can meet the requirements for a partial exclusion if the main reason for your home sale was a change in workplace location, a health issue, or an unforeseeable event.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Publication 523 defines each of these events in detail. Do NOT say that financial hardship or foreclosure counts; the detailed lists were not claimed. Describe and point to the publication and a tax professional."
+    },
+    {
+      "id": "cg-irs-gain-is-amount-realized-less-basis",
+      "claim": "IRS Publication 523 (2025) says that to figure gain or loss on the sale of a main home a seller must know the selling price, the amount realized and the adjusted basis, and subtracts the adjusted basis from the amount realized; the worksheet describes the amount realized as the sale price minus selling expenses.",
+      "quotedLanguage": "To figure the gain or loss on the sale of your main home, you must know the selling price, the amount realized, and the adjusted basis. Subtract the adjusted basis from the amount realized to get your gain or loss. ... (sale price minus selling expenses)",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "basis"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Gain is NOT the cash a seller walks away with and is NOT sale price minus mortgage payoff. The prose may say the mortgage balance does not appear in the IRS formula only because the formula quoted has three terms; do not go further."
+    },
+    {
+      "id": "cg-irs-loss-on-home-not-deductible",
+      "claim": "IRS Publication 523 (2025) says that when the adjusted basis is greater than the amount realized the home was sold at a loss, that the loss cannot be deducted, and that no tax is due on the money received from the sale.",
+      "quotedLanguage": "If the number is negative (adjusted basis is greater than amount realized), you sold your home at a loss. You can't deduct this loss, but you don't need to pay any tax on the money you received from selling your home.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "This is the main-home worksheet. It does not describe a rental or investment property, and it does not address canceled debt (see ss-irs-* claims)."
+    },
+    {
+      "id": "cg-irs-nonqualified-use",
+      "claim": "IRS Publication 523 (2025) says gain from the sale of a main home is not excludable to the extent it is allocable to periods of nonqualified use, meaning any period after 2008 when neither the seller nor the seller's spouse or former spouse used the property as a main home, with certain exceptions.",
+      "quotedLanguage": "Gain from the sale or exchange of your main home isn't excludable from income if it is allocable to periods of nonqualified use. Nonqualified use means any period after 2008 when neither you nor your spouse (or former spouse) used the property as your main home, with certain exceptions.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion",
+        "rental"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'With certain exceptions': the publication lists them (for example time after the last use as a main home within the 5-year period). The exceptions were NOT claimed; say they exist and stop."
+    },
+    {
+      "id": "cg-irs-depreciation-not-excludable",
+      "claim": "IRS Publication 523 (2025) says a seller who was entitled to take depreciation deductions because the home was used for business or as rental property cannot exclude the part of the gain equal to any depreciation allowed or allowable for periods after May 6, 1997.",
+      "quotedLanguage": "If you were entitled to take depreciation deductions because you used your home for business purposes or as rental property, you cannot exclude the part of your gain equal to any depreciation allowed or allowable as a deduction for periods after May 6, 1997.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "rental",
+        "depreciation"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'Allowed or allowable' means depreciation counts whether or not it was actually claimed. Recapture mechanics (Form 4797, Pub 544) were not claimed."
+    },
+    {
+      "id": "cg-irs-inherited-home-basis-pub523",
+      "claim": "IRS Publication 523 (2025) says the basis of a home inherited from a decedent is the fair market value of the property on the date of the decedent's death, or on the later alternate valuation date chosen by the personal representative of the estate, and that if a federal estate tax return (Form 706) was filed or required, the value listed on that return is the basis.",
+      "quotedLanguage": "If you inherited your home from a decedent who died before or after 2010, your basis is the fair market value of the property on the date of the decedent's death (or the later alternate valuation date chosen by the personal representative of the estate). If a federal estate tax return (Form 706) was filed or required to be filed, the value of the property listed on the estate tax return is your basis.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "basis",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The IRS never uses the phrase 'stepped-up basis' in the passages quoted; the prose may say the rule is commonly called that only as a label, and must give the IRS wording. The value can be lower than the decedent's cost as well as higher. Do not say an heir 'owes no tax'."
+    },
+    {
+      "id": "cg-irs-inherited-basis-pub551",
+      "claim": "IRS Publication 551 (revised December 2025) says the basis of property inherited from a decedent is generally the fair market value of the property at the date of the individual's death, or the fair market value on the alternate valuation date if the personal representative chooses alternate valuation, among other listed possibilities.",
+      "quotedLanguage": "Generally, the basis of property inherited from a decedent is one of the following. ... The FMV of the property at the date of the individual's death. ... The FMV on the alternate valuation date if the personal representative for the estate chooses to use alternate valuation.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "basis",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "irs-pub-551"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'Generally' and 'one of the following': the list also has special-use valuation and a conservation-easement case, and the publication has a one-year gift-back exception for appreciated property. Where Form 706 was required, a consistent-basis rule and Schedule A (Form 8971) apply. None of that is applied to a reader."
+    },
+    {
+      "id": "cg-irs-community-property-basis",
+      "claim": "IRS Publication 551 (revised December 2025) lists Idaho among the community property states and says that when either spouse dies, the total value of the community property, even the part belonging to the surviving spouse, generally becomes the basis of the entire property, provided at least half the value of the community property interest is includible in the decedent's gross estate.",
+      "quotedLanguage": "In community property states (Arizona, California, Idaho, Louisiana, Nevada, New Mexico, Texas, Washington, and Wisconsin), married individuals are each usually considered to own half the community property. When either spouse dies, the total value of the community property, even the part belonging to the surviving spouse, generally becomes the basis of the entire property. For this rule to apply, at least half the value of the community property interest must be includible in the decedent's gross estate, whether or not the estate must file a return.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "basis",
+        "inheritance",
+        "community-property"
+      ],
+      "sourceIds": [
+        "irs-pub-551"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Applies to COMMUNITY property. Whether a particular Idaho house was community or separate property is an Idaho law question the page must not answer. 'Generally' and 'usually' must survive into prose."
+    },
+    {
+      "id": "cg-irs-basis-cost-and-adjustments",
+      "claim": "IRS Topic 703 says the basis of an asset is in most situations its cost, that a taxpayer must determine adjusted basis before figuring gain or loss on a sale, and that basis is increased by items such as the cost of improvements that add to the value of the property and decreased by items such as allowable depreciation and insurance reimbursements for casualty and theft losses.",
+      "quotedLanguage": "In most situations, the basis of an asset is its cost to you. ... Before figuring gain or loss on a sale, exchange, or other disposition of property, or before figuring allowable depreciation, you must determine your adjusted basis in that property. ... Increase your basis by items such as the cost of improvements that add to the value of the property, and decrease it by items such as allowable depreciation and insurance reimbursements for casualty and theft losses.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "basis"
+      ],
+      "sourceIds": [
+        "irs-topic-703"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Topic 703 reads 'Page Last Reviewed or Updated: 09-Nov-2026'. Which costs count as improvements rather than repairs is in Publication 523 and was not claimed; do not list examples."
+    },
+    {
+      "id": "cg-irs-long-term-more-than-one-year",
+      "claim": "IRS Topic 409 says a capital gain or loss is generally long-term if the asset was held for more than one year before disposal and short-term if held one year or less, with exceptions that include property acquired from a decedent, and that net short-term capital gains are taxed as ordinary income at graduated rates.",
+      "quotedLanguage": "Generally, if you hold the asset for more than one year before you dispose of it, your capital gain or loss is long-term. If you hold it one year or less, your capital gain or loss is short-term. For exceptions to this rule, such as property acquired by gift, property acquired from a decedent, or patent property, refer to Publication 544 ... Net short-term capital gains are subject to taxation as ordinary income at graduated tax rates.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains"
+      ],
+      "sourceIds": [
+        "irs-topic-409"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The decedent exception itself is in Publication 544, which was NOT read. The page may say an exception exists for property acquired from a decedent; it must not say what the exception is."
+    },
+    {
+      "id": "cg-irs-capital-gain-rates-ty2025",
+      "claim": "IRS Topic 409, last reviewed 9 November 2026, says that for taxable years beginning in 2025 the tax rate on most net capital gain is no higher than 15% for most individuals, that some or all net capital gain may be taxed at 0%, that a 20% rate applies to the extent taxable income exceeds the thresholds set for the 15% rate, and that the portion of any unrecaptured section 1250 gain from selling section 1250 real property is taxed at a maximum 25% rate.",
+      "quotedLanguage": "Net capital gains are taxed at different rates depending on overall taxable income, although some or all net capital gain may be taxed at 0% ... For taxable years beginning in 2025, the tax rate on most net capital gain is no higher than 15% for most individuals. ... However, a capital gains rate of 20% applies to the extent that your taxable income exceeds the thresholds set for the 15% capital gain rate. ... The portion of any unrecaptured section 1250 gain from selling section 1250 real property is taxed at a maximum 25% rate.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "rates"
+      ],
+      "sourceIds": [
+        "irs-topic-409"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TAX YEAR 2025 figures, on a page reviewed in November 2026. The page did not give thresholds for taxable years beginning in 2026, and the income thresholds are indexed, so the dollar thresholds are deliberately NOT claimed. Always write 'for taxable years beginning in 2025'. Topic 409 also mentions the net investment income tax (Topic 559), which was not read. MEDIUM only because a 2026 sale is a 2026-tax-year event and the page speaks to 2025."
+    },
+    {
+      "id": "cg-id-taxable-income-is-federal-as-modified",
+      "claim": "Idaho Code 63-3011B defines 'taxable income' as federal taxable income as determined under the Internal Revenue Code, and 63-3011C defines 'Idaho taxable income' as taxable income as modified by the Idaho adjustments specifically provided in the income tax chapter.",
+      "quotedLanguage": "The term \"taxable income\" means federal taxable income as determined under the Internal Revenue Code. ... The term \"Idaho taxable income\" means taxable income as modified pursuant to the Idaho adjustments specifically provided in this chapter.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "sourceIds": [
+        "idcode-63-3011b",
+        "idcode-63-3011c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-3011B, added 1995, ch. 111, sec. 4, p. 350.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Two sections, one sentence each. amendmentHistory holds 63-3011B's note; 63-3011C's note reads '[63-3011C, added 1995, ch. 111, sec. 5, p. 350.]' (verified on the cached page). This supports ONLY the statement that Idaho's computation starts from federal taxable income. It does NOT by itself prove that every federal exclusion carries into Idaho for every taxpayer; which version of the Internal Revenue Code Idaho conforms to (63-3004) was not read. Keep the prose to the definitions."
+    },
+    {
+      "id": "cg-id-3022h-sixty-percent-deduction",
+      "claim": "Idaho Code 63-3022H(1) gives an individual taxpayer who reports capital gain net income in determining Idaho taxable income a deduction of sixty percent of the capital gain net income from the sale or exchange of qualified property (eighty percent applied only to taxable year 2001).",
+      "quotedLanguage": "If an individual taxpayer reports capital gain net income in determining Idaho taxable income, eighty percent (80%) in taxable year 2001 and sixty percent (60%) in taxable years thereafter of the capital gain net income from the sale or exchange of qualified property shall be a deduction in determining Idaho taxable income.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains",
+        "deductions"
+      ],
+      "sourceIds": [
+        "idcode-63-3022h"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-3022H, added 1987, ch. 324, sec. 1, p. 680; am. 1994, ch. 39, sec. 2, p. 62; am. 1995, ch. 83, sec. 3, p. 244; am. 1995, ch. 111, sec. 15, p. 359; am. 1996, ch. 41, sec. 2, p. 111; am. 1997, ch. 56, sec. 1, p. 94; am. 1998, ch. 414, sec. 1, p. 1306; am. 2001, ch. 321, sec. 1, p. 1136; am. 2001, ch. 323, sec. 1, p. 1138; am. 2002, ch. 35, sec. 2, p. 68; am. 2005, ch. 208, sec. 1, p. 624; am. 2008, ch. 314, sec. 1, p. 873; am. 2010, ch. 5, sec. 1, p. 6; am. 2015, ch. 41, sec. 1, p. 93; am. 2015, ch. 70, sec. 1, p. 188; am. 2015, ch. 269, sec. 1, p. 1122; am. 2016, ch. 188, sec. 1, p. 511; am. 2018, ch. 186, sec. 1, p. 409.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "A DEDUCTION of 60% of qualifying gain, not a 60% tax rate and not a 60% cut in tax. INDIVIDUAL taxpayers. Only 'qualified property'. Always state with the limits in subsection (2)."
+    },
+    {
+      "id": "cg-id-3022h-real-property-twelve-months",
+      "claim": "Under Idaho Code 63-3022H(3), property held by an estate, trust, S corporation, partnership, limited liability company or an individual is qualified property if it had an Idaho situs at the time of sale and is, among other listed categories, real property held at least twelve months.",
+      "quotedLanguage": "Property held by an estate, trust, S corporation, partnership, limited liability company or an individual is \"qualified property\" under this section if the property had an Idaho situs at the time of sale and is: ... (a) Real property held at least twelve (12) months;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains",
+        "deductions"
+      ],
+      "sourceIds": [
+        "idcode-63-3022h"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-3022H, added 1987, ch. 324, sec. 1, p. 680; am. 1994, ch. 39, sec. 2, p. 62; am. 1995, ch. 83, sec. 3, p. 244; am. 1995, ch. 111, sec. 15, p. 359; am. 1996, ch. 41, sec. 2, p. 111; am. 1997, ch. 56, sec. 1, p. 94; am. 1998, ch. 414, sec. 1, p. 1306; am. 2001, ch. 321, sec. 1, p. 1136; am. 2001, ch. 323, sec. 1, p. 1138; am. 2002, ch. 35, sec. 2, p. 68; am. 2005, ch. 208, sec. 1, p. 624; am. 2008, ch. 314, sec. 1, p. 873; am. 2010, ch. 5, sec. 1, p. 6; am. 2015, ch. 41, sec. 1, p. 93; am. 2015, ch. 70, sec. 1, p. 188; am. 2015, ch. 269, sec. 1, p. 1122; am. 2016, ch. 188, sec. 1, p. 511; am. 2018, ch. 186, sec. 1, p. 409.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The other categories (business tangible personal property, livestock, timber, certain partnership interests) are irrelevant to a house and are not described. Holding period is counted under subsection (4) by reference to Internal Revenue Code section 1223; how that treats inherited property was NOT sourced."
+    },
+    {
+      "id": "cg-id-3022h-real-property-definition",
+      "claim": "Idaho Code 63-3022H(6) says that, as used in the section, 'real property' means land and includes a qualified conservation easement, certain grazing permits or leases, and any other property defined in section 1250(c) of the Internal Revenue Code as 'section 1250 property' conveyed in perpetuity whose transfer must be in writing under Idaho Code 9-503. Subsection (7) excludes property depreciated under section 1245 of the Internal Revenue Code.",
+      "quotedLanguage": "As used in this section, the term \"real property\" means land and includes the following: ... (c) Any other property defined in section 1250(c) of the Internal Revenue Code as \"section 1250 property\" conveyed in perpetuity, the transfer of which would be required to be in writing by section 9-503, Idaho Code. ... Property that has been depreciated pursuant to section 1245 of the Internal Revenue Code is not eligible to be treated as real property for purposes of this deduction.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains",
+        "deductions"
+      ],
+      "sourceIds": [
+        "idcode-63-3022h"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-3022H, added 1987, ch. 324, sec. 1, p. 680; am. 1994, ch. 39, sec. 2, p. 62; am. 1995, ch. 83, sec. 3, p. 244; am. 1995, ch. 111, sec. 15, p. 359; am. 1996, ch. 41, sec. 2, p. 111; am. 1997, ch. 56, sec. 1, p. 94; am. 1998, ch. 414, sec. 1, p. 1306; am. 2001, ch. 321, sec. 1, p. 1136; am. 2001, ch. 323, sec. 1, p. 1138; am. 2002, ch. 35, sec. 2, p. 68; am. 2005, ch. 208, sec. 1, p. 624; am. 2008, ch. 314, sec. 1, p. 873; am. 2010, ch. 5, sec. 1, p. 6; am. 2015, ch. 41, sec. 1, p. 93; am. 2015, ch. 70, sec. 1, p. 188; am. 2015, ch. 269, sec. 1, p. 1122; am. 2016, ch. 188, sec. 1, p. 511; am. 2018, ch. 186, sec. 1, p. 409.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "THE TRAP. The statute does NOT use the words house, home, dwelling or residence anywhere. It says 'land' plus 'section 1250 property', a federal term that was not read (26 U.S.C. 1250(c) was not fetched; the Tax Commission's Form CG instructions paraphrase it as 'depreciable real property'). The page must say the statute names land and section 1250 property and does not name a house, then report what the Tax Commission's form does (cg-istc-form-cg-2025-residence-line). Never write 'Idaho Code 63-3022H covers your house'."
+    },
+    {
+      "id": "cg-id-3022h-limits",
+      "claim": "Idaho Code 63-3022H(2) limits the deduction to the amount of capital gain net income from all property included in taxable income, excludes gains treated as ordinary income by the Internal Revenue Code, and reduces the deduction by any federal capital gains deduction relating to the property.",
+      "quotedLanguage": "The deduction provided in this section is limited to the amount of the capital gain net income from all property included in taxable income. Gains treated as ordinary income by the Internal Revenue Code do not qualify for the deduction allowed in this section. The deduction otherwise allowable under this section shall be reduced by the amount of any federal capital gains deduction relating to such property, but not below zero.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains",
+        "deductions"
+      ],
+      "sourceIds": [
+        "idcode-63-3022h"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-3022H, added 1987, ch. 324, sec. 1, p. 680; am. 1994, ch. 39, sec. 2, p. 62; am. 1995, ch. 83, sec. 3, p. 244; am. 1995, ch. 111, sec. 15, p. 359; am. 1996, ch. 41, sec. 2, p. 111; am. 1997, ch. 56, sec. 1, p. 94; am. 1998, ch. 414, sec. 1, p. 1306; am. 2001, ch. 321, sec. 1, p. 1136; am. 2001, ch. 323, sec. 1, p. 1138; am. 2002, ch. 35, sec. 2, p. 68; am. 2005, ch. 208, sec. 1, p. 624; am. 2008, ch. 314, sec. 1, p. 873; am. 2010, ch. 5, sec. 1, p. 6; am. 2015, ch. 41, sec. 1, p. 93; am. 2015, ch. 70, sec. 1, p. 188; am. 2015, ch. 269, sec. 1, p. 1122; am. 2016, ch. 188, sec. 1, p. 511; am. 2018, ch. 186, sec. 1, p. 409.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'Included in taxable income' is why gain excluded federally has nothing to deduct against. Say that only as the statute's wording, not as a computation for a reader."
+    },
+    {
+      "id": "cg-id-3026a-nonresident-real-property-source",
+      "claim": "Idaho Code 63-3026A says that for nonresident individuals, trusts or estates, Idaho taxable income includes only those components of Idaho taxable income, as computed for a resident, that are derived from or related to sources within Idaho, and that income is considered derived from or relating to sources within Idaho when it is attributable to or results from the ownership or disposition of any interest in real or tangible personal property located in Idaho.",
+      "quotedLanguage": "For nonresident individuals, trusts, or estates the term \"Idaho taxable income\" includes only those components of Idaho taxable income as computed for a resident which are derived from or related to sources within Idaho. ... Income shall be considered derived from or relating to sources within Idaho when such income is attributable to or resulting from: ... (ii) The ownership or disposition of any interest in real or tangible personal property located in this state;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains",
+        "nonresident"
+      ],
+      "sourceIds": [
+        "idcode-63-3026a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-3026A, added 1995, ch. 111, sec. 26, p. 364; am. 1996, ch. 40, sec. 3, p. 105; am. 1998, ch. 42, sec. 4, p. 180; am. 2000, ch. 38, sec. 5, p. 74; am. 2005, ch. 21, sec. 1, p. 57; am. 2005, ch. 405, sec. 1, p. 1380; am. 2007, ch. 12, sec. 1, p. 21; am. 2010, ch. 108, sec. 1, p. 219; am. 2011, ch. 3, sec. 2, p. 6; am. 2013, ch. 83, sec. 1, p. 203.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Describes sourcing only. Whether the seller's home state also taxes the gain, and any credit for tax paid to another state, were not sourced for nonresidents. No Idaho withholding requirement on a nonresident's real estate sale was found on the pages read; the page says nothing either way about withholding."
+    },
+    {
+      "id": "cg-istc-deduction-up-to-60-idaho-property",
+      "claim": "The Idaho State Tax Commission says Idaho allows a deduction of up to 60% of the capital gain net income from the sale or exchange of qualifying Idaho property, computed on Form CG; that qualifying real property must be held for at least 12 months; that for this deduction 'real property' means land and includes easements, grazing permits, and any other property defined in section 1250(c) of the Internal Revenue Code; and that gains from real property not located in Idaho do not qualify.",
+      "quotedLanguage": "The property must be held for at least 12 months and sold on or after January 1, 2005. ... For purposes of this deduction, \"real property\" means land and includes easements, grazing permits, and any other property defined in section 1250(c) of the Internal Revenue Code. ... Real or tangible personal property not located in Idaho ... Idaho allows a deduction of up to 60% of the capital gain net income from the sale or exchange of qualifying Idaho property. ... You must complete Form CG to compute your Idaho capital gains deduction.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains",
+        "deductions"
+      ],
+      "sourceIds": [
+        "istc-capital-gains"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Tax Commission guidance page, footer 'last updated: June 14, 2023'. It carries the Commission's own disclaimer that current tax law governs if there is a conflict. Like the statute, the page does not use the word house or residence."
+    },
+    {
+      "id": "cg-istc-form-cg-2025-residence-line",
+      "claim": "The Idaho State Tax Commission's 2025 Form CG (Capital Gains Deduction) has a line 2 for 'Qualifying capital gain from sale of personal residence from federal Schedule D' with a space for the Idaho address of the residence sold, and its instructions for line 2 say to enter the taxable gain from the sale of the taxpayer's Idaho home from federal Schedule D.",
+      "quotedLanguage": "Qualifying capital gain from sale of personal residence from federal Schedule D. ... Enter the taxable gain from the sale of your Idaho home from federal Schedule D.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains",
+        "deductions"
+      ],
+      "sourceIds": [
+        "istc-form-cg-2025"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Form EFO00093 / instructions EIN00070, both dated 09-18-2025, for TAX YEAR 2025. The 2026 form was not published on 2026-11-13. This shows the Tax Commission's form anticipates a personal-residence gain; it is a form line, not a ruling, and 'qualifying' still depends on the statute's tests (Idaho situs, twelve months, gain included in taxable income). 'Taxable gain' means only gain that remains taxable federally. MEDIUM because the form is one tax year old and a form is weaker authority than the statute. Quote is from pdftotext -layout output of a two-column PDF."
+    },
+    {
+      "id": "cg-istc-rate-2025",
+      "claim": "The Idaho State Tax Commission states that the Idaho income tax rate for 2025 is 5.3% on Idaho taxable income.",
+      "quotedLanguage": "The income tax rate for 2025 is 5.3% on Idaho taxable income.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "rates"
+      ],
+      "sourceIds": [
+        "istc-individual-income-tax-basics"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TAX YEAR 2025. Page footer 'last updated: May 7, 2026'. No 2026 rate was shown on this page on 2026-11-13 and the rate statute (63-3024) was not read. Always write 'for 2025'. Never multiply it against anything in prose: the rate applies to Idaho taxable income after deductions, and any worked figure would be an unsourced number."
+    },
+    {
+      "id": "cg-istc-residency-what-idaho-taxes",
+      "claim": "The Idaho State Tax Commission says Idaho taxes all of a resident's income, including income from sources outside Idaho, and taxes only a nonresident's income from Idaho sources; that gross income includes gains from property sales; and that nonresidents of Idaho must file if their total gross income from Idaho sources is more than $2,500.",
+      "quotedLanguage": "Idaho taxes all your income, including income from sources outside Idaho. ... Idaho taxes only your income from Idaho sources ... This income includes wages, interest, rents, dividends, gains from property sales, and gross business income. ... Nonresidents of Idaho must file if their total gross income from Idaho sources is more than $2,500.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "nonresident",
+        "filing"
+      ],
+      "sourceIds": [
+        "istc-individual-income-tax-basics"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The page's filing thresholds are headed for 2025. The $2,500 nonresident line carries no year on the page; present it as what the page said on the access date. Resident and part-year definitions (270 days, domicile) are on the same page but were not claimed; do not tell a reader which status they have."
+    },
+    {
+      "id": "cg-istc-idaho-source-income-property",
+      "claim": "The Idaho State Tax Commission says an Idaho nonresident is taxed on Idaho source income, and defines Idaho source income as income from transactions or activities that take place in Idaho or from property in Idaho.",
+      "quotedLanguage": "Idaho nonresident: Taxed on Idaho source income. ... Idaho source income is income from either of these: ... Transactions or activities that take place in Idaho ... Property in Idaho",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "nonresident"
+      ],
+      "sourceIds": [
+        "istc-idaho-source-income"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Page footer 'last updated: October 11, 2023'. The page's worked examples are all about wages; it gives no real estate example. The statutory wording on real property is in cg-id-3026a-nonresident-real-property-source."
+    }
+  ]
+}

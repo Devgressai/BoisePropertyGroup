@@ -1,0 +1,337 @@
+{
+  "sources": [
+    {
+      "id": "usc-12-1701j-3",
+      "title": "12 U.S.C. § 1701j-3 — Preemption of due-on-sale prohibitions (Garn-St Germain Depository Institutions Act of 1982, § 341) — United States Code, 2024 Edition",
+      "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+      "organizationType": "federal-government",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap13-sec1701j-3.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "lending",
+        "inheritance",
+        "mortgages"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code, raw HTML cached. Source credit: Pub. L. 97-320, title III, § 341, Oct. 15, 1982; amended by Pub. L. 98-181, Nov. 30, 1983 (which added the 'less than five dwelling units' lead-in to subsection (d)). The codification note states the section was enacted as part of the Garn-St Germain Depository Institutions Act of 1982. The implementing regulation (12 CFR part 191) was NOT read. Only the 2024 Edition was fetched.",
+      "stalenessRisk": "LOW — federal statute last amended in 1983; changes only by Act of Congress. Re-check the newest edition on govinfo.gov before each refresh.",
+      "claimsSupported": [
+        "im-garn-due-on-sale-clause-defined",
+        "im-garn-due-on-sale-enforceable-by-contract",
+        "im-garn-exempt-transfers-on-death",
+        "im-garn-assumption-encouraged-not-required"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1024-31",
+      "title": "12 CFR § 1024.31 — Definitions (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.31",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.31",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "lending",
+        "inheritance",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-05-16",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Source note ends '90 FR 20792, May 16, 2025'. Holds the definitions of 'successor in interest' and 'confirmed successor in interest' added by the 2016 amendments. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before each refresh.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "im-regx-successor-in-interest-defined",
+        "im-regx-confirmed-successor-defined"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-32",
+      "title": "12 CFR § 1024.32 — General disclosure requirements (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.32",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.32",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "lending",
+        "inheritance",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2016-10-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Source note ends '81 FR 72371, Oct. 19, 2016'. Paragraph (c) covers the optional notice and acknowledgment form for a confirmed successor in interest who is not liable on the loan. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before each refresh.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "im-regx-successor-not-liable-unless-assumes",
+        "im-regx-successor-notice-acknowledgment-form",
+        "im-regx-successor-may-request-payoff-and-information"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-36",
+      "title": "12 CFR § 1024.36 — Requests for information (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.36",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.36",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "lending",
+        "inheritance",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2016-10-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Source note ends '81 FR 72371, Oct. 19, 2016'. Paragraph (i) covers written requests from potential successors in interest. Paragraphs (c) through (g), which hold the acknowledgment and response time limits, are in the cached page but were not turned into claims. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before each refresh.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "im-regx-potential-successor-written-request",
+        "im-regx-before-confirmation-limited-information"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-38",
+      "title": "12 CFR § 1024.38 — General servicing policies, procedures, and requirements (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.38",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.38",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "lending",
+        "inheritance",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2016-10-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Source note ends '81 FR 72372, Oct. 19, 2016'. Paragraph (b)(1)(vi) is the successor-in-interest objective. Under 1024.30(b) this section does not apply to small servicers, reverse mortgage transactions or certain qualified lenders. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before each refresh.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "im-regx-servicer-policies-after-death"
+      ]
+    },
+    {
+      "id": "cfpb-inherited-home-mortgage-information",
+      "title": "How do I get mortgage information about a home I inherited? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-mortgage-information-about-a-home-i-inherited-en-217/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-09-11",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed: SEP 11, 2024' and 'Page last modified Sept. 13, 2024'. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language guidance; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "im-cfpb-inherited-home-contact-servicer-proof",
+        "im-cfpb-inherited-home-ask-about-payments-and-help"
+      ]
+    },
+    {
+      "id": "cfpb-issue-spotlight-successor-homeowners",
+      "title": "Issue Spotlight: Homeowners face problems with mortgage companies after divorce or death of a loved one",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/data-research/research-reports/homeowners-face-problems-with-mortgage-companies-after-divorce-or-death-of-a-loved-one/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "publicationDate": "2024-12-17",
+      "updatedDate": "2024-12-17",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "CFPB research report (issue spotlight) dated DEC 17, 2024, raw HTML cached. It summarises consumer complaints and the agency's view of servicer obligations; it is not a regulation and makes no finding against a named company. Only the opening summary was used. Live under /data-research/ on 2026-11-13.",
+      "stalenessRisk": "MEDIUM — agency report from a prior leadership period; could be archived or withdrawn. Re-open the URL before each refresh.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "im-cfpb-spotlight-act-quickly-on-payments",
+        "im-cfpb-spotlight-refinance-pressure-reports"
+      ]
+    },
+    {
+      "id": "fr-2014-16780-atr-successors",
+      "title": "Application of Regulation Z's Ability-To-Repay Rule to Certain Situations Involving Successors-in-Interest (CFPB interpretive rule, 79 FR 41631, July 17, 2014)",
+      "publisher": "Office of the Federal Register — Bureau of Consumer Financial Protection",
+      "organizationType": "federal-government",
+      "url": "https://www.federalregister.gov/documents/2014/07/17/2014-16780/application-of-regulation-zs-ability-to-repay-rule-to-certain-situations-involving",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "publicationDate": "2014-07-17",
+      "updatedDate": "2014-07-17",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — Federal Register full text of a CFPB interpretive rule, document 2014-16780, raw HTML cached. States it is 'effective July 17, 2014 and applicable beginning July 8, 2014' and that the Bureau planned to incorporate the interpretation into Regulation Z's Official Interpretations later. Whether it was incorporated, amended or withdrawn afterwards was NOT checked; 12 CFR 1026.20(b), 1026.43 and their commentary were not read. Claims from it are MEDIUM and dated in prose.",
+      "stalenessRisk": "MEDIUM — a 2014 interpretation; confirm against current Regulation Z commentary before relying on it.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "im-cfpb-2014-successor-not-personally-liable-may-assume",
+        "im-cfpb-2014-adding-successor-not-subject-to-atr"
+      ]
+    },
+    {
+      "id": "idcode-15-2-609",
+      "title": "Idaho Code § 15-2-609 — Nonexoneration",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch2/sect15-2-609/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "inheritance",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). No effective-date banner or future-dated version displayed on the section page on 2026-11-13. The 2026 session subject index was not re-run for this page; an existing registry note (pb-letters-required) records that the session's one probate bill, S1240, does not reach this part of Title 15.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "im-idaho-specific-devise-passes-subject-to-lien"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-814",
+      "title": "Idaho Code § 15-3-814 — Encumbered assets",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-814/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "inheritance",
+        "liens",
+        "creditor-claims"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). No effective-date banner or future-dated version displayed on the section page on 2026-11-13. The 2026 session subject index was not re-run for this page; an existing registry note (pb-letters-required) records that the session's one probate bill, S1240, does not reach this part of Title 15.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "im-idaho-pr-may-pay-or-convey-encumbered-asset"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-812",
+      "title": "Idaho Code § 15-3-812 — Execution and levies prohibited",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-812/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "foreclosure",
+        "liens",
+        "creditor-claims"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). No effective-date banner or future-dated version displayed on the section page on 2026-11-13. The 2026 session subject index was not re-run for this page; an existing registry note (pb-letters-required) records that the session's one probate bill, S1240, does not reach this part of Title 15.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "im-idaho-liens-enforceable-against-estate-property"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-104",
+      "title": "Idaho Code § 15-3-104 — Claims against decedent — Necessity of administration",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-104/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "foreclosure",
+        "creditor-claims"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). No effective-date banner or future-dated version displayed on the section page on 2026-11-13. The 2026 session subject index was not re-run for this page; an existing registry note (pb-letters-required) records that the session's one probate bill, S1240, does not reach this part of Title 15.",
+      "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "im-idaho-claims-procedure-excludes-secured-creditor-security"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

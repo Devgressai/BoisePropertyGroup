@@ -1,0 +1,652 @@
+{
+  "claims": [
+    {
+      "id": "rv-hecm-due-when-last-borrower-dies",
+      "claim": "Under 24 CFR 206.27(c)(1), a HECM mortgage must state that the outstanding loan balance will be due and payable in full if a borrower dies and the property is not the principal residence of at least one surviving borrower, except that due and payable status is deferred if the requirements of the Deferral Period for an Eligible Non-Borrowing Spouse are met.",
+      "quotedLanguage": "The mortgage shall state that the outstanding loan balance will be due and payable in full if a borrower dies and the property is not the principal residence of at least one surviving borrower, except that the due and payable status shall be deferred in accordance with paragraph (c)(3) of this section if the requirements of the Deferral Period are met",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-27"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM (FHA-insured) only. The regulation prescribes what the mortgage must STATE; the loan documents themselves are the operative terms. Death is one trigger; 206.27(c)(2) lists others (moving out, unpaid property charges) that need the Commissioner's approval and are not this page's subject. Do not shorten to 'due when the borrower dies' without the surviving-borrower and deferral conditions."
+    },
+    {
+      "id": "rv-hecm-no-personal-liability-no-deficiency",
+      "claim": "24 CFR 206.27(b)(8) requires a HECM mortgage to provide that the borrower has no personal liability for payment of the outstanding loan balance, that the mortgagee enforces the debt only through sale of the property, and that the mortgagee may not obtain a deficiency judgment against the borrower if the mortgage is foreclosed.",
+      "quotedLanguage": "The borrower shall have no personal liability for payment of the outstanding loan balance. The mortgagee shall enforce the debt only through sale of the property. The mortgagee shall not be permitted to obtain a deficiency judgment against the borrower if the mortgage is foreclosed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-27"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. The text speaks of 'the borrower'. It does not mention heirs or the estate by name; the prose must quote it as written and must NOT say 'heirs can never owe anything'. The 'enforce the debt only through sale of the property' sentence is the supportable basis for describing the loan as non-recourse. Never extend to proprietary reverse mortgages."
+    },
+    {
+      "id": "rv-hecm-borrower-definition",
+      "claim": "24 CFR 206.3 defines a HECM borrower as a mortgagor who is an original borrower under the HECM Loan Agreement and Note, and says the term does not include successors or assigns of a borrower; it defines a Non-Borrowing Spouse as the spouse of the HECM borrower at the time of closing who is not also a borrower.",
+      "quotedLanguage": "Borrower means a mortgagor who is an original borrower under the HECM Loan Agreement and Note. The term does not include successors or assigns of a borrower. ... Non-Borrowing Spouse means the spouse, as defined by the law of the state in which the spouse and borrower reside or the state of celebration, of the HECM borrower at the time of closing and who is also not a borrower.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Supports the plain statement that an heir who inherits the house is not a 'borrower' under part 206. Do not use it to decide who is or is not a borrower on a particular loan; the loan documents answer that."
+    },
+    {
+      "id": "rv-hecm-deferral-period-definition",
+      "claim": "24 CFR 206.3 defines the Deferral Period as the period following the death of the last surviving borrower during which the due and payable status of a HECM is deferred for an Eligible Non-Borrowing Spouse, provided the Qualifying Attributes and all other FHA requirements continue to be satisfied.",
+      "quotedLanguage": "Deferral Period means the period of time following the death of the last surviving borrower during which the due and payable status of a HECM is deferred for an Eligible Non-Borrowing Spouse provided that the Qualifying Attributes and all other FHA requirements continue to be satisfied.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Definition only. The conditions are in 206.55 (rv-hecm-eligible-spouse-qualifying-attributes, rv-hecm-deferral-90-days-legal-right)."
+    },
+    {
+      "id": "rv-hecm-due-notice-30-days-to-act",
+      "claim": "Under 24 CFR 206.125(a), the mortgagee must notify the FHA Commissioner within 60 days of a HECM becoming due and payable because of a death, must then notify the borrower's estate and heirs (and any Eligible Non-Borrowing Spouse), as applicable, within 30 days that the mortgage is due and payable, and must give the applicable party 30 days from the date of that notice to take one of the listed actions.",
+      "quotedLanguage": "The mortgagee shall notify the Commissioner within 60 days of the mortgage becoming due and payable when the conditions stated in the mortgage, as required by § 206.27(c)(1) have occurred or when the Deferral Period ends. ... After notifying and receiving approval of the Commissioner when needed, the mortgagee shall notify the borrower, Eligible Non-Borrowing Spouse, borrower's estate, and borrower's heir(s), as applicable, within 30 days of the later of notifying the Commissioner or receiving approval, if needed, that the mortgage is due and payable. The mortgagee shall give the applicable party 30 days from the date of notice to engage in the following actions:",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-125"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. The 30 days to act run FROM THE DATE OF THE NOTICE, not from the death. The HUD 2019 fact sheet words this differently ('within 30 days of the date of the borrower's death'); see rv-hud-fact-sheet-30-days-and-90-day-extensions. State the regulation as the rule and flag the difference. These are duties placed on the mortgagee; never tell a reader how long they personally have."
+    },
+    {
+      "id": "rv-hecm-options-after-due-notice",
+      "claim": "The actions 24 CFR 206.125(a)(2) lists for the notified party include paying the outstanding loan balance in full, including accrued interest, mortgage insurance premium and mortgagee advances; selling the property; providing the mortgagee with a deed in lieu of foreclosure; and such other actions as the Commissioner permits through notice.",
+      "quotedLanguage": "Pay the outstanding loan balance, including any accrued interest, MIP, and mortgagee advances in full; ... Provide the mortgagee with a deed in lieu of foreclosure; ... Such other actions as permitted by the Commissioner through notice.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-125"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. Items (iv) and (v) (correcting a condition other than death; an Eligible Non-Borrowing Spouse curing the end of a Deferral Period) are omitted because they do not apply to heirs after the last borrower's death. The sale option's price rule is in rv-hecm-sale-floor-95-percent-appraised. 'MIP' is mortgage insurance premium (206.27(b)(7) uses the term)."
+    },
+    {
+      "id": "rv-hecm-sale-floor-95-percent-appraised",
+      "claim": "24 CFR 206.125(a)(2)(ii) lets the notified party sell the property for an amount not less than the amount the Commissioner determines through notice, which may not exceed 95 percent of the appraised value, with the net proceeds applied to the outstanding loan balance; closing costs may not exceed the greater of 11 percent of the sales price or a fixed dollar amount set by the Commissioner; and for this section 'sell' includes the transfer of title by operation of law.",
+      "quotedLanguage": "Sell the property for an amount not to be less than the amount determined by the Commissioner through notice, which shall not exceed 95 percent of the appraised value as determined under § 206.125(b), with the net proceeds of the sale to be applied towards the outstanding loan balance. Closing costs shall not exceed the greater of: 11 percent of the sales price; or a fixed dollar amount as determined by the Commissioner through Federal Register notice. For the purposes of this section, sell includes the transfer of title by operation of law;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-125"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: the regulation does NOT itself say 'the lesser of the balance or 95 percent'. It says the minimum sale amount is set by the Commissioner through notice and that amount cannot exceed 95 percent of appraised value. The Commissioner's notice (a Mortgagee Letter or Federal Register notice) was NOT fetched, so the page must not state the current figure as fixed by the regulation; attribute '95 percent' as a floor to the CFPB and HUD pages. The appraised value is the 206.125(b) appraisal ordered by the mortgagee, not a listing price or a buyer's opinion. The fixed dollar closing-cost amount was not sourced; do not state one."
+    },
+    {
+      "id": "rv-hecm-appraisal-within-30-days-of-request",
+      "claim": "Under 24 CFR 206.125(b), the mortgagee must have the property appraised no later than 30 days after receiving a request from an applicable party in connection with a potential sale; when the mortgage is due and payable the appraisal is at the mortgagee's expense, but the mortgagee has a right to be reimbursed out of the proceeds of any sale.",
+      "quotedLanguage": "The mortgagee shall have the property appraised by an appraiser on the FHA roster, or other appraiser acceptable to, and identified by, the Commissioner through Federal Register notice, no later than 30 days after receipt of the request by an applicable party in connection with a potential property sale. ... If the mortgage is due and payable, the appraisal shall be at the mortgagee's expense but the mortgagee shall have a right to be reimbursed out of the proceeds of any sale by the borrower or other permissible party.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-125"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. This is the appraisal that the 95 percent figure is measured against. The business must never offer or promise an appraisal or a value."
+    },
+    {
+      "id": "rv-hecm-sale-by-party-with-legal-right",
+      "claim": "Under 24 CFR 206.125(c), where a HECM is due and payable when the contract for sale is executed, the borrower or other party with legal right to dispose of the property may sell it in accordance with the amount established by 206.125(a)(2)(ii), and the mortgagee must satisfy the mortgage of record to facilitate the sale, provided there are no junior liens (other than a second mortgage to the Commissioner) and all the net proceeds from the sale are paid to the mortgagee.",
+      "quotedLanguage": "Where the HECM is due and payable at the time the contract for sale is executed, the borrower or other party with legal right to dispose of the property may sell the property in accordance with the amount established by § 206.125(a)(2)(ii). The mortgagee shall satisfy the mortgage of record (and the Commissioner will satisfy any second mortgage required by the Commissioner under § 206.27(d) of record) in order to facilitate the sale, provided that there are no junior liens (except the mortgage to secure payments by the Commissioner if required under § 206.27(d)) and all the net proceeds from the sale are paid to the mortgagee.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-125"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. Two conditions travel with the release: NO JUNIOR LIENS and ALL net proceeds to the mortgagee. Always state both. Who has 'legal right to dispose of the property' is a state-law question (Idaho probate claims pb-letters-required, pb-pr-may-sell-real-property). In a sale under this rule where the balance exceeds the price, nothing in this text sends money to the heirs."
+    },
+    {
+      "id": "rv-hecm-foreclosure-within-six-months",
+      "claim": "24 CFR 206.125(d) requires the mortgagee to commence foreclosure of a HECM within six months of the due date defined in 206.129(d)(1), or within such additional time as the Commissioner approves; if state or local law or federal bankruptcy law does not permit that, within six months after the prohibition expires.",
+      "quotedLanguage": "The mortgagee shall commence foreclosure of the mortgage within six months of the due date defined in § 206.129(d)(1), or within such additional time as may be approved by the Commissioner. ... the mortgagee shall commence foreclosure within six months after the expiration of the time during which such foreclosure is prohibited by such laws.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-125"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. This is a deadline on the MORTGAGEE to START foreclosure, with extensions in the Commissioner's discretion. It is not a guaranteed six months for heirs and must never be written as one. The start date is defined in rv-hecm-due-and-payable-date-definition. 206.125(d)(1) says 'due date'; 206.129(d)(1) defines 'Due and payable date'."
+    },
+    {
+      "id": "rv-hecm-due-and-payable-date-definition",
+      "claim": "24 CFR 206.129(d)(1) defines the due and payable date as the date the mortgagee notifies or should have notified the Commissioner that the mortgage is due and payable under the conditions required by 206.27(c)(1), or the date the Deferral Period ends, or the date the Commissioner approved a due and payable request.",
+      "quotedLanguage": "Due and payable date means the date when the mortgagee notifies or should have notified the Commissioner that the mortgage is due and payable under the conditions stated in the mortgage, as required by § 206.27(c)(1) or the date that the Deferral Period, as provided for in the mortgage by § 206.27(c)(3), ends; or the date the Commissioner approved a due and payable request as provided for in the mortgage by § 206.27(c)(2).",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-129"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Only paragraph (d)(1) of 206.129 was used; the rest of the section is about insurance claim payments to the mortgagee. The date is tied to the mortgagee's notice to the Commissioner, which the heirs do not see. Do not convert it into a calendar date for a reader."
+    },
+    {
+      "id": "rv-hecm-deed-in-lieu-nine-months",
+      "claim": "Under 24 CFR 206.125(f), the mortgagee must accept a deed in lieu of foreclosure from the borrower or other party with legal right to dispose of the property, provided it is filed for recording within 9 months of the due date and the mortgagee is able to obtain good and marketable title; in exchange the mortgagee cancels the credit instrument and satisfies the mortgage of record.",
+      "quotedLanguage": "the mortgagee shall accept a deed in lieu of foreclosure from the borrower or other party with legal right to dispose of the property provided it is filed for recording within 9 months of the due date and the mortgagee is able to obtain good and marketable title. ... In exchange for the executed and delivered deed, the mortgagee shall cancel the credit instrument and deliver it to the borrower and satisfy the mortgage of record.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-125"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. Conditional on GOOD AND MARKETABLE TITLE, which other liens or an unprobated estate can prevent. 206.125(f)(1)(ii) also mentions a possible 'Cash for Keys' incentive in an amount determined by the Commissioner; the amount and current availability were not sourced and it is left out of the page."
+    },
+    {
+      "id": "rv-hecm-eligible-spouse-qualifying-attributes",
+      "claim": "Under 24 CFR 206.55(a) and (c)(1), if the last surviving borrower dies before an Eligible Non-Borrowing Spouse, due and payable status is deferred for as long as that spouse meets the Qualifying Attributes and the section's other requirements; to qualify the spouse must have been the borrower's spouse at loan closing and for the rest of the borrower's life, have been disclosed to the mortgagee at origination and specifically named as an Eligible Non-Borrowing Spouse in the HECM documents, and have occupied and continue to occupy the property as a principal residence.",
+      "quotedLanguage": "If the last surviving borrower predeceases an Eligible Non-Borrowing Spouse, and if the requirements of paragraph (d) of this section are satisfied, the due and payable status will be deferred for as long as the Eligible Non-Borrowing Spouse continues to meet the Qualifying Attributes in paragraph (c) of this section and the requirements of paragraphs (d) and (e) of this section. ... Have been the spouse of a HECM borrower at the time of loan closing and remained the spouse of such HECM borrower for the duration of the HECM borrower's lifetime; ... Have been properly disclosed to the mortgagee at origination and specifically named as an Eligible Non-Borrowing Spouse in the HECM mortgage and loan documents; ... Have occupied, and continue to occupy, the property securing the HECM as his or her principal residence; and",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-55"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. 206.55(c)(1)(iv) adds 'any other requirements as the Commissioner may prescribe'; say the list is not exhaustive. This is the CURRENT regulation; the CFPB says older loans (FHA case numbers before August 4, 2014) follow a different process (rv-cfpb-nonborrowing-spouse-case-number-date). Never tell a spouse whether they qualify."
+    },
+    {
+      "id": "rv-hecm-deferral-90-days-legal-right",
+      "claim": "24 CFR 206.55(d) requires an Eligible Non-Borrowing Spouse, within 90 days from the death of the last surviving HECM borrower, to establish legal ownership or another ongoing legal right to remain for life in the property, and afterwards to ensure the borrower's other loan obligations continue to be satisfied; 206.55(f) says nothing in the section interferes with the ability of the borrower's estate or heirs to dispose of the property if they are otherwise legally entitled to do so.",
+      "quotedLanguage": "Within 90 days from the death of the last surviving HECM borrower, establish legal ownership or other ongoing legal right to remain for life in the property securing the HECM; ... After the death of the last surviving borrower, ensure all other obligations of the HECM borrower(s) contained in the loan documents continue to be satisfied; and ... Nothing in this section may be construed as interrupting or interfering with the ability of the borrower's estate or heir(s) to dispose of the property if they are otherwise legally entitled to do so.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-55"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. The 90 days here runs from the DEATH and applies to the surviving spouse, not to heirs generally. How a spouse establishes ownership in Idaho (community property, probate, survivorship) is an attorney question and is not addressed."
+    },
+    {
+      "id": "rv-hecm-ineligible-spouse-due-immediately",
+      "claim": "Under 24 CFR 206.55(b)(1) and (c)(2), if a Non-Borrowing Spouse no longer satisfies the Qualifying Attributes, the mortgagee may not provide an opportunity to cure and the HECM becomes immediately due and payable as a result of the death of the last surviving borrower; a spouse who was ineligible for the Deferral Period at loan origination does not become eligible later when the borrowing spouse dies.",
+      "quotedLanguage": "If a Deferral Period ceases or becomes unavailable because a Non-Borrowing Spouse no longer satisfies the Qualifying Attributes and has become an Ineligible Non-Borrowing Spouse, a mortgagee may not provide an opportunity to cure the default, and the HECM will become immediately due and payable as a result of the death of the last surviving borrower. ... A Non-Borrowing Spouse that is ineligible for the Deferral Period at the time of loan origination because he or she failed to satisfy the Qualifying Attributes requirements in paragraph (c)(1) of this section is not subsequently eligible for a Deferral Period when the borrowing spouse dies or moves out of the home.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-206-55"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HECM only. Keep attributed and general. 206.55(b)(2) and 206.57 give a 30-day cure where the spouse still meets the attributes; 206.57 was not read in full and the cure is not described on the page."
+    },
+    {
+      "id": "rv-cfpb-heirs-30-days-up-to-six-months",
+      "claim": "The CFPB says a reverse mortgage loan becomes due and payable after the borrower's death and the death of any coborrowers or eligible nonborrowing spouse; that once heirs receive a due and payable notice from the lender they have 30 days to buy, sell, or turn the home over to the lender; that this is the case for HECMs; and that it might be possible for the timeline to be extended up to six months so heirs can sell the home or obtain their own loan.",
+      "quotedLanguage": "A reverse mortgage loan becomes due and payable after your death and after the death of any coborrowers or of an eligible nonborrowing spouse. Once your heirs receive a due and payable notice from the lender, they have 30 days to buy, sell, or turn the home over to the lender to satisfy the debt. This is the case for Home Equity Conversion Mortgages (HECMs), which are the most common type of reverse mortgage loan. ... However, it might be possible for the timeline to be extended up to six months so your heirs can sell the home or obtain their own loan to purchase the home. Your heirs can consult a HUD-approved housing counseling agency or an attorney for more information.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-reverse-mortgage-heirs-keep-or-sell"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Page last reviewed AUG 28, 2026. 'MIGHT be possible ... UP TO six months' is the CFPB's wording; keep both hedges. The CFPB does not say who grants the extension or on what showing. Never write 'heirs get six months'. CFPB disclaimer: general consumer information, not legal advice or regulatory guidance."
+    },
+    {
+      "id": "rv-cfpb-heirs-keep-full-balance-sell-95-percent",
+      "claim": "The CFPB says that where there is no coborrower or eligible nonborrowing spouse, heirs who want to keep the home must pay the full loan balance, and to sell it they must repay the full loan balance, or at least 95 percent of its appraised value if the loan balance owed is more than the home value.",
+      "quotedLanguage": "It depends on whether there are coborrowers or an eligible nonborrowing spouse. If there are neither, to keep the home, heirs must pay the full loan balance. To sell it, they must repay the full loan balance, or at least 95 percent of its appraised value if the loan balance owed is more than the home value.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-reverse-mortgage-heirs-keep-or-sell"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Page last reviewed AUG 28, 2026; applies to HECMs per the same page. CONFLICT TO CARRY: this newer page says keeping the home takes the FULL balance; the older CFPB page (rv-cfpb-heirs-lesser-of-balance-or-95-percent, reviewed JAN 02, 2025) says heirs who want to keep the home repay the lesser of the balance or 95 percent. The page states both, dated, and does not resolve them."
+    },
+    {
+      "id": "rv-cfpb-sale-surplus-or-insurance-covers-rest",
+      "claim": "The CFPB says that when the home is worth more than the amount owed on the reverse mortgage, heirs can sell the home, repay the loan and keep the difference; and that when the home is worth less than the amount owed, heirs can pay off the loan by selling the home for at least 95 percent of its appraised value, with the rest of the loan covered by the mortgage insurance the borrower paid during the loan.",
+      "quotedLanguage": "your home might be worth more than the amount owed on the reverse mortgage. This means your heirs can sell the home, use the money to repay the loan, and keep the difference. ... your home might be worth less than the amount owed on the reverse mortgage. This means your heirs can pay off the loan by selling the home for at least 95 percent of the home's appraised value. The rest of the loan is covered by the mortgage insurance that the reverse mortgage borrower paid during the duration of the loan.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-reverse-mortgage-heirs-keep-or-sell"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Page last reviewed AUG 28, 2026; HECM only (mortgage insurance is the FHA insurance). 'Keep the difference' is before sale costs, other liens and estate debts; do not promise a net figure."
+    },
+    {
+      "id": "rv-cfpb-heirs-lesser-of-balance-or-95-percent",
+      "claim": "A CFPB page last reviewed January 2, 2025 says that heirs who want to keep the home after the borrower and any Eligible Non-Borrowing Spouse die will have to repay either the full loan balance or 95 percent of the home's appraised value, whichever is less.",
+      "quotedLanguage": "If your heirs want to keep your home after you and your Eligible Non-Borrowing Spouse die, your heirs will have to repay either the full loan balance or 95 percent of the home's appraised value – whichever is less.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-reverse-mortgage-when-i-die"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "MEDIUM: the CFPB's own newer page (reviewed AUG 28, 2026) says keeping the home requires the full balance, and HUD's 2019 fact sheet says the same. The regulation supports a reading under which a transfer to an heir counts as a sale ('sell includes the transfer of title by operation of law'), but it does not state a lesser-of rule in terms. State this claim ONLY with its date and next to the conflicting sources."
+    },
+    {
+      "id": "rv-cfpb-coborrower-remains-in-home",
+      "claim": "The CFPB says that when there is a co-borrower on a reverse mortgage and one borrower dies, the co-borrower will be able to remain in the home and receive loan payments as long as they meet the obligations of the loan.",
+      "quotedLanguage": "If one borrower dies, the co-borrower will be able to remain in the home and receive loan payments as long as they meet the obligations of the reverse mortgage loan",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-reverse-mortgage-when-i-die"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Page last reviewed JAN 02, 2025. Consistent with 206.27(c)(1) (rv-hecm-due-when-last-borrower-dies)."
+    },
+    {
+      "id": "rv-cfpb-nonborrowing-spouse-case-number-date",
+      "claim": "The CFPB says a non-borrowing spouse may be able to stay in the home without paying off the loan, depending on when the loan was taken out and whether they qualify as an Eligible Non-Borrowing Spouse under HUD rules; that an Eligible Non-Borrowing Spouse will not get any money from the reverse mortgage; that qualifying may be difficult; and it describes separate processes for HECMs with FHA case numbers assigned on or after August 4, 2014 and before that date.",
+      "quotedLanguage": "They may also be able to stay in the home without paying off the loan, depending on when the loan was taken out and whether they qualify as an Eligible Non-Borrowing Spouse under U.S. Department of Housing and Urban Development (HUD) rules. An Eligible Non-Borrowing Spouse will not get any money from the reverse mortgage. The process of qualifying to be an Eligible Non-Borrowing Spouse may be difficult. ... For HECMs with Federal Housing Administration (FHA) case numbers assigned on or after August 4, 2014 ... For HECMs with FHA case numbers assigned before August 4, 2014",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-reverse-mortgage-when-i-die"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Page last reviewed JAN 02, 2025. The pre-August 2014 process (Mortgagee Optional Election assignment, which the lender may choose) is described by the CFPB but its HUD source (Mortgagee Letters) was not fetched; the page only says the process differs and points to the servicer, a counselor or an attorney."
+    },
+    {
+      "id": "rv-cfpb-three-types-of-reverse-mortgage",
+      "claim": "The CFPB says there are several kinds of reverse mortgage loans: those insured by the Federal Housing Administration, proprietary reverse mortgage loans that are not FHA-insured, and single-purpose reverse mortgage loans offered by state and local governments; that most reverse mortgage loans today are HECMs insured by the FHA; and that non-HECM reverse mortgage loans are not federally insured.",
+      "quotedLanguage": "There are several kinds of reverse mortgage loans: (1) those insured by the Federal Housing Administration (FHA); (2) proprietary reverse mortgage loans that are not FHA-insured; and (3) single-purpose reverse mortgage loans offered by state and local governments. ... Most reverse mortgage loans today are Home Equity Conversion Mortgages (HECMs), insured by the Federal Housing Administration (FHA), which is a part of the U.S. Department of Housing and Urban Development (HUD). ... These non-HECM reverse mortgage loans are not federally insured.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-types-of-reverse-mortgages"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Page last reviewed JUL 11, 2022 (oldest CFPB page used). Basis for limiting every rule on the page to HECMs. Nothing was sourced about what proprietary loan documents say at death; the page says only that their own documents control."
+    },
+    {
+      "id": "rv-cfpb-reverse-mortgage-how-it-works",
+      "claim": "The CFPB says that with a reverse mortgage loan the title to the home remains in the borrower's name, borrowers do not make monthly mortgage payments, interest and fees are added to the loan balance each month so the balance grows, and the homeowners or their heirs will eventually have to pay back the loan, usually by selling the home.",
+      "quotedLanguage": "when you take out a reverse mortgage loan, the title to your home remains in your name. However, unlike a traditional mortgage, with a reverse mortgage loan, borrowers don't make monthly mortgage payments. ... Interest and fees are added to the loan balance each month and the balance grows. ... The homeowners or their heirs will eventually have to pay back the loan, usually by selling the home.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-what-is-a-reverse-mortgage"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Page last reviewed AUG 28, 2026; the page says its information applies only to HECMs."
+    },
+    {
+      "id": "rv-hud-hecm-only-federally-insured",
+      "claim": "HUD says the only reverse mortgage insured by the U.S. Federal Government is the Home Equity Conversion Mortgage (HECM), which is available only through an FHA-approved lender.",
+      "quotedLanguage": "The only reverse mortgage insured by the U.S. Federal Government is called a Home Equity Conversion Mortgage (HECM), and is only available through a Federal Housing Administration (FHA)-approved lender.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "hud-hecm-home"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "MEDIUM because the HUD page carries no visible date. Pairs with rv-cfpb-three-types-of-reverse-mortgage."
+    },
+    {
+      "id": "rv-hud-fact-sheet-sell-95-or-pay-in-full",
+      "claim": "HUD's fact sheet on inheriting a home secured by an FHA-insured HECM (dated 9/2019) says that if the loan balance is more than the home is worth, the estate or heirs may sell the home for at least 95 percent of the current appraised value and the lender will accept the net proceeds as satisfaction of the loan, that any post-death transfer is considered a 'sale' for these purposes, and that heirs who prefer to keep the home must pay off the HECM loan balance in full.",
+      "quotedLanguage": "If the loan balance is more than the home is worth, the estate or heirs may sell the home for at least 95-percent of the current appraised value and the lender will accept the net proceeds as satisfaction of the loan. Any post death transfer is considered a \"sale\" for these purposes. ... If you prefer to keep the home instead of selling it, the HECM loan balance must be paid off in full.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "hud-inheriting-hecm-fact-sheet"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "MEDIUM: one-page consumer fact sheet dated 9/2019, still linked from HUD's current HECM page on 2026-11-13. It contains both 'any post death transfer is considered a sale' and 'keeping the home ... paid off in full', which is the same tension as between the two CFPB pages. Quote it, date it, do not resolve it. The fact sheet's 'Know Your Options' sentence is garbled in the PDF ('estate or heirs (other than a non-borrowing spouse*) HECM loan or transfer title') and is not quoted."
+    },
+    {
+      "id": "rv-hud-fact-sheet-30-days-and-90-day-extensions",
+      "claim": "HUD's 9/2019 fact sheet says the loan must be satisfied within 30 days of the date of the borrower's death, and that the lender may approve 90-day extensions with satisfactory documentation that the estate or heirs are actively trying to sell the property or repay the HECM loan.",
+      "quotedLanguage": "The loan must be satisfied within 30 days of the date of the borrower's death. ... The lender may approve 90-day extensions with satisfactory documentation ... that the estate or heirs are actively trying to sell the property or repay the",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "hud-inheriting-hecm-fact-sheet"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "MEDIUM. CONFLICT: the fact sheet counts 30 days from the DEATH; 24 CFR 206.125(a)(2) counts 30 days from the DATE OF THE NOTICE and the CFPB (2026) says the same. The regulation controls; the page states the difference. The fact sheet does not say how many 90-day extensions exist; do not write 'two extensions' or 'up to a year'. Extensions are discretionary ('may approve'). The quote is joined with ellipses because the two-column PDF interleaves sidebar text between the lines in the extracted text; the passage is continuous in the original, ending 'repay the HECM loan.'"
+    },
+    {
+      "id": "rv-hud-fact-sheet-taxes-insurance-estate",
+      "claim": "HUD's 9/2019 fact sheet says property taxes and insurance on the property remain the responsibility of the borrower's estate until title is transferred, and tells heirs to contact the HECM lender immediately to review their responsibilities and options.",
+      "quotedLanguage": "Property taxes and insurance on the property remain the responsibility of the borrower's estate until title is transferred. ... Contact the HECM lender immediately to review your responsibilities and options.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "lending"
+      ],
+      "sourceIds": [
+        "hud-inheriting-hecm-fact-sheet"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "MEDIUM (2019 fact sheet). Pairs with the existing Idaho claim pb-pr-possession-and-taxes."
+    }
+  ]
+}

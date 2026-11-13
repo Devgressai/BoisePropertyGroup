@@ -197,6 +197,56 @@ export const guides: Guide[] = [
     published: "2026-11-13",
     updated: "2026-11-13",
   },
+  {
+    slug: "inheriting-a-house-with-a-mortgage-in-idaho",
+    title: "Inheriting a House With a Mortgage in Idaho",
+    h1: "Inheriting a house with a mortgage in Idaho: what happens to the loan",
+    description:
+      "What happens to the mortgage when an Idaho homeowner dies: the federal due-on-sale exemption, successor in interest rights, and the choices an heir has.",
+    cluster: "estate",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
+  {
+    slug: "reverse-mortgage-after-the-borrower-dies-in-idaho",
+    title: "Reverse Mortgage After Death in Idaho",
+    h1: "What happens to a reverse mortgage when the borrower dies in Idaho",
+    description:
+      "What federal HECM rules say when the last reverse mortgage borrower dies: when the loan comes due, the 30-day notice, the 95 percent sale rule, Idaho probate.",
+    cluster: "estate",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
+  {
+    slug: "taxes-when-you-sell-a-house-in-idaho",
+    title: "Taxes When You Sell a House in Idaho",
+    h1: "Income taxes when you sell a house in Idaho",
+    description:
+      "What the IRS says about the home-sale exclusion, basis and Form 1099-S, and what Idaho Code 63-3022H and the Idaho State Tax Commission say about the gain.",
+    cluster: "property-tax",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
+  {
+    slug: "bankruptcy-and-foreclosure-in-idaho",
+    title: "Bankruptcy and Foreclosure in Idaho",
+    h1: "Bankruptcy and foreclosure in Idaho: what a filing does and does not do to a trustee's sale",
+    description:
+      "What federal law and the U.S. Courts say a bankruptcy filing does to a pending Idaho trustee's sale: the automatic stay, chapter 7, chapter 13, selling.",
+    cluster: "distress",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
+  {
+    slug: "selling-a-house-with-unpermitted-work-in-ada-county",
+    title: "Selling a House With Unpermitted Work",
+    h1: "Selling a house with unpermitted work or an open code case in Ada County",
+    description:
+      "What Idaho's disclosure form asks about permits, which Ada County office handles permits and code cases for your address, and what an as-is sale changes.",
+    cluster: "disclosure",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {

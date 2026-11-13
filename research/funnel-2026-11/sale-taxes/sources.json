@@ -1,0 +1,362 @@
+{
+  "sources": [
+    {
+      "id": "irs-topic-701",
+      "title": "Topic no. 701, Sale of your home",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/taxtopics/tc701",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-11-09",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS's own tax topic, raw HTML cached. Page reads 'Page Last Reviewed or Updated: 09-Nov-2026', four days before access. States the $250,000/$500,000 exclusion and the ownership and use tests without naming a tax year.",
+      "stalenessRisk": "MEDIUM. The exclusion amounts are set by statute and have been stable, but Congress can change them. Re-read before republication and when the 2026 Publication 523 appears.",
+      "claimsSupported": [
+        "cg-irs-exclusion-250k-500k",
+        "cg-irs-ownership-and-use-tests",
+        "cg-irs-two-year-lookback",
+        "cg-irs-report-sale-if-1099s"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-pub-523",
+      "title": "Publication 523 (2025), Selling Your Home",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/publications/p523",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion",
+        "basis"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-04-30",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS's own publication, raw HTML cached. This is the 2025 edition, 'For use in preparing 2025 Returns'; page reads 'Page Last Reviewed or Updated: 30-Apr-2026'. No 2026 edition existed on 2026-11-13.",
+      "stalenessRisk": "MEDIUM. Reissued each year. A sale closing in 2026 is reported on a 2026 return, for which the 2026 edition (expected early 2027) will be the governing publication. Re-read then.",
+      "claimsSupported": [
+        "cg-irs-pub523-joint-return-tests",
+        "cg-irs-partial-exclusion",
+        "cg-irs-gain-is-amount-realized-less-basis",
+        "cg-irs-loss-on-home-not-deductible",
+        "cg-irs-nonqualified-use",
+        "cg-irs-depreciation-not-excludable",
+        "cg-irs-inherited-home-basis-pub523"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-pub-551",
+      "title": "Publication 551 (12/2025), Basis of Assets",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/publications/p551",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "basis",
+        "inheritance"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-12",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS's own publication, raw HTML cached. Header reads 'Revised: December 2025'; page reads 'Page Last Reviewed or Updated: 30-Apr-2026'. A continuous-use revision, not tied to one tax year.",
+      "stalenessRisk": "LOW to MEDIUM. Check the revision line before republishing.",
+      "claimsSupported": [
+        "cg-irs-inherited-basis-pub551",
+        "cg-irs-community-property-basis"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-topic-703",
+      "title": "Topic no. 703, Basis of assets",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/taxtopics/tc703",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "basis"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-11-09",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS's own tax topic, raw HTML cached. Page reads 'Page Last Reviewed or Updated: 09-Nov-2026'. Sends readers to Publication 551 for property acquired by gift or inheritance.",
+      "stalenessRisk": "LOW. General definitions.",
+      "claimsSupported": [
+        "cg-irs-basis-cost-and-adjustments"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-topic-409",
+      "title": "Topic no. 409, Capital gains and losses",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/taxtopics/tc409",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "rates"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-11-09",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "IRS's own tax topic, raw HTML cached. Page reads 'Page Last Reviewed or Updated: 09-Nov-2026' but its rate paragraph and income thresholds are stated 'For taxable years beginning in 2025'. No 2026 thresholds were on the page at access.",
+      "stalenessRisk": "HIGH for the rate figures. Income thresholds are indexed every year and the page lags a tax year. Re-read in early 2027 for taxable years beginning in 2026.",
+      "claimsSupported": [
+        "cg-irs-long-term-more-than-one-year",
+        "cg-irs-capital-gain-rates-ty2025"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-3022h",
+      "title": "Idaho Code § 63-3022H — Deduction of capital gains",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3022h/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-13). Compiler's history note copied verbatim into the claim's amendmentHistory. No [EFFECTIVE ...] alternate or future-dated version displayed on 2026-11-13. Last amended 2018, ch. 186.",
+      "stalenessRisk": "LOW. Re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "cg-id-3022h-sixty-percent-deduction",
+        "cg-id-3022h-real-property-twelve-months",
+        "cg-id-3022h-real-property-definition",
+        "cg-id-3022h-limits"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-3011b",
+      "title": "Idaho Code § 63-3011B — Taxable income",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3011b/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-13). Compiler's history note copied verbatim into the claim's amendmentHistory. No [EFFECTIVE ...] alternate or future-dated version displayed on 2026-11-13.",
+      "stalenessRisk": "LOW. Re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "cg-id-taxable-income-is-federal-as-modified"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-3011c",
+      "title": "Idaho Code § 63-3011C — Idaho taxable income",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3011c/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-13). Compiler's history note copied verbatim into the claim's amendmentHistory. No [EFFECTIVE ...] alternate or future-dated version displayed on 2026-11-13. History note on the page: [63-3011C, added 1995, ch. 111, sec. 5, p. 350.]",
+      "stalenessRisk": "LOW. Re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "cg-id-taxable-income-is-federal-as-modified"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-3026a",
+      "title": "Idaho Code § 63-3026A — Computing Idaho taxable income of part-year or nonresident individuals, trusts and estates",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3026a/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly (raw HTML cached 2026-11-13). Compiler's history note copied verbatim into the claim's amendmentHistory. No [EFFECTIVE ...] alternate or future-dated version displayed on 2026-11-13. Last amended 2013, ch. 83.",
+      "stalenessRisk": "LOW. Re-check after each legislative session (the Legislature posts statutes July 1 following the session).",
+      "claimsSupported": [
+        "cg-id-3026a-nonresident-real-property-source"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "istc-capital-gains",
+      "title": "Capital Gains (individual income tax guidance)",
+      "publisher": "Idaho State Tax Commission",
+      "organizationType": "state-government",
+      "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/popular-credits-and-deductions/capital-gains/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023-06-14",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Idaho State Tax Commission's own guidance page, raw HTML cached. Footer reads 'last updated: June 14, 2023'. Carries the Commission's disclaimer that the page is general guidance and that current tax law governs in a conflict. Cites Idaho Code 63-3022H and Income Tax Rules 170 to 173 (the rules were not read).",
+      "stalenessRisk": "MEDIUM. Guidance page last updated in 2023; the statute it summarises was last amended in 2018.",
+      "claimsSupported": [
+        "cg-istc-deduction-up-to-60-idaho-property"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "istc-form-cg-2025",
+      "title": "Form CG, Capital Gains Deduction, and Instructions (2025)",
+      "publisher": "Idaho State Tax Commission",
+      "organizationType": "state-government",
+      "url": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00093/EFO00093_09-18-2025.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-09-18",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Idaho State Tax Commission's own form and instructions for TAX YEAR 2025 (form EFO00093, instructions EIN00070, both dated 09-18-2025). PDF cached and text extracted with pdftotext to data/idaho/raw/extracted/. Linked from the Commission's Form CG page, where it was the newest version listed on 2026-11-13.",
+      "stalenessRisk": "HIGH. Reissued every year. The 2026 form was not yet published at access; re-read it when it appears (the 2025 form is dated mid-September).",
+      "claimsSupported": [
+        "cg-istc-form-cg-2025-residence-line"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "istc-individual-income-tax-basics",
+      "title": "Individual Income Tax Basics (online guide)",
+      "publisher": "Idaho State Tax Commission",
+      "organizationType": "state-government",
+      "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-05-07",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Idaho State Tax Commission's own guidance page, raw HTML cached. Footer reads 'last updated: May 7, 2026'. States the 2025 rate and 2025 filing thresholds; no 2026 figures on the page at access.",
+      "stalenessRisk": "HIGH for the rate and thresholds, which are stated for 2025 and change. Re-read in early 2027.",
+      "claimsSupported": [
+        "cg-istc-rate-2025",
+        "cg-istc-residency-what-idaho-taxes"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "istc-idaho-source-income",
+      "title": "Idaho Source Income",
+      "publisher": "Idaho State Tax Commission",
+      "organizationType": "state-government",
+      "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/idaho-source-income/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023-10-11",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Idaho State Tax Commission's own guidance page, raw HTML cached. Footer reads 'last updated: October 11, 2023'. Defines Idaho source income; its worked examples concern wages only.",
+      "stalenessRisk": "LOW to MEDIUM.",
+      "claimsSupported": [
+        "cg-istc-idaho-source-income-property"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

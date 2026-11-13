@@ -23,7 +23,7 @@ export const guideContent: Record<string, GuideContent> = {
         heading: "As-is is a repair term, not a disclosure exemption",
         body: [
           "Idaho Code 55-2504 requires a seller of residential property with one to four dwelling units — including a rental the owner does not live in — to complete a property condition disclosure form. It applies to a sale, an exchange, an installment sale contract, a lease with an option to purchase, any other option to purchase, and a ground lease coupled with improvements.",
-          "That list matters for less conventional deals. A seller-financed sale on an installment contract and a lease-option are both covered. The act asks what you know about the house; whether you will fix what you know about is a different conversation, and the act does not make it an excuse.",
+          "That list matters for less conventional deals. A seller-financed sale on an installment contract and a lease-option are both covered. The act asks what you know about the house; whether you will fix what you know about is a different conversation, and the act does not make it an excuse. The form's permit question has its own guide: [selling a house with unpermitted work in Ada County](/guides/selling-a-house-with-unpermitted-work-in-ada-county).",
         ],
         claims: ["id-disclosure-required-1-to-4-units", "id-disclosure-applies-to-sale-contract-options"],
       },
@@ -115,7 +115,7 @@ export const guideContent: Record<string, GuideContent> = {
           "Idaho Code 15-3-711 is unusually plain: \"Until termination of his appointment a personal representative has the same power over the title to property of the estate that an absolute owner would have, in trust however, for the benefit of the creditors and others interested in the estate. This power may be exercised without notice, hearing, or order of court.\"",
           "That last sentence is the one that surprises people. In Idaho, an appointed personal representative does not need a court order to sell estate real property as a matter of course. The power is held in trust for creditors and heirs, which is a real constraint on how it may be used — but it is not a procedural gate you must pass before a sale can happen.",
           "Two qualifications matter and neither is optional. The power belongs to an appointed personal representative — it says nothing about an heir who has not been appointed. And Idaho Code 15-3-715 opens by carving out exceptions: authorised transactions are \"Except as restricted or otherwise provided by the will or by an order in a formal proceeding,\" and are subject to the statutory priorities for claims against the estate.",
-          "So the honest summary is: usually no court order, unless the will or a formal order says otherwise. Anyone who tells you the first half without the second half is giving you an incomplete picture.",
+          "So the honest summary is: usually no court order, unless the will or a formal order says otherwise. Anyone who tells you the first half without the second half is giving you an incomplete picture. If the house still carries a loan, see [inheriting a house with a mortgage](/guides/inheriting-a-house-with-a-mortgage-in-idaho) and, for a reverse mortgage, [what happens when the borrower dies](/guides/reverse-mortgage-after-the-borrower-dies-in-idaho).",
         ],
         claims: ["id-pr-power-over-title", "id-pr-powers-limited-by-will"],
       },
@@ -625,7 +625,7 @@ export const guideContent: Record<string, GuideContent> = {
         "heading": "Probate is opened in the county where the person lived, not where the house is",
         "body": [
           "Idaho Code 15-3-201 sets venue for the first probate or appointment proceeding \"In the county where the decedent had his domicile at the time of his death.\" Only for someone who was not domiciled in Idaho does the location of property decide it: then venue is \"in any county where property of the decedent was located at the time of his death.\"",
-          "In Ada County, probates are a magistrate-court matter. The county's courts page lists probates among the cases magistrate judges hear, and explains that \"because of the comparatively high volume of cases filed in Ada County, magistrate judges serving Ada County are assigned by the Administrative District Judge to hear specific types of cases\" — probates, guardianships and conservatorships being one such assignment. Ada County sits in the Fourth Judicial District of the Idaho State Courts, which also serves Boise, Elmore and Valley counties."
+          "In Ada County, probates are a magistrate-court matter. The county's courts page lists probates among the cases magistrate judges hear, and explains that \"because of the comparatively high volume of cases filed in Ada County, magistrate judges serving Ada County are assigned by the Administrative District Judge to hear specific types of cases\" — probates, guardianships and conservatorships being one such assignment. Ada County sits in the Fourth Judicial District of the Idaho State Courts, which also serves Boise, Elmore and Valley counties. Where the estate's house has a mortgage on it, see [inheriting a house with a mortgage in Idaho](/guides/inheriting-a-house-with-a-mortgage-in-idaho)."
         ],
         "claims": [
           "pb-venue-domicile-county",
@@ -1021,7 +1021,7 @@ export const guideContent: Record<string, GuideContent> = {
         "body": [
           "Idaho Code 63-205 requires all taxable property to be assessed every year at market value for assessment purposes as of 12:01 a.m. on January 1 of the year the taxes are levied. The Ada County Assessor puts it plainly: the assessor does not set a value, but estimates what a typical buyer would reasonably pay for the property on January 1. The Assessor also gives January 1 as the lien date for real property.",
           "The lien itself comes from Idaho Code 63-206. Property taxes levied on real property are \"a first and prior lien upon the real property assessed therefor\", and they \"shall only be discharged by the payment or cancellation of the property taxes\". The same section makes property tax liens perpetual and continuous. The statute attaches the lien to the real property and names payment or cancellation as the only ways it is discharged. A change of owner is not on that list.",
-          "One detail is easy to get wrong. Section 63-205 sets the assessment date, not the lien date. The January 1 attachment wording in 63-206 appears in the subsection on personal and operating property. For a house, the January 1 lien date in Ada County comes from the Assessor's own statement."
+          "One detail is easy to get wrong. Section 63-205 sets the assessment date, not the lien date. The January 1 attachment wording in 63-206 appears in the subsection on personal and operating property. For a house, the January 1 lien date in Ada County comes from the Assessor's own statement. Income tax on the sale itself is a different subject, covered in [taxes when you sell a house in Idaho](/guides/taxes-when-you-sell-a-house-in-idaho)."
         ],
         "claims": [
           "pt-assessment-as-of-jan-1",
@@ -1144,7 +1144,7 @@ export const guideContent: Record<string, GuideContent> = {
           "The Consumer Financial Protection Bureau's advice is direct: \"If you can't pay your mortgage or are worried about missing a mortgage payment, call your mortgage servicer right away.\" It adds that you should also contact a HUD-approved housing counseling agency.",
           "The CFPB says the servicer's number is on the monthly statement, in the coupon book or on the servicer's website. It says to be ready to explain why you cannot pay, whether the problem is temporary or permanent, and the details of your income, expenses and other assets, and to fill out a mortgage assistance application if the servicer gives you one.",
           "The servicer has duties of its own. Under 12 CFR 1024.39, a servicer must make good faith efforts to establish live contact with a delinquent borrower no later than the 36th day of delinquency, and must then tell the borrower about loss mitigation options, if appropriate. No later than the 45th day it must send a written notice that encourages the borrower to make contact, gives the servicer's telephone number and mailing address, and gives the website and toll-free number for finding a housing counselor.",
-          "These federal procedures have limits. Under 12 CFR 1024.30 they apply only to a loan secured by the borrower's principal residence, and small servicers, reverse mortgages and certain other lenders are largely outside them."
+          "These federal procedures have limits. Under 12 CFR 1024.30 they apply only to a loan secured by the borrower's principal residence, and small servicers, reverse mortgages and certain other lenders are largely outside them. Bankruptcy is a separate route with its own rules, described in [bankruptcy and foreclosure in Idaho](/guides/bankruptcy-and-foreclosure-in-idaho)."
         ],
         "claims": [
           "af-cfpb-call-servicer-right-away",
@@ -1838,6 +1838,756 @@ export const guideContent: Record<string, GuideContent> = {
           "A sale to us is the wrong route if you can keep the home. If your servicer will agree to a repayment plan or a modification you can afford, or you can bring the loan current, talk to the servicer and a housing counselor first. If the house is in sound condition and there is time before the sale date, listing it may bring a higher price than we would pay. If you do sign with any buyer during the foreclosure period, read the Idaho notice and have an attorney look at the contract inside the five business days."
         ],
         "claims": []
+      }
+    ]
+  },
+
+  "inheriting-a-house-with-a-mortgage-in-idaho": {
+    "intro": [
+      "When an Idaho homeowner dies, the lien stays on the house and the payments keep falling due. A federal statute, 12 U.S.C. 1701j-3(d), bars a lender from calling the loan due under a due-on-sale clause because a home with fewer than five dwelling units passed to a relative on the borrower's death. The person who inherits can keep paying and ask to take over the loan, sell the house and pay the loan off, or let the house go. If payments stop, the lender keeps its right to foreclose.",
+      "This page describes what federal statute, federal mortgage servicing rules, the Consumer Financial Protection Bureau and Idaho Code say, quoted from the official sources. It is not legal or tax advice and it is not applied to your loan or your family. We are a property buyer. We cannot stop a foreclosure, negotiate with a lender or promise an outcome. An Idaho attorney and a HUD-approved housing counselor are the people to ask about your own situation."
+    ],
+    "sections": [
+      {
+        "heading": "The loan does not end when the owner dies",
+        "body": [
+          "Idaho's probate code treats a mortgage as something that stays attached to the property. Idaho Code 15-2-609 says a specific devise, meaning a gift of particular property in a will, \"passes subject to any security interest existing at the date of death, without right of exoneration, regardless of a general directive in the will to pay debts.\" That section speaks only of a specific devise. A house that passes without a will, or under a different kind of gift, is a question for a probate attorney.",
+          "The same code keeps the lender's remedy in place. Idaho Code 15-3-812 stops ordinary judgment creditors from levying on estate property, and then says the section does not prevent \"the enforcement of mortgages, pledges or liens upon real or personal property in an appropriate proceeding.\" Idaho Code 15-3-104 makes creditors wait for a personal representative to be appointed before enforcing a claim against the estate, and states that it has no application to a secured creditor enforcing its right to its security, except as to any deficiency judgment.",
+          "The Consumer Financial Protection Bureau put the practical point this way in a December 2024 report: where there is a mortgage on the home, people who become homeowners after a death \"must act quickly to make mortgage payments in order to avoid foreclosure.\""
+        ],
+        "claims": [
+          "im-idaho-specific-devise-passes-subject-to-lien",
+          "im-idaho-liens-enforceable-against-estate-property",
+          "im-idaho-claims-procedure-excludes-secured-creditor-security",
+          "im-cfpb-spotlight-act-quickly-on-payments"
+        ]
+      },
+      {
+        "heading": "Can the lender call the whole loan due because the owner died?",
+        "body": [
+          "A loan contract may contain a due-on-sale clause. 12 U.S.C. 1701j-3 defines it as a provision that lets a lender declare the secured sums due and payable if the property, or an interest in it, is sold or transferred without the lender's prior written consent. The statute, part of the Garn-St Germain Depository Institutions Act of 1982, generally lets lenders enforce these clauses according to the loan contract.",
+          "Subsection (d) carves out exceptions. For a loan secured by residential real property \"containing less than five dwelling units,\" a lender may not exercise a due-on-sale clause upon \"a transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety,\" upon \"a transfer to a relative resulting from the death of a borrower,\" or upon \"a transfer where the spouse or children of the borrower become an owner of the property.\"",
+          "The limits of that protection matter. The section does not define \"relative.\" It concerns the due-on-sale clause only, and it says nothing about missed payments. It does not make the person who inherits the borrower, and it does not require a lender to approve an assumption. The statute says only that a lender \"is encouraged to permit an assumption\" at the existing contract rate or a blended rate."
+        ],
+        "claims": [
+          "im-garn-due-on-sale-clause-defined",
+          "im-garn-due-on-sale-enforceable-by-contract",
+          "im-garn-exempt-transfers-on-death",
+          "im-garn-assumption-encouraged-not-required"
+        ]
+      },
+      {
+        "heading": "What a successor in interest is under federal servicing rules",
+        "body": [
+          "The CFPB describes the mortgage servicer as the company that sends the monthly mortgage statement and responds to borrower inquiries. The CFPB's Regulation X sets rules for how a servicer deals with the people who take ownership after a death. 12 CFR 1024.31 defines a successor in interest as a person to whom an ownership interest in the mortgaged property is transferred from a borrower by one of five listed kinds of transfer. Three of them match the statute above: a transfer on the death of a joint tenant or tenant by the entirety, a transfer to a relative resulting from the death of a borrower, and a transfer where the spouse or children of the borrower become an owner.",
+          "A confirmed successor in interest is a successor in interest \"once a servicer has confirmed the successor in interest's identity and ownership interest\" in the property. Under 12 CFR 1024.30(d), a confirmed successor in interest \"shall be considered a borrower\" for purposes of the servicing rules. That status is about information, notices and servicing procedures. It is separate from owing the debt, which is covered below.",
+          "These rules have limits. Under 12 CFR 1024.30, small servicers, reverse mortgages and certain other lenders are outside the general servicing policies and the loss mitigation procedures, and the early intervention and loss mitigation procedures apply only to a loan secured by the borrower's principal residence. Idaho's trust deed statute also uses the phrase \"successor in interest,\" for its own purposes. The two are different definitions."
+        ],
+        "claims": [
+          "im-cfpb-inherited-home-contact-servicer-proof",
+          "im-regx-successor-in-interest-defined",
+          "im-regx-confirmed-successor-defined",
+          "im-regx-confirmed-successor-treated-as-borrower",
+          "af-regx-scope"
+        ]
+      },
+      {
+        "heading": "How to get information about the loan",
+        "body": [
+          "The CFPB says a person who has inherited a home should inform the loan servicer, and that the person may need to show proof of their right to the home before the servicer releases certain account information. After a death, the CFPB says, that proof \"might include a copy of the executed will and the death certificate or a letter from the executor of the deceased person's estate.\" The servicer should say what proof it needs.",
+          "Regulation X sets out the servicer's side. Under 12 CFR 1024.36(i), when a person sends a written request saying they may be a successor in interest, with the borrower's name and enough information to identify the loan account, the servicer must respond with a written description of the documents it reasonably requires to confirm the person's identity and ownership interest, and with contact information including a telephone number. Until confirmation, the servicer is not required to provide other account information, and it must indicate that the request can be resubmitted once the person is confirmed.",
+          "12 CFR 1024.38(b)(1)(vi) requires servicers covered by that section to keep policies and procedures reasonably designed so that, on notice of a borrower's death, they can promptly facilitate communication with potential successors, promptly describe the documents they need, and promptly make a confirmation determination and notify the person of the result. The rule's word is \"promptly.\" It gives no number of days.",
+          "In Idaho the person with authority over a decedent's estate is the personal representative, and that authority comes from being appointed and issued letters. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers how letters are obtained in Ada County."
+        ],
+        "claims": [
+          "im-cfpb-inherited-home-contact-servicer-proof",
+          "im-regx-potential-successor-written-request",
+          "im-regx-before-confirmation-limited-information",
+          "im-regx-servicer-policies-after-death",
+          "af-regx-scope",
+          "pb-letters-required"
+        ]
+      },
+      {
+        "heading": "Inheriting the house is different from owing the debt",
+        "body": [
+          "Regulation X addresses liability in the notice a servicer may send to a confirmed successor in interest who is not liable on the loan. Under 12 CFR 1024.32(c)(1), that notice must explain that unless the successor assumes the mortgage loan obligation under State law, the successor \"is not liable for the mortgage debt and cannot be required to use the successor in interest's assets to pay the mortgage debt, except that the lender has a security interest in the property and a right to foreclose on the property, when permitted by law and authorized under the mortgage loan contract.\"",
+          "The CFPB said much the same in a 2014 interpretive rule: where a successor acquires property that is subject to a mortgage, \"the successor is not personally liable for the associated debt, but may choose to assume the debt.\"",
+          "The Regulation X notice is addressed to a successor who is not liable on the loan. A co-borrower, a spouse who signed the note, and anyone who later assumes the loan stand in a different position, and Idaho's rules on a married couple's debts and on claims against an estate are outside this page. Ask an Idaho attorney before assuming you owe nothing or that you owe everything.",
+          "The same notice comes with an acknowledgment form. The rule says there is no time limit to return it, and that the servicer will not begin sending certain notices and communications until it is returned. Whether or not the form is signed, the notice must explain that the successor is entitled to submit notices of error, requests for information, and requests for a payoff statement."
+        ],
+        "claims": [
+          "im-regx-successor-not-liable-unless-assumes",
+          "im-cfpb-2014-successor-not-personally-liable-may-assume",
+          "im-regx-successor-notice-acknowledgment-form",
+          "im-regx-successor-may-request-payoff-and-information"
+        ]
+      },
+      {
+        "heading": "Choice one: keep paying, and ask about taking over the loan",
+        "body": [
+          "The CFPB suggests asking the servicer how to continue making payments on the loan or how to seek a loan modification. Its December 2024 report ties making the mortgage payments to avoiding foreclosure.",
+          "Taking over the loan in your own name is a separate step, and it needs the lender's agreement. The CFPB's 2014 interpretive rule says that when a successor who already has title is added as an obligor on the existing loan, and that step is not an \"assumption\" as Regulation Z defines it, the step is not subject to the federal Ability-to-Repay Rule. The same document says creditors \"may agree\" to add the successor as a named obligor. It removes one federal requirement from the process. It does not oblige a creditor to say yes, and the status of that 2014 interpretation today is something to confirm with an attorney or a housing counselor.",
+          "In its December 2024 report the CFPB said federal rules and mortgage program guidelines require servicers to help successor homeowners get the information they need to manage the existing mortgage and, if the homeowner chooses, to assume the existing loan terms. It also reported complaints from homeowners who said they were incorrectly told they had to refinance into a new loan. Whether a particular loan can be assumed depends on the loan and on who owns or insures it.",
+          "A HUD-approved housing counselor can go through these options and help with the servicer. The CFPB says such agencies provide foreclosure prevention counseling free of charge, and that a counselor cannot promise that a borrower will keep the home."
+        ],
+        "claims": [
+          "im-cfpb-inherited-home-ask-about-payments-and-help",
+          "im-cfpb-spotlight-act-quickly-on-payments",
+          "im-cfpb-2014-adding-successor-not-subject-to-atr",
+          "im-cfpb-spotlight-refinance-pressure-reports",
+          "im-garn-assumption-encouraged-not-required",
+          "af-cfpb-housing-counselor-what-they-do"
+        ]
+      },
+      {
+        "heading": "Choice two: sell the house and pay the loan off",
+        "body": [
+          "The CFPB describes the payoff amount as how much must be paid to satisfy the loan and completely pay off the debt, and says it differs from the current balance because it includes interest through the payoff day and may include unpaid fees. Under Idaho Code 45-1514, once the obligation secured by a deed of trust is performed, the trustee reconveys the property on the beneficiary's written request.",
+          "Who signs the sale depends on where the estate stands. An Idaho personal representative acquires powers by being appointed and issued letters. Idaho Code 15-3-715 lists selling real property among the transactions a personal representative may carry out, subject to any restriction in the will or a court order. Idaho Code 15-3-814 adds that where estate assets are encumbered by a mortgage, the personal representative may pay the encumbrance or any part of it \"if it appears to be for the best interest of the estate.\"",
+          "If the house would sell for less than the loan balance, the sale is a short sale and needs the lender. The CFPB defines a short sale as a sale for less than what is owed, possible only if the lender or servicer agrees.",
+          "The sale itself is covered in [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho)."
+        ],
+        "claims": [
+          "af-cfpb-payoff-amount",
+          "sk-reconveyance-on-performance",
+          "pb-letters-required",
+          "pb-pr-may-sell-real-property",
+          "id-pr-powers-limited-by-will",
+          "im-idaho-pr-may-pay-or-convey-encumbered-asset",
+          "sk-cfpb-short-sale-definition"
+        ]
+      },
+      {
+        "heading": "Choice three: let the house go, and what a trustee's sale does",
+        "body": [
+          "Idaho Code 15-3-814 also lets a personal representative \"convey or transfer the assets to the creditor in satisfaction of his lien,\" where that appears to be in the best interest of the estate. A lender is not obliged by that section to accept the property.",
+          "If payments stop on a loan secured by a deed of trust, Idaho Code 45-1503 gives the trustee a power of sale after the breach, and lets the beneficiary choose foreclosure through the courts instead. Under 12 CFR 1024.41(f)(1), where the federal rule applies, a servicer may not make the first foreclosure notice or filing unless the loan is more than 120 days delinquent, with listed exceptions. Idaho Code 45-1505 then requires a notice of default to be recorded and mailed, including to any individual who owns an interest in the property.",
+          "Notice of the trustee's sale must be given at least 120 days before the sale date. Idaho Code 45-1506(2) includes among the people who must receive it any successor in interest of the grantor whose interest is of record before the notice of default or is actually known to the trustee or beneficiary. These two 120-day periods are separate and are measured from different events.",
+          "Idaho Code 45-1506(12) lets the grantor or a successor in interest cure the default at any time within 115 days of the recording of the notice of default by paying the amount then due, other than principal that would not be due had there been no default. Once the sale is held, Idaho Code 45-1508 says it terminates the interest of every person who was given notice, with no right to redeem.",
+          "Idaho Code 45-1512 allows a money judgment for a remaining balance to be sought within 3 months after a trustee's sale, limited by the property's fair market value as found by the court. Whether that could reach an estate or any heir is a legal question for an Idaho attorney. The steps and day counts are set out in the [Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline)."
+        ],
+        "claims": [
+          "im-idaho-pr-may-pay-or-convey-encumbered-asset",
+          "ft-power-of-sale-or-judicial-option",
+          "af-regx-120-day-prefiling",
+          "af-regx-scope",
+          "ft-notice-of-default-recorded-and-mailed",
+          "id-trustee-sale-120-day-notice",
+          "ft-notice-of-sale-recipients",
+          "af-cure-within-115-days",
+          "ft-sale-final-no-redemption",
+          "as-deficiency-three-month-window",
+          "as-deficiency-fair-market-value-limit"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy houses in Ada County in any condition, with our own capital. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. That can suit an estate or an heir who has decided to sell and does not want to carry the payments for long. Our page on [selling an inherited house](/sell-inherited-house-idaho) describes the process.",
+          "We cannot stop a foreclosure, negotiate with a lender, arrange an assumption or give legal or tax advice. If you want to keep the house, the route runs through the servicer, and a HUD-approved housing counselor costs nothing. If there is time to list the house on the open market, a listing may bring a higher price than we would offer. If the loan balance is more than the house would sell for, any sale needs the lender's agreement, and that decision belongs to the lender."
+        ],
+        "claims": [
+          "af-cfpb-payoff-amount",
+          "af-cfpb-housing-counselor-what-they-do",
+          "sk-cfpb-short-sale-definition"
+        ]
+      }
+    ]
+  },
+
+  "reverse-mortgage-after-the-borrower-dies-in-idaho": {
+    "intro": [
+      "For a Home Equity Conversion Mortgage (HECM), the FHA-insured reverse mortgage, federal regulation 24 CFR 206.27 says the loan balance becomes due and payable in full when a borrower dies and the home is not the principal residence of at least one surviving borrower. Under 24 CFR 206.125 the lender then sends a due and payable notice to the estate and heirs, who have 30 days from the date of that notice to pay the balance, sell the home, or give the lender a deed in lieu of foreclosure. The CFPB says heirs can satisfy a HECM by selling the home for at least 95 percent of its appraised value when the balance is higher than the home's value, and that the timeline might be extended up to six months.",
+      "This page describes what the federal HECM regulation, the CFPB, HUD and Idaho Code say, quoted from the official sources. It is not legal or tax advice and it is not applied to your situation. The loan documents and the servicer's letters control the dates on a particular loan. Talk to an Idaho attorney or a HUD-approved housing counseling agency. We cannot stop a foreclosure, negotiate with a lender or servicer, or extend a deadline."
+    ],
+    "sections": [
+      {
+        "heading": "These rules cover HECMs, the FHA-insured reverse mortgage",
+        "body": [
+          "The CFPB lists three kinds of reverse mortgage loans: those insured by the Federal Housing Administration (FHA), proprietary loans that are not FHA-insured, and single-purpose loans offered by state and local governments. It says most reverse mortgage loans today are HECMs, and that non-HECM reverse mortgage loans are not federally insured. HUD says the HECM is the only reverse mortgage insured by the U.S. Federal Government.",
+          "Everything on this page comes from the HECM rules in 24 CFR part 206 and from CFPB and HUD pages about HECMs. A proprietary or single-purpose reverse mortgage follows its own loan documents. The time limits and percentages below should not be assumed to apply to one.",
+          "The CFPB describes how the loan works. The title to the home stays in the borrower's name. The borrower makes no monthly mortgage payments. Interest and fees are added to the balance each month, so the balance grows. The CFPB says \"the homeowners or their heirs will eventually have to pay back the loan, usually by selling the home.\""
+        ],
+        "claims": [
+          "rv-cfpb-three-types-of-reverse-mortgage",
+          "rv-hud-hecm-only-federally-insured",
+          "rv-cfpb-reverse-mortgage-how-it-works"
+        ]
+      },
+      {
+        "heading": "When does a reverse mortgage become due after a death?",
+        "body": [
+          "24 CFR 206.27(c)(1) sets out what a HECM mortgage must say. The balance \"will be due and payable in full if a borrower dies and the property is not the principal residence of at least one surviving borrower.\" The same sentence carries an exception: due and payable status is deferred if the requirements of the Deferral Period for an Eligible Non-Borrowing Spouse are met.",
+          "A death therefore does not always make the loan due. The CFPB says that when there is a co-borrower and one borrower dies, the co-borrower can remain in the home and keep receiving loan payments as long as they meet the obligations of the loan.",
+          "The regulation treats an heir and a borrower differently. 24 CFR 206.3 defines a borrower as an original borrower under the HECM loan agreement and note, and says the term \"does not include successors or assigns of a borrower.\""
+        ],
+        "claims": [
+          "rv-hecm-due-when-last-borrower-dies",
+          "rv-cfpb-coborrower-remains-in-home",
+          "rv-hecm-borrower-definition"
+        ]
+      },
+      {
+        "heading": "What notice do heirs get, and how long do they have?",
+        "body": [
+          "24 CFR 206.125(a) puts the first steps on the lender, which the regulation calls the mortgagee. The mortgagee must notify the FHA Commissioner within 60 days of the mortgage becoming due and payable because of a death. It must then notify the borrower's estate and heirs, as applicable, within 30 days that the mortgage is due and payable.",
+          "The regulation then says the mortgagee \"shall give the applicable party 30 days from the date of notice\" to take one of the listed actions.",
+          "The CFPB describes it the same way. Once heirs receive a due and payable notice, \"they have 30 days to buy, sell, or turn the home over to the lender to satisfy the debt.\" The CFPB adds that \"it might be possible for the timeline to be extended up to six months so your heirs can sell the home or obtain their own loan to purchase the home.\" The CFPB's wording is that an extension might be possible. It does not describe one as automatic.",
+          "HUD publishes a one-page fact sheet for heirs, dated 9/2019. It says the lender \"may approve 90-day extensions\" with satisfactory documentation that the estate or heirs are actively trying to sell the property or repay the loan. The same fact sheet words the first deadline differently from the regulation: it says the loan must be satisfied \"within 30 days of the date of the borrower's death.\" The regulation and the newer CFPB page both count from the notice. The servicer's letter states the dates it is applying, and the fact sheet tells heirs to contact the HECM lender immediately."
+        ],
+        "claims": [
+          "rv-hecm-due-notice-30-days-to-act",
+          "rv-cfpb-heirs-30-days-up-to-six-months",
+          "rv-hud-fact-sheet-30-days-and-90-day-extensions",
+          "rv-hud-fact-sheet-taxes-insurance-estate"
+        ]
+      },
+      {
+        "heading": "The options: pay the loan off, sell the house, or deed it to the lender",
+        "body": [
+          "24 CFR 206.125(a)(2) lists the actions open to the notified party. They include paying the outstanding loan balance in full, with accrued interest, mortgage insurance premium and mortgagee advances; selling the property; and providing the mortgagee with a deed in lieu of foreclosure. The list ends with any other actions the Commissioner permits through notice.",
+          "On a sale, the regulation sets a floor. The property may be sold for an amount not less than the amount the Commissioner determines through notice, \"which shall not exceed 95 percent of the appraised value,\" with the net proceeds applied to the loan balance. The regulation itself caps the floor at 95 percent. The working figure comes from HUD's notice, which the servicer applies. The CFPB and HUD both describe it to consumers as a sale for at least 95 percent of the appraised value.",
+          "Keeping the house is where the official sources do not read alike. The CFPB page last reviewed on August 28, 2026 says \"to keep the home, heirs must pay the full loan balance.\" HUD's 2019 fact sheet says the same: if heirs prefer to keep the home, the loan balance \"must be paid off in full.\" A CFPB page last reviewed on January 2, 2025 says heirs who want to keep the home repay \"either the full loan balance or 95 percent of the home's appraised value\", whichever is less.",
+          "The regulation says that for this section, \"sell includes the transfer of title by operation of law,\" and the HUD fact sheet says any post-death transfer is considered a sale. What a servicer will accept from an heir who wants to keep the house is a question for the servicer, in writing, and for an attorney or a HUD-approved housing counseling agency."
+        ],
+        "claims": [
+          "rv-hecm-options-after-due-notice",
+          "rv-hecm-sale-floor-95-percent-appraised",
+          "rv-cfpb-heirs-keep-full-balance-sell-95-percent",
+          "rv-hud-fact-sheet-sell-95-or-pay-in-full",
+          "rv-cfpb-heirs-lesser-of-balance-or-95-percent"
+        ]
+      },
+      {
+        "heading": "Selling when the loan balance is higher than the home's value",
+        "body": [
+          "The 95 percent figure is measured against an appraisal the lender orders. Under 24 CFR 206.125(b), the mortgagee must have the property appraised no later than 30 days after an applicable party requests it in connection with a potential sale. When the mortgage is due and payable, the appraisal is at the mortgagee's expense, and the mortgagee has a right to be reimbursed out of the sale proceeds.",
+          "24 CFR 206.125(c) covers the sale itself. Where the HECM is due and payable when the contract is signed, \"the borrower or other party with legal right to dispose of the property\" may sell it for the amount set under the 95 percent rule. The mortgagee must then satisfy the mortgage of record to facilitate the sale. Two conditions come with that: there are no junior liens, and all the net proceeds from the sale are paid to the mortgagee.",
+          "The CFPB explains both outcomes. If the home is worth more than the amount owed, heirs can sell it, repay the loan, \"and keep the difference.\" If the home is worth less than the amount owed, heirs can pay off the loan by selling for at least 95 percent of the appraised value, and \"the rest of the loan is covered by the mortgage insurance that the reverse mortgage borrower paid during the duration of the loan.\"",
+          "On personal liability, 24 CFR 206.27(b)(8) requires a HECM mortgage to say that \"the borrower shall have no personal liability for payment of the outstanding loan balance,\" that the mortgagee \"shall enforce the debt only through sale of the property,\" and that the mortgagee may not obtain a deficiency judgment against the borrower if the mortgage is foreclosed. Idaho's general statute for deeds of trust, Idaho Code 45-1512, allows a money judgment for the balance to be sought within 3 months after a trustee's sale. How the federal provision and the Idaho statute apply to a particular estate is a question for an Idaho attorney."
+        ],
+        "claims": [
+          "rv-hecm-appraisal-within-30-days-of-request",
+          "rv-hecm-sale-by-party-with-legal-right",
+          "rv-hecm-sale-floor-95-percent-appraised",
+          "rv-cfpb-sale-surplus-or-insurance-covers-rest",
+          "rv-hecm-no-personal-liability-no-deficiency",
+          "ss-trustee-sale-deficiency-three-months"
+        ]
+      },
+      {
+        "heading": "What if a spouse who was not on the loan still lives in the house?",
+        "body": [
+          "The HECM rules have a separate track for a surviving spouse who was not a borrower. 24 CFR 206.3 defines the Deferral Period as the time after the death of the last surviving borrower during which due and payable status is deferred for an Eligible Non-Borrowing Spouse.",
+          "24 CFR 206.55 sets the conditions. The spouse must have been married to the borrower at loan closing and for the rest of the borrower's life. The spouse must have been disclosed to the lender at origination and specifically named as an Eligible Non-Borrowing Spouse in the loan documents. The spouse must have occupied the home, and continue to occupy it, as a principal residence. The Commissioner may prescribe other requirements.",
+          "The section adds duties after the death. Within 90 days from the death of the last surviving borrower, the spouse must establish legal ownership or another ongoing legal right to remain in the property for life. The spouse must also make sure the borrower's other obligations under the loan documents continue to be met.",
+          "The regulation is strict about who qualifies. A spouse who was ineligible at loan origination \"is not subsequently eligible for a Deferral Period when the borrowing spouse dies.\" If a non-borrowing spouse no longer meets the qualifying attributes, the HECM becomes immediately due and payable. 24 CFR 206.55(f) also says nothing in the section interferes with the ability of the estate or heirs to dispose of the property if they are otherwise legally entitled to.",
+          "The CFPB says the process differs by loan age. It describes one process for HECMs with FHA case numbers assigned on or after August 4, 2014 and another for earlier loans. It says an Eligible Non-Borrowing Spouse \"will not get any money from the reverse mortgage\" and that qualifying \"may be difficult.\" It suggests help from an attorney or a HUD-approved housing counseling agency."
+        ],
+        "claims": [
+          "rv-hecm-deferral-period-definition",
+          "rv-hecm-eligible-spouse-qualifying-attributes",
+          "rv-hecm-deferral-90-days-legal-right",
+          "rv-hecm-ineligible-spouse-due-immediately",
+          "rv-cfpb-nonborrowing-spouse-case-number-date"
+        ]
+      },
+      {
+        "heading": "Who has the legal right to sell the house in Idaho?",
+        "body": [
+          "The federal rule lets a \"party with legal right to dispose of the property\" sell. It does not say who that is. Where the house is part of a probate estate, Idaho's probate code addresses it.",
+          "Under Idaho Code 15-3-103, a person acquires the powers of a personal representative only by being appointed by the court or registrar, qualifying, and being issued letters. Idaho Code 15-3-715 lists selling real property of the estate among the transactions a personal representative may carry out, subject to any restriction in the will or in a court order.",
+          "Appointment has its own steps. On an application for informal appointment, the registrar appoints the applicant once at least 120 hours have passed since the death. That figure is a statutory minimum, and court processing time is separate.",
+          "24 CFR 206.125 sets its 30 days without mentioning probate. The house also has to be carried in the meantime. HUD's fact sheet says property taxes and insurance \"remain the responsibility of the borrower's estate until title is transferred.\" Idaho Code 15-3-709 requires a personal representative to pay taxes on, and take reasonable steps to protect and preserve, the estate in their possession.",
+          "Our guides on [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) and [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho) cover letters, authority and deeds in more detail."
+        ],
+        "claims": [
+          "rv-hecm-sale-by-party-with-legal-right",
+          "pb-letters-required",
+          "pb-pr-may-sell-real-property",
+          "id-pr-powers-limited-by-will",
+          "pb-informal-appointment-120-hours",
+          "rv-hud-fact-sheet-taxes-insurance-estate",
+          "pb-pr-possession-and-taxes"
+        ]
+      },
+      {
+        "heading": "If nobody acts: deed in lieu, foreclosure, and who to call",
+        "body": [
+          "A deed in lieu of foreclosure hands the house to the lender. Under 24 CFR 206.125(f), the mortgagee must accept one from the borrower or other party with legal right to dispose of the property, provided it is filed for recording within 9 months of the due date and the mortgagee is able to obtain good and marketable title. In exchange, the mortgagee cancels the credit instrument and satisfies the mortgage of record.",
+          "If the loan is not paid, the house is not sold and no deed is given, the regulation turns to foreclosure. 24 CFR 206.125(d) requires the mortgagee to commence foreclosure within six months of the due and payable date, or within such additional time as the Commissioner approves. 24 CFR 206.129(d)(1) ties that date to when the mortgagee notifies or should have notified the Commissioner. This is a deadline on the lender, and the regulation gives heirs no fixed six months. Idaho Code 45-1505 allows a deed of trust to be foreclosed by a trustee's sale when its conditions are met. In that process, Idaho Code 45-1506 requires notice of the trustee's sale at least 120 days before the sale date. Idaho Code 45-1508 says the people given notice have no right to redeem the property from the purchaser after the sale. Our [Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline) walks through each step.",
+          "The federal loss mitigation procedures in Regulation X do not reach these loans. 12 CFR 1024.30 exempts a servicer of a reverse mortgage transaction from sections 1024.38 through 1024.41, except as section 1024.41(j) provides.",
+          "The first call is to the servicer. HUD's fact sheet says to \"contact the HECM lender immediately to review your responsibilities and options.\" The CFPB says heirs can consult a HUD-approved housing counseling agency or an attorney. It describes a housing counselor at a HUD-approved agency as trained and certified by the government, and says a counselor cannot promise that anyone will keep a home."
+        ],
+        "claims": [
+          "rv-hecm-deed-in-lieu-nine-months",
+          "rv-hecm-foreclosure-within-six-months",
+          "rv-hecm-due-and-payable-date-definition",
+          "id-trustee-sale-120-day-notice",
+          "ft-sale-final-no-redemption",
+          "af-regx-scope",
+          "rv-hud-fact-sheet-taxes-insurance-estate",
+          "rv-cfpb-heirs-30-days-up-to-six-months",
+          "af-cfpb-housing-counselor-what-they-do",
+          "ft-foreclosure-conditions"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy houses in Ada County with our own capital, in any condition. A purchase closes through a local title company on a date the seller chooses, and a three-week close is realistic. The CFPB says that when a home is worth more than the amount owed, heirs can sell it, repay the loan and keep the difference. That is the case where a sale to us can work. We can only buy from someone with the legal right to sell, and the probate section above describes how a personal representative gets that authority. Our page on [selling an inherited house](/sell-inherited-house-idaho) explains how that works with us.",
+          "We are the wrong fit in several cases. Where the balance is higher than the home's value, the price has to meet the amount set under the 95 percent rule, measured against the lender's appraisal, and our offer may be lower than that. Listing the house on the open market may bring a higher price than we would pay, if the notice period allows the time. A deed in lieu is between the estate and the lender and does not involve us. We cannot stop a foreclosure, negotiate with a servicer, obtain an extension, or give legal or tax advice."
+        ],
+        "claims": [
+          "rv-hecm-sale-floor-95-percent-appraised",
+          "rv-hecm-sale-by-party-with-legal-right",
+          "pb-letters-required",
+          "rv-cfpb-sale-surplus-or-insurance-covers-rest"
+        ]
+      }
+    ]
+  },
+
+  "taxes-when-you-sell-a-house-in-idaho": {
+    "intro": [
+      "A house sale can produce a capital gain, and income tax is figured on the gain, not on the sale price. The IRS says a seller with a gain on a main home may qualify to exclude up to $250,000 of it from income, or up to $500,000 on a joint return, if the ownership and use tests are met. Idaho starts from federal taxable income, and Idaho Code 63-3022H allows an individual a deduction of 60% of the capital gain net income from qualified Idaho property, a category that includes real property held at least twelve months as that section defines real property.",
+      "This page describes what the IRS, the Idaho Code and the Idaho State Tax Commission say, quoted from the official sources as they read on November 13, 2026. It is not tax or legal advice and it does not apply any rule to your sale. Several figures below belong to tax year 2025 because the 2026 editions had not been published, and each one is labeled. Ask a tax professional about your own return before you rely on any of it. Property tax is a separate subject, covered in our guide to [Idaho property taxes when you sell](/guides/idaho-property-taxes-when-you-sell)."
+    ],
+    "sections": [
+      {
+        "heading": "The federal exclusion on a main home: up to $250,000, or $500,000 on a joint return",
+        "body": [
+          "IRS Topic 701, last reviewed by the IRS on November 9, 2026, says that if you have a capital gain from the sale of your main home, you may qualify to exclude up to $250,000 of that gain from your income, or up to $500,000 if you file a joint return with your spouse.",
+          "Topic 701 says that in general you must meet two tests. The ownership test is met by owning the home for at least 24 months out of the 5 years leading up to the date of the sale. The use test is met by using the home as a residence for at least 24 months of the previous 5 years. The two tests can be met during different 2-year periods, but both must fall inside the 5-year period ending on the date of the sale.",
+          "Publication 523, the IRS guide to selling a home, adds detail. Its current edition is the 2025 edition, written for 2025 returns. It says that for a married couple filing jointly only one spouse has to meet the ownership requirement, but each spouse must meet the residence requirement individually to get the full exclusion. It counts the residence requirement as a total of 24 months (730 days), which does not have to be a single block of time.",
+          "Two limits sit next to the tests. Topic 701 says you are generally not eligible if you excluded the gain from the sale of another home during the two-year period before this sale. Publication 523 says a seller who does not meet the Eligibility Test may still qualify for a partial exclusion if the main reason for the sale was a change in workplace location, a health issue, or an unforeseeable event. The publication defines each of those terms."
+        ],
+        "claims": [
+          "cg-irs-exclusion-250k-500k",
+          "cg-irs-ownership-and-use-tests",
+          "cg-irs-pub523-joint-return-tests",
+          "cg-irs-two-year-lookback",
+          "cg-irs-partial-exclusion"
+        ]
+      },
+      {
+        "heading": "How the IRS measures gain: amount realized minus adjusted basis",
+        "body": [
+          "Publication 523 (2025) says that to figure the gain or loss on a main home you need the selling price, the amount realized, and the adjusted basis. Its worksheet describes the amount realized as the sale price minus selling expenses. You subtract the adjusted basis from the amount realized. The mortgage balance is not one of the terms in that formula.",
+          "IRS Topic 703 says that in most situations the basis of an asset is its cost to you. Basis then moves. Topic 703 says to increase it by items such as the cost of improvements that add to the value of the property, and to decrease it by items such as allowable depreciation and insurance reimbursements for casualty and theft losses. The result is the adjusted basis.",
+          "If the adjusted basis is greater than the amount realized, Publication 523 says you sold your home at a loss. It says you cannot deduct that loss, and that you do not need to pay tax on the money you received from the sale.",
+          "For gain that is taxable, IRS Topic 409 separates long-term from short-term. Generally a gain is long-term if you held the asset for more than one year and short-term if you held it one year or less, and net short-term gains are taxed as ordinary income. Topic 409 notes exceptions to the holding rule, including for property acquired from a decedent, and sends readers to Publication 544 for them. For taxable years beginning in 2025, Topic 409 says the rate on most net capital gain is no higher than 15% for most individuals, that some or all of it may be taxed at 0%, and that a 20% rate applies above the income thresholds set for the 15% rate. The page did not give thresholds for 2026 when we read it."
+        ],
+        "claims": [
+          "cg-irs-gain-is-amount-realized-less-basis",
+          "cg-irs-basis-cost-and-adjustments",
+          "cg-irs-loss-on-home-not-deductible",
+          "cg-irs-long-term-more-than-one-year",
+          "cg-irs-capital-gain-rates-ty2025"
+        ]
+      },
+      {
+        "heading": "Rental or business use can leave part of the gain taxable",
+        "body": [
+          "The exclusion is written for a main home, and Publication 523 (2025) narrows it where the property was used another way. It says gain from the sale of a main home is not excludable if it is allocable to periods of nonqualified use. Nonqualified use means any period after 2008 when neither you nor your spouse or former spouse used the property as your main home, with certain exceptions that the publication lists.",
+          "Depreciation is treated separately. Publication 523 says that if you were entitled to take depreciation deductions because you used your home for business or as rental property, you cannot exclude the part of your gain equal to any depreciation allowed or allowable for periods after May 6, 1997. Topic 409 says the portion of any unrecaptured section 1250 gain from selling section 1250 real property is taxed at a maximum 25% rate, again for taxable years beginning in 2025.",
+          "A house that was a rental for all or part of the time you owned it calls for a tax professional and your depreciation records."
+        ],
+        "claims": [
+          "cg-irs-nonqualified-use",
+          "cg-irs-depreciation-not-excludable",
+          "cg-irs-capital-gain-rates-ty2025"
+        ]
+      },
+      {
+        "heading": "What is the basis of an inherited house?",
+        "body": [
+          "An inherited house does not use the previous owner's purchase price. Publication 523 (2025) says that if you inherited your home from a decedent, your basis is the fair market value of the property on the date of the decedent's death, or on the later alternate valuation date chosen by the personal representative of the estate. If a federal estate tax return (Form 706) was filed or required, the value listed on that return is your basis. The IRS wording is fair market value at death, and that value can be lower than what the decedent paid as well as higher.",
+          "Publication 551, revised December 2025, states the same rule for property generally. The basis of property inherited from a decedent is generally the fair market value at the date of the individual's death, or the value on the alternate valuation date if the personal representative chooses it. The publication lists other possibilities and exceptions.",
+          "Idaho is one of the community property states Publication 551 names. It says that when either spouse dies, the total value of the community property, even the part belonging to the surviving spouse, generally becomes the basis of the entire property. For that rule to apply, at least half the value of the community property interest must be includible in the decedent's gross estate. Whether a particular house was community property is a question of Idaho law for an attorney.",
+          "The home-sale exclusion and the basis rule are different things. The exclusion depends on the seller's own ownership and use of a main home. The basis rule changes the number the gain is measured from. Our guide to [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho) covers who has authority to sell."
+        ],
+        "claims": [
+          "cg-irs-inherited-home-basis-pub523",
+          "cg-irs-inherited-basis-pub551",
+          "cg-irs-community-property-basis",
+          "cg-irs-ownership-and-use-tests"
+        ]
+      },
+      {
+        "heading": "Form 1099-S: the closing agent may report the sale to the IRS",
+        "body": [
+          "IRS instructions direct that Form 1099-S, Proceeds From Real Estate Transactions, be filed to report the sale or exchange of real estate. The person responsible for closing the transaction files it. Where a settlement statement lists a settlement agent, that is the person responsible. The instructions also require the filer to request the seller's taxpayer identification number no later than the time of closing.",
+          "There is a reporting exception for some home sales. The instructions say the filer need not report the sale of a residence for $250,000 or less, or $500,000 if the certification includes an assurance that the seller is married, if the filer receives an acceptable written certification from the seller that the home is the seller's principal residence and that the full gain is excludable. Each seller signs it under penalties of perjury. The filer is not required to obtain the certification, and without it the form must be filed. This is a rule about whether a form is filed. It does not decide whether tax is owed.",
+          "Topic 701 says that if you receive a Form 1099-S you must report the sale of the home on your return even if the gain is excludable. It also says you must report the sale if you cannot exclude all of the gain.",
+          "A separate federal rule applies to foreign sellers. The IRS says a disposition of a U.S. real property interest by a foreign person is subject to withholding under FIRPTA, generally 15% of the amount realized, and that in most cases the buyer is the withholding agent. One exception the IRS lists is the seller's certification, under penalties of perjury, that the seller is not a foreign person. Our guide to [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho) explains where these papers appear at closing."
+        ],
+        "claims": [
+          "cl-1099s-reports-real-estate-sales",
+          "cl-1099s-tin-requested-at-closing",
+          "cl-1099s-principal-residence-certification",
+          "cg-irs-report-sale-if-1099s",
+          "cl-firpta-buyer-withholds-15-percent",
+          "cl-firpta-non-foreign-certification"
+        ]
+      },
+      {
+        "heading": "How Idaho taxes the gain, for residents and nonresidents",
+        "body": [
+          "Idaho's income tax starts from the federal figure. Idaho Code 63-3011B defines taxable income as \"federal taxable income as determined under the Internal Revenue Code\". Section 63-3011C defines Idaho taxable income as that amount \"as modified pursuant to the Idaho adjustments specifically provided in this chapter\". The capital gains deduction described in the next section is one of those adjustments.",
+          "The Idaho State Tax Commission states that the income tax rate for 2025 is 5.3% on Idaho taxable income. The page did not show a 2026 rate when we read it. The Commission also says that gross income includes gains from property sales.",
+          "Residency decides how much income Idaho reaches. The Tax Commission says Idaho taxes all of a resident's income, including income from sources outside Idaho, and taxes only a nonresident's income from Idaho sources. It defines Idaho source income as income from transactions or activities that take place in Idaho, or from property in Idaho.",
+          "The statute is specific about real estate. Under Idaho Code 63-3026A, a nonresident's Idaho taxable income includes only the components derived from or related to sources within Idaho, and income is from an Idaho source when it is attributable to \"the ownership or disposition of any interest in real or tangible personal property located in this state\". The Tax Commission says nonresidents of Idaho must file if their total gross income from Idaho sources is more than $2,500. A seller who lives in another state should ask a tax professional how the two states' returns fit together."
+        ],
+        "claims": [
+          "cg-id-taxable-income-is-federal-as-modified",
+          "cg-istc-rate-2025",
+          "cg-istc-residency-what-idaho-taxes",
+          "cg-istc-idaho-source-income-property",
+          "cg-id-3026a-nonresident-real-property-source"
+        ]
+      },
+      {
+        "heading": "Idaho's capital gains deduction: what Idaho Code 63-3022H covers",
+        "body": [
+          "Idaho Code 63-3022H(1) gives an individual taxpayer who reports capital gain net income a deduction of sixty percent of the capital gain net income from the sale or exchange of \"qualified property\". The sixty percent is a deduction taken in determining Idaho taxable income.",
+          "Subsection (3) defines qualified property. The property must have had an Idaho situs at the time of sale, and one of the listed categories is \"Real property held at least twelve (12) months\". The other categories cover business equipment, livestock, timber and certain partnership interests.",
+          "The statute's definition of real property is narrower than everyday speech. Subsection (6) says real property \"means land\" and includes a qualified conservation easement, certain grazing permits or leases, and any other property defined in section 1250(c) of the Internal Revenue Code as \"section 1250 property\" conveyed in perpetuity. The words house, home and residence do not appear in the section. Subsection (7) excludes property that has been depreciated under section 1245 of the Internal Revenue Code.",
+          "The Tax Commission's own form shows how it administers the deduction. Its Form CG for tax year 2025 has a line 2 for \"Qualifying capital gain from sale of personal residence from federal Schedule D\", and the instructions say to enter there \"the taxable gain from the sale of your Idaho home from federal Schedule D\". The 2026 form had not been published when we read the page. A form line is not a ruling on any one sale, and the gain still has to meet the statute's tests.",
+          "Subsection (2) sets limits. The deduction is limited to the capital gain net income from all property included in taxable income, and gains treated as ordinary income by the Internal Revenue Code do not qualify. The Tax Commission adds that gains from real property not located in Idaho do not qualify, and that the deduction is computed on Form CG. Whether a given sale produces a qualifying gain, and how much, is a question for a tax professional."
+        ],
+        "claims": [
+          "cg-id-3022h-sixty-percent-deduction",
+          "cg-id-3022h-real-property-twelve-months",
+          "cg-id-3022h-real-property-definition",
+          "cg-istc-form-cg-2025-residence-line",
+          "cg-id-3022h-limits",
+          "cg-istc-deduction-up-to-60-idaho-property"
+        ]
+      },
+      {
+        "heading": "A sale for less than the loan balance raises a different tax question",
+        "body": [
+          "Everything above is about gain. A sale where the lender accepts less than it is owed raises a second question, which is canceled debt. The IRS says that, in general, if a debt is canceled, forgiven or discharged for less than the amount owed, the canceled amount is taxable and must be reported for the year the cancellation occurred. The same IRS page lists exceptions and exclusions.",
+          "The IRS also says that when a creditor takes property securing a debt in full or partial satisfaction of it, the owner is treated as having sold the property to the creditor. As the IRS pages read on November 13, 2026, the exclusion for canceled qualified principal residence debt covers debt discharged before January 1, 2026, or under a written arrangement entered into before that date. Our guide to [short sales and deeds in lieu in Idaho](/guides/short-sale-vs-deed-in-lieu-in-idaho) sets out what the IRS says in full. This is federal material only, and a tax professional should review any agreement before you sign it."
+        ],
+        "claims": [
+          "ss-irs-canceled-debt-generally-taxable",
+          "ss-irs-property-taken-treated-as-sale",
+          "ss-irs-principal-residence-exclusion-ended-2025"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We are a direct buyer in Ada County. We buy with our own capital, in any condition, and the purchase closes through a local title company on a closing date the seller chooses. A three-week close is realistic. Because the seller picks the date, a seller whose tax professional says the timing of a sale matters can set the closing date to suit that plan.",
+          "We do not give tax advice, and we cannot tell you what you will owe or whether an exclusion or deduction applies to you. The tax rules on this page apply the same way whoever buys the house. If a listing on the open market is likely to bring you a higher price and you have the time and the house is ready for it, that route may serve you better. Talk to a tax professional before you choose, and bring your purchase records, improvement records and any depreciation history."
+        ],
+        "claims": []
+      }
+    ]
+  },
+
+  "bankruptcy-and-foreclosure-in-idaho": {
+    "intro": [
+      "A bankruptcy petition triggers the automatic stay in 11 U.S.C. 362, and the U.S. Courts say that in a chapter 13 case the stay stops a foreclosure proceeding as soon as the petition is filed. The stay can end: section 362(d) lets a creditor ask the bankruptcy court for relief from it, and Idaho Code 45-1506A lets a trustee's sale be rescheduled after the stay expires or terminates. The U.S. Courts also say the debtor may still lose the home if the foreclosure sale is completed under state law before the petition is filed, or if the regular mortgage payments that come due after filing are not made.",
+      "This page describes what the Bankruptcy Code, Idaho Code and the federal courts' own publications say, quoted from the official sources. It is not legal advice and it is not applied to your loan, your sale date or your case. Whether to file, when, and under which chapter are decisions to make with a bankruptcy attorney. We are a property buyer. We cannot stop a foreclosure, negotiate with a lender or promise an outcome."
+    ],
+    "sections": [
+      {
+        "heading": "What the automatic stay is, in the statute's words",
+        "body": [
+          "Section 362(a) of the Bankruptcy Code says a petition \"operates as a stay, applicable to all entities\" of a list of acts. The list includes any act to obtain possession of property of the estate or to exercise control over it, any act to create, perfect, or enforce any lien against property of the estate, and any act to collect a claim against the debtor that arose before the case began.",
+          "Subsection (a) does not use the word foreclosure. The plain statement comes from the U.S. Courts, which say of chapter 13: \"The automatic stay stops the foreclosure proceeding as soon as the individual files the chapter 13 petition.\" Idaho's trust deed statute points the same way. Idaho Code 45-1506A deals with a sale that \"cannot be held at the time scheduled by reason of automatic stay provisions of the U.S. bankruptcy code (11 U.S.C. 362)\".",
+          "The U.S. Courts attach three qualifiers. Filing stops \"most\" collection actions. It does not stay \"certain types of actions\" listed in section 362(b). And \"the stay may be effective only for a short time in some situations.\""
+        ],
+        "claims": [
+          "bk-362a-stay-scope",
+          "bk-uscourts-stay-described",
+          "af-uscourts-chapter-13-foreclosure",
+          "ft-rescheduled-sale-after-stay"
+        ]
+      },
+      {
+        "heading": "A creditor can ask the court to lift the stay",
+        "body": [
+          "Section 362(d) says that on request of a party in interest, and after notice and a hearing, the court \"shall grant relief from the stay\" in the situations it lists. Relief can mean terminating, annulling, modifying or conditioning the stay. The first ground is \"for cause, including the lack of adequate protection of an interest in property\" of the party asking. The second applies to a stay of an act against property where the debtor does not have an equity in the property and the property is not necessary to an effective reorganization.",
+          "Section 362(e) sets clocks on that request. Thirty days after a request for relief from the stay of an act against property of the estate, the stay ends as to the party that asked, unless the court orders it continued. In an individual's chapter 7, 11 or 13 case, the stay terminates 60 days after the request unless the court decides within that period or the period is extended. These are deadlines for handling a request. They do not measure how long a stay lasts.",
+          "Earlier cases change the picture. Under section 362(c)(3), if an individual had a case pending within the preceding 1-year period that was dismissed, the stay as to a debt or property securing that debt terminates with respect to the debtor on the 30th day after the later case is filed, unless the court extends it on a showing of good faith. Under section 362(c)(4), if two or more cases were pending within the previous year and were dismissed, the stay does not go into effect at all unless a party asks within 30 days and shows the later case was filed in good faith.",
+          "Section 362(d)(4) addresses real property directly. A secured creditor is entitled to relief if the court finds the filing was part of a scheme to delay, hinder, or defraud creditors that involved either a transfer of an interest in the property without the secured creditor's consent or court approval, or multiple bankruptcy filings affecting the property. If recorded under state law, that order binds any other bankruptcy case affecting the property filed within 2 years, subject to a later debtor's motion for relief."
+        ],
+        "claims": [
+          "bk-362d-relief-from-stay",
+          "bk-362e-thirty-and-sixty-days",
+          "bk-362c3-prior-case-thirty-days",
+          "bk-362c4-two-prior-cases-no-stay",
+          "bk-362d4-scheme-order-two-years"
+        ]
+      },
+      {
+        "heading": "What Idaho's trust deed statute says about a sale stopped by a stay",
+        "body": [
+          "An Idaho trust deed foreclosure requires notice of the trustee's sale at least 120 days before the day fixed for the sale, as [the Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline) sets out. The clocks after a bankruptcy stay are shorter.",
+          "Under Idaho Code 45-1506A, a sale that could not be held because of the automatic stay may be rescheduled and conducted after the stay expires or terminates. Notice of the rescheduled sale must be mailed at least 30 days before the new date and published once a week for three successive weeks, with the last publication at least 10 days before the sale.",
+          "Idaho Code 45-1506B covers a stay that is lifted before the original sale date. A person with the right to reinstate may ask the trustee in writing, before the time set for the original sale, to postpone the sale so that at least 115 days elapse from the recording of the notice of default to the new sale date, not counting the time the stay was in effect.",
+          "A sale that has already happened is treated differently. The U.S. Courts say the debtor may still lose the home if the mortgage company completes the foreclosure sale under state law before the petition is filed. Under Idaho Code 45-1508, a trustee's sale terminates the interest of every person who was given notice, with no right to redeem the property from the purchaser. Idaho Code 45-1510(2) describes a sale that is invalid because of the automatic stay, and lets only the trustee or beneficiary who recorded the trustee's deed record a notice of rescission. Whether a particular sale was valid is a question for a bankruptcy attorney."
+        ],
+        "claims": [
+          "id-trustee-sale-120-day-notice",
+          "ft-rescheduled-sale-after-stay",
+          "ft-stay-lifted-postponement-request",
+          "af-uscourts-chapter-13-foreclosure",
+          "ft-sale-final-no-redemption",
+          "as-rescission-of-trustee-deed-invalid-sale"
+        ]
+      },
+      {
+        "heading": "Chapter 7, as the U.S. Courts describe it",
+        "body": [
+          "The U.S. Courts describe chapter 7 as liquidation: \"the sale of a debtor's nonexempt property and the distribution of the proceeds to creditors.\" There is no repayment plan. A bankruptcy trustee gathers and sells the debtor's nonexempt assets and pays creditors from the proceeds. The page warns that \"the filing of a petition under chapter 7 may result in the loss of property.\"",
+          "On when a chapter 7 trustee sells, the U.S. Courts say the trustee sells the debtor's property if it is free and clear of liens and not exempt, or \"if it is worth more than any security interest or lien attached to the property and any exemption that the debtor holds in the property.\" If all the debtor's assets are exempt or subject to valid liens, the trustee will normally file a \"no asset\" report. The page says most chapter 7 cases involving individual debtors are no asset cases.",
+          "A chapter 7 discharge does not remove the mortgage lien. The U.S. Courts say \"a bankruptcy discharge does not extinguish a lien on property\" and that secured creditors may retain some rights to seize property securing a debt even after a discharge is granted."
+        ],
+        "claims": [
+          "bk-uscourts-chapter-7-liquidation",
+          "bk-uscourts-chapter-7-trustee-sells-when",
+          "bk-uscourts-discharge-does-not-remove-lien"
+        ]
+      },
+      {
+        "heading": "Chapter 13 and catching up on mortgage arrears through a plan",
+        "body": [
+          "The U.S. Courts describe chapter 13 as adjustment of debts of an individual with regular income, also called a wage earner's plan. The debtor proposes a plan to repay all or part of the debts in installments, usually over three to five years, and no plan may run longer than five years.",
+          "On mortgages, the U.S. Courts say that by filing under chapter 13 a person can halt foreclosure proceedings and may cure delinquent mortgage payments over time. The same page adds: \"Nevertheless, they must still make all mortgage payments that come due during the chapter 13 plan on time.\" The page adds that payments to the home mortgage lender may be made over the original loan schedule so long as any arrearage is made up during the plan.",
+          "The statute behind this is 11 U.S.C. 1322. Subsection (b)(5) lets a plan provide for \"the curing of any default within a reasonable time and maintenance of payments while the case is pending\" on a long-term secured claim. Subsection (c)(1) says a default on a lien on the debtor's principal residence may be cured \"until such residence is sold at a foreclosure sale that is conducted in accordance with applicable nonbankruptcy law.\" The section does not say at what moment an Idaho trustee's sale counts as sold for this purpose. That is a question for a bankruptcy attorney.",
+          "A plan carries duties. The U.S. Courts say the debtor must start making plan payments to the trustee within 30 days after filing, even before the court approves the plan, and may not incur new debt without consulting the trustee. If the debtor fails to make the payments due under the confirmed plan, the court may dismiss the case or convert it to a chapter 7 liquidation. Under section 362(c), the stay of an act against property of the estate continues until the property is no longer property of the estate, and the stay of any other act continues until the case is closed or dismissed or a discharge is granted or denied, whichever comes first."
+        ],
+        "claims": [
+          "bk-uscourts-chapter-13-described",
+          "bk-uscourts-chapter-13-cure-over-time",
+          "af-uscourts-chapter-13-foreclosure",
+          "bk-1322-cure-until-foreclosure-sale",
+          "bk-uscourts-chapter-13-payments-and-failure",
+          "bk-362c-stay-duration"
+        ]
+      },
+      {
+        "heading": "Selling a house during a bankruptcy case runs through the case",
+        "body": [
+          "The U.S. Courts say that commencement of a bankruptcy case creates an estate, and that \"the estate technically becomes the temporary legal owner of all the debtor's property.\"",
+          "The sale power over that property is in 11 U.S.C. 363(b)(1): \"The trustee, after notice and a hearing, may use, sell, or lease, other than in the ordinary course of business, property of the estate\". In chapter 13, section 1303 gives the debtor, exclusive of the trustee, the rights and powers of a trustee under section 363(b), and section 1306(b) says the debtor remains in possession of all property of the estate except as provided in a confirmed plan or the order confirming it.",
+          "Read together, these sections place a sale of estate property inside the bankruptcy case, with notice and a hearing, in either chapter. We did not read the definition of \"after notice and a hearing\", the section on what plan confirmation does to ownership, or the District of Idaho's local rules on sale motions, so this page does not describe the procedure.",
+          "Section 362(d)(4), described above, names a transfer of an interest in the property without the secured creditor's consent or court approval. If the house is in an open bankruptcy case, whether, how and when it can be sold are questions for the debtor's bankruptcy attorney and the case trustee, before any buyer."
+        ],
+        "claims": [
+          "bk-uscourts-estate-temporary-owner",
+          "bk-363b-sale-after-notice-and-hearing",
+          "bk-1303-chapter-13-debtor-sale-powers",
+          "bk-362d4-scheme-order-two-years"
+        ]
+      },
+      {
+        "heading": "Idaho's homestead exemption protects equity from some creditors, and it does not reach the deed of trust",
+        "body": [
+          "The U.S. Courts say the Bankruptcy Code lets an individual debtor protect some property because it is exempt under federal bankruptcy law or under the laws of the debtor's home state, and that many states have adopted their own exemption law in place of the federal exemptions. Idaho is one of them. Idaho Code 11-609 says that in any federal bankruptcy proceeding an individual debtor \"may exempt from property of the estate only such property as is specified under the laws of this state.\"",
+          "Idaho Code 55-1008 makes the homestead exempt from attachment and from execution or forced sale for the debts of the owner, up to the amount in section 55-1003, which is capped at $175,000. This creditor-protection homestead is a different statute from the property tax homeowner's exemption in Idaho Code 63-602G.",
+          "The exemption has stated exceptions. Under Idaho Code 55-1005, the homestead is subject to execution or forced sale in satisfaction of judgments on debts secured by mortgages, deeds of trust or other consensual liens on the premises, where the lien was executed and acknowledged by the husband and wife or by an unmarried claimant, or was recorded before the homestead became effective. A trustee's sale forecloses a deed of trust, one of the liens the section names. The section speaks of judgments and does not mention a trustee's sale by name.",
+          "The U.S. Courts' description of when a chapter 7 trustee sells property compares what the property is worth with the liens on it plus any exemption the debtor holds. We do not work that comparison through here, because which exemptions apply to a given debtor depends on the Bankruptcy Code and the facts. The U.S. Courts' own advice is: \"The debtor should consult an attorney to determine the exemptions available in the state where the debtor lives.\""
+        ],
+        "claims": [
+          "bk-uscourts-exemptions-ask-an-attorney",
+          "bk-idaho-exemptions-state-law-only",
+          "bk-homestead-exempt-from-forced-sale",
+          "id-homestead-creditor-175k",
+          "id-homeowners-tax-exemption-125k",
+          "bk-homestead-subject-to-deeds-of-trust",
+          "ft-foreclosure-conditions",
+          "bk-uscourts-chapter-7-trustee-sells-when"
+        ]
+      },
+      {
+        "heading": "Credit counseling comes first, and the court is in Boise, Coeur d'Alene and Pocatello",
+        "body": [
+          "Under 11 U.S.C. 109(h)(1), an individual may not be a debtor unless, during the 180-day period ending on the date the petition is filed, the individual received a briefing from an approved nonprofit budget and credit counseling agency. Section 109(h)(3) has a narrow exception for a debtor who certifies exigent circumstances and an unsuccessful request for counseling, in a form satisfactory to the court. That exception lasts no more than 30 days after the petition is filed, or 15 days more if the court orders it for cause.",
+          "The U.S. Trustee Program, which approves the agencies, says that if the credit counseling course is not completed before filing, \"the case could be dismissed.\" The U.S. Courts say a second course, debtor education, takes place after filing, and that only providers approved by the U.S. Trustee Program may issue the certificates.",
+          "This counseling is separate from housing counseling. HUD says it funds free or very low-cost housing counseling nationwide. The non-bankruptcy options a housing counselor goes through are in [how to avoid foreclosure in Idaho](/guides/how-to-avoid-foreclosure-in-idaho).",
+          "The federal bankruptcy court for Idaho is the U.S. Bankruptcy Court for the District of Idaho. The District of Idaho says its offices are located in Boise, Coeur d'Alene, and Pocatello.",
+          "The U.S. Courts say: \"Seeking the advice of a qualified lawyer is strongly recommended because bankruptcy has long-term financial and legal consequences.\" The same page says a person who is unable to afford an attorney may qualify for free legal services. One filing also affects the next: the U.S. Courts say a person who voluntarily dismissed a case after creditors sought relief from the stay cannot file under any chapter during the following 180 days."
+        ],
+        "claims": [
+          "bk-109h-credit-counseling-180-days",
+          "bk-109h-exigent-circumstances-exception",
+          "bk-ust-counseling-case-could-be-dismissed",
+          "bk-uscourts-counseling-before-education-after",
+          "af-hud-counseling-free-or-low-cost",
+          "bk-idaho-bankruptcy-court-offices",
+          "bk-uscourts-lawyer-strongly-recommended",
+          "bk-uscourts-180-day-bar"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in Ada County in any condition, with our own capital. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. That can suit an owner who has not filed, has decided to sell, and has enough time before the trustee's sale for a sale to close and pay off the loan. The page on [whether to sell or keep a house facing foreclosure](/sell-or-keep-house-facing-foreclosure-idaho) sets out when a sale works. Under Idaho Code 45-1603, an owner whose property is in foreclosure may cancel a contract signed during the foreclosure period within five business days, and that includes a contract with us.",
+          "We cannot stop a foreclosure, negotiate with a lender, or give legal advice, and we have no say in a bankruptcy case. If you want to keep the house, the routes are the lender, the cure right, a housing counselor, and whatever a bankruptcy attorney advises. If you have already filed, talk to your bankruptcy attorney before any buyer, because the sources above place a sale of estate property inside the case. If there is time to list the house on the open market, a listing may bring a higher price than we would offer."
+        ],
+        "claims": [
+          "vb-cfpa-five-business-day-rescission",
+          "bk-363b-sale-after-notice-and-hearing",
+          "af-cure-within-115-days"
+        ]
+      }
+    ]
+  },
+
+  "selling-a-house-with-unpermitted-work-in-ada-county": {
+    "intro": [
+      "Idaho's seller disclosure form asks directly whether any substantial additions or alterations were made without a building permit, and no exemption from the form depends on the house being sold as-is. Building permits and code enforcement in Ada County belong to the city the property sits in, or to Ada County for unincorporated land. Ada County, Boise and Eagle each have a written rule for seeking a permit after work has started. Each adds an investigation fee, and none promises that a permit will be issued.",
+      "This page describes what the statutes, local codes and agency pages say. It is not legal advice and it is not applied to your property. We are a direct buyer of property. We cannot tell you whether past work needed a permit, how to answer a disclosure question, or how an enforcement case will end. The building department for your address can answer the first question, and an Idaho attorney can answer the other two."
+    ],
+    "sections": [
+      {
+        "heading": "What the Idaho disclosure form asks about permits and violations",
+        "body": [
+          "Idaho Code 55-2504 requires a seller of residential property with one to four dwelling units to complete a property condition disclosure form unless the transfer is exempt. The form is printed in Idaho Code 55-2508. Three of its questions bear on unpermitted work and code cases.",
+          "Question 8 reads: \"Have any substantial additions or alterations been made without a building permit?\" The statute does not define \"substantial\", and the question is worded without naming who did the work.",
+          "Question 6 asks the seller to describe any conditions that may affect the ability to clear title, and lists encroachments, easements, zoning violations and lot line disputes as examples. Question 9 asks for \"any other problems, including legal, physical or other not listed above that you know concerning the property.\"",
+          "The form does not use the words \"code enforcement\". Whether an open case belongs under question 6 or question 9 on your form is a question for an Idaho attorney. Our guide to [Idaho seller disclosure in an as-is sale](/guides/idaho-seller-disclosure-when-selling-as-is) covers the rest of the chapter."
+        ],
+        "claims": [
+          "id-disclosure-required-1-to-4-units",
+          "cv-form-q8-additions-without-permit",
+          "cv-form-q6-zoning-violations-title",
+          "cv-form-q9-other-problems-legal"
+        ]
+      },
+      {
+        "heading": "The form records what you know, and it must be completed in good faith",
+        "body": [
+          "The form says that, unless otherwise advised, the seller has no expertise in construction, architecture or engineering. It encourages the purchaser to obtain professional inspections. It ends with the seller certifying that the information is true and correct to the best of the seller's knowledge as of the date signed.",
+          "Idaho Code 55-2507 requires the form to state that it records conditions and information actually known by the seller, that it is not a warranty, and that it is not a substitute for inspections. Idaho Code 55-2511 says a seller is not liable for an error or omission that was not within the seller's personal knowledge. By its terms that section reaches errors and omissions outside the seller's personal knowledge.",
+          "Idaho Code 55-2516 requires every disclosure to be made in good faith, defined as honesty in fact in the conduct of the transaction. Idaho Code 55-2513 requires the seller to amend the form before closing on discovering that information in it has changed.",
+          "Under Idaho Code 55-2517, a failure to comply does not by itself invalidate a transfer, and a person who willfully or negligently violates the chapter is liable for the buyer's actual damages."
+        ],
+        "claims": [
+          "cv-form-seller-certification-and-purpose",
+          "id-disclosure-actual-knowledge-not-warranty",
+          "id-disclosure-no-liability-outside-personal-knowledge",
+          "id-disclosure-good-faith-honesty-in-fact",
+          "id-disclosure-amend-before-closing",
+          "id-disclosure-failure-actual-damages"
+        ]
+      },
+      {
+        "heading": "Idaho law leaves the permit rules to the local government",
+        "body": [
+          "Idaho Code 39-4111(2) makes it unlawful to do, or cause or permit to be done, any construction, improvement, extension or alteration of a building in a local government jurisdiction enforcing building codes without first procuring a permit under that local government's ordinance. The statute does not list which jobs need a permit. The local ordinance does.",
+          "The lists differ from one jurisdiction to the next. Ada County's residential code amendment, which applies in unincorporated Ada County, exempts roof repair including complete replacement of roof coverings on one- and two-family dwellings. It also exempts one-story detached storage sheds whose floor area does not exceed 200 square feet, fences not over 6 feet high, and decks not more than 30 inches above grade that do not serve the required exit door. The City of Star lists re-roofing among the jobs that need a building permit. Kuna lists the installation of fences among the work that needs a residential building permit.",
+          "A rule read on one city's website says nothing about the house across the city limit. These are also the current lists. They do not show what was required in the year older work was done.",
+          "Idaho Code 39-4126 makes a willful violation of the state building code act a misdemeanor, with a fine of not more than $300, imprisonment for not more than 90 days, or both. Each day a violation continues is a separate offense under that section. Local codes set their own penalties, described below."
+        ],
+        "claims": [
+          "cv-id-permit-required-local-jurisdiction",
+          "cv-ada-exempt-work-list",
+          "cv-ada-building-code-applies-unincorporated",
+          "star-building-permit-triggers",
+          "kuna-permit-triggers-include-fences",
+          "cv-id-building-code-violation-misdemeanor"
+        ]
+      },
+      {
+        "heading": "Who issues building permits for your address",
+        "body": [
+          "Start by confirming which jurisdiction the parcel is in. The City of Star notes that ZIP codes are managed by the Postal Service for mail delivery and do not reflect municipal boundaries, and it points to the Ada County Assessor's website, which shows city boundaries.",
+          "Boise: the Planning and Development Services Building Division is responsible for issuing building permits and overseeing building construction within the City of Boise. Its phone number is (208) 608-7070.",
+          "Meridian: Building Services is responsible for structural, fire, electrical, mechanical and plumbing permits within the City of Meridian, from application through field inspection. It also handles permits for remodels, fences, sheds and garages. Its phone number is 208-887-2211.",
+          "Eagle: the Building Department tells owners never to guess whether a permit is needed and to contact the department before starting. Its phone number is 208-489-8760.",
+          "Kuna: the Building Department conducts plan reviews and inspects all phases of construction and modifications. The city says electrical and plumbing permits are available at the Kuna Building Department.",
+          "Star: the Building Department administers and enforces the adopted building codes and the city's unified code. Its page lists 208-286-7247. Star says its building department is only required to keep residential permitting records for 2 years.",
+          "Garden City: the Building Division processes building permits, plan reviews and permit issuance. The city contracts with outside providers for plan review and inspection, and building permits are still submitted through Garden City. Mechanical, electrical and plumbing permits go directly through the state. The phone number is (208) 472-2921.",
+          "Unincorporated Ada County: the county's building code ordinance applies in the unincorporated areas, and the Building Division reviews plans and inspects buildings. The Permitting Division says all electrical and plumbing work needs separate permits through the State of Idaho. Its phone number is 208-287-7900."
+        ],
+        "claims": [
+          "star-certificate-of-occupancy-city-vs-zip",
+          "cv-star-records-two-years-and-boundary-lookup",
+          "cv-boise-building-division-issues-permits",
+          "cv-meridian-building-services-scope",
+          "cv-eagle-building-department-permit-faq",
+          "cv-kuna-building-department-scope",
+          "cv-star-building-department-scope",
+          "cv-gardencity-building-services-contract",
+          "cv-ada-building-code-applies-unincorporated",
+          "ada-building-division-scope",
+          "cv-ada-electrical-plumbing-permits-state"
+        ]
+      },
+      {
+        "heading": "Who handles an open code enforcement case",
+        "body": [
+          "Ada County Code Enforcement investigates land use and building code complaints in unincorporated Ada County only, and states that it does not enforce code violations within city limits. It lists construction or remodeling without building permits among the issues it handles. When a specialist confirms a violation, the property owner is notified in writing and given an opportunity to cure it within a specified time frame. An owner who does not cure may face civil District Court proceedings.",
+          "Boise: the Code Compliance office says it enforces Boise City Code for businesses, sanitation and zoning. Boise's dwelling building code also says the Building Division may request assistance from code compliance officers to gain compliance in noncompliant cases. The city's online case lookup shows closed cases only. Open or active cases do not appear, so a clean search there does not show that a property has no open case.",
+          "Meridian: Code Enforcement officers, part of the Meridian Police Department, investigate and enforce city ordinances that include parcel zoning issues and permit violations. The city's number for reporting is 208-846-7326.",
+          "Eagle: complaints go through an online form that assigns a tracking number and a Code Enforcement Officer. The city lists building without a permit as an example of a request, and gives 208-489-8810 for help.",
+          "Star: for a public nuisance, the city says its Code Enforcement Officer visits the property and the Zoning Administrator sends a letter. The owner or resident then has fifteen days from receipt to abate the nuisance before the matter can go to the City Council. The page describes nuisances such as weeds, trash and abandoned vehicles. It does not say whether the same steps apply to unpermitted construction.",
+          "Kuna: the city says code enforcement covers its zoning, sanitation and nuisance ordinances and works on a complaint-driven basis. Garden City: the Code Enforcement page gives (208) 472-2950 for speaking to a code enforcement officer and states no procedure.",
+          "If you have a notice in hand, the office named on the notice is the one to call. Ask for the case status and the steps to close it in writing."
+        ],
+        "claims": [
+          "ada-code-enforcement-unincorporated-only",
+          "cv-ada-code-enforcement-notice-and-cure",
+          "cv-boise-code-compliance-scope",
+          "cv-boise-building-code-penalties",
+          "cv-boise-case-lookup-closed-cases-only",
+          "cv-meridian-code-enforcement-scope",
+          "cv-eagle-code-enforcement-complaints",
+          "cv-star-code-enforcement-fifteen-days",
+          "cv-kuna-code-enforcement-complaint-driven",
+          "cv-gardencity-code-enforcement-contact"
+        ]
+      },
+      {
+        "heading": "Can you get a permit after the work is done?",
+        "body": [
+          "We found a written rule on this in three local codes. None of the three promises approval.",
+          "Unincorporated Ada County: if work is commenced without first obtaining a required county building permit, an investigative fee equal to the county permit fee for that work must be paid before the county accepts a building permit application. The fee is in addition to any later permit fee. The ordinance says payment \"does not vest the illegal work with any legitimacy, nor does it establish any right to an Ada County permit\". Ada County Code 7-2-12 makes each violation of the building code chapter a misdemeanor and lets the county bring an action to correct or abate a violation.",
+          "Boise: under Boise City Code 9-1B-21, a person who commences work before obtaining the necessary permits is subject to a special investigation before a permit may be issued for that work. A special investigation fee equal to the permit fee is collected in addition to the permit fee, whether or not a permit is issued. Boise City Code 9-1B-29 makes a violation of the dwelling code a misdemeanor with a fine of not more than $1,000, imprisonment for not more than 180 days, or both. The same section lets the building official charge an infraction with a $300 fine instead, and lets a prosecuting attorney reduce a misdemeanor charge to that infraction if the defendant engages in corrective actions resulting in fully completed and permitted work.",
+          "Eagle: under the city's residential code section R108.6, work begun before obtaining the necessary permits is subject to a special investigation that is made before a permit may be issued, with an investigation fee in addition to the permit fee.",
+          "For Meridian, Kuna, Star and Garden City we did not find a primary source on after-the-fact permits, so this page says nothing about their rules. Call the building department listed above for the address.",
+          "None of these sources says what the inspector will need to see. Ask the building department that question before you spend money on plans."
+        ],
+        "claims": [
+          "cv-ada-investigative-fee-work-without-permit",
+          "cv-ada-building-code-penalties",
+          "cv-boise-special-investigation-fee",
+          "cv-boise-building-code-penalties",
+          "cv-eagle-investigation-fee-work-before-permit"
+        ]
+      },
+      {
+        "heading": "What an as-is sale changes and what it does not",
+        "body": [
+          "An as-is sale does not remove the disclosure form. Idaho Code 55-2505 lists sixteen kinds of exempt transfer, and none of them turns on the property being sold as-is, for cash, or in poor repair. If one of the sixteen fits your sale, such as certain inherited property, the form is not required. Idaho Code 55-2514 then still preserves any duty to disclose that comes from another Idaho statute or from Idaho common law.",
+          "An as-is sale does not change the local government's records. In unincorporated Ada County, a building division permit is issued to the owner of the property and remains tied to the specific property even as the ownership may change. In Boise, a building permit can be transferred to another party who provides a document signed by the original permit holder consenting to the transfer and to the conditions of the original approval.",
+          "We found no city or county page that says what happens to an open enforcement case when the property is sold. Ask the office that opened the case before closing, and ask an Idaho attorney how the answer should be reflected in the contract.",
+          "What an as-is clause does between a seller and a buyer comes from the contract itself. This page does not interpret contracts. Our page on [selling a house as-is in Idaho](/sell-house-as-is-idaho) describes how that kind of sale works with us."
+        ],
+        "claims": [
+          "id-disclosure-sixteen-exemptions",
+          "id-disclosure-other-duties-preserved",
+          "cv-ada-permit-required-tied-to-property",
+          "cv-boise-permit-transfer"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital, and unpermitted work is part of a property's condition. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. A sale to us is not one of the exemptions in Idaho Code 55-2505, so the disclosure form still applies unless another exemption fits your transfer. Tell us about unpermitted work and any open case when you [contact us](/contact). [How we calculate an offer](/how-we-calculate-an-offer) explains what goes into the number.",
+          "We are not the right route for every seller. If the building department tells you the work can be permitted and you have the time and money to finish that process, listing the house afterward on the open market may bring you more than a direct sale. We cannot resolve an enforcement case for you, obtain a permit for you before closing, or tell you what the law requires of you. The building department and an Idaho attorney can."
+        ],
+        "claims": [
+          "id-disclosure-sixteen-exemptions"
+        ]
       }
     ]
   },

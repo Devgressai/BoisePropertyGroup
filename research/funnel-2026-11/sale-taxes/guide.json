@@ -1,0 +1,150 @@
+{
+  "guide": {
+    "slug": "taxes-when-you-sell-a-house-in-idaho",
+    "title": "Taxes When You Sell a House in Idaho",
+    "h1": "Income taxes when you sell a house in Idaho",
+    "description": "What the IRS says about the home-sale exclusion, basis and Form 1099-S, and what Idaho Code 63-3022H and the Idaho State Tax Commission say about the gain.",
+    "cluster": "property-tax",
+    "published": "2026-11-13",
+    "updated": "2026-11-13"
+  },
+  "content": {
+    "intro": [
+      "A house sale can produce a capital gain, and income tax is figured on the gain, not on the sale price. The IRS says a seller with a gain on a main home may qualify to exclude up to $250,000 of it from income, or up to $500,000 on a joint return, if the ownership and use tests are met. Idaho starts from federal taxable income, and Idaho Code 63-3022H allows an individual a deduction of 60% of the capital gain net income from qualified Idaho property, a category that includes real property held at least twelve months as that section defines real property.",
+      "This page describes what the IRS, the Idaho Code and the Idaho State Tax Commission say, quoted from the official sources as they read on November 13, 2026. It is not tax or legal advice and it does not apply any rule to your sale. Several figures below belong to tax year 2025 because the 2026 editions had not been published, and each one is labeled. Ask a tax professional about your own return before you rely on any of it. Property tax is a separate subject, covered in our guide to [Idaho property taxes when you sell](/guides/idaho-property-taxes-when-you-sell)."
+    ],
+    "sections": [
+      {
+        "heading": "The federal exclusion on a main home: up to $250,000, or $500,000 on a joint return",
+        "body": [
+          "IRS Topic 701, last reviewed by the IRS on November 9, 2026, says that if you have a capital gain from the sale of your main home, you may qualify to exclude up to $250,000 of that gain from your income, or up to $500,000 if you file a joint return with your spouse.",
+          "Topic 701 says that in general you must meet two tests. The ownership test is met by owning the home for at least 24 months out of the 5 years leading up to the date of the sale. The use test is met by using the home as a residence for at least 24 months of the previous 5 years. The two tests can be met during different 2-year periods, but both must fall inside the 5-year period ending on the date of the sale.",
+          "Publication 523, the IRS guide to selling a home, adds detail. Its current edition is the 2025 edition, written for 2025 returns. It says that for a married couple filing jointly only one spouse has to meet the ownership requirement, but each spouse must meet the residence requirement individually to get the full exclusion. It counts the residence requirement as a total of 24 months (730 days), which does not have to be a single block of time.",
+          "Two limits sit next to the tests. Topic 701 says you are generally not eligible if you excluded the gain from the sale of another home during the two-year period before this sale. Publication 523 says a seller who does not meet the Eligibility Test may still qualify for a partial exclusion if the main reason for the sale was a change in workplace location, a health issue, or an unforeseeable event. The publication defines each of those terms."
+        ],
+        "claims": [
+          "cg-irs-exclusion-250k-500k",
+          "cg-irs-ownership-and-use-tests",
+          "cg-irs-pub523-joint-return-tests",
+          "cg-irs-two-year-lookback",
+          "cg-irs-partial-exclusion"
+        ]
+      },
+      {
+        "heading": "How the IRS measures gain: amount realized minus adjusted basis",
+        "body": [
+          "Publication 523 (2025) says that to figure the gain or loss on a main home you need the selling price, the amount realized, and the adjusted basis. Its worksheet describes the amount realized as the sale price minus selling expenses. You subtract the adjusted basis from the amount realized. The mortgage balance is not one of the terms in that formula.",
+          "IRS Topic 703 says that in most situations the basis of an asset is its cost to you. Basis then moves. Topic 703 says to increase it by items such as the cost of improvements that add to the value of the property, and to decrease it by items such as allowable depreciation and insurance reimbursements for casualty and theft losses. The result is the adjusted basis.",
+          "If the adjusted basis is greater than the amount realized, Publication 523 says you sold your home at a loss. It says you cannot deduct that loss, and that you do not need to pay tax on the money you received from the sale.",
+          "For gain that is taxable, IRS Topic 409 separates long-term from short-term. Generally a gain is long-term if you held the asset for more than one year and short-term if you held it one year or less, and net short-term gains are taxed as ordinary income. Topic 409 notes exceptions to the holding rule, including for property acquired from a decedent, and sends readers to Publication 544 for them. For taxable years beginning in 2025, Topic 409 says the rate on most net capital gain is no higher than 15% for most individuals, that some or all of it may be taxed at 0%, and that a 20% rate applies above the income thresholds set for the 15% rate. The page did not give thresholds for 2026 when we read it."
+        ],
+        "claims": [
+          "cg-irs-gain-is-amount-realized-less-basis",
+          "cg-irs-basis-cost-and-adjustments",
+          "cg-irs-loss-on-home-not-deductible",
+          "cg-irs-long-term-more-than-one-year",
+          "cg-irs-capital-gain-rates-ty2025"
+        ]
+      },
+      {
+        "heading": "Rental or business use can leave part of the gain taxable",
+        "body": [
+          "The exclusion is written for a main home, and Publication 523 (2025) narrows it where the property was used another way. It says gain from the sale of a main home is not excludable if it is allocable to periods of nonqualified use. Nonqualified use means any period after 2008 when neither you nor your spouse or former spouse used the property as your main home, with certain exceptions that the publication lists.",
+          "Depreciation is treated separately. Publication 523 says that if you were entitled to take depreciation deductions because you used your home for business or as rental property, you cannot exclude the part of your gain equal to any depreciation allowed or allowable for periods after May 6, 1997. Topic 409 says the portion of any unrecaptured section 1250 gain from selling section 1250 real property is taxed at a maximum 25% rate, again for taxable years beginning in 2025.",
+          "A house that was a rental for all or part of the time you owned it calls for a tax professional and your depreciation records."
+        ],
+        "claims": [
+          "cg-irs-nonqualified-use",
+          "cg-irs-depreciation-not-excludable",
+          "cg-irs-capital-gain-rates-ty2025"
+        ]
+      },
+      {
+        "heading": "What is the basis of an inherited house?",
+        "body": [
+          "An inherited house does not use the previous owner's purchase price. Publication 523 (2025) says that if you inherited your home from a decedent, your basis is the fair market value of the property on the date of the decedent's death, or on the later alternate valuation date chosen by the personal representative of the estate. If a federal estate tax return (Form 706) was filed or required, the value listed on that return is your basis. The IRS wording is fair market value at death, and that value can be lower than what the decedent paid as well as higher.",
+          "Publication 551, revised December 2025, states the same rule for property generally. The basis of property inherited from a decedent is generally the fair market value at the date of the individual's death, or the value on the alternate valuation date if the personal representative chooses it. The publication lists other possibilities and exceptions.",
+          "Idaho is one of the community property states Publication 551 names. It says that when either spouse dies, the total value of the community property, even the part belonging to the surviving spouse, generally becomes the basis of the entire property. For that rule to apply, at least half the value of the community property interest must be includible in the decedent's gross estate. Whether a particular house was community property is a question of Idaho law for an attorney.",
+          "The home-sale exclusion and the basis rule are different things. The exclusion depends on the seller's own ownership and use of a main home. The basis rule changes the number the gain is measured from. Our guide to [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho) covers who has authority to sell."
+        ],
+        "claims": [
+          "cg-irs-inherited-home-basis-pub523",
+          "cg-irs-inherited-basis-pub551",
+          "cg-irs-community-property-basis",
+          "cg-irs-ownership-and-use-tests"
+        ]
+      },
+      {
+        "heading": "Form 1099-S: the closing agent may report the sale to the IRS",
+        "body": [
+          "IRS instructions direct that Form 1099-S, Proceeds From Real Estate Transactions, be filed to report the sale or exchange of real estate. The person responsible for closing the transaction files it. Where a settlement statement lists a settlement agent, that is the person responsible. The instructions also require the filer to request the seller's taxpayer identification number no later than the time of closing.",
+          "There is a reporting exception for some home sales. The instructions say the filer need not report the sale of a residence for $250,000 or less, or $500,000 if the certification includes an assurance that the seller is married, if the filer receives an acceptable written certification from the seller that the home is the seller's principal residence and that the full gain is excludable. Each seller signs it under penalties of perjury. The filer is not required to obtain the certification, and without it the form must be filed. This is a rule about whether a form is filed. It does not decide whether tax is owed.",
+          "Topic 701 says that if you receive a Form 1099-S you must report the sale of the home on your return even if the gain is excludable. It also says you must report the sale if you cannot exclude all of the gain.",
+          "A separate federal rule applies to foreign sellers. The IRS says a disposition of a U.S. real property interest by a foreign person is subject to withholding under FIRPTA, generally 15% of the amount realized, and that in most cases the buyer is the withholding agent. One exception the IRS lists is the seller's certification, under penalties of perjury, that the seller is not a foreign person. Our guide to [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho) explains where these papers appear at closing."
+        ],
+        "claims": [
+          "cl-1099s-reports-real-estate-sales",
+          "cl-1099s-tin-requested-at-closing",
+          "cl-1099s-principal-residence-certification",
+          "cg-irs-report-sale-if-1099s",
+          "cl-firpta-buyer-withholds-15-percent",
+          "cl-firpta-non-foreign-certification"
+        ]
+      },
+      {
+        "heading": "How Idaho taxes the gain, for residents and nonresidents",
+        "body": [
+          "Idaho's income tax starts from the federal figure. Idaho Code 63-3011B defines taxable income as \"federal taxable income as determined under the Internal Revenue Code\". Section 63-3011C defines Idaho taxable income as that amount \"as modified pursuant to the Idaho adjustments specifically provided in this chapter\". The capital gains deduction described in the next section is one of those adjustments.",
+          "The Idaho State Tax Commission states that the income tax rate for 2025 is 5.3% on Idaho taxable income. The page did not show a 2026 rate when we read it. The Commission also says that gross income includes gains from property sales.",
+          "Residency decides how much income Idaho reaches. The Tax Commission says Idaho taxes all of a resident's income, including income from sources outside Idaho, and taxes only a nonresident's income from Idaho sources. It defines Idaho source income as income from transactions or activities that take place in Idaho, or from property in Idaho.",
+          "The statute is specific about real estate. Under Idaho Code 63-3026A, a nonresident's Idaho taxable income includes only the components derived from or related to sources within Idaho, and income is from an Idaho source when it is attributable to \"the ownership or disposition of any interest in real or tangible personal property located in this state\". The Tax Commission says nonresidents of Idaho must file if their total gross income from Idaho sources is more than $2,500. A seller who lives in another state should ask a tax professional how the two states' returns fit together."
+        ],
+        "claims": [
+          "cg-id-taxable-income-is-federal-as-modified",
+          "cg-istc-rate-2025",
+          "cg-istc-residency-what-idaho-taxes",
+          "cg-istc-idaho-source-income-property",
+          "cg-id-3026a-nonresident-real-property-source"
+        ]
+      },
+      {
+        "heading": "Idaho's capital gains deduction: what Idaho Code 63-3022H covers",
+        "body": [
+          "Idaho Code 63-3022H(1) gives an individual taxpayer who reports capital gain net income a deduction of sixty percent of the capital gain net income from the sale or exchange of \"qualified property\". The sixty percent is a deduction taken in determining Idaho taxable income.",
+          "Subsection (3) defines qualified property. The property must have had an Idaho situs at the time of sale, and one of the listed categories is \"Real property held at least twelve (12) months\". The other categories cover business equipment, livestock, timber and certain partnership interests.",
+          "The statute's definition of real property is narrower than everyday speech. Subsection (6) says real property \"means land\" and includes a qualified conservation easement, certain grazing permits or leases, and any other property defined in section 1250(c) of the Internal Revenue Code as \"section 1250 property\" conveyed in perpetuity. The words house, home and residence do not appear in the section. Subsection (7) excludes property that has been depreciated under section 1245 of the Internal Revenue Code.",
+          "The Tax Commission's own form shows how it administers the deduction. Its Form CG for tax year 2025 has a line 2 for \"Qualifying capital gain from sale of personal residence from federal Schedule D\", and the instructions say to enter there \"the taxable gain from the sale of your Idaho home from federal Schedule D\". The 2026 form had not been published when we read the page. A form line is not a ruling on any one sale, and the gain still has to meet the statute's tests.",
+          "Subsection (2) sets limits. The deduction is limited to the capital gain net income from all property included in taxable income, and gains treated as ordinary income by the Internal Revenue Code do not qualify. The Tax Commission adds that gains from real property not located in Idaho do not qualify, and that the deduction is computed on Form CG. Whether a given sale produces a qualifying gain, and how much, is a question for a tax professional."
+        ],
+        "claims": [
+          "cg-id-3022h-sixty-percent-deduction",
+          "cg-id-3022h-real-property-twelve-months",
+          "cg-id-3022h-real-property-definition",
+          "cg-istc-form-cg-2025-residence-line",
+          "cg-id-3022h-limits",
+          "cg-istc-deduction-up-to-60-idaho-property"
+        ]
+      },
+      {
+        "heading": "A sale for less than the loan balance raises a different tax question",
+        "body": [
+          "Everything above is about gain. A sale where the lender accepts less than it is owed raises a second question, which is canceled debt. The IRS says that, in general, if a debt is canceled, forgiven or discharged for less than the amount owed, the canceled amount is taxable and must be reported for the year the cancellation occurred. The same IRS page lists exceptions and exclusions.",
+          "The IRS also says that when a creditor takes property securing a debt in full or partial satisfaction of it, the owner is treated as having sold the property to the creditor. As the IRS pages read on November 13, 2026, the exclusion for canceled qualified principal residence debt covers debt discharged before January 1, 2026, or under a written arrangement entered into before that date. Our guide to [short sales and deeds in lieu in Idaho](/guides/short-sale-vs-deed-in-lieu-in-idaho) sets out what the IRS says in full. This is federal material only, and a tax professional should review any agreement before you sign it."
+        ],
+        "claims": [
+          "ss-irs-canceled-debt-generally-taxable",
+          "ss-irs-property-taken-treated-as-sale",
+          "ss-irs-principal-residence-exclusion-ended-2025"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We are a direct buyer in Ada County. We buy with our own capital, in any condition, and the purchase closes through a local title company on a closing date the seller chooses. A three-week close is realistic. Because the seller picks the date, a seller whose tax professional says the timing of a sale matters can set the closing date to suit that plan.",
+          "We do not give tax advice, and we cannot tell you what you will owe or whether an exclusion or deduction applies to you. The tax rules on this page apply the same way whoever buys the house. If a listing on the open market is likely to bring you a higher price and you have the time and the house is ready for it, that route may serve you better. Talk to a tax professional before you choose, and bring your purchase records, improvement records and any depreciation history."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

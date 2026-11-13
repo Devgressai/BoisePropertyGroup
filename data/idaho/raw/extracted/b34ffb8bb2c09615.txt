@@ -1,0 +1,166 @@
+                                      Form CG
+                                      Capital Gains Deduction                                                                                          2025
+Names as shown on return                                                                                            Social Security number
+
+
+
+ 1. List qualifying capital gains and losses not included on lines 2 through 5 below.
+                    a.                                b.                     c.                      d.                        e.                      f.
+      Description of property                 Date acquired            Date sold               Sales price              Cost or other            Gain or (loss)
+       and Idaho location                     (mm/dd/yyyy)           (mm/dd/yyyy)                                          basis
+
+
+
+
+ 2. Qualifying capital gain from sale of personal residence from federal Schedule D.
+      Idaho address of personal residence sold                                                                                           2
+ 3. Qualifying capital gain or (loss) from installment sales. Include federal Form 6252.
+      Idaho location of property sold on installment                                                                                     3
+ 4. Qualifying capital gain or (loss) from sales of business property. Include federal Form 4797.
+      Idaho location of business property                                                                                                4
+ 5. Qualifying capital gain or (loss) from partnerships, S corporations, estates, or trusts.
+                                a.                                                b.                   c.                      d.                     e.
+                   Description of property                              Date acquired            Date sold            Pass-through             Distributive share
+                    and Idaho location                                  (mm/dd/yyyy)           (mm/dd/yyyy)          entity (PTE) EIN           of gain or (loss)
+
+
+
+
+ 6. Add amounts in column f of line 1 and lines 2 through 4, and amounts in column e of line 5 ..                                       6
+
+ 7. Qualifying capital loss carryover. See instructions ...................................................................             7
+
+ 8. Net gain or (loss). Subtract line 7 from line 6 .............................................................................       8
+
+ 9. If line 8 is a gain, multiply line 8 by 60% ...................................................................................     9
+
+10. Capital gain net income included in federal adjusted gross income. See instructions .............. 10
+11. Enter the smaller of line 9 or 10 here and on Form 39R, Part B, line 10, or
+     Form 39NR, Part B, line 6 ......................................................................................................... 11
+                                              (See instructions for qualifying Idaho property.)
+                         Include additional schedules as needed to report all qualifying capital gains and losses.
+EFO00093         09-18-2025
+                              Form CG — Instructions
+                              Capital Gains Deduction                                                          2025
+General Information                                             (c) Cattle and horses held for at least 24 months,
+  Use Form CG to compute an individual’s Idaho                      and other livestock used for breeding held for
+  capital gains deduction. The deduction is 60%                     at least 12 months
+  of the capital gain net income included in federal            (d) Timber held for at least 24 months
+  taxable income from the sale of Idaho property.               (e) Certain sales of partnership interests qualify for
+  “Capital gain net income” is the amount left over                 this deduction. See Idaho Code 63-3022H(3)(f) to
+  when you reduce your gains by your losses from                    calculate the amount of qualifying gain, if any.
+  selling or exchanging capital assets.
+                                                               CAUTION: Gains from the sale of stocks and
+  Only capital gains from the following Idaho                  other intangibles don’t qualify.
+  property qualify:
+                                                               If you have any capital gain in the current year and
+   (a) Real property held for at least 12 months
+                                                               any capital loss carryover from a prior year, you must
+       The term “real property” means land and                 reduce your capital gain by the carryover loss. Only
+        includes the following:                                losses from qualifying property can be used to reduce
+           1) Qualified conservation easements                 your capital gain. The Idaho capital gains deduction
+              transferred to a qualified organization as       can’t exceed the capital gain net income reported on
+              described in sections 2031(c)(8)(B) and          the federal return. Gains treated as ordinary income
+              170(h) of the Internal Revenue Code              don’t qualify for the deduction.
+           2) Grazing permits or grazing leases
+                                                               Distributive Share of Gain or Loss from
+              issued by the U.S. Forest Service, the
+                                                               S Corporations, Partnerships, Trusts, and Estates
+              Bureau of Land Management, or the
+                                                               (Pass-through Entity)
+              Idaho Department of Lands, but only if
+              the grazing permit or grazing lease was          Who is eligible for a capital gains deduction?
+              transferred at the same time as the “base        Capital gain from qualifying property of pass-through
+              property”                                        entities is eligible for the Idaho capital gains deduction
+           3) Depreciable real property as described in        on an individual return. Pass-through entities that pay
+              section 1250(c) of the Internal Revenue          the tax for an individual can’t claim a capital gains
+              Code, but only if that property was              deduction.
+              transferred in perpetuity and the transfer       How do pass-through entities report the gain or
+              was required to be in writing according to       loss to a pass-through owner?
+              Idaho Code section 9-503.
+                                                                 1. Calculate the amount of the gain or loss for the
+   (b) Tangible personal property used in a                         owner.
+       revenue-producing enterprise and held for at
+                                                                 2. Enter this amount on Form ID K-1, Part VI,
+       least 12 months
+                                                                    line 36.
+       A revenue-producing enterprise means:
+                                                                 3. Fill in all other information, such as the type
+           1) Producing, assembling, fabricating,                   of property sold, the date of the sale, and the
+              manufacturing or processing any                       holding period of the property.
+              agricultural, mineral, or manufactured
+                                                                 4. Send the Form ID K-1 to the owner.
+              product
+           2) Storing, warehousing, distributing, or           What does a pass-through owner do with the
+              selling at wholesale any products of             Form ID K-1?
+              agriculture, mining, or manufacturing            The owner claims the deduction on their Idaho
+           3) Feeding livestock at a feedlot                   individual income tax return. Please refer to the
+                                                               individual tax return instructions for more information.
+           4) Operating laboratories or other facilities for
+              scientific, agricultural, animal husbandry or    Note: The pass-through owner can include the holding
+              industrial research, development or testing      period of the entity when determining the holding
+                                                               period requirement for capital gains purposes.
+
+
+EIN00070        09-18-2025                                                                                      Page 1 of 2
+                                                                               Form CG — Instructions                 2025
+Specific Instructions                                           Line 5. Enter your distributive share of qualifying
+   Line 1. List qualifying capital gains and losses.            capital gain or loss from pass-through entities. If filing
+   Don’t include gains and losses reported on lines 2           Form 40, enter the amount shown from Form ID K-1,
+   through 5.                                                   Part VI, line 36. If filing Form 43, enter the amount
+                                                                of qualified gains or losses included on Form 43,
+    Column a  Describe the type of property. Identify          line 27; this is usually the amount from Form ID K-1,
+               the Idaho location at the date of sale.          Part VI, line 36 multiplied by the percentage shown
+                                                                on Form ID K-1, Part III, line 6.
+    Column b  Identify the month, day, and year the
+               property was acquired.                            Column a  Describe the type of property. Identify
+                                                                            the Idaho location at the date of sale.
+    Column c  Identify the month, day, and year the
+               property was sold.                                Column b  Identify the month, day, and year the
+                                                                            property was acquired.
+    Column d  Enter the sales price.
+                                                                 Column c  Identify the month, day, and year the
+    Column e  Enter the cost or other basis. Basis
+                                                                            property was sold.
+               is computed under the appropriate
+               provisions of the Internal Revenue                Column d  Enter the Employer Identification
+               Code.                                                        Number (EIN) of the pass-through
+                                                                            entity.
+    Column f  To compute your gain or loss,
+               subtract column e from column d.                  Column e  Enter your distributive share of gain
+                                                                            or loss.
+   Line 2. Enter the taxable gain from the sale of
+   your Idaho home from federal Schedule D. If                  Line 6. Enter the total of gains and losses in column f
+   you’re reporting a gain that qualifies from previous         for lines 1 through 4, and column e, line 5.
+   installment sales, see line 3.
+                                                                Line 7. Enter the total qualifying capital loss carryover
+   Line 3. If you used federal Form 6252 to report              from the prior year’s return.
+   the installment method for the gain on the sale of
+   eligible property on your federal return, compute            Line 9. If line 8 is a gain, enter 60% of line 8. If line 8 is
+   your capital gains deduction using the current               a loss, you can’t claim this deduction.
+   year’s taxable portion of the installment payment.
+                                                                Line 10. Enter your capital gain net income included
+   Include federal Form 6252. Capital gain from an
+                                                                in federal adjusted gross income. This is the capital
+   installment sale isn’t eligible for the Idaho capital
+                                                                gain from federal Form 1040, line 7. If you have a
+   gains deduction if the property wasn’t held for the
+                                                                capital loss, enter 0.
+   minimum holding period by the date sold.
+                                                                Line 11. Compare lines 9 and 10. Enter the smaller
+   Line 4. Enter the eligible capital gain net income
+                                                                amount here and on Form 39R, Part B, line 10 or
+   from federal Form 4797. Don’t include ordinary
+                                                                Form 39NR, Part B, line 6. This is your Idaho capital
+   gains reported on federal Form 4797, Part II.
+                                                                gains deduction.
+
+
+
+
+                                                      Contact us:
+                              In the Boise area: (208) 334-7660 | Toll free: (800) 972-7660
+                                        Hearing impaired (TDD) (800) 377-3529
+                                                 tax.idaho.gov/contact
+EIN00070     09-18-2025                                                                                            Page 2 of 2
+

@@ -1,0 +1,1819 @@
+
+
+<!doctype html>
+<html lang="en" class="dark-mode">
+<head>
+		<title>U.S. Courts, District of Idaho</title>
+	
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">	
+
+	<meta name="google" value="notranslate">
+	<meta http-equiv="Content-Language" content="en" />	
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>	
+	<meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="cache-control" value="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />	
+	
+	<link runat="server" rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link runat="server" rel="icon" href="/favicon.ico" type="image/ico" />
+
+
+    <!-- manifest meta -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/shared/img/favicon180.png" sizes="180x180">
+    <link rel="icon" href="/shared/img/favicon32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/shared/img/favicon16.png" sizes="16x16" type="image/png">
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- bootstrap icons -->
+    
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- chosen css -->
+    <link rel="stylesheet" href="/shared/plugins/chosen_v1.8.7/chosen.min.css">
+
+    <!-- date range picker -->
+    <link rel="stylesheet" href="/shared/plugins/daterangepicker/daterangepicker.css">
+
+    <!-- swiper carousel css -->
+    <link rel="stylesheet" href="/shared/plugins/swiper-7.3.1/swiper-bundle.min.css">
+
+    <!-- simple lightbox css -->
+    <link rel="stylesheet" href="/shared/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- app tour css -->
+    <link rel="stylesheet" href="/shared/plugins/Product-Tour-Plugin-jQuery/lib.css">
+
+    <!-- style css for this template -->
+    <link href="/shared/scss/style.css" rel="stylesheet">
+    <link href="/shared/css/court_style.css" rel="stylesheet">
+	
+	<script src="/shared/plugins/jquery/jquery-3.6.1.min.js"></script>
+	
+
+	
+	
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61183216-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+	
+		gtag('config', 'UA-61183216-1');
+	</script>		
+	
+	
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			/*
+			Toast Messages
+			
+			*/
+			
+			/*
+			$("a.launcher").hover(function() {
+				console.log("a hover");
+			});
+			
+			$(".launcher").click(function() {
+				console.log("launcher click");
+			});
+			
+			$(".launcher").on("click", function() {
+		        console.log("A launcher link was clicked!");
+		    });
+			*/
+			
+			$.setMsgSuccess = function(message){
+				$("#msgToast").attr("class", "toast msgSuccess");
+				$("#toast-icon").attr("class", "bi bi-check-circle-fill");
+				$("#toast-header-text").html("Success");
+				$("#toast-header-sub-text").html("");
+				$("#toast-body").html(message);
+			};
+			$.setMsgInfo = function(message){
+				$("#msgToast").attr("class", "toast msgInfo");
+				$("#toast-icon").attr("class", "bi bi-info-circle-fill");
+				$("#toast-header-text").html("Information");
+				$("#toast-header-sub-text").html("");
+				$("#toast-body").html(message);
+			};
+			$.setMsgWarning = function(message){
+				$("#msgToast").attr("class", "toast msgWarning");
+				$("#toast-icon").attr("class", "bi bi-exclamation-triangle-fill");
+				$("#toast-header-text").html("Warning");
+				$("#toast-header-sub-text").html("");
+				$("#toast-body").html(message);
+			};
+			$.setMsgError = function(message){
+				$("#msgToast").attr("class", "toast msgError");
+				$("#toast-icon").attr("class", "bi bi-exclamation-triangle-fill");
+				$("#toast-header-text").html("Error");
+				$("#toast-header-sub-text").html("");
+				$("#toast-body").html(message);
+			};
+			
+			
+			/*
+			Full screen modal windows		
+			
+			*/
+			$.showWarning = function(message){
+				$("#message").html(message);
+				$("#messagePanel .content").css("background-color", "#eee"); //* White */
+				$("#messagePanel .content").css("color", "#222"); //* Off White */
+				$("#messagePanel").fadeIn(500);
+				$("#messagePanel").delay(2500).fadeOut(2000);
+			};
+			$.showInfo = function(message){
+				$("#message").html(message);
+				$("#messagePanel .content").css("background-color", "#5280BF"); //* Blue */
+				$("#messagePanel .content").css("color", "#eee"); //* Off White */
+				$("#messagePanel").fadeIn(500);
+				$("#messagePanel").delay(2500).fadeOut(2000);
+			};
+			$.showError = function(message){
+				$("#message").html(message);
+				$("#messagePanel .content").css("background-color", "#ef4c3c"); //* Red */
+				$("#messagePanel .content").css("color", "#eee"); //* Off White */
+				$("#messagePanel").fadeIn(500);
+				$("#messagePanel").delay(2500).fadeOut(2000);
+			};
+			
+			
+			
+			
+			
+		
+		
+		
+			$('a.slideshow').fancybox({
+				openEffect 		: 'elastic',
+	   			closeEffect 	: 'elastic',
+				prevEffect		: 'fade',
+				nextEffect		: 'fade',
+				autoPlay		: true,
+				playSpeed		: 4000,
+				helpers			: {
+					title		: { type : 'inside' },
+					buttons		: {}
+				}
+			});
+			
+			$('a.solo_picture').fancybox({
+				openEffect		: 'elastic',
+				closeEffect		: 'elastic',
+				helpers			: {
+	   				title 		: { type : 'inside' }
+				}
+			});
+			
+			
+			$('a.launcher').fancybox({
+				maxWidth		: 800,
+				padding			: 4,
+				width			: '100%',
+				height			: 'auto',
+				type			: 'ajax',
+				autoSize		: false,
+				autoScale		: false,
+				openEffect		: 'fade',
+				closeEffect		: 'fade'
+				/*
+				,beforeShow: function() {
+			        console.log('FancyBox is about to open!', this.element);
+			    }
+				*/
+				/* minHeight		: 230 */
+			});
+	
+			
+			$('a.text_launcher').fancybox({
+				helpers			: {
+					title		: { type : 'inside' },
+					buttons		: {}
+				},
+				openEffect		: 'elastic',
+				closeEffect		: 'elastic'
+			});
+					
+			$('a.message').fancybox({
+				maxWidth		: 800,
+				maxHeight		: 520,
+				type			: 'iframe',
+				autoSize		: true,
+				openEffect		: 'fade',
+				closeEffect		: 'fade'
+				/*
+				onComplete		: function () {
+					$.fancybox.update();
+				}
+				*/
+				
+			});	
+			
+			
+			$('a.xmessage').fancybox({
+				width				: 600,
+				height				: 630,
+				type				: 'iframe',
+				fitToView			: false,
+				autoSize			: false,
+				openEffect			: 'elastic',
+				closeEffect			: 'elastic',
+				scrolling			: 'no' // optional to avoid scrollbars inside fancybox
+				
+			});
+	
+						
+			$('a.iframe').fancybox({
+				/* maxWidth		: 650, */
+				type			: 'iframe',
+				autoSize		: true,
+				openEffect		: 'fade',
+				closeEffect		: 'fade',
+				/* minHeight		: 230 */
+	
+				/*
+				maxWidth	: 800,
+				maxHeight	: 600,
+				fitToView	: false,
+				width		: '70%',
+				height		: '70%',
+				autoSize	: false,
+				closeClick	: false,
+				openEffect	: 'none',
+				closeEffect	: 'none'
+				*/
+			});
+	
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+		    // Add every domain that should NOT trigger the "leaving site" prompt
+		    var localDomains = [
+		        'uscourts.gov',
+		        '10.160.9.15'
+		    ];
+		
+		    function isLocalHost(hostname) {
+		        hostname = hostname.toLowerCase();
+		        return localDomains.some(function(domain) {
+		            // Exact match or any subdomain (www.uscourts.gov, pacer.uscourts.gov, etc.)
+		            return hostname === domain ||
+		                   hostname.slice(-(domain.length + 1)) === '.' + domain;
+		        });
+		    }
+		
+		    $('a[href]').each(function() {
+		        var url = $(this).attr('href');
+		
+		        // Only look at absolute URLs (http://, https://, or //)
+		        if (!/^(https?:)?\/\//i.test(url)) {
+		            return;
+		        }
+		
+		        // this.hostname is parsed by the browser from the href
+		        if (isLocalHost(this.hostname)) {
+		            $(this).addClass('local');
+		        } else {
+		            $(this).addClass('external');
+		        }
+		    });
+		
+		    $('body').on('click', 'a.external', function(e) {
+		        e.preventDefault();
+		        fancyConfirm($(this).attr('href'));
+		    });
+		});
+		
+		
+		function fancyConfirm(DaURL) {
+			jQuery.fancybox({
+				'modal' : true,
+				'padding' : 4,
+				'content' : '<div class="container-fluid"><section id="" class="module" style="max-width:500px;"><div class="row"><div class="col-12 p-0"><div class="card border-0"><div class="card-header blue"><div class="row align-items-center"><div class="col"><h5 title="" class="">You are now leaving our site...</h5></div><div class="col-auto"></div></div></div><div class="card-body"><img src="/shared/img/US_Courts_Idaho_Seal_sm.png" align="absmiddle" style="float:left; padding:0px 20px 20px 0px;">You are about to leave the website of U.S. Courts, District of Idaho and view an external website.  The content of the site you are about to enter does not necessarily reflect the opinions, standards or policy of U.S. Courts. Any questions or comments concerning this external site should be directed to the site owner.<br><br>Click Continue to proceed or Cancel to stay on this site.<br><br><div style="text-align:center;"><img src="/shared/img/btn_cancel.png" id="fancyConfirm_cancel" border="0" align="absmiddle" style="cursor: pointer;">&nbsp;&nbsp;&nbsp;<img src="/shared/img/btn_continue.png" id="fancyConfirm_ok" border="0" align="absmiddle" style="cursor: pointer;"></div></div></div></div></div></section></div>',
+				'beforeShow' : function() {
+					jQuery("#fancyConfirm_cancel").click(function() {
+						$.fancybox.close();
+					});
+					jQuery("#fancyConfirm_ok").click(function() {
+						window.open(DaURL);
+						$.fancybox.close();
+					});
+				}
+			});
+		}
+		
+	</script>
+		
+	
+		
+	
+	
+	
+	
+
+</head>
+
+<body class="d-flex flex-column h-100 sidebar-pushcontent sidebar-filled" data-sidebarstyle="sidebar-pushcontent">
+
+
+
+
+
+
+	
+	
+	<div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3 mb-5" style="z-index:2000;">
+	    <div class="toast" id="msgToast">
+	        <div id="toast-header" class="toast-header">
+	            <strong class="me-auto"><i id="toast-icon" class=""></i> <span id="toast-header-text"></span></strong>
+	            <small id="toast-header-sub-text"></small>
+	            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+	        </div>
+	        <div id="toast-body" class="toast-body"></div>
+	    </div>
+	</div>
+
+	
+	
+	<div id="messagePanel" class="messagePanel" style="z-index:2000;">
+		<div class="col-md-2 col-xs-1"></div>
+		<div class="content col-md-8 col-xs-10">
+			<div class="d-flex justify-content-center align-items-center">
+				<img src="/shared/img/US_Courts_Idaho_Seal_Float.png" class="img-fluid me-2" border="0" style="height:70px;">
+				<div id="message" class="message"></div>
+			</div>
+		</div>
+		<div class="col-md-2 col-xs-1"></div>
+	</div>
+
+
+
+    <!-- page loader -->
+    <div class="container-fluid h-100 position-fixed loader-wrap bg-blur">
+        <div class="row justify-content-center h-100">
+            <div class="col-auto align-self-center text-center px-5 leaf">
+                <h2 class="mb-1">U.S. Courts</h2>
+                <h2 class="mb-1"><b class="fw-bold">District of Idaho</b></h2>
+                
+                <div class="logo-square animated mb-4">
+                    <div class="icon-logo">
+                        <img src="/shared/img/US_Courts_Idaho_Seal_Float.png" alt="" />
+                    </div>
+                </div>
+                
+                
+                <p class="text-secondary small">Preparing Website</p>
+
+                <div class="dotslaoder">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- page loader ends -->
+	
+
+	
+	
+
+
+	<!-- Header -->
+	<header class="header">
+	
+	
+		<!-- Fixed navbar -->
+		<nav class="navbar fixed-top" style="background-color:#336699;">
+			
+			
+			<div class="container-fluid">
+				<h5 class="d-sm-none"><a href="https://www.id.uscourts.gov"><img src="/shared/img/US_Courts_Idaho_Seal_Float.png" class="" style="height:40px;"></a> U.S. Courts, District of Idaho</h5>
+				<h4 class="d-none d-sm-block d-md-none"><a href="https://www.id.uscourts.gov"><img src="/shared/img/US_Courts_Idaho_Seal_Float.png" class="" style="height:40px;"></a> U.S. Courts, District of Idaho</h4>
+				<h4 class="d-none d-md-block d-lg-none"><a href="https://www.id.uscourts.gov"><img src="/shared/img/US_Courts_Idaho_Seal_Float.png" class="" style="height:40px;"></a> U.S. District & Bankruptcy Courts, District of Idaho</h4>
+				<h4 class="d-none d-lg-block"><a href="https://www.id.uscourts.gov" title="/clerks/welcome.cfm"><img src="/shared/img/US_Courts_Idaho_Seal_Float.png" class="" style="height:50px;"></a> United States District and Bankruptcy Courts, District of Idaho</h4>
+				
+				<div class="ms-auto">
+					<div class="row">
+						<div class="col-auto">
+							
+						</div>		
+					</div>		
+				</div>		
+				
+			</div>
+			
+			
+			<div class="container-fluid">
+				
+				
+				<button class="btn btn-link menu-btn me-2" type="button">
+					<i class="bi bi-list fs-4"></i><div class="d-inline d-lg-none hamburger-text">Menu</div>
+				</button>
+				
+				
+				<div class="header-title align-self-center d-none d-md-block">
+					<h5 class="mb-0"><a href="/clerks/" title="clerks">Clerks Office</a></h5>
+					
+				</div>
+				
+				
+				<div class="search-header d-none d-xl-block ms-0 ms-xl-3">
+					
+					
+				</div>
+				
+				<div class="ms-auto">
+					<div class="row">
+						<div class="col-auto">
+							
+							
+							
+							 
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+						</div>
+						
+						<div class="col-auto align-self-center">
+						
+							<div class="d-none d-lg-block">
+								
+								
+								<div id="" class="mb-0">
+									<ul class="nav nav-fill">
+											
+										
+										<li class="nav-item">
+											<a class="nav-link" href="https://www.id.uscourts.gov/district/" target="" title="District Court">
+												<div class="row gx-1 justify-content-center align-items-center">
+													<div class="col-auto">
+													
+														<figure class="avatar avatar-20 coverimg rounded-circle">
+															<img src="/shared/img/US_Courts_Idaho_Seal_Float.png" alt="" />
+														</figure>
+													
+													</div>
+													<div class="col-auto">
+														<div class="col align-self-center">District</div>
+														
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										<li class="nav-item">
+											<a class="nav-link" href="https://www.id.uscourts.gov/bankruptcy/" target="" title="Bankruptcy Court">
+												<div class="row gx-1 justify-content-center align-items-center">
+													<div class="col-auto">
+													
+														<figure class="avatar avatar-20 coverimg rounded-circle">
+															<img src="/shared/img/US_Courts_Idaho_Seal_Float.png" alt="" />
+														</figure>
+													
+													</div>
+													<div class="col-auto">
+														<div class="col align-self-center">Bankruptcy</div>
+														
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										<li class="nav-item">
+											<a class="nav-link" href="https://www.id.uscourts.gov/jury/" target="" title="Jury Duty">
+												<div class="row gx-1 justify-content-center align-items-center">
+													<div class="col-auto">
+													
+														<figure class="avatar avatar-20 coverimg rounded-circle">
+															<img src="/shared/img/scales_200.png" alt="" />
+														</figure>
+													
+													</div>
+													<div class="col-auto">
+														<div class="col align-self-center">Jury</div>
+														
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										<li class="nav-item">
+											<a class="nav-link" href="https://www.id.uscourts.gov/probation/" target="" title="US Probation & Pretrial">
+												<div class="row gx-1 justify-content-center align-items-center">
+													<div class="col-auto">
+													
+														<figure class="avatar avatar-20 coverimg rounded-circle">
+															<img src="/shared/img/US_Probation_Idaho_Seal_Float.png" alt="" />
+														</figure>
+													
+													</div>
+													<div class="col-auto">
+														<div class="col align-self-center">Probation & Pretrial</div>
+														
+													</div>
+												</div>
+											</a>
+										</li>
+												
+										
+									</ul>
+								</div>
+								
+							
+							</div>
+						
+						
+						
+							<div class="dropdown d-lg-none">
+								<a class="dd-arrow-none dropdown-toggle" id="userprofiledd" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+									<div class="row">
+										<div class="col-auto align-self-center">
+											<span class="d-lg-none quick-links-text">Quick Links</span>
+											<i class="bi bi-chevron-down small d-lg-none vm"></i>
+											<figure class="avatar avatar-30 rounded-circle d-none d-lg-block coverimg vm">
+												<img src="/shared/img/US_Courts_Idaho_Seal_Float.png" alt="" id="userphotoonboarding2" />
+											</figure>
+										</div>
+										<div class="col ps-0 align-self-center d-none d-lg-block">
+											<p class="mb-0">
+												<span class="text-dark username">Quick Links</span><br>
+												
+											</p>
+										</div>
+										<div class="col ps-0 align-self-center d-none d-lg-block">
+											<i class="bi bi-chevron-down small vm"></i>
+										</div>
+									</div>
+								</a>
+							
+								<div class="dropdown-menu dropdown-menu-end w-250" aria-labelledby="userprofiledd">
+							
+						
+								
+								
+								
+									<div>
+										<a class="dropdown-item" href="https://www.id.uscourts.gov/district/" target="">
+											<div class="row g-0">
+												
+													<figure class="avatar avatar-30 coverimg rounded-circle me-2">
+														<img src="/shared/img/US_Courts_Idaho_Seal_Float.png" alt="" />
+													</figure>
+												
+												<div class="col align-self-center">District</div>
+											</div>
+										</a>
+									</div>
+									
+									<div>
+										<a class="dropdown-item" href="https://www.id.uscourts.gov/bankruptcy/" target="">
+											<div class="row g-0">
+												
+													<figure class="avatar avatar-30 coverimg rounded-circle me-2">
+														<img src="/shared/img/US_Courts_Idaho_Seal_Float.png" alt="" />
+													</figure>
+												
+												<div class="col align-self-center">Bankruptcy</div>
+											</div>
+										</a>
+									</div>
+									
+									<div>
+										<a class="dropdown-item" href="https://www.id.uscourts.gov/jury/" target="">
+											<div class="row g-0">
+												
+													<figure class="avatar avatar-30 coverimg rounded-circle me-2">
+														<img src="/shared/img/scales_200.png" alt="" />
+													</figure>
+												
+												<div class="col align-self-center">Jury</div>
+											</div>
+										</a>
+									</div>
+									
+									<div>
+										<a class="dropdown-item" href="https://www.id.uscourts.gov/probation/" target="">
+											<div class="row g-0">
+												
+													<figure class="avatar avatar-30 coverimg rounded-circle me-2">
+														<img src="/shared/img/US_Probation_Idaho_Seal_Float.png" alt="" />
+													</figure>
+												
+												<div class="col align-self-center">Probation & Pretrial</div>
+											</div>
+										</a>
+									</div>
+									
+								
+								
+							</div>
+							
+							
+						
+							
+							
+							
+							
+							
+							
+							
+						</div>
+					</div>	
+				</div>			
+			</div>				
+		</nav>
+		
+		
+		
+		
+	</header>
+	<!-- Header ends -->
+					
+							
+
+ 
+ <!-- Sidebar -->
+ 	<div id="curLinkID" value="325" class="d-none"></div>
+    <div class="sidebar-wrap">
+        <div class="sidebar">
+            <div class="container">
+               
+				
+				 <!-- user menu navigation -->
+                <div class="row mb-4">
+                    <div class="col-12 px-0">
+                        <ul class="nav nav-pills">
+						
+							
+						
+						
+						
+								<li class="nav-item">
+									<a class="nav-link" aria-current="page" href="/clerks/welcome.cfm?lni=325" id="325" title="Welcome to U.S. Courts District of Idaho 325~306">
+										<div class="avatar avatar-30 icon"><i class="bi bi-house"></i></div>
+										<div class="col">Home Page</div>
+										
+									</a>
+								</li>
+								
+								
+
+							<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-display="static" href="#" id="296" role="button" aria-expanded="false" title="General Information 296~0">
+                                    <div class="avatar avatar-30 icon"><i class="bi bi-bank"></i></div>
+                                    <div class="col">Information</div>
+                                    <div class="arrow"><i class="bi bi-chevron-down plus"></i> <i class="bi bi-chevron-up minus"></i></div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Obtaining_Case_Info.cfm?lni=297" id="297" title="Obtaining Case Info 297~813" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Obtaining Case Info</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Federal_Court_History.cfm?lni=298" id="298" title="Federal Court History 298~664" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Federal Court History</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/idaho_legal_history.cfm?lni=299" id="299" title="Idaho Legal History 299~713" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Idaho Legal History</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Helpful_Links.cfm?lni=300" id="300" title="Helpful Links 300~566" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Helpful Links</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="https://www.ce9.uscourts.gov/misconduct/?lni=301" id="301" title="Judicial Misconduct 301~864" target="_blank">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Judicial Misconduct</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Interpreter_Information.cfm?lni=302" id="302" title="Interpreter Information 302~575" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Interpreter Information</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Media_Information.cfm?lni=303" id="303" title="Media Information 303~589" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Media Information</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Naturalization.cfm?lni=304" id="304" title="Naturalization 304~1046" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Naturalization</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Plans.cfm?lni=305" id="305" title="Plans 305~574" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Plans</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/About_the_Clerk.cfm?lni=306" id="306" title="About the Clerk 306~311" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">About the Clerk</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Lawyer_Representatives.cfm?lni=307" id="307" title="Lawyer Representatives 307~611" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Lawyer Representatives</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Divisional_Map_Idaho.cfm?lni=308" id="308" title="Divisional Map - Idaho 308~588" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Divisional Map - Idaho</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/Federal_Holidays.cfm?lni=309" id="309" title="Federal Holidays 309~535" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Federal Holidays</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/News_Archive.cfm?lni=310" id="310" title="News Archive 310~665" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">News Archive</div>
+                                        </a>
+                                    </li>
+									
+									
+								</ul>
+                            </li>	
+						
+							
+								
+
+							<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-display="static" href="#" id="311" role="button" aria-expanded="false" title="District of Idaho CM/ECF 311~0">
+                                    <div class="avatar avatar-30 icon"><i class="bi bi-bank"></i></div>
+                                    <div class="col">ECF Pacer</div>
+                                    <div class="arrow"><i class="bi bi-chevron-down plus"></i> <i class="bi bi-chevron-up minus"></i></div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/ecf/Login_and_Password_Help.cfm?lni=312" id="312" title="Login and Password Help 312~317" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Login and Password Help</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/ecf/ECF_Registration_Process.cfm?lni=313" id="313" title="ECF Registration Process 313~742" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">ECF Registration Process</div>
+                                        </a>
+                                    </li>
+									
+									
+								</ul>
+                            </li>	
+						
+							
+								
+
+							<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-display="static" href="#" id="314" role="button" aria-expanded="false" title="Local Rules, Misc, and General Orders 314~0">
+                                    <div class="avatar avatar-30 icon"><i class="bi bi-bank"></i></div>
+                                    <div class="col">Orders & Rules</div>
+                                    <div class="arrow"><i class="bi bi-chevron-down plus"></i> <i class="bi bi-chevron-up minus"></i></div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/rules_orders/General_Orders.cfm?lni=315" id="315" title="General Orders 315~480" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">General Orders</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/rules_orders/Bankruptcy_Local_Rules.cfm?lni=316" id="316" title="Bankruptcy Local Rules 316~563" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Bankruptcy Local Rules</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/rules_orders/Civil_Local_Rules.cfm?lni=317" id="317" title="Civil Local Rules 317~484" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Civil Local Rules</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/rules_orders/Criminal_Local_Rules.cfm?lni=318" id="318" title="Criminal Local Rules 318~662" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Criminal Local Rules</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/rules_orders/Patent_Local_Rules.cfm?lni=319" id="319" title="Patent Local Rules 319~663" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Patent Local Rules</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/rules_orders/Federal_Rules.cfm?lni=320" id="320" title="Federal Rules 320~488" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Federal Rules</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/rules_orders/Local_Rules_Committees.cfm?lni=321" id="321" title="Local Rules Committees 321~721" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Local Rules Committees</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/rules_orders/Plans.cfm?lni=322" id="322" title="Plans 322~773" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Plans</div>
+                                        </a>
+                                    </li>
+									
+									
+								</ul>
+                            </li>	
+						
+							
+								
+
+							<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-display="static" href="#" id="323" role="button" aria-expanded="false" title="Careers at the U.S. Courts District of Idaho 323~0">
+                                    <div class="avatar avatar-30 icon"><i class="bi bi-bank"></i></div>
+                                    <div class="col">Careers</div>
+                                    <div class="arrow"><i class="bi bi-chevron-down plus"></i> <i class="bi bi-chevron-up minus"></i></div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/careers/Current_Job_Opportunities.cfm?lni=324" id="324" title="Current Job Opportunities 324~533" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Current Job Opportunities</div>
+                                        </a>
+                                    </li>
+									
+									
+								</ul>
+                            </li>	
+						
+							
+								
+
+							<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-display="static" href="#" id="328" role="button" aria-expanded="false" title="Contact U.S. Courts District of Idaho 328~0">
+                                    <div class="avatar avatar-30 icon"><i class="bi bi-telephone"></i></div>
+                                    <div class="col">Contact Us</div>
+                                    <div class="arrow"><i class="bi bi-chevron-down plus"></i> <i class="bi bi-chevron-up minus"></i></div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/contact/boise_office.cfm?lni=329" id="329" title="Contact Us Boise Office 329~314" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Boise Office</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/contact/Coeur_dAlene_Office.cfm?lni=330" id="330" title="Contact Us Coeur d'Alene Office 330~321" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Coeur d'Alene Office</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/contact/Pocatello_Office.cfm?lni=331" id="331" title="Contact Us Pocatello Office 331~320" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Pocatello Office</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/contact/Help_Lines.cfm?lni=332" id="332" title="Contact Us Help Phone Lines 332~324" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Help Lines</div>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a class="dropdown-item nav-link" href="/clerks/contact/Jury_Phone_Numbers.cfm?lni=333" id="333" title="Contact Us Jury Phone Numbers 333~325" target="">
+											<div class="avatar avatar-30 icon"><i class="bi bi-bank"></i>
+                                            </div>
+                                            <div class="col align-self-center">Jury Phone Numbers</div>
+                                        </a>
+                                    </li>
+									
+									
+								</ul>
+                            </li>	
+						
+							
+						
+	
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar ends -->
+
+
+
+
+	<!-- Begin page content -->
+	<main class="main mainheight">
+	
+	
+	
+	
+	
+	
+	
+	
+		
+			
+			
+			
+		
+		
+		
+		
+		
+		
+			<!-- ======= Hero Section ======= -->
+			<section id="hero" class="hero_13 d-flex align-items-center">
+				<div class="container" data-aos="zoom-out" data-aos-delay="100">
+					
+					
+					
+					
+					<div class="row">
+						
+					</div>
+				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<h1>U.S. Courts, District of Idaho<span></span></h1>
+					
+					
+					<div class="row mt-1 mb-3">
+						<div class="col-12 col-md-6">
+							<h2 class="m-0">Chief Judge Amanda K. Brailsford</h2>
+						</div>
+						<div class="col-12 col-md-6 text-md-end ">
+							<h2 class="m-0">Clerk of Courts Stephen W. Kenyon</h2>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+						<div class="row">
+							
+							
+								<div class="col-12 col-md-6 col-xxl-3 mb-4">
+									<div class="card border-0">
+										
+										<div class="card-header blue">
+											<div class="row">
+												<div class="col">
+													<h5><i class="bi bi-info-square"></i> District Court</h5>
+													
+													
+												</div>
+												<div class="col-auto">
+													
+												</div>
+											</div>
+										</div>
+										
+										<div class="card-body">
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/district/" target="">District Court Home</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/district/judges/" target="">Judges</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/district/attorneys/" target="">For Attorneys</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/district/ecf/" target="">ECF PACER</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/district/forms_fees_rules/" target="">Forms Fees & Rules</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/district/pro_se/" target="">Self Representation</a></div>
+											
+										</div>
+										
+										
+									</div>
+								</div>
+							
+							
+								<div class="col-12 col-md-6 col-xxl-3 mb-4">
+									<div class="card border-0">
+										
+										<div class="card-header green">
+											<div class="row">
+												<div class="col">
+													<h5><i class="bi bi-info-square"></i> Bankruptcy Court</h5>
+													
+													
+												</div>
+												<div class="col-auto">
+													
+												</div>
+											</div>
+										</div>
+										
+										<div class="card-body">
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/bankruptcy/" target="">Bankruptcy Court Home</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/bankruptcy/judges/" target="">Judges</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/bankruptcy/attorneys/" target="">For Attorneys</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/bankruptcy/ecf/" target="">ECF PACER</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/bankruptcy/forms_fees_rules/" target="">Forms Fees & Rules</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/bankruptcy/pro_se/" target="">Self Representation</a></div>
+											
+										</div>
+										
+										
+									</div>
+								</div>
+							
+							
+								<div class="col-12 col-md-6 col-xxl-3 mb-4">
+									<div class="card border-0">
+										
+										<div class="card-header light-blue">
+											<div class="row">
+												<div class="col">
+													<h5><i class="bi bi-info-square"></i> Jury Duty</h5>
+													
+													
+												</div>
+												<div class="col-auto">
+													
+												</div>
+											</div>
+										</div>
+										
+										<div class="card-body">
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/jury/" target="">Jury Duty Home</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/jury/reporting_status.cfm" target="">Check Reporting Status</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/jury/questionnaires.cfm" target="">Jury Questionnaires</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/jury/excuse.cfm" target="">Excuse & Postpone</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/jury/scams.cfm" target="">Jury Scams</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/jury/grand_jury_service.cfm" target="">Grand Jury</a></div>
+											
+										</div>
+										
+										
+									</div>
+								</div>
+							
+							
+								<div class="col-12 col-md-6 col-xxl-3 mb-4">
+									<div class="card border-0">
+										
+										<div class="card-header light-blue">
+											<div class="row">
+												<div class="col">
+													<h5><i class="bi bi-info-square"></i> General Questions</h5>
+													
+													
+												</div>
+												<div class="col-auto">
+													
+												</div>
+											</div>
+										</div>
+										
+										<div class="card-body">
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/clerks/" target="">Court Locations</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/clerks/rules_orders/" target="">General Orders</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/district/Naturalization.cfm" target="">Naturalization</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/clerks/Federal_Holidays.cfm" target="">Federal Holidays</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/clerks/contact/" target="">Contact Us</a></div>
+											
+												<div class="my-1"><i class="bi bi-chevron-compact-right"></i><a href="/clerks/careers/" target="">Careers</a></div>
+											
+										</div>
+										
+										
+									</div>
+								</div>
+							
+						</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+			</section><!-- End Hero -->
+		
+
+		
+		
+		
+
+		
+		<div class="container-fluid">
+		
+		
+			
+			
+
+			
+			
+			<section id="" class="module w-100">
+				<div class="row mt-4">
+					<div class="col-12">
+						<div class="card border-0">
+							
+							
+							<div class="card-header ">
+								<div class="row">
+									<div class="col">
+										
+										<h5 title="838 /modules/news.cfm?court_unit=consolidated"><i class=""></i> District of Idaho News</h5>
+										
+										
+									</div>
+									<div class="col-auto">
+										
+									</div>
+								</div>
+							</div>
+							<div class="card-body">
+			
+			
+
+			
+		
+		<div class="row pb-3">
+			<div class="col-12 col-md-10">
+			
+			
+					<a href="/Content_Fetcher/index.cfml/District_of_Idaho_Courthouses_Closed_-_Nov_26_4680.pdf?Content_ID=4680" target="_blank"><img src="/shared/img/icons/icon_pdf_24.png" alt="" border="0" align="absmiddle"></a>
+					<a href="/Content_Fetcher/index.cfml/District_of_Idaho_Courthouses_Closed_-_Nov_26_4680.pdf?Content_ID=4680" target="_blank">District of Idaho Courthouses Closed - Nov 26</a>
+					
+			
+			
+			</div>
+			<div class="d-none d-md-block col-md-2">Nov 12, 2026</div>
+		</div>
+		
+		
+
+	
+		
+		<div class="row pb-3">
+			<div class="col-12 col-md-10">
+			
+			
+					<a href="/Content_Fetcher/index.cfml/District_of_Idaho_Courthouses_Closed_-_Nov_11_4678.pdf?Content_ID=4678" target="_blank"><img src="/shared/img/icons/icon_pdf_24.png" alt="" border="0" align="absmiddle"></a>
+					<a href="/Content_Fetcher/index.cfml/District_of_Idaho_Courthouses_Closed_-_Nov_11_4678.pdf?Content_ID=4678" target="_blank">District of Idaho Courthouses Closed - Nov 11</a>
+					
+			
+			
+			</div>
+			<div class="d-none d-md-block col-md-2">Nov 02, 2026</div>
+		</div>
+		
+		
+
+	
+		
+		<div class="row pb-3">
+			<div class="col-12 col-md-10">
+			
+			
+					<a href="/Content_Fetcher/index.cfml/GO_484_Restoration_of_BNC_Services__4676.pdf?Content_ID=4676" target="_blank"><img src="/shared/img/icons/icon_pdf_24.png" alt="" border="0" align="absmiddle"></a>
+					<a href="/Content_Fetcher/index.cfml/GO_484_Restoration_of_BNC_Services__4676.pdf?Content_ID=4676" target="_blank">GO 484 Restoration of BNC Services </a>
+					
+			
+			
+			</div>
+			<div class="d-none d-md-block col-md-2">Oct 28, 2026</div>
+		</div>
+		
+		
+
+	
+		
+		<div class="row pb-3">
+			<div class="col-12 col-md-10">
+			
+			
+				
+				<a href="/Content_Fetcher/index.cfml/GO_482_re_Adopting_EDR_Policy_4671.pdf?Content_ID=4671" target=""><img src="/shared/img/icons/icon_url_24.png" alt="" border="0" align="absmiddle"></a>
+				
+				<a href="/Content_Fetcher/index.cfml/GO_482_re_Adopting_EDR_Policy_4671.pdf?Content_ID=4671" target="">GO 482 re Adopting EDR Policy</a>
+			
+			
+			
+			
+			</div>
+			<div class="d-none d-md-block col-md-2">Oct 15, 2026</div>
+		</div>
+		
+		
+
+	
+		
+		<div class="row pb-3">
+			<div class="col-12 col-md-10">
+			
+			
+				
+				<a href="/Content_Fetcher/index.cfml/GO_483_re_BNC_Noticing_Changes_4674.pdf?Content_ID=4674" target=""><img src="/shared/img/icons/icon_url_24.png" alt="" border="0" align="absmiddle"></a>
+				
+				<a href="/Content_Fetcher/index.cfml/GO_483_re_BNC_Noticing_Changes_4674.pdf?Content_ID=4674" target="">GO 483 re BNC Noticing Changes</a>
+			
+			
+				<div class="ms-3">Change To Service Rules Due To Bankruptcy Noticing Center Disruption to Ops</div>
+			
+			
+			
+			</div>
+			<div class="d-none d-md-block col-md-2">Oct 15, 2026</div>
+		</div>
+		
+		
+
+	
+		
+		<div class="row pb-3">
+			<div class="col-12 col-md-10">
+			
+			
+					<a href="/Content_Fetcher/index.cfml/BANKRUPTCY_NOTICING_CENTER_UPDATE_4670.htm?Content_ID=4670" target="" class="launcher"><img src="/shared/img/icons/icon_htm_24.png" alt="" border="0" align="absmiddle"></a>
+					<a href="/Content_Fetcher/index.cfml/BANKRUPTCY_NOTICING_CENTER_UPDATE_4670.htm?Content_ID=4670" target="" class="launcher">BANKRUPTCY NOTICING CENTER UPDATE</a>
+				
+			
+			
+			</div>
+			<div class="d-none d-md-block col-md-2">Oct 14, 2026</div>
+		</div>
+		
+		
+
+	
+							</div>	
+						
+						</div>
+					</div>
+				</div>
+			</section><!-- End Module -->
+		
+			
+			
+
+			
+			
+			<section id="" class="module w-100">
+				<div class="row mt-4">
+					<div class="col-12">
+						<div class="card border-0">
+							
+							
+							<div class="card-header ">
+								<div class="row">
+									<div class="col">
+										
+										<h5 title="462"><i class=""></i> Welcome</h5>
+										
+										
+									</div>
+									<div class="col-auto">
+										
+									</div>
+								</div>
+							</div>
+							<div class="card-body">
+			
+			
+
+			<div class="DIV_Content_Picture_No_Frame float-start pe-3"><a href="/content/pictures/775_large.jpg?{ts '2026-11-13 12:56:19'}" class="solo_picture" title=""><img src="/content/pictures/775_Medium.jpg?{ts '2026-11-13 12:56:19'}" border="0" align="absmiddle"></a></div>									
+										
+										<a name="Welcome"></a>
+										<p style="text-align:justify">The District of Idaho Clerk of Court, Stephen W. Kenyon, welcomes you to the U.S. District and Bankruptcy Courts for the District of Idaho. &nbsp;We are one of 15 districts in the Ninth Circuit which spans 9 western states. Idaho is proud to be one of only six consolidated District and Bankruptcy Clerks&#39; Offices within the federal judiciary.</p>
+
+<p style="text-align:justify">The U.S. Courts for the District of Idaho was created with statehood in 1890. Our offices are located in <a href="/clerks/contact/Boise_Office.cfm">Boise</a>, <a href="/clerks/contact/Coeur_dAlene_Office.cfm">Coeur d&#39;Alene</a>, and <a href="/clerks/contact/Pocatello_Office.cfm">Pocatello</a>. &nbsp;</p>
+
+<p style="text-align:justify">We trust this website will give some insight into the functions of the U.S. Courts and how the Clerk&#39;s Office can better serve the people of the State of Idaho.</p>
+
+
+							</div>	
+						
+						</div>
+					</div>
+				</div>
+			</section><!-- End Module -->
+		
+			
+			
+
+			
+			
+			<section id="" class="module w-100">
+				<div class="row mt-4">
+					<div class="col-12">
+						<div class="card border-0">
+							
+							
+							<div class="card-header ">
+								<div class="row">
+									<div class="col">
+										
+										<h5 title="505"><i class=""></i> Mission Statement</h5>
+										
+										
+									</div>
+									<div class="col-auto">
+										
+									</div>
+								</div>
+							</div>
+							<div class="card-body">
+			
+			
+
+			<div class="DIV_Content_Picture_No_Frame float-start pe-3"><a href="/content/pictures/823_large.jpg?{ts '2026-11-13 12:56:19'}" class="solo_picture" title=""><img src="/content/pictures/823_Medium.jpg?{ts '2026-11-13 12:56:19'}" border="0" align="absmiddle"></a></div>									
+										
+										<a name="Mission Statement"></a>
+										<p style="text-align: justify;"><br />
+<em style="font-size: 11pt;">The mission of the United States District and Bankruptcy Courts for the District of Idaho is to provide an impartial and accessible forum for the just, timely and economical resolution of legal proceedings within the jurisdiction of the Courts, so as to preserve judicial independence, protect individual rights and liberties, and promote public trust and confidence.</em></p>
+
+
+							</div>	
+						
+						</div>
+					</div>
+				</div>
+			</section><!-- End Module -->
+		
+			
+			
+
+			
+			
+			<section id="" class="module w-100">
+				<div class="row mt-4">
+					<div class="col-12">
+						<div class="card border-0">
+							
+							
+							<div class="card-header ">
+								<div class="row">
+									<div class="col">
+										
+										<h5 title="1492"><i class=""></i> JURY SCAMS</h5>
+										
+										
+									</div>
+									<div class="col-auto">
+										
+									</div>
+								</div>
+							</div>
+							<div class="card-body">
+			
+			
+
+			<div class="DIV_Content_Picture_Frame float-start pe-3"><a href="/content/pictures/4237_large.jpg?{ts '2026-11-13 12:56:19'}" class="solo_picture" title=""><img src="/content/pictures/4237_Medium.jpg?{ts '2026-11-13 12:56:19'}" border="0" align="absmiddle"></a></div>									
+										
+										<a name="DON'T TRUST - JUST VERIFY"></a>
+										
+										<h4 style="margin-top:10px;">
+											DON'T TRUST - JUST VERIFY
+										</h4>
+										<p>Citizens of Idaho are being targeted by phone calls threatening arrest for contempt of court, written citations, warrants for failing to comply and/or not showing up for federal jury service.</p>
+
+<p>Scammers sound convincing and use real information about the victim, actual court addresses and&nbsp; names of federal judges or local law enforcement officers to make the scam appear more credible. Scammers may even &ldquo;spoof&rdquo; the phone number on caller ID so that the call falsely appears to be from&nbsp;law enforcement and may have&nbsp;police radio traffic in the background. Callers tend to have an accent, are threatening, intimidating and try to keep you on the phone. You may also be told to report to the police department to provide your signature for verification that your signature matches what is on your jury documents.&nbsp;</p>
+
+<p><strong>Never</strong> meet these individuals, provide cash,contact a Bail Bondsman, purchase pre-paid money cards or provide personal information. The callers are requesting hundreds to&nbsp;thousands of dollars and advising that your money would be refunded after the matter is taken care of and after a&nbsp;Zoom call with the Judge.&nbsp;If you do not comply with their demands, they get angry and may text or tell you&nbsp;that deputies are on their way to arrest you.&nbsp;<strong>Citizens receiving these calls can defend yourself by simply hanging up the phone.</strong></p>
+
+<p>The U.S. District Court of Idaho wants citizens to know that these calls are not from court officials. Federal courts do not require prospective jurors to provide sensitive information, nor do we call and threaten prospective jurors or request any sort of payment.&nbsp;</p>
+
+<p>It is a crime for anyone to falsely represent himself or herself as a federal court official. Citizens receiving threatening phone calls for failure to report for jury duty should never provide sensitive information such as: credit card numbers, bank account information, social security numbers, etc. about themselves or family members.</p>
+
+<p>Don&rsquo;t be a victim. Hang up the phone and spread the word that scammers are actively calling citizens regarding jury service.<br />
+<br />
+<strong><em>IF YOU HAVE ANY QUESTIONS/CONCERNS AS TO WHETHER OR NOT YOU MISSED JURY SERVICE, GO DIRECTLY TO THE FEDERAL COURTHOUSE AND SPEAK TO JURY STAFF.</em> </strong></p>
+
+
+							</div>	
+						
+						</div>
+					</div>
+				</div>
+			</section><!-- End Module -->
+		
+			
+			
+
+			
+			
+			<section id="" class="module w-100">
+				<div class="row mt-4">
+					<div class="col-12">
+						<div class="card border-0">
+							
+							
+							<div class="card-header ">
+								<div class="row">
+									<div class="col">
+										
+										<h5 title="1388"><i class=""></i> Your Employee Rights and How to Report Misconduct</h5>
+										
+										
+									</div>
+									<div class="col-auto">
+										
+									</div>
+								</div>
+							</div>
+							<div class="card-body">
+			
+			
+
+												
+										
+										<a name="Your Employee Rights and How to Report Misconduct"></a>
+										<p>Please review the below information regarding employee rights and the avenues available to report wrongful conduct.</p>
+
+<p><a href="https://id.uscourts.gov/Content_Fetcher/index.cfml/Workplace_Conduct_3732.pdf?Content_ID=3732">Idaho EDR Policy</a></p>
+
+<p><a href="https://www.uscourts.gov/judges-judgeships/judicial-conduct-disability">Judicial Conduct and Disability Act</a></p>
+
+<p><a href="https://cdn.ca9.uscourts.gov/assets/misconduct/rules_judicial_conduct.pdf">Rules for Judicial Conduct and Judicial-Disability Proceedings</a></p>
+
+<p><a href="https://cdn.ca9.uscourts.gov/assets/misconduct/complaint_form.pdf">Judicial Conduct and Disability Form</a></p>
+
+<p>&nbsp;</p>
+
+<p>Contact information:</p>
+
+<p><a href="mailto:priscilla_gallardo@id.uscourts.gov">Idaho EDR Coordinator</a></p>
+
+<p><a href="mailto:workplacedirector@ce9.uscourts.gov">9th Circuit Office of Workplace Relations</a></p>
+
+<p><a href="https://www.uscourts.gov/about-federal-courts/workplace-conduct-federal-judiciary">Office of Judicial Integrity</a></p>
+
+
+							</div>	
+						
+						</div>
+					</div>
+				</div>
+			</section><!-- End Module -->
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+	
+
+
+
+	</main>
+
+	
+
+   <!-- footer -->
+    <footer class="footer">
+ 
+	    <div class="footer-faq container-fluid p-4 text-center" data-aos="">
+			<h2>Questions?</h2>
+			<p>View our list of frequently asked questions for Attorneys, Jurors, Clerk's Office, CVB Citations and more...</p>
+			
+			<a class="btn-link" href="/jury/jury_faqs.cfm"><div class="btn btn-primary" title="FAQ for Jurors"><i class="bi bi-question-circle"></i> Juror FAQ</div></a>
+			
+			<a class="btn-link" href="/bankruptcy/FAQs.cfm"><div class="btn btn-primary" title="FAQ for Bankruptcy Court"><i class="bi bi-question-circle"></i> Bankruptcy FAQ</div></a>
+			<a class="btn-link" href="/district/FAQs.cfm"><div class="btn btn-primary" title="FAQ for District Court"><i class="bi bi-question-circle"></i> District FAQ</div></a>
+			<a class="btn-link" href="/probation/Facts_And_FAQs.cfm"><div class="btn btn-primary" title="FAQ for Probation & Pretrial"><i class="bi bi-question-circle"></i> Probation FAQ</div></a>
+		</div>
+ 
+			
+			
+			
+			
+			
+		</div>
+
+		
+	    <div class="container-fluid text-center p-4">
+           
+            <ul class="nav justify-content-center small">
+                <li class="nav-item"><a class="nav-link" href="/clerks/contact/">Contact us</a></li>
+                <li class="nav-item"><span title="73.151.77.180">|</span></li>
+                <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.uscourts.gov/glossary">Glossary of Legal Terms</a></li>
+                <li class="nav-item">|</li>
+                <li class="nav-item"><a class="nav-link launcher" href="/content_fetcher/?content_id=2100">Privacy Policy</a></li>
+            </ul>
+        </div>
+		
+    </footer>
+    <!-- footer ends -->
+
+	
+	
+	<!-- footer -->
+	<div class="footer2" style="height:80px; z-index:1; flex-shrink: 0;"></div>
+	<!-- footer ends --> 
+	<!-- footer sticky bottom -->
+	<footer class="footer-sticky">
+		<div class="container">
+			<ul class="nav nav-pills nav-justified">
+
+				
+				
+				
+				<li class="nav-item">
+					<a class="nav-link" href="/district">
+						<span>
+							<figure class="avatar avatar-30 coverimg rounded-circle vm">
+								<img src="/shared/img/US_Courts_Idaho_Seal_Float.png" alt="" />
+							</figure>
+							<div class="nav-text">District</div>
+						</span>
+					</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="/bankruptcy">
+						<span>
+							<figure class="avatar avatar-30 coverimg rounded-circle vm">
+								<img src="/shared/img/US_Courts_Idaho_Seal_Float.png" alt="" />
+							</figure>
+							<div class="nav-text">Bankruptcy</div>
+						</span>
+					</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="/jury">
+                       
+						<span>
+							<figure class="avatar avatar-30 coverimg rounded-circle vm">
+								<img src="/shared/img/scales_200.png" alt="" />
+							</figure>
+							<div class="nav-text">Jury</div>
+						</span>
+                    </a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="/probation">
+						<span>
+							<figure class="avatar avatar-30 coverimg rounded-circle vm">
+								<img src="/shared/img/US_Probation_Idaho_Seal_Float.png" alt="" />
+							</figure>
+							<div class="nav-text">Probation</div>
+						</span>
+					</a>
+				</li>
+				
+
+	
+	
+			</ul>
+		</div>
+	</footer>
+	<!-- footer sticky bottom ends -->
+
+    <!-- Required jquery and libraries -->
+   
+    <script src="/shared/js/popper.min.js"></script>
+    <script src="/shared/plugins/bootstrap-5/dist/js/bootstrap.bundle.js"></script>
+
+    <!-- Customized jquery file  -->
+    <script src="/shared/js/main.js"></script>
+    <script src="/shared/js/color-scheme.js"></script>
+	
+	
+	<script type="text/javascript" src="/shared/plugins/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="/shared/plugins/fancybox/jquery.fancybox-2.1.5.pack.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="/shared/plugins/fancybox/jquery.fancybox-2.1.5.css?v=2.1.5" media="screen" />
+	
+ 	<link rel="stylesheet" href="/shared/plugins/fancybox/helpers/jquery.fancybox-1.0.5-buttons.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/shared/plugins/fancybox/helpers/jquery.fancybox-1.0.5-buttons.js?v=2.1.5"></script>
+	<script type="text/javascript" src="/shared/plugins/fancybox/helpers/jquery.fancybox-1.0.6-media.js?v=1.0.0"></script>
+	
+	
+
+    <!-- PWA app service registration and works -->
+    
+
+    <!-- date range picker -->
+    <script src="/shared/plugins/momentjs/moment.min.js"></script>
+    <script src="/shared/plugins/daterangepicker/daterangepicker.js"></script>
+
+    <!-- chosen script -->
+    <script src="/shared/plugins/chosen_v1.8.7/chosen.jquery.min.js"></script>
+
+    <!-- Chart js script -->
+    <script src="/shared/plugins/chart-js-3.3.1/chart.min.js"></script>
+
+    <!-- Progress circle js script -->
+    <script src="/shared/plugins/progressbar-js/progressbar.min.js"></script>
+
+    <!-- swiper js script -->
+    <script src="/shared/plugins/swiper-7.3.1/swiper-bundle.min.js"></script>
+
+    <!-- Simple lightbox script -->
+    <script src="/shared/plugins/simplelightbox/simple-lightbox.jquery.min.js"></script>
+
+    <!-- app tour script-->
+    
+
+    <!-- page level script here -->
+    <script src="/shared/js/header-title.js"></script>
+    
+	
+	<!-- jQuery Validation script -->
+    <script src="/shared/plugins/jquery-validation/jquery.validate.min.js"></script>
+	
+	<!-- Customized Court file  -->
+    <script src="/shared/js/court.js"></script>
+    
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden-"true">
+	<div class="modal-dialog modal-lg modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Modal title</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+					
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</body>
+
+</html> 

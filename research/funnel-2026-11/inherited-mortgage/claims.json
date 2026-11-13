@@ -1,0 +1,544 @@
+{
+  "claims": [
+    {
+      "id": "im-garn-due-on-sale-clause-defined",
+      "claim": "12 U.S.C. 1701j-3(a)(1) defines a due-on-sale clause as a contract provision that authorizes a lender, at its option, to declare the sums secured by its security instrument due and payable if all or any part of the property, or an interest in it, is sold or transferred without the lender's prior written consent.",
+      "quotedLanguage": "the term \"due-on-sale clause\" means a contract provision which authorizes a lender, at its option, to declare due and payable sums secured by the lender's security instrument if all or any part of the property, or an interest therein, securing the real property loan is sold or transferred without the lender's prior written consent;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "usc-12-1701j-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Definition only. Whether a particular loan contains such a clause depends on the loan documents; never say a reader's loan has one."
+    },
+    {
+      "id": "im-garn-due-on-sale-enforceable-by-contract",
+      "claim": "Under 12 U.S.C. 1701j-3(b), a lender may enter into or enforce a contract containing a due-on-sale clause despite contrary state law, and, except as subsection (d) provides, the exercise of that option is governed exclusively by the terms of the loan contract.",
+      "quotedLanguage": "a lender may, subject to subsection (c), enter into or enforce a contract containing a due-on-sale clause with respect to a real property loan. ... Except as otherwise provided in subsection (d), the exercise by the lender of its option pursuant to such a clause shall be exclusively governed by the terms of the loan contract, and all rights and remedies of the lender and the borrower shall be fixed and governed by the contract.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "usc-12-1701j-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The general rule that the subsection (d) exemptions cut into. Subsection (c) (the 1982 window-period loans) was read and is not described on the page. Must be stated with im-garn-exempt-transfers-on-death."
+    },
+    {
+      "id": "im-garn-exempt-transfers-on-death",
+      "claim": "Under 12 U.S.C. 1701j-3(d), for a real property loan secured by a lien on residential real property containing less than five dwelling units, a lender may not exercise its option under a due-on-sale clause upon a transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety, upon a transfer to a relative resulting from the death of a borrower, or upon a transfer where the spouse or children of the borrower become an owner of the property.",
+      "quotedLanguage": "With respect to a real property loan secured by a lien on residential real property containing less than five dwelling units, including a lien on the stock allocated to a dwelling unit in a cooperative housing corporation, or on a residential manufactured home, a lender may not exercise its option pursuant to a due-on-sale clause upon ... (3) a transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety; ... (5) a transfer to a relative resulting from the death of a borrower; ... (6) a transfer where the spouse or children of the borrower become an owner of the property;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "usc-12-1701j-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAPS. (1) The section does not define 'relative'. Do not say who qualifies; an heir who is not a relative, an LLC or a non-family devisee is a question for an attorney. (2) 'less than five dwelling units': quote it, do not round it to 'homes'. (3) The exemption stops the lender from calling the loan due BECAUSE OF THE TRANSFER. It says nothing about missed payments; the loan can still be foreclosed for default. Never write that the lender 'cannot foreclose' on an inherited house. (4) It does not make the heir the borrower, and it does not require the lender to approve an assumption. (5) Paragraphs (1), (2), (4), (7), (8) and (9) of subsection (d) are other exemptions not used on the page. (6) Subsection (e)(2) lets regulations permit exercise of the clause for loans tied to 'the right to receive future income' (reverse-mortgage type agreements); the page is about ordinary mortgages only."
+    },
+    {
+      "id": "im-garn-assumption-encouraged-not-required",
+      "claim": "12 U.S.C. 1701j-3(b)(3) says that, in exercising its option under a due-on-sale clause, a lender is encouraged to permit an assumption of the loan at the existing contract rate or at a rate at or below the average between the contract and market rates, and that nothing in the section prohibits such an assumption.",
+      "quotedLanguage": "In the exercise of its option under a due-on-sale clause, a lender is encouraged to permit an assumption of a real property loan at the existing contract rate or at a rate which is at or below the average between the contract and market rates, and nothing in this section shall be interpreted to prohibit any such assumption.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "usc-12-1701j-3"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'Encouraged' is not 'required'. The statute gives no right to assume a loan. MEDIUM because the sentence sits in the general rule about a lender exercising the clause, not in the death-transfer exemption; the page must present it only as encouragement and must not say a lender has to allow an assumption or keep the rate."
+    },
+    {
+      "id": "im-regx-successor-in-interest-defined",
+      "claim": "Regulation X, 12 CFR 1024.31, defines a successor in interest as a person to whom an ownership interest in a property securing a covered mortgage loan is transferred from a borrower, where the transfer is one of five listed kinds, including a transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety, a transfer to a relative resulting from the death of a borrower, and a transfer where the spouse or children of the borrower become an owner of the property.",
+      "quotedLanguage": "Successor in interest means a person to whom an ownership interest in a property securing a mortgage loan subject to this subpart is transferred from a borrower, provided that the transfer is: ... A transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety; ... A transfer to a relative resulting from the death of a borrower; ... A transfer where the spouse or children of the borrower become an owner of the property;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-31"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The list mirrors five of the due-on-sale exemptions in 12 U.S.C. 1701j-3(d). The other two listed transfers (divorce decree, inter vivos trust) are not used on the page. 'Mortgage loan subject to this subpart' means a federally related mortgage loan and excludes open-end home equity lines (same section); the page does not describe HELOCs. TRAP: Idaho Code 45-1506 also uses the words 'successor in interest' for a different purpose; do not treat the two as one definition."
+    },
+    {
+      "id": "im-regx-confirmed-successor-defined",
+      "claim": "12 CFR 1024.31 defines a confirmed successor in interest as a successor in interest once a servicer has confirmed that person's identity and ownership interest in a property that secures a covered mortgage loan.",
+      "quotedLanguage": "Confirmed successor in interest means a successor in interest once a servicer has confirmed the successor in interest's identity and ownership interest in a property that secures a mortgage loan subject to this subpart.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-31"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Confirmation is the servicer's act. The regulation sets no number of days for it (see im-regx-servicer-policies-after-death: 'promptly')."
+    },
+    {
+      "id": "im-regx-confirmed-successor-treated-as-borrower",
+      "claim": "Under 12 CFR 1024.30(d), a confirmed successor in interest is considered a borrower for purposes of 12 CFR 1024.17 and the mortgage servicing subpart of Regulation X.",
+      "quotedLanguage": "Successors in interest. A confirmed successor in interest shall be considered a borrower for purposes of § 1024.17 and this subpart.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-30"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: 'borrower' here is a status under the federal servicing rules (information, notices, error resolution, loss mitigation procedures). It does not make the person liable on the note: see im-regx-successor-not-liable-unless-assumes. State with af-regx-scope: small servicers are outside 1024.38 through 1024.41, and 1024.39 through 1024.41 reach only a loan secured by the borrower's principal residence. 1024.17 (escrow accounts) was not read."
+    },
+    {
+      "id": "im-regx-potential-successor-written-request",
+      "claim": "Under 12 CFR 1024.36(i)(1), when a person sends a written request indicating that the person may be a successor in interest, with the name of the borrower from whom the person received an ownership interest and information identifying the loan account, the servicer must respond with a written description of the documents it reasonably requires to confirm the person's identity and ownership interest in the property, and with contact information, including a telephone number, for further assistance.",
+      "quotedLanguage": "With respect to any written request from a person that indicates that the person may be a successor in interest and that includes the name of the transferor borrower from whom the person received an ownership interest and information that enables the servicer to identify the mortgage loan account, a servicer shall respond by providing the potential successor in interest with a written description of the documents the servicer reasonably requires to confirm the person's identity and ownership interest in the property and contact information, including a telephone number, for further assistance.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-36"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The request must be WRITTEN. Paragraph (i)(4): if the servicer has established an address for information requests, it need only comply for requests received at that address. Paragraph (i)(1) applies paragraphs (c) through (g) (acknowledgment and response time limits) to the request; those paragraphs are in the cached page but were NOT turned into claims, so the page gives no day count for the servicer's reply."
+    },
+    {
+      "id": "im-regx-before-confirmation-limited-information",
+      "claim": "Under 12 CFR 1024.36(i)(3), before confirmation a servicer responding to such a request is not required to provide any information other than the description of required documents and contact information, and if the request asks for other information the servicer must indicate that the potential successor in interest may resubmit the request once confirmed.",
+      "quotedLanguage": "In responding to a request under paragraph (i)(1) of this section prior to confirmation, the servicer is not required to provide any information other than the information specified in paragraphs (i)(1) and (2) of this section. In responding to a written request under paragraph (i)(1) that requests other information, the servicer must indicate that the potential successor in interest may resubmit any request for information once confirmed as a successor in interest.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-36"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "This is why an heir may be refused balance or payment history until ownership is documented. Do not describe this as the servicer acting wrongly."
+    },
+    {
+      "id": "im-regx-servicer-policies-after-death",
+      "claim": "12 CFR 1024.38(b)(1)(vi) requires a servicer's policies and procedures to be reasonably designed to ensure that, on notice of a borrower's death, it can promptly facilitate communication with potential or confirmed successors in interest; on notice of a potential successor, promptly determine and describe the documents it reasonably requires to confirm identity and ownership interest; and on receipt of those documents, promptly make a confirmation determination and notify the person that it has confirmed the person's status, needs additional documents, or has determined the person is not a successor in interest.",
+      "quotedLanguage": "Upon receiving notice of the death of a borrower or of any transfer of the property securing a mortgage loan, promptly facilitate communication with any potential or confirmed successors in interest regarding the property; ... Upon receiving notice of the existence of a potential successor in interest, promptly determine the documents the servicer reasonably requires to confirm that person's identity and ownership interest in the property and promptly provide to the potential successor in interest a description of those documents and how the person may submit a written request under § 1024.36(i) (including the appropriate address); and ... Upon the receipt of such documents, promptly make a confirmation determination and promptly notify the person, as applicable, that the servicer has confirmed the person's status, has determined that additional documents are required (and what those documents are), or has determined that the person is not a successor in interest.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-38"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAPS. (1) This is a policies-and-procedures objective ('reasonably designed to ensure that the servicer can'), not a per-loan deadline; the word is 'promptly' and there is no day count. (2) Under 1024.30(b) small servicers, reverse mortgages and certain qualified lenders are outside 1024.38 (existing claim af-regx-scope); always carry that limit. (3) Whether a private person can sue over 1024.38 was not researched; say nothing about remedies."
+    },
+    {
+      "id": "im-regx-successor-not-liable-unless-assumes",
+      "claim": "12 CFR 1024.32(c)(1) lets a servicer send a confirmed successor in interest who is not liable on the loan a written notice, which must explain that unless the successor assumes the mortgage loan obligation under State law, the successor is not liable for the mortgage debt and cannot be required to use the successor's assets to pay it, except that the lender has a security interest in the property and a right to foreclose on the property when permitted by law and authorized under the mortgage loan contract.",
+      "quotedLanguage": "Unless the successor in interest assumes the mortgage loan obligation under State law, the successor in interest is not liable for the mortgage debt and cannot be required to use the successor in interest's assets to pay the mortgage debt, except that the lender has a security interest in the property and a right to foreclose on the property, when permitted by law and authorized under the mortgage loan contract;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-32"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAPS. (1) The quoted words are the required CONTENT OF AN OPTIONAL NOTICE ('a servicer may provide'), addressed to a successor 'who is not liable on the mortgage loan obligation'. They are not a freestanding rule that no heir is ever liable. A co-borrower, a co-signer, a surviving spouse who signed the note, or someone who assumes the loan is in a different position, and Idaho community-property and estate-claims rules were NOT researched. Attribute and point to an attorney. (2) Always carry the second half: the lender keeps its lien and its right to foreclose. (3) What counts as assuming a loan 'under State law' in Idaho was not researched."
+    },
+    {
+      "id": "im-regx-successor-notice-acknowledgment-form",
+      "claim": "Under 12 CFR 1024.32(c), the optional notice comes with an acknowledgment form; the notice must say there is no time limit to return it but that the servicer will not begin sending certain notices and communications until it is returned, and a servicer that sent the notice need not provide specified written disclosures to the confirmed successor until the successor either assumes the loan under State law or returns the acknowledgment.",
+      "quotedLanguage": "Informs the successor in interest that there is no time limit to return the acknowledgment but that the servicer will not begin sending such notices and communications to the confirmed successor in interest until the acknowledgment is returned; ... until the confirmed successor in interest either assumes the mortgage loan obligation under State law or executes an acknowledgment that complies with paragraph (c)(1)(iv) of this section and provides it to the servicer.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-32"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The acknowledgment form states that the notices 'do not make the successor in interest liable for the mortgage debt' (paragraph (c)(1)(iv)(B), read, not separately claimed). Under (c)(4) a servicer also need not send a confirmed successor disclosures it is already sending to another borrower on the account. Do not tell a reader to sign or not sign anything."
+    },
+    {
+      "id": "im-regx-successor-may-request-payoff-and-information",
+      "claim": "Under 12 CFR 1024.32(c)(1)(v), the notice must also explain that whether or not the successor in interest signs the acknowledgment, the successor is entitled to submit notices of error under 12 CFR 1024.35, requests for information under 12 CFR 1024.36, and requests for a payoff statement under 12 CFR 1026.36 for the mortgage loan account.",
+      "quotedLanguage": "Whether or not the successor in interest executes the acknowledgment described in paragraph (c)(1)(iv) of this section, the successor in interest is entitled to submit notices of error under § 1024.35, requests for information under § 1024.36, and requests for a payoff statement under § 1026.36 with respect to the mortgage loan account, with a brief explanation of those rights and how to exercise them, including appropriate address information.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance",
+        "closing"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-32"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Applies to a CONFIRMED successor in interest (the notice is sent 'upon confirmation'). 12 CFR 1026.36(c)(3) and 1026.2(a)(11) (Regulation Z) were not read for this page; give no day count for a payoff statement. Pair with existing af-cfpb-payoff-amount for what a payoff amount is."
+    },
+    {
+      "id": "im-cfpb-inherited-home-contact-servicer-proof",
+      "claim": "The CFPB says a person who has inherited a home should inform the loan servicer, and that to receive certain information about the mortgage account the person may need to show the servicer proof of their right to the home, which after a death might include a copy of the executed will and the death certificate or a letter from the executor of the estate; the servicer should say what proof it needs, and the proof available may vary from state to state. The page describes the mortgage servicer as the company that sends the monthly mortgage statement, responds to borrower inquiries and keeps track of principal and interest paid.",
+      "quotedLanguage": "To receive certain information about the mortgage account, you may need to show the mortgage servicer proof of your right to the home. In the case of inheritance from someone who has died, that proof might include a copy of the executed will and the death certificate or a letter from the executor of the deceased person's estate. The mortgage servicer should tell you what kind of proof it needs. The proof that you can get may vary from state to state. ... The mortgage servicer is the company that sends the monthly mortgage statement, responds to borrower inquiries and keeps track of principal and interest paid.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "cfpb-inherited-home-mortgage-information"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Consumer guidance, 'last reviewed' Sep 11, 2024. The CFPB's examples ('might include') are not a list of what an Idaho servicer will accept. Idaho calls the executor a personal representative (existing claim pb-letters-required); the CFPB's word is 'executor'."
+    },
+    {
+      "id": "im-cfpb-inherited-home-ask-about-payments-and-help",
+      "claim": "The CFPB suggests asking the servicer about rights and obligations with respect to the house and the mortgage, for example how to continue making payments on the loan or how to seek a loan modification, and says the person may also want to consult an attorney or a housing counselor, and may need an attorney if facing imminent foreclosure or served with legal papers.",
+      "quotedLanguage": "You also may want to ask the servicer for further information about your rights and obligations with respect to the house and the mortgage. For example, you might ask the servicer how you can continue making payments on the loan or how you can seek a loan modification. ... If you're facing imminent foreclosure or have been served with legal papers, you may also need to consult an attorney",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance",
+        "housing-counseling"
+      ],
+      "sourceIds": [
+        "cfpb-inherited-home-mortgage-information"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Guidance, not a rule. A modification is something to ask about, never something promised."
+    },
+    {
+      "id": "im-cfpb-spotlight-act-quickly-on-payments",
+      "claim": "In a December 2024 issue spotlight, the CFPB wrote that people who become homeowners after the death of a spouse or family member, where there is a mortgage on the home, must act quickly to make mortgage payments in order to avoid foreclosure, and that the homeowner may in some circumstances wish to assume liability for the mortgage.",
+      "quotedLanguage": "If there is a mortgage on the home, these homeowners must act quickly to make mortgage payments in order to avoid foreclosure. And the homeowner may in some circumstances wish to assume liability for the mortgage.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-issue-spotlight-successor-homeowners"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "A CFPB research publication dated DEC 17, 2024, not a regulation. MEDIUM: it is an agency report from a prior CFPB leadership period and could be withdrawn or archived; re-open the URL before each refresh. Used as the attributed basis for 'payments still fall due'. Do not turn 'must act quickly' into a deadline."
+    },
+    {
+      "id": "im-cfpb-spotlight-refinance-pressure-reports",
+      "claim": "The same CFPB spotlight says federal rules and mortgage program guidelines require servicers to help successor homeowners get the information they need to manage the existing mortgage and, if the homeowner chooses, to assume the existing loan terms, and reports that homeowners describe being incorrectly told that they must refinance the loan at higher interest rates rather than being offered options for managing the existing mortgage.",
+      "quotedLanguage": "Federal rules and mortgage program guidelines require servicers to help these successor homeowners get the information they need to manage the existing mortgage and, if the homeowner chooses, to assume the existing loan terms. ... Homeowners report being incorrectly told that they must refinance the loan at today's higher interest rates, rather than being offered options for managing the existing mortgage.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "cfpb-issue-spotlight-successor-homeowners"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAPS. (1) The second sentence reports COMPLAINTS ('Homeowners report'); it is not a finding against any servicer and not a statement that refinancing is never required. (2) 'mortgage program guidelines' refers to investor and federal program rules (Fannie Mae, Freddie Mac, FHA, VA, USDA) that were NOT read; whether a given loan is assumable depends on the loan and its investor. Do not write that an heir has a right to assume. (3) 'today's higher interest rates' is a December 2024 statement; do not repeat it as a current fact about rates."
+    },
+    {
+      "id": "im-cfpb-2014-successor-not-personally-liable-may-assume",
+      "claim": "In a 2014 interpretive rule published in the Federal Register, the CFPB described a successor as a person who receives legal interest in a property, typically by a transfer from a family member, by operation of law upon another's death, or under a divorce decree or separation agreement, and stated that where the successor acquires property that is subject to a mortgage, the successor is not personally liable for the associated debt but may choose to assume the debt.",
+      "quotedLanguage": "A successor is a person who receives legal interest in a property, typically by a transfer from a family member, by operation of law upon another's death, or under a divorce decree or separation agreement. ... In all of these situations, where the successor acquires property that is subject to a mortgage, the successor is not personally liable for the associated debt, but may choose to assume the debt.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "fr-2014-16780-atr-successors"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "79 FR 41631 (July 17, 2014), document 2014-16780. The sentence is the Bureau's background description in an interpretive rule about Regulation Z, not a holding about Idaho law. Same caveats as im-regx-successor-not-liable-unless-assumes: a person who also signed the note, and Idaho community-property or estate-claims questions, are outside it. MEDIUM because the document is from 2014 and its current status in Regulation Z's official interpretations was not checked."
+    },
+    {
+      "id": "im-cfpb-2014-adding-successor-not-subject-to-atr",
+      "claim": "The CFPB's 2014 interpretive rule states that where a successor who has previously acquired title to a dwelling agrees to be added as obligor or substituted for the existing obligor on the loan secured by that dwelling, and that addition or substitution is not an 'assumption' as Regulation Z defines the term, it is not subject to the Ability-to-Repay Rule's requirements; it adds that even where a due-on-sale clause may be exercised, creditors may agree to add the successor as a named obligor under the loan contract.",
+      "quotedLanguage": "The Bureau has been asked whether the creditor is obligated under the ATR Rule to determine the successor's ability to repay the mortgage before formally adding the successor as an obligor. ... such addition or substitution is not subject to the ATR Rule's requirements. A creditor may rely on this interpretation as a safe harbor under section 130(f) of TILA. ... Even where a due-on-sale clause may be exercised, however, creditors may agree to add the successor as a named obligor under the loan contract.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "inheritance"
+      ],
+      "sourceIds": [
+        "fr-2014-16780-atr-successors"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAPS. (1) This removes a FEDERAL requirement (the ability-to-repay determination) from that step. It does not stop a creditor or investor from applying its own underwriting, and it does not oblige a creditor to add anyone: the text says creditors 'may agree'. (2) Issued 2014 ('effective July 17, 2014 and applicable beginning July 8, 2014'). The Bureau said it planned to move the interpretation into Regulation Z's official interpretations; whether and how that was done, and whether it has changed since, was NOT checked. The page dates the statement to 2014. (3) The rule distinguishes a consumer WITHOUT an existing interest who takes over a loan to buy a home: that is an assumption and is subject to ability-to-repay. A buyer taking over an heir's loan is in that second group."
+    },
+    {
+      "id": "im-idaho-specific-devise-passes-subject-to-lien",
+      "claim": "Idaho Code 15-2-609 provides that a specific devise passes subject to any security interest existing at the date of death, without right of exoneration, regardless of a general directive in the will to pay debts.",
+      "quotedLanguage": "A specific devise passes subject to any security interest existing at the date of death, without right of exoneration, regardless of a general directive in the will to pay debts.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "inheritance",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-15-2-609"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-2-609, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAPS. (1) The section speaks of a SPECIFIC DEVISE (a gift of particular property by will). It does not address a house passing by intestacy, a residuary gift, a will that specifically directs the mortgage to be paid, community property, or property passing outside probate. Do not generalise it to 'heirs always take the house with the mortgage'. (2) 'Specific devise' and 'security interest' are not defined in this section; definitions elsewhere in Title 15 were not read. (3) Explain 'exoneration' only as the statute uses it: the devise passes subject to the security interest even if the will has a general direction to pay debts. Future-dated check: an existing registry note (pb-letters-required, 2026-11-12) records that the 2026 session's one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), replaces chapter 5 and amends 15-1-201 only; this section is not among them. That note was relied on, not re-run. The section page showed no effective-date banner on 2026-11-13."
+    },
+    {
+      "id": "im-idaho-pr-may-pay-or-convey-encumbered-asset",
+      "claim": "Under Idaho Code 15-3-814, if any assets of an estate are encumbered by a mortgage, pledge, lien or other security interest, the personal representative may pay the encumbrance or any part of it, renew or extend the secured obligation, or convey or transfer the assets to the creditor in satisfaction of the lien, in whole or in part, whether or not the holder has presented a claim, if it appears to be for the best interest of the estate; payment of an encumbrance does not increase the share of the distributee entitled to the encumbered assets unless the distributee is entitled to exoneration.",
+      "quotedLanguage": "If any assets of the estate are encumbered by mortgage, pledge, lien, or other security interest, the personal representative may pay the encumbrance or any part thereof, renew or extend any obligation secured by the encumbrance or convey or transfer the assets to the creditor in satisfaction of his lien, in whole or in part, whether or not the holder of the encumbrance has presented a claim, if it appears to be for the best interest of the estate. Payment of an encumbrance does not increase the share of the distributee entitled to the encumbered assets unless the distributee is entitled to exoneration.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "inheritance",
+        "liens",
+        "creditor-claims"
+      ],
+      "sourceIds": [
+        "idcode-15-3-814"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-814, as added by 1971, ch. 111, sec. 1, p. 233; am. 1978, ch. 350, sec. 13, p. 922.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Permissive ('may') and conditioned on 'the best interest of the estate'. It is a power of an APPOINTED personal representative (existing claim pb-letters-required), not of an heir acting alone. It does not say the estate MUST keep the mortgage current. A transfer to the creditor needs the creditor to accept it; the section does not oblige a lender to take the property. State with existing id-pr-powers-limited-by-will where the page talks about a personal representative's powers generally. Future-dated check: an existing registry note (pb-letters-required, 2026-11-12) records that the 2026 session's one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), replaces chapter 5 and amends 15-1-201 only; this section is not among them. That note was relied on, not re-run. The section page showed no effective-date banner on 2026-11-13."
+    },
+    {
+      "id": "im-idaho-liens-enforceable-against-estate-property",
+      "claim": "Idaho Code 15-3-812 bars execution or levy against estate property under a judgment against a decedent or a personal representative, and states that the section shall not be construed to prevent the enforcement of mortgages, pledges or liens upon real or personal property in an appropriate proceeding.",
+      "quotedLanguage": "No execution may issue upon nor may any levy be made against any property of the estate under any judgment against a decedent or a personal representative, but this section shall not be construed to prevent the enforcement of mortgages, pledges or liens upon real or personal property in an appropriate proceeding.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "foreclosure",
+        "liens",
+        "creditor-claims"
+      ],
+      "sourceIds": [
+        "idcode-15-3-812"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-812, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The statute says 'mortgages, pledges or liens'; it does not use the words 'deed of trust' or 'trustee's sale'. The page says only that the probate code does not prevent a lien on estate property from being enforced; what counts as 'an appropriate proceeding' is for an attorney. Future-dated check: an existing registry note (pb-letters-required, 2026-11-12) records that the 2026 session's one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), replaces chapter 5 and amends 15-1-201 only; this section is not among them. That note was relied on, not re-run. The section page showed no effective-date banner on 2026-11-13."
+    },
+    {
+      "id": "im-idaho-claims-procedure-excludes-secured-creditor-security",
+      "claim": "Idaho Code 15-3-104 provides that no proceeding to enforce a claim against a decedent's estate may be commenced before a personal representative is appointed, and that the section has no application to a proceeding by a secured creditor of the decedent to enforce the creditor's right to the security, except as to any deficiency judgment that might be sought in it.",
+      "quotedLanguage": "No proceeding to enforce a claim against the estate of a decedent or his successors may be revived or commenced before the appointment of a personal representative. ... This section has no application to a proceeding by a secured creditor of the decedent to enforce his right to his security except as to any deficiency judgment which might be sought therein.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "foreclosure",
+        "creditor-claims"
+      ],
+      "sourceIds": [
+        "idcode-15-3-104"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-3-104, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: describe, do not apply. The page says the statute separates a secured creditor's enforcement against its security from the estate-claims procedure, with deficiency judgments excepted. It must NOT say 'the lender can foreclose before probate is opened' as advice, and must not say whether an estate or heir owes a deficiency. Creditor-claim deadlines (15-3-803, existing claim pb-claims-barred-three-years) were not re-read for their effect on secured lenders. Future-dated check: an existing registry note (pb-letters-required, 2026-11-12) records that the 2026 session's one PROBATE bill, S1240 (Ch. 79, effective 01/01/2027), replaces chapter 5 and amends 15-1-201 only; this section is not among them. That note was relied on, not re-run. The section page showed no effective-date banner on 2026-11-13."
+    }
+  ]
+}

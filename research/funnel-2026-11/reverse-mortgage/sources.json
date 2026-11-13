@@ -1,0 +1,317 @@
+{
+  "sources": [
+    {
+      "id": "ecfr-24-cfr-206-27",
+      "title": "24 CFR § 206.27 — Mortgage provisions (Home Equity Conversion Mortgage Insurance)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-B/subject-group-ECFR2c6b21dfeb00cb4/section-206.27",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-24?part=206&section=206.27",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "reverse-mortgage",
+        "lending",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017-09-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of HUD's HECM regulations (24 CFR part 206), retrieved through the eCFR renderer API and cached. Paragraphs (b)(8) and (c) used. Versioner lists amendments dated 2016-12-16 and 2017-09-19; part source note '82 FR 7117, Jan. 19, 2017'. eCFR versioner API checked 2026-11-13: no version of this section dated after today is listed. Part 206 covers FHA-insured HECMs only, not proprietary or single-purpose reverse mortgages. The regulation repeatedly defers to amounts and procedures the Commissioner sets 'through notice' (Mortgagee Letters, Federal Register notices); those notices were NOT read.",
+      "stalenessRisk": "MEDIUM — federal regulation whose working details (minimum sale amount, extensions, incentives) are set by HUD notice; re-check eCFR and HUD Mortgagee Letters before relying on any day count or percentage.",
+      "claimsSupported": [
+        "rv-hecm-due-when-last-borrower-dies",
+        "rv-hecm-no-personal-liability-no-deficiency"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-24-cfr-206-55",
+      "title": "24 CFR § 206.55 — Deferral of due and payable status for Eligible Non-Borrowing Spouses (Home Equity Conversion Mortgage Insurance)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-B/subject-group-ECFR4e14d7dc08e86a6/section-206.55",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-24?part=206&section=206.55",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "reverse-mortgage",
+        "lending",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017-09-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of HUD's HECM regulations (24 CFR part 206), retrieved through the eCFR renderer API and cached. Read in full. Versioner lists one version dated 2017-09-19. The related cure section 206.57 was NOT read. eCFR versioner API checked 2026-11-13: no version of this section dated after today is listed. Part 206 covers FHA-insured HECMs only, not proprietary or single-purpose reverse mortgages. The regulation repeatedly defers to amounts and procedures the Commissioner sets 'through notice' (Mortgagee Letters, Federal Register notices); those notices were NOT read.",
+      "stalenessRisk": "MEDIUM — federal regulation whose working details (minimum sale amount, extensions, incentives) are set by HUD notice; re-check eCFR and HUD Mortgagee Letters before relying on any day count or percentage.",
+      "claimsSupported": [
+        "rv-hecm-eligible-spouse-qualifying-attributes",
+        "rv-hecm-deferral-90-days-legal-right",
+        "rv-hecm-ineligible-spouse-due-immediately"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-24-cfr-206-3",
+      "title": "24 CFR § 206.3 — Definitions (Home Equity Conversion Mortgage Insurance)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-A/section-206.3",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-24?part=206&section=206.3",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "reverse-mortgage",
+        "lending",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023-03-31",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of HUD's HECM regulations (24 CFR part 206), retrieved through the eCFR renderer API and cached. Definitions of Borrower, Non-Borrowing Spouse, Eligible Non-Borrowing Spouse, Deferral Period and Principal residence read. Source note '82 FR 7117, Jan. 19, 2017, as amended at 88 FR 12828, Mar. 1, 2023'; versioner's latest version is dated 2023-03-31. eCFR versioner API checked 2026-11-13: no version of this section dated after today is listed. Part 206 covers FHA-insured HECMs only, not proprietary or single-purpose reverse mortgages. The regulation repeatedly defers to amounts and procedures the Commissioner sets 'through notice' (Mortgagee Letters, Federal Register notices); those notices were NOT read.",
+      "stalenessRisk": "MEDIUM — federal regulation whose working details (minimum sale amount, extensions, incentives) are set by HUD notice; re-check eCFR and HUD Mortgagee Letters before relying on any day count or percentage.",
+      "claimsSupported": [
+        "rv-hecm-borrower-definition",
+        "rv-hecm-deferral-period-definition"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-24-cfr-206-125",
+      "title": "24 CFR § 206.125 — Acquisition and sale of the property (Home Equity Conversion Mortgage Insurance)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.125",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-24?part=206&section=206.125",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "reverse-mortgage",
+        "lending",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017-09-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of HUD's HECM regulations (24 CFR part 206), retrieved through the eCFR renderer API and cached. Read in full, paragraphs (a) through (g). Versioner lists amendments dated 2016-12-16 and 2017-09-19. eCFR versioner API checked 2026-11-13: no version of this section dated after today is listed. Part 206 covers FHA-insured HECMs only, not proprietary or single-purpose reverse mortgages. The regulation repeatedly defers to amounts and procedures the Commissioner sets 'through notice' (Mortgagee Letters, Federal Register notices); those notices were NOT read.",
+      "stalenessRisk": "MEDIUM — federal regulation whose working details (minimum sale amount, extensions, incentives) are set by HUD notice; re-check eCFR and HUD Mortgagee Letters before relying on any day count or percentage.",
+      "claimsSupported": [
+        "rv-hecm-due-notice-30-days-to-act",
+        "rv-hecm-options-after-due-notice",
+        "rv-hecm-sale-floor-95-percent-appraised",
+        "rv-hecm-appraisal-within-30-days-of-request",
+        "rv-hecm-sale-by-party-with-legal-right",
+        "rv-hecm-foreclosure-within-six-months",
+        "rv-hecm-deed-in-lieu-nine-months"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-24-cfr-206-129",
+      "title": "24 CFR § 206.129 — Payment of claim (Home Equity Conversion Mortgage Insurance)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.129",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-24?part=206&section=206.129",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "reverse-mortgage",
+        "lending",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017-09-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of HUD's HECM regulations (24 CFR part 206), retrieved through the eCFR renderer API and cached. ONLY paragraph (d)(1), the definition of 'Due and payable date', is used; the rest of the section concerns FHA insurance claims by the mortgagee. Versioner lists amendment date 2017-09-19 with later issue dates through 2023-03-31. eCFR versioner API checked 2026-11-13: no version of this section dated after today is listed. Part 206 covers FHA-insured HECMs only, not proprietary or single-purpose reverse mortgages. The regulation repeatedly defers to amounts and procedures the Commissioner sets 'through notice' (Mortgagee Letters, Federal Register notices); those notices were NOT read.",
+      "stalenessRisk": "MEDIUM — federal regulation whose working details (minimum sale amount, extensions, incentives) are set by HUD notice; re-check eCFR and HUD Mortgagee Letters before relying on any day count or percentage.",
+      "claimsSupported": [
+        "rv-hecm-due-and-payable-date-definition"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-reverse-mortgage-heirs-keep-or-sell",
+      "title": "With a reverse mortgage loan, can my heirs keep or sell my home after I die? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/with-a-reverse-mortgage-loan-can-my-heirs-keep-or-sell-my-home-after-i-die-en-242/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "reverse-mortgage",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-28",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2026-08-28. The older URL ending what-happens-to-my-reverse-mortgage-when-i-die-en-242 redirects here. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law; it describes HECMs.",
+      "stalenessRisk": "MEDIUM — consumer summary of HUD rules that change by Mortgagee Letter; re-check the 'last reviewed' date and the text before each refresh.",
+      "claimsSupported": [
+        "rv-cfpb-heirs-30-days-up-to-six-months",
+        "rv-cfpb-heirs-keep-full-balance-sell-95-percent",
+        "rv-cfpb-sale-surplus-or-insurance-covers-rest"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-reverse-mortgage-when-i-die",
+      "title": "What happens to my reverse mortgage when I die? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-my-reverse-mortgage-when-i-die-en-2096/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "reverse-mortgage",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-01-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2025-01-02. OLDER than the en-242 page and differs from it on what heirs pay to KEEP the home (lesser of balance or 95 percent here; full balance there). The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law; it describes HECMs.",
+      "stalenessRisk": "MEDIUM — consumer summary of HUD rules that change by Mortgagee Letter; re-check the 'last reviewed' date and the text before each refresh.",
+      "claimsSupported": [
+        "rv-cfpb-heirs-lesser-of-balance-or-95-percent",
+        "rv-cfpb-coborrower-remains-in-home",
+        "rv-cfpb-nonborrowing-spouse-case-number-date"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-types-of-reverse-mortgages",
+      "title": "Are there different types of reverse mortgages? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/are-there-different-types-of-reverse-mortgages-en-226/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "reverse-mortgage",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2022-07-11",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2022-07-11. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law; it describes HECMs.",
+      "stalenessRisk": "MEDIUM — consumer summary of HUD rules that change by Mortgagee Letter; re-check the 'last reviewed' date and the text before each refresh.",
+      "claimsSupported": [
+        "rv-cfpb-three-types-of-reverse-mortgage"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-what-is-a-reverse-mortgage",
+      "title": "What is a reverse mortgage? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-reverse-mortgage-en-224/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "reverse-mortgage",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-28",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2026-08-28. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law; it describes HECMs.",
+      "stalenessRisk": "MEDIUM — consumer summary of HUD rules that change by Mortgagee Letter; re-check the 'last reviewed' date and the text before each refresh.",
+      "claimsSupported": [
+        "rv-cfpb-reverse-mortgage-how-it-works"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hud-hecm-home",
+      "title": "HUD FHA Reverse Mortgage for Seniors (HECM) — HUD.gov",
+      "publisher": "U.S. Department of Housing and Urban Development",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/hud-partners/single-family-hecmhome",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "reverse-mortgage",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency program page, raw HTML cached. The page carries NO visible publication or review date. Used only for HUD's statement that the HECM is the only federally insured reverse mortgage. It links to the fact sheet 'Inheriting a Home Secured by an FHA-insured Home Equity Conversion Mortgage'. The older URL /program_offices/housing/sfh/hecm/hecmhome returns an empty page shell.",
+      "stalenessRisk": "MEDIUM — undated page on a site that was restructured; re-check the URL before each refresh.",
+      "claimsSupported": [
+        "rv-hud-hecm-only-federally-insured"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hud-inheriting-hecm-fact-sheet",
+      "title": "Inheriting a Home Secured by an FHA-insured Home Equity Conversion Mortgage (fact sheet, 9/2019)",
+      "publisher": "U.S. Department of Housing and Urban Development — Federal Housing Administration",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/sites/dfiles/SFH/documents/inheriting_hecm_09-23-19.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "reverse-mortgage",
+        "inheritance",
+        "foreclosure"
+      ],
+      "publicationDate": "2019-09-23",
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "HUD/FHA one-page consumer fact sheet, PDF cached and extracted to committed text (data/idaho/raw/extracted/ab3aff18d36501fd.txt, pdftotext -layout). Footer reads '9/2019'; publicationDate is taken from the file name (09-23-19). Still linked from HUD's HECM page on 2026-11-13. It is a summary, not a rule: it counts the 30 days from the borrower's death where 24 CFR 206.125(a)(2) counts from the date of the notice, and its 'Know Your Options' sentence is garbled in the PDF. The two-column layout interleaves sidebar text in the extraction, so one quote is joined with ellipses.",
+      "stalenessRisk": "HIGH — seven-year-old summary of rules HUD adjusts by Mortgagee Letter; treat every figure as HUD's 2019 description and confirm with the servicer.",
+      "claimsSupported": [
+        "rv-hud-fact-sheet-sell-95-or-pay-in-full",
+        "rv-hud-fact-sheet-30-days-and-90-day-extensions",
+        "rv-hud-fact-sheet-taxes-insurance-estate"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

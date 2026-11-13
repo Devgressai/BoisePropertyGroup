@@ -1,0 +1,676 @@
+{
+ "claims": [
+  {
+   "id": "bk-362a-stay-scope",
+   "claim": "Under 11 U.S.C. 362(a), a bankruptcy petition operates as a stay, applicable to all entities, of (among other things) any act to obtain possession of property of the estate or to exercise control over it, any act to create, perfect, or enforce any lien against property of the estate, and any act to collect, assess, or recover a claim against the debtor that arose before the case began. The stay is subject to the exceptions in subsection (b).",
+   "quotedLanguage": "Except as provided in subsection (b) of this section, a petition filed under section 301, 302, or 303 of this title ... operates as a stay, applicable to all entities, of ... any act to obtain possession of property of the estate or of property from the estate or to exercise control over property of the estate; ... any act to create, perfect, or enforce any lien against property of the estate; ... any act to collect, assess, or recover a claim against the debtor that arose before the commencement of the case under this title;",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-362"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "362(a)(3), (4), (6). TRAP: subsection (a) does NOT contain the word 'foreclosure' or 'trustee's sale'. The statement that the stay stops a foreclosure comes from the U.S. Courts page (af-uscourts-chapter-13-foreclosure) and from Idaho Code 45-1506A, which names 11 U.S.C. 362. Never write 'section 362 says a foreclosure stops' as if quoted. The 28 exceptions in subsection (b) were skimmed, not claimed. 2024 Edition of the U.S. Code; re-check the newest edition."
+  },
+  {
+   "id": "bk-362c-stay-duration",
+   "claim": "Under 11 U.S.C. 362(c)(1) and (2), the stay of an act against property of the estate continues until the property is no longer property of the estate, and the stay of any other act continues until the earliest of the time the case is closed, the time the case is dismissed, or (in an individual's chapter 7 case, or a chapter 9, 11, 12 or 13 case) the time a discharge is granted or denied. Both are subject to subsections (d), (e), (f) and (h).",
+   "quotedLanguage": "the stay of an act against property of the estate under subsection (a) of this section continues until such property is no longer property of the estate; ... the stay of any other act under subsection (a) of this section continues until the earliest of ... the time the case is closed; ... the time the case is dismissed; or ... if the case is a case under chapter 7 of this title concerning an individual or a case under chapter 9, 11, 12, or 13 of this title, the time a discharge is granted or denied;",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-362"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "362(c)(1)-(2). Describe only. When a home stops being 'property of the estate' (abandonment, exemption, plan confirmation) is a legal question that was NOT researched; do not explain it."
+  },
+  {
+   "id": "bk-362c3-prior-case-thirty-days",
+   "claim": "Under 11 U.S.C. 362(c)(3), where an individual files a chapter 7, 11 or 13 case and a case of the same debtor was pending within the preceding 1-year period but was dismissed, the stay with respect to any action taken with respect to a debt or property securing such debt terminates with respect to the debtor on the 30th day after the later case is filed. The court may extend the stay on a motion, after notice and a hearing completed before the 30-day period expires, only if the moving party demonstrates that the later case was filed in good faith as to the creditors to be stayed.",
+   "quotedLanguage": "if a single or joint case is filed by or against a debtor who is an individual in a case under chapter 7, 11, or 13, and if a single or joint case of the debtor was pending within the preceding 1-year period but was dismissed, other than a case refiled under a chapter other than chapter 7 after dismissal under section 707(b) ... the stay under subsection (a) with respect to any action taken with respect to a debt or property securing such debt or with respect to any lease shall terminate with respect to the debtor on the 30th day after the filing of the later case; ... on the motion of a party in interest for continuation of the automatic stay and upon notice and a hearing, the court may extend the stay in particular cases as to any or all creditors (subject to such conditions or limitations as the court may then impose) after notice and a hearing completed before the expiration of the 30-day period only if the party in interest demonstrates that the filing of the later case is in good faith as to the creditors to be stayed;",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-362"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "362(c)(3)(A)-(B). TRAP: courts have disagreed about what 'with respect to the debtor' means (whether the stay also ends as to property of the estate). That case law was not read. Quote the statute's words and stop; never tell a reader what a second filing would do in their case. The exception for a case refiled after a 707(b) dismissal is in the quote and need not be explained."
+  },
+  {
+   "id": "bk-362c4-two-prior-cases-no-stay",
+   "claim": "Under 11 U.S.C. 362(c)(4), where an individual files a case and two or more cases of the same debtor were pending within the previous year but were dismissed, the stay does not go into effect when the later case is filed. Within 30 days after the filing a party in interest may ask the court to order the stay to take effect, and the court may do so, after notice and a hearing, only if that party demonstrates the later case was filed in good faith as to the creditors to be stayed.",
+   "quotedLanguage": "if a single or joint case is filed by or against a debtor who is an individual under this title, and if 2 or more single or joint cases of the debtor were pending within the previous year but were dismissed, other than a case refiled under a chapter other than chapter 7 after dismissal under section 707(b), the stay under subsection (a) shall not go into effect upon the filing of the later case; and ... if, within 30 days after the filing of the later case, a party in interest requests the court may order the stay to take effect in the case as to any or all creditors (subject to such conditions or limitations as the court may impose), after notice and a hearing, only if the party in interest demonstrates that the filing of the later case is in good faith as to the creditors to be stayed;",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-362"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "362(c)(4)(A)(i), (B). Must be stated with bk-362c3-prior-case-thirty-days. Describe only."
+  },
+  {
+   "id": "bk-362d-relief-from-stay",
+   "claim": "Under 11 U.S.C. 362(d), on request of a party in interest and after notice and a hearing, the court shall grant relief from the stay, such as by terminating, annulling, modifying, or conditioning it, (1) for cause, including the lack of adequate protection of that party's interest in property, or (2) with respect to a stay of an act against property, if the debtor does not have an equity in the property and the property is not necessary to an effective reorganization.",
+   "quotedLanguage": "On request of a party in interest and after notice and a hearing, the court shall grant relief from the stay provided under subsection (a) of this section, such as by terminating, annulling, modifying, or conditioning such stay ... for cause, including the lack of adequate protection of an interest in property of such party in interest; ... with respect to a stay of an act against property under subsection (a) of this section, if ... the debtor does not have an equity in such property; and ... such property is not necessary to an effective reorganization;",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-362"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "362(d)(1)-(2). The statute says 'party in interest'; it does not say 'lender'. The prose may say a creditor such as a mortgage lender can make the request (the U.S. Courts chapter 7 page speaks of 'creditors [who] sought relief from the bankruptcy court to recover property upon which they hold liens', quoted in bk-uscourts-180-day-bar). 'Adequate protection' is a term of art (11 U.S.C. 361, not read): do not define it. (d)(2) requires BOTH conditions."
+  },
+  {
+   "id": "bk-362d4-scheme-order-two-years",
+   "claim": "Under 11 U.S.C. 362(d)(4), the court shall grant relief from the stay of an act against real property to a creditor whose claim is secured by an interest in that real property if the court finds the filing of the petition was part of a scheme to delay, hinder, or defraud creditors that involved either a transfer of all or part ownership of the real property without the secured creditor's consent or court approval, or multiple bankruptcy filings affecting the real property. If recorded in compliance with applicable State laws, such an order is binding in any other bankruptcy case purporting to affect the real property filed not later than 2 years after the order is entered, subject to a later debtor's motion for relief based on changed circumstances or good cause.",
+   "quotedLanguage": "with respect to a stay of an act against real property under subsection (a), by a creditor whose claim is secured by an interest in such real property, if the court finds that the filing of the petition was part of a scheme to delay, hinder, or defraud creditors that involved either ... transfer of all or part ownership of, or other interest in, such real property without the consent of the secured creditor or court approval; or ... multiple bankruptcy filings affecting such real property. ... If recorded in compliance with applicable State laws governing notices of interests or liens in real property, an order entered under paragraph (4) shall be binding in any other case under this title purporting to affect such real property filed not later than 2 years after the date of the entry of such order by the court, except that a debtor in a subsequent case under this title may move for relief from such order based upon changed circumstances or for good cause shown, after notice and a hearing.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-362"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "362(d)(4). RELEVANT TO THE BUSINESS: a transfer of an interest in the house without the secured creditor's consent or court approval is one of the two named elements. Describe; never characterise any reader's filing as a 'scheme'."
+  },
+  {
+   "id": "bk-362e-thirty-and-sixty-days",
+   "claim": "Under 11 U.S.C. 362(e)(1), thirty days after a request for relief from the stay of an act against property of the estate, the stay is terminated with respect to the party making the request unless the court, after notice and a hearing, orders it continued pending or as a result of a final hearing. Under 362(e)(2), in a chapter 7, 11 or 13 case in which the debtor is an individual, the stay terminates 60 days after a request under subsection (d) unless the court renders a final decision within that 60-day period or the period is extended by agreement of all parties in interest or by the court for good cause.",
+   "quotedLanguage": "Thirty days after a request under subsection (d) of this section for relief from the stay of any act against property of the estate under subsection (a) of this section, such stay is terminated with respect to the party in interest making such request, unless the court, after notice and a hearing, orders such stay continued in effect pending the conclusion of, or as a result of, a final hearing and determination under subsection (d) of this section. ... Notwithstanding paragraph (1), in a case under chapter 7, 11, or 13 in which the debtor is an individual, the stay under subsection (a) shall terminate on the date that is 60 days after a request is made by a party in interest under subsection (d), unless ... a final decision is rendered by the court during the 60-day period beginning on the date of the request; or ... such 60-day period is extended ... by agreement of all parties in interest; or ... by the court for such specific period of time as the court finds is required for good cause, as described in findings made by the court.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-362"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "362(e)(1)-(2). These are deadlines on the COURT'S handling of a request, not a promise that a stay lasts 30 or 60 days. Never present either number as how long a filing 'buys'."
+  },
+  {
+   "id": "bk-uscourts-stay-described",
+   "claim": "The U.S. Courts describe the automatic stay this way: filing a chapter 7 petition automatically stays (stops) most collection actions against the debtor or the debtor's property; it does not stay certain actions listed in 11 U.S.C. 362(b); the stay may be effective only for a short time in some situations; and it arises by operation of law and requires no judicial action.",
+   "quotedLanguage": "Filing a petition under chapter 7 \"automatically stays\" (stops) most collection actions against the debtor or the debtor's property. 11 U.S.C. § 362. But filing the petition does not stay certain types of actions listed under 11 U.S.C. § 362(b), and the stay may be effective only for a short time in some situations. The stay arises by operation of law and requires no judicial action.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-7-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "Explanatory page of the federal judiciary, not the Code. The chapter 13 page carries nearly identical wording. 'Most', 'certain' and 'only for a short time' are the load-bearing qualifiers: keep all three."
+  },
+  {
+   "id": "bk-uscourts-chapter-7-liquidation",
+   "claim": "The U.S. Courts describe chapter 7 as liquidation: the sale of a debtor's nonexempt property and the distribution of the proceeds to creditors. A chapter 7 case does not involve a repayment plan as chapter 13 does; the bankruptcy trustee gathers and sells the debtor's nonexempt assets and uses the proceeds to pay creditors. Part of the debtor's property may be subject to liens and mortgages that pledge it to other creditors. The page warns that filing a chapter 7 petition may result in the loss of property.",
+   "quotedLanguage": "This chapter of the Bankruptcy Code provides for \"liquidation\" - the sale of a debtor's nonexempt property and the distribution of the proceeds to creditors. ... A chapter 7 bankruptcy case does not involve the filing of a plan of repayment as in chapter 13. Instead, the bankruptcy trustee gathers and sells the debtor's nonexempt assets and uses the proceeds of such assets to pay holders of claims (creditors) in accordance with the provisions of the Bankruptcy Code. Part of the debtor's property may be subject to liens and mortgages that pledge the property to other creditors. In addition, the Bankruptcy Code will allow the debtor to keep certain \"exempt\" property; but a trustee will liquidate the debtor's remaining assets. Accordingly, potential debtors should realize that the filing of a petition under chapter 7 may result in the loss of property.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-7-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "Explanatory page. Means test, fees and eligibility were not claimed. Never say which chapter a reader qualifies for."
+  },
+  {
+   "id": "bk-uscourts-chapter-7-trustee-sells-when",
+   "claim": "The U.S. Courts say the primary role of a chapter 7 trustee in an asset case is to liquidate the debtor's nonexempt assets in a manner that maximizes the return to unsecured creditors, and that the trustee does this by selling the debtor's property if it is free and clear of liens (as long as the property is not exempt) or if it is worth more than any security interest or lien attached to the property and any exemption the debtor holds in it. The page adds that if all the debtor's assets are exempt or subject to valid liens, the trustee will normally file a no asset report, and that most chapter 7 cases involving individual debtors are no asset cases.",
+   "quotedLanguage": "The primary role of a chapter 7 trustee in an asset case is to liquidate the debtor's nonexempt assets in a manner that maximizes the return to the debtor's unsecured creditors. The trustee accomplishes this by selling the debtor's property if it is free and clear of liens (as long as the property is not exempt) or if it is worth more than any security interest or lien attached to the property and any exemption that the debtor holds in the property. ... If all the debtor's assets are exempt or subject to valid liens, the trustee will normally file a \"no asset\" report with the court, and there will be no distribution to unsecured creditors. Most chapter 7 cases involving individual debtors are no asset cases.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-7-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "This is the passage that connects home equity, the mortgage and the homestead exemption. DO NOT do the arithmetic for a reader (value minus loan minus $175,000). Describe the U.S. Courts' sentence and stop."
+  },
+  {
+   "id": "bk-uscourts-estate-temporary-owner",
+   "claim": "The U.S. Courts say that commencement of a bankruptcy case creates an estate, that the estate technically becomes the temporary legal owner of all the debtor's property, and that it consists of all legal or equitable interests of the debtor in property as of the commencement of the case.",
+   "quotedLanguage": "Commencement of a bankruptcy case creates an \"estate.\" The estate technically becomes the temporary legal owner of all the debtor's property. It consists of all legal or equitable interests of the debtor in property as of the commencement of the case, including property owned or held by another person if the debtor has an interest in the property.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-7-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "From the chapter 7 page. 11 U.S.C. 541 (the statute behind it) was not read. Used to explain why a sale of the house during a case is not the owner's decision alone."
+  },
+  {
+   "id": "bk-uscourts-discharge-does-not-remove-lien",
+   "claim": "The U.S. Courts say that a bankruptcy discharge does not extinguish a lien on property, and that secured creditors may retain some rights to seize property securing an underlying debt even after a discharge is granted.",
+   "quotedLanguage": "Moreover, a bankruptcy discharge does not extinguish a lien on property. ... Secured creditors may retain some rights to seize property securing an underlying debt even after a discharge is granted.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-7-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "Two separate sentences on the chapter 7 page. The page does not use the word 'foreclose' here; the prose must not put it in the U.S. Courts' mouth. Say the lien survives, attributed, and stop."
+  },
+  {
+   "id": "bk-uscourts-180-day-bar",
+   "claim": "The U.S. Courts say an individual cannot file under chapter 7 or any other chapter if, during the preceding 180 days, a prior bankruptcy petition was dismissed due to the debtor's willful failure to appear before the court or comply with orders of the court, or the debtor voluntarily dismissed the previous case after creditors sought relief from the bankruptcy court to recover property upon which they hold liens.",
+   "quotedLanguage": "An individual cannot file under chapter 7 or any other chapter, however, if during the preceding 180 days a prior bankruptcy petition was dismissed due to the debtor's willful failure to appear before the court or comply with orders of the court, or the debtor voluntarily dismissed the previous case after creditors sought relief from the bankruptcy court to recover property upon which they hold liens.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-7-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "U.S. Courts' summary of 11 U.S.C. 109(g). The statute's own text of 109(g) is on the cached 109 page but only its opening line was read; the claim rests on the U.S. Courts wording."
+  },
+  {
+   "id": "bk-uscourts-chapter-13-described",
+   "claim": "The U.S. Courts describe chapter 13 as adjustment of debts of an individual with regular income, also called a wage earner's plan. It allows a debtor to keep property and pay debts over time, usually three to five years, under a repayment plan the debtor proposes. In no case may a plan provide for payments over a period longer than five years.",
+   "quotedLanguage": "Chapter 13 of the Bankruptcy Code provides for adjustment of debts of an individual with regular income. Chapter 13 allows a debtor to keep property and pay debts over time, usually three to five years. ... A chapter 13 bankruptcy is also called a wage earner's plan. It enables individuals with regular income to develop a plan to repay all or part of their debts. Under this chapter, debtors propose a repayment plan to make installments to creditors over three to five years. ... In no case may a plan provide for payments over a period longer than five years.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-13-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "Explanatory page. The debt limits for chapter 13 eligibility are deliberately NOT claimed: the U.S. Courts page and the 2024 Edition text of 11 U.S.C. 109(e) show different dollar figures (see NOTES.md)."
+  },
+  {
+   "id": "bk-uscourts-chapter-13-cure-over-time",
+   "claim": "The U.S. Courts say that by filing under chapter 13, individuals can stop foreclosure proceedings and may cure delinquent mortgage payments over time, but they must still make all mortgage payments that come due during the chapter 13 plan on time. The page also says payments to the home mortgage lender may be made over the original loan repayment schedule so long as any arrearage is made up during the plan, and that the debtor should consult an attorney to determine the proper treatment of secured claims in the plan.",
+   "quotedLanguage": "By filing under this chapter, individuals can stop foreclosure proceedings and may cure delinquent mortgage payments over time. Nevertheless, they must still make all mortgage payments that come due during the chapter 13 plan on time. ... Payments to certain secured creditors (i.e., the home mortgage lender), may be made over the original loan repayment schedule (which may be longer than the plan) so long as any arrearage is made up during the plan. The debtor should consult an attorney to determine the proper treatment of secured claims in the plan.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-13-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "Must be stated with af-uscourts-chapter-13-foreclosure (the home may still be lost if the sale was completed before filing or post-filing payments are missed). Both halves always: the cure AND the ongoing payments."
+  },
+  {
+   "id": "bk-uscourts-chapter-13-payments-and-failure",
+   "claim": "The U.S. Courts say a chapter 13 debtor must start making plan payments to the trustee within 30 days after filing the bankruptcy case, even if the plan has not yet been approved by the court; that if the debtor fails to make the payments due under the confirmed plan, the court may dismiss the case or convert it to a liquidation case under chapter 7; and that the debtor may not incur new debt without consulting the trustee.",
+   "quotedLanguage": "Within 30 days after filing the bankruptcy case, even if the plan has not yet been approved by the court, the debtor must start making plan payments to the trustee. ... if the debtor fails to make the payments due under the confirmed plan, the court may dismiss the case or convert it to a liquidation case under chapter 7 of the Bankruptcy Code. ... the debtor may not incur new debt without consulting the trustee, because additional debt may compromise the debtor's ability to complete the plan.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-13-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "Three sentences from different paragraphs of the chapter 13 page. The page does not say what happens to the automatic stay on dismissal; 362(c)(2)(B) (bk-362c-stay-duration) is the statutory text on that."
+  },
+  {
+   "id": "bk-1322-cure-until-foreclosure-sale",
+   "claim": "Under 11 U.S.C. 1322(b)(5), a chapter 13 plan may provide for the curing of any default within a reasonable time and maintenance of payments while the case is pending on a secured claim on which the last payment is due after the final plan payment is due. Under 1322(c)(1), a default with respect to a lien on the debtor's principal residence may be cured until the residence is sold at a foreclosure sale that is conducted in accordance with applicable nonbankruptcy law.",
+   "quotedLanguage": "provide for the curing of any default within a reasonable time and maintenance of payments while the case is pending on any unsecured claim or secured claim on which the last payment is due after the date on which the final payment under the plan is due; ... a default with respect to, or that gave rise to, a lien on the debtor's principal residence may be cured under paragraph (3) or (5) of subsection (b) until such residence is sold at a foreclosure sale that is conducted in accordance with applicable nonbankruptcy law;",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-1322"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "1322(b)(5) and (c)(1). TRAP: the statute says 'until such residence is sold at a foreclosure sale'. It does NOT say at what instant an Idaho trustee's sale counts as 'sold' (the bid, the payment, the delivery or the recording of the trustee's deed). That is a legal question for a bankruptcy attorney and must not be answered on the page. 'Applicable nonbankruptcy law' in Idaho is the trust deed chapter (45-1506, 45-1508)."
+  },
+  {
+   "id": "bk-363b-sale-after-notice-and-hearing",
+   "claim": "11 U.S.C. 363(b)(1) provides that the trustee, after notice and a hearing, may use, sell, or lease, other than in the ordinary course of business, property of the estate.",
+   "quotedLanguage": "The trustee, after notice and a hearing, may use, sell, or lease, other than in the ordinary course of business, property of the estate",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-363"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "363(b)(1), opening clause only (the rest concerns personally identifiable information). TRAPS: (1) 'after notice and a hearing' is defined in 11 U.S.C. 102(1), which was NOT read; do not paraphrase it as 'a court order is always required'. (2) The section speaks of 'property of the estate'; whether a given house is still property of the estate (after exemption, abandonment or plan confirmation) was not researched. (3) Sale free and clear of liens under 363(f) was not claimed. The page may say a sale of estate property happens inside the case with notice and a hearing, and must send the reader to their bankruptcy attorney and the trustee."
+  },
+  {
+   "id": "bk-1303-chapter-13-debtor-sale-powers",
+   "claim": "11 U.S.C. 1303 gives a chapter 13 debtor, exclusive of the trustee and subject to any limitations on a trustee under the chapter, the rights and powers of a trustee under section 363(b), among others. 11 U.S.C. 1306(b) provides that, except as provided in a confirmed plan or order confirming a plan, the debtor shall remain in possession of all property of the estate.",
+   "quotedLanguage": "Subject to any limitations on a trustee under this chapter, the debtor shall have, exclusive of the trustee, the rights and powers of a trustee under sections 363(b), 363(d), 363(e), 363(f), and 363(l), of this title. ... Except as provided in a confirmed plan or order confirming a plan, the debtor shall remain in possession of all property of the estate.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-1303",
+    "usc-11-1306"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "The first sentence is the whole of section 1303; the second is 1306(b). Together with 363(b) this means a chapter 13 debtor's sale of estate property outside the ordinary course is still 'after notice and a hearing'. The effect of plan confirmation on who holds the property (11 U.S.C. 1327) was NOT read. The District of Idaho's local bankruptcy rules on sale motions were NOT read."
+  },
+  {
+   "id": "bk-109h-credit-counseling-180-days",
+   "claim": "Under 11 U.S.C. 109(h)(1), an individual may not be a debtor under the Bankruptcy Code unless, during the 180-day period ending on the date the petition is filed, the individual received from an approved nonprofit budget and credit counseling agency an individual or group briefing (which may be by telephone or on the Internet) that outlined the opportunities for available credit counseling and assisted the individual in performing a related budget analysis.",
+   "quotedLanguage": "an individual may not be a debtor under this title unless such individual has, during the 180-day period ending on the date of filing of the petition by such individual, received from an approved nonprofit budget and credit counseling agency described in section 111(a) an individual or group briefing (including a briefing conducted by telephone or on the Internet) that outlined the opportunities for available credit counseling and assisted such individual in performing a related budget analysis.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-109"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "109(h)(1). Subject to paragraphs (2), (3) and (4). This credit counseling is NOT the same thing as HUD-approved housing counseling (af-hud-counseling-free-or-low-cost): different agencies, different approval, different purpose. Never blur the two."
+  },
+  {
+   "id": "bk-109h-exigent-circumstances-exception",
+   "claim": "Under 11 U.S.C. 109(h)(3), the counseling requirement does not apply to a debtor who submits a certification, satisfactory to the court, that describes exigent circumstances meriting a waiver and states that the debtor requested credit counseling from an approved agency but was unable to obtain it during the 7-day period beginning on the date of the request. That exemption ceases when the debtor meets the requirement, and in no case applies after the date that is 30 days after the petition is filed, except that the court, for cause, may order an additional 15 days.",
+   "quotedLanguage": "the requirements of paragraph (1) shall not apply with respect to a debtor who submits to the court a certification that ... describes exigent circumstances that merit a waiver of the requirements of paragraph (1); ... states that the debtor requested credit counseling services from an approved nonprofit budget and credit counseling agency, but was unable to obtain the services referred to in paragraph (1) during the 7-day period beginning on the date on which the debtor made that request; and ... is satisfactory to the court. ... With respect to a debtor, an exemption under subparagraph (A) shall cease to apply to that debtor on the date on which the debtor meets the requirements of paragraph (1), but in no case may the exemption apply to that debtor after the date that is 30 days after the debtor files a petition, except that the court, for cause, may order an additional 15 days.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "usc-11-109"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "109(h)(3)(A)-(B). The statute does NOT say an approaching foreclosure sale is an 'exigent circumstance'; never suggest it is. Paragraphs (2) (district-wide determination) and (4) (incapacity, disability, active military duty in a combat zone) exist and are not claimed."
+  },
+  {
+   "id": "bk-uscourts-counseling-before-education-after",
+   "claim": "The U.S. Courts say credit counseling must take place before a person files for bankruptcy and debtor education must take place after filing, and that only credit counseling organizations and debtor education course providers approved by the U.S. Trustee Program may issue the certificates of completion.",
+   "quotedLanguage": "Credit counseling must take place before you file for bankruptcy; debtor education must take place after you file. ... Only credit counseling organizations and debtor education course providers that have been approved by the U.S. Trustee Program may issue these certificates.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-credit-counseling-debtor-education"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "The page's first sentence contains a typo ('bankrutpcy') and is not quoted. The Alabama and North Carolina carve-out on the page does not concern Idaho."
+  },
+  {
+   "id": "bk-ust-counseling-case-could-be-dismissed",
+   "claim": "The U.S. Trustee Program says credit counseling must be obtained before an individual files for bankruptcy, subject to very limited exceptions, and that if the course is not completed before filing, the case could be dismissed. It says debtor education is a separate course taken after filing, which, with limited exceptions, debtors must complete to receive a bankruptcy discharge.",
+   "quotedLanguage": "must be obtained before an individual files for bankruptcy, subject to very limited exceptions. If the CC course is not completed before filing, the case could be dismissed. ... is a separate course that must be taken after an individual files for bankruptcy. With limited exceptions, debtors must complete the DE course to receive a bankruptcy discharge.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "ust-credit-counseling-debtor-education"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "U.S. Department of Justice page. 'Could be dismissed' is the agency's wording; keep 'could'. The lists of approved agencies linked from this page were not fetched."
+  },
+  {
+   "id": "bk-idaho-exemptions-state-law-only",
+   "claim": "Idaho Code 11-609 provides that in any federal bankruptcy proceeding, an individual debtor may exempt from property of the estate only such property as is specified under the laws of Idaho.",
+   "quotedLanguage": "In any federal bankruptcy proceeding, an individual debtor may exempt from property of the estate only such property as is specified under the laws of this state.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "homestead",
+    "creditors"
+   ],
+   "sourceIds": [
+    "idcode-11-609"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "Idaho",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": "[11-609, added 1981, ch. 81, sec. 2, p. 114.]",
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "Whole section. TRAP: which state's exemption law applies to a particular debtor is set by the Bankruptcy Code's domicile rules in 11 U.S.C. 522(b)(3), and 522(p) and (q) can limit a homestead exemption in some cases. Section 522 was cached but NOT analysed or claimed. Never tell a reader that the Idaho homestead amount applies to them."
+  },
+  {
+   "id": "bk-homestead-exempt-from-forced-sale",
+   "claim": "Under Idaho Code 55-1008(1), except as provided in section 55-1005, the homestead is exempt from attachment and from execution or forced sale for the debts of the owner up to the amount specified in section 55-1003. Proceeds of a voluntary sale of the homestead in good faith for the purpose of acquiring a new homestead are likewise exempt, up to that amount, for one year from receipt.",
+   "quotedLanguage": "Except as provided in section 55-1005, Idaho Code, the homestead is exempt from attachment and from execution or forced sale for the debts of the owner up to the amount specified in section 55-1003, Idaho Code. The proceeds of the voluntary sale of the homestead in good faith for the purpose of acquiring a new homestead, and proceeds from insurance covering destruction of homestead property held for use in restoring or replacing the homestead property, up to the amount specified in section 55-1003, Idaho Code, shall likewise be exempt for one (1) year from receipt, and also such new homestead acquired with such proceeds.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "homestead",
+    "creditors",
+    "bankruptcy"
+   ],
+   "sourceIds": [
+    "idcode-55-1008"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "Idaho",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": "[55-1008, added 1989, ch. 371, sec. 2, p. 936.]",
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "55-1008(1). Must be stated with bk-homestead-subject-to-deeds-of-trust and id-homestead-creditor-175k. The proceeds rule is limited to a good-faith sale 'for the purpose of acquiring a new homestead': do not shorten it to 'sale proceeds are protected'. How this state exemption operates inside a bankruptcy case was not researched beyond 11-609. What counts as a homestead and how one is established (55-1001, 55-1004) was NOT read."
+  },
+  {
+   "id": "bk-homestead-subject-to-deeds-of-trust",
+   "claim": "Under Idaho Code 55-1005, the homestead is subject to execution or forced sale in satisfaction of judgments obtained on debts secured by mortgages, deeds of trust or other consensual liens upon the premises, executed and acknowledged by the husband and wife or by an unmarried claimant, or executed and recorded before the homestead became effective, and on debts secured by a mechanic's, laborer's or vendor's lien upon the premises.",
+   "quotedLanguage": "The homestead is subject to execution or forced sale in satisfaction of judgments obtained: ... On debts secured by mechanic's, laborer's or vendor's lien upon the premises. ... On debts secured by mortgages, deeds of trust or other consensual liens upon the premises, executed and acknowledged by the husband and wife or by an unmarried claimant. ... On debts secured by mortgages, deeds of trust or other consensual liens upon the premises, executed and recorded before the homestead became effective.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "homestead",
+    "creditors",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "idcode-55-1005"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "Idaho",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": "[55-1005, added 1989, ch. 371, sec. 2, p. 935.]",
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "55-1005(2)-(4). TRAP: the section speaks of 'judgments obtained' on those debts. It does not mention a nonjudicial trustee's sale under a power of sale. The prose may say the homestead exemption statute carves out debts secured by a deed of trust; it must not say '55-1005 authorises a trustee's sale'. Subsection (1) (pre-homestead judgment liens and attachments) is not claimed."
+  },
+  {
+   "id": "bk-uscourts-exemptions-ask-an-attorney",
+   "claim": "The U.S. Courts say the Bankruptcy Code allows an individual debtor to protect some property from the claims of creditors because it is exempt under federal bankruptcy law or under the laws of the debtor's home state, that many states have adopted their own exemption law in place of the federal exemptions, and that the debtor should consult an attorney to determine the exemptions available in the state where the debtor lives.",
+   "quotedLanguage": "to protect some property from the claims of creditors because it is exempt under federal bankruptcy law or under the laws of the debtor's home state. 11 U.S.C. § 522(b). Many states have taken advantage of a provision in the Bankruptcy Code that permits each state to adopt its own exemption law in place of the federal exemptions. ... Thus, whether certain property is exempt and may be kept by the debtor is often a question of state law. The debtor should consult an attorney to determine the exemptions available in the state where the debtor lives.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-chapter-7-basics"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "Pairs with bk-idaho-exemptions-state-law-only. The 'consult an attorney' sentence is the judiciary's own and should be quoted."
+  },
+  {
+   "id": "bk-idaho-bankruptcy-court-offices",
+   "claim": "The U.S. District and Bankruptcy Courts for the District of Idaho state that their offices are located in Boise, Coeur d'Alene, and Pocatello, and that Idaho is one of only six consolidated District and Bankruptcy Clerks' Offices within the federal judiciary. The court's bankruptcy site is the website of the U.S. Bankruptcy Court for the District of Idaho.",
+   "quotedLanguage": "Idaho is proud to be one of only six consolidated District and Bankruptcy Clerks' Offices within the federal judiciary. ... Our offices are located in Boise ... Welcome to the U.S. Bankruptcy Court for the District of Idaho.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "court-procedure"
+   ],
+   "sourceIds": [
+    "id-uscourts-home",
+    "id-uscourts-bankruptcy"
+   ],
+   "confidence": "MEDIUM",
+   "jurisdiction": "Idaho (federal court)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "First two fragments from id.uscourts.gov home page; the third from id.uscourts.gov/bankruptcy/. The home page sentence reads 'Our offices are located in Boise , Coeur d'Alene , and Pocatello .' with each city a link; only 'Our offices are located in Boise' is quoted because the link markup breaks the rest (and the 25-character fragment rule). Street addresses, phone numbers, judges' names and filing fees were NOT claimed; do not print them. The court's pages do not say which office handles an Ada County case and the page must not say so."
+  },
+  {
+   "id": "bk-uscourts-lawyer-strongly-recommended",
+   "claim": "The U.S. Courts say seeking the advice of a qualified lawyer is strongly recommended because bankruptcy has long-term financial and legal consequences, and that individuals can file bankruptcy without a lawyer, which is called filing pro se. The same page says a person unable to afford an attorney may qualify for free legal services.",
+   "quotedLanguage": "Seeking the advice of a qualified lawyer is strongly recommended because bankruptcy has long-term financial and legal consequences. Individuals can file bankruptcy without a lawyer, which is called filing pro se. ... If you are unable to afford an attorney, you may qualify for free legal services.",
+   "entity": [
+    "state:id"
+   ],
+   "topic": [
+    "bankruptcy",
+    "foreclosure"
+   ],
+   "sourceIds": [
+    "uscourts-bankruptcy-overview"
+   ],
+   "confidence": "HIGH",
+   "jurisdiction": "United States (applies in Idaho)",
+   "temporalStatus": "CURRENT",
+   "amendmentHistory": null,
+   "futureDatedAmendment": false,
+   "approvedForPublication": true,
+   "verifiedOn": "2026-11-13",
+   "notes": "The judiciary's own recommendation; quote it rather than giving one of our own. 'May qualify' is the page's wording: never promise free legal help."
+  }
+ ]
+}

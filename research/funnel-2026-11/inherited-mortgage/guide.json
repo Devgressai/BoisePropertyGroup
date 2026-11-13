@@ -1,0 +1,164 @@
+{
+  "guide": {
+    "slug": "inheriting-a-house-with-a-mortgage-in-idaho",
+    "title": "Inheriting a House With a Mortgage in Idaho",
+    "h1": "Inheriting a house with a mortgage in Idaho: what happens to the loan",
+    "description": "What happens to the mortgage when an Idaho homeowner dies: the federal due-on-sale exemption, successor in interest rights, and the choices an heir has.",
+    "cluster": "estate",
+    "published": "2026-11-13",
+    "updated": "2026-11-13"
+  },
+  "content": {
+    "intro": [
+      "When an Idaho homeowner dies, the lien stays on the house and the payments keep falling due. A federal statute, 12 U.S.C. 1701j-3(d), bars a lender from calling the loan due under a due-on-sale clause because a home with fewer than five dwelling units passed to a relative on the borrower's death. The person who inherits can keep paying and ask to take over the loan, sell the house and pay the loan off, or let the house go. If payments stop, the lender keeps its right to foreclose.",
+      "This page describes what federal statute, federal mortgage servicing rules, the Consumer Financial Protection Bureau and Idaho Code say, quoted from the official sources. It is not legal or tax advice and it is not applied to your loan or your family. We are a property buyer. We cannot stop a foreclosure, negotiate with a lender or promise an outcome. An Idaho attorney and a HUD-approved housing counselor are the people to ask about your own situation."
+    ],
+    "sections": [
+      {
+        "heading": "The loan does not end when the owner dies",
+        "body": [
+          "Idaho's probate code treats a mortgage as something that stays attached to the property. Idaho Code 15-2-609 says a specific devise, meaning a gift of particular property in a will, \"passes subject to any security interest existing at the date of death, without right of exoneration, regardless of a general directive in the will to pay debts.\" That section speaks only of a specific devise. A house that passes without a will, or under a different kind of gift, is a question for a probate attorney.",
+          "The same code keeps the lender's remedy in place. Idaho Code 15-3-812 stops ordinary judgment creditors from levying on estate property, and then says the section does not prevent \"the enforcement of mortgages, pledges or liens upon real or personal property in an appropriate proceeding.\" Idaho Code 15-3-104 makes creditors wait for a personal representative to be appointed before enforcing a claim against the estate, and states that it has no application to a secured creditor enforcing its right to its security, except as to any deficiency judgment.",
+          "The Consumer Financial Protection Bureau put the practical point this way in a December 2024 report: where there is a mortgage on the home, people who become homeowners after a death \"must act quickly to make mortgage payments in order to avoid foreclosure.\""
+        ],
+        "claims": [
+          "im-idaho-specific-devise-passes-subject-to-lien",
+          "im-idaho-liens-enforceable-against-estate-property",
+          "im-idaho-claims-procedure-excludes-secured-creditor-security",
+          "im-cfpb-spotlight-act-quickly-on-payments"
+        ]
+      },
+      {
+        "heading": "Can the lender call the whole loan due because the owner died?",
+        "body": [
+          "A loan contract may contain a due-on-sale clause. 12 U.S.C. 1701j-3 defines it as a provision that lets a lender declare the secured sums due and payable if the property, or an interest in it, is sold or transferred without the lender's prior written consent. The statute, part of the Garn-St Germain Depository Institutions Act of 1982, generally lets lenders enforce these clauses according to the loan contract.",
+          "Subsection (d) carves out exceptions. For a loan secured by residential real property \"containing less than five dwelling units,\" a lender may not exercise a due-on-sale clause upon \"a transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety,\" upon \"a transfer to a relative resulting from the death of a borrower,\" or upon \"a transfer where the spouse or children of the borrower become an owner of the property.\"",
+          "The limits of that protection matter. The section does not define \"relative.\" It concerns the due-on-sale clause only, and it says nothing about missed payments. It does not make the person who inherits the borrower, and it does not require a lender to approve an assumption. The statute says only that a lender \"is encouraged to permit an assumption\" at the existing contract rate or a blended rate."
+        ],
+        "claims": [
+          "im-garn-due-on-sale-clause-defined",
+          "im-garn-due-on-sale-enforceable-by-contract",
+          "im-garn-exempt-transfers-on-death",
+          "im-garn-assumption-encouraged-not-required"
+        ]
+      },
+      {
+        "heading": "What a successor in interest is under federal servicing rules",
+        "body": [
+          "The CFPB describes the mortgage servicer as the company that sends the monthly mortgage statement and responds to borrower inquiries. The CFPB's Regulation X sets rules for how a servicer deals with the people who take ownership after a death. 12 CFR 1024.31 defines a successor in interest as a person to whom an ownership interest in the mortgaged property is transferred from a borrower by one of five listed kinds of transfer. Three of them match the statute above: a transfer on the death of a joint tenant or tenant by the entirety, a transfer to a relative resulting from the death of a borrower, and a transfer where the spouse or children of the borrower become an owner.",
+          "A confirmed successor in interest is a successor in interest \"once a servicer has confirmed the successor in interest's identity and ownership interest\" in the property. Under 12 CFR 1024.30(d), a confirmed successor in interest \"shall be considered a borrower\" for purposes of the servicing rules. That status is about information, notices and servicing procedures. It is separate from owing the debt, which is covered below.",
+          "These rules have limits. Under 12 CFR 1024.30, small servicers, reverse mortgages and certain other lenders are outside the general servicing policies and the loss mitigation procedures, and the early intervention and loss mitigation procedures apply only to a loan secured by the borrower's principal residence. Idaho's trust deed statute also uses the phrase \"successor in interest,\" for its own purposes. The two are different definitions."
+        ],
+        "claims": [
+          "im-cfpb-inherited-home-contact-servicer-proof",
+          "im-regx-successor-in-interest-defined",
+          "im-regx-confirmed-successor-defined",
+          "im-regx-confirmed-successor-treated-as-borrower",
+          "af-regx-scope"
+        ]
+      },
+      {
+        "heading": "How to get information about the loan",
+        "body": [
+          "The CFPB says a person who has inherited a home should inform the loan servicer, and that the person may need to show proof of their right to the home before the servicer releases certain account information. After a death, the CFPB says, that proof \"might include a copy of the executed will and the death certificate or a letter from the executor of the deceased person's estate.\" The servicer should say what proof it needs.",
+          "Regulation X sets out the servicer's side. Under 12 CFR 1024.36(i), when a person sends a written request saying they may be a successor in interest, with the borrower's name and enough information to identify the loan account, the servicer must respond with a written description of the documents it reasonably requires to confirm the person's identity and ownership interest, and with contact information including a telephone number. Until confirmation, the servicer is not required to provide other account information, and it must indicate that the request can be resubmitted once the person is confirmed.",
+          "12 CFR 1024.38(b)(1)(vi) requires servicers covered by that section to keep policies and procedures reasonably designed so that, on notice of a borrower's death, they can promptly facilitate communication with potential successors, promptly describe the documents they need, and promptly make a confirmation determination and notify the person of the result. The rule's word is \"promptly.\" It gives no number of days.",
+          "In Idaho the person with authority over a decedent's estate is the personal representative, and that authority comes from being appointed and issued letters. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers how letters are obtained in Ada County."
+        ],
+        "claims": [
+          "im-cfpb-inherited-home-contact-servicer-proof",
+          "im-regx-potential-successor-written-request",
+          "im-regx-before-confirmation-limited-information",
+          "im-regx-servicer-policies-after-death",
+          "af-regx-scope",
+          "pb-letters-required"
+        ]
+      },
+      {
+        "heading": "Inheriting the house is different from owing the debt",
+        "body": [
+          "Regulation X addresses liability in the notice a servicer may send to a confirmed successor in interest who is not liable on the loan. Under 12 CFR 1024.32(c)(1), that notice must explain that unless the successor assumes the mortgage loan obligation under State law, the successor \"is not liable for the mortgage debt and cannot be required to use the successor in interest's assets to pay the mortgage debt, except that the lender has a security interest in the property and a right to foreclose on the property, when permitted by law and authorized under the mortgage loan contract.\"",
+          "The CFPB said much the same in a 2014 interpretive rule: where a successor acquires property that is subject to a mortgage, \"the successor is not personally liable for the associated debt, but may choose to assume the debt.\"",
+          "The Regulation X notice is addressed to a successor who is not liable on the loan. A co-borrower, a spouse who signed the note, and anyone who later assumes the loan stand in a different position, and Idaho's rules on a married couple's debts and on claims against an estate are outside this page. Ask an Idaho attorney before assuming you owe nothing or that you owe everything.",
+          "The same notice comes with an acknowledgment form. The rule says there is no time limit to return it, and that the servicer will not begin sending certain notices and communications until it is returned. Whether or not the form is signed, the notice must explain that the successor is entitled to submit notices of error, requests for information, and requests for a payoff statement."
+        ],
+        "claims": [
+          "im-regx-successor-not-liable-unless-assumes",
+          "im-cfpb-2014-successor-not-personally-liable-may-assume",
+          "im-regx-successor-notice-acknowledgment-form",
+          "im-regx-successor-may-request-payoff-and-information"
+        ]
+      },
+      {
+        "heading": "Choice one: keep paying, and ask about taking over the loan",
+        "body": [
+          "The CFPB suggests asking the servicer how to continue making payments on the loan or how to seek a loan modification. Its December 2024 report ties making the mortgage payments to avoiding foreclosure.",
+          "Taking over the loan in your own name is a separate step, and it needs the lender's agreement. The CFPB's 2014 interpretive rule says that when a successor who already has title is added as an obligor on the existing loan, and that step is not an \"assumption\" as Regulation Z defines it, the step is not subject to the federal Ability-to-Repay Rule. The same document says creditors \"may agree\" to add the successor as a named obligor. It removes one federal requirement from the process. It does not oblige a creditor to say yes, and the status of that 2014 interpretation today is something to confirm with an attorney or a housing counselor.",
+          "In its December 2024 report the CFPB said federal rules and mortgage program guidelines require servicers to help successor homeowners get the information they need to manage the existing mortgage and, if the homeowner chooses, to assume the existing loan terms. It also reported complaints from homeowners who said they were incorrectly told they had to refinance into a new loan. Whether a particular loan can be assumed depends on the loan and on who owns or insures it.",
+          "A HUD-approved housing counselor can go through these options and help with the servicer. The CFPB says such agencies provide foreclosure prevention counseling free of charge, and that a counselor cannot promise that a borrower will keep the home."
+        ],
+        "claims": [
+          "im-cfpb-inherited-home-ask-about-payments-and-help",
+          "im-cfpb-spotlight-act-quickly-on-payments",
+          "im-cfpb-2014-adding-successor-not-subject-to-atr",
+          "im-cfpb-spotlight-refinance-pressure-reports",
+          "im-garn-assumption-encouraged-not-required",
+          "af-cfpb-housing-counselor-what-they-do"
+        ]
+      },
+      {
+        "heading": "Choice two: sell the house and pay the loan off",
+        "body": [
+          "The CFPB describes the payoff amount as how much must be paid to satisfy the loan and completely pay off the debt, and says it differs from the current balance because it includes interest through the payoff day and may include unpaid fees. Under Idaho Code 45-1514, once the obligation secured by a deed of trust is performed, the trustee reconveys the property on the beneficiary's written request.",
+          "Who signs the sale depends on where the estate stands. An Idaho personal representative acquires powers by being appointed and issued letters. Idaho Code 15-3-715 lists selling real property among the transactions a personal representative may carry out, subject to any restriction in the will or a court order. Idaho Code 15-3-814 adds that where estate assets are encumbered by a mortgage, the personal representative may pay the encumbrance or any part of it \"if it appears to be for the best interest of the estate.\"",
+          "If the house would sell for less than the loan balance, the sale is a short sale and needs the lender. The CFPB defines a short sale as a sale for less than what is owed, possible only if the lender or servicer agrees.",
+          "The sale itself is covered in [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho)."
+        ],
+        "claims": [
+          "af-cfpb-payoff-amount",
+          "sk-reconveyance-on-performance",
+          "pb-letters-required",
+          "pb-pr-may-sell-real-property",
+          "id-pr-powers-limited-by-will",
+          "im-idaho-pr-may-pay-or-convey-encumbered-asset",
+          "sk-cfpb-short-sale-definition"
+        ]
+      },
+      {
+        "heading": "Choice three: let the house go, and what a trustee's sale does",
+        "body": [
+          "Idaho Code 15-3-814 also lets a personal representative \"convey or transfer the assets to the creditor in satisfaction of his lien,\" where that appears to be in the best interest of the estate. A lender is not obliged by that section to accept the property.",
+          "If payments stop on a loan secured by a deed of trust, Idaho Code 45-1503 gives the trustee a power of sale after the breach, and lets the beneficiary choose foreclosure through the courts instead. Under 12 CFR 1024.41(f)(1), where the federal rule applies, a servicer may not make the first foreclosure notice or filing unless the loan is more than 120 days delinquent, with listed exceptions. Idaho Code 45-1505 then requires a notice of default to be recorded and mailed, including to any individual who owns an interest in the property.",
+          "Notice of the trustee's sale must be given at least 120 days before the sale date. Idaho Code 45-1506(2) includes among the people who must receive it any successor in interest of the grantor whose interest is of record before the notice of default or is actually known to the trustee or beneficiary. These two 120-day periods are separate and are measured from different events.",
+          "Idaho Code 45-1506(12) lets the grantor or a successor in interest cure the default at any time within 115 days of the recording of the notice of default by paying the amount then due, other than principal that would not be due had there been no default. Once the sale is held, Idaho Code 45-1508 says it terminates the interest of every person who was given notice, with no right to redeem.",
+          "Idaho Code 45-1512 allows a money judgment for a remaining balance to be sought within 3 months after a trustee's sale, limited by the property's fair market value as found by the court. Whether that could reach an estate or any heir is a legal question for an Idaho attorney. The steps and day counts are set out in the [Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline)."
+        ],
+        "claims": [
+          "im-idaho-pr-may-pay-or-convey-encumbered-asset",
+          "ft-power-of-sale-or-judicial-option",
+          "af-regx-120-day-prefiling",
+          "af-regx-scope",
+          "ft-notice-of-default-recorded-and-mailed",
+          "id-trustee-sale-120-day-notice",
+          "ft-notice-of-sale-recipients",
+          "af-cure-within-115-days",
+          "ft-sale-final-no-redemption",
+          "as-deficiency-three-month-window",
+          "as-deficiency-fair-market-value-limit"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy houses in Ada County in any condition, with our own capital. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. That can suit an estate or an heir who has decided to sell and does not want to carry the payments for long. Our page on [selling an inherited house](/sell-inherited-house-idaho) describes the process.",
+          "We cannot stop a foreclosure, negotiate with a lender, arrange an assumption or give legal or tax advice. If you want to keep the house, the route runs through the servicer, and a HUD-approved housing counselor costs nothing. If there is time to list the house on the open market, a listing may bring a higher price than we would offer. If the loan balance is more than the house would sell for, any sale needs the lender's agreement, and that decision belongs to the lender."
+        ],
+        "claims": [
+          "af-cfpb-payoff-amount",
+          "af-cfpb-housing-counselor-what-they-do",
+          "sk-cfpb-short-sale-definition"
+        ]
+      }
+    ]
+  }
+}

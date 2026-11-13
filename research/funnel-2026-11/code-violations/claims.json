@@ -1,0 +1,743 @@
+{
+  "claims": [
+    {
+      "id": "cv-form-q8-additions-without-permit",
+      "claim": "Question 8 of the seller property disclosure form printed in Idaho Code 55-2508 asks whether any substantial additions or alterations have been made without a building permit.",
+      "quotedLanguage": "8. Have any substantial additions or alterations been made without a building permit?",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "permits"
+      ],
+      "sourceIds": [
+        "idcode-55-2508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The statute does not define 'substantial'. Do not define it for the reader. The question is about additions or alterations, and is not limited to work the current seller did."
+    },
+    {
+      "id": "cv-form-q6-zoning-violations-title",
+      "claim": "Question 6 of the Idaho statutory disclosure form asks the seller to describe any conditions that may affect the ability to clear title, and gives encroachments, easements, zoning violations and lot line disputes as examples.",
+      "quotedLanguage": "6. Describe any conditions that may affect your ability to clear title (such as encroachments, easements, zoning violations, lot line disputes, etc.):",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "zoning",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-55-2508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The form says 'zoning violations', not 'code violations' or 'building code violations'. Do not write that the form asks about code-enforcement cases by name; it does not. Question 9 is the catch-all."
+    },
+    {
+      "id": "cv-form-q9-other-problems-legal",
+      "claim": "Question 9 of the Idaho statutory disclosure form asks for any other problems, including legal, physical or other, not listed above that the seller knows concerning the property.",
+      "quotedLanguage": "9. Any other problems, including legal, physical or other not listed above that you know concerning the property:",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure"
+      ],
+      "sourceIds": [
+        "idcode-55-2508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Whether an open code-enforcement case is a 'legal' problem under question 9 is a legal judgment. State what the question says and stop. Not legal advice."
+    },
+    {
+      "id": "cv-form-seller-certification-and-purpose",
+      "claim": "The Idaho statutory disclosure form states that, unless otherwise advised, the seller has no expertise in construction, architectural, engineering or other specific areas related to the construction or condition of the improvements, encourages the purchaser to obtain professional inspections, and ends with the seller certifying that the information is true and correct to the best of the seller's knowledge as of the date signed.",
+      "quotedLanguage": "Unless otherwise advised, the Seller does not possess any expertise in construction, architectural, engineering or any other specific areas related to the construction or condition of the improvements on the property. ... Purchaser is encouraged to obtain his/her own professional inspections. ... The Seller certifies that the information herein is true and correct to the best of Seller's knowledge as of the date signed by the Seller.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "inspections"
+      ],
+      "sourceIds": [
+        "idcode-55-2508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "This is the form's own text. It does not say a seller may answer 'unknown' to avoid a known fact; 55-2516 (good faith) and 55-2517 (damages) still apply."
+    },
+    {
+      "id": "cv-id-permit-required-local-jurisdiction",
+      "claim": "Idaho Code 39-4111(2) makes it unlawful to do, or cause or permit to be done, any construction, improvement, extension or alteration of a building, residence or structure in a local government jurisdiction enforcing building codes without first procuring a permit in accordance with that local government's ordinance.",
+      "quotedLanguage": "It shall be unlawful for any person to do, or cause or permit to be done, whether acting as principal, agent or employee, any construction, improvement, extension or alteration of any building, residence or structure in a local government jurisdiction enforcing building codes, without first procuring a permit in accordance with the applicable ordinance or ordinances of the local government.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "permits",
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "idcode-39-4111"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[39-4111, added 1975, ch. 180, sec. 2, p. 486; am. 1978, ch. 160, sec. 1, p. 348; am. 1983, ch. 153, sec. 8, p. 414; am. 1988, ch. 264, sec. 16, p. 532; am. 1995, ch. 267, sec. 12, p. 863; am. 2002, ch. 345, sec. 15, p. 971; am. 2011, ch. 228, sec. 1, p. 622.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The statute points to the LOCAL ordinance for what needs a permit. It does not list permit triggers. Never use it to say a specific job needed a permit."
+    },
+    {
+      "id": "cv-id-building-code-violation-misdemeanor",
+      "claim": "Under Idaho Code 39-4126, a person who willfully violates the Idaho Building Code Act or the codes enumerated in it is guilty of a misdemeanor punishable by a fine of not more than $300, imprisonment for not more than 90 days, or both; a separate violation is deemed to have occurred for each building not in compliance, and each day the violation continues is a separate offense.",
+      "quotedLanguage": "is guilty of a misdemeanor, and upon conviction, shall be fined not more than three hundred dollars ($300), or imprisoned for not more than ninety (90) days or by both fine and imprisonment. ... A separate violation is deemed to have occurred with respect to each building not in compliance with this chapter. Each day such violation continues constitutes a separate offense.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "code-enforcement",
+        "permits"
+      ],
+      "sourceIds": [
+        "idcode-39-4126"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[39-4126, added 1975, ch. 180, sec. 2, p. 486; am. 1988, ch. 264, sec. 21, p. 534; am. 2002, ch. 345, sec. 28, p. 975.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The statute says 'willfully'. Subsection (3) excludes manufactured homes from these misdemeanor provisions. Cities and the county set their own, different penalties in their own codes (see cv-boise-building-code-penalties, cv-eagle-building-code-penalties, cv-ada-building-code-penalties); never merge the figures. Who would be charged in a given case is a legal question; do not say a seller 'will be' charged."
+    },
+    {
+      "id": "cv-ada-building-code-applies-unincorporated",
+      "claim": "The Ada County Building Code Ordinance (Ada County Code Title 7, Chapter 2) adopts building codes that apply in the unincorporated areas of Ada County, and makes it unlawful to engage in any grading or building activity without complying with the chapter and the adopted codes.",
+      "quotedLanguage": "shall apply in the unincorporated areas of Ada County. ... It shall be unlawful to engage in any grading or building activity without complying with the rules and regulations as contained in this chapter and the codes adopted herein.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "permits",
+        "jurisdiction",
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "ada-code-7-2-building-codes"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Unincorporated Ada County ONLY. Inside a city the city's own building code applies."
+    },
+    {
+      "id": "cv-ada-permit-required-tied-to-property",
+      "claim": "In unincorporated Ada County the county's residential code amendment requires an owner or authorized agent who intends to construct, enlarge, alter, repair, move, demolish or change the occupancy of a building to first apply to the building official and obtain the required permit; an Ada County building division permit is issued to the owner of the property and remains tied to the specific property even as the ownership may change.",
+      "quotedLanguage": "shall first make application to the building official and obtain the required permit. An Ada County building division permit is issued to the owner of the property and remains tied to the specific property even as the ownership may change.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "permits",
+        "transfer"
+      ],
+      "sourceIds": [
+        "ada-code-7-2-5"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The 'tied to the property' sentence is about PERMITS. It does not say a violation or an enforcement case passes to a buyer; do not stretch it to that."
+    },
+    {
+      "id": "cv-ada-exempt-work-list",
+      "claim": "Ada County's residential code amendment lists work exempt from a building permit in unincorporated Ada County, including one-story detached tool and storage sheds whose floor area does not exceed 200 square feet, fences not over 6 feet high, decks not more than 30 inches above grade that do not serve the required exit door, roof repair including complete replacement of roof coverings on one- and two-family dwellings, and siding repair or replacement when fire resistance is not reduced; the county deleted the model code's electrical and plumbing exemptions.",
+      "quotedLanguage": "1. One-story detached accessory structures used as tool and storage sheds, playhouses and similar uses, provided the floor area does not exceed 200 square feet ... 2. Fences not over 6 feet (1829 mm) high may be exempted from the requirement for a building permit in the absence of any other applicable land use regulations ... 10. Decks that are not more than thirty (30) inches (762 mm) above grade at any point, and do not serve the exit door required by Section R311.4. ... 12. Roof repair, including complete replacement of roof coverings, in association with one- and two-family dwellings and their accessory structures. 13. Siding repair or replacement when fire resistance is not reduced in association with one- and two-family dwellings and their accessory structures.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "permits"
+      ],
+      "sourceIds": [
+        "ada-code-7-2-5"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Unincorporated Ada County ONLY, and only the current list; it says nothing about what needed a permit when older work was done. The City of Star, by contrast, lists re-roofing as needing a permit (star-building-permit-triggers). The list has 18 items; only five are quoted. The county Permitting Division page separately says no building permit is needed for a fence but fencing standards apply."
+    },
+    {
+      "id": "cv-ada-investigative-fee-work-without-permit",
+      "claim": "In unincorporated Ada County, if work is commenced without first obtaining a required county building permit, an investigative fee equal to the county permit fee for the work must be paid before the county accepts a building permit application; the fee is in addition to any later permit fee, and paying it does not make the work legitimate or establish a right to a permit.",
+      "quotedLanguage": "If work is commenced without first obtaining a required Ada County building permit, an investigative fee equal to the Ada County permit fee for the work accomplished illegally, shall be paid Ada County prior to the acceptance of an Ada County building permit application. This fee is an additional fee and shall not apply to any fee for any Ada County building permit that may subsequently be issued. Payment of the investigative fee does not vest the illegal work with any legitimacy, nor does it establish any right to an Ada County permit for continued development of that project.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "permits",
+        "fees"
+      ],
+      "sourceIds": [
+        "ada-code-7-2-5"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "This is the sourced basis for saying a permit application CAN follow unpermitted work in unincorporated Ada County. It promises nothing: the ordinance itself says the fee creates no right to a permit. No dollar amount is stated; do not invent one. Does not say what inspection or opening-up of finished work the county will require."
+    },
+    {
+      "id": "cv-ada-building-code-penalties",
+      "claim": "Ada County Code 7-2-12 makes each violation of the county building code chapter a misdemeanor, makes each day that work continues after notification of violation a separate offense, and lets the county bring any appropriate action to restrain, correct or abate a violation.",
+      "quotedLanguage": "Each violation of this chapter shall be a misdemeanor. Each day that work continues after notification of violation shall constitute a separate offense, and each violation shall be punishable as provided in Idaho Code section 18-113 as it may from time to time be amended and/or retitled. ... the County, in addition to other remedies, may institute any appropriate action or proceeding to prevent such unlawful action or construction to restrain, correct, or abate such violation",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "code-enforcement",
+        "permits"
+      ],
+      "sourceIds": [
+        "ada-code-7-2-12"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Idaho Code 18-113 was NOT cached; do not state its fine or jail figures."
+    },
+    {
+      "id": "cv-ada-code-enforcement-notice-and-cure",
+      "claim": "Ada County Code Enforcement lists construction or remodeling without building permits among the issues it handles in unincorporated Ada County; when a specialist confirms a violation, the property owner is notified in writing and given an opportunity to cure it within a specified time frame, and an owner who does not cure may face civil District Court proceedings through the Ada County Prosecuting Attorney.",
+      "quotedLanguage": "Construction or remodeling without building permit(s) ... If a Code Enforcement Specialist confirms that a violation exists on the subject property, the owner of that property will be notified in writing and given an opportunity to cure the violation within a specified time frame. ... Property owners failing to cure violations within the allotted time frame may be subject to court action through civil, District Court proceedings.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "ada-sheriff-code-enforcement"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Extends the existing claim ada-code-enforcement-unincorporated-only (same source). The page gives no number of days. The page lists city phone numbers that DIFFER from the numbers on Meridian's and Garden City's own pages; use each city's own page."
+    },
+    {
+      "id": "cv-ada-electrical-plumbing-permits-state",
+      "claim": "Ada County's Permitting Division states that all electrical and plumbing work needs separate permits through the State of Idaho (DOPL), and gives 208-287-7900 as its contact number.",
+      "quotedLanguage": "*Please note that all electrical and plumbing work will need separate permits through the State of Idaho (DOPL) ... For all other building types, contact us at 208-287-7900",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "ada-permitting-division"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "County page, so unincorporated Ada County only. Kuna says electrical and plumbing permits are available at its own Building Department; Garden City sends trade permits to the state. Do not generalise."
+    },
+    {
+      "id": "cv-boise-building-division-issues-permits",
+      "claim": "The City of Boise's Planning and Development Services Building Division is responsible for issuing building permits and overseeing building construction within the City of Boise, and can be reached at (208) 608-7070.",
+      "quotedLanguage": "Building Division is responsible for issuing building permits and overseeing building construction within the City of Boise. Speak to a staff member over the phone by calling (208) 608-7070",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "boise-building-division"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Boise city limits only."
+    },
+    {
+      "id": "cv-boise-special-investigation-fee",
+      "claim": "Under Boise City Code 9-1B-21, a person who commences work on a building, structure, electrical, gas, mechanical or plumbing system before obtaining the necessary permits is subject to a special investigation before a permit may be issued for that work, and a special investigation fee equal to the permit fee is collected in addition to the permit fee whether or not a permit is issued; paying it does not exempt anyone from the rest of the code or from any penalty.",
+      "quotedLanguage": "Any person who commences any work on a building, structure, electrical, gas, mechanical, or plumbing system before obtaining the necessary permits shall be subject to a special investigation before a permit may be issued for such work. A special investigation fee, in addition to the permit fee, shall be collected whether or not a permit is then or subsequently issued. The special investigation fee shall be equal to the amount of the permit fee required by this code. ... The payment of such special investigation fee shall not exempt any person from compliance with all other provisions of this code nor from any penalty prescribed by law.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "permits",
+        "fees"
+      ],
+      "sourceIds": [
+        "boise-code-9-1b-21"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Boise's one- and two-family dwelling code. The sourced basis for saying a permit can be sought after the fact in Boise. It does not promise a permit will issue, and does not describe the inspection. The Boise fee schedule was not cached; state no dollar amount."
+    },
+    {
+      "id": "cv-boise-building-code-penalties",
+      "claim": "Boise City Code 9-1B-29 makes a violation of Boise's one- and two-family dwelling building code a misdemeanor punishable by a fine of not more than $1,000, imprisonment for not more than 180 days, or both, with each day a separate offense; the building official may instead charge an infraction with a $300 fine, and a prosecuting attorney may reduce a misdemeanor charge to that infraction if the defendant engages in corrective actions resulting in fully completed and permitted work; the Building Division may request assistance from code compliance officers to gain compliance.",
+      "quotedLanguage": "shall be deemed guilty of a misdemeanor, and upon conviction thereof shall be punished by a fine of not more than one thousand dollars ($1,000.00), by imprisonment for not more than one hundred eighty (180) days, or by both such fine and imprisonment. ... At the discretion of the building official, the City may charge the offender with an infraction in lieu of a misdemeanor. The infraction shall be payable by a fine of three hundred dollars ($300.00). ... A prosecuting attorney may reduce a misdemeanor charge under this Chapter to an infraction as described herein, payable by a $300 fine, if the defendant engages in corrective actions resulting in fully completed and permitted work. The Building Division may request assistance from code compliance officers, as designated authorized agents of the Planning & Development Services Director, to gain compliance with this Chapter of City Code for noncompliant cases.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "code-enforcement",
+        "permits"
+      ],
+      "sourceIds": [
+        "boise-code-9-1b-29"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Boise only. State as what the ordinance provides; never predict a charge or outcome."
+    },
+    {
+      "id": "cv-boise-permit-transfer",
+      "claim": "Boise City Code 9-1B-14 allows a building permit to be transferred to another party who provides a document signed by the original permit holder consenting to the transfer and to all agreements and conditions in the original permit approval, with a clerical administrative fee.",
+      "quotedLanguage": "A building permit shall be transferable to another party if such party can provide a document signed by the original permit holder consenting to the transfer and all agreements and conditions incorporated into the original permit approval.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "permits",
+        "transfer"
+      ],
+      "sourceIds": [
+        "boise-code-9-1b-14"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Relevant where a house is sold with a permit still open. Boise only. The fee amount is not stated in the section."
+    },
+    {
+      "id": "cv-boise-code-compliance-scope",
+      "claim": "The City of Boise says its Code Compliance office enforces Boise City Code for businesses, sanitation and zoning, and lists abandoned or vacant buildings and people living in recreational vehicles among the issues it handles.",
+      "quotedLanguage": "Code Compliance enforces Boise City Code for businesses, sanitation and zoning. ... Abandoned or vacant buildings Residential parking (parking on lawn) People living in recreational vehicles",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "boise-code-and-business-license-compliance"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The page does not list unpermitted construction among Code Compliance's common complaints. Building-code cases in Boise sit with the Building Division, which may ask code compliance officers for help (9-1B-29)."
+    },
+    {
+      "id": "cv-boise-case-lookup-closed-cases-only",
+      "claim": "Boise's Code Compliance case lookup tool gives public access to closed code compliance cases only; open or active cases do not appear, and more information on a closed case may be available through a public records request.",
+      "quotedLanguage": "This page provides public access to closed code compliance cases. Only cases that have been fully resolved are included in this list. Open or active cases will not appear.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "code-enforcement",
+        "records"
+      ],
+      "sourceIds": [
+        "boise-code-case-lookup-tool"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "A clean result in the tool does NOT show there is no open case. Say so. The tool itself was not queried."
+    },
+    {
+      "id": "cv-meridian-building-services-scope",
+      "claim": "The City of Meridian's Building Services is responsible for all activities associated with structural, fire, electrical, mechanical and plumbing permits within the City of Meridian, including permit application, plan review, permit issuance and field inspection, and also handles permits for remodels, fences, sheds and garages; its phone number is 208-887-2211.",
+      "quotedLanguage": "Building Services is responsible for all activities associated with structural, fire, electrical, mechanical and plumbing permits within the City of Meridian for residential, commercial and industrial projects. These activities include permit application, plan review, permit issuance and field inspection. Other permits handled by Building Services include remodels, mobile homes, fences, sheds, garages, foundations, fireplaces, and demolition. ... Phone: 208-887-2211",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "meridian-building-services"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Meridian city limits only. No Meridian source was found for after-the-fact permits; Meridian's city code was not located on the code host used for Boise, Eagle and Ada County."
+    },
+    {
+      "id": "cv-meridian-code-enforcement-scope",
+      "claim": "Meridian's Code Enforcement officers, part of the Meridian Police Department, investigate and enforce Meridian City Code ordinances including parcel zoning issues, permit violations and parking regulations; the city gives 208-846-7326 for reporting a potential code violation.",
+      "quotedLanguage": "To report a potential code violation, call Meridian Code enforcement at 208-846-7326 ... Code Enforcement Officers investigate and enforce Meridian City Code Ordinances which include parcel zoning issues, permit violations and parking regulations.",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "meridian-code-enforcement"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The Ada County Sheriff page lists a different Meridian code enforcement number (208 884-5533). Use Meridian's own."
+    },
+    {
+      "id": "cv-eagle-building-department-permit-faq",
+      "claim": "The City of Eagle's Building Department tells owners never to guess whether a permit is needed and to contact the department, at 208-489-8760, before beginning a project; it also states that property insurers may not cover work completed without permits and inspections.",
+      "quotedLanguage": "Never guess if you need a permit or not. The best way to find out if you need a permit for a construction project is to contact the City of Eagle Building Department. ... Property insurers may not cover work completed without permits and inspections. ... Phone: 208-489-8760",
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "eagle-building-department"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The insurer sentence is the City of Eagle's statement, attributed. It is not a statement about any policy."
+    },
+    {
+      "id": "cv-eagle-investigation-fee-work-before-permit",
+      "claim": "Under Eagle City Code 7-1A-4, the city's residential code section R108.6 subjects any person who commences work on a building, structure, electrical, gas, mechanical or plumbing system before obtaining the necessary permits to a special investigation that is made before a permit may be issued for the work, with an investigation fee in addition to the permit fee collected whether or not a permit is issued.",
+      "quotedLanguage": "Any person who commences any work on a building, structure, electrical, gas, mechanical or plumbing system before obtaining the necessary permits shall be subject to a special investigation that shall be made before a permit may be issued for such work. An investigation fee, in addition to the permit fee, shall be collected whether or not a permit is then or subsequently issued. The investigation fee shall be equal to the amount of the permit fee required by this code or as set by resolution of the city council. The payment of such investigation fee shall not exempt any person from compliance with all other provisions of this code nor from any penalty prescribed by law.",
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "permits",
+        "fees"
+      ],
+      "sourceIds": [
+        "eagle-code-7-1a-4"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Eagle only. The online block closes with Ord. 728 (2015) while the Building Department page says codes and state amendments are effective January 1, 2021; the code host's disclaimer applies. Confirm the current text with the Eagle Building Department."
+    },
+    {
+      "id": "cv-eagle-building-code-penalties",
+      "claim": "Eagle City Code 7-1A-4 adds residential code section R113.5, under which a violation of the code is a misdemeanor punishable by a fine of not more than $1,000, imprisonment for not more than 180 days, or both, with each day a separate offense.",
+      "quotedLanguage": "R113.5 Criminal Penalties. Any person, firm or corporation violating the provisions of this code shall be deemed guilty of misdemeanor, and upon conviction thereof shall be punished by a fine of not more than one thousand dollars ($1,000.00), by imprisonment for not more than one hundred eighty (180) days, or by both such fine and imprisonment.",
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "code-enforcement",
+        "permits"
+      ],
+      "sourceIds": [
+        "eagle-code-7-1a-4"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Eagle only. Same currency caveat as cv-eagle-investigation-fee-work-before-permit. Not used in the guide prose; kept for the registry."
+    },
+    {
+      "id": "cv-eagle-code-enforcement-complaints",
+      "claim": "The City of Eagle takes code enforcement complaints through an online form that assigns each request a tracking number and a Code Enforcement Officer, lists building without a permit as an example of a request, and gives 208-489-8810 for assistance.",
+      "quotedLanguage": "Once submitted, the iWorQ form automatically creates a tracking number for the request and assigns it to the Code Enforcement Officer. ... Building without a Permit ... You may also contact 208-489-8810 for additional assistance.",
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "eagle-code-enforcement-complaint"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The Ada County Sheriff page lists 'Eagle Police Department: 208 938-2260' for violations in Eagle. Use Eagle's own page."
+    },
+    {
+      "id": "cv-kuna-building-department-scope",
+      "claim": "The City of Kuna's Building Department conducts plan reviews and monitors by inspection all phases of construction and modifications, including the maintenance of existing structures; the city states that it is unlawful to do any mechanical equipment installation without first obtaining a mechanical permit from the City of Kuna, and that electrical and plumbing permits are available at the City of Kuna Building Department.",
+      "quotedLanguage": "The Building Department conducts plan reviews and monitors by inspections all phases of construction and modifications, including the maintenance of existing structures, in order to protect public safety and welfare. ... It is unlawful for any person to do, or cause to be done, any mechanical equipment installations without first obtaining a mechanical permit from the City of Kuna authorizing such work to be done. ... Electrical permits are available at City of Kuna Building Department. ... Plumbing permits are available at City of Kuna Building Department.",
+      "entity": [
+        "city:kuna"
+      ],
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "kuna-building-department"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Kuna, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Kuna city limits only. No Kuna source was found for after-the-fact permits. The page text cached shows no Building Department phone number in its body; the guide gives none."
+    },
+    {
+      "id": "cv-kuna-code-enforcement-complaint-driven",
+      "claim": "Kuna says its code enforcement covers the city's zoning, sanitation and nuisance ordinances, operates on a complaint-driven basis, and does not enforce the rules of individual homeowners associations.",
+      "quotedLanguage": "through the enforcement of the zoning, sanitation, and nuisance ordinances. ... Please note that the city does not enforce rules of individual Homeowners Associations. ... Code enforcement operates on a complaint-driven basis",
+      "entity": [
+        "city:kuna"
+      ],
+      "topic": [
+        "code-enforcement",
+        "hoa"
+      ],
+      "sourceIds": [
+        "kuna-code-enforcement"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Kuna, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The page does not mention building-permit violations; it lists zoning, junk, weeds, RV occupancy and similar. Do not say Kuna code enforcement handles unpermitted work."
+    },
+    {
+      "id": "cv-star-building-department-scope",
+      "claim": "The City of Star's Building Department is responsible for administering and enforcing the officially adopted building codes as well as the City Unified Code and Ordinances, and lists 208-286-7247 as the Building Official's phone number.",
+      "quotedLanguage": "The Building Department is responsible for administering and enforcing the officially adopted building codes, as well as the City Unified Code and Ordinances. ... Phone: 208-286-7247",
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "permits",
+        "jurisdiction",
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "star-building-department"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Star city limits only. Star spans Ada and Canyon counties (existing claim ada-star-spans-two-counties). The page names an individual official; do not name staff in prose."
+    },
+    {
+      "id": "cv-star-code-enforcement-fifteen-days",
+      "claim": "The City of Star says that when it receives a complaint its Code Enforcement Officer visits the property, the Zoning Administrator sends the owner or resident a letter explaining the violation, and the owner or resident has fifteen days from receipt of the letter to abate the nuisance before the Zoning Administrator asks to place the matter on the City Council agenda; in some cases the city cleans up the property and charges the owner or resident the cost plus an administrative fee.",
+      "quotedLanguage": "The owner/resident of the subject property is given fifteen (15) days from the date of receipt of the letter to abate the nuisance. If the nuisance/code violation has not been removed within the allowed period, the Zoning Administrator will request that the Code Enforcement issue be placed on the City Council agenda. ... In some cases, the City of Star will clean up the property and charge the owner/resident the costs of cleanup, PLUS an additional administrative fee.",
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "star-code-enforcement"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The page describes PUBLIC NUISANCE procedure (weeds, trash, abandoned vehicles). It does not say this procedure applies to unpermitted construction. The same page elsewhere says fifteen days 'from the date of the notice'; the two phrasings differ and the page does not reconcile them."
+    },
+    {
+      "id": "cv-star-records-two-years-and-boundary-lookup",
+      "claim": "The City of Star says its building department is only required to keep residential permitting records for 2 years, that plans from before January 2024 require a public records request through the City Clerk, and that the Ada County Assessor's website shows city boundaries for checking whether an address is in Star's jurisdiction.",
+      "quotedLanguage": "Please note that the building department is only required to keep residential permitting records for 2 years. ... Ada County Assessor's website shows city boundaries.",
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "permits",
+        "records",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "star-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Star's statement about Star's records. Do not carry the two-year figure to any other jurisdiction. The assessor lookup URL is on the page; the guide does not print it."
+    },
+    {
+      "id": "cv-gardencity-building-services-contract",
+      "claim": "Garden City's Building Division is responsible for processing building permits, plan reviews, permit issuance and field observation; the city contracts with SAFEbuilt and the Idaho Division of Occupational and Professional Licenses for building services, building permits are still submitted through Garden City, and mechanical, electrical and plumbing trade permits are permitted directly through the state. The contact phone is (208) 472-2921.",
+      "quotedLanguage": "The Building Division is responsible for processing building permits, plan reviews, permit issuance, and field observation. Garden City contracts with both SAFEbuilt and Idaho Division of Occupational & Professional Licenses (IDOPL) to provide building services. While SAFEbuilt and IDOPL complete building plan reviews and inspections for compliance with building code, building permits are still submitted through Garden City for routing, and a complete plan review. **M/E/P trade permits (Mechanical, Electrical, and Plumbing) are permitted directly through Idaho Division of Building Safety ... Phone: (208) 472-2921",
+      "entity": [
+        "city:garden-city"
+      ],
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "sourceIds": [
+        "gardencity-building-services"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Garden City only. The page uses both 'IDOPL' and 'Idaho Division of Building Safety' for the state agency; the guide says 'the state'. No Garden City source was cached for after-the-fact permits (its code is on a different host, not fetched)."
+    },
+    {
+      "id": "cv-gardencity-code-enforcement-contact",
+      "claim": "Garden City's Code Enforcement page says anyone who wishes to speak to a code enforcement officer should call (208) 472-2950.",
+      "quotedLanguage": "If you wish to speak to a code enforcement officer, please call (208) 472-2950.",
+      "entity": [
+        "city:garden-city"
+      ],
+      "topic": [
+        "code-enforcement"
+      ],
+      "sourceIds": [
+        "gardencity-code-enforcement"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The page states no scope and no procedure. The Ada County Sheriff page lists a different Garden City number (208 472-2930). Use Garden City's own."
+    }
+  ]
+}

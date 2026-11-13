@@ -12335,6 +12335,3684 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "United States",
     "amendmentHistory": null
+  },
+  {
+    "id": "im-garn-due-on-sale-clause-defined",
+    "claim": "12 U.S.C. 1701j-3(a)(1) defines a due-on-sale clause as a contract provision that authorizes a lender, at its option, to declare the sums secured by its security instrument due and payable if all or any part of the property, or an interest in it, is sold or transferred without the lender's prior written consent.",
+    "quote": "the term \"due-on-sale clause\" means a contract provision which authorizes a lender, at its option, to declare due and payable sums secured by the lender's security instrument if all or any part of the property, or an interest therein, securing the real property loan is sold or transferred without the lender's prior written consent;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 U.S.C. § 1701j-3 — Preemption of due-on-sale prohibitions (Garn-St Germain Depository Institutions Act of 1982, § 341) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap13-sec1701j-3.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-garn-due-on-sale-enforceable-by-contract",
+    "claim": "Under 12 U.S.C. 1701j-3(b), a lender may enter into or enforce a contract containing a due-on-sale clause despite contrary state law, and, except as subsection (d) provides, the exercise of that option is governed exclusively by the terms of the loan contract.",
+    "quote": "a lender may, subject to subsection (c), enter into or enforce a contract containing a due-on-sale clause with respect to a real property loan. ... Except as otherwise provided in subsection (d), the exercise by the lender of its option pursuant to such a clause shall be exclusively governed by the terms of the loan contract, and all rights and remedies of the lender and the borrower shall be fixed and governed by the contract.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 U.S.C. § 1701j-3 — Preemption of due-on-sale prohibitions (Garn-St Germain Depository Institutions Act of 1982, § 341) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap13-sec1701j-3.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-garn-exempt-transfers-on-death",
+    "claim": "Under 12 U.S.C. 1701j-3(d), for a real property loan secured by a lien on residential real property containing less than five dwelling units, a lender may not exercise its option under a due-on-sale clause upon a transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety, upon a transfer to a relative resulting from the death of a borrower, or upon a transfer where the spouse or children of the borrower become an owner of the property.",
+    "quote": "With respect to a real property loan secured by a lien on residential real property containing less than five dwelling units, including a lien on the stock allocated to a dwelling unit in a cooperative housing corporation, or on a residential manufactured home, a lender may not exercise its option pursuant to a due-on-sale clause upon ... (3) a transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety; ... (5) a transfer to a relative resulting from the death of a borrower; ... (6) a transfer where the spouse or children of the borrower become an owner of the property;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 U.S.C. § 1701j-3 — Preemption of due-on-sale prohibitions (Garn-St Germain Depository Institutions Act of 1982, § 341) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap13-sec1701j-3.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-garn-assumption-encouraged-not-required",
+    "claim": "12 U.S.C. 1701j-3(b)(3) says that, in exercising its option under a due-on-sale clause, a lender is encouraged to permit an assumption of the loan at the existing contract rate or at a rate at or below the average between the contract and market rates, and that nothing in the section prohibits such an assumption.",
+    "quote": "In the exercise of its option under a due-on-sale clause, a lender is encouraged to permit an assumption of a real property loan at the existing contract rate or at a rate which is at or below the average between the contract and market rates, and nothing in this section shall be interpreted to prohibit any such assumption.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 U.S.C. § 1701j-3 — Preemption of due-on-sale prohibitions (Garn-St Germain Depository Institutions Act of 1982, § 341) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap13-sec1701j-3.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-successor-in-interest-defined",
+    "claim": "Regulation X, 12 CFR 1024.31, defines a successor in interest as a person to whom an ownership interest in a property securing a covered mortgage loan is transferred from a borrower, where the transfer is one of five listed kinds, including a transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety, a transfer to a relative resulting from the death of a borrower, and a transfer where the spouse or children of the borrower become an owner of the property.",
+    "quote": "Successor in interest means a person to whom an ownership interest in a property securing a mortgage loan subject to this subpart is transferred from a borrower, provided that the transfer is: ... A transfer by devise, descent, or operation of law on the death of a joint tenant or tenant by the entirety; ... A transfer to a relative resulting from the death of a borrower; ... A transfer where the spouse or children of the borrower become an owner of the property;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.31 — Definitions (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.31",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-confirmed-successor-defined",
+    "claim": "12 CFR 1024.31 defines a confirmed successor in interest as a successor in interest once a servicer has confirmed that person's identity and ownership interest in a property that secures a covered mortgage loan.",
+    "quote": "Confirmed successor in interest means a successor in interest once a servicer has confirmed the successor in interest's identity and ownership interest in a property that secures a mortgage loan subject to this subpart.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.31 — Definitions (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.31",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-confirmed-successor-treated-as-borrower",
+    "claim": "Under 12 CFR 1024.30(d), a confirmed successor in interest is considered a borrower for purposes of 12 CFR 1024.17 and the mortgage servicing subpart of Regulation X.",
+    "quote": "Successors in interest. A confirmed successor in interest shall be considered a borrower for purposes of § 1024.17 and this subpart.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.30 — Scope (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.30",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-potential-successor-written-request",
+    "claim": "Under 12 CFR 1024.36(i)(1), when a person sends a written request indicating that the person may be a successor in interest, with the name of the borrower from whom the person received an ownership interest and information identifying the loan account, the servicer must respond with a written description of the documents it reasonably requires to confirm the person's identity and ownership interest in the property, and with contact information, including a telephone number, for further assistance.",
+    "quote": "With respect to any written request from a person that indicates that the person may be a successor in interest and that includes the name of the transferor borrower from whom the person received an ownership interest and information that enables the servicer to identify the mortgage loan account, a servicer shall respond by providing the potential successor in interest with a written description of the documents the servicer reasonably requires to confirm the person's identity and ownership interest in the property and contact information, including a telephone number, for further assistance.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.36 — Requests for information (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.36",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-before-confirmation-limited-information",
+    "claim": "Under 12 CFR 1024.36(i)(3), before confirmation a servicer responding to such a request is not required to provide any information other than the description of required documents and contact information, and if the request asks for other information the servicer must indicate that the potential successor in interest may resubmit the request once confirmed.",
+    "quote": "In responding to a request under paragraph (i)(1) of this section prior to confirmation, the servicer is not required to provide any information other than the information specified in paragraphs (i)(1) and (2) of this section. In responding to a written request under paragraph (i)(1) that requests other information, the servicer must indicate that the potential successor in interest may resubmit any request for information once confirmed as a successor in interest.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.36 — Requests for information (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.36",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-servicer-policies-after-death",
+    "claim": "12 CFR 1024.38(b)(1)(vi) requires a servicer's policies and procedures to be reasonably designed to ensure that, on notice of a borrower's death, it can promptly facilitate communication with potential or confirmed successors in interest; on notice of a potential successor, promptly determine and describe the documents it reasonably requires to confirm identity and ownership interest; and on receipt of those documents, promptly make a confirmation determination and notify the person that it has confirmed the person's status, needs additional documents, or has determined the person is not a successor in interest.",
+    "quote": "Upon receiving notice of the death of a borrower or of any transfer of the property securing a mortgage loan, promptly facilitate communication with any potential or confirmed successors in interest regarding the property; ... Upon receiving notice of the existence of a potential successor in interest, promptly determine the documents the servicer reasonably requires to confirm that person's identity and ownership interest in the property and promptly provide to the potential successor in interest a description of those documents and how the person may submit a written request under § 1024.36(i) (including the appropriate address); and ... Upon the receipt of such documents, promptly make a confirmation determination and promptly notify the person, as applicable, that the servicer has confirmed the person's status, has determined that additional documents are required (and what those documents are), or has determined that the person is not a successor in interest.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.38 — General servicing policies, procedures, and requirements (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.38",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-successor-not-liable-unless-assumes",
+    "claim": "12 CFR 1024.32(c)(1) lets a servicer send a confirmed successor in interest who is not liable on the loan a written notice, which must explain that unless the successor assumes the mortgage loan obligation under State law, the successor is not liable for the mortgage debt and cannot be required to use the successor's assets to pay it, except that the lender has a security interest in the property and a right to foreclose on the property when permitted by law and authorized under the mortgage loan contract.",
+    "quote": "Unless the successor in interest assumes the mortgage loan obligation under State law, the successor in interest is not liable for the mortgage debt and cannot be required to use the successor in interest's assets to pay the mortgage debt, except that the lender has a security interest in the property and a right to foreclose on the property, when permitted by law and authorized under the mortgage loan contract;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.32 — General disclosure requirements (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.32",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-successor-notice-acknowledgment-form",
+    "claim": "Under 12 CFR 1024.32(c), the optional notice comes with an acknowledgment form; the notice must say there is no time limit to return it but that the servicer will not begin sending certain notices and communications until it is returned, and a servicer that sent the notice need not provide specified written disclosures to the confirmed successor until the successor either assumes the loan under State law or returns the acknowledgment.",
+    "quote": "Informs the successor in interest that there is no time limit to return the acknowledgment but that the servicer will not begin sending such notices and communications to the confirmed successor in interest until the acknowledgment is returned; ... until the confirmed successor in interest either assumes the mortgage loan obligation under State law or executes an acknowledgment that complies with paragraph (c)(1)(iv) of this section and provides it to the servicer.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.32 — General disclosure requirements (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.32",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-regx-successor-may-request-payoff-and-information",
+    "claim": "Under 12 CFR 1024.32(c)(1)(v), the notice must also explain that whether or not the successor in interest signs the acknowledgment, the successor is entitled to submit notices of error under 12 CFR 1024.35, requests for information under 12 CFR 1024.36, and requests for a payoff statement under 12 CFR 1026.36 for the mortgage loan account.",
+    "quote": "Whether or not the successor in interest executes the acknowledgment described in paragraph (c)(1)(iv) of this section, the successor in interest is entitled to submit notices of error under § 1024.35, requests for information under § 1024.36, and requests for a payoff statement under § 1026.36 with respect to the mortgage loan account, with a brief explanation of those rights and how to exercise them, including appropriate address information.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.32 — General disclosure requirements (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.32",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-cfpb-inherited-home-contact-servicer-proof",
+    "claim": "The CFPB says a person who has inherited a home should inform the loan servicer, and that to receive certain information about the mortgage account the person may need to show the servicer proof of their right to the home, which after a death might include a copy of the executed will and the death certificate or a letter from the executor of the estate; the servicer should say what proof it needs, and the proof available may vary from state to state. The page describes the mortgage servicer as the company that sends the monthly mortgage statement, responds to borrower inquiries and keeps track of principal and interest paid.",
+    "quote": "To receive certain information about the mortgage account, you may need to show the mortgage servicer proof of your right to the home. In the case of inheritance from someone who has died, that proof might include a copy of the executed will and the death certificate or a letter from the executor of the deceased person's estate. The mortgage servicer should tell you what kind of proof it needs. The proof that you can get may vary from state to state. ... The mortgage servicer is the company that sends the monthly mortgage statement, responds to borrower inquiries and keeps track of principal and interest paid.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "How do I get mortgage information about a home I inherited? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-mortgage-information-about-a-home-i-inherited-en-217/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-cfpb-inherited-home-ask-about-payments-and-help",
+    "claim": "The CFPB suggests asking the servicer about rights and obligations with respect to the house and the mortgage, for example how to continue making payments on the loan or how to seek a loan modification, and says the person may also want to consult an attorney or a housing counselor, and may need an attorney if facing imminent foreclosure or served with legal papers.",
+    "quote": "You also may want to ask the servicer for further information about your rights and obligations with respect to the house and the mortgage. For example, you might ask the servicer how you can continue making payments on the loan or how you can seek a loan modification. ... If you're facing imminent foreclosure or have been served with legal papers, you may also need to consult an attorney",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance",
+      "housing-counseling"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "How do I get mortgage information about a home I inherited? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-mortgage-information-about-a-home-i-inherited-en-217/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-cfpb-spotlight-act-quickly-on-payments",
+    "claim": "In a December 2024 issue spotlight, the CFPB wrote that people who become homeowners after the death of a spouse or family member, where there is a mortgage on the home, must act quickly to make mortgage payments in order to avoid foreclosure, and that the homeowner may in some circumstances wish to assume liability for the mortgage.",
+    "quote": "If there is a mortgage on the home, these homeowners must act quickly to make mortgage payments in order to avoid foreclosure. And the homeowner may in some circumstances wish to assume liability for the mortgage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Issue Spotlight: Homeowners face problems with mortgage companies after divorce or death of a loved one",
+        "url": "https://www.consumerfinance.gov/data-research/research-reports/homeowners-face-problems-with-mortgage-companies-after-divorce-or-death-of-a-loved-one/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-cfpb-spotlight-refinance-pressure-reports",
+    "claim": "The same CFPB spotlight says federal rules and mortgage program guidelines require servicers to help successor homeowners get the information they need to manage the existing mortgage and, if the homeowner chooses, to assume the existing loan terms, and reports that homeowners describe being incorrectly told that they must refinance the loan at higher interest rates rather than being offered options for managing the existing mortgage.",
+    "quote": "Federal rules and mortgage program guidelines require servicers to help these successor homeowners get the information they need to manage the existing mortgage and, if the homeowner chooses, to assume the existing loan terms. ... Homeowners report being incorrectly told that they must refinance the loan at today's higher interest rates, rather than being offered options for managing the existing mortgage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Issue Spotlight: Homeowners face problems with mortgage companies after divorce or death of a loved one",
+        "url": "https://www.consumerfinance.gov/data-research/research-reports/homeowners-face-problems-with-mortgage-companies-after-divorce-or-death-of-a-loved-one/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-cfpb-2014-successor-not-personally-liable-may-assume",
+    "claim": "In a 2014 interpretive rule published in the Federal Register, the CFPB described a successor as a person who receives legal interest in a property, typically by a transfer from a family member, by operation of law upon another's death, or under a divorce decree or separation agreement, and stated that where the successor acquires property that is subject to a mortgage, the successor is not personally liable for the associated debt but may choose to assume the debt.",
+    "quote": "A successor is a person who receives legal interest in a property, typically by a transfer from a family member, by operation of law upon another's death, or under a divorce decree or separation agreement. ... In all of these situations, where the successor acquires property that is subject to a mortgage, the successor is not personally liable for the associated debt, but may choose to assume the debt.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Application of Regulation Z's Ability-To-Repay Rule to Certain Situations Involving Successors-in-Interest (CFPB interpretive rule, 79 FR 41631, July 17, 2014)",
+        "url": "https://www.federalregister.gov/documents/2014/07/17/2014-16780/application-of-regulation-zs-ability-to-repay-rule-to-certain-situations-involving",
+        "publisher": "Office of the Federal Register — Bureau of Consumer Financial Protection",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-cfpb-2014-adding-successor-not-subject-to-atr",
+    "claim": "The CFPB's 2014 interpretive rule states that where a successor who has previously acquired title to a dwelling agrees to be added as obligor or substituted for the existing obligor on the loan secured by that dwelling, and that addition or substitution is not an 'assumption' as Regulation Z defines the term, it is not subject to the Ability-to-Repay Rule's requirements; it adds that even where a due-on-sale clause may be exercised, creditors may agree to add the successor as a named obligor under the loan contract.",
+    "quote": "The Bureau has been asked whether the creditor is obligated under the ATR Rule to determine the successor's ability to repay the mortgage before formally adding the successor as an obligor. ... such addition or substitution is not subject to the ATR Rule's requirements. A creditor may rely on this interpretation as a safe harbor under section 130(f) of TILA. ... Even where a due-on-sale clause may be exercised, however, creditors may agree to add the successor as a named obligor under the loan contract.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "inheritance"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Application of Regulation Z's Ability-To-Repay Rule to Certain Situations Involving Successors-in-Interest (CFPB interpretive rule, 79 FR 41631, July 17, 2014)",
+        "url": "https://www.federalregister.gov/documents/2014/07/17/2014-16780/application-of-regulation-zs-ability-to-repay-rule-to-certain-situations-involving",
+        "publisher": "Office of the Federal Register — Bureau of Consumer Financial Protection",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "im-idaho-specific-devise-passes-subject-to-lien",
+    "claim": "Idaho Code 15-2-609 provides that a specific devise passes subject to any security interest existing at the date of death, without right of exoneration, regardless of a general directive in the will to pay debts.",
+    "quote": "A specific devise passes subject to any security interest existing at the date of death, without right of exoneration, regardless of a general directive in the will to pay debts.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "inheritance",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-2-609 — Nonexoneration",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch2/sect15-2-609/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-2-609, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "im-idaho-pr-may-pay-or-convey-encumbered-asset",
+    "claim": "Under Idaho Code 15-3-814, if any assets of an estate are encumbered by a mortgage, pledge, lien or other security interest, the personal representative may pay the encumbrance or any part of it, renew or extend the secured obligation, or convey or transfer the assets to the creditor in satisfaction of the lien, in whole or in part, whether or not the holder has presented a claim, if it appears to be for the best interest of the estate; payment of an encumbrance does not increase the share of the distributee entitled to the encumbered assets unless the distributee is entitled to exoneration.",
+    "quote": "If any assets of the estate are encumbered by mortgage, pledge, lien, or other security interest, the personal representative may pay the encumbrance or any part thereof, renew or extend any obligation secured by the encumbrance or convey or transfer the assets to the creditor in satisfaction of his lien, in whole or in part, whether or not the holder of the encumbrance has presented a claim, if it appears to be for the best interest of the estate. Payment of an encumbrance does not increase the share of the distributee entitled to the encumbered assets unless the distributee is entitled to exoneration.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "inheritance",
+      "liens",
+      "creditor-claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-814 — Encumbered assets",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-814/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-814, as added by 1971, ch. 111, sec. 1, p. 233; am. 1978, ch. 350, sec. 13, p. 922.]"
+  },
+  {
+    "id": "im-idaho-liens-enforceable-against-estate-property",
+    "claim": "Idaho Code 15-3-812 bars execution or levy against estate property under a judgment against a decedent or a personal representative, and states that the section shall not be construed to prevent the enforcement of mortgages, pledges or liens upon real or personal property in an appropriate proceeding.",
+    "quote": "No execution may issue upon nor may any levy be made against any property of the estate under any judgment against a decedent or a personal representative, but this section shall not be construed to prevent the enforcement of mortgages, pledges or liens upon real or personal property in an appropriate proceeding.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "foreclosure",
+      "liens",
+      "creditor-claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-812 — Execution and levies prohibited",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-812/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-812, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "im-idaho-claims-procedure-excludes-secured-creditor-security",
+    "claim": "Idaho Code 15-3-104 provides that no proceeding to enforce a claim against a decedent's estate may be commenced before a personal representative is appointed, and that the section has no application to a proceeding by a secured creditor of the decedent to enforce the creditor's right to the security, except as to any deficiency judgment that might be sought in it.",
+    "quote": "No proceeding to enforce a claim against the estate of a decedent or his successors may be revived or commenced before the appointment of a personal representative. ... This section has no application to a proceeding by a secured creditor of the decedent to enforce his right to his security except as to any deficiency judgment which might be sought therein.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "probate",
+      "foreclosure",
+      "creditor-claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-3-104 — Claims against decedent — Necessity of administration",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-104/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 15-3-104, as added by 1971, ch. 111, sec. 1, p. 233.]"
+  },
+  {
+    "id": "rv-hecm-due-when-last-borrower-dies",
+    "claim": "Under 24 CFR 206.27(c)(1), a HECM mortgage must state that the outstanding loan balance will be due and payable in full if a borrower dies and the property is not the principal residence of at least one surviving borrower, except that due and payable status is deferred if the requirements of the Deferral Period for an Eligible Non-Borrowing Spouse are met.",
+    "quote": "The mortgage shall state that the outstanding loan balance will be due and payable in full if a borrower dies and the property is not the principal residence of at least one surviving borrower, except that the due and payable status shall be deferred in accordance with paragraph (c)(3) of this section if the requirements of the Deferral Period are met",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.27 — Mortgage provisions (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-B/subject-group-ECFR2c6b21dfeb00cb4/section-206.27",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-no-personal-liability-no-deficiency",
+    "claim": "24 CFR 206.27(b)(8) requires a HECM mortgage to provide that the borrower has no personal liability for payment of the outstanding loan balance, that the mortgagee enforces the debt only through sale of the property, and that the mortgagee may not obtain a deficiency judgment against the borrower if the mortgage is foreclosed.",
+    "quote": "The borrower shall have no personal liability for payment of the outstanding loan balance. The mortgagee shall enforce the debt only through sale of the property. The mortgagee shall not be permitted to obtain a deficiency judgment against the borrower if the mortgage is foreclosed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.27 — Mortgage provisions (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-B/subject-group-ECFR2c6b21dfeb00cb4/section-206.27",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-borrower-definition",
+    "claim": "24 CFR 206.3 defines a HECM borrower as a mortgagor who is an original borrower under the HECM Loan Agreement and Note, and says the term does not include successors or assigns of a borrower; it defines a Non-Borrowing Spouse as the spouse of the HECM borrower at the time of closing who is not also a borrower.",
+    "quote": "Borrower means a mortgagor who is an original borrower under the HECM Loan Agreement and Note. The term does not include successors or assigns of a borrower. ... Non-Borrowing Spouse means the spouse, as defined by the law of the state in which the spouse and borrower reside or the state of celebration, of the HECM borrower at the time of closing and who is also not a borrower.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.3 — Definitions (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-A/section-206.3",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-deferral-period-definition",
+    "claim": "24 CFR 206.3 defines the Deferral Period as the period following the death of the last surviving borrower during which the due and payable status of a HECM is deferred for an Eligible Non-Borrowing Spouse, provided the Qualifying Attributes and all other FHA requirements continue to be satisfied.",
+    "quote": "Deferral Period means the period of time following the death of the last surviving borrower during which the due and payable status of a HECM is deferred for an Eligible Non-Borrowing Spouse provided that the Qualifying Attributes and all other FHA requirements continue to be satisfied.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.3 — Definitions (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-A/section-206.3",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-due-notice-30-days-to-act",
+    "claim": "Under 24 CFR 206.125(a), the mortgagee must notify the FHA Commissioner within 60 days of a HECM becoming due and payable because of a death, must then notify the borrower's estate and heirs (and any Eligible Non-Borrowing Spouse), as applicable, within 30 days that the mortgage is due and payable, and must give the applicable party 30 days from the date of that notice to take one of the listed actions.",
+    "quote": "The mortgagee shall notify the Commissioner within 60 days of the mortgage becoming due and payable when the conditions stated in the mortgage, as required by § 206.27(c)(1) have occurred or when the Deferral Period ends. ... After notifying and receiving approval of the Commissioner when needed, the mortgagee shall notify the borrower, Eligible Non-Borrowing Spouse, borrower's estate, and borrower's heir(s), as applicable, within 30 days of the later of notifying the Commissioner or receiving approval, if needed, that the mortgage is due and payable. The mortgagee shall give the applicable party 30 days from the date of notice to engage in the following actions:",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.125 — Acquisition and sale of the property (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.125",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-options-after-due-notice",
+    "claim": "The actions 24 CFR 206.125(a)(2) lists for the notified party include paying the outstanding loan balance in full, including accrued interest, mortgage insurance premium and mortgagee advances; selling the property; providing the mortgagee with a deed in lieu of foreclosure; and such other actions as the Commissioner permits through notice.",
+    "quote": "Pay the outstanding loan balance, including any accrued interest, MIP, and mortgagee advances in full; ... Provide the mortgagee with a deed in lieu of foreclosure; ... Such other actions as permitted by the Commissioner through notice.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.125 — Acquisition and sale of the property (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.125",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-sale-floor-95-percent-appraised",
+    "claim": "24 CFR 206.125(a)(2)(ii) lets the notified party sell the property for an amount not less than the amount the Commissioner determines through notice, which may not exceed 95 percent of the appraised value, with the net proceeds applied to the outstanding loan balance; closing costs may not exceed the greater of 11 percent of the sales price or a fixed dollar amount set by the Commissioner; and for this section 'sell' includes the transfer of title by operation of law.",
+    "quote": "Sell the property for an amount not to be less than the amount determined by the Commissioner through notice, which shall not exceed 95 percent of the appraised value as determined under § 206.125(b), with the net proceeds of the sale to be applied towards the outstanding loan balance. Closing costs shall not exceed the greater of: 11 percent of the sales price; or a fixed dollar amount as determined by the Commissioner through Federal Register notice. For the purposes of this section, sell includes the transfer of title by operation of law;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.125 — Acquisition and sale of the property (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.125",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-appraisal-within-30-days-of-request",
+    "claim": "Under 24 CFR 206.125(b), the mortgagee must have the property appraised no later than 30 days after receiving a request from an applicable party in connection with a potential sale; when the mortgage is due and payable the appraisal is at the mortgagee's expense, but the mortgagee has a right to be reimbursed out of the proceeds of any sale.",
+    "quote": "The mortgagee shall have the property appraised by an appraiser on the FHA roster, or other appraiser acceptable to, and identified by, the Commissioner through Federal Register notice, no later than 30 days after receipt of the request by an applicable party in connection with a potential property sale. ... If the mortgage is due and payable, the appraisal shall be at the mortgagee's expense but the mortgagee shall have a right to be reimbursed out of the proceeds of any sale by the borrower or other permissible party.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.125 — Acquisition and sale of the property (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.125",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-sale-by-party-with-legal-right",
+    "claim": "Under 24 CFR 206.125(c), where a HECM is due and payable when the contract for sale is executed, the borrower or other party with legal right to dispose of the property may sell it in accordance with the amount established by 206.125(a)(2)(ii), and the mortgagee must satisfy the mortgage of record to facilitate the sale, provided there are no junior liens (other than a second mortgage to the Commissioner) and all the net proceeds from the sale are paid to the mortgagee.",
+    "quote": "Where the HECM is due and payable at the time the contract for sale is executed, the borrower or other party with legal right to dispose of the property may sell the property in accordance with the amount established by § 206.125(a)(2)(ii). The mortgagee shall satisfy the mortgage of record (and the Commissioner will satisfy any second mortgage required by the Commissioner under § 206.27(d) of record) in order to facilitate the sale, provided that there are no junior liens (except the mortgage to secure payments by the Commissioner if required under § 206.27(d)) and all the net proceeds from the sale are paid to the mortgagee.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.125 — Acquisition and sale of the property (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.125",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-foreclosure-within-six-months",
+    "claim": "24 CFR 206.125(d) requires the mortgagee to commence foreclosure of a HECM within six months of the due date defined in 206.129(d)(1), or within such additional time as the Commissioner approves; if state or local law or federal bankruptcy law does not permit that, within six months after the prohibition expires.",
+    "quote": "The mortgagee shall commence foreclosure of the mortgage within six months of the due date defined in § 206.129(d)(1), or within such additional time as may be approved by the Commissioner. ... the mortgagee shall commence foreclosure within six months after the expiration of the time during which such foreclosure is prohibited by such laws.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.125 — Acquisition and sale of the property (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.125",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-due-and-payable-date-definition",
+    "claim": "24 CFR 206.129(d)(1) defines the due and payable date as the date the mortgagee notifies or should have notified the Commissioner that the mortgage is due and payable under the conditions required by 206.27(c)(1), or the date the Deferral Period ends, or the date the Commissioner approved a due and payable request.",
+    "quote": "Due and payable date means the date when the mortgagee notifies or should have notified the Commissioner that the mortgage is due and payable under the conditions stated in the mortgage, as required by § 206.27(c)(1) or the date that the Deferral Period, as provided for in the mortgage by § 206.27(c)(3), ends; or the date the Commissioner approved a due and payable request as provided for in the mortgage by § 206.27(c)(2).",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.129 — Payment of claim (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.129",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-deed-in-lieu-nine-months",
+    "claim": "Under 24 CFR 206.125(f), the mortgagee must accept a deed in lieu of foreclosure from the borrower or other party with legal right to dispose of the property, provided it is filed for recording within 9 months of the due date and the mortgagee is able to obtain good and marketable title; in exchange the mortgagee cancels the credit instrument and satisfies the mortgage of record.",
+    "quote": "the mortgagee shall accept a deed in lieu of foreclosure from the borrower or other party with legal right to dispose of the property provided it is filed for recording within 9 months of the due date and the mortgagee is able to obtain good and marketable title. ... In exchange for the executed and delivered deed, the mortgagee shall cancel the credit instrument and deliver it to the borrower and satisfy the mortgage of record.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.125 — Acquisition and sale of the property (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-C/subject-group-ECFRd09050999b4dfd2/section-206.125",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-eligible-spouse-qualifying-attributes",
+    "claim": "Under 24 CFR 206.55(a) and (c)(1), if the last surviving borrower dies before an Eligible Non-Borrowing Spouse, due and payable status is deferred for as long as that spouse meets the Qualifying Attributes and the section's other requirements; to qualify the spouse must have been the borrower's spouse at loan closing and for the rest of the borrower's life, have been disclosed to the mortgagee at origination and specifically named as an Eligible Non-Borrowing Spouse in the HECM documents, and have occupied and continue to occupy the property as a principal residence.",
+    "quote": "If the last surviving borrower predeceases an Eligible Non-Borrowing Spouse, and if the requirements of paragraph (d) of this section are satisfied, the due and payable status will be deferred for as long as the Eligible Non-Borrowing Spouse continues to meet the Qualifying Attributes in paragraph (c) of this section and the requirements of paragraphs (d) and (e) of this section. ... Have been the spouse of a HECM borrower at the time of loan closing and remained the spouse of such HECM borrower for the duration of the HECM borrower's lifetime; ... Have been properly disclosed to the mortgagee at origination and specifically named as an Eligible Non-Borrowing Spouse in the HECM mortgage and loan documents; ... Have occupied, and continue to occupy, the property securing the HECM as his or her principal residence; and",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.55 — Deferral of due and payable status for Eligible Non-Borrowing Spouses (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-B/subject-group-ECFR4e14d7dc08e86a6/section-206.55",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-deferral-90-days-legal-right",
+    "claim": "24 CFR 206.55(d) requires an Eligible Non-Borrowing Spouse, within 90 days from the death of the last surviving HECM borrower, to establish legal ownership or another ongoing legal right to remain for life in the property, and afterwards to ensure the borrower's other loan obligations continue to be satisfied; 206.55(f) says nothing in the section interferes with the ability of the borrower's estate or heirs to dispose of the property if they are otherwise legally entitled to do so.",
+    "quote": "Within 90 days from the death of the last surviving HECM borrower, establish legal ownership or other ongoing legal right to remain for life in the property securing the HECM; ... After the death of the last surviving borrower, ensure all other obligations of the HECM borrower(s) contained in the loan documents continue to be satisfied; and ... Nothing in this section may be construed as interrupting or interfering with the ability of the borrower's estate or heir(s) to dispose of the property if they are otherwise legally entitled to do so.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.55 — Deferral of due and payable status for Eligible Non-Borrowing Spouses (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-B/subject-group-ECFR4e14d7dc08e86a6/section-206.55",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hecm-ineligible-spouse-due-immediately",
+    "claim": "Under 24 CFR 206.55(b)(1) and (c)(2), if a Non-Borrowing Spouse no longer satisfies the Qualifying Attributes, the mortgagee may not provide an opportunity to cure and the HECM becomes immediately due and payable as a result of the death of the last surviving borrower; a spouse who was ineligible for the Deferral Period at loan origination does not become eligible later when the borrowing spouse dies.",
+    "quote": "If a Deferral Period ceases or becomes unavailable because a Non-Borrowing Spouse no longer satisfies the Qualifying Attributes and has become an Ineligible Non-Borrowing Spouse, a mortgagee may not provide an opportunity to cure the default, and the HECM will become immediately due and payable as a result of the death of the last surviving borrower. ... A Non-Borrowing Spouse that is ineligible for the Deferral Period at the time of loan origination because he or she failed to satisfy the Qualifying Attributes requirements in paragraph (c)(1) of this section is not subsequently eligible for a Deferral Period when the borrowing spouse dies or moves out of the home.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "24 CFR § 206.55 — Deferral of due and payable status for Eligible Non-Borrowing Spouses (Home Equity Conversion Mortgage Insurance)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-206/subpart-B/subject-group-ECFR4e14d7dc08e86a6/section-206.55",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-cfpb-heirs-30-days-up-to-six-months",
+    "claim": "The CFPB says a reverse mortgage loan becomes due and payable after the borrower's death and the death of any coborrowers or eligible nonborrowing spouse; that once heirs receive a due and payable notice from the lender they have 30 days to buy, sell, or turn the home over to the lender; that this is the case for HECMs; and that it might be possible for the timeline to be extended up to six months so heirs can sell the home or obtain their own loan.",
+    "quote": "A reverse mortgage loan becomes due and payable after your death and after the death of any coborrowers or of an eligible nonborrowing spouse. Once your heirs receive a due and payable notice from the lender, they have 30 days to buy, sell, or turn the home over to the lender to satisfy the debt. This is the case for Home Equity Conversion Mortgages (HECMs), which are the most common type of reverse mortgage loan. ... However, it might be possible for the timeline to be extended up to six months so your heirs can sell the home or obtain their own loan to purchase the home. Your heirs can consult a HUD-approved housing counseling agency or an attorney for more information.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "With a reverse mortgage loan, can my heirs keep or sell my home after I die? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/with-a-reverse-mortgage-loan-can-my-heirs-keep-or-sell-my-home-after-i-die-en-242/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-cfpb-heirs-keep-full-balance-sell-95-percent",
+    "claim": "The CFPB says that where there is no coborrower or eligible nonborrowing spouse, heirs who want to keep the home must pay the full loan balance, and to sell it they must repay the full loan balance, or at least 95 percent of its appraised value if the loan balance owed is more than the home value.",
+    "quote": "It depends on whether there are coborrowers or an eligible nonborrowing spouse. If there are neither, to keep the home, heirs must pay the full loan balance. To sell it, they must repay the full loan balance, or at least 95 percent of its appraised value if the loan balance owed is more than the home value.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "With a reverse mortgage loan, can my heirs keep or sell my home after I die? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/with-a-reverse-mortgage-loan-can-my-heirs-keep-or-sell-my-home-after-i-die-en-242/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-cfpb-sale-surplus-or-insurance-covers-rest",
+    "claim": "The CFPB says that when the home is worth more than the amount owed on the reverse mortgage, heirs can sell the home, repay the loan and keep the difference; and that when the home is worth less than the amount owed, heirs can pay off the loan by selling the home for at least 95 percent of its appraised value, with the rest of the loan covered by the mortgage insurance the borrower paid during the loan.",
+    "quote": "your home might be worth more than the amount owed on the reverse mortgage. This means your heirs can sell the home, use the money to repay the loan, and keep the difference. ... your home might be worth less than the amount owed on the reverse mortgage. This means your heirs can pay off the loan by selling the home for at least 95 percent of the home's appraised value. The rest of the loan is covered by the mortgage insurance that the reverse mortgage borrower paid during the duration of the loan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "With a reverse mortgage loan, can my heirs keep or sell my home after I die? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/with-a-reverse-mortgage-loan-can-my-heirs-keep-or-sell-my-home-after-i-die-en-242/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-cfpb-heirs-lesser-of-balance-or-95-percent",
+    "claim": "A CFPB page last reviewed January 2, 2025 says that heirs who want to keep the home after the borrower and any Eligible Non-Borrowing Spouse die will have to repay either the full loan balance or 95 percent of the home's appraised value, whichever is less.",
+    "quote": "If your heirs want to keep your home after you and your Eligible Non-Borrowing Spouse die, your heirs will have to repay either the full loan balance or 95 percent of the home's appraised value – whichever is less.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What happens to my reverse mortgage when I die? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-my-reverse-mortgage-when-i-die-en-2096/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-cfpb-coborrower-remains-in-home",
+    "claim": "The CFPB says that when there is a co-borrower on a reverse mortgage and one borrower dies, the co-borrower will be able to remain in the home and receive loan payments as long as they meet the obligations of the loan.",
+    "quote": "If one borrower dies, the co-borrower will be able to remain in the home and receive loan payments as long as they meet the obligations of the reverse mortgage loan",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What happens to my reverse mortgage when I die? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-my-reverse-mortgage-when-i-die-en-2096/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-cfpb-nonborrowing-spouse-case-number-date",
+    "claim": "The CFPB says a non-borrowing spouse may be able to stay in the home without paying off the loan, depending on when the loan was taken out and whether they qualify as an Eligible Non-Borrowing Spouse under HUD rules; that an Eligible Non-Borrowing Spouse will not get any money from the reverse mortgage; that qualifying may be difficult; and it describes separate processes for HECMs with FHA case numbers assigned on or after August 4, 2014 and before that date.",
+    "quote": "They may also be able to stay in the home without paying off the loan, depending on when the loan was taken out and whether they qualify as an Eligible Non-Borrowing Spouse under U.S. Department of Housing and Urban Development (HUD) rules. An Eligible Non-Borrowing Spouse will not get any money from the reverse mortgage. The process of qualifying to be an Eligible Non-Borrowing Spouse may be difficult. ... For HECMs with Federal Housing Administration (FHA) case numbers assigned on or after August 4, 2014 ... For HECMs with FHA case numbers assigned before August 4, 2014",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What happens to my reverse mortgage when I die? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-my-reverse-mortgage-when-i-die-en-2096/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-cfpb-three-types-of-reverse-mortgage",
+    "claim": "The CFPB says there are several kinds of reverse mortgage loans: those insured by the Federal Housing Administration, proprietary reverse mortgage loans that are not FHA-insured, and single-purpose reverse mortgage loans offered by state and local governments; that most reverse mortgage loans today are HECMs insured by the FHA; and that non-HECM reverse mortgage loans are not federally insured.",
+    "quote": "There are several kinds of reverse mortgage loans: (1) those insured by the Federal Housing Administration (FHA); (2) proprietary reverse mortgage loans that are not FHA-insured; and (3) single-purpose reverse mortgage loans offered by state and local governments. ... Most reverse mortgage loans today are Home Equity Conversion Mortgages (HECMs), insured by the Federal Housing Administration (FHA), which is a part of the U.S. Department of Housing and Urban Development (HUD). ... These non-HECM reverse mortgage loans are not federally insured.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Are there different types of reverse mortgages? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/are-there-different-types-of-reverse-mortgages-en-226/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-cfpb-reverse-mortgage-how-it-works",
+    "claim": "The CFPB says that with a reverse mortgage loan the title to the home remains in the borrower's name, borrowers do not make monthly mortgage payments, interest and fees are added to the loan balance each month so the balance grows, and the homeowners or their heirs will eventually have to pay back the loan, usually by selling the home.",
+    "quote": "when you take out a reverse mortgage loan, the title to your home remains in your name. However, unlike a traditional mortgage, with a reverse mortgage loan, borrowers don't make monthly mortgage payments. ... Interest and fees are added to the loan balance each month and the balance grows. ... The homeowners or their heirs will eventually have to pay back the loan, usually by selling the home.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a reverse mortgage? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-reverse-mortgage-en-224/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hud-hecm-only-federally-insured",
+    "claim": "HUD says the only reverse mortgage insured by the U.S. Federal Government is the Home Equity Conversion Mortgage (HECM), which is available only through an FHA-approved lender.",
+    "quote": "The only reverse mortgage insured by the U.S. Federal Government is called a Home Equity Conversion Mortgage (HECM), and is only available through a Federal Housing Administration (FHA)-approved lender.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "HUD FHA Reverse Mortgage for Seniors (HECM) — HUD.gov",
+        "url": "https://www.hud.gov/hud-partners/single-family-hecmhome",
+        "publisher": "U.S. Department of Housing and Urban Development",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hud-fact-sheet-sell-95-or-pay-in-full",
+    "claim": "HUD's fact sheet on inheriting a home secured by an FHA-insured HECM (dated 9/2019) says that if the loan balance is more than the home is worth, the estate or heirs may sell the home for at least 95 percent of the current appraised value and the lender will accept the net proceeds as satisfaction of the loan, that any post-death transfer is considered a 'sale' for these purposes, and that heirs who prefer to keep the home must pay off the HECM loan balance in full.",
+    "quote": "If the loan balance is more than the home is worth, the estate or heirs may sell the home for at least 95-percent of the current appraised value and the lender will accept the net proceeds as satisfaction of the loan. Any post death transfer is considered a \"sale\" for these purposes. ... If you prefer to keep the home instead of selling it, the HECM loan balance must be paid off in full.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Inheriting a Home Secured by an FHA-insured Home Equity Conversion Mortgage (fact sheet, 9/2019)",
+        "url": "https://www.hud.gov/sites/dfiles/SFH/documents/inheriting_hecm_09-23-19.pdf",
+        "publisher": "U.S. Department of Housing and Urban Development — Federal Housing Administration",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hud-fact-sheet-30-days-and-90-day-extensions",
+    "claim": "HUD's 9/2019 fact sheet says the loan must be satisfied within 30 days of the date of the borrower's death, and that the lender may approve 90-day extensions with satisfactory documentation that the estate or heirs are actively trying to sell the property or repay the HECM loan.",
+    "quote": "The loan must be satisfied within 30 days of the date of the borrower's death. ... The lender may approve 90-day extensions with satisfactory documentation ... that the estate or heirs are actively trying to sell the property or repay the",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "foreclosure"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Inheriting a Home Secured by an FHA-insured Home Equity Conversion Mortgage (fact sheet, 9/2019)",
+        "url": "https://www.hud.gov/sites/dfiles/SFH/documents/inheriting_hecm_09-23-19.pdf",
+        "publisher": "U.S. Department of Housing and Urban Development — Federal Housing Administration",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rv-hud-fact-sheet-taxes-insurance-estate",
+    "claim": "HUD's 9/2019 fact sheet says property taxes and insurance on the property remain the responsibility of the borrower's estate until title is transferred, and tells heirs to contact the HECM lender immediately to review their responsibilities and options.",
+    "quote": "Property taxes and insurance on the property remain the responsibility of the borrower's estate until title is transferred. ... Contact the HECM lender immediately to review your responsibilities and options.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "reverse-mortgage",
+      "inheritance",
+      "lending"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Inheriting a Home Secured by an FHA-insured Home Equity Conversion Mortgage (fact sheet, 9/2019)",
+        "url": "https://www.hud.gov/sites/dfiles/SFH/documents/inheriting_hecm_09-23-19.pdf",
+        "publisher": "U.S. Department of Housing and Urban Development — Federal Housing Administration",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-exclusion-250k-500k",
+    "claim": "IRS Topic 701 says a taxpayer with a capital gain from the sale of a main home may qualify to exclude up to $250,000 of that gain from income, or up to $500,000 on a joint return with a spouse.",
+    "quote": "If you have a capital gain from the sale of your main home, you may qualify to exclude up to $250,000 of that gain from your income, or up to $500,000 of that gain if you file a joint return with your spouse.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "home-sale-exclusion"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 701, Sale of your home",
+        "url": "https://www.irs.gov/taxtopics/tc701",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-ownership-and-use-tests",
+    "claim": "IRS Topic 701 says that in general a seller must meet both an ownership test and a use test: owning the home for at least 24 months out of the 5 years leading up to the sale, and using it as a residence for at least 24 months of the previous 5 years. The two tests can be met during different 2-year periods, but both must be met within the 5-year period ending on the date of sale.",
+    "quote": "In general, to qualify for this exclusion, you must meet both the ownership test and the use test. ... owned the home for at least 24 months (2 years) out of the last 5 years leading up to the date of the sale, you meet the ownership test. ... used the home as a residence for at least 24 months (2 years) of the previous 5 years, you meet the use test. You can meet the ownership and use tests during different 2-year periods. However, you must meet both tests during the 5-year period ending on the date of the sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "home-sale-exclusion"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 701, Sale of your home",
+        "url": "https://www.irs.gov/taxtopics/tc701",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-two-year-lookback",
+    "claim": "IRS Topic 701 says a seller is generally not eligible for the exclusion if they excluded the gain from the sale of another home during the two-year period before the sale.",
+    "quote": "not eligible for the exclusion if you excluded the gain from the sale of another home during the two-year period prior to the sale of your home.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "home-sale-exclusion"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 701, Sale of your home",
+        "url": "https://www.irs.gov/taxtopics/tc701",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-report-sale-if-1099s",
+    "claim": "IRS Topic 701 says a seller who receives an informational document such as Form 1099-S must report the sale of the home even if the gain is excludable, and must also report the sale if not all of the gain can be excluded; Schedule D (Form 1040) and Form 8949 are used when the sale must be reported.",
+    "quote": "you must report the sale of the home even if the gain from the sale is excludable. Additionally, you must report the sale of the home if you can't exclude all of your capital gain from income. Use Schedule D (Form 1040), Capital Gains and Losses and Form 8949, Sales and Other Dispositions of Capital Assets when required to report the home sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "reporting"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 701, Sale of your home",
+        "url": "https://www.irs.gov/taxtopics/tc701",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-pub523-joint-return-tests",
+    "claim": "IRS Publication 523 (2025) says that for a married couple filing jointly only one spouse has to meet the ownership requirement, that the residence requirement is a total of 24 months (730 days) within the 5-year period and need not be one block of time, and that each spouse must meet the residence requirement individually for the couple to get the full exclusion.",
+    "quote": "For a married couple filing jointly, only one spouse has to meet the ownership requirement. ... The 24 months of residence can fall anywhere within the 5-year period, and it doesn't have to be a single block of time. All that is required is a total of 24 months (730 days) of residence during the 5-year period. Unlike the ownership requirement, each spouse must meet the residence requirement individually for a married couple filing jointly to get the full exclusion.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "home-sale-exclusion"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 523 (2025), Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-partial-exclusion",
+    "claim": "IRS Publication 523 (2025) says a seller who does not meet the Eligibility Test may still qualify for a partial exclusion of gain if the main reason for the home sale was a change in workplace location, a health issue, or an unforeseeable event.",
+    "quote": "If you don't meet the Eligibility Test, you may still qualify for a partial exclusion of gain. You can meet the requirements for a partial exclusion if the main reason for your home sale was a change in workplace location, a health issue, or an unforeseeable event.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "home-sale-exclusion"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 523 (2025), Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-gain-is-amount-realized-less-basis",
+    "claim": "IRS Publication 523 (2025) says that to figure gain or loss on the sale of a main home a seller must know the selling price, the amount realized and the adjusted basis, and subtracts the adjusted basis from the amount realized; the worksheet describes the amount realized as the sale price minus selling expenses.",
+    "quote": "To figure the gain or loss on the sale of your main home, you must know the selling price, the amount realized, and the adjusted basis. Subtract the adjusted basis from the amount realized to get your gain or loss. ... (sale price minus selling expenses)",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "basis"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 523 (2025), Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-loss-on-home-not-deductible",
+    "claim": "IRS Publication 523 (2025) says that when the adjusted basis is greater than the amount realized the home was sold at a loss, that the loss cannot be deducted, and that no tax is due on the money received from the sale.",
+    "quote": "If the number is negative (adjusted basis is greater than amount realized), you sold your home at a loss. You can't deduct this loss, but you don't need to pay any tax on the money you received from selling your home.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 523 (2025), Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-nonqualified-use",
+    "claim": "IRS Publication 523 (2025) says gain from the sale of a main home is not excludable to the extent it is allocable to periods of nonqualified use, meaning any period after 2008 when neither the seller nor the seller's spouse or former spouse used the property as a main home, with certain exceptions.",
+    "quote": "Gain from the sale or exchange of your main home isn't excludable from income if it is allocable to periods of nonqualified use. Nonqualified use means any period after 2008 when neither you nor your spouse (or former spouse) used the property as your main home, with certain exceptions.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "home-sale-exclusion",
+      "rental"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 523 (2025), Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-depreciation-not-excludable",
+    "claim": "IRS Publication 523 (2025) says a seller who was entitled to take depreciation deductions because the home was used for business or as rental property cannot exclude the part of the gain equal to any depreciation allowed or allowable for periods after May 6, 1997.",
+    "quote": "If you were entitled to take depreciation deductions because you used your home for business purposes or as rental property, you cannot exclude the part of your gain equal to any depreciation allowed or allowable as a deduction for periods after May 6, 1997.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "rental",
+      "depreciation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 523 (2025), Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-inherited-home-basis-pub523",
+    "claim": "IRS Publication 523 (2025) says the basis of a home inherited from a decedent is the fair market value of the property on the date of the decedent's death, or on the later alternate valuation date chosen by the personal representative of the estate, and that if a federal estate tax return (Form 706) was filed or required, the value listed on that return is the basis.",
+    "quote": "If you inherited your home from a decedent who died before or after 2010, your basis is the fair market value of the property on the date of the decedent's death (or the later alternate valuation date chosen by the personal representative of the estate). If a federal estate tax return (Form 706) was filed or required to be filed, the value of the property listed on the estate tax return is your basis.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "basis",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 523 (2025), Selling Your Home",
+        "url": "https://www.irs.gov/publications/p523",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-inherited-basis-pub551",
+    "claim": "IRS Publication 551 (revised December 2025) says the basis of property inherited from a decedent is generally the fair market value of the property at the date of the individual's death, or the fair market value on the alternate valuation date if the personal representative chooses alternate valuation, among other listed possibilities.",
+    "quote": "Generally, the basis of property inherited from a decedent is one of the following. ... The FMV of the property at the date of the individual's death. ... The FMV on the alternate valuation date if the personal representative for the estate chooses to use alternate valuation.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "basis",
+      "inheritance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 551 (12/2025), Basis of Assets",
+        "url": "https://www.irs.gov/publications/p551",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-community-property-basis",
+    "claim": "IRS Publication 551 (revised December 2025) lists Idaho among the community property states and says that when either spouse dies, the total value of the community property, even the part belonging to the surviving spouse, generally becomes the basis of the entire property, provided at least half the value of the community property interest is includible in the decedent's gross estate.",
+    "quote": "In community property states (Arizona, California, Idaho, Louisiana, Nevada, New Mexico, Texas, Washington, and Wisconsin), married individuals are each usually considered to own half the community property. When either spouse dies, the total value of the community property, even the part belonging to the surviving spouse, generally becomes the basis of the entire property. For this rule to apply, at least half the value of the community property interest must be includible in the decedent's gross estate, whether or not the estate must file a return.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "basis",
+      "inheritance",
+      "community-property"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Publication 551 (12/2025), Basis of Assets",
+        "url": "https://www.irs.gov/publications/p551",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-basis-cost-and-adjustments",
+    "claim": "IRS Topic 703 says the basis of an asset is in most situations its cost, that a taxpayer must determine adjusted basis before figuring gain or loss on a sale, and that basis is increased by items such as the cost of improvements that add to the value of the property and decreased by items such as allowable depreciation and insurance reimbursements for casualty and theft losses.",
+    "quote": "In most situations, the basis of an asset is its cost to you. ... Before figuring gain or loss on a sale, exchange, or other disposition of property, or before figuring allowable depreciation, you must determine your adjusted basis in that property. ... Increase your basis by items such as the cost of improvements that add to the value of the property, and decrease it by items such as allowable depreciation and insurance reimbursements for casualty and theft losses.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "basis"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 703, Basis of assets",
+        "url": "https://www.irs.gov/taxtopics/tc703",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-long-term-more-than-one-year",
+    "claim": "IRS Topic 409 says a capital gain or loss is generally long-term if the asset was held for more than one year before disposal and short-term if held one year or less, with exceptions that include property acquired from a decedent, and that net short-term capital gains are taxed as ordinary income at graduated rates.",
+    "quote": "Generally, if you hold the asset for more than one year before you dispose of it, your capital gain or loss is long-term. If you hold it one year or less, your capital gain or loss is short-term. For exceptions to this rule, such as property acquired by gift, property acquired from a decedent, or patent property, refer to Publication 544 ... Net short-term capital gains are subject to taxation as ordinary income at graduated tax rates.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 409, Capital gains and losses",
+        "url": "https://www.irs.gov/taxtopics/tc409",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-irs-capital-gain-rates-ty2025",
+    "claim": "IRS Topic 409, last reviewed 9 November 2026, says that for taxable years beginning in 2025 the tax rate on most net capital gain is no higher than 15% for most individuals, that some or all net capital gain may be taxed at 0%, that a 20% rate applies to the extent taxable income exceeds the thresholds set for the 15% rate, and that the portion of any unrecaptured section 1250 gain from selling section 1250 real property is taxed at a maximum 25% rate.",
+    "quote": "Net capital gains are taxed at different rates depending on overall taxable income, although some or all net capital gain may be taxed at 0% ... For taxable years beginning in 2025, the tax rate on most net capital gain is no higher than 15% for most individuals. ... However, a capital gains rate of 20% applies to the extent that your taxable income exceeds the thresholds set for the 15% capital gain rate. ... The portion of any unrecaptured section 1250 gain from selling section 1250 real property is taxed at a maximum 25% rate.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "capital-gains",
+      "rates"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 409, Capital gains and losses",
+        "url": "https://www.irs.gov/taxtopics/tc409",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-id-taxable-income-is-federal-as-modified",
+    "claim": "Idaho Code 63-3011B defines 'taxable income' as federal taxable income as determined under the Internal Revenue Code, and 63-3011C defines 'Idaho taxable income' as taxable income as modified by the Idaho adjustments specifically provided in the income tax chapter.",
+    "quote": "The term \"taxable income\" means federal taxable income as determined under the Internal Revenue Code. ... The term \"Idaho taxable income\" means taxable income as modified pursuant to the Idaho adjustments specifically provided in this chapter.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-3011B — Taxable income",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3011b/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      },
+      {
+        "title": "Idaho Code § 63-3011C — Idaho taxable income",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3011c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-3011B, added 1995, ch. 111, sec. 4, p. 350.]"
+  },
+  {
+    "id": "cg-id-3022h-sixty-percent-deduction",
+    "claim": "Idaho Code 63-3022H(1) gives an individual taxpayer who reports capital gain net income in determining Idaho taxable income a deduction of sixty percent of the capital gain net income from the sale or exchange of qualified property (eighty percent applied only to taxable year 2001).",
+    "quote": "If an individual taxpayer reports capital gain net income in determining Idaho taxable income, eighty percent (80%) in taxable year 2001 and sixty percent (60%) in taxable years thereafter of the capital gain net income from the sale or exchange of qualified property shall be a deduction in determining Idaho taxable income.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains",
+      "deductions"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-3022H — Deduction of capital gains",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3022h/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-3022H, added 1987, ch. 324, sec. 1, p. 680; am. 1994, ch. 39, sec. 2, p. 62; am. 1995, ch. 83, sec. 3, p. 244; am. 1995, ch. 111, sec. 15, p. 359; am. 1996, ch. 41, sec. 2, p. 111; am. 1997, ch. 56, sec. 1, p. 94; am. 1998, ch. 414, sec. 1, p. 1306; am. 2001, ch. 321, sec. 1, p. 1136; am. 2001, ch. 323, sec. 1, p. 1138; am. 2002, ch. 35, sec. 2, p. 68; am. 2005, ch. 208, sec. 1, p. 624; am. 2008, ch. 314, sec. 1, p. 873; am. 2010, ch. 5, sec. 1, p. 6; am. 2015, ch. 41, sec. 1, p. 93; am. 2015, ch. 70, sec. 1, p. 188; am. 2015, ch. 269, sec. 1, p. 1122; am. 2016, ch. 188, sec. 1, p. 511; am. 2018, ch. 186, sec. 1, p. 409.]"
+  },
+  {
+    "id": "cg-id-3022h-real-property-twelve-months",
+    "claim": "Under Idaho Code 63-3022H(3), property held by an estate, trust, S corporation, partnership, limited liability company or an individual is qualified property if it had an Idaho situs at the time of sale and is, among other listed categories, real property held at least twelve months.",
+    "quote": "Property held by an estate, trust, S corporation, partnership, limited liability company or an individual is \"qualified property\" under this section if the property had an Idaho situs at the time of sale and is: ... (a) Real property held at least twelve (12) months;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains",
+      "deductions"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-3022H — Deduction of capital gains",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3022h/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-3022H, added 1987, ch. 324, sec. 1, p. 680; am. 1994, ch. 39, sec. 2, p. 62; am. 1995, ch. 83, sec. 3, p. 244; am. 1995, ch. 111, sec. 15, p. 359; am. 1996, ch. 41, sec. 2, p. 111; am. 1997, ch. 56, sec. 1, p. 94; am. 1998, ch. 414, sec. 1, p. 1306; am. 2001, ch. 321, sec. 1, p. 1136; am. 2001, ch. 323, sec. 1, p. 1138; am. 2002, ch. 35, sec. 2, p. 68; am. 2005, ch. 208, sec. 1, p. 624; am. 2008, ch. 314, sec. 1, p. 873; am. 2010, ch. 5, sec. 1, p. 6; am. 2015, ch. 41, sec. 1, p. 93; am. 2015, ch. 70, sec. 1, p. 188; am. 2015, ch. 269, sec. 1, p. 1122; am. 2016, ch. 188, sec. 1, p. 511; am. 2018, ch. 186, sec. 1, p. 409.]"
+  },
+  {
+    "id": "cg-id-3022h-real-property-definition",
+    "claim": "Idaho Code 63-3022H(6) says that, as used in the section, 'real property' means land and includes a qualified conservation easement, certain grazing permits or leases, and any other property defined in section 1250(c) of the Internal Revenue Code as 'section 1250 property' conveyed in perpetuity whose transfer must be in writing under Idaho Code 9-503. Subsection (7) excludes property depreciated under section 1245 of the Internal Revenue Code.",
+    "quote": "As used in this section, the term \"real property\" means land and includes the following: ... (c) Any other property defined in section 1250(c) of the Internal Revenue Code as \"section 1250 property\" conveyed in perpetuity, the transfer of which would be required to be in writing by section 9-503, Idaho Code. ... Property that has been depreciated pursuant to section 1245 of the Internal Revenue Code is not eligible to be treated as real property for purposes of this deduction.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains",
+      "deductions"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-3022H — Deduction of capital gains",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3022h/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-3022H, added 1987, ch. 324, sec. 1, p. 680; am. 1994, ch. 39, sec. 2, p. 62; am. 1995, ch. 83, sec. 3, p. 244; am. 1995, ch. 111, sec. 15, p. 359; am. 1996, ch. 41, sec. 2, p. 111; am. 1997, ch. 56, sec. 1, p. 94; am. 1998, ch. 414, sec. 1, p. 1306; am. 2001, ch. 321, sec. 1, p. 1136; am. 2001, ch. 323, sec. 1, p. 1138; am. 2002, ch. 35, sec. 2, p. 68; am. 2005, ch. 208, sec. 1, p. 624; am. 2008, ch. 314, sec. 1, p. 873; am. 2010, ch. 5, sec. 1, p. 6; am. 2015, ch. 41, sec. 1, p. 93; am. 2015, ch. 70, sec. 1, p. 188; am. 2015, ch. 269, sec. 1, p. 1122; am. 2016, ch. 188, sec. 1, p. 511; am. 2018, ch. 186, sec. 1, p. 409.]"
+  },
+  {
+    "id": "cg-id-3022h-limits",
+    "claim": "Idaho Code 63-3022H(2) limits the deduction to the amount of capital gain net income from all property included in taxable income, excludes gains treated as ordinary income by the Internal Revenue Code, and reduces the deduction by any federal capital gains deduction relating to the property.",
+    "quote": "The deduction provided in this section is limited to the amount of the capital gain net income from all property included in taxable income. Gains treated as ordinary income by the Internal Revenue Code do not qualify for the deduction allowed in this section. The deduction otherwise allowable under this section shall be reduced by the amount of any federal capital gains deduction relating to such property, but not below zero.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains",
+      "deductions"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-3022H — Deduction of capital gains",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3022h/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-3022H, added 1987, ch. 324, sec. 1, p. 680; am. 1994, ch. 39, sec. 2, p. 62; am. 1995, ch. 83, sec. 3, p. 244; am. 1995, ch. 111, sec. 15, p. 359; am. 1996, ch. 41, sec. 2, p. 111; am. 1997, ch. 56, sec. 1, p. 94; am. 1998, ch. 414, sec. 1, p. 1306; am. 2001, ch. 321, sec. 1, p. 1136; am. 2001, ch. 323, sec. 1, p. 1138; am. 2002, ch. 35, sec. 2, p. 68; am. 2005, ch. 208, sec. 1, p. 624; am. 2008, ch. 314, sec. 1, p. 873; am. 2010, ch. 5, sec. 1, p. 6; am. 2015, ch. 41, sec. 1, p. 93; am. 2015, ch. 70, sec. 1, p. 188; am. 2015, ch. 269, sec. 1, p. 1122; am. 2016, ch. 188, sec. 1, p. 511; am. 2018, ch. 186, sec. 1, p. 409.]"
+  },
+  {
+    "id": "cg-id-3026a-nonresident-real-property-source",
+    "claim": "Idaho Code 63-3026A says that for nonresident individuals, trusts or estates, Idaho taxable income includes only those components of Idaho taxable income, as computed for a resident, that are derived from or related to sources within Idaho, and that income is considered derived from or relating to sources within Idaho when it is attributable to or results from the ownership or disposition of any interest in real or tangible personal property located in Idaho.",
+    "quote": "For nonresident individuals, trusts, or estates the term \"Idaho taxable income\" includes only those components of Idaho taxable income as computed for a resident which are derived from or related to sources within Idaho. ... Income shall be considered derived from or relating to sources within Idaho when such income is attributable to or resulting from: ... (ii) The ownership or disposition of any interest in real or tangible personal property located in this state;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains",
+      "nonresident"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-3026A — Computing Idaho taxable income of part-year or nonresident individuals, trusts and estates",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch30/sect63-3026a/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-3026A, added 1995, ch. 111, sec. 26, p. 364; am. 1996, ch. 40, sec. 3, p. 105; am. 1998, ch. 42, sec. 4, p. 180; am. 2000, ch. 38, sec. 5, p. 74; am. 2005, ch. 21, sec. 1, p. 57; am. 2005, ch. 405, sec. 1, p. 1380; am. 2007, ch. 12, sec. 1, p. 21; am. 2010, ch. 108, sec. 1, p. 219; am. 2011, ch. 3, sec. 2, p. 6; am. 2013, ch. 83, sec. 1, p. 203.]"
+  },
+  {
+    "id": "cg-istc-deduction-up-to-60-idaho-property",
+    "claim": "The Idaho State Tax Commission says Idaho allows a deduction of up to 60% of the capital gain net income from the sale or exchange of qualifying Idaho property, computed on Form CG; that qualifying real property must be held for at least 12 months; that for this deduction 'real property' means land and includes easements, grazing permits, and any other property defined in section 1250(c) of the Internal Revenue Code; and that gains from real property not located in Idaho do not qualify.",
+    "quote": "The property must be held for at least 12 months and sold on or after January 1, 2005. ... For purposes of this deduction, \"real property\" means land and includes easements, grazing permits, and any other property defined in section 1250(c) of the Internal Revenue Code. ... Real or tangible personal property not located in Idaho ... Idaho allows a deduction of up to 60% of the capital gain net income from the sale or exchange of qualifying Idaho property. ... You must complete Form CG to compute your Idaho capital gains deduction.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains",
+      "deductions"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Capital Gains (individual income tax guidance)",
+        "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/popular-credits-and-deductions/capital-gains/",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-istc-form-cg-2025-residence-line",
+    "claim": "The Idaho State Tax Commission's 2025 Form CG (Capital Gains Deduction) has a line 2 for 'Qualifying capital gain from sale of personal residence from federal Schedule D' with a space for the Idaho address of the residence sold, and its instructions for line 2 say to enter the taxable gain from the sale of the taxpayer's Idaho home from federal Schedule D.",
+    "quote": "Qualifying capital gain from sale of personal residence from federal Schedule D. ... Enter the taxable gain from the sale of your Idaho home from federal Schedule D.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains",
+      "deductions"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Form CG, Capital Gains Deduction, and Instructions (2025)",
+        "url": "https://tax.idaho.gov/wp-content/uploads/forms/EFO00093/EFO00093_09-18-2025.pdf",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-istc-rate-2025",
+    "claim": "The Idaho State Tax Commission states that the Idaho income tax rate for 2025 is 5.3% on Idaho taxable income.",
+    "quote": "The income tax rate for 2025 is 5.3% on Idaho taxable income.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "rates"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Individual Income Tax Basics (online guide)",
+        "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-istc-residency-what-idaho-taxes",
+    "claim": "The Idaho State Tax Commission says Idaho taxes all of a resident's income, including income from sources outside Idaho, and taxes only a nonresident's income from Idaho sources; that gross income includes gains from property sales; and that nonresidents of Idaho must file if their total gross income from Idaho sources is more than $2,500.",
+    "quote": "Idaho taxes all your income, including income from sources outside Idaho. ... Idaho taxes only your income from Idaho sources ... This income includes wages, interest, rents, dividends, gains from property sales, and gross business income. ... Nonresidents of Idaho must file if their total gross income from Idaho sources is more than $2,500.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "nonresident",
+      "filing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Individual Income Tax Basics (online guide)",
+        "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cg-istc-idaho-source-income-property",
+    "claim": "The Idaho State Tax Commission says an Idaho nonresident is taxed on Idaho source income, and defines Idaho source income as income from transactions or activities that take place in Idaho or from property in Idaho.",
+    "quote": "Idaho nonresident: Taxed on Idaho source income. ... Idaho source income is income from either of these: ... Transactions or activities that take place in Idaho ... Property in Idaho",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "nonresident"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Source Income",
+        "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/idaho-source-income/",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-362a-stay-scope",
+    "claim": "Under 11 U.S.C. 362(a), a bankruptcy petition operates as a stay, applicable to all entities, of (among other things) any act to obtain possession of property of the estate or to exercise control over it, any act to create, perfect, or enforce any lien against property of the estate, and any act to collect, assess, or recover a claim against the debtor that arose before the case began. The stay is subject to the exceptions in subsection (b).",
+    "quote": "Except as provided in subsection (b) of this section, a petition filed under section 301, 302, or 303 of this title ... operates as a stay, applicable to all entities, of ... any act to obtain possession of property of the estate or of property from the estate or to exercise control over property of the estate; ... any act to create, perfect, or enforce any lien against property of the estate; ... any act to collect, assess, or recover a claim against the debtor that arose before the commencement of the case under this title;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 362 — Automatic stay — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec362.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-362c-stay-duration",
+    "claim": "Under 11 U.S.C. 362(c)(1) and (2), the stay of an act against property of the estate continues until the property is no longer property of the estate, and the stay of any other act continues until the earliest of the time the case is closed, the time the case is dismissed, or (in an individual's chapter 7 case, or a chapter 9, 11, 12 or 13 case) the time a discharge is granted or denied. Both are subject to subsections (d), (e), (f) and (h).",
+    "quote": "the stay of an act against property of the estate under subsection (a) of this section continues until such property is no longer property of the estate; ... the stay of any other act under subsection (a) of this section continues until the earliest of ... the time the case is closed; ... the time the case is dismissed; or ... if the case is a case under chapter 7 of this title concerning an individual or a case under chapter 9, 11, 12, or 13 of this title, the time a discharge is granted or denied;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 362 — Automatic stay — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec362.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-362c3-prior-case-thirty-days",
+    "claim": "Under 11 U.S.C. 362(c)(3), where an individual files a chapter 7, 11 or 13 case and a case of the same debtor was pending within the preceding 1-year period but was dismissed, the stay with respect to any action taken with respect to a debt or property securing such debt terminates with respect to the debtor on the 30th day after the later case is filed. The court may extend the stay on a motion, after notice and a hearing completed before the 30-day period expires, only if the moving party demonstrates that the later case was filed in good faith as to the creditors to be stayed.",
+    "quote": "if a single or joint case is filed by or against a debtor who is an individual in a case under chapter 7, 11, or 13, and if a single or joint case of the debtor was pending within the preceding 1-year period but was dismissed, other than a case refiled under a chapter other than chapter 7 after dismissal under section 707(b) ... the stay under subsection (a) with respect to any action taken with respect to a debt or property securing such debt or with respect to any lease shall terminate with respect to the debtor on the 30th day after the filing of the later case; ... on the motion of a party in interest for continuation of the automatic stay and upon notice and a hearing, the court may extend the stay in particular cases as to any or all creditors (subject to such conditions or limitations as the court may then impose) after notice and a hearing completed before the expiration of the 30-day period only if the party in interest demonstrates that the filing of the later case is in good faith as to the creditors to be stayed;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 362 — Automatic stay — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec362.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-362c4-two-prior-cases-no-stay",
+    "claim": "Under 11 U.S.C. 362(c)(4), where an individual files a case and two or more cases of the same debtor were pending within the previous year but were dismissed, the stay does not go into effect when the later case is filed. Within 30 days after the filing a party in interest may ask the court to order the stay to take effect, and the court may do so, after notice and a hearing, only if that party demonstrates the later case was filed in good faith as to the creditors to be stayed.",
+    "quote": "if a single or joint case is filed by or against a debtor who is an individual under this title, and if 2 or more single or joint cases of the debtor were pending within the previous year but were dismissed, other than a case refiled under a chapter other than chapter 7 after dismissal under section 707(b), the stay under subsection (a) shall not go into effect upon the filing of the later case; and ... if, within 30 days after the filing of the later case, a party in interest requests the court may order the stay to take effect in the case as to any or all creditors (subject to such conditions or limitations as the court may impose), after notice and a hearing, only if the party in interest demonstrates that the filing of the later case is in good faith as to the creditors to be stayed;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 362 — Automatic stay — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec362.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-362d-relief-from-stay",
+    "claim": "Under 11 U.S.C. 362(d), on request of a party in interest and after notice and a hearing, the court shall grant relief from the stay, such as by terminating, annulling, modifying, or conditioning it, (1) for cause, including the lack of adequate protection of that party's interest in property, or (2) with respect to a stay of an act against property, if the debtor does not have an equity in the property and the property is not necessary to an effective reorganization.",
+    "quote": "On request of a party in interest and after notice and a hearing, the court shall grant relief from the stay provided under subsection (a) of this section, such as by terminating, annulling, modifying, or conditioning such stay ... for cause, including the lack of adequate protection of an interest in property of such party in interest; ... with respect to a stay of an act against property under subsection (a) of this section, if ... the debtor does not have an equity in such property; and ... such property is not necessary to an effective reorganization;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 362 — Automatic stay — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec362.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-362d4-scheme-order-two-years",
+    "claim": "Under 11 U.S.C. 362(d)(4), the court shall grant relief from the stay of an act against real property to a creditor whose claim is secured by an interest in that real property if the court finds the filing of the petition was part of a scheme to delay, hinder, or defraud creditors that involved either a transfer of all or part ownership of the real property without the secured creditor's consent or court approval, or multiple bankruptcy filings affecting the real property. If recorded in compliance with applicable State laws, such an order is binding in any other bankruptcy case purporting to affect the real property filed not later than 2 years after the order is entered, subject to a later debtor's motion for relief based on changed circumstances or good cause.",
+    "quote": "with respect to a stay of an act against real property under subsection (a), by a creditor whose claim is secured by an interest in such real property, if the court finds that the filing of the petition was part of a scheme to delay, hinder, or defraud creditors that involved either ... transfer of all or part ownership of, or other interest in, such real property without the consent of the secured creditor or court approval; or ... multiple bankruptcy filings affecting such real property. ... If recorded in compliance with applicable State laws governing notices of interests or liens in real property, an order entered under paragraph (4) shall be binding in any other case under this title purporting to affect such real property filed not later than 2 years after the date of the entry of such order by the court, except that a debtor in a subsequent case under this title may move for relief from such order based upon changed circumstances or for good cause shown, after notice and a hearing.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 362 — Automatic stay — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec362.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-362e-thirty-and-sixty-days",
+    "claim": "Under 11 U.S.C. 362(e)(1), thirty days after a request for relief from the stay of an act against property of the estate, the stay is terminated with respect to the party making the request unless the court, after notice and a hearing, orders it continued pending or as a result of a final hearing. Under 362(e)(2), in a chapter 7, 11 or 13 case in which the debtor is an individual, the stay terminates 60 days after a request under subsection (d) unless the court renders a final decision within that 60-day period or the period is extended by agreement of all parties in interest or by the court for good cause.",
+    "quote": "Thirty days after a request under subsection (d) of this section for relief from the stay of any act against property of the estate under subsection (a) of this section, such stay is terminated with respect to the party in interest making such request, unless the court, after notice and a hearing, orders such stay continued in effect pending the conclusion of, or as a result of, a final hearing and determination under subsection (d) of this section. ... Notwithstanding paragraph (1), in a case under chapter 7, 11, or 13 in which the debtor is an individual, the stay under subsection (a) shall terminate on the date that is 60 days after a request is made by a party in interest under subsection (d), unless ... a final decision is rendered by the court during the 60-day period beginning on the date of the request; or ... such 60-day period is extended ... by agreement of all parties in interest; or ... by the court for such specific period of time as the court finds is required for good cause, as described in findings made by the court.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 362 — Automatic stay — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec362.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-stay-described",
+    "claim": "The U.S. Courts describe the automatic stay this way: filing a chapter 7 petition automatically stays (stops) most collection actions against the debtor or the debtor's property; it does not stay certain actions listed in 11 U.S.C. 362(b); the stay may be effective only for a short time in some situations; and it arises by operation of law and requires no judicial action.",
+    "quote": "Filing a petition under chapter 7 \"automatically stays\" (stops) most collection actions against the debtor or the debtor's property. 11 U.S.C. § 362. But filing the petition does not stay certain types of actions listed under 11 U.S.C. § 362(b), and the stay may be effective only for a short time in some situations. The stay arises by operation of law and requires no judicial action.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 7 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-chapter-7-liquidation",
+    "claim": "The U.S. Courts describe chapter 7 as liquidation: the sale of a debtor's nonexempt property and the distribution of the proceeds to creditors. A chapter 7 case does not involve a repayment plan as chapter 13 does; the bankruptcy trustee gathers and sells the debtor's nonexempt assets and uses the proceeds to pay creditors. Part of the debtor's property may be subject to liens and mortgages that pledge it to other creditors. The page warns that filing a chapter 7 petition may result in the loss of property.",
+    "quote": "This chapter of the Bankruptcy Code provides for \"liquidation\" - the sale of a debtor's nonexempt property and the distribution of the proceeds to creditors. ... A chapter 7 bankruptcy case does not involve the filing of a plan of repayment as in chapter 13. Instead, the bankruptcy trustee gathers and sells the debtor's nonexempt assets and uses the proceeds of such assets to pay holders of claims (creditors) in accordance with the provisions of the Bankruptcy Code. Part of the debtor's property may be subject to liens and mortgages that pledge the property to other creditors. In addition, the Bankruptcy Code will allow the debtor to keep certain \"exempt\" property; but a trustee will liquidate the debtor's remaining assets. Accordingly, potential debtors should realize that the filing of a petition under chapter 7 may result in the loss of property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 7 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-chapter-7-trustee-sells-when",
+    "claim": "The U.S. Courts say the primary role of a chapter 7 trustee in an asset case is to liquidate the debtor's nonexempt assets in a manner that maximizes the return to unsecured creditors, and that the trustee does this by selling the debtor's property if it is free and clear of liens (as long as the property is not exempt) or if it is worth more than any security interest or lien attached to the property and any exemption the debtor holds in it. The page adds that if all the debtor's assets are exempt or subject to valid liens, the trustee will normally file a no asset report, and that most chapter 7 cases involving individual debtors are no asset cases.",
+    "quote": "The primary role of a chapter 7 trustee in an asset case is to liquidate the debtor's nonexempt assets in a manner that maximizes the return to the debtor's unsecured creditors. The trustee accomplishes this by selling the debtor's property if it is free and clear of liens (as long as the property is not exempt) or if it is worth more than any security interest or lien attached to the property and any exemption that the debtor holds in the property. ... If all the debtor's assets are exempt or subject to valid liens, the trustee will normally file a \"no asset\" report with the court, and there will be no distribution to unsecured creditors. Most chapter 7 cases involving individual debtors are no asset cases.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 7 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-estate-temporary-owner",
+    "claim": "The U.S. Courts say that commencement of a bankruptcy case creates an estate, that the estate technically becomes the temporary legal owner of all the debtor's property, and that it consists of all legal or equitable interests of the debtor in property as of the commencement of the case.",
+    "quote": "Commencement of a bankruptcy case creates an \"estate.\" The estate technically becomes the temporary legal owner of all the debtor's property. It consists of all legal or equitable interests of the debtor in property as of the commencement of the case, including property owned or held by another person if the debtor has an interest in the property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 7 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-discharge-does-not-remove-lien",
+    "claim": "The U.S. Courts say that a bankruptcy discharge does not extinguish a lien on property, and that secured creditors may retain some rights to seize property securing an underlying debt even after a discharge is granted.",
+    "quote": "Moreover, a bankruptcy discharge does not extinguish a lien on property. ... Secured creditors may retain some rights to seize property securing an underlying debt even after a discharge is granted.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 7 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-180-day-bar",
+    "claim": "The U.S. Courts say an individual cannot file under chapter 7 or any other chapter if, during the preceding 180 days, a prior bankruptcy petition was dismissed due to the debtor's willful failure to appear before the court or comply with orders of the court, or the debtor voluntarily dismissed the previous case after creditors sought relief from the bankruptcy court to recover property upon which they hold liens.",
+    "quote": "An individual cannot file under chapter 7 or any other chapter, however, if during the preceding 180 days a prior bankruptcy petition was dismissed due to the debtor's willful failure to appear before the court or comply with orders of the court, or the debtor voluntarily dismissed the previous case after creditors sought relief from the bankruptcy court to recover property upon which they hold liens.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 7 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-chapter-13-described",
+    "claim": "The U.S. Courts describe chapter 13 as adjustment of debts of an individual with regular income, also called a wage earner's plan. It allows a debtor to keep property and pay debts over time, usually three to five years, under a repayment plan the debtor proposes. In no case may a plan provide for payments over a period longer than five years.",
+    "quote": "Chapter 13 of the Bankruptcy Code provides for adjustment of debts of an individual with regular income. Chapter 13 allows a debtor to keep property and pay debts over time, usually three to five years. ... A chapter 13 bankruptcy is also called a wage earner's plan. It enables individuals with regular income to develop a plan to repay all or part of their debts. Under this chapter, debtors propose a repayment plan to make installments to creditors over three to five years. ... In no case may a plan provide for payments over a period longer than five years.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 13 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-13-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-chapter-13-cure-over-time",
+    "claim": "The U.S. Courts say that by filing under chapter 13, individuals can stop foreclosure proceedings and may cure delinquent mortgage payments over time, but they must still make all mortgage payments that come due during the chapter 13 plan on time. The page also says payments to the home mortgage lender may be made over the original loan repayment schedule so long as any arrearage is made up during the plan, and that the debtor should consult an attorney to determine the proper treatment of secured claims in the plan.",
+    "quote": "By filing under this chapter, individuals can stop foreclosure proceedings and may cure delinquent mortgage payments over time. Nevertheless, they must still make all mortgage payments that come due during the chapter 13 plan on time. ... Payments to certain secured creditors (i.e., the home mortgage lender), may be made over the original loan repayment schedule (which may be longer than the plan) so long as any arrearage is made up during the plan. The debtor should consult an attorney to determine the proper treatment of secured claims in the plan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 13 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-13-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-chapter-13-payments-and-failure",
+    "claim": "The U.S. Courts say a chapter 13 debtor must start making plan payments to the trustee within 30 days after filing the bankruptcy case, even if the plan has not yet been approved by the court; that if the debtor fails to make the payments due under the confirmed plan, the court may dismiss the case or convert it to a liquidation case under chapter 7; and that the debtor may not incur new debt without consulting the trustee.",
+    "quote": "Within 30 days after filing the bankruptcy case, even if the plan has not yet been approved by the court, the debtor must start making plan payments to the trustee. ... if the debtor fails to make the payments due under the confirmed plan, the court may dismiss the case or convert it to a liquidation case under chapter 7 of the Bankruptcy Code. ... the debtor may not incur new debt without consulting the trustee, because additional debt may compromise the debtor's ability to complete the plan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 13 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-13-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-1322-cure-until-foreclosure-sale",
+    "claim": "Under 11 U.S.C. 1322(b)(5), a chapter 13 plan may provide for the curing of any default within a reasonable time and maintenance of payments while the case is pending on a secured claim on which the last payment is due after the final plan payment is due. Under 1322(c)(1), a default with respect to a lien on the debtor's principal residence may be cured until the residence is sold at a foreclosure sale that is conducted in accordance with applicable nonbankruptcy law.",
+    "quote": "provide for the curing of any default within a reasonable time and maintenance of payments while the case is pending on any unsecured claim or secured claim on which the last payment is due after the date on which the final payment under the plan is due; ... a default with respect to, or that gave rise to, a lien on the debtor's principal residence may be cured under paragraph (3) or (5) of subsection (b) until such residence is sold at a foreclosure sale that is conducted in accordance with applicable nonbankruptcy law;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 1322 — Contents of plan — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap13-subchapII-sec1322.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-363b-sale-after-notice-and-hearing",
+    "claim": "11 U.S.C. 363(b)(1) provides that the trustee, after notice and a hearing, may use, sell, or lease, other than in the ordinary course of business, property of the estate.",
+    "quote": "The trustee, after notice and a hearing, may use, sell, or lease, other than in the ordinary course of business, property of the estate",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 363 — Use, sale, or lease of property — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap3-subchapIV-sec363.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-1303-chapter-13-debtor-sale-powers",
+    "claim": "11 U.S.C. 1303 gives a chapter 13 debtor, exclusive of the trustee and subject to any limitations on a trustee under the chapter, the rights and powers of a trustee under section 363(b), among others. 11 U.S.C. 1306(b) provides that, except as provided in a confirmed plan or order confirming a plan, the debtor shall remain in possession of all property of the estate.",
+    "quote": "Subject to any limitations on a trustee under this chapter, the debtor shall have, exclusive of the trustee, the rights and powers of a trustee under sections 363(b), 363(d), 363(e), 363(f), and 363(l), of this title. ... Except as provided in a confirmed plan or order confirming a plan, the debtor shall remain in possession of all property of the estate.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 1303 — Rights and powers of debtor — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap13-subchapI-sec1303.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      },
+      {
+        "title": "11 U.S.C. § 1306 — Property of the estate — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap13-subchapI-sec1306.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-109h-credit-counseling-180-days",
+    "claim": "Under 11 U.S.C. 109(h)(1), an individual may not be a debtor under the Bankruptcy Code unless, during the 180-day period ending on the date the petition is filed, the individual received from an approved nonprofit budget and credit counseling agency an individual or group briefing (which may be by telephone or on the Internet) that outlined the opportunities for available credit counseling and assisted the individual in performing a related budget analysis.",
+    "quote": "an individual may not be a debtor under this title unless such individual has, during the 180-day period ending on the date of filing of the petition by such individual, received from an approved nonprofit budget and credit counseling agency described in section 111(a) an individual or group briefing (including a briefing conducted by telephone or on the Internet) that outlined the opportunities for available credit counseling and assisted such individual in performing a related budget analysis.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 109 — Who may be a debtor — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap1-sec109.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-109h-exigent-circumstances-exception",
+    "claim": "Under 11 U.S.C. 109(h)(3), the counseling requirement does not apply to a debtor who submits a certification, satisfactory to the court, that describes exigent circumstances meriting a waiver and states that the debtor requested credit counseling from an approved agency but was unable to obtain it during the 7-day period beginning on the date of the request. That exemption ceases when the debtor meets the requirement, and in no case applies after the date that is 30 days after the petition is filed, except that the court, for cause, may order an additional 15 days.",
+    "quote": "the requirements of paragraph (1) shall not apply with respect to a debtor who submits to the court a certification that ... describes exigent circumstances that merit a waiver of the requirements of paragraph (1); ... states that the debtor requested credit counseling services from an approved nonprofit budget and credit counseling agency, but was unable to obtain the services referred to in paragraph (1) during the 7-day period beginning on the date on which the debtor made that request; and ... is satisfactory to the court. ... With respect to a debtor, an exemption under subparagraph (A) shall cease to apply to that debtor on the date on which the debtor meets the requirements of paragraph (1), but in no case may the exemption apply to that debtor after the date that is 30 days after the debtor files a petition, except that the court, for cause, may order an additional 15 days.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "11 U.S.C. § 109 — Who may be a debtor — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title11/html/USCODE-2024-title11-chap1-sec109.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-counseling-before-education-after",
+    "claim": "The U.S. Courts say credit counseling must take place before a person files for bankruptcy and debtor education must take place after filing, and that only credit counseling organizations and debtor education course providers approved by the U.S. Trustee Program may issue the certificates of completion.",
+    "quote": "Credit counseling must take place before you file for bankruptcy; debtor education must take place after you file. ... Only credit counseling organizations and debtor education course providers that have been approved by the U.S. Trustee Program may issue these certificates.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Credit Counseling and Debtor Education Courses",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/credit-counseling-and-debtor-education-courses",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-ust-counseling-case-could-be-dismissed",
+    "claim": "The U.S. Trustee Program says credit counseling must be obtained before an individual files for bankruptcy, subject to very limited exceptions, and that if the course is not completed before filing, the case could be dismissed. It says debtor education is a separate course taken after filing, which, with limited exceptions, debtors must complete to receive a bankruptcy discharge.",
+    "quote": "must be obtained before an individual files for bankruptcy, subject to very limited exceptions. If the CC course is not completed before filing, the case could be dismissed. ... is a separate course that must be taken after an individual files for bankruptcy. With limited exceptions, debtors must complete the DE course to receive a bankruptcy discharge.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Credit Counseling & Debtor Education Information — U.S. Trustee Program",
+        "url": "https://www.justice.gov/ust/credit-counseling-debtor-education-information",
+        "publisher": "U.S. Department of Justice, U.S. Trustee Program",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-idaho-exemptions-state-law-only",
+    "claim": "Idaho Code 11-609 provides that in any federal bankruptcy proceeding, an individual debtor may exempt from property of the estate only such property as is specified under the laws of Idaho.",
+    "quote": "In any federal bankruptcy proceeding, an individual debtor may exempt from property of the estate only such property as is specified under the laws of this state.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "homestead",
+      "creditors"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 11-609 — Nonauthorization of federal bankruptcy exemptions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title11/t11ch6/sect11-609/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[11-609, added 1981, ch. 81, sec. 2, p. 114.]"
+  },
+  {
+    "id": "bk-homestead-exempt-from-forced-sale",
+    "claim": "Under Idaho Code 55-1008(1), except as provided in section 55-1005, the homestead is exempt from attachment and from execution or forced sale for the debts of the owner up to the amount specified in section 55-1003. Proceeds of a voluntary sale of the homestead in good faith for the purpose of acquiring a new homestead are likewise exempt, up to that amount, for one year from receipt.",
+    "quote": "Except as provided in section 55-1005, Idaho Code, the homestead is exempt from attachment and from execution or forced sale for the debts of the owner up to the amount specified in section 55-1003, Idaho Code. The proceeds of the voluntary sale of the homestead in good faith for the purpose of acquiring a new homestead, and proceeds from insurance covering destruction of homestead property held for use in restoring or replacing the homestead property, up to the amount specified in section 55-1003, Idaho Code, shall likewise be exempt for one (1) year from receipt, and also such new homestead acquired with such proceeds.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "homestead",
+      "creditors",
+      "bankruptcy"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-1008 — Homestead exempt from execution — When presumed valid",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch10/sect55-1008/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-1008, added 1989, ch. 371, sec. 2, p. 936.]"
+  },
+  {
+    "id": "bk-homestead-subject-to-deeds-of-trust",
+    "claim": "Under Idaho Code 55-1005, the homestead is subject to execution or forced sale in satisfaction of judgments obtained on debts secured by mortgages, deeds of trust or other consensual liens upon the premises, executed and acknowledged by the husband and wife or by an unmarried claimant, or executed and recorded before the homestead became effective, and on debts secured by a mechanic's, laborer's or vendor's lien upon the premises.",
+    "quote": "The homestead is subject to execution or forced sale in satisfaction of judgments obtained: ... On debts secured by mechanic's, laborer's or vendor's lien upon the premises. ... On debts secured by mortgages, deeds of trust or other consensual liens upon the premises, executed and acknowledged by the husband and wife or by an unmarried claimant. ... On debts secured by mortgages, deeds of trust or other consensual liens upon the premises, executed and recorded before the homestead became effective.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "homestead",
+      "creditors",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-1005 — To what judgments subject",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch10/sect55-1005/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-1005, added 1989, ch. 371, sec. 2, p. 935.]"
+  },
+  {
+    "id": "bk-uscourts-exemptions-ask-an-attorney",
+    "claim": "The U.S. Courts say the Bankruptcy Code allows an individual debtor to protect some property from the claims of creditors because it is exempt under federal bankruptcy law or under the laws of the debtor's home state, that many states have adopted their own exemption law in place of the federal exemptions, and that the debtor should consult an attorney to determine the exemptions available in the state where the debtor lives.",
+    "quote": "to protect some property from the claims of creditors because it is exempt under federal bankruptcy law or under the laws of the debtor's home state. 11 U.S.C. § 522(b). Many states have taken advantage of a provision in the Bankruptcy Code that permits each state to adopt its own exemption law in place of the federal exemptions. ... Thus, whether certain property is exempt and may be kept by the debtor is often a question of state law. The debtor should consult an attorney to determine the exemptions available in the state where the debtor lives.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 7 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-7-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-idaho-bankruptcy-court-offices",
+    "claim": "The U.S. District and Bankruptcy Courts for the District of Idaho state that their offices are located in Boise, Coeur d'Alene, and Pocatello, and that Idaho is one of only six consolidated District and Bankruptcy Clerks' Offices within the federal judiciary. The court's bankruptcy site is the website of the U.S. Bankruptcy Court for the District of Idaho.",
+    "quote": "Idaho is proud to be one of only six consolidated District and Bankruptcy Clerks' Offices within the federal judiciary. ... Our offices are located in Boise ... Welcome to the U.S. Bankruptcy Court for the District of Idaho.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "court-procedure"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "U.S. District & Bankruptcy Courts, District of Idaho — home page",
+        "url": "https://www.id.uscourts.gov/",
+        "publisher": "United States District and Bankruptcy Courts, District of Idaho",
+        "tier": 1
+      },
+      {
+        "title": "U.S. Bankruptcy Court, District of Idaho — bankruptcy home page",
+        "url": "https://www.id.uscourts.gov/bankruptcy/",
+        "publisher": "United States Bankruptcy Court, District of Idaho",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho (federal court)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "bk-uscourts-lawyer-strongly-recommended",
+    "claim": "The U.S. Courts say seeking the advice of a qualified lawyer is strongly recommended because bankruptcy has long-term financial and legal consequences, and that individuals can file bankruptcy without a lawyer, which is called filing pro se. The same page says a person unable to afford an attorney may qualify for free legal services.",
+    "quote": "Seeking the advice of a qualified lawyer is strongly recommended because bankruptcy has long-term financial and legal consequences. Individuals can file bankruptcy without a lawyer, which is called filing pro se. ... If you are unable to afford an attorney, you may qualify for free legal services.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "bankruptcy",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Bankruptcy — Court Programs",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-form-q8-additions-without-permit",
+    "claim": "Question 8 of the seller property disclosure form printed in Idaho Code 55-2508 asks whether any substantial additions or alterations have been made without a building permit.",
+    "quote": "8. Have any substantial additions or alterations been made without a building permit?",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure",
+      "permits"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2508 — Disclosure form",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]"
+  },
+  {
+    "id": "cv-form-q6-zoning-violations-title",
+    "claim": "Question 6 of the Idaho statutory disclosure form asks the seller to describe any conditions that may affect the ability to clear title, and gives encroachments, easements, zoning violations and lot line disputes as examples.",
+    "quote": "6. Describe any conditions that may affect your ability to clear title (such as encroachments, easements, zoning violations, lot line disputes, etc.):",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure",
+      "zoning",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2508 — Disclosure form",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]"
+  },
+  {
+    "id": "cv-form-q9-other-problems-legal",
+    "claim": "Question 9 of the Idaho statutory disclosure form asks for any other problems, including legal, physical or other, not listed above that the seller knows concerning the property.",
+    "quote": "9. Any other problems, including legal, physical or other not listed above that you know concerning the property:",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2508 — Disclosure form",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]"
+  },
+  {
+    "id": "cv-form-seller-certification-and-purpose",
+    "claim": "The Idaho statutory disclosure form states that, unless otherwise advised, the seller has no expertise in construction, architectural, engineering or other specific areas related to the construction or condition of the improvements, encourages the purchaser to obtain professional inspections, and ends with the seller certifying that the information is true and correct to the best of the seller's knowledge as of the date signed.",
+    "quote": "Unless otherwise advised, the Seller does not possess any expertise in construction, architectural, engineering or any other specific areas related to the construction or condition of the improvements on the property. ... Purchaser is encouraged to obtain his/her own professional inspections. ... The Seller certifies that the information herein is true and correct to the best of Seller's knowledge as of the date signed by the Seller.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure",
+      "inspections"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2508 — Disclosure form",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]"
+  },
+  {
+    "id": "cv-id-permit-required-local-jurisdiction",
+    "claim": "Idaho Code 39-4111(2) makes it unlawful to do, or cause or permit to be done, any construction, improvement, extension or alteration of a building, residence or structure in a local government jurisdiction enforcing building codes without first procuring a permit in accordance with that local government's ordinance.",
+    "quote": "It shall be unlawful for any person to do, or cause or permit to be done, whether acting as principal, agent or employee, any construction, improvement, extension or alteration of any building, residence or structure in a local government jurisdiction enforcing building codes, without first procuring a permit in accordance with the applicable ordinance or ordinances of the local government.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "permits",
+      "code-enforcement"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 39-4111 — Idaho Building Code Act — permits required",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch41/sect39-4111/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[39-4111, added 1975, ch. 180, sec. 2, p. 486; am. 1978, ch. 160, sec. 1, p. 348; am. 1983, ch. 153, sec. 8, p. 414; am. 1988, ch. 264, sec. 16, p. 532; am. 1995, ch. 267, sec. 12, p. 863; am. 2002, ch. 345, sec. 15, p. 971; am. 2011, ch. 228, sec. 1, p. 622.]"
+  },
+  {
+    "id": "cv-id-building-code-violation-misdemeanor",
+    "claim": "Under Idaho Code 39-4126, a person who willfully violates the Idaho Building Code Act or the codes enumerated in it is guilty of a misdemeanor punishable by a fine of not more than $300, imprisonment for not more than 90 days, or both; a separate violation is deemed to have occurred for each building not in compliance, and each day the violation continues is a separate offense.",
+    "quote": "is guilty of a misdemeanor, and upon conviction, shall be fined not more than three hundred dollars ($300), or imprisoned for not more than ninety (90) days or by both fine and imprisonment. ... A separate violation is deemed to have occurred with respect to each building not in compliance with this chapter. Each day such violation continues constitutes a separate offense.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "code-enforcement",
+      "permits"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 39-4126 — Idaho Building Code Act — violations misdemeanors",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch41/sect39-4126/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[39-4126, added 1975, ch. 180, sec. 2, p. 486; am. 1988, ch. 264, sec. 21, p. 534; am. 2002, ch. 345, sec. 28, p. 975.]"
+  },
+  {
+    "id": "cv-ada-building-code-applies-unincorporated",
+    "claim": "The Ada County Building Code Ordinance (Ada County Code Title 7, Chapter 2) adopts building codes that apply in the unincorporated areas of Ada County, and makes it unlawful to engage in any grading or building activity without complying with the chapter and the adopted codes.",
+    "quote": "shall apply in the unincorporated areas of Ada County. ... It shall be unlawful to engage in any grading or building activity without complying with the rules and regulations as contained in this chapter and the codes adopted herein.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "permits",
+      "jurisdiction",
+      "code-enforcement"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Ada County Code Title 7, Chapter 2 — Building Codes (7-2-1 to 7-2-3)",
+        "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-2772",
+        "publisher": "Ada County (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-ada-permit-required-tied-to-property",
+    "claim": "In unincorporated Ada County the county's residential code amendment requires an owner or authorized agent who intends to construct, enlarge, alter, repair, move, demolish or change the occupancy of a building to first apply to the building official and obtain the required permit; an Ada County building division permit is issued to the owner of the property and remains tied to the specific property even as the ownership may change.",
+    "quote": "shall first make application to the building official and obtain the required permit. An Ada County building division permit is issued to the owner of the property and remains tied to the specific property even as the ownership may change.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "permits",
+      "transfer"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Ada County Code § 7-2-5 — Ada County amendments to the 2018 International Residential Code",
+        "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-2904",
+        "publisher": "Ada County (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-ada-exempt-work-list",
+    "claim": "Ada County's residential code amendment lists work exempt from a building permit in unincorporated Ada County, including one-story detached tool and storage sheds whose floor area does not exceed 200 square feet, fences not over 6 feet high, decks not more than 30 inches above grade that do not serve the required exit door, roof repair including complete replacement of roof coverings on one- and two-family dwellings, and siding repair or replacement when fire resistance is not reduced; the county deleted the model code's electrical and plumbing exemptions.",
+    "quote": "1. One-story detached accessory structures used as tool and storage sheds, playhouses and similar uses, provided the floor area does not exceed 200 square feet ... 2. Fences not over 6 feet (1829 mm) high may be exempted from the requirement for a building permit in the absence of any other applicable land use regulations ... 10. Decks that are not more than thirty (30) inches (762 mm) above grade at any point, and do not serve the exit door required by Section R311.4. ... 12. Roof repair, including complete replacement of roof coverings, in association with one- and two-family dwellings and their accessory structures. 13. Siding repair or replacement when fire resistance is not reduced in association with one- and two-family dwellings and their accessory structures.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "permits"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Ada County Code § 7-2-5 — Ada County amendments to the 2018 International Residential Code",
+        "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-2904",
+        "publisher": "Ada County (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-ada-investigative-fee-work-without-permit",
+    "claim": "In unincorporated Ada County, if work is commenced without first obtaining a required county building permit, an investigative fee equal to the county permit fee for the work must be paid before the county accepts a building permit application; the fee is in addition to any later permit fee, and paying it does not make the work legitimate or establish a right to a permit.",
+    "quote": "If work is commenced without first obtaining a required Ada County building permit, an investigative fee equal to the Ada County permit fee for the work accomplished illegally, shall be paid Ada County prior to the acceptance of an Ada County building permit application. This fee is an additional fee and shall not apply to any fee for any Ada County building permit that may subsequently be issued. Payment of the investigative fee does not vest the illegal work with any legitimacy, nor does it establish any right to an Ada County permit for continued development of that project.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "permits",
+      "fees"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Ada County Code § 7-2-5 — Ada County amendments to the 2018 International Residential Code",
+        "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-2904",
+        "publisher": "Ada County (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-ada-building-code-penalties",
+    "claim": "Ada County Code 7-2-12 makes each violation of the county building code chapter a misdemeanor, makes each day that work continues after notification of violation a separate offense, and lets the county bring any appropriate action to restrain, correct or abate a violation.",
+    "quote": "Each violation of this chapter shall be a misdemeanor. Each day that work continues after notification of violation shall constitute a separate offense, and each violation shall be punishable as provided in Idaho Code section 18-113 as it may from time to time be amended and/or retitled. ... the County, in addition to other remedies, may institute any appropriate action or proceeding to prevent such unlawful action or construction to restrain, correct, or abate such violation",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "code-enforcement",
+      "permits"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Ada County Code § 7-2-12 — Penalties",
+        "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-20605",
+        "publisher": "Ada County (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-ada-code-enforcement-notice-and-cure",
+    "claim": "Ada County Code Enforcement lists construction or remodeling without building permits among the issues it handles in unincorporated Ada County; when a specialist confirms a violation, the property owner is notified in writing and given an opportunity to cure it within a specified time frame, and an owner who does not cure may face civil District Court proceedings through the Ada County Prosecuting Attorney.",
+    "quote": "Construction or remodeling without building permit(s) ... If a Code Enforcement Specialist confirms that a violation exists on the subject property, the owner of that property will be notified in writing and given an opportunity to cure the violation within a specified time frame. ... Property owners failing to cure violations within the allotted time frame may be subject to court action through civil, District Court proceedings.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "code-enforcement"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Code Enforcement — Ada County Sheriff",
+        "url": "https://adacounty.id.gov/sheriff/services/code-enforcement/",
+        "publisher": "Ada County Sheriff",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-ada-electrical-plumbing-permits-state",
+    "claim": "Ada County's Permitting Division states that all electrical and plumbing work needs separate permits through the State of Idaho (DOPL), and gives 208-287-7900 as its contact number.",
+    "quote": "*Please note that all electrical and plumbing work will need separate permits through the State of Idaho (DOPL) ... For all other building types, contact us at 208-287-7900",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "permits",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Permitting Division — Ada County Development Services",
+        "url": "https://adacounty.id.gov/developmentservices/permitting-division/",
+        "publisher": "Ada County Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-boise-building-division-issues-permits",
+    "claim": "The City of Boise's Planning and Development Services Building Division is responsible for issuing building permits and overseeing building construction within the City of Boise, and can be reached at (208) 608-7070.",
+    "quote": "Building Division is responsible for issuing building permits and overseeing building construction within the City of Boise. Speak to a staff member over the phone by calling (208) 608-7070",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "permits",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Building — City of Boise Planning and Development Services",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/building/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-boise-special-investigation-fee",
+    "claim": "Under Boise City Code 9-1B-21, a person who commences work on a building, structure, electrical, gas, mechanical or plumbing system before obtaining the necessary permits is subject to a special investigation before a permit may be issued for that work, and a special investigation fee equal to the permit fee is collected in addition to the permit fee whether or not a permit is issued; paying it does not exempt anyone from the rest of the code or from any penalty.",
+    "quote": "Any person who commences any work on a building, structure, electrical, gas, mechanical, or plumbing system before obtaining the necessary permits shall be subject to a special investigation before a permit may be issued for such work. A special investigation fee, in addition to the permit fee, shall be collected whether or not a permit is then or subsequently issued. The special investigation fee shall be equal to the amount of the permit fee required by this code. ... The payment of such special investigation fee shall not exempt any person from compliance with all other provisions of this code nor from any penalty prescribed by law.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "permits",
+      "fees"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Boise City Code § 9-1B-21 — IRC amendment, section R108.6, work commencing before permit issuance",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-37275",
+        "publisher": "City of Boise (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-boise-building-code-penalties",
+    "claim": "Boise City Code 9-1B-29 makes a violation of Boise's one- and two-family dwelling building code a misdemeanor punishable by a fine of not more than $1,000, imprisonment for not more than 180 days, or both, with each day a separate offense; the building official may instead charge an infraction with a $300 fine, and a prosecuting attorney may reduce a misdemeanor charge to that infraction if the defendant engages in corrective actions resulting in fully completed and permitted work; the Building Division may request assistance from code compliance officers to gain compliance.",
+    "quote": "shall be deemed guilty of a misdemeanor, and upon conviction thereof shall be punished by a fine of not more than one thousand dollars ($1,000.00), by imprisonment for not more than one hundred eighty (180) days, or by both such fine and imprisonment. ... At the discretion of the building official, the City may charge the offender with an infraction in lieu of a misdemeanor. The infraction shall be payable by a fine of three hundred dollars ($300.00). ... A prosecuting attorney may reduce a misdemeanor charge under this Chapter to an infraction as described herein, payable by a $300 fine, if the defendant engages in corrective actions resulting in fully completed and permitted work. The Building Division may request assistance from code compliance officers, as designated authorized agents of the Planning & Development Services Director, to gain compliance with this Chapter of City Code for noncompliant cases.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "code-enforcement",
+      "permits"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Boise City Code § 9-1B-29 — IRC amendment, section R113.4, criminal penalties and noncompliance",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-37326",
+        "publisher": "City of Boise (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-boise-permit-transfer",
+    "claim": "Boise City Code 9-1B-14 allows a building permit to be transferred to another party who provides a document signed by the original permit holder consenting to the transfer and to all agreements and conditions in the original permit approval, with a clerical administrative fee.",
+    "quote": "A building permit shall be transferable to another party if such party can provide a document signed by the original permit holder consenting to the transfer and all agreements and conditions incorporated into the original permit approval.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "permits",
+      "transfer"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Boise City Code § 9-1B-14 — IRC amendment, add section R105.10, permit transfer",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-37244",
+        "publisher": "City of Boise (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-boise-code-compliance-scope",
+    "claim": "The City of Boise says its Code Compliance office enforces Boise City Code for businesses, sanitation and zoning, and lists abandoned or vacant buildings and people living in recreational vehicles among the issues it handles.",
+    "quote": "Code Compliance enforces Boise City Code for businesses, sanitation and zoning. ... Abandoned or vacant buildings Residential parking (parking on lawn) People living in recreational vehicles",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "code-enforcement"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Code and Business License Compliance — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/code-compliance/code-and-business-license-compliance/",
+        "publisher": "City of Boise — Office of Code Compliance and Community Resources",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-boise-case-lookup-closed-cases-only",
+    "claim": "Boise's Code Compliance case lookup tool gives public access to closed code compliance cases only; open or active cases do not appear, and more information on a closed case may be available through a public records request.",
+    "quote": "This page provides public access to closed code compliance cases. Only cases that have been fully resolved are included in this list. Open or active cases will not appear.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "code-enforcement",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Code Compliance — Case Lookup Tool — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/code-compliance/case-lookup-tool/",
+        "publisher": "City of Boise — Office of Code Compliance and Community Resources",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-meridian-building-services-scope",
+    "claim": "The City of Meridian's Building Services is responsible for all activities associated with structural, fire, electrical, mechanical and plumbing permits within the City of Meridian, including permit application, plan review, permit issuance and field inspection, and also handles permits for remodels, fences, sheds and garages; its phone number is 208-887-2211.",
+    "quote": "Building Services is responsible for all activities associated with structural, fire, electrical, mechanical and plumbing permits within the City of Meridian for residential, commercial and industrial projects. These activities include permit application, plan review, permit issuance and field inspection. Other permits handled by Building Services include remodels, mobile homes, fences, sheds, garages, foundations, fireplaces, and demolition. ... Phone: 208-887-2211",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "permits",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Building — City of Meridian Community Development",
+        "url": "https://meridiancity.org/building",
+        "publisher": "City of Meridian — Building Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-meridian-code-enforcement-scope",
+    "claim": "Meridian's Code Enforcement officers, part of the Meridian Police Department, investigate and enforce Meridian City Code ordinances including parcel zoning issues, permit violations and parking regulations; the city gives 208-846-7326 for reporting a potential code violation.",
+    "quote": "To report a potential code violation, call Meridian Code enforcement at 208-846-7326 ... Code Enforcement Officers investigate and enforce Meridian City Code Ordinances which include parcel zoning issues, permit violations and parking regulations.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "code-enforcement"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Code Enforcement — Meridian Police Department",
+        "url": "https://meridiancity.org/police/community-resources/code-enforcement/",
+        "publisher": "City of Meridian — Police Department",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-eagle-building-department-permit-faq",
+    "claim": "The City of Eagle's Building Department tells owners never to guess whether a permit is needed and to contact the department, at 208-489-8760, before beginning a project; it also states that property insurers may not cover work completed without permits and inspections.",
+    "quote": "Never guess if you need a permit or not. The best way to find out if you need a permit for a construction project is to contact the City of Eagle Building Department. ... Property insurers may not cover work completed without permits and inspections. ... Phone: 208-489-8760",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "permits",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Building Department — City of Eagle",
+        "url": "https://www.cityofeagle.org/153/Building",
+        "publisher": "City of Eagle — Building Department",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-eagle-investigation-fee-work-before-permit",
+    "claim": "Under Eagle City Code 7-1A-4, the city's residential code section R108.6 subjects any person who commences work on a building, structure, electrical, gas, mechanical or plumbing system before obtaining the necessary permits to a special investigation that is made before a permit may be issued for the work, with an investigation fee in addition to the permit fee collected whether or not a permit is issued.",
+    "quote": "Any person who commences any work on a building, structure, electrical, gas, mechanical or plumbing system before obtaining the necessary permits shall be subject to a special investigation that shall be made before a permit may be issued for such work. An investigation fee, in addition to the permit fee, shall be collected whether or not a permit is then or subsequently issued. The investigation fee shall be equal to the amount of the permit fee required by this code or as set by resolution of the city council. The payment of such investigation fee shall not exempt any person from compliance with all other provisions of this code nor from any penalty prescribed by law.",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "permits",
+      "fees"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Eagle City Code § 7-1A-4 — IRC building code amendments",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9007",
+        "publisher": "City of Eagle (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-eagle-building-code-penalties",
+    "claim": "Eagle City Code 7-1A-4 adds residential code section R113.5, under which a violation of the code is a misdemeanor punishable by a fine of not more than $1,000, imprisonment for not more than 180 days, or both, with each day a separate offense.",
+    "quote": "R113.5 Criminal Penalties. Any person, firm or corporation violating the provisions of this code shall be deemed guilty of misdemeanor, and upon conviction thereof shall be punished by a fine of not more than one thousand dollars ($1,000.00), by imprisonment for not more than one hundred eighty (180) days, or by both such fine and imprisonment.",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "code-enforcement",
+      "permits"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Eagle City Code § 7-1A-4 — IRC building code amendments",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9007",
+        "publisher": "City of Eagle (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-eagle-code-enforcement-complaints",
+    "claim": "The City of Eagle takes code enforcement complaints through an online form that assigns each request a tracking number and a Code Enforcement Officer, lists building without a permit as an example of a request, and gives 208-489-8810 for assistance.",
+    "quote": "Once submitted, the iWorQ form automatically creates a tracking number for the request and assigns it to the Code Enforcement Officer. ... Building without a Permit ... You may also contact 208-489-8810 for additional assistance.",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "code-enforcement"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Code Enforcement Complaints — City of Eagle",
+        "url": "https://www.cityofeagle.org/418/Code-Enforcement-Complaint",
+        "publisher": "City of Eagle",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-kuna-building-department-scope",
+    "claim": "The City of Kuna's Building Department conducts plan reviews and monitors by inspection all phases of construction and modifications, including the maintenance of existing structures; the city states that it is unlawful to do any mechanical equipment installation without first obtaining a mechanical permit from the City of Kuna, and that electrical and plumbing permits are available at the City of Kuna Building Department.",
+    "quote": "The Building Department conducts plan reviews and monitors by inspections all phases of construction and modifications, including the maintenance of existing structures, in order to protect public safety and welfare. ... It is unlawful for any person to do, or cause to be done, any mechanical equipment installations without first obtaining a mechanical permit from the City of Kuna authorizing such work to be done. ... Electrical permits are available at City of Kuna Building Department. ... Plumbing permits are available at City of Kuna Building Department.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "permits",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Building Department — City of Kuna",
+        "url": "https://www.kunacity.id.gov/119/Building-Department",
+        "publisher": "City of Kuna — Building Department",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-kuna-code-enforcement-complaint-driven",
+    "claim": "Kuna says its code enforcement covers the city's zoning, sanitation and nuisance ordinances, operates on a complaint-driven basis, and does not enforce the rules of individual homeowners associations.",
+    "quote": "through the enforcement of the zoning, sanitation, and nuisance ordinances. ... Please note that the city does not enforce rules of individual Homeowners Associations. ... Code enforcement operates on a complaint-driven basis",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "code-enforcement",
+      "hoa"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Code Enforcement — City of Kuna",
+        "url": "https://www.kunacity.id.gov/121/Code-Enforcement",
+        "publisher": "City of Kuna — City Clerk",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-star-building-department-scope",
+    "claim": "The City of Star's Building Department is responsible for administering and enforcing the officially adopted building codes as well as the City Unified Code and Ordinances, and lists 208-286-7247 as the Building Official's phone number.",
+    "quote": "The Building Department is responsible for administering and enforcing the officially adopted building codes, as well as the City Unified Code and Ordinances. ... Phone: 208-286-7247",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "permits",
+      "jurisdiction",
+      "code-enforcement"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Building Department — City of Star",
+        "url": "https://staridaho.org/1243/Building-Department",
+        "publisher": "City of Star — Building Department",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-star-code-enforcement-fifteen-days",
+    "claim": "The City of Star says that when it receives a complaint its Code Enforcement Officer visits the property, the Zoning Administrator sends the owner or resident a letter explaining the violation, and the owner or resident has fifteen days from receipt of the letter to abate the nuisance before the Zoning Administrator asks to place the matter on the City Council agenda; in some cases the city cleans up the property and charges the owner or resident the cost plus an administrative fee.",
+    "quote": "The owner/resident of the subject property is given fifteen (15) days from the date of receipt of the letter to abate the nuisance. If the nuisance/code violation has not been removed within the allowed period, the Zoning Administrator will request that the Code Enforcement issue be placed on the City Council agenda. ... In some cases, the City of Star will clean up the property and charge the owner/resident the costs of cleanup, PLUS an additional administrative fee.",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "code-enforcement"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Code Enforcement — City of Star",
+        "url": "https://staridaho.org/1242/Code-Enforcement",
+        "publisher": "City of Star",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-star-records-two-years-and-boundary-lookup",
+    "claim": "The City of Star says its building department is only required to keep residential permitting records for 2 years, that plans from before January 2024 require a public records request through the City Clerk, and that the Ada County Assessor's website shows city boundaries for checking whether an address is in Star's jurisdiction.",
+    "quote": "Please note that the building department is only required to keep residential permitting records for 2 years. ... Ada County Assessor's website shows city boundaries.",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "permits",
+      "records",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Planning & Zoning FAQ — City of Star, Idaho",
+        "url": "https://staridaho.org/FAQ.aspx",
+        "publisher": "City of Star",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-gardencity-building-services-contract",
+    "claim": "Garden City's Building Division is responsible for processing building permits, plan reviews, permit issuance and field observation; the city contracts with SAFEbuilt and the Idaho Division of Occupational and Professional Licenses for building services, building permits are still submitted through Garden City, and mechanical, electrical and plumbing trade permits are permitted directly through the state. The contact phone is (208) 472-2921.",
+    "quote": "The Building Division is responsible for processing building permits, plan reviews, permit issuance, and field observation. Garden City contracts with both SAFEbuilt and Idaho Division of Occupational & Professional Licenses (IDOPL) to provide building services. While SAFEbuilt and IDOPL complete building plan reviews and inspections for compliance with building code, building permits are still submitted through Garden City for routing, and a complete plan review. **M/E/P trade permits (Mechanical, Electrical, and Plumbing) are permitted directly through Idaho Division of Building Safety ... Phone: (208) 472-2921",
+    "entities": [
+      "city:garden-city"
+    ],
+    "topics": [
+      "permits",
+      "jurisdiction"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Building Services — Garden City Development Services",
+        "url": "https://gardencityidaho.org/departments/development-services/building-services",
+        "publisher": "City of Garden City — Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Garden City, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "cv-gardencity-code-enforcement-contact",
+    "claim": "Garden City's Code Enforcement page says anyone who wishes to speak to a code enforcement officer should call (208) 472-2950.",
+    "quote": "If you wish to speak to a code enforcement officer, please call (208) 472-2950.",
+    "entities": [
+      "city:garden-city"
+    ],
+    "topics": [
+      "code-enforcement"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Code Enforcement — City of Garden City",
+        "url": "https://gardencityidaho.org/departments/police/code-enforcement",
+        "publisher": "City of Garden City — Police",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Garden City, Idaho",
+    "amendmentHistory": null
   }
 ];
 

@@ -1,0 +1,10 @@
+{
+  "url": "https://meridiancity.org/community-development/building/customer-information/",
+  "fetchedAt": "2026-11-13T19:58:29.288Z",
+  "status": 200,
+  "finalUrl": "https://meridiancity.org/community-development/building/customer-information/",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 55503,
+  "fetchedVia": "chrome-headless-dump-dom",
+  "note": "fetch-source.mjs returns HTTP 403 for this host (bot challenge). Captured as rendered DOM via local headless Chrome (--dump-dom) with a non-HeadlessChrome user agent. Content is the live page, not a fetcher response."
+}

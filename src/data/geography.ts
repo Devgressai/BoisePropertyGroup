@@ -36,7 +36,7 @@ export const county = {
   "slug": "sell-my-house-fast-ada-county",
   "population2024Census": 535799,
   "population2024Compass": 557590,
-  "directClaims": 88,
+  "directClaims": 95,
   "uniqueClaims": 35,
   "indexable": true
 } as const;
@@ -56,8 +56,8 @@ export const places: Place[] = [
     "placeFips": "08830",
     "population2024Census": 237963,
     "growthPct2020to2024": 1,
-    "directClaims": 20,
-    "uniqueClaims": 15,
+    "directClaims": 26,
+    "uniqueClaims": 21,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -76,8 +76,8 @@ export const places: Place[] = [
     "placeFips": "52120",
     "population2024Census": 139740,
     "growthPct2020to2024": 18.6,
-    "directClaims": 14,
-    "uniqueClaims": 8,
+    "directClaims": 16,
+    "uniqueClaims": 10,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -96,8 +96,8 @@ export const places: Place[] = [
     "placeFips": "23410",
     "population2024Census": 33451,
     "growthPct2020to2024": 7.4,
-    "directClaims": 9,
-    "uniqueClaims": 4,
+    "directClaims": 13,
+    "uniqueClaims": 8,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -116,8 +116,8 @@ export const places: Place[] = [
     "placeFips": "44290",
     "population2024Census": 29127,
     "growthPct2020to2024": 21,
-    "directClaims": 11,
-    "uniqueClaims": 4,
+    "directClaims": 13,
+    "uniqueClaims": 6,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -137,8 +137,8 @@ export const places: Place[] = [
     "placeFips": "76870",
     "population2024Census": 18208,
     "growthPct2020to2024": 61.4,
-    "directClaims": 13,
-    "uniqueClaims": 8,
+    "directClaims": 16,
+    "uniqueClaims": 11,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": "SPANS 2 COUNTIES (Ada County, Canyon County). Never describe as wholly within Ada County. Jurisdiction-dependent facts must be qualified by which county part is meant."
@@ -157,8 +157,8 @@ export const places: Place[] = [
     "placeFips": "29620",
     "population2024Census": 12936,
     "growthPct2020to2024": 5.1,
-    "directClaims": 8,
-    "uniqueClaims": 4,
+    "directClaims": 10,
+    "uniqueClaims": 6,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null

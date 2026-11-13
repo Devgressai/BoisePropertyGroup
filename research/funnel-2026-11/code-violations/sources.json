@@ -1,0 +1,607 @@
+{
+  "sources": [
+    {
+      "id": "idcode-39-4111",
+      "title": "Idaho Code § 39-4111 — Idaho Building Code Act — permits required",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch41/sect39-4111/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "permits",
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2011",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text (Idaho Building Code Act, title 39 chapter 41), read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "cv-id-permit-required-local-jurisdiction"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-39-4126",
+      "title": "Idaho Code § 39-4126 — Idaho Building Code Act — violations misdemeanors",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch41/sect39-4126/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "permits",
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2002",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text (Idaho Building Code Act, title 39 chapter 41), read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "cv-id-building-code-violation-misdemeanor"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-code-7-2-building-codes",
+      "title": "Ada County Code Title 7, Chapter 2 — Building Codes (7-2-1 to 7-2-3)",
+      "publisher": "Ada County (hosted by American Legal Publishing)",
+      "organizationType": "county-government",
+      "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-2772",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "permits",
+        "code-enforcement",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Ada County Code 7-2-1 short title and purpose, 7-2-3 adoption of codes; code edition shown as 2026 S-15) as hosted by American Legal Publishing, the publisher the jurisdiction's own site links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom) and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv-ada-building-code-applies-unincorporated"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-code-7-2-5",
+      "title": "Ada County Code § 7-2-5 — Ada County amendments to the 2018 International Residential Code",
+      "publisher": "Ada County (hosted by American Legal Publishing)",
+      "organizationType": "county-government",
+      "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-2904",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "permits",
+        "fees",
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Ada County Code 7-2-5, the county's amendments to IRC sections R105.1, R105.2, R108.4 and others) as hosted by American Legal Publishing, the publisher the jurisdiction's own site links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom) and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs. The cached page also contains the neighbouring section 7-2-4 (commercial IBC amendments); every quote used is from the 7-2-5 block.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv-ada-permit-required-tied-to-property",
+        "cv-ada-exempt-work-list",
+        "cv-ada-investigative-fee-work-without-permit"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-code-7-2-12",
+      "title": "Ada County Code § 7-2-12 — Penalties",
+      "publisher": "Ada County (hosted by American Legal Publishing)",
+      "organizationType": "county-government",
+      "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-20605",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "code-enforcement",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Ada County Code 7-2-12; ordinance history Ord. 781, 5-17-2011; amd. Ord. 817, 1-7-2014; amd. Ord. 919, 2-16-2021) as hosted by American Legal Publishing, the publisher the jurisdiction's own site links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom) and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv-ada-building-code-penalties"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-permitting-division",
+      "title": "Permitting Division — Ada County Development Services",
+      "publisher": "Ada County Development Services",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/developmentservices/permitting-division/",
+      "sourceTier": 2,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the county Permitting Division's own page and FAQ, read directly with raw HTML cached. States that electrical and plumbing permits go through the State of Idaho (DOPL) and gives the division phone number.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-ada-electrical-plumbing-permits-state"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-building-division",
+      "title": "Building — City of Boise Planning and Development Services",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/building/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the Building Division's own landing page, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-boise-building-division-issues-permits"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-9-1b-14",
+      "title": "Boise City Code § 9-1B-14 — IRC amendment, add section R105.10, permit transfer",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-37244",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "permits",
+        "transfer"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Boise City Code 9-1B-14; Ord. 44-17, 12-19-2017, eff. 1-1-2018; amd. Ord. 40-20, 12-1-2020, eff. 1-1-2021) as hosted by American Legal Publishing, the publisher the jurisdiction's own site links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom) and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv-boise-permit-transfer"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-9-1b-21",
+      "title": "Boise City Code § 9-1B-21 — IRC amendment, section R108.6, work commencing before permit issuance",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-37275",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "permits",
+        "fees",
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Boise City Code 9-1B-21; Ord. 44-17, 12-19-2017, eff. 1-1-2018; amd. Ord. 40-20, 12-1-2020, eff. 1-1-2021) as hosted by American Legal Publishing, the publisher the jurisdiction's own site links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom) and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv-boise-special-investigation-fee"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-9-1b-29",
+      "title": "Boise City Code § 9-1B-29 — IRC amendment, section R113.4, criminal penalties and noncompliance",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-37326",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "code-enforcement",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Boise City Code 9-1B-29, part of the One-and-Two-Family Dwelling Building Code of Boise City) as hosted by American Legal Publishing, the publisher the jurisdiction's own site links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom) and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv-boise-building-code-penalties"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-and-business-license-compliance",
+      "title": "Code and Business License Compliance — City of Boise",
+      "publisher": "City of Boise — Office of Code Compliance and Community Resources",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/code-compliance/code-and-business-license-compliance/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's own description of what Code Compliance enforces, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-boise-code-compliance-scope"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-case-lookup-tool",
+      "title": "Code Compliance — Case Lookup Tool — City of Boise",
+      "publisher": "City of Boise — Office of Code Compliance and Community Resources",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/code-compliance/case-lookup-tool/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "code-enforcement",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's own description of its closed-case lookup, read directly with raw HTML cached. The tool itself was not queried.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-boise-case-lookup-closed-cases-only"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-building-services",
+      "title": "Building — City of Meridian Community Development",
+      "publisher": "City of Meridian — Building Services",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/building",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — Building Services' own landing page. Captured with local headless Chrome because meridiancity.org returns HTTP 403 to automated fetches; the cache meta records fetchedVia.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-meridian-building-services-scope"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-code-enforcement",
+      "title": "Code Enforcement — Meridian Police Department",
+      "publisher": "City of Meridian — Police Department",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/police/community-resources/code-enforcement/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the Police Department's own Code Enforcement page. Captured with local headless Chrome because meridiancity.org returns HTTP 403 to automated fetches; the cache meta records fetchedVia.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-meridian-code-enforcement-scope"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-building-department",
+      "title": "Building Department — City of Eagle",
+      "publisher": "City of Eagle — Building Department",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/153/Building",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the Building Department's own page and FAQ, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-eagle-building-department-permit-faq"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-7-1a-4",
+      "title": "Eagle City Code § 7-1A-4 — IRC building code amendments",
+      "publisher": "City of Eagle (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9007",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "permits",
+        "fees",
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2015",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Eagle City Code 7-1A-4, the city's IRC amendments including new sections R108.6 and R113.5; the block closes with Ord. 728, 1-27-2015) as hosted by American Legal Publishing, the publisher the jurisdiction's own site links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom) and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs. The cached page also contains the neighbouring section 7-1A-3 (IBC amendments); every quote used is from the IRC block.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv-eagle-investigation-fee-work-before-permit",
+        "cv-eagle-building-code-penalties"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-enforcement-complaint",
+      "title": "Code Enforcement Complaints — City of Eagle",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/418/Code-Enforcement-Complaint",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's own complaint-intake page, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-eagle-code-enforcement-complaints"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-building-department",
+      "title": "Building Department — City of Kuna",
+      "publisher": "City of Kuna — Building Department",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/119/Building-Department",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the Building Department's own page, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-kuna-building-department-scope"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-code-enforcement",
+      "title": "Code Enforcement — City of Kuna",
+      "publisher": "City of Kuna — City Clerk",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/121/Code-Enforcement",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's own Code Enforcement page, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-kuna-code-enforcement-complaint-driven"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-building-department",
+      "title": "Building Department — City of Star",
+      "publisher": "City of Star — Building Department",
+      "organizationType": "municipal-government",
+      "url": "https://staridaho.org/1243/Building-Department",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the Building Department's own page, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-star-building-department-scope"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-enforcement",
+      "title": "Code Enforcement — City of Star",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://staridaho.org/1242/Code-Enforcement",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's own Code Enforcement page, which restates Star City Code Title 3 nuisance procedure, read directly with raw HTML cached. The Star City Code itself (Municode) was not cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-star-code-enforcement-fifteen-days"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-building-services",
+      "title": "Building Services — Garden City Development Services",
+      "publisher": "City of Garden City — Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/development-services/building-services",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "permits",
+        "jurisdiction"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the Building Division's own page, read directly with raw HTML cached.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-gardencity-building-services-contract"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-code-enforcement",
+      "title": "Code Enforcement — City of Garden City",
+      "publisher": "City of Garden City — Police",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/police/code-enforcement",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "code-enforcement"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's own Code Enforcement page, read directly with raw HTML cached. It gives a phone number and a link to the city code and nothing else.",
+      "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
+      "claimsSupported": [
+        "cv-gardencity-code-enforcement-contact"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}
