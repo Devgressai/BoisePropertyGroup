@@ -11,6 +11,7 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import Explore from "@/components/Explore";
+import Questions from "@/components/Questions";
 import PageSchema from "@/components/seo/PageSchema";
 import { pageMetadata } from "@/lib/seo/meta";
 
@@ -38,6 +39,7 @@ export default function Home() {
         <OfferMath />
         <WhenNotToSell />
         <HowItWorks />
+        <Questions />
         <WhatWeBuy />
         <LocalKnowledge />
         <Explore />

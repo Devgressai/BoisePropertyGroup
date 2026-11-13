@@ -2,6 +2,7 @@
 
 import { useId, useState } from "react";
 import Link from "next/link";
+import OfferForm from "./OfferForm";
 import {
   CONDITION_TIERS,
   calculateOffer,
@@ -171,7 +172,14 @@ export default function OfferMath() {
           <h3 className="serif text-[1.5rem] font-semibold text-white">What you keep, three ways</h3>
           <div className="mt-6 grid gap-x-10 md:grid-cols-3">
             {paths.map((p, i) => (
-              <div key={p.t} className={`border-t-2 pt-5 pb-8 ${i === 0 ? "border-[var(--bpg-brass)]" : "border-white/25"}`}>
+              <div key={p.t} className="pb-8">
+                {/* Bar: what you keep as a share of the finished value. */}
+                <div aria-hidden="true" className="mb-5 h-[5px] bg-white/12">
+                  <div
+                    className={`h-full transition-[width] duration-300 ${i === 0 ? "bg-[var(--bpg-brass)]" : "bg-white/70"}`}
+                    style={{ width: `${Math.max(0, Math.min(100, (p.net / arv) * 100))}%` }}
+                  />
+                </div>
                 <p className="font-semibold text-white">{p.t}</p>
                 <p className="mt-0.5 text-[0.82rem]">{p.sub}</p>
                 <p className="eyebrow mt-4 text-[var(--bpg-brass)]">You keep, roughly</p>
@@ -195,13 +203,20 @@ export default function OfferMath() {
           </p>
         </div>
 
-        <div className="mt-12 flex flex-wrap items-center gap-x-6 gap-y-4">
-          <a href="#offer" className="btn btn-brass">
-            Get the number for your property <span aria-hidden="true">→</span>
-          </a>
-          <Link href="/how-we-calculate-an-offer" className="text-sm font-semibold text-white underline decoration-[var(--bpg-brass)] underline-offset-4">
-            Read how each line is worked out
-          </Link>
+        <div className="mt-12 grid gap-6 border-t border-white/25 pt-9 lg:grid-cols-[1fr_minmax(0,34rem)] lg:items-center lg:gap-14">
+          <div>
+            <p className="serif text-[1.5rem] font-semibold leading-snug text-white">
+              Now the real number, for your address.
+            </p>
+            <p className="mt-2 text-sm">
+              <Link href="/how-we-calculate-an-offer" className="font-semibold text-white underline decoration-[var(--bpg-brass)] underline-offset-4">
+                Read how each line is worked out
+              </Link>
+            </p>
+          </div>
+          <div data-offer-form>
+            <OfferForm bar note="" />
+          </div>
         </div>
       </div>
     </section>

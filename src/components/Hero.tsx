@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import OfferForm from "./OfferForm";
+import OfferSheet from "./OfferSheet";
 import { site, hasPhone } from "@/data/site";
 
 /**
@@ -16,11 +17,12 @@ import { site, hasPhone } from "@/data/site";
  * this business has no publishable record. check-vocabulary.mjs enforces the
  * social-proof half of that rule; the rest is judgement, so read this first.
  */
+/** The questions worth asking any cash buyer, with our answers. */
 const FACTS = [
-  { t: "Our own capital", d: "No lender to wait on" },
-  { t: "A local title company", d: "Holds the money, records the deed" },
-  { t: "Your closing date", d: "Three weeks, or three months" },
-  { t: "Any condition", d: "Sold as it stands" },
+  { q: "Whose money is it?", t: "Our own capital", d: "No lender to wait on" },
+  { q: "Who holds it?", t: "A local title company", d: "Holds the money, records the deed" },
+  { q: "Who sets the date?", t: "You do", d: "Three weeks is realistic, or take three months" },
+  { q: "What condition?", t: "Any", d: "Sold as it stands" },
 ];
 
 export default function Hero() {
@@ -37,6 +39,7 @@ export default function Hero() {
             sizes="(min-width: 1024px) 46vw, 100vw"
             className="object-cover object-center"
           />
+          <OfferSheet className="absolute bottom-10 left-10 hidden w-[21.5rem] lg:block" />
         </div>
 
         <div className="wrap relative pb-12 pt-8 sm:pb-16 sm:pt-12 lg:py-28">
@@ -66,6 +69,10 @@ export default function Hero() {
                 See how we calculate an offer <span aria-hidden="true">↓</span>
               </Link>
             </p>
+
+            <div aria-hidden="true" className="mt-9 lg:hidden">
+              <OfferSheet />
+            </div>
           </div>
         </div>
       </div>
@@ -77,7 +84,10 @@ export default function Hero() {
               key={f.t}
               className={`py-5 pr-4 lg:py-6 ${i % 2 ? "pl-5 border-l border-[var(--bpg-border)]" : ""} ${i > 1 ? "max-lg:border-t max-lg:border-[var(--bpg-border)]" : ""} ${i === 2 ? "lg:border-l lg:border-[var(--bpg-border)] lg:pl-5" : ""}`}
             >
-              <dt className="serif text-[1.08rem] font-semibold leading-snug text-[var(--bpg-ink)]">{f.t}</dt>
+              <dt>
+                <span className="eyebrow block !text-[0.68rem] text-[var(--bpg-warm)]">{f.q}</span>
+                <span className="serif mt-1.5 block text-[1.2rem] font-semibold leading-snug text-[var(--bpg-ink)]">{f.t}</span>
+              </dt>
               <dd className="mt-1 text-[0.86rem] leading-snug text-[var(--bpg-muted)]">{f.d}</dd>
             </div>
           ))}
