@@ -46,9 +46,26 @@ const MARGIN_RATE = 0.09;
 const COMMISSION_RATE = 0.05;
 const SELLER_CLOSING_RATE = 0.01;
 
+/** Bounds of the worksheet's value input. Outside them the model is not meant to be read. */
+export const ARV_MIN = 150_000;
+export const ARV_MAX = 1_500_000;
+export const ARV_DEFAULT = 500_000;
+export const CONDITION_DEFAULT: ConditionKey = "significant";
+
+/** Whatever was typed, as a whole-dollar value inside the bounds. */
+export function clampArv(input: unknown): number {
+  const n = typeof input === "number" ? input : Number(String(input ?? "").replace(/[^0-9.]/g, ""));
+  if (!Number.isFinite(n) || n <= 0) return ARV_MIN;
+  return Math.min(ARV_MAX, Math.max(ARV_MIN, Math.round(n / 1000) * 1000));
+}
+
+/** A non-finite or negative value is treated as zero rather than propagated. */
+const safe = (n: number) => (Number.isFinite(n) && n > 0 ? n : 0);
+
 const tierOf = (c: ConditionKey) => CONDITION_TIERS.find((t) => t.key === c) ?? CONDITION_TIERS[1];
 
-export function calculateOffer(arv: number, condition: ConditionKey) {
+export function calculateOffer(rawArv: number, condition: ConditionKey) {
+  const arv = safe(rawArv);
   const tier = tierOf(condition);
   const repairs = Math.round(arv * tier.repairRate);
   const holding = Math.round(arv * (RESALE_COST_RATE + MONTHLY_CARRY_RATE * tier.months));
@@ -58,7 +75,8 @@ export function calculateOffer(arv: number, condition: ConditionKey) {
 }
 
 /** List it as it stands: the buyer prices in the work; you fund none of it. */
-export function calculateAsIsListing(arv: number, condition: ConditionKey) {
+export function calculateAsIsListing(rawArv: number, condition: ConditionKey) {
+  const arv = safe(rawArv);
   const tier = tierOf(condition);
   const price = Math.round(arv * (1 - tier.repairRate - tier.asIsDiscount));
   const commission = Math.round(price * COMMISSION_RATE);
@@ -72,7 +90,8 @@ export function calculateAsIsListing(arv: number, condition: ConditionKey) {
  * Do the work, then list. Deliberately generous to listing: the repairs are
  * deducted because you have to fund them to reach the after-repair value.
  */
-export function calculateListing(arv: number, condition: ConditionKey) {
+export function calculateListing(rawArv: number, condition: ConditionKey) {
+  const arv = safe(rawArv);
   const tier = tierOf(condition);
   const repairs = Math.round(arv * tier.repairRate);
   const commission = Math.round(arv * COMMISSION_RATE);

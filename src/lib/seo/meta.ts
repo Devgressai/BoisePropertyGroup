@@ -6,12 +6,12 @@ export const TITLE_MAX = 65;
 export const DESCRIPTION_MAX = 160;
 const SUFFIX = ` | ${site.name}`;
 
-/** Brand share card, 1200×630. Built from the hero photograph; no claims beyond owner-confirmed ones. */
+/** Brand share card, 1200×630. Typographic: the name, the headline and the example worksheet. No photograph. */
 export const OG_IMAGE = {
   url: "/og.jpg",
   width: 1200,
   height: 630,
-  alt: "Boise Property Group — sell the property on your terms. Direct property buyer in Ada County, Idaho",
+  alt: "Boise Property Group, a direct property buyer in Ada County, Idaho, with an example offer worksheet",
 };
 
 /**

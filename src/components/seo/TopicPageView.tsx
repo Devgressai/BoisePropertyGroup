@@ -55,7 +55,7 @@ export default function TopicPageView({ page }: { page: TopicPage }) {
             </div>
             {page.kind === "situation" && (
               <div className="mt-9 flex flex-wrap gap-3">
-                <Link href="#offer" className="btn btn-primary">Get an offer</Link>
+                <Link href="#offer" className="btn btn-primary">Request an offer</Link>
                 <Link href="/how-we-calculate-an-offer" className="btn btn-secondary">How we price it</Link>
               </div>
             )}

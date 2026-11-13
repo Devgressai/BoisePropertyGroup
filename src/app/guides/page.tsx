@@ -8,25 +8,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
-import { guides, type Guide } from "@/data/guides";
+import { guides, GUIDE_GROUPS } from "@/data/guides";
 
 const TITLE = "Guides — Selling Property in Idaho";
 const DESCRIPTION =
   "What Idaho statutes actually say about probate sales, foreclosure and tax deeds, selling with tenants, and disclosure. Sourced, quoted and dated.";
 
-/**
- * The index is grouped by the reader's situation, not listed in publication
- * order. Every cluster in the Guide type belongs to exactly one group, so a new
- * guide appears under a heading without an edit here.
- */
-const GROUPS: { id: string; h: string; clusters: Guide["cluster"][] }[] = [
-  { id: "distress", h: "Foreclosure and missed payments", clusters: ["distress"] },
-  { id: "estate", h: "Inherited property and probate", clusters: ["estate", "probate"] },
-  { id: "money", h: "Liens and taxes", clusters: ["liens", "property-tax"] },
-  { id: "sale", h: "Disclosure and closing", clusters: ["disclosure", "closing"] },
-  { id: "people", h: "Divorce and tenants", clusters: ["divorce", "tenants"] },
-  { id: "land", h: "Land, wells and manufactured homes", clusters: ["land", "well-septic", "manufactured"] },
-];
+const GROUPS = GUIDE_GROUPS;
 
 export const metadata: Metadata = pageMetadata({ path: "/guides", title: TITLE, description: DESCRIPTION });
 
@@ -52,7 +40,7 @@ export default function GuidesHub() {
             const list = guides.filter((g) => grp.clusters.includes(g.cluster));
             if (list.length === 0) return null;
             return (
-              <section key={grp.h} aria-labelledby={`g-${grp.id}`} className="mb-14 last:mb-0">
+              <section key={grp.h} aria-labelledby={`g-${grp.id}`} className="mb-14 scroll-mt-28 last:mb-0">
                 <h2 id={`g-${grp.id}`} className="eyebrow border-b border-[var(--bpg-ink)] pb-3 text-[var(--bpg-warm)]">{grp.h}</h2>
                 <ol className="grid gap-x-12 md:grid-cols-2">
                   {list.map((g) => (

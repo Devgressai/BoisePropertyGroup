@@ -15,7 +15,7 @@ const DESCRIPTION =
 export const metadata: Metadata = pageMetadata({ path: "/contact", title: TITLE, description: DESCRIPTION });
 
 const NEXT = [
-  { t: "You send the address", d: "Then your name and a phone number, so we can reach you with the number." },
+  { t: "You send the address", d: "It comes to us when you press the button. Then your name and a phone number, so we can reach you with the number." },
   { t: "We do the arithmetic", d: "We look at the parcel record and the property and build an offer you can check line by line." },
   { t: "You decide, and you set the date", d: "No obligation. If you accept, the sale closes through a local title company on the date you choose. A three-week close is realistic." },
 ];
@@ -59,8 +59,27 @@ export default function Contact() {
             {/* id="offer": the navbar and mobile bar link to #offer on every page. */}
             <div id="offer" className="scroll-mt-24 lg:sticky lg:top-24">
               <div data-offer-form className="form-panel p-6 sm:p-7">
+                <h2 className="serif text-[1.35rem] font-semibold text-[var(--bpg-ink)]">Request an offer</h2>
+                <p className="mb-4 mt-1 text-sm text-[var(--bpg-muted)]">Step 1 of 2: where the property is.</p>
                 <OfferForm bare />
               </div>
+              <ul className="mt-5 space-y-2 text-sm leading-relaxed text-[var(--bpg-muted)]">
+                <li>Land with no street address: enter the parcel number and the nearest city.</li>
+                <li>Commercial or multifamily: the address is enough to start. We ask for a rent roll later, never on this form.</li>
+                {hasPhone && (
+                  <li>
+                    Rather talk first? Call{" "}
+                    <a href={site.phoneHref} className="font-semibold text-[var(--bpg-ink)]">{site.phone}</a>.
+                  </li>
+                )}
+              </ul>
+              {hasPhone && (
+                <noscript>
+                  <p className="mt-4 border-l-4 border-[var(--bpg-accent)] bg-white p-4 text-sm text-[var(--bpg-ink)]">
+                    This form needs JavaScript. Without it, please call {site.phone}.
+                  </p>
+                </noscript>
+              )}
             </div>
           </div>
         </header>
@@ -69,9 +88,9 @@ export default function Contact() {
             a plausible-looking placeholder. */}
         {anyNap && (
           <div className="wrap py-14">
-            <h2 className="eyebrow text-[var(--bpg-muted)]">Direct</h2>
+            <h2 className="eyebrow text-[var(--bpg-muted)]">By phone</h2>
             <div className="mt-4 space-y-2">
-              {hasPhone && <p><a href={site.phoneHref} className="text-[var(--bpg-ink)]">{site.phone}</a></p>}
+              {hasPhone && <p><a href={site.phoneHref} className="serif text-[1.6rem] font-semibold text-[var(--bpg-ink)] no-underline hover:underline">{site.phone}</a></p>}
               {hasEmail && <p><a href={`mailto:${site.email}`} className="text-[var(--bpg-ink)]">{site.email}</a></p>}
               {hasAddress && (
                 <address className="not-italic leading-relaxed text-[var(--bpg-muted)]">

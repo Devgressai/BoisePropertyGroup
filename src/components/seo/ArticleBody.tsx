@@ -15,7 +15,7 @@ export const anchor = (h: string) => h.replace(/[^a-z0-9]+/gi, "-").toLowerCase(
 export default function ArticleBody({
   sections,
   children,
-  offerLabel = "Get an offer",
+  offerLabel = "Request an offer",
   offerNote = "Start with the address. We come back with a number and the working behind it.",
 }: {
   sections: { heading: string; body: string[] }[];

@@ -33,13 +33,13 @@ export default function Situations() {
     <section className="section bg-white" aria-labelledby="situations">
       <div className="wrap">
         <div className="section-head">
-          <p className="eyebrow text-[var(--bpg-warm)]">Start where you are</p>
+          <p className="eyebrow text-[var(--bpg-warm)]">If there is more to it</p>
           <h2 id="situations" className="display-lg mt-4 text-[var(--bpg-ink)]">
-            What&rsquo;s actually going on?
+            The situation behind the sale.
           </h2>
           <p className="lede mt-5 text-[var(--bpg-muted)]">
-            Most people get here because something else happened first. Pick yours for a plain
-            account of your options under Idaho law.
+            Optional reading. Each page sets out the choices under Idaho law, including the ones
+            that do not involve us. You can ask for an offer without telling us any of this.
           </p>
         </div>
         <ul className="section-body mt-10 grid gap-x-12 border-t border-[var(--bpg-border)] sm:grid-cols-2">

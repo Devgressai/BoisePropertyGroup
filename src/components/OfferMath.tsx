@@ -10,6 +10,11 @@ import {
   calculateListing,
   range,
   formatUsd,
+  clampArv,
+  ARV_MIN,
+  ARV_MAX,
+  ARV_DEFAULT,
+  CONDITION_DEFAULT,
   type ConditionKey,
 } from "@/lib/offer-math";
 
@@ -21,6 +26,14 @@ import {
  * the same model as their Sierra Property Buyers site. Everything shown is
  * arithmetic on two inputs the reader sets; the result is labelled an
  * illustration, and a firm number still comes from the address.
+ *
+ * WHAT IT IS AND IS NOT (redesign, 2026-11-13). An illustrative worksheet for
+ * a house or small rental. It is not an estimate of the visitor's property and
+ * not an offer, and the page says so beside the total. It does not apply to
+ * land or income property, and says that too. The "sell to us" column shows
+ * no line for the seller's closing costs because none has been confirmed by
+ * the owner; they are named in the note as stated in the written offer.
+ * The ± band is a rounding band on an illustration, never a confidence range.
  */
 function Line({ label, value, minus = false, strong = false }: { label: string; value: number; minus?: boolean; strong?: boolean }) {
   return (
@@ -46,9 +59,23 @@ function Band({ value }: { value: number }) {
 }
 
 export default function OfferMath() {
-  const [arv, setArv] = useState(500_000);
-  const [condition, setCondition] = useState<ConditionKey>("significant");
+  const [arv, setArvState] = useState(ARV_DEFAULT);
+  /** What is typed in the box. Committed (clamped) on blur or Enter, so a half-typed figure is not corrected mid-keystroke. */
+  const [arvText, setArvText] = useState(formatUsd(ARV_DEFAULT));
+  const [condition, setCondition] = useState<ConditionKey>(CONDITION_DEFAULT);
   const sliderId = useId();
+  const inputId = useId();
+
+  const setArv = (n: number) => {
+    setArvState(n);
+    setArvText(formatUsd(n));
+  };
+  const commitText = () => setArv(clampArv(arvText));
+  const isDefault = arv === ARV_DEFAULT && condition === CONDITION_DEFAULT;
+  const reset = () => {
+    setArv(ARV_DEFAULT);
+    setCondition(CONDITION_DEFAULT);
+  };
 
   const cash = calculateOffer(arv, condition);
   const asIs = calculateAsIsListing(arv, condition);
@@ -66,7 +93,7 @@ export default function OfferMath() {
       t: "Sell to us",
       sub: "As it stands · your closing date",
       net: cash.offer,
-      rows: [["Our offer", cash.offer, false], ["Repairs you pay", 0, true], ["Commission", 0, true], ["Your closing costs", 0, true]] as const,
+      rows: [["Our offer", cash.offer, false], ["Repairs you pay", 0, true], ["Listing commission", 0, true]] as const,
     },
     {
       t: "List it as it stands",
@@ -91,27 +118,48 @@ export default function OfferMath() {
             How an offer is calculated.
           </h2>
           <p className="lede mt-5">
-            Every direct buyer&rsquo;s number comes from the same four lines. These are ours, with
-            the rates we use. Set the value and the condition.
+            Our offer on a house comes from four lines. These are the rates we use. Set the value
+            and the condition to see how the figure moves. It is an illustration, not a quote for
+            your property.
           </p>
         </div>
 
         <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_minmax(0,30rem)] lg:gap-14">
           <div className="space-y-10">
             <div>
-              <div className="flex items-baseline justify-between gap-4">
-                <label htmlFor={sliderId} className="font-semibold text-white">Value once the work is done</label>
-                <span className="serif text-[1.5rem] text-white tabular-nums">{formatUsd(arv)}</span>
+              <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+                <label htmlFor={inputId} className="font-semibold text-white">Value once the work is done</label>
+                <input
+                  id={inputId}
+                  type="text"
+                  inputMode="numeric"
+                  autoComplete="off"
+                  className="serif h-12 w-[10.5rem] rounded-lg border border-white/30 bg-transparent px-3 text-right text-[1.4rem] text-white tabular-nums focus:border-[var(--bpg-brass)]"
+                  value={arvText}
+                  aria-describedby={`${inputId}-hint`}
+                  onChange={(e) => setArvText(e.target.value)}
+                  onBlur={commitText}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      e.preventDefault();
+                      commitText();
+                    }
+                  }}
+                />
               </div>
-              <p className="mt-0.5 text-sm">Not today&rsquo;s value: what a finished, updated version would sell for.</p>
+              <p id={`${inputId}-hint`} className="mt-1 text-sm">
+                Not today&rsquo;s value: what a finished, updated version would sell for. Type a
+                figure between $150,000 and $1,500,000, or drag.
+              </p>
               <input
                 id={sliderId}
                 type="range"
                 className="range mt-3"
-                min={150_000}
-                max={1_500_000}
+                min={ARV_MIN}
+                max={ARV_MAX}
                 step={10_000}
                 value={arv}
+                aria-label="Value once the work is done, slider"
                 aria-valuetext={formatUsd(arv)}
                 onChange={(e) => setArv(Number(e.target.value))}
               />
@@ -147,6 +195,23 @@ export default function OfferMath() {
                 })}
               </div>
             </fieldset>
+
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
+              <button
+                type="button"
+                onClick={reset}
+                disabled={isDefault}
+                className="min-h-[44px] font-semibold text-white underline decoration-[var(--bpg-brass)] underline-offset-4 disabled:cursor-default disabled:opacity-50 disabled:no-underline"
+              >
+                Reset the example
+              </button>
+              <p>
+                For houses and small rentals.{" "}
+                <Link href="/sell-land-idaho" className="text-white underline underline-offset-2">Land</Link> and{" "}
+                <Link href="/commercial" className="text-white underline underline-offset-2">income property</Link>{" "}
+                are worked out differently.
+              </p>
+            </div>
           </div>
 
           <div className="rounded-2xl border border-white/12 bg-[var(--bpg-navy-soft)] p-7 sm:p-8">
@@ -156,13 +221,14 @@ export default function OfferMath() {
               <Line label={`Holding ~${cash.months} months, and reselling`} value={cash.holding} minus />
               <Line label="Our margin" value={cash.margin} minus />
             </dl>
-            <div className="mt-6 flex items-end justify-between gap-4" aria-live="polite">
-              <p className="eyebrow text-[var(--bpg-brass)]">The offer, roughly</p>
+            <div className="mt-6 flex items-end justify-between gap-4">
+              <p className="eyebrow text-[var(--bpg-brass)]">Example offer</p>
               <p className="serif text-[clamp(2.2rem,4.5vw,3rem)] font-semibold leading-none text-white tabular-nums">{formatUsd(cash.offer)}</p>
             </div>
             <p className="mt-6 border-t border-white/12 pt-5 text-sm leading-relaxed">
-              An illustration from two inputs, not a quote. A real offer names the comparable sales
-              behind the value and lists the work line by line, so you can check every figure.
+              An illustration from the two inputs you set. It is not an estimate of your property
+              and not an offer. A real offer names the comparable sales behind the value and lists
+              the work line by line, so you can check every figure.
             </p>
           </div>
         </div>
@@ -182,7 +248,7 @@ export default function OfferMath() {
                 </div>
                 <p className="font-semibold text-white">{p.t}</p>
                 <p className="mt-0.5 text-[0.82rem]">{p.sub}</p>
-                <p className="eyebrow mt-4 text-[var(--bpg-brass)]">You keep, roughly</p>
+                <p className="eyebrow mt-4 text-[var(--bpg-brass)]">Example proceeds</p>
                 <div className="mt-1"><Band value={p.net} /></div>
                 <dl className="mt-4 text-[0.88rem]">
                   {p.rows.map(([k, v, minus]) => (
@@ -198,15 +264,19 @@ export default function OfferMath() {
           <p className="serif max-w-[46rem] text-[1.25rem] leading-snug text-white">{read}</p>
           <p className="mt-4 max-w-[46rem] text-sm leading-relaxed">
             Each &ldquo;you keep&rdquo; figure is before any mortgage payoff, liens and taxes on the
-            sale, which come out of the same number at closing. Listing figures assume a 5% commission
-            and 1% seller closing costs.
+            sale, which come out of the same number at closing. The ranges are the figure plus or
+            minus 4%, to avoid false precision; they are not a forecast. Listing figures assume a
+            5% commission and 1% seller closing costs. Both are assumptions for the example:
+            commissions are negotiable and yours may differ. The first column shows no listing
+            commission because no listing agent is involved, and any closing costs that fall to
+            you in a sale to us are stated in the written offer.
           </p>
         </div>
 
         <div className="mt-12 grid gap-6 border-t border-white/25 pt-9 lg:grid-cols-[1fr_minmax(0,34rem)] lg:items-center lg:gap-14">
           <div>
             <p className="serif text-[1.5rem] font-semibold leading-snug text-white">
-              Now the real number, for your address.
+              Ask for the real figures, for your address.
             </p>
             <p className="mt-2 text-sm">
               <Link href="/how-we-calculate-an-offer" className="font-semibold text-white underline decoration-[var(--bpg-brass)] underline-offset-4">
@@ -215,7 +285,7 @@ export default function OfferMath() {
             </p>
           </div>
           <div data-offer-form>
-            <OfferForm bar note="" />
+            <OfferForm bar dark />
           </div>
         </div>
       </div>

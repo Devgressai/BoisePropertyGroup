@@ -41,7 +41,7 @@ const areaLinks: [string, string][] = [
 /** BOFU situation pages, computed from the registry like the Areas column. */
 const situationLinks: [string, string][] = publishedTopics("situation").map((p) => [p.eyebrow, `/${p.slug}`]);
 const COLS = [
-  { h: "Sell", links: [["How It Works", "/how-it-works"], ["What We Buy", "/what-we-buy"], ["Commercial", "/commercial"], ["Get an Offer", "#offer"]] },
+  { h: "Sell", links: [["How It Works", "/how-it-works"], ["What We Buy", "/what-we-buy"], ["Commercial", "/commercial"], ["Request an Offer", "#offer"]] },
   { h: "Situations", links: situationLinks },
   { h: "Areas", links: areaLinks },
   { h: "Learn", links: [["Guides", "/guides"], ["About", "/about"], ["Contact", "/contact"], ["Privacy Policy", "/privacy-policy"]] },

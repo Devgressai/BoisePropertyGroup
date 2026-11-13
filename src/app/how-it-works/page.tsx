@@ -3,7 +3,6 @@ import { pageMetadata } from "@/lib/seo/meta";
 import NextSteps from "@/components/NextSteps";
 import TopicList from "@/components/TopicList";
 import PageSchema from "@/components/seo/PageSchema";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
@@ -79,21 +78,6 @@ export default function HowItWorks() {
               </li>
             ))}
           </ol>
-        </div>
-        {/* Illustrative photography — not a client and not a completed sale.
-            It must never carry a name, quote, rating, location caption or any
-            framing that presents it as a record of something that happened. */}
-        <div className="wrap pb-16">
-          <div className="overflow-hidden rounded-2xl">
-            <Image
-              src="/images/people-kitchen-table.webp"
-              alt="Two people sitting at a kitchen table with an open folder of paperwork between them"
-              width={1024}
-              height={768}
-              sizes="(min-width: 1200px) 1152px, 100vw"
-              className="h-[18rem] w-full object-cover object-center sm:h-[24rem]"
-            />
-          </div>
         </div>
         <TopicList kind="decision" heading="Before you decide" lede="How our number is built, how it compares with listing, and how to check any buyer." />
         <NextSteps path="/how-it-works" />

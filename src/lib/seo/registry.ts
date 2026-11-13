@@ -131,7 +131,7 @@ export function nextSteps(path: string): NextStep[] {
   const areas = { href: "/locations", label: "Areas we buy in", note: "Ada County and its six cities." };
   const guidesHub = { href: "/guides", label: "Idaho selling guides", note: "Probate, foreclosure, tenants, disclosure." };
   const about = { href: "/about", label: "Who we are", note: "How we work, and what we will not claim." };
-  const contact = { href: "/contact", label: "Get an offer", note: "Start with the address — one field." };
+  const contact = { href: "/contact", label: "Request an offer", note: "Start with the address. One field." };
 
   const compare = { href: "/cash-offer-vs-listing-idaho", label: "Direct sale or listing?", note: "An honest comparison, and when to list." };
   const offerMath = { href: "/how-we-calculate-an-offer", label: "How we calculate an offer", note: "The four numbers, all shown to you." };

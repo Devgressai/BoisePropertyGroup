@@ -2,6 +2,7 @@ import Link from "next/link";
 import { county } from "@/data/geography";
 import { contentFor } from "@/data/place-content";
 import { publishedPlaces, publishedGuides } from "@/lib/seo/registry";
+import { GUIDE_GROUPS } from "@/data/guides";
 
 /**
  * The homepage's routes into the site: every published area and every
@@ -24,7 +25,7 @@ export default function Explore() {
         <div className="section-head">
           <p className="eyebrow text-[var(--bpg-warm)]">Areas and guides</p>
           <h2 id="explore" className="display-lg mt-4 text-[var(--bpg-ink)]">
-            Find your city, or read the law.
+            Your city, and the rules that apply.
           </h2>
           <p className="lede mt-5 text-[var(--bpg-muted)]">
             An area page covers what governs property there. A guide covers one situation under
@@ -52,16 +53,35 @@ export default function Explore() {
             <h3 className="serif text-[1.3rem] font-semibold text-[var(--bpg-ink)]">
               <Link href="/guides" className="no-underline hover:underline">Idaho selling guides</Link>
             </h3>
-            <ul className="mt-4 grid gap-x-10 sm:grid-cols-2">
-              {guides.map((g) => (
-                <li key={g.slug} className="border-t border-[var(--bpg-border)]">
-                  <Link href={`/guides/${g.slug}`} className="group flex items-center justify-between gap-4 py-3.5 text-[var(--bpg-ink)] no-underline">
-                    {g.title}
-                    <span aria-hidden="true" className="text-[var(--bpg-accent)] transition-transform group-hover:translate-x-1">→</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            {/* Grouped and folded: the homepage is not a research index. The
+                links stay in the HTML, so every guide is still one step from home. */}
+            <div className="mt-4 border-b border-[var(--bpg-border)]">
+              {GUIDE_GROUPS.map((grp) => {
+                const list = guides.filter((g) => grp.clusters.includes(g.cluster));
+                if (list.length === 0) return null;
+                return (
+                  <details key={grp.id} className="group border-t border-[var(--bpg-border)]">
+                    <summary className="flex min-h-[56px] cursor-pointer list-none items-center justify-between gap-4 text-[var(--bpg-ink)] [&::-webkit-details-marker]:hidden">
+                      <span className="font-medium">{grp.h}</span>
+                      <span className="flex items-center gap-3 text-sm text-[var(--bpg-muted)]">
+                        {list.length} {list.length === 1 ? "guide" : "guides"}
+                        <span aria-hidden="true" className="text-[1.2rem] leading-none text-[var(--bpg-accent)] group-open:hidden">+</span>
+                        <span aria-hidden="true" className="hidden text-[1.2rem] leading-none text-[var(--bpg-accent)] group-open:inline">−</span>
+                      </span>
+                    </summary>
+                    <ul className="pb-4">
+                      {list.map((g) => (
+                        <li key={g.slug}>
+                          <Link href={`/guides/${g.slug}`} className="flex min-h-[44px] items-center text-[0.98rem] text-[var(--bpg-accent-ink)] underline-offset-2 hover:underline">
+                            {g.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
