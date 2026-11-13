@@ -172,7 +172,27 @@
       "claimsSupported": [
         "id-trustee-sale-120-day-notice",
         "id-trustee-sale-publication",
-        "id-trustee-sale-service-attempts"
+        "id-trustee-sale-service-attempts",
+        "af-cure-within-115-days",
+        "af-cure-reinstates-loan",
+        "af-cure-amount-includes-costs",
+        "af-trustee-deed-conveys-grantor-interest",
+        "ft-notice-of-sale-recipients",
+        "ft-notice-of-sale-contents",
+        "ft-notice-of-sale-posting",
+        "ft-affidavits-recorded-twenty-days",
+        "ft-mail-effective-on-mailing",
+        "ft-cure-within-115-days",
+        "ft-sale-auction-highest-bidder",
+        "ft-postponement-thirty-days",
+        "ft-postponed-sale-fourteen-day-mailing",
+        "ft-trustees-deed-on-payment",
+        "ft-possession-tenth-day",
+        "as-possession-tenth-day",
+        "as-trustee-deed-conveys-grantor-interest",
+        "as-unoccupied-personal-property-ninety-days",
+        "sk-cure-right-115-days",
+        "sk-trustee-sale-postponement-beneficiary-request"
       ],
       "entitiesSupported": [
         "state:id"
@@ -597,7 +617,8 @@
         "ada-recorder-maintains-ownership-documents",
         "ada-recorder-pii-redaction-is-submitter-duty",
         "cl-ada-deeds-blocked-online",
-        "cl-ada-deed-recording-fee"
+        "cl-ada-deed-recording-fee",
+        "ft-ada-recorder-online-search"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -5225,7 +5246,9 @@
       "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
       "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
       "claimsSupported": [
-        "vb-cfpa-written-notice-required"
+        "vb-cfpa-written-notice-required",
+        "fs-cfpa-notice-heading-and-rescission-line",
+        "fs-cfpa-spanish-language-notice"
       ],
       "entitiesSupported": [
         "state:id"
@@ -5250,7 +5273,8 @@
       "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
       "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
       "claimsSupported": [
-        "vb-cfpa-five-business-day-rescission"
+        "vb-cfpa-five-business-day-rescission",
+        "fs-cfpa-mailed-cancellation-effective-on-deposit"
       ],
       "entitiesSupported": [
         "state:id"
@@ -5461,7 +5485,14 @@
       "claimsSupported": [
         "vb-ftc-deed-transfer-warning",
         "vb-ftc-equity-skimming",
-        "vb-ftc-upfront-payment-methods"
+        "vb-ftc-upfront-payment-methods",
+        "fs-ftc-upfront-fee-illegal-mars-rule",
+        "fs-ftc-phony-counseling",
+        "fs-ftc-forensic-audits",
+        "fs-ftc-rent-to-buy-and-rescue-loans",
+        "fs-ftc-legitimate-help",
+        "fs-ftc-where-to-report",
+        "fs-ftc-lawyer-check"
       ],
       "entitiesSupported": [],
       "status": "VERIFIED"
@@ -5933,6 +5964,1576 @@
       ],
       "entitiesSupported": [
         "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1506c",
+      "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. Compiler's note shows the section was added in 2011 and last amended by 2023 ch. 266. No future-dated version or effective-date banner displayed on the section page on 2026-11-13.",
+      "stalenessRisk": "LOW — statute; the legislature's site is updated each July 1. Re-check after the 2027 session.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-modnotice-who-gets-it",
+        "af-modnotice-ask-exact-amount",
+        "af-modnotice-may-not-qualify",
+        "af-modnotice-form-thirty-days",
+        "af-modnotice-response-45-days",
+        "af-modnotice-meeting",
+        "af-modnotice-free-counselors-warning",
+        "ft-loan-mod-notice-primary-residence",
+        "ft-loan-mod-form-thirty-days",
+        "ft-loan-mod-notice-hud-counselors",
+        "ft-loan-mod-45-day-response",
+        "ft-loan-mod-meeting-seven-business-days",
+        "ft-loan-mod-affidavit-twenty-days"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-30",
+      "title": "12 CFR § 1024.30 — Scope (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.30",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.30",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2016-10-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Sets which loans and servicers §§ 1024.39–1024.41 reach. Source note ends 'as amended at ... 81 FR 72370, Oct. 19, 2016'. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before relying on any day count.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-regx-scope",
+        "ft-federal-principal-residence-scope"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-39",
+      "title": "12 CFR § 1024.39 — Early intervention requirements for certain borrowers (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.39",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.39",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-05-16",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Source note ends '90 FR 20792, May 16, 2025'. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before relying on any day count.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-regx-live-contact-36-days",
+        "af-regx-written-notice-45-days"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-41",
+      "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.41",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-05-16",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Source note ends '90 FR 20792, May 16, 2025'. Paragraph (c)(2)(v) on COVID-19-related options is still in the current text and is not used here. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before relying on any day count.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-regx-small-servicer",
+        "af-regx-120-day-prefiling",
+        "af-regx-no-duty-specific-option",
+        "af-regx-acknowledgment-5-days",
+        "af-regx-evaluation-30-days",
+        "af-regx-application-before-referral",
+        "af-regx-no-sale-while-pending",
+        "af-regx-appeal-14-days",
+        "af-regx-short-term-plan-on-incomplete-application",
+        "ft-federal-120-day-delinquency",
+        "ft-federal-application-before-referral",
+        "sk-loss-mit-no-duty-specific-option",
+        "sk-loss-mit-evaluation-37-and-30-days",
+        "sk-loss-mit-sale-prohibition"
+      ]
+    },
+    {
+      "id": "cfpb-cant-pay-mortgage-options",
+      "title": "If I can't pay my mortgage loan, what are my options? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-my-mortgage-en-268/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-28",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2026-08-28. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-call-servicer-right-away",
+        "af-cfpb-what-to-tell-servicer",
+        "af-cfpb-options-servicer-might-offer",
+        "af-cfpb-attorney-if-imminent",
+        "af-cfpb-no-need-to-pay-scam-signs"
+      ]
+    },
+    {
+      "id": "cfpb-mortgage-repayment-plan",
+      "title": "What is a repayment plan on a mortgage? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-repayment-plan-on-a-mortgage-en-280/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-01-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2025-01-02. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-repayment-plan-definition",
+        "af-cfpb-repayment-plan-still-delinquent"
+      ]
+    },
+    {
+      "id": "cfpb-mortgage-forbearance",
+      "title": "What is mortgage forbearance? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-forbearance-en-289/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-28",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2026-08-28. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-forbearance-definition",
+        "af-cfpb-forbearance-what-to-ask"
+      ]
+    },
+    {
+      "id": "cfpb-mortgage-loan-modification",
+      "title": "What is a mortgage loan modification? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-loan-modification-en-269/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020-09-04",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2020-09-04. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-modification-definition"
+      ]
+    },
+    {
+      "id": "cfpb-what-is-a-short-sale",
+      "title": "What is a short sale? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-02-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2024-02-02. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-short-sale-definition",
+        "ss-cfpb-short-sale-definition",
+        "ss-cfpb-short-sale-needs-lender-agreement",
+        "ss-cfpb-short-sale-deficiency-waiver",
+        "sk-cfpb-short-sale-definition",
+        "sk-cfpb-short-sale-deficiency-waiver"
+      ]
+    },
+    {
+      "id": "cfpb-deed-in-lieu",
+      "title": "What is a deed-in-lieu of foreclosure? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-deed-in-lieu-of-foreclosure-en-291/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-01-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2025-01-02. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-deed-in-lieu-definition",
+        "ss-cfpb-deed-in-lieu-definition",
+        "ss-cfpb-deed-in-lieu-cover-full-balance",
+        "ss-cfpb-relocation-cash-for-keys"
+      ]
+    },
+    {
+      "id": "cfpb-hud-approved-housing-counselor",
+      "title": "What is a HUD-approved housing counseling agency, and how can they help me? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-hud-approved-housing-counselor-how-can-they-help-me-en-261/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-09-11",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2024-09-11. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-housing-counselor-what-they-do",
+        "af-cfpb-hope-hotline",
+        "ss-cfpb-hud-approved-housing-counselor",
+        "sk-cfpb-hud-counselor-free",
+        "sk-cfpb-counselor-cannot-promise"
+      ]
+    },
+    {
+      "id": "cfpb-what-is-a-payoff-amount",
+      "title": "What is a payoff amount and is it the same as my current balance? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payoff-amount-and-is-it-the-same-as-my-current-balance-en-205/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "lending",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-28",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2026-08-28. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-payoff-amount",
+        "sk-cfpb-payoff-differs-from-balance"
+      ]
+    },
+    {
+      "id": "hud-avoiding-foreclosure",
+      "title": "Avoiding Foreclosure — HUD.gov",
+      "publisher": "U.S. Department of Housing and Urban Development",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/helping-americans/avoiding-foreclosure",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer page, raw HTML cached. The page carries NO visible publication or review date. Its month-by-month 'how it happens' timeline is generic, says it varies by state, and mentions a redemption period; none of that timeline is used, because Idaho's process is set by Idaho Code. Used only for what HUD says about HUD-funded housing counseling and its phone number.",
+      "stalenessRisk": "MEDIUM — undated page on a site that was restructured (the old /topics/avoiding_foreclosure and /counseling URLs no longer serve content). Re-check the phone number before publishing.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-hud-counseling-free-or-low-cost"
+      ]
+    },
+    {
+      "id": "uscourts-chapter-13-basics",
+      "title": "Chapter 13 — Bankruptcy Basics",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "organizationType": "federal-government",
+      "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-13-bankruptcy-basics",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The federal judiciary's plain-language description of chapter 13, raw HTML cached. An explanatory page, not the Bankruptcy Code itself; it cites 11 U.S.C. § 1322(c) for the passage used. No visible review date found on the page.",
+      "stalenessRisk": "LOW — general description; dollar limits elsewhere on the page change periodically and are not used.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-uscourts-chapter-13-foreclosure"
+      ]
+    },
+    {
+      "id": "ihfa-homeowner-resources",
+      "title": "Homeowner Resources — Idaho Housing and Finance Association",
+      "publisher": "Idaho Housing and Finance Association",
+      "organizationType": "state-government",
+      "url": "https://www.idahohousing.com/homeowners/homeowner-resources/",
+      "sourceTier": 2,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "TIER 2 — IHFA is a housing finance association created under Idaho statute, not a state executive agency; 'state-government' is the closest registry category and a reviewer may prefer another. Raw HTML cached. Used only for IHFA's own answer to 'What can I do if I'm having trouble making my monthly mortgage payment?'. On 2026-11-13 this page listed no state mortgage-assistance or foreclosure-prevention grant program.",
+      "stalenessRisk": "MEDIUM — a program page; programs open and close. Re-check before publishing.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-ihfa-trouble-paying-points-to-counseling"
+      ]
+    },
+    {
+      "id": "idcode-45-1502",
+      "title": "Idaho Code § 45-1502 — Definitions — Trustee's charge",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1502/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2016",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Defines beneficiary, grantor, trust deed, trustee and the real property that may be placed under a trust deed. Last amended 2016 ch. 227. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-parties-defined",
+        "ft-trust-deed-property-limits"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1503",
+      "title": "Idaho Code § 45-1503 — Transfers in trust to secure obligation — Foreclosure",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1503/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1993",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Confers the power of sale and gives the beneficiary the option of judicial foreclosure. Last amended 1993 ch. 281. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-power-of-sale-or-judicial-option"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1505",
+      "title": "Idaho Code § 45-1505 — Foreclosure of trust deed, when",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1505/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2009",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Conditions for foreclosure by advertisement and sale, including the recorded notice of default and the statutory warning sheet. Last amended 2009 ch. 136. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-foreclosure-conditions",
+        "ft-notice-of-default-recorded-and-mailed",
+        "ft-notice-of-default-warning-sheet",
+        "sk-notice-of-default-recorded-and-warning"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1506a",
+      "title": "Idaho Code § 45-1506A — Rescheduled sale — Original sale barred by stay — Notice of rescheduled sale",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506A/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1987",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Notice periods for a sale rescheduled after a bankruptcy or court stay. Last amended 1987 ch. 166. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-rescheduled-sale-after-stay"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1506b",
+      "title": "Idaho Code § 45-1506B — Postponement of sale — Intervention of stay",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506B/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1983",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Postponement request where a stay is lifted before the sale date. Added 1983 ch. 190; no amendments shown. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-stay-lifted-postponement-request"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1507",
+      "title": "Idaho Code § 45-1507 — Proceeds of sale — Disposition",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1507/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1957",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Order in which the trustee applies sale proceeds. Added 1957 ch. 181; no amendments shown. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-proceeds-order",
+        "as-proceeds-order-and-surplus"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1508",
+      "title": "Idaho Code § 45-1508 — Finality of sale",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1508/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1990",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Sale terminates the interests of persons given notice; no right of redemption. Last amended 1990 ch. 401. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-sale-final-no-redemption",
+        "as-sale-ends-interest-no-redemption",
+        "as-notice-defect-good-faith-purchaser"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hud-fha-loss-mitigation",
+      "title": "FHA's Loss Mitigation Program",
+      "publisher": "U.S. Department of Housing and Urban Development",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/helping-americans/fha-loss-mitigation",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "foreclosure",
+        "fha",
+        "short-sale",
+        "deed-in-lieu"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "HUD's own borrower-facing summary of FHA home retention and home disposition options, raw HTML cached. No revision date is shown on the page. It summarises the options and does not list eligibility conditions or the length of the Pre-Foreclosure Sale marketing period; those live in HUD Handbook 4000.1 and Mortgagee Letters, which were NOT read for this guide. Applies to FHA-insured mortgages only.",
+      "stalenessRisk": "HIGH. FHA loss mitigation options are changed by Mortgagee Letter and hud.gov URLs were restructured recently (several older HUD URLs returned 404 on 2026-11-13). Re-read before republishing.",
+      "claimsSupported": [
+        "ss-hud-fha-pre-foreclosure-sale",
+        "ss-hud-fha-deed-in-lieu"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1512",
+      "title": "Idaho Code § 45-1512 — Money judgment — Action seeking balance due on obligation",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1512/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "deficiency",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory: added 1957, never amended. No future-dated amendment displayed on the section page (site states statutes are updated July 1 following the session).",
+      "stalenessRisk": "LOW. Statute unchanged since 1957; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ss-trustee-sale-deficiency-three-months",
+        "ss-trustee-sale-deficiency-fair-market-value-cap",
+        "as-deficiency-three-month-window",
+        "as-deficiency-fair-market-value-limit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-101",
+      "title": "Idaho Code § 6-101 — Proceedings in foreclosure — Construction of section — Meaning of \"action\" — Effect of foreclosure on holder of unrecorded lien",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch1/sect6-101/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "deficiency",
+        "mortgages"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1993",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly in full with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory; last amended 1993 ch. 281. No future-dated amendment displayed on the section page. Subsection (3) lists fifteen kinds of proceeding excluded from the meaning of 'action'.",
+      "stalenessRisk": "LOW. Statute; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ss-mortgage-foreclosure-deficiency-docketed"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-108",
+      "title": "Idaho Code § 6-108 — Deficiency judgments — Amount restricted",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch1/sect6-108/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "deficiency",
+        "mortgages"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim into amendmentHistory: added 1933, never amended. No future-dated amendment displayed on the section page.",
+      "stalenessRisk": "LOW. Statute unchanged since 1933; re-check the section page after each legislative session.",
+      "claimsSupported": [
+        "ss-mortgage-deficiency-reasonable-value-cap"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-topic-431",
+      "title": "Topic no. 431, Canceled debt – Is it taxable or not?",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/taxtopics/tc431",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "canceled-debt",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-09-24",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "IRS's own tax topic, raw HTML cached. Page reads 'Page Last Reviewed or Updated: 24-Sep-2026', which makes it the most recent of the three IRS pages used. It lists the qualified principal residence indebtedness exclusion as limited to debt discharged before January 1, 2026, or under a written arrangement entered into before that date.",
+      "stalenessRisk": "HIGH. The treatment of canceled principal-residence mortgage debt is set by Congress and has an expiry date in the text. Re-read before every republication and in January 2027.",
+      "claimsSupported": [
+        "ss-irs-canceled-debt-generally-taxable",
+        "ss-irs-principal-residence-exclusion-ended-2025",
+        "ss-irs-bankruptcy-insolvency-exclusions",
+        "ss-irs-property-taken-treated-as-sale",
+        "ss-irs-1099c-600-short-sale-event"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-pub-4681",
+      "title": "Publication 4681 (2025), Canceled Debts, Foreclosures, Repossessions, and Abandonments (for Individuals)",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/publications/p4681",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "canceled-debt",
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "IRS publication, HTML version, raw HTML cached. This is the 2025 edition, 'For use in preparing 2025 Returns'; no 2026 edition was available on 2026-11-13. Its 'What's New' states the qualified principal residence indebtedness exclusion is unavailable for discharges completed or discharge agreements entered into after December 31, 2025. Its 'Future Developments' note points to IRS.gov/Pub4681 for legislation enacted after publication.",
+      "stalenessRisk": "HIGH. Annual publication; the 2026 edition is expected in early 2027 and may differ. Statements about 2026 cancellations rest on a 2025-edition forward-looking note plus Topic 431.",
+      "claimsSupported": [
+        "ss-irs-principal-residence-exclusion-ended-2025",
+        "ss-irs-bankruptcy-insolvency-exclusions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "irs-i1099ac",
+      "title": "Instructions for Forms 1099-A and 1099-C (04/2025)",
+      "publisher": "Internal Revenue Service",
+      "organizationType": "federal-government",
+      "url": "https://www.irs.gov/instructions/i1099ac",
+      "sourceTier": 1,
+      "jurisdiction": "United States (federal)",
+      "topic": [
+        "federal-tax",
+        "canceled-debt",
+        "reporting"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-04",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "IRS's own instructions to filers (creditors), raw HTML cached. Page states 'Revised: 04/2025'. Written for the creditor, not the borrower: it says when a creditor must file, which is why the $600 figure is a filing threshold only.",
+      "stalenessRisk": "MEDIUM. Continuous-use instructions revised periodically; check the revision line before republishing.",
+      "claimsSupported": [
+        "ss-irs-principal-residence-exclusion-ended-2025",
+        "ss-irs-1099c-600-short-sale-event"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1510",
+      "title": "Idaho Code § 45-1510 — Trustee's deed — Recording — Effect",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1510/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "deeds",
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2013",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read in full (including the statutory notice-of-rescission form) with raw HTML cached. Last amended 2013 ch. 174. No future-dated version displayed.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "as-trustee-deed-recitals-and-effective-date",
+        "as-rescission-of-trustee-deed-invalid-sale"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-310",
+      "title": "Idaho Code § 6-310 — Action for possession — Complaint — Summons",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-310/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "foreclosure",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2018",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read in full with raw HTML cached. The history note on the page ends at 2018 ch. 124. Only subsections (1) and (2) are relied on. No future-dated version displayed.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "as-possession-action-tenant-at-sufferance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usc-12-5220-note-ptfa",
+      "title": "12 U.S.C. § 5220, statutory note 'Effect of Foreclosure on Preexisting Tenancy' (Protecting Tenants at Foreclosure Act § 702) — United States Code, 2024 Edition",
+      "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+      "organizationType": "federal-government",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap52-subchapI-sec5220.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "tenants"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code, raw HTML cached. The Protecting Tenants at Foreclosure Act is not a numbered Code section; its tenant-protection section (Pub. L. 111-22, div. A, title VII, § 702, as amended) is printed as a statutory note under 12 U.S.C. 5220, followed by bracketed notes recording the repeal of the 2014 sunset and the restoration by Pub. L. 115-174 § 304. The 2023 Edition page was also fetched and carries the same note. Section 703 (Section 8 voucher tenancies) is set out elsewhere and was not read.",
+      "stalenessRisk": "LOW — federal statute; changes only by Act of Congress. This is the 2024 Edition; re-check the newest edition on govinfo.gov before each refresh.",
+      "claimsSupported": [
+        "as-ptfa-90-day-notice",
+        "as-ptfa-lease-runs-to-end-of-term",
+        "as-ptfa-bona-fide-definition",
+        "as-ptfa-restored-2018-no-expiration"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "frb-ca-18-4-ptfa",
+      "title": "CA 18-4: Restoration of the Protecting Tenants at Foreclosure Act — Board of Governors of the Federal Reserve System",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "organizationType": "federal-government",
+      "url": "https://www.federalreserve.gov/supervisionreg/caletters/caltr1804.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "tenants",
+        "legislation"
+      ],
+      "publicationDate": "2018-06-22",
+      "updatedDate": "2018-06-22",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — Federal Reserve Board Consumer Affairs letter dated June 22, 2018, raw HTML cached. An agency's supervisory description of the law, addressed to examiners; the letter itself says no federal agency has authority to interpret the law. Used for the effective date, the absence of an expiration date, and the plain-language list of who is not covered.",
+      "stalenessRisk": "LOW — a dated letter that will not change; it would be superseded rather than edited. Check the page for a 'superseded by' line before each refresh.",
+      "claimsSupported": [
+        "as-ptfa-restored-2018-no-expiration",
+        "as-ptfa-does-not-cover-homeowners"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usc-15-1681c",
+      "title": "15 U.S.C. § 1681c — Requirements relating to information contained in consumer reports (Fair Credit Reporting Act § 605) — United States Code, 2024 Edition",
+      "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+      "organizationType": "federal-government",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapIII-sec1681c.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "credit-reporting"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code, raw HTML cached. Subsections (a), (b) and (c) read. The govinfo HTML contains a typesetting break ('re port') inside subsection (a)(2), reproduced in the stored quote so it verifies.",
+      "stalenessRisk": "LOW — federal statute; changes only by Act of Congress. This is the 2024 Edition; re-check the newest edition on govinfo.gov before each refresh.",
+      "claimsSupported": [
+        "as-fcra-seven-year-adverse-item",
+        "as-fcra-exceptions-large-transactions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-how-long-information-stays-on-credit-report",
+      "title": "How long does information stay on my credit report? — Consumer Financial Protection Bureau",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-long-does-negative-information-remain-on-my-credit-report-en-323/",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "credit-reporting"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-09-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — CFPB consumer guidance, raw HTML cached. Page shows 'last reviewed: SEP 02, 2026'. Guidance, not the statute; it does not mention foreclosure by name.",
+      "stalenessRisk": "MEDIUM — agency consumer page; can be rewritten without notice.",
+      "claimsSupported": [
+        "as-cfpb-negative-information-seven-years"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-find-a-housing-counselor",
+      "title": "Find a housing counselor — Consumer Financial Protection Bureau",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/find-a-housing-counselor/",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — CFPB tool page, raw HTML cached. States that the listed counseling agencies are HUD-approved and that the tool is powered by HUD's official list. The ZIP-code search itself is JavaScript and was not exercised.",
+      "stalenessRisk": "MEDIUM — agency consumer page; can be rewritten without notice.",
+      "claimsSupported": [
+        "as-cfpb-housing-counselors-hud-approved",
+        "fs-cfpb-housing-counselors-hud-approved"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-1",
+      "title": "12 CFR § 1015.1 — Scope of regulations in this part (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.1",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.1",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-scope-regulation-o"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-2",
+      "title": "12 CFR § 1015.2 — Definitions (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.2",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.2",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-mars-definition",
+        "fs-rego-provider-excludes-lender-servicer"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-3",
+      "title": "12 CFR § 1015.3 — Prohibited representations (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.3",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.3",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-prohibited-representations"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-4",
+      "title": "12 CFR § 1015.4 — Disclosures required in commercial communications (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.4",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.4",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-required-advertising-disclosures"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-5",
+      "title": "12 CFR § 1015.5 — Prohibition on collection of advance payments and related disclosures (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.5",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.5",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-advance-fee-ban",
+        "fs-rego-right-to-reject-offer-disclosure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-7",
+      "title": "12 CFR § 1015.7 — Exemptions (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.7",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.7",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-attorney-exemption"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-mortgage-loan-modification-scams",
+      "title": "What are mortgage loan modification scams? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-mortgage-loan-modification-scams-en-272/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-09-11",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. Page is marked 'last reviewed: SEP 11, 2024'. Guidance, not Idaho law. Carries the CFPB complaint phone number.",
+      "stalenessRisk": "MEDIUM — contains a phone number and a complaint route; re-check before each content refresh.",
+      "claimsSupported": [
+        "fs-cfpb-scam-warning-signs",
+        "fs-cfpb-report-and-get-help",
+        "fs-cfpb-fees-only-after-written-offer"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hud-housing-counseling",
+      "title": "Housing Counseling — HUD.gov",
+      "publisher": "U.S. Department of Housing and Urban Development",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/stat/sfh/housing-counseling",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "HUD program page, raw HTML cached. Most of the page is script-rendered; only the introductory paragraph with the referral phone number is present in the cached HTML. HUD's definition of 'approved' agency was not captured.",
+      "stalenessRisk": "MEDIUM — carries a phone number, and hud.gov URLs have been restructured; re-check the URL and the number.",
+      "claimsSupported": [
+        "fs-hud-housing-counseling-phone"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idag-consumer-protection",
+      "title": "Consumer Protection — Idaho Office of Attorney General",
+      "publisher": "Idaho Office of the Attorney General",
+      "organizationType": "state-government",
+      "url": "https://www.ag.idaho.gov/consumer-protection/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official state agency page, raw HTML cached. States what the Consumer Protection Division enforces, links the Consumer Complaint Form, and lists phone numbers. The street address on the page is labelled a temporary location and must not be printed.",
+      "stalenessRisk": "MEDIUM — contact details; the office location is flagged temporary. Re-check numbers before each refresh.",
+      "claimsSupported": [
+        "fs-idag-consumer-protection-complaints"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idag-report-scams-idaho",
+      "title": "Report Scams Idaho — Idaho Office of Attorney General",
+      "publisher": "Idaho Office of the Attorney General",
+      "organizationType": "state-government",
+      "url": "https://www.ag.idaho.gov/consumer-protection/report-scams-idaho/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official state agency page, raw HTML cached. General scam-reporting page: describes the complaint form, the option to inform the office without requesting action, and informal dispute resolution. Does not mention foreclosure.",
+      "stalenessRisk": "MEDIUM — the page carries rotating alerts; the quoted paragraph may move.",
+      "claimsSupported": [
+        "fs-idag-informal-dispute-resolution"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idag-consumer-protection-manual",
+      "title": "Idaho Consumer Protection Manual — Idaho Office of Attorney General",
+      "publisher": "Idaho Office of the Attorney General",
+      "organizationType": "state-government",
+      "url": "https://ag.idaho.gov/content/uploads/2018/04/ConsumerProtectionManual.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021-03",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Attorney General publication (PDF), linked from the Consumer Manuals page; cached at data/idaho/raw/cache/9d31f71a8a669d9a.pdf and extracted with pdftotext to data/idaho/raw/extracted/9d31f71a8a669d9a.txt. Section 'The Consumer Foreclosure Protection Act' at printed page 47. Footer reads 'Rev. 03/21'. Agency summary, not statute: it says 'five-day right to rescind' where 45-1603 says five business days.",
+      "stalenessRisk": "MEDIUM — a 2021 revision; predates the 2023 amendment of 45-1602. Use for the Attorney General's description of the problem, never for the wording of the law.",
+      "claimsSupported": [
+        "fs-idag-manual-foreclosure-rescue"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idfin-mortgage-licensing",
+      "title": "Mortgage, Mortgage Loan Servicing, and MLO Information — Idaho Department of Finance",
+      "publisher": "Idaho Department of Finance",
+      "organizationType": "state-government",
+      "url": "https://www.finance.idaho.gov/consumer-finance-bureau/mortgage/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-01-20",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official state agency page, raw HTML cached; footer 'last updated: January 20, 2026'. States the Department's licensing role under the Idaho Residential Mortgage Practices Act, including mortgage loan modification companies.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "fs-idfin-licenses-loan-modification-companies"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idfin-complaint-guidance",
+      "title": "Complaint Guidance — Idaho Department of Finance",
+      "publisher": "Idaho Department of Finance",
+      "organizationType": "state-government",
+      "url": "https://www.finance.idaho.gov/complaint-guidance/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official state agency page, raw HTML cached. Describes what complaints the Department takes, what to expect, and tells consumers to use the licensee lookup page. The lookup tool itself was not queried.",
+      "stalenessRisk": "MEDIUM — process page; re-check wording before each refresh.",
+      "claimsSupported": [
+        "fs-idfin-license-lookup-and-complaints"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-26-31-201",
+      "title": "Idaho Code § 26-31-201 — Idaho Residential Mortgage Practices Act — definitions (mortgage brokers and lenders)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-201/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fs-irmpa-loan-modification-is-brokering"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-26-31-202",
+      "title": "Idaho Code § 26-31-202 — Idaho Residential Mortgage Practices Act — exemptions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-202/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fs-irmpa-attorney-exemption"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-26-31-203",
+      "title": "Idaho Code § 26-31-203 — Idaho Residential Mortgage Practices Act — unlawful acts",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-203/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2009",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fs-irmpa-unlicensed-activity-felony"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-26-31-211",
+      "title": "Idaho Code § 26-31-211 — Idaho Residential Mortgage Practices Act — prohibited practices of mortgage brokers and mortgage lenders",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-211/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fs-irmpa-loan-mod-fee-written-agreement"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1514",
+      "title": "Idaho Code § 45-1514 — Reconveyance upon satisfaction of obligation",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1514/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "closing",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1957",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sk-reconveyance-on-performance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1202",
+      "title": "Idaho Code § 45-1202 — Conditions to reconveyance",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch12/sect45-1202/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1995",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sk-title-agent-may-reconvey"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1203",
+      "title": "Idaho Code § 45-1203 — Procedure for reconveyance",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch12/sect45-1203/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1995",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sk-title-agent-reconveyance-30-and-60-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1026-36",
+      "title": "12 CFR § 1026.36 — Prohibited acts or practices and certain requirements for credit secured by a dwelling (Regulation Z); paragraph (c)(3) payoff statements",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.36",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1026&section=1026.36",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2022-04-01",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation Z, retrieved through the eCFR renderer API and cached. eCFR versioner API checked 2026-11-13: latest amendment to this section is dated 2022-04-01, no future-dated version listed.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "sk-payoff-statement-seven-business-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
       ],
       "status": "VERIFIED"
     }

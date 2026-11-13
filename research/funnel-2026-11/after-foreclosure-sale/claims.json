@@ -1,0 +1,470 @@
+{
+  "claims": [
+    {
+      "id": "as-sale-ends-interest-no-redemption",
+      "claim": "Under Idaho Code 45-1508, a trustee's sale forecloses and terminates all interest in the property of every person given notice under section 45-1506 and of anyone claiming through them, and those persons have no right to redeem the property from the purchaser at the trustee's sale.",
+      "quotedLanguage": "A sale made by a trustee under this act shall foreclose and terminate all interest in the property covered by the trust deed of all persons to whom notice is given under section 45-1506, Idaho Code, and of any other person claiming by, through or under such persons and such persons shall have no right to redeem the property from the purchaser at the trustee's sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1508, added 1957, ch. 181, sec. 8, p. 345; am. 1990, ch. 401, sec. 3, p. 1126.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Scope trap: 'a sale made by a trustee under this act' means a nonjudicial trustee's sale under a deed of trust (Title 45, chapter 15). Do NOT extend 'no right to redeem' to a judicial mortgage foreclosure or to a county tax deed (see id-tax-deed-redemption-fourteen-months, which is a different process with its own redemption rule). The bar runs to persons 'to whom notice is given' and those claiming through them; never tell a reader whether they were validly given notice."
+    },
+    {
+      "id": "as-notice-defect-good-faith-purchaser",
+      "claim": "Idaho Code 45-1508 says a failure to give notice to one person does not affect the validity of the sale as to persons who were notified or who had actual knowledge of the sale, and that a failure to comply with section 45-1506 does not affect the validity of a sale in favor of a purchaser in good faith for value, or that purchaser's successor.",
+      "quotedLanguage": "The failure to give notice to any of such persons by mailing, personal service, posting or publication in accordance with section 45-1506, Idaho Code, shall not affect the validity of the sale as to persons so notified nor as to any such persons having actual knowledge of the sale. Furthermore, any failure to comply with the provisions of section 45-1506, Idaho Code, shall not affect the validity of a sale in favor of a purchaser in good faith for value at or after such sale, or any successor in interest thereof.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1508, added 1957, ch. 181, sec. 8, p. 345; am. 1990, ch. 401, sec. 3, p. 1126.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "State what the section says and stop. Whether a particular sale can be challenged, and who counts as a purchaser in good faith for value, are court questions. Do not write 'a sale cannot be undone' and do not write 'a defective sale can be undone'."
+    },
+    {
+      "id": "as-possession-tenth-day",
+      "claim": "Under Idaho Code 45-1506(11), the purchaser at a trustee's sale is entitled to possession of the property on the tenth day following the sale, and anyone who remains in possession after that under any interest except one prior to the deed of trust is deemed a tenant at sufferance.",
+      "quotedLanguage": "The purchaser at the trustee's sale shall be entitled to possession of the property on the tenth day following the sale, and any persons remaining in possession thereafter under any interest except one prior to the deed of trust shall be deemed to be tenants at sufferance.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "tenants"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'On the tenth day following the sale' is the statute's wording; do not convert it to 'you have 10 days to move out' or to a calendar date. 'Entitled to possession' is a legal entitlement, not a description of a lockout: the statute does not authorise self-help removal and this claim must not be used to say so. Note the carve-out for an interest 'prior to the deed of trust'. For tenants, must be stated together with the federal PTFA claims (as-ptfa-*)."
+    },
+    {
+      "id": "as-trustee-deed-conveys-grantor-interest",
+      "claim": "Under Idaho Code 45-1506(9) and (10), the purchaser at the sale pays the price bid forthwith, the trustee then executes and delivers the trustee's deed, and that deed conveys the interest the grantor had or had the power to convey when the trust deed was signed, together with any interest the grantor or the grantor's successors acquired afterwards.",
+      "quotedLanguage": "The purchaser at the sale shall forthwith pay the price bid and upon receipt of payment the trustee shall execute and deliver the trustee's deed to such purchaser ... The trustee's deed shall convey to the purchaser the interest in the property which the grantor had, or had the power to convey, at the time of the execution by him of the trust deed together with any interest the grantor or his successors in interest acquired after the execution of such trust deed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'Grantor' in this chapter is the borrower who signed the deed of trust. Explain that once in prose."
+    },
+    {
+      "id": "as-trustee-deed-recitals-and-effective-date",
+      "claim": "Under Idaho Code 45-1510(1), once the trustee's deed is recorded in the county where the property is located, the recitals in the deed and in the affidavits required by 45-1506(7) are prima facie evidence of their truth in any court and are conclusive in favor of a purchaser in good faith for value; the deed is deemed effective as of the date and time of the sale if it is recorded within fifteen days after the sale.",
+      "quotedLanguage": "When the trustee's deed is recorded in the deed records of the county where the property described in the deed is located, the recitals contained in the deed and in the affidavits required under section 45-1506 (7), Idaho Code, shall be prima facie evidence in any court of the truth of the recitals and the affidavits. However, the recitals and affidavits are conclusive in favor of a purchaser in good faith for value or any successor in interest thereof. For purposes of this section, the trustee's deed shall be deemed effective as of the date and time on which the sale was held if such deed is recorded within fifteen (15) days after the date of sale or the first business day following the fifteenth day if the county recorder of the county in which the property is located is closed on the fifteenth day.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "deeds",
+        "recording"
+      ],
+      "sourceIds": [
+        "idcode-45-1510"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1510, added 1957, ch. 181, sec. 10, p. 345; am. 1990, ch. 401, sec. 4, p. 1126; am. 2010, ch. 249, sec. 1, p. 639; am. 2013, ch. 174, sec. 1, p. 403.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The fifteen days is about when the deed is deemed EFFECTIVE, 'for purposes of this section'. It is not a deadline for the former owner and not a redemption window. Do not describe what happens if the deed is recorded later; the section does not say."
+    },
+    {
+      "id": "as-rescission-of-trustee-deed-invalid-sale",
+      "claim": "Idaho Code 45-1510(2) provides that where a trustee's sale is invalid by reason of the automatic stay provisions of the U.S. bankruptcy code, a stay order issued by a court, or otherwise, recording a notice of rescission of the trustee's deed restores record title and lien priorities to where they stood before the sale, and that only the trustee or beneficiary who caused the deed to be recorded, or a successor, may record that notice.",
+      "quotedLanguage": "Where a trustee's sale held pursuant to section 45-1506, Idaho Code, is invalid by reason of automatic stay provisions of the U.S. bankruptcy code, or a stay order issued by any court of competent jurisdiction or otherwise, recordation of a notice of rescission of the trustee's deed shall restore the condition of record title to the real property described in the trustee's deed and the existence and priority of all lienholders to the status quo prior to the trustee's sale. Only the trustee or beneficiary who caused the trustee's deed to be recorded, or his/its successor in interest, may record a notice of rescission.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "deeds",
+        "recording"
+      ],
+      "sourceIds": [
+        "idcode-45-1510"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1510, added 1957, ch. 181, sec. 10, p. 345; am. 1990, ch. 401, sec. 4, p. 1126; am. 2010, ch. 249, sec. 1, p. 639; am. 2013, ch. 174, sec. 1, p. 403.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "HIGH RISK OF OVER-READING. This is a mechanism for the TRUSTEE OR BENEFICIARY to unwind a sale that was already invalid; the former owner cannot record it. It is NOT a right to get the house back and NOT advice that filing bankruptcy after a sale reverses it. The section says nothing about a bankruptcy filed after the sale. Always attribute, always send the reader to a bankruptcy or real estate attorney."
+    },
+    {
+      "id": "as-proceeds-order-and-surplus",
+      "claim": "Idaho Code 45-1507 requires the trustee to apply the proceeds of the trustee's sale in a fixed order: first to the expenses of the sale, including a reasonable trustee's charge and a reasonable attorney's fee; second to the obligation secured by the trust deed; third to persons having recorded liens subsequent to the interest of the trustee in the trust deed, as their interests may appear; and fourth, any surplus to the grantor of the trust deed or the grantor's successor in interest entitled to it.",
+      "quotedLanguage": "The trustee shall apply the proceeds of the trustee's sale as follows: (1) To the expenses of the sale, including a reasonable charge by the trustee and a reasonable attorney's fee. (2) To the obligation secured by the trust deed. (3) To any persons having recorded liens subsequent to the interest of the trustee in the trust deed as their interests may appear. (4) The surplus, if any, to the grantor of the trust deed or to his successor in interest entitled to such surplus.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "liens",
+        "equity"
+      ],
+      "sourceIds": [
+        "idcode-45-1507"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1507, added 1957, ch. 181, sec. 7, p. 345.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Surplus exists only 'if any', after three earlier tiers. Never imply a surplus is likely, never estimate one. The section sets the ORDER; it does not say when the trustee pays, how a grantor claims the money, or what happens when a lien is disputed. Unchanged since 1957. Do not carry this order over to a county tax deed sale."
+    },
+    {
+      "id": "as-deficiency-three-month-window",
+      "claim": "Under Idaho Code 45-1512, a money judgment for the balance due on the obligation that the deed of trust secured may be sought at any time within 3 months after a sale under the deed of trust.",
+      "quotedLanguage": "At any time within 3 months after any sale under a deed of trust, as hereinbefore provided, a money judgment may be sought for the balance due upon the obligation for which such deed of trust was given as security",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "judgments",
+        "creditors"
+      ],
+      "sourceIds": [
+        "idcode-45-1512"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1512, added 1957, ch. 181, sec. 12, p. 345.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The statute writes '3 months', not 90 days; do not convert. The window is for SEEKING the judgment (filing the action), not for obtaining it. It covers 'the obligation for which such deed of trust was given as security' and says nothing about a different loan secured by a junior lien that the sale wiped out; do not claim those debts are barred or limited by this section."
+    },
+    {
+      "id": "as-deficiency-fair-market-value-limit",
+      "claim": "Idaho Code 45-1512 requires the court, before entering a deficiency judgment, to find the fair market value of the property at the time of sale; the judgment may not exceed the amount by which the entire indebtedness due at the time of sale exceeds that fair market value, with interest from the date of sale, and in no event may it exceed the difference between the amount the property sold for and the entire indebtedness secured by the deed of trust.",
+      "quotedLanguage": "Before rendering judgment the court shall find the fair market value of the real property sold at the time of sale. The court may not render judgment for more than the amount by which the entire amount of indebtedness due at the time of sale exceeds the fair market value at that time, with interest from date of sale, but in no event may the judgment exceed the difference between the amount for which such property was sold and the entire amount of the indebtedness secured by the deed of trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "judgments",
+        "creditors"
+      ],
+      "sourceIds": [
+        "idcode-45-1512"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1512, added 1957, ch. 181, sec. 12, p. 345.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TWO ceilings and the lower one governs: (debt minus fair market value) and (debt minus sale price). Do not illustrate with invented dollar figures (rule 7). Do not call Idaho a 'non-recourse' or an 'anti-deficiency' state; the section limits a deficiency judgment, it does not abolish it. The court finds fair market value; nobody else's estimate, including ours, stands in for that."
+    },
+    {
+      "id": "as-unoccupied-personal-property-ninety-days",
+      "claim": "Under Idaho Code 45-1506(15), on or after the tenth day following the sale, if the purchaser reasonably determines the property is unoccupied, the purchaser may remove nontitled personal property and place it in suitable storage, and may dispose of it only after ninety days' written notice sent by first class mail to the last known address of the last known occupant and posted in a conspicuous place on the premises; an owner who does not claim the property within those ninety days loses all rights in it.",
+      "quotedLanguage": "On or after the tenth day, as provided in subsection (11) of this section, if the property is reasonably determined by the purchaser to be unoccupied, the purchaser may: ... Remove any nontitled personal property from the premises and place it in suitable storage. The purchaser may dispose of the nontitled personal property only after providing ninety (90) days' written notice as follows: (i) First class mail to the last known address of the last known occupant of the property; and (ii) Posting a notice in a conspicuous place on the premises ... If the owner of the nontitled personal property fails to claim the nontitled personal property within ninety (90) days of the date that written notice was provided under paragraph (b) of this subsection, then any and all of his rights in said property shall extinguish",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Applies ONLY where the property is 'reasonably determined by the purchaser to be unoccupied'. It is not a rule about belongings in an occupied house. Titled personal property (paragraph (a)) is handled 'in the manner described by applicable law', which this claim does not cover. Do not confuse this ninety days with the federal 90-day tenant notice."
+    },
+    {
+      "id": "as-possession-action-tenant-at-sufferance",
+      "claim": "Idaho Code 6-310 lets an action exclusively for possession of a tract of five acres or less be brought where the occupant is a tenant at sufferance under 45-1506(11); the complaint may state that no notice is required for that reason, the court must schedule a trial within twelve days from the filing of the complaint, and the summons, complaint and notice of trial setting must be served not less than five days before the trial date.",
+      "quotedLanguage": "In an action exclusively for possession of a tract of land of five (5) acres or less for the nonpayment of rent ... or in the event the tenant is a tenant at sufferance pursuant to section 45-1506 (11), Idaho Code, it is sufficient to state in the complaint: ... That all notices required by law have been served upon the defendant in the required manner or no notice is required because the defendant is a tenant at sufferance pursuant to section 45-1506 (11), Idaho Code ... at the time of issuance of the summons, the court shall schedule a trial within twelve (12) days from the filing of the complaint, and the service of the summons, complaint and notice of trial setting on the defendant shall be not less than five (5) days before the day of trial appointed by the court.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-310"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310, added 1974, ch. 308, sec. 3, p. 1803; am. 1976, ch. 71, sec. 1, p. 239; am. 2001, ch. 203, sec. 2, p. 693; am. 2006, ch. 248, sec. 1, p. 757; am. 2017, ch. 276, sec. 2, p. 724; am. 2018, ch. 124, sec. 1, p. 263.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "This is what the purchaser's court route looks like; it is a COURT process, which is the point to make. Limited by its terms to 'a tract of land of five (5) acres or less'; larger tracts are not covered by this claim. The twelve days is a scheduling rule for the court, not a move-out deadline and not a prediction of how long a case takes. Only subsections (1) and (2) are relied on. Sections on judgment, writ and removal (6-311 onward) were NOT read; say nothing about what happens after the trial. 'No notice is required' is Idaho's pleading rule and must not be presented as overriding the federal tenant notice (as-ptfa-90-day-notice)."
+    },
+    {
+      "id": "as-ptfa-90-day-notice",
+      "claim": "The federal Protecting Tenants at Foreclosure Act provides that, in a foreclosure on a federally-related mortgage loan or on any dwelling or residential real property, the immediate successor in interest takes the property subject to giving any bona fide tenant a notice to vacate at least 90 days before the effective date of the notice; a tenant without a lease, or with a lease terminable at will under state law, is covered by that same 90 day notice.",
+      "quotedLanguage": "In the case of any foreclosure on a federally-related mortgage loan or on any dwelling or residential real property after the date of enactment of this title [May 20, 2009], any immediate successor in interest in such property pursuant to the foreclosure shall assume such interest subject to ... the provision, by such successor in interest of a notice to vacate to any bona fide tenant at least 90 days before the effective date of such notice ... without a lease or with a lease terminable at will under State law, subject to the receipt by the tenant of the 90 day notice under subsection (1), except that nothing under this section shall affect the requirements for termination of any Federal- or State-subsidized tenancy or of any State or local law that provides longer time periods or other additional protections for tenants.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "tenants"
+      ],
+      "sourceIds": [
+        "usc-12-5220-note-ptfa"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Quoted from the statutory note printed under 12 U.S.C. 5220 in the U.S. Code, 2024 Edition (section 702 of Pub. L. 111-22 as amended). Protects BONA FIDE TENANTS only; the former owner is not one (see as-ptfa-bona-fide-definition and as-ptfa-does-not-cover-homeowners). Idaho 45-1506(11) calls post-sale occupants tenants at sufferance and 6-310 says no notice is required; this page must state both and must NOT resolve how they interact for a given tenancy. That is an attorney question."
+    },
+    {
+      "id": "as-ptfa-lease-runs-to-end-of-term",
+      "claim": "Under the Protecting Tenants at Foreclosure Act, a bona fide tenant under a bona fide lease entered into before the notice of foreclosure may occupy the premises until the end of the remaining lease term, except that the successor in interest may terminate the lease effective on the date of sale of the unit to a purchaser who will occupy it as a primary residence, subject to the 90 day notice. For this purpose the date of a notice of foreclosure is deemed to be the date complete title is transferred to the successor as a result of a court order or under provisions in a mortgage, deed of trust or security deed.",
+      "quotedLanguage": "under any bona fide lease entered into before the notice of foreclosure to occupy the premises until the end of the remaining term of the lease, except that a successor in interest may terminate a lease effective on the date of sale of the unit to a purchaser who will occupy the unit as a primary residence, subject to the receipt by the tenant of the 90 day notice under paragraph (1) ... the date of a notice of foreclosure shall be deemed to be the date on which complete title to a property is transferred to a successor entity or person as a result of an order of a court or pursuant to provisions in a mortgage, deed of trust, or security deed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "tenants"
+      ],
+      "sourceIds": [
+        "usc-12-5220-note-ptfa"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The 'notice of foreclosure' definition is counter-intuitive: it is the date title transfers, not the date a notice of default or notice of sale was recorded. Quote it rather than paraphrase. Do not tell a tenant or a landlord whether a particular lease qualifies."
+    },
+    {
+      "id": "as-ptfa-bona-fide-definition",
+      "claim": "The Protecting Tenants at Foreclosure Act treats a lease or tenancy as bona fide only if the tenant is not the mortgagor or the mortgagor's child, spouse or parent, the lease or tenancy was the result of an arms-length transaction, and the rent is not substantially less than fair market rent or is reduced or subsidized due to a federal, state or local subsidy.",
+      "quotedLanguage": "a lease or tenancy shall be considered bona fide only if ... the mortgagor or the child, spouse, or parent of the mortgagor under the contract is not the tenant ... the lease or tenancy was the result of an arms-length transaction ... the lease or tenancy requires the receipt of rent that is not substantially less than fair market rent for the property or the unit's rent is reduced or subsidized due to a Federal, State, or local subsidy.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "tenants"
+      ],
+      "sourceIds": [
+        "usc-12-5220-note-ptfa"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "All three conditions are cumulative ('only if ... and'). A family member of the borrower renting the house is outside the definition by its terms. Never tell a reader their tenancy is or is not bona fide."
+    },
+    {
+      "id": "as-ptfa-restored-2018-no-expiration",
+      "claim": "The Protecting Tenants at Foreclosure Act expired at the end of 2014 and was restored by section 304 of Public Law 115-174. The Federal Reserve Board's letter CA 18-4 states that the restored law became effective on June 23, 2018, that the restored act does not include an expiration date, and that the law is self-executing, with no federal agency having authority to issue regulations implementing it or to interpret it. The U.S. Code, 2024 Edition, prints the tenant-protection section as restored and revived.",
+      "quotedLanguage": "which became effective on June 23, 2018. The law protects tenants from immediate eviction by persons or entities that become owners of residential property through the foreclosure process ... The law is self-executing; no federal agency has authority to issue regulations implementing the law or to interpret the law. ... which expired on December 31, 2014. Section 704 contained the Protecting Tenants at Foreclosure Act of 2009's sunset provisions; the restored act does not include an expiration date. ... provisions of law amended by such section, and any regulations promulgated pursuant to such section, as in effect on Dec. 30, 2014, restored and revived",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "tenants",
+        "legislation"
+      ],
+      "sourceIds": [
+        "frb-ca-18-4-ptfa",
+        "usc-12-5220-note-ptfa"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "This is the 'is it still in force' claim. Evidence of currency: a 2018 Federal Reserve supervisory letter (page last updated June 22, 2018) plus the 2024 Edition of the U.S. Code on govinfo.gov, which still prints the section with the restoration note. Neither is a statement dated 2026. Re-check the next U.S. Code edition before each refresh. 'Self-executing ... no agency may interpret' is why there is no regulation to cite."
+    },
+    {
+      "id": "as-ptfa-does-not-cover-homeowners",
+      "claim": "The Federal Reserve Board's letter CA 18-4 states that the Protecting Tenants at Foreclosure Act does not cover tenants facing eviction in a non-foreclosed property, tenants with a fraudulent lease, tenants who enter into lease agreements after a foreclosure sale, or homeowners in foreclosure, and that the law does not affect any state or local law that provides longer time periods or other additional protections for tenants.",
+      "quotedLanguage": "The law does not cover tenants facing eviction in a non-foreclosed property, tenants with a fraudulent lease, tenants who enter in lease agreements after a foreclosure sale, or homeowners in foreclosure. Additionally, the law does not affect the requirements of any State or local law that provides for longer time periods or extends additional protections to tenants.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "tenants"
+      ],
+      "sourceIds": [
+        "frb-ca-18-4-ptfa"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Attribute to the Federal Reserve letter, which is the agency's description of the law, not the statute text. The statute reaches the same result for owners through the bona fide definition (the mortgagor cannot be the tenant). This is the sentence that tells a former OWNER the 90 days is not theirs."
+    },
+    {
+      "id": "as-fcra-seven-year-adverse-item",
+      "claim": "The Fair Credit Reporting Act, 15 U.S.C. 1681c(a), bars a consumer reporting agency from making a consumer report that contains any other adverse item of information, other than records of convictions of crimes, that antedates the report by more than seven years; civil suits and civil judgments may be reported for seven years from the date of entry or until the governing statute of limitations has expired, whichever is longer.",
+      "quotedLanguage": "no consumer reporting agency may make any consumer report containing any of the following items of information: ... Civil suits, civil judgments, and records of arrest that, from date of entry, antedate the re port by more than seven years or until the governing statute of limitations has expired, whichever is the longer period. ... Any other adverse item of information, other than records of convictions of crimes which antedates the report by more than seven years.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "credit-reporting"
+      ],
+      "sourceIds": [
+        "usc-15-1681c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "THE STATUTE DOES NOT USE THE WORD 'FORECLOSURE'. A foreclosure falls, if anywhere, under the catch-all in paragraph (5), and the page must say the statute does not name it rather than assert 'a foreclosure stays seven years' as a quoted rule. The statute does not say from what event the seven years is counted for a foreclosure; do not state a start date. 're port' is a typesetting break in the govinfo HTML and is reproduced so the quote verifies; never render it in prose. Must be stated with as-fcra-exceptions-large-transactions. This is a limit on REPORTING, not on credit scores or on any lender's underwriting waiting period."
+    },
+    {
+      "id": "as-fcra-exceptions-large-transactions",
+      "claim": "Under 15 U.S.C. 1681c(b), the seven-year and ten-year reporting limits in subsection (a)(1) through (5) do not apply to a consumer credit report used in connection with a credit transaction involving a principal amount of $150,000 or more, the underwriting of life insurance with a face amount of $150,000 or more, or the employment of an individual at an annual salary of $75,000 or more.",
+      "quotedLanguage": "The provisions of paragraphs (1) through (5) of subsection (a) are not applicable in the case of any consumer credit report to be used in connection with ... a credit transaction involving, or which may reasonably be expected to involve, a principal amount of $150,000 or more; ... the underwriting of life insurance involving, or which may reasonably be expected to involve, a face amount of $150,000 or more; or ... the employment of any individual at an annual salary which equals, or which may reasonably be expected to equal $75,000, or more.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "credit-reporting"
+      ],
+      "sourceIds": [
+        "usc-15-1681c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Directly relevant to a later mortgage application, which will often involve a principal amount at or above the threshold. Say what the exception is; do not say what any credit bureau or lender actually does in practice (not sourced)."
+    },
+    {
+      "id": "as-cfpb-negative-information-seven-years",
+      "claim": "The Consumer Financial Protection Bureau states that a credit reporting company generally can report most negative information for seven years, that information about a lawsuit or a judgment can be reported for seven years or until the statute of limitations runs out, whichever is longer, and that no one has the right to remove accurate negative information from a credit report.",
+      "quotedLanguage": "A credit reporting company generally can report most negative information for seven years. Information about a lawsuit or a judgment against you can be reported for seven years or until the statute of limitations runs out, whichever is longer. ... However, no one has the right to remove negative information, such as late payments, from a credit report if it is accurate.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "credit-reporting"
+      ],
+      "sourceIds": [
+        "cfpb-how-long-information-stays-on-credit-report"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "CFPB page 'last reviewed: SEP 02, 2026'. The page says 'most negative information' and does not mention foreclosure by name either. Consumer guidance, not the statute."
+    },
+    {
+      "id": "as-cfpb-housing-counselors-hud-approved",
+      "claim": "The Consumer Financial Protection Bureau states that housing counselors can provide advice on buying a home, renting, defaults, forbearances, foreclosures and credit issues, and that the counseling agencies on its searchable list are approved by the U.S. Department of Housing and Urban Development and can offer independent advice, often at little or no cost.",
+      "quotedLanguage": "Housing counselors throughout the country can provide advice on buying a home, renting, defaults, forbearances, foreclosures, and credit issues. ... The counseling agencies on the searchable list are approved by the U.S. Department of Housing and Urban Development (HUD) and they can offer independent advice, often at little or no cost to you.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "cfpb-find-a-housing-counselor"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'Often at little or no cost' is the CFPB's wording; do not upgrade it to 'free'. A housing counselor is not an attorney; pair with the attorney pointer."
+    }
+  ]
+}

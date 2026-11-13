@@ -1,0 +1,272 @@
+{
+  "sources": [
+    {
+      "id": "idcode-45-1507",
+      "title": "Idaho Code § 45-1507 — Proceeds of sale — Disposition",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1507/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1957",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read in full with raw HTML cached. Unamended since enactment (1957 ch. 181). No future-dated version displayed.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "as-proceeds-order-and-surplus"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1508",
+      "title": "Idaho Code § 45-1508 — Finality of sale",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1508/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1990",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read in full with raw HTML cached. Last amended 1990 ch. 401. No future-dated version displayed.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "as-sale-ends-interest-no-redemption",
+        "as-notice-defect-good-faith-purchaser"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1510",
+      "title": "Idaho Code § 45-1510 — Trustee's deed — Recording — Effect",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1510/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "deeds",
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2013",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read in full (including the statutory notice-of-rescission form) with raw HTML cached. Last amended 2013 ch. 174. No future-dated version displayed.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "as-trustee-deed-recitals-and-effective-date",
+        "as-rescission-of-trustee-deed-invalid-sale"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1512",
+      "title": "Idaho Code § 45-1512 — Money judgment — Action seeking balance due on obligation",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1512/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "judgments"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1957",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read in full with raw HTML cached. Unamended since enactment (1957 ch. 181). No future-dated version displayed.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "as-deficiency-three-month-window",
+        "as-deficiency-fair-market-value-limit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-310",
+      "title": "Idaho Code § 6-310 — Action for possession — Complaint — Summons",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-310/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "foreclosure",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2018",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read in full with raw HTML cached. The history note on the page ends at 2018 ch. 124. Only subsections (1) and (2) are relied on. No future-dated version displayed.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "as-possession-action-tenant-at-sufferance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usc-12-5220-note-ptfa",
+      "title": "12 U.S.C. § 5220, statutory note 'Effect of Foreclosure on Preexisting Tenancy' (Protecting Tenants at Foreclosure Act § 702) — United States Code, 2024 Edition",
+      "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+      "organizationType": "federal-government",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap52-subchapI-sec5220.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "tenants"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code, raw HTML cached. The Protecting Tenants at Foreclosure Act is not a numbered Code section; its tenant-protection section (Pub. L. 111-22, div. A, title VII, § 702, as amended) is printed as a statutory note under 12 U.S.C. 5220, followed by bracketed notes recording the repeal of the 2014 sunset and the restoration by Pub. L. 115-174 § 304. The 2023 Edition page was also fetched and carries the same note. Section 703 (Section 8 voucher tenancies) is set out elsewhere and was not read.",
+      "stalenessRisk": "LOW — federal statute; changes only by Act of Congress. This is the 2024 Edition; re-check the newest edition on govinfo.gov before each refresh.",
+      "claimsSupported": [
+        "as-ptfa-90-day-notice",
+        "as-ptfa-lease-runs-to-end-of-term",
+        "as-ptfa-bona-fide-definition",
+        "as-ptfa-restored-2018-no-expiration"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "frb-ca-18-4-ptfa",
+      "title": "CA 18-4: Restoration of the Protecting Tenants at Foreclosure Act — Board of Governors of the Federal Reserve System",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "organizationType": "federal-government",
+      "url": "https://www.federalreserve.gov/supervisionreg/caletters/caltr1804.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "tenants",
+        "legislation"
+      ],
+      "publicationDate": "2018-06-22",
+      "updatedDate": "2018-06-22",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — Federal Reserve Board Consumer Affairs letter dated June 22, 2018, raw HTML cached. An agency's supervisory description of the law, addressed to examiners; the letter itself says no federal agency has authority to interpret the law. Used for the effective date, the absence of an expiration date, and the plain-language list of who is not covered.",
+      "stalenessRisk": "LOW — a dated letter that will not change; it would be superseded rather than edited. Check the page for a 'superseded by' line before each refresh.",
+      "claimsSupported": [
+        "as-ptfa-restored-2018-no-expiration",
+        "as-ptfa-does-not-cover-homeowners"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usc-15-1681c",
+      "title": "15 U.S.C. § 1681c — Requirements relating to information contained in consumer reports (Fair Credit Reporting Act § 605) — United States Code, 2024 Edition",
+      "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+      "organizationType": "federal-government",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapIII-sec1681c.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "credit-reporting"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "TIER 1 — U.S. Government Publishing Office edition of the United States Code, raw HTML cached. Subsections (a), (b) and (c) read. The govinfo HTML contains a typesetting break ('re port') inside subsection (a)(2), reproduced in the stored quote so it verifies.",
+      "stalenessRisk": "LOW — federal statute; changes only by Act of Congress. This is the 2024 Edition; re-check the newest edition on govinfo.gov before each refresh.",
+      "claimsSupported": [
+        "as-fcra-seven-year-adverse-item",
+        "as-fcra-exceptions-large-transactions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-how-long-information-stays-on-credit-report",
+      "title": "How long does information stay on my credit report? — Consumer Financial Protection Bureau",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-long-does-negative-information-remain-on-my-credit-report-en-323/",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "credit-reporting"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-09-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — CFPB consumer guidance, raw HTML cached. Page shows 'last reviewed: SEP 02, 2026'. Guidance, not the statute; it does not mention foreclosure by name.",
+      "stalenessRisk": "MEDIUM — agency consumer page; can be rewritten without notice.",
+      "claimsSupported": [
+        "as-cfpb-negative-information-seven-years"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-find-a-housing-counselor",
+      "title": "Find a housing counselor — Consumer Financial Protection Bureau",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/find-a-housing-counselor/",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — CFPB tool page, raw HTML cached. States that the listed counseling agencies are HUD-approved and that the tool is powered by HUD's official list. The ZIP-code search itself is JavaScript and was not exercised.",
+      "stalenessRisk": "MEDIUM — agency consumer page; can be rewritten without notice.",
+      "claimsSupported": [
+        "as-cfpb-housing-counselors-hud-approved"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

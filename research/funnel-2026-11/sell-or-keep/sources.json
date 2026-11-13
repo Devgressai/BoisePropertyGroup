@@ -1,0 +1,241 @@
+{
+  "sources": [
+    {
+      "id": "idcode-45-1505",
+      "title": "Idaho Code § 45-1505 — Foreclosure of trust deed, when",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1505/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2009",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sk-notice-of-default-recorded-and-warning"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1514",
+      "title": "Idaho Code § 45-1514 — Reconveyance upon satisfaction of obligation",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1514/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "closing",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1957",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sk-reconveyance-on-performance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1202",
+      "title": "Idaho Code § 45-1202 — Conditions to reconveyance",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch12/sect45-1202/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1995",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sk-title-agent-may-reconvey"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1203",
+      "title": "Idaho Code § 45-1203 — Procedure for reconveyance",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch12/sect45-1203/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "closing",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1995",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim; chapter index checked, no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sk-title-agent-reconveyance-30-and-60-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1026-36",
+      "title": "12 CFR § 1026.36 — Prohibited acts or practices and certain requirements for credit secured by a dwelling (Regulation Z); paragraph (c)(3) payoff statements",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.36",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1026&section=1026.36",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2022-04-01",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation Z, retrieved through the eCFR renderer API and cached. eCFR versioner API checked 2026-11-13: latest amendment to this section is dated 2022-04-01, no future-dated version listed.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "sk-payoff-statement-seven-business-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1024-41",
+      "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.41",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-07-15",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation X, retrieved through the eCFR renderer API and cached. eCFR versioner API checked 2026-11-13: latest amendment to this section is dated 2025-07-15, no future-dated version listed. Scope of Subpart C (12 CFR 1024.30) was NOT researched for this page.",
+      "stalenessRisk": "MEDIUM — this section was amended in May and July 2025 and the CFPB has had mortgage-servicing rulemaking open; re-check eCFR before relying on it.",
+      "claimsSupported": [
+        "sk-loss-mit-no-duty-specific-option",
+        "sk-loss-mit-evaluation-37-and-30-days",
+        "sk-loss-mit-sale-prohibition"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-what-is-a-payoff-amount",
+      "title": "What is a payoff amount and is it the same as my current balance? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payoff-amount-and-is-it-the-same-as-my-current-balance-en-205/",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-31",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance (Ask CFPB), raw HTML cached. The page states it is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "sk-cfpb-payoff-differs-from-balance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-what-is-a-short-sale",
+      "title": "What is a short sale? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-02-12",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance (Ask CFPB), raw HTML cached. The page states it is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "sk-cfpb-short-sale-definition",
+        "sk-cfpb-short-sale-deficiency-waiver"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-hud-approved-housing-counselor",
+      "title": "What is a HUD-approved housing counseling agency, and how can they help me? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-hud-approved-housing-counselor-how-can-they-help-me-en-261/",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-09-13",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance (Ask CFPB), raw HTML cached. The page states it is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — phone numbers on the page (HOPE Hotline, CFPB) could change; re-check before reprinting them.",
+      "claimsSupported": [
+        "sk-cfpb-hud-counselor-free",
+        "sk-cfpb-counselor-cannot-promise"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

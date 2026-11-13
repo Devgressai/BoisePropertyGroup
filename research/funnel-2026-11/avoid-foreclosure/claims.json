@@ -1,0 +1,937 @@
+{
+  "claims": [
+    {
+      "id": "af-cure-within-115-days",
+      "claim": "Under Idaho Code 45-1506(12), the grantor, a successor in interest, or a subordinate lienholder may, at any time within 115 days of the recording of the notice of default, pay the beneficiary the entire amount then due under the deed of trust, other than principal that would not be due had no default occurred, and so cure the default.",
+      "quotedLanguage": "the grantor or his successor in interest in the trust property or any part thereof, or any beneficiary under a subordinate deed of trust or any person having a subordinate lien or encumbrance of record thereon, at any time within one hundred fifteen (115) days of the recording of the notice of default under such deed of trust, if the power of sale therein is to be exercised, or otherwise at any time prior to the entry of a decree of foreclosure, may pay to the beneficiary or their successors in interest, respectively, the entire amount then due under the terms of the deed of trust and the obligation secured thereby ... other than such portion of the principal as would not then be due had no default occurred, and thereby cure the default theretofore existing",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: the 115 days run from the RECORDING OF THE NOTICE OF DEFAULT, not from the notice of sale and not from the first missed payment. Do not subtract it from the 120-day sale notice in id-trustee-sale-120-day-notice; the two periods start from different events. Where foreclosure is judicial the statute's alternative is 'prior to the entry of a decree of foreclosure'. Never tell a reader what their own cure date is."
+    },
+    {
+      "id": "af-cure-reinstates-loan",
+      "claim": "When a default is cured under Idaho Code 45-1506(12), all foreclosure proceedings are to be dismissed or discontinued and the obligation and deed of trust are reinstated as if no acceleration had occurred.",
+      "quotedLanguage": "and thereupon, all proceedings theretofore had or instituted shall be dismissed or discontinued and the obligation and deed of trust shall be reinstated and shall be and remain in force and effect, the same as if no acceleration had occurred.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Must be stated together with af-cure-within-115-days (the time limit) and af-cure-amount-includes-costs (the amount)."
+    },
+    {
+      "id": "af-cure-amount-includes-costs",
+      "claim": "The amount needed to cure under Idaho Code 45-1506(12) includes costs and expenses actually incurred in enforcing the obligation, a reasonable trustee's fee limited by 45-1502(6), and attorney's fees as the promissory note may provide.",
+      "quotedLanguage": "including costs and expenses actually incurred in enforcing the terms of such obligation and a reasonable trustee's fee subject to the limitations imposed by subsection (6) of section 45-1502, Idaho Code, and attorney's fees as may be provided in the promissory note",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The cure figure is more than the missed payments. 45-1502(6) was NOT read for this page; do not state the trustee's fee limit."
+    },
+    {
+      "id": "af-trustee-deed-conveys-grantor-interest",
+      "claim": "Under Idaho Code 45-1506(10), the trustee's deed conveys to the purchaser at the trustee's sale the interest in the property that the grantor had, or had the power to convey, when the trust deed was signed, together with any interest acquired afterwards.",
+      "quotedLanguage": "The trustee's deed shall convey to the purchaser the interest in the property which the grantor had, or had the power to convey, at the time of the execution by him of the trust deed together with any interest the grantor or his successors in interest acquired after the execution of such trust deed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Used only to support the plain point that the owner's own sale has to close before the trustee's sale. Finality and redemption (45-1508) belong to the after-sale guide and were not read here."
+    },
+    {
+      "id": "af-modnotice-who-gets-it",
+      "claim": "Idaho Code 45-1506C requires a supplemental notice to accompany the notice of default where the loan was made by a state or federally regulated beneficiary and is a noncommercial loan secured by a deed of trust on the borrower's primary residence; a property granted the homeowner's property tax exemption for the year the notice of default is recorded is deemed the primary residence, and if no exemption was granted for that year the section does not apply.",
+      "quotedLanguage": "In the case of a loan made by a state or federally regulated beneficiary, which loan is secured by a deed of trust encumbering a borrower's primary residential property for any noncommercial loan, the notice provided in this section shall accompany the notice of default provided to the grantor. The beneficiary or its agent shall determine whether the subject real property is a borrower's primary residence by searching the county assessor's tax rolls prior to recording a notice of default to confirm whether such real property has been granted a homeowner's property tax exemption pursuant to section 63-602G, Idaho Code. Any property for which a homeowner's property tax exemption has been granted for the year in which the notice of default is recorded shall be deemed to be a borrower's primary residential dwelling. If no homeowner's property tax exemption has been granted for the year in which the notice of default is recorded, the provisions of this section shall not apply.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending",
+        "homestead"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: the whole section turns on the homeowner's exemption (63-602G) being in place for the year the notice of default is recorded. A rental, a second home, or a home whose exemption lapsed is outside it. Never tell a reader the section applies to them."
+    },
+    {
+      "id": "af-modnotice-ask-exact-amount",
+      "claim": "The statutory form of the 45-1506C notice tells the borrower that the beneficiary can provide the exact amount owed but the borrower has to ask, by calling a toll-free number or sending a written request by certified mail.",
+      "quotedLanguage": "The beneficiary can provide you with the exact amount that you owe, but you have to ask. Call (enter the toll-free telephone number) to find out the exact amount you must pay to bring your mortgage loan current and to obtain other details about your loan. You also can send a written request for this information by certified mail",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "This is wording of the notice form, which must 'substantially conform'. Attribute it to the notice."
+    },
+    {
+      "id": "af-modnotice-may-not-qualify",
+      "claim": "The 45-1506C notice tells a borrower who cannot afford the current payments to contact the beneficiary immediately about loss mitigation programs, states that the borrower may or may not qualify for a loan modification or other alternative to foreclosure, and says the borrower may request a meeting with the beneficiary.",
+      "quotedLanguage": "you need to contact the beneficiary immediately to ask about any available loss mitigation programs. You may or may not qualify for a loan modification or other alternative to foreclosure. You may request to meet with the beneficiary to discuss options for modifying your loan.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The section creates a right to ask and to be answered, not a right to a modification. Always carry the 'may or may not qualify' half."
+    },
+    {
+      "id": "af-modnotice-form-thirty-days",
+      "claim": "Under the 45-1506C notice, a borrower who wants to apply for a loan modification must complete and return the enclosed modification request form by certified mail, return receipt requested, and the beneficiary must receive it on or before a date that is 30 days after the date of the notice.",
+      "quotedLanguage": "IF YOU WANT TO APPLY FOR A MODIFICATION OF YOUR LOAN, YOU MUST COMPLETE AND RETURN THE ENCLOSED \"MODIFICATION REQUEST FORM\" BY CERTIFIED MAIL, RETURN RECEIPT REQUESTED. THE BENEFICIARY MUST RECEIVE THE FORM ON OR BEFORE (enter the date), WHICH IS THIRTY (30) DAYS AFTER THE DATE BELOW.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: RECEIVED by the beneficiary within 30 days of the date on the notice, not postmarked. Certified mail, return receipt requested. The actual deadline is the date printed on the borrower's own notice."
+    },
+    {
+      "id": "af-modnotice-response-45-days",
+      "claim": "If the grantor returns the 45-1506C form by the date on it, the beneficiary must evaluate the request and notify the grantor in writing, not later than 45 days after receiving the form, whether it approves or denies the request or needs more information; a trustee's sale may not occur until after the beneficiary timely responds.",
+      "quotedLanguage": "If a grantor returns the form identified in subsection (2) of this section to the beneficiary by the date specified on the form, the beneficiary or the beneficiary's agent shall review the information the grantor provided in the form and shall evaluate the grantor's request. The beneficiary or the beneficiary's agent, as soon as reasonably practicable but not later than forty-five (45) days after receiving the form, shall notify the grantor in writing whether the beneficiary approves or denies the request or requires additional information. A trustee's sale for the property subject to the loan may not occur until after the beneficiary or the beneficiary's agent timely responds to the grantor.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The bar on the trustee's sale lasts only until the beneficiary responds. It is not a stay of foreclosure and a denial ends it. Depends on the form having been returned on time."
+    },
+    {
+      "id": "af-modnotice-meeting",
+      "claim": "If the grantor timely requests a meeting, Idaho Code 45-1506C(4) requires the beneficiary or its agent to meet in person or speak by telephone before responding to the modification request, and the person who meets must have or be able to obtain authority to modify the loan; the beneficiary is treated as complying if, within seven business days after it attempts contact, the grantor does not schedule a meeting or fails to attend.",
+      "quotedLanguage": "if the grantor timely requests a meeting with the beneficiary, the beneficiary or the beneficiary's agent shall either meet with the grantor in person or speak to the grantor by telephone before the beneficiary or the beneficiary's agent responds to the grantor's request to modify the loan. ... within seven (7) business days after the beneficiary or the beneficiary's agent attempts to contact the grantor, the grantor does not schedule a meeting, or fails to attend a scheduled meeting or telephone call. ... The beneficiary or the beneficiary's agent that meets with the grantor shall have or be able to obtain authority to modify the loan.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "State the seven-business-day point with it: a borrower who does not schedule or attend loses the meeting."
+    },
+    {
+      "id": "af-modnotice-free-counselors-warning",
+      "claim": "The 45-1506C notice carries a warning: never pay someone to help obtain a loan modification, and help is available for free from housing counselors certified through HUD, with a current list of certified counselors in Idaho on HUD's website.",
+      "quotedLanguage": "WARNING: You may get offers from people who tell you they can help you keep your property. Never pay someone to help you obtain a loan modification. Help is available for free from housing counselors who are certified through the department of housing and urban development (HUD). Visit the HUD website for a current list of certified housing counselors in Idaho.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Idaho's own statutory wording. We are among the 'people who tell you they can help'; quote it straight."
+    },
+    {
+      "id": "af-regx-scope",
+      "claim": "The federal early-intervention and loss-mitigation procedures in 12 CFR 1024.39 through 1024.41 apply only to a mortgage loan secured by the borrower's principal residence, and, except as 1024.41(j) provides, sections 1024.38 through 1024.41 do not apply to small servicers, to reverse mortgage transactions, or to certain qualified lenders.",
+      "quotedLanguage": "Except as otherwise provided in § 1024.41(j), §§ 1024.38 through 1024.41 of this subpart shall not apply to the following: ... A servicer that qualifies as a small servicer pursuant to 12 CFR 1026.41(e)(4); ... The procedures set forth in §§ 1024.39 through 1024.41 of this subpart only apply to a mortgage loan that is secured by a property that is a borrower's principal residence.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-30"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The small-servicer definition (12 CFR 1026.41(e)(4)) was NOT read. Say 'small servicers' without defining them. Small servicers remain subject to the 120-day rule through 1024.41(j): see af-regx-small-servicer."
+    },
+    {
+      "id": "af-regx-small-servicer",
+      "claim": "Under 12 CFR 1024.41(j), a small servicer is still subject to the 120-day prohibition on foreclosure referral and may not start or complete a foreclosure while a borrower is performing under a loss mitigation agreement.",
+      "quotedLanguage": "A small servicer shall be subject to the prohibition on foreclosure referral in paragraph (f)(1) of this section. A small servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process and shall not move for foreclosure judgment or order of sale, or conduct a foreclosure sale, if a borrower is performing pursuant to the terms of an agreement on a loss mitigation option.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Pairs with af-regx-scope."
+    },
+    {
+      "id": "af-regx-live-contact-36-days",
+      "claim": "Under 12 CFR 1024.39(a), a servicer must establish or make good faith efforts to establish live contact with a delinquent borrower no later than the 36th day of delinquency and, promptly after contact, inform the borrower about the availability of loss mitigation options, if appropriate.",
+      "quotedLanguage": "a servicer shall establish or make good faith efforts to establish live contact with a delinquent borrower no later than the 36th day of a borrower's delinquency and again no later than 36 days after each payment due date so long as the borrower remains delinquent. Promptly after establishing live contact with a borrower, the servicer shall inform the borrower about the availability of loss mitigation options, if appropriate.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-39"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it. Bankruptcy and FDCPA exemptions in 1024.39(c)-(d) exist and are not described."
+    },
+    {
+      "id": "af-regx-written-notice-45-days",
+      "claim": "Under 12 CFR 1024.39(b), a servicer must send a delinquent borrower a written notice no later than the 45th day of delinquency that encourages the borrower to contact the servicer, gives the servicer's telephone number and mailing address, and gives the website for the CFPB or HUD list of homeownership counselors and HUD's toll-free number.",
+      "quotedLanguage": "a servicer shall provide to a delinquent borrower a written notice with the information set forth in paragraph (b)(2) of this section no later than the 45th day of the borrower's delinquency ... A statement encouraging the borrower to contact the servicer; ... The Web site to access either the Bureau list or the HUD list of homeownership counselors or counseling organizations, and the HUD toll-free telephone number to access homeownership counselors or counseling organizations.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-39"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it. The notice need not be sent more than once in any 180-day period."
+    },
+    {
+      "id": "af-regx-120-day-prefiling",
+      "claim": "Under 12 CFR 1024.41(f)(1), a servicer may not make the first notice or filing required by applicable law for a judicial or non-judicial foreclosure unless the loan is more than 120 days delinquent, the foreclosure is based on a due-on-sale violation, or the servicer is joining another lienholder's foreclosure.",
+      "quotedLanguage": "A servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless: ... A borrower's mortgage loan obligation is more than 120 days delinquent; ... The foreclosure is based on a borrower's violation of a due-on-sale clause; or ... The servicer is joining the foreclosure action of a superior or subordinate lienholder.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: this federal 120 days (delinquency before the first filing) is a DIFFERENT period from Idaho's 120-day notice of sale (id-trustee-sale-120-day-notice). Never merge them or add them into a total. Which Idaho document counts as the 'first notice or filing' is not stated in the rule text read here; do not name it. Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it."
+    },
+    {
+      "id": "af-regx-no-duty-specific-option",
+      "claim": "12 CFR 1024.41(a) states that nothing in the section imposes a duty on a servicer to provide any borrower with any specific loss mitigation option.",
+      "quotedLanguage": "Nothing in § 1024.41 imposes a duty on a servicer to provide any borrower with any specific loss mitigation option.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The honesty anchor for the federal section: the rule governs procedure and timing, not outcomes. Must accompany any description of the application protections."
+    },
+    {
+      "id": "af-regx-acknowledgment-5-days",
+      "claim": "Under 12 CFR 1024.41(b)(2), a servicer that receives a loss mitigation application 45 days or more before a foreclosure sale must tell the borrower in writing, within 5 days excluding legal public holidays, Saturdays and Sundays, whether the application is complete or incomplete, and if incomplete what additional documents and information are needed.",
+      "quotedLanguage": "If a servicer receives a loss mitigation application 45 days or more before a foreclosure sale, a servicer shall: ... Notify the borrower in writing within 5 days (excluding legal public holidays, Saturdays, and Sundays) after receiving the loss mitigation application that the servicer acknowledges receipt of the loss mitigation application and that the servicer has determined that the loss mitigation application is either complete or incomplete. If a loss mitigation application is incomplete, the notice shall state the additional documents and information the borrower must submit to make the loss mitigation application complete",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it."
+    },
+    {
+      "id": "af-regx-evaluation-30-days",
+      "claim": "Under 12 CFR 1024.41(c)(1), a servicer that receives a complete loss mitigation application more than 37 days before a foreclosure sale must, within 30 days, evaluate the borrower for all loss mitigation options available to the borrower and give written notice of which options, if any, it will offer.",
+      "quotedLanguage": "if a servicer receives a complete loss mitigation application more than 37 days before a foreclosure sale, then, within 30 days of receiving the complete loss mitigation application, a servicer shall: ... Evaluate the borrower for all loss mitigation options available to the borrower; and ... Provide the borrower with a notice in writing stating the servicer's determination of which loss mitigation options, if any, it will offer to the borrower on behalf of the owner or assignee of the mortgage.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'Complete' is defined in 1024.41(b)(1) as the servicer having received all the information it requires. An incomplete application does not trigger this. Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it."
+    },
+    {
+      "id": "af-regx-application-before-referral",
+      "claim": "Under 12 CFR 1024.41(f)(2), if a borrower submits a complete loss mitigation application before the servicer has made the first foreclosure notice or filing, the servicer may not make that notice or filing unless it has told the borrower in writing that the borrower is not eligible for any option and any appeal is exhausted or unavailable, the borrower rejects all options offered, or the borrower fails to perform under a loss mitigation agreement.",
+      "quotedLanguage": "If a borrower submits a complete loss mitigation application during the pre-foreclosure review period set forth in paragraph (f)(1) of this section or before a servicer has made the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process, a servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless: ... The borrower rejects all loss mitigation options offered by the servicer; or ... The borrower fails to perform under an agreement on a loss mitigation option.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it."
+    },
+    {
+      "id": "af-regx-no-sale-while-pending",
+      "claim": "Under 12 CFR 1024.41(g), if a borrower submits a complete loss mitigation application after the foreclosure has started but more than 37 days before a foreclosure sale, the servicer may not move for a foreclosure judgment or order of sale, or conduct a foreclosure sale, unless the borrower has been found ineligible with any appeal exhausted or unavailable, rejects all options offered, or fails to perform under a loss mitigation agreement.",
+      "quotedLanguage": "If a borrower submits a complete loss mitigation application after a servicer has made the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process but more than 37 days before a foreclosure sale, a servicer shall not move for foreclosure judgment or order of sale, or conduct a foreclosure sale, unless:",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: 'more than 37 days before a foreclosure sale' and 'complete'. An application inside 37 days, or an incomplete one, does not get this protection under the text read. Never write that applying 'stops' a foreclosure. The three exceptions are quoted in af-regx-application-before-referral's parallel list at (f)(2); (g)(1)-(3) repeat them. Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it."
+    },
+    {
+      "id": "af-regx-appeal-14-days",
+      "claim": "Under 12 CFR 1024.41(h), where a complete application was received 90 days or more before a foreclosure sale, the servicer must let the borrower appeal a denial of any loan modification program, the borrower has 14 days to appeal, the appeal must be reviewed by different personnel, and the servicer must give its determination within 30 days; that determination is not subject to further appeal.",
+      "quotedLanguage": "If a servicer receives a complete loss mitigation application 90 days or more before a foreclosure sale or during the period set forth in paragraph (f) of this section, a servicer shall permit a borrower to appeal the servicer's determination to deny a borrower's loss mitigation application for any trial or permanent loan modification program available to the borrower. ... A servicer shall permit a borrower to make an appeal within 14 days after the servicer provides the offer of a loss mitigation option to the borrower ... An appeal shall be reviewed by different personnel than those responsible for evaluating the borrower's complete loss mitigation application. ... Within 30 days of a borrower making an appeal, the servicer shall provide a notice to the borrower stating the servicer's determination ... A servicer's determination under this paragraph is not subject to any further appeal.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The appeal covers loan MODIFICATION denials only, and only for applications complete 90 days or more before a sale (or in the pre-foreclosure period). Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it."
+    },
+    {
+      "id": "af-regx-short-term-plan-on-incomplete-application",
+      "claim": "Under 12 CFR 1024.41(c)(2)(iii), a servicer may offer a short-term payment forbearance program or a short-term repayment plan based on an incomplete application, must then give written notice of the specific payment terms and duration, and may not start or complete a foreclosure while the borrower is performing under that program or plan.",
+      "quotedLanguage": "a servicer may offer a short-term payment forbearance program or a short-term repayment plan to a borrower based upon an evaluation of an incomplete loss mitigation application. ... the servicer must provide the borrower a written notice stating the specific payment terms and duration of the program or plan ... A servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process, and shall not move for foreclosure judgment or order of sale or conduct a foreclosure sale, if a borrower is performing pursuant to the terms of a payment forbearance program or repayment plan offered pursuant to this paragraph (c)(2)(iii).",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'May offer': the servicer is not required to. The protection lasts only while the borrower is performing. Applies only within the scope set by 12 CFR 1024.30 (principal residence; small servicers and some others exempt): state with af-regx-scope. Federal rule, enforced against the servicer; never tell a reader their servicer violated it."
+    },
+    {
+      "id": "af-cfpb-call-servicer-right-away",
+      "claim": "The CFPB says a borrower who cannot pay the mortgage, or is worried about missing a payment, should call the mortgage servicer right away and should also contact a HUD-approved housing counseling agency.",
+      "quotedLanguage": "If you can’t pay your mortgage or are worried about missing a mortgage payment, call your mortgage servicer right away. You should also contact a HUD-approved housing counseling agency to get free, expert assistance on avoiding foreclosure.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-cant-pay-mortgage-options"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB."
+    },
+    {
+      "id": "af-cfpb-what-to-tell-servicer",
+      "claim": "The CFPB says the servicer's telephone number is on the monthly mortgage statement, in the coupon book or on the servicer's website, and that a borrower calling should be prepared to explain why the payment cannot be made, whether the problem is temporary or permanent, and details about income, expenses and other assets, and to fill out a mortgage assistance application if the servicer gives one.",
+      "quotedLanguage": "Find the telephone number for your mortgage servicer by looking on your monthly mortgage loan statement, in your mortgage loan coupon book from your lender, or on your mortgage servicer’s website. ... When you call your mortgage servicer, be prepared to explain: ... Whether the problem is temporary or permanent ... Details about your income, expenses and other assets like cash in the bank ... Fill out a mortgage assistance application, if your servicer gives you one",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-cant-pay-mortgage-options"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB."
+    },
+    {
+      "id": "af-cfpb-options-servicer-might-offer",
+      "claim": "The CFPB lists the options a servicer might make available as refinancing, a loan modification, a repayment plan, forbearance, a short sale, and giving the home back to the lender through a deed-in-lieu of foreclosure.",
+      "quotedLanguage": "Some options that your servicer might make available include: Refinance Get a loan modification Work out a repayment plan Get forbearance Short-sell your home Give your home back to your lender through a",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-cant-pay-mortgage-options"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The quote is a bulleted list on the page, so it reads without punctuation. 'Might make available': not every servicer offers every option. This is the ONLY source on the page for refinancing; nothing more specific may be said about refinancing."
+    },
+    {
+      "id": "af-cfpb-attorney-if-imminent",
+      "claim": "The CFPB says a borrower facing imminent foreclosure, or served with legal papers, might also need to consult an attorney.",
+      "quotedLanguage": "If you are facing imminent foreclosure or have been served with legal papers, you might also need to consult an attorney",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-cant-pay-mortgage-options"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB."
+    },
+    {
+      "id": "af-cfpb-no-need-to-pay-scam-signs",
+      "claim": "The CFPB says a borrower does not have to pay anyone for help avoiding foreclosure, because help is available at no cost from the servicer or a HUD-approved housing counseling agency, and lists scam warning signs including being asked to pay upfront, a guarantee that the home will not be lost, and being asked to sign over title.",
+      "quotedLanguage": "You don’t have to pay anyone to help you avoid foreclosure. The help you need is available at no cost to you from your servicer, or through a HUD-approved housing counseling agency. ... You’re asked to pay upfront for help ... The company guarantees you won’t lose your home ... You’re asked to sign over title to your home or to sign other documents you don’t understand",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "deeds"
+      ],
+      "sourceIds": [
+        "cfpb-cant-pay-mortgage-options"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB. 'Asked to sign over title' is the sign most relevant to a sale; a sale to any buyer, us included, transfers title, so point to the Consumer Foreclosure Protection Act claims alongside it."
+    },
+    {
+      "id": "af-cfpb-repayment-plan-definition",
+      "claim": "The CFPB defines a mortgage repayment plan as an agreement with the lender to make up missed payments by adding part of the past-due amount to the regular payments over a period of time, so that the borrower pays more each month to make up for the missed payments.",
+      "quotedLanguage": "A repayment plan is an agreement between you and your lender to make up missed mortgage loan payments by adding part of the past-due amount to your regular payments over a period of time. ... With a repayment plan, you pay more on your monthly payment to make up for the payments you missed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-mortgage-repayment-plan"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB."
+    },
+    {
+      "id": "af-cfpb-repayment-plan-still-delinquent",
+      "claim": "The CFPB cautions that under a repayment plan the lender or servicer may consider the loan delinquent until all missed payments are repaid and may still report the delinquency to the credit reporting agencies, and that a repayment plan might be one option after a forbearance period ends.",
+      "quotedLanguage": "Your lender or servicer may consider your loan delinquent until you repay all of your missed payments, and may still report your delinquency to the credit reporting agencies ... If you have been in mortgage forbearance, a repayment plan might be one option once you have completed your forbearance period.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-mortgage-repayment-plan"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB. The page's own sentence continues awkwardly ('including how soon they might be able to start foreclosure'); the quote stops before that."
+    },
+    {
+      "id": "af-cfpb-forbearance-definition",
+      "claim": "The CFPB describes forbearance as an arrangement in which the servicer or lender lets the borrower temporarily pause mortgage payments or make smaller payments; it does not erase or decrease the amount owed, and missed or reduced payments must be repaid.",
+      "quotedLanguage": "Your servicer or lender arranges for you to temporarily pause mortgage payments or make smaller payments. You still owe the full amount, and you pay back the difference later. ... Forbearance does not erase or decrease the amount you owe on your mortgage. You have to repay any missed or reduced payments.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-mortgage-forbearance"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB."
+    },
+    {
+      "id": "af-cfpb-forbearance-what-to-ask",
+      "claim": "The CFPB says forbearance options depend on many factors and tells borrowers to keep asking the servicer questions until they understand the amount to be paid and for how long payments are paused or reduced, how interest accrues during that time, and when and how the paused or reduced amounts are paid back.",
+      "quotedLanguage": "There isn’t a “one size fits all” answer, because the options depend on many factors. ... The amount you must pay, and for how long payments are paused or reduced ... How interest accrues during that time ... When and how you pay back the paused or reduced amounts",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-mortgage-forbearance"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB."
+    },
+    {
+      "id": "af-cfpb-modification-definition",
+      "claim": "The CFPB defines a mortgage loan modification as a change in the loan terms, which may involve extending the number of years to repay, reducing the interest rate, or forbearing or reducing the principal balance, and warns that a borrower who still cannot make the modified payments may lose the home.",
+      "quotedLanguage": "A mortgage loan modification is a change in your loan terms. ... If you receive a loan modification and you still can’t make the payments, you may lose your home. ... Modifications may involve extending the number of years you have to repay the loan, reducing your interest rate, and/or forbearing or reducing your principal balance.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-mortgage-loan-modification"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency consumer guidance, not law. Attribute to the CFPB. Page shows 'last reviewed' Sep 04, 2020, the oldest CFPB page used; a definition, low risk."
+    },
+    {
+      "id": "af-cfpb-short-sale-definition",
+      "claim": "The CFPB defines a short sale as a sale of the home for less than what is owed on the mortgage, available if the lender or servicer agrees, and advises asking the lender to waive any deficiency before going through with it and getting the waiver in writing.",
+      "quotedLanguage": "A short sale, which is a type of loss mitigation, is a sale of your home for less than what you owe on your mortgage. ... If your lender or servicer agrees to a short sale, you may be able to sell your home to pay off your mortgage, even if the sale price or proceeds turn out to be less than the balance remaining on your mortgage. ... If the lender waives the deficiency, get the waiver in writing and keep it for your records.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-what-is-a-short-sale"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Pointer only on this page. Idaho deficiency law (45-1512) and federal tax treatment belong to the short-sale guide and were NOT read here; say nothing about whether an Idaho borrower owes a deficiency."
+    },
+    {
+      "id": "af-cfpb-deed-in-lieu-definition",
+      "claim": "The CFPB defines a deed-in-lieu of foreclosure as an arrangement in which the borrower voluntarily turns over ownership of the home to the lender to avoid the foreclosure process, and notes the borrower may still incur a tax liability and may want to speak with a tax professional or attorney.",
+      "quotedLanguage": "A deed-in-lieu of foreclosure is an arrangement where you voluntarily turn over ownership of your home to the lender to avoid the foreclosure process. ... You may still incur a tax liability, so you may want to speak with a tax professional or attorney.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "deeds"
+      ],
+      "sourceIds": [
+        "cfpb-deed-in-lieu"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Pointer only on this page. See af-cfpb-short-sale-definition."
+    },
+    {
+      "id": "af-cfpb-payoff-amount",
+      "claim": "The CFPB says a payoff amount is how much must be paid to satisfy the loan terms and completely pay off the debt, that it differs from the current balance because it includes interest due through the intended payoff day and may include unpaid fees, and that for a loan secured by a dwelling the servicer must provide an accurate payoff statement on request.",
+      "quotedLanguage": "Your payoff amount is how much you will have to pay to satisfy the terms of your mortgage loan and completely pay off your debt. Your payoff amount is different from your current balance. ... Your payoff amount includes the payment of any interest due through the day you intend to pay off your loan. It may also include other fees you have been charged and have not yet paid. ... If your loan is secured by a dwelling, once you request a payoff amount, servicers must provide you with an accurate statement of the total amount that would be required to fully pay off your loan as of a specified date.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "lending",
+        "closing"
+      ],
+      "sourceIds": [
+        "cfpb-what-is-a-payoff-amount"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The underlying rule (12 CFR 1026.36(c)(3)) and its timing were NOT read for this page; do not give a day count for the payoff statement."
+    },
+    {
+      "id": "af-cfpb-housing-counselor-what-they-do",
+      "claim": "The CFPB describes a housing counselor at a HUD-approved agency as trained and certified by the government to help a borrower assess their finances, evaluate options when they have trouble paying the mortgage and make a plan; such agencies provide foreclosure prevention counseling free of charge and can help the borrower talk to the servicer, and a counselor cannot promise that the borrower will keep the home.",
+      "quotedLanguage": "A housing counselor though a HUD-approved agency is specially trained and certified by the government to help you assess your financial situation, evaluate options if you are having trouble paying your mortgage loan, and make a plan to get you help with your mortgage. ... HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge. They can also help you talk to your mortgage servicer and understand any options your servicer has offered. ... A housing counselor at a HUD-approved agency can't promise that you will get to keep your home.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "cfpb-hud-approved-housing-counselor"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The page's typo 'though a HUD-approved agency' is the CFPB's and is kept in the quote; do not reproduce the typo in prose. Always carry 'cannot promise'."
+    },
+    {
+      "id": "af-cfpb-hope-hotline",
+      "claim": "The CFPB says a HUD-approved counseling agency can be found through its Find a Counselor tool, by calling the HOPE Hotline at (888) 995-HOPE (4673), open 24 hours a day, seven days a week, or by calling the CFPB at (855) 411-CFPB (2372) to be connected to a housing counselor by phone.",
+      "quotedLanguage": "open 24 hours a day, seven days a week, at (888) 995-HOPE (4673). Call the CFPB at (855) 411-CFPB (2372) to be connected to a housing counselor over the phone.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "cfpb-hud-approved-housing-counselor"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Phone numbers as printed on the CFPB page 'last reviewed' Sep 11, 2024. Re-dial or re-check before publishing."
+    },
+    {
+      "id": "af-hud-counseling-free-or-low-cost",
+      "claim": "HUD says it funds free or very low-cost housing counseling nationwide, that housing counselors can help a homeowner understand the law and their options, organize their finances and represent them in negotiations with the lender, and that a counselor can be found by calling (800) 569-4287.",
+      "quotedLanguage": "The U.S. Department of Housing and Urban Development (HUD) funds free or very low-cost housing counseling nationwide. Housing counselors can help you understand the law and your options, organize your finances and represent you in negotiations with your lender, if you need this assistance. ... or call (800) 569-4287 or TTY (800) 877-8339.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "hud-avoiding-foreclosure"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "MEDIUM because the HUD page is undated. HUD says 'free or very low-cost'; the CFPB and Idaho Code 45-1506C say free for foreclosure prevention. Do not use this page's generic month-by-month timeline or its 'redemption period' line for Idaho."
+    },
+    {
+      "id": "af-uscourts-chapter-13-foreclosure",
+      "claim": "The federal judiciary's description of chapter 13 bankruptcy says the automatic stay stops a foreclosure proceeding as soon as the individual files the petition and the individual may then bring past-due payments current over a reasonable period, but the debtor may still lose the home if the foreclosure sale is completed under state law before the petition is filed or if the debtor fails to make the regular mortgage payments that come due after filing.",
+      "quotedLanguage": "Individuals may use a chapter 13 proceeding to save their home from foreclosure. The automatic stay stops the foreclosure proceeding as soon as the individual files the chapter 13 petition. The individual may then bring the past-due payments current over a reasonable period of time. Nevertheless, the debtor may still lose the home if the mortgage company completes the foreclosure sale under state law before the debtor files the petition. ... The debtor may also lose the home if he or she fails to make the regular mortgage payments that come due after the chapter 13 filing.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "uscourts-chapter-13-basics"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "ONE attributed paragraph only, both halves together. Eligibility, cost, credit effects and chapter 7 were not researched. Never suggest a reader file; point to a bankruptcy attorney."
+    },
+    {
+      "id": "af-ihfa-trouble-paying-points-to-counseling",
+      "claim": "Idaho Housing and Finance Association's homeowner resources page tells homeowners having trouble with the monthly mortgage payment to make a plan and take action, and to seek expert advice through free housing counseling with a HUD approved counselor.",
+      "quotedLanguage": "If you are facing challenges that make paying your mortgage difficult, the best thing to do is make a plan and take action. Seek expert advice through free Housing Counseling with a HUD approved counselor.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "ihfa-homeowner-resources"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "MEDIUM: IHFA is a statutory housing finance association, tier 2. This claim says only what IHFA's page says. It is NOT evidence that no Idaho assistance program exists; see NOTES.md."
+    }
+  ]
+}

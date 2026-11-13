@@ -1,0 +1,162 @@
+{
+  "guide": {
+    "slug": "foreclosure-rescue-scams-in-idaho",
+    "title": "Foreclosure Rescue Scams in Idaho",
+    "h1": "Foreclosure rescue scams in Idaho: the warning signs and the laws that protect you",
+    "description": "How foreclosure rescue and mortgage relief scams work, what Idaho and federal law require of anyone who contracts with you in foreclosure, and where to report.",
+    "cluster": "distress",
+    "published": "2026-11-13",
+    "updated": "2026-11-13"
+  },
+  "content": {
+    "intro": [
+      "A foreclosure rescue scam takes an upfront fee, a deed or a home's equity on a false promise of saving the owner from foreclosure. Federal Regulation O makes it a violation for a mortgage relief company to collect any fee before you have signed a written agreement with your own lender or servicer. Idaho Code 45-1602 and 45-1603 require a written warning notice with any contract that transfers an interest in a home during the foreclosure period, and give the owner five business days to cancel a contract about the property.",
+      "This page describes what those statutes, regulations and agency pages say. It is not legal advice and it is not applied to your situation. We are a direct buyer of houses. We cannot stop a foreclosure, negotiate with your lender or tell you what your rights are in a specific contract. An Idaho attorney can, and a HUD-approved housing counselor can explain your options with the loan."
+    ],
+    "sections": [
+      {
+        "heading": "What a foreclosure rescue scam looks like",
+        "body": [
+          "The Consumer Financial Protection Bureau describes mortgage loan modification scams as schemes to take your money, often by making a false promise of saving you from foreclosure. Its list of what scammers may do is short: ask for fees upfront, promise to get you a loan modification, ask you to sign over the title to your property, ask you to sign papers you do not understand, say you should start making payments to someone other than your servicer or lender, or tell you to stop making mortgage payments altogether.",
+          "The Federal Trade Commission names the common versions. In phony counseling, the scammers say they are housing counselors, lawyers or from the government, typically tell you not to contact your lender, lawyer or housing counselor, and may tell you to make your mortgage payments directly to them. In a forensic audit pitch, someone posing as a loan auditor offers to review your mortgage documents. The FTC says scammers cannot promise that a forensic loan audit will get you a loan modification or any other mortgage relief.",
+          "Several patterns involve the deed. In a rent-to-buy scheme, you give up the deed and are told you can stay as a renter and buy the home back later. In a rescue loan scheme, a document that gives away the deed is buried in a stack of loan papers you are pressed to sign quickly. In equity skimming, the FTC says, scammers tell you that you can get the home back once you are on your feet, or trick you into selling for cash for much less than similar homes sell for. The FTC's warning is the same in each case: if you transfer the deed you are not likely to get it back, and transferring the deed does not transfer the mortgage.",
+          "The Idaho Attorney General's Consumer Protection Manual says foreclosure rescue companies advertise that they can help distressed consumers save their homes, but often strip consumers of their equity and make them tenants in their own homes.",
+          "The FTC adds that scammers may want payment only by cashier's check, wire transfer or a mobile payment app, because it is hard to get that money back."
+        ],
+        "claims": [
+          "fs-cfpb-scam-warning-signs",
+          "fs-ftc-phony-counseling",
+          "fs-ftc-forensic-audits",
+          "fs-ftc-rent-to-buy-and-rescue-loans",
+          "vb-ftc-equity-skimming",
+          "vb-ftc-deed-transfer-warning",
+          "fs-idag-manual-foreclosure-rescue",
+          "vb-ftc-upfront-payment-methods"
+        ]
+      },
+      {
+        "heading": "Federal law bars upfront fees for mortgage relief",
+        "body": [
+          "The federal rule is 12 CFR part 1015, known as Regulation O. The FTC calls it the Mortgage Assistance Relief Services (MARS) Rule. It covers any service, plan or program offered for payment that is represented to help a consumer with things such as stopping, preventing or postponing a foreclosure sale, getting a loan modification or forbearance, or negotiating a short sale or a deed-in-lieu of foreclosure. It applies to loans on a dwelling, which the rule defines as a residential structure of four or fewer units. The lender, the servicer and their agents are outside the definition of a provider.",
+          "Section 1015.5(a) is the advance-fee ban. It is a violation for a provider to request or receive payment of any fee or other consideration until the consumer has executed a written agreement with the loan holder or servicer that incorporates the offer of relief the provider obtained. The trigger is the consumer's signed agreement with the lender or servicer.",
+          "The FTC's summary: it is illegal for a company to charge you a penny until it has given you a written offer for a loan modification or other relief from your lender and you accept the offer. The CFPB adds that the company must also give you a written document from the lender or servicer describing the key changes to your mortgage, and a reminder that you may reject the offer without any charge. The regulation requires that reminder on a separate written page.",
+          "Attorneys are treated differently, within limits. Under section 1015.7, an attorney who provides these services as part of the practice of law, is licensed in the state where the consumer lives or the home is located, and complies with state law is exempt from most of the rule. That attorney is exempt from the advance-fee ban as well only if money received before the legal work is done goes into a client trust account. The FTC notes that a lawyer working for a company does not mean the company can charge an upfront fee."
+        ],
+        "claims": [
+          "fs-rego-scope-regulation-o",
+          "fs-rego-mars-definition",
+          "fs-rego-provider-excludes-lender-servicer",
+          "fs-rego-advance-fee-ban",
+          "fs-ftc-upfront-fee-illegal-mars-rule",
+          "fs-cfpb-fees-only-after-written-offer",
+          "fs-rego-right-to-reject-offer-disclosure",
+          "fs-rego-attorney-exemption",
+          "fs-ftc-lawyer-check"
+        ]
+      },
+      {
+        "heading": "What a mortgage relief company must tell you, and what it may not say",
+        "body": [
+          "Regulation O requires specific sentences in a provider's advertising. Every general advertisement must state that the company is not associated with the government and that its service is not approved by the government or your lender. Where the company has represented that it will get a result such as a loan modification, it must add that even if you accept the offer and use the service, your lender may not agree to change your loan.",
+          "If a provider has represented that you should stop making loan payments, it must disclose, close to that statement, that if you stop paying your mortgage you could lose your home and damage your credit rating.",
+          "Section 1015.3 lists what a provider may not represent. It is a violation to represent that a consumer cannot or should not contact or communicate with the lender or servicer. It is also a violation to misrepresent that the service is affiliated with, endorsed or approved by the government, a government agency, a nonprofit housing counselor agency or program, or the consumer's lender."
+        ],
+        "claims": [
+          "fs-rego-required-advertising-disclosures",
+          "fs-rego-prohibited-representations"
+        ]
+      },
+      {
+        "heading": "Idaho requires a license to arrange loan modifications for pay",
+        "body": [
+          "Idaho regulates paid loan modification work under the Idaho Residential Mortgage Practices Act. Idaho Code 26-31-201 defines loan modification activities as engaging in, or offering to engage in, effecting loan modifications in Idaho for compensation or gain. The same section counts engaging in loan modification activities on behalf of a borrower as mortgage brokering activities. A refinancing is outside the definition of a loan modification.",
+          "Idaho Code 26-31-203 says no person, except an exempt one, shall engage in mortgage brokering activities without first obtaining a license from the department. A non-exempt person who does so is guilty of a felony on conviction. The exemptions in 26-31-202 include Idaho attorneys, to the extent they are retained by their clients and the activity is ancillary to representing the client.",
+          "Idaho also sets a written-agreement rule. Under Idaho Code 26-31-211(11), a licensee, or a person required to hold the license, may not receive a fee for loan modification activities except under a written agreement. The agreement must specify the fee, specify the terms of the loan for which modification will be sought, and disclose the expected impact on the monthly payment and the length of the loan.",
+          "The Idaho Department of Finance is the licensing agency. It says the act charges it with licensing and regulating mortgage lenders and brokers, mortgage loan modification companies and mortgage loan originators, and that all mortgage licensing is handled through the Nationwide Multistate Licensing System and Registry (NMLS). The Department tells consumers to confirm a provider is licensed by using its licensee lookup page."
+        ],
+        "claims": [
+          "fs-irmpa-loan-modification-is-brokering",
+          "fs-irmpa-unlicensed-activity-felony",
+          "fs-irmpa-attorney-exemption",
+          "fs-irmpa-loan-mod-fee-written-agreement",
+          "fs-idfin-licenses-loan-modification-companies",
+          "fs-idfin-license-lookup-and-complaints"
+        ]
+      },
+      {
+        "heading": "Idaho requires a written notice and gives five business days to cancel",
+        "body": [
+          "Idaho's Consumer Foreclosure Protection Act is Idaho Code 45-1601 to 45-1605. The Legislature found that some persons and businesses defraud homeowners of their title, equity or other value under the guise of stopping or postponing a foreclosure sale. It also directed that the chapter be read so that it does not inhibit transactions with legitimate lenders and investors.",
+          "Section 45-1602 applies during the foreclosure period described in section 45-1506, the section that requires notice of a trustee's sale at least 120 days before the sale date. During that period, any contract or agreement with the owner of record that involves the transfer of any interest in residential real property subject to foreclosure must be in writing. It must be accompanied by a notice in at least 12-point boldface type.",
+          "The notice is headed \"NOTICE REQUIRED BY IDAHO LAW\". It says some individuals or businesses may say they can \"save\" your home from foreclosure, that you should be cautious about such claims, and that a plan to \"rescue\" you may result in your losing valuable equity. It tells you to consult an attorney or financial professional if possible, and adds: \"Do not delay seeking advice, because the longer you wait, the fewer options you may have.\" It points to HUD's list of approved housing counselors and to the Idaho Attorney General's website. If the deal was solicited, negotiated or represented to the consumer in Spanish, the notice must be in Spanish, on a form prepared by the office of the attorney general.",
+          "The cancellation right is in Idaho Code 45-1603. A person whose property is in foreclosure as described in section 45-1505 has the right to cancel or rescind any and all contracts or agreements relating to the property entered into during the foreclosure period, within five business days of entering into the contract. The same section says neither funds nor an interest in the property shall be transferred or transferable until the five days have passed.",
+          "Cancellation occurs when the owner gives written notice of cancellation to all other parties to the contract. The notice need not take any particular form. It is effective if it indicates the intention not to be bound. A notice given by mail is effective when deposited in the mail, properly addressed with postage prepaid. Notice by certified mail, return receipt requested, to the address in the contract is conclusive proof of notice of service.",
+          "One wording difference is worth knowing. The printed notice in 45-1602 says \"five (5) days\". Section 45-1603, which creates the right, says five business days. An attorney can say how the period runs for a specific contract."
+        ],
+        "claims": [
+          "vb-cfpa-legislative-findings",
+          "vb-cfpa-written-notice-required",
+          "fs-cfpa-notice-heading-and-rescission-line",
+          "fs-cfpa-spanish-language-notice",
+          "id-trustee-sale-120-day-notice",
+          "vb-cfpa-five-business-day-rescission",
+          "fs-cfpa-mailed-cancellation-effective-on-deposit"
+        ]
+      },
+      {
+        "heading": "These Idaho protections also cover a contract to sell your house to a buyer",
+        "body": [
+          "Section 45-1602 reaches any contract that involves the transfer of any interest in the home, and a sale is one. Section 45-1604 lists who the chapter does not apply to: regulated lenders, banks, trust companies, savings and loan associations, credit unions and industrial loan companies, licensed mortgage lenders and brokers, employees and agents of those organizations acting in that role, and family members of the owner of record.",
+          "Nothing in that list excludes a company that buys houses, and that includes us. If you sign a purchase contract with us during the foreclosure period, the written notice and the five-business-day cancellation right in this chapter are yours. The bar on transferring funds or an interest in the property before the five days have passed applies as well.",
+          "Section 45-1605 makes a person who violates the chapter liable for penalties and damages under chapter 6, title 48, Idaho Code, in addition to any other penalty provided by law.",
+          "The act does not treat buyers as scammers. The Legislature said the chapter should not inhibit transactions with legitimate lenders and investors. Every buyer can be checked the same way, and [how to check a cash buyer in Idaho](/how-to-check-a-cash-buyer-in-idaho) sets out the public records to use."
+        ],
+        "claims": [
+          "vb-cfpa-exclusions",
+          "vb-cfpa-written-notice-required",
+          "vb-cfpa-five-business-day-rescission",
+          "vb-cfpa-penalties-title-48",
+          "vb-cfpa-legislative-findings"
+        ]
+      },
+      {
+        "heading": "Help from your servicer and a HUD-approved housing counselor",
+        "body": [
+          "The FTC's first instruction is to contact your mortgage servicer or lender immediately if you are having trouble paying or have received a foreclosure notice, even if the foreclosure process has already started.",
+          "The second is a housing counselor. The CFPB's housing counselor search lists counseling agencies approved by the U.S. Department of Housing and Urban Development. The CFPB says they can offer independent advice, often at little or no cost, on defaults, forbearances and foreclosures, and that not every counselor offers all services. HUD says you can find a housing counseling agency by calling 800-569-4287.",
+          "The Idaho Attorney General's manual says consumers should consult a private attorney before they sign any contract involving the ownership of their homes. For how the Idaho process itself runs, see [Idaho foreclosure vs. property tax delinquency](/guides/idaho-foreclosure-vs-property-tax-delinquency)."
+        ],
+        "claims": [
+          "fs-ftc-legitimate-help",
+          "fs-cfpb-housing-counselors-hud-approved",
+          "fs-hud-housing-counseling-phone",
+          "fs-idag-manual-foreclosure-rescue"
+        ]
+      },
+      {
+        "heading": "Where to report a foreclosure rescue scam in Idaho",
+        "body": [
+          "Idaho Attorney General. The Consumer Protection Division enforces Idaho's Consumer Protection Act and takes complaints through the Consumer Complaint Form on ag.idaho.gov. The division lists its phone as 208-334-2424, toll-free 1-800-432-3545. The office says a consumer may inform it without requesting action, or may request an informal dispute resolution process.",
+          "Idaho Department of Finance. The Department invites written complaints, with supporting documents, about institutions it regulates and alleged violations of its laws and rules. If the company is one it does not regulate, the Department says it will refer the complaint to the correct agency. It also says it cannot give legal advice.",
+          "Federal Trade Commission. The FTC says to report a suspected mortgage relief scam at ReportFraud.ftc.gov and to your state attorney general.",
+          "Consumer Financial Protection Bureau. The CFPB says you can report a company by submitting a complaint online or by calling (855) 411-CFPB (2372)."
+        ],
+        "claims": [
+          "fs-idag-consumer-protection-complaints",
+          "fs-idag-informal-dispute-resolution",
+          "fs-idfin-license-lookup-and-complaints",
+          "fs-ftc-where-to-report",
+          "fs-cfpb-report-and-get-help"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in Ada County with our own capital, in any condition. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. A purchase is a sale and nothing more. We cannot stop or postpone a foreclosure, negotiate with a lender, or promise an outcome with your loan. Our page on [selling a house before foreclosure in Idaho](/sell-house-before-foreclosure-idaho) covers that route.",
+          "A sale to us is the wrong route if you can keep the home. If your servicer will agree to a repayment plan or a modification you can afford, or you can bring the loan current, talk to the servicer and a housing counselor first. If the house is in sound condition and there is time before the sale date, listing it may bring a higher price than we would pay. If you do sign with any buyer during the foreclosure period, read the Idaho notice and have an attorney look at the contract inside the five business days."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

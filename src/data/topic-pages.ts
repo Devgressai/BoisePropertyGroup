@@ -267,8 +267,8 @@ export const TOPIC_PAGES: TopicPage[] = [
     description:
       "Behind on payments in Ada County? How Idaho's trustee-sale clock works, what a sale before the date can and cannot do, and what we can honestly offer.",
     published: "2026-11-12",
-    updated: "2026-11-12",
-    guides: ["idaho-foreclosure-vs-property-tax-delinquency", "liens-and-judgments-when-selling-in-idaho", "idaho-property-taxes-when-you-sell"],
+    updated: "2026-11-13",
+    guides: ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency", "liens-and-judgments-when-selling-in-idaho", "idaho-property-taxes-when-you-sell"],
     intro: [
       "If an Ada County house is heading toward a trustee's sale, selling it before the sale date is one option the owner still has — and if the property is worth more than what is owed, it is the option that can leave the difference with the owner rather than at the auction. Idaho requires notice of a trustee's sale at least 120 days before the sale, so the clock is real but not instant.",
       NOT_ADVICE,
@@ -299,7 +299,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "What we can do, and what we cannot",
         body: [
-          "We cannot stop a foreclosure, negotiate with your lender, or promise any outcome but our own purchase. Be wary of anyone who promises to save the house for a fee.",
+          "We cannot stop a foreclosure, negotiate with your lender, or promise any outcome but our own purchase. Be wary of anyone who promises to save the house for a fee. The routes for keeping the house are in [how to avoid foreclosure in Idaho](/guides/how-to-avoid-foreclosure-in-idaho), and [sell or keep](/sell-or-keep-house-facing-foreclosure-idaho) weighs a sale against them.",
           "What we can do is buy before the sale date if the numbers work: an offer with the arithmetic shown, our own capital so there is no loan to approve, and a close through a local title company on a date you choose. Three weeks is realistic, which matters when the notice period is counting down. The loan is paid off from the sale at closing, like any sale.",
         ],
       },
@@ -827,6 +827,141 @@ export const TOPIC_PAGES: TopicPage[] = [
         ],
         "claims": [
           "vb-cfpa-written-notice-required"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sell-or-keep-house-facing-foreclosure-idaho",
+    "kind": "decision",
+    "title": "Sell or Keep a House Facing Foreclosure in Idaho",
+    "h1": "Should you sell your house to avoid foreclosure in Idaho, or keep it?",
+    "eyebrow": "Before you sign",
+    "description": "When selling an Idaho house before a trustee's sale works, when curing the default is the better route, and when a sale needs the lender's agreement.",
+    "published": "2026-11-13",
+    "updated": "2026-11-13",
+    "guides": ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency"],
+    "intro": [
+      "Selling works when the sale will pay the loan in full and can close before the trustee's sale. Keeping the house works when you can pay the amount Idaho Code 45-1506(12) requires to cure the default, or when your servicer approves a plan you can afford. If you owe more than the house will sell for, a sale needs the lender's agreement, and that is a short sale.",
+      "This page describes what Idaho statutes, federal mortgage rules and federal consumer pages say. It is not legal or tax advice and it is not applied to your situation. We cannot stop a foreclosure or negotiate with a lender. An Idaho attorney or a HUD-approved housing counselor should look at your notices and your loan before you decide."
+    ],
+    "sections": [
+      {
+        "heading": "Start with the payoff figure, not the loan balance",
+        "body": [
+          "Both routes start with one number from your servicer. The Consumer Financial Protection Bureau describes the payoff amount as how much you will have to pay to satisfy the terms of the loan and completely pay off the debt. It says the payoff amount is different from the current balance. It includes interest due through the day of payoff and may include fees that have been charged and not yet paid.",
+          "A federal rule, 12 CFR 1026.36(c)(3), covers consumer loans secured by a dwelling. It requires the creditor, assignee or servicer to provide an accurate statement of the total balance required to pay the obligation in full as of a specified date. The statement must be sent within a reasonable time, and in no case more than seven business days, after a written request from the consumer or a person acting for the consumer.",
+          "The same paragraph has an exception that matters here. When the statement cannot be provided within seven business days because the loan is in bankruptcy or foreclosure, it must be provided within a reasonable time. Make the request in writing and make it early.",
+          "Ask in the same letter for the amount needed to cure the default. The payoff is what a sale has to cover. The cure amount is what keeping the house costs today."
+        ],
+        "claims": [
+          "sk-cfpb-payoff-differs-from-balance",
+          "sk-payoff-statement-seven-business-days"
+        ]
+      },
+      {
+        "heading": "When selling works: the sale pays the loan in full",
+        "body": [
+          "A sale solves the problem when the price covers the payoff, any other liens on the property, and the costs of selling. Idaho Code 55-613 defines encumbrances to include taxes, assessments and all liens on real property, so the first loan may not be the only figure to check. Our guide to [liens and judgments when selling](/guides/liens-and-judgments-when-selling-in-idaho) covers the others.",
+          "Idaho Code 45-1514 says what happens to the deed of trust once the loan is paid. Upon performance of the obligation the deed of trust secures, the trustee, upon written request of the beneficiary, shall reconvey the property to the grantor. A beneficiary who refuses to make the request, or a trustee who refuses to reconvey, is liable as provided by law for refusing to discharge a mortgage.",
+          "Title 45, chapter 12 adds a backstop for the title company. Under Idaho Code 45-1202, a title insurer or title agent that has fully paid the obligation, or holds satisfactory evidence of payment in full, may reconvey the deed of trust itself. Under 45-1203 it may send the beneficiary or servicer a notice of intent not less than 30 days after payment in full, and it may record the reconveyance if no objection has arrived when 60 days have elapsed. The recorded release of the old deed of trust can therefore follow the closing.",
+          "Money left after the payoff, the other liens and the costs of sale goes to the seller. That is the equity a sale before the trustee's date is meant to keep. Compare routes on what you would clear, as set out in [direct sale or listing](/cash-offer-vs-listing-idaho)."
+        ],
+        "claims": [
+          "cl-encumbrances-include-taxes-liens",
+          "sk-reconveyance-on-performance",
+          "sk-title-agent-may-reconvey",
+          "sk-title-agent-reconveyance-30-and-60-days"
+        ]
+      },
+      {
+        "heading": "When keeping the house is the better route",
+        "body": [
+          "Idaho law lets a borrower end a trustee's sale by paying what is past due. Under Idaho Code 45-1506(12), the grantor, a successor in interest, or a holder of a subordinate lien of record may pay the beneficiary the entire amount then due, other than the portion of principal that would not be due had no default occurred. The payment may be made at any time within 115 days of the recording of the notice of default.",
+          "The amount includes costs and expenses actually incurred in enforcing the obligation, a reasonable trustee's fee, and attorney's fees as the promissory note provides. On payment the default is cured, the proceedings are dismissed or discontinued, and the deed of trust is reinstated as if no acceleration had occurred.",
+          "An owner who can pay that amount, can afford the regular payment afterward, and wants to stay keeps the house and the equity in it by curing. A sale gives up the house.",
+          "The second route runs through the servicer. 12 CFR 1024.41 sets procedures for loss mitigation applications. If a servicer receives a complete application more than 37 days before a foreclosure sale, it must, within 30 days, evaluate the borrower for all loss mitigation options available and give written notice of which options, if any, it will offer.",
+          "Paragraph (g) of the same rule covers a complete application submitted after the first foreclosure notice or filing and more than 37 days before the sale. The servicer may not conduct the sale unless one of three things has happened. It has sent notice that the borrower is not eligible for any option and no appeal remains. The borrower has rejected every option offered. Or the borrower has failed to perform under a loss mitigation agreement.",
+          "The rule has limits. It states that nothing in it imposes a duty on a servicer to provide any borrower with any specific loss mitigation option, and it applies a narrower set of requirements to small servicers. It sets a procedure and promises no result. A housing counselor or an attorney can tell you whether it covers your loan."
+        ],
+        "claims": [
+          "sk-cure-right-115-days",
+          "sk-loss-mit-evaluation-37-and-30-days",
+          "sk-loss-mit-sale-prohibition",
+          "sk-loss-mit-no-duty-specific-option"
+        ]
+      },
+      {
+        "heading": "When a sale needs the lender's agreement",
+        "body": [
+          "If the payoff and the other liens add up to more than the house will sell for, an ordinary sale does not pay the loan in full. The CFPB defines a short sale as a sale of your home for less than what you owe on your mortgage, and classes it as a type of loss mitigation. If the lender or servicer agrees to it, you may be able to sell the home to pay off the mortgage even if the price or proceeds are less than the remaining balance. The CFPB adds that in a state where the borrower is responsible for a deficiency, the borrower will want to ask the lender to waive it before going through with a short sale, and to get any waiver in writing. Whether and how a deficiency applies to an Idaho loan is a question for an Idaho attorney. The detail is in [short sale vs deed in lieu in Idaho](/guides/short-sale-vs-deed-in-lieu-in-idaho).",
+          "The agreement is the lender's to give. We cannot negotiate with your lender or obtain that agreement for you, and no buyer can promise it."
+        ],
+        "claims": [
+          "sk-cfpb-short-sale-definition",
+          "sk-cfpb-short-sale-deficiency-waiver"
+        ]
+      },
+      {
+        "heading": "How the time a sale takes compares with the notice period",
+        "body": [
+          "Idaho Code 45-1506 requires notice of a trustee's sale to be given at least 120 days before the day fixed for the sale. The notice must also be published once a week for four successive weeks, with the last publication at least 30 days before the sale. Those are statutory minimums. The date that governs your decision is the sale date printed on your own notice. Every step and day count is in the [Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline).",
+          "Three shorter clocks run inside that period. The cure right in 45-1506(12) runs for 115 days from the recording of the notice of default, which is a different starting point from the notice of sale. A payoff statement can take up to seven business days after a written request, or a reasonable time when the loan is in foreclosure. Under Idaho Code 45-1603, no funds and no interest in the property may transfer until the five-day cancellation period on a contract signed during the foreclosure period has passed.",
+          "A sale to a buyer who needs a loan depends on finding that buyer and on the buyer's lender. A sale to a direct buyer depends on the buyer's funds and on the title work. We buy with our own capital and close through a local title company, and a three-week close is realistic. None of that changes the trustee's date.",
+          "Under 45-1506(8), the sale is held on the date in the notice unless it is postponed. The trustee may postpone it upon request of the beneficiary, to a date not more than 30 days after the date from which it is postponed, and a postponed sale may be postponed again in the same manner. The subsection gives that request to the beneficiary. It names no right for an owner or a buyer to postpone the sale. A sale of the house that has not closed by the trustee's date does not pay off the loan. [Selling a house before foreclosure](/sell-house-before-foreclosure-idaho) covers the practical steps."
+        ],
+        "claims": [
+          "id-trustee-sale-120-day-notice",
+          "id-trustee-sale-publication",
+          "sk-cure-right-115-days",
+          "sk-payoff-statement-seven-business-days",
+          "vb-cfpa-five-business-day-rescission",
+          "sk-trustee-sale-postponement-beneficiary-request"
+        ]
+      },
+      {
+        "heading": "A contract signed during foreclosure can be cancelled within five business days, ours included",
+        "body": [
+          "Idaho's Consumer Foreclosure Protection Act applies to contracts made during the foreclosure period. Under Idaho Code 45-1602, a contract with the owner of record that involves the transfer of an interest in residential property subject to foreclosure must be in writing. It must come with a statutory notice in at least 12-point boldface type. The notice warns that a plan to rescue a home from foreclosure may cost the owner valuable equity, and tells the owner to consult an attorney or financial professional.",
+          "Idaho Code 45-1603 gives a person whose property is in foreclosure the right to cancel any contract relating to the property, made during the foreclosure period, within five business days of entering into it. Cancellation happens when the owner gives written notice to all other parties. The notice needs no particular form. It is effective if it shows the intention not to be bound.",
+          "The wording of the statutory notice says five days. The operative section, 45-1603, says five business days. The notice of default that the trustee must mail under Idaho Code 45-1505 carries a similar warning and adds this sentence: \"Do not delay seeking advice, because the longer you wait, the fewer options you may have.\"",
+          "The Act excludes regulated lenders, banks and similar chartered institutions, licensed mortgage lenders and brokers, and family members of the owner. We are none of those. A purchase agreement you sign with us during the foreclosure period must carry the written notice, and you may cancel it within five business days by telling us in writing. A violation of the Act exposes the violator to penalties and damages under the Idaho Consumer Protection Act. [How to check a cash buyer in Idaho](/how-to-check-a-cash-buyer-in-idaho) lists the other checks to run on any buyer."
+        ],
+        "claims": [
+          "vb-cfpa-written-notice-required",
+          "vb-cfpa-five-business-day-rescission",
+          "sk-notice-of-default-recorded-and-warning",
+          "vb-cfpa-exclusions",
+          "vb-cfpa-penalties-title-48"
+        ]
+      },
+      {
+        "heading": "Free help before you decide",
+        "body": [
+          "The CFPB says a housing counselor at a HUD-approved agency is trained and certified by the government to help you assess your financial situation and evaluate your options when you are having trouble paying your mortgage. HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge. They can also help you talk to your servicer and understand any options the servicer has offered. The routes for keeping the house are set out in [how to avoid foreclosure in Idaho](/guides/how-to-avoid-foreclosure-in-idaho).",
+          "The CFPB is also plain about the limits. A housing counselor cannot promise that you will get to keep your home. If you are facing imminent foreclosure or have been served with legal papers, the CFPB says you may also need to consult an attorney.",
+          "The CFPB lists two phone routes to a counselor: the HOPE Hotline at (888) 995-4673, open 24 hours a day, and the CFPB's own line at (855) 411-2372. Idaho's statutory notice under 45-1602 also tells owners that HUD maintains a list of approved housing counselors who can provide free information.",
+          "Talk to a counselor before you talk price with any buyer. The Federal Trade Commission describes equity-skimming schemes in which a homeowner is tricked into selling for cash for much less than similar homes nearby. Check any offer, ours included, against what similar homes have sold for."
+        ],
+        "claims": [
+          "sk-cfpb-hud-counselor-free",
+          "sk-cfpb-counselor-cannot-promise",
+          "vb-cfpa-written-notice-required",
+          "vb-ftc-equity-skimming"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We cannot stop a foreclosure, negotiate with your lender, or give legal or tax advice. What we do is buy houses in any condition with our own capital. Our purchases close through a local title company, you choose the closing date, and a three-week close is realistic.",
+          "Do not sell to us if you can cure the default, can afford the payments afterward, and want to stay. Do not sell to us while your servicer is reviewing a complete loss mitigation application, or after it has offered a plan you can carry. Do not sell to us if you owe more than the house will sell for, unless your lender has agreed to the sale in writing. Do not sell to us if the house is in good condition and your sale date leaves time to list it. A listing with a licensed Idaho agent puts the house in front of more buyers than one offer from us does.",
+          "A sale to us fits a narrower case: the price covers the payoff, the trustee's date is close, and the condition of the house or the time left makes a listing unrealistic. Before you sign with us or with anyone else, talk to a HUD-approved housing counselor or an Idaho attorney."
+        ],
+        "claims": [
+          "sk-cure-right-115-days",
+          "sk-loss-mit-sale-prohibition",
+          "sk-cfpb-short-sale-definition",
+          "sk-cfpb-hud-counselor-free"
         ]
       }
     ]

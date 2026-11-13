@@ -147,6 +147,56 @@ export const guides: Guide[] = [
     published: "2026-11-12",
     updated: "2026-11-12",
   },
+  {
+    slug: "how-to-avoid-foreclosure-in-idaho",
+    title: "How to Avoid Foreclosure in Idaho",
+    h1: "How to avoid foreclosure in Idaho: the options, in order",
+    description:
+      "The options an Idaho homeowner has before a trustee's sale, in the order they open: servicer plans, modification, the 115-day cure right, sale, counseling.",
+    cluster: "distress",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
+  {
+    slug: "idaho-foreclosure-timeline",
+    title: "Idaho Foreclosure Timeline, Step by Step",
+    h1: "The Idaho foreclosure timeline, from the first missed payment to the trustee's deed",
+    description:
+      "Each step of an Idaho deed of trust foreclosure, who must act, and the minimum days between steps, quoted from Idaho Code and federal rules.",
+    cluster: "distress",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
+  {
+    slug: "short-sale-vs-deed-in-lieu-in-idaho",
+    title: "Short Sale vs Deed in Lieu in Idaho",
+    h1: "Short sale vs deed in lieu of foreclosure in Idaho",
+    description:
+      "How a short sale and a deed in lieu differ, why both need the lender's consent, what Idaho Code says on deficiencies, and what the IRS says on canceled debt.",
+    cluster: "distress",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
+  {
+    slug: "after-a-foreclosure-sale-in-idaho",
+    title: "After a Foreclosure Sale in Idaho",
+    h1: "What happens after a foreclosure sale in Idaho",
+    description:
+      "What Idaho Code says after a trustee's sale: no redemption, possession on the tenth day, who gets surplus money, deficiency limits, tenants, and credit reports.",
+    cluster: "distress",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
+  {
+    slug: "foreclosure-rescue-scams-in-idaho",
+    title: "Foreclosure Rescue Scams in Idaho",
+    h1: "Foreclosure rescue scams in Idaho: the warning signs and the laws that protect you",
+    description:
+      "How foreclosure rescue and mortgage relief scams work, what Idaho and federal law require of anyone who contracts with you in foreclosure, and where to report.",
+    cluster: "distress",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {

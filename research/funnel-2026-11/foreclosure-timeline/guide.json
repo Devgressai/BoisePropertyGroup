@@ -1,0 +1,161 @@
+{
+  "guide": {
+    "slug": "idaho-foreclosure-timeline",
+    "title": "Idaho Foreclosure Timeline, Step by Step",
+    "h1": "The Idaho foreclosure timeline, from the first missed payment to the trustee's deed",
+    "description": "Each step of an Idaho deed of trust foreclosure, who must act, and the minimum days between steps, quoted from Idaho Code and federal rules.",
+    "cluster": "distress",
+    "published": "2026-11-13",
+    "updated": "2026-11-13"
+  },
+  "content": {
+    "intro": [
+      "An Idaho deed of trust foreclosure runs in a fixed order: a default, a recorded notice of default, a notice of sale, a public auction, and a trustee's deed. With limited exceptions, federal rules bar a servicer from making the first foreclosure notice or filing on a principal residence until the loan is more than 120 days delinquent, and Idaho Code 45-1506 requires notice of the sale at least 120 days before the sale date. The statutory right to cure the default runs for 115 days from the recording of the notice of default, and after the trustee's sale there is no right to redeem the property.",
+      "This page describes what Idaho Code and federal regulations say, quoted from the official sources. It is not legal advice and it is not applied to your loan. Every day count below is a minimum or a limit set by statute, and a real case can run longer. An Idaho attorney can tell you where your own case stands."
+    ],
+    "sections": [
+      {
+        "heading": "A deed of trust can be foreclosed in Idaho without a court",
+        "body": [
+          "Idaho Code 45-1502 names three parties to a deed of trust. The grantor conveys real property by a trust deed as security for an obligation, and in a home loan is ordinarily the borrower. The beneficiary is the person for whose benefit the trust deed is given, or a successor. The trustee holds title for the limited purpose of the power of sale and the duty to reconvey.",
+          "Idaho Code 45-1503 gives the trustee a power of sale, to be exercised after a breach of the secured obligation. The same section says a deed of trust may be foreclosed by advertisement and sale under the chapter or, at the option of the beneficiary, by foreclosure as provided by law for mortgages on real property. The first route is the nonjudicial process on this page. The second is a court case, the statute gives that choice to the beneficiary, and this page does not cover it.",
+          "Section 45-1502(5) limits what can be placed under a trust deed: property inside an incorporated city or village at the time of the transfer, property of not more than 80 acres that is not principally used for agricultural production, or property of not more than 40 acres regardless of use or location.",
+          "Under Idaho Code 45-1505 the trustee may foreclose by advertisement and sale if four conditions are met. The trust deed, any assignments and any appointment of a successor trustee are recorded in the county. There is a default under a provision of the deed that authorizes sale. A notice of default has been recorded and mailed. No court action to recover the debt is pending."
+        ],
+        "claims": [
+          "ft-parties-defined",
+          "ft-power-of-sale-or-judicial-option",
+          "ft-trust-deed-property-limits",
+          "ft-foreclosure-conditions"
+        ]
+      },
+      {
+        "heading": "Step 1: Federal rules require more than 120 days of delinquency before the first notice",
+        "body": [
+          "Idaho Code 45-1505 requires a default but sets no waiting period before the notice of default. The waiting period comes from federal mortgage servicing rules.",
+          "Under 12 CFR 1024.41(f)(1), a servicer \"shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process\" unless the borrower's mortgage loan obligation is more than 120 days delinquent. The rule lists two other cases: a foreclosure based on a violation of a due-on-sale clause, and a servicer joining the foreclosure action of a superior or subordinate lienholder.",
+          "The rule has a limited reach. Under 12 CFR 1024.30(c)(2), these procedures apply only to a mortgage loan secured by a property that is the borrower's principal residence."
+        ],
+        "claims": [
+          "ft-foreclosure-conditions",
+          "ft-federal-120-day-delinquency",
+          "ft-federal-principal-residence-scope"
+        ]
+      },
+      {
+        "heading": "Step 2: The notice of default is recorded with the county recorder and mailed",
+        "body": [
+          "Idaho Code 45-1505(3) requires the trustee or beneficiary to file a notice of default for record in the office of the recorder in each county where the property, or any part of it, sits. The notice identifies the deed of trust, states that a breach has occurred, sets out the nature of the breach, and states the election to sell the property.",
+          "A copy must be mailed by registered or certified mail, return receipt requested, to any person who has recorded a request for notice. The trustee must also mail the notice to any individual who owns an interest in the property. Service by mail is effective at the time of mailing.",
+          "The mailed notice must be attached to a separate sheet in 12-point boldface type. It tells the owner to be cautious about anyone who says they can save the home, and it says: \"Do not delay seeking advice, because the longer you wait, the fewer options you may have.\" The sheet refers to five days to undo certain contracts. The operative section, Idaho Code 45-1603, sets that period at five business days.",
+          "For an Ada County property the recorder is the Ada County Recorder's Office, because Idaho Code 55-808 requires recording in the county where the property is situated. The office says it maintains all documents related to property ownership in the county and that recorded documents are open for public inspection. Its online search tool searches by instrument number, party information or parcel number when available. The recording date of the notice of default matters, because the cure period in Step 5 is counted from it."
+        ],
+        "claims": [
+          "ft-notice-of-default-recorded-and-mailed",
+          "ft-notice-of-default-warning-sheet",
+          "vb-cfpa-five-business-day-rescission",
+          "cl-record-in-county-where-situated",
+          "ada-recorder-maintains-ownership-documents",
+          "ft-ada-recorder-online-search"
+        ]
+      },
+      {
+        "heading": "Step 3: A loan modification request has a 30-day deadline and a 45-day answer",
+        "body": [
+          "Idaho Code 45-1506C adds a step for some homes. It applies to a noncommercial loan made by a state or federally regulated beneficiary and secured by a deed of trust on the borrower's primary residential property. The statute decides primary residence by one test: whether the property has been granted the homeowner's property tax exemption for the year in which the notice of default is recorded. If it has not, the section does not apply.",
+          "Where the section applies, a supplemental notice in at least 14-point type must accompany the notice of default provided to the grantor. The statutory form states the amount needed to bring the loan current as of a stated date. It comes with a loan modification request form. The form must be returned by certified mail, return receipt requested, and the beneficiary must receive it on or before a date that is 30 days after the date on the notice. The notice itself says: \"You may or may not qualify for a loan modification or other alternative to foreclosure.\"",
+          "If the grantor returns the form by that date, the beneficiary or its agent must evaluate the request. It must answer in writing as soon as reasonably practicable and not later than 45 days after receiving the form, stating whether it approves the request, denies it, or requires additional information. Section 45-1506C(3) then says: \"A trustee's sale for the property subject to the loan may not occur until after the beneficiary or the beneficiary's agent timely responds to the grantor.\" The bar ends with the response, whatever the response is.",
+          "The same statutory notice carries a warning: \"Never pay someone to help you obtain a loan modification.\" It says help is available for free from housing counselors certified through the U.S. Department of Housing and Urban Development (HUD), and that the HUD website lists certified counselors in Idaho."
+        ],
+        "claims": [
+          "ft-loan-mod-notice-primary-residence",
+          "ft-loan-mod-form-thirty-days",
+          "ft-loan-mod-45-day-response",
+          "ft-loan-mod-notice-hud-counselors"
+        ]
+      },
+      {
+        "heading": "Step 4: The notice of sale goes out at least 120 days before the sale",
+        "body": [
+          "Idaho Code 45-1506(2) requires notice of the sale to be given after the notice of default is recorded and at least 120 days before the day fixed for the sale. It goes by registered or certified mail, return receipt requested, to the last known address of the grantor, anyone who recorded a request for notice, any successor in interest of the grantor whose interest is of record or actually known, and anyone holding a later lien or interest that is of record or actually known. Under 45-1506(14), service by mail is effective at the time of mailing.",
+          "The notice must state the names of the grantor, trustee and beneficiary, a description of the property, where the trust deed is recorded, the default, the sum owing, and the date, time and place of the sale. The sale must be held after 9:00 a.m. and before 4:00 p.m., at a designated place in a county where the property is located.",
+          "Four more requirements run on shorter clocks, all counted back from the sale date:",
+          "Service and posting. At least three good-faith attempts must be made to serve the notice on an adult occupant, on different days over a period of not less than seven days, each at least 30 days before the sale. At each attempt a copy is posted in a conspicuous place on the property unless an earlier copy is still posted.",
+          "Publication. The notice is published in a newspaper of general circulation in each county where the property sits, once a week for four successive weeks, with the last publication at least 30 days before the sale.",
+          "Recorded affidavits. The affidavit of mailing, the affidavit of posting when required, and the publication must be recorded in the county at least 20 days before the sale.",
+          "Loan modification affidavit. Where 45-1506C applies, the trustee must also record an affidavit of compliance with that section at least 20 days before the sale."
+        ],
+        "claims": [
+          "id-trustee-sale-120-day-notice",
+          "ft-notice-of-sale-recipients",
+          "ft-mail-effective-on-mailing",
+          "ft-notice-of-sale-contents",
+          "id-trustee-sale-service-attempts",
+          "ft-notice-of-sale-posting",
+          "id-trustee-sale-publication",
+          "ft-affidavits-recorded-twenty-days",
+          "ft-loan-mod-affidavit-twenty-days"
+        ]
+      },
+      {
+        "heading": "Step 5: The right to cure lasts 115 days from the recording of the notice of default",
+        "body": [
+          "Idaho Code 45-1506(12) gives a right to cure the default and reinstate the loan. Where the power of sale is to be exercised, the right may be used at any time within 115 days of the recording of the notice of default. The 115 days are counted from the recording of the notice of default.",
+          "The right belongs to the grantor, a successor in interest in the property, a beneficiary under a subordinate deed of trust, and anyone with a subordinate lien or encumbrance of record.",
+          "The amount is set by the statute. It is the entire amount then due, \"other than such portion of the principal as would not then be due had no default occurred\", including costs and expenses actually incurred in enforcing the obligation, a reasonable trustee's fee, and attorney's fees as provided in the promissory note.",
+          "When that amount is paid, the statute says all proceedings \"shall be dismissed or discontinued\" and the obligation and deed of trust are reinstated \"the same as if no acceleration had occurred\".",
+          "Section 45-1506(12) gives no right to cure after the 115 days. Because the notice of sale follows the notice of default and must be given at least 120 days before the sale, the statutory cure period ends before the sale date."
+        ],
+        "claims": [
+          "ft-cure-within-115-days",
+          "ft-notice-of-sale-recipients",
+          "id-trustee-sale-120-day-notice"
+        ]
+      },
+      {
+        "heading": "Step 6: The sale is a public auction, and the date can move",
+        "body": [
+          "Under Idaho Code 45-1506(8) the sale is held on the date and at the time and place stated in the notice of sale. The trustee sells the property at auction to the highest bidder. Any person may bid, including the beneficiary.",
+          "The trustee may postpone the sale at the request of the beneficiary. It does so by announcing the new date and hour publicly at the time and place originally fixed for the sale. No sale may be postponed to a date more than 30 days after the date from which it is postponed. A postponed sale may be postponed again in the same way and within the same limit.",
+          "For the loans covered by 45-1506C, the trustee must mail notice of a previously postponed sale at least 14 days before conducting it, to the same persons and by the same means as the original notice of sale. An affidavit of that mailing must be recorded before the sale.",
+          "A bankruptcy stay or a court order can also move the date. Idaho Code 45-1506A says that when a sale cannot be held because of the automatic stay of the U.S. Bankruptcy Code or a court stay order, it may be rescheduled after the stay ends. Notice of the rescheduled sale must be mailed at least 30 days before it and published once a week for three successive weeks, with the last publication at least 10 days before the sale.",
+          "Under Idaho Code 45-1506B, when a stay is lifted before the sale date, a person with the right to cure may ask the trustee in writing, before the time set for the original sale, to postpone it so that at least 115 days pass between the recording of the notice of default and the rescheduled sale, not counting the time the stay was in effect."
+        ],
+        "claims": [
+          "ft-sale-auction-highest-bidder",
+          "ft-postponement-thirty-days",
+          "ft-postponed-sale-fourteen-day-mailing",
+          "ft-rescheduled-sale-after-stay",
+          "ft-stay-lifted-postponement-request"
+        ]
+      },
+      {
+        "heading": "Step 7: The trustee's deed, possession on the tenth day, and no right to redeem",
+        "body": [
+          "The purchaser must pay the price bid forthwith, and on receipt of payment the trustee executes and delivers the trustee's deed. Under Idaho Code 45-1506(10) the deed conveys the interest the grantor had, or had the power to convey, when the trust deed was signed, together with any interest acquired afterwards.",
+          "Under 45-1506(11) the purchaser is entitled to possession of the property on the tenth day following the sale. Anyone who remains in possession after that, under any interest except one prior to the deed of trust, is deemed a tenant at sufferance.",
+          "Idaho Code 45-1507 sets the order in which the trustee applies the sale proceeds: first to the expenses of the sale, including a reasonable trustee's charge and attorney's fee; then to the obligation secured by the trust deed; then to holders of recorded liens that come after the trust deed; and then \"the surplus, if any,\" to the grantor or the grantor's successor in interest.",
+          "Idaho Code 45-1508 makes the sale final. It terminates all interest in the property of every person who was given notice under 45-1506, and it says those persons \"shall have no right to redeem the property from the purchaser at the trustee's sale\". This is the rule for a trustee's sale under a deed of trust. Property tax delinquency runs on a different clock with a different redemption rule, set out in [our guide to foreclosure and property tax delinquency](/guides/idaho-foreclosure-vs-property-tax-delinquency)."
+        ],
+        "claims": [
+          "ft-trustees-deed-on-payment",
+          "ft-possession-tenth-day",
+          "ft-proceeds-order",
+          "ft-sale-final-no-redemption",
+          "id-tax-deed-redemption-fourteen-months"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We are a direct buyer of property in Ada County. We cannot stop a foreclosure, negotiate with your lender, give legal or tax advice, or promise that a sale will close before a trustee's sale date. What we can say about ourselves is short. We buy with our own capital. Purchases close through a local title company. You choose the closing date. We buy in any condition. A three-week close is realistic. [How a sale to us works](/how-it-works) is set out step by step, and [selling a house before foreclosure](/sell-house-before-foreclosure-idaho) covers that situation.",
+          "A sale is not always the right route. If curing the default or a loan modification would let you keep the house, an Idaho attorney or a HUD-certified housing counselor is the place to start, and the statutory notice says that counseling is free. If there is enough time before the sale date and the house can be listed, the open market may bring a higher price than a direct buyer pays. Idaho Code 45-1603 gives a person whose property is in foreclosure the right to cancel any contract about that property made during the foreclosure period within five business days. A contract with us is no exception."
+        ],
+        "claims": [
+          "ft-loan-mod-notice-hud-counselors",
+          "vb-cfpa-five-business-day-rescission"
+        ]
+      }
+    ]
+  }
+}

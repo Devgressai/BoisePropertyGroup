@@ -14,6 +14,7 @@ const ITEMS: { q: string; href: string }[] = [
   { q: "I inherited a house I don't want", href: "/sell-inherited-house-idaho" },
   { q: "The estate is in probate", href: "/guides/selling-a-house-in-probate-in-idaho" },
   { q: "I'm behind on the payments", href: "/sell-house-before-foreclosure-idaho" },
+  { q: "I'm trying to avoid foreclosure", href: "/guides/how-to-avoid-foreclosure-in-idaho" },
   { q: "We're divorcing and need it sold", href: "/sell-house-divorce-idaho" },
   { q: "It needs more work than I can take on", href: "/sell-house-as-is-idaho" },
   { q: "There are tenants in it", href: "/sell-rental-property-idaho" },

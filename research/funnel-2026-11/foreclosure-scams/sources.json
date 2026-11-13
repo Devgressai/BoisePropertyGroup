@@ -1,0 +1,495 @@
+{
+  "sources": [
+    {
+      "id": "ecfr-12-cfr-1015-1",
+      "title": "12 CFR § 1015.1 — Scope of regulations in this part (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.1",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.1",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-scope-regulation-o"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-2",
+      "title": "12 CFR § 1015.2 — Definitions (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.2",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.2",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-mars-definition",
+        "fs-rego-provider-excludes-lender-servicer"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-3",
+      "title": "12 CFR § 1015.3 — Prohibited representations (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.3",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.3",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-prohibited-representations"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-4",
+      "title": "12 CFR § 1015.4 — Disclosures required in commercial communications (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.4",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.4",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-required-advertising-disclosures"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-5",
+      "title": "12 CFR § 1015.5 — Prohibition on collection of advance payments and related disclosures (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.5",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.5",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-advance-fee-ban",
+        "fs-rego-right-to-reject-offer-disclosure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1015-7",
+      "title": "12 CFR § 1015.7 — Exemptions (Regulation O, Mortgage Assistance Relief Services)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.7",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1015&section=1015.7",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of Regulation O (12 CFR part 1015), retrieved through the eCFR renderer API and cached. The part heading gives its source as 76 FR 78133, Dec. 16, 2011. Future-dated amendments were not separately checked in the Federal Register, so these claims are not marked statutory.",
+      "stalenessRisk": "LOW — federal regulation; re-check eCFR for amendments before relying on it.",
+      "claimsSupported": [
+        "fs-rego-attorney-exemption"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-mortgage-loan-modification-scams",
+      "title": "What are mortgage loan modification scams? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-mortgage-loan-modification-scams-en-272/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "fees",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-09-11",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. Page is marked 'last reviewed: SEP 11, 2024'. Guidance, not Idaho law. Carries the CFPB complaint phone number.",
+      "stalenessRisk": "MEDIUM — contains a phone number and a complaint route; re-check before each content refresh.",
+      "claimsSupported": [
+        "fs-cfpb-scam-warning-signs",
+        "fs-cfpb-report-and-get-help",
+        "fs-cfpb-fees-only-after-written-offer"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-find-a-housing-counselor",
+      "title": "Find a housing counselor — CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/find-a-housing-counselor/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency page introducing the ZIP-code search of HUD's list of approved counseling agencies; raw HTML cached. The search tool itself is script-driven and was not used. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "fs-cfpb-housing-counselors-hud-approved"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hud-housing-counseling",
+      "title": "Housing Counseling — HUD.gov",
+      "publisher": "U.S. Department of Housing and Urban Development",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/stat/sfh/housing-counseling",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "HUD program page, raw HTML cached. Most of the page is script-rendered; only the introductory paragraph with the referral phone number is present in the cached HTML. HUD's definition of 'approved' agency was not captured.",
+      "stalenessRisk": "MEDIUM — carries a phone number, and hud.gov URLs have been restructured; re-check the URL and the number.",
+      "claimsSupported": [
+        "fs-hud-housing-counseling-phone"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idag-consumer-protection",
+      "title": "Consumer Protection — Idaho Office of Attorney General",
+      "publisher": "Idaho Office of the Attorney General",
+      "organizationType": "state-government",
+      "url": "https://www.ag.idaho.gov/consumer-protection/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official state agency page, raw HTML cached. States what the Consumer Protection Division enforces, links the Consumer Complaint Form, and lists phone numbers. The street address on the page is labelled a temporary location and must not be printed.",
+      "stalenessRisk": "MEDIUM — contact details; the office location is flagged temporary. Re-check numbers before each refresh.",
+      "claimsSupported": [
+        "fs-idag-consumer-protection-complaints"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idag-report-scams-idaho",
+      "title": "Report Scams Idaho — Idaho Office of Attorney General",
+      "publisher": "Idaho Office of the Attorney General",
+      "organizationType": "state-government",
+      "url": "https://www.ag.idaho.gov/consumer-protection/report-scams-idaho/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official state agency page, raw HTML cached. General scam-reporting page: describes the complaint form, the option to inform the office without requesting action, and informal dispute resolution. Does not mention foreclosure.",
+      "stalenessRisk": "MEDIUM — the page carries rotating alerts; the quoted paragraph may move.",
+      "claimsSupported": [
+        "fs-idag-informal-dispute-resolution"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idag-consumer-protection-manual",
+      "title": "Idaho Consumer Protection Manual — Idaho Office of Attorney General",
+      "publisher": "Idaho Office of the Attorney General",
+      "organizationType": "state-government",
+      "url": "https://ag.idaho.gov/content/uploads/2018/04/ConsumerProtectionManual.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021-03",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Attorney General publication (PDF), linked from the Consumer Manuals page; cached at data/idaho/raw/cache/9d31f71a8a669d9a.pdf and extracted with pdftotext to data/idaho/raw/extracted/9d31f71a8a669d9a.txt. Section 'The Consumer Foreclosure Protection Act' at printed page 47. Footer reads 'Rev. 03/21'. Agency summary, not statute: it says 'five-day right to rescind' where 45-1603 says five business days.",
+      "stalenessRisk": "MEDIUM — a 2021 revision; predates the 2023 amendment of 45-1602. Use for the Attorney General's description of the problem, never for the wording of the law.",
+      "claimsSupported": [
+        "fs-idag-manual-foreclosure-rescue"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idfin-mortgage-licensing",
+      "title": "Mortgage, Mortgage Loan Servicing, and MLO Information — Idaho Department of Finance",
+      "publisher": "Idaho Department of Finance",
+      "organizationType": "state-government",
+      "url": "https://www.finance.idaho.gov/consumer-finance-bureau/mortgage/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-01-20",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official state agency page, raw HTML cached; footer 'last updated: January 20, 2026'. States the Department's licensing role under the Idaho Residential Mortgage Practices Act, including mortgage loan modification companies.",
+      "stalenessRisk": "LOW",
+      "claimsSupported": [
+        "fs-idfin-licenses-loan-modification-companies"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idfin-complaint-guidance",
+      "title": "Complaint Guidance — Idaho Department of Finance",
+      "publisher": "Idaho Department of Finance",
+      "organizationType": "state-government",
+      "url": "https://www.finance.idaho.gov/complaint-guidance/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official state agency page, raw HTML cached. Describes what complaints the Department takes, what to expect, and tells consumers to use the licensee lookup page. The lookup tool itself was not queried.",
+      "stalenessRisk": "MEDIUM — process page; re-check wording before each refresh.",
+      "claimsSupported": [
+        "fs-idfin-license-lookup-and-complaints"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-26-31-201",
+      "title": "Idaho Code § 26-31-201 — Idaho Residential Mortgage Practices Act — definitions (mortgage brokers and lenders)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-201/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fs-irmpa-loan-modification-is-brokering"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-26-31-202",
+      "title": "Idaho Code § 26-31-202 — Idaho Residential Mortgage Practices Act — exemptions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-202/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fs-irmpa-attorney-exemption"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-26-31-203",
+      "title": "Idaho Code § 26-31-203 — Idaho Residential Mortgage Practices Act — unlawful acts",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-203/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2009",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fs-irmpa-unlicensed-activity-felony"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-26-31-211",
+      "title": "Idaho Code § 26-31-211 — Idaho Residential Mortgage Practices Act — prohibited practices of mortgage brokers and mortgage lenders",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-211/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fs-irmpa-loan-mod-fee-written-agreement"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

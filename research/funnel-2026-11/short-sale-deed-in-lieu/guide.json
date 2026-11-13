@@ -1,0 +1,135 @@
+{
+  "guide": {
+    "slug": "short-sale-vs-deed-in-lieu-in-idaho",
+    "title": "Short Sale vs Deed in Lieu in Idaho",
+    "h1": "Short sale vs deed in lieu of foreclosure in Idaho",
+    "description": "How a short sale and a deed in lieu differ, why both need the lender's consent, what Idaho Code says on deficiencies, and what the IRS says on canceled debt.",
+    "cluster": "distress",
+    "published": "2026-11-13",
+    "updated": "2026-11-13"
+  },
+  "content": {
+    "intro": [
+      "In a short sale you sell the house to a buyer for less than you owe, and the lender agrees to accept the proceeds. In a deed in lieu of foreclosure you hand ownership of the house to the lender to avoid the foreclosure process. Both need the lender's agreement, and neither one automatically releases you from the unpaid balance or from federal income tax on canceled debt, so the written terms matter more than the label.",
+      "This page describes what the Consumer Financial Protection Bureau, HUD, Idaho Code and the IRS say, quoted from the official sources and read on November 13, 2026. It is not legal or tax advice and it is not applied to your situation. Before you sign a short sale agreement or a deed in lieu, have an Idaho attorney and a tax professional read the documents."
+    ],
+    "sections": [
+      {
+        "heading": "What is a short sale?",
+        "body": [
+          "The Consumer Financial Protection Bureau (CFPB) defines a short sale as a type of loss mitigation: a sale of your home for less than what you owe on your mortgage. The CFPB calls it an alternative to foreclosure, and notes that because it is a sale, you will have to leave the home.",
+          "The sale goes to an ordinary buyer. What makes it a short sale is the lender's part. In the CFPB's words, if your lender or servicer agrees to a short sale, you may be able to sell the home to pay off the mortgage even if the price or proceeds turn out to be less than the balance remaining.",
+          "For FHA-insured loans, HUD uses the name Pre-Foreclosure Sale and says it is also known as a short sale. HUD describes it as a home disposition option that may be offered when a borrower cannot keep paying even with a home retention option. If the current market value is not enough to pay the loan in full, the servicer may be able to accept less than the full amount owed by approving eligible borrowers. That description covers FHA-insured loans only."
+        ],
+        "claims": [
+          "ss-cfpb-short-sale-definition",
+          "ss-cfpb-short-sale-needs-lender-agreement",
+          "ss-hud-fha-pre-foreclosure-sale"
+        ]
+      },
+      {
+        "heading": "What is a deed in lieu of foreclosure?",
+        "body": [
+          "The CFPB defines a deed-in-lieu of foreclosure as an arrangement where you voluntarily turn over ownership of your home to the lender to avoid the foreclosure process. There is no outside buyer. The lender ends up with the property.",
+          "For FHA-insured loans, HUD places the deed in lieu after the short sale attempt. HUD says a borrower who is unable to complete a Pre-Foreclosure Sale by the end of its marketing period may be eligible to voluntarily offer to deed the property to HUD in exchange for a release from all obligations under the mortgage. That wording describes the FHA option. It is not a rule for other loan types.",
+          "The CFPB also suggests asking the lender or servicer about help with relocation expenses through private programs sometimes called cash-for-keys. It is a question to ask. The CFPB does not say such help is always available."
+        ],
+        "claims": [
+          "ss-cfpb-deed-in-lieu-definition",
+          "ss-hud-fha-deed-in-lieu",
+          "ss-cfpb-relocation-cash-for-keys"
+        ]
+      },
+      {
+        "heading": "Both options depend on the lender saying yes",
+        "body": [
+          "Neither option is something an owner can complete alone. The CFPB's short sale description starts with the lender or servicer agreeing. A deed in lieu is an arrangement with the lender, and the lender is the party that takes the deed.",
+          "A buyer cannot supply that agreement either. In a short sale the buyer makes an offer, and the lender decides whether to accept less than it is owed. That applies to any buyer, including us.",
+          "The foreclosure clock is a separate matter. Under Idaho Code 45-1506, notice of a trustee's sale must be given at least 120 days before the day fixed for the sale. That is one statutory minimum inside a longer process. This page does not cover how a pending short sale or deed in lieu request affects a scheduled sale. Ask the servicer and your attorney how the two timelines interact for your loan. Our page on [selling a house before foreclosure in Idaho](/sell-house-before-foreclosure-idaho) covers the ordinary sale route."
+        ],
+        "claims": [
+          "ss-cfpb-short-sale-needs-lender-agreement",
+          "ss-cfpb-deed-in-lieu-definition",
+          "id-trustee-sale-120-day-notice"
+        ]
+      },
+      {
+        "heading": "What Idaho Code says about a deficiency after a foreclosure sale",
+        "body": [
+          "A deficiency is the part of the debt a foreclosure sale does not cover. Idaho has two statutes on it, one for trust deeds and one for mortgages. Both are written for the situation after a foreclosure sale. They show what a short sale or deed in lieu is being compared against.",
+          "For a deed of trust, Idaho Code 45-1512 says a money judgment may be sought for the balance due at any time within 3 months after a sale under the deed of trust. The court must first find the fair market value of the property at the time of sale. The court may not render judgment for more than the amount by which the indebtedness exceeds that fair market value, with interest from the date of sale. In no event may the judgment exceed the difference between the sale price and the entire indebtedness.",
+          "For a mortgage foreclosed in court, Idaho Code 6-101 says that if the sheriff's return shows the sale proceeds are insufficient and a balance remains due, judgment can be docketed for that balance against the defendants personally liable for the debt, and it becomes a lien on the judgment debtor's real estate. Idaho Code 6-108 then limits the amount. No Idaho court may enter a deficiency judgment in a mortgage foreclosure for more than the difference between the mortgage indebtedness, plus costs of foreclosure and sale, and the reasonable value of the property as the court determines it on evidence.",
+          "Which statute applies depends on the document that secures your loan and on how the lender proceeds. That is a question for an Idaho attorney. For how a judgment lien works once it exists, see [liens and judgments when you sell an Idaho house](/guides/liens-and-judgments-when-selling-in-idaho)."
+        ],
+        "claims": [
+          "ss-trustee-sale-deficiency-three-months",
+          "ss-trustee-sale-deficiency-fair-market-value-cap",
+          "ss-mortgage-foreclosure-deficiency-docketed",
+          "ss-mortgage-deficiency-reasonable-value-cap"
+        ]
+      },
+      {
+        "heading": "A short sale or deed in lieu does not release the balance by itself",
+        "body": [
+          "Idaho Code 45-1512 and 6-108 speak to judgments after a foreclosure sale. Neither section mentions a short sale or a deed in lieu. For those two options, what happens to the unpaid balance comes from the written agreement with the lender.",
+          "The CFPB's advice is direct. If you live in a state where you are responsible for a deficiency, ask the lender to waive the deficiency before you go through with a short sale. The CFPB says that in some states the lender could sue after a short sale to collect it. If the lender waives the deficiency, get the waiver in writing and keep it for your records.",
+          "The CFPB gives matching advice for a deed in lieu. Make sure it covers the entire amount you still owe on the mortgage loan. You can ask the lender to waive any deficiency, and if the lender agrees, ask for the waiver in writing.",
+          "The CFPB does not say how Idaho treats a balance left after a short sale, and the Idaho sections read for this page do not address it. Have an Idaho attorney read the lender's approval letter or the deed in lieu agreement before you sign, and ask specifically whether the remaining balance is released."
+        ],
+        "claims": [
+          "ss-cfpb-short-sale-deficiency-waiver",
+          "ss-cfpb-deed-in-lieu-cover-full-balance",
+          "ss-trustee-sale-deficiency-three-months",
+          "ss-mortgage-deficiency-reasonable-value-cap"
+        ]
+      },
+      {
+        "heading": "How the IRS treats canceled mortgage debt in 2026",
+        "body": [
+          "A waived balance can become a federal tax question. IRS Topic No. 431 says that, in general, if a debt is canceled, forgiven or discharged for less than the amount owed, the canceled amount is taxable and must be reported on the return for the year the cancellation occurred. The IRS lists foreclosure and voluntary transfer of the property to the lender among the ways cancellation can occur for an owner of property securing a debt. The CFPB makes the same point about a deed in lieu: you may still incur a tax liability.",
+          "The IRS lists an exclusion for canceled debt on a main home, called qualified principal residence indebtedness. As of the IRS pages read on November 13, 2026, that exclusion is date-limited. Topic No. 431, last reviewed by the IRS on September 24, 2026, lists it as covering debt discharged before January 1, 2026, or discharged subject to an arrangement entered into and evidenced in writing before January 1, 2026. IRS Publication 4681 for 2025 states that this debt cannot be excluded from income for discharges completed or discharge agreements entered into after December 31, 2025. The IRS instructions for Forms 1099-A and 1099-C say the exclusion expires on December 31, 2025.",
+          "Other exclusions remain on the IRS list. Topic No. 431 includes debt canceled in a Title 11 bankruptcy case and debt canceled to the extent the taxpayer was insolvent. Publication 4681 explains insolvency as the extent to which total liabilities were more than the fair market value of all assets immediately before the cancellation. An amount that qualifies for exclusion is reported on Form 982, attached to the return.",
+          "Topic No. 431 adds a caution for cases where the lender takes the property. The owner is treated as having sold the property to the creditor, and the tax treatment depends on whether the owner was personally liable for the debt. For recourse debt, ordinary income from the cancellation is the amount by which the discharged debt exceeds the property's fair market value. For nonrecourse debt, the IRS says there is no ordinary income from debt cancellation.",
+          "On paperwork, the IRS tells covered creditors to file Form 1099-C for a canceled debt of $600 or more once an identifiable event occurs, and it names short sales as an example of such an event. The $600 figure is the creditor's filing threshold. Topic No. 431 says your responsibility to report the correct taxable amount remains regardless of the accuracy of the form you receive.",
+          "Two limits on this section. The 2026 edition of Publication 4681 had not been published when this page was written, and Congress can change the law after an IRS page is posted. Publication 4681 itself points readers to the IRS website for legislation enacted after publication. This page also covers federal tax only. Take the lender's written terms to a tax professional before you agree to them."
+        ],
+        "claims": [
+          "ss-irs-canceled-debt-generally-taxable",
+          "ss-cfpb-deed-in-lieu-cover-full-balance",
+          "ss-irs-principal-residence-exclusion-ended-2025",
+          "ss-irs-bankruptcy-insolvency-exclusions",
+          "ss-irs-property-taken-treated-as-sale",
+          "ss-irs-1099c-600-short-sale-event"
+        ]
+      },
+      {
+        "heading": "Idaho's seller disclosure form and these two options",
+        "body": [
+          "Idaho's property condition disclosure requirement has a list of exempt transfers in Idaho Code 55-2505. One of them is a transfer to a mortgagee by a mortgagor by deed in lieu of foreclosure or in satisfaction of the mortgage debt. Another is a transfer to a beneficiary of a deed of trust by a trustor in default.",
+          "Those exemptions describe transfers to the lender. A short sale is a sale by the owner to a buyer, and the foreclosure exemptions quoted here do not name it. Our guide to [Idaho seller disclosure when selling as-is](/guides/idaho-seller-disclosure-when-selling-as-is) covers the form in an ordinary sale."
+        ],
+        "claims": ["id-disclosure-exempt-foreclosure"]
+      },
+      {
+        "heading": "Who to talk to before you sign",
+        "body": [
+          "Start with the servicer, because only the lender can approve either option. Then get independent help. The CFPB describes a housing counselor through a HUD-approved agency as specially trained and certified by the government to help you assess your financial situation, evaluate your options when you are having trouble paying the mortgage, and make a plan. The CFPB says HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge and can help you talk to your servicer and understand the options it has offered.",
+          "An Idaho attorney should read the deficiency terms. A tax professional should read the canceled debt terms.",
+          "Idaho also gives an owner in foreclosure a way out of a contract signed in a hurry. Under Idaho Code 45-1603, an owner whose property is in foreclosure may cancel a contract relating to that property, entered into during the foreclosure period, within five business days by written notice. That right applies to a contract with any buyer, including one with us."
+        ],
+        "claims": [
+          "ss-cfpb-hud-approved-housing-counselor",
+          "vb-cfpa-five-business-day-rescission"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We are a direct buyer. We buy with our own capital, in any condition, the purchase closes through a local title company, and the seller chooses the closing date. If your house is worth more than you owe, an ordinary sale pays off the loan at closing and you need neither a short sale nor a deed in lieu. In that case a three-week close with us is realistic, and so is listing the house, which may bring a higher price if you have the time. Our page on a [cash offer vs listing in Idaho](/cash-offer-vs-listing-idaho) compares the two.",
+          "If you owe more than the house will sell for, we are a poor fit for most of what you need. We cannot stop a foreclosure, negotiate with your lender, approve a short sale, or give legal or tax advice. We can make an offer that your lender is free to accept or refuse, and the timing then belongs to the lender. A deed in lieu involves no buyer at all. In either case, a HUD-approved housing counselor, an Idaho attorney and a tax professional will serve you better than any buyer can."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

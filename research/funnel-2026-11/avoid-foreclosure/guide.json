@@ -1,0 +1,162 @@
+{
+  "guide": {
+    "slug": "how-to-avoid-foreclosure-in-idaho",
+    "title": "How to Avoid Foreclosure in Idaho",
+    "h1": "How to avoid foreclosure in Idaho: the options, in order",
+    "description": "The options an Idaho homeowner has before a trustee's sale, in the order they open: servicer plans, modification, the 115-day cure right, sale, counseling.",
+    "cluster": "distress",
+    "published": "2026-11-13",
+    "updated": "2026-11-13"
+  },
+  "content": {
+    "intro": [
+      "An Idaho homeowner who is behind on the mortgage has a set of options that open in a rough order, and most of them run through the mortgage servicer: a repayment plan, forbearance, a loan modification, or paying the past-due amount to reinstate the loan. Idaho Code 45-1506(12) allows the default to be cured at any time within 115 days of the recording of the notice of default, and a federal rule generally bars a servicer from making the first foreclosure notice or filing on a principal residence until the loan is more than 120 days delinquent. Refinancing, a sale, a short sale, a deed in lieu and bankruptcy are the other routes, and a HUD-approved housing counselor will go through all of them free of charge.",
+      "This page describes what Idaho Code, federal servicing rules and federal agencies say, quoted from the official sources. It is not legal or tax advice and it is not applied to your loan. We are a property buyer. We cannot stop a foreclosure, negotiate with your lender or promise an outcome. An Idaho attorney and a HUD-approved housing counselor are the people to ask about your own situation."
+    ],
+    "sections": [
+      {
+        "heading": "Call the servicer first, before a payment is missed if you can",
+        "body": [
+          "The Consumer Financial Protection Bureau's advice is direct: \"If you can't pay your mortgage or are worried about missing a mortgage payment, call your mortgage servicer right away.\" It adds that you should also contact a HUD-approved housing counseling agency.",
+          "The CFPB says the servicer's number is on the monthly statement, in the coupon book or on the servicer's website. It says to be ready to explain why you cannot pay, whether the problem is temporary or permanent, and the details of your income, expenses and other assets, and to fill out a mortgage assistance application if the servicer gives you one.",
+          "The servicer has duties of its own. Under 12 CFR 1024.39, a servicer must make good faith efforts to establish live contact with a delinquent borrower no later than the 36th day of delinquency, and must then tell the borrower about loss mitigation options, if appropriate. No later than the 45th day it must send a written notice that encourages the borrower to make contact, gives the servicer's telephone number and mailing address, and gives the website and toll-free number for finding a housing counselor.",
+          "These federal procedures have limits. Under 12 CFR 1024.30 they apply only to a loan secured by the borrower's principal residence, and small servicers, reverse mortgages and certain other lenders are largely outside them."
+        ],
+        "claims": [
+          "af-cfpb-call-servicer-right-away",
+          "af-cfpb-what-to-tell-servicer",
+          "af-regx-live-contact-36-days",
+          "af-regx-written-notice-45-days",
+          "af-regx-scope"
+        ]
+      },
+      {
+        "heading": "What the federal 120-day rule and a complete application do",
+        "body": [
+          "12 CFR 1024.41(f)(1) says a servicer may not make the first notice or filing required for a judicial or non-judicial foreclosure unless the loan is more than 120 days delinquent. The rule lists two exceptions: a foreclosure based on a due-on-sale clause, and a servicer joining another lienholder's foreclosure. Small servicers are subject to this 120-day rule as well.",
+          "The same section sets a timetable for a loss mitigation application. If the servicer receives an application 45 days or more before a foreclosure sale, it must tell the borrower in writing within 5 days, not counting weekends and legal public holidays, whether the application is complete and what is still missing. If it receives a complete application more than 37 days before a foreclosure sale, it must evaluate the borrower for all available options within 30 days and say in writing which, if any, it will offer.",
+          "A complete application also restricts the foreclosure itself. If it is submitted before the first foreclosure notice or filing, the servicer may not make that filing unless the borrower has been found ineligible and any appeal is finished or unavailable, the borrower rejects every option offered, or the borrower fails to perform under an agreement. If it is submitted after the foreclosure has started but more than 37 days before a foreclosure sale, the servicer may not conduct the sale, subject to the same three exceptions.",
+          "Where a complete application was received 90 days or more before a foreclosure sale, the borrower may appeal a denial of a loan modification. The borrower has 14 days to appeal, different personnel must review it, and the servicer must answer within 30 days. That answer cannot be appealed again.",
+          "Two cautions belong with all of this. The rule states that nothing in it \"imposes a duty on a servicer to provide any borrower with any specific loss mitigation option.\" Every protection above also depends on the application being complete and on how many days remain before a sale."
+        ],
+        "claims": [
+          "af-regx-120-day-prefiling",
+          "af-regx-small-servicer",
+          "af-regx-acknowledgment-5-days",
+          "af-regx-evaluation-30-days",
+          "af-regx-application-before-referral",
+          "af-regx-no-sale-while-pending",
+          "af-regx-appeal-14-days",
+          "af-regx-no-duty-specific-option"
+        ]
+      },
+      {
+        "heading": "Repayment plans and forbearance cover a temporary gap",
+        "body": [
+          "The CFPB defines a repayment plan as \"an agreement between you and your lender to make up missed mortgage loan payments by adding part of the past-due amount to your regular payments over a period of time.\" The borrower pays more each month until the missed amount is made up. The CFPB cautions that the lender or servicer may consider the loan delinquent until every missed payment is repaid, and may still report the delinquency to the credit reporting agencies.",
+          "Forbearance is described by the CFPB as an arrangement in which the servicer or lender lets you temporarily pause payments or make smaller ones. In the CFPB's words, forbearance \"does not erase or decrease the amount you owe on your mortgage. You have to repay any missed or reduced payments.\" A repayment plan might be one way to do that once the forbearance period ends.",
+          "The CFPB says forbearance options depend on many factors and tells borrowers to keep asking the servicer questions until they understand three things: the amount to be paid and for how long payments are paused or reduced, how interest accrues during that time, and when and how the paused or reduced amounts are paid back.",
+          "Under 12 CFR 1024.41(c)(2)(iii), a servicer may offer a short-term forbearance program or a short-term repayment plan even on an incomplete application. If it does, it must put the specific payment terms and duration in writing, and it may not start or complete a foreclosure while the borrower is performing under that program or plan."
+        ],
+        "claims": [
+          "af-cfpb-repayment-plan-definition",
+          "af-cfpb-repayment-plan-still-delinquent",
+          "af-cfpb-forbearance-definition",
+          "af-cfpb-forbearance-what-to-ask",
+          "af-regx-short-term-plan-on-incomplete-application"
+        ]
+      },
+      {
+        "heading": "A loan modification changes the loan, and Idaho requires a notice about it",
+        "body": [
+          "The CFPB defines a loan modification as \"a change in your loan terms.\" It says a modification may involve extending the number of years to repay, reducing the interest rate, or forbearing or reducing the principal balance. It also warns that a borrower who receives a modification and still cannot make the payments may lose the home.",
+          "Idaho adds a step of its own. Under Idaho Code 45-1506C, when the loan was made by a state or federally regulated beneficiary and is a noncommercial loan secured by a deed of trust on the borrower's primary residence, a supplemental notice must accompany the notice of default. The statute has the beneficiary check the county assessor's tax rolls: a property granted the homeowner's property tax exemption for the year the notice of default is recorded is deemed the primary residence. If no homeowner's exemption was granted for that year, the section does not apply.",
+          "The notice comes with a modification request form. The notice's own wording says the form must be returned by certified mail, return receipt requested, and that the beneficiary must receive it on or before a date that is thirty days after the date of the notice. The date that governs is the one printed on the notice itself.",
+          "If the form comes back by that date, the beneficiary must evaluate the request and tell the borrower in writing, not later than 45 days after receiving the form, whether it approves the request, denies it or needs more information. The statute says a trustee's sale \"may not occur until after the beneficiary or the beneficiary's agent timely responds to the grantor.\"",
+          "A borrower may also ask to meet. If the request is timely, the beneficiary or its agent must meet in person or speak by telephone before it responds, and whoever meets must have, or be able to obtain, authority to modify the loan. The statute treats the beneficiary as having complied if the borrower does not schedule the meeting within seven business days after the beneficiary attempts contact, or does not attend.",
+          "The notice is plain about the limits. It says: \"You may or may not qualify for a loan modification or other alternative to foreclosure.\""
+        ],
+        "claims": [
+          "af-cfpb-modification-definition",
+          "af-modnotice-who-gets-it",
+          "af-modnotice-form-thirty-days",
+          "af-modnotice-response-45-days",
+          "af-modnotice-meeting",
+          "af-modnotice-may-not-qualify"
+        ]
+      },
+      {
+        "heading": "Idaho allows 115 days to cure the default and reinstate the loan",
+        "body": [
+          "Idaho Code 45-1506(12) gives the borrower a right to cure. At any time within 115 days of the recording of the notice of default, the grantor, a successor in interest, or a subordinate lienholder may pay the beneficiary \"the entire amount then due under the terms of the deed of trust and the obligation secured thereby,\" other than principal that would not be due had no default occurred.",
+          "The effect is stated in the same subsection. Once the default is cured, all proceedings \"shall be dismissed or discontinued and the obligation and deed of trust shall be reinstated and shall be and remain in force and effect, the same as if no acceleration had occurred.\"",
+          "The amount is more than the missed payments. The statute includes costs and expenses actually incurred in enforcing the obligation, a reasonable trustee's fee, and attorney's fees as the promissory note may provide. The 45-1506C notice tells the borrower how to get the figure: \"The beneficiary can provide you with the exact amount that you owe, but you have to ask.\"",
+          "Idaho also requires notice of the trustee's sale to be given at least 120 days before the sale date. That period and the 115-day cure period start from different events, and neither is the federal 120-day delinquency rule described above. An Idaho attorney can say which dates apply to a particular loan. The broader process is set out in [our guide to foreclosure and property tax delinquency](/guides/idaho-foreclosure-vs-property-tax-delinquency)."
+        ],
+        "claims": [
+          "af-cure-within-115-days",
+          "af-cure-reinstates-loan",
+          "af-cure-amount-includes-costs",
+          "af-modnotice-ask-exact-amount",
+          "id-trustee-sale-120-day-notice"
+        ]
+      },
+      {
+        "heading": "Refinancing or selling pays the loan off",
+        "body": [
+          "Refinancing is the first item on the CFPB's list of options a servicer might make available. This page has no further source on refinancing.",
+          "A sale works through the payoff amount. The CFPB describes the payoff amount as \"how much you will have to pay to satisfy the terms of your mortgage loan and completely pay off your debt.\" It is different from the current balance, because it includes interest through the day of payoff and may include fees that have been charged and not yet paid. For a loan secured by a dwelling, the servicer must provide an accurate payoff statement when asked.",
+          "Timing matters. Under Idaho Code 45-1506(10), the trustee's deed conveys to the purchaser at the trustee's sale the interest the grantor had in the property. An owner's own sale therefore has to close before the trustee's sale takes place.",
+          "Idaho law also protects an owner who signs a contract during the foreclosure period. Under the Consumer Foreclosure Protection Act, a contract to transfer an interest in the home must be in writing and carry a statutory notice, and the owner may cancel it within five business days of entering into it. That applies to a contract with any buyer, including one with us. The practical side is covered in [selling a house before foreclosure](/sell-house-before-foreclosure-idaho) and in [a cash offer compared with listing](/cash-offer-vs-listing-idaho)."
+        ],
+        "claims": [
+          "af-cfpb-options-servicer-might-offer",
+          "af-cfpb-payoff-amount",
+          "af-trustee-deed-conveys-grantor-interest",
+          "vb-cfpa-written-notice-required",
+          "vb-cfpa-five-business-day-rescission"
+        ]
+      },
+      {
+        "heading": "Short sale, deed in lieu and bankruptcy, briefly",
+        "body": [
+          "A short sale and a deed in lieu both depend on the lender. The CFPB defines a short sale as a sale of the home for less than what is owed on the mortgage, possible if the lender or servicer agrees to it. It defines a deed-in-lieu of foreclosure as an arrangement in which the borrower voluntarily turns over ownership of the home to the lender to avoid the foreclosure process. For a short sale the CFPB advises asking the lender to waive any deficiency before going ahead and getting the waiver in writing, and for a deed in lieu it notes there may still be a tax liability. Both questions call for an attorney or tax professional.",
+          "Bankruptcy is a federal court process. The federal judiciary's summary of chapter 13 says: \"The automatic stay stops the foreclosure proceeding as soon as the individual files the chapter 13 petition. The individual may then bring the past-due payments current over a reasonable period of time.\" The same summary says the debtor may still lose the home if the foreclosure sale is completed under state law before the petition is filed, or if the debtor fails to make the regular mortgage payments that come due after filing. Whether it fits a household is a question for a bankruptcy attorney."
+        ],
+        "claims": [
+          "af-cfpb-short-sale-definition",
+          "af-cfpb-deed-in-lieu-definition",
+          "af-uscourts-chapter-13-foreclosure"
+        ]
+      },
+      {
+        "heading": "Housing counselors are free, and Idaho's own notice says so",
+        "body": [
+          "The CFPB describes a housing counselor at a HUD-approved agency as trained and certified by the government to help a borrower assess their finances, evaluate options and make a plan. It says HUD-approved agencies provide foreclosure prevention counseling free of charge and can help a borrower talk to the servicer. It also says a counselor cannot promise that the borrower will keep the home.",
+          "HUD says it funds free or very low-cost housing counseling nationwide and that counselors can represent a homeowner in negotiations with the lender. HUD gives (800) 569-4287 as the number for finding a counselor. The CFPB lists the HOPE Hotline at (888) 995-HOPE (4673), open 24 hours a day, seven days a week. Idaho Housing and Finance Association's homeowner page gives the same direction: free housing counseling with a HUD approved counselor.",
+          "Idaho wrote the point into the 45-1506C notice: \"Never pay someone to help you obtain a loan modification. Help is available for free from housing counselors who are certified through the department of housing and urban development (HUD).\"",
+          "The CFPB lists warning signs of a foreclosure scam. They include being asked to pay upfront for help, a guarantee that you will not lose your home, and being asked to sign over title to your home or to sign documents you do not understand. It also says a borrower facing imminent foreclosure, or served with legal papers, might need to consult an attorney. Our page on [how to check a cash buyer in Idaho](/how-to-check-a-cash-buyer-in-idaho) applies the same caution to buyers, us included."
+        ],
+        "claims": [
+          "af-cfpb-housing-counselor-what-they-do",
+          "af-hud-counseling-free-or-low-cost",
+          "af-cfpb-hope-hotline",
+          "af-ihfa-trouble-paying-points-to-counseling",
+          "af-modnotice-free-counselors-warning",
+          "af-cfpb-no-need-to-pay-scam-signs",
+          "af-cfpb-attorney-if-imminent"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy houses in Ada County in any condition, with our own capital. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. That can suit an owner who has decided to sell and needs a closing date ahead of a trustee's sale.",
+          "We cannot stop a foreclosure, negotiate with a lender, approve a short sale or give legal or tax advice. If you want to keep the house, the routes are the ones above: the servicer, the cure right, a modification, and a housing counselor who costs nothing. If there is time to list the house on the open market, a listing may bring a higher price than we would offer. If the loan balance is more than the house would sell for, any sale needs the lender's agreement, and that decision belongs to the lender."
+        ],
+        "claims": [
+          "af-cfpb-short-sale-definition"
+        ]
+      }
+    ]
+  }
+}

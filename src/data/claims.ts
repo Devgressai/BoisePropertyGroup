@@ -8233,6 +8233,4108 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "af-cure-within-115-days",
+    "claim": "Under Idaho Code 45-1506(12), the grantor, a successor in interest, or a subordinate lienholder may, at any time within 115 days of the recording of the notice of default, pay the beneficiary the entire amount then due under the deed of trust, other than principal that would not be due had no default occurred, and so cure the default.",
+    "quote": "the grantor or his successor in interest in the trust property or any part thereof, or any beneficiary under a subordinate deed of trust or any person having a subordinate lien or encumbrance of record thereon, at any time within one hundred fifteen (115) days of the recording of the notice of default under such deed of trust, if the power of sale therein is to be exercised, or otherwise at any time prior to the entry of a decree of foreclosure, may pay to the beneficiary or their successors in interest, respectively, the entire amount then due under the terms of the deed of trust and the obligation secured thereby ... other than such portion of the principal as would not then be due had no default occurred, and thereby cure the default theretofore existing",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "af-cure-reinstates-loan",
+    "claim": "When a default is cured under Idaho Code 45-1506(12), all foreclosure proceedings are to be dismissed or discontinued and the obligation and deed of trust are reinstated as if no acceleration had occurred.",
+    "quote": "and thereupon, all proceedings theretofore had or instituted shall be dismissed or discontinued and the obligation and deed of trust shall be reinstated and shall be and remain in force and effect, the same as if no acceleration had occurred.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "af-cure-amount-includes-costs",
+    "claim": "The amount needed to cure under Idaho Code 45-1506(12) includes costs and expenses actually incurred in enforcing the obligation, a reasonable trustee's fee limited by 45-1502(6), and attorney's fees as the promissory note may provide.",
+    "quote": "including costs and expenses actually incurred in enforcing the terms of such obligation and a reasonable trustee's fee subject to the limitations imposed by subsection (6) of section 45-1502, Idaho Code, and attorney's fees as may be provided in the promissory note",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "af-trustee-deed-conveys-grantor-interest",
+    "claim": "Under Idaho Code 45-1506(10), the trustee's deed conveys to the purchaser at the trustee's sale the interest in the property that the grantor had, or had the power to convey, when the trust deed was signed, together with any interest acquired afterwards.",
+    "quote": "The trustee's deed shall convey to the purchaser the interest in the property which the grantor had, or had the power to convey, at the time of the execution by him of the trust deed together with any interest the grantor or his successors in interest acquired after the execution of such trust deed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "af-modnotice-who-gets-it",
+    "claim": "Idaho Code 45-1506C requires a supplemental notice to accompany the notice of default where the loan was made by a state or federally regulated beneficiary and is a noncommercial loan secured by a deed of trust on the borrower's primary residence; a property granted the homeowner's property tax exemption for the year the notice of default is recorded is deemed the primary residence, and if no exemption was granted for that year the section does not apply.",
+    "quote": "In the case of a loan made by a state or federally regulated beneficiary, which loan is secured by a deed of trust encumbering a borrower's primary residential property for any noncommercial loan, the notice provided in this section shall accompany the notice of default provided to the grantor. The beneficiary or its agent shall determine whether the subject real property is a borrower's primary residence by searching the county assessor's tax rolls prior to recording a notice of default to confirm whether such real property has been granted a homeowner's property tax exemption pursuant to section 63-602G, Idaho Code. Any property for which a homeowner's property tax exemption has been granted for the year in which the notice of default is recorded shall be deemed to be a borrower's primary residential dwelling. If no homeowner's property tax exemption has been granted for the year in which the notice of default is recorded, the provisions of this section shall not apply.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending",
+      "homestead"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "af-modnotice-ask-exact-amount",
+    "claim": "The statutory form of the 45-1506C notice tells the borrower that the beneficiary can provide the exact amount owed but the borrower has to ask, by calling a toll-free number or sending a written request by certified mail.",
+    "quote": "The beneficiary can provide you with the exact amount that you owe, but you have to ask. Call (enter the toll-free telephone number) to find out the exact amount you must pay to bring your mortgage loan current and to obtain other details about your loan. You also can send a written request for this information by certified mail",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "af-modnotice-may-not-qualify",
+    "claim": "The 45-1506C notice tells a borrower who cannot afford the current payments to contact the beneficiary immediately about loss mitigation programs, states that the borrower may or may not qualify for a loan modification or other alternative to foreclosure, and says the borrower may request a meeting with the beneficiary.",
+    "quote": "you need to contact the beneficiary immediately to ask about any available loss mitigation programs. You may or may not qualify for a loan modification or other alternative to foreclosure. You may request to meet with the beneficiary to discuss options for modifying your loan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "af-modnotice-form-thirty-days",
+    "claim": "Under the 45-1506C notice, a borrower who wants to apply for a loan modification must complete and return the enclosed modification request form by certified mail, return receipt requested, and the beneficiary must receive it on or before a date that is 30 days after the date of the notice.",
+    "quote": "IF YOU WANT TO APPLY FOR A MODIFICATION OF YOUR LOAN, YOU MUST COMPLETE AND RETURN THE ENCLOSED \"MODIFICATION REQUEST FORM\" BY CERTIFIED MAIL, RETURN RECEIPT REQUESTED. THE BENEFICIARY MUST RECEIVE THE FORM ON OR BEFORE (enter the date), WHICH IS THIRTY (30) DAYS AFTER THE DATE BELOW.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "af-modnotice-response-45-days",
+    "claim": "If the grantor returns the 45-1506C form by the date on it, the beneficiary must evaluate the request and notify the grantor in writing, not later than 45 days after receiving the form, whether it approves or denies the request or needs more information; a trustee's sale may not occur until after the beneficiary timely responds.",
+    "quote": "If a grantor returns the form identified in subsection (2) of this section to the beneficiary by the date specified on the form, the beneficiary or the beneficiary's agent shall review the information the grantor provided in the form and shall evaluate the grantor's request. The beneficiary or the beneficiary's agent, as soon as reasonably practicable but not later than forty-five (45) days after receiving the form, shall notify the grantor in writing whether the beneficiary approves or denies the request or requires additional information. A trustee's sale for the property subject to the loan may not occur until after the beneficiary or the beneficiary's agent timely responds to the grantor.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "af-modnotice-meeting",
+    "claim": "If the grantor timely requests a meeting, Idaho Code 45-1506C(4) requires the beneficiary or its agent to meet in person or speak by telephone before responding to the modification request, and the person who meets must have or be able to obtain authority to modify the loan; the beneficiary is treated as complying if, within seven business days after it attempts contact, the grantor does not schedule a meeting or fails to attend.",
+    "quote": "if the grantor timely requests a meeting with the beneficiary, the beneficiary or the beneficiary's agent shall either meet with the grantor in person or speak to the grantor by telephone before the beneficiary or the beneficiary's agent responds to the grantor's request to modify the loan. ... within seven (7) business days after the beneficiary or the beneficiary's agent attempts to contact the grantor, the grantor does not schedule a meeting, or fails to attend a scheduled meeting or telephone call. ... The beneficiary or the beneficiary's agent that meets with the grantor shall have or be able to obtain authority to modify the loan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "af-modnotice-free-counselors-warning",
+    "claim": "The 45-1506C notice carries a warning: never pay someone to help obtain a loan modification, and help is available for free from housing counselors certified through HUD, with a current list of certified counselors in Idaho on HUD's website.",
+    "quote": "WARNING: You may get offers from people who tell you they can help you keep your property. Never pay someone to help you obtain a loan modification. Help is available for free from housing counselors who are certified through the department of housing and urban development (HUD). Visit the HUD website for a current list of certified housing counselors in Idaho.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "af-regx-scope",
+    "claim": "The federal early-intervention and loss-mitigation procedures in 12 CFR 1024.39 through 1024.41 apply only to a mortgage loan secured by the borrower's principal residence, and, except as 1024.41(j) provides, sections 1024.38 through 1024.41 do not apply to small servicers, to reverse mortgage transactions, or to certain qualified lenders.",
+    "quote": "Except as otherwise provided in § 1024.41(j), §§ 1024.38 through 1024.41 of this subpart shall not apply to the following: ... A servicer that qualifies as a small servicer pursuant to 12 CFR 1026.41(e)(4); ... The procedures set forth in §§ 1024.39 through 1024.41 of this subpart only apply to a mortgage loan that is secured by a property that is a borrower's principal residence.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.30 — Scope (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.30",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-small-servicer",
+    "claim": "Under 12 CFR 1024.41(j), a small servicer is still subject to the 120-day prohibition on foreclosure referral and may not start or complete a foreclosure while a borrower is performing under a loss mitigation agreement.",
+    "quote": "A small servicer shall be subject to the prohibition on foreclosure referral in paragraph (f)(1) of this section. A small servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process and shall not move for foreclosure judgment or order of sale, or conduct a foreclosure sale, if a borrower is performing pursuant to the terms of an agreement on a loss mitigation option.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-live-contact-36-days",
+    "claim": "Under 12 CFR 1024.39(a), a servicer must establish or make good faith efforts to establish live contact with a delinquent borrower no later than the 36th day of delinquency and, promptly after contact, inform the borrower about the availability of loss mitigation options, if appropriate.",
+    "quote": "a servicer shall establish or make good faith efforts to establish live contact with a delinquent borrower no later than the 36th day of a borrower's delinquency and again no later than 36 days after each payment due date so long as the borrower remains delinquent. Promptly after establishing live contact with a borrower, the servicer shall inform the borrower about the availability of loss mitigation options, if appropriate.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.39 — Early intervention requirements for certain borrowers (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.39",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-written-notice-45-days",
+    "claim": "Under 12 CFR 1024.39(b), a servicer must send a delinquent borrower a written notice no later than the 45th day of delinquency that encourages the borrower to contact the servicer, gives the servicer's telephone number and mailing address, and gives the website for the CFPB or HUD list of homeownership counselors and HUD's toll-free number.",
+    "quote": "a servicer shall provide to a delinquent borrower a written notice with the information set forth in paragraph (b)(2) of this section no later than the 45th day of the borrower's delinquency ... A statement encouraging the borrower to contact the servicer; ... The Web site to access either the Bureau list or the HUD list of homeownership counselors or counseling organizations, and the HUD toll-free telephone number to access homeownership counselors or counseling organizations.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.39 — Early intervention requirements for certain borrowers (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.39",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-120-day-prefiling",
+    "claim": "Under 12 CFR 1024.41(f)(1), a servicer may not make the first notice or filing required by applicable law for a judicial or non-judicial foreclosure unless the loan is more than 120 days delinquent, the foreclosure is based on a due-on-sale violation, or the servicer is joining another lienholder's foreclosure.",
+    "quote": "A servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless: ... A borrower's mortgage loan obligation is more than 120 days delinquent; ... The foreclosure is based on a borrower's violation of a due-on-sale clause; or ... The servicer is joining the foreclosure action of a superior or subordinate lienholder.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-no-duty-specific-option",
+    "claim": "12 CFR 1024.41(a) states that nothing in the section imposes a duty on a servicer to provide any borrower with any specific loss mitigation option.",
+    "quote": "Nothing in § 1024.41 imposes a duty on a servicer to provide any borrower with any specific loss mitigation option.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-acknowledgment-5-days",
+    "claim": "Under 12 CFR 1024.41(b)(2), a servicer that receives a loss mitigation application 45 days or more before a foreclosure sale must tell the borrower in writing, within 5 days excluding legal public holidays, Saturdays and Sundays, whether the application is complete or incomplete, and if incomplete what additional documents and information are needed.",
+    "quote": "If a servicer receives a loss mitigation application 45 days or more before a foreclosure sale, a servicer shall: ... Notify the borrower in writing within 5 days (excluding legal public holidays, Saturdays, and Sundays) after receiving the loss mitigation application that the servicer acknowledges receipt of the loss mitigation application and that the servicer has determined that the loss mitigation application is either complete or incomplete. If a loss mitigation application is incomplete, the notice shall state the additional documents and information the borrower must submit to make the loss mitigation application complete",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-evaluation-30-days",
+    "claim": "Under 12 CFR 1024.41(c)(1), a servicer that receives a complete loss mitigation application more than 37 days before a foreclosure sale must, within 30 days, evaluate the borrower for all loss mitigation options available to the borrower and give written notice of which options, if any, it will offer.",
+    "quote": "if a servicer receives a complete loss mitigation application more than 37 days before a foreclosure sale, then, within 30 days of receiving the complete loss mitigation application, a servicer shall: ... Evaluate the borrower for all loss mitigation options available to the borrower; and ... Provide the borrower with a notice in writing stating the servicer's determination of which loss mitigation options, if any, it will offer to the borrower on behalf of the owner or assignee of the mortgage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-application-before-referral",
+    "claim": "Under 12 CFR 1024.41(f)(2), if a borrower submits a complete loss mitigation application before the servicer has made the first foreclosure notice or filing, the servicer may not make that notice or filing unless it has told the borrower in writing that the borrower is not eligible for any option and any appeal is exhausted or unavailable, the borrower rejects all options offered, or the borrower fails to perform under a loss mitigation agreement.",
+    "quote": "If a borrower submits a complete loss mitigation application during the pre-foreclosure review period set forth in paragraph (f)(1) of this section or before a servicer has made the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process, a servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless: ... The borrower rejects all loss mitigation options offered by the servicer; or ... The borrower fails to perform under an agreement on a loss mitigation option.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-no-sale-while-pending",
+    "claim": "Under 12 CFR 1024.41(g), if a borrower submits a complete loss mitigation application after the foreclosure has started but more than 37 days before a foreclosure sale, the servicer may not move for a foreclosure judgment or order of sale, or conduct a foreclosure sale, unless the borrower has been found ineligible with any appeal exhausted or unavailable, rejects all options offered, or fails to perform under a loss mitigation agreement.",
+    "quote": "If a borrower submits a complete loss mitigation application after a servicer has made the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process but more than 37 days before a foreclosure sale, a servicer shall not move for foreclosure judgment or order of sale, or conduct a foreclosure sale, unless:",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-appeal-14-days",
+    "claim": "Under 12 CFR 1024.41(h), where a complete application was received 90 days or more before a foreclosure sale, the servicer must let the borrower appeal a denial of any loan modification program, the borrower has 14 days to appeal, the appeal must be reviewed by different personnel, and the servicer must give its determination within 30 days; that determination is not subject to further appeal.",
+    "quote": "If a servicer receives a complete loss mitigation application 90 days or more before a foreclosure sale or during the period set forth in paragraph (f) of this section, a servicer shall permit a borrower to appeal the servicer's determination to deny a borrower's loss mitigation application for any trial or permanent loan modification program available to the borrower. ... A servicer shall permit a borrower to make an appeal within 14 days after the servicer provides the offer of a loss mitigation option to the borrower ... An appeal shall be reviewed by different personnel than those responsible for evaluating the borrower's complete loss mitigation application. ... Within 30 days of a borrower making an appeal, the servicer shall provide a notice to the borrower stating the servicer's determination ... A servicer's determination under this paragraph is not subject to any further appeal.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-regx-short-term-plan-on-incomplete-application",
+    "claim": "Under 12 CFR 1024.41(c)(2)(iii), a servicer may offer a short-term payment forbearance program or a short-term repayment plan based on an incomplete application, must then give written notice of the specific payment terms and duration, and may not start or complete a foreclosure while the borrower is performing under that program or plan.",
+    "quote": "a servicer may offer a short-term payment forbearance program or a short-term repayment plan to a borrower based upon an evaluation of an incomplete loss mitigation application. ... the servicer must provide the borrower a written notice stating the specific payment terms and duration of the program or plan ... A servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process, and shall not move for foreclosure judgment or order of sale or conduct a foreclosure sale, if a borrower is performing pursuant to the terms of a payment forbearance program or repayment plan offered pursuant to this paragraph (c)(2)(iii).",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-call-servicer-right-away",
+    "claim": "The CFPB says a borrower who cannot pay the mortgage, or is worried about missing a payment, should call the mortgage servicer right away and should also contact a HUD-approved housing counseling agency.",
+    "quote": "If you can’t pay your mortgage or are worried about missing a mortgage payment, call your mortgage servicer right away. You should also contact a HUD-approved housing counseling agency to get free, expert assistance on avoiding foreclosure.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "If I can't pay my mortgage loan, what are my options? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-my-mortgage-en-268/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-what-to-tell-servicer",
+    "claim": "The CFPB says the servicer's telephone number is on the monthly mortgage statement, in the coupon book or on the servicer's website, and that a borrower calling should be prepared to explain why the payment cannot be made, whether the problem is temporary or permanent, and details about income, expenses and other assets, and to fill out a mortgage assistance application if the servicer gives one.",
+    "quote": "Find the telephone number for your mortgage servicer by looking on your monthly mortgage loan statement, in your mortgage loan coupon book from your lender, or on your mortgage servicer’s website. ... When you call your mortgage servicer, be prepared to explain: ... Whether the problem is temporary or permanent ... Details about your income, expenses and other assets like cash in the bank ... Fill out a mortgage assistance application, if your servicer gives you one",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "If I can't pay my mortgage loan, what are my options? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-my-mortgage-en-268/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-options-servicer-might-offer",
+    "claim": "The CFPB lists the options a servicer might make available as refinancing, a loan modification, a repayment plan, forbearance, a short sale, and giving the home back to the lender through a deed-in-lieu of foreclosure.",
+    "quote": "Some options that your servicer might make available include: Refinance Get a loan modification Work out a repayment plan Get forbearance Short-sell your home Give your home back to your lender through a",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "If I can't pay my mortgage loan, what are my options? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-my-mortgage-en-268/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-attorney-if-imminent",
+    "claim": "The CFPB says a borrower facing imminent foreclosure, or served with legal papers, might also need to consult an attorney.",
+    "quote": "If you are facing imminent foreclosure or have been served with legal papers, you might also need to consult an attorney",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "If I can't pay my mortgage loan, what are my options? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-my-mortgage-en-268/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-no-need-to-pay-scam-signs",
+    "claim": "The CFPB says a borrower does not have to pay anyone for help avoiding foreclosure, because help is available at no cost from the servicer or a HUD-approved housing counseling agency, and lists scam warning signs including being asked to pay upfront, a guarantee that the home will not be lost, and being asked to sign over title.",
+    "quote": "You don’t have to pay anyone to help you avoid foreclosure. The help you need is available at no cost to you from your servicer, or through a HUD-approved housing counseling agency. ... You’re asked to pay upfront for help ... The company guarantees you won’t lose your home ... You’re asked to sign over title to your home or to sign other documents you don’t understand",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "If I can't pay my mortgage loan, what are my options? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-my-mortgage-en-268/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-repayment-plan-definition",
+    "claim": "The CFPB defines a mortgage repayment plan as an agreement with the lender to make up missed payments by adding part of the past-due amount to the regular payments over a period of time, so that the borrower pays more each month to make up for the missed payments.",
+    "quote": "A repayment plan is an agreement between you and your lender to make up missed mortgage loan payments by adding part of the past-due amount to your regular payments over a period of time. ... With a repayment plan, you pay more on your monthly payment to make up for the payments you missed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a repayment plan on a mortgage? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-repayment-plan-on-a-mortgage-en-280/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-repayment-plan-still-delinquent",
+    "claim": "The CFPB cautions that under a repayment plan the lender or servicer may consider the loan delinquent until all missed payments are repaid and may still report the delinquency to the credit reporting agencies, and that a repayment plan might be one option after a forbearance period ends.",
+    "quote": "Your lender or servicer may consider your loan delinquent until you repay all of your missed payments, and may still report your delinquency to the credit reporting agencies ... If you have been in mortgage forbearance, a repayment plan might be one option once you have completed your forbearance period.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a repayment plan on a mortgage? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-repayment-plan-on-a-mortgage-en-280/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-forbearance-definition",
+    "claim": "The CFPB describes forbearance as an arrangement in which the servicer or lender lets the borrower temporarily pause mortgage payments or make smaller payments; it does not erase or decrease the amount owed, and missed or reduced payments must be repaid.",
+    "quote": "Your servicer or lender arranges for you to temporarily pause mortgage payments or make smaller payments. You still owe the full amount, and you pay back the difference later. ... Forbearance does not erase or decrease the amount you owe on your mortgage. You have to repay any missed or reduced payments.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is mortgage forbearance? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-forbearance-en-289/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-forbearance-what-to-ask",
+    "claim": "The CFPB says forbearance options depend on many factors and tells borrowers to keep asking the servicer questions until they understand the amount to be paid and for how long payments are paused or reduced, how interest accrues during that time, and when and how the paused or reduced amounts are paid back.",
+    "quote": "There isn’t a “one size fits all” answer, because the options depend on many factors. ... The amount you must pay, and for how long payments are paused or reduced ... How interest accrues during that time ... When and how you pay back the paused or reduced amounts",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is mortgage forbearance? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-forbearance-en-289/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-modification-definition",
+    "claim": "The CFPB defines a mortgage loan modification as a change in the loan terms, which may involve extending the number of years to repay, reducing the interest rate, or forbearing or reducing the principal balance, and warns that a borrower who still cannot make the modified payments may lose the home.",
+    "quote": "A mortgage loan modification is a change in your loan terms. ... If you receive a loan modification and you still can’t make the payments, you may lose your home. ... Modifications may involve extending the number of years you have to repay the loan, reducing your interest rate, and/or forbearing or reducing your principal balance.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a mortgage loan modification? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-loan-modification-en-269/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-short-sale-definition",
+    "claim": "The CFPB defines a short sale as a sale of the home for less than what is owed on the mortgage, available if the lender or servicer agrees, and advises asking the lender to waive any deficiency before going through with it and getting the waiver in writing.",
+    "quote": "A short sale, which is a type of loss mitigation, is a sale of your home for less than what you owe on your mortgage. ... If your lender or servicer agrees to a short sale, you may be able to sell your home to pay off your mortgage, even if the sale price or proceeds turn out to be less than the balance remaining on your mortgage. ... If the lender waives the deficiency, get the waiver in writing and keep it for your records.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a short sale? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-deed-in-lieu-definition",
+    "claim": "The CFPB defines a deed-in-lieu of foreclosure as an arrangement in which the borrower voluntarily turns over ownership of the home to the lender to avoid the foreclosure process, and notes the borrower may still incur a tax liability and may want to speak with a tax professional or attorney.",
+    "quote": "A deed-in-lieu of foreclosure is an arrangement where you voluntarily turn over ownership of your home to the lender to avoid the foreclosure process. ... You may still incur a tax liability, so you may want to speak with a tax professional or attorney.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a deed-in-lieu of foreclosure? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-deed-in-lieu-of-foreclosure-en-291/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-payoff-amount",
+    "claim": "The CFPB says a payoff amount is how much must be paid to satisfy the loan terms and completely pay off the debt, that it differs from the current balance because it includes interest due through the intended payoff day and may include unpaid fees, and that for a loan secured by a dwelling the servicer must provide an accurate payoff statement on request.",
+    "quote": "Your payoff amount is how much you will have to pay to satisfy the terms of your mortgage loan and completely pay off your debt. Your payoff amount is different from your current balance. ... Your payoff amount includes the payment of any interest due through the day you intend to pay off your loan. It may also include other fees you have been charged and have not yet paid. ... If your loan is secured by a dwelling, once you request a payoff amount, servicers must provide you with an accurate statement of the total amount that would be required to fully pay off your loan as of a specified date.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "lending",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a payoff amount and is it the same as my current balance? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payoff-amount-and-is-it-the-same-as-my-current-balance-en-205/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-housing-counselor-what-they-do",
+    "claim": "The CFPB describes a housing counselor at a HUD-approved agency as trained and certified by the government to help a borrower assess their finances, evaluate options when they have trouble paying the mortgage and make a plan; such agencies provide foreclosure prevention counseling free of charge and can help the borrower talk to the servicer, and a counselor cannot promise that the borrower will keep the home.",
+    "quote": "A housing counselor though a HUD-approved agency is specially trained and certified by the government to help you assess your financial situation, evaluate options if you are having trouble paying your mortgage loan, and make a plan to get you help with your mortgage. ... HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge. They can also help you talk to your mortgage servicer and understand any options your servicer has offered. ... A housing counselor at a HUD-approved agency can't promise that you will get to keep your home.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a HUD-approved housing counseling agency, and how can they help me? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-hud-approved-housing-counselor-how-can-they-help-me-en-261/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-cfpb-hope-hotline",
+    "claim": "The CFPB says a HUD-approved counseling agency can be found through its Find a Counselor tool, by calling the HOPE Hotline at (888) 995-HOPE (4673), open 24 hours a day, seven days a week, or by calling the CFPB at (855) 411-CFPB (2372) to be connected to a housing counselor by phone.",
+    "quote": "open 24 hours a day, seven days a week, at (888) 995-HOPE (4673). Call the CFPB at (855) 411-CFPB (2372) to be connected to a housing counselor over the phone.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a HUD-approved housing counseling agency, and how can they help me? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-hud-approved-housing-counselor-how-can-they-help-me-en-261/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-hud-counseling-free-or-low-cost",
+    "claim": "HUD says it funds free or very low-cost housing counseling nationwide, that housing counselors can help a homeowner understand the law and their options, organize their finances and represent them in negotiations with the lender, and that a counselor can be found by calling (800) 569-4287.",
+    "quote": "The U.S. Department of Housing and Urban Development (HUD) funds free or very low-cost housing counseling nationwide. Housing counselors can help you understand the law and your options, organize your finances and represent you in negotiations with your lender, if you need this assistance. ... or call (800) 569-4287 or TTY (800) 877-8339.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Avoiding Foreclosure — HUD.gov",
+        "url": "https://www.hud.gov/helping-americans/avoiding-foreclosure",
+        "publisher": "U.S. Department of Housing and Urban Development",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-uscourts-chapter-13-foreclosure",
+    "claim": "The federal judiciary's description of chapter 13 bankruptcy says the automatic stay stops a foreclosure proceeding as soon as the individual files the petition and the individual may then bring past-due payments current over a reasonable period, but the debtor may still lose the home if the foreclosure sale is completed under state law before the petition is filed or if the debtor fails to make the regular mortgage payments that come due after filing.",
+    "quote": "Individuals may use a chapter 13 proceeding to save their home from foreclosure. The automatic stay stops the foreclosure proceeding as soon as the individual files the chapter 13 petition. The individual may then bring the past-due payments current over a reasonable period of time. Nevertheless, the debtor may still lose the home if the mortgage company completes the foreclosure sale under state law before the debtor files the petition. ... The debtor may also lose the home if he or she fails to make the regular mortgage payments that come due after the chapter 13 filing.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "court-procedure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Chapter 13 — Bankruptcy Basics",
+        "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-13-bankruptcy-basics",
+        "publisher": "Administrative Office of the U.S. Courts",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "af-ihfa-trouble-paying-points-to-counseling",
+    "claim": "Idaho Housing and Finance Association's homeowner resources page tells homeowners having trouble with the monthly mortgage payment to make a plan and take action, and to seek expert advice through free housing counseling with a HUD approved counselor.",
+    "quote": "If you are facing challenges that make paying your mortgage difficult, the best thing to do is make a plan and take action. Seek expert advice through free Housing Counseling with a HUD approved counselor.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Homeowner Resources — Idaho Housing and Finance Association",
+        "url": "https://www.idahohousing.com/homeowners/homeowner-resources/",
+        "publisher": "Idaho Housing and Finance Association",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ft-parties-defined",
+    "claim": "Idaho Code 45-1502 defines the grantor as the person conveying real property by a trust deed as security for an obligation, the beneficiary as the person for whose benefit the trust deed is given (who may not be the trustee), and the trustee as the person to whom title is conveyed for the limited purpose of the power of sale and the obligation to reconvey; all other incidents of ownership remain with the grantor.",
+    "quote": "\"Beneficiary\" means the person named or otherwise designated in a trust deed as the person for whose benefit a trust deed is given, or his successor in interest, and who shall not be the trustee. (2) \"Grantor\" means the person conveying real property by a trust deed as security for the performance of an obligation. ... \"Trustee\" means a person to whom title to real property is conveyed by trust deed, or his successor in interest for the limited purpose of the power of sale contained in this chapter upon the occurrence of certain contingencies set forth in such trust deed, and the obligation to reconvey the deed of trust pursuant to section 45-1514, Idaho Code. All other incidents of ownership of such real property shall remain with the grantor.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1502 — Definitions — Trustee's charge",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1502/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1502, added 1957, ch. 181, sec. 2, p. 345; am. 1967, ch. 118, sec. 2, p. 251; am. 1970, ch. 42, sec. 1, p. 89; am. 1983, ch. 190, sec. 1, p. 515; am. 1995, ch. 326, sec. 2, p. 1095; am. 1996, ch. 248, sec. 1, p. 783; am. 1997, ch. 387, sec. 1, p. 1242; am. 2008, ch. 365, sec. 1, p. 1000; am. 2016, ch. 227, sec. 1, p. 624.]"
+  },
+  {
+    "id": "ft-trust-deed-property-limits",
+    "claim": "Idaho Code 45-1502(5) limits the real property that may be transferred in trust under the trust deed act to property within an incorporated city or village at the time of the transfer, property of not more than 80 acres that is not principally used for agricultural production of crops, livestock, dairy or aquatic goods, or property of not more than 40 acres regardless of use or location.",
+    "quote": "real property as so defined which may be transferred in trust under this act shall be limited to: (a) any real property located within an incorporated city or village at the time of the transfer; (b) any real property not exceeding eighty (80) acres, regardless of its location, provided that such real property is not principally used for the agricultural production of crops, livestock, dairy or aquatic goods; or (c) any real property not exceeding forty (40) acres regardless of its use or location.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1502 — Definitions — Trustee's charge",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1502/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1502, added 1957, ch. 181, sec. 2, p. 345; am. 1967, ch. 118, sec. 2, p. 251; am. 1970, ch. 42, sec. 1, p. 89; am. 1983, ch. 190, sec. 1, p. 515; am. 1995, ch. 326, sec. 2, p. 1095; am. 1996, ch. 248, sec. 1, p. 783; am. 1997, ch. 387, sec. 1, p. 1242; am. 2008, ch. 365, sec. 1, p. 1000; am. 2016, ch. 227, sec. 1, p. 624.]"
+  },
+  {
+    "id": "ft-power-of-sale-or-judicial-option",
+    "claim": "Idaho Code 45-1503(1) confers a power of sale on the trustee, exercisable after a breach of the secured obligation, and provides that a deed of trust may be foreclosed by advertisement and sale under the chapter or, at the option of the beneficiary, by foreclosure as provided by law for mortgages on real property.",
+    "quote": "a power of sale is hereby conferred upon the trustee to be exercised after a breach of the obligation for which such transfer is security, and a deed of trust executed in conformity with this act may be foreclosed by advertisement and sale in the manner hereinafter provided, or, at the option of beneficiary, by foreclosure as provided by law for the foreclosure of mortgages on real property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1503 — Transfers in trust to secure obligation — Foreclosure",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1503/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1503, added 1957, ch. 181, sec. 3, p. 345; am. 1967, ch. 118, sec. 3, p. 251; am. 1989, ch. 340, sec. 1, p. 861; am. 1993, ch. 281, sec. 2, p. 951.]"
+  },
+  {
+    "id": "ft-foreclosure-conditions",
+    "claim": "Under Idaho Code 45-1505 a trustee may foreclose a trust deed by advertisement and sale if the trust deed, any assignments and any appointment of a successor trustee are recorded in the county mortgage records, there is a default under a provision of the deed that authorizes sale, a notice of default has been recorded and mailed, and no action to recover the secured debt is pending.",
+    "quote": "The trustee may foreclose a trust deed by advertisement and sale under this act if: (1) The trust deed, any assignments of the trust deed by the trustee or the beneficiary and any appointment of a successor trustee are recorded in mortgage records in the counties in which the property described in the deed is situated; and (2) There is a default by the grantor or other person owing an obligation the performance of which is secured by the trust deed or by their successors in interest with respect to any provision in the deed which authorizes sale in the event of default of such provision; and ... (4) No action, suit or proceeding has been instituted to recover the debt then remaining secured by the trust deed, or any part thereof, or if such action or proceeding has been instituted, the action or proceeding has been dismissed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1505 — Foreclosure of trust deed, when",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1505/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1505, added 1957, ch. 181, sec. 5, p. 345; am. 1990, ch. 401, sec. 1, p. 1123; am. 2008, ch. 192, sec. 2, p. 603; am. 2009, ch. 136, sec. 1, p. 417.]"
+  },
+  {
+    "id": "ft-notice-of-default-recorded-and-mailed",
+    "claim": "Idaho Code 45-1505(3) requires the trustee or beneficiary to file for record with the recorder of each county where the trust property or any part of it is situated a notice of default that identifies the deed of trust, states that a breach has occurred, sets out the nature of the breach and states the election to sell; a copy must be mailed by registered or certified mail, return receipt requested, to any person who recorded a request for notice, service by mail is effective at the time of mailing, and the trustee must also mail the notice to any individual who owns an interest in the property.",
+    "quote": "filed for record in the office of the recorder in each county wherein the trust property, or some part or parcel, is situated, a notice of default identifying the deed of trust by stating the name or names of the trustor or trustors and giving the book and page where the same is recorded, or a description of the trust property, and containing a statement that a breach of the obligation for which the transfer in trust is security has occurred, and setting forth the nature of such breach and his election to sell or cause to be sold such property to satisfy such obligation; and (b) mailed a copy of such notice by registered or certified mail, return receipt requested, to any person requesting such notice of record as provided in section 45-1511, Idaho Code. Service by mail in accordance with this subsection (3) shall be deemed effective at the time of mailing. In addition, the trustee shall mail the notice required in this section to any individual who owns an interest in property which is the subject of this section.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1505 — Foreclosure of trust deed, when",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1505/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1505, added 1957, ch. 181, sec. 5, p. 345; am. 1990, ch. 401, sec. 1, p. 1123; am. 2008, ch. 192, sec. 2, p. 603; am. 2009, ch. 136, sec. 1, p. 417.]"
+  },
+  {
+    "id": "ft-notice-of-default-warning-sheet",
+    "claim": "The notice of default mailed under Idaho Code 45-1505(3) must be accompanied by and affixed to a statutory notice in 12-point boldface type on a separate sheet, which tells the owner to be cautious about claims to 'save' the home, to consult an attorney or financial professional if possible, and not to delay seeking advice.",
+    "quote": "Such notice shall be accompanied by and affixed to the following notice in twelve (12) point boldface type, on a separate sheet of paper, no smaller than eight and one-half (8 1/2) inches by eleven (11) inches: ... Some individuals or businesses may say they can \"save\" your home from foreclosure. You should be cautious about such claims. ... If possible, you should consult with an attorney or financial professional to find out what other options you may have. Do not delay seeking advice, because the longer you wait, the fewer options you may have. Under Idaho law, you have five (5) days to rescind or undo certain contracts or agreements that relate to transferring interests in property or money in a foreclosure situation.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1505 — Foreclosure of trust deed, when",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1505/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1505, added 1957, ch. 181, sec. 5, p. 345; am. 1990, ch. 401, sec. 1, p. 1123; am. 2008, ch. 192, sec. 2, p. 603; am. 2009, ch. 136, sec. 1, p. 417.]"
+  },
+  {
+    "id": "ft-loan-mod-notice-primary-residence",
+    "claim": "Under Idaho Code 45-1506C(1), for a noncommercial loan made by a state or federally regulated beneficiary and secured by a deed of trust on the borrower's primary residential property, a supplemental notice in at least 14-point type must accompany the notice of default provided to the grantor; primary residence is determined by whether the property has been granted the homeowner's property tax exemption for the year the notice of default is recorded, and if it has not, the section does not apply.",
+    "quote": "In the case of a loan made by a state or federally regulated beneficiary, which loan is secured by a deed of trust encumbering a borrower's primary residential property for any noncommercial loan, the notice provided in this section shall accompany the notice of default provided to the grantor. ... Any property for which a homeowner's property tax exemption has been granted for the year in which the notice of default is recorded shall be deemed to be a borrower's primary residential dwelling. If no homeowner's property tax exemption has been granted for the year in which the notice of default is recorded, the provisions of this section shall not apply. The notice, if required, shall be printed in at least 14-point type and substantially conform to the following form:",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "ft-loan-mod-form-thirty-days",
+    "claim": "The supplemental notice form in Idaho Code 45-1506C(1) states the amount needed to bring the loan current as of a stated date and tells the owner that a loan modification request form must be returned by certified mail, return receipt requested, and received by the beneficiary on or before a date that is 30 days after the date of the notice; it also says the owner may or may not qualify.",
+    "quote": "As of (enter the date), you needed to pay $(enter the amount owed) to bring your mortgage loan current. ... You may or may not qualify for a loan modification or other alternative to foreclosure. ... IF YOU WANT TO APPLY FOR A MODIFICATION OF YOUR LOAN, YOU MUST COMPLETE AND RETURN THE ENCLOSED \"MODIFICATION REQUEST FORM\" BY CERTIFIED MAIL, RETURN RECEIPT REQUESTED. THE BENEFICIARY MUST RECEIVE THE FORM ON OR BEFORE (enter the date), WHICH IS THIRTY (30) DAYS AFTER THE DATE BELOW.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "ft-loan-mod-notice-hud-counselors",
+    "claim": "The supplemental notice form in Idaho Code 45-1506C(1) warns the owner never to pay someone to help obtain a loan modification and says help is available for free from housing counselors certified through the U.S. Department of Housing and Urban Development (HUD), with a current list on the HUD website.",
+    "quote": "WARNING: You may get offers from people who tell you they can help you keep your property. Never pay someone to help you obtain a loan modification. Help is available for free from housing counselors who are certified through the department of housing and urban development (HUD). Visit the HUD website for a current list of certified housing counselors in Idaho.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "ft-loan-mod-45-day-response",
+    "claim": "Under Idaho Code 45-1506C(3), if the grantor returns the loan modification request form by the date on the form, the beneficiary or its agent must evaluate the request and notify the grantor in writing, as soon as reasonably practicable but not later than 45 days after receiving the form, whether it approves or denies the request or requires additional information; a trustee's sale may not occur until after the beneficiary or its agent timely responds.",
+    "quote": "If a grantor returns the form identified in subsection (2) of this section to the beneficiary by the date specified on the form, the beneficiary or the beneficiary's agent shall review the information the grantor provided in the form and shall evaluate the grantor's request. The beneficiary or the beneficiary's agent, as soon as reasonably practicable but not later than forty-five (45) days after receiving the form, shall notify the grantor in writing whether the beneficiary approves or denies the request or requires additional information. A trustee's sale for the property subject to the loan may not occur until after the beneficiary or the beneficiary's agent timely responds to the grantor.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "ft-loan-mod-meeting-seven-business-days",
+    "claim": "Under Idaho Code 45-1506C(4), if the grantor timely requests a meeting, the beneficiary or its agent must meet with the grantor in person or speak by telephone before responding to the modification request, but is treated as having complied if the grantor does not schedule a meeting, or fails to attend one, within seven business days after the beneficiary or agent attempts contact; the person who meets with the grantor must have or be able to obtain authority to modify the loan.",
+    "quote": "if the grantor timely requests a meeting with the beneficiary, the beneficiary or the beneficiary's agent shall either meet with the grantor in person or speak to the grantor by telephone before the beneficiary or the beneficiary's agent responds to the grantor's request to modify the loan. ... A beneficiary or the beneficiary's agent complies with the provisions of paragraph (a) of this subsection even if the beneficiary or the beneficiary's agent does not speak to or meet with the grantor if, within seven (7) business days after the beneficiary or the beneficiary's agent attempts to contact the grantor, the grantor does not schedule a meeting, or fails to attend a scheduled meeting or telephone call. (c) The beneficiary or the beneficiary's agent that meets with the grantor shall have or be able to obtain authority to modify the loan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "ft-loan-mod-affidavit-twenty-days",
+    "claim": "Idaho Code 45-1506C(5) requires the trustee, at least 20 days before the date of sale, to record with the recorder of each county where the trust property is situated an affidavit from the beneficiary or its agent stating compliance with the section, and makes the recorded affidavit conclusive evidence of compliance as to any party relying on it.",
+    "quote": "At least twenty (20) days prior to the date of sale, the trustee shall file for record in the office of the recorder in each county wherein the trust property, or some part or parcel, is situated an affidavit substantially in the following form from the beneficiary or the beneficiary's agent which states that the beneficiary or the beneficiary's agent has complied with the provisions of this section. The filing of the following affidavit of compliance is conclusive evidence of compliance with this section as to any party relying on said affidavit of compliance:",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]"
+  },
+  {
+    "id": "ft-notice-of-sale-recipients",
+    "claim": "Idaho Code 45-1506(2) requires the notice of trustee's sale to be given, after the notice of default is recorded, by registered or certified mail, return receipt requested, to the last known address of the grantor, any person who recorded a request for notice, any successor in interest of the grantor (including a grantee, transferee or lessee) whose interest is of record before the notice of default or is actually known to the trustee or beneficiary, and any person with a later lien or interest that is of record before the notice of default or actually known.",
+    "quote": "Subsequent to recording notice of default as hereinbefore provided, and at least one hundred twenty (120) days before the day fixed by the trustee for the trustee's sale, notice of such sale shall be given by registered or certified mail, return receipt requested, to the last known address of the following persons or their legal representatives, if any: (a) The grantor in the trust deed and any person requesting notice of record as provided in section 45-1511, Idaho Code. (b) Any successor in interest of the grantor including, but not limited to, a grantee, transferee or lessee, whose interest appears of record prior to the recording of the notice of default, or where the trustee or the beneficiary has actual notice of such interest. (c) Any person having a lien or interest subsequent to the interest of the trustee in the trust deed where such lien or interest appears of record prior to the recording of the notice of default, or where the trustee or the beneficiary has actual notice of such lien or interest.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-notice-of-sale-contents",
+    "claim": "Idaho Code 45-1506(4) requires the notice of sale to set out the names of the grantor, trustee and beneficiary, a description of the property, where the trust deed is recorded, the default, the sum owing, and the date, time and place of the sale, which must be held after 9:00 a.m. and before 4:00 p.m. at a designated place in the county, or one of the counties, where the property is located.",
+    "quote": "The notice of sale shall set forth: (a) The names of the grantor, trustee and beneficiary in the trust deed. (b) A description of the property covered by the trust deed. (c) The book and page of the mortgage records or the recorder's instrument number where the trust deed is recorded. (d) The default for which the foreclosure is made. (e) The sum owing on the obligation secured by the trust deed. (f) The date, time and place of the sale which shall be held at a designated time after 9:00 a.m. and before 4:00 p.m., standard time, and at a designated place in the county or one (1) of the counties where the property is located.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-notice-of-sale-posting",
+    "claim": "Under Idaho Code 45-1506(5), at each attempt to serve the notice of sale on an adult occupant a copy must be posted in a conspicuous place on the property unless a previously posted copy remains; if personal service is made on an adult occupant and a copy is posted, no further attempt or posting is required.",
+    "quote": "At the time of each such attempt, a copy of the notice of sale shall be posted in a conspicuous place on the real property unless the copy of the notice of sale previously posted remains conspicuously posted. Provided, however, that if during such an attempt personal service is made upon an adult occupant and a copy of the notice is posted, then no further attempt at personal service and no further posting shall be required.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-affidavits-recorded-twenty-days",
+    "claim": "Idaho Code 45-1506(7) requires an affidavit of mailing the notice of sale, an affidavit of posting when required, and the publication of the notice of sale to be recorded in the mortgage records of the counties where the property is situated at least 20 days before the date of sale.",
+    "quote": "An affidavit of mailing notice of sale and an affidavit of posting, when required, and publication of notice of sale as required by subsection (6) of this section shall be recorded in the mortgage records in the counties in which the property described in the deed is situated at least twenty (20) days prior to the date of sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-mail-effective-on-mailing",
+    "claim": "Idaho Code 45-1506(14) provides that service by mail under the section is deemed effective at the time of mailing.",
+    "quote": "Service by mail in accordance with the provisions of this section shall be deemed effective at the time of mailing.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-cure-within-115-days",
+    "claim": "Under Idaho Code 45-1506(12), where the power of sale is to be exercised, the grantor, a successor in interest, a beneficiary under a subordinate deed of trust or a holder of a subordinate lien of record may, at any time within 115 days of the recording of the notice of default, pay the beneficiary the entire amount then due, other than principal that would not be due had no default occurred, together with costs and expenses actually incurred, a reasonable trustee's fee and attorney's fees as provided in the note, and thereby cure the default; the proceedings are then dismissed or discontinued and the obligation and deed of trust are reinstated as if no acceleration had occurred.",
+    "quote": "at any time within one hundred fifteen (115) days of the recording of the notice of default under such deed of trust, if the power of sale therein is to be exercised, or otherwise at any time prior to the entry of a decree of foreclosure, may pay to the beneficiary or their successors in interest, respectively, the entire amount then due under the terms of the deed of trust and the obligation secured thereby, including costs and expenses actually incurred in enforcing the terms of such obligation and a reasonable trustee's fee subject to the limitations imposed by subsection (6) of section 45-1502, Idaho Code, and attorney's fees as may be provided in the promissory note, other than such portion of the principal as would not then be due had no default occurred, and thereby cure the default theretofore existing, and thereupon, all proceedings theretofore had or instituted shall be dismissed or discontinued and the obligation and deed of trust shall be reinstated and shall be and remain in force and effect, the same as if no acceleration had occurred.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-sale-auction-highest-bidder",
+    "claim": "Under Idaho Code 45-1506(8) the trustee's sale is held on the date and at the time and place designated in the notice of sale unless postponed or rescheduled, the trustee sells the property at auction to the highest bidder, and any person, including the beneficiary, may bid.",
+    "quote": "The sale shall be held on the date and at the time and place designated in the notice of sale or notice of rescheduled sale as provided in section 45-1506A, Idaho Code, unless the sale is postponed as provided in this subsection or as provided in section 45-1506B, Idaho Code, respecting the effect of an intervening stay or injunctive relief order. The trustee shall sell the property in one (1) parcel or in separate parcels at auction to the highest bidder. Any person, including the beneficiary under the trust deed, may bid at the trustee's sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-postponement-thirty-days",
+    "claim": "Under Idaho Code 45-1506(8) the trustee may postpone the sale at the beneficiary's request by publicly announcing, at the time and place originally fixed, a stated later date and hour; no sale may be postponed to a date more than 30 days after the date from which it is postponed, and a postponed sale may itself be postponed in the same manner and within the same limit.",
+    "quote": "The trustee may postpone the sale of the property upon request of the beneficiary by publicly announcing at the time and place originally fixed for the sale the postponement to a stated subsequent date and hour. No sale may be postponed to a date more than thirty (30) days subsequent to the date from which the sale is postponed. A postponed sale may itself be postponed in the same manner and within the same time limitations as provided in this subsection.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-postponed-sale-fourteen-day-mailing",
+    "claim": "Under Idaho Code 45-1506(8), for a loan made by a state or federally regulated beneficiary and secured by a deed of trust on the borrower's primary residence as determined under 45-1506C(1), the trustee must mail notice of a previously postponed trustee's sale at least 14 days before conducting it, by the same means and to the same persons as the original notice of sale, and an affidavit of that mailing must be recorded before the sale.",
+    "quote": "For any loan made by a state or federally regulated beneficiary, which loan is secured by a deed of trust encumbering the borrower's primary residence as determined pursuant to section 45-1506C (1), Idaho Code, the trustee, prior to conducting any trustee's sale previously postponed pursuant to this section, shall mail notice of such trustee sale at least fourteen (14) days prior to conducting such sale by the same means and to the same persons as provided in subsection (2) of this section. The trustee or beneficiary shall, prior to conducting the trustee's sale, record an affidavit of mailing confirming that such notice has been mailed as required by this section.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-trustees-deed-on-payment",
+    "claim": "Under Idaho Code 45-1506(9) and (10), the purchaser at the trustee's sale must pay the price bid forthwith, the trustee then executes and delivers the trustee's deed, and the deed conveys the interest the grantor had or had the power to convey when the trust deed was executed, together with any interest acquired afterwards.",
+    "quote": "The purchaser at the sale shall forthwith pay the price bid and upon receipt of payment the trustee shall execute and deliver the trustee's deed to such purchaser ... The trustee's deed shall convey to the purchaser the interest in the property which the grantor had, or had the power to convey, at the time of the execution by him of the trust deed together with any interest the grantor or his successors in interest acquired after the execution of such trust deed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-possession-tenth-day",
+    "claim": "Under Idaho Code 45-1506(11) the purchaser at the trustee's sale is entitled to possession of the property on the tenth day following the sale, and persons remaining in possession after that under any interest except one prior to the deed of trust are deemed tenants at sufferance.",
+    "quote": "The purchaser at the trustee's sale shall be entitled to possession of the property on the tenth day following the sale, and any persons remaining in possession thereafter under any interest except one prior to the deed of trust shall be deemed to be tenants at sufferance.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "ft-rescheduled-sale-after-stay",
+    "claim": "Under Idaho Code 45-1506A, when a sale cannot be held as scheduled because of the automatic stay of the U.S. Bankruptcy Code (11 U.S.C. 362) or a court stay order, it may be rescheduled after the stay ends; notice of the rescheduled sale must be mailed by registered or certified mail at least 30 days before the rescheduled sale and published in the newspaper of original publication once a week for three successive weeks, with the last publication at least 10 days before the sale.",
+    "quote": "In the event a sale cannot be held at the time scheduled by reason of automatic stay provisions of the U.S. bankruptcy code (11 U.S.C. 362), or a stay order issued by any court of competent jurisdiction, then the sale may be rescheduled and conducted following expiration or termination of the effect of the stay in the manner provided in this section. (2) Notice of the rescheduled sale shall be given at least thirty (30) days before the day of the rescheduled sale by registered or certified mail to the last known address of all persons who were entitled to notice by mail of the original sale ... (3) Notice of the rescheduled sale shall be published in the newspaper of original publication once a week for three (3) successive weeks, making three (3) publishings in all, with the last publication to be at least ten (10) days prior to the day of sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506A — Rescheduled sale — Original sale barred by stay — Notice of rescheduled sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506A/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506A, added 1983, ch. 190, sec. 4, p. 518; am. 1987, ch. 166, sec. 1, p. 327.]"
+  },
+  {
+    "id": "ft-stay-lifted-postponement-request",
+    "claim": "Under Idaho Code 45-1506B, if a stay that would have stopped a foreclosure sale is lifted before the sale date, a person with the right to reinstate under 45-1506(12) may ask the trustee to postpone the sale so that at least 115 days elapse from the recording of the notice of default to the rescheduled sale, not counting the time the stay was in effect; the written request must be served on the trustee before the time set for the original sale, and the section creates no cure right longer than 115 days from the recording of the notice of default exclusive of the stay.",
+    "quote": "may request the trustee to postpone the sale for a period of time which shall allow at least one hundred fifteen (115) days to elapse from the recording of the notice of default to the rescheduled date of sale exclusive of the period of time during which such stay was in effect. (2) Written request for postponement must be served upon the trustee prior to the time set for the original sale. ... Nothing in this section shall be construed to create a right to cure the default and reinstate the deed of trust under subsection (12) of section 45-1506, Idaho Code, for a period of time longer than one hundred fifteen (115) days from the recording of the notice of default exclusive of the time during which a stay is in effect and if no request is made to postpone the sale under the circumstances provided in this section, the computation of time under this chapter shall be deemed unaffected by any intervening stay.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506B — Postponement of sale — Intervention of stay",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506B/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506B, added 1983, ch. 190, sec. 5, p. 519.]"
+  },
+  {
+    "id": "ft-proceeds-order",
+    "claim": "Idaho Code 45-1507 directs the trustee to apply the proceeds of the trustee's sale first to the expenses of the sale, including a reasonable trustee's charge and attorney's fee, then to the obligation secured by the trust deed, then to persons with recorded liens subsequent to the trust deed, and any surplus to the grantor or the grantor's successor in interest.",
+    "quote": "The trustee shall apply the proceeds of the trustee's sale as follows: (1) To the expenses of the sale, including a reasonable charge by the trustee and a reasonable attorney's fee. (2) To the obligation secured by the trust deed. (3) To any persons having recorded liens subsequent to the interest of the trustee in the trust deed as their interests may appear. (4) The surplus, if any, to the grantor of the trust deed or to his successor in interest entitled to such surplus.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1507 — Proceeds of sale — Disposition",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1507/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1507, added 1957, ch. 181, sec. 7, p. 345.]"
+  },
+  {
+    "id": "ft-sale-final-no-redemption",
+    "claim": "Under Idaho Code 45-1508 a trustee's sale forecloses and terminates all interest in the property of every person to whom notice was given under 45-1506 and anyone claiming through them, and those persons have no right to redeem the property from the purchaser; a failure to comply with 45-1506 does not affect the validity of the sale in favor of a good-faith purchaser for value.",
+    "quote": "A sale made by a trustee under this act shall foreclose and terminate all interest in the property covered by the trust deed of all persons to whom notice is given under section 45-1506, Idaho Code, and of any other person claiming by, through or under such persons and such persons shall have no right to redeem the property from the purchaser at the trustee's sale. ... Furthermore, any failure to comply with the provisions of section 45-1506, Idaho Code, shall not affect the validity of a sale in favor of a purchaser in good faith for value at or after such sale, or any successor in interest thereof.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "trust-deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1508 — Finality of sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1508, added 1957, ch. 181, sec. 8, p. 345; am. 1990, ch. 401, sec. 3, p. 1126.]"
+  },
+  {
+    "id": "ft-federal-120-day-delinquency",
+    "claim": "Under 12 CFR 1024.41(f)(1), a mortgage servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless the borrower's mortgage loan obligation is more than 120 days delinquent, the foreclosure is based on a violation of a due-on-sale clause, or the servicer is joining the foreclosure action of a superior or subordinate lienholder.",
+    "quote": "A servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless: (i) A borrower's mortgage loan obligation is more than 120 days delinquent; (ii) The foreclosure is based on a borrower's violation of a due-on-sale clause; or (iii) The servicer is joining the foreclosure action of a superior or subordinate lienholder.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ft-federal-application-before-referral",
+    "claim": "Under 12 CFR 1024.41(f)(2), if a borrower submits a complete loss mitigation application during the pre-foreclosure review period or before the servicer has made the first foreclosure notice or filing, the servicer shall not make that first notice or filing unless it has sent notice that the borrower is not eligible for any loss mitigation option and any appeal is unavailable, not requested in time or denied, the borrower rejects all options offered, or the borrower fails to perform under a loss mitigation agreement.",
+    "quote": "If a borrower submits a complete loss mitigation application during the pre-foreclosure review period set forth in paragraph (f)(1) of this section or before a servicer has made the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process, a servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless: (i) The servicer has sent the borrower a notice pursuant to paragraph (c)(1)(ii) of this section that the borrower is not eligible for any loss mitigation option and the appeal process in paragraph (h) of this section is not applicable, the borrower has not requested an appeal within the applicable time period for requesting an appeal, or the borrower's appeal has been denied; (ii) The borrower rejects all loss mitigation options offered by the servicer; or (iii) The borrower fails to perform under an agreement on a loss mitigation option.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ft-federal-principal-residence-scope",
+    "claim": "Under 12 CFR 1024.30(c)(2), the procedures in 12 CFR 1024.39 through 1024.41, which include the 120-day pre-foreclosure review period, apply only to a mortgage loan secured by a property that is the borrower's principal residence.",
+    "quote": "The procedures set forth in §§ 1024.39 through 1024.41 of this subpart only apply to a mortgage loan that is secured by a property that is a borrower's principal residence.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.30 — Scope (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.30",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ft-ada-recorder-online-search",
+    "claim": "The Ada County Recorder's Office says property records within Ada County can be searched with its online search tool by instrument number, party information or parcel number (when available), and that not all documents can be purchased directly through the website.",
+    "quote": "You can search for property records within Ada County using our online search tool. Documents can be searched by instrument number, party information, or parcel numbers (when available). At this time, not all documents can be purchased directly through the website.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "foreclosure"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Property Records — Ada County Clerk/Recorder",
+        "url": "https://adacounty.id.gov/clerk/property-records/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-cfpb-short-sale-definition",
+    "claim": "The Consumer Financial Protection Bureau defines a short sale as a type of loss mitigation in which the home is sold for less than what is owed on the mortgage, and describes it as an alternative to foreclosure in which the owner still has to leave the home.",
+    "quote": "A short sale, which is a type of loss mitigation, is a sale of your home for less than what you owe on your mortgage. ... A short sale is an alternative to foreclosure, but because it is a sale, you will have to leave your home.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "short-sale"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a short sale? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-cfpb-short-sale-needs-lender-agreement",
+    "claim": "The CFPB describes a short sale as depending on the lender's or servicer's agreement: if the lender or servicer agrees, the owner may be able to sell the home to pay off the mortgage even though the price or proceeds are less than the remaining balance.",
+    "quote": "If your lender or servicer agrees to a short sale, you may be able to sell your home to pay off your mortgage, even if the sale price or proceeds turn out to be less than the balance remaining on your mortgage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "short-sale"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a short sale? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-cfpb-short-sale-deficiency-waiver",
+    "claim": "The CFPB advises that in a state where the borrower is responsible for a deficiency, the borrower will want to ask the lender to waive the deficiency before going through with a short sale, that in some states the lender could sue after a short sale to collect it, and that any waiver should be obtained in writing and kept.",
+    "quote": "you will want to ask your lender to waive the deficiency before you go through with a short sale. In some states, after a short sale, your lender could sue you to collect the amount of the deficiency. Getting a waiver of deficiency means that the lender waived the right to collect this amount. If the lender waives the deficiency, get the waiver in writing and keep it for your records.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "short-sale",
+      "deficiency"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a short sale? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-cfpb-deed-in-lieu-definition",
+    "claim": "The CFPB defines a deed-in-lieu of foreclosure as an arrangement in which the owner voluntarily turns over ownership of the home to the lender to avoid the foreclosure process.",
+    "quote": "A deed-in-lieu of foreclosure is an arrangement where you voluntarily turn over ownership of your home to the lender to avoid the foreclosure process.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deed-in-lieu"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a deed-in-lieu of foreclosure? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-deed-in-lieu-of-foreclosure-en-291/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-cfpb-deed-in-lieu-cover-full-balance",
+    "claim": "The CFPB advises anyone considering a deed-in-lieu to make sure it covers the entire amount still owed on the mortgage loan, says the borrower can ask the lender to waive any deficiency and should get that waiver in writing, and warns that a tax liability may still arise.",
+    "quote": "If you are considering a deed-in-lieu of foreclosure, make sure that it covers the entire amount of money you still owe on the mortgage loan. ... you can ask your lender to waive the deficiency. If the lender agrees, ask for the waiver in writing and keep it for your records. You may still incur a tax liability, so you may want to speak with a tax professional or attorney.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deed-in-lieu",
+      "deficiency",
+      "federal-tax"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a deed-in-lieu of foreclosure? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-deed-in-lieu-of-foreclosure-en-291/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-cfpb-relocation-cash-for-keys",
+    "claim": "The CFPB suggests that a borrower considering a deed-in-lieu also ask the lender or servicer about help with relocation expenses through private programs sometimes called cash-for-keys.",
+    "quote": "also ask your lender or servicer about help with your relocation expenses through private programs that are sometimes called",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deed-in-lieu",
+      "short-sale"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a deed-in-lieu of foreclosure? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-deed-in-lieu-of-foreclosure-en-291/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-hud-fha-pre-foreclosure-sale",
+    "claim": "For FHA-insured loans, HUD describes a Pre-Foreclosure Sale, also known as a short sale, as a home disposition option under which the servicer may be able to accept less than the full amount owed by approving eligible borrowers when the current market value is not enough to pay the loan in full. HUD says such an option may be offered when the borrower cannot continue paying even with a home retention option.",
+    "quote": "you may be offered a home disposition option. ... If your current market value is not enough to pay the loan in full, your servicer may be able to accept less than the full amount owed by approving eligible borrowers for a Pre-Foreclosure Sale, also known as a short sale. You may be eligible to receive relocation expenses if you meet certain conditions.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "short-sale",
+      "fha"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "FHA's Loss Mitigation Program",
+        "url": "https://www.hud.gov/helping-americans/fha-loss-mitigation",
+        "publisher": "U.S. Department of Housing and Urban Development",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-hud-fha-deed-in-lieu",
+    "claim": "For FHA-insured loans, HUD describes a Deed-in-Lieu of Foreclosure as something a borrower may be eligible for if unable to complete a Pre-Foreclosure Sale by the end of its marketing period: voluntarily offering to deed the property to HUD in exchange for a release from all obligations under the mortgage.",
+    "quote": "If you are unable to complete a PFS transaction at the expiration of the PFS marketing period, you may be eligible to voluntarily offer to deed ... the property to HUD in exchange for a release from all obligations under the Mortgage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deed-in-lieu",
+      "fha"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "FHA's Loss Mitigation Program",
+        "url": "https://www.hud.gov/helping-americans/fha-loss-mitigation",
+        "publisher": "U.S. Department of Housing and Urban Development",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-trustee-sale-deficiency-three-months",
+    "claim": "Idaho Code 45-1512 allows a money judgment to be sought for the balance due on the obligation at any time within 3 months after a sale under a deed of trust, and requires the complaint to set out the entire secured indebtedness, the amount the property sold for and the fair market value at the date of sale.",
+    "quote": "At any time within 3 months after any sale under a deed of trust, as hereinbefore provided, a money judgment may be sought for the balance due upon the obligation for which such deed of trust was given as security, and in such action the plaintiff shall set forth in his complaint the entire amount of indebtedness which was secured by such deed of trust and the amount for which the same was sold and the fair market value at the date of sale",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deficiency"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1512 — Money judgment — Action seeking balance due on obligation",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1512/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1512, added 1957, ch. 181, sec. 12, p. 345.]"
+  },
+  {
+    "id": "ss-trustee-sale-deficiency-fair-market-value-cap",
+    "claim": "Under Idaho Code 45-1512 the court must find the fair market value of the property at the time of the trustee's sale, may not render judgment for more than the amount by which the indebtedness due at the time of sale exceeds that fair market value, with interest from the date of sale, and in no event for more than the difference between the sale price and the entire secured indebtedness.",
+    "quote": "Before rendering judgment the court shall find the fair market value of the real property sold at the time of sale. The court may not render judgment for more than the amount by which the entire amount of indebtedness due at the time of sale exceeds the fair market value at that time, with interest from date of sale, but in no event may the judgment exceed the difference between the amount for which such property was sold and the entire amount of the indebtedness secured by the deed of trust.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deficiency"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1512 — Money judgment — Action seeking balance due on obligation",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1512/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1512, added 1957, ch. 181, sec. 12, p. 345.]"
+  },
+  {
+    "id": "ss-mortgage-foreclosure-deficiency-docketed",
+    "claim": "Idaho Code 6-101 provides that there can be but one action to recover a debt secured by a mortgage on real estate, that the court may direct a sale of the property, and that if the sheriff's return shows the proceeds are insufficient and a balance remains due, judgment can be docketed for that balance against the defendants personally liable for the debt, becoming a lien on the judgment debtor's real estate.",
+    "quote": "There can be but one action for the recovery of any debt, or the enforcement of any right secured by mortgage upon real estate which action must be in accordance with the provisions of this chapter. ... (and if it appear from the sheriff's return that the proceeds are insufficient, and a balance still remains due, judgment can then be docketed for such balance against the defendant or defendants personally liable for the debt), and it becomes a lien on the real estate of such judgment debtor, as in other cases on which execution may be issued.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deficiency",
+      "judgments"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-101 — Proceedings in foreclosure — Construction of section — Meaning of \"action\" — Effect of foreclosure on holder of unrecorded lien",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch1/sect6-101/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(6-101) C.C.P. 1881, sec. 468; R.S., R.C., & C.L., sec. 4520; C.S., sec. 6949; I.C.A., sec. 9-101; am. 1967, ch. 272, sec. 1, p. 745; am. 1993, ch. 281, sec. 1, p. 949.]"
+  },
+  {
+    "id": "ss-mortgage-deficiency-reasonable-value-cap",
+    "claim": "Idaho Code 6-108 bars any Idaho court from entering a deficiency judgment in a mortgage foreclosure on real property for more than the difference between the mortgage indebtedness as determined by the decree, plus costs of foreclosure and sale, and the reasonable value of the mortgaged property as determined by the court on evidence.",
+    "quote": "No court in the state of Idaho shall have jurisdiction to enter a deficiency judgment in any case involving a foreclosure of a mortgage on real property in any amount greater than the difference between the mortgage indebtedness, as determined by the decree, plus costs of foreclosure and sale, and the reasonable value of the mortgaged property, to be determined by the court in the decree upon the taking of evidence of such value.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deficiency"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-108 — Deficiency judgments — Amount restricted",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch1/sect6-108/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[6-108, added 1933, ch. 150, sec. 1, p. 229.]"
+  },
+  {
+    "id": "ss-irs-canceled-debt-generally-taxable",
+    "claim": "The IRS states that, in general, when a debt is canceled, forgiven or discharged for less than the amount owed, the canceled amount is taxable and must be reported on the return for the year the cancellation occurred, and that for an owner of property securing a debt, cancellation may occur through foreclosure, repossession, voluntary transfer of the property to the lender, abandonment, or a mortgage modification.",
+    "quote": "If you own property securing a debt, cancellation of the debt may occur due to foreclosure, repossession, voluntary transfer of the property to the lender, abandonment of the property, or a mortgage modification. ... In general, if your debt is canceled, forgiven, or discharged for less than the amount owed, the amount of the canceled debt is taxable. If taxable, you must report the canceled debt on your tax return for the year in which the cancellation occurred.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "canceled-debt",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 431, Canceled debt – Is it taxable or not?",
+        "url": "https://www.irs.gov/taxtopics/tc431",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-irs-principal-residence-exclusion-ended-2025",
+    "claim": "As published by the IRS and read on 2026-11-13, the exclusion from income for canceled qualified principal residence indebtedness covers debt discharged before January 1, 2026, or discharged subject to an arrangement entered into and evidenced in writing before January 1, 2026. IRS Publication 4681 (2025) states that this indebtedness cannot be excluded from income for discharges completed or discharge agreements entered into after December 31, 2025, and the Instructions for Forms 1099-A and 1099-C state that the exclusion expires on December 31, 2025.",
+    "quote": "Cancellation of qualified principal residence indebtedness that is discharged before January 1, 2026, or discharged subject to an arrangement that is entered into and evidenced in writing before January 1, 2026 ... Qualified principal residence indebtedness cannot be excluded from income for discharges completed or discharge agreements entered into after December 31, 2025. ... The exclusion from income of discharged mortgage debt for qualified principal residence indebtedness and qualified student loan debt under section 108(f)(5) expires on December 31, 2025.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "canceled-debt",
+      "foreclosure"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 431, Canceled debt – Is it taxable or not?",
+        "url": "https://www.irs.gov/taxtopics/tc431",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      },
+      {
+        "title": "Publication 4681 (2025), Canceled Debts, Foreclosures, Repossessions, and Abandonments (for Individuals)",
+        "url": "https://www.irs.gov/publications/p4681",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      },
+      {
+        "title": "Instructions for Forms 1099-A and 1099-C (04/2025)",
+        "url": "https://www.irs.gov/instructions/i1099ac",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-irs-bankruptcy-insolvency-exclusions",
+    "claim": "IRS Topic 431 lists, among the exclusions of canceled debt from gross income, debt canceled in a Title 11 bankruptcy case and debt canceled to the extent the taxpayer was insolvent. Publication 4681 explains that a taxpayer was insolvent immediately before the cancellation to the extent total liabilities exceeded the fair market value of all assets at that time. Topic 431 says an amount qualifying for exclusion is reported on Form 982, attached to the return.",
+    "quote": "Debt canceled in a Title 11 bankruptcy case ... Debt canceled to the extent insolvent ... You were insolvent immediately before the cancellation to the extent that the total of all of your liabilities was more than the FMV of all of your assets immediately before the cancellation. ... You must report the amount qualifying for exclusion, and any corresponding reduction of those tax attributes on Form 982, Reduction of Tax Attributes Due to Discharge of Indebtedness (and Section 1082 Basis Adjustment) and attach to your tax return.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "canceled-debt"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 431, Canceled debt – Is it taxable or not?",
+        "url": "https://www.irs.gov/taxtopics/tc431",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      },
+      {
+        "title": "Publication 4681 (2025), Canceled Debts, Foreclosures, Repossessions, and Abandonments (for Individuals)",
+        "url": "https://www.irs.gov/publications/p4681",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-irs-property-taken-treated-as-sale",
+    "claim": "IRS Topic 431 cautions that when a creditor takes property securing a debt in full or partial satisfaction of it, the owner is treated as having sold the property to the creditor, and the tax treatment depends on whether the owner was personally liable (recourse debt) or not (nonrecourse debt). For recourse debt, ordinary income from cancellation is the amount by which the discharged debt exceeds the property's fair market value; for nonrecourse debt there is no ordinary income from debt cancellation.",
+    "quote": "If your debt is secured by property, and the creditor takes that property in full or partial satisfaction of your debt, you are treated as having sold that property to the creditor. The tax treatment of the deemed sale depends on whether you were personally liable for the debt (recourse debt) or not personally liable for the debt (nonrecourse debt). ... Your ordinary income from the cancellation of the debt is the amount by which the discharged debt exceeds the FMV of the property. ... You will not have ordinary income resulting from debt cancellation.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "canceled-debt",
+      "deed-in-lieu"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Topic no. 431, Canceled debt – Is it taxable or not?",
+        "url": "https://www.irs.gov/taxtopics/tc431",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-irs-1099c-600-short-sale-event",
+    "claim": "IRS instructions direct a covered creditor to file Form 1099-C for each debtor for whom it canceled a debt of $600 or more when an identifiable event has occurred, and list among identifiable events a discharge under an agreement between creditor and debtor to cancel the debt at less than full consideration, giving short sales as the example. Topic 431 adds that the taxpayer's responsibility to report the correct taxable amount remains regardless of the accuracy of the Form 1099-C received.",
+    "quote": "File Form 1099-C, Cancellation of Debt, for each debtor for whom you canceled a debt owed to you of $600 or more if: ... A discharge of indebtedness under an agreement between the creditor and the debtor to cancel the debt at less than full consideration (for example, short sales). ... Your responsibility to report the correct taxable amount of canceled debt as income on your tax return for the year in which the cancellation occurred remains, regardless of the accuracy of the Form 1099-C you received.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "federal-tax",
+      "canceled-debt",
+      "reporting",
+      "short-sale"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Instructions for Forms 1099-A and 1099-C (04/2025)",
+        "url": "https://www.irs.gov/instructions/i1099ac",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      },
+      {
+        "title": "Topic no. 431, Canceled debt – Is it taxable or not?",
+        "url": "https://www.irs.gov/taxtopics/tc431",
+        "publisher": "Internal Revenue Service",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ss-cfpb-hud-approved-housing-counselor",
+    "claim": "The CFPB describes a housing counselor through a HUD-approved agency as specially trained and certified by the government to help a borrower assess their financial situation, evaluate options when having trouble paying a mortgage, and make a plan. It states that HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge and can help a borrower talk to the mortgage servicer and understand the options offered.",
+    "quote": "A housing counselor though a HUD-approved agency is specially trained and certified by the government to help you assess your financial situation, evaluate options if you are having trouble paying your mortgage loan, and make a plan to get you help with your mortgage. ... HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge. They can also help you talk to your mortgage servicer and understand any options your servicer has offered.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing-counseling"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a HUD-approved housing counseling agency, and how can they help me? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-hud-approved-housing-counselor-how-can-they-help-me-en-261/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (federal)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-sale-ends-interest-no-redemption",
+    "claim": "Under Idaho Code 45-1508, a trustee's sale forecloses and terminates all interest in the property of every person given notice under section 45-1506 and of anyone claiming through them, and those persons have no right to redeem the property from the purchaser at the trustee's sale.",
+    "quote": "A sale made by a trustee under this act shall foreclose and terminate all interest in the property covered by the trust deed of all persons to whom notice is given under section 45-1506, Idaho Code, and of any other person claiming by, through or under such persons and such persons shall have no right to redeem the property from the purchaser at the trustee's sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1508 — Finality of sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1508, added 1957, ch. 181, sec. 8, p. 345; am. 1990, ch. 401, sec. 3, p. 1126.]"
+  },
+  {
+    "id": "as-notice-defect-good-faith-purchaser",
+    "claim": "Idaho Code 45-1508 says a failure to give notice to one person does not affect the validity of the sale as to persons who were notified or who had actual knowledge of the sale, and that a failure to comply with section 45-1506 does not affect the validity of a sale in favor of a purchaser in good faith for value, or that purchaser's successor.",
+    "quote": "The failure to give notice to any of such persons by mailing, personal service, posting or publication in accordance with section 45-1506, Idaho Code, shall not affect the validity of the sale as to persons so notified nor as to any such persons having actual knowledge of the sale. Furthermore, any failure to comply with the provisions of section 45-1506, Idaho Code, shall not affect the validity of a sale in favor of a purchaser in good faith for value at or after such sale, or any successor in interest thereof.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1508 — Finality of sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1508, added 1957, ch. 181, sec. 8, p. 345; am. 1990, ch. 401, sec. 3, p. 1126.]"
+  },
+  {
+    "id": "as-possession-tenth-day",
+    "claim": "Under Idaho Code 45-1506(11), the purchaser at a trustee's sale is entitled to possession of the property on the tenth day following the sale, and anyone who remains in possession after that under any interest except one prior to the deed of trust is deemed a tenant at sufferance.",
+    "quote": "The purchaser at the trustee's sale shall be entitled to possession of the property on the tenth day following the sale, and any persons remaining in possession thereafter under any interest except one prior to the deed of trust shall be deemed to be tenants at sufferance.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "tenants"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "as-trustee-deed-conveys-grantor-interest",
+    "claim": "Under Idaho Code 45-1506(9) and (10), the purchaser at the sale pays the price bid forthwith, the trustee then executes and delivers the trustee's deed, and that deed conveys the interest the grantor had or had the power to convey when the trust deed was signed, together with any interest the grantor or the grantor's successors acquired afterwards.",
+    "quote": "The purchaser at the sale shall forthwith pay the price bid and upon receipt of payment the trustee shall execute and deliver the trustee's deed to such purchaser ... The trustee's deed shall convey to the purchaser the interest in the property which the grantor had, or had the power to convey, at the time of the execution by him of the trust deed together with any interest the grantor or his successors in interest acquired after the execution of such trust deed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "as-trustee-deed-recitals-and-effective-date",
+    "claim": "Under Idaho Code 45-1510(1), once the trustee's deed is recorded in the county where the property is located, the recitals in the deed and in the affidavits required by 45-1506(7) are prima facie evidence of their truth in any court and are conclusive in favor of a purchaser in good faith for value; the deed is deemed effective as of the date and time of the sale if it is recorded within fifteen days after the sale.",
+    "quote": "When the trustee's deed is recorded in the deed records of the county where the property described in the deed is located, the recitals contained in the deed and in the affidavits required under section 45-1506 (7), Idaho Code, shall be prima facie evidence in any court of the truth of the recitals and the affidavits. However, the recitals and affidavits are conclusive in favor of a purchaser in good faith for value or any successor in interest thereof. For purposes of this section, the trustee's deed shall be deemed effective as of the date and time on which the sale was held if such deed is recorded within fifteen (15) days after the date of sale or the first business day following the fifteenth day if the county recorder of the county in which the property is located is closed on the fifteenth day.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deeds",
+      "recording"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1510 — Trustee's deed — Recording — Effect",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1510/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1510, added 1957, ch. 181, sec. 10, p. 345; am. 1990, ch. 401, sec. 4, p. 1126; am. 2010, ch. 249, sec. 1, p. 639; am. 2013, ch. 174, sec. 1, p. 403.]"
+  },
+  {
+    "id": "as-rescission-of-trustee-deed-invalid-sale",
+    "claim": "Idaho Code 45-1510(2) provides that where a trustee's sale is invalid by reason of the automatic stay provisions of the U.S. bankruptcy code, a stay order issued by a court, or otherwise, recording a notice of rescission of the trustee's deed restores record title and lien priorities to where they stood before the sale, and that only the trustee or beneficiary who caused the deed to be recorded, or a successor, may record that notice.",
+    "quote": "Where a trustee's sale held pursuant to section 45-1506, Idaho Code, is invalid by reason of automatic stay provisions of the U.S. bankruptcy code, or a stay order issued by any court of competent jurisdiction or otherwise, recordation of a notice of rescission of the trustee's deed shall restore the condition of record title to the real property described in the trustee's deed and the existence and priority of all lienholders to the status quo prior to the trustee's sale. Only the trustee or beneficiary who caused the trustee's deed to be recorded, or his/its successor in interest, may record a notice of rescission.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deeds",
+      "recording"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1510 — Trustee's deed — Recording — Effect",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1510/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1510, added 1957, ch. 181, sec. 10, p. 345; am. 1990, ch. 401, sec. 4, p. 1126; am. 2010, ch. 249, sec. 1, p. 639; am. 2013, ch. 174, sec. 1, p. 403.]"
+  },
+  {
+    "id": "as-proceeds-order-and-surplus",
+    "claim": "Idaho Code 45-1507 requires the trustee to apply the proceeds of the trustee's sale in a fixed order: first to the expenses of the sale, including a reasonable trustee's charge and a reasonable attorney's fee; second to the obligation secured by the trust deed; third to persons having recorded liens subsequent to the interest of the trustee in the trust deed, as their interests may appear; and fourth, any surplus to the grantor of the trust deed or the grantor's successor in interest entitled to it.",
+    "quote": "The trustee shall apply the proceeds of the trustee's sale as follows: (1) To the expenses of the sale, including a reasonable charge by the trustee and a reasonable attorney's fee. (2) To the obligation secured by the trust deed. (3) To any persons having recorded liens subsequent to the interest of the trustee in the trust deed as their interests may appear. (4) The surplus, if any, to the grantor of the trust deed or to his successor in interest entitled to such surplus.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "liens",
+      "equity"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1507 — Proceeds of sale — Disposition",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1507/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1507, added 1957, ch. 181, sec. 7, p. 345.]"
+  },
+  {
+    "id": "as-deficiency-three-month-window",
+    "claim": "Under Idaho Code 45-1512, a money judgment for the balance due on the obligation that the deed of trust secured may be sought at any time within 3 months after a sale under the deed of trust.",
+    "quote": "At any time within 3 months after any sale under a deed of trust, as hereinbefore provided, a money judgment may be sought for the balance due upon the obligation for which such deed of trust was given as security",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "judgments",
+      "creditors"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1512 — Money judgment — Action seeking balance due on obligation",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1512/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1512, added 1957, ch. 181, sec. 12, p. 345.]"
+  },
+  {
+    "id": "as-deficiency-fair-market-value-limit",
+    "claim": "Idaho Code 45-1512 requires the court, before entering a deficiency judgment, to find the fair market value of the property at the time of sale; the judgment may not exceed the amount by which the entire indebtedness due at the time of sale exceeds that fair market value, with interest from the date of sale, and in no event may it exceed the difference between the amount the property sold for and the entire indebtedness secured by the deed of trust.",
+    "quote": "Before rendering judgment the court shall find the fair market value of the real property sold at the time of sale. The court may not render judgment for more than the amount by which the entire amount of indebtedness due at the time of sale exceeds the fair market value at that time, with interest from date of sale, but in no event may the judgment exceed the difference between the amount for which such property was sold and the entire amount of the indebtedness secured by the deed of trust.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "judgments",
+      "creditors"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1512 — Money judgment — Action seeking balance due on obligation",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1512/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1512, added 1957, ch. 181, sec. 12, p. 345.]"
+  },
+  {
+    "id": "as-unoccupied-personal-property-ninety-days",
+    "claim": "Under Idaho Code 45-1506(15), on or after the tenth day following the sale, if the purchaser reasonably determines the property is unoccupied, the purchaser may remove nontitled personal property and place it in suitable storage, and may dispose of it only after ninety days' written notice sent by first class mail to the last known address of the last known occupant and posted in a conspicuous place on the premises; an owner who does not claim the property within those ninety days loses all rights in it.",
+    "quote": "On or after the tenth day, as provided in subsection (11) of this section, if the property is reasonably determined by the purchaser to be unoccupied, the purchaser may: ... Remove any nontitled personal property from the premises and place it in suitable storage. The purchaser may dispose of the nontitled personal property only after providing ninety (90) days' written notice as follows: (i) First class mail to the last known address of the last known occupant of the property; and (ii) Posting a notice in a conspicuous place on the premises ... If the owner of the nontitled personal property fails to claim the nontitled personal property within ninety (90) days of the date that written notice was provided under paragraph (b) of this subsection, then any and all of his rights in said property shall extinguish",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "vacant"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "as-possession-action-tenant-at-sufferance",
+    "claim": "Idaho Code 6-310 lets an action exclusively for possession of a tract of five acres or less be brought where the occupant is a tenant at sufferance under 45-1506(11); the complaint may state that no notice is required for that reason, the court must schedule a trial within twelve days from the filing of the complaint, and the summons, complaint and notice of trial setting must be served not less than five days before the trial date.",
+    "quote": "In an action exclusively for possession of a tract of land of five (5) acres or less for the nonpayment of rent ... or in the event the tenant is a tenant at sufferance pursuant to section 45-1506 (11), Idaho Code, it is sufficient to state in the complaint: ... That all notices required by law have been served upon the defendant in the required manner or no notice is required because the defendant is a tenant at sufferance pursuant to section 45-1506 (11), Idaho Code ... at the time of issuance of the summons, the court shall schedule a trial within twelve (12) days from the filing of the complaint, and the service of the summons, complaint and notice of trial setting on the defendant shall be not less than five (5) days before the day of trial appointed by the court.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "tenants",
+      "court-procedure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-310 — Action for possession — Complaint — Summons",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-310/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[6-310, added 1974, ch. 308, sec. 3, p. 1803; am. 1976, ch. 71, sec. 1, p. 239; am. 2001, ch. 203, sec. 2, p. 693; am. 2006, ch. 248, sec. 1, p. 757; am. 2017, ch. 276, sec. 2, p. 724; am. 2018, ch. 124, sec. 1, p. 263.]"
+  },
+  {
+    "id": "as-ptfa-90-day-notice",
+    "claim": "The federal Protecting Tenants at Foreclosure Act provides that, in a foreclosure on a federally-related mortgage loan or on any dwelling or residential real property, the immediate successor in interest takes the property subject to giving any bona fide tenant a notice to vacate at least 90 days before the effective date of the notice; a tenant without a lease, or with a lease terminable at will under state law, is covered by that same 90 day notice.",
+    "quote": "In the case of any foreclosure on a federally-related mortgage loan or on any dwelling or residential real property after the date of enactment of this title [May 20, 2009], any immediate successor in interest in such property pursuant to the foreclosure shall assume such interest subject to ... the provision, by such successor in interest of a notice to vacate to any bona fide tenant at least 90 days before the effective date of such notice ... without a lease or with a lease terminable at will under State law, subject to the receipt by the tenant of the 90 day notice under subsection (1), except that nothing under this section shall affect the requirements for termination of any Federal- or State-subsidized tenancy or of any State or local law that provides longer time periods or other additional protections for tenants.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "tenants"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 U.S.C. § 5220, statutory note 'Effect of Foreclosure on Preexisting Tenancy' (Protecting Tenants at Foreclosure Act § 702) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap52-subchapI-sec5220.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-ptfa-lease-runs-to-end-of-term",
+    "claim": "Under the Protecting Tenants at Foreclosure Act, a bona fide tenant under a bona fide lease entered into before the notice of foreclosure may occupy the premises until the end of the remaining lease term, except that the successor in interest may terminate the lease effective on the date of sale of the unit to a purchaser who will occupy it as a primary residence, subject to the 90 day notice. For this purpose the date of a notice of foreclosure is deemed to be the date complete title is transferred to the successor as a result of a court order or under provisions in a mortgage, deed of trust or security deed.",
+    "quote": "under any bona fide lease entered into before the notice of foreclosure to occupy the premises until the end of the remaining term of the lease, except that a successor in interest may terminate a lease effective on the date of sale of the unit to a purchaser who will occupy the unit as a primary residence, subject to the receipt by the tenant of the 90 day notice under paragraph (1) ... the date of a notice of foreclosure shall be deemed to be the date on which complete title to a property is transferred to a successor entity or person as a result of an order of a court or pursuant to provisions in a mortgage, deed of trust, or security deed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "tenants"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 U.S.C. § 5220, statutory note 'Effect of Foreclosure on Preexisting Tenancy' (Protecting Tenants at Foreclosure Act § 702) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap52-subchapI-sec5220.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-ptfa-bona-fide-definition",
+    "claim": "The Protecting Tenants at Foreclosure Act treats a lease or tenancy as bona fide only if the tenant is not the mortgagor or the mortgagor's child, spouse or parent, the lease or tenancy was the result of an arms-length transaction, and the rent is not substantially less than fair market rent or is reduced or subsidized due to a federal, state or local subsidy.",
+    "quote": "a lease or tenancy shall be considered bona fide only if ... the mortgagor or the child, spouse, or parent of the mortgagor under the contract is not the tenant ... the lease or tenancy was the result of an arms-length transaction ... the lease or tenancy requires the receipt of rent that is not substantially less than fair market rent for the property or the unit's rent is reduced or subsidized due to a Federal, State, or local subsidy.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "tenants"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 U.S.C. § 5220, statutory note 'Effect of Foreclosure on Preexisting Tenancy' (Protecting Tenants at Foreclosure Act § 702) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap52-subchapI-sec5220.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-ptfa-restored-2018-no-expiration",
+    "claim": "The Protecting Tenants at Foreclosure Act expired at the end of 2014 and was restored by section 304 of Public Law 115-174. The Federal Reserve Board's letter CA 18-4 states that the restored law became effective on June 23, 2018, that the restored act does not include an expiration date, and that the law is self-executing, with no federal agency having authority to issue regulations implementing it or to interpret it. The U.S. Code, 2024 Edition, prints the tenant-protection section as restored and revived.",
+    "quote": "which became effective on June 23, 2018. The law protects tenants from immediate eviction by persons or entities that become owners of residential property through the foreclosure process ... The law is self-executing; no federal agency has authority to issue regulations implementing the law or to interpret the law. ... which expired on December 31, 2014. Section 704 contained the Protecting Tenants at Foreclosure Act of 2009's sunset provisions; the restored act does not include an expiration date. ... provisions of law amended by such section, and any regulations promulgated pursuant to such section, as in effect on Dec. 30, 2014, restored and revived",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "tenants",
+      "legislation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "CA 18-4: Restoration of the Protecting Tenants at Foreclosure Act — Board of Governors of the Federal Reserve System",
+        "url": "https://www.federalreserve.gov/supervisionreg/caletters/caltr1804.htm",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "tier": 1
+      },
+      {
+        "title": "12 U.S.C. § 5220, statutory note 'Effect of Foreclosure on Preexisting Tenancy' (Protecting Tenants at Foreclosure Act § 702) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title12/html/USCODE-2024-title12-chap52-subchapI-sec5220.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-ptfa-does-not-cover-homeowners",
+    "claim": "The Federal Reserve Board's letter CA 18-4 states that the Protecting Tenants at Foreclosure Act does not cover tenants facing eviction in a non-foreclosed property, tenants with a fraudulent lease, tenants who enter into lease agreements after a foreclosure sale, or homeowners in foreclosure, and that the law does not affect any state or local law that provides longer time periods or other additional protections for tenants.",
+    "quote": "The law does not cover tenants facing eviction in a non-foreclosed property, tenants with a fraudulent lease, tenants who enter in lease agreements after a foreclosure sale, or homeowners in foreclosure. Additionally, the law does not affect the requirements of any State or local law that provides for longer time periods or extends additional protections to tenants.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "tenants"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "CA 18-4: Restoration of the Protecting Tenants at Foreclosure Act — Board of Governors of the Federal Reserve System",
+        "url": "https://www.federalreserve.gov/supervisionreg/caletters/caltr1804.htm",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-fcra-seven-year-adverse-item",
+    "claim": "The Fair Credit Reporting Act, 15 U.S.C. 1681c(a), bars a consumer reporting agency from making a consumer report that contains any other adverse item of information, other than records of convictions of crimes, that antedates the report by more than seven years; civil suits and civil judgments may be reported for seven years from the date of entry or until the governing statute of limitations has expired, whichever is longer.",
+    "quote": "no consumer reporting agency may make any consumer report containing any of the following items of information: ... Civil suits, civil judgments, and records of arrest that, from date of entry, antedate the re port by more than seven years or until the governing statute of limitations has expired, whichever is the longer period. ... Any other adverse item of information, other than records of convictions of crimes which antedates the report by more than seven years.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "credit-reporting"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "15 U.S.C. § 1681c — Requirements relating to information contained in consumer reports (Fair Credit Reporting Act § 605) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapIII-sec1681c.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-fcra-exceptions-large-transactions",
+    "claim": "Under 15 U.S.C. 1681c(b), the seven-year and ten-year reporting limits in subsection (a)(1) through (5) do not apply to a consumer credit report used in connection with a credit transaction involving a principal amount of $150,000 or more, the underwriting of life insurance with a face amount of $150,000 or more, or the employment of an individual at an annual salary of $75,000 or more.",
+    "quote": "The provisions of paragraphs (1) through (5) of subsection (a) are not applicable in the case of any consumer credit report to be used in connection with ... a credit transaction involving, or which may reasonably be expected to involve, a principal amount of $150,000 or more; ... the underwriting of life insurance involving, or which may reasonably be expected to involve, a face amount of $150,000 or more; or ... the employment of any individual at an annual salary which equals, or which may reasonably be expected to equal $75,000, or more.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "credit-reporting"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "15 U.S.C. § 1681c — Requirements relating to information contained in consumer reports (Fair Credit Reporting Act § 605) — United States Code, 2024 Edition",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapIII-sec1681c.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo.gov)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-cfpb-negative-information-seven-years",
+    "claim": "The Consumer Financial Protection Bureau states that a credit reporting company generally can report most negative information for seven years, that information about a lawsuit or a judgment can be reported for seven years or until the statute of limitations runs out, whichever is longer, and that no one has the right to remove accurate negative information from a credit report.",
+    "quote": "A credit reporting company generally can report most negative information for seven years. Information about a lawsuit or a judgment against you can be reported for seven years or until the statute of limitations runs out, whichever is longer. ... However, no one has the right to remove negative information, such as late payments, from a credit report if it is accurate.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "credit-reporting"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "How long does information stay on my credit report? — Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/how-long-does-negative-information-remain-on-my-credit-report-en-323/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "as-cfpb-housing-counselors-hud-approved",
+    "claim": "The Consumer Financial Protection Bureau states that housing counselors can provide advice on buying a home, renting, defaults, forbearances, foreclosures and credit issues, and that the counseling agencies on its searchable list are approved by the U.S. Department of Housing and Urban Development and can offer independent advice, often at little or no cost.",
+    "quote": "Housing counselors throughout the country can provide advice on buying a home, renting, defaults, forbearances, foreclosures, and credit issues. ... The counseling agencies on the searchable list are approved by the U.S. Department of Housing and Urban Development (HUD) and they can offer independent advice, often at little or no cost to you.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Find a housing counselor — Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/find-a-housing-counselor/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-cfpa-notice-heading-and-rescission-line",
+    "claim": "The notice that Idaho Code 45-1602 requires is headed 'NOTICE REQUIRED BY IDAHO LAW'. It opens by explaining what mortgage foreclosure is, tells the owner not to delay seeking advice, names the Idaho Attorney General's website as a source of information, and ends by stating that under Idaho law the owner has five days to rescind or undo certain contracts that relate to transferring interests in property or money in a foreclosure situation.",
+    "quote": "NOTICE REQUIRED BY IDAHO LAW Mortgage foreclosure is a legal proceeding where a lender terminates a borrower's interest in property to satisfy unpaid debt secured by the property. ... Do not delay seeking advice, because the longer you wait, the fewer options you may have. ... Another good source of information is found at the Office of the Idaho Attorney General's website. Under Idaho law, you have five (5) days to rescind or undo certain contracts or agreements that relate to transferring interests in property or money in a foreclosure situation. An attorney or financial professional can tell you more about this option.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1602 — Consumer Foreclosure Protection Act — contract notice",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1602/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1602, added 2008, ch. 192, sec. 1, p. 601; am. 2009, ch. 136, sec. 2, p. 418; am. 2023, ch. 266, sec. 2, p. 796.]"
+  },
+  {
+    "id": "fs-cfpa-spanish-language-notice",
+    "claim": "If a contract covered by Idaho Code 45-1602 was solicited, negotiated or represented to the consumer in Spanish during the foreclosure period, the written notice must be in Spanish, on a form prepared and made available by the office of the attorney general.",
+    "quote": "was solicited, negotiated, or represented to the consumer in the Spanish language, the written notice to be provided to the consumer and set forth in this section shall be in the Spanish language on a form to be prepared and made available by the office of the attorney general",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1602 — Consumer Foreclosure Protection Act — contract notice",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1602/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1602, added 2008, ch. 192, sec. 1, p. 601; am. 2009, ch. 136, sec. 2, p. 418; am. 2023, ch. 266, sec. 2, p. 796.]"
+  },
+  {
+    "id": "fs-cfpa-mailed-cancellation-effective-on-deposit",
+    "claim": "Under Idaho Code 45-1603(3), a notice of cancellation given by mail is effective when deposited in the mail properly addressed with postage prepaid, and notice by certified mail, return receipt requested, to the address specified in the contract is conclusive proof of notice of service.",
+    "quote": "Notice of cancellation, if given by mail, is effective when deposited in the mail properly addressed with postage prepaid. Notice by certified mail, return receipt requested, addressed to the address specified in the contract or agreement, shall be conclusive proof of notice of service.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1603 — Consumer Foreclosure Protection Act — right of rescission",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch16/sect45-1603/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1603, added 2008, ch. 192, sec. 1, p. 602.]"
+  },
+  {
+    "id": "fs-rego-scope-regulation-o",
+    "claim": "12 CFR part 1015 is known as Regulation O. It is issued by the Bureau of Consumer Financial Protection and applies to persons over which the Federal Trade Commission has jurisdiction under the Federal Trade Commission Act.",
+    "quote": "This part, known as Regulation O, is issued by the Bureau of Consumer Financial Protection ... This part applies to persons over which the Federal Trade Commission has jurisdiction under the Federal Trade Commission Act.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1015.1 — Scope of regulations in this part (Regulation O, Mortgage Assistance Relief Services)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.1",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-rego-mars-definition",
+    "claim": "Regulation O defines a mortgage assistance relief service as any service, plan or program offered to a consumer in exchange for consideration that is represented to help with, among other things, stopping, preventing or postponing a foreclosure sale, obtaining a loan modification or forbearance, or negotiating a short sale, a deed-in-lieu of foreclosure, or any other disposition of a dwelling other than a sale to a third party who is not the dwelling loan holder. A dwelling is a residential structure of four or fewer units.",
+    "quote": "Mortgage Assistance Relief Service means any service, plan, or program, offered or provided to the consumer in exchange for consideration, that is represented, expressly or by implication, to assist or attempt to assist the consumer with any of the following: ... Stopping, preventing, or postponing any mortgage or deed of trust foreclosure sale for the consumer's dwelling, any repossession of the consumer's dwelling, or otherwise saving the consumer's dwelling from foreclosure or repossession; ... Negotiating, obtaining, or arranging a modification of any term of a dwelling loan, including a reduction in the amount of interest, principal balance, monthly payments, or fees; ... A short sale of a dwelling, ... A deed-in-lieu of foreclosure, or ... Any other disposition of a dwelling other than a sale to a third party who is not the dwelling loan holder. ... Dwelling means a residential structure containing four or fewer units",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1015.2 — Definitions (Regulation O, Mortgage Assistance Relief Services)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.2",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-rego-provider-excludes-lender-servicer",
+    "claim": "Regulation O defines a mortgage assistance relief service provider as any person that provides, offers to provide or arranges for others to provide such a service, and says the term does not include the dwelling loan holder, the servicer, or their agents or contractors.",
+    "quote": "Mortgage Assistance Relief Service Provider or Provider means any person that provides, offers to provide, or arranges for others to provide, any mortgage assistance relief service. This term does not include: ... The dwelling loan holder, or any agent or contractor of such individual or entity. ... The servicer of a dwelling loan, or any agent or contractor of such individual or entity.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1015.2 — Definitions (Regulation O, Mortgage Assistance Relief Services)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.2",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-rego-advance-fee-ban",
+    "claim": "Under 12 CFR 1015.5(a), it is a violation for a mortgage assistance relief service provider to request or receive payment of any fee or other consideration until the consumer has executed a written agreement with the consumer's loan holder or servicer that incorporates the offer of mortgage relief the provider obtained.",
+    "quote": "It is a violation of this rule for any mortgage assistance relief service provider to: ... Request or receive payment of any fee or other consideration until the consumer has executed a written agreement between the consumer and the consumer's dwelling loan holder or servicer incorporating the offer of mortgage assistance relief the provider obtained from the consumer's dwelling loan holder or servicer;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1015.5 — Prohibition on collection of advance payments and related disclosures (Regulation O, Mortgage Assistance Relief Services)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.5",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-rego-right-to-reject-offer-disclosure",
+    "claim": "When a provider hands the consumer the lender's written offer, 12 CFR 1015.5(b) requires a disclosure on a separate written page stating that the consumer may accept or reject the offer and does not have to pay the provider if the offer is rejected. Section 1015.5(c) also requires a notice from the lender or servicer describing all material differences between the current loan and the loan as it would be if the offer is accepted.",
+    "quote": "“This is an offer of mortgage assistance we obtained from your lender [or servicer]. You may accept or reject the offer. If you reject the offer, you do not have to pay us. ... The disclosure required by this paragraph must be made in a clear and prominent manner, on a separate written page, ... a notice from the consumer's dwelling loan holder or servicer that describes all material differences between the terms, conditions, and limitations associated with the consumer's current mortgage loan and the terms, conditions, and limitations associated with the consumer's mortgage loan if he or she accepts the dwelling loan holder's or servicer's offer",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1015.5 — Prohibition on collection of advance payments and related disclosures (Regulation O, Mortgage Assistance Relief Services)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.5",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-rego-required-advertising-disclosures",
+    "claim": "12 CFR 1015.4 requires every general commercial communication for a mortgage assistance relief service to state that the company is not associated with the government and that its service is not approved by the government or the consumer's lender. Where the provider has represented that the consumer should stop making loan payments, it must disclose that the consumer could lose the home and damage their credit rating.",
+    "quote": "“(Name of company) is not associated with the government, and our service is not approved by the government or your lender.” ... “Even if you accept this offer and use our service, your lender may not agree to change your loan.” ... “If you stop paying your mortgage, you could lose your home and damage your credit rating.”",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1015.4 — Disclosures required in commercial communications (Regulation O, Mortgage Assistance Relief Services)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.4",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-rego-prohibited-representations",
+    "claim": "12 CFR 1015.3 makes it a violation for a mortgage assistance relief service provider to represent that a consumer cannot or should not contact or communicate with his or her lender or servicer, or to misrepresent that its service is affiliated with, endorsed or approved by the United States government, any government agency, a nonprofit housing counselor agency or program, or the consumer's lender or servicer.",
+    "quote": "Representing, expressly or by implication, in connection with the advertising, marketing, promotion, offering for sale, sale, or performance of any mortgage assistance relief service, that a consumer cannot or should not contact or communicate with his or her lender or servicer. ... That a mortgage assistance relief service is affiliated with, endorsed or approved by, or otherwise associated with: ... Any Federal, State, or local government agency, unit, or department, ... Any nonprofit housing counselor agency or program,",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1015.3 — Prohibited representations (Regulation O, Mortgage Assistance Relief Services)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.3",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-rego-attorney-exemption",
+    "claim": "Under 12 CFR 1015.7, an attorney is exempt from most of Regulation O if the attorney provides mortgage assistance relief services as part of the practice of law, is licensed in the state where the consumer resides or the dwelling is located, and complies with state laws and regulations covering the same conduct. That attorney is exempt from the advance-fee section as well only if funds received before performing legal services are deposited in a client trust account and the attorney complies with the state rules for such accounts.",
+    "quote": "An attorney is exempt from this part, with the exception of § 1015.5, if the attorney: ... Provides mortgage assistance relief services as part of the practice of law; ... Is licensed to practice law in the state in which the consumer for whom the attorney is providing mortgage assistance relief services resides or in which the consumer's dwelling is located; ... An attorney who is exempt pursuant to paragraph (a) of this section is also exempt from § 1015.5 if the attorney: ... Deposits any funds received from the consumer prior to performing legal services in a client trust account;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1015.7 — Exemptions (Regulation O, Mortgage Assistance Relief Services)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1015/section-1015.7",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-ftc-upfront-fee-illegal-mars-rule",
+    "claim": "The Federal Trade Commission says it is illegal for a company to charge upfront for promises to help a homeowner get relief on paying a mortgage, and that under the Mortgage Assistance Relief Services (MARS) Rule a company may not charge anything until it has given the homeowner a written offer of a loan modification or other relief from the lender and the homeowner accepts the offer.",
+    "quote": "It’s illegal for a company to charge you upfront for promises to help you get relief on paying your mortgage. ... The Mortgage Assistance Relief Services (MARS) Rule says it's illegal for a company to charge you a penny until it's given you a written offer for a loan modification or other relief from your lender — and you accept the offer.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-ftc-phony-counseling",
+    "claim": "The FTC describes a 'phony counseling' pattern in which scammers pose as housing counselors, lawyers or government representatives, typically tell the homeowner not to contact the lender, a lawyer or a housing counselor, and may tell the homeowner to make mortgage payments directly to them or to transfer the property deed to them.",
+    "quote": "Scammers say they are: housing counselors or lawyers — or that they represent a law firm or they’re from the government. ... They’ll typically tell you not to contact your lender, lawyer, housing counselor, or credit counselor. They may tell you to make your mortgage payments directly to them — rather than to your lender — or to transfer your property deed to them.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-ftc-forensic-audits",
+    "claim": "The FTC says scammers posing as mortgage loan 'auditors' cannot promise that a forensic loan audit will help a homeowner get a loan modification or any other mortgage relief.",
+    "quote": "Scammers can’t promise that a forensic loan audit will help you get a loan modification or any other mortgage relief.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-ftc-rent-to-buy-and-rescue-loans",
+    "claim": "The FTC describes 'rent-to-buy' schemes, in which the homeowner gives up the deed and is told they can stay as a renter and buy the home back later, and 'rescue loan' schemes, in which a document that gives the scammer the deed is buried in a stack of loan papers the homeowner is pressured to sign quickly.",
+    "quote": "These scammers say you can stay there as a renter and your rent payments — supposedly — will go to helping you buy the home back from them later. ... As soon as you give up the deed to your home, the scammers control what happens to it. ... They may pressure you to sign the papers quickly, without giving you a chance to read them thoroughly or giving you time to follow up on any sections that you don’t understand. ... The scammer rushes you because buried in the stack is a document that gives them the deed to your home in exchange for the loan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-ftc-legitimate-help",
+    "claim": "The FTC tells homeowners who are having trouble paying or have received a foreclosure notice to contact their servicer or lender immediately, even if the foreclosure process has already started, and to talk to a certified housing counselor for free help using HUD's list of approved housing counseling agencies. It adds that a homeowner always has the right to contact the lender directly.",
+    "quote": "If you're having trouble paying your mortgage or you've gotten a foreclosure notice, contact your servicer or lender immediately, even if the foreclosure process has already started. ... Talk to a certified housing counselor for free legitimate help. ... You always have the right to contact your lender directly to see whether you have other options.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-ftc-where-to-report",
+    "claim": "The FTC says a suspected mortgage relief scam should be reported to the Federal Trade Commission at ReportFraud.ftc.gov and to the state attorney general.",
+    "quote": "If you think you’ve run into a mortgage relief scam, report it to ... the Federal Trade Commission at ReportFraud.ftc.gov ... your state attorney general",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-ftc-lawyer-check",
+    "claim": "The FTC says a reputable lawyer does not guarantee results, and that the fact a lawyer works for a company does not mean the company can charge an upfront fee or that it is legitimate. It advises checking that anyone claiming to be a lawyer is licensed in the homeowner's state.",
+    "quote": "A reputable lawyer doesn’t guarantee results, no matter what your circumstances. ... Just because a lawyer works for the company doesn’t mean the company can charge you an upfront fee or that it’s legitimate.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Mortgage Relief Scams — FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/articles/mortgage-relief-scams",
+        "publisher": "Federal Trade Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-cfpb-scam-warning-signs",
+    "claim": "The Consumer Financial Protection Bureau describes mortgage loan modification scams as schemes to take a homeowner's money, often by a false promise of saving them from foreclosure. Its list of things scammers may do includes asking for fees upfront, promising to get a loan modification, asking the owner to sign over title, asking the owner to sign papers they do not understand, saying payments should go to someone other than the servicer or lender, and telling the owner to stop making mortgage payments.",
+    "quote": "Mortgage loan modification scams are schemes to take your money – often by making a false promise of saving you from foreclosure. ... Ask you to pay fees upfront to receive services ... Ask you to sign over the title to your property ... Ask you to sign papers that you do not understand ... Say you should start making payments to someone other than your servicer or lender ... Tell you to stop making mortgage loan payments altogether",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What are mortgage loan modification scams? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-mortgage-loan-modification-scams-en-272/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-cfpb-report-and-get-help",
+    "claim": "The CFPB says a homeowner who has been asked for any of the things on its scam list can report the company by submitting a complaint with the CFPB online or by calling (855) 411-CFPB (2372). It also says HUD-approved housing counseling agencies can discuss options with a homeowner who is having trouble paying, and that the state attorney general's office can provide information about state protections and take a complaint.",
+    "quote": "you can report that company by submitting a complaint with the CFPB online or by calling (855) 411-CFPB (2372). ... U.S. Department of Housing and Urban Development (HUD)-approved housing counseling agencies can discuss options with you if you’re having trouble paying your mortgage loan or reverse mortgage loan. ... office for more information about state protections as well as file a complaint.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What are mortgage loan modification scams? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-mortgage-loan-modification-scams-en-272/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-cfpb-fees-only-after-written-offer",
+    "claim": "The CFPB says mortgage relief companies are not allowed to collect any fees until they have provided a written offer from the lender or servicer that the homeowner decides is acceptable, a written document from the lender or servicer describing the key changes to the mortgage, and a reminder that the homeowner may reject the offer without any charge.",
+    "quote": "Mortgage relief companies are not allowed to collect any fees until they have provided you with the following: ... A written offer from your lender or servicer that you decide is acceptable ... A written document from the lender or servicer describing the key changes to your mortgage that would result if you accept the offer ... A reminder that you have the right to reject the offer without any charge",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What are mortgage loan modification scams? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-mortgage-loan-modification-scams-en-272/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-cfpb-housing-counselors-hud-approved",
+    "claim": "The CFPB's housing counselor search lists counseling agencies approved by the U.S. Department of Housing and Urban Development. The CFPB says they can offer independent advice, often at little or no cost, on topics that include defaults, forbearances and foreclosures, and that not every counselor offers all services.",
+    "quote": "Housing counselors throughout the country can provide advice on buying a home, renting, defaults, forbearances, foreclosures, and credit issues. ... The counseling agencies on the searchable list are approved by the U.S. Department of Housing and Urban Development (HUD) and they can offer independent advice, often at little or no cost to you. ... Not every housing counselor offers all services, so be sure to check the list of services offered by each agency.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Find a housing counselor — Consumer Financial Protection Bureau",
+        "url": "https://www.consumerfinance.gov/find-a-housing-counselor/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-hud-housing-counseling-phone",
+    "claim": "HUD says a housing counseling agency can be found by calling 800-569-4287 or searching online, and describes its housing counseling program as working through HUD participating housing counseling agencies and HUD certified housing counselors.",
+    "quote": "HUD's housing counseling program helps families obtain, sustain and retain their homes. HUD accomplishes this mission through a strong network of HUD participating housing counseling agencies and HUD certified housing counselors. To find a housing counseling agency near you please call 800-569-4287",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Housing Counseling — HUD.gov",
+        "url": "https://www.hud.gov/stat/sfh/housing-counseling",
+        "publisher": "U.S. Department of Housing and Urban Development",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-idag-manual-foreclosure-rescue",
+    "claim": "The Idaho Attorney General's Consumer Protection Manual says that 'foreclosure rescue' companies advertise that they can help financially distressed consumers save their homes from foreclosure but often strip consumers of their equity and make them tenants in their own homes. It says consumers should consult a private attorney before signing any contract involving the ownership of their homes.",
+    "quote": "These companies advertise that they can help financially distressed consumers save their homes from foreclosure, but, in fact, they often strip consumers of their equity and make them tenants in their own homes. ... Consumers should consult with a private attorney before they sign any contract involving the ownership of their homes.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Consumer Protection Manual — Idaho Office of Attorney General",
+        "url": "https://ag.idaho.gov/content/uploads/2018/04/ConsumerProtectionManual.pdf",
+        "publisher": "Idaho Office of the Attorney General",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-idag-consumer-protection-complaints",
+    "claim": "The Idaho Attorney General's Consumer Protection Division enforces Idaho's Consumer Protection Act among other consumer laws, accepts consumer complaints through an online Consumer Complaint Form, and lists its phone numbers as 208-334-2424 and toll-free 1-800-432-3545.",
+    "quote": "The Attorney General's Consumer Protection Division enforces various consumer laws, including Idaho’s Consumer Protection Act, Competition Act, Telephone Solicitation Act, and Charitable Solicitation Act. ... If you have a complaint to file with our office, please visit the link below to open the Consumer Complaint Form. ... Phone 208-334-2424 Toll-free 1-800-432-3545",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Consumer Protection — Idaho Office of Attorney General",
+        "url": "https://www.ag.idaho.gov/consumer-protection/",
+        "publisher": "Idaho Office of the Attorney General",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-idag-informal-dispute-resolution",
+    "claim": "The Idaho Attorney General's office says it assists consumers with complaints against unfair, deceptive and fraudulent business practices, and that a consumer may inform the office without requesting action or may request an informal dispute resolution process.",
+    "quote": "The Office of the Attorney General assists consumers with complaints against unfair, deceptive and fraudulent business practices. ... The consumer also has the option to inform our office without requesting action, or may request an informal dispute resolution process from our investigator team.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Report Scams Idaho — Idaho Office of Attorney General",
+        "url": "https://www.ag.idaho.gov/consumer-protection/report-scams-idaho/",
+        "publisher": "Idaho Office of the Attorney General",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-irmpa-loan-modification-is-brokering",
+    "claim": "Idaho Code 26-31-201 defines 'loan modification activities' as, for compensation or gain or in the expectation of it, engaging in or offering to engage in effecting loan modifications in Idaho, and includes engaging in loan modification activities on behalf of a borrower within 'mortgage brokering activities'. A loan modification is an adjustment or compromise of an existing residential mortgage loan and does not include a refinancing.",
+    "quote": "\"Loan modification\" means an adjustment or compromise of an existing residential mortgage loan. The term \"loan modification\" does not include a refinancing transaction. (3) \"Loan modification activities\" means, for compensation or gain or in the expectation of compensation or gain, engaging in or offering to engage in effecting loan modifications in this state. ... or engaging in loan modification activities on behalf of a borrower.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "licensing",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 26-31-201 — Idaho Residential Mortgage Practices Act — definitions (mortgage brokers and lenders)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-201/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[26-31-201, added 2009, ch. 97, sec. 2, p. 288; am. 2013, ch. 64, sec. 3, p. 144; am. 2020, ch. 100, sec. 4, p. 262.]"
+  },
+  {
+    "id": "fs-irmpa-unlicensed-activity-felony",
+    "claim": "Idaho Code 26-31-203 says no person, except one exempt under 26-31-202, shall engage in mortgage brokering activities or mortgage lending activities without first obtaining a license from the department, and that a non-exempt person who does so is guilty of a felony on conviction.",
+    "quote": "Any person, except a person exempt under section 26-31-202, Idaho Code, who engages in mortgage brokering activities or mortgage lending activities without first obtaining a license from the department in accordance with this part, shall upon conviction be guilty of a felony.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "licensing",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 26-31-203 — Idaho Residential Mortgage Practices Act — unlawful acts",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-203/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[26-31-203, added 2009, ch. 97, sec. 2, p. 289.]"
+  },
+  {
+    "id": "fs-irmpa-attorney-exemption",
+    "claim": "Among the exemptions in Idaho Code 26-31-202 are attorneys authorized to practice in Idaho, to the extent they are retained by their clients to engage in activities authorized by that part and the activities are ancillary to the attorney's representation of the client.",
+    "quote": "Attorneys duly authorized to practice in this state, to the extent that they are retained by their clients to engage in activities authorized by this part and such activities are ancillary to the attorney's representation of the client;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 26-31-202 — Idaho Residential Mortgage Practices Act — exemptions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-202/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[26-31-202, added 2009, ch. 97, sec. 2, p. 289; am. 2013, ch. 64, sec. 4, p. 144; am. 2020, ch. 100, sec. 5, p. 263.]"
+  },
+  {
+    "id": "fs-irmpa-loan-mod-fee-written-agreement",
+    "claim": "Idaho Code 26-31-211(11) bars a mortgage broker or lender licensee, or a person required to hold that license, from receiving a fee for loan modification activities except under a written agreement that specifies the fee, specifies the terms of the loan for which modification will be sought, and discloses the expected impact of the modification on the monthly payment and length of the loan.",
+    "quote": "Receive a fee for engaging in loan modification activities except pursuant to a written agreement between the person subject to this part and a person seeking a loan modification. The written agreement must specify the amount of the fee that will be charged to the person seeking a loan modification, specify the terms of the loan for which modification will be sought and disclose the expected impact of the loan modification on the monthly payment and length of the loan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "licensing",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 26-31-211 — Idaho Residential Mortgage Practices Act — prohibited practices of mortgage brokers and mortgage lenders",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch31/sect26-31-211/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[26-31-211, added 2009, ch. 97, sec. 2, p. 295; am. 2013, ch. 64, sec. 10, p. 151; am. 2020, ch. 100, sec. 8, p. 267.]"
+  },
+  {
+    "id": "fs-idfin-licenses-loan-modification-companies",
+    "claim": "The Idaho Department of Finance says the Idaho Residential Mortgage Practices Act charges it with licensing and regulating the mortgage-related activities of mortgage lenders and brokers, mortgage loan modification companies and mortgage loan originators, and that all mortgage licensing is handled through the Nationwide Multistate Licensing System and Registry (NMLS).",
+    "quote": "The Idaho Residential Mortgage Practices Act (IRMPA) charges the Idaho Department of Finance with the responsibility for licensing and regulating the mortgage related activities of mortgage lenders and mortgage brokers, mortgage loan modification companies, independent contractor mortgage loan processors and mortgage underwriters and mortgage loan originators. ... All mortgage licensing is handled through the Nationwide Multistate Licensing System and Registry (NMLS).",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "licensing",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Mortgage, Mortgage Loan Servicing, and MLO Information — Idaho Department of Finance",
+        "url": "https://www.finance.idaho.gov/consumer-finance-bureau/mortgage/",
+        "publisher": "Idaho Department of Finance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fs-idfin-license-lookup-and-complaints",
+    "claim": "The Idaho Department of Finance invites written complaints, with supporting documentation, involving institutions it regulates and alleged violations of its laws and rules, and says a complaint about an institution it does not regulate will be referred to the correct agency. It tells consumers to confirm that a financial services provider is licensed by using the Department's licensee lookup page. It also says it cannot act as a lawyer or give legal advice.",
+    "quote": "the Department invites written complaints and supporting documentation involving institutions regulated by this office and alleged violations of its laws and rules. ... if the Department receives a complaint that involves an institution not regulated by this office, it will be referred to the correct agency. ... Visit the licensee lookup page to confirm the company or individual is licensed with the Department. ... We cannot give you legal advice.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "licensing",
+      "records"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Complaint Guidance — Idaho Department of Finance",
+        "url": "https://www.finance.idaho.gov/complaint-guidance/",
+        "publisher": "Idaho Department of Finance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-payoff-statement-seven-business-days",
+    "claim": "Under 12 CFR 1026.36(c)(3), for a consumer credit transaction secured by a consumer's dwelling, the creditor, assignee or servicer must provide an accurate statement of the total outstanding balance required to pay the obligation in full as of a specified date, sent within a reasonable time and in no case more than seven business days after a written request from the consumer or a person acting on the consumer's behalf; where the statement cannot be provided within seven business days because the loan is in bankruptcy or foreclosure (among other listed reasons), it must be provided within a reasonable time.",
+    "quote": "In connection with a consumer credit transaction secured by a consumer's dwelling, a creditor, assignee or servicer, as applicable, must provide an accurate statement of the total outstanding balance that would be required to pay the consumer's obligation in full as of a specified date. The statement shall be sent within a reasonable time, but in no case more than seven business days, after receiving a written request from the consumer or any person acting on behalf of the consumer. When a creditor, assignee, or servicer, as applicable, is not able to provide the statement within seven business days of such a request because a loan is in bankruptcy or foreclosure, because the loan is a reverse mortgage or shared appreciation mortgage, or because of natural disasters or other similar circumstances, the payoff statement must be provided within a reasonable time.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1026.36 — Prohibited acts or practices and certain requirements for credit secured by a dwelling (Regulation Z); paragraph (c)(3) payoff statements",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.36",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-cfpb-payoff-differs-from-balance",
+    "claim": "The CFPB describes a payoff amount as how much a borrower will have to pay to satisfy the terms of the mortgage loan and completely pay off the debt, says it is different from the current balance, and says it includes interest due through the intended payoff day and may include fees charged and not yet paid.",
+    "quote": "Your payoff amount is how much you will have to pay to satisfy the terms of your mortgage loan and completely pay off your debt. Your payoff amount is different from your current balance. ... Your payoff amount includes the payment of any interest due through the day you intend to pay off your loan. It may also include other fees you have been charged and have not yet paid.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a payoff amount and is it the same as my current balance? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payoff-amount-and-is-it-the-same-as-my-current-balance-en-205/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-reconveyance-on-performance",
+    "claim": "Idaho Code 45-1514 provides that upon performance of the obligation secured by a deed of trust, the trustee, upon written request of the beneficiary, shall reconvey the property described in the deed of trust to the grantor; a beneficiary who refuses to make the request or a trustee who refuses to reconvey is liable as provided by law for refusing to execute a discharge or satisfaction of a mortgage.",
+    "quote": "Upon performance of the obligation secured by the deed of trust, the trustee upon written request of the beneficiary shall reconvey the estate of real property described in the deed of trust to the grantor; providing that in the event of such performance and the refusal of any beneficiary to so request or the trustee to so reconvey, as above provided, such beneficiary or trustee shall be liable as provided by law in the case of refusal to execute a discharge or satisfaction of a mortgage on real property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure",
+      "closing",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1514 — Reconveyance upon satisfaction of obligation",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1514/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1514, added 1957, ch. 181, sec. 14, p. 345.]"
+  },
+  {
+    "id": "sk-title-agent-may-reconvey",
+    "claim": "Under Idaho Code 45-1202, a title insurer or title agent may reconvey a deed of trust under the procedure in 45-1203 if it has fully paid the obligation secured by the trust deed or possesses satisfactory evidence of payment in full, whether or not it is named as trustee.",
+    "quote": "A title insurer or title agent may reconvey a trust deed pursuant to the procedure prescribed in section 45-1203, Idaho Code, if the obligation secured by the trust deed shall have been fully paid by the title insurer or title agent that is permitted to reconvey the trust deed pursuant to section 45-1203, Idaho Code, or such title insurer or title agent shall possess satisfactory evidence of such payment in full. A title insurer or title agent may provide a reconveyance under section 45-1203, Idaho Code, whether or not it is then named as trustee under a trust deed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1202 — Conditions to reconveyance",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch12/sect45-1202/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1202, added 1995, ch. 326, sec. 1, p. 1093.]"
+  },
+  {
+    "id": "sk-title-agent-reconveyance-30-and-60-days",
+    "claim": "Under Idaho Code 45-1203, a title insurer or title agent may, not less than 30 days after payment in full of the obligation secured by the trust deed and receipt of satisfactory evidence of that payment, give the beneficiary or servicer a notice of intent to reconvey; 60 days must then elapse, and if no objection under 45-1204 has been received by the end of that period the title insurer or title agent may execute, acknowledge and record a reconveyance of the trust deed.",
+    "quote": "A title insurer or title agent may execute and record a reconveyance of a trust deed upon compliance with the following procedure: (1) Not less than thirty (30) days after payment in full of the obligation secured by the trust deed and receipt of satisfactory evidence of payment in full has been effected, the title insurer or title agent may either: (a) mail a notice by certified mail with postage prepaid, return receipt requested, to the beneficiary or a servicer ... (2) Sixty (60) days shall elapse following the mailing, in the case of certified mail, or delivery, in the case of hand delivery, of the notice prescribed in subsection (1) of this section. (3) If the title insurer or title agent has not upon expiration of that sixty (60) day period received any objection under section 45-1204, Idaho Code, the title insurer or title agent may then execute, acknowledge, and record a reconveyance of the trust deed",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "closing",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1203 — Procedure for reconveyance",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch12/sect45-1203/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1203, added 1995, ch. 326, sec. 1, p. 1093.]"
+  },
+  {
+    "id": "sk-cure-right-115-days",
+    "claim": "Under Idaho Code 45-1506(12), the grantor, a successor in interest in the trust property, a beneficiary under a subordinate deed of trust or a person with a subordinate lien of record may, at any time within 115 days of the recording of the notice of default where the power of sale is to be exercised, pay the beneficiary the entire amount then due (including costs and expenses actually incurred in enforcing the obligation, a reasonable trustee's fee and attorney's fees as provided in the promissory note) other than the portion of principal that would not then be due had no default occurred; doing so cures the default, the proceedings are dismissed or discontinued, and the obligation and deed of trust are reinstated as if no acceleration had occurred.",
+    "quote": "the grantor or his successor in interest in the trust property or any part thereof, or any beneficiary under a subordinate deed of trust or any person having a subordinate lien or encumbrance of record thereon, at any time within one hundred fifteen (115) days of the recording of the notice of default under such deed of trust, if the power of sale therein is to be exercised, or otherwise at any time prior to the entry of a decree of foreclosure, may pay to the beneficiary or their successors in interest, respectively, the entire amount then due under the terms of the deed of trust and the obligation secured thereby, including costs and expenses actually incurred in enforcing the terms of such obligation and a reasonable trustee's fee ... and attorney's fees as may be provided in the promissory note, other than such portion of the principal as would not then be due had no default occurred, and thereby cure the default theretofore existing, and thereupon, all proceedings theretofore had or instituted shall be dismissed or discontinued and the obligation and deed of trust shall be reinstated and shall be and remain in force and effect, the same as if no acceleration had occurred.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "sk-trustee-sale-postponement-beneficiary-request",
+    "claim": "Under Idaho Code 45-1506(8), a trustee's sale is held on the date in the notice of sale unless postponed under that subsection or under 45-1506B (stay or injunctive relief); the trustee may postpone the sale upon request of the beneficiary by public announcement at the time and place originally fixed, to a date not more than 30 days after the date from which it is postponed, and a postponed sale may itself be postponed in the same manner.",
+    "quote": "The sale shall be held on the date and at the time and place designated in the notice of sale or notice of rescheduled sale as provided in section 45-1506A, Idaho Code, unless the sale is postponed as provided in this subsection or as provided in section 45-1506B, Idaho Code, respecting the effect of an intervening stay or injunctive relief order. ... The trustee may postpone the sale of the property upon request of the beneficiary by publicly announcing at the time and place originally fixed for the sale the postponement to a stated subsequent date and hour. No sale may be postponed to a date more than thirty (30) days subsequent to the date from which the sale is postponed. A postponed sale may itself be postponed in the same manner and within the same time limitations as provided in this subsection.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1506 — Manner of foreclosure — Notice — Sale",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]"
+  },
+  {
+    "id": "sk-notice-of-default-recorded-and-warning",
+    "claim": "Under Idaho Code 45-1505, a trustee may foreclose a trust deed by advertisement and sale only if, among other conditions, the trustee or beneficiary has recorded a notice of default in each county where the property sits; the trustee must mail that notice to any individual who owns an interest in the property, accompanied by a statutory notice in 12-point boldface type that includes the warning not to delay seeking advice because the longer the owner waits, the fewer options the owner may have.",
+    "quote": "The trustee may foreclose a trust deed by advertisement and sale under this act if: ... (3) The trustee or beneficiary shall have (a) filed for record in the office of the recorder in each county wherein the trust property, or some part or parcel, is situated, a notice of default ... In addition, the trustee shall mail the notice required in this section to any individual who owns an interest in property which is the subject of this section. Such notice shall be accompanied by and affixed to the following notice in twelve (12) point boldface type ... Do not delay seeking advice, because the longer you wait, the fewer options you may have.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1505 — Foreclosure of trust deed, when",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1505/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1505, added 1957, ch. 181, sec. 5, p. 345; am. 1990, ch. 401, sec. 1, p. 1123; am. 2008, ch. 192, sec. 2, p. 603; am. 2009, ch. 136, sec. 1, p. 417.]"
+  },
+  {
+    "id": "sk-loss-mit-no-duty-specific-option",
+    "claim": "12 CFR 1024.41 states that nothing in the section imposes a duty on a servicer to provide any borrower with any specific loss mitigation option, and it applies a narrower set of requirements to small servicers.",
+    "quote": "Nothing in § 1024.41 imposes a duty on a servicer to provide any borrower with any specific loss mitigation option. ... A small servicer shall be subject to the prohibition on foreclosure referral in paragraph (f)(1) of this section.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-loss-mit-evaluation-37-and-30-days",
+    "claim": "Under 12 CFR 1024.41(c)(1), if a servicer receives a complete loss mitigation application more than 37 days before a foreclosure sale, then within 30 days of receiving it the servicer must evaluate the borrower for all loss mitigation options available to the borrower and give written notice of which options, if any, it will offer; a complete application is one in which the servicer has received all the information it requires from the borrower.",
+    "quote": "A complete loss mitigation application means an application in connection with which a servicer has received all the information that the servicer requires from a borrower in evaluating applications for the loss mitigation options available to the borrower. ... if a servicer receives a complete loss mitigation application more than 37 days before a foreclosure sale, then, within 30 days of receiving the complete loss mitigation application, a servicer shall: (i) Evaluate the borrower for all loss mitigation options available to the borrower; and (ii) Provide the borrower with a notice in writing stating the servicer's determination of which loss mitigation options, if any, it will offer to the borrower on behalf of the owner or assignee of the mortgage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-loss-mit-sale-prohibition",
+    "claim": "Under 12 CFR 1024.41(g), if a borrower submits a complete loss mitigation application after the servicer has made the first foreclosure notice or filing but more than 37 days before a foreclosure sale, the servicer may not move for foreclosure judgment or order of sale or conduct a foreclosure sale unless the servicer has sent notice that the borrower is not eligible for any option and the appeal process is inapplicable, unused in time or denied, the borrower rejects all options offered, or the borrower fails to perform under a loss mitigation agreement.",
+    "quote": "If a borrower submits a complete loss mitigation application after a servicer has made the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process but more than 37 days before a foreclosure sale, a servicer shall not move for foreclosure judgment or order of sale, or conduct a foreclosure sale, unless: (1) The servicer has sent the borrower a notice pursuant to paragraph (c)(1)(ii) of this section that the borrower is not eligible for any loss mitigation option and the appeal process in paragraph (h) of this section is not applicable, the borrower has not requested an appeal within the applicable time period for requesting an appeal, or the borrower's appeal has been denied; (2) The borrower rejects all loss mitigation options offered by the servicer; or (3) The borrower fails to perform under an agreement on a loss mitigation option.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+        "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-cfpb-short-sale-definition",
+    "claim": "The CFPB defines a short sale as a sale of a home for less than what is owed on the mortgage, classes it as a type of loss mitigation, and says that if the lender or servicer agrees to it the borrower may be able to sell the home to pay off the mortgage even if the sale price or proceeds are less than the remaining balance.",
+    "quote": "A short sale, which is a type of loss mitigation, is a sale of your home for less than what you owe on your mortgage. ... If your lender or servicer agrees to a short sale, you may be able to sell your home to pay off your mortgage, even if the sale price or proceeds turn out to be less than the balance remaining on your mortgage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a short sale? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-cfpb-short-sale-deficiency-waiver",
+    "claim": "The CFPB says that a borrower in a state where the borrower is responsible for a deficiency (the difference between the value of the property and the amount still owed) will want to ask the lender to waive the deficiency before going through with a short sale, and to get any waiver in writing.",
+    "quote": "If you live in a state in which you are responsible for any deficiency, which is the difference between the value of your property and the amount you still owe on your mortgage loan, you will want to ask your lender to waive the deficiency before you go through with a short sale. ... If the lender waives the deficiency, get the waiver in writing and keep it for your records.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a short sale? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-cfpb-hud-counselor-free",
+    "claim": "The CFPB says a housing counselor through a HUD-approved agency is trained and certified by the government to help a homeowner assess their financial situation and evaluate options when having trouble paying the mortgage, that HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge and can help the homeowner talk to the mortgage servicer, and that a counselor can be reached through the HOPE Hotline at (888) 995-HOPE (4673) or by calling the CFPB at (855) 411-CFPB (2372).",
+    "quote": "A housing counselor though a HUD-approved agency is specially trained and certified by the government to help you assess your financial situation, evaluate options if you are having trouble paying your mortgage loan, and make a plan to get you help with your mortgage. ... HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge. They can also help you talk to your mortgage servicer and understand any options your servicer has offered. ... Call the HOPE Hotline, open 24 hours a day, seven days a week, at (888) 995-HOPE (4673). Call the CFPB at (855) 411-CFPB (2372) to be connected to a housing counselor over the phone.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a HUD-approved housing counseling agency, and how can they help me? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-hud-approved-housing-counselor-how-can-they-help-me-en-261/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sk-cfpb-counselor-cannot-promise",
+    "claim": "The CFPB says a housing counselor at a HUD-approved agency cannot promise that a homeowner will get to keep the home, and that a homeowner facing imminent foreclosure or served with legal papers may also need to consult an attorney.",
+    "quote": "A housing counselor at a HUD-approved agency can't promise that you will get to keep your home. They will help you look at your options and make a decision that's right for you. If you are facing imminent foreclosure or have been served with legal papers, you may also need to consult an attorney",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-13",
+    "sources": [
+      {
+        "title": "What is a HUD-approved housing counseling agency, and how can they help me? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-hud-approved-housing-counselor-how-can-they-help-me-en-261/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
   }
 ];
 

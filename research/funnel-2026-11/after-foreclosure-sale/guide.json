@@ -1,0 +1,138 @@
+{
+  "guide": {
+    "slug": "after-a-foreclosure-sale-in-idaho",
+    "title": "After a Foreclosure Sale in Idaho",
+    "h1": "What happens after a foreclosure sale in Idaho",
+    "description": "What Idaho Code says after a trustee's sale: no redemption, possession on the tenth day, who gets surplus money, deficiency limits, tenants, and credit reports.",
+    "cluster": "distress",
+    "published": "2026-11-13",
+    "updated": "2026-11-13"
+  },
+  "content": {
+    "intro": [
+      "Idaho Code 45-1508 says a trustee's sale ends the interest of everyone who was given notice of it, and that those people have no right to redeem the property from the purchaser. Under Idaho Code 45-1506(11) the purchaser is entitled to possession on the tenth day following the sale. The sale money is applied in the order set by Idaho Code 45-1507, with any surplus going to the borrower, and under Idaho Code 45-1512 the lender has 3 months to ask a court for a money judgment on any balance, limited by the property's fair market value.",
+      "This page describes what Idaho Code and federal law say, quoted from the official sources. It is not legal or tax advice and it is not applied to your situation. If a trustee's sale of your home has happened or is about to, talk to an Idaho attorney. We cannot stop a foreclosure, reverse a sale, or negotiate with a lender."
+    ],
+    "sections": [
+      {
+        "heading": "Can I get the house back after the trustee's sale?",
+        "body": [
+          "Idaho's deed of trust statute has no redemption period after the sale. Idaho Code 45-1508 says a sale made by a trustee forecloses and terminates all interest in the property of all persons to whom notice was given under section 45-1506, and of anyone claiming through them. It then says those persons \"shall have no right to redeem the property from the purchaser at the trustee's sale.\"",
+          "The same section addresses mistakes in the notice process. A failure to give notice to one person does not affect the validity of the sale as to people who were notified or who had actual knowledge of the sale. A failure to comply with section 45-1506 does not affect the validity of a sale in favor of a purchaser in good faith for value.",
+          "Idaho Code 45-1510(2) describes one way a trustee's deed is undone. Where a sale is invalid because of the automatic stay provisions of the U.S. bankruptcy code, a court's stay order, or otherwise, recording a notice of rescission restores record title and lien priorities to where they stood before the sale. Only the trustee or beneficiary who recorded the deed, or a successor, may record that notice. The former owner cannot record it.",
+          "Whether a particular sale was valid is a question for a court and an attorney. This page covers a trustee's sale under a deed of trust. A foreclosure by court action and a county tax deed follow other statutes. Our guide on [foreclosure versus property tax delinquency](/guides/idaho-foreclosure-vs-property-tax-delinquency) explains the tax deed process, which has its own redemption rule."
+        ],
+        "claims": [
+          "as-sale-ends-interest-no-redemption",
+          "as-notice-defect-good-faith-purchaser",
+          "as-rescission-of-trustee-deed-invalid-sale",
+          "id-tax-deed-redemption-fourteen-months"
+        ]
+      },
+      {
+        "heading": "What the trustee's deed gives the purchaser",
+        "body": [
+          "The statute calls the borrower who signed the deed of trust the grantor. Under Idaho Code 45-1506(9), the purchaser at the sale pays the price bid forthwith, and the trustee then executes and delivers the trustee's deed. Under subsection (10), that deed conveys the interest the grantor had, or had the power to convey, when the trust deed was signed, together with any interest the grantor acquired afterwards.",
+          "Idaho Code 45-1510(1) covers recording. Once the trustee's deed is recorded in the county where the property is located, the recitals in the deed and in the required affidavits are prima facie evidence of their truth in any court. They are conclusive in favor of a purchaser in good faith for value.",
+          "The deed is deemed effective as of the date and time of the sale if it is recorded within fifteen days after the sale. If the county recorder is closed on the fifteenth day, the first business day after it counts. That fifteen-day rule is about the deed's effective date. It gives the former owner no additional time."
+        ],
+        "claims": [
+          "as-trustee-deed-conveys-grantor-interest",
+          "as-trustee-deed-recitals-and-effective-date"
+        ]
+      },
+      {
+        "heading": "When do I have to leave the house?",
+        "body": [
+          "Idaho Code 45-1506(11) says the purchaser \"shall be entitled to possession of the property on the tenth day following the sale.\" Anyone who remains in possession after that, under any interest except one prior to the deed of trust, is deemed a tenant at sufferance.",
+          "The statute gives the purchaser a court route to possession. Idaho Code 6-310 covers an action exclusively for possession of a tract of five acres or less where the occupant is a tenant at sufferance under 45-1506(11). In that action the complaint may state that no notice is required because of that status. The court must schedule a trial within twelve days from the filing of the complaint. The summons, complaint and notice of trial setting must be served on the occupant not less than five days before the trial date.",
+          "Those day counts describe how the court schedules the case. They are not a move-out date for any particular household, and this page does not cover what follows a judgment. Anyone served with papers in a possession action should speak to an attorney right away.",
+          "Belongings left behind have their own rule. Under Idaho Code 45-1506(15), on or after the tenth day, a purchaser who reasonably determines the property is unoccupied may remove nontitled personal property and place it in suitable storage. The purchaser may dispose of it only after ninety days' written notice, sent by first class mail to the last known address of the last known occupant and posted in a conspicuous place on the premises. An owner who does not claim the property within those ninety days loses all rights in it."
+        ],
+        "claims": [
+          "as-possession-tenth-day",
+          "as-possession-action-tenant-at-sufferance",
+          "as-unoccupied-personal-property-ninety-days"
+        ]
+      },
+      {
+        "heading": "Who gets the money if the house sells for more than the debt?",
+        "body": [
+          "Idaho Code 45-1507 sets the order in which the trustee applies the sale proceeds. First come the expenses of the sale, including a reasonable charge by the trustee and a reasonable attorney's fee. Second is the obligation secured by the trust deed. Third are any persons having recorded liens subsequent to the interest of the trustee in the trust deed, as their interests may appear.",
+          "The fourth and last item is \"the surplus, if any, to the grantor of the trust deed or to his successor in interest entitled to such surplus.\" The former owner is paid only after the sale costs, the foreclosing loan, and later recorded liens. A later recorded lien, such as a second deed of trust or a recorded judgment lien, comes ahead of the owner in that order. Our guide to [liens and judgments on an Idaho house](/guides/liens-and-judgments-when-selling-in-idaho) explains how those liens arise.",
+          "Section 45-1507 sets the order and nothing else. It does not say when the trustee pays, how a former owner claims a surplus, or how a disputed lien is resolved. It puts the duty to apply the proceeds on the trustee. If you believe a sale produced a surplus, an attorney can tell you how to make a claim."
+        ],
+        "claims": [
+          "as-proceeds-order-and-surplus",
+          "ln-judgment-lien-arises-on-recording"
+        ]
+      },
+      {
+        "heading": "Can the lender still come after me for the balance?",
+        "body": [
+          "Idaho allows a deficiency judgment after a trustee's sale and limits it in two ways. Idaho Code 45-1512 says that \"at any time within 3 months after any sale under a deed of trust,\" a money judgment may be sought for the balance due on the obligation the deed of trust secured.",
+          "The second limit is on the amount. Before entering judgment, the court must find the fair market value of the property at the time of sale. The judgment may not be more than the amount by which the entire debt due at the time of sale exceeds that fair market value, with interest from the date of sale. In no event may it exceed the difference between the amount the property sold for and the entire debt secured by the deed of trust.",
+          "So there are two ceilings: the debt less fair market value, and the debt less the sale price. The court makes the fair market value finding. No one else's estimate takes its place, including a buyer's.",
+          "Section 45-1512 speaks of the obligation for which the foreclosed deed of trust was given as security. It does not address a separate loan from a different lender that was also secured by the house. Ask an attorney about any other debt of that kind."
+        ],
+        "claims": [
+          "as-deficiency-three-month-window",
+          "as-deficiency-fair-market-value-limit"
+        ]
+      },
+      {
+        "heading": "What happens to a tenant living in the house?",
+        "body": [
+          "A federal law, the Protecting Tenants at Foreclosure Act, applies to a foreclosure on a federally-related mortgage loan or on any dwelling or residential real property. It says the immediate successor in interest takes the property subject to giving any bona fide tenant a notice to vacate at least 90 days before the effective date of the notice.",
+          "A bona fide tenant with a bona fide lease entered into before the notice of foreclosure may stay until the end of the remaining lease term. The exception is a sale of the unit to a purchaser who will occupy it as a primary residence. In that case the successor in interest may end the lease on the date of that sale, and the tenant still receives the 90 day notice. A tenant without a lease, or with a lease terminable at will, also receives the 90 day notice. The act defines the date of a notice of foreclosure as the date complete title is transferred to the successor.",
+          "A lease or tenancy is bona fide only if three things are true. The tenant is not the mortgagor or the mortgagor's child, spouse or parent. The lease or tenancy was the result of an arms-length transaction. The rent is not substantially less than fair market rent, unless it is reduced or subsidized by a federal, state or local subsidy.",
+          "The act expired at the end of 2014 and was restored in 2018. The Federal Reserve Board's letter on the restoration says the law became effective on June 23, 2018, and that the restored act does not include an expiration date. The 2024 Edition of the United States Code prints the section as restored and revived. The same letter says the law does not cover homeowners in foreclosure or tenants who enter into lease agreements after a foreclosure sale. The 90 days belongs to tenants. For a former owner, the Idaho rule is the tenth-day rule described above.",
+          "Idaho's statute treats people who remain after the tenth day as tenants at sufferance, and the federal act says it does not affect any state or local law that provides longer time periods or other additional protections for tenants. How the two apply to a specific tenancy is a question for an attorney. A landlord thinking about a sale while a lease is running can read [selling a rental with tenants in Idaho](/guides/selling-a-rental-with-tenants-in-idaho)."
+        ],
+        "claims": [
+          "as-ptfa-90-day-notice",
+          "as-ptfa-lease-runs-to-end-of-term",
+          "as-ptfa-bona-fide-definition",
+          "as-ptfa-restored-2018-no-expiration",
+          "as-ptfa-does-not-cover-homeowners",
+          "as-possession-tenth-day"
+        ]
+      },
+      {
+        "heading": "How long a foreclosure can stay on a credit report",
+        "body": [
+          "The federal Fair Credit Reporting Act sets the reporting period. The statute, 15 U.S.C. 1681c, does not name foreclosure. Its general rule bars a consumer reporting agency from reporting any other adverse item of information, other than records of convictions of crimes, that antedates the report by more than seven years. The Consumer Financial Protection Bureau puts it this way: a credit reporting company generally can report most negative information for seven years.",
+          "A deficiency judgment is a court judgment, and the statute treats judgments separately. Civil suits and civil judgments may be reported for seven years from the date of entry or until the governing statute of limitations has expired, whichever is longer.",
+          "The statute has exceptions. The time limits do not apply to a credit report used in connection with a credit transaction involving a principal amount of $150,000 or more, the underwriting of life insurance with a face amount of $150,000 or more, or employment at an annual salary of $75,000 or more.",
+          "The Bureau also says that no one has the right to remove negative information from a credit report if it is accurate. These rules limit what a credit report may contain. They do not set a credit score or any lender's waiting period for a new loan."
+        ],
+        "claims": [
+          "as-fcra-seven-year-adverse-item",
+          "as-fcra-exceptions-large-transactions",
+          "as-cfpb-negative-information-seven-years"
+        ]
+      },
+      {
+        "heading": "Who to talk to after a sale",
+        "body": [
+          "The deadlines on this page are short and they are set by statute. An Idaho attorney is the person to ask whether a sale was valid, how to claim a surplus, how to answer a deficiency lawsuit, and what a possession action means for your household.",
+          "A housing counselor is a second source of help. The Consumer Financial Protection Bureau says housing counselors can provide advice on buying a home, renting, defaults, forbearances, foreclosures and credit issues. It says the counseling agencies on its searchable list are approved by the U.S. Department of Housing and Urban Development and can offer independent advice, often at little or no cost. A housing counselor is not an attorney and does not replace one."
+        ],
+        "claims": [
+          "as-cfpb-housing-counselors-hud-approved"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "After a trustee's sale we have no role. The former owner no longer holds title, so there is nothing for us to buy from them. We cannot stop a foreclosure, undo a sale, recover a surplus, or negotiate with a lender, and we do not give legal or tax advice. The people who can help at that point are an attorney and a housing counselor.",
+          "Before a sale, an owner who still holds title can sell. Idaho requires at least 120 days' notice before a trustee's sale. We buy with our own capital, in any condition, and close through a local title company on a date the seller chooses; a three-week close is realistic. If there is time and the house is in good repair, listing it on the open market may bring a higher price than we would pay. Under Idaho Code 45-1603, a contract signed during the foreclosure period can be cancelled within five business days, and that includes a contract with us. More on timing is on our page about [selling a house before foreclosure](/sell-house-before-foreclosure-idaho)."
+        ],
+        "claims": [
+          "id-trustee-sale-120-day-notice",
+          "vb-cfpa-five-business-day-rescission"
+        ]
+      }
+    ]
+  }
+}

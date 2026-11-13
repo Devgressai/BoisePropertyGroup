@@ -15,7 +15,7 @@ import { articleSchema } from "@/lib/seo/schema";
 import { pageMetadata, metaDescription } from "@/lib/seo/meta";
 import PageSchema from "@/components/seo/PageSchema";
 import NextSteps from "@/components/NextSteps";
-import { situationForGuide } from "@/lib/seo/registry";
+import { situationForGuide, publishedTopics } from "@/lib/seo/registry";
 import { placesForGuide } from "@/lib/seo/internalLinks";
 
 export const dynamicParams = false;
@@ -120,11 +120,24 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             </div>
           )}
           <div className="mt-16 space-y-10 border-t-2 border-[var(--bpg-ink)] pt-8">
+            {/* Same-cluster guides first, with the decision page that weighs them. */}
+            <LinkList
+              heading="Related"
+              cols={1}
+              items={[
+                ...publishedTopics("decision")
+                  .filter((d) => d.guides.includes(g.slug))
+                  .map((d) => ({ href: `/${d.slug}`, label: d.h1 })),
+                ...guides
+                  .filter((o) => o.slug !== g.slug && o.cluster === g.cluster && guideContentFor(o.slug))
+                  .map((o) => ({ href: `/guides/${o.slug}`, label: o.h1 })),
+              ]}
+            />
             <LinkList
               heading="Other guides"
               cols={1}
               items={guides
-                .filter((o) => o.slug !== g.slug && guideContentFor(o.slug))
+                .filter((o) => o.slug !== g.slug && o.cluster !== g.cluster && guideContentFor(o.slug))
                 .map((o) => ({ href: `/guides/${o.slug}`, label: o.h1 }))}
             />
             <LinkList

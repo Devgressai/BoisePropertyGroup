@@ -1,0 +1,275 @@
+{
+  "sources": [
+    {
+      "id": "idcode-45-1502",
+      "title": "Idaho Code § 45-1502 — Definitions — Trustee's charge",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1502/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2016",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Defines beneficiary, grantor, trust deed, trustee and the real property that may be placed under a trust deed. Last amended 2016 ch. 227. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-parties-defined",
+        "ft-trust-deed-property-limits"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1503",
+      "title": "Idaho Code § 45-1503 — Transfers in trust to secure obligation — Foreclosure",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1503/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1993",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Confers the power of sale and gives the beneficiary the option of judicial foreclosure. Last amended 1993 ch. 281. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-power-of-sale-or-judicial-option"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1505",
+      "title": "Idaho Code § 45-1505 — Foreclosure of trust deed, when",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1505/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2009",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Conditions for foreclosure by advertisement and sale, including the recorded notice of default and the statutory warning sheet. Last amended 2009 ch. 136. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-foreclosure-conditions",
+        "ft-notice-of-default-recorded-and-mailed",
+        "ft-notice-of-default-warning-sheet"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1506a",
+      "title": "Idaho Code § 45-1506A — Rescheduled sale — Original sale barred by stay — Notice of rescheduled sale",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506A/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1987",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Notice periods for a sale rescheduled after a bankruptcy or court stay. Last amended 1987 ch. 166. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-rescheduled-sale-after-stay"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1506b",
+      "title": "Idaho Code § 45-1506B — Postponement of sale — Intervention of stay",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506B/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1983",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Postponement request where a stay is lifted before the sale date. Added 1983 ch. 190; no amendments shown. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-stay-lifted-postponement-request"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1506c",
+      "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506C/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Supplemental notice, loan modification request form, 45-day response and compliance affidavit for primary residences. Last amended 2023 ch. 266. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-loan-mod-notice-primary-residence",
+        "ft-loan-mod-form-thirty-days",
+        "ft-loan-mod-notice-hud-counselors",
+        "ft-loan-mod-45-day-response",
+        "ft-loan-mod-meeting-seven-business-days",
+        "ft-loan-mod-affidavit-twenty-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1507",
+      "title": "Idaho Code § 45-1507 — Proceeds of sale — Disposition",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1507/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1957",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Order in which the trustee applies sale proceeds. Added 1957 ch. 181; no amendments shown. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-proceeds-order"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-45-1508",
+      "title": "Idaho Code § 45-1508 — Finality of sale",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1508/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1990",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Sale terminates the interests of persons given notice; no right of redemption. Last amended 1990 ch. 401. Official statute text read in full on the section page and cached. No future-dated version displayed on the page.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (changes normally take effect July 1).",
+      "claimsSupported": [
+        "ft-sale-final-no-redemption"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1024-41",
+      "title": "12 CFR § 1024.41 — Loss mitigation procedures",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.41",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "mortgage-servicing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the current eCFR text of Regulation X (RESPA), 12 CFR Part 1024 Subpart C, retrieved through the eCFR renderer API and cached. Paragraph (f) carries the 120-day pre-foreclosure review period. Section history as displayed ends with 90 FR 20792, May 16, 2025. Future-dated amendments were not checked, so these claims are not marked statutory. The human-readable `url` was constructed from the eCFR path convention and was not itself fetched.",
+      "stalenessRisk": "MEDIUM — the CFPB has amended this subpart repeatedly; re-check eCFR before relying on it.",
+      "claimsSupported": [
+        "ft-federal-120-day-delinquency",
+        "ft-federal-application-before-referral"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-12-cfr-1024-30",
+      "title": "12 CFR § 1024.30 — Scope",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.30",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.30",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "mortgage-servicing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the current eCFR text of Regulation X (RESPA), 12 CFR Part 1024 Subpart C, retrieved through the eCFR renderer API and cached. Paragraph (c)(2) limits 1024.39 through 1024.41 to loans secured by the borrower's principal residence. Future-dated amendments were not checked, so these claims are not marked statutory. The human-readable `url` was constructed from the eCFR path convention and was not itself fetched.",
+      "stalenessRisk": "MEDIUM — the CFPB has amended this subpart repeatedly; re-check eCFR before relying on it.",
+      "claimsSupported": [
+        "ft-federal-principal-residence-scope"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

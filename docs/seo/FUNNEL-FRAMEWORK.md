@@ -89,3 +89,16 @@ GSC performance by registry stage.
   (and a consent decision) or Vercel Web Analytics enabled.
 - NAP (phone/address/entity) and real reviews — unlock LocalBusiness schema
   and trust content.
+
+## Shipped 2026-11-13 — foreclosure cluster
+
+| Stage | Pages |
+|---|---|
+| TOFU guides (+5, cluster `distress`) | `how-to-avoid-foreclosure-in-idaho`, `idaho-foreclosure-timeline`, `short-sale-vs-deed-in-lieu-in-idaho`, `after-a-foreclosure-sale-in-idaho`, `foreclosure-rescue-scams-in-idaho` |
+| MOFU decision (+1) | `/sell-or-keep-house-facing-foreclosure-idaho` |
+| BOFU (existing) | `/sell-house-before-foreclosure-idaho` now lists all of the above |
+
+Brief addendum: `research/funnel-2026-11/FORECLOSURE-CLUSTER.md`. Each folder's NOTES.md
+lists what could not be sourced. Re-read before editing: the IRS cancelled-debt section
+(short-sale guide) and 12 CFR 1024.41 (avoid + sell-or-keep) are the two that can change.
+Guide pages now show same-cluster guides and their decision page under "Related".

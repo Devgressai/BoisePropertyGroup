@@ -1,0 +1,340 @@
+{
+  "claims": [
+    {
+      "id": "sk-payoff-statement-seven-business-days",
+      "claim": "Under 12 CFR 1026.36(c)(3), for a consumer credit transaction secured by a consumer's dwelling, the creditor, assignee or servicer must provide an accurate statement of the total outstanding balance required to pay the obligation in full as of a specified date, sent within a reasonable time and in no case more than seven business days after a written request from the consumer or a person acting on the consumer's behalf; where the statement cannot be provided within seven business days because the loan is in bankruptcy or foreclosure (among other listed reasons), it must be provided within a reasonable time.",
+      "quotedLanguage": "In connection with a consumer credit transaction secured by a consumer's dwelling, a creditor, assignee or servicer, as applicable, must provide an accurate statement of the total outstanding balance that would be required to pay the consumer's obligation in full as of a specified date. The statement shall be sent within a reasonable time, but in no case more than seven business days, after receiving a written request from the consumer or any person acting on behalf of the consumer. When a creditor, assignee, or servicer, as applicable, is not able to provide the statement within seven business days of such a request because a loan is in bankruptcy or foreclosure, because the loan is a reverse mortgage or shared appreciation mortgage, or because of natural disasters or other similar circumstances, the payoff statement must be provided within a reasonable time.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "closing"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1026-36"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: never state the seven-business-day limit without the foreclosure exception in the same breath. A loan in foreclosure is exactly the case where the regulation relaxes the deadline to 'a reasonable time'. The request must be WRITTEN. A creditor or assignee that no longer owns the loan or servicing rights is not subject to the paragraph. Applies to consumer credit secured by a dwelling; do not tell a reader whether their loan qualifies."
+    },
+    {
+      "id": "sk-cfpb-payoff-differs-from-balance",
+      "claim": "The CFPB describes a payoff amount as how much a borrower will have to pay to satisfy the terms of the mortgage loan and completely pay off the debt, says it is different from the current balance, and says it includes interest due through the intended payoff day and may include fees charged and not yet paid.",
+      "quotedLanguage": "Your payoff amount is how much you will have to pay to satisfy the terms of your mortgage loan and completely pay off your debt. Your payoff amount is different from your current balance. ... Your payoff amount includes the payment of any interest due through the day you intend to pay off your loan. It may also include other fees you have been charged and have not yet paid.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "closing"
+      ],
+      "sourceIds": [
+        "cfpb-what-is-a-payoff-amount"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Consumer guidance, not regulation. The page also mentions a possible pre-payment penalty; not used."
+    },
+    {
+      "id": "sk-reconveyance-on-performance",
+      "claim": "Idaho Code 45-1514 provides that upon performance of the obligation secured by a deed of trust, the trustee, upon written request of the beneficiary, shall reconvey the property described in the deed of trust to the grantor; a beneficiary who refuses to make the request or a trustee who refuses to reconvey is liable as provided by law for refusing to execute a discharge or satisfaction of a mortgage.",
+      "quotedLanguage": "Upon performance of the obligation secured by the deed of trust, the trustee upon written request of the beneficiary shall reconvey the estate of real property described in the deed of trust to the grantor; providing that in the event of such performance and the refusal of any beneficiary to so request or the trustee to so reconvey, as above provided, such beneficiary or trustee shall be liable as provided by law in the case of refusal to execute a discharge or satisfaction of a mortgage on real property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "closing",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-45-1514"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1514, added 1957, ch. 181, sec. 14, p. 345.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The section sets NO deadline for the reconveyance and does not itself state the liability; it points to the mortgage-discharge rule (Idaho Code 45-915, read but not claimed here). Do not state a dollar penalty or a number of days from this section."
+    },
+    {
+      "id": "sk-title-agent-may-reconvey",
+      "claim": "Under Idaho Code 45-1202, a title insurer or title agent may reconvey a deed of trust under the procedure in 45-1203 if it has fully paid the obligation secured by the trust deed or possesses satisfactory evidence of payment in full, whether or not it is named as trustee.",
+      "quotedLanguage": "A title insurer or title agent may reconvey a trust deed pursuant to the procedure prescribed in section 45-1203, Idaho Code, if the obligation secured by the trust deed shall have been fully paid by the title insurer or title agent that is permitted to reconvey the trust deed pursuant to section 45-1203, Idaho Code, or such title insurer or title agent shall possess satisfactory evidence of such payment in full. A title insurer or title agent may provide a reconveyance under section 45-1203, Idaho Code, whether or not it is then named as trustee under a trust deed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-45-1202"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1202, added 1995, ch. 326, sec. 1, p. 1093.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Permissive ('may'). This is a backstop for when the beneficiary does not reconvey; it is not the ordinary route and it is the title company's option, not the seller's right."
+    },
+    {
+      "id": "sk-title-agent-reconveyance-30-and-60-days",
+      "claim": "Under Idaho Code 45-1203, a title insurer or title agent may, not less than 30 days after payment in full of the obligation secured by the trust deed and receipt of satisfactory evidence of that payment, give the beneficiary or servicer a notice of intent to reconvey; 60 days must then elapse, and if no objection under 45-1204 has been received by the end of that period the title insurer or title agent may execute, acknowledge and record a reconveyance of the trust deed.",
+      "quotedLanguage": "A title insurer or title agent may execute and record a reconveyance of a trust deed upon compliance with the following procedure: (1) Not less than thirty (30) days after payment in full of the obligation secured by the trust deed and receipt of satisfactory evidence of payment in full has been effected, the title insurer or title agent may either: (a) mail a notice by certified mail with postage prepaid, return receipt requested, to the beneficiary or a servicer ... (2) Sixty (60) days shall elapse following the mailing, in the case of certified mail, or delivery, in the case of hand delivery, of the notice prescribed in subsection (1) of this section. (3) If the title insurer or title agent has not upon expiration of that sixty (60) day period received any objection under section 45-1204, Idaho Code, the title insurer or title agent may then execute, acknowledge, and record a reconveyance of the trust deed",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "closing",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-45-1203"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1203, added 1995, ch. 326, sec. 1, p. 1093.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: these are the day counts of the title-company backstop only. Never write that 'reconveyance takes 90 days' or that a seller must wait for it; a beneficiary can request reconveyance under 45-1514 at any time. 45-1203(4) adds that a reconveyance under this chapter does not itself discharge any personal obligation that was secured."
+    },
+    {
+      "id": "sk-cure-right-115-days",
+      "claim": "Under Idaho Code 45-1506(12), the grantor, a successor in interest in the trust property, a beneficiary under a subordinate deed of trust or a person with a subordinate lien of record may, at any time within 115 days of the recording of the notice of default where the power of sale is to be exercised, pay the beneficiary the entire amount then due (including costs and expenses actually incurred in enforcing the obligation, a reasonable trustee's fee and attorney's fees as provided in the promissory note) other than the portion of principal that would not then be due had no default occurred; doing so cures the default, the proceedings are dismissed or discontinued, and the obligation and deed of trust are reinstated as if no acceleration had occurred.",
+      "quotedLanguage": "the grantor or his successor in interest in the trust property or any part thereof, or any beneficiary under a subordinate deed of trust or any person having a subordinate lien or encumbrance of record thereon, at any time within one hundred fifteen (115) days of the recording of the notice of default under such deed of trust, if the power of sale therein is to be exercised, or otherwise at any time prior to the entry of a decree of foreclosure, may pay to the beneficiary or their successors in interest, respectively, the entire amount then due under the terms of the deed of trust and the obligation secured thereby, including costs and expenses actually incurred in enforcing the terms of such obligation and a reasonable trustee's fee ... and attorney's fees as may be provided in the promissory note, other than such portion of the principal as would not then be due had no default occurred, and thereby cure the default theretofore existing, and thereupon, all proceedings theretofore had or instituted shall be dismissed or discontinued and the obligation and deed of trust shall be reinstated and shall be and remain in force and effect, the same as if no acceleration had occurred.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: the 115 days run from the RECORDING OF THE NOTICE OF DEFAULT, not from the notice of sale and not counted back from the sale date. Never write 'you can cure up to the sale'. The trustee's fee is capped by 45-1502(6) (elided from the quote, not researched here). Source idcode-45-1506 is already in the registry; add this claim id to its claimsSupported at merge."
+    },
+    {
+      "id": "sk-trustee-sale-postponement-beneficiary-request",
+      "claim": "Under Idaho Code 45-1506(8), a trustee's sale is held on the date in the notice of sale unless postponed under that subsection or under 45-1506B (stay or injunctive relief); the trustee may postpone the sale upon request of the beneficiary by public announcement at the time and place originally fixed, to a date not more than 30 days after the date from which it is postponed, and a postponed sale may itself be postponed in the same manner.",
+      "quotedLanguage": "The sale shall be held on the date and at the time and place designated in the notice of sale or notice of rescheduled sale as provided in section 45-1506A, Idaho Code, unless the sale is postponed as provided in this subsection or as provided in section 45-1506B, Idaho Code, respecting the effect of an intervening stay or injunctive relief order. ... The trustee may postpone the sale of the property upon request of the beneficiary by publicly announcing at the time and place originally fixed for the sale the postponement to a stated subsequent date and hour. No sale may be postponed to a date more than thirty (30) days subsequent to the date from which the sale is postponed. A postponed sale may itself be postponed in the same manner and within the same time limitations as provided in this subsection.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Used to support one point only: the subsection gives the postponement request to the BENEFICIARY and names no right for an owner or buyer. 45-1506A (rescheduled sale) and 45-1506B (stays) were not researched for this page; do not describe them. Source idcode-45-1506 is already in the registry."
+    },
+    {
+      "id": "sk-notice-of-default-recorded-and-warning",
+      "claim": "Under Idaho Code 45-1505, a trustee may foreclose a trust deed by advertisement and sale only if, among other conditions, the trustee or beneficiary has recorded a notice of default in each county where the property sits; the trustee must mail that notice to any individual who owns an interest in the property, accompanied by a statutory notice in 12-point boldface type that includes the warning not to delay seeking advice because the longer the owner waits, the fewer options the owner may have.",
+      "quotedLanguage": "The trustee may foreclose a trust deed by advertisement and sale under this act if: ... (3) The trustee or beneficiary shall have (a) filed for record in the office of the recorder in each county wherein the trust property, or some part or parcel, is situated, a notice of default ... In addition, the trustee shall mail the notice required in this section to any individual who owns an interest in property which is the subject of this section. Such notice shall be accompanied by and affixed to the following notice in twelve (12) point boldface type ... Do not delay seeking advice, because the longer you wait, the fewer options you may have.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1505, added 1957, ch. 181, sec. 5, p. 345; am. 1990, ch. 401, sec. 1, p. 1123; am. 2008, ch. 192, sec. 2, p. 603; am. 2009, ch. 136, sec. 1, p. 417.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The statutory notice text in 45-1505 also says 'five (5) days' to rescind; the operative right in 45-1603 is five BUSINESS days (see vb-cfpa-five-business-day-rescission). Conditions (1), (2) and (4) of 45-1505 are not summarised by this claim."
+    },
+    {
+      "id": "sk-loss-mit-no-duty-specific-option",
+      "claim": "12 CFR 1024.41 states that nothing in the section imposes a duty on a servicer to provide any borrower with any specific loss mitigation option, and it applies a narrower set of requirements to small servicers.",
+      "quotedLanguage": "Nothing in § 1024.41 imposes a duty on a servicer to provide any borrower with any specific loss mitigation option. ... A small servicer shall be subject to the prohibition on foreclosure referral in paragraph (f)(1) of this section.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Must accompany every mention of the 1024.41 review: the rule is procedural and promises no outcome. Scope of Subpart C (12 CFR 1024.30: which loans and servicers are covered, the principal-residence condition) was NOT researched; never tell a reader the rule applies to their loan."
+    },
+    {
+      "id": "sk-loss-mit-evaluation-37-and-30-days",
+      "claim": "Under 12 CFR 1024.41(c)(1), if a servicer receives a complete loss mitigation application more than 37 days before a foreclosure sale, then within 30 days of receiving it the servicer must evaluate the borrower for all loss mitigation options available to the borrower and give written notice of which options, if any, it will offer; a complete application is one in which the servicer has received all the information it requires from the borrower.",
+      "quotedLanguage": "A complete loss mitigation application means an application in connection with which a servicer has received all the information that the servicer requires from a borrower in evaluating applications for the loss mitigation options available to the borrower. ... if a servicer receives a complete loss mitigation application more than 37 days before a foreclosure sale, then, within 30 days of receiving the complete loss mitigation application, a servicer shall: (i) Evaluate the borrower for all loss mitigation options available to the borrower; and (ii) Provide the borrower with a notice in writing stating the servicer's determination of which loss mitigation options, if any, it will offer to the borrower on behalf of the owner or assignee of the mortgage.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: 'COMPLETE' application and 'MORE THAN 37 days before a foreclosure sale' are both conditions; never drop either. The paragraph opens 'Except as provided in paragraph (c)(4)(ii)'. State with sk-loss-mit-no-duty-specific-option."
+    },
+    {
+      "id": "sk-loss-mit-sale-prohibition",
+      "claim": "Under 12 CFR 1024.41(g), if a borrower submits a complete loss mitigation application after the servicer has made the first foreclosure notice or filing but more than 37 days before a foreclosure sale, the servicer may not move for foreclosure judgment or order of sale or conduct a foreclosure sale unless the servicer has sent notice that the borrower is not eligible for any option and the appeal process is inapplicable, unused in time or denied, the borrower rejects all options offered, or the borrower fails to perform under a loss mitigation agreement.",
+      "quotedLanguage": "If a borrower submits a complete loss mitigation application after a servicer has made the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process but more than 37 days before a foreclosure sale, a servicer shall not move for foreclosure judgment or order of sale, or conduct a foreclosure sale, unless: (1) The servicer has sent the borrower a notice pursuant to paragraph (c)(1)(ii) of this section that the borrower is not eligible for any loss mitigation option and the appeal process in paragraph (h) of this section is not applicable, the borrower has not requested an appeal within the applicable time period for requesting an appeal, or the borrower's appeal has been denied; (2) The borrower rejects all loss mitigation options offered by the servicer; or (3) The borrower fails to perform under an agreement on a loss mitigation option.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: this is a federal limit on the SERVICER's conduct with three exits; it is not a right to stop a sale and must never be written as 'applying stops the foreclosure'. Complete application + more than 37 days are conditions. Paragraph (i) (duplicative requests) can remove the protection for a repeat application; not claimed."
+    },
+    {
+      "id": "sk-cfpb-short-sale-definition",
+      "claim": "The CFPB defines a short sale as a sale of a home for less than what is owed on the mortgage, classes it as a type of loss mitigation, and says that if the lender or servicer agrees to it the borrower may be able to sell the home to pay off the mortgage even if the sale price or proceeds are less than the remaining balance.",
+      "quotedLanguage": "A short sale, which is a type of loss mitigation, is a sale of your home for less than what you owe on your mortgage. ... If your lender or servicer agrees to a short sale, you may be able to sell your home to pay off your mortgage, even if the sale price or proceeds turn out to be less than the balance remaining on your mortgage.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-what-is-a-short-sale"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Federal consumer guidance, not Idaho law. 'If your lender or servicer agrees' is the operative condition; always carry it."
+    },
+    {
+      "id": "sk-cfpb-short-sale-deficiency-waiver",
+      "claim": "The CFPB says that a borrower in a state where the borrower is responsible for a deficiency (the difference between the value of the property and the amount still owed) will want to ask the lender to waive the deficiency before going through with a short sale, and to get any waiver in writing.",
+      "quotedLanguage": "If you live in a state in which you are responsible for any deficiency, which is the difference between the value of your property and the amount you still owe on your mortgage loan, you will want to ask your lender to waive the deficiency before you go through with a short sale. ... If the lender waives the deficiency, get the waiver in writing and keep it for your records.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-what-is-a-short-sale"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "TRAP: the CFPB sentence is conditional on state law. This page does NOT say whether or how Idaho allows a deficiency after a short sale (Idaho Code 45-1512 belongs to the short-sale page and was not researched here). Always pair with a pointer to an Idaho attorney."
+    },
+    {
+      "id": "sk-cfpb-hud-counselor-free",
+      "claim": "The CFPB says a housing counselor through a HUD-approved agency is trained and certified by the government to help a homeowner assess their financial situation and evaluate options when having trouble paying the mortgage, that HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge and can help the homeowner talk to the mortgage servicer, and that a counselor can be reached through the HOPE Hotline at (888) 995-HOPE (4673) or by calling the CFPB at (855) 411-CFPB (2372).",
+      "quotedLanguage": "A housing counselor though a HUD-approved agency is specially trained and certified by the government to help you assess your financial situation, evaluate options if you are having trouble paying your mortgage loan, and make a plan to get you help with your mortgage. ... HUD-approved housing counseling agencies provide foreclosure prevention counseling free of charge. They can also help you talk to your mortgage servicer and understand any options your servicer has offered. ... Call the HOPE Hotline, open 24 hours a day, seven days a week, at (888) 995-HOPE (4673). Call the CFPB at (855) 411-CFPB (2372) to be connected to a housing counselor over the phone.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-hud-approved-housing-counselor"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'though a HUD-approved agency' is the CFPB's own typo, kept verbatim in the quote. 'Free of charge' is stated for FORECLOSURE PREVENTION counseling specifically. Phone numbers are FAST-CHANGING relative to the rest; re-check before reprinting."
+    },
+    {
+      "id": "sk-cfpb-counselor-cannot-promise",
+      "claim": "The CFPB says a housing counselor at a HUD-approved agency cannot promise that a homeowner will get to keep the home, and that a homeowner facing imminent foreclosure or served with legal papers may also need to consult an attorney.",
+      "quotedLanguage": "A housing counselor at a HUD-approved agency can't promise that you will get to keep your home. They will help you look at your options and make a decision that's right for you. If you are facing imminent foreclosure or have been served with legal papers, you may also need to consult an attorney",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-hud-approved-housing-counselor"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Keeps the counselor referral honest: help with options, no promised outcome."
+    }
+  ]
+}

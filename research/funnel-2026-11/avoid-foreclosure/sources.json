@@ -1,0 +1,400 @@
+{
+  "sources": [
+    {
+      "id": "idcode-45-1506c",
+      "title": "Idaho Code § 45-1506C — Supplemental notice — Opportunity to request loan modification",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1506c/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "trust-deeds",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. Compiler's note shows the section was added in 2011 and last amended by 2023 ch. 266. No future-dated version or effective-date banner displayed on the section page on 2026-11-13.",
+      "stalenessRisk": "LOW — statute; the legislature's site is updated each July 1. Re-check after the 2027 session.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-modnotice-who-gets-it",
+        "af-modnotice-ask-exact-amount",
+        "af-modnotice-may-not-qualify",
+        "af-modnotice-form-thirty-days",
+        "af-modnotice-response-45-days",
+        "af-modnotice-meeting",
+        "af-modnotice-free-counselors-warning"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-30",
+      "title": "12 CFR § 1024.30 — Scope (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.30",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.30",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2016-10-19",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Sets which loans and servicers §§ 1024.39–1024.41 reach. Source note ends 'as amended at ... 81 FR 72370, Oct. 19, 2016'. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before relying on any day count.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-regx-scope"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-39",
+      "title": "12 CFR § 1024.39 — Early intervention requirements for certain borrowers (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.39",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.39",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-05-16",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Source note ends '90 FR 20792, May 16, 2025'. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before relying on any day count.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-regx-live-contact-36-days",
+        "af-regx-written-notice-45-days"
+      ]
+    },
+    {
+      "id": "ecfr-12-cfr-1024-41",
+      "title": "12 CFR § 1024.41 — Loss mitigation procedures (Regulation X, mortgage servicing)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1024/subpart-C/section-1024.41",
+      "retrievalUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-12?part=1024&section=1024.41",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-05-16",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of the CFPB's Regulation X (RESPA) mortgage servicing rules, retrieved through the eCFR renderer API and cached. Source note ends '90 FR 20792, May 16, 2025'. Paragraph (c)(2)(v) on COVID-19-related options is still in the current text and is not used here. Only the 'current' eCFR rendering was read; pending or proposed amendments in the Federal Register were NOT checked, so these claims are not marked statutory.",
+      "stalenessRisk": "MEDIUM — federal regulation in an area the CFPB has proposed to revise; re-check eCFR and the Federal Register before relying on any day count.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-regx-small-servicer",
+        "af-regx-120-day-prefiling",
+        "af-regx-no-duty-specific-option",
+        "af-regx-acknowledgment-5-days",
+        "af-regx-evaluation-30-days",
+        "af-regx-application-before-referral",
+        "af-regx-no-sale-while-pending",
+        "af-regx-appeal-14-days",
+        "af-regx-short-term-plan-on-incomplete-application"
+      ]
+    },
+    {
+      "id": "cfpb-cant-pay-mortgage-options",
+      "title": "If I can't pay my mortgage loan, what are my options? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-i-cant-pay-my-mortgage-en-268/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-28",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2026-08-28. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-call-servicer-right-away",
+        "af-cfpb-what-to-tell-servicer",
+        "af-cfpb-options-servicer-might-offer",
+        "af-cfpb-attorney-if-imminent",
+        "af-cfpb-no-need-to-pay-scam-signs"
+      ]
+    },
+    {
+      "id": "cfpb-mortgage-repayment-plan",
+      "title": "What is a repayment plan on a mortgage? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-repayment-plan-on-a-mortgage-en-280/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-01-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2025-01-02. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-repayment-plan-definition",
+        "af-cfpb-repayment-plan-still-delinquent"
+      ]
+    },
+    {
+      "id": "cfpb-mortgage-forbearance",
+      "title": "What is mortgage forbearance? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-forbearance-en-289/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-28",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2026-08-28. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-forbearance-definition",
+        "af-cfpb-forbearance-what-to-ask"
+      ]
+    },
+    {
+      "id": "cfpb-mortgage-loan-modification",
+      "title": "What is a mortgage loan modification? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-loan-modification-en-269/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020-09-04",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2020-09-04. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-modification-definition"
+      ]
+    },
+    {
+      "id": "cfpb-what-is-a-short-sale",
+      "title": "What is a short sale? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-short-sale-en-290/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-02-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2024-02-02. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-short-sale-definition"
+      ]
+    },
+    {
+      "id": "cfpb-deed-in-lieu",
+      "title": "What is a deed-in-lieu of foreclosure? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-deed-in-lieu-of-foreclosure-en-291/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-01-02",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2025-01-02. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-deed-in-lieu-definition"
+      ]
+    },
+    {
+      "id": "cfpb-hud-approved-housing-counselor",
+      "title": "What is a HUD-approved housing counseling agency, and how can they help me? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-hud-approved-housing-counselor-how-can-they-help-me-en-261/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-09-11",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2024-09-11. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-housing-counselor-what-they-do",
+        "af-cfpb-hope-hotline"
+      ]
+    },
+    {
+      "id": "cfpb-what-is-a-payoff-amount",
+      "title": "What is a payoff amount and is it the same as my current balance? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payoff-amount-and-is-it-the-same-as-my-current-balance-en-205/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "lending",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026-08-28",
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' 2026-08-28. The CFPB's own disclaimer says the page is general consumer information, not legal advice or regulatory guidance. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — plain-language definitions; re-check the 'last reviewed' date.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-cfpb-payoff-amount"
+      ]
+    },
+    {
+      "id": "hud-avoiding-foreclosure",
+      "title": "Avoiding Foreclosure — HUD.gov",
+      "publisher": "U.S. Department of Housing and Urban Development",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/helping-americans/avoiding-foreclosure",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer page, raw HTML cached. The page carries NO visible publication or review date. Its month-by-month 'how it happens' timeline is generic, says it varies by state, and mentions a redemption period; none of that timeline is used, because Idaho's process is set by Idaho Code. Used only for what HUD says about HUD-funded housing counseling and its phone number.",
+      "stalenessRisk": "MEDIUM — undated page on a site that was restructured (the old /topics/avoiding_foreclosure and /counseling URLs no longer serve content). Re-check the phone number before publishing.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-hud-counseling-free-or-low-cost"
+      ]
+    },
+    {
+      "id": "uscourts-chapter-13-basics",
+      "title": "Chapter 13 — Bankruptcy Basics",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "organizationType": "federal-government",
+      "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-13-bankruptcy-basics",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "foreclosure",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The federal judiciary's plain-language description of chapter 13, raw HTML cached. An explanatory page, not the Bankruptcy Code itself; it cites 11 U.S.C. § 1322(c) for the passage used. No visible review date found on the page.",
+      "stalenessRisk": "LOW — general description; dollar limits elsewhere on the page change periodically and are not used.",
+      "entitiesSupported": [],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-uscourts-chapter-13-foreclosure"
+      ]
+    },
+    {
+      "id": "ihfa-homeowner-resources",
+      "title": "Homeowner Resources — Idaho Housing and Finance Association",
+      "publisher": "Idaho Housing and Finance Association",
+      "organizationType": "state-government",
+      "url": "https://www.idahohousing.com/homeowners/homeowner-resources/",
+      "sourceTier": 2,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-13",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "TIER 2 — IHFA is a housing finance association created under Idaho statute, not a state executive agency; 'state-government' is the closest registry category and a reviewer may prefer another. Raw HTML cached. Used only for IHFA's own answer to 'What can I do if I'm having trouble making my monthly mortgage payment?'. On 2026-11-13 this page listed no state mortgage-assistance or foreclosure-prevention grant program.",
+      "stalenessRisk": "MEDIUM — a program page; programs open and close. Re-check before publishing.",
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "af-ihfa-trouble-paying-points-to-counseling"
+      ]
+    }
+  ]
+}

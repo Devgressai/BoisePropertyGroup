@@ -1,0 +1,735 @@
+{
+  "claims": [
+    {
+      "id": "fs-cfpa-notice-heading-and-rescission-line",
+      "claim": "The notice that Idaho Code 45-1602 requires is headed 'NOTICE REQUIRED BY IDAHO LAW'. It opens by explaining what mortgage foreclosure is, tells the owner not to delay seeking advice, names the Idaho Attorney General's website as a source of information, and ends by stating that under Idaho law the owner has five days to rescind or undo certain contracts that relate to transferring interests in property or money in a foreclosure situation.",
+      "quotedLanguage": "NOTICE REQUIRED BY IDAHO LAW Mortgage foreclosure is a legal proceeding where a lender terminates a borrower's interest in property to satisfy unpaid debt secured by the property. ... Do not delay seeking advice, because the longer you wait, the fewer options you may have. ... Another good source of information is found at the Office of the Idaho Attorney General's website. Under Idaho law, you have five (5) days to rescind or undo certain contracts or agreements that relate to transferring interests in property or money in a foreclosure situation. An attorney or financial professional can tell you more about this option.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1602"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1602, added 2008, ch. 192, sec. 1, p. 601; am. 2009, ch. 136, sec. 2, p. 418; am. 2023, ch. 266, sec. 2, p. 796.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Complements vb-cfpa-written-notice-required, which quotes the middle of the same notice. TRAP: the notice text says 'five (5) days'; the operative right in 45-1603 is five BUSINESS days. State both and say which section controls the wording of the right. Do not say the Attorney General endorses any buyer: the notice only names the AG website as an information source."
+    },
+    {
+      "id": "fs-cfpa-spanish-language-notice",
+      "claim": "If a contract covered by Idaho Code 45-1602 was solicited, negotiated or represented to the consumer in Spanish during the foreclosure period, the written notice must be in Spanish, on a form prepared and made available by the office of the attorney general.",
+      "quotedLanguage": "was solicited, negotiated, or represented to the consumer in the Spanish language, the written notice to be provided to the consumer and set forth in this section shall be in the Spanish language on a form to be prepared and made available by the office of the attorney general",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "idcode-45-1602"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1602, added 2008, ch. 192, sec. 1, p. 601; am. 2009, ch. 136, sec. 2, p. 418; am. 2023, ch. 266, sec. 2, p. 796.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The Spanish form itself was not located on ag.idaho.gov on 2026-11-13. Do not link to it or describe its contents."
+    },
+    {
+      "id": "fs-cfpa-mailed-cancellation-effective-on-deposit",
+      "claim": "Under Idaho Code 45-1603(3), a notice of cancellation given by mail is effective when deposited in the mail properly addressed with postage prepaid, and notice by certified mail, return receipt requested, to the address specified in the contract is conclusive proof of notice of service.",
+      "quotedLanguage": "Notice of cancellation, if given by mail, is effective when deposited in the mail properly addressed with postage prepaid. Notice by certified mail, return receipt requested, addressed to the address specified in the contract or agreement, shall be conclusive proof of notice of service.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-45-1603"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1603, added 2008, ch. 192, sec. 1, p. 602.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Subsection (3) only. The right itself and the five-business-day period are in vb-cfpa-five-business-day-rescission. Describe, do not tell a reader how to cancel their own contract."
+    },
+    {
+      "id": "fs-rego-scope-regulation-o",
+      "claim": "12 CFR part 1015 is known as Regulation O. It is issued by the Bureau of Consumer Financial Protection and applies to persons over which the Federal Trade Commission has jurisdiction under the Federal Trade Commission Act.",
+      "quotedLanguage": "This part, known as Regulation O, is issued by the Bureau of Consumer Financial Protection ... This part applies to persons over which the Federal Trade Commission has jurisdiction under the Federal Trade Commission Act.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1015-1"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Current eCFR text retrieved through the renderer API. Future-dated amendments were not separately checked in the Federal Register; futureDatedAmendment=false means none appears in the current eCFR text. Federal regulation, not Idaho law."
+    },
+    {
+      "id": "fs-rego-mars-definition",
+      "claim": "Regulation O defines a mortgage assistance relief service as any service, plan or program offered to a consumer in exchange for consideration that is represented to help with, among other things, stopping, preventing or postponing a foreclosure sale, obtaining a loan modification or forbearance, or negotiating a short sale, a deed-in-lieu of foreclosure, or any other disposition of a dwelling other than a sale to a third party who is not the dwelling loan holder. A dwelling is a residential structure of four or fewer units.",
+      "quotedLanguage": "Mortgage Assistance Relief Service means any service, plan, or program, offered or provided to the consumer in exchange for consideration, that is represented, expressly or by implication, to assist or attempt to assist the consumer with any of the following: ... Stopping, preventing, or postponing any mortgage or deed of trust foreclosure sale for the consumer's dwelling, any repossession of the consumer's dwelling, or otherwise saving the consumer's dwelling from foreclosure or repossession; ... Negotiating, obtaining, or arranging a modification of any term of a dwelling loan, including a reduction in the amount of interest, principal balance, monthly payments, or fees; ... A short sale of a dwelling, ... A deed-in-lieu of foreclosure, or ... Any other disposition of a dwelling other than a sale to a third party who is not the dwelling loan holder. ... Dwelling means a residential structure containing four or fewer units",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1015-2"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Current eCFR text retrieved through the renderer API. Future-dated amendments were not separately checked in the Federal Register; futureDatedAmendment=false means none appears in the current eCFR text. Federal regulation, not Idaho law. TRAP: the 'other than a sale to a third party' wording sits in item (6)(iii) only. Item (1) covers any paid service represented to stop or postpone a foreclosure. Never say a buyer is or is not a provider under this rule; quote the definition and stop."
+    },
+    {
+      "id": "fs-rego-provider-excludes-lender-servicer",
+      "claim": "Regulation O defines a mortgage assistance relief service provider as any person that provides, offers to provide or arranges for others to provide such a service, and says the term does not include the dwelling loan holder, the servicer, or their agents or contractors.",
+      "quotedLanguage": "Mortgage Assistance Relief Service Provider or Provider means any person that provides, offers to provide, or arranges for others to provide, any mortgage assistance relief service. This term does not include: ... The dwelling loan holder, or any agent or contractor of such individual or entity. ... The servicer of a dwelling loan, or any agent or contractor of such individual or entity.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1015-2"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Current eCFR text retrieved through the renderer API. Future-dated amendments were not separately checked in the Federal Register; futureDatedAmendment=false means none appears in the current eCFR text. Federal regulation, not Idaho law."
+    },
+    {
+      "id": "fs-rego-advance-fee-ban",
+      "claim": "Under 12 CFR 1015.5(a), it is a violation for a mortgage assistance relief service provider to request or receive payment of any fee or other consideration until the consumer has executed a written agreement with the consumer's loan holder or servicer that incorporates the offer of mortgage relief the provider obtained.",
+      "quotedLanguage": "It is a violation of this rule for any mortgage assistance relief service provider to: ... Request or receive payment of any fee or other consideration until the consumer has executed a written agreement between the consumer and the consumer's dwelling loan holder or servicer incorporating the offer of mortgage assistance relief the provider obtained from the consumer's dwelling loan holder or servicer;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "fees"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1015-5"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Current eCFR text retrieved through the renderer API. Future-dated amendments were not separately checked in the Federal Register; futureDatedAmendment=false means none appears in the current eCFR text. Federal regulation, not Idaho law. The trigger is the consumer's signed agreement WITH THE LENDER OR SERVICER, not a signed contract with the relief company. Attorney carve-out is in 1015.7 (fs-rego-attorney-exemption)."
+    },
+    {
+      "id": "fs-rego-right-to-reject-offer-disclosure",
+      "claim": "When a provider hands the consumer the lender's written offer, 12 CFR 1015.5(b) requires a disclosure on a separate written page stating that the consumer may accept or reject the offer and does not have to pay the provider if the offer is rejected. Section 1015.5(c) also requires a notice from the lender or servicer describing all material differences between the current loan and the loan as it would be if the offer is accepted.",
+      "quotedLanguage": "“This is an offer of mortgage assistance we obtained from your lender [or servicer]. You may accept or reject the offer. If you reject the offer, you do not have to pay us. ... The disclosure required by this paragraph must be made in a clear and prominent manner, on a separate written page, ... a notice from the consumer's dwelling loan holder or servicer that describes all material differences between the terms, conditions, and limitations associated with the consumer's current mortgage loan and the terms, conditions, and limitations associated with the consumer's mortgage loan if he or she accepts the dwelling loan holder's or servicer's offer",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1015-5"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Current eCFR text retrieved through the renderer API. Future-dated amendments were not separately checked in the Federal Register; futureDatedAmendment=false means none appears in the current eCFR text. Federal regulation, not Idaho law."
+    },
+    {
+      "id": "fs-rego-required-advertising-disclosures",
+      "claim": "12 CFR 1015.4 requires every general commercial communication for a mortgage assistance relief service to state that the company is not associated with the government and that its service is not approved by the government or the consumer's lender. Where the provider has represented that the consumer should stop making loan payments, it must disclose that the consumer could lose the home and damage their credit rating.",
+      "quotedLanguage": "“(Name of company) is not associated with the government, and our service is not approved by the government or your lender.” ... “Even if you accept this offer and use our service, your lender may not agree to change your loan.” ... “If you stop paying your mortgage, you could lose your home and damage your credit rating.”",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "disclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1015-4"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Current eCFR text retrieved through the renderer API. Future-dated amendments were not separately checked in the Federal Register; futureDatedAmendment=false means none appears in the current eCFR text. Federal regulation, not Idaho law. The 'lender may not agree' sentence is required only where the provider has represented a result in items (2) to (6) of the definition."
+    },
+    {
+      "id": "fs-rego-prohibited-representations",
+      "claim": "12 CFR 1015.3 makes it a violation for a mortgage assistance relief service provider to represent that a consumer cannot or should not contact or communicate with his or her lender or servicer, or to misrepresent that its service is affiliated with, endorsed or approved by the United States government, any government agency, a nonprofit housing counselor agency or program, or the consumer's lender or servicer.",
+      "quotedLanguage": "Representing, expressly or by implication, in connection with the advertising, marketing, promotion, offering for sale, sale, or performance of any mortgage assistance relief service, that a consumer cannot or should not contact or communicate with his or her lender or servicer. ... That a mortgage assistance relief service is affiliated with, endorsed or approved by, or otherwise associated with: ... Any Federal, State, or local government agency, unit, or department, ... Any nonprofit housing counselor agency or program,",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1015-3"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Current eCFR text retrieved through the renderer API. Future-dated amendments were not separately checked in the Federal Register; futureDatedAmendment=false means none appears in the current eCFR text. Federal regulation, not Idaho law."
+    },
+    {
+      "id": "fs-rego-attorney-exemption",
+      "claim": "Under 12 CFR 1015.7, an attorney is exempt from most of Regulation O if the attorney provides mortgage assistance relief services as part of the practice of law, is licensed in the state where the consumer resides or the dwelling is located, and complies with state laws and regulations covering the same conduct. That attorney is exempt from the advance-fee section as well only if funds received before performing legal services are deposited in a client trust account and the attorney complies with the state rules for such accounts.",
+      "quotedLanguage": "An attorney is exempt from this part, with the exception of § 1015.5, if the attorney: ... Provides mortgage assistance relief services as part of the practice of law; ... Is licensed to practice law in the state in which the consumer for whom the attorney is providing mortgage assistance relief services resides or in which the consumer's dwelling is located; ... An attorney who is exempt pursuant to paragraph (a) of this section is also exempt from § 1015.5 if the attorney: ... Deposits any funds received from the consumer prior to performing legal services in a client trust account;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "fees"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1015-7"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Current eCFR text retrieved through the renderer API. Future-dated amendments were not separately checked in the Federal Register; futureDatedAmendment=false means none appears in the current eCFR text. Federal regulation, not Idaho law."
+    },
+    {
+      "id": "fs-ftc-upfront-fee-illegal-mars-rule",
+      "claim": "The Federal Trade Commission says it is illegal for a company to charge upfront for promises to help a homeowner get relief on paying a mortgage, and that under the Mortgage Assistance Relief Services (MARS) Rule a company may not charge anything until it has given the homeowner a written offer of a loan modification or other relief from the lender and the homeowner accepts the offer.",
+      "quotedLanguage": "It’s illegal for a company to charge you upfront for promises to help you get relief on paying your mortgage. ... The Mortgage Assistance Relief Services (MARS) Rule says it's illegal for a company to charge you a penny until it's given you a written offer for a loan modification or other relief from your lender — and you accept the offer.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "fees"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Federal consumer guidance (page dated September 2022), not Idaho law."
+    },
+    {
+      "id": "fs-ftc-phony-counseling",
+      "claim": "The FTC describes a 'phony counseling' pattern in which scammers pose as housing counselors, lawyers or government representatives, typically tell the homeowner not to contact the lender, a lawyer or a housing counselor, and may tell the homeowner to make mortgage payments directly to them or to transfer the property deed to them.",
+      "quotedLanguage": "Scammers say they are: housing counselors or lawyers — or that they represent a law firm or they’re from the government. ... They’ll typically tell you not to contact your lender, lawyer, housing counselor, or credit counselor. They may tell you to make your mortgage payments directly to them — rather than to your lender — or to transfer your property deed to them.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Federal consumer guidance (page dated September 2022), not Idaho law."
+    },
+    {
+      "id": "fs-ftc-forensic-audits",
+      "claim": "The FTC says scammers posing as mortgage loan 'auditors' cannot promise that a forensic loan audit will help a homeowner get a loan modification or any other mortgage relief.",
+      "quotedLanguage": "Scammers can’t promise that a forensic loan audit will help you get a loan modification or any other mortgage relief.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Federal consumer guidance (page dated September 2022), not Idaho law."
+    },
+    {
+      "id": "fs-ftc-rent-to-buy-and-rescue-loans",
+      "claim": "The FTC describes 'rent-to-buy' schemes, in which the homeowner gives up the deed and is told they can stay as a renter and buy the home back later, and 'rescue loan' schemes, in which a document that gives the scammer the deed is buried in a stack of loan papers the homeowner is pressured to sign quickly.",
+      "quotedLanguage": "These scammers say you can stay there as a renter and your rent payments — supposedly — will go to helping you buy the home back from them later. ... As soon as you give up the deed to your home, the scammers control what happens to it. ... They may pressure you to sign the papers quickly, without giving you a chance to read them thoroughly or giving you time to follow up on any sections that you don’t understand. ... The scammer rushes you because buried in the stack is a document that gives them the deed to your home in exchange for the loan.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "deeds"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Federal consumer guidance (page dated September 2022), not Idaho law. Pair with vb-ftc-deed-transfer-warning and vb-ftc-equity-skimming."
+    },
+    {
+      "id": "fs-ftc-legitimate-help",
+      "claim": "The FTC tells homeowners who are having trouble paying or have received a foreclosure notice to contact their servicer or lender immediately, even if the foreclosure process has already started, and to talk to a certified housing counselor for free help using HUD's list of approved housing counseling agencies. It adds that a homeowner always has the right to contact the lender directly.",
+      "quotedLanguage": "If you're having trouble paying your mortgage or you've gotten a foreclosure notice, contact your servicer or lender immediately, even if the foreclosure process has already started. ... Talk to a certified housing counselor for free legitimate help. ... You always have the right to contact your lender directly to see whether you have other options.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Federal consumer guidance (page dated September 2022), not Idaho law."
+    },
+    {
+      "id": "fs-ftc-where-to-report",
+      "claim": "The FTC says a suspected mortgage relief scam should be reported to the Federal Trade Commission at ReportFraud.ftc.gov and to the state attorney general.",
+      "quotedLanguage": "If you think you’ve run into a mortgage relief scam, report it to ... the Federal Trade Commission at ReportFraud.ftc.gov ... your state attorney general",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Federal consumer guidance (page dated September 2022), not Idaho law."
+    },
+    {
+      "id": "fs-ftc-lawyer-check",
+      "claim": "The FTC says a reputable lawyer does not guarantee results, and that the fact a lawyer works for a company does not mean the company can charge an upfront fee or that it is legitimate. It advises checking that anyone claiming to be a lawyer is licensed in the homeowner's state.",
+      "quotedLanguage": "A reputable lawyer doesn’t guarantee results, no matter what your circumstances. ... Just because a lawyer works for the company doesn’t mean the company can charge you an upfront fee or that it’s legitimate.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ftc-mortgage-relief-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Federal consumer guidance (page dated September 2022), not Idaho law."
+    },
+    {
+      "id": "fs-cfpb-scam-warning-signs",
+      "claim": "The Consumer Financial Protection Bureau describes mortgage loan modification scams as schemes to take a homeowner's money, often by a false promise of saving them from foreclosure. Its list of things scammers may do includes asking for fees upfront, promising to get a loan modification, asking the owner to sign over title, asking the owner to sign papers they do not understand, saying payments should go to someone other than the servicer or lender, and telling the owner to stop making mortgage payments.",
+      "quotedLanguage": "Mortgage loan modification scams are schemes to take your money – often by making a false promise of saving you from foreclosure. ... Ask you to pay fees upfront to receive services ... Ask you to sign over the title to your property ... Ask you to sign papers that you do not understand ... Say you should start making payments to someone other than your servicer or lender ... Tell you to stop making mortgage loan payments altogether",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "cfpb-mortgage-loan-modification-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "CFPB consumer guidance, page marked 'last reviewed: SEP 11, 2024'. Not Idaho law. The list items are separate bullets on the page, joined here with ellipses."
+    },
+    {
+      "id": "fs-cfpb-report-and-get-help",
+      "claim": "The CFPB says a homeowner who has been asked for any of the things on its scam list can report the company by submitting a complaint with the CFPB online or by calling (855) 411-CFPB (2372). It also says HUD-approved housing counseling agencies can discuss options with a homeowner who is having trouble paying, and that the state attorney general's office can provide information about state protections and take a complaint.",
+      "quotedLanguage": "you can report that company by submitting a complaint with the CFPB online or by calling (855) 411-CFPB (2372). ... U.S. Department of Housing and Urban Development (HUD)-approved housing counseling agencies can discuss options with you if you’re having trouble paying your mortgage loan or reverse mortgage loan. ... office for more information about state protections as well as file a complaint.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "cfpb-mortgage-loan-modification-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "CFPB consumer guidance, last reviewed SEP 11, 2024. The phone number is the only number in this claim; re-check before each publication refresh."
+    },
+    {
+      "id": "fs-cfpb-fees-only-after-written-offer",
+      "claim": "The CFPB says mortgage relief companies are not allowed to collect any fees until they have provided a written offer from the lender or servicer that the homeowner decides is acceptable, a written document from the lender or servicer describing the key changes to the mortgage, and a reminder that the homeowner may reject the offer without any charge.",
+      "quotedLanguage": "Mortgage relief companies are not allowed to collect any fees until they have provided you with the following: ... A written offer from your lender or servicer that you decide is acceptable ... A written document from the lender or servicer describing the key changes to your mortgage that would result if you accept the offer ... A reminder that you have the right to reject the offer without any charge",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "fees"
+      ],
+      "sourceIds": [
+        "cfpb-mortgage-loan-modification-scams"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "CFPB's plain-language summary of 12 CFR 1015.5. For the legal test use fs-rego-advance-fee-ban."
+    },
+    {
+      "id": "fs-cfpb-housing-counselors-hud-approved",
+      "claim": "The CFPB's housing counselor search lists counseling agencies approved by the U.S. Department of Housing and Urban Development. The CFPB says they can offer independent advice, often at little or no cost, on topics that include defaults, forbearances and foreclosures, and that not every counselor offers all services.",
+      "quotedLanguage": "Housing counselors throughout the country can provide advice on buying a home, renting, defaults, forbearances, foreclosures, and credit issues. ... The counseling agencies on the searchable list are approved by the U.S. Department of Housing and Urban Development (HUD) and they can offer independent advice, often at little or no cost to you. ... Not every housing counselor offers all services, so be sure to check the list of services offered by each agency.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "cfpb-find-a-housing-counselor"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "CFPB says 'often at little or no cost'; the FTC page says 'free'; the Idaho statutory notice says counselors 'can provide free information'. Use each agency's own word with attribution. Do not promise that counseling is free."
+    },
+    {
+      "id": "fs-hud-housing-counseling-phone",
+      "claim": "HUD says a housing counseling agency can be found by calling 800-569-4287 or searching online, and describes its housing counseling program as working through HUD participating housing counseling agencies and HUD certified housing counselors.",
+      "quotedLanguage": "HUD's housing counseling program helps families obtain, sustain and retain their homes. HUD accomplishes this mission through a strong network of HUD participating housing counseling agencies and HUD certified housing counselors. To find a housing counseling agency near you please call 800-569-4287",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "housing"
+      ],
+      "sourceIds": [
+        "hud-housing-counseling"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The HUD page is mostly script-rendered; only this paragraph is in the cached HTML. HUD's own definition of 'approved' or 'certified' was not captured; do not define those terms beyond the quote."
+    },
+    {
+      "id": "fs-idag-manual-foreclosure-rescue",
+      "claim": "The Idaho Attorney General's Consumer Protection Manual says that 'foreclosure rescue' companies advertise that they can help financially distressed consumers save their homes from foreclosure but often strip consumers of their equity and make them tenants in their own homes. It says consumers should consult a private attorney before signing any contract involving the ownership of their homes.",
+      "quotedLanguage": "These companies advertise that they can help financially distressed consumers save their homes from foreclosure, but, in fact, they often strip consumers of their equity and make them tenants in their own homes. ... Consumers should consult with a private attorney before they sign any contract involving the ownership of their homes.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "idag-consumer-protection-manual"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "State agency publication, guidance not statute. The PDF footer reads 'Rev. 03/21'. The manual's summary says the notice must include 'a five-day right to rescind'; the statute (45-1603) says five business days. Do not quote the manual for the length of the period. The manual says the act applies to 'certain businesses'; use the statute's own words for scope."
+    },
+    {
+      "id": "fs-idag-consumer-protection-complaints",
+      "claim": "The Idaho Attorney General's Consumer Protection Division enforces Idaho's Consumer Protection Act among other consumer laws, accepts consumer complaints through an online Consumer Complaint Form, and lists its phone numbers as 208-334-2424 and toll-free 1-800-432-3545.",
+      "quotedLanguage": "The Attorney General's Consumer Protection Division enforces various consumer laws, including Idaho’s Consumer Protection Act, Competition Act, Telephone Solicitation Act, and Charitable Solicitation Act. ... If you have a complaint to file with our office, please visit the link below to open the Consumer Complaint Form. ... Phone 208-334-2424 Toll-free 1-800-432-3545",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "records"
+      ],
+      "sourceIds": [
+        "idag-consumer-protection"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The page gives a 'temporary location' street address (Chinden Campus); do NOT print the address, it is flagged temporary. Phone numbers are FAST-CHANGING: re-check. The page does not mention foreclosure; the link to foreclosure is 45-1605, which routes penalties through title 48 chapter 6 (vb-cfpa-penalties-title-48)."
+    },
+    {
+      "id": "fs-idag-informal-dispute-resolution",
+      "claim": "The Idaho Attorney General's office says it assists consumers with complaints against unfair, deceptive and fraudulent business practices, and that a consumer may inform the office without requesting action or may request an informal dispute resolution process.",
+      "quotedLanguage": "The Office of the Attorney General assists consumers with complaints against unfair, deceptive and fraudulent business practices. ... The consumer also has the option to inform our office without requesting action, or may request an informal dispute resolution process from our investigator team.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "records"
+      ],
+      "sourceIds": [
+        "idag-report-scams-idaho"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "General scam-reporting page; it does not mention foreclosure specifically."
+    },
+    {
+      "id": "fs-irmpa-loan-modification-is-brokering",
+      "claim": "Idaho Code 26-31-201 defines 'loan modification activities' as, for compensation or gain or in the expectation of it, engaging in or offering to engage in effecting loan modifications in Idaho, and includes engaging in loan modification activities on behalf of a borrower within 'mortgage brokering activities'. A loan modification is an adjustment or compromise of an existing residential mortgage loan and does not include a refinancing.",
+      "quotedLanguage": "\"Loan modification\" means an adjustment or compromise of an existing residential mortgage loan. The term \"loan modification\" does not include a refinancing transaction. (3) \"Loan modification activities\" means, for compensation or gain or in the expectation of compensation or gain, engaging in or offering to engage in effecting loan modifications in this state. ... or engaging in loan modification activities on behalf of a borrower.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "sourceIds": [
+        "idcode-26-31-201"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[26-31-201, added 2009, ch. 97, sec. 2, p. 288; am. 2013, ch. 64, sec. 3, p. 144; am. 2020, ch. 100, sec. 4, p. 262.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Definitions only. The license requirement is in 26-31-203 and the exemptions in 26-31-202. Never say whether a named company needs a license."
+    },
+    {
+      "id": "fs-irmpa-unlicensed-activity-felony",
+      "claim": "Idaho Code 26-31-203 says no person, except one exempt under 26-31-202, shall engage in mortgage brokering activities or mortgage lending activities without first obtaining a license from the department, and that a non-exempt person who does so is guilty of a felony on conviction.",
+      "quotedLanguage": "Any person, except a person exempt under section 26-31-202, Idaho Code, who engages in mortgage brokering activities or mortgage lending activities without first obtaining a license from the department in accordance with this part, shall upon conviction be guilty of a felony.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "sourceIds": [
+        "idcode-26-31-203"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[26-31-203, added 2009, ch. 97, sec. 2, p. 289.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "'The department' is defined elsewhere in chapter 31 (section not cached); the Department of Finance's own page confirms it is the licensing agency (fs-idfin-licenses-loan-modification-companies). The penalty falls on the unlicensed person, not on the homeowner."
+    },
+    {
+      "id": "fs-irmpa-attorney-exemption",
+      "claim": "Among the exemptions in Idaho Code 26-31-202 are attorneys authorized to practice in Idaho, to the extent they are retained by their clients to engage in activities authorized by that part and the activities are ancillary to the attorney's representation of the client.",
+      "quotedLanguage": "Attorneys duly authorized to practice in this state, to the extent that they are retained by their clients to engage in activities authorized by this part and such activities are ancillary to the attorney's representation of the client;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-26-31-202"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[26-31-202, added 2009, ch. 97, sec. 2, p. 289; am. 2013, ch. 64, sec. 4, p. 144; am. 2020, ch. 100, sec. 5, p. 263.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "One of eleven exemptions; others include banks, credit unions, government agencies and certain accountants. Do not present this as the full list."
+    },
+    {
+      "id": "fs-irmpa-loan-mod-fee-written-agreement",
+      "claim": "Idaho Code 26-31-211(11) bars a mortgage broker or lender licensee, or a person required to hold that license, from receiving a fee for loan modification activities except under a written agreement that specifies the fee, specifies the terms of the loan for which modification will be sought, and discloses the expected impact of the modification on the monthly payment and length of the loan.",
+      "quotedLanguage": "Receive a fee for engaging in loan modification activities except pursuant to a written agreement between the person subject to this part and a person seeking a loan modification. The written agreement must specify the amount of the fee that will be charged to the person seeking a loan modification, specify the terms of the loan for which modification will be sought and disclose the expected impact of the loan modification on the monthly payment and length of the loan.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "fees"
+      ],
+      "sourceIds": [
+        "idcode-26-31-211"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[26-31-211, added 2009, ch. 97, sec. 2, p. 295; am. 2013, ch. 64, sec. 10, p. 151; am. 2020, ch. 100, sec. 8, p. 267.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "This is the Idaho written-agreement rule. The TIMING of any fee is governed separately by the federal advance-fee ban (fs-rego-advance-fee-ban). Do not merge the two."
+    },
+    {
+      "id": "fs-idfin-licenses-loan-modification-companies",
+      "claim": "The Idaho Department of Finance says the Idaho Residential Mortgage Practices Act charges it with licensing and regulating the mortgage-related activities of mortgage lenders and brokers, mortgage loan modification companies and mortgage loan originators, and that all mortgage licensing is handled through the Nationwide Multistate Licensing System and Registry (NMLS).",
+      "quotedLanguage": "The Idaho Residential Mortgage Practices Act (IRMPA) charges the Idaho Department of Finance with the responsibility for licensing and regulating the mortgage related activities of mortgage lenders and mortgage brokers, mortgage loan modification companies, independent contractor mortgage loan processors and mortgage underwriters and mortgage loan originators. ... All mortgage licensing is handled through the Nationwide Multistate Licensing System and Registry (NMLS).",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "lending"
+      ],
+      "sourceIds": [
+        "idfin-mortgage-licensing"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "Agency page, footer 'last updated: January 20, 2026'. The page also says exempt entities include certain financial institutions, government agencies and, under specific conditions, licensed attorneys and accountants."
+    },
+    {
+      "id": "fs-idfin-license-lookup-and-complaints",
+      "claim": "The Idaho Department of Finance invites written complaints, with supporting documentation, involving institutions it regulates and alleged violations of its laws and rules, and says a complaint about an institution it does not regulate will be referred to the correct agency. It tells consumers to confirm that a financial services provider is licensed by using the Department's licensee lookup page. It also says it cannot act as a lawyer or give legal advice.",
+      "quotedLanguage": "the Department invites written complaints and supporting documentation involving institutions regulated by this office and alleged violations of its laws and rules. ... if the Department receives a complaint that involves an institution not regulated by this office, it will be referred to the correct agency. ... Visit the licensee lookup page to confirm the company or individual is licensed with the Department. ... We cannot give you legal advice.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "licensing",
+        "records"
+      ],
+      "sourceIds": [
+        "idfin-complaint-guidance"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "The Department's phone number on the page (208-332-8000) was not put in a claim; do not print it. The page says resolution 'may take several weeks and possibly months' and that there is no guarantee of resolution."
+    }
+  ]
+}

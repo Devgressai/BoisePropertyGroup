@@ -68,7 +68,7 @@ export default function ArticleBody({
           <div className="rounded-xl bg-[var(--bpg-navy)] p-5 text-[var(--bpg-on-navy-muted)]">
             <p className="serif text-[1.15rem] font-semibold text-white">{offerLabel}</p>
             <p className="mt-2 text-[0.85rem] leading-relaxed">{offerNote}</p>
-            <Link href="#offer" className="btn btn-brass mt-4 w-full !min-h-[44px] !text-[0.9rem]">
+            <Link href="#offer" className="btn btn-brass mt-4 w-full !min-h-[44px] whitespace-nowrap !px-3 !text-[0.88rem]">
               Start with the address
             </Link>
           </div>

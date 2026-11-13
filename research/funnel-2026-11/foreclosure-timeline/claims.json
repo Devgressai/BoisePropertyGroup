@@ -1,0 +1,714 @@
+{
+  "claims": [
+    {
+      "id": "ft-parties-defined",
+      "claim": "Idaho Code 45-1502 defines the grantor as the person conveying real property by a trust deed as security for an obligation, the beneficiary as the person for whose benefit the trust deed is given (who may not be the trustee), and the trustee as the person to whom title is conveyed for the limited purpose of the power of sale and the obligation to reconvey; all other incidents of ownership remain with the grantor.",
+      "quotedLanguage": "\"Beneficiary\" means the person named or otherwise designated in a trust deed as the person for whose benefit a trust deed is given, or his successor in interest, and who shall not be the trustee. (2) \"Grantor\" means the person conveying real property by a trust deed as security for the performance of an obligation. ... \"Trustee\" means a person to whom title to real property is conveyed by trust deed, or his successor in interest for the limited purpose of the power of sale contained in this chapter upon the occurrence of certain contingencies set forth in such trust deed, and the obligation to reconvey the deed of trust pursuant to section 45-1514, Idaho Code. All other incidents of ownership of such real property shall remain with the grantor.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1502"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1502, added 1957, ch. 181, sec. 2, p. 345; am. 1967, ch. 118, sec. 2, p. 251; am. 1970, ch. 42, sec. 1, p. 89; am. 1983, ch. 190, sec. 1, p. 515; am. 1995, ch. 326, sec. 2, p. 1095; am. 1996, ch. 248, sec. 1, p. 783; am. 1997, ch. 387, sec. 1, p. 1242; am. 2008, ch. 365, sec. 1, p. 1000; am. 2016, ch. 227, sec. 1, p. 624.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1502(1), (2), (4). 'Borrower' and 'lender' are plain-language glosses, not statutory terms; the grantor is the person conveying the property, who is usually but not necessarily the borrower ('or other person named in the deed', 45-1502(3))."
+    },
+    {
+      "id": "ft-trust-deed-property-limits",
+      "claim": "Idaho Code 45-1502(5) limits the real property that may be transferred in trust under the trust deed act to property within an incorporated city or village at the time of the transfer, property of not more than 80 acres that is not principally used for agricultural production of crops, livestock, dairy or aquatic goods, or property of not more than 40 acres regardless of use or location.",
+      "quotedLanguage": "real property as so defined which may be transferred in trust under this act shall be limited to: (a) any real property located within an incorporated city or village at the time of the transfer; (b) any real property not exceeding eighty (80) acres, regardless of its location, provided that such real property is not principally used for the agricultural production of crops, livestock, dairy or aquatic goods; or (c) any real property not exceeding forty (40) acres regardless of its use or location.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1502"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1502, added 1957, ch. 181, sec. 2, p. 345; am. 1967, ch. 118, sec. 2, p. 251; am. 1970, ch. 42, sec. 1, p. 89; am. 1983, ch. 190, sec. 1, p. 515; am. 1995, ch. 326, sec. 2, p. 1095; am. 1996, ch. 248, sec. 1, p. 783; am. 1997, ch. 387, sec. 1, p. 1242; am. 2008, ch. 365, sec. 1, p. 1000; am. 2016, ch. 227, sec. 1, p. 624.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1502(5). Describe only. Do not tell a reader whether their parcel qualifies, and do not state what happens to a security instrument on land outside these limits; that was not researched."
+    },
+    {
+      "id": "ft-power-of-sale-or-judicial-option",
+      "claim": "Idaho Code 45-1503(1) confers a power of sale on the trustee, exercisable after a breach of the secured obligation, and provides that a deed of trust may be foreclosed by advertisement and sale under the chapter or, at the option of the beneficiary, by foreclosure as provided by law for mortgages on real property.",
+      "quotedLanguage": "a power of sale is hereby conferred upon the trustee to be exercised after a breach of the obligation for which such transfer is security, and a deed of trust executed in conformity with this act may be foreclosed by advertisement and sale in the manner hereinafter provided, or, at the option of beneficiary, by foreclosure as provided by law for the foreclosure of mortgages on real property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1503"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1503, added 1957, ch. 181, sec. 3, p. 345; am. 1967, ch. 118, sec. 3, p. 251; am. 1989, ch. 340, sec. 1, p. 861; am. 1993, ch. 281, sec. 2, p. 951.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1503(1). The option is the BENEFICIARY's, not the borrower's. The mortgage-foreclosure statutes (Title 6 ch. 1, redemption in Title 11) were NOT read for this page; do not describe the judicial timeline or any redemption period from this claim."
+    },
+    {
+      "id": "ft-foreclosure-conditions",
+      "claim": "Under Idaho Code 45-1505 a trustee may foreclose a trust deed by advertisement and sale if the trust deed, any assignments and any appointment of a successor trustee are recorded in the county mortgage records, there is a default under a provision of the deed that authorizes sale, a notice of default has been recorded and mailed, and no action to recover the secured debt is pending.",
+      "quotedLanguage": "The trustee may foreclose a trust deed by advertisement and sale under this act if: (1) The trust deed, any assignments of the trust deed by the trustee or the beneficiary and any appointment of a successor trustee are recorded in mortgage records in the counties in which the property described in the deed is situated; and (2) There is a default by the grantor or other person owing an obligation the performance of which is secured by the trust deed or by their successors in interest with respect to any provision in the deed which authorizes sale in the event of default of such provision; and ... (4) No action, suit or proceeding has been instituted to recover the debt then remaining secured by the trust deed, or any part thereof, or if such action or proceeding has been instituted, the action or proceeding has been dismissed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1505, added 1957, ch. 181, sec. 5, p. 345; am. 1990, ch. 401, sec. 1, p. 1123; am. 2008, ch. 192, sec. 2, p. 603; am. 2009, ch. 136, sec. 1, p. 417.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1505(1), (2), (4); subsection (3) is in ft-notice-of-default-recorded-and-mailed. The section says 'if', not 'only if'. It sets no waiting period between default and the notice of default; the 120-day delinquency floor is federal (ft-federal-120-day-delinquency)."
+    },
+    {
+      "id": "ft-notice-of-default-recorded-and-mailed",
+      "claim": "Idaho Code 45-1505(3) requires the trustee or beneficiary to file for record with the recorder of each county where the trust property or any part of it is situated a notice of default that identifies the deed of trust, states that a breach has occurred, sets out the nature of the breach and states the election to sell; a copy must be mailed by registered or certified mail, return receipt requested, to any person who recorded a request for notice, service by mail is effective at the time of mailing, and the trustee must also mail the notice to any individual who owns an interest in the property.",
+      "quotedLanguage": "filed for record in the office of the recorder in each county wherein the trust property, or some part or parcel, is situated, a notice of default identifying the deed of trust by stating the name or names of the trustor or trustors and giving the book and page where the same is recorded, or a description of the trust property, and containing a statement that a breach of the obligation for which the transfer in trust is security has occurred, and setting forth the nature of such breach and his election to sell or cause to be sold such property to satisfy such obligation; and (b) mailed a copy of such notice by registered or certified mail, return receipt requested, to any person requesting such notice of record as provided in section 45-1511, Idaho Code. Service by mail in accordance with this subsection (3) shall be deemed effective at the time of mailing. In addition, the trustee shall mail the notice required in this section to any individual who owns an interest in property which is the subject of this section.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1505, added 1957, ch. 181, sec. 5, p. 345; am. 1990, ch. 401, sec. 1, p. 1123; am. 2008, ch. 192, sec. 2, p. 603; am. 2009, ch. 136, sec. 1, p. 417.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1505(3). TRAP: the certified-mail requirement in (3)(b) is tied to persons who recorded a request for notice under 45-1511; the mailing to 'any individual who owns an interest' is stated separately and names no mail class. Do not write 'the owner must be sent the notice of default by certified mail'. The recording date of this notice starts the 115-day cure period (ft-cure-within-115-days). 45-1511 itself was not read."
+    },
+    {
+      "id": "ft-notice-of-default-warning-sheet",
+      "claim": "The notice of default mailed under Idaho Code 45-1505(3) must be accompanied by and affixed to a statutory notice in 12-point boldface type on a separate sheet, which tells the owner to be cautious about claims to 'save' the home, to consult an attorney or financial professional if possible, and not to delay seeking advice.",
+      "quotedLanguage": "Such notice shall be accompanied by and affixed to the following notice in twelve (12) point boldface type, on a separate sheet of paper, no smaller than eight and one-half (8 1/2) inches by eleven (11) inches: ... Some individuals or businesses may say they can \"save\" your home from foreclosure. You should be cautious about such claims. ... If possible, you should consult with an attorney or financial professional to find out what other options you may have. Do not delay seeking advice, because the longer you wait, the fewer options you may have. Under Idaho law, you have five (5) days to rescind or undo certain contracts or agreements that relate to transferring interests in property or money in a foreclosure situation.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1505, added 1957, ch. 181, sec. 5, p. 345; am. 1990, ch. 401, sec. 1, p. 1123; am. 2008, ch. 192, sec. 2, p. 603; am. 2009, ch. 136, sec. 1, p. 417.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1505(3). TRAP (same as vb-cfpa-written-notice-required): this notice text says 'five (5) days', but the operative section 45-1603 says five BUSINESS days. State the right from vb-cfpa-five-business-day-rescission, never from this sheet. A Spanish-language form applies if the trust deed or assignments are in Spanish."
+    },
+    {
+      "id": "ft-loan-mod-notice-primary-residence",
+      "claim": "Under Idaho Code 45-1506C(1), for a noncommercial loan made by a state or federally regulated beneficiary and secured by a deed of trust on the borrower's primary residential property, a supplemental notice in at least 14-point type must accompany the notice of default provided to the grantor; primary residence is determined by whether the property has been granted the homeowner's property tax exemption for the year the notice of default is recorded, and if it has not, the section does not apply.",
+      "quotedLanguage": "In the case of a loan made by a state or federally regulated beneficiary, which loan is secured by a deed of trust encumbering a borrower's primary residential property for any noncommercial loan, the notice provided in this section shall accompany the notice of default provided to the grantor. ... Any property for which a homeowner's property tax exemption has been granted for the year in which the notice of default is recorded shall be deemed to be a borrower's primary residential dwelling. If no homeowner's property tax exemption has been granted for the year in which the notice of default is recorded, the provisions of this section shall not apply. The notice, if required, shall be printed in at least 14-point type and substantially conform to the following form:",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506C(1). TRAP: the test is the homeowner's PROPERTY TAX exemption (63-602G), not the creditor homestead exemption (55-1003). An owner-occupant who never applied for the tax exemption is outside this section on its wording. Never tell a reader whether the section applies to them. 'State or federally regulated beneficiary' is not defined in the section."
+    },
+    {
+      "id": "ft-loan-mod-form-thirty-days",
+      "claim": "The supplemental notice form in Idaho Code 45-1506C(1) states the amount needed to bring the loan current as of a stated date and tells the owner that a loan modification request form must be returned by certified mail, return receipt requested, and received by the beneficiary on or before a date that is 30 days after the date of the notice; it also says the owner may or may not qualify.",
+      "quotedLanguage": "As of (enter the date), you needed to pay $(enter the amount owed) to bring your mortgage loan current. ... You may or may not qualify for a loan modification or other alternative to foreclosure. ... IF YOU WANT TO APPLY FOR A MODIFICATION OF YOUR LOAN, YOU MUST COMPLETE AND RETURN THE ENCLOSED \"MODIFICATION REQUEST FORM\" BY CERTIFIED MAIL, RETURN RECEIPT REQUESTED. THE BENEFICIARY MUST RECEIVE THE FORM ON OR BEFORE (enter the date), WHICH IS THIRTY (30) DAYS AFTER THE DATE BELOW.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506C(1), statutory form text. TRAP: the deadline is RECEIPT by the beneficiary, 30 days after the DATE ON THE NOTICE, not 30 days after the owner receives it, and not a postmark deadline. The notice need only 'substantially conform' to the form."
+    },
+    {
+      "id": "ft-loan-mod-notice-hud-counselors",
+      "claim": "The supplemental notice form in Idaho Code 45-1506C(1) warns the owner never to pay someone to help obtain a loan modification and says help is available for free from housing counselors certified through the U.S. Department of Housing and Urban Development (HUD), with a current list on the HUD website.",
+      "quotedLanguage": "WARNING: You may get offers from people who tell you they can help you keep your property. Never pay someone to help you obtain a loan modification. Help is available for free from housing counselors who are certified through the department of housing and urban development (HUD). Visit the HUD website for a current list of certified housing counselors in Idaho.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506C(1), statutory form text. This is the only source used on this page for what a HUD housing counselor is; the statute says 'certified', not 'approved'. HUD's own site was not cached, so do not describe what counselors do beyond this wording."
+    },
+    {
+      "id": "ft-loan-mod-45-day-response",
+      "claim": "Under Idaho Code 45-1506C(3), if the grantor returns the loan modification request form by the date on the form, the beneficiary or its agent must evaluate the request and notify the grantor in writing, as soon as reasonably practicable but not later than 45 days after receiving the form, whether it approves or denies the request or requires additional information; a trustee's sale may not occur until after the beneficiary or its agent timely responds.",
+      "quotedLanguage": "If a grantor returns the form identified in subsection (2) of this section to the beneficiary by the date specified on the form, the beneficiary or the beneficiary's agent shall review the information the grantor provided in the form and shall evaluate the grantor's request. The beneficiary or the beneficiary's agent, as soon as reasonably practicable but not later than forty-five (45) days after receiving the form, shall notify the grantor in writing whether the beneficiary approves or denies the request or requires additional information. A trustee's sale for the property subject to the loan may not occur until after the beneficiary or the beneficiary's agent timely responds to the grantor.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506C(3). TRAP: the bar on the sale lasts until the beneficiary RESPONDS. It is not a bar until a modification is granted, and a denial is a response. A response may also be a request for more information. Nothing here requires the beneficiary to approve anything."
+    },
+    {
+      "id": "ft-loan-mod-meeting-seven-business-days",
+      "claim": "Under Idaho Code 45-1506C(4), if the grantor timely requests a meeting, the beneficiary or its agent must meet with the grantor in person or speak by telephone before responding to the modification request, but is treated as having complied if the grantor does not schedule a meeting, or fails to attend one, within seven business days after the beneficiary or agent attempts contact; the person who meets with the grantor must have or be able to obtain authority to modify the loan.",
+      "quotedLanguage": "if the grantor timely requests a meeting with the beneficiary, the beneficiary or the beneficiary's agent shall either meet with the grantor in person or speak to the grantor by telephone before the beneficiary or the beneficiary's agent responds to the grantor's request to modify the loan. ... A beneficiary or the beneficiary's agent complies with the provisions of paragraph (a) of this subsection even if the beneficiary or the beneficiary's agent does not speak to or meet with the grantor if, within seven (7) business days after the beneficiary or the beneficiary's agent attempts to contact the grantor, the grantor does not schedule a meeting, or fails to attend a scheduled meeting or telephone call. (c) The beneficiary or the beneficiary's agent that meets with the grantor shall have or be able to obtain authority to modify the loan.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506C(4). Seven BUSINESS days, running from the beneficiary's attempt to contact the grantor."
+    },
+    {
+      "id": "ft-loan-mod-affidavit-twenty-days",
+      "claim": "Idaho Code 45-1506C(5) requires the trustee, at least 20 days before the date of sale, to record with the recorder of each county where the trust property is situated an affidavit from the beneficiary or its agent stating compliance with the section, and makes the recorded affidavit conclusive evidence of compliance as to any party relying on it.",
+      "quotedLanguage": "At least twenty (20) days prior to the date of sale, the trustee shall file for record in the office of the recorder in each county wherein the trust property, or some part or parcel, is situated an affidavit substantially in the following form from the beneficiary or the beneficiary's agent which states that the beneficiary or the beneficiary's agent has complied with the provisions of this section. The filing of the following affidavit of compliance is conclusive evidence of compliance with this section as to any party relying on said affidavit of compliance:",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506C, added 2011, ch. 323, sec. 2, p. 941; am. 2023, ch. 266, sec. 1, p. 793.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506C(5). Applies only where 45-1506C applies at all. 'Conclusive evidence ... as to any party relying on said affidavit' is the statute's wording; do not characterise what that means for a borrower's ability to challenge a sale."
+    },
+    {
+      "id": "ft-notice-of-sale-recipients",
+      "claim": "Idaho Code 45-1506(2) requires the notice of trustee's sale to be given, after the notice of default is recorded, by registered or certified mail, return receipt requested, to the last known address of the grantor, any person who recorded a request for notice, any successor in interest of the grantor (including a grantee, transferee or lessee) whose interest is of record before the notice of default or is actually known to the trustee or beneficiary, and any person with a later lien or interest that is of record before the notice of default or actually known.",
+      "quotedLanguage": "Subsequent to recording notice of default as hereinbefore provided, and at least one hundred twenty (120) days before the day fixed by the trustee for the trustee's sale, notice of such sale shall be given by registered or certified mail, return receipt requested, to the last known address of the following persons or their legal representatives, if any: (a) The grantor in the trust deed and any person requesting notice of record as provided in section 45-1511, Idaho Code. (b) Any successor in interest of the grantor including, but not limited to, a grantee, transferee or lessee, whose interest appears of record prior to the recording of the notice of default, or where the trustee or the beneficiary has actual notice of such interest. (c) Any person having a lien or interest subsequent to the interest of the trustee in the trust deed where such lien or interest appears of record prior to the recording of the notice of default, or where the trustee or the beneficiary has actual notice of such lien or interest.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(2). Complements id-trustee-sale-120-day-notice, which carries the 120-day count. The notice of sale comes AFTER the notice of default is recorded; the statute sets no minimum gap between the two documents."
+    },
+    {
+      "id": "ft-notice-of-sale-contents",
+      "claim": "Idaho Code 45-1506(4) requires the notice of sale to set out the names of the grantor, trustee and beneficiary, a description of the property, where the trust deed is recorded, the default, the sum owing, and the date, time and place of the sale, which must be held after 9:00 a.m. and before 4:00 p.m. at a designated place in the county, or one of the counties, where the property is located.",
+      "quotedLanguage": "The notice of sale shall set forth: (a) The names of the grantor, trustee and beneficiary in the trust deed. (b) A description of the property covered by the trust deed. (c) The book and page of the mortgage records or the recorder's instrument number where the trust deed is recorded. (d) The default for which the foreclosure is made. (e) The sum owing on the obligation secured by the trust deed. (f) The date, time and place of the sale which shall be held at a designated time after 9:00 a.m. and before 4:00 p.m., standard time, and at a designated place in the county or one (1) of the counties where the property is located.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(4). 'The sum owing on the obligation' is the full secured sum, which is not the same figure as the amount needed to cure under 45-1506(12)."
+    },
+    {
+      "id": "ft-notice-of-sale-posting",
+      "claim": "Under Idaho Code 45-1506(5), at each attempt to serve the notice of sale on an adult occupant a copy must be posted in a conspicuous place on the property unless a previously posted copy remains; if personal service is made on an adult occupant and a copy is posted, no further attempt or posting is required.",
+      "quotedLanguage": "At the time of each such attempt, a copy of the notice of sale shall be posted in a conspicuous place on the real property unless the copy of the notice of sale previously posted remains conspicuously posted. Provided, however, that if during such an attempt personal service is made upon an adult occupant and a copy of the notice is posted, then no further attempt at personal service and no further posting shall be required.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(5). Pair with id-trustee-sale-service-attempts (three attempts, seven days, each at least 30 days before sale). A further proviso removes the posting requirement where the occupant served was also mailed the notice."
+    },
+    {
+      "id": "ft-affidavits-recorded-twenty-days",
+      "claim": "Idaho Code 45-1506(7) requires an affidavit of mailing the notice of sale, an affidavit of posting when required, and the publication of the notice of sale to be recorded in the mortgage records of the counties where the property is situated at least 20 days before the date of sale.",
+      "quotedLanguage": "An affidavit of mailing notice of sale and an affidavit of posting, when required, and publication of notice of sale as required by subsection (6) of this section shall be recorded in the mortgage records in the counties in which the property described in the deed is situated at least twenty (20) days prior to the date of sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(7). Separate from the 45-1506C(5) compliance affidavit, which carries its own 20-day deadline."
+    },
+    {
+      "id": "ft-mail-effective-on-mailing",
+      "claim": "Idaho Code 45-1506(14) provides that service by mail under the section is deemed effective at the time of mailing.",
+      "quotedLanguage": "Service by mail in accordance with the provisions of this section shall be deemed effective at the time of mailing.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(14). The statutory clocks run from mailing, not from receipt. Do not turn this into advice about what an owner who never received a notice can do; 45-1508 addresses failure of notice in its own terms."
+    },
+    {
+      "id": "ft-cure-within-115-days",
+      "claim": "Under Idaho Code 45-1506(12), where the power of sale is to be exercised, the grantor, a successor in interest, a beneficiary under a subordinate deed of trust or a holder of a subordinate lien of record may, at any time within 115 days of the recording of the notice of default, pay the beneficiary the entire amount then due, other than principal that would not be due had no default occurred, together with costs and expenses actually incurred, a reasonable trustee's fee and attorney's fees as provided in the note, and thereby cure the default; the proceedings are then dismissed or discontinued and the obligation and deed of trust are reinstated as if no acceleration had occurred.",
+      "quotedLanguage": "at any time within one hundred fifteen (115) days of the recording of the notice of default under such deed of trust, if the power of sale therein is to be exercised, or otherwise at any time prior to the entry of a decree of foreclosure, may pay to the beneficiary or their successors in interest, respectively, the entire amount then due under the terms of the deed of trust and the obligation secured thereby, including costs and expenses actually incurred in enforcing the terms of such obligation and a reasonable trustee's fee subject to the limitations imposed by subsection (6) of section 45-1502, Idaho Code, and attorney's fees as may be provided in the promissory note, other than such portion of the principal as would not then be due had no default occurred, and thereby cure the default theretofore existing, and thereupon, all proceedings theretofore had or instituted shall be dismissed or discontinued and the obligation and deed of trust shall be reinstated and shall be and remain in force and effect, the same as if no acceleration had occurred.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(12). TRAPS: (1) the 115 days run from the RECORDING of the NOTICE OF DEFAULT, not from the notice of sale and not backwards from the sale date; never write 'until five days before the sale'. (2) The cure amount is the arrears plus costs and fees, not the accelerated balance. (3) In a judicial foreclosure the same subsection lets the cure happen any time before entry of a decree. (4) The statute gives no cure right after 115 days; whether a lender will accept a later reinstatement is a matter of its agreement and is unsourced here."
+    },
+    {
+      "id": "ft-sale-auction-highest-bidder",
+      "claim": "Under Idaho Code 45-1506(8) the trustee's sale is held on the date and at the time and place designated in the notice of sale unless postponed or rescheduled, the trustee sells the property at auction to the highest bidder, and any person, including the beneficiary, may bid.",
+      "quotedLanguage": "The sale shall be held on the date and at the time and place designated in the notice of sale or notice of rescheduled sale as provided in section 45-1506A, Idaho Code, unless the sale is postponed as provided in this subsection or as provided in section 45-1506B, Idaho Code, respecting the effect of an intervening stay or injunctive relief order. The trustee shall sell the property in one (1) parcel or in separate parcels at auction to the highest bidder. Any person, including the beneficiary under the trust deed, may bid at the trustee's sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(8). The statute does not say what the beneficiary bids or whether it bids its debt; say nothing about likely sale prices."
+    },
+    {
+      "id": "ft-postponement-thirty-days",
+      "claim": "Under Idaho Code 45-1506(8) the trustee may postpone the sale at the beneficiary's request by publicly announcing, at the time and place originally fixed, a stated later date and hour; no sale may be postponed to a date more than 30 days after the date from which it is postponed, and a postponed sale may itself be postponed in the same manner and within the same limit.",
+      "quotedLanguage": "The trustee may postpone the sale of the property upon request of the beneficiary by publicly announcing at the time and place originally fixed for the sale the postponement to a stated subsequent date and hour. No sale may be postponed to a date more than thirty (30) days subsequent to the date from which the sale is postponed. A postponed sale may itself be postponed in the same manner and within the same time limitations as provided in this subsection.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(8). TRAP: postponement is on request of the BENEFICIARY; the statute gives the borrower no right to demand one under this subsection. Thirty days is a cap on EACH postponement, and the statute sets no limit on the number of postponements. The announcement is oral at the sale site."
+    },
+    {
+      "id": "ft-postponed-sale-fourteen-day-mailing",
+      "claim": "Under Idaho Code 45-1506(8), for a loan made by a state or federally regulated beneficiary and secured by a deed of trust on the borrower's primary residence as determined under 45-1506C(1), the trustee must mail notice of a previously postponed trustee's sale at least 14 days before conducting it, by the same means and to the same persons as the original notice of sale, and an affidavit of that mailing must be recorded before the sale.",
+      "quotedLanguage": "For any loan made by a state or federally regulated beneficiary, which loan is secured by a deed of trust encumbering the borrower's primary residence as determined pursuant to section 45-1506C (1), Idaho Code, the trustee, prior to conducting any trustee's sale previously postponed pursuant to this section, shall mail notice of such trustee sale at least fourteen (14) days prior to conducting such sale by the same means and to the same persons as provided in subsection (2) of this section. The trustee or beneficiary shall, prior to conducting the trustee's sale, record an affidavit of mailing confirming that such notice has been mailed as required by this section.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(8). Applies only to the 45-1506C(1) class of loans (homeowner's property tax exemption test). For other loans a postponement is announced at the sale site only."
+    },
+    {
+      "id": "ft-trustees-deed-on-payment",
+      "claim": "Under Idaho Code 45-1506(9) and (10), the purchaser at the trustee's sale must pay the price bid forthwith, the trustee then executes and delivers the trustee's deed, and the deed conveys the interest the grantor had or had the power to convey when the trust deed was executed, together with any interest acquired afterwards.",
+      "quotedLanguage": "The purchaser at the sale shall forthwith pay the price bid and upon receipt of payment the trustee shall execute and deliver the trustee's deed to such purchaser ... The trustee's deed shall convey to the purchaser the interest in the property which the grantor had, or had the power to convey, at the time of the execution by him of the trust deed together with any interest the grantor or his successors in interest acquired after the execution of such trust deed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(9), (10). The statute sets no number of days for delivery of the deed; 'forthwith' and 'upon receipt of payment' are its only timing words."
+    },
+    {
+      "id": "ft-possession-tenth-day",
+      "claim": "Under Idaho Code 45-1506(11) the purchaser at the trustee's sale is entitled to possession of the property on the tenth day following the sale, and persons remaining in possession after that under any interest except one prior to the deed of trust are deemed tenants at sufferance.",
+      "quotedLanguage": "The purchaser at the trustee's sale shall be entitled to possession of the property on the tenth day following the sale, and any persons remaining in possession thereafter under any interest except one prior to the deed of trust shall be deemed to be tenants at sufferance.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506, added 1957, ch. 181, sec. 6, p. 345; am. 1967, ch. 74, sec. 1, p. 170; am. 1983, ch. 190, sec. 3, p. 516; am. 1990, ch. 401, sec. 2, p. 1123; am. 2011, ch. 323, sec. 1, p. 939; am. 2012, ch. 326, sec. 1, p. 905; am. 2016, ch. 364, sec. 1, p. 1071.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506(11). Entitlement to possession is not the same as a completed eviction; the removal procedure and federal tenant protections were not researched for this page (they belong to the after-sale guide)."
+    },
+    {
+      "id": "ft-rescheduled-sale-after-stay",
+      "claim": "Under Idaho Code 45-1506A, when a sale cannot be held as scheduled because of the automatic stay of the U.S. Bankruptcy Code (11 U.S.C. 362) or a court stay order, it may be rescheduled after the stay ends; notice of the rescheduled sale must be mailed by registered or certified mail at least 30 days before the rescheduled sale and published in the newspaper of original publication once a week for three successive weeks, with the last publication at least 10 days before the sale.",
+      "quotedLanguage": "In the event a sale cannot be held at the time scheduled by reason of automatic stay provisions of the U.S. bankruptcy code (11 U.S.C. 362), or a stay order issued by any court of competent jurisdiction, then the sale may be rescheduled and conducted following expiration or termination of the effect of the stay in the manner provided in this section. (2) Notice of the rescheduled sale shall be given at least thirty (30) days before the day of the rescheduled sale by registered or certified mail to the last known address of all persons who were entitled to notice by mail of the original sale ... (3) Notice of the rescheduled sale shall be published in the newspaper of original publication once a week for three (3) successive weeks, making three (3) publishings in all, with the last publication to be at least ten (10) days prior to the day of sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506A, added 1983, ch. 190, sec. 4, p. 518; am. 1987, ch. 166, sec. 1, p. 327.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506A(1)-(3). TRAP: after a stay the notice clocks are SHORTER than the original ones (30 days and three weeks, not 120 days and four weeks). Describe only; never suggest bankruptcy as a way to delay a sale. The Bankruptcy Code itself was not read; the statute's reference to 11 U.S.C. 362 is the only basis for mentioning it."
+    },
+    {
+      "id": "ft-stay-lifted-postponement-request",
+      "claim": "Under Idaho Code 45-1506B, if a stay that would have stopped a foreclosure sale is lifted before the sale date, a person with the right to reinstate under 45-1506(12) may ask the trustee to postpone the sale so that at least 115 days elapse from the recording of the notice of default to the rescheduled sale, not counting the time the stay was in effect; the written request must be served on the trustee before the time set for the original sale, and the section creates no cure right longer than 115 days from the recording of the notice of default exclusive of the stay.",
+      "quotedLanguage": "may request the trustee to postpone the sale for a period of time which shall allow at least one hundred fifteen (115) days to elapse from the recording of the notice of default to the rescheduled date of sale exclusive of the period of time during which such stay was in effect. (2) Written request for postponement must be served upon the trustee prior to the time set for the original sale. ... Nothing in this section shall be construed to create a right to cure the default and reinstate the deed of trust under subsection (12) of section 45-1506, Idaho Code, for a period of time longer than one hundred fifteen (115) days from the recording of the notice of default exclusive of the time during which a stay is in effect and if no request is made to postpone the sale under the circumstances provided in this section, the computation of time under this chapter shall be deemed unaffected by any intervening stay.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1506b"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1506B, added 1983, ch. 190, sec. 5, p. 519.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1506B(1), (2), (5). Narrow provision: it only arises where a stay was entered and then lifted before the sale date. If no request is made, the clocks run as if there had been no stay."
+    },
+    {
+      "id": "ft-proceeds-order",
+      "claim": "Idaho Code 45-1507 directs the trustee to apply the proceeds of the trustee's sale first to the expenses of the sale, including a reasonable trustee's charge and attorney's fee, then to the obligation secured by the trust deed, then to persons with recorded liens subsequent to the trust deed, and any surplus to the grantor or the grantor's successor in interest.",
+      "quotedLanguage": "The trustee shall apply the proceeds of the trustee's sale as follows: (1) To the expenses of the sale, including a reasonable charge by the trustee and a reasonable attorney's fee. (2) To the obligation secured by the trust deed. (3) To any persons having recorded liens subsequent to the interest of the trustee in the trust deed as their interests may appear. (4) The surplus, if any, to the grantor of the trust deed or to his successor in interest entitled to such surplus.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1507"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1507, added 1957, ch. 181, sec. 7, p. 345.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1507. 'Surplus, if any': never imply a surplus is likely. Deficiency (45-1512) is outside this page and was not read here."
+    },
+    {
+      "id": "ft-sale-final-no-redemption",
+      "claim": "Under Idaho Code 45-1508 a trustee's sale forecloses and terminates all interest in the property of every person to whom notice was given under 45-1506 and anyone claiming through them, and those persons have no right to redeem the property from the purchaser; a failure to comply with 45-1506 does not affect the validity of the sale in favor of a good-faith purchaser for value.",
+      "quotedLanguage": "A sale made by a trustee under this act shall foreclose and terminate all interest in the property covered by the trust deed of all persons to whom notice is given under section 45-1506, Idaho Code, and of any other person claiming by, through or under such persons and such persons shall have no right to redeem the property from the purchaser at the trustee's sale. ... Furthermore, any failure to comply with the provisions of section 45-1506, Idaho Code, shall not affect the validity of a sale in favor of a purchaser in good faith for value at or after such sale, or any successor in interest thereof.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure",
+        "trust-deeds"
+      ],
+      "sourceIds": [
+        "idcode-45-1508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[45-1508, added 1957, ch. 181, sec. 8, p. 345; am. 1990, ch. 401, sec. 3, p. 1126.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "45-1508. This is the trust deed (nonjudicial) rule only. Do NOT extend 'no redemption' to judicial mortgage foreclosure or to tax deeds (63-1007 gives a redemption right there; see id-tax-deed-redemption-fourteen-months)."
+    },
+    {
+      "id": "ft-federal-120-day-delinquency",
+      "claim": "Under 12 CFR 1024.41(f)(1), a mortgage servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless the borrower's mortgage loan obligation is more than 120 days delinquent, the foreclosure is based on a violation of a due-on-sale clause, or the servicer is joining the foreclosure action of a superior or subordinate lienholder.",
+      "quotedLanguage": "A servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless: (i) A borrower's mortgage loan obligation is more than 120 days delinquent; (ii) The foreclosure is based on a borrower's violation of a due-on-sale clause; or (iii) The servicer is joining the foreclosure action of a superior or subordinate lienholder.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "12 CFR 1024.41(f)(1). TRAPS: (1) 'MORE THAN 120 days delinquent', a different clock from Idaho's 120-day notice of sale; never merge or add the two. (2) Applies only to a principal residence (ft-federal-principal-residence-scope). (3) The regulation does not name Idaho's documents. The CFPB official interpretation (Supplement I, comment 41(f)-1) on what counts as the 'first notice or filing' in a nonjudicial state was NOT cached; do not state as fact that the Idaho notice of default is that document. Under 1024.41(j) small servicers are also subject to (f)(1). Future-dated amendments to the CFR were not checked (eCFR 'current' text; last amendment cited 90 FR 20792, May 16, 2025)."
+    },
+    {
+      "id": "ft-federal-application-before-referral",
+      "claim": "Under 12 CFR 1024.41(f)(2), if a borrower submits a complete loss mitigation application during the pre-foreclosure review period or before the servicer has made the first foreclosure notice or filing, the servicer shall not make that first notice or filing unless it has sent notice that the borrower is not eligible for any loss mitigation option and any appeal is unavailable, not requested in time or denied, the borrower rejects all options offered, or the borrower fails to perform under a loss mitigation agreement.",
+      "quotedLanguage": "If a borrower submits a complete loss mitigation application during the pre-foreclosure review period set forth in paragraph (f)(1) of this section or before a servicer has made the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process, a servicer shall not make the first notice or filing required by applicable law for any judicial or non-judicial foreclosure process unless: (i) The servicer has sent the borrower a notice pursuant to paragraph (c)(1)(ii) of this section that the borrower is not eligible for any loss mitigation option and the appeal process in paragraph (h) of this section is not applicable, the borrower has not requested an appeal within the applicable time period for requesting an appeal, or the borrower's appeal has been denied; (ii) The borrower rejects all loss mitigation options offered by the servicer; or (iii) The borrower fails to perform under an agreement on a loss mitigation option.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-41"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "12 CFR 1024.41(f)(2). 'COMPLETE loss mitigation application' is a defined term (1024.41(b)); an incomplete application does not trigger this paragraph. 1024.41(a) says nothing in the section imposes a duty on a servicer to provide any specific loss mitigation option. Small servicers are exempt from most of 1024.41 other than (f)(1) (1024.30(b), 1024.41(j)); (f)(2) is therefore not available against a small servicer. Paragraph (g) (applications more than 37 days before a sale) is left to the avoid-foreclosure guide."
+    },
+    {
+      "id": "ft-federal-principal-residence-scope",
+      "claim": "Under 12 CFR 1024.30(c)(2), the procedures in 12 CFR 1024.39 through 1024.41, which include the 120-day pre-foreclosure review period, apply only to a mortgage loan secured by a property that is the borrower's principal residence.",
+      "quotedLanguage": "The procedures set forth in §§ 1024.39 through 1024.41 of this subpart only apply to a mortgage loan that is secured by a property that is a borrower's principal residence.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ecfr-12-cfr-1024-30"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "12 CFR 1024.30(c)(2). 1024.30(b) also exempts small servicers, reverse mortgage transactions and certain qualified lenders from 1024.38 through 1024.41, except as 1024.41(j) provides (small servicers remain subject to the (f)(1) 120-day rule). Never tell a reader whether their loan or servicer is covered."
+    },
+    {
+      "id": "ft-ada-recorder-online-search",
+      "claim": "The Ada County Recorder's Office says property records within Ada County can be searched with its online search tool by instrument number, party information or parcel number (when available), and that not all documents can be purchased directly through the website.",
+      "quotedLanguage": "You can search for property records within Ada County using our online search tool. Documents can be searched by instrument number, party information, or parcel numbers (when available). At this time, not all documents can be purchased directly through the website.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "foreclosure"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-13",
+      "notes": "MEDIUM because the page does not mention notices of default, notices of sale or foreclosure by name. That an Ada County notice of default is recorded with the Ada County Recorder rests on Idaho Code 45-1505(3) (ft-notice-of-default-recorded-and-mailed) and 55-808 (cl-record-in-county-where-situated), not on this page. Quote verified against the cached copy (fetched 2026-09-09 by an earlier pass; the fetch script served the cache on 2026-11-13, so the LIVE page was not re-read today). Do not promise that a notice of default can be viewed or downloaded online; cl-ada-deeds-blocked-online shows the county restricts some document types."
+    }
+  ]
+}
