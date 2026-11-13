@@ -65,7 +65,7 @@ export default function PlacePage({
                 <p key={p.slice(0, 40)} className="lede text-[var(--bpg-muted)]">{p}</p>
               ))}
             </div>
-            <div className="mt-9 max-w-[34rem]">
+            <div data-offer-form className="mt-9 max-w-[34rem]">
               <OfferForm bar />
             </div>
           </div>

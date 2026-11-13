@@ -286,8 +286,29 @@ textarea.field { resize: vertical; line-height: 1.5; }
 .rule-list > *:last-child { border-bottom: 1px solid var(--bpg-border); }
 .on-navy .rule-list > *, .on-navy .rule-list > *:last-child { border-color: rgba(255, 255, 255, 0.14); }
 .serif { font-family: var(--font-display-face), Georgia, serif; }
-.section { padding-block: clamp(4.5rem, 9vw, 7.5rem); }
-.section-head { max-width: 46rem; }
+.section { padding-block: clamp(3.5rem, 7vw, 6rem); }
+
+/* Section head as a drafting-sheet title block (2026-11-13): an ink rule across
+   the full measure, a numbered label in the left margin, the heading and lede
+   in the reading column. Numbers come from a CSS counter, so reordering the
+   sections renumbers them. `.section-body` aligns content to the same column. */
+main { counter-reset: sec; }
+.section-head { border-top: 1px solid var(--bpg-ink); padding-top: 1.1rem; }
+.section-head > .eyebrow::before {
+  counter-increment: sec; content: counter(sec, decimal-leading-zero);
+  font-family: var(--font-display-face), Georgia, serif; font-size: 0.95rem;
+  letter-spacing: 0; margin-right: 0.7rem; color: var(--bpg-ink);
+}
+.on-navy .section-head { border-top-color: rgba(255, 255, 255, 0.4); }
+.on-navy .section-head > .eyebrow::before { color: #fff; }
+@media (min-width: 1024px) {
+  .section-head { display: grid; grid-template-columns: 13rem minmax(0, 46rem); column-gap: 2rem; padding-top: 1.4rem; }
+  .section-head > * { grid-column: 2; }
+  .section-head > .eyebrow { grid-column: 1; grid-row: 1 / span 4; }
+  .section-head > .eyebrow::before { display: block; font-size: 1.5rem; line-height: 1; margin: 0 0 0.6rem; }
+  .section-head > h2 { margin-top: 0; }
+  .section-body { margin-left: 15rem; }
+}
 
 /* Range input, drawn. */
 .range { -webkit-appearance: none; appearance: none; width: 100%; height: 28px; background: transparent; cursor: pointer; }

@@ -9,7 +9,7 @@
  * tenants", "no repairs, no fees" or equivalent to the multifamily line.
  * See data/commercial/queries/commercial-query-ownership.json.
  *
- * Layout (2026-11-12): a two-column hairline list, no cards and no icons.
+ * Layout (2026-11-13): an index. One row per type, name left, scope right.
  */
 import Link from "next/link";
 
@@ -28,7 +28,7 @@ const ITEMS = [
 
 export default function WhatWeBuy() {
   return (
-    <section className="section bg-[var(--bpg-sand)]" aria-labelledby="what-we-buy">
+    <section className="section bg-white" aria-labelledby="what-we-buy">
       <div className="wrap">
         <div className="section-head">
           <p className="eyebrow text-[var(--bpg-warm)]">What we buy</p>
@@ -36,27 +36,30 @@ export default function WhatWeBuy() {
             Houses are only part of it.
           </h2>
           <p className="lede mt-5 text-[var(--bpg-muted)]">
-            We buy as it stands, so condition is not a disqualifier &mdash; and neither are the things
-            most buyers walk away from: ground without access, tenants in place, an estate still being
-            settled.
+            We buy as it stands, so condition does not rule a property out. Neither do the things
+            most buyers walk away from: ground without access, tenants in place, an estate still
+            being settled.
           </p>
         </div>
-        <ul className="mt-12 grid gap-x-12 md:grid-cols-2">
+        <ul className="section-body mt-10">
           {ITEMS.map((i) => (
-            <li key={i.t} className="border-t border-[var(--bpg-border)] py-6">
-              <h3 className="serif text-[1.3rem] font-semibold leading-snug text-[var(--bpg-ink)]">{i.t}</h3>
-              <p className="mt-1.5 text-[0.95rem] text-[var(--bpg-muted)]">{i.d}</p>
+            <li
+              key={i.t}
+              className="grid gap-x-8 gap-y-0.5 border-t border-[var(--bpg-border)] py-4 last:border-b md:grid-cols-[19rem_1fr] md:items-baseline"
+            >
+              <h3 className="serif text-[1.15rem] font-semibold leading-snug text-[var(--bpg-ink)]">{i.t}</h3>
+              <p className="text-[0.95rem] text-[var(--bpg-muted)]">{i.d}</p>
             </li>
           ))}
         </ul>
-        <p className="mt-8 text-[0.95rem] text-[var(--bpg-muted)]">
+        <p className="section-body mt-8 text-[0.95rem] text-[var(--bpg-muted)]">
           <Link
             href="/commercial"
             className="font-semibold text-[var(--bpg-ink)] underline decoration-[var(--bpg-brass)] underline-offset-4"
           >
             More on the commercial side
-          </Link>{" "}
-          &mdash; how industrial districts differ across Boise, and where multifamily actually begins.
+          </Link>
+          : how industrial districts differ across Boise, and where multifamily begins.
         </p>
       </div>
     </section>

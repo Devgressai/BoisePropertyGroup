@@ -160,7 +160,7 @@ export default function OfferForm({
     return (
       <form onSubmit={submitDetails} noValidate className={`${bare ? "" : "card p-6 "}text-left`} aria-labelledby={`${uid}-h`}>
         <p id={`${uid}-h`} className="text-[1.05rem] font-semibold text-[var(--bpg-ink)]">
-          Got it — we have the address.
+          Got it. We have the address.
         </p>
         <p className="mt-1 text-[0.95rem] text-[var(--bpg-muted)]">
           Where should we send the number? A few details help us get it right the first time.
@@ -199,6 +199,13 @@ export default function OfferForm({
             </div>
           </fieldset>
 
+          {/* Everything below is optional, so it stays folded: the visible form
+              is the three things we need (name, phone, consent). */}
+          <details className="group border-y border-[var(--bpg-border)]">
+            <summary className="flex min-h-[48px] cursor-pointer list-none items-center justify-between text-sm font-medium text-[var(--bpg-ink)] [&::-webkit-details-marker]:hidden">
+              Add details about the property <span className="font-normal text-[var(--bpg-muted)]">optional</span>
+            </summary>
+            <div className="grid gap-4 pb-5 pt-1">
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label htmlFor={`${uid}-sit`} className={lab}>{context === "commercial" ? "Property type" : "Situation"}</label>
@@ -243,6 +250,8 @@ export default function OfferForm({
               onChange={set("notes")}
             />
           </div>
+            </div>
+          </details>
         </div>
 
         <div className="mt-5 grid gap-3">
@@ -328,12 +337,14 @@ export default function OfferForm({
       </div>
       )}
       {errorLine}
-      <p className="mt-3 text-sm text-[var(--bpg-muted)]">
-        {note ??
-          (context === "commercial"
-          ? "No obligation. We’ll show our working — what we’d pay, not what it’s worth."
-          : "No obligation. We’ll show you how we got to the number.")}
-      </p>
+      {note !== "" && (
+        <p className="mt-3 text-sm text-[var(--bpg-muted)]">
+          {note ??
+            (context === "commercial"
+              ? "No obligation. We’ll show our working: what we’d pay, not what it’s worth."
+              : "No obligation. We’ll show you how we got to the number.")}
+        </p>
+      )}
     </form>
   );
 }

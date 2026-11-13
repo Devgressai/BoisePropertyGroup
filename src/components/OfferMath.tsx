@@ -25,7 +25,7 @@ function Line({ label, value, minus = false, strong = false }: { label: string; 
   return (
     <div className="flex items-baseline justify-between gap-4 py-3.5">
       <dt className={strong ? "font-semibold text-white" : "text-[0.95rem] text-white"}>{label}</dt>
-      <dd className="serif text-[1.12rem] text-white tabular-nums">
+      <dd className="serif whitespace-nowrap text-[1.12rem] text-white tabular-nums">
         {minus && value > 0 ? "−" : ""}
         {formatUsd(value)}
       </dd>
@@ -85,14 +85,13 @@ export default function OfferMath() {
     <section className="on-navy section bg-[var(--bpg-navy)] text-[var(--bpg-on-navy-muted)]" aria-labelledby="offer-math">
       <div className="wrap">
         <div className="section-head">
-          <p className="eyebrow text-[var(--bpg-brass)]">The part nobody shows you</p>
+          <p className="eyebrow text-[var(--bpg-brass)]">The arithmetic</p>
           <h2 id="offer-math" className="display-lg mt-4 text-white">
             How an offer is calculated.
           </h2>
           <p className="lede mt-5">
-            Every direct buyer&rsquo;s number comes from the same four lines. Most hand you the
-            answer and hope you don&rsquo;t ask. Here are ours, with the rates we actually use. Set
-            the value and the condition, and watch it change.
+            Every direct buyer&rsquo;s number comes from the same four lines. These are ours, with
+            the rates we use. Set the value and the condition.
           </p>
         </div>
 
@@ -181,7 +180,7 @@ export default function OfferMath() {
                   {p.rows.map(([k, v, minus]) => (
                     <div key={k} className="flex justify-between gap-3 border-b border-white/10 py-2">
                       <dt>{k}</dt>
-                      <dd className="tabular-nums text-white">{minus && v > 0 ? "−" : ""}{formatUsd(v)}</dd>
+                      <dd className="whitespace-nowrap tabular-nums text-white">{minus && v > 0 ? "−" : ""}{formatUsd(v)}</dd>
                     </div>
                   ))}
                 </dl>
@@ -198,7 +197,7 @@ export default function OfferMath() {
 
         <div className="mt-12 flex flex-wrap items-center gap-x-6 gap-y-4">
           <a href="#offer" className="btn btn-brass">
-            Have us run these numbers on your property <span aria-hidden="true">→</span>
+            Get the number for your property <span aria-hidden="true">→</span>
           </a>
           <Link href="/how-we-calculate-an-offer" className="text-sm font-semibold text-white underline decoration-[var(--bpg-brass)] underline-offset-4">
             Read how each line is worked out

@@ -27,12 +27,12 @@ export default function Explore() {
             Find your city, or read the law.
           </h2>
           <p className="lede mt-5 text-[var(--bpg-muted)]">
-            Each area page covers what governs property there. Each guide covers one situation under
+            An area page covers what governs property there. A guide covers one situation under
             Idaho law, with its sources.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-12 lg:grid-cols-[1fr_2fr]">
+        <div className="mt-10 grid gap-12 lg:grid-cols-[13rem_1fr] lg:gap-8">
           <div>
             <h3 className="serif text-[1.3rem] font-semibold text-[var(--bpg-ink)]">
               <Link href="/locations" className="no-underline hover:underline">Areas we buy in</Link>

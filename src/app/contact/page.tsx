@@ -58,7 +58,7 @@ export default function Contact() {
 
             {/* id="offer": the navbar and mobile bar link to #offer on every page. */}
             <div id="offer" className="scroll-mt-24 lg:sticky lg:top-24">
-              <div className="form-panel p-6 sm:p-7">
+              <div data-offer-form className="form-panel p-6 sm:p-7">
                 <OfferForm bare />
               </div>
             </div>

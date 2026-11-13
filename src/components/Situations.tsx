@@ -36,16 +36,16 @@ export default function Situations() {
             What&rsquo;s actually going on?
           </h2>
           <p className="lede mt-5 text-[var(--bpg-muted)]">
-            Almost nobody arrives here wanting to sell a property. Something else happened first.
-            Find yours &mdash; each one goes to a plain explanation of your options under Idaho law.
+            Most people get here because something else happened first. Pick yours for a plain
+            account of your options under Idaho law.
           </p>
         </div>
-        <ul className="mt-12 grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="section-body mt-10 grid gap-x-12 border-t border-[var(--bpg-border)] sm:grid-cols-2">
           {items.map((i) => (
             <li key={i.href} className="border-b border-[var(--bpg-border)]">
               <Link
                 href={i.href}
-                className="group flex items-center justify-between gap-4 py-5 text-[1.02rem] text-[var(--bpg-ink)] no-underline"
+                className="group flex items-center justify-between gap-4 py-[1.05rem] text-[1.02rem] text-[var(--bpg-ink)] no-underline"
               >
                 <span>&ldquo;{i.q}&rdquo;</span>
                 <span aria-hidden="true" className="text-[var(--bpg-accent)] transition-transform group-hover:translate-x-1">→</span>
@@ -53,7 +53,7 @@ export default function Situations() {
             </li>
           ))}
         </ul>
-        <p className="mt-8 text-[0.95rem] text-[var(--bpg-muted)]">
+        <p className="section-body mt-8 text-[0.95rem] text-[var(--bpg-muted)]">
           Something else, or nothing you want to explain yet?{" "}
           <Link href="/what-we-buy" className="font-semibold text-[var(--bpg-ink)] underline decoration-[var(--bpg-brass)] underline-offset-4">
             See everything we buy

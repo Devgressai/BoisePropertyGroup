@@ -81,7 +81,8 @@ export default function HowItWorks() {
           </ol>
         </div>
         {/* Illustrative photography — not a client and not a completed sale.
-            See the note in components/HumanScale.tsx. */}
+            It must never carry a name, quote, rating, location caption or any
+            framing that presents it as a record of something that happened. */}
         <div className="wrap pb-16">
           <div className="overflow-hidden rounded-2xl">
             <Image

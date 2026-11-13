@@ -4,7 +4,7 @@ import { site, hasPhone } from "@/data/site";
 /**
  * The closing band is navy: the one dark surface on the page besides the
  * footer, so the last thing a reader meets is the most serious-looking, with
- * the single brass button on it.
+ * the address bar on it.
  *
  * It has no id="offer" of its own when the page already carries one higher up
  * (the homepage hero, /contact) — two would make the navbar button a coin toss.
@@ -17,12 +17,11 @@ export default function FinalCTA({ anchor = true }: { anchor?: boolean }) {
           <hr className="rule-accent centered" />
           <h2 className="display-lg mt-6 text-[var(--bpg-on-navy)]">Start with the address.</h2>
           <p className="lede mt-5 text-[var(--bpg-on-navy-muted)]">
-            One field. We will look at the parcel and the comparable sales, then come back with a
-            number and the working behind it. No obligation, and no pressure if the answer is that
-            you should list it instead.
+            We look at the parcel and the comparable sales, then come back with a number and the
+            working behind it. No obligation. If listing would net you more, we will say so.
           </p>
-          <div className="form-panel mx-auto mt-9 max-w-[36rem] p-5 text-left sm:p-6">
-            <OfferForm bare />
+          <div data-offer-form className="mx-auto mt-9 max-w-[36rem] text-left">
+            <OfferForm bar note="" />
           </div>
           {hasPhone && (
             <p className="mt-8 text-[1.05rem] text-[var(--bpg-on-navy-muted)]">
