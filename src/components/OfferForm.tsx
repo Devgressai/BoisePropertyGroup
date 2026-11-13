@@ -1,5 +1,6 @@
 "use client";
 
+import AddressInput from "./AddressInput";
 import { useEffect, useId, useRef, useState } from "react";
 import {
   SITUATIONS,
@@ -284,15 +285,13 @@ export default function OfferForm({
         <div className="flex flex-col gap-2 rounded-xl border border-[var(--bpg-border)] bg-white p-2 shadow-[var(--bpg-shadow-form)] focus-within:border-[var(--bpg-ink)] focus-within:ring-[3px] focus-within:ring-[rgba(227,180,75,0.55)] sm:flex-row sm:items-center">
           <div className="flex flex-1 items-center gap-3 pl-3">
             <IconPin className="h-5 w-5 flex-none text-[var(--bpg-ink)]" />
-            <input
+            <AddressInput
               id={`${uid}-address`}
-              name="address"
               className="min-h-[48px] w-full bg-transparent text-[1.02rem] text-[var(--bpg-ink)] outline-none placeholder:text-[var(--bpg-muted)]"
               placeholder="Enter the property address"
-              autoComplete="street-address"
               value={address}
-              onChange={(e) => setAddress(e.target.value)}
-              required
+              onChange={setAddress}
+              noRing
             />
           </div>
           {/* Honeypot — hidden from people, catches naive bots. */}
@@ -311,15 +310,12 @@ export default function OfferForm({
         </div>
       ) : (
       <div className={`flex flex-col gap-3 ${stack ? "" : "sm:flex-row"}`}>
-        <input
+        <AddressInput
           id={`${uid}-address`}
-          name="address"
-          className="field flex-1"
+          className="field"
           placeholder="Property address, city"
-          autoComplete="street-address"
           value={address}
-          onChange={(e) => setAddress(e.target.value)}
-          required
+          onChange={setAddress}
         />
         {/* Honeypot — hidden from people, catches naive bots. */}
         <input

@@ -28,7 +28,7 @@ const FACTS = [
 export default function Hero() {
   return (
     <section className="bg-[var(--bpg-sand)]">
-      <div className="relative isolate overflow-hidden">
+      <div className="relative isolate">
         {/* Photograph: a band on phones, the right 46% from lg up. */}
         <div className="relative h-40 sm:h-64 lg:absolute lg:inset-y-0 lg:right-0 lg:h-auto lg:w-[46%]">
           <Image

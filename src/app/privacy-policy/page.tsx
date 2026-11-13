@@ -60,6 +60,17 @@ export default function PrivacyPolicy() {
       ),
     },
     {
+      h: "Address suggestions",
+      body: (
+        <p>
+          As you type a property address, the field suggests matching addresses. Those suggestions
+          come from Google: what you type in that field is sent to Google Maps to find them, under{" "}
+          <a href="https://policies.google.com/privacy" rel="nofollow noopener">Google&rsquo;s privacy policy</a>.
+          Nothing else you enter on the form is sent to Google.
+        </p>
+      ),
+    },
+    {
       h: "What we do not collect",
       body: (
         <p>
@@ -97,7 +108,7 @@ export default function PrivacyPolicy() {
       h: "Who else receives it",
       body: (
         <ul>
-          <li><strong>Service providers.</strong> Resend delivers the form to our email inbox, and Vercel hosts the site. They handle your details only to provide those services to us.</li>
+          <li><strong>Service providers.</strong> Resend delivers the form to our email inbox, and Vercel hosts the site. They handle your details only to provide those services to us. Google Maps supplies the address suggestions described above.</li>
           <li><strong>A sale.</strong> If you go ahead, the title company and others needed to close the purchase receive what they need to do so.</li>
           <li><strong>The law.</strong> We disclose information when the law requires it.</li>
         </ul>
