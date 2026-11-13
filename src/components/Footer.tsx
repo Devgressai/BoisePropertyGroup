@@ -44,7 +44,7 @@ const COLS = [
   { h: "Sell", links: [["How It Works", "/how-it-works"], ["What We Buy", "/what-we-buy"], ["Commercial", "/commercial"], ["Get an Offer", "#offer"]] },
   { h: "Situations", links: situationLinks },
   { h: "Areas", links: areaLinks },
-  { h: "Learn", links: [["Guides", "/guides"], ["About", "/about"], ["Contact", "/contact"]] },
+  { h: "Learn", links: [["Guides", "/guides"], ["About", "/about"], ["Contact", "/contact"], ["Privacy Policy", "/privacy-policy"]] },
 ];
 
 export default function Footer() {

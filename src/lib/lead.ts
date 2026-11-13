@@ -86,6 +86,14 @@ export const CONSENT_CONTACT =
 export const CONSENT_PARTNERS =
   "Optional: I also agree that Boise Property Group's marketing partners may contact me by phone call or text message at the number I gave, including by automated means. Consent is not a condition of receiving an offer.";
 
+/**
+ * The marketing partners a seller's optional consent covers. Named on
+ * /privacy-policy. EMPTY until the owner names them: while it is empty, no lead
+ * goes to any partner, whatever the seller ticked. Add a partner here BEFORE
+ * sharing a single lead with them.
+ */
+export const MARKETING_PARTNERS: { name: string; site?: string }[] = [];
+
 export const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 /** US numbers: 10 digits, optionally a leading 1. */
 export function normalizePhone(v: string): string {

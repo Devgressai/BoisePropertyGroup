@@ -296,3 +296,8 @@ textarea.field { resize: vertical; line-height: 1.5; }
 .range::-webkit-slider-thumb { -webkit-appearance: none; height: 22px; width: 22px; margin-top: -9.5px; border-radius: 50%; background: var(--bpg-brass); border: 3px solid var(--bpg-navy); box-shadow: 0 0 0 1px var(--bpg-brass); }
 .range::-moz-range-thumb { height: 18px; width: 18px; border-radius: 50%; background: var(--bpg-brass); border: 3px solid var(--bpg-navy); }
 .range:focus-visible { outline: 3px solid var(--bpg-brass); outline-offset: 2px; }
+
+/* Privacy policy body: plain lists, quoted consent wording, visible links. */
+.policy ul { list-style: disc; padding-left: 1.25rem; display: grid; gap: 0.5rem; }
+.policy blockquote { border-left: 3px solid var(--bpg-brass); padding: 0.25rem 0 0.25rem 1rem; color: var(--bpg-ink); font-size: 0.95rem; }
+.policy a { color: var(--bpg-accent-ink); text-decoration: underline; text-underline-offset: 2px; }

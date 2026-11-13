@@ -76,6 +76,7 @@ export function registry(): PageEntry[] {
     { path: "/about", label: "About", kind: "trust", stage: "mofu", parent: "/", updated: "2026-11-11" },
     { path: "/what-we-buy", label: "What we buy", kind: "conversion", stage: "bofu", parent: "/", updated: "2026-11-11" },
     { path: "/contact", label: "Contact", kind: "conversion", stage: "bofu", parent: "/", updated: "2026-11-11" },
+    { path: "/privacy-policy", label: "Privacy policy", kind: "trust", stage: "mofu", parent: "/", updated: "2026-11-13" },
     { path: "/locations", label: "Areas we buy in", kind: "hub", stage: "bofu", parent: "/", updated: "2026-09-17" },
     { path: "/guides", label: "Guides", kind: "hub", stage: "tofu", parent: "/", updated: "2026-09-16" },
     { path: "/commercial", label: "Commercial", kind: "hub", stage: "mofu", parent: "/", updated: "2026-09-16" },

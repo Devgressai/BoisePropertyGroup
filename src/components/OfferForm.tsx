@@ -256,6 +256,10 @@ export default function OfferForm({
             <input type="checkbox" className="mt-0.5 h-4 w-4 flex-none accent-[var(--bpg-accent)]" checked={consentPartners} onChange={(e) => setConsentPartners(e.target.checked)} />
             <span>{CONSENT_PARTNERS}</span>
           </label>
+          <p className="text-xs leading-relaxed text-[var(--bpg-muted)]">
+            How we use your details, and which partners (if any) that box covers:{" "}
+            <a href="/privacy-policy" target="_blank" className="text-[var(--bpg-accent-ink)] underline underline-offset-2">privacy policy</a>.
+          </p>
         </div>
 
         {errorLine}
