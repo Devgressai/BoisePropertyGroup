@@ -1,5 +1,5 @@
 import OfferForm from "./OfferForm";
-import { site } from "@/data/site";
+import { site, hasPhone } from "@/data/site";
 
 /**
  * The closing band is navy: the one dark surface on the page besides the
@@ -24,7 +24,15 @@ export default function FinalCTA({ anchor = true }: { anchor?: boolean }) {
           <div className="form-panel mx-auto mt-9 max-w-[36rem] p-5 text-left sm:p-6">
             <OfferForm bare />
           </div>
-          <p className="mt-8 text-sm text-[var(--bpg-on-navy-muted)]">
+          {hasPhone && (
+            <p className="mt-8 text-[1.05rem] text-[var(--bpg-on-navy-muted)]">
+              Rather talk it through?{" "}
+              <a href={site.phoneHref} className="font-semibold text-[var(--bpg-brass)] no-underline hover:underline">
+                Call {site.phone}
+              </a>
+            </p>
+          )}
+          <p className={`${hasPhone ? "mt-4" : "mt-8"} text-sm text-[var(--bpg-on-navy-muted)]`}>
             Serving {site.market.cities.join(", ")} and unincorporated {site.market.county}.
           </p>
         </div>

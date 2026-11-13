@@ -15,9 +15,9 @@ export const site = {
   domain: "boisepropertygroup.com",
   url: "https://boisepropertygroup.com",
 
-  /** NAP. All BLOCKED pending owner input. Do not invent. */
-  phone: "",
-  phoneHref: "",
+  /** Phone supplied by the owner 2026-11-13. Email and address still BLOCKED. Do not invent. */
+  phone: "(208) 779-4247",
+  phoneHref: "tel:+12087794247",
   email: "",
   address: { street: "", city: "", state: "ID", zip: "" },
 

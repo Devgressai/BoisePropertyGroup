@@ -10,8 +10,8 @@ export default function robots(): MetadataRoute.Robots {
   //   1. RESEND_API_KEY / LEAD_TO_EMAIL are unset in Vercel, so /api/offer
   //      returns 500 and every submitted lead is lost. Indexing takes weeks to
   //      produce traffic, so there is a window — but it is a window, not safety.
-  //   2. There is no phone, email or address in src/data/site.ts, so a visitor
-  //      who hits the broken form has no second way to reach anyone.
+  //   2. (Resolved for phone 2026-11-13: the owner supplied one. Email and
+  //      address are still unset in src/data/site.ts.)
   const launched = true;
 
   if (!launched) {

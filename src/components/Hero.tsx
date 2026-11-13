@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import OfferForm from "./OfferForm";
+import { site, hasPhone } from "@/data/site";
 
 /**
  * Hero, rebuilt 2026-11-12 as an editorial layout: headline and address bar on
@@ -59,7 +60,12 @@ export default function Hero() {
             <OfferForm bar note="Next, a name and a phone number so we can send you the number. No obligation." />
           </div>
 
-          <p className="mt-5 text-sm font-semibold text-[var(--bpg-ink)]">
+          <p className="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold text-[var(--bpg-ink)]">
+            {hasPhone && (
+              <a href={site.phoneHref} className="no-underline hover:underline">
+                Or call {site.phone}
+              </a>
+            )}
             <Link href="/how-we-calculate-an-offer" className="no-underline hover:underline">
               See exactly how we calculate an offer <span aria-hidden="true">↓</span>
             </Link>
