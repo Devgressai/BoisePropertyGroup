@@ -13,13 +13,24 @@ export function organizationSchema() {
     "@id": `${site.url}/#organization`,
     name: site.name,
     url: site.url,
+    description: `Direct property buyer in ${site.market.county}, ${site.market.state}. Buys houses, land, multifamily and commercial property with its own capital.`,
     areaServed: site.market.cities.map((c) => ({
       "@type": "City",
       name: `${c}, ${site.market.state}`,
     })),
   };
   if (isSet(site.legalEntity)) node.legalName = site.legalEntity;
-  if (isSet(site.phone)) node.telephone = site.phone;
+  if (isSet(site.phone)) {
+    node.telephone = site.phone;
+    // The same number printed in the header, footer and hero.
+    node.contactPoint = {
+      "@type": "ContactPoint",
+      telephone: site.phoneHref.replace("tel:", ""),
+      contactType: "sales",
+      areaServed: "US-ID",
+      availableLanguage: "English",
+    };
+  }
   if (isSet(site.email)) node.email = site.email;
   if (hasAddress) {
     node.address = {
@@ -182,6 +193,61 @@ export function articleSchema({
       name: s.title,
       url: s.url,
       publisher: { "@type": "Organization", name: s.publisher },
+    })),
+  };
+}
+
+/**
+ * Service: what the business does, where, and who provides it (2026-11-13).
+ *
+ * It names the service and its area and nothing else. No Offer, price, rating
+ * or review: there is no published price and no transaction record to cite.
+ * Every field restates something printed on the page that carries it.
+ */
+export function serviceSchema({ path, name, description, area }: { path: string; name: string; description?: string; area?: string }) {
+  const url = path === "/" ? site.url : `${site.url}${path}`;
+  return {
+    "@type": "Service",
+    "@id": `${url}#service`,
+    name,
+    serviceType: "Direct purchase of real property from owners",
+    ...(description ? { description } : {}),
+    url,
+    provider: { "@id": `${site.url}/#organization` },
+    areaServed: area
+      ? { "@type": "City", name: area }
+      : { "@type": "AdministrativeArea", name: `${site.market.county}, ${site.market.state}` },
+  };
+}
+
+/**
+ * FAQPage for questions and answers that are printed, in full, on the page.
+ * Emitted for machine readers. Google stopped showing FAQ rich results in
+ * 2026, so this is not there to win one.
+ */
+export function faqSchema(path: string, items: { q: string; a: string }[]) {
+  const url = path === "/" ? site.url : `${site.url}${path}`;
+  return {
+    "@type": "FAQPage",
+    "@id": `${url}#faq`,
+    mainEntity: items.map((x) => ({
+      "@type": "Question",
+      name: x.q,
+      acceptedAnswer: { "@type": "Answer", text: x.a },
+    })),
+  };
+}
+
+/** ItemList for a hub: the pages it lists, in the order it lists them. */
+export function itemListSchema(path: string, items: { name: string; href: string }[]) {
+  return {
+    "@type": "ItemList",
+    "@id": `${site.url}${path}#list`,
+    itemListElement: items.map((x, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: x.name,
+      url: `${site.url}${x.href}`,
     })),
   };
 }

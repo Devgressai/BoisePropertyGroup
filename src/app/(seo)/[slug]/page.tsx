@@ -6,10 +6,26 @@ import { decideIndexation, robotsFor, countWords } from "@/lib/seo/indexation";
 import { linksForPlace, linksForCounty, knowledgeLinksForPlace } from "@/lib/seo/internalLinks";
 import { pageMetadata, metaDescription } from "@/lib/seo/meta";
 import PageSchema from "@/components/seo/PageSchema";
+import { serviceSchema, articleSchema } from "@/lib/seo/schema";
+import { citedClaims } from "@/lib/seo/topicIndexation";
 import PlacePage from "@/components/seo/PlacePage";
 import TopicPageView from "@/components/seo/TopicPageView";
 import { TOPIC_PAGES, topicPage } from "@/data/topic-pages";
 import { decideTopicIndexation } from "@/lib/seo/topicIndexation";
+
+/**
+ * SEARCH TITLE AND DESCRIPTION FOR A PLACE PAGE (2026-11-13).
+ *
+ * The H1 stays "We Buy Property in <place>". The search title and description
+ * are written for what Search Console shows people typing ("sell my house fast
+ * meridian idaho", "sell my house for cash", "as is"): the description was the
+ * page's first paragraph, which opens with census figures and says nothing a
+ * seller is looking for. Every phrase is an owner-confirmed fact (2026-09-13):
+ * own capital, any condition, the seller sets the date, three weeks realistic.
+ */
+const placeSearchTitle = (name: string) => `Sell My House Fast in ${name}, Idaho`;
+const placeSearchDescription = (name: string) =>
+  `We buy houses in ${name}, Idaho for cash, as-is, with no lender to wait on. You choose the closing date. Three weeks is realistic. Start with the address.`;
 
 /**
  * Every valid slug is prerendered, so an unknown slug is a true 404 rather
@@ -110,8 +126,8 @@ export async function generateMetadata({
   if (!r) return {};
   return pageMetadata({
     path: `/${slug}`,
-    title: r.title,
-    description: r.content.intro[0],
+    title: placeSearchTitle(r.name),
+    description: placeSearchDescription(r.name),
     robots: robotsFor({ indexable: r.indexable, reason: "" }),
   });
 }
@@ -123,7 +139,25 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     return (
       <>
         <TopicPageView page={topic} />
-        <PageSchema path={`/${slug}`} name={topic.title} description={metaDescription(topic.description)} />
+        <PageSchema
+          path={`/${slug}`}
+          name={topic.title}
+          description={metaDescription(topic.description)}
+          extra={
+            topic.kind === "situation"
+              ? [serviceSchema({ path: `/${slug}`, name: topic.h1, description: topic.description })]
+              : [
+                  articleSchema({
+                    path: `/${slug}`,
+                    headline: topic.h1,
+                    description: topic.description,
+                    published: topic.published,
+                    updated: topic.updated,
+                    sources: [...new Map(citedClaims(topic).flatMap((c) => c.sources).map((s) => [s.url, s])).values()],
+                  }),
+                ]
+          }
+        />
       </>
     );
   }
@@ -140,7 +174,19 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         stats={r.stats}
         path={`/${slug}`}
       />
-      <PageSchema path={`/${slug}`} name={r.title} description={metaDescription(r.content.intro[0])} />
+      <PageSchema
+        path={`/${slug}`}
+        name={placeSearchTitle(r.name)}
+        description={placeSearchDescription(r.name)}
+        extra={[
+          serviceSchema({
+            path: `/${slug}`,
+            name: `We buy houses and property in ${r.name}, Idaho`,
+            description: placeSearchDescription(r.name),
+            area: r.kind === "place" ? `${r.name}, Idaho` : undefined,
+          }),
+        ]}
+      />
     </>
   );
 }

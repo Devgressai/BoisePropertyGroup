@@ -11,7 +11,8 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import Explore from "@/components/Explore";
-import Questions from "@/components/Questions";
+import Questions, { QA_TEXT } from "@/components/Questions";
+import { serviceSchema, faqSchema } from "@/lib/seo/schema";
 import PageSchema from "@/components/seo/PageSchema";
 import { pageMetadata } from "@/lib/seo/meta";
 
@@ -21,9 +22,9 @@ import { pageMetadata } from "@/lib/seo/meta";
  * Google it was a copy of the homepage.
  */
 // Absolute: the layout's title template does not apply to the root page itself.
-const TITLE = "Boise Property Group — We Buy Property in Ada County, Idaho";
+const TITLE = "We Buy Houses in Boise, Idaho | Boise Property Group";
 const DESCRIPTION =
-  "We buy houses, land, multifamily and commercial property across Ada County — Boise, Meridian, Eagle, Kuna, Star and Garden City. You choose the closing date.";
+  "We buy houses, land and commercial property in Boise and across Ada County with our own capital. Any condition, and you choose the closing date.";
 export const metadata: Metadata = {
   ...pageMetadata({ path: "/", title: TITLE, description: DESCRIPTION }),
   title: { absolute: TITLE },
@@ -47,7 +48,15 @@ export default function Home() {
       </main>
       <Footer />
       <MobileCTA />
-      <PageSchema path="/" name={TITLE} description={DESCRIPTION} />
+      <PageSchema
+        path="/"
+        name={TITLE}
+        description={DESCRIPTION}
+        extra={[
+          serviceSchema({ path: "/", name: "We buy houses, land and commercial property in Ada County, Idaho", description: DESCRIPTION }),
+          faqSchema("/", QA_TEXT),
+        ]}
+      />
     </>
   );
 }

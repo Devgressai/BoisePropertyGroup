@@ -11,7 +11,8 @@ import Link from "next/link";
  * Do NOT add a promise that is not confirmed: nothing about the price never
  * changing, response times, fees, or not assigning contracts.
  */
-const QA: { q: string; a: React.ReactNode }[] = [
+/** `text` is the plain-text form of an answer that contains a link, for structured data. */
+export const QA: { q: string; a: React.ReactNode; text?: string }[] = [
   {
     q: "Will your offer be lower than listing would get me?",
     a: "Usually, yes. A direct sale trades some of the price for certainty and time. The calculator above shows the difference in dollars, and on a house in good shape we will tell you to list it.",
@@ -34,6 +35,7 @@ const QA: { q: string; a: React.ReactNode }[] = [
   },
   {
     q: "What happens to my details?",
+    text: "They stay with us. We do not sell them or pass them to other companies for marketing. The privacy policy is one page.",
     a: (
       <>
         They stay with us. We do not sell them or pass them to other companies for marketing. The{" "}
@@ -43,6 +45,9 @@ const QA: { q: string; a: React.ReactNode }[] = [
     ),
   },
 ];
+
+/** The same questions and answers, as text, for the page's FAQPage node. */
+export const QA_TEXT = QA.map((x) => ({ q: x.q, a: x.text ?? (x.a as string) }));
 
 export default function Questions() {
   return (

@@ -11,7 +11,7 @@ import type { TopicPage } from "@/data/topic-pages";
 import { guideBySlug } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
 import { citedClaims } from "@/lib/seo/topicIndexation";
-import { publishedPlaces } from "@/lib/seo/registry";
+import { publishedPlaces, publishedTopics } from "@/lib/seo/registry";
 
 /**
  * Template for BOFU situation pages and MOFU decision pages. Same skeleton as a
@@ -23,6 +23,9 @@ export default function TopicPageView({ page }: { page: TopicPage }) {
     .map(guideBySlug)
     .filter((g): g is NonNullable<typeof g> => !!g && !!guideContentFor(g.slug));
   const places = page.kind === "situation" ? publishedPlaces() : [];
+  /** Sibling selling pages, and the pages that help a seller decide. */
+  const situations = publishedTopics("situation").filter((t) => t.slug !== page.slug);
+  const decisions = publishedTopics("decision").filter((t) => t.slug !== page.slug);
   const parent = page.kind === "situation" ? { href: "/what-we-buy", label: "What we buy" } : { href: "/how-it-works", label: "How it works" };
   const fmt = (d: string) =>
     new Date(`${d}T12:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
@@ -60,12 +63,12 @@ export default function TopicPageView({ page }: { page: TopicPage }) {
         </header>
 
         <ArticleBody sections={page.sections}>
-          {(guides.length > 0 || places.length > 0) && (
-            <div className="mt-16 space-y-10 border-t-2 border-[var(--bpg-ink)] pt-8">
+          <div className="mt-16 space-y-10 border-t-2 border-[var(--bpg-ink)] pt-8">
               <LinkList heading="The law in full" cols={1} items={guides.map((g) => ({ href: `/guides/${g.slug}`, label: g.h1 }))} />
               <LinkList heading="Where we buy" cols={3} items={places.map((p) => ({ href: `/${p.slug}`, label: p.name }))} />
-            </div>
-          )}
+              <LinkList heading={page.kind === "situation" ? "Other situations" : "Selling in a particular situation"} cols={2} items={situations.map((t) => ({ href: `/${t.slug}`, label: t.h1 }))} />
+              <LinkList heading="Before you decide" cols={1} items={decisions.map((t) => ({ href: `/${t.slug}`, label: t.h1 }))} />
+          </div>
         </ArticleBody>
 
         <EvidenceAppendix claims={citedClaims(page)} />

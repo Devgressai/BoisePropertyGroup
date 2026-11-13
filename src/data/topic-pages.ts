@@ -268,7 +268,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       "Behind on payments in Ada County? How Idaho's trustee-sale clock works, what a sale before the date can and cannot do, and what we can honestly offer.",
     published: "2026-11-12",
     updated: "2026-11-13",
-    guides: ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency", "liens-and-judgments-when-selling-in-idaho", "idaho-property-taxes-when-you-sell"],
+    guides: ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency"],
     intro: [
       "If an Ada County house is heading toward a trustee's sale, selling it before the sale date is one option the owner still has — and if the property is worth more than what is owed, it is the option that can leave the difference with the owner rather than at the auction. Idaho requires notice of a trustee's sale at least 120 days before the sale, so the clock is real but not instant.",
       NOT_ADVICE,
@@ -532,6 +532,177 @@ export const TOPIC_PAGES: TopicPage[] = [
         body: [
           "We send the same offer, with the same arithmetic, to both of you — no side conversations. Nothing needs fixing, cleaning or staging, and nobody has to keep the house show-ready while living through a separation. The sale closes through a local title company, which pays off the mortgage and splits nothing itself: the proceeds go where your agreement or the court directs. Three weeks is realistic if you need it; later is fine.",
           "If the house is in good shape and you can cooperate through a listing, the open market will usually net more. We would rather say so than buy it from you cheaply.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "sell-house-with-liens-idaho",
+    kind: "situation",
+    title: "Sell a House With a Lien in Ada County, Idaho",
+    h1: "Sell a house with a lien or judgment on it",
+    eyebrow: "Liens and judgments",
+    description:
+      "We buy Ada County houses with judgment, tax, HOA or mechanic's liens on the title. How each lien ends under Idaho law, and what the title search shows.",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+    guides: ["liens-and-judgments-when-selling-in-idaho", "how-a-property-sale-closes-in-idaho"],
+    intro: [
+      "Yes, we buy houses in Ada County that have liens or judgments recorded against them. A lien is a claim against the property for a debt. In a sale it is paid out of the price at closing, so the first question is whether the price covers what is owed. We buy with our own capital, the purchase closes through a local title company, and you choose the date.",
+      NOT_ADVICE,
+    ],
+    sections: [
+      {
+        heading: "Can you sell a house that has a lien on it",
+        body: [
+          "Nothing in the Idaho statutes this page draws on forbids selling a house that has a lien against it. Idaho Code 55-613 defines encumbrances to include taxes, assessments and all liens on real property. They are part of the title a buyer looks at, and they are dealt with as part of the sale.",
+          "The Ada County Recorder's Office keeps the documents related to property ownership in the county, and recorded documents are open to public inspection. A lien that has been recorded is in that record, where any buyer and any title company will find it.",
+        ],
+        claims: ["cl-encumbrances-include-taxes-liens", "ada-recorder-maintains-ownership-documents"],
+      },
+      {
+        heading: "What the title search shows, and when",
+        body: [
+          "Idaho bars a title insurer from issuing a policy on Idaho real property until a search and examination of the title has been made. Because our purchases close through a local title company, that search happens before closing on every one of them.",
+          "The result is a written list of what is recorded against the property. You see it. Sellers are often surprised by it in both directions: a judgment they had forgotten, or a lien they feared that has already expired. Until that list exists, any figure for what you will keep is an estimate, and we will say so.",
+        ],
+        claims: ["cl-title-search-before-policy"],
+      },
+      {
+        heading: "Judgment liens",
+        body: [
+          "In Idaho a money judgment becomes a lien on real property only when a transcript or abstract of it is recorded with the county recorder, and only in that county. Apart from child-support and recorded restitution judgments, the lien runs ten years from the date of the judgment unless the judgment is satisfied sooner.",
+          "Ten years is not always the end. Before the lien expires, the court that entered the judgment may renew it on motion, and a recorded renewal continues the lien for another ten years. An old judgment is worth checking against the record before anyone assumes it has lapsed.",
+        ],
+        claims: ["ln-judgment-lien-arises-on-recording", "ln-judgment-lien-ten-years", "ln-judgment-renewal-order"],
+      },
+      {
+        heading: "Mechanic's liens from unpaid work",
+        body: [
+          "A contractor or supplier who was not paid can claim a lien on the property. Idaho gives the claimant 90 days after finishing the work or supplying the materials to file the claim with the county recorder.",
+          "The lien then binds the property for no longer than six months after filing unless a court action to enforce it is started in that time, or a payment or extension of credit is endorsed on the record. Idaho also allows a mechanic's lien of record to be released by posting a surety bond. Which of those applies to a lien on your house is a question for an Idaho attorney.",
+        ],
+        claims: ["ln-mechanics-lien-ninety-day-filing", "ln-mechanics-lien-six-month-duration", "ln-mechanics-lien-bond-release"],
+      },
+      {
+        heading: "Homeowner's association liens",
+        body: [
+          "If the house is in an association, ask for a statement of your assessment account in writing. An Idaho homeowner's association must provide it free within five business days, listing all outstanding assessments, charges and fees, and the association is bound by the amounts in that statement. It is the fastest way to turn a worry about dues into a number.",
+        ],
+        claims: ["ln-hoa-statement-of-account"],
+      },
+      {
+        heading: "Property tax liens",
+        body: [
+          "Idaho property taxes are a first and prior lien on the property, discharged only by payment or cancellation. Unpaid tax is settled in a sale ahead of everything else. If the tax has gone delinquent, a separate three-year clock is running, and our page on [selling a house with delinquent property taxes](/sell-house-delinquent-property-taxes-idaho) covers it.",
+        ],
+        claims: ["ln-property-tax-first-lien-perpetual"],
+      },
+      {
+        heading: "Federal tax liens need lead time",
+        body: [
+          "The IRS can remove its lien from one specific property with a Certificate of Discharge. IRS Publication 783 says the application is made on Form 14135 and should be submitted at least 45 days before the date the certificate is needed.",
+          "That lead time is the reason to mention a federal tax lien at the start. You set the closing date in a sale to us, so the date can be placed far enough out for the IRS to answer. A tax professional should handle the application.",
+        ],
+        claims: ["ln-irs-discharge-apply-45-days", "ln-irs-discharge-subordination-withdrawal"],
+      },
+      {
+        heading: "If the liens come to more than the house is worth",
+        body: [
+          "Then a sale at market price cannot pay them all, and we cannot make a lien go away. Whether a lienholder will accept less than it is owed is that lienholder's decision, and the conversation belongs with an Idaho attorney. Where the debt is the mortgage itself, our guide to [short sales and deeds in lieu](/guides/short-sale-vs-deed-in-lieu-in-idaho) explains what the lender has to agree to.",
+          "We will tell you early if the numbers do not work. A clear no in the first week is worth more to you than a contract that falls apart in the fourth.",
+        ],
+      },
+      {
+        heading: "How a sale to us works when there are liens",
+        body: [
+          "Send the address and tell us what you know is recorded against it. We come back with a number and the arithmetic behind it. If you accept, the title company runs its search, gathers the payoff figures, and pays the liens from the price at closing. You receive what is left, and the closing statement shows each payment.",
+          "Nothing has to be repaired or cleaned first. The steps are set out on [how it works](/how-it-works), and the method behind the number on [how we calculate an offer](/how-we-calculate-an-offer).",
+        ],
+      },
+      {
+        heading: "When you should list it instead",
+        body: [
+          "A lien does not lower what a house is worth. If the house is in good condition and the liens are small next to its value, listing it will usually leave you with more after they are paid, and we will say so.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "sell-house-delinquent-property-taxes-idaho",
+    kind: "situation",
+    title: "Sell a House With Delinquent Property Taxes in Idaho",
+    h1: "Selling a house with delinquent property taxes",
+    eyebrow: "Delinquent property taxes",
+    description:
+      "Behind on property taxes in Ada County? Idaho's three-year tax deed clock, what the late charges are, and how a sale before the deed pays the county in full.",
+    published: "2026-11-13",
+    updated: "2026-11-13",
+    guides: ["idaho-property-taxes-when-you-sell", "idaho-foreclosure-vs-property-tax-delinquency"],
+    intro: [
+      "We buy Ada County houses with property taxes owing, in any condition. The delinquent tax is paid to the county out of the price at closing, and you keep what is left. Idaho gives an owner three years from the date of delinquency before the county can take a tax deed, so there is usually time to choose, and the choice gets more expensive each month.",
+      NOT_ADVICE,
+    ],
+    sections: [
+      {
+        heading: "How long you have before a tax deed",
+        body: [
+          "If Idaho real property with a delinquency is not redeemed within three years from the date of delinquency, the county tax collector must issue a tax deed in favour of the county. That can happen only after a notice of pending issue of tax deed has been given.",
+          "The notice goes to record owners and parties in interest by certified mail, no more than five months and no less than two months before the deed is set to issue. If you have received that letter, the three years are nearly spent and the date in it is the one that matters.",
+        ],
+        claims: ["id-tax-deed-three-year-delinquency", "id-tax-deed-notice-service"],
+      },
+      {
+        heading: "What waiting costs",
+        body: [
+          "Idaho property taxes are due by December 20, or in two halves with the second due by June 20. The Ada County Treasurer states that a missed December installment draws a 2% late charge plus interest at 1% per month from the following January 1.",
+          "The Treasurer also applies payments to the oldest tax balance first. A partial payment therefore goes to the earliest delinquent year, which is the year the three-year clock is counting from.",
+        ],
+        claims: ["pt-taxes-due-dec-20-two-halves", "pt-ada-late-charge-and-interest-rates"],
+      },
+      {
+        heading: "The tax is a lien on the house",
+        body: [
+          "Idaho property taxes are a first and prior lien on the property, and the statute says the lien is discharged only by payment or cancellation of the taxes. Selling the house does not erase the tax. The sale pays it: the amount owed to the county comes out of the price at closing, ahead of other liens.",
+          "The Ada County Treasurer is the county's tax collector. That office can tell you the exact amount needed to bring the parcel current on a given date, and that figure is the one a title company will use.",
+        ],
+        claims: ["ln-property-tax-first-lien-perpetual", "ada-treasurer-ex-officio-tax-collector"],
+      },
+      {
+        heading: "If the tax deed has already issued",
+        body: [
+          "The record owner may still redeem after a tax deed issues to the county, but only until the county commissioners enter a contract of sale or transfer the property by county deed. In any event the right ends fourteen months from the date the tax deed issued. At that stage speak to an Idaho attorney before anything else.",
+        ],
+        claims: ["id-tax-deed-redemption-fourteen-months"],
+      },
+      {
+        heading: "Tax delinquency and mortgage foreclosure run on different clocks",
+        body: [
+          "A tax deed takes three years. A lender's trustee's sale under a deed of trust needs notice of at least 120 days. An owner who is behind on both is on the shorter clock, whatever the tax notice says. Our guide to [the two clocks](/guides/idaho-foreclosure-vs-property-tax-delinquency) sets them side by side, and [selling before a foreclosure sale](/sell-house-before-foreclosure-idaho) covers the mortgage side.",
+        ],
+        claims: ["id-trustee-sale-120-day-notice"],
+      },
+      {
+        heading: "Check the relief programs before you sell",
+        body: [
+          "If you want to stay in the house, look at Idaho's property tax reduction first. It ranges from $250 up to a maximum of $1,500 depending on income, and it is open to owners in listed categories such as being 65 or older, widowed, blind or disabled. The Ada County Assessor says applications must be received between January 1 and April 15, and that applicants must apply every year.",
+          "Idaho also has a property tax deferral. It is not a way to hold the house and sell later without paying: a deferral ends on a sale, and the deferred tax and interest must be paid to the State Tax Commission within 180 days.",
+        ],
+        claims: ["pt-circuit-breaker-max-and-value-threshold", "pt-circuit-breaker-claimant-categories", "pt-ada-circuit-breaker-apply-each-year", "pt-deferral-ends-on-sale-180-days"],
+      },
+      {
+        heading: "How a sale to us works",
+        body: [
+          "Send the address. We look at the parcel record and the house and come back with a number and the working behind it. If you accept, the purchase closes through a local title company on the date you choose. Three weeks is realistic. The title company pays the county from the price, and the closing statement shows the amount.",
+          "We buy with our own capital and we buy the house as it stands. The method behind the number is on [how we calculate an offer](/how-we-calculate-an-offer).",
+        ],
+      },
+      {
+        heading: "When selling to us is the wrong answer",
+        body: [
+          "If the only problem is the tax bill and the house is in good shape, paying the county or listing the house will usually leave you with more than our offer would. A direct sale earns its place when the house also needs work you cannot fund, or when the date on a notice is close. We will tell you which side of that line we think you are on.",
         ],
       },
     ],

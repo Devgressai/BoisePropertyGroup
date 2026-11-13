@@ -11,6 +11,7 @@ import OfferForm from "@/components/OfferForm";
 import type { PlaceContent } from "@/data/place-content";
 import type { LinkItem } from "@/lib/seo/internalLinks";
 import NextSteps from "@/components/NextSteps";
+import { publishedTopics } from "@/lib/seo/registry";
 
 export default function PlacePage({
   title,
@@ -106,6 +107,18 @@ export default function PlacePage({
           no tenancy guide, and the block disappears entirely rather than
           rendering an empty heading.
         */}
+        {/* The selling pages, by situation. A place page is where a seller
+            lands; the page written for their circumstances is one step on. */}
+        <section className="border-t border-[var(--bpg-border)] py-14">
+          <div className="wrap">
+            <LinkList
+              heading="Selling in a particular situation"
+              cols={2}
+              items={publishedTopics("situation").map((t) => ({ href: `/${t.slug}`, label: t.h1 }))}
+            />
+          </div>
+        </section>
+
         <section className="border-t border-[var(--bpg-border)] bg-[var(--bpg-sand)] py-14">
           <div className="wrap grid gap-10 lg:grid-cols-2">
             <LinkList heading="Elsewhere in Ada County" cols={2} items={geographyLinks} />
