@@ -11,6 +11,7 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import Explore from "@/components/Explore";
+import WhoWeAre from "@/components/WhoWeAre";
 import Questions, { QA_TEXT } from "@/components/Questions";
 import { serviceSchema, faqSchema } from "@/lib/seo/schema";
 import PageSchema from "@/components/seo/PageSchema";
@@ -36,12 +37,13 @@ export default function Home() {
       <Navbar />
       <main id="main" className="pb-20 lg:pb-0">
         <Hero />
-        <Situations />
+        <WhatWeBuy />
         <OfferMath />
         <WhenNotToSell />
         <HowItWorks />
+        <WhoWeAre />
         <Questions />
-        <WhatWeBuy />
+        <Situations />
         <LocalKnowledge />
         <Explore />
         <FinalCTA anchor={false} />

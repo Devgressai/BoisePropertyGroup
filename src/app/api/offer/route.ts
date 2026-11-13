@@ -69,13 +69,18 @@ export async function POST(req: Request) {
     if (address.length < 4) {
       return NextResponse.json({ error: "Address required" }, { status: 400 });
     }
-    leadId = crypto.randomUUID().replace(/-/g, "").slice(0, 8);
+    // A seller who goes back and corrects the address keeps the same lead id,
+    // so the correction lands on the same enquiry instead of looking like a new one.
+    const prior = typeof body.leadId === "string" ? body.leadId.replace(/[^a-z0-9]/gi, "").slice(0, 16) : "";
+    leadId = prior || crypto.randomUUID().replace(/-/g, "").slice(0, 8);
     // Branded: this inbox receives mail for several businesses.
-    subject = `[Boise Property Group] New ${context} enquiry — ${address}`;
+    subject = prior
+      ? `[Boise Property Group] Address corrected — ${address}`
+      : `[Boise Property Group] New ${context} enquiry — ${address}`;
     html =
       `<p><strong>Address:</strong> ${escapeHtml(address)}</p>` +
       `<p><strong>Came from:</strong> the ${context} side of the site${page ? ` — <code>${escapeHtml(page)}</code>` : ""}</p>` +
-      `<p><strong>Lead id:</strong> ${leadId} — contact details follow in a second email if the seller completes step 2.</p>` +
+      `<p><strong>Lead id:</strong> ${leadId} — ${prior ? "the seller went back and changed the address on this enquiry." : "address only so far. This is not a completed enquiry: contact details follow in a second email if the seller completes step 2."}</p>` +
       (context === "commercial"
         ? "<p>Ask for a rent roll and a trailing twelve months before quoting anything.</p>"
         : "");

@@ -20,7 +20,7 @@ export default function OfferSheet({ className = "" }: { className?: string }) {
     <figure className={`bg-white text-[var(--bpg-ink)] shadow-[0_30px_60px_-28px_rgba(14,34,56,0.55)] ${className}`}>
       <div className="flex items-center justify-between border-b border-[var(--bpg-ink)] px-5 py-3">
         <p className="eyebrow !text-[0.68rem]">Offer worksheet</p>
-        <p className="eyebrow !text-[0.68rem] text-[var(--bpg-warm)]">Sample</p>
+        <p className="eyebrow !text-[0.68rem] text-[var(--bpg-warm)]">Example only</p>
       </div>
       <dl className="px-5">
         {rows.map(([k, v]) => (
@@ -30,13 +30,13 @@ export default function OfferSheet({ className = "" }: { className?: string }) {
           </div>
         ))}
         <div className="flex items-baseline justify-between gap-4 py-3.5">
-          <dt className="text-[0.88rem] font-semibold">Our offer</dt>
+          <dt className="text-[0.88rem] font-semibold">Example offer</dt>
           <dd className="serif whitespace-nowrap text-[1.7rem] font-semibold leading-none tabular-nums">{formatUsd(o.offer)}</dd>
         </div>
       </dl>
-      <figcaption className="border-t border-[var(--bpg-border)] bg-[var(--bpg-sand)] px-5 py-3 text-[0.78rem] leading-snug text-[var(--bpg-muted)]">
-        Every offer arrives like this: four lines you can check. Example shown is a house needing
-        significant repairs.
+      <figcaption className="border-t border-[var(--bpg-border)] bg-[var(--bpg-sand)] px-5 py-3 text-[0.82rem] leading-snug text-[var(--bpg-muted)]">
+        Not your property. An example for a house that needs significant repairs, to show the four
+        lines every offer of ours arrives with.
       </figcaption>
     </figure>
   );

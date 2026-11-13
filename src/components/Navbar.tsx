@@ -1,19 +1,20 @@
 import Link from "next/link";
 import { site, hasPhone } from "@/data/site";
+import MobileMenu from "./MobileMenu";
 
 const NAV = [
   { label: "How It Works", href: "/how-it-works" },
   { label: "What We Buy", href: "/what-we-buy" },
   { label: "Commercial", href: "/commercial" },
   { label: "Areas", href: "/locations" },
-  { label: "Guides", href: "/guides" },
+  { label: "Seller Guides", href: "/guides" },
   { label: "About", href: "/about" },
 ];
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--bpg-border)] bg-white/95 backdrop-blur">
-      <nav className="wrap flex h-[72px] items-center justify-between gap-6" aria-label="Primary">
+      <nav className="wrap relative flex h-[72px] items-center justify-between gap-4" aria-label="Primary">
         <Link href="/" className="flex items-center gap-2.5 no-underline">
           <span
             aria-hidden="true"
@@ -39,18 +40,22 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5 sm:gap-3">
           {hasPhone && (
             <a
               href={site.phoneHref}
-              className="hidden text-sm font-semibold text-[var(--bpg-ink)] no-underline sm:block"
+              className="hidden text-sm font-semibold text-[var(--bpg-ink)] no-underline md:block"
             >
               {site.phone}
             </a>
           )}
-          <Link href="#offer" className="btn btn-primary !min-h-[46px] whitespace-nowrap !px-5 !text-[0.94rem] max-[400px]:!px-3.5">
-            Get an Offer
-          </Link>
+          {/* Wrapped: .btn is unlayered CSS, so a display utility on it would lose. */}
+          <span className="max-[480px]:hidden">
+            <Link href="#offer" className="btn btn-primary !min-h-[46px] whitespace-nowrap !px-5 !text-[0.94rem]">
+              Request an Offer
+            </Link>
+          </span>
+          <MobileMenu links={NAV} phone={hasPhone ? site.phone : undefined} phoneHref={hasPhone ? site.phoneHref : undefined} />
         </div>
       </nav>
     </header>

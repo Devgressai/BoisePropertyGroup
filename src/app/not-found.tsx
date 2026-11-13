@@ -12,7 +12,7 @@ export default function NotFound() {
     { href: "/locations", label: "Areas we buy in" },
     { href: "/guides", label: "Idaho selling guides" },
     { href: "/what-we-buy", label: "What we buy" },
-    { href: "/contact", label: "Get an offer" },
+    { href: "/contact", label: "Request an offer" },
   ];
   return (
     <>

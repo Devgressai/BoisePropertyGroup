@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
-import { site, hasLegalEntity } from "@/data/site";
+import { site, hasLegalEntity, hasPhone } from "@/data/site";
 
 const TITLE = "About Us";
 const DESCRIPTION =
@@ -111,6 +111,27 @@ export default function About() {
                   What we will not do is claim transactions we have not closed, reviews nobody
                   wrote, or awards nobody gave us. If a number appears on this site, it is real and
                   it names its source.
+                </p>
+              </div>
+            </section>
+
+            <section className="grid gap-x-12 gap-y-4 border-t border-[var(--bpg-border)] py-10 md:grid-cols-[15rem_1fr]">
+              <h2 className="display-md text-[var(--bpg-ink)]">Reaching us</h2>
+              <div className="max-w-[44rem] space-y-4 text-[1.05rem] leading-[1.75] text-[#26384A]">
+                {hasPhone && (
+                  <p className="leading-relaxed">
+                    Call or text{" "}
+                    <a href={site.phoneHref} className="font-semibold text-[var(--bpg-ink)]">{site.phone}</a>.
+                  </p>
+                )}
+                <p className="leading-relaxed">
+                  The offer form on this site comes to our own inbox and goes nowhere else. We do
+                  not pass enquiries to other buyers or to marketing companies; the{" "}
+                  <a href="/privacy-policy">privacy policy</a> sets out exactly what is collected.
+                </p>
+                <p className="leading-relaxed">
+                  Checking a buyer before you sign anything is sensible, and Idaho gives you the
+                  tools: see <a href="/how-to-check-a-cash-buyer-in-idaho">how to check a cash buyer in Idaho</a>.
                 </p>
               </div>
             </section>

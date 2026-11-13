@@ -252,3 +252,17 @@ export const guides: Guide[] = [
 export function guideBySlug(slug: string): Guide | undefined {
   return guides.find((g) => g.slug === slug);
 }
+
+/**
+ * How the guides are grouped for a reader, on the hub and the homepage. Every
+ * cluster in the Guide type belongs to exactly one group, so a new guide
+ * appears under a heading without an edit here.
+ */
+export const GUIDE_GROUPS: { id: string; h: string; clusters: Guide["cluster"][] }[] = [
+  { id: "distress", h: "Foreclosure and missed payments", clusters: ["distress"] },
+  { id: "estate", h: "Inherited property and probate", clusters: ["estate", "probate"] },
+  { id: "money", h: "Liens and taxes", clusters: ["liens", "property-tax"] },
+  { id: "sale", h: "Disclosure and closing", clusters: ["disclosure", "closing"] },
+  { id: "people", h: "Divorce and tenants", clusters: ["divorce", "tenants"] },
+  { id: "land", h: "Land, wells and manufactured homes", clusters: ["land", "well-septic", "manufactured"] },
+];

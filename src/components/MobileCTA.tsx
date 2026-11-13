@@ -36,7 +36,7 @@ export default function MobileCTA() {
     >
       <div className="flex gap-3">
         <Link href="#offer" tabIndex={show ? 0 : -1} className="btn btn-primary flex-1">
-          Get My Offer
+          Request an offer
         </Link>
         {hasPhone && (
           <a href={site.phoneHref} tabIndex={show ? 0 : -1} className="btn btn-secondary">

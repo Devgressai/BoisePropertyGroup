@@ -14,6 +14,12 @@ import {
   type LeadContext,
 } from "@/lib/lead";
 import { IconPin } from "./Icons";
+import { site, hasPhone } from "@/data/site";
+
+/** A request that has not answered in this long is treated as failed, so the seller is not left watching a spinner. */
+const TIMEOUT_MS = 20_000;
+const FALLBACK = hasPhone ? ` You can also call ${site.phone}.` : "";
+const SEND_FAILED = `That did not send. Nothing was lost: please try again.${FALLBACK}`;
 
 /**
  * Two steps, deliberately.
@@ -30,14 +36,25 @@ import { IconPin } from "./Icons";
  *
  * Copy rule: only owner-confirmed business facts. No response-time promise —
  * none has been confirmed.
+ *
+ * WHAT THE VISITOR IS TOLD (redesign, 2026-11-13). Step 1 sends the address to
+ * us, and the line under the field says so before the button is pressed; the
+ * privacy policy says the same. Step 2 can go back to correct the address
+ * without losing anything typed, and a corrected address reuses the lead id so
+ * the two emails stay one enquiry. The thank-you appears only after the server
+ * confirms it accepted the details. A request with no street address (land) is
+ * accepted as a parcel number and nearest city.
  */
 export default function OfferForm({
   context = "residential",
   bare = false,
   stack = false,
   bar = false,
+  dark = false,
   note,
 }: {
+  /** Sits on a navy band: the line under the field uses the on-navy text colour. */
+  dark?: boolean;
   /** Hero style: one white address bar with the button inside it. */
   bar?: boolean;
   /** Replaces the line under step 1. */
@@ -53,7 +70,11 @@ export default function OfferForm({
   const [step, setStep] = useState<1 | 2 | 3>(1);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  /** Which step-2 field the current error belongs to, for aria-invalid. */
+  const [badField, setBadField] = useState("");
   const [leadId, setLeadId] = useState("");
+  /** The address as last accepted by the server, to tell a correction from a plain Back. */
+  const [sentAddress, setSentAddress] = useState("");
   const [page, setPage] = useState("");
   const [d, setD] = useState({
     name: "",
@@ -86,27 +107,42 @@ export default function OfferForm({
     setD((x) => ({ ...x, [k]: e.target.value }));
 
   async function post(payload: Record<string, unknown>) {
-    const res = await fetch("/api/offer", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ...payload, context, page, website: trapRef.current?.value ?? "" }),
-    });
-    const json = (await res.json().catch(() => ({}))) as { leadId?: string; error?: string };
-    return { ok: res.ok, ...json };
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+    try {
+      const res = await fetch("/api/offer", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...payload, context, page, website: trapRef.current?.value ?? "" }),
+        signal: ctrl.signal,
+      });
+      const json = (await res.json().catch(() => ({}))) as { leadId?: string; error?: string };
+      // Only messages a person can act on are shown; a 5xx gets the generic line.
+      return { ok: res.ok, leadId: json.leadId, error: res.status === 400 ? json.error : undefined };
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   async function submitAddress(e: React.FormEvent) {
     e.preventDefault();
-    if (address.trim().length < 4) return setError("Please enter the property address.");
+    if (busy) return;
+    if (address.trim().length < 4) {
+      document.getElementById(`${uid}-address`)?.focus();
+      return setError("Please enter the property address, or a parcel number and the nearest city.");
+    }
+    // Back from step 2 with the address unchanged: nothing new to send.
+    if (leadId && address.trim() === sentAddress) return setStep(2);
     setBusy(true);
     setError("");
     try {
-      const r = await post({ step: 1, address });
+      const r = await post({ step: 1, address, leadId });
       if (!r.ok) throw new Error();
       setLeadId(r.leadId ?? "");
+      setSentAddress(address.trim());
       setStep(2);
     } catch {
-      setError("Something went wrong sending that. Please try again in a moment.");
+      setError(SEND_FAILED);
     } finally {
       setBusy(false);
     }
@@ -116,11 +152,18 @@ export default function OfferForm({
     e.preventDefault();
     // Same rules as the server (lib/lead.ts), checked here first so the seller
     // gets the message without a round trip.
-    if (!d.name.trim()) return setError("Please add your name.");
-    if (!d.phone.trim()) return setError("Please add a phone number.");
-    if (!normalizePhone(d.phone)) return setError("That phone number doesn't look complete.");
-    if (d.email && !EMAIL_RE.test(d.email.trim())) return setError("That email address doesn't look right.");
-    if (!consentContact) return setError("Please tick the box agreeing that we may call or text you.");
+    if (busy) return;
+    const fail = (field: string, msg: string) => {
+      setBadField(field);
+      setError(msg);
+      document.getElementById(`${uid}-${field}`)?.focus();
+    };
+    if (!d.name.trim()) return fail("name", "Please add your name.");
+    if (!d.phone.trim()) return fail("phone", "Please add a phone number.");
+    if (!normalizePhone(d.phone)) return fail("phone", "That phone number doesn't look complete. Use ten digits.");
+    if (d.email && !EMAIL_RE.test(d.email.trim())) return fail("email", "That email address doesn't look right.");
+    if (!consentContact) return fail("consent", "Please tick the box agreeing that we may call or text you.");
+    setBadField("");
     setBusy(true);
     setError("");
     try {
@@ -129,14 +172,14 @@ export default function OfferForm({
       setStep(3);
     } catch (err) {
       const msg = err instanceof Error && err.message ? err.message : "";
-      setError(msg || "Something went wrong sending that. Please try again in a moment.");
+      setError(msg || SEND_FAILED);
     } finally {
       setBusy(false);
     }
   }
 
   const errorLine = error && (
-    <p role="alert" className="mt-3 text-sm font-medium text-[#A3261C]">
+    <p id={`${uid}-err`} role="alert" className={`mt-3 text-sm font-medium ${dark && step === 1 ? "text-[#FFD9D4]" : "text-[#A3261C]"}`}>
       {error}
     </p>
   );
@@ -146,11 +189,14 @@ export default function OfferForm({
     const how = d.contactPref === "email" ? "by email" : d.contactPref === "text" ? "by text" : "by phone";
     return (
       <div ref={doneRef} tabIndex={-1} className={`${bare ? "" : "card p-6 "}text-left outline-none`} aria-live="polite">
-        <p className="text-[1.05rem] font-semibold text-[var(--bpg-ink)]">Thanks{first ? `, ${first}` : ""} — we have everything we need.</p>
+        <p className="text-[1.05rem] font-semibold text-[var(--bpg-ink)]">Thanks{first ? `, ${first}` : ""}. Your request reached us.</p>
         <p className="mt-2 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">
           {context === "commercial"
             ? "We’ll pull the parcel record and the zoning district, then come back to you " + how + " with what we’d pay and the arithmetic behind it. If it produces income, we’ll ask for a rent roll and a trailing twelve months."
-            : "We’ll look at the parcel record and comparable sales, then come back to you " + how + " with a number and how we reached it. No obligation either way."}
+            : "We’ll look at the parcel record and comparable sales, then come back to you " + how + " with a number and how we reached it. This is a request, not an offer yet, and there is no obligation either way."}
+        </p>
+        <p className="mt-3 text-sm text-[var(--bpg-muted)]">
+          {address}{hasPhone && <> · Questions in the meantime: <a href={site.phoneHref} className="font-semibold text-[var(--bpg-ink)]">{site.phone}</a></>}
         </p>
       </div>
     );
@@ -166,25 +212,33 @@ export default function OfferForm({
         <p className="mt-1 text-[0.95rem] text-[var(--bpg-muted)]">
           Where should we send the number? A few details help us get it right the first time.
         </p>
-        <p className="mt-1 truncate text-sm text-[var(--bpg-muted)]" title={address}>
-          {address}
+        <p className="mt-2 flex items-baseline gap-3 text-sm text-[var(--bpg-muted)]">
+          <span className="min-w-0 truncate" title={address}>{address}</span>
+          <button
+            type="button"
+            onClick={() => { setError(""); setStep(1); }}
+            className="-my-3 min-h-[44px] flex-none font-semibold text-[var(--bpg-accent-ink)] underline underline-offset-2"
+          >
+            Change
+          </button>
         </p>
+        <p className="mt-1 text-xs text-[var(--bpg-muted)]">Step 2 of 2. Name, phone and the consent box are required; everything else is optional.</p>
 
         <div className="mt-5 grid gap-4">
           <div>
             <label htmlFor={`${uid}-name`} className={lab}>Your name</label>
-            <input ref={nameRef} id={`${uid}-name`} className="field" autoComplete="name" value={d.name} onChange={set("name")} required aria-required="true" />
+            <input ref={nameRef} id={`${uid}-name`} className="field" autoComplete="name" value={d.name} onChange={set("name")} required aria-required="true" aria-invalid={badField === "name" || undefined} aria-describedby={badField === "name" ? `${uid}-err` : undefined} />
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label htmlFor={`${uid}-phone`} className={lab}>Phone</label>
-              <input id={`${uid}-phone`} className="field" type="tel" inputMode="tel" autoComplete="tel" value={d.phone} onChange={set("phone")} required aria-required="true" />
+              <input id={`${uid}-phone`} className="field" type="tel" inputMode="tel" autoComplete="tel" value={d.phone} onChange={set("phone")} required aria-required="true" aria-invalid={badField === "phone" || undefined} aria-describedby={badField === "phone" ? `${uid}-err` : undefined} />
             </div>
             <div>
               <label htmlFor={`${uid}-email`} className={lab}>
                 Email <span className="font-normal text-[var(--bpg-muted)]">(optional)</span>
               </label>
-              <input id={`${uid}-email`} className="field" type="email" autoComplete="email" value={d.email} onChange={set("email")} />
+              <input id={`${uid}-email`} className="field" type="email" inputMode="email" autoComplete="email" value={d.email} onChange={set("email")} aria-invalid={badField === "email" || undefined} aria-describedby={badField === "email" ? `${uid}-err` : undefined} />
             </div>
           </div>
 
@@ -256,8 +310,8 @@ export default function OfferForm({
         </div>
 
         <div className="mt-5 grid gap-3">
-          <label className="flex items-start gap-3 text-xs leading-relaxed text-[var(--bpg-muted)]">
-            <input type="checkbox" className="mt-0.5 h-4 w-4 flex-none accent-[var(--bpg-accent)]" checked={consentContact} onChange={(e) => setConsentContact(e.target.checked)} required aria-required="true" />
+          <label className="flex items-start gap-3 text-[0.82rem] leading-relaxed text-[var(--bpg-muted)]">
+            <input id={`${uid}-consent`} type="checkbox" className="mt-0.5 h-5 w-5 flex-none accent-[var(--bpg-ink)]" aria-invalid={badField === "consent" || undefined} checked={consentContact} onChange={(e) => setConsentContact(e.target.checked)} required aria-required="true" />
             <span>{CONSENT_CONTACT} <span className="text-[var(--bpg-ink)]">(required)</span></span>
           </label>
           <p className="text-xs leading-relaxed text-[var(--bpg-muted)]">
@@ -269,9 +323,9 @@ export default function OfferForm({
         {errorLine}
 
         <button type="submit" className="btn btn-primary mt-5 w-full" disabled={busy}>
-          {busy ? "Sending…" : "Send"}
+          {busy ? "Sending…" : "Send my request"}
         </button>
-        <p className="mt-3 text-xs leading-relaxed text-[var(--bpg-muted)]">No obligation.</p>
+        <p className="mt-3 text-xs leading-relaxed text-[var(--bpg-muted)]">No obligation. Asking for a number does not commit you to anything.</p>
       </form>
     );
   }
@@ -279,7 +333,7 @@ export default function OfferForm({
   return (
     <form onSubmit={submitAddress} noValidate className="w-full">
       <label htmlFor={`${uid}-address`} className="sr-only">
-        Property address
+        Property address, or parcel number and city
       </label>
       {bar ? (
         <div className="flex flex-col gap-2 rounded-xl border border-[var(--bpg-border)] bg-white p-2 shadow-[var(--bpg-shadow-form)] focus-within:border-[var(--bpg-ink)] focus-within:ring-[3px] focus-within:ring-[rgba(227,180,75,0.55)] sm:flex-row sm:items-center">
@@ -288,7 +342,7 @@ export default function OfferForm({
             <AddressInput
               id={`${uid}-address`}
               className="min-h-[48px] w-full bg-transparent text-[1.02rem] text-[var(--bpg-ink)] outline-none placeholder:text-[var(--bpg-muted)]"
-              placeholder="Enter the property address"
+              placeholder="Address or parcel number"
               value={address}
               onChange={setAddress}
               noRing
@@ -305,7 +359,7 @@ export default function OfferForm({
             className="absolute left-[-9999px] h-0 w-0 opacity-0"
           />
           <button type="submit" className="btn btn-primary sm:w-auto" disabled={busy}>
-            {busy ? "Sending…" : "See what we’d offer"} <span aria-hidden="true">→</span>
+            {busy ? "Sending…" : "Request an offer"} <span aria-hidden="true">→</span>
           </button>
         </div>
       ) : (
@@ -313,7 +367,7 @@ export default function OfferForm({
         <AddressInput
           id={`${uid}-address`}
           className="field"
-          placeholder="Property address, city"
+          placeholder="Address or parcel number"
           value={address}
           onChange={setAddress}
         />
@@ -328,19 +382,17 @@ export default function OfferForm({
           className="absolute left-[-9999px] h-0 w-0 opacity-0"
         />
         <button type="submit" className="btn btn-primary sm:w-auto" disabled={busy}>
-          {busy ? "Sending…" : "Get My Offer"}
+          {busy ? "Sending…" : "Request an offer"}
         </button>
       </div>
       )}
       {errorLine}
-      {note !== "" && (
-        <p className="mt-3 text-sm text-[var(--bpg-muted)]">
-          {note ??
-            (context === "commercial"
-              ? "No obligation. We’ll show our working: what we’d pay, not what it’s worth."
-              : "No obligation. We’ll show you how we got to the number.")}
-        </p>
-      )}
+      <p className={`mt-3 text-sm leading-relaxed ${dark ? "text-[var(--bpg-on-navy-muted)]" : "text-[var(--bpg-muted)]"}`}>
+        {note ??
+          (context === "commercial"
+            ? "This sends the address to us. Next we ask for a name and phone number. No obligation, and we show our working."
+            : "This sends the address to us. Next we ask for a name and phone number. No obligation.")}
+      </p>
     </form>
   );
 }

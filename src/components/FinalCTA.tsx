@@ -17,11 +17,11 @@ export default function FinalCTA({ anchor = true }: { anchor?: boolean }) {
           <hr className="rule-accent centered" />
           <h2 className="display-lg mt-6 text-[var(--bpg-on-navy)]">Start with the address.</h2>
           <p className="lede mt-5 text-[var(--bpg-on-navy-muted)]">
-            We look at the parcel and the comparable sales, then come back with a number and the
-            working behind it. No obligation. If listing would net you more, we will say so.
+            We look at the parcel and the property, then come back with a number and the working
+            behind it. No obligation. If listing would net you more, we will say so.
           </p>
           <div data-offer-form className="mx-auto mt-9 max-w-[36rem] text-left">
-            <OfferForm bar note="" />
+            <OfferForm bar dark />
           </div>
           {hasPhone && (
             <p className="mt-8 text-[1.05rem] text-[var(--bpg-on-navy-muted)]">
