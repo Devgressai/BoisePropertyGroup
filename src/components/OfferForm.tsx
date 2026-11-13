@@ -9,7 +9,6 @@ import {
   SITUATION_FROM_PATH,
   EMAIL_RE,
   CONSENT_CONTACT,
-  CONSENT_PARTNERS,
   normalizePhone,
   type LeadContext,
 } from "@/lib/lead";
@@ -66,7 +65,6 @@ export default function OfferForm({
     notes: "",
   });
   const [consentContact, setConsentContact] = useState(false);
-  const [consentPartners, setConsentPartners] = useState(false);
   const nameRef = useRef<HTMLInputElement>(null);
   const doneRef = useRef<HTMLDivElement>(null);
   const trapRef = useRef<HTMLInputElement>(null);
@@ -125,7 +123,7 @@ export default function OfferForm({
     setBusy(true);
     setError("");
     try {
-      const r = await post({ step: 2, leadId, address, ...d, consentContact, consentPartners });
+      const r = await post({ step: 2, leadId, address, ...d, consentContact });
       if (!r.ok) throw new Error(r.error);
       setStep(3);
     } catch (err) {
@@ -252,12 +250,8 @@ export default function OfferForm({
             <input type="checkbox" className="mt-0.5 h-4 w-4 flex-none accent-[var(--bpg-accent)]" checked={consentContact} onChange={(e) => setConsentContact(e.target.checked)} required aria-required="true" />
             <span>{CONSENT_CONTACT} <span className="text-[var(--bpg-ink)]">(required)</span></span>
           </label>
-          <label className="flex items-start gap-3 text-xs leading-relaxed text-[var(--bpg-muted)]">
-            <input type="checkbox" className="mt-0.5 h-4 w-4 flex-none accent-[var(--bpg-accent)]" checked={consentPartners} onChange={(e) => setConsentPartners(e.target.checked)} />
-            <span>{CONSENT_PARTNERS}</span>
-          </label>
           <p className="text-xs leading-relaxed text-[var(--bpg-muted)]">
-            How we use your details, and which partners (if any) that box covers:{" "}
+            How we use your details:{" "}
             <a href="/privacy-policy" target="_blank" className="text-[var(--bpg-accent-ink)] underline underline-offset-2">privacy policy</a>.
           </p>
         </div>

@@ -3,7 +3,7 @@ import { pageMetadata } from "@/lib/seo/meta";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { site, hasPhone } from "@/data/site";
-import { CONSENT_CONTACT, CONSENT_PARTNERS, MARKETING_PARTNERS } from "@/lib/lead";
+import { CONSENT_CONTACT } from "@/lib/lead";
 
 const TITLE = "Privacy Policy";
 const DESCRIPTION =
@@ -15,11 +15,10 @@ export const metadata: Metadata = pageMetadata({ path: "/privacy-policy", title:
 /**
  * ⚠️ EVERY SENTENCE HERE MUST STAY TRUE OF THE CODE.
  * It describes exactly what src/app/api/offer/route.ts collects and sends, the
- * consent wording in src/lib/lead.ts, and the partner list MARKETING_PARTNERS.
+ * consent wording in src/lib/lead.ts. No marketing partners (owner, 2026-11-13).
  * If the form gains a field, analytics or a cookie is added, or a partner is
- * named, change this page in the same commit. Written 2026-11-13 as a plain
- * statement of current practice; the owner should have it reviewed by an
- * attorney, particularly before any lead goes to a partner.
+ * ever added, change this page in the same commit. Written 2026-11-13 as a
+ * plain statement of current practice; worth an attorney's review.
  */
 export default function PrivacyPolicy() {
   const contact = hasPhone ? (
@@ -88,36 +87,9 @@ export default function PrivacyPolicy() {
           <p>
             Reply STOP to any text and we will stop texting you. To stop calls as well, tell us on the
             call or {contact}. Message frequency depends on the conversation about your property.
-            We do not share the mobile number or text-message consent you give us with anyone for
-            their own marketing unless you tick the separate optional box below.
+            Your consent covers {site.name} only. We do not share your phone number or your consent
+            with anyone else for their marketing.
           </p>
-        </>
-      ),
-    },
-    {
-      h: "Marketing partners",
-      body: (
-        <>
-          <p>The form has a second, optional box, unticked unless you tick it:</p>
-          <blockquote>{CONSENT_PARTNERS}</blockquote>
-          {MARKETING_PARTNERS.length === 0 ? (
-            <p>
-              <strong>We have no marketing partners at present, and share your details with none,
-              whether or not you ticked that box.</strong> If that changes, each partner will be named
-              here, by name, before any information goes to them, and it will go only for sellers who
-              ticked the box.
-            </p>
-          ) : (
-            <>
-              <p>If you tick it, your name, phone number and property address may go to these partners only:</p>
-              <ul>
-                {MARKETING_PARTNERS.map((p) => (
-                  <li key={p.name}>{p.site ? <a href={p.site} rel="nofollow">{p.name}</a> : p.name}</li>
-                ))}
-              </ul>
-              <p>Each partner handles your details under its own privacy policy. You can withdraw this consent at any time by telling us or replying STOP to a partner&rsquo;s text.</p>
-            </>
-          )}
         </>
       ),
     },
@@ -133,7 +105,7 @@ export default function PrivacyPolicy() {
     },
     {
       h: "We do not sell it",
-      body: <p>We do not sell your personal information.</p>,
+      body: <p>We do not sell your personal information, and we do not give it to other companies for their marketing.</p>,
     },
     {
       h: "How long we keep it",
@@ -160,7 +132,7 @@ export default function PrivacyPolicy() {
     },
     {
       h: "Changes",
-      body: <p>If we change this policy, the new version will appear here with a new date. Partners are always named here before any information goes to them.</p>,
+      body: <p>If we change this policy, the new version will appear here with a new date.</p>,
     },
   ];
 

@@ -78,21 +78,13 @@ const oneOf = (v: unknown, list: { value: string }[]) =>
 /**
  * Consent wording (TCPA). The EXACT text the seller ticked is copied into the
  * lead email with a timestamp, so there is a record of what they agreed to.
- * Contact consent is required to send the form; partner consent is optional,
- * unticked by default, and is never a condition of getting an offer.
+ * Contact consent is required to send the form. It covers Boise Property
+ * Group only: on the owner's decision (2026-11-13) there is no marketing-partner
+ * consent and no lead goes to any partner. Adding one needs a new consent box,
+ * the partners named on /privacy-policy, and attorney review first.
  */
 export const CONSENT_CONTACT =
   "I agree that Boise Property Group may contact me about this property by phone call or text message at the number I gave, including by automated means. Message and data rates may apply. Reply STOP to opt out of texts.";
-export const CONSENT_PARTNERS =
-  "Optional: I also agree that Boise Property Group's marketing partners may contact me by phone call or text message at the number I gave, including by automated means. Consent is not a condition of receiving an offer.";
-
-/**
- * The marketing partners a seller's optional consent covers. Named on
- * /privacy-policy. EMPTY until the owner names them: while it is empty, no lead
- * goes to any partner, whatever the seller ticked. Add a partner here BEFORE
- * sharing a single lead with them.
- */
-export const MARKETING_PARTNERS: { name: string; site?: string }[] = [];
 
 export const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 /** US numbers: 10 digits, optionally a leading 1. */
@@ -116,7 +108,6 @@ export interface LeadDetails {
   notes: string;
   page: string;
   consentContact: boolean;
-  consentPartners: boolean;
 }
 
 /** Validates step 2. Returns the clean lead, or the first problem a person can fix. */
@@ -150,7 +141,6 @@ export function parseDetails(body: Record<string, unknown>): { ok: true; lead: L
       notes: clip(body.notes, 2000),
       page: clip(body.page, 200).replace(/[^\w\-/.]/g, ""),
       consentContact: true,
-      consentPartners: body.consentPartners === true,
     },
   };
 }

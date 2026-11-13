@@ -100,14 +100,11 @@ describe("lead form step 2 (lib/lead.ts)", () => {
     expect(parseDetails({ ...ok, email: "pat@example.com" })).toMatchObject({ ok: true });
   });
 
-  it("requires call/text consent; partner consent is optional and off by default", () => {
+  it("requires call/text consent", () => {
     const ok = { ...base, phone: "208 555 0134" };
     expect(parseDetails({ ...ok, consentContact: false })).toMatchObject({ ok: false, error: /call or text/ });
     expect(parseDetails({ ...ok, consentContact: "true" })).toMatchObject({ ok: false });
-    const r = parseDetails(ok);
-    expect(r.ok && r.lead.consentPartners).toBe(false);
-    const r2 = parseDetails({ ...ok, consentPartners: true });
-    expect(r2.ok && r2.lead.consentPartners).toBe(true);
+    expect(parseDetails({ ...ok, consentContact: true })).toMatchObject({ ok: true });
   });
 
   it("rejects a malformed phone or email rather than delivering a dead lead", () => {

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { parseDetails, labelOf, SITUATIONS, TIMELINES, CONTACT_PREFS, ROLES, CONSENT_CONTACT, CONSENT_PARTNERS } from "@/lib/lead";
+import { parseDetails, labelOf, SITUATIONS, TIMELINES, CONTACT_PREFS, ROLES, CONSENT_CONTACT } from "@/lib/lead";
 
 /**
  * Lead intake.
@@ -105,8 +105,7 @@ export async function POST(req: Request) {
       (l.notes ? `<p style="font-family:sans-serif;font-size:15px"><strong>Notes:</strong><br>${escapeHtml(l.notes).replace(/\n/g, "<br>")}</p>` : "") +
       // Consent record: exact wording the seller ticked, and when.
       `<p style="font-family:sans-serif;font-size:13px;color:#4F5E6B"><strong>Consent recorded ${new Date().toISOString()}</strong><br>` +
-      `[x] ${escapeHtml(CONSENT_CONTACT)}<br>` +
-      `[${l.consentPartners ? "x" : " "}] ${escapeHtml(CONSENT_PARTNERS)}</p>`;
+      `[x] ${escapeHtml(CONSENT_CONTACT)}</p>`;
   }
 
   const key = process.env.RESEND_API_KEY;
