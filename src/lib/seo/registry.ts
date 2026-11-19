@@ -58,9 +58,21 @@ export function publishedGuides() {
 export function publishedTopics(kind?: "situation" | "decision") {
   return TOPIC_PAGES.filter((p) => (!kind || p.kind === kind) && decideTopicIndexation(p).indexable);
 }
-/** The BOFU situation page a guide hands its reader to, if one is published. */
+/**
+ * The BOFU selling pages a guide hands its reader to, in the guide's own
+ * order (`Guide.sell`), published ones only. Falls back to any situation page
+ * that lists the guide, so a guide never loses its next step.
+ */
+export function sellPagesForGuide(guideSlug: string) {
+  const situations = publishedTopics("situation");
+  const named = (guides.find((g) => g.slug === guideSlug)?.sell ?? [])
+    .map((s) => situations.find((p) => p.slug === s))
+    .filter((p) => p !== undefined);
+  return named.length ? named : situations.filter((p) => p.guides.includes(guideSlug)).slice(0, 1);
+}
+/** The primary BOFU situation page a guide hands its reader to, if one is published. */
 export function situationForGuide(guideSlug: string) {
-  return publishedTopics("situation").find((p) => p.guides.includes(guideSlug));
+  return sellPagesForGuide(guideSlug)[0];
 }
 export function publishedCommercial() {
   return COMMERCIAL_PAGES.filter((c) => decideCommercialIndexation(c).indexable);

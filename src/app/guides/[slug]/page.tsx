@@ -9,13 +9,14 @@ import FinalCTA from "@/components/FinalCTA";
 import EvidenceAppendix from "@/components/seo/EvidenceAppendix";
 import { claim as residentialClaim } from "@/data/claims";
 
-import { guides, guideBySlug } from "@/data/guides";
+import { guides, guideBySlug, AS_IS_FACTS, DEFAULT_HANDOFF } from "@/data/guides";
 import { guideContentFor } from "@/data/guide-content";
 import { articleSchema } from "@/lib/seo/schema";
 import { pageMetadata, metaDescription } from "@/lib/seo/meta";
 import PageSchema from "@/components/seo/PageSchema";
 import NextSteps from "@/components/NextSteps";
-import { situationForGuide, publishedTopics } from "@/lib/seo/registry";
+import Inline from "@/lib/content/Inline";
+import { sellPagesForGuide, publishedTopics } from "@/lib/seo/registry";
 import { placesForGuide } from "@/lib/seo/internalLinks";
 
 export const dynamicParams = false;
@@ -63,7 +64,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   /** Places whose own claims carry a topic in this guide's cluster. */
   const relatedPlaces = placesForGuide(g.cluster);
   /** The funnel's TOFU→BOFU edge: the page that buys what this guide explains. */
-  const sellPage = situationForGuide(g.slug);
+  const sellPages = sellPagesForGuide(g.slug);
+  const sellPage = sellPages[0];
 
   const path = `/guides/${g.slug}`;
   const sources = new Map<string, { title: string; url: string; publisher: string }>();
@@ -102,9 +104,32 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             </p>
             <div className="mt-7 max-w-[44rem] space-y-4">
               {content.intro.map((p) => (
-                <p key={p.slice(0, 40)} className="lede text-[var(--bpg-muted)]">{p}</p>
+                <p key={p.slice(0, 40)} className="lede text-[var(--bpg-muted)]"><Inline text={p} /></p>
               ))}
             </div>
+            {/* Guides are where search lands, so the selling page is offered up top, once, plainly. */}
+            {sellPages.length > 0 && (
+              <aside aria-labelledby="sell-as-is" className="mt-9 max-w-[44rem] border-l-2 border-[var(--bpg-brass)] pl-5">
+                <p id="sell-as-is" className="eyebrow text-[var(--bpg-warm)]">If you would rather sell as-is</p>
+                <p className="mt-3 leading-relaxed text-[var(--bpg-ink)]">
+                  {g.handoff ?? DEFAULT_HANDOFF} {AS_IS_FACTS}
+                </p>
+                <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-[0.95rem]">
+                  {sellPages.map((p) => (
+                    <li key={p.slug}>
+                      <Link href={`/${p.slug}`} className="font-semibold text-[var(--bpg-ink)] underline decoration-[var(--bpg-accent)] decoration-2 underline-offset-4">
+                        {p.h1}
+                      </Link>
+                    </li>
+                  ))}
+                  <li>
+                    <Link href="/contact#offer" className="font-semibold text-[var(--bpg-ink)] underline decoration-[var(--bpg-accent)] decoration-2 underline-offset-4">
+                      Request an offer
+                    </Link>
+                  </li>
+                </ul>
+              </aside>
+            )}
           </div>
         </header>
 

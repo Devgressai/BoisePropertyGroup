@@ -113,3 +113,12 @@ Audit that drove it: 15 of 48 URLs known to Google; 104 impressions and 0 clicks
 - Schema: Service (home, place, situation), Article (decision), FAQPage (home), ItemList (guides hub), contactPoint on Organization.
 - Links: place pages list all selling pages; selling and decision pages list siblings; guides hub grouped by topic.
 - Re-read in early 2027: the tax-year 2025 figures in the income-tax guide.
+
+## Guide handoff (2026-11-18)
+
+GSC (120 days): guides rank 6 to 10, selling pages 25 to 72, so guides are the entry door.
+
+- `Guide.sell` in `src/data/guides.ts` names each guide's selling pages, primary first. `sellPagesForGuide()` / `situationForGuide()` in the registry read it, so the as-is block under the intro, the "Ready to sell?" panel and NextSteps all agree. `tests/topics.test.ts` fails if a named page is not a published situation page.
+- The as-is block is `Guide.handoff` (one guide-specific sentence) plus `AS_IS_FACTS` (owner-confirmed facts and the honest case for listing). Plain text; the block renders the links, including `/contact#offer`.
+- Guide intros now render `[label](/path)` links.
+- Land: the guide is the informational page (water, irrigation, access, zoning, splits, homestead acre) under a new title and H1; `/sell-land-idaho` is the transactional page. They cross-link. Neither URL was moved, redirected or noindexed.

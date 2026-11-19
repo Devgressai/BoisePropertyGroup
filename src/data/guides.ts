@@ -24,7 +24,34 @@ export interface Guide {
    */
   published: string;
   updated: string;
+  /**
+   * The BOFU selling pages this guide hands its reader to, most relevant
+   * first (topic-page slugs). Guides are where search traffic lands (GSC,
+   * 2026-11-18: guides rank 6-10, selling pages 25-72), so the next step is
+   * stated per guide rather than inferred. The first entry is the guide's
+   * primary selling page everywhere: the as-is block, "Ready to sell?" and
+   * NextSteps. A test asserts every entry is a published situation page.
+   */
+  sell: string[];
+  /**
+   * One plain sentence opening the "sell as-is" block, written for this
+   * guide's reader. Plain text (no links: the block renders its own), and
+   * no business promise beyond the owner-confirmed facts.
+   */
+  handoff?: string;
 }
+
+/**
+ * The fixed half of the as-is block on every guide. Owner-confirmed facts
+ * only (own capital, any condition, local title company, seller's date,
+ * three-week close), plus the honest case for listing.
+ */
+export const AS_IS_FACTS =
+  "We buy in any condition with our own capital. The sale closes through a local title company on the date you choose, and a three-week close is realistic. If the property is ready for the market and you have time, listing it will usually net more.";
+
+/** Used when a guide has no `handoff` sentence of its own. */
+export const DEFAULT_HANDOFF =
+  "If you would rather not work through all of this before you sell, a direct sale is one option.";
 
 export const guides: Guide[] = [
   {
@@ -32,60 +59,76 @@ export const guides: Guide[] = [
     title: "Selling an Inherited House in Idaho",
     h1: "Selling an inherited house in Idaho",
     description:
-      "What an Idaho personal representative can and cannot do with estate property, when a court order is needed, and why estate sales are exempt from the seller disclosure requirement.",
+      "What an Idaho personal representative can and cannot do with estate property, when a court order is needed, and why estate sales skip the disclosure form.",
     cluster: "estate",
     published: "2026-09-10",
     updated: "2026-09-10",
+    sell: ["sell-inherited-house-idaho"],
   },
   {
     slug: "idaho-foreclosure-vs-property-tax-delinquency",
-    title: "Foreclosure vs Property Tax Delinquency in Idaho",
+    title: "Idaho Unpaid Property Taxes vs Foreclosure: 3 Years vs 120 Days",
     h1: "Two different clocks: foreclosure and tax delinquency in Idaho",
     description:
-      "A trustee's sale needs 120 days' notice. A tax deed takes three years. Confusing the two is the most expensive mistake a distressed Idaho owner can make.",
+      "Unpaid Idaho property taxes lead to a county tax deed after three years. A trustee's sale needs only 120 days' notice. Both clocks, and the redemption rules.",
     cluster: "distress",
     published: "2026-09-10",
     updated: "2026-09-10",
+    sell: ["sell-house-delinquent-property-taxes-idaho", "sell-house-before-foreclosure-idaho"],
+    handoff:
+      "If you are behind on taxes or payments and would rather sell than wait on either clock, a direct sale is one option while you still hold title.",
   },
   {
     slug: "selling-a-rental-with-tenants-in-idaho",
-    title: "Selling a Rental With Tenants in Idaho",
+    title: "Selling a Rental With Tenants in Idaho: Deposits and Leases",
     h1: "Selling a rental with tenants in Idaho",
     description:
-      "Who owes the security deposit after a sale, what Idaho's recording act says about unrecorded leases, and the narrow remedy for occupants who are not tenants.",
+      "Selling an Idaho rental with tenants: who owes the deposit after a sale, whether an unrecorded lease binds the buyer, and when a sheriff can remove occupants.",
     cluster: "tenants",
     published: "2026-09-10",
     updated: "2026-09-10",
+    sell: ["sell-rental-property-idaho"],
+    handoff:
+      "If you would rather sell with the tenants still in place than wait for a lease to end, a direct sale is one option.",
   },
   {
     slug: "selling-a-manufactured-home-in-idaho",
-    title: "Selling a Manufactured Home in Idaho",
+    title: "Selling a Manufactured Home in Idaho: Title or Deed?",
     h1: "Selling a manufactured home in Idaho",
     description:
-      "Whether your manufactured home is real property or personal property decides how it is sold, who can finance it, and whether it can be moved at all. Idaho makes the conversion easy and the reversal hard.",
+      "Is your Idaho manufactured home real property or personal property? The answer decides title or deed, who will finance it, and whether it can be moved.",
     cluster: "manufactured",
     published: "2026-09-10",
     updated: "2026-09-10",
+    sell: ["sell-manufactured-home-idaho"],
+    handoff:
+      "If the home sits on land you own and you would rather not wait on a buyer's financing, a direct sale is one option.",
   },
   {
     slug: "selling-land-or-acreage-in-ada-county",
-    title: "Selling Land or Acreage in Ada County",
-    h1: "Selling land or acreage in Ada County",
+    title: "Ada County Land Rules: Water, Access, Zoning and Splits",
+    h1: "What decides what Ada County land can become",
     description:
-      "What the ground can legally become is decided by water, irrigation, access and who governs the parcel — not by its size. The constraints that actually bind on Ada County land, and where each one is administered.",
+      "What decides what Ada County land can become: domestic well limits, 27 irrigation entities, highway district access, who zones the parcel, and lot splits.",
     cluster: "land",
     published: "2026-09-11",
-    updated: "2026-09-12",
+    updated: "2026-11-18",
+    sell: ["sell-land-idaho"],
+    handoff:
+      "If you would rather sell the parcel than work through each of these questions first, a direct sale is one option.",
   },
   {
     slug: "idaho-seller-disclosure-when-selling-as-is",
-    title: "Idaho Seller Disclosure When Selling a House As-Is",
+    title: "Selling a House As-Is in Idaho: What You Must Still Disclose",
     h1: "Idaho seller disclosure when you sell a house as-is",
     description:
-      "Selling as-is does not remove Idaho's property condition disclosure. Who must disclose, the sixteen exemptions, the ten-day and three-day deadlines, where seller liability sits, and the federal lead-paint rule for pre-1978 homes.",
+      "Selling as-is does not remove Idaho's seller disclosure form. Who must disclose, the 16 exemptions, the 10-day and 3-business-day deadlines, and lead paint.",
     cluster: "disclosure",
     published: "2026-09-12",
     updated: "2026-09-12",
+    sell: ["sell-house-as-is-idaho"],
+    handoff:
+      "If you would rather sell without making repairs, a direct sale is one option. The disclosure rules on this page still apply.",
   },
   {
     slug: "selling-a-house-during-a-divorce-in-idaho",
@@ -96,6 +139,7 @@ export const guides: Guide[] = [
     cluster: "divorce",
     published: "2026-11-12",
     updated: "2026-11-12",
+    sell: ["sell-house-divorce-idaho"],
   },
   {
     slug: "liens-and-judgments-when-selling-in-idaho",
@@ -106,6 +150,7 @@ export const guides: Guide[] = [
     cluster: "liens",
     published: "2026-11-12",
     updated: "2026-11-12",
+    sell: ["sell-house-with-liens-idaho"],
   },
   {
     slug: "selling-a-house-in-probate-in-idaho",
@@ -116,6 +161,7 @@ export const guides: Guide[] = [
     cluster: "probate",
     published: "2026-11-12",
     updated: "2026-11-12",
+    sell: ["sell-inherited-house-idaho"],
   },
   {
     slug: "how-a-property-sale-closes-in-idaho",
@@ -126,16 +172,20 @@ export const guides: Guide[] = [
     cluster: "closing",
     published: "2026-11-12",
     updated: "2026-11-12",
+    sell: ["sell-house-as-is-idaho", "sell-house-with-liens-idaho"],
   },
   {
     slug: "selling-a-house-with-a-well-or-septic-in-ada-county",
-    title: "Selling a House With a Well or Septic",
+    title: "Selling a House With a Well or Septic in Ada County, Idaho",
     h1: "Selling an Ada County house on a private well or septic system",
     description:
-      "Who regulates septic and wells in Ada County, where the permit and well records are, what a CDH mortgage survey is, and when a water right must be updated.",
+      "Who holds septic and well records in Ada County, when a lender asks for a CDH mortgage survey and what it costs, and the 120-day water-right ownership notice.",
     cluster: "well-septic",
     published: "2026-11-12",
     updated: "2026-11-12",
+    sell: ["sell-house-as-is-idaho", "sell-land-idaho"],
+    handoff:
+      "If you would rather not schedule a survey, chase a septic file or line up repairs first, a direct sale is one option.",
   },
   {
     slug: "idaho-property-taxes-when-you-sell",
@@ -146,6 +196,7 @@ export const guides: Guide[] = [
     cluster: "property-tax",
     published: "2026-11-12",
     updated: "2026-11-12",
+    sell: ["sell-house-delinquent-property-taxes-idaho"],
   },
   {
     slug: "how-to-avoid-foreclosure-in-idaho",
@@ -156,6 +207,7 @@ export const guides: Guide[] = [
     cluster: "distress",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-house-before-foreclosure-idaho"],
   },
   {
     slug: "idaho-foreclosure-timeline",
@@ -166,6 +218,7 @@ export const guides: Guide[] = [
     cluster: "distress",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-house-before-foreclosure-idaho"],
   },
   {
     slug: "short-sale-vs-deed-in-lieu-in-idaho",
@@ -176,6 +229,7 @@ export const guides: Guide[] = [
     cluster: "distress",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-house-before-foreclosure-idaho"],
   },
   {
     slug: "after-a-foreclosure-sale-in-idaho",
@@ -186,6 +240,7 @@ export const guides: Guide[] = [
     cluster: "distress",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-house-before-foreclosure-idaho"],
   },
   {
     slug: "foreclosure-rescue-scams-in-idaho",
@@ -196,6 +251,7 @@ export const guides: Guide[] = [
     cluster: "distress",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-house-before-foreclosure-idaho"],
   },
   {
     slug: "inheriting-a-house-with-a-mortgage-in-idaho",
@@ -206,6 +262,7 @@ export const guides: Guide[] = [
     cluster: "estate",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-inherited-house-idaho"],
   },
   {
     slug: "reverse-mortgage-after-the-borrower-dies-in-idaho",
@@ -216,6 +273,7 @@ export const guides: Guide[] = [
     cluster: "estate",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-inherited-house-idaho"],
   },
   {
     slug: "taxes-when-you-sell-a-house-in-idaho",
@@ -226,6 +284,7 @@ export const guides: Guide[] = [
     cluster: "property-tax",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-house-as-is-idaho"],
   },
   {
     slug: "bankruptcy-and-foreclosure-in-idaho",
@@ -236,6 +295,7 @@ export const guides: Guide[] = [
     cluster: "distress",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-house-before-foreclosure-idaho"],
   },
   {
     slug: "selling-a-house-with-unpermitted-work-in-ada-county",
@@ -246,6 +306,7 @@ export const guides: Guide[] = [
     cluster: "disclosure",
     published: "2026-11-13",
     updated: "2026-11-13",
+    sell: ["sell-house-as-is-idaho"],
   },
 ];
 

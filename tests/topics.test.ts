@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { TOPIC_PAGES } from "../src/data/topic-pages";
-import { guides } from "../src/data/guides";
+import { guides, AS_IS_FACTS, DEFAULT_HANDOFF } from "../src/data/guides";
+import { publishedTopics, situationForGuide } from "../src/lib/seo/registry";
 import { guideContent } from "../src/data/guide-content";
 import { places, county } from "../src/data/geography";
 import { resolveClaim, decideTopicIndexation } from "../src/lib/seo/topicIndexation";
@@ -62,6 +63,46 @@ describe("topic pages (BOFU situations, MOFU decisions)", () => {
 
   it("every page written so far clears its own gate", () => {
     for (const p of TOPIC_PAGES) expect(decideTopicIndexation(p), p.slug).toEqual({ indexable: true, reason: "" });
+  });
+});
+
+describe("guide to selling-page handoff", () => {
+  it("every guide names at least one selling page, and each is a published situation page", () => {
+    const live = new Set(publishedTopics("situation").map((p) => p.slug));
+    for (const g of guides) {
+      expect(g.sell.length, g.slug).toBeGreaterThan(0);
+      for (const s of g.sell) expect(live.has(s), `${g.slug} -> ${s}`).toBe(true);
+    }
+  });
+
+  it("the primary selling page is the one the template and NextSteps use", () => {
+    for (const g of guides) expect(situationForGuide(g.slug)?.slug, g.slug).toBe(g.sell[0]);
+  });
+
+  it("the as-is block makes no unconfirmed promise and stays plain text", () => {
+    const texts = [AS_IS_FACTS, DEFAULT_HANDOFF, ...guides.map((g) => g.handoff ?? "")];
+    for (const t of texts) {
+      for (const re of [...(IMPLIES_HISTORY as RegExp[]), ...(APPRAISAL_PROMISE as RegExp[]), ...UNCONFIRMED_PROMISE]) {
+        expect(t, `matched ${re}`).not.toMatch(re);
+      }
+      expect(t, "links belong to the block, not the sentence").not.toMatch(/\]\(\//);
+      expect(t, "no em dashes in new copy").not.toMatch(/—/);
+    }
+  });
+
+  it("guide descriptions fit the snippet without being cut", () => {
+    for (const g of guides) {
+      expect(g.description.length, g.slug).toBeLessThanOrEqual(DESCRIPTION_MAX);
+      expect(metaDescription(g.description)).toBe(g.description);
+    }
+  });
+
+  it("the land guide and the land selling page do not share a title or H1", () => {
+    const guide = guides.find((g) => g.slug === "selling-land-or-acreage-in-ada-county")!;
+    const page = TOPIC_PAGES.find((p) => p.slug === "sell-land-idaho")!;
+    const norm = (s: string) => s.toLowerCase().replace(/^(selling|sell)\s+/, "").replace(/,?\s*idaho$/, "");
+    expect(norm(guide.title)).not.toBe(norm(page.title));
+    expect(norm(guide.h1)).not.toBe(norm(page.h1));
   });
 });
 

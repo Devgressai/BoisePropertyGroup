@@ -23,7 +23,7 @@ export const guideContent: Record<string, GuideContent> = {
         heading: "As-is is a repair term, not a disclosure exemption",
         body: [
           "Idaho Code 55-2504 requires a seller of residential property with one to four dwelling units — including a rental the owner does not live in — to complete a property condition disclosure form. It applies to a sale, an exchange, an installment sale contract, a lease with an option to purchase, any other option to purchase, and a ground lease coupled with improvements.",
-          "That list matters for less conventional deals. A seller-financed sale on an installment contract and a lease-option are both covered. The act asks what you know about the house; whether you will fix what you know about is a different conversation, and the act does not make it an excuse. The form's permit question has its own guide: [selling a house with unpermitted work in Ada County](/guides/selling-a-house-with-unpermitted-work-in-ada-county).",
+          "That list matters for less conventional deals. A seller-financed sale on an installment contract and a lease-option are both covered. The act asks what you know about the house; whether you will fix what you know about is a different conversation, and the act does not make it an excuse. The form's permit question has its own guide: [selling a house with unpermitted work in Ada County](/guides/selling-a-house-with-unpermitted-work-in-ada-county), and how a buyer prices condition in an as-is sale is on [selling your house as-is in Ada County](/sell-house-as-is-idaho).",
         ],
         claims: ["id-disclosure-required-1-to-4-units", "id-disclosure-applies-to-sale-contract-options"],
       },
@@ -166,7 +166,7 @@ export const guideContent: Record<string, GuideContent> = {
         body: [
           "Most Idaho residential mortgage debt is secured by a deed of trust, foreclosed non-judicially. Idaho Code 45-1506 requires that \"at least one hundred twenty (120) days before the day fixed by the trustee for the trustee's sale, notice of such sale shall be given\" to the grantor, to anyone who has recorded a request for notice, to successors in interest and to junior lienholders.",
           "The same section requires publication \"in a newspaper of general circulation in each of the counties in which the property is situated once a week for four (4) successive weeks,\" with the last publication at least 30 days before the sale. Affidavits of mailing and posting must be recorded at least 20 days before. And at least three good-faith attempts at personal service must be made on different days over a period of not less than seven days, each at least 30 days before the sale.",
-          "That 120 days is a statutory minimum within a longer process, not \"the foreclosure timeline\". It begins from the date fixed for the sale and works backwards.",
+          "That 120 days is a statutory minimum within a longer process, not \"the foreclosure timeline\". It begins from the date fixed for the sale and works backwards. An owner who still holds title can sell before that date, and [selling your house before a foreclosure sale](/sell-house-before-foreclosure-idaho) covers how a direct sale fits inside the notice period.",
           "One detail matters in Star and anywhere else straddling a county line: notice must be published in each county where the property sits.",
         ],
         claims: ["id-trustee-sale-120-day-notice", "id-trustee-sale-publication", "id-trustee-sale-service-attempts"],
@@ -176,7 +176,7 @@ export const guideContent: Record<string, GuideContent> = {
         body: [
           "Property tax delinquency runs on an entirely different scale. Idaho Code 63-1005: \"If real property on which there is a delinquency is not redeemed within three (3) years from the date of delinquency, the county tax collector … must make, in favor of said county, a tax deed for such property.\"",
           "Even then the county is not entitled to the deed until a notice of pending issue has been given and an affidavit of compliance recorded. Service is by certified mail with return receipt, no more than five months and no less than two months before the deed is set to issue. If that comes back undelivered, notice is published once a week for four consecutive weeks. The statute calls this the exclusive manner of service, and the owner is liable for the costs of it.",
-          "So an owner behind on property taxes has years, where an owner behind on a mortgage may have months. Both are serious. They are not the same emergency.",
+          "So an owner behind on property taxes has years, where an owner behind on a mortgage may have months. Both are serious. They are not the same emergency. If the plan is to sell with the taxes still owing, see [selling a house with delinquent property taxes](/sell-house-delinquent-property-taxes-idaho).",
         ],
         claims: ["id-tax-deed-three-year-delinquency", "id-tax-deed-notice-service"],
       },
@@ -219,7 +219,7 @@ export const guideContent: Record<string, GuideContent> = {
         heading: "The deposit follows the property, not the seller",
         body: [
           "Idaho Code 6-321(3): \"If security deposits have been made as to a particular rental or lease property, and the property changes ownership during a tenancy, the new owner shall be liable for refund of the deposits.\"",
-          "That cuts both ways and both matter. A seller does not discharge the deposit obligation by selling. A buyer inherits it, whether or not the money was ever transferred at closing — which is why the deposit should be an explicit line in the transaction rather than an assumption.",
+          "That cuts both ways and both matter. A seller does not discharge the deposit obligation by selling. A buyer inherits it, whether or not the money was ever transferred at closing — which is why the deposit should be an explicit line in the transaction rather than an assumption. That is how a direct sale handles it too: [selling a rental with tenants in place](/sell-rental-property-idaho) covers the deposits and leases from the buyer's side.",
           "The same section sets the refund terms: within 21 days if no time is fixed by agreement, and within 30 days in any event after the tenant surrenders the premises. Any partial refund must come with a signed statement itemising what was retained, why, and a detailed list of expenditures.",
           "A landlord \"shall not retain any part of a security deposit to cover normal wear and tear,\" which the statute defines as deterioration from the use the unit is intended for, without negligence, carelessness, accident, misuse or abuse. A tired unit is not a damaged one.",
         ],
@@ -272,7 +272,7 @@ export const guideContent: Record<string, GuideContent> = {
         body: [
           "Idaho decides whether something is real or personal property with a three-factor test — annexation, adaptation and intent. An item satisfying all three is a fixture, and therefore real property. That is the general rule for anything attached to land.",
           "Manufactured homes get their own statute instead, and its conditions are specific rather than a matter of judgement. Under Idaho Code 63-304 a manufactured home may constitute real property only if the running gear is removed AND it becomes permanently affixed to a foundation on land the owner owns or is buying — or leases under qualifying financing — AND the owner records a statement of intent to declare it real property with the county recorder.",
-          "All of those, not any of them. A home sitting on a permanent foundation with its running gear still attached has not converted. Nor has one where nothing was ever recorded, however permanent it looks.",
+          "All of those, not any of them. A home sitting on a permanent foundation with its running gear still attached has not converted. Nor has one where nothing was ever recorded, however permanent it looks. If the home sits on land you own and you are weighing a direct sale, [selling a manufactured home on its land](/sell-manufactured-home-idaho) covers how that works with us.",
         ],
         claims: ["ada-fixture-three-factor-test", "id-manufactured-home-becomes-real-property"],
       },
@@ -329,8 +329,9 @@ export const guideContent: Record<string, GuideContent> = {
           "Domestic water and irrigation water are different things carried by different infrastructure, and on Ada County ground the irrigation side is unusually crowded. The county's own irrigation districts map identifies twenty-seven separate entities operating in the county — irrigation districts, ditch companies, lateral associations and water users' associations.",
           "Which one matters to a parcel depends entirely on where it sits. Settlers Irrigation District delivers to 13,187 acres across western Ada County — the West Boise, Meridian and South Eagle areas. The Boise Project Board of Control is the operating agent for five separate districts: Boise-Kuna, Big Bend, Nampa & Meridian, New York and Wilder.",
           "One fact surprises nearly everyone. Title to the Boise Project's transferred works — Diversion Dam, the New York Canal, the Lake Lowell embankments and roughly 1,500 miles of canals, laterals and drains — remains with the United States. If a lateral crosses the parcel, the question of who you are dealing with is not rhetorical, and the answer is not always a local body.",
+          "What can be built near that lateral is limited by statute. Idaho Code 42-1205 bars roads, utilities, fences, gates, pipelines, structures, landscaping, trees and similar encroachments onto an irrigation entity's easement or right-of-way without the entity's written permission, which may not be unreasonably withheld. An encroachment placed without permission must be removed or modified at the expense of whoever caused or permitted it.",
         ],
-        claims: ["ada-27-irrigation-entities", "settlers-district-coverage", "boise-project-five-districts", "boise-project-federal-title"],
+        claims: ["ada-27-irrigation-entities", "settlers-district-coverage", "boise-project-five-districts", "boise-project-federal-title", "ws-irrigation-encroachment-written-permission"],
       },
       {
         heading: "You almost certainly do not control the road",
@@ -344,11 +345,11 @@ export const guideContent: Record<string, GuideContent> = {
       {
         heading: "Septic, floodplain and boundaries are three more authorities again",
         body: [
-          "Central District Health's Environmental Health Division permits septic systems, reviews land development applications and verifies the location of shallow injection wells across the county. That is a health authority, separate from both the city and the highway district.",
+          "Central District Health's Environmental Health Division permits septic systems, reviews land development applications and verifies the location of shallow injection wells across the county. That is a health authority, separate from both the city and the highway district. On ground with no septic system yet, DEQ says installing one needs a public health district permit, and advises a site evaluation by the health district and a licensed installer before the property is bought and the permit applied for.",
           "Floodplain is separate again. Any development within the floodplain in Ada County requires a Floodplain Development Permit, and the county adopted new FEMA Flood Insurance Rate Maps in June 2020 — so a map a seller remembers may not be the map in force. Boise participates in the National Flood Insurance Program because of flood threats from the Boise River, the foothills gulches and several intermittent stream channels. In Star, development in certain flood zones requires a Flood Plain Development Permit under the city's own Flood Hazard Ordinance.",
           "On boundaries, Kuna's guidance is the plainest statement of something true everywhere in the county: the best way to determine property lines is a professional survey. The Assessor maintains parcel ownership, land and improvement characteristics and parcel boundaries in its records, and those records are a mapping layer rather than a survey. On acreage, where a fence has stood for decades and a lateral runs somewhere near a line, that distinction is where disputes live.",
         ],
-        claims: ["ada-septic-authority-cdh", "ada-floodplain-development-permit", "ada-fema-firm-adopted-2020", "boise-nfip-flood-sources", "star-flood-zone-building-permit-question", "kuna-property-lines-survey-guidance", "ada-assessor-maintains-parcel-gis"],
+        claims: ["ada-septic-authority-cdh", "ws-deq-site-evaluation-before-purchase", "ada-floodplain-development-permit", "ada-fema-firm-adopted-2020", "boise-nfip-flood-sources", "star-flood-zone-building-permit-question", "kuna-property-lines-survey-guidance", "ada-assessor-maintains-parcel-gis"],
       },
       {
         heading: "Which authority governs the parcel is itself a question",
@@ -356,17 +357,34 @@ export const guideContent: Record<string, GuideContent> = {
           "Ada County uses Areas of City Impact — unincorporated land planned in conjunction with an adjacent city. That arrangement covers most unincorporated residents: 78.8 per cent of them, about 50,143 people, live inside one.",
           "For a seller that means unincorporated ground is often being planned by a city it does not sit in, and the comprehensive plan that shapes what it can become may be that city's rather than the county's. Most of the residents living outside any Area of City Impact are in the planned communities — Avimor, Cartwright Ranch, Dry Creek Ranch and Hidden Springs — which run on their own frameworks again.",
           "Ada County's engineering and surveying division reviews preliminary plats, drainage plans, private roads, hillside applications, floodplain permits and property boundary adjustments for unincorporated ground. Inside a city, the city's own planning department does the equivalent work under its own ordinances.",
+          "Zoning follows the same split. Ada County's planning division processes land use applications only in unincorporated Ada County, and each city administers land use and zoning inside its own limits through its own planning department and development code. The codes are not interchangeable. Boise's current zoning code took effect on December 1, 2023, so a Boise parcel's rules may differ from what applied before that date. Kuna assigns a zone to every property in city limits and lists uses in the Official Land Use Table in Kuna Municipal Code 5-3-2, where a use that is not listed is prohibited in that zone. Garden City sets out the uses allowed in each district in Garden City Code Table 8-2B-1.",
+          "Overlays can add rules on top of the base zone. In Boise, the Wildland Urban Interface Overlay covers land at higher risk of wildfire, and its provisions apply to new structures and additions built there.",
         ],
-        claims: ["ada-area-of-city-impact", "ada-planned-communities-outside-aci", "ada-engineering-scope-unincorporated"],
+        claims: ["ada-area-of-city-impact", "ada-planned-communities-outside-aci", "ada-engineering-scope-unincorporated", "ada-planning-unincorporated-only", "ada-cities-administer-own-land-use", "boise-modern-zoning-code-effective-2023", "kuna-land-use-table-convention", "gardencity-zoning-table-and-ncn-overlay", "boise-wui-overlay-district"],
       },
       {
-        heading: "What this means if you are selling",
+        heading: "Splitting a parcel: who decides, and what it can cost",
         body: [
-          "The value of land in this county tracks what it can become, and what it can become is a stack of separate answers — water right, irrigation entity, highway district, health district, floodplain, and whichever authority actually governs the parcel. Nobody holds all of those in one place, which is why land takes longer to price than a house does.",
-          "We look at ground with complications: access issues, easements, floodplain, irrigation crossings, parcels without a clean boundary, and land where a previous plan fell over. We buy with our own capital.",
-          "We will not tell you what your land is worth. We will tell you what we would pay and show the reasoning, including which of these constraints we think binds hardest on your parcel.",
+          "There is no single countywide rule for dividing ground. The five-lot line in the water statutes, above, is one test, and it excludes a bona fide division of agricultural land for agricultural purposes. The planning procedure is a separate question, answered by whichever authority governs the parcel.",
+          "Small splits show how much that varies. In Star, an original parcel may be divided one time, administratively, into no more than two lots, parcels or sites, without a public hearing, unless the city requires the division to be platted. In unincorporated Ada County, preliminary plats, private roads and property boundary adjustments go through the county's engineering and surveying division.",
+          "A split can also bring a utility cost. Boise charges a one-time sewer assessment fee, separate from its connection fees, for property that has never been developed or connected, and the city says it is likely to apply when building on a lot that is being split or on a previously undeveloped lot.",
         ],
-        claims: ["id-homestead-one-acre-limit", "ada-area-of-city-impact"],
+        claims: ["id-water-subdivision-five-lots", "star-one-time-administrative-division", "ada-engineering-scope-unincorporated", "boise-sewer-assessment-fee-undeveloped"],
+      },
+      {
+        heading: "Acreage with a house: the homestead is at most an acre",
+        body: [
+          "Idaho's property tax statutes define a homestead as the owner-occupied primary dwelling and so much of the land around it, not exceeding one acre, as is reasonably necessary for its use as a home. On a large parcel with a house on it, the homestead is the house and at most an acre of the ground, whatever the size of the parcel.",
+        ],
+        claims: ["id-homestead-one-acre-limit"],
+      },
+      {
+        heading: "The questions to answer about any Ada County parcel",
+        body: [
+          "What land in this county can become is a stack of separate answers, held in separate places: whether the water use fits the domestic definition, which irrigation entity serves the ground and whether a lateral crosses it, whether access is over a highway district right-of-way, what Central District Health will permit for septic, whether any of it is in the floodplain on the current maps, which authority's zoning applies, and how that authority handles a split. None of those answers is in the acreage.",
+          "If you are selling the parcel rather than planning it, [selling land or acreage in Ada County](/sell-land-idaho) covers how a direct sale handles these constraints. For a house on a private well or septic system, see [selling a house with a well or septic in Ada County](/guides/selling-a-house-with-a-well-or-septic-in-ada-county).",
+        ],
+        claims: ["id-domestic-water-exclusions", "ada-27-irrigation-entities", "achd-responsibility-within-cities", "ada-septic-authority-cdh", "ada-fema-firm-adopted-2020", "ada-area-of-city-impact"],
       },
     ],
   },
@@ -904,7 +922,7 @@ export const guideContent: Record<string, GuideContent> = {
         "body": [
           "Start with the health district. DEQ lists permit status and existing permit records among the things a district can help with, and tells owners to contact the district for the county where the property is located. CDH takes public records requests through a form on its About page and asks that you be specific about the documents you want — the property address, the parcel number and the legal description are the obvious things to include.",
           "Two cautions. CDH's own pages do not say what a septic file contains or how long a request takes, so expect neither to be predictable. And not every system will have a tidy file; that is a reason to gather what you hold yourself.",
-          "DEQ's homeowner guide, which CDH still links as its guide for homeowners, says a tank's location can be found from plot plans, septic inspection records, architectural or landscape drawings, or the house plumbing, and it advises keeping a permanent record of maintenance, repairs, sludge and scum levels, pumping, drainfield condition and backups. CDH's own mortgage survey asks for the pumping receipt when a tank has been or will be pumped, so receipts are worth keeping with the deed."
+          "DEQ's homeowner guide, which CDH still links as its guide for homeowners, says a tank's location can be found from plot plans, septic inspection records, architectural or landscape drawings, or the house plumbing, and it advises keeping a permanent record of maintenance, repairs, sludge and scum levels, pumping, drainfield condition and backups. CDH's own mortgage survey asks for the pumping receipt when a tank has been or will be pumped, so receipts are worth keeping with the deed. If gathering the file is more than you want to take on before selling, we buy houses on a well and septic as they stand; see [selling your house as-is in Ada County](/sell-house-as-is-idaho)."
         ],
         "claims": [
           "ws-deq-health-districts-administer-septic-rules",

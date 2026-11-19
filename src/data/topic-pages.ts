@@ -335,15 +335,15 @@ export const TOPIC_PAGES: TopicPage[] = [
     description:
       "We buy raw land, acreage, rural parcels and infill lots across Ada County. What we look at first — water, access, irrigation and who governs the parcel.",
     published: "2026-11-12",
-    updated: "2026-11-12",
+    updated: "2026-11-18",
     guides: ["selling-land-or-acreage-in-ada-county", "selling-a-house-with-a-well-or-septic-in-ada-county"],
     intro: [
-      "We buy land across Ada County — raw ground, rural acreage with a well and septic, infill lots and parcels with access, easement, water or floodplain complications. Size matters less than four things: whether the parcel has water, legal access, irrigation rights, and which government decides what can be built on it.",
+      "We buy land across Ada County — raw ground, rural acreage with a well and septic, infill lots and parcels with access, easement, water or floodplain complications. Size matters less than four things: whether the parcel has water, legal access, irrigation rights, and which government decides what can be built on it. This page is about selling the parcel to us. What each of those rules says, with the statutes, is in our guide to [what decides what Ada County land can become](/guides/selling-land-or-acreage-in-ada-county).",
       NOT_ADVICE,
     ],
     sections: [
       {
-        heading: "Who governs the parcel",
+        heading: "What we check first: who governs the parcel",
         body: [
           "Unincorporated Ada County is not one regime. Much of it lies inside Areas of City Impact — land planned jointly with the adjacent city. 78.8% of unincorporated residents, about 50,143 people, live inside one. Which side of that line a parcel sits on changes the rules for dividing and building on it.",
           "We start every land offer by establishing that, from the county's own maps. The Ada County Assessor maintains the parcel boundaries, road rights-of-way and city limits that tell you which regime applies.",
@@ -351,16 +351,16 @@ export const TOPIC_PAGES: TopicPage[] = [
         claims: ["ada-area-of-city-impact", "ada-assessor-maintains-parcel-gis"],
       },
       {
-        heading: "Water: the domestic exemption has a ceiling",
+        heading: "What we check on water",
         body: [
-          "Idaho treats domestic water use — a home, with irrigation of up to half an acre — as a defined use capped at 13,000 gallons a day. For Idaho's domestic water statutes a subdivision is five or more lots, which is one reason a parcel that looks dividable on paper may not be on water.",
+          "Idaho treats domestic water use — a home, with irrigation of up to half an acre — as a defined use capped at 13,000 gallons a day. For Idaho's domestic water statutes a subdivision is five or more lots, which is one reason a parcel that looks dividable on paper may not be on water. If there is a well, its driller's report or tag number helps us price the parcel.",
         ],
         claims: ["id-domestic-water-13000-gpd", "id-water-subdivision-five-lots"],
       },
       {
-        heading: "Irrigation is its own map",
+        heading: "What we check on irrigation",
         body: [
-          "Ada County's irrigation districts map identifies 27 separate irrigation entities in the county — districts, ditch companies, lateral associations and others. Who delivers water to a parcel, and on what terms, is a question about that map rather than about the city.",
+          "Ada County's irrigation districts map identifies 27 separate irrigation entities in the county — districts, ditch companies, lateral associations and others. Who delivers water to a parcel, and on what terms, is a question about that map rather than about the city. An irrigation assessment bill, if you have one, tells us which entity it is.",
         ],
         claims: ["ada-27-irrigation-entities"],
       },
@@ -368,7 +368,7 @@ export const TOPIC_PAGES: TopicPage[] = [
         heading: "Access, septic and floodplain",
         body: [
           "A single countywide highway district is responsible for public rights-of-way inside every Ada County city, which is where road access questions start. Central District Health permits septic systems and reviews land development applications. Any development within the floodplain in Ada County needs a Floodplain Development Permit.",
-          "None of these is a reason we will not buy. Each is a line in what the land is worth to a buyer, and our guide to [selling land or acreage in Ada County](/guides/selling-land-or-acreage-in-ada-county) explains how each one binds.",
+          "None of these is a reason we will not buy. Each is a line in what the land is worth to a buyer, and the [Ada County land guide](/guides/selling-land-or-acreage-in-ada-county) explains how each one binds, including who decides a lot split.",
         ],
         claims: ["achd-responsibility-within-cities", "ada-septic-authority-cdh", "ada-floodplain-development-permit"],
       },
