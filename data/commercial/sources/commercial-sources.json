@@ -601,7 +601,8 @@
       "authorityNotes": "TIER 1 — primary statute, read from the Legislature's own site and cached. The site states Idaho Statutes are updated following the legislative session each 1 July.",
       "stalenessRisk": "LOW — statutory text changes only by amendment.",
       "claimsSupported": [
-        "idaho-assessment-ratio-band-90-110"
+        "idaho-assessment-ratio-band-90-110",
+        "idaho-assessors-use-tax-commission-appraisal-methods"
       ],
       "status": "VERIFIED"
     },
@@ -693,7 +694,11 @@
         "ada-county-zoning-districts-schedule",
         "ada-county-vs-city-zoning-vocabularies-differ",
         "ada-county-commercial-districts-tied-to-areas-of-impact",
-        "m3-means-three-different-things-in-ada-county"
+        "m3-means-three-different-things-in-ada-county",
+        "garden-city-c1-is-highway-commercial",
+        "ada-county-c1-c2-purposes",
+        "ada-county-m1-caps-retail-and-office-floor-area",
+        "ada-county-industrial-tables-and-airport-purpose"
       ],
       "status": "VERIFIED"
     },
@@ -1115,7 +1120,9 @@
       "stalenessRisk": "LOW — changes by ordinance; the codification line names the last one.",
       "claimsSupported": [
         "garden-city-c2-is-mixed-use-not-commercial",
-        "commercial-district-letters-do-not-correspond"
+        "commercial-district-letters-do-not-correspond",
+        "garden-city-c1-is-highway-commercial",
+        "garden-city-c2-requires-mix-of-uses"
       ],
       "status": "VERIFIED"
     },
@@ -1204,7 +1211,9 @@
       "authorityNotes": "TIER 1 — codified Kuna Zoning Code, current through Ordinance No. 2026-15 enacted 2026-05-19 (Supp. No. 72). No adopted-but-uncodified ordinances outstanding as of 2026-09-10. ⚠️ URL CHANGED 2026-09-11. This cited Municode's content API, which is how the text was RETRIEVED — and that endpoint embeds a jobId that Municode rotates on every supplement. The recorded API URL had already gone dead, so a reader clicking the source on a live page got a 404 while our cached copy stayed perfectly valid. It now cites the stable public permalink a human can open; the API URL is kept in retrievalUrl as the record of how the bytes were obtained.",
       "stalenessRisk": "LOW — changes by ordinance; the codification banner names the last one.",
       "claimsSupported": [
-        "m3-means-three-different-things-in-ada-county"
+        "m3-means-three-different-things-in-ada-county",
+        "garden-city-c1-is-highway-commercial",
+        "kuna-commercial-district-purposes"
       ],
       "status": "VERIFIED",
       "retrievalUrl": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU&groupChunks=false"
@@ -1245,7 +1254,7 @@
       "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
       "publisher": "City of Eagle, Idaho",
       "organizationType": "municipal-government",
-      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9902",
       "sourceTier": 1,
       "jurisdiction": "Eagle, Idaho",
       "assetClass": [
@@ -1267,9 +1276,156 @@
       "claimsSupported": [
         "m3-means-three-different-things-in-ada-county",
         "commercial-district-letters-do-not-correspond",
-        "eagle-limited-office-purpose"
+        "eagle-limited-office-purpose",
+        "garden-city-c1-is-highway-commercial",
+        "eagle-commercial-district-purposes"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "boise-zoning-districts-index",
+      "title": "Zoning Districts — City of Boise",
+      "publisher": "City of Boise Planning and Development Services",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "TIER 1 — the city's own index of every base zoning district, grouped as Residential, Mixed-Use, Industrial and Open Land, plus overlays. Raw HTML cached. It is the complete list the city publishes, which is what allows the statement that no Boise base district carries a C designation.",
+      "stalenessRisk": "MEDIUM — Boise rewrote its zoning code effective 2023-12-01; re-check the district list before each publication cycle.",
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "boise-has-no-c-lettered-commercial-district"
+      ]
+    },
+    {
+      "id": "boise-code-mixed-use-districts",
+      "title": "Boise City Code § 11-02-03 — Mixed-Use Districts (MX-1 through MX-5)",
+      "publisher": "City of Boise (codified by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65402",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "assetClass": [
+        "office",
+        "retail",
+        "multifamily"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text. ⚠️ PROVENANCE: amlegal 403s the fetcher; captured as rendered DOM via Chrome over CDP, meta.json records fetchedVia \"chrome-cdp\".",
+      "stalenessRisk": "LOW — codified text changes by ordinance.",
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "boise-has-no-c-lettered-commercial-district"
+      ]
+    },
+    {
+      "id": "star-code-8-3a-1",
+      "title": "Star City Code § 8-3A-1 — Zoning Districts and Purposes Established",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-1ZODIPUES",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=488846&nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-1ZODIPUES&groupChunks=false",
+      "sourceTier": 1,
+      "jurisdiction": "Star, Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "land"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified Star City Code, retrieved through Municode's content API (recorded in retrievalUrl); url is the stable public permalink.",
+      "stalenessRisk": "LOW — changes by ordinance.",
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "garden-city-c1-is-highway-commercial",
+        "star-commercial-district-purposes"
+      ]
+    },
+    {
+      "id": "meridian-code-11-2b-1",
+      "title": "Meridian Unified Development Code § 11-2B-1 — Purpose of the Commercial Districts (Table 11-2B-1)",
+      "publisher": "City of Meridian, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-1PU",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=15878&jobId=492847&nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-1PU&groupChunks=false",
+      "sourceTier": 1,
+      "jurisdiction": "Meridian, Idaho",
+      "assetClass": [
+        "office",
+        "retail"
+      ],
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-09-10",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified Unified Development Code, retrieved through Municode's content API (recorded in retrievalUrl); url is the stable public permalink. Section history in the payload: Ord. 08-1372, 7-8-2008.",
+      "stalenessRisk": "LOW — changes by ordinance.",
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "meridian-commercial-district-purposes"
+      ]
+    },
+    {
+      "id": "idapa-35-01-03",
+      "title": "IDAPA 35.01.03 — Property Tax Administrative Rules (Idaho State Tax Commission)",
+      "publisher": "Idaho State Tax Commission",
+      "organizationType": "state-government",
+      "url": "https://adminrules.idaho.gov/rules/current/35/350103.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "assetClass": [
+        "industrial",
+        "office",
+        "retail",
+        "multifamily",
+        "land"
+      ],
+      "topic": [
+        "assessment",
+        "valuation"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-07-01",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the Tax Commission's own administrative rules, adopted under Idaho Code § 63-105 and directed by § 63-208, which requires the Commission to prescribe how assessors determine market value. The sections relied on (Rules 217 and 314) each carry the effective-date stamp (7-1-24). Cached as PDF (the URL redirects to files.dfm.idaho.gov) and extracted to committed text.",
+      "stalenessRisk": "LOW — rules change through the annual rulemaking cycle; re-check the (7-1-24) stamps each July.",
+      "status": "VERIFIED",
+      "claimsSupported": [
+        "idaho-three-approaches-considered-for-all-property",
+        "idaho-assessment-income-approach-uses-market-rent",
+        "idaho-assessor-market-data-bank-income-expense"
+      ]
     }
   ]
 }
