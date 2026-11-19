@@ -1,0 +1,291 @@
+{
+  "sources": [
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-boise-code-10-2-8-deferrals",
+      "title": "Boise City Code 10-2-7-3 and 10-2-8 — Specified Fees; Fee Deferral Procedures and Deferral Types (10-2-8-1 to 10-2-8-7)",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-12485",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "sewer",
+        "fees",
+        "liens"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text as hosted by American Legal Publishing, the publisher the City of Boise links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome over CDP and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation.",
+      "stalenessRisk": "MEDIUM — amended by Ord. 34-23 (2023) and Ord. 27-24 (2024); re-check before relying on it.",
+      "claimsSupported": [
+        "r2-boise-sewer-fee-deferral-due-on-sale"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-boise-code-10-2-8-8",
+      "title": "Boise City Code 10-2-8-8 — Deferral of Equivalent Assessment Fees",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-12500",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "sewer",
+        "fees"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text as hosted by American Legal Publishing, the publisher the City of Boise links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome over CDP and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation.",
+      "stalenessRisk": "MEDIUM — online code can lag adoption.",
+      "claimsSupported": [
+        "r2-boise-sewer-fee-deferral-due-on-sale"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-boise-harris-ranch-cid",
+      "title": "Harris Ranch CID — City of Boise City Clerk",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/city-clerk/harris-ranch-cid/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "taxing-districts",
+        "assessments"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the City Clerk's page for Harris Ranch Community Infrastructure District No. 1. As of October 2026 the district is managed by Blackwood Advisors and newer documents are on that firm's site.",
+      "stalenessRisk": "MEDIUM — management moved off the city site in October 2026; this page may stop being updated.",
+      "claimsSupported": [
+        "r2-boise-harris-ranch-cid-three-taxes"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-boise-harris-ranch-cid-faq",
+      "title": "Harris Ranch CID FAQs — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/city-clerk/harris-ranch-cid/harris-ranch-cid-faqs/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "taxing-districts",
+        "assessments"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — City Clerk FAQ on the CID. ⚠️ Its mill-to-percent conversions are wrong on the page (3 mills shown as .003%); never quote the percentages.",
+      "stalenessRisk": "MEDIUM — see r2-boise-harris-ranch-cid.",
+      "claimsSupported": [
+        "r2-boise-harris-ranch-cid-three-taxes"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-ccdc-urban-renewal-districts",
+      "title": "Boise's Urban Renewal Districts — Capital City Development Corporation",
+      "publisher": "Capital City Development Corporation (CCDC), Boise's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://ccdcboise.com/urban-renewal-districts/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own list of active and sunset districts, with an enlargeable boundary map per district. Gives sunset months only for sunset districts; no sunset dates for active ones.",
+      "stalenessRisk": "MEDIUM — districts form and sunset; re-read before citing.",
+      "claimsSupported": [
+        "r2-boise-ccdc-active-and-sunset-districts"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-downtown-district",
+      "title": "Downtown District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/downtown-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-linder-district",
+      "title": "Linder District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/linder-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-northern-gateway-district",
+      "title": "Northern Gateway District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/northern-gateway-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-ten-mile-district",
+      "title": "Ten Mile District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/ten-mile-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-union-renewal-district",
+      "title": "Union District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/union-renewal-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-meridian-city-fee-schedule",
+      "title": "City Fees Schedule (full) — City of Meridian",
+      "publisher": "City of Meridian",
+      "organizationType": "municipal-government",
+      "url": "https://apps.meridiancity.org/CITYFEEWEB/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "impact-fees",
+        "fees"
+      ],
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "TIER 2 — the city's live, searchable fee schedule, linked as 'Fee Schedule (Full)' from meridiancity.org/community-development/building/fee-schedules-calculators-estimating/. Each row names its authorising ordinance or resolution; impact fee rows cite 22-2004. Captured via CDP (403 to the fetcher, grid filled client-side). The page gives no effective date.",
+      "stalenessRisk": "HIGH — fee amounts are reset by the council; re-read before citing.",
+      "claimsSupported": [
+        "r2-meridian-impact-fees-by-floor-area"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    }
+  ]
+}

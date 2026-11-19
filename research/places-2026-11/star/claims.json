@@ -1,0 +1,223 @@
+{
+  "claims": [
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-sswd-transfer-through-escrow",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "When a home served by the Star Sewer & Water District is sold, the account is transferred with the title company's help: the title company requests a utility assessment, which sets the amount collected from the buyer or withheld from the seller through escrow; after closing the title company sends the district the payment, the warranty deed and the transfer documents; service stays on; and the final bill is paid from escrow, with any overpayment refunded. The district also recommends the seller submit its Stop Service Form.",
+      "quotedLanguage": "If you are selling a home serviced by Star Sewer & Water District, your water and sewer service will be automatically transferred out of your name with the assistance of your title company. ... The title company requests a utility assessment for the property. ... The assessment determines the amount to be collected from the buyer or withheld from the seller. These funds are handled through escrow. ... After closing, the title company will send the payment, the warranty deed, and the transfer documents to the District. ... The final bill is paid from escrow. If more was collected than owed, a refund will be issued.",
+      "topic": [
+        "utilities",
+        "closing",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-sswd-stop-service"
+      ],
+      "notes": "Who ultimately bears a charge is escrow arithmetic set by the assessment, not a rule we state. The district FAQ adds that it usually receives the warranty deed and funds seven to ten days after closing."
+    },
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-sswd-charges-follow-property",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Star Sewer & Water District charges attach to the property rather than the occupant: the district says a previous owner's unpaid final bill becomes the new owner's responsibility, and that a landlord who puts the account in a tenant's name remains ultimately responsible. Under Idaho Code 42-3212(l), a water and sewer district's charges unpaid 30 days after their due date are delinquent, are certified to the county tax collector by August 1, and are placed on the tax roll and collected like other district taxes, with lien priority from the date of delinquency.",
+      "quotedLanguage": "Unlike other utilities, Sewer and Water charges are associated with the property rather than with the occupant who incurs the charges. Although a Final Bill is generated for the previous owner, if left unpaid, the new property owner inherits this responsibility. ... The property owner is ultimately responsible for all utility billings assessed to the property regardless of the party utilizing the service(s). ... All such rates, tolls and charges not paid within thirty (30) days after the date fixed for the payment thereof shall become delinquent; the board shall certify all such delinquent rates, tolls and charges to the tax collector of the county by the district, not later than the first day of August and shall be, by said tax collector, placed upon the tax roll and collected in the same manner and subject to the same penalties as other district taxes",
+      "topic": [
+        "utilities",
+        "liens",
+        "rentals"
+      ],
+      "sourceIds": [
+        "star-sswd-faqs",
+        "star-sswd-rental-applicants",
+        "idcode-42-3212"
+      ],
+      "notes": "Strongest seller point on the Star page: an unpaid district balance can reach the property tax roll. The rental page says delinquent balances 'may be added to the property tax roll'; the statute uses 'shall'. Quote the statute for the mechanism and the district for its practice."
+    },
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-sswd-domestic-water-only",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Star Sewer & Water District provides domestic water and wastewater service only, not irrigation. Its Rules and Regulations (Resolution 2024-3) prohibit using domestic water for irrigation when another irrigation source is available, and it says most subdivisions have pressurized irrigation systems managed by the homeowners' association, with the irrigation district supplying the water.",
+      "quotedLanguage": "No. The District provides domestic (household) water service only. The District's Rules and Regulations, including Resolution 2024-3, prohibit the use of domestic water for irrigation when an alternative irrigation source is available. Most subdivisions are equipped with pressurized irrigation systems that are managed by your homeowners' association (HOA).",
+      "topic": [
+        "irrigation",
+        "utilities"
+      ],
+      "sourceIds": [
+        "star-sswd-faqs"
+      ],
+      "notes": "Do not say every Star subdivision has pressurized irrigation; the district says 'most'."
+    },
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-irrigation-entities-city-list",
+      "freshnessClass": "IRREGULAR",
+      "claim": "The City of Star's Irrigation Canals contact list names eleven entities: Farmer's Union Ditch Company, the Middleton Irrigation Association and Middleton Mill Ditch Company, Pioneer Ditch Company and Little Pioneer Ditch Company, Flake Ditch Company, Canyon County Water Company, Settlers Irrigation District, Ada County Drainage District #2, Nampa & Meridian Irrigation District and Pioneer Irrigation District.",
+      "quotedLanguage": null,
+      "topic": [
+        "irrigation",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-irrigation-canals"
+      ],
+      "notes": "Image-only source (a PNG table on the city page), read visually on 2026-11-18; no verbatim quote. The list does not say which entity serves which parcel. Contact names and phone numbers deliberately not reproduced."
+    },
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-impact-fees-adopted-2026",
+      "freshnessClass": "FAST-CHANGING",
+      "claim": "Star adopted park and police impact fees on April 7, 2026 (Ordinance Nos. 431-2026 and 433-2026, codified as Star City Code 7-3D and 7-3E), imposed as a condition of development approval and collected when a building permit issues. The building department's fee page lists residential impact fees including a Star Parks Impact Fee of $4,695.76, a Star Police Impact Fee of $680.88, a Star Fire Impact Fee of $2,152 and an Ada County Highway District single family detached impact fee of $5,803.",
+      "quotedLanguage": "431-2026 4- 7-2026 Added 7-3D-1-7-3D-26 433-2026 4- 7-2026 Added 7-3E-1-7-3E-27 ... the City hereby imposes an Impact Fee as a condition of development approval on all developments in the City. Unless otherwise agreed in writing by the City and the developer, the Impact Fee shall be collected at the issuance of a building permit. ... Ada County Highway District Single Family Detached Impact Fee $5,803 ... Star Fire Impact Fee $2,152 Star Parks Impact Fee $4,695.76 Star Police Impact Fee $680.88",
+      "topic": [
+        "impact-fees",
+        "development",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-code-comparative-table",
+        "star-code-7-3d-parks",
+        "star-code-7-3e-police",
+        "star-building-fee-information"
+      ],
+      "notes": "RESOLVES the Feb 2026 DRAFT note: the CWF study (02.19.26) was a proposal; the fees were ADOPTED 4-7-2026 by ordinance. The parks amount is phased; a council addendum posted as 'Addendum_CIP_Impact Reports 04.07.26 Draft' shows Year 1 = $4,695.76 rising to $5,869.70. That addendum's link text says Draft, so it is NOT cited; the amounts cited here come from the building department's current fee page only. FAST-CHANGING amounts: say 'listed' and never project the later years."
+    },
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-impact-fee-replacement-exemption",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Star's park impact fee ordinance exempts, among other things, rebuilding the same floor space after a fire or other catastrophe if ready for occupancy within two years, remodeling that does not increase service units, and replacing a residential unit, including a manufactured home, with another residential unit on the same lot where the number of service units does not increase.",
+      "quotedLanguage": "A. Rebuilding the same amount of floor space of a structure which was destroyed by fire or other catastrophe, providing the structure is rebuilt and ready for occupancy within two (2) years of its destruction; B. Remodeling or repairing a structure which does not increase the number of service units; C. Replacing a residential unit, including a manufactured home, with another residential unit on the same lot, provided that the number of Service Units does not increase;",
+      "topic": [
+        "impact-fees",
+        "manufactured-homes"
+      ],
+      "sourceIds": [
+        "star-code-7-3d-parks"
+      ],
+      "notes": "Star's own code. The police article (7-3E-9) carries the same list; cite 7-3D for the quote. Do not carry this to other cities; Boise's similar exemption is a separate claim."
+    },
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-flood-substantial-improvement-and-freeboard",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Star's flood ordinance defines a substantial improvement as reconstruction, rehabilitation, addition or other improvement costing 50 percent or more of the structure's market value before construction starts, and requires new construction and substantial improvements of residential structures in special flood hazard areas, manufactured homes included, to have the lowest floor at or above the flood protection elevation, which is the base flood elevation plus two feet of freeboard.",
+      "quotedLanguage": "SUBSTANTIAL IMPROVEMENT: Any reconstruction, rehabilitation, addition, or other improvement of a structure, the cost of which equals or exceeds fifty percent (50%) of the market value of the structure before the \"start of construction\" of the improvement. ... In special flood hazard areas where base flood elevations (BFEs) have been determined, this elevation shall be the BFE plus two feet (2') of freeboard ... New construction, substantial improvements, and development of any residential structure (including manufactured homes) shall have the lowest floor, including basement, elevated no lower than the flood protection elevation",
+      "topic": [
+        "flood",
+        "building",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-code-10-flood"
+      ],
+      "notes": "Codified Ord. 413-2025. The city's Municipal Code Update 2026 page posts a replacement CHAPTER 1 FLOOD ORDINANCE as a draft; re-read before relying on this after 2026."
+    },
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-permit-records-portal-and-retention",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Star's building department says permit and inspection status can be searched by permit number or address in its online permit portal; copies of building plans are on the portal for permits submitted after January 2024, earlier plans need a public records request through the City Clerk's Office, and the department is only required to keep residential permitting records for two years.",
+      "quotedLanguage": "Search by permit number or address. ... Copies of building plans can be found on the portal if the permit was submitted after January 2024. If you need copies of plans prior to January 2024, you will need to submit a Public Records Request through the City Clerk's Office. Please note that the building department is only required to keep residential permitting records for 2 years.",
+      "topic": [
+        "permits",
+        "records",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "star-building-faq"
+      ],
+      "notes": "The FAQ also says city boundaries can be checked on the Ada County Assessor's interactive map."
+    },
+    {
+      "entity": [
+        "city:star"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "star-sswd-new-construction-permit-fee",
+      "freshnessClass": "FAST-CHANGING",
+      "claim": "The City of Star requires a copy of a sewer and water permit from the Star Sewer & Water District with the plans for all new construction, and the district's FAQ fee table lists a residential permit application fee of $11,450.00 and a permit transfer fee of $500.00.",
+      "quotedLanguage": "A copy of a sewer and water permit for all new construction must be submitted to City Hall with the plans. ... Permit Application Fee - Residential $11,450.00 Permit Application Fee - Commercial Requires Plan Review Permit Transfer Fee $500.00",
+      "topic": [
+        "utilities",
+        "development",
+        "land"
+      ],
+      "sourceIds": [
+        "star-building-fee-information",
+        "star-sswd-faqs"
+      ],
+      "notes": "FAST-CHANGING; the FAQ is undated. Present as 'lists', never as a quote for a particular lot."
+    }
+  ]
+}

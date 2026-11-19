@@ -1,0 +1,298 @@
+{
+  "sources": [
+    {
+      "id": "star-sswd-stop-service",
+      "title": "Stop Service - Star Sewer & Water District",
+      "publisher": "Star Sewer & Water District",
+      "organizationType": "special-district",
+      "url": "https://www.starswd.com/175/Stop-Service",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "utilities",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - the district's own page on what happens to a water and sewer account when a served home is sold.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-sswd-transfer-through-escrow"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-sswd-faqs",
+      "title": "FAQs - Star Sewer & Water District",
+      "publisher": "Star Sewer & Water District",
+      "organizationType": "special-district",
+      "url": "https://www.starswd.com/176/FAQs",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "utilities",
+        "billing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "TIER 2 - the district's FAQ page; fee table and billing rules.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-sswd-charges-follow-property",
+        "star-sswd-domestic-water-only",
+        "star-sswd-new-construction-permit-fee"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-sswd-rental-applicants",
+      "title": "Rental Applicants - Star Sewer & Water District",
+      "publisher": "Star Sewer & Water District",
+      "organizationType": "special-district",
+      "url": "https://www.starswd.com/173/Rental-Applicants",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "utilities",
+        "rentals"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - district page for owners placing an account in a tenant's name; cites Idaho Code 42-3212(l).",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-sswd-charges-follow-property"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-3212",
+      "title": "Idaho Code 42-3212 - General powers of board (water and sewer districts)",
+      "publisher": "Idaho Legislature",
+      "organizationType": "state-legislature",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title42/T42CH32/SECT42-3212/",
+      "jurisdiction": "Idaho",
+      "sourceTier": 1,
+      "topic": [
+        "utilities",
+        "liens",
+        "statute"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "TIER 1 - statute. Last amended 2005 (ch. 213); no [EFFECTIVE] alternate text displayed on 2026-11-18.",
+      "stalenessRisk": "LOW - statute; re-check for amendments each session.",
+      "claimsSupported": [
+        "star-sswd-charges-follow-property"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-irrigation-canals",
+      "title": "Irrigation Canals - City of Star",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://www.staridaho.org/1401/Irrigation-Canals",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "irrigation"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "TIER 2 - city resident-information page. Its content is a single image (ImageRepository documentID=684, cached as f8713c864794aa88.bin) titled 'Irrigation Canals - Contact Information'; read visually, so no verbatim quote is carried.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-irrigation-entities-city-list"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-7-3d-parks",
+      "title": "Star City Code Title 7, Chapter 3, Article D - Park Impact Fees",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT7BURE_CH3DEIMFE_ARTDPAIMFE",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=494824&nodeId=TIT7BURE_CH3DEIMFE_ARTDPAIMFE&groupChunks=true",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "impact-fees",
+        "development"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - codified ordinance (Ord. No. 431-2026, 4-7-2026), Supp. 3 codified through Ord. 437-2026. Captured from Municode's content API via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-impact-fees-adopted-2026",
+        "star-impact-fee-replacement-exemption"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-7-3e-police",
+      "title": "Star City Code Title 7, Chapter 3, Article E - Police Impact Fees",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT7BURE_CH3DEIMFE_ARTEPOIMFE",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=494824&nodeId=TIT7BURE_CH3DEIMFE_ARTEPOIMFE&groupChunks=true",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "impact-fees",
+        "development"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - codified ordinance (Ord. No. 433-2026, 4-7-2026). Captured from Municode's content API via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-impact-fees-adopted-2026"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-comparative-table",
+      "title": "Star City Code - Code Comparative Table",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/city_code?nodeId=COCOTA",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=494824&nodeId=COCOTA&groupChunks=true",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "impact-fees",
+        "ordinances"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - Municode's table of adopted ordinances and the sections each added; shows 431-2026 and 433-2026 adopted 4-7-2026 adding 7-3D and 7-3E.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-impact-fees-adopted-2026"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-building-fee-information",
+      "title": "Fee Information - City of Star Building Department",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://www.staridaho.org/1249/Fee-Information",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "impact-fees",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "TIER 2 - the building department's current fee page, listing residential impact fees collected at permit.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-impact-fees-adopted-2026",
+        "star-sswd-new-construction-permit-fee"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-10-flood",
+      "title": "Star City Code Title 10, Chapter 1 - Flood Ordinance",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT10FLCO",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=494824&nodeId=TIT10FLCO&groupChunks=true",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "flood",
+        "building"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - codified flood ordinance (Ord. No. 413-2025, 2-18-2025). A draft replacement chapter is posted on the city's Municipal Code Update 2026 page; NOT cited. Captured from Municode's content API via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-flood-substantial-improvement-and-freeboard"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-building-faq",
+      "title": "FAQ - City of Star Building Department",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://www.staridaho.org/1433/FAQ",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "permits",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "TIER 2 - building department FAQ.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-permit-records-portal-and-retention"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

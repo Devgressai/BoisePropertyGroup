@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "entity": [
+        "city:meridian"
+      ],
+      "jurisdiction": "Meridian, Idaho",
+      "id": "r2-meridian-impact-fees-by-floor-area",
+      "freshnessClass": "FAST-CHANGING",
+      "claim": "The City of Meridian's current fee schedule charges police, fire and parks impact fees on new residential units by climate-controlled floor area per dwelling unit, in five bands from 1,200 square feet or less to 3,201 or more, under 22-2004; for a unit of 1,701 to 2,500 square feet the listed fees are $4,119 parks, $995 fire and $402 police, and for multi-family buildings the band is set by the building's average unit size.",
+      "quotedLanguage": "Fire Impact Fees 1,701 to 2,500 Residential (per individual dwelling unit) by Square Feet of Climate-Controlled Floor Area) For multi-family residential structures the fee is based on the average size of units for the entire building. ... total number of indi $995 ... Parks Impact Fees 1,701 to 2,500 ... total number of indi $4,119 ... Police Impact Fees 1,701 to 2,500 ... total number of indi $402",
+      "topic": [
+        "impact-fees",
+        "fees",
+        "development"
+      ],
+      "sourceIds": [
+        "r2-meridian-city-fee-schedule"
+      ],
+      "notes": "Other bands on the same schedule: 1,200 or less = parks $1,946 / fire $470 / police $190; 3,201 or more = parks $5,544 / fire $1,339 / police $542. Nonresidential: fire $0.96 or $1.29/sf, police $0.19 or $1.23/sf, parks $0.00. ⚠️ EFFECTIVE DATE NOT CITED: the only copy of Ordinance No. 22-2004 found (city meeting-portal attachment) is UNSIGNED, with blank PASSED/APPROVED dates, though it states an effective date of February 1, 2023 and its amounts match the live schedule. Treat the live schedule as 'the fees the city lists now', not as dated figures. No Meridian exemption for replacing a house was sourced; do not carry Boise's replacement exemption across the city limit. Do NOT sum the three fees in prose."
+    },
+    {
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "entity": [
+        "city:boise-city"
+      ],
+      "jurisdiction": "Boise, Idaho",
+      "id": "r2-boise-sewer-fee-deferral-due-on-sale",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "A Boise sewer deferral is an agreement under Boise City Code 10-2-8 that lets an owner pay sewer connection fees in installments: the owner of an existing residential structure may defer them for up to fifteen years, interest runs at the Wall Street Journal prime rate on the signing date, the city records the agreement with the Ada County Recorder, and unless the department agrees otherwise in writing the outstanding amount and interest become due in full on a sale or other transfer, the unpaid difference being a lien on the property due upon sale; equivalent assessment fees on an existing structure may be deferred the same way.",
+      "quotedLanguage": "Payment of connection fees, by an owner of an existing residential structure, may be deferred. ... The term of a deferral and payment agreement under this section shall not exceed fifteen (15) years. ... will be a lien on the property and due upon sale. ... Interest shall be assessed upon the deferred fees at the Wall Street Journal's prime rate as published on the date the agreement is signed ... upon the sale, conveyance, assignment, or the grant of an option, mortgage, deed of trust, pledge, or security interest in, or other transfer in whole or in part of the property subject to deferral, the outstanding deferral amount shall be immediately due and payable in full, together with all interest due under the deferral and payment agreement ... The department shall record the executed deferral and payment agreement with the Office of the Ada County Recorder. ... Additional connection (equivalent assessment) fees imposed on an owner or operator of an existing structure pursuant to subsection 10-2-6-3 of this chapter may be deferred.",
+      "topic": [
+        "sewer",
+        "fees",
+        "liens",
+        "closing"
+      ],
+      "sourceIds": [
+        "r2-boise-code-10-2-8-deferrals",
+        "r2-boise-code-10-2-8-8"
+      ],
+      "notes": "Closes the NOTES.md gap 'what a Boise sewer deferral is'. Pairs with boise-escrow-quote-and-sewer-deferral-payoff (payoff request, Borrower's Authorization, 3 business days). The 'unless otherwise agreed to in writing by the department' carve-out must stay in any paraphrase: never write that a deferral is ALWAYS due at sale. Because the agreement is recorded, a title search should show it. How common deferrals are, and amounts, are not sourced."
+    },
+    {
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "entity": [
+        "city:boise-city"
+      ],
+      "jurisdiction": "Boise, Idaho",
+      "id": "r2-boise-harris-ranch-cid-three-taxes",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Harris Ranch Community Infrastructure District No. 1, formed in 2010 under Idaho Code Title 50 Chapter 31, is a taxing district separate from the City of Boise covering land within the Harris Ranch Specific Plan (SP-01) zoning; it is funded by a general obligation bond levy and an administrative levy, both based on property value, and a special assessment based on property size, and once a special assessment is set it may not rise more than 2% a year, to a maximum cap of 10%.",
+      "quotedLanguage": "The Harris Ranch Community Infrastructure District No. 1 (“District”) is a separate and distinct legal entity from the City of Boise created in accordance with Idaho Code Title 50 Chapter 31 ... Property within the District’s boundaries falls with the Harris Ranch Specific Plan (“SP-01”) zoning. When the District was formed in 2010 ... A general obligation bond levy tax, an administrative levy tax, and a special assessment. The first two are based on the value of the properties within the District. The third is based off the size of the properties within the District. ... Once a special assessment is set, it may not increase more than 2% per year to a maximum cap of 10%.",
+      "topic": [
+        "taxing-districts",
+        "assessments",
+        "closing"
+      ],
+      "sourceIds": [
+        "r2-boise-harris-ranch-cid",
+        "r2-boise-harris-ranch-cid-faq"
+      ],
+      "notes": "Seller relevance: a Harris Ranch house carries CID taxes on top of ordinary levies, and a buyer will see them on the tax bill. Not an LID (Title 50 ch. 17); keep the names separate. The FAQ's mill-to-percent conversions are wrong on the city's page; never quote them. Whether CID charges appear on the county tax bill was not read; do not say so. The boundary map is a PDF on the same page; boundary not mapped by us."
+    },
+    {
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "entity": [
+        "city:boise-city"
+      ],
+      "jurisdiction": "Boise, Idaho",
+      "id": "r2-boise-ccdc-active-and-sunset-districts",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Capital City Development Corporation, Boise's redevelopment agency, lists four active urban renewal districts (30th Street, Shoreline, Gateway East and State Street) and two sunset districts: River Myrtle-Old Boise, established in 1996, which sunset in September 2025, and Westside, which sunset in September 2026.",
+      "quotedLanguage": "The 30th Street district was envisioned ... As one of CCDC’s newest districts, Shoreline ... the Gateway East urban renewal district ... The State Street District ... Sunset Districts ... Old Boise (RMOB) District consisted of mostly vacant property, warehouses, and remnants of older industrial uses when it was first established in 1996 ... This district sunset in September 2025. ... The Westside District aims to reinvigorate the nearly 50 blocks immediately west of the downtown core ... This district sunset in September 2026.",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "sourceIds": [
+        "r2-ccdc-urban-renewal-districts"
+      ],
+      "notes": "Closes the Boise half of the URD gap at the level of names and sunset dates. The page gives no sunset dates for the four active districts, and the boundary maps are images; we have not mapped any parcel. For what a URD means on a tax bill, the only sourced explanation is Meridian's (meridian-urd-two-tax-line-items); do not carry it across the city limit as a Boise fact. Low seller relevance outside downtown, State Street, Shoreline, 30th Street and the airport area."
+    },
+    {
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "entity": [
+        "city:meridian"
+      ],
+      "jurisdiction": "Meridian, Idaho",
+      "id": "r2-meridian-mdc-five-districts-sunsets",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "The Meridian Development Corporation lists five urban renewal districts with their created and sunset years: Downtown (created 2002, sunsets 2026), Ten Mile (2016, 2036), Union (2020, 2040), Northern Gateway (2021, 2041) and Linder (2021, 2041).",
+      "quotedLanguage": "Downtown District 73 Acres 2002 Created 2026 Sunsets ... Ten Mile District 301 Acres 2016 Created 2036 Sunsets ... Union District 16 Acres 2020 Created 2040 Sunsets ... Northern Gateway District 126 Acres 2021 Created 2041 Sunsets ... Acres 2021 Created 2041 Sunsets The Linder Urban Renewal District",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "sourceIds": [
+        "r2-mdc-downtown-district",
+        "r2-mdc-ten-mile-district",
+        "r2-mdc-union-renewal-district",
+        "r2-mdc-northern-gateway-district",
+        "r2-mdc-linder-district"
+      ],
+      "notes": "The city's own URD sub-pages read 'TBD' (captured 2026-11-18 via CDP, not cached, not cited). The served HTML gives acreage (Downtown 73, Union 16, Ten Mile 301, Northern Gateway 126; Linder renders as '1 73', so unreadable); acreage is left out of the claim on purpose. ⚠️ Downtown's sunset year is 2026, the current year: say 'scheduled to sunset in 2026', never that it has ended. Pairs with meridian-urd-two-tax-line-items. Boundaries are maps on the founding documents; not mapped by us."
+    }
+  ]
+}

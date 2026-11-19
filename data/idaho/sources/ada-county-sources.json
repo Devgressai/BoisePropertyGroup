@@ -619,7 +619,8 @@
         "cl-ada-deeds-blocked-online",
         "cl-ada-deed-recording-fee",
         "ft-ada-recorder-online-search",
-        "sp-rec-ada-notary-and-deed-category"
+        "sp-rec-ada-notary-and-deed-category",
+        "ada-recorder-deed-ink-and-cover-sheet"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -968,7 +969,8 @@
       "freshnessClass": "IRREGULAR",
       "authorityNotes": "Official county page, read directly with raw HTML cached.",
       "claimsSupported": [
-        "ada-assessor-maintains-parcel-gis"
+        "ada-assessor-maintains-parcel-gis",
+        "ada-assessor-ownership-from-recordings"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -10657,6 +10659,718 @@
         "county:ada"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "star-sswd-stop-service",
+      "title": "Stop Service - Star Sewer & Water District",
+      "publisher": "Star Sewer & Water District",
+      "organizationType": "special-district",
+      "url": "https://www.starswd.com/175/Stop-Service",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "utilities",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - the district's own page on what happens to a water and sewer account when a served home is sold.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-sswd-transfer-through-escrow"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-sswd-faqs",
+      "title": "FAQs - Star Sewer & Water District",
+      "publisher": "Star Sewer & Water District",
+      "organizationType": "special-district",
+      "url": "https://www.starswd.com/176/FAQs",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "utilities",
+        "billing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "TIER 2 - the district's FAQ page; fee table and billing rules.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-sswd-charges-follow-property",
+        "star-sswd-domestic-water-only",
+        "star-sswd-new-construction-permit-fee"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-sswd-rental-applicants",
+      "title": "Rental Applicants - Star Sewer & Water District",
+      "publisher": "Star Sewer & Water District",
+      "organizationType": "special-district",
+      "url": "https://www.starswd.com/173/Rental-Applicants",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "utilities",
+        "rentals"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - district page for owners placing an account in a tenant's name; cites Idaho Code 42-3212(l).",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-sswd-charges-follow-property"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-42-3212",
+      "title": "Idaho Code 42-3212 - General powers of board (water and sewer districts)",
+      "publisher": "Idaho Legislature",
+      "organizationType": "state-legislature",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title42/T42CH32/SECT42-3212/",
+      "jurisdiction": "Idaho",
+      "sourceTier": 1,
+      "topic": [
+        "utilities",
+        "liens",
+        "statute"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "TIER 1 - statute. Last amended 2005 (ch. 213); no [EFFECTIVE] alternate text displayed on 2026-11-18.",
+      "stalenessRisk": "LOW - statute; re-check for amendments each session.",
+      "claimsSupported": [
+        "star-sswd-charges-follow-property"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-irrigation-canals",
+      "title": "Irrigation Canals - City of Star",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://www.staridaho.org/1401/Irrigation-Canals",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "irrigation"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "TIER 2 - city resident-information page. Its content is a single image (ImageRepository documentID=684, cached as f8713c864794aa88.bin) titled 'Irrigation Canals - Contact Information'; read visually, so no verbatim quote is carried.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-irrigation-entities-city-list"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-7-3d-parks",
+      "title": "Star City Code Title 7, Chapter 3, Article D - Park Impact Fees",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT7BURE_CH3DEIMFE_ARTDPAIMFE",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=494824&nodeId=TIT7BURE_CH3DEIMFE_ARTDPAIMFE&groupChunks=true",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "impact-fees",
+        "development"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - codified ordinance (Ord. No. 431-2026, 4-7-2026), Supp. 3 codified through Ord. 437-2026. Captured from Municode's content API via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-impact-fees-adopted-2026",
+        "star-impact-fee-replacement-exemption"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-7-3e-police",
+      "title": "Star City Code Title 7, Chapter 3, Article E - Police Impact Fees",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT7BURE_CH3DEIMFE_ARTEPOIMFE",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=494824&nodeId=TIT7BURE_CH3DEIMFE_ARTEPOIMFE&groupChunks=true",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "impact-fees",
+        "development"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - codified ordinance (Ord. No. 433-2026, 4-7-2026). Captured from Municode's content API via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-impact-fees-adopted-2026"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-comparative-table",
+      "title": "Star City Code - Code Comparative Table",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/city_code?nodeId=COCOTA",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=494824&nodeId=COCOTA&groupChunks=true",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "impact-fees",
+        "ordinances"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - Municode's table of adopted ordinances and the sections each added; shows 431-2026 and 433-2026 adopted 4-7-2026 adding 7-3D and 7-3E.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-impact-fees-adopted-2026"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-building-fee-information",
+      "title": "Fee Information - City of Star Building Department",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://www.staridaho.org/1249/Fee-Information",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "impact-fees",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "TIER 2 - the building department's current fee page, listing residential impact fees collected at permit.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-impact-fees-adopted-2026",
+        "star-sswd-new-construction-permit-fee"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-code-10-flood",
+      "title": "Star City Code Title 10, Chapter 1 - Flood Ordinance",
+      "publisher": "City of Star, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT10FLCO",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=17396&jobId=494824&nodeId=TIT10FLCO&groupChunks=true",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "flood",
+        "building"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 - codified flood ordinance (Ord. No. 413-2025, 2-18-2025). A draft replacement chapter is posted on the city's Municipal Code Update 2026 page; NOT cited. Captured from Municode's content API via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-flood-substantial-improvement-and-freeboard"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "star-building-faq",
+      "title": "FAQ - City of Star Building Department",
+      "publisher": "City of Star",
+      "organizationType": "municipal-government",
+      "url": "https://www.staridaho.org/1433/FAQ",
+      "sourceTier": 2,
+      "jurisdiction": "Star, Idaho",
+      "topic": [
+        "permits",
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "TIER 2 - building department FAQ.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "star-permit-records-portal-and-retention"
+      ],
+      "entitiesSupported": [
+        "city:star"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-recorder-faq",
+      "title": "Property Records FAQ - Ada County Recorder",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/property-records/faq/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "recording",
+        "deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official Recorder FAQ, fetched and cached 2026-11-18.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "ada-recorder-no-forms-no-deed-mailed"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-treasurer-tax-deed-process",
+      "title": "Property Auction & Tax Delinquencies - Ada County Treasurer",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-tax",
+        "delinquency",
+        "tax-deed"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Treasurer page summarising the tax deed process under Idaho Code Title 63 ch. 10, fetched and cached 2026-11-18.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "ada-treasurer-tax-deed-steps"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-ds-current-projects",
+      "title": "Current Projects - Ada County Development Services",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/developmentservices/administration/current-projects/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Development Services page; states the month the zoning ordinance was updated. Fetched and cached 2026-11-18, live text re-checked the same day.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "ada-zoning-ordinance-updated-november-2025"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-zoning-ord-1002-res",
+      "title": "Ada County Ordinance No. 1002 - Ada County Zoning Ordinance (Title 8)",
+      "publisher": "Ada County Clerk",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "zoning",
+        "ordinance"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Residential-registry copy of the commercial source ada-county-ordinance-1002 (distinct id on purpose; the registries collide on ids otherwise). Text checked against the committed extraction data/idaho/raw/extracted/adacounty-ordinance-1002-title8.txt.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "ada-zoning-ordinance-updated-november-2025"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-idcode-63-307",
+      "title": "Idaho Code 63-307 - Ownership identification",
+      "publisher": "Idaho Legislature",
+      "organizationType": "state-legislature",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-307/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-tax",
+        "ownership",
+        "statute"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Residential-registry copy of commercial source idcode-63-307. Last amended 2022 (ch. 75); no [EFFECTIVE] alternate text displayed.",
+      "stalenessRisk": "LOW - statute; re-check for amendments each session.",
+      "claimsSupported": [
+        "ada-assessor-ownership-from-recordings"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-boise-code-10-2-8-deferrals",
+      "title": "Boise City Code 10-2-7-3 and 10-2-8 — Specified Fees; Fee Deferral Procedures and Deferral Types (10-2-8-1 to 10-2-8-7)",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-12485",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "sewer",
+        "fees",
+        "liens"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text as hosted by American Legal Publishing, the publisher the City of Boise links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome over CDP and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation.",
+      "stalenessRisk": "MEDIUM — amended by Ord. 34-23 (2023) and Ord. 27-24 (2024); re-check before relying on it.",
+      "claimsSupported": [
+        "r2-boise-sewer-fee-deferral-due-on-sale"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-boise-code-10-2-8-8",
+      "title": "Boise City Code 10-2-8-8 — Deferral of Equivalent Assessment Fees",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-12500",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "sewer",
+        "fees"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text as hosted by American Legal Publishing, the publisher the City of Boise links to. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome over CDP and cached; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation.",
+      "stalenessRisk": "MEDIUM — online code can lag adoption.",
+      "claimsSupported": [
+        "r2-boise-sewer-fee-deferral-due-on-sale"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-boise-harris-ranch-cid",
+      "title": "Harris Ranch CID — City of Boise City Clerk",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/city-clerk/harris-ranch-cid/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "taxing-districts",
+        "assessments"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the City Clerk's page for Harris Ranch Community Infrastructure District No. 1. As of October 2026 the district is managed by Blackwood Advisors and newer documents are on that firm's site.",
+      "stalenessRisk": "MEDIUM — management moved off the city site in October 2026; this page may stop being updated.",
+      "claimsSupported": [
+        "r2-boise-harris-ranch-cid-three-taxes"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-boise-harris-ranch-cid-faq",
+      "title": "Harris Ranch CID FAQs — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/city-clerk/harris-ranch-cid/harris-ranch-cid-faqs/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "taxing-districts",
+        "assessments"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — City Clerk FAQ on the CID. ⚠️ Its mill-to-percent conversions are wrong on the page (3 mills shown as .003%); never quote the percentages.",
+      "stalenessRisk": "MEDIUM — see r2-boise-harris-ranch-cid.",
+      "claimsSupported": [
+        "r2-boise-harris-ranch-cid-three-taxes"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-ccdc-urban-renewal-districts",
+      "title": "Boise's Urban Renewal Districts — Capital City Development Corporation",
+      "publisher": "Capital City Development Corporation (CCDC), Boise's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://ccdcboise.com/urban-renewal-districts/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own list of active and sunset districts, with an enlargeable boundary map per district. Gives sunset months only for sunset districts; no sunset dates for active ones.",
+      "stalenessRisk": "MEDIUM — districts form and sunset; re-read before citing.",
+      "claimsSupported": [
+        "r2-boise-ccdc-active-and-sunset-districts"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-downtown-district",
+      "title": "Downtown District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/downtown-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-linder-district",
+      "title": "Linder District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/linder-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-northern-gateway-district",
+      "title": "Northern Gateway District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/northern-gateway-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-ten-mile-district",
+      "title": "Ten Mile District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/ten-mile-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-mdc-union-renewal-district",
+      "title": "Union District — Meridian Development Corporation",
+      "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+      "organizationType": "public-agency",
+      "url": "https://meridiandevelopmentcorp.com/districts/union-renewal-district/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "taxing-districts"
+      ],
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the urban renewal agency's own district page (created year, sunset year, founding documents). Acreage is shown but Linder's figure is split across markup ('1 73'), so acreage is not cited.",
+      "stalenessRisk": "MEDIUM — sunset years can change if a plan is amended.",
+      "claimsSupported": [
+        "r2-meridian-mdc-five-districts-sunsets"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
+    },
+    {
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "status": "VERIFIED",
+      "id": "r2-meridian-city-fee-schedule",
+      "title": "City Fees Schedule (full) — City of Meridian",
+      "publisher": "City of Meridian",
+      "organizationType": "municipal-government",
+      "url": "https://apps.meridiancity.org/CITYFEEWEB/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "impact-fees",
+        "fees"
+      ],
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "TIER 2 — the city's live, searchable fee schedule, linked as 'Fee Schedule (Full)' from meridiancity.org/community-development/building/fee-schedules-calculators-estimating/. Each row names its authorising ordinance or resolution; impact fee rows cite 22-2004. Captured via CDP (403 to the fetcher, grid filled client-side). The page gives no effective date.",
+      "stalenessRisk": "HIGH — fee amounts are reset by the council; re-read before citing.",
+      "claimsSupported": [
+        "r2-meridian-impact-fees-by-floor-area"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ]
     }
   ]
 }

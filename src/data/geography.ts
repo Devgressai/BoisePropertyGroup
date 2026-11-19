@@ -36,8 +36,8 @@ export const county = {
   "slug": "sell-my-house-fast-ada-county",
   "population2024Census": 535799,
   "population2024Compass": 557590,
-  "directClaims": 102,
-  "uniqueClaims": 42,
+  "directClaims": 107,
+  "uniqueClaims": 47,
   "indexable": true
 } as const;
 
@@ -56,8 +56,8 @@ export const places: Place[] = [
     "placeFips": "08830",
     "population2024Census": 237963,
     "growthPct2020to2024": 1,
-    "directClaims": 34,
-    "uniqueClaims": 29,
+    "directClaims": 37,
+    "uniqueClaims": 32,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -76,8 +76,8 @@ export const places: Place[] = [
     "placeFips": "52120",
     "population2024Census": 139740,
     "growthPct2020to2024": 18.6,
-    "directClaims": 23,
-    "uniqueClaims": 17,
+    "directClaims": 25,
+    "uniqueClaims": 19,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -137,8 +137,8 @@ export const places: Place[] = [
     "placeFips": "76870",
     "population2024Census": 18208,
     "growthPct2020to2024": 61.4,
-    "directClaims": 16,
-    "uniqueClaims": 11,
+    "directClaims": 25,
+    "uniqueClaims": 20,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": "SPANS 2 COUNTIES (Ada County, Canyon County). Never describe as wholly within Ada County. Jurisdiction-dependent facts must be qualified by which county part is meant."
