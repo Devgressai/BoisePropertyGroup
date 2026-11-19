@@ -62,3 +62,6 @@ Reused existing claims: `id-disclosure-exempt-divorce`, `id-disclosure-required-
   need adding when this is merged (I did not touch src/).
 - Every quotation inside the guide prose was also checked against the cache (22 strings, all traced);
   closing punctuation was moved outside quote marks where the source text continues differently.
+
+## 2026-11-18 situation-pages pass
+See research/funnel-2026-11/situation-pages/NOTES.md for what the matching selling page could not source.

@@ -35,3 +35,6 @@ The 2026 session subject index (legislature.idaho.gov/sessioninfo/2026/legislati
 - The history note for 15-3-801 on the live page reads "added 1971 ... am. 1991 ... am. 1998". It is copied as shown.
 - The word count (~2,460) is near the top of the 1,500–2,500 band.
 - Link `/guides/selling-an-inherited-house-in-idaho`: the page links once and does not repeat the disclosure-exemption analysis. It defers to that guide.
+
+## 2026-11-18 situation-pages pass
+See research/funnel-2026-11/situation-pages/NOTES.md for what the matching selling page could not source.

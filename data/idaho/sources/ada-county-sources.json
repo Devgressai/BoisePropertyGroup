@@ -618,7 +618,8 @@
         "ada-recorder-pii-redaction-is-submitter-duty",
         "cl-ada-deeds-blocked-online",
         "cl-ada-deed-recording-fee",
-        "ft-ada-recorder-online-search"
+        "ft-ada-recorder-online-search",
+        "sp-rec-ada-notary-and-deed-category"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -1046,7 +1047,9 @@
       "claimsSupported": [
         "id-deposit-liability-transfers-on-sale",
         "id-deposit-refund-timing",
-        "id-deposit-no-normal-wear-and-tear"
+        "id-deposit-no-normal-wear-and-tear",
+        "sp-rt-deposit-itemized-statement",
+        "sp-rt-deposit-third-party-manager-account"
       ],
       "entitiesSupported": [
         "state:id"
@@ -1124,7 +1127,8 @@
       "authorityNotes": "Official statute text, read directly with raw HTML cached. Last amended 2002 ch. 61. No future-dated amendment. Reversal of the declaration is governed by 63-305, which has NOT been read.",
       "claimsSupported": [
         "id-manufactured-home-becomes-real-property",
-        "id-manufactured-home-treated-as-site-built"
+        "id-manufactured-home-treated-as-site-built",
+        "sp-mh-declaration-attaches-title"
       ],
       "entitiesSupported": [
         "state:id"
@@ -1306,7 +1310,9 @@
       "stalenessRisk": "LOW — statutory text changes only by amendment.",
       "claimsSupported": [
         "id-manufactured-home-removal-requires-consent",
-        "id-manufactured-home-removal-notice-and-taxes"
+        "id-manufactured-home-removal-notice-and-taxes",
+        "sp-mh-removal-title-report-and-tax-approval",
+        "sp-mh-reversal-certificate-of-title"
       ],
       "status": "VERIFIED"
     },
@@ -10542,6 +10548,113 @@
       ],
       "entitiesSupported": [
         "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-208",
+      "title": "Idaho Code § 55-208 — Termination of tenancy at will",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch2/sect55-208/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "notice"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2002",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached 2026-11-18. Last amended 2002 ch. 295. The site states statutes are updated to the website July 1 after each session; no 2026 bill amending this section was found on the page.",
+      "stalenessRisk": "LOW — statute, last amended 2002.",
+      "claimsSupported": [
+        "sp-rt-tenancy-at-will-one-month"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-treasurer-tax-deed-process-res",
+      "title": "Property Auction & Tax Delinquencies — Ada County Treasurer",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-tax",
+        "tax-deed"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the Ada County Treasurer's own summary of the county tax deed process (overview, key steps, auction and excess proceeds). County guidance; the statute is Idaho Code Title 63 chapter 10.",
+      "stalenessRisk": "MEDIUM — the auction section changes each cycle (auction date was 'TBD' on 2026-11-18); the process summary is slower-moving.",
+      "claimsSupported": [
+        "sp-tx-ada-january-review-partial-payments",
+        "sp-tx-ada-hearing-and-evidence",
+        "sp-tx-ada-auction-and-excess-proceeds"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-recorder-faq-res",
+      "title": "Property Records FAQ — Ada County Clerk / Recorder",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/property-records/faq/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "recording",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the Ada County Recorder's Office FAQ.",
+      "stalenessRisk": "MEDIUM — county page, can be rewritten without notice; copy fees on it are FAST-CHANGING and not cited.",
+      "claimsSupported": [
+        "sp-rec-ada-no-title-sent-after-payoff",
+        "sp-rec-ada-erecording-title-companies"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-court-assistance-family-law-res",
+      "title": "Family Law — Ada County Clerk Court Assistance",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/court-assistance/family-law-2/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "divorce",
+        "court-forms"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — Ada County Court Assistance Office family law forms page.",
+      "stalenessRisk": "MEDIUM — county page; phone and appointment arrangements change.",
+      "claimsSupported": [
+        "sp-dv-ada-court-assistance-divorce-forms"
+      ],
+      "entitiesSupported": [
+        "county:ada"
       ],
       "status": "VERIFIED"
     }

@@ -11,13 +11,14 @@
  * written by hand in src/data/place-content.ts, in the same commit.
  *
  * Then run: sync-sources → build-claims → build-geography → check-evidence → verify-quotes.
- * Usage: node scripts/research/merge-place-research.mjs <folder>
+ * Usage: node scripts/research/merge-place-research.mjs <folder | path/to/folder>
  */
 import { readFileSync, writeFileSync } from "node:fs";
 
 const folder = process.argv[2];
 if (!folder) throw new Error("usage: merge-place-research.mjs <folder>");
-const dir = `research/places-2026-11/${folder}`;
+// A bare name is a place folder; a path (with a slash) is any research folder of the same shape.
+const dir = folder.includes("/") ? folder : `research/places-2026-11/${folder}`;
 const load = (p) => JSON.parse(readFileSync(p, "utf8"));
 const SOURCES = "data/idaho/sources/ada-county-sources.json";
 const CLAIMS = "data/idaho/evidence/ada-claims.json";

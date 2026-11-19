@@ -17050,6 +17050,346 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Garden City, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "sp-mh-declaration-attaches-title",
+    "claim": "Idaho Code 63-304(3) says the form of the declaration that makes a manufactured home real property is prescribed by the State Tax Commission, and that any form used must have the home's certificate of origin or original title attached to it, so that the declaration can be reversed under 63-305.",
+    "quote": "The form of the declaration shall be prescribed by the state tax commission. Any form used shall have attached to it the certificate of origin or the original title to the manufactured home to allow a reversal of the declaration as provided in section 63-305",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-304 — Manufactured homes to constitute real property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch3/sect63-304/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-304 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 1, p. 130.]"
+  },
+  {
+    "id": "sp-mh-removal-title-report-and-tax-approval",
+    "claim": "Under Idaho Code 63-305, before a converted manufactured home may be removed the homeowner must obtain a title report from a title insurance company identifying everyone whose consent is required, and removal is prohibited until the county tax collector gives written approval certifying that all property taxes due and payable have been paid.",
+    "quote": "The homeowner shall obtain a title report from a title insurance company which shall establish the identity of those individuals or entities whose consent must be obtained. ... removal shall be prohibited until the county tax collector has given written approval for the removal of the manufactured home by certifying that all property taxes, due and payable, have been paid.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "property-taxes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-305 — Reversal of declaration which treats a manufactured home as real property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-305/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-305 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 2, p. 131.]"
+  },
+  {
+    "id": "sp-mh-reversal-certificate-of-title",
+    "claim": "Under Idaho Code 63-305(4), a homeowner who removes a converted manufactured home must apply for a certificate of title within five days of removal; the declaration of reversal must be recorded before the certificate issues, and on issuance the home becomes personal property again for financing and is assessed as personal property for taxation.",
+    "quote": "The homeowner shall, within five (5) days of removal, make application for the issuance of a certificate of title for the manufactured home. Prior to the issuance of a certificate of title, the declaration of reversal shall be recorded. Immediately upon issuance of a certificate of title, the manufactured home shall again become personal property for the purpose of financing",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-305 — Reversal of declaration which treats a manufactured home as real property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-305/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-305 added 1996, ch. 98, sec. 4, p. 328; am. 2002, ch. 61, sec. 2, p. 131.]"
+  },
+  {
+    "id": "sp-rt-deposit-itemized-statement",
+    "claim": "Under Idaho Code 6-321(2), any security deposit refund of less than the full amount must be accompanied by a signed statement itemizing the amounts lawfully retained, their purpose, and a detailed list of expenditures made from the deposit.",
+    "quote": "Any refunds in an amount less than the full amount deposited by the tenant shall be accompanied by a signed statement itemizing the amounts lawfully retained by the landlord, the purpose for the amounts retained, and a detailed list of expenditures made from the deposit.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "security-deposit"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-321 — Security deposits",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-321/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]"
+  },
+  {
+    "id": "sp-rt-deposit-third-party-manager-account",
+    "claim": "Idaho Code 6-321(4) requires a security deposit for residential rental premises managed by a landlord's third-party manager to be kept in a separate account at a federally insured financial institution, apart from the manager's operating account; the requirement does not apply to a property owner, managers sharing members or principals with the owner entity, a real estate licensee, or a nonprofit organized under chapter 30, title 30.",
+    "quote": "A security deposit for a residential rental premises that is managed by a third-party manager of a landlord shall be maintained in a separate account at a federally insured financial institution. Such account shall be maintained separate from the third-party agent's operating account.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "security-deposit"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-321 — Security deposits",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-321/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[6-321, added 1977, ch. 45, sec. 5, p. 83; am. 2021, ch. 197, sec. 1, p. 545.]"
+  },
+  {
+    "id": "sp-rt-tenancy-at-will-one-month",
+    "claim": "Idaho Code 55-208 provides that a tenancy at will may be ended by the landlord giving the tenant written notice, in the manner prescribed by the code of civil procedure, to leave within a period of not less than one month specified in the notice, or by the tenant giving written notice of a vacating date not less than one month away.",
+    "quote": "A tenancy or other estate at will, however created, may be terminated: (1) By the landlord's giving notice in writing to the tenant, in the manner prescribed by the code of civil procedure, to remove from the premises within a period of not less than one (1) month, to be specified in the notice",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "notice"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-208 — Termination of tenancy at will",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch2/sect55-208/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-208) R.S., sec. 2857; reen. R.C. & C.L., sec. 3078; C.S., sec. 5346; I.C.A., sec. 54-208; am. 2002, ch. 295, sec. 1, p. 848.]"
+  },
+  {
+    "id": "sp-tx-ada-january-review-partial-payments",
+    "claim": "The Ada County Treasurer says that each January 1, real property with a three-year tax delinquency may be considered for tax deed, and that partial payments are accepted before the hearing but do not stop the tax deed process.",
+    "quote": "3-year delinquency: Each January 1, real property with a 3- year tax delinquency may be considered for tax deed. ... Partial payments: Accepted before the hearing but do not stop the tax deed process.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "property-tax",
+      "tax-deed"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Auction & Tax Delinquencies — Ada County Treasurer",
+        "url": "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sp-tx-ada-hearing-and-evidence",
+    "claim": "The Ada County Treasurer describes a tax deed hearing that is open to the public and entered into the county minutes, at which the record owners and parties in interest may provide evidence and testify, after a notice of pending issue of tax deed sent by certified mail two to five months before the hearing.",
+    "quote": "Notice of Pending Issue of Tax Deed: Sent by certified mail 2-5 months before the hearing. ... Hearing: Open to the public and entered into the county minutes. Evidence: The record owner(s) and parties in interest may provide evidence and testify.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "property-tax",
+      "tax-deed"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Auction & Tax Delinquencies — Ada County Treasurer",
+        "url": "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sp-tx-ada-auction-and-excess-proceeds",
+    "claim": "The Ada County Treasurer says a public auction is held within 14 months of a tax deed issuing, the minimum bid covers all delinquent taxes, late charges, interest and costs, valid claims to excess proceeds are paid to parties in interest in priority of lien, and remaining funds are returned to the record owners at the time the tax deed was issued.",
+    "quote": "Public Auction: Held within 14 months from the issuance of the tax deed. Minimum bid: Includes the total of all delinquency taxes, late charges, interest and costs. ... Return of Excess Proceeds to Prior Owner: All funds after payment to parties in interest are returned to the record owner(s) of the property at the time the tax deed was issued.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "property-tax",
+      "tax-deed"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Auction & Tax Delinquencies — Ada County Treasurer",
+        "url": "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sp-rec-ada-no-title-sent-after-payoff",
+    "claim": "The Ada County Recorder's Office says it does not send any titles or deeds once a loan is paid off, though it can provide a copy of a recorded title or deed.",
+    "quote": "The Recorder's Office does not send any titles or deeds once a loan is paid off, however, if a copy is needed of a title or deed once the document has been recorded, we can provide that.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "closing",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Records FAQ — Ada County Clerk / Recorder",
+        "url": "https://adacounty.id.gov/clerk/property-records/faq/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sp-rec-ada-erecording-title-companies",
+    "claim": "The Ada County Recorder's Office says it has no blank forms and points people to title companies for the appropriate forms to record, and that it accepts original documents in person, by mail, or by eRecording, which is available through title companies.",
+    "quote": "We do not have any forms available in the Recorder's Office. Some office supply stores carry packages of blank forms, and you can contact title companies to get the appropriate forms to record. ... eRecording- eRecording is available through title companies or by contacting the provider directly.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Records FAQ — Ada County Clerk / Recorder",
+        "url": "https://adacounty.id.gov/clerk/property-records/faq/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sp-rec-ada-notary-and-deed-category",
+    "claim": "The Ada County Recorder's Office says it does not carry blank documents for recording but can provide notary services on documents that will be recorded with it, and its fee schedule places probate deeds, decrees of distribution and a divorce decree with property in the same deed category as warranty and quitclaim deeds.",
+    "quote": "The Recorder's Office does not carry blank documents for recording purposes; however, we can provide notary services on documents that will be recorded with our office. ... Any deed document transferring or affecting ownership of a property will fall into this category ... trustee sale deeds, probate deeds, decree of distribution ... Divorce Decree with property, Quiet Title",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "probate",
+      "divorce"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Records — Ada County Clerk/Recorder",
+        "url": "https://adacounty.id.gov/clerk/property-records/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "sp-dv-ada-court-assistance-divorce-forms",
+    "claim": "The Ada County Court Assistance Office's family law page provides the paperwork for filing a divorce, with separate sets for divorces with and without children, plus response paperwork and an online questionnaire (Guide and File).",
+    "quote": "On this portion of the website, you will find the paperwork you need for many aspects of family law including how to file for a divorce, child custody, and proof paperwork has been served.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "divorce",
+      "court-forms"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Family Law — Ada County Clerk Court Assistance",
+        "url": "https://adacounty.id.gov/clerk/court-assistance/family-law-2/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
   }
 ];
 

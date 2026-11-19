@@ -66,3 +66,6 @@ id-homestead-creditor-175k, ada-recorder-maintains-ownership-documents.
 all 40 files in data/idaho/raw/extracted/, not only the two new IRS ones
 (c1f403f36733c54a.txt = Pub 783, 920a0746faa79610.txt = Pub 784). Same pdftotext, so the output
 should be identical. Worth a diff if CI checks for drift.
+
+## 2026-11-18 situation-pages pass
+See research/funnel-2026-11/situation-pages/NOTES.md for what the matching selling page could not source.

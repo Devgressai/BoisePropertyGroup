@@ -88,3 +88,6 @@ If merged, those reused sources' `claimsSupported` arrays need the new pt- ids a
 - About 8 of those fetches (63-712 to 63-715, 63-717, 63-719 to 63-721) were read for context but are not cited.
 - The extract script re-ran across all 42 cached PDFs and rewrote their extracted text files. A reviewer may want to
   confirm nothing else in `data/idaho/raw/extracted/` changed. This directory is not a git checkout, so I could not diff it.
+
+## 2026-11-18 situation-pages pass
+See research/funnel-2026-11/situation-pages/NOTES.md for what the matching selling page could not source.
