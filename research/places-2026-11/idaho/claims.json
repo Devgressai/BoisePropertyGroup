@@ -1,0 +1,77 @@
+{
+  "claims": [
+    {
+      "entity": [
+        "state:id"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "id-irrigation-assessment-lien-survives-sale",
+      "freshnessClass": "STATUTORY",
+      "claim": "Under Idaho Code 43-706, irrigation district assessments are liens against the property assessed from the first Monday in March of each year, are a first lien superior to any mortgage or deed of trust, and stay until paid; on a sale of the property the purchaser takes it subject to any annual district assessment still unpaid at the time of the sale.",
+      "quotedLanguage": "All assessments shall be liens against the property assessed from and after the first Monday in March of any year. ... Assessment liens shall be a first lien on the property assessed and shall be superior to the lien of any mortgage or deed of trust, whether prior in time or not. ... Upon any sale of the property, the purchaser at such sale shall take the property subject to any annual assessment of the district that remains unpaid at the time of the sale.",
+      "topic": [
+        "irrigation",
+        "liens",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-43-706-pl"
+      ],
+      "notes": "The sentence about a purchaser sits in subsection (4), after the tax-sale language; we paraphrase it as 'a buyer takes the property subject to unpaid annual assessments' and do NOT say who pays at closing. That is contract and escrow practice, not statute.",
+      "amendmentHistory": "[(43-706), added 1903, p. 150, sec. 27; reen. R.C., sec. 2411; am. 1911, ch. 71, sec. 6, p. 194; am. 1911, ch. 154, sec. 11, p. 461; am. 1915, ch. 143, sec. 9, p. 304; reen. C.L., sec. 2411; C.S., sec. 4388; I.C.A., sec. 42-706; am. 2025, ch. 148, sec. 1, p. 731.]"
+    },
+    {
+      "entity": [
+        "state:id"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "id-irrigation-flat-rate-on-county-roll",
+      "freshnessClass": "STATUTORY",
+      "claim": "Idaho Code 43-701B lets an irrigation district board assess residential tracts of one acre or less at a flat rate, and 43-701D lets those assessments be certified to the county, entered on the county assessment roll and collected by county officers in the same manner as other municipal taxes; the board may instead collect them itself.",
+      "quotedLanguage": "the board may assess all such tracts at a flat rate ... shall be collected and accounted for by the county officers in the same manner as other municipal taxes",
+      "topic": [
+        "irrigation",
+        "property-tax"
+      ],
+      "sourceIds": [
+        "idcode-43-701b-pl",
+        "idcode-43-701d-pl"
+      ],
+      "notes": "Permissive ('may'). Whether a given district bills through the county roll or directly is district-specific and was not established for any district here."
+    },
+    {
+      "entity": [
+        "state:id"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "id-lid-assessment-lien-superior",
+      "freshnessClass": "STATUTORY",
+      "claim": "Under Idaho Code 50-1721, assessments levied to pay for a local improvement are a lien on the assessed property from the date the levying ordinance passes, superior to any mortgage or other encumbrance, and remain a lien until paid; the lien is not extinguished by a sale of the property for nonpayment of general taxes.",
+      "quotedLanguage": "shall constitute a lien upon and against the property upon which such assessment or assessments are made and levied from and after the date upon which the ordinance levying such assessment or assessments is passed, which lien shall be superior to the lien of any mortgage or other encumbrance, whether prior in time or not",
+      "topic": [
+        "liens",
+        "local-improvement-districts"
+      ],
+      "sourceIds": [
+        "idcode-50-1721-pl"
+      ],
+      "notes": "No current LID in Boise, Meridian or Kuna was identified; the page must not imply one exists on any particular parcel.",
+      "amendmentHistory": "[50-1721, added 1976, ch. 160, sec. 2, p. 583.; am. 2020, ch. 273, sec. 3, p. 807.]"
+    }
+  ]
+}

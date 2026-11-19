@@ -1,0 +1,108 @@
+{
+  "sources": [
+    {
+      "id": "idcode-43-706-pl",
+      "title": "Idaho Code § 43-706 — Lien of assessment (irrigation districts)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-706/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text. Amendment history checked: last amended 2025, ch. 148. No future-dated amendment displayed.",
+      "stalenessRisk": "LOW — statute; re-check history line.",
+      "claimsSupported": [
+        "id-irrigation-assessment-lien-survives-sale"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-43-701b-pl",
+      "title": "Idaho Code § 43-701B — Flat rate assessments for tracts of one acre or less",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-701B/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "property-tax"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1988",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text. Amendment history checked: last amended 1988, ch. 137. No future-dated amendment displayed.",
+      "stalenessRisk": "LOW — statute.",
+      "claimsSupported": [
+        "id-irrigation-flat-rate-on-county-roll"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-43-701d-pl",
+      "title": "Idaho Code § 43-701D — Flat rate assessments — Collection by county officers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-701D/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "property-tax"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1988",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text. Amendment history checked: last amended 1988, ch. 137. No future-dated amendment displayed.",
+      "stalenessRisk": "LOW — statute.",
+      "claimsSupported": [
+        "id-irrigation-flat-rate-on-county-roll"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-50-1721-pl",
+      "title": "Idaho Code § 50-1721 — Lien of assessment — Foreclosure (local improvement districts)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch17/sect50-1721/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "liens",
+        "local-improvement-districts"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text. Amendment history checked: last amended 2020, ch. 273. No future-dated amendment displayed.",
+      "stalenessRisk": "LOW — statute.",
+      "claimsSupported": [
+        "id-lid-assessment-lien-superior"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

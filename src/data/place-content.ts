@@ -82,26 +82,76 @@ export const placeContent: Record<string, PlaceContent> = {
 
   "sell-my-house-fast-kuna-id": {
     intro: [
-      "Kuna has about 29,127 residents, grew 21.0% between the 2020 census base and the 2024 estimate, and had the youngest median age of any Ada County city in 2022, at 30.2. COMPASS projects it will more than double by 2050 — the fastest projected growth in the county.",
-      "We buy houses, land and commercial property across Kuna, in any condition.",
+      "Kuna has about 29,127 residents, grew 21.0% between the 2020 census base and the 2024 estimate, and had the youngest median age of any Ada County city in 2022, at 30.2. COMPASS projects it will more than double by 2050, the fastest projected growth in the county.",
+      "Kuna runs its own water, sewer and pressurized irrigation, bills trash collection through City Hall, and its city code spells out what happens to those accounts when a house is sold. We buy houses, land and commercial property across Kuna, in any condition.",
     ],
     sections: [
       {
-        heading: "The city runs the water",
+        heading: "One city bill, and what happens to it at closing",
         body: [
-          "Kuna's drinking water comes from wells owned and operated by the City of Kuna. Federal records list the city system as owned by local government and supplied by groundwater, serving 32,038 people through 11,363 connections — more than the city's own population estimate, so the system's reach and the city limits are not the same thing.",
-          "That is a real difference from [Boise](/sell-my-house-fast-boise-id), where drinking water comes from private utilities regulated by the Idaho Public Utilities Commission. In Kuna a water question about a city-served property goes to the city's public works department. We have not mapped every small system in the area, so we do not assume the city serves every parcel near Kuna.",
+          "Kuna's Utility Billing office bills water, sewer and trash collection, and it is also the first stop for irrigation billing and for connecting or disconnecting service. Refuse is collected by J&M Sanitation, but service is ordered through Kuna City Hall. The meters belong to the city and only city employees may turn them on or off.",
+          "The sale itself is written into Kuna City Code. Section 7-7-5 has the new owner's utility application handed over at the title company where the purchase closes, to be completed before or at closing, and the title company sends the city a copy of the deed with it. Section 7-7-20 sets a refundable $100.00 deposit on each account that is non-transferable: the seller's deposit is applied to the seller's final balance and the rest refunded, and the buyer posts a new one.",
+          "Because we close through a local title company, that paperwork happens in the ordinary course. What is worth checking before then is the balance on the account.",
         ],
-        claims: ["kuna-city-owned-wells", "boise-drinking-water-private-utilities"],
+        claims: ["kuna-city-bills-water-sewer-trash-irrigation", "kuna-utility-application-at-title-company", "kuna-utility-deposit-100-nontransferable"],
+      },
+      {
+        heading: "Unpaid city utilities become a lien on the house",
+        body: [
+          "In Kuna the account follows the property, not the person who ran the taps. Under Kuna City Code 7-7-6b the owner of the real property stays financially responsible for city utility charges even when a tenant or property manager receives the bills. The service contract the owner signs consents to a lien for delinquent charges, recorded with the Ada County Recorder, and under 7-7-18 the city attorney may record it once an account is more than 90 days delinquent.",
+          "For a landlord selling a rental, or a family selling a house that sat empty while bills went unopened, that means an old balance may already be a recorded lien. It does not stop a sale. It does need paying off from the proceeds, so it is better found now than at the closing table.",
+        ],
+        claims: ["kuna-utility-charges-lien-on-property"],
+      },
+      {
+        heading: "Pressurized irrigation is a city system here",
+        body: [
+          "This is the clearest difference from [Meridian](/sell-my-house-fast-meridian-id), where pressurized irrigation is not a city service. Kuna runs its own, which its code names the Kuna Municipal Irrigation District. City Water Department staff operate the gravity and pressurized systems, and the season starts when the Boise-Kuna and New York irrigation districts allow delivery, generally mid-to-late April.",
+          "The annual irrigation assessment can be spread across nine equal monthly payments on the city bill, October through June. Under Kuna City Code 7-7-7, a new account opened after October pays the months already past, so a buyer closing in the spring picks up the season to date. Where an HOA common lot has its own irrigation assessment and the HOA has not paid it by May 31, each account owner has agreed to pay a share.",
+          "Water rights are pooled. Section 7-8-4 treats every landowner in the city system's service area as having consented to pooling their water rights for delivery, unless they make a written demand for delivery under their own appurtenant right by March 1. The code also bars city irrigation water from going to land outside city limits.",
+        ],
+        claims: ["kuna-city-runs-pressurized-irrigation", "kuna-irrigation-assessment-nine-payments", "kuna-irrigation-water-rights-pooled"],
+      },
+      {
+        heading: "Outside the city system, the district's lien comes first",
+        body: [
+          "Not every parcel near Kuna is on the city system. The code keeps city irrigation inside city limits, and a lateral crossing a parcel may belong to an irrigation district instead. The Boise Project Board of Control is the operating agent for five irrigation districts, including Boise-Kuna, managing facilities transferred from the U.S. Bureau of Reclamation and delivering water to their landowners.",
+          "District assessments are treated firmly by Idaho law. Under Idaho Code 43-706 they become a lien on the land from the first Monday in March each year, the lien ranks ahead of any mortgage or deed of trust, and on a sale the purchaser takes the property subject to any annual assessment still unpaid. An irrigation bill on a Kuna property is worth reading before you sell, whichever body sends it.",
+        ],
+        claims: ["boise-project-five-districts", "id-irrigation-assessment-lien-survives-sale"],
+      },
+      {
+        heading: "Drinking water: the city, or one of four small private systems",
+        body: [
+          "Kuna's drinking water comes from wells owned and operated by the City of Kuna. Federal records list the city system as owned by local government and supplied by groundwater, serving 32,038 people through 11,363 connections, which is more than the city's own population estimate, so the system's reach and the city limits are not the same thing.",
+          "The same federal records list four other active community water systems with a Kuna mailing address, all privately owned and on groundwater. The largest is Desert View Estates Water Corp, at 650 people and 213 connections; North Hills Mobile Village, Hi View Water and Forrey Heights each serve between 49 and 63 people. A mailing address is not a service area, so a property near Kuna can be on one of these rather than the city.",
+          "That is a different arrangement from [Boise](/sell-my-house-fast-boise-id), where drinking water comes from private utilities regulated by the Idaho Public Utilities Commission. In Kuna, the bill tells you which system you are on.",
+        ],
+        claims: ["kuna-city-owned-wells", "kuna-small-private-water-systems", "boise-drinking-water-private-utilities"],
+      },
+      {
+        heading: "Sewer goes to two city plants",
+        body: [
+          "Kuna's sewer is a city system too, and its flow is split between two facilities. The South Re-Use Facility treats about 500,000 gallons a day in nine lagoons and recycles the water to irrigate a 400-acre city-owned farm. The North Wastewater Treatment Plant, a membrane bioreactor plant, treats over one million gallons a day and discharges to Indian Creek under Idaho DEQ monitoring.",
+        ],
+        claims: ["kuna-two-wastewater-facilities"],
       },
       {
         heading: "A fence needs a permit",
         body: [
-          "Kuna's list of residential work that needs a building permit includes the obvious — a new house, a mobile home, an accessory dwelling unit, additions — and several things owners routinely do without one: decks over 30 inches above grade, retaining walls over 4 feet including the footing, heating and air-conditioning work, fireplaces and wood stoves, relocating or demolishing a structure, and the installation of fences.",
-          "Kuna lists fences without a height threshold. That is not the rule everywhere — [Star](/sell-my-house-fast-star-id), for example, requires a permit only for fences over six feet — so what a neighbour in another city was allowed to do is no guide. Detached storage buildings under 200 square feet are exempt in Kuna.",
+          "Kuna's list of residential work that needs a building permit includes the obvious, such as a new house, a mobile home, an accessory dwelling unit and additions, and several things owners routinely do without one: decks over 30 inches above grade, retaining walls over 4 feet including the footing, heating and air-conditioning work, fireplaces and wood stoves, relocating or demolishing a structure, and the installation of fences.",
+          "Kuna lists fences without a height threshold. That is not the rule everywhere. [Star](/sell-my-house-fast-star-id), for example, requires a permit only for fences over six feet, so what a neighbour in another city was allowed to do is no guide. Detached storage buildings under 200 square feet are exempt in Kuna.",
           "At a sale, unpermitted work tends to come up when a buyer's inspector or lender asks for the record. It is rarely fatal, but it is better known before listing than discovered in escrow.",
         ],
         claims: ["kuna-permit-triggers-include-fences", "star-building-permit-triggers"],
+      },
+      {
+        heading: "How to look a Kuna parcel up",
+        body: [
+          "Kuna's FAQ points to three routes. The city will show a resident the services and utilities in and around their own parcel, though it does not publish maps of large sections of the network. A parcel's zone can be read from the city's official Zoning Map or its interactive map. And copies of city records are requested on a Request for Public Records form returned to Kuna City Hall, where fees may apply.",
+          "Boundaries are a separate question. Kuna's own advice is that the best way to find property lines is a professional survey. Before hiring one, look for corner pins or stakes, and the Ada County Assessor's Office may hold a copy showing the size of the property and the lots around it. Do not assume that fence lines or street curbs follow property lines; on acreage in particular, they often do not.",
+        ],
+        claims: ["kuna-parcel-utility-and-records-lookups", "kuna-property-lines-survey-guidance"],
       },
       {
         heading: "What the zone allows, and who gets told",
@@ -112,24 +162,18 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["kuna-land-use-table-convention", "kuna-hearing-notice-300ft-15days", "ada-cities-administer-own-land-use"],
       },
       {
-        heading: "Where the lines actually are",
+        heading: "The east side is planned for industry",
         body: [
-          "Kuna's own advice on property lines applies well beyond Kuna: the best way to find them is a professional survey. Before hiring one, look for corner pins or stakes, and the Ada County Assessor's Office may hold a copy showing the size of the property and the lots around it. Do not assume that fence lines or street curbs follow property lines — on acreage in particular, they often do not.",
+          "Two overlays shape what Kuna expects on particular ground. The East Kuna Industrial Overlay District is intended for large-scale industrial development with more intensive uses than near the city core, and the city keeps separate water and sewer fee schedules for the Kuna East Industrial system. The Downtown Overlay District is meant for a mix of retail, office and residential use.",
+          "Kuna also has two urban renewal districts: Kuna West, approved by the City Council on November 17, 2020 under Ordinance 2020-32, and Kuna East, approved on November 1, 2022 under Ordinance No. 2022-34. The city's position is that forming a district does not raise taxes; values inside it are split into a base and an increment, and the tax on the increment funds public infrastructure within the district. We have not mapped either boundary, so we do not say whether a particular parcel is inside one.",
         ],
-        claims: ["kuna-property-lines-survey-guidance"],
-      },
-      {
-        heading: "Irrigation runs through its own organisations",
-        body: [
-          "Irrigation around Kuna has its own structure. The Boise Project Board of Control is the operating agent for five irrigation districts, including the Boise-Kuna district, managing facilities transferred from the U.S. Bureau of Reclamation and delivering water to their landowners. A lateral crossing a Kuna parcel is a matter for the irrigation entity that runs it.",
-        ],
-        claims: ["boise-project-five-districts"],
+        claims: ["kuna-east-industrial-overlay-and-utility-schedules", "kuna-two-urban-renewal-districts"],
       },
       {
         heading: "What that means for an offer",
         body: [
-          "A Kuna property with unpermitted work, an unclear boundary or an irrigation lateral across it is not one we decline. Those are the facts that shape a price, and we would rather show you the arithmetic than guess.",
-          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
+          "A Kuna property with an unpaid city utility balance, a recorded utility lien, an irrigation assessment in arrears or unpermitted work is not one we decline. Those are costs, and we would rather show you how they shape the number than guess.",
+          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line, and you choose the closing date.",
         ],
         claims: [],
       },
