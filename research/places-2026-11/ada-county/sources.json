@@ -1,0 +1,135 @@
+{
+  "sources": [
+    {
+      "id": "ada-recorder-faq",
+      "title": "Property Records FAQ - Ada County Recorder",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/property-records/faq/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "recording",
+        "deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Official Recorder FAQ, fetched and cached 2026-11-18.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "ada-recorder-no-forms-no-deed-mailed"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-treasurer-tax-deed-process",
+      "title": "Property Auction & Tax Delinquencies - Ada County Treasurer",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-tax",
+        "delinquency",
+        "tax-deed"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Treasurer page summarising the tax deed process under Idaho Code Title 63 ch. 10, fetched and cached 2026-11-18.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "ada-treasurer-tax-deed-steps"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-ds-current-projects",
+      "title": "Current Projects - Ada County Development Services",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/developmentservices/administration/current-projects/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "IRREGULAR",
+      "authorityNotes": "Development Services page; states the month the zoning ordinance was updated. Fetched and cached 2026-11-18, live text re-checked the same day.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "ada-zoning-ordinance-updated-november-2025"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-zoning-ord-1002-res",
+      "title": "Ada County Ordinance No. 1002 - Ada County Zoning Ordinance (Title 8)",
+      "publisher": "Ada County Clerk",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "zoning",
+        "ordinance"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Residential-registry copy of the commercial source ada-county-ordinance-1002 (distinct id on purpose; the registries collide on ids otherwise). Text checked against the committed extraction data/idaho/raw/extracted/adacounty-ordinance-1002-title8.txt.",
+      "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
+      "claimsSupported": [
+        "ada-zoning-ordinance-updated-november-2025"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-idcode-63-307",
+      "title": "Idaho Code 63-307 - Ownership identification",
+      "publisher": "Idaho Legislature",
+      "organizationType": "state-legislature",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-307/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-tax",
+        "ownership",
+        "statute"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Residential-registry copy of commercial source idcode-63-307. Last amended 2022 (ch. 75); no [EFFECTIVE] alternate text displayed.",
+      "stalenessRisk": "LOW - statute; re-check for amendments each session.",
+      "claimsSupported": [
+        "ada-assessor-ownership-from-recordings"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

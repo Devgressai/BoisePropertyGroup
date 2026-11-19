@@ -1,0 +1,10 @@
+{
+  "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-12500",
+  "fetchedAt": "2026-11-19T07:16:39.295Z",
+  "status": 200,
+  "finalUrl": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-12500",
+  "contentType": "text/html",
+  "bytes": 256694,
+  "fetchedVia": "chrome-cdp",
+  "note": "fetch-source.mjs returns HTTP 403 for codelibrary.amlegal.com (bot challenge). Captured as rendered DOM via local headless Chrome over CDP with a per-tab user-agent override. Content is the live page, not a fetcher response."
+}

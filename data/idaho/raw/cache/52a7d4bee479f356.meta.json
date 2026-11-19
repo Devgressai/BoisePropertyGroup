@@ -1,0 +1,10 @@
+{
+  "url": "https://apps.meridiancity.org/CITYFEEWEB/",
+  "fetchedAt": "2026-11-19T07:12:40.585Z",
+  "status": 200,
+  "finalUrl": "https://apps.meridiancity.org/CITYFEEWEB/",
+  "contentType": "text/html",
+  "bytes": 710414,
+  "fetchedVia": "chrome-cdp",
+  "note": "apps.meridiancity.org returns HTTP 403 to fetch-source.mjs and fills its fee grid client-side. Captured as rendered DOM via local headless Chrome over CDP with a per-tab user-agent override."
+}

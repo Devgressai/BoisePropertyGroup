@@ -273,8 +273,17 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Two lines on the tax bill inside an urban renewal district",
         body: [
           "Some Meridian property sits inside an urban renewal district, and its tax bill looks different. The city explains that such a property shows two line items, one for the base and one for the increment, but that the total charged is the same as for a property in the same taxing districts outside one. Districts close within 20 years of being created.",
+          "The Meridian Development Corporation lists five districts with the years each was created and is due to end: Downtown (2002, scheduled to sunset in 2026), Ten Mile (2016 to 2036), Union (2020 to 2040), and Northern Gateway and Linder (both 2021 to 2041). Their boundaries are drawn on maps in the founding documents, and we have not matched any parcel to them.",
         ],
-        claims: ["meridian-urd-two-tax-line-items"],
+        claims: ["meridian-urd-two-tax-line-items", "r2-meridian-mdc-five-districts-sunsets"],
+      },
+      {
+        heading: "Impact fees scale with the size of a new home",
+        body: [
+          "Meridian charges parks, fire and police impact fees on each new dwelling unit, banded by its climate-controlled floor area. For a unit of 1,701 to 2,500 square feet, the city's current fee schedule lists $4,119 for parks, $995 for fire and $402 for police. For an apartment building the band is set by the average size of its units.",
+          "Those fees fall on whoever builds, so they matter most to a seller of land or of a lot a buyer plans to build on. We have not found a Meridian exemption for replacing an existing house, so we do not assume one.",
+        ],
+        claims: ["r2-meridian-impact-fees-by-floor-area"],
       },
       {
         heading: "Building activity, and projected growth",
@@ -370,7 +379,7 @@ export const placeContent: Record<string, PlaceContent> = {
 
   "sell-my-house-fast-ada-county": {
     intro: [
-      "We buy property across Ada County — houses, land, rentals, multifamily, office and industrial buildings, and parcels with problems attached. Six incorporated cities sit inside the county, plus an unincorporated balance of roughly 64,000 people, and which side of a city limit a property falls on changes who you deal with about almost everything.",
+      "We buy property across Ada County: houses, land, rentals, multifamily, office and industrial buildings, and parcels with problems attached. Six incorporated cities sit inside the county, plus an unincorporated balance of roughly 64,000 people, and which side of a city limit a property falls on changes who you deal with about almost everything.",
       "That distinction is the single most useful thing to understand before you sell here, and most of what is written about selling in Ada County gets it wrong.",
     ],
     sections: [
@@ -378,19 +387,20 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Most property administration here is county-wide",
         body: [
           "The Ada County Assessor values every non-exempt property in the county at market value as of January 1, whether it sits in Boise, Meridian or open ground outside any city. The same office maintains parcel boundaries, road rights-of-way and Records of Survey, and it runs addressing for every parcel in the county.",
-          "The Treasurer, separately, is the ex officio tax collector — collecting for every taxing district including the cities and schools. So the office that decides what a property is worth is not the office that takes payment for it, and a delinquency question goes to the Treasurer rather than the Assessor.",
-          "Deeds are recorded with the Ada County Recorder regardless of city. Recorded documents are open to public inspection under Idaho Code 31-2419, and redacting personal information before recording is the responsibility of whoever submits the document — not the Recorder's office.",
+          "The Treasurer, separately, is the ex officio tax collector, collecting for every taxing district including the cities and schools. So the office that decides what a property is worth is not the office that takes payment for it, and a delinquency question goes to the Treasurer rather than the Assessor.",
+          "Deeds are recorded with the Ada County Recorder regardless of city. Recorded documents are open to public inspection under Idaho Code 31-2419, and redacting personal information before recording is the responsibility of whoever submits the document, not the Recorder's office.",
         ],
         claims: ["ada-assessment-market-value-jan-1", "ada-treasurer-ex-officio-tax-collector", "ada-recorder-maintains-ownership-documents", "ada-recorder-pii-redaction-is-submitter-duty"],
       },
       {
         heading: "Land use is not county-wide, and that catches people out",
         body: [
-          "Ada County Development Services processes land use applications in unincorporated Ada County only. Its engineering division handles preliminary plats, drainage, private roads, hillside applications, floodplain permits and boundary adjustments — again, unincorporated only. Inside Boise, Meridian, Eagle, Kuna, Star or Garden City, the city administers its own code.",
+          "Ada County Development Services processes land use applications in unincorporated Ada County only. Its engineering division handles preliminary plats, drainage, private roads, hillside applications, floodplain permits and boundary adjustments, again in the unincorporated county only. Inside Boise, Meridian, Eagle, Kuna, Star or Garden City, the city administers its own code.",
           "Code enforcement follows the same line. Ada County states plainly that it does not enforce code violations within city limits and directs city residents to their municipal agency. Complaints in the unincorporated county are investigated by a code enforcement specialist, and the complaining party stays anonymous.",
           "So advice to \"contact Ada County about permits\" is wrong for the great majority of county residents. It is right for the roughly 64,000 people outside any city, and wrong for everyone else.",
+          "For that unincorporated ground the zoning code is new. The Board approved Ordinance No. 1002 on October 28, 2025, and Development Services says the county updated its zoning ordinance in November 2025. By its own terms the new Title 8 took effect on the date it was published, repealing and replacing every earlier county zoning ordinance. We have not found the exact publication date in a county record, so we do not give one. What matters for a seller of rural or edge-of-city land is simpler: anything you were told about the county's zoning before late 2025 was said under a code that no longer exists.",
         ],
-        claims: ["ada-planning-unincorporated-only", "ada-engineering-scope-unincorporated", "ada-code-enforcement-unincorporated-only"],
+        claims: ["ada-planning-unincorporated-only", "ada-engineering-scope-unincorporated", "ada-code-enforcement-unincorporated-only", "ada-zoning-ordinance-updated-november-2025"],
       },
       {
         heading: "Roads and septic answer to neither the city nor the county",
@@ -398,7 +408,7 @@ export const placeContent: Record<string, PlaceContent> = {
           "Idaho Code 40-1406 bars a city inside a countywide highway district from maintaining city highways or levying property taxes for their construction, repair or maintenance. A single countywide district is responsible for the design, construction and maintenance of city rights-of-way and their curbs, gutters, sidewalks and retaining walls. Ada County confirms it controls no roadway infrastructure of its own.",
           "That has a practical consequence for sellers: a question about a sidewalk, a driveway approach or the road frontage of a parcel in Ada County is [a highway district matter](/guides/selling-land-or-acreage-in-ada-county), not a city public works matter.",
           "There is no second highway district to check. Idaho law permits only one countywide highway district to operate within a county whose electorate has voted to form one, so the question of which road authority governs a given Ada County parcel has exactly one answer, everywhere in the county. That is unusual enough that people arriving from other states look for a city equivalent that does not exist here.",
-          "Septic is different again. Central District Health — a public health district covering Ada, Boise, Elmore and Valley counties — permits septic systems and verifies shallow injection wells. It is not a city building department and not a county one.",
+          "Septic is different again. Central District Health, a public health district covering Ada, Boise, Elmore and Valley counties, permits septic systems and verifies shallow injection wells. It is not a city building department and not a county one.",
         ],
         claims: ["achd-city-highway-powers-abolished", "achd-responsibility-within-cities", "achd-is-ada-district", "achd-one-district-per-county", "ada-septic-authority-cdh"],
       },
@@ -406,7 +416,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "The county's cities are not growing at the same rate",
         body: [
           "Between the 2020 census base and the 2024 Census population estimate, Star grew 61.4% and Kuna 21.0%, while Boise grew 1.0%. Those are not variations on a trend; they are different property markets inside one county.",
-          "COMPASS projections reverse parts of that picture by 2050 — Kuna is projected to grow a further 128.7% while Star is projected to add 12.3%, and unincorporated Ada County is projected to lose 36% of its population on the assumption that cities annex the areas they already plan for.",
+          "COMPASS projections reverse parts of that picture by 2050. Kuna is projected to grow a further 128.7% while Star is projected to add 12.3%, and unincorporated Ada County is projected to lose 36% of its population on the assumption that cities annex the areas they already plan for.",
           "Two estimates of Ada County's population circulate and both are legitimate: COMPASS puts 2024 at 557,590, the Census Bureau's Vintage 2024 estimates put it at 535,799. They are different bodies measuring the same year, and anyone quoting one without naming it is inviting confusion.",
           "We use the Census figure of 535,799 where a single number is needed, and name it as an estimate rather than a count. The two sources differ by about 4%, which is small enough to ignore in conversation and large enough to matter if someone is building an argument on it.",
         ],
@@ -415,7 +425,7 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "Areas of City Impact",
         body: [
-          "Idaho uses a planning device with no California equivalent: the Area of City Impact, unincorporated land planned jointly with the city it adjoins. Of the people living in unincorporated Ada County, 78.8% live inside one. Only about 13,467 people — 2.4% of the county — live outside any ACI, many of them in the planned communities of Avimor, Cartwright Ranch, Dry Creek Ranch and Hidden Springs.",
+          "Idaho uses a planning device with no California equivalent: the Area of City Impact, unincorporated land planned jointly with the city it adjoins. Of the people living in unincorporated Ada County, 78.8% live inside one. Only about 13,467 people, 2.4% of the county, live outside any ACI, many of them in the planned communities of Avimor, Cartwright Ranch, Dry Creek Ranch and Hidden Springs.",
           "Property inside an ACI is on county jurisdiction today and is a likely annexation target tomorrow. Boise's ACI holds 284,860 people against a city population of 250,060, which is the clearest illustration of the gap between where a city governs and where it plans.",
         ],
         claims: ["ada-area-of-city-impact", "ada-planned-communities-outside-aci"],
@@ -423,8 +433,8 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "Irrigation is a live question on a great many parcels",
         body: [
-          "Ada County's own map identifies [27 separate irrigation entities](/guides/selling-land-or-acreage-in-ada-county) operating in the county — irrigation districts, ditch companies, lateral associations, water companies and a drainage district. Settlers Irrigation District alone delivers to 13,187 acres across West Boise, Meridian and South Eagle. Boise-Kuna and Nampa & Meridian are separate districts serving different ground.",
-          "Title to the Boise Project's transferred works — Diversion Dam, the New York Canal, roughly 1,500 miles of canals and laterals — remains with the United States. A canal or lateral crossing a parcel here can therefore sit on federally titled works, which changes who a landowner deals with about access and encroachment.",
+          "Ada County's own map identifies [27 separate irrigation entities](/guides/selling-land-or-acreage-in-ada-county) operating in the county: irrigation districts, ditch companies, lateral associations, water companies and a drainage district. Settlers Irrigation District alone delivers to 13,187 acres across West Boise, Meridian and South Eagle. Boise-Kuna and Nampa & Meridian are separate districts serving different ground.",
+          "Title to the Boise Project's transferred works (Diversion Dam, the New York Canal, roughly 1,500 miles of canals and laterals) remains with the United States. A canal or lateral crossing a parcel here can therefore sit on federally titled works, which changes who a landowner deals with about access and encroachment.",
         ],
         claims: ["ada-27-irrigation-entities", "settlers-district-coverage", "boise-project-federal-title"],
       },
@@ -433,17 +443,43 @@ export const placeContent: Record<string, PlaceContent> = {
         body: [
           "The Assessor's own guidance is unusually direct about this: the assessor does not set a value for a property, but estimates what a typical buyer would reasonably pay for it on January 1. An assessment is an opinion of market value on a fixed date, not a price and not a ceiling.",
           "It is also not the product of a fresh inspection every year. State law requires a physical inspection every five years, so roughly 20% of Ada County properties are reappraised in a given year and the rest are trended on market conditions. A property that has changed materially since its last inspection may be carrying a value derived from a trend rather than from anyone looking at it.",
-          "Which appraiser handles a property depends on what it is. Ada County's residential appraisers value detached single-family dwellings, attached townhomes, condominium units, multi-family residential up to four units, and manufactured housing. Apartments and higher-density residential go to commercial appraisers instead — the same four-unit line that separates residential from commercial in lending and in this county's own staffing.",
+          "Which appraiser handles a property depends on what it is. Ada County's residential appraisers value detached single-family dwellings, attached townhomes, condominium units, multi-family residential up to four units, and manufactured housing. Apartments and higher-density residential go to commercial appraisers instead, the same four-unit line that separates residential from commercial in lending and in this county's own staffing.",
         ],
         claims: ["ada-assessor-does-not-set-value", "ada-reappraisal-five-year-cycle", "ada-residential-appraisal-scope"],
       },
       {
-        heading: "The homeowner's exemption turns on a single day in December",
+        heading: "The homeowner's exemption ends with your ownership",
         body: [
-          "To qualify for the homeowner's exemption for a tax year, an owner must own and occupy the home on or before the last county business day in December, and must file the application by the close of business on that same day. Both conditions land on one date, and the filing is not a formality that can follow later.",
-          "Once approved it carries forward. An owner only needs to reapply on a move or on a change of ownership — which is precisely what a sale is. If you are buying or selling here, the exemption does not travel with the property by itself.",
+          "Idaho's homeowner's exemption takes the lesser of the first $125,000 of a home's market value for assessment purposes, or 50% of that value, off the taxable value. To qualify for a tax year, an owner must own and occupy the home on or before the last county business day in December, and must file the application by the close of business on that same day.",
+          "Once approved it carries forward for as long as that owner owns and occupies the house. A sale ends it: the Ada County Assessor says that if the property is sold, the new owner must file an application of their own. Since 2026 the exemption is not prorated, and the full amount applies from January 1 of the year a complete application is approved. How the year's tax bill is split between buyer and seller at closing is a matter for the contract, not the exemption statute.",
         ],
-        claims: ["ada-homeowners-exemption-deadline"],
+        claims: ["pt-homestead-exemption-cap-in-force-2026", "ada-homeowners-exemption-deadline", "pt-ada-new-owner-must-apply", "pt-homestead-exemption-not-prorated"],
+      },
+      {
+        heading: "Recording the deed: what the Recorder will take",
+        body: [
+          "Every deed for an Ada County property is recorded with the Ada County Recorder, whichever city it sits in. Idaho Code 55-601 requires a conveyance to be a written instrument signed by the person giving up the property, or an agent authorised in writing, and to carry the grantee's name and complete mailing address. Under Idaho Code 55-805, the signature has to be acknowledged before the deed can be recorded.",
+          "The Recorder adds practical rules of its own. Documents must be in dark blue or black ink so they scan, and one with no room for a recording label needs a cover sheet, which can raise the fee. The county's predictable fee for a deed is $15.00 for the first 30 pages, plus $3.00 for each page after that.",
+          "Two things surprise people. The Recorder's Office keeps no blank forms and points people to title companies for them. And it does not mail anyone a deed when a mortgage is paid off; it sells copies of recorded documents at $1.00 a page, with $1.00 more for a certified copy. Deeds are currently blocked from online viewing, so a copy has to be requested from the office. The record itself stays open to the public under Idaho Code 31-2419.",
+        ],
+        claims: ["cl-deed-writing-subscribed-grantee-address", "cl-acknowledgment-required-to-record", "ada-recorder-deed-ink-and-cover-sheet", "cl-ada-deed-recording-fee", "ada-recorder-no-forms-no-deed-mailed", "cl-ada-deeds-blocked-online", "ada-recorder-maintains-ownership-documents"],
+      },
+      {
+        heading: "How the Assessor learns the house has sold",
+        body: [
+          "Nobody files a sale with the Assessor directly. Idaho Code 63-307 tells the assessor to work out current ownership from documents recorded with the county recorder, or from evidence such as a title insurance policy, and the Ada County Assessor says its ownership records are based on recordings in the Recorder's Office.",
+          "Two consequences follow. The Assessor notes that recordings made after January 1 do not show in its assessment records until the following assessment year, because the assessment is fixed as of 12:01 a.m. on January 1 under Idaho Code 63-205. And when a deed is drawn up, the Assessor reminds owners that the grantor has to be named exactly as on the deed that gave them title. A name that has changed since then, through marriage or a trust, is worth raising with the title company early.",
+        ],
+        claims: ["ada-assessor-ownership-from-recordings", "idaho-assessment-lien-date-statutory"],
+      },
+      {
+        heading: "Property tax at closing, and what happens if it goes unpaid",
+        body: [
+          "The Treasurer bills each year's taxes in November, based on values assessed as of January 1, with the full year due in December or in two installments, December and the following June. Miss the December installment and the Treasurer adds a 2% late charge plus interest at 1% a month from January 1. Payments go to the oldest balance first, so a payment meant for this year can be swallowed by an older arrear.",
+          "Unpaid property tax is a first and prior lien on the property under Idaho Code 63-206, ranking ahead of the other liens on it, and the lien does not expire.",
+          "If it is not paid, the county's process is slow but it ends. The Treasurer explains that each January 1, property with a three-year delinquency may be considered for tax deed. A notice goes by certified mail two to five months before the hearing, and partial payments are accepted but do not stop the process. Until the county sells or transfers the property, the owner can still redeem it by paying all the taxes, late charges, interest and costs. After a tax deed the county holds a public auction within 14 months, and any money left after parties with an interest are paid goes back to the owner of record when the deed issued.",
+        ],
+        claims: ["pt-ada-billed-november-due-december", "pt-late-charges-if-half-unpaid", "pt-ada-late-charge-and-interest-rates", "ln-property-tax-first-lien-perpetual", "ada-treasurer-tax-deed-steps", "id-tax-deed-three-year-delinquency"],
       },
       {
         heading: "A converted manufactured home has stopped being movable property",
@@ -462,7 +498,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "When an estate has nobody to administer it",
         body: [
           "The Ada County Treasurer serves as [ex officio public administrator](/guides/selling-an-inherited-house-in-idaho) as well as ex officio tax collector, responsible for administering the estates of decedents who have no one to administer the estate.",
-          "That is a narrow office and it is rarely the right answer for a family that simply has not started probate yet. But it exists, it is county-level, and it means an Ada County property whose owner has died without anyone stepping forward is not in a legal vacuum — there is a named office with a statutory role.",
+          "That is a narrow office and it is rarely the right answer for a family that simply has not started probate yet. But it exists, it is county-level, and it means an Ada County property whose owner has died without anyone stepping forward is not in a legal vacuum. There is a named office with a statutory role.",
         ],
         claims: ["ada-treasurer-ex-officio-public-administrator"],
       },
@@ -470,7 +506,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "The flood maps in force here were adopted in 2020",
         body: [
           "Ada County adopted new FEMA Flood Insurance Rate Maps in June 2020. A parcel's flood status is therefore governed by maps that are recent enough to differ from whatever a prior owner, an older survey or an out-of-date listing described.",
-          "This matters most on the properties where it is least expected — ground near the Boise River and its side channels, and parcels crossed by the canal and lateral network described above. Whether a specific parcel is in or out of a mapped zone is a question for the current effective map, not for institutional memory.",
+          "This matters most on the properties where it is least expected: ground near the Boise River and its side channels, and parcels crossed by the canal and lateral network described above. Whether a specific parcel is in or out of a mapped zone is a question for the current effective map, not for institutional memory.",
         ],
         claims: ["ada-fema-firm-adopted-2020"],
       },
@@ -485,9 +521,9 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "Where the parcel record actually lives",
         body: [
-          "The Assessor maintains comprehensive records on all real and personal property in the county — parcel ownership, land and improvement characteristics, parcel boundaries and road rights-of-way — and manages the addressing process for every parcel. Its online maps carry parcel boundaries, streets, hydrography, section boundaries, city limits, parks and schools, alongside Records of Survey and subdivision plats.",
+          "The Assessor maintains comprehensive records on all real and personal property in the county (parcel ownership, land and improvement characteristics, parcel boundaries and road rights-of-way) and manages the addressing process for every parcel. Its online maps carry parcel boundaries, streets, hydrography, section boundaries, city limits, parks and schools, alongside Records of Survey and subdivision plats.",
           "For most questions a seller has about what they actually own, that is the first place to look, and it is county-wide regardless of which city a property sits in. City limits are a layer on the county's map rather than a separate mapping system.",
-          "Permits are the opposite. Ada County's building division reviews plans and inspects buildings, and its permitting division accepts building, manufactured home and mechanical permit applications through an online portal — for the unincorporated county. Cities inside a countywide highway district do retain a few defined powers of their own: responsibility for local improvement district bonds issued before the city highway system was dissolved, the ability to spend city funds on trees, shrubs, grass and other plants in rights-of-way, and control of parking meters. Beyond that short list, the road is the highway district's.",
+          "Permits are the opposite. Ada County's building division reviews plans and inspects buildings, and its permitting division accepts building, manufactured home and mechanical permit applications through an online portal, for the unincorporated county. Cities inside a countywide highway district do retain a few defined powers of their own: responsibility for local improvement district bonds issued before the city highway system was dissolved, the ability to spend city funds on trees, shrubs, grass and other plants in rights-of-way, and control of parking meters. Beyond that short list, the road is the highway district's.",
         ],
         claims: ["ada-assessor-maintains-parcel-gis", "ada-building-division-scope", "achd-cities-retain"],
       },
@@ -603,10 +639,11 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "The city bill, and what to settle before closing",
         body: [
           "The water company and the city are different organisations in Boise, but sewer and trash are billed by the city. Boise Utility Billing has an online self-service Escrow Tool that gives instant escrow quotes on many residential accounts. Sewer deferrals are handled separately: a payoff request needs a signed Borrower's Authorization, and the city answers within 3 business days. If your property has one, it is a line to clear before the sale, not after.",
+          "A sewer deferral is an agreement under Boise City Code 10-2-8 to pay the sewer connection fees in installments instead of up front; for an existing house the term can run up to fifteen years, with interest at the Wall Street Journal prime rate on the day it is signed. The city records the agreement with the Ada County Recorder, so it shows up on a title search. Unless the department agrees otherwise in writing, what is still owed plus interest falls due in full when the property is sold or otherwise transferred, and the unpaid amount is a lien due on sale.",
           "Two billing rules explain bills that look wrong. Sewer usage is charged on winter water use, measured from October 15 to April 15, which the city treats as indoor use only. A house on a private well is billed on the number of residents, with a default of four. Unpaid charges carry a late payment charge of 1.5% per month.",
           "A house that will sit empty while it is sold can go on vacancy status, but only on the city's terms. Vacancy is limited to six months, cannot be backdated, and needs the property empty for at least 30 consecutive days with no sewer or trash service used. Base fees continue; only usage fees stop. If the city finds service used during the vacancy, the owner pays occupied rates for the whole period. 'Property is for sale/rent' is one of the reasons on the form, so an estate or a vacant rental qualifies, as long as the request goes in before the vacancy, not after.",
         ],
-        claims: ["boise-escrow-quote-and-sewer-deferral-payoff", "boise-sewer-billed-on-winter-water-use", "boise-utility-vacancy-six-months"],
+        claims: ["boise-escrow-quote-and-sewer-deferral-payoff", "r2-boise-sewer-fee-deferral-due-on-sale", "boise-sewer-billed-on-winter-water-use", "boise-utility-vacancy-six-months"],
       },
       {
         heading: "The city runs irrigation in fourteen subdivisions, not the rest",
@@ -634,6 +671,22 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["boise-pds-records-center-permit-history", "cv-boise-case-lookup-closed-cases-only", "cv-boise-permit-transfer"],
       },
       {
+        heading: "Harris Ranch carries a district of its own",
+        body: [
+          "Houses in Harris Ranch sit inside Harris Ranch Community Infrastructure District No. 1, formed in 2010 under Idaho Code Title 50 Chapter 31 and legally separate from the City of Boise. It covers land zoned under the Harris Ranch Specific Plan, SP-01.",
+          "The district raises money three ways: a bond levy and an administrative levy, both based on property value, and a special assessment based on the size of the property. Once a special assessment is set it can rise by no more than 2% a year, up to a cap of 10%. A buyer looking at a Harris Ranch house will ask what those come to, so it helps to have the figures from your own records before listing.",
+        ],
+        claims: ["r2-boise-harris-ranch-cid-three-taxes"],
+      },
+      {
+        heading: "Urban renewal districts, named by the agency that runs them",
+        body: [
+          "Capital City Development Corporation, Boise's redevelopment agency, lists four active urban renewal districts: 30th Street, Shoreline, Gateway East and State Street. Two older ones have closed. River Myrtle-Old Boise, set up in 1996, sunset in September 2025, and Westside sunset in September 2026.",
+          "The agency publishes its boundaries as maps, not lists of parcels, and we have not traced any address against them. If a property is near one of those four corridors, the agency's map is the place to check.",
+        ],
+        claims: ["r2-boise-ccdc-active-and-sunset-districts"],
+      },
+      {
         heading: "What that means for the offer",
         body: [
           "A Boise property with an overlay, an unconnected lot or a mapped flood hazard is not a property we decline. It is a property whose costs we have to count before we can put a number on it, and counting them out loud is how we would rather work.",
@@ -645,74 +698,92 @@ export const placeContent: Record<string, PlaceContent> = {
 
   "sell-my-house-fast-star-id": {
     intro: [
-      "Star grew 61.4% between the 2020 census base and the 2024 estimate — from roughly 11,300 to 18,208 people, the fastest growth of any city in Ada County by a wide margin. It is also the only one that is not entirely in Ada County.",
+      "Star grew 61.4% between the 2020 census base and the 2024 estimate, from roughly 11,300 to 18,208 people, the fastest growth of any city in Ada County by a wide margin. It is also the only one that is not entirely in Ada County.",
+      "Water and sewer in Star belong to a separate district whose charges follow the house, the city adopted new park and police impact fees in April 2026, and its flood code asks for two feet above the base flood level. We buy houses, land and commercial property across Star, in any condition.",
     ],
     sections: [
       {
         heading: "Star sits in two counties",
         body: [
           "The Census place-to-county relationship file records Star as lying in both Ada County and Canyon County. The Ada County portion holds 18,155 people and the Canyon County portion 53, of a total 18,208.",
-          "The split is lopsided but it is not a technicality. Anything that depends on county jurisdiction — which assessor values the parcel, which recorder holds the deed, which county collects the tax — depends on which side of the line a specific property falls. Notice of a trustee's sale in Idaho must be published in each county where the property is situated, which for a Canyon-side Star property means Canyon County.",
+          "The split is lopsided but it is not a technicality. Anything that depends on county jurisdiction (which assessor values the parcel, which recorder holds the deed, which county collects the tax) depends on which side of the line a specific property falls. Notice of a trustee's sale in Idaho must be published in each county where the property is situated, which for a Canyon-side Star property means Canyon County.",
         ],
         claims: ["ada-star-spans-two-counties", "id-trustee-sale-publication"],
       },
       {
+        heading: "Water and sewer come from a district, not the city",
+        body: [
+          "Most owners assume the city runs the water and sewer. In Star it does not: the city lists the Star Sewer & Water District as the water and sewer provider, and the district is a separate entity from the City of Star. We have not read the district's service boundaries, so we do not assume it serves every parcel inside city limits.",
+          "On a sale the district works through the title company. The title company asks the district for a utility assessment on the property, and that figure decides what escrow collects from the buyer or holds back from the seller. Once the deal closes, the title company sends the district the payment, the warranty deed and the transfer paperwork, and the district's FAQ says this usually reaches it seven to ten days after closing. Service stays on throughout. The seller's final bill is paid out of escrow, and the district refunds anything collected beyond what was owed. It also asks sellers to file its Stop Service Form so the details are right.",
+        ],
+        claims: ["star-water-sewer-separate-district", "star-sswd-transfer-through-escrow"],
+      },
+      {
+        heading: "An unpaid district bill stays with the house",
+        body: [
+          "The district says plainly that sewer and water charges belong to the property, not to whoever ran up the usage. If a previous owner leaves a final bill unpaid, the next owner inherits it. A landlord can have the account put in a tenant's name, but stays ultimately responsible for every charge billed to the property.",
+          "Idaho law gives that teeth. Under Idaho Code 42-3212(l), a water and sewer district's charges become delinquent 30 days after their due date, the district certifies them to the county tax collector no later than August 1, and they go onto the tax roll to be collected like any other district tax, with the lien dating from the day the charge went delinquent.",
+          "For a landlord selling a rental, or a family selling a house that sat empty, that means an old district balance can surface on the property tax bill rather than as a utility notice. It does not stop a sale. It does need clearing from the proceeds, which is easier to plan for before closing than at it.",
+        ],
+        claims: ["star-sswd-charges-follow-property"],
+      },
+      {
+        heading: "Irrigation water comes from someone else again",
+        body: [
+          "The Star Sewer & Water District supplies household water only. Its rules, under Resolution 2024-3, bar using that water on lawns where another irrigation source exists. In most subdivisions the homeowners' association runs a pressurized irrigation system and an irrigation district supplies the water, so the sprinklers are a third account on top of water and sewer.",
+          "Outside a subdivision the list of possible suppliers is long. The city's own irrigation contact sheet names eleven: Farmer's Union Ditch Company, the Middleton Irrigation Association and Middleton Mill Ditch Company, Pioneer Ditch Company and Little Pioneer Ditch Company, Flake Ditch Company, Canyon County Water Company, Settlers Irrigation District, Ada County Drainage District #2, Nampa & Meridian Irrigation District and Pioneer Irrigation District.",
+          "Settlers describes its own western boundary as Star Road. It delivers to 13,187 acres of agricultural and urban land through a 20-mile canal and 95 miles of laterals, running from the Boise River diversion at Ann Morrison Park south to Franklin Road and north to the Lower Bench. Title to the Boise Project's transferred works remains with the United States, so a lateral crossing a parcel near Star can sit on federally titled infrastructure. Which entity serves a given parcel is a real question with a real answer, and the city's list does not settle it.",
+        ],
+        claims: ["star-sswd-domestic-water-only", "star-irrigation-entities-city-list", "settlers-district-coverage", "boise-project-federal-title"],
+      },
+      {
+        heading: "Impact fees were adopted in April 2026",
+        body: [
+          "Star's park and police impact fees are no longer a proposal. The City Council adopted them on April 7, 2026, in Ordinance Nos. 431-2026 and 433-2026, now Star City Code 7-3D and 7-3E. The fee is a condition of development approval and is collected when the building permit is issued.",
+          "The building department's fee page lists the residential charges collected at permit. Among them: a Star Parks Impact Fee of $4,695.76, a Star Police Impact Fee of $680.88, a Star Fire Impact Fee of $2,152 and an Ada County Highway District impact fee of $5,803 for a detached single-family house. New construction also needs a sewer and water permit from the district, filed with the plans, and the district's fee table lists a residential permit application fee of $11,450.00. Treat these as listed figures on the day we read them, not a quote for any lot.",
+          "The exemptions matter as much as the amounts. Star's park fee ordinance exempts replacing a house, or a manufactured home, with one new house on the same lot when the number of service units stays the same, along with remodels that add no units and rebuilding the same floor space within two years of a fire. So an empty lot and a tired house on the same street can carry very different costs for a buyer who plans to build, and that shows up in what each buyer can pay.",
+        ],
+        claims: ["star-impact-fees-adopted-2026", "star-sswd-new-construction-permit-fee", "star-impact-fee-replacement-exemption"],
+      },
+      {
+        heading: "Flood zone does not mean no building permit",
+        body: [
+          "Star's planning department addresses this directly: development within certain flood zones requires a Flood Plain Development Permit and must meet the City's Flood Hazard Ordinance. Being in a flood zone does not by itself prevent a building permit. The city asks owners to make an appointment with the planning department to have a property evaluated for flood zone location rather than determining it themselves.",
+          "The standard is set high. Star's flood ordinance treats work costing half or more of the building's pre-project market value as a substantial improvement, and a home built or substantially improved in a special flood hazard area, a manufactured home included, has to put its lowest floor at the flood protection elevation, which Star defines as the base flood elevation plus two feet. A buyer planning a major renovation of an older house in a mapped zone is pricing that elevation work too.",
+        ],
+        claims: ["star-flood-zone-building-permit-question", "star-flood-substantial-improvement-and-freeboard"],
+      },
+      {
         heading: "A one-time administrative split, without a public hearing",
         body: [
-          "Star allows an original parcel to be divided once, administratively, into no more than two lots, parcels or sites — for transfer of ownership or for development. The process does not require a public hearing unless the city requires the applicant to plat the division.",
+          "Star allows an original parcel to be divided once, administratively, into no more than two lots, parcels or sites, for transfer of ownership or for development. The process does not require a public hearing unless the city requires the applicant to plat the division.",
           "For anyone holding land in Star that is a materially cheaper and faster path than a plat, and it is a Star rule. The other five Ada County cities each administer their own code and none of them has been checked against this, so do not assume it travels.",
         ],
         claims: ["star-one-time-administrative-division"],
       },
       {
-        heading: "Flood zone does not mean no building permit",
-        body: [
-          "Star's planning department addresses this directly: development within certain flood zones requires a Flood Plain Development Permit and must meet the City's Flood Hazard Ordinance. Being in a flood zone does not by itself prevent a building permit.",
-          "The city asks owners to make an appointment with the planning department to have a property evaluated for flood zone location rather than determining it themselves.",
-        ],
-        claims: ["star-flood-zone-building-permit-question"],
-      },
-      {
         heading: "Temporary living quarters for family",
         body: [
           "Star permits temporary living quarters in some cases to house an immediate family member, where the need is justified by health, employment or upkeep of the property. The structure may be permitted for two years and may not remain more than six.",
-          "That comes up more often than you would expect on inherited property and on parcels where a relative's manufactured home has been sitting for years.",
+          "On inherited property, or a parcel where a relative's manufactured home has been in place for years, it is worth finding out whether that permit exists and when it runs out.",
         ],
         claims: ["star-temporary-family-living-quarters"],
-      },
-      {
-        heading: "Star Road is an irrigation boundary",
-        body: [
-          "Settlers Irrigation District describes its own western boundary as Star Road. The district delivers to 13,187 acres of agricultural and urban land through a 20-mile canal and 95 miles of laterals, running from the Boise River diversion at Ann Morrison Park south to Franklin Road and north to the Lower Bench.",
-          "Ada County's irrigation map names 27 separate entities operating in the county — districts, ditch companies, lateral associations and water companies. Which one serves a particular parcel is a question with a real answer, and it is not one you can settle from a map alone.",
-          "It matters because title to the Boise Project's transferred works remains with the United States. A lateral crossing a parcel near Star can sit on federally titled infrastructure, which changes who a landowner deals with about access, encroachment and maintenance.",
-        ],
-        claims: ["settlers-district-coverage", "ada-27-irrigation-entities", "boise-project-federal-title"],
-      },
-      {
-        heading: "Who administers what, on either side of the line",
-        body: [
-          "Land use inside Star is the city's, through its own development code. Everything else is county work, and for a property in the Ada County portion that means the Ada County Assessor values it, the Ada County Recorder holds the deed and the Ada County Treasurer collects the tax as ex officio tax collector for every district including the city and the schools.",
-          "For the small Canyon County portion, those same functions belong to Canyon County. It is a narrow case — 53 people by the 2024 estimate — but if a property sits there, every county-level answer changes.",
-          "Roads are neither. A single countywide highway district is responsible for city rights-of-way and their curbs, gutters and sidewalks; Idaho Code 40-1406 bars a city inside such a district from maintaining city highways or taxing for them.",
-        ],
-        claims: ["ada-star-spans-two-counties", "ada-treasurer-ex-officio-tax-collector", "achd-city-highway-powers-abolished"],
-      },
-      {
-        heading: "Water and sewer come from a district, not the city",
-        body: [
-          "Most owners assume the city runs the water and sewer. In Star it does not: the city lists the Star Sewer & Water District as the water and sewer provider, and the district is a separate entity from the City of Star.",
-          "That changes who you call. A service, connection or billing question about water or sewer on a Star property goes to the district rather than city hall, and a buyer planning to add a unit or split a parcel is dealing with the district as well as the city. We have not read the district's own service boundaries, so we do not assume it serves every parcel inside city limits.",
-        ],
-        claims: ["star-water-sewer-separate-district"],
       },
       {
         heading: "Work that needs a permit in Star",
         body: [
           "Star publishes its own list of what needs a building permit, and several items on it are things owners often do without one: re-roofing, replacing more than 100 square feet of siding, replacing windows or doors where the openings are enlarged or reduced, decks 30 or more inches above grade, sheds or outbuildings of 200 square feet or larger, fences over six feet, retaining walls over four feet, setting a manufactured home, and demolition. A concrete slab of any size does not need one.",
-          "At a sale, unpermitted work tends to surface — a buyer's inspector or lender notices a re-roof or a raised deck with no record behind it. It is rarely fatal, but it is a conversation better had before listing than during escrow. This is Star's list; Boise and the other cities keep their own.",
+          "At a sale, unpermitted work tends to surface when a buyer's inspector or lender notices a re-roof or a raised deck with no record behind it. It is rarely fatal, but it is a conversation better had before listing than during escrow. This is Star's list; Boise and the other cities keep their own.",
         ],
         claims: ["star-building-permit-triggers"],
+      },
+      {
+        heading: "Finding the permit record, while it still exists",
+        body: [
+          "Star's permit portal can be searched by permit number or by address, and a permit's page shows its inspections. Plans are on the portal only for permits submitted after January 2024. Older plans need a public records request through the City Clerk's Office.",
+          "The catch is retention. The building department says it is only required to keep residential permitting records for two years, so for an older Star house the paper trail a buyer asks about may simply not be there. Look it up before listing, and keep whatever you have from the original build or later work.",
+        ],
+        claims: ["star-permit-records-portal-and-retention"],
       },
       {
         heading: "A homeowner permit assumes you will live there",
@@ -723,9 +794,18 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["star-homeowner-permit-must-occupy"],
       },
       {
+        heading: "Who administers what, on either side of the line",
+        body: [
+          "Land use inside Star is the city's, through its own development code. Everything else is county work, and for a property in the Ada County portion that means the Ada County Assessor values it, the Ada County Recorder holds the deed and the Ada County Treasurer collects the tax as ex officio tax collector for every district including the city and the schools.",
+          "For the small Canyon County portion, those same functions belong to Canyon County. It is a narrow case, 53 people by the 2024 estimate, but if a property sits there, every county-level answer changes.",
+          "Roads are neither. A single countywide highway district is responsible for city rights-of-way and their curbs, gutters and sidewalks; Idaho Code 40-1406 bars a city inside such a district from maintaining city highways or taxing for them.",
+        ],
+        claims: ["ada-star-spans-two-counties", "ada-treasurer-ex-officio-tax-collector", "achd-city-highway-powers-abolished"],
+      },
+      {
         heading: "The ZIP code does not decide which city you are in",
         body: [
-          "In a city growing as fast as Star, mailing addresses and municipal boundaries drift apart, and Star makes the point itself. A Certificate of Occupancy names the city actually responsible for permitting, inspections and code compliance, which can differ from the city associated with the property's ZIP code — because ZIP codes are managed by the Postal Service for mail delivery and do not follow municipal boundaries.",
+          "In a city growing as fast as Star, mailing addresses and municipal boundaries drift apart, and Star makes the point itself. A Certificate of Occupancy names the city actually responsible for permitting, inspections and code compliance, which can differ from the city associated with the property's ZIP code, because ZIP codes are managed by the Postal Service for mail delivery and do not follow municipal boundaries.",
           "Together with Star lying partly outside [Ada County](/sell-my-house-fast-ada-county), in Canyon County, it is a reminder that an address is not a jurisdiction. Which city's code governs a parcel, and which county's offices serve it, are questions to answer from the record rather than from the envelope.",
         ],
         claims: ["star-certificate-of-occupancy-city-vs-zip", "ada-star-spans-two-counties"],
@@ -733,9 +813,17 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "Growth is projected to slow sharply",
         body: [
-          "Having grown faster than anywhere else in the county, Star is projected by COMPASS to add only 12.3% more by 2050 — while Kuna is projected to grow 128.7% over the same period. Projections are not facts, and this one rests on assumptions about annexation, but the reversal is worth knowing about if you are deciding when to sell.",
+          "Having grown faster than anywhere else in the county, Star is projected by COMPASS to add only 12.3% more by 2050, while Kuna is projected to grow 128.7% over the same period. Projections are not facts, and this one rests on assumptions about annexation, but the reversal is worth knowing about if you are deciding when to sell.",
         ],
         claims: ["ada-2050-projection-divergence"],
+      },
+      {
+        heading: "How those rules shape a Star offer",
+        body: [
+          "A district balance that has rolled onto the tax bill, a house in a mapped flood zone or a lot whose buyer faces the 2026 impact fees is not a property we turn down. Each is a cost we can put a figure on and show you.",
+          "We close through a local title company, which handles the district's utility assessment as part of the closing, and you pick the closing date. Our offer lists the value we used, the repairs we expect, our holding costs and our margin, line by line.",
+        ],
+        claims: [],
       },
     ],
   },

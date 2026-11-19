@@ -74,3 +74,47 @@ build-geography, check-evidence, verify-quotes. Page copy is hand-written in
 - **Garden City sewer division page** carries no account or connection rules (wipes guidance only).
 - **Lien for unpaid Garden City utilities**: the letter says debts stay with the property; no code
   section was read, so the page does not say "lien".
+
+## Round 2 (2026-11-18, `star/`, `ada-county/`, `gaps-r2/`)
+Star 9 new claims, Ada County 5 new claims, gaps 5 new claims (ids prefixed `r2-`).
+
+### Capture notes
+- **Star City Code** is on Municode (productId 17396, job 494824, Supp. 3, codified through Ord.
+  437-2026, May 5, 2026). Same CDP recipe as Kuna: navigate headless Chrome straight to the
+  api.municode.com URL with a per-tab UA override and store the JSON body. `Clients/stateAbbr`,
+  `ClientContent/<clientId>`, `Jobs/latest/<productId>` and `codesToc/children` give the ids.
+- **starswd.com** (Star Sewer & Water District) serves the normal fetcher; it has a sitemap.xml.
+- The City of Star's Irrigation Canals page is a single PNG table, cached as `f8713c864794aa88.bin`
+  and cited without a quote (claim `star-irrigation-entities-city-list`, MEDIUM).
+
+### Resolved
+- **Star impact fees: ADOPTED.** Ord. 431-2026 (parks, Star City Code 7-3D) and 433-2026 (police,
+  7-3E), both April 7, 2026, per the Municode comparative table. Amounts are cited from the
+  building department's current fee page only. The council addendum with the phased parks
+  schedule ($4,695.76 / $5,282.73 / $5,869.70) is posted as "Addendum_CIP_Impact Reports 04.07.26
+  Draft"; its link text says Draft, so it is not cited. Pathways and Trails fees were tabled.
+- **Ada County Ordinance No. 1002 effective date: narrowed, not closed.** Development Services
+  says "In November 2025, Ada County updated its zoning ordinance"; 8-1-8 makes the Title
+  effective on publication. The publication DAY is still not in any county record we found
+  (the ordinance PDF's last page is footed 11/1/2025, which is a print date, not a publication
+  record). The page says November 2025 and no day.
+- **Boise sewer deferral**: defined from Boise City Code 10-2-8 (claim `r2-boise-sewer-fee-deferral-due-on-sale`).
+- **Urban renewal districts**: CCDC (Boise) names and sunsets; Meridian Development Corporation
+  five districts with created and sunset years. Boundaries are maps only; no parcel matched.
+- **Meridian impact fees**: current fee schedule amounts by floor-area band (one band quoted).
+
+### Still could NOT source
+- **Meridian impact fee effective date.** The only copy of Ordinance 22-2004 found is unsigned
+  with blank passed/approved dates (it states February 1, 2023). Not cited. Meridian's
+  exemptions (City Code 10-7-12) were not found online.
+- **Any current LID in Boise, Meridian or Kuna.** None named on a city page. Kuna LID No. 2006-1
+  (2010 ordinance) has a dead city link; status unknown.
+- **CCDC sunset dates for the four active districts**, and every URD boundary as text.
+- **Whether Harris Ranch CID charges appear on the Ada County tax bill.** Not read.
+- **Star Sewer & Water District service boundary**, and its 2026 rate change page (empty when
+  captured). The FAQ also lists sewer rates "Effective 03/01/2027"; not cited.
+- **Star easements** (Title 8 UDC lot easement widths): not read this pass.
+- **Treasurer tax payoff at sale**: no Ada County page describes a payoff or certificate for
+  title companies. The page cites the statutory lien (63-206), the bill dates and the tax deed
+  process instead, and says nothing about who pays what at closing.
+- **Star's industrial district letters (LI in 8-3A-1, IL in the table)**: not used on the page.

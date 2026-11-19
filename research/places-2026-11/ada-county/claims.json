@@ -1,0 +1,123 @@
+{
+  "claims": [
+    {
+      "entity": [
+        "county:ada"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "ada-recorder-deed-ink-and-cover-sheet",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "The Ada County Recorder requires documents to be written in dark blue or black ink to meet scanning requirements, and a document that does not support a recording label needs a cover sheet, which may increase its recording fee.",
+      "quotedLanguage": "All documents and checks must be written in dark blue or black ink to meet scanning requirements. Any document that does not support a recording label will require a cover sheet. This may increase the recording fee of your document.",
+      "topic": [
+        "recording",
+        "deeds"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "notes": "Formatting rule from the Recorder's own page. Pair with 55-601 (grantee mailing address) and 55-805 (acknowledgment) for what a deed must contain."
+    },
+    {
+      "entity": [
+        "county:ada"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "ada-recorder-no-forms-no-deed-mailed",
+      "freshnessClass": "IRREGULAR",
+      "claim": "The Ada County Recorder's Office has no blank forms and points people to title companies for the appropriate forms to record; it does not send titles or deeds when a loan is paid off, but supplies copies of recorded documents at $1.00 a page, with $1.00 more for a certified copy.",
+      "quotedLanguage": "We do not have any forms available in the Recorder's Office. Some office supply stores carry packages of blank forms, and you can contact title companies to get the appropriate forms to record. ... The Recorder's Office does not send any titles or deeds once a loan is paid off, however, if a copy is needed of a title or deed once the document has been recorded, we can provide that. The fee for a copy is $1.00 per page. If a certified copy is needed, an additional $1.00 will be added to the total cost of the copies.",
+      "topic": [
+        "recording",
+        "deeds"
+      ],
+      "sourceIds": [
+        "ada-recorder-faq"
+      ],
+      "notes": "Useful against the common belief that a paid-off owner 'gets the deed back' from the county."
+    },
+    {
+      "entity": [
+        "county:ada"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "ada-assessor-ownership-from-recordings",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Idaho Code 63-307 directs the assessor to ascertain current ownership from documents recorded in the county recorder's office or from admissible evidence such as a title policy, and the Ada County Assessor says its ownership records are based on recordings in the Ada County Recorder's Office. The Assessor adds that recordings after January 1 do not show in assessment records until the following assessment year, and that the grantor on a new deed must be named exactly as when title was acquired.",
+      "quotedLanguage": "The assessor shall ascertain the current ownership of land from documents recorded in the county recorder's office and/or from evidence of ownership furnished to the assessor that is admissible at trial in a civil action. ... The Assessor's Office's ownership records are based on recordings in the Ada County Recorder's Office. ... recordings that occur after January 1 of each year will not show in assessment records until the following assessment year. ... Please remember that the Grantor on the new document must be exactly as it was when you acquired title to the property.",
+      "topic": [
+        "ownership",
+        "property-tax",
+        "recording"
+      ],
+      "sourceIds": [
+        "ada-idcode-63-307",
+        "ada-assessor-property-records"
+      ],
+      "notes": "The 'after January 1' sentence appears in the Assessor's instructions for searching a new subdivision parcel; present it as how the assessment records lag, not as a rule about tax liability. Live page re-checked 2026-11-18: all three Assessor sentences still present."
+    },
+    {
+      "entity": [
+        "county:ada"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "ada-treasurer-tax-deed-steps",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "The Ada County Treasurer explains that each January 1, real property with a three-year tax delinquency may be considered for tax deed; partial payments are accepted before the hearing but do not stop the process; the notice of pending issue of tax deed goes by certified mail two to five months before the hearing; before the county sells or transfers the property the record owner or a party in interest may redeem by paying all taxes, late charges, interest and costs; the public auction is held within 14 months of the tax deed; and money left after parties in interest are paid goes back to the record owner at the time the deed issued.",
+      "quotedLanguage": "3-year delinquency: Each January 1, real property with a 3- year tax delinquency may be considered for tax deed. ... Partial payments: Accepted before the hearing but do not stop the tax deed process. ... Notice of Pending Issue of Tax Deed: Sent by certified mail 2-5 months before the hearing. ... Redemption: Before the property is sold or transferred by the county, the record owner(s) or any party in interest may redeem by paying all taxes (delinquent and current), late charges, interest and costs. ... Public Auction: Held within 14 months from the issuance of the tax deed. ... Return of Excess Proceeds to Prior Owner: All funds after payment to parties in interest are returned to the record owner(s) of the property at the time the tax deed was issued.",
+      "topic": [
+        "property-tax",
+        "delinquency",
+        "tax-deed"
+      ],
+      "sourceIds": [
+        "ada-treasurer-tax-deed-process"
+      ],
+      "notes": "County description of the 63-10 process; the statute itself is id-tax-deed-three-year-delinquency (63-1005). Never conflate with trust deed foreclosure timelines."
+    },
+    {
+      "entity": [
+        "county:ada"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "ada-zoning-ordinance-updated-november-2025",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Ada County Development Services says the county updated its zoning ordinance in November 2025. The ordinance (No. 1002, approved by the Board on October 28, 2025) takes effect by its own terms on the date of publication, when it repeals and replaces all previous zoning ordinances; the exact publication date was not found in a primary source.",
+      "quotedLanguage": "In November 2025, Ada County updated its zoning ordinance. ... Enactment, Effective Date and Repeal. Upon the date of publication of this Title, this Title repeals and replaces all previous zoning ordinances.",
+      "topic": [
+        "zoning",
+        "unincorporated"
+      ],
+      "sourceIds": [
+        "ada-ds-current-projects",
+        "ada-zoning-ord-1002-res"
+      ],
+      "notes": "Narrows the effective-date gap to a month from the county's own words; the day stays UNCONFIRMED. Do not write a day. The October 28, 2025 approval date is recorded on the commercial claim ada-county-zoning-districts-schedule and in the codified history note '(Ord. 1002, 10-28-2025)' on American Legal."
+    }
+  ]
+}

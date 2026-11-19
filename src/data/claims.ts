@@ -17050,6 +17050,596 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Garden City, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "star-sswd-transfer-through-escrow",
+    "claim": "When a home served by the Star Sewer & Water District is sold, the account is transferred with the title company's help: the title company requests a utility assessment, which sets the amount collected from the buyer or withheld from the seller through escrow; after closing the title company sends the district the payment, the warranty deed and the transfer documents; service stays on; and the final bill is paid from escrow, with any overpayment refunded. The district also recommends the seller submit its Stop Service Form.",
+    "quote": "If you are selling a home serviced by Star Sewer & Water District, your water and sewer service will be automatically transferred out of your name with the assistance of your title company. ... The title company requests a utility assessment for the property. ... The assessment determines the amount to be collected from the buyer or withheld from the seller. These funds are handled through escrow. ... After closing, the title company will send the payment, the warranty deed, and the transfer documents to the District. ... The final bill is paid from escrow. If more was collected than owed, a refund will be issued.",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "utilities",
+      "closing",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Stop Service - Star Sewer & Water District",
+        "url": "https://www.starswd.com/175/Stop-Service",
+        "publisher": "Star Sewer & Water District",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-sswd-charges-follow-property",
+    "claim": "Star Sewer & Water District charges attach to the property rather than the occupant: the district says a previous owner's unpaid final bill becomes the new owner's responsibility, and that a landlord who puts the account in a tenant's name remains ultimately responsible. Under Idaho Code 42-3212(l), a water and sewer district's charges unpaid 30 days after their due date are delinquent, are certified to the county tax collector by August 1, and are placed on the tax roll and collected like other district taxes, with lien priority from the date of delinquency.",
+    "quote": "Unlike other utilities, Sewer and Water charges are associated with the property rather than with the occupant who incurs the charges. Although a Final Bill is generated for the previous owner, if left unpaid, the new property owner inherits this responsibility. ... The property owner is ultimately responsible for all utility billings assessed to the property regardless of the party utilizing the service(s). ... All such rates, tolls and charges not paid within thirty (30) days after the date fixed for the payment thereof shall become delinquent; the board shall certify all such delinquent rates, tolls and charges to the tax collector of the county by the district, not later than the first day of August and shall be, by said tax collector, placed upon the tax roll and collected in the same manner and subject to the same penalties as other district taxes",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "utilities",
+      "liens",
+      "rentals"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "FAQs - Star Sewer & Water District",
+        "url": "https://www.starswd.com/176/FAQs",
+        "publisher": "Star Sewer & Water District",
+        "tier": 2
+      },
+      {
+        "title": "Rental Applicants - Star Sewer & Water District",
+        "url": "https://www.starswd.com/173/Rental-Applicants",
+        "publisher": "Star Sewer & Water District",
+        "tier": 2
+      },
+      {
+        "title": "Idaho Code 42-3212 - General powers of board (water and sewer districts)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title42/T42CH32/SECT42-3212/",
+        "publisher": "Idaho Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-sswd-domestic-water-only",
+    "claim": "Star Sewer & Water District provides domestic water and wastewater service only, not irrigation. Its Rules and Regulations (Resolution 2024-3) prohibit using domestic water for irrigation when another irrigation source is available, and it says most subdivisions have pressurized irrigation systems managed by the homeowners' association, with the irrigation district supplying the water.",
+    "quote": "No. The District provides domestic (household) water service only. The District's Rules and Regulations, including Resolution 2024-3, prohibit the use of domestic water for irrigation when an alternative irrigation source is available. Most subdivisions are equipped with pressurized irrigation systems that are managed by your homeowners' association (HOA).",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "irrigation",
+      "utilities"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "FAQs - Star Sewer & Water District",
+        "url": "https://www.starswd.com/176/FAQs",
+        "publisher": "Star Sewer & Water District",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-irrigation-entities-city-list",
+    "claim": "The City of Star's Irrigation Canals contact list names eleven entities: Farmer's Union Ditch Company, the Middleton Irrigation Association and Middleton Mill Ditch Company, Pioneer Ditch Company and Little Pioneer Ditch Company, Flake Ditch Company, Canyon County Water Company, Settlers Irrigation District, Ada County Drainage District #2, Nampa & Meridian Irrigation District and Pioneer Irrigation District.",
+    "quote": null,
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "irrigation",
+      "differentiation"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Irrigation Canals - City of Star",
+        "url": "https://www.staridaho.org/1401/Irrigation-Canals",
+        "publisher": "City of Star",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-impact-fees-adopted-2026",
+    "claim": "Star adopted park and police impact fees on April 7, 2026 (Ordinance Nos. 431-2026 and 433-2026, codified as Star City Code 7-3D and 7-3E), imposed as a condition of development approval and collected when a building permit issues. The building department's fee page lists residential impact fees including a Star Parks Impact Fee of $4,695.76, a Star Police Impact Fee of $680.88, a Star Fire Impact Fee of $2,152 and an Ada County Highway District single family detached impact fee of $5,803.",
+    "quote": "431-2026 4- 7-2026 Added 7-3D-1-7-3D-26 433-2026 4- 7-2026 Added 7-3E-1-7-3E-27 ... the City hereby imposes an Impact Fee as a condition of development approval on all developments in the City. Unless otherwise agreed in writing by the City and the developer, the Impact Fee shall be collected at the issuance of a building permit. ... Ada County Highway District Single Family Detached Impact Fee $5,803 ... Star Fire Impact Fee $2,152 Star Parks Impact Fee $4,695.76 Star Police Impact Fee $680.88",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "impact-fees",
+      "development",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Star City Code - Code Comparative Table",
+        "url": "https://library.municode.com/id/star/codes/city_code?nodeId=COCOTA",
+        "publisher": "City of Star, Idaho",
+        "tier": 2
+      },
+      {
+        "title": "Star City Code Title 7, Chapter 3, Article D - Park Impact Fees",
+        "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT7BURE_CH3DEIMFE_ARTDPAIMFE",
+        "publisher": "City of Star, Idaho",
+        "tier": 2
+      },
+      {
+        "title": "Star City Code Title 7, Chapter 3, Article E - Police Impact Fees",
+        "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT7BURE_CH3DEIMFE_ARTEPOIMFE",
+        "publisher": "City of Star, Idaho",
+        "tier": 2
+      },
+      {
+        "title": "Fee Information - City of Star Building Department",
+        "url": "https://www.staridaho.org/1249/Fee-Information",
+        "publisher": "City of Star",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-impact-fee-replacement-exemption",
+    "claim": "Star's park impact fee ordinance exempts, among other things, rebuilding the same floor space after a fire or other catastrophe if ready for occupancy within two years, remodeling that does not increase service units, and replacing a residential unit, including a manufactured home, with another residential unit on the same lot where the number of service units does not increase.",
+    "quote": "A. Rebuilding the same amount of floor space of a structure which was destroyed by fire or other catastrophe, providing the structure is rebuilt and ready for occupancy within two (2) years of its destruction; B. Remodeling or repairing a structure which does not increase the number of service units; C. Replacing a residential unit, including a manufactured home, with another residential unit on the same lot, provided that the number of Service Units does not increase;",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "impact-fees",
+      "manufactured-homes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Star City Code Title 7, Chapter 3, Article D - Park Impact Fees",
+        "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT7BURE_CH3DEIMFE_ARTDPAIMFE",
+        "publisher": "City of Star, Idaho",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-flood-substantial-improvement-and-freeboard",
+    "claim": "Star's flood ordinance defines a substantial improvement as reconstruction, rehabilitation, addition or other improvement costing 50 percent or more of the structure's market value before construction starts, and requires new construction and substantial improvements of residential structures in special flood hazard areas, manufactured homes included, to have the lowest floor at or above the flood protection elevation, which is the base flood elevation plus two feet of freeboard.",
+    "quote": "SUBSTANTIAL IMPROVEMENT: Any reconstruction, rehabilitation, addition, or other improvement of a structure, the cost of which equals or exceeds fifty percent (50%) of the market value of the structure before the \"start of construction\" of the improvement. ... In special flood hazard areas where base flood elevations (BFEs) have been determined, this elevation shall be the BFE plus two feet (2') of freeboard ... New construction, substantial improvements, and development of any residential structure (including manufactured homes) shall have the lowest floor, including basement, elevated no lower than the flood protection elevation",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "flood",
+      "building",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Star City Code Title 10, Chapter 1 - Flood Ordinance",
+        "url": "https://library.municode.com/id/star/codes/city_code?nodeId=TIT10FLCO",
+        "publisher": "City of Star, Idaho",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-permit-records-portal-and-retention",
+    "claim": "Star's building department says permit and inspection status can be searched by permit number or address in its online permit portal; copies of building plans are on the portal for permits submitted after January 2024, earlier plans need a public records request through the City Clerk's Office, and the department is only required to keep residential permitting records for two years.",
+    "quote": "Search by permit number or address. ... Copies of building plans can be found on the portal if the permit was submitted after January 2024. If you need copies of plans prior to January 2024, you will need to submit a Public Records Request through the City Clerk's Office. Please note that the building department is only required to keep residential permitting records for 2 years.",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "permits",
+      "records",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "FAQ - City of Star Building Department",
+        "url": "https://www.staridaho.org/1433/FAQ",
+        "publisher": "City of Star",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "star-sswd-new-construction-permit-fee",
+    "claim": "The City of Star requires a copy of a sewer and water permit from the Star Sewer & Water District with the plans for all new construction, and the district's FAQ fee table lists a residential permit application fee of $11,450.00 and a permit transfer fee of $500.00.",
+    "quote": "A copy of a sewer and water permit for all new construction must be submitted to City Hall with the plans. ... Permit Application Fee - Residential $11,450.00 Permit Application Fee - Commercial Requires Plan Review Permit Transfer Fee $500.00",
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "utilities",
+      "development",
+      "land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Fee Information - City of Star Building Department",
+        "url": "https://www.staridaho.org/1249/Fee-Information",
+        "publisher": "City of Star",
+        "tier": 2
+      },
+      {
+        "title": "FAQs - Star Sewer & Water District",
+        "url": "https://www.starswd.com/176/FAQs",
+        "publisher": "Star Sewer & Water District",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Star, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ada-recorder-deed-ink-and-cover-sheet",
+    "claim": "The Ada County Recorder requires documents to be written in dark blue or black ink to meet scanning requirements, and a document that does not support a recording label needs a cover sheet, which may increase its recording fee.",
+    "quote": "All documents and checks must be written in dark blue or black ink to meet scanning requirements. Any document that does not support a recording label will require a cover sheet. This may increase the recording fee of your document.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Records — Ada County Clerk/Recorder",
+        "url": "https://adacounty.id.gov/clerk/property-records/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ada-recorder-no-forms-no-deed-mailed",
+    "claim": "The Ada County Recorder's Office has no blank forms and points people to title companies for the appropriate forms to record; it does not send titles or deeds when a loan is paid off, but supplies copies of recorded documents at $1.00 a page, with $1.00 more for a certified copy.",
+    "quote": "We do not have any forms available in the Recorder's Office. Some office supply stores carry packages of blank forms, and you can contact title companies to get the appropriate forms to record. ... The Recorder's Office does not send any titles or deeds once a loan is paid off, however, if a copy is needed of a title or deed once the document has been recorded, we can provide that. The fee for a copy is $1.00 per page. If a certified copy is needed, an additional $1.00 will be added to the total cost of the copies.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "recording",
+      "deeds"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Records FAQ - Ada County Recorder",
+        "url": "https://adacounty.id.gov/clerk/property-records/faq/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ada-assessor-ownership-from-recordings",
+    "claim": "Idaho Code 63-307 directs the assessor to ascertain current ownership from documents recorded in the county recorder's office or from admissible evidence such as a title policy, and the Ada County Assessor says its ownership records are based on recordings in the Ada County Recorder's Office. The Assessor adds that recordings after January 1 do not show in assessment records until the following assessment year, and that the grantor on a new deed must be named exactly as when title was acquired.",
+    "quote": "The assessor shall ascertain the current ownership of land from documents recorded in the county recorder's office and/or from evidence of ownership furnished to the assessor that is admissible at trial in a civil action. ... The Assessor's Office's ownership records are based on recordings in the Ada County Recorder's Office. ... recordings that occur after January 1 of each year will not show in assessment records until the following assessment year. ... Please remember that the Grantor on the new document must be exactly as it was when you acquired title to the property.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "ownership",
+      "property-tax",
+      "recording"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code 63-307 - Ownership identification",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH3/SECT63-307/",
+        "publisher": "Idaho Legislature",
+        "tier": 1
+      },
+      {
+        "title": "Assessor's Property Records — Ada County Assessor",
+        "url": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ada-treasurer-tax-deed-steps",
+    "claim": "The Ada County Treasurer explains that each January 1, real property with a three-year tax delinquency may be considered for tax deed; partial payments are accepted before the hearing but do not stop the process; the notice of pending issue of tax deed goes by certified mail two to five months before the hearing; before the county sells or transfers the property the record owner or a party in interest may redeem by paying all taxes, late charges, interest and costs; the public auction is held within 14 months of the tax deed; and money left after parties in interest are paid goes back to the record owner at the time the deed issued.",
+    "quote": "3-year delinquency: Each January 1, real property with a 3- year tax delinquency may be considered for tax deed. ... Partial payments: Accepted before the hearing but do not stop the tax deed process. ... Notice of Pending Issue of Tax Deed: Sent by certified mail 2-5 months before the hearing. ... Redemption: Before the property is sold or transferred by the county, the record owner(s) or any party in interest may redeem by paying all taxes (delinquent and current), late charges, interest and costs. ... Public Auction: Held within 14 months from the issuance of the tax deed. ... Return of Excess Proceeds to Prior Owner: All funds after payment to parties in interest are returned to the record owner(s) of the property at the time the tax deed was issued.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "property-tax",
+      "delinquency",
+      "tax-deed"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Property Auction & Tax Delinquencies - Ada County Treasurer",
+        "url": "https://adacounty.id.gov/treasurer/property-auction-tax-delinquencies/",
+        "publisher": "Ada County",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ada-zoning-ordinance-updated-november-2025",
+    "claim": "Ada County Development Services says the county updated its zoning ordinance in November 2025. The ordinance (No. 1002, approved by the Board on October 28, 2025) takes effect by its own terms on the date of publication, when it repeals and replaces all previous zoning ordinances; the exact publication date was not found in a primary source.",
+    "quote": "In November 2025, Ada County updated its zoning ordinance. ... Enactment, Effective Date and Repeal. Upon the date of publication of this Title, this Title repeals and replaces all previous zoning ordinances.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "zoning",
+      "unincorporated"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Current Projects - Ada County Development Services",
+        "url": "https://adacounty.id.gov/developmentservices/administration/current-projects/",
+        "publisher": "Ada County",
+        "tier": 1
+      },
+      {
+        "title": "Ada County Ordinance No. 1002 - Ada County Zoning Ordinance (Title 8)",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "r2-meridian-impact-fees-by-floor-area",
+    "claim": "The City of Meridian's current fee schedule charges police, fire and parks impact fees on new residential units by climate-controlled floor area per dwelling unit, in five bands from 1,200 square feet or less to 3,201 or more, under 22-2004; for a unit of 1,701 to 2,500 square feet the listed fees are $4,119 parks, $995 fire and $402 police, and for multi-family buildings the band is set by the building's average unit size.",
+    "quote": "Fire Impact Fees 1,701 to 2,500 Residential (per individual dwelling unit) by Square Feet of Climate-Controlled Floor Area) For multi-family residential structures the fee is based on the average size of units for the entire building. ... total number of indi $995 ... Parks Impact Fees 1,701 to 2,500 ... total number of indi $4,119 ... Police Impact Fees 1,701 to 2,500 ... total number of indi $402",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "impact-fees",
+      "fees",
+      "development"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "City Fees Schedule (full) — City of Meridian",
+        "url": "https://apps.meridiancity.org/CITYFEEWEB/",
+        "publisher": "City of Meridian",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "r2-boise-sewer-fee-deferral-due-on-sale",
+    "claim": "A Boise sewer deferral is an agreement under Boise City Code 10-2-8 that lets an owner pay sewer connection fees in installments: the owner of an existing residential structure may defer them for up to fifteen years, interest runs at the Wall Street Journal prime rate on the signing date, the city records the agreement with the Ada County Recorder, and unless the department agrees otherwise in writing the outstanding amount and interest become due in full on a sale or other transfer, the unpaid difference being a lien on the property due upon sale; equivalent assessment fees on an existing structure may be deferred the same way.",
+    "quote": "Payment of connection fees, by an owner of an existing residential structure, may be deferred. ... The term of a deferral and payment agreement under this section shall not exceed fifteen (15) years. ... will be a lien on the property and due upon sale. ... Interest shall be assessed upon the deferred fees at the Wall Street Journal's prime rate as published on the date the agreement is signed ... upon the sale, conveyance, assignment, or the grant of an option, mortgage, deed of trust, pledge, or security interest in, or other transfer in whole or in part of the property subject to deferral, the outstanding deferral amount shall be immediately due and payable in full, together with all interest due under the deferral and payment agreement ... The department shall record the executed deferral and payment agreement with the Office of the Ada County Recorder. ... Additional connection (equivalent assessment) fees imposed on an owner or operator of an existing structure pursuant to subsection 10-2-6-3 of this chapter may be deferred.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "sewer",
+      "fees",
+      "liens",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Boise City Code 10-2-7-3 and 10-2-8 — Specified Fees; Fee Deferral Procedures and Deferral Types (10-2-8-1 to 10-2-8-7)",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-12485",
+        "publisher": "City of Boise (hosted by American Legal Publishing)",
+        "tier": 1
+      },
+      {
+        "title": "Boise City Code 10-2-8-8 — Deferral of Equivalent Assessment Fees",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-12500",
+        "publisher": "City of Boise (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "r2-boise-harris-ranch-cid-three-taxes",
+    "claim": "Harris Ranch Community Infrastructure District No. 1, formed in 2010 under Idaho Code Title 50 Chapter 31, is a taxing district separate from the City of Boise covering land within the Harris Ranch Specific Plan (SP-01) zoning; it is funded by a general obligation bond levy and an administrative levy, both based on property value, and a special assessment based on property size, and once a special assessment is set it may not rise more than 2% a year, to a maximum cap of 10%.",
+    "quote": "The Harris Ranch Community Infrastructure District No. 1 (“District”) is a separate and distinct legal entity from the City of Boise created in accordance with Idaho Code Title 50 Chapter 31 ... Property within the District’s boundaries falls with the Harris Ranch Specific Plan (“SP-01”) zoning. When the District was formed in 2010 ... A general obligation bond levy tax, an administrative levy tax, and a special assessment. The first two are based on the value of the properties within the District. The third is based off the size of the properties within the District. ... Once a special assessment is set, it may not increase more than 2% per year to a maximum cap of 10%.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "taxing-districts",
+      "assessments",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Harris Ranch CID — City of Boise City Clerk",
+        "url": "https://www.cityofboise.org/departments/city-clerk/harris-ranch-cid/",
+        "publisher": "City of Boise",
+        "tier": 2
+      },
+      {
+        "title": "Harris Ranch CID FAQs — City of Boise",
+        "url": "https://www.cityofboise.org/departments/city-clerk/harris-ranch-cid/harris-ranch-cid-faqs/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "r2-boise-ccdc-active-and-sunset-districts",
+    "claim": "Capital City Development Corporation, Boise's redevelopment agency, lists four active urban renewal districts (30th Street, Shoreline, Gateway East and State Street) and two sunset districts: River Myrtle-Old Boise, established in 1996, which sunset in September 2025, and Westside, which sunset in September 2026.",
+    "quote": "The 30th Street district was envisioned ... As one of CCDC’s newest districts, Shoreline ... the Gateway East urban renewal district ... The State Street District ... Sunset Districts ... Old Boise (RMOB) District consisted of mostly vacant property, warehouses, and remnants of older industrial uses when it was first established in 1996 ... This district sunset in September 2025. ... The Westside District aims to reinvigorate the nearly 50 blocks immediately west of the downtown core ... This district sunset in September 2026.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "urban-renewal",
+      "taxing-districts"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Boise's Urban Renewal Districts — Capital City Development Corporation",
+        "url": "https://ccdcboise.com/urban-renewal-districts/",
+        "publisher": "Capital City Development Corporation (CCDC), Boise's urban renewal agency",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "r2-meridian-mdc-five-districts-sunsets",
+    "claim": "The Meridian Development Corporation lists five urban renewal districts with their created and sunset years: Downtown (created 2002, sunsets 2026), Ten Mile (2016, 2036), Union (2020, 2040), Northern Gateway (2021, 2041) and Linder (2021, 2041).",
+    "quote": "Downtown District 73 Acres 2002 Created 2026 Sunsets ... Ten Mile District 301 Acres 2016 Created 2036 Sunsets ... Union District 16 Acres 2020 Created 2040 Sunsets ... Northern Gateway District 126 Acres 2021 Created 2041 Sunsets ... Acres 2021 Created 2041 Sunsets The Linder Urban Renewal District",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "urban-renewal",
+      "taxing-districts"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Downtown District — Meridian Development Corporation",
+        "url": "https://meridiandevelopmentcorp.com/districts/downtown-district/",
+        "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+        "tier": 2
+      },
+      {
+        "title": "Ten Mile District — Meridian Development Corporation",
+        "url": "https://meridiandevelopmentcorp.com/districts/ten-mile-district/",
+        "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+        "tier": 2
+      },
+      {
+        "title": "Union District — Meridian Development Corporation",
+        "url": "https://meridiandevelopmentcorp.com/districts/union-renewal-district/",
+        "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+        "tier": 2
+      },
+      {
+        "title": "Northern Gateway District — Meridian Development Corporation",
+        "url": "https://meridiandevelopmentcorp.com/districts/northern-gateway-district/",
+        "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+        "tier": 2
+      },
+      {
+        "title": "Linder District — Meridian Development Corporation",
+        "url": "https://meridiandevelopmentcorp.com/districts/linder-district/",
+        "publisher": "Meridian Development Corporation, Meridian's urban renewal agency",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
   }
 ];
 
