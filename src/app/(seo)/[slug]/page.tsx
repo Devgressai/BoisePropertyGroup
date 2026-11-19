@@ -24,8 +24,23 @@ import { decideTopicIndexation } from "@/lib/seo/topicIndexation";
  * own capital, any condition, the seller sets the date, three weeks realistic.
  */
 const placeSearchTitle = (name: string) => `Sell My House Fast in ${name}, Idaho`;
-const placeSearchDescription = (name: string) =>
-  `We buy houses in ${name}, Idaho for cash, as-is, with no lender to wait on. You choose the closing date. Three weeks is realistic. Start with the address.`;
+const placeSearchDescription = (name: string, slug?: string) =>
+  slug && PLACE_SPECIFICS[slug]
+    ? `We buy houses in ${name}, Idaho for cash, as-is. ${PLACE_SPECIFICS[slug]} You choose the closing date.`
+    : `We buy houses in ${name}, Idaho for cash, as-is, with no lender to wait on. You choose the closing date. Three weeks is realistic. Start with the address.`;
+
+/**
+ * One line of what the page actually covers, for places whose content has been
+ * deepened with sourced local rules (2026-11-18). Each phrase names a section
+ * on that page, so the snippet promises nothing the page does not carry.
+ * Keep the whole description within DESCRIPTION_MAX (160).
+ */
+const PLACE_SPECIFICS: Record<string, string> = {
+  "sell-my-house-fast-star-id": "Covers the sewer district's bill at closing, 2026 impact fees and Star's flood rules.",
+  "sell-my-house-fast-ada-county": "Covers deed recording, property tax at closing and the homeowner's exemption.",
+  "sell-my-house-fast-boise-id": "Covers sewer deferrals, city utility bills at closing and permit records.",
+  "sell-my-house-fast-meridian-id": "Covers utility debt at closing, irrigation districts and impact fees.",
+};
 
 /**
  * Every valid slug is prerendered, so an unknown slug is a true 404 rather
@@ -127,7 +142,7 @@ export async function generateMetadata({
   return pageMetadata({
     path: `/${slug}`,
     title: placeSearchTitle(r.name),
-    description: placeSearchDescription(r.name),
+    description: placeSearchDescription(r.name, slug),
     robots: robotsFor({ indexable: r.indexable, reason: "" }),
   });
 }
@@ -177,12 +192,12 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       <PageSchema
         path={`/${slug}`}
         name={placeSearchTitle(r.name)}
-        description={placeSearchDescription(r.name)}
+        description={placeSearchDescription(r.name, slug)}
         extra={[
           serviceSchema({
             path: `/${slug}`,
             name: `We buy houses and property in ${r.name}, Idaho`,
-            description: placeSearchDescription(r.name),
+            description: placeSearchDescription(r.name, slug),
             area: r.kind === "place" ? `${r.name}, Idaho` : undefined,
           }),
         ]}
