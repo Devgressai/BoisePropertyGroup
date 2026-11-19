@@ -299,6 +299,7 @@ main { counter-reset: sec; }
   font-family: var(--font-display-face), Georgia, serif; font-size: 0.95rem;
   letter-spacing: 0; margin-right: 0.7rem; color: var(--bpg-ink);
 }
+.no-count .section-head > .eyebrow::before { content: none; }
 .on-navy .section-head { border-top-color: rgba(255, 255, 255, 0.4); }
 .on-navy .section-head > .eyebrow::before { color: #fff; }
 @media (min-width: 1024px) {
