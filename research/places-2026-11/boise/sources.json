@@ -1,0 +1,214 @@
+{
+  "sources": [
+    {
+      "id": "boise-ub-escrow-quote-page",
+      "title": "Escrow Quote for Utility Billing Services — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/public-works/utility-billing-ub-appointments/escrow-quote-for-utility-billing-services/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "utilities",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city utility billing page describing the escrow quote tool.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-escrow-quote-and-sewer-deferral-payoff"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-sewer-deferral-payoff-page",
+      "title": "Sewer Deferral Payoff Request — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/public-works/sewer-connections-and-fees/sewer-deferral-payoff-request/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "sewer",
+        "closing",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city form page for sewer deferral payoffs.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-escrow-quote-and-sewer-deferral-payoff"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-sewer-connections-fees-page",
+      "title": "Sewer Connections and Fees — City of Boise Public Works",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/public-works/sewer-connections-and-fees/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "sewer",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city page on connection fees, assessment fees and sewer extensions. (A separate residential source id from any commercial copy.)",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-sewer-extension-by-petition",
+        "boise-sewer-connection-fees-phased-2024"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-ub-vacancy-page",
+      "title": "Residential Request for Vacancy Status — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/public-works/utility-billing-ub-appointments/utility-billing-residential/residential-request-for-vacancy-status/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "utilities",
+        "vacant"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city utility billing vacancy form and its conditions.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-utility-vacancy-six-months"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-ub-terms-page",
+      "title": "Utility Billing Terms and Conditions — City of Boise",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/public-works/utility-billing-ub-appointments/terms-and-conditions/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "utilities",
+        "billing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the terms printed on Boise city utility bills.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-sewer-billed-on-winter-water-use"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-pressure-irrigation-page",
+      "title": "Pressure Irrigation — City of Boise Public Works",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/public-works/pressure-irrigation/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "irrigation",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city page listing the subdivisions whose pressure irrigation the city operates and bills.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-city-pressure-irrigation-selected-subdivisions"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-geothermal-page",
+      "title": "Geothermal — City of Boise Public Works",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/public-works/geothermal/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "utilities",
+        "geothermal"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city geothermal utility page, which also names the Boise Warm Springs Water District.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-geothermal-city-and-warm-springs-district"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-pds-records-center-page",
+      "title": "PDS Records Center — City of Boise Planning and Development Services",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/pds-records-center/",
+      "sourceTier": 2,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city records center page describing which construction records it holds.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "boise-pds-records-center-permit-history"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

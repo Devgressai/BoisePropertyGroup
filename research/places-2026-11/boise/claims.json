@@ -1,0 +1,194 @@
+{
+  "claims": [
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "boise-escrow-quote-and-sewer-deferral-payoff",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "The City of Boise runs an online self-service Escrow Tool that gives instant escrow quotes for many residential utility accounts, and handles payoff requests for sewer deferrals separately: a payoff request needs a signed Borrower's Authorization, and the city responds within 3 business days.",
+      "quotedLanguage": "The City of Boise has launched an online self-service Escrow Tool. This tool will allow you to get instant escrow quotes for many of our residential accounts. ... The City of Boise requires a signed Borrower's Authorization for payoff request. ... We will respond to your payoff request within 3 business days.",
+      "topic": [
+        "utilities",
+        "sewer",
+        "closing"
+      ],
+      "sourceIds": [
+        "boise-ub-escrow-quote-page",
+        "boise-sewer-deferral-payoff-page"
+      ],
+      "notes": "The city pages do not define a 'sewer deferral' or say which properties carry one. Say only that the payoff process exists."
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "boise-utility-vacancy-six-months",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Boise city utility vacancy status is limited to six months, cannot be backdated, and requires the property to be vacant for at least 30 consecutive days with no sewer or trash service used; base fees still apply, a vacancy removes only usage fees, and if the city finds service used during the vacancy the owner pays occupied rates for the whole period. 'Property is for sale/rent' is one of the listed reasons.",
+      "quotedLanguage": "Vacancy status is limited to six (6) months. The customer must notify the City as soon as they know the property will become vacant. Vacancy requests cannot be backdated. ... A vacancy only removes the usage fees.",
+      "topic": [
+        "utilities",
+        "vacant",
+        "inherited"
+      ],
+      "sourceIds": [
+        "boise-ub-vacancy-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "boise-sewer-billed-on-winter-water-use",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Boise city utility bills base sewer (water renewal) usage charges on winter water use, measured October 15 to April 15; a residence on a private well is billed on the number of residents, with a default occupancy of four. Unpaid charges carry a late payment charge of 1.5% per month.",
+      "quotedLanguage": "Winter water use is calculated from October 15-April 15 and most accurately reflects indoor water use only. If a residential user receives water service from a private well, water consumption is based on the number of residents in the home. The default occupancy is four persons.",
+      "topic": [
+        "utilities",
+        "sewer",
+        "billing"
+      ],
+      "sourceIds": [
+        "boise-ub-terms-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "boise-city-pressure-irrigation-selected-subdivisions",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "The City of Boise operates and bills pressure irrigation in a limited list of subdivisions (Azure #1 to #3, Darien, Bradford, Graystone #1 and #2, Steamboat, Linshire, Whidby, Chaucer, Eronel, Palm Court and Ashbrook); everywhere else in Boise, irrigation water is a matter for the irrigation district or canal company, and the city publishes an address lookup of district boundaries. Pressure irrigation water is separate from drinking water.",
+      "quotedLanguage": "The City of Boise operates and issues utility bills for pressure irrigation systems in selected subdivisions",
+      "topic": [
+        "irrigation",
+        "utilities"
+      ],
+      "sourceIds": [
+        "boise-pressure-irrigation-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "boise-geothermal-city-and-warm-springs-district",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Boise has a city-run geothermal heating system serving buildings mostly downtown and at Boise State University, and a separate Boise Warm Springs Water District that provides geothermal heating to homes and businesses in the East End.",
+      "quotedLanguage": "The Boise Warm Springs Water District provides geothermal heating to homes and businesses in the East End.",
+      "topic": [
+        "utilities",
+        "geothermal",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "boise-geothermal-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "boise-pds-records-center-permit-history",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Boise's PDS Records Center holds construction and development records for work inside Boise city limits, including residential permits, certificates of occupancy, subdivision plats and microfiche, released through a public records request; the city says Idaho records law prohibits it from creating records, including lists, and that permit reports can be generated in PDS Online.",
+      "quotedLanguage": "The PDS Records Center maintains records and information related to construction and development projects within Boise City Limits. ... Idaho records law prohibits us from creating records, including lists. Permit reports can be generated using PDS Online.",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "sourceIds": [
+        "boise-pds-records-center-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "boise-sewer-extension-by-petition",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Boise builds sanitary sewer extensions in conjunction with Ada County Highway District projects, on property owners' request, or where there is evidence of significant septic problems; approval depends on how many residents sign a petition agreeing to pay fees and connect, the cost and length of the extension, and available funds.",
+      "quotedLanguage": "Sanitary sewers are constructed in conjunction with Ada County Highway District (ACHD) projects, based on the needs of the property owner, or if there is evidence of significant septic system problems.",
+      "topic": [
+        "sewer",
+        "septic"
+      ],
+      "sourceIds": [
+        "boise-sewer-connections-fees-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:boise-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "boise-sewer-connection-fees-phased-2024",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Boise adjusted its sewer (water renewal) connection fees from October 1, 2024, phasing to full cost of service over three years; they had last been adjusted in 2014. Residential connection fees now scale with the home's square footage and apply to new or expanding houses, multifamily units and accessory dwelling units.",
+      "quotedLanguage": "Connection fee adjustments began October 1, 2024, with phasing to full cost of service over the following three years and regular updates thereafter.",
+      "topic": [
+        "sewer",
+        "fees",
+        "adu"
+      ],
+      "sourceIds": [
+        "boise-sewer-connections-fees-page"
+      ],
+      "notes": null
+    }
+  ]
+}

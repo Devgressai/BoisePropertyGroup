@@ -1,0 +1,184 @@
+{
+  "sources": [
+    {
+      "id": "meridian-floodplain-page",
+      "title": "Floodplain Information — City of Meridian Public Works",
+      "publisher": "City of Meridian",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/public-works/environmental/floodplain-information/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "flood"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city floodplain page. Captured via Chrome over CDP (the site refuses non-browser clients).",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-flood-four-creeks"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-utility-easements-page",
+      "title": "Utility Easements — City of Meridian",
+      "publisher": "City of Meridian",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/community/community-resources/utility-easements/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "easements",
+        "irrigation"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city page on public utility, drainage and irrigation easements. Captured via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-easements-10ft-5ft"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-public-records-page",
+      "title": "Public Records — City of Meridian City Clerk",
+      "publisher": "City of Meridian",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/city-clerk/public-records/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — City Clerk's records page. Captured via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-permit-records-online"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-urban-renewal-page",
+      "title": "Urban Renewal Districts — City of Meridian",
+      "publisher": "City of Meridian",
+      "organizationType": "municipal-government",
+      "url": "https://meridiancity.org/business/urban-renewal-districts/",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "urban-renewal",
+        "property-tax"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city explanation of urban renewal districts. Captured via Chrome over CDP.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "meridian-urd-two-tax-line-items"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nmid-faq-page",
+      "title": "Frequently Asked Questions — Nampa & Meridian Irrigation District",
+      "publisher": "Nampa & Meridian Irrigation District",
+      "organizationType": "special-district",
+      "url": "https://nmid.org/about-nmid/frequently-asked-questions/531-2/",
+      "sourceTier": 2,
+      "jurisdiction": "Nampa & Meridian Irrigation District, Idaho",
+      "topic": [
+        "irrigation",
+        "assessments"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the district's own FAQ. An irrigation district is a public body under Idaho Code Title 43.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "nmid-assessment-on-water-right-owner-liable"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nmid-puis-page",
+      "title": "Pressurized Urban Irrigation System — Nampa & Meridian Irrigation District",
+      "publisher": "Nampa & Meridian Irrigation District",
+      "organizationType": "special-district",
+      "url": "https://nmid.org/pressurized-urban-irrigation-system/",
+      "sourceTier": 2,
+      "jurisdiction": "Nampa & Meridian Irrigation District, Idaho",
+      "topic": [
+        "irrigation"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the district's description of the subdivision pressure systems it owns and operates.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "nmid-runs-subdivision-pressure-systems"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "nmid-which-district-page",
+      "title": "Which District Am I In? — Nampa & Meridian Irrigation District",
+      "publisher": "Nampa & Meridian Irrigation District",
+      "organizationType": "special-district",
+      "url": "https://nmid.org/which-district-am-i-in/",
+      "sourceTier": 2,
+      "jurisdiction": "Nampa & Meridian Irrigation District, Idaho",
+      "topic": [
+        "irrigation",
+        "lookup"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the district's guidance on identifying an address's irrigation provider.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "nmid-which-district-lookup"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

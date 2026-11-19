@@ -212,12 +212,30 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["meridian-water-sewer-rates-march-2025"],
       },
       {
-        heading: "Irrigation water is a separate system",
+        heading: "Irrigation water is a separate system, run by districts",
         body: [
-          "The city does not control any surface water. Most Meridian subdivisions have pressurized irrigation systems along the back-lot lines, mostly fed by ditch water that is not safe to drink, and those systems are not owned or operated by the City of Meridian. Who runs a given system is a question for the homeowners association or the irrigation entity.",
-          "Several irrigation districts reach into Meridian. Settlers Irrigation District delivers water across the West Boise, Meridian and South Eagle areas, and Nampa & Meridian is one of five districts operated through the Boise Project Board of Control. We do not assume which one serves a particular lot; we check.",
+          "The city does not control any surface water. Most Meridian subdivisions have pressurized irrigation systems along the back-lot lines, mostly fed by ditch water that is not safe to drink, and those systems are not owned or operated by the City of Meridian. The city lists Nampa & Meridian, Settlers, Boise-Kuna and Pioneer among the irrigation providers operating in Meridian, and Nampa & Meridian is one of five districts operated through the Boise Project Board of Control.",
+          "Where Nampa & Meridian Irrigation District built the subdivision system under contract, the district owns it and maintains the pump station and main line to the first valve off the main; the sprinkler system on the lot is the homeowner's. Its assessment is for the water right allocated to the land, not for the water used, and the district says the property owner is ultimately responsible for paying it, whether or not a mortgage company has been paying it. Land holding water rights in a second district gets a tax notice from both.",
+          "An unpaid assessment is not a private matter between the owner and the district. Under Idaho Code 43-706 it is a lien on the land from the first Monday in March, ranking ahead of the mortgage, and it stays with the property when it is sold. Land with no access to irrigation water can petition for an exclusion, signed by every deeded owner.",
+          "To find out who serves a lot, the district's own advice is to start with the bill, because water can come from an irrigation district or be serviced by a city, and then the Idaho Department of Water Resources' Irrigation Organizations Map, which does not show city-serviced water. We do not assume which provider serves a particular lot; we check.",
         ],
-        claims: ["meridian-pressurized-irrigation-not-city", "settlers-district-coverage", "boise-project-five-districts"],
+        claims: ["meridian-pressurized-irrigation-not-city", "meridian-easements-10ft-5ft", "boise-project-five-districts", "nmid-runs-subdivision-pressure-systems", "nmid-assessment-on-water-right-owner-liable", "id-irrigation-assessment-lien-survives-sale", "nmid-which-district-lookup"],
+      },
+      {
+        heading: "Easements run along the lot lines",
+        body: [
+          "Meridian lots usually carry public utility, drainage and irrigation easements: typically 10 feet wide along the street and rear yards and 5 feet along each side yard, and wider where the purpose calls for it. Those strips carry lot drainage and the pressurized irrigation lines, and utility providers, the irrigation districts included, are allowed into them.",
+          "For a seller the practical points are a shed, a fence or a planting bed built across one of those strips, and a buyer's surveyor who may notice. It is the kind of thing worth knowing before an inspection rather than during one.",
+        ],
+        claims: ["meridian-easements-10ft-5ft"],
+      },
+      {
+        heading: "Four creeks carry the flood risk",
+        body: [
+          "In Meridian the mapped flood hazard follows creeks. The city's watershed has four creeks mapped by FEMA as Special Flood Hazard Areas: Fivemile, Eightmile, Ninemile and Tenmile Creeks.",
+          "On request, Meridian Public Works will say whether a property is in or out of a Special Flood Hazard Area or a floodway, give base flood elevation data, share any recorded history of flooding at the site, and provide copies of Elevation Certificates for properties permitted through the city. A buyer's lender may well ask the flood question; the city can answer it from its own records.",
+        ],
+        claims: ["meridian-flood-four-creeks"],
       },
       {
         heading: "Part of the line to the street is yours",
@@ -226,6 +244,21 @@ export const placeContent: Record<string, PlaceContent> = {
           "Wastewater itself is treated by the city at its Wastewater Resource Recovery Facility. Stormwater is a different matter: the city sends those questions to the Ada County Highway District, which also holds the roads, because Idaho law bars a city inside a countywide highway district from maintaining or supervising city highways.",
         ],
         claims: ["meridian-private-sewer-lateral-owner-responsibility", "meridian-city-wastewater-treatment", "achd-city-highway-powers-abolished"],
+      },
+      {
+        heading: "Looking up a Meridian permit record",
+        body: [
+          "Meridian's Building Services handles structural, fire, electrical, mechanical and plumbing permits inside the city, from application through field inspection, including remodels, fences, sheds and garages. Its permit information is searchable online without an account, and a free public user account gives a fuller search. Anything else goes to the City Clerk, who is the city's custodian of records and receives public records requests.",
+          "If you are not sure whether a past project was permitted, that search is the place to start. An unpermitted garage conversion or patio cover is not a reason we walk away, but it is a cost, and it is better counted from the record than guessed.",
+        ],
+        claims: ["cv-meridian-building-services-scope", "meridian-permit-records-online"],
+      },
+      {
+        heading: "Two lines on the tax bill inside an urban renewal district",
+        body: [
+          "Some Meridian property sits inside an urban renewal district, and its tax bill looks different. The city explains that such a property shows two line items, one for the base and one for the increment, but that the total charged is the same as for a property in the same taxing districts outside one. Districts close within 20 years of being created.",
+        ],
+        claims: ["meridian-urd-two-tax-line-items"],
       },
       {
         heading: "Building activity, and projected growth",
@@ -448,8 +481,10 @@ export const placeContent: Record<string, PlaceContent> = {
           "Residential and commercial buildings in Boise must connect to the city sewer system, which Public Works operates across more than 1,000 miles of pipe. That is a straightforward contrast with unincorporated Ada County, where on-site septic is permitted under Central District Health.",
           "Less well known is the assessment fee. Boise charges a one-time assessment, separate from the connection fee, for properties that have never been developed or never connected. The city names three cases where it will likely apply: building on a lot being split, building on a previously undeveloped lot, and connecting an existing building to sanitary sewer.",
           "If you are selling an infill lot or a parcel you have split, that fee lands on your buyer's numbers and therefore on your price. The city publishes no amounts, so we do not quote one — but the cost is real and it is worth asking about before you assume a lot is clean.",
+          "Connection fees themselves went up recently. Boise began adjusting them on October 1, 2024, phasing to full cost of service over three years, after leaving them unchanged since 2014. Residential connection fees now scale with the square footage of the home and apply to new or expanding houses, multifamily units and accessory dwelling units, so a buyer planning an ADU or a larger replacement house is pricing a different fee than the one a neighbour paid a few years ago.",
+          "A Boise house still on septic is not stuck there by default, but it cannot simply ask for a pipe either. The city builds sewer extensions alongside Ada County Highway District projects, at property owners' request, or where there is evidence of significant septic problems, and approval turns on how many residents sign a petition agreeing to pay and connect, the cost and length of the line, and whether funds are available.",
         ],
-        claims: ["boise-sewer-connection-required", "boise-sewer-assessment-fee-undeveloped", "ada-septic-authority-cdh"],
+        claims: ["boise-sewer-connection-required", "boise-sewer-assessment-fee-undeveloped", "ada-septic-authority-cdh", "boise-sewer-connection-fees-phased-2024", "boise-sewer-extension-by-petition"],
       },
       {
         heading: "Flooding here has three sources, not one",
@@ -530,6 +565,40 @@ export const placeContent: Record<string, PlaceContent> = {
           "For a seller the practical point is simple. Which utility serves a property is a question for the utility, not for city hall, and a buyer taking over service is dealing with a company whose rates are approved by a state commission rather than by the city council. We do not assume which of the two — or which of the smaller private systems in the area — serves any particular address.",
         ],
         claims: ["boise-drinking-water-private-utilities", "boise-water-utility-customer-counts-2023", "boise-veolia-surface-and-groundwater", "boise-capitol-water-wells"],
+      },
+      {
+        heading: "The city bill, and what to settle before closing",
+        body: [
+          "The water company and the city are different organisations in Boise, but sewer and trash are billed by the city. Boise Utility Billing has an online self-service Escrow Tool that gives instant escrow quotes on many residential accounts. Sewer deferrals are handled separately: a payoff request needs a signed Borrower's Authorization, and the city answers within 3 business days. If your property has one, it is a line to clear before the sale, not after.",
+          "Two billing rules explain bills that look wrong. Sewer usage is charged on winter water use, measured from October 15 to April 15, which the city treats as indoor use only. A house on a private well is billed on the number of residents, with a default of four. Unpaid charges carry a late payment charge of 1.5% per month.",
+          "A house that will sit empty while it is sold can go on vacancy status, but only on the city's terms. Vacancy is limited to six months, cannot be backdated, and needs the property empty for at least 30 consecutive days with no sewer or trash service used. Base fees continue; only usage fees stop. If the city finds service used during the vacancy, the owner pays occupied rates for the whole period. 'Property is for sale/rent' is one of the reasons on the form, so an estate or a vacant rental qualifies, as long as the request goes in before the vacancy, not after.",
+        ],
+        claims: ["boise-escrow-quote-and-sewer-deferral-payoff", "boise-sewer-billed-on-winter-water-use", "boise-utility-vacancy-six-months"],
+      },
+      {
+        heading: "The city runs irrigation in fourteen subdivisions, not the rest",
+        body: [
+          "Pressure irrigation in Boise is a second water system, separate from drinking water. The City of Boise operates and bills it in a short list of subdivisions: Azure #1, #2 and #3, Darien, Bradford, Graystone #1 and #2, Steamboat, Linshire, Whidby, Chaucer, Eronel, Palm Court and Ashbrook. Anywhere else in the city, irrigation water belongs to an irrigation district or canal company, and the city publishes an address lookup showing whose boundary a house falls inside.",
+          "That matters at a sale because a district charge behaves differently from a city bill. Idaho Code 43-706 makes an irrigation district assessment a lien on the land from the first Monday in March, ahead of any mortgage, and a buyer takes the property subject to any annual assessment left unpaid. Whether the assessment arrives on its own notice or on the county tax bill depends on the district.",
+        ],
+        claims: ["boise-city-pressure-irrigation-selected-subdivisions", "id-irrigation-assessment-lien-survives-sale", "id-irrigation-flat-rate-on-county-roll"],
+      },
+      {
+        heading: "Geothermal heat, from two different systems",
+        body: [
+          "The City of Boise runs a geothermal heating system serving buildings mainly downtown and on the Boise State University campus. Separately, the Boise Warm Springs Water District provides geothermal heating to homes and businesses in the East End.",
+          "If you are selling an older East End house, find out whether it is on the district's system and what that account looks like. A buyer will want to know who supplies the heat, and here the answer is a water district rather than the city.",
+        ],
+        claims: ["boise-geothermal-city-and-warm-springs-district"],
+      },
+      {
+        heading: "Where a Boise permit history lives",
+        body: [
+          "For work inside Boise city limits, the PDS Records Center holds the construction record: residential permits, certificates of occupancy, subdivision plats, case files and older material on microfiche, released through a public records request. Permit reports can also be run in PDS Online. The city says Idaho records law prohibits it from creating records, lists included, so a request works best when it names the address and the record you want.",
+          "Code compliance is a separate record. Boise's case lookup tool shows closed code compliance cases only; an open case does not appear there, and more on a closed one may be available by public records request.",
+          "Unfinished work has a route too. Boise City Code 9-1B-14 lets a building permit be transferred to another party who brings the original holder's signed consent to the transfer and to the conditions of the approval, for a clerical fee. A house sold mid-project does not have to start its permit from nothing.",
+        ],
+        claims: ["boise-pds-records-center-permit-history", "cv-boise-case-lookup-closed-cases-only", "cv-boise-permit-transfer"],
       },
       {
         heading: "What that means for the offer",
