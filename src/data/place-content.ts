@@ -39,6 +39,22 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["eagle-water-split-city-and-veolia", "eagle-veolia-acquired-eagle-water-company"],
       },
       {
+        heading: "Four providers means four accounts to close",
+        body: [
+          "The city says so itself: water, sewer and trash are not bundled into one municipal bill in Eagle. Hardin Sanitation has collected trash and recycling for every Eagle home and business since January 1, 2023. The Eagle Sewer District provides sewer. Water comes from either the City of Eagle Water Department or Veolia, depending on location. And some properties are still on a private well and a septic system, with no water or sewer account at all.",
+          "For a seller that is a checklist rather than a phone call. If the house is on city water, the account carries its own terms: each new customer is billed a service deposit on the first statement, a set-up fee applies to every account being transferred or set up, and the outgoing owner's deposit is applied to the final bill with any remainder refunded. Bills are due on the 14th, and delinquent fees follow a week later. A buyer will ask which of the four the house uses; it helps to have the answer before they do.",
+        ],
+        claims: ["eagle-utilities-from-four-providers", "eagle-water-deposit-and-transfer-fee"],
+      },
+      {
+        heading: "The building plans may no longer exist",
+        body: [
+          "Eagle keeps building permits in an online records repository, alongside agendas, contracts and other documents, and publishes its weekly building permit reports there too.",
+          "The plans behind a permit may not be. Eagle treats residential building plans as eligible for destruction two years after the certificate of occupancy, and under Resolution 25-15 residential plans for permits with a certificate of occupancy issued before August 1, 2023 are eligible for destruction. For an older Eagle house, a buyer asking for the original drawings may be asking for something the city no longer holds. When you do file a request, Idaho Code gives the city three working days to respond, and up to ten if it needs more time.",
+        ],
+        claims: ["eagle-residential-plans-not-retained"],
+      },
+      {
         heading: "Flooding comes from the creek as well as the river",
         body: [
           "The City of Eagle identifies two sources of flooding in the city: Dry Creek and the Boise River. Owners along the river tend to know it; owners near the creek are often less aware that it counts too.",
@@ -298,8 +314,25 @@ export const placeContent: Record<string, PlaceContent> = {
         body: [
           "Garden City's public water system is the Garden City Water and Sewer System. Federal records list it as owned by local government and supplied by groundwater, serving 12,500 people through 4,595 connections.",
           "That is a different arrangement from [Boise](/sell-my-house-fast-boise-id) next door, where drinking water comes from private utilities regulated by the state. Federal records also list a few small private systems with Garden City addresses, so a particular property's water service is worth confirming rather than assuming.",
+          "The water itself comes from city wells, treated with small amounts of disinfectant and low doses of polyphosphate. The city draws a clear line on repairs: it cannot deal with plumbing inside a building, but it can deal with the water line from the street to the meter.",
         ],
-        claims: ["gardencity-city-water-and-sewer-system", "boise-drinking-water-private-utilities"],
+        claims: ["gardencity-city-water-and-sewer-system", "boise-drinking-water-private-utilities", "gardencity-wells-and-street-to-meter"],
+      },
+      {
+        heading: "The city bill follows the house, and the title company tells the city",
+        body: [
+          "Garden City bills water, sewer and trash on one statement, in arrears. Its Utility Billing Department puts the sale rule plainly in its letter to new owners: debts for utility bills stay with the property and do not travel with the customer. The title company gives the city the buyer's name and the closing date, the city reports any outstanding balance on the property, and the account moves into the buyer's name on that closing date, with charges starting immediately even if the buyer moves in later. The seller's final bill runs through the last date of ownership or occupancy.",
+          "A landlord has one more step. Every renter must complete a Renters Agreement with the city and pay a security deposit, so a rental changing hands with a tenant in place has an account arrangement to carry over as well as a lease.",
+        ],
+        claims: ["gardencity-utility-debt-stays-transfer-at-closing", "gardencity-renters-agreement-deposit"],
+      },
+      {
+        heading: "Work done without a permit has a utility consequence",
+        body: [
+          "Garden City is direct about unpermitted work. It may lead to the city discontinuing utility services to the property, an infraction with a fine of up to $100, and double the permit fees. Anyone caught more than twice in a calendar year can face a misdemeanor and a year's ban from working inside city limits, and emergency work still needs a permit, pulled within one working day if it happens after hours.",
+          "For a seller, the record matters more than the fine. Past work without a permit tends to surface when a buyer's inspector asks for the paperwork, and copies of city records are requested from the City Clerk on the city's own form.",
+        ],
+        claims: ["gardencity-work-without-permit-consequences", "gardencity-wells-and-street-to-meter"],
       },
       {
         heading: "Zoning, and an overlay worth checking",

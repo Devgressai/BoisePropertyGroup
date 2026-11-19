@@ -56,3 +56,21 @@ build-geography, check-evidence, verify-quotes. Page copy is hand-written in
   property subject to it; allocation between buyer and seller is contract and escrow practice,
   not statute, and is not stated.
 - **Whether a given district bills through the county roll.** 43-701B/D and 43-727 are permissive.
+
+### Eagle (added 2026-11-18, `eagle/`)
+- **City water household count conflicts between city pages**: /366/Utilities says ~3,400, /419
+  says ~3,800 (the existing claim uses /419). Not reconciled; no new claim uses either figure.
+- **Spring Valley Community Infrastructure District No. 1** is linked from Eagle's records page
+  (launch-admin.com/spring-valley), but that page carries no substance. A CID levies on property
+  under the Community Infrastructure District Act (Idaho Code 50-3101 and following, not read here); neither the district's boundary nor its levy was sourced, so
+  the page does not mention it. Worth a proper read next pass.
+- **Eagle Sewer District** account and transfer rules: the district's own site was not read.
+- **Veolia (Eagle Water Service Area) transfer terms**: not read; the deposit and set-up fee claim
+  is City of Eagle Water only.
+
+### Garden City (added 2026-11-18, `garden-city/`)
+- The homeowner letter is a PDF on the city's media host (storage.googleapis.com/juniper-media-library),
+  linked from the Utility Billing page as "Welcome Homeowner!". Cached and extracted.
+- **Garden City sewer division page** carries no account or connection rules (wipes guidance only).
+- **Lien for unpaid Garden City utilities**: the letter says debts stay with the property; no code
+  section was read, so the page does not say "lien".

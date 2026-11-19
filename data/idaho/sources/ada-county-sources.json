@@ -10312,6 +10312,238 @@
         "city:meridian"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-utilities-overview-page",
+      "title": "Utilities — City of Eagle",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/366/Utilities",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's overview of who provides which utility in Eagle. ⚠️ Gives ~3,400 city water households where /419 gives ~3,800; neither figure is used from this page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-utilities-from-four-providers"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-water-service-summary-page",
+      "title": "Summary of Your City of Eagle Water Services",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/483/Summary-of-Your-City-of-Eagle-Water-Serv",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "utilities",
+        "billing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city water department billing terms, deposits and fees.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-water-deposit-and-transfer-fee"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-public-records-page",
+      "title": "Public Records — City of Eagle",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/446/Public-Records",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — City Clerk's records page, including the residential plan retention rule (Resolution 25-15).",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-residential-plans-not-retained"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-building-permit-reports-page",
+      "title": "Building Permit Reports — City of Eagle",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/1863/Building-Permit-Reports",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — where the weekly building permit reports are published.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-residential-plans-not-retained"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-homeowner-letter",
+      "title": "Welcome Homeowner letter — Garden City Utility Billing Department",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://storage.googleapis.com/juniper-media-library/464/2025/12/Home_Owner_Letter(1).pdf",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "utilities",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city utility billing department's letter to new owners, linked from its Utility Billing page as the 'Welcome Homeowner!' guide. PDF cached and extracted to committed text.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-utility-debt-stays-transfer-at-closing"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-utility-billing-page",
+      "title": "Utility Billing — City of Garden City",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/utility-billing",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "utilities",
+        "billing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city utility billing page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-utility-debt-stays-transfer-at-closing",
+        "gardencity-renters-agreement-deposit"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-work-without-permit-faq",
+      "title": "What if I do work without a permit? — City of Garden City",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/frequently-asked-questions/what-if-i-do-work-without-a-permit",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city building FAQ.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-work-without-permit-consequences"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-water-division-page",
+      "title": "Water Division — City of Garden City Public Works",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/public-works/water-division",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city water division page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-wells-and-street-to-meter"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-public-records-page",
+      "title": "Public Records / Information Request — City of Garden City",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/city-clerk/public-records-information-request",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — City Clerk records request page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-wells-and-street-to-meter"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }

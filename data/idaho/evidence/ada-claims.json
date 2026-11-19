@@ -14670,6 +14670,173 @@
         "nmid-which-district-page"
       ],
       "notes": null
+    },
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "eagle-utilities-from-four-providers",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "The City of Eagle says water, sewer and trash are not provided together by the city: Hardin Sanitation has been the trash and recycling provider for all Eagle residents and businesses since January 1, 2023, the Eagle Sewer District provides sewer, water comes from either the City of Eagle Water Department or Veolia depending on location, and some properties are still on private wells and septic systems.",
+      "quotedLanguage": "Services often combined by the local municipality, water-sewer-trash, are not provided in that manner in our city. ... In some instances, water and sewer may still be a function of private wells and septic systems on the property.",
+      "topic": [
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "eagle-utilities-overview-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "eagle-water-deposit-and-transfer-fee",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "City of Eagle Water bills a service deposit to each new customer on the first statement, refunds it after 12 consecutive on-time payments or applies it to the final bill and refunds the rest, and charges a set-up fee on all new accounts being transferred or initially set up; bills are due on the 14th and delinquent fees are assessed one week later.",
+      "quotedLanguage": "Each new customer will be billed a service deposit on their first billing statement. ... Set-up Fee-charged on all new accounts being transferred or initially set up",
+      "topic": [
+        "utilities",
+        "billing",
+        "closing"
+      ],
+      "sourceIds": [
+        "eagle-water-service-summary-page"
+      ],
+      "notes": "Applies to City of Eagle Water customers only, not Veolia customers."
+    },
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "eagle-residential-plans-not-retained",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Eagle keeps building permits and other records in an online repository and publishes weekly building permit reports there, but residential building plans are eligible for destruction two years after the certificate of occupancy, and under Resolution 25-15 residential plans for permits with a certificate of occupancy issued before August 1, 2023 are eligible for destruction. Idaho Code gives the city three working days to respond to a records request, and up to ten if more time is needed.",
+      "quotedLanguage": "RESIDENTIAL PLANS older than two years are no longer retained. Residential building plans are eligible for destruction two-years after the issuance of a certificate of occupancy",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "sourceIds": [
+        "eagle-public-records-page",
+        "eagle-building-permit-reports-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "gardencity-utility-debt-stays-transfer-at-closing",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Garden City's Utility Billing Department tells new owners that utility debts stay with the property rather than travelling with customers, that the title company supplies the new owner's name and closing date so the city can report any outstanding balance on the property, and that the account transfers into the new owner's name on the closing date the title company provides, with charges starting immediately; water, sewer and trash are billed in arrears on one statement, and the seller's final bill runs through the final date of ownership or occupancy.",
+      "quotedLanguage": "Debts for Utility Bills stay with the property, they do not travel with customers ... The account is transferred into your name based on the closing date provided by the title company and charges will begin immediately.",
+      "topic": [
+        "utilities",
+        "closing",
+        "liens"
+      ],
+      "sourceIds": [
+        "gardencity-homeowner-letter",
+        "gardencity-utility-billing-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "gardencity-renters-agreement-deposit",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Garden City provides water, sewer, trash and recycling, and requires every renter to complete a Renters Agreement and pay a security deposit; new homeowners are asked to call Utility Billing to verify their service and billing information.",
+      "quotedLanguage": "New Renter - all renters must complete the Renters Agreement and pay a security deposit.",
+      "topic": [
+        "utilities",
+        "landlord"
+      ],
+      "sourceIds": [
+        "gardencity-utility-billing-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "gardencity-work-without-permit-consequences",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Garden City says work without a permit may result in discontinuance of utility services to the property, an infraction with a fine of up to $100, and double the permit fees; anyone found working without a permit more than twice in a calendar year may face a misdemeanor and a year's ban from working within city limits. Emergency work also needs a permit, pulled within one working day if the emergency falls after hours.",
+      "quotedLanguage": "Work without a permit may result in discontinuance of utility services to the subject location, an infraction with a fine of up to $100, and double the permit fees.",
+      "topic": [
+        "permits",
+        "code-violations"
+      ],
+      "sourceIds": [
+        "gardencity-work-without-permit-faq"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "gardencity-wells-and-street-to-meter",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Garden City supplies water from wells throughout the city and treats it with small amounts of disinfectant and low doses of polyphosphate; the city says it cannot address plumbing inside buildings but can address the water lines from the street to the water meters. Public records requests go to the City Clerk on the city's request form.",
+      "quotedLanguage": "While Garden City cannot address problems with plumbing in buildings, we can address the water lines from the street to the water meters.",
+      "topic": [
+        "water",
+        "utilities",
+        "records"
+      ],
+      "sourceIds": [
+        "gardencity-water-division-page",
+        "gardencity-public-records-page"
+      ],
+      "notes": null
     }
   ]
 }

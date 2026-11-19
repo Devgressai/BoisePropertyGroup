@@ -1,0 +1,100 @@
+{
+  "claims": [
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "gardencity-utility-debt-stays-transfer-at-closing",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Garden City's Utility Billing Department tells new owners that utility debts stay with the property rather than travelling with customers, that the title company supplies the new owner's name and closing date so the city can report any outstanding balance on the property, and that the account transfers into the new owner's name on the closing date the title company provides, with charges starting immediately; water, sewer and trash are billed in arrears on one statement, and the seller's final bill runs through the final date of ownership or occupancy.",
+      "quotedLanguage": "Debts for Utility Bills stay with the property, they do not travel with customers ... The account is transferred into your name based on the closing date provided by the title company and charges will begin immediately.",
+      "topic": [
+        "utilities",
+        "closing",
+        "liens"
+      ],
+      "sourceIds": [
+        "gardencity-homeowner-letter",
+        "gardencity-utility-billing-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "gardencity-renters-agreement-deposit",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Garden City provides water, sewer, trash and recycling, and requires every renter to complete a Renters Agreement and pay a security deposit; new homeowners are asked to call Utility Billing to verify their service and billing information.",
+      "quotedLanguage": "New Renter - all renters must complete the Renters Agreement and pay a security deposit.",
+      "topic": [
+        "utilities",
+        "landlord"
+      ],
+      "sourceIds": [
+        "gardencity-utility-billing-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "gardencity-work-without-permit-consequences",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Garden City says work without a permit may result in discontinuance of utility services to the property, an infraction with a fine of up to $100, and double the permit fees; anyone found working without a permit more than twice in a calendar year may face a misdemeanor and a year's ban from working within city limits. Emergency work also needs a permit, pulled within one working day if the emergency falls after hours.",
+      "quotedLanguage": "Work without a permit may result in discontinuance of utility services to the subject location, an infraction with a fine of up to $100, and double the permit fees.",
+      "topic": [
+        "permits",
+        "code-violations"
+      ],
+      "sourceIds": [
+        "gardencity-work-without-permit-faq"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:garden-city"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "gardencity-wells-and-street-to-meter",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Garden City supplies water from wells throughout the city and treats it with small amounts of disinfectant and low doses of polyphosphate; the city says it cannot address plumbing inside buildings but can address the water lines from the street to the water meters. Public records requests go to the City Clerk on the city's request form.",
+      "quotedLanguage": "While Garden City cannot address problems with plumbing in buildings, we can address the water lines from the street to the water meters.",
+      "topic": [
+        "water",
+        "utilities",
+        "records"
+      ],
+      "sourceIds": [
+        "gardencity-water-division-page",
+        "gardencity-public-records-page"
+      ],
+      "notes": null
+    }
+  ]
+}
