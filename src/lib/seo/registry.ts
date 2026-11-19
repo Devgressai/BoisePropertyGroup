@@ -46,6 +46,11 @@ export interface PageEntry {
 
 /** Last substantive change to each content source, from git history. */
 const PLACE_CONTENT_UPDATED = "2026-09-12";
+/** Place pages whose substance changed after PLACE_CONTENT_UPDATED. */
+const PLACE_UPDATED: Record<string, string> = {
+  "sell-my-house-fast-kuna-id": "2026-11-18",
+};
+const placeUpdated = (slug: string) => PLACE_UPDATED[slug] ?? PLACE_CONTENT_UPDATED;
 const COMMERCIAL_CONTENT_UPDATED = "2026-09-12";
 
 /** Place pages that have earned an index — the SAME gate the route uses. */
@@ -95,10 +100,10 @@ export function registry(): PageEntry[] {
   ];
 
   if (contentFor(county.slug)) {
-    out.push({ path: `/${county.slug}`, label: county.name, kind: "place", stage: "bofu", parent: "/locations", updated: PLACE_CONTENT_UPDATED });
+    out.push({ path: `/${county.slug}`, label: county.name, kind: "place", stage: "bofu", parent: "/locations", updated: placeUpdated(county.slug) });
   }
   for (const p of publishedPlaces()) {
-    out.push({ path: `/${p.slug}`, label: p.name, kind: "place", stage: "bofu", parent: "/locations", updated: PLACE_CONTENT_UPDATED });
+    out.push({ path: `/${p.slug}`, label: p.name, kind: "place", stage: "bofu", parent: "/locations", updated: placeUpdated(p.slug) });
   }
   for (const c of publishedCommercial()) {
     out.push({ path: `/commercial/${c.slug}`, label: c.eyebrow, kind: "commercial", stage: commercialStage(c.kind), parent: "/commercial", updated: COMMERCIAL_CONTENT_UPDATED });

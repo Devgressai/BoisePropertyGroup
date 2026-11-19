@@ -16013,6 +16013,438 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Garden City, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "id-irrigation-assessment-lien-survives-sale",
+    "claim": "Under Idaho Code 43-706, irrigation district assessments are liens against the property assessed from the first Monday in March of each year, are a first lien superior to any mortgage or deed of trust, and stay until paid; on a sale of the property the purchaser takes it subject to any annual district assessment still unpaid at the time of the sale.",
+    "quote": "All assessments shall be liens against the property assessed from and after the first Monday in March of any year. ... Assessment liens shall be a first lien on the property assessed and shall be superior to the lien of any mortgage or deed of trust, whether prior in time or not. ... Upon any sale of the property, the purchaser at such sale shall take the property subject to any annual assessment of the district that remains unpaid at the time of the sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "irrigation",
+      "liens",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 43-706 — Lien of assessment (irrigation districts)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-706/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(43-706), added 1903, p. 150, sec. 27; reen. R.C., sec. 2411; am. 1911, ch. 71, sec. 6, p. 194; am. 1911, ch. 154, sec. 11, p. 461; am. 1915, ch. 143, sec. 9, p. 304; reen. C.L., sec. 2411; C.S., sec. 4388; I.C.A., sec. 42-706; am. 2025, ch. 148, sec. 1, p. 731.]"
+  },
+  {
+    "id": "id-irrigation-flat-rate-on-county-roll",
+    "claim": "Idaho Code 43-701B lets an irrigation district board assess residential tracts of one acre or less at a flat rate, and 43-701D lets those assessments be certified to the county, entered on the county assessment roll and collected by county officers in the same manner as other municipal taxes; the board may instead collect them itself.",
+    "quote": "the board may assess all such tracts at a flat rate ... shall be collected and accounted for by the county officers in the same manner as other municipal taxes",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "irrigation",
+      "property-tax"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 43-701B — Flat rate assessments for tracts of one acre or less",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-701B/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      },
+      {
+        "title": "Idaho Code § 43-701D — Flat rate assessments — Collection by county officers",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-701D/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "id-lid-assessment-lien-superior",
+    "claim": "Under Idaho Code 50-1721, assessments levied to pay for a local improvement are a lien on the assessed property from the date the levying ordinance passes, superior to any mortgage or other encumbrance, and remain a lien until paid; the lien is not extinguished by a sale of the property for nonpayment of general taxes.",
+    "quote": "shall constitute a lien upon and against the property upon which such assessment or assessments are made and levied from and after the date upon which the ordinance levying such assessment or assessments is passed, which lien shall be superior to the lien of any mortgage or other encumbrance, whether prior in time or not",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "liens",
+      "local-improvement-districts"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 50-1721 — Lien of assessment — Foreclosure (local improvement districts)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch17/sect50-1721/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[50-1721, added 1976, ch. 160, sec. 2, p. 583.; am. 2020, ch. 273, sec. 3, p. 807.]"
+  },
+  {
+    "id": "kuna-city-runs-pressurized-irrigation",
+    "claim": "The City of Kuna runs its own municipal irrigation system, which its code names the Kuna Municipal Irrigation District: city Water Department staff operate gravity and pressurized irrigation systems, the start of the season depends on when the Boise-Kuna and New York irrigation districts allow delivery (generally mid-to-late April), and the code bars furnishing city irrigation water to landowners outside city limits until state law permits it.",
+    "quote": "The City of Kuna Irrigation Department is run by the staff that makes up the Water Department. ... The irrigation system shall be known as \"Kuna Municipal Irrigation District\". ... No irrigation water shall be furnished from the city irrigation system to landowners outside of the boundaries of the city",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "irrigation",
+      "utilities",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Water & Irrigation",
+        "url": "https://www.kunacity.id.gov/406/Water-Irrigation",
+        "publisher": "City of Kuna — Public Works",
+        "tier": 2
+      },
+      {
+        "title": "Kuna City Code Title 7, Chapter 8 — Municipal Irrigation System Regulations",
+        "url": "https://library.municode.com/id/kuna/codes/city_code?nodeId=TIT7PUWAPR_CH8MUIRSYRE",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-irrigation-water-rights-pooled",
+    "claim": "Kuna City Code 7-8-4 deems every landowner within the service area of the city's irrigation system to have consented to pooling their water rights for delivery purposes, unless the landowner makes a written demand for delivery under an appurtenant water right on or before March 1 of that year; the city certifies the pooled lands to each irrigation district annually.",
+    "quote": "all landowners within the service area of the city's irrigation system are deemed to have consented to the pooling of water rights for delivery purposes",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "irrigation",
+      "water-rights"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Kuna City Code Title 7, Chapter 8 — Municipal Irrigation System Regulations",
+        "url": "https://library.municode.com/id/kuna/codes/city_code?nodeId=TIT7PUWAPR_CH8MUIRSYRE",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-irrigation-assessment-nine-payments",
+    "claim": "Kuna City Code 7-7-7 lets the city spread the annual municipal irrigation assessment over nine equal monthly payments billed October through June; a new account opened after October must pay the past months to become current, and where an HOA common lot carries its own irrigation assessment, account owners agree to pay a fractional share if the HOA has not paid it before May 31.",
+    "quote": "the city may prorate the municipal irrigation assessment on the monthly bill in nine (9) equal payments with the first payment being billed in October and the last payment being billed in June. If a new account is established after October, then the new account owner shall pay any past month(s), so his/her account is then current.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "irrigation",
+      "billing",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Kuna City Code Title 7, Chapter 7 — City Municipal Utilities Billing Code",
+        "url": "https://library.municode.com/id/kuna/codes/city_code?nodeId=TIT7PUWAPR_CH7CIMUUTBICO",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-utility-application-at-title-company",
+    "claim": "Kuna City Code 7-7-5 requires a utility application for every new account owner and has the application provided at the title company where the purchase closes, completed before or at closing, with the title company sending the city a copy of the deed and the completed application.",
+    "quote": "The application shall be provided to the new account owner at the title company where the purchase is to close, and the application shall be completed prior to or at the time of closing.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "utilities",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Kuna City Code Title 7, Chapter 7 — City Municipal Utilities Billing Code",
+        "url": "https://library.municode.com/id/kuna/codes/city_code?nodeId=TIT7PUWAPR_CH7CIMUUTBICO",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-utility-charges-lien-on-property",
+    "claim": "Under Kuna City Code 7-7-6b, 7-7-6c and 7-7-18, the owner of the real property stays financially responsible for city utility charges even where a tenant or property manager receives the bills, the owner consents in the service contract to a lien for delinquent charges recorded with the Ada County Recorder, and the city attorney may record that lien on accounts more than 90 days delinquent.",
+    "quote": "the owner of the real property remains financially responsible for charges assessed to the account ... said lien shall be recorded with the Ada County Recorder's Office ... On accounts that are more than ninety (90) days delinquent, the city attorney is authorized to record a lien against the properties",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "utilities",
+      "liens",
+      "landlord"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Kuna City Code Title 7, Chapter 7 — City Municipal Utilities Billing Code",
+        "url": "https://library.municode.com/id/kuna/codes/city_code?nodeId=TIT7PUWAPR_CH7CIMUUTBICO",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-utility-deposit-100-nontransferable",
+    "claim": "Kuna City Code 7-7-20 requires a refundable $100.00 deposit for each opened utility account; the deposit is held for the term of the account, is non-transferable, and on closing is applied to any balance with the rest returned to the account holder.",
+    "quote": "the city shall require all account owners to pay a refundable deposit to the city in the amount of one hundred dollars ($100.00) for each opened utility account. The deposit shall be held for the term of the account and it is non-transferable.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "utilities",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Kuna City Code Title 7, Chapter 7 — City Municipal Utilities Billing Code",
+        "url": "https://library.municode.com/id/kuna/codes/city_code?nodeId=TIT7PUWAPR_CH7CIMUUTBICO",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-city-bills-water-sewer-trash-irrigation",
+    "claim": "Kuna's Utility Billing office provides billing for water, sewer and trash collection, is the first point of contact for irrigation billing and for connecting and disconnecting services, and states that meters are city property not to be turned on or off except by authorized city employees; residential refuse collection is by J&M Sanitation, ordered through Kuna City Hall.",
+    "quote": "provides billing services for water, sewer, and trash collection. ... Meters are the property of the City of Kuna and are not to be turned on or off except by authorized city employees.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "utilities",
+      "billing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Utility Billing — City of Kuna",
+        "url": "https://www.kunacity.id.gov/465/Utility-Billing",
+        "publisher": "City of Kuna",
+        "tier": 2
+      },
+      {
+        "title": "Sanitation — City of Kuna",
+        "url": "https://www.kunacity.id.gov/140/Sanitation",
+        "publisher": "City of Kuna",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-two-wastewater-facilities",
+    "claim": "Kuna's sewer flow is split between two city facilities: the South Re-Use Facility, which treats about 500,000 gallons a day in nine lagoons and recycles the water to irrigate a 400-acre city-owned farm, and the North Wastewater Treatment Plant, a membrane bioreactor plant treating over one million gallons a day that discharges to Indian Creek under Idaho DEQ monitoring.",
+    "quote": "The sewer system flow is split between the South Re-Use facility and the North Wastewater Treatment plan. ... The South Re-Use Facility treats approximately 500,000 gallons per day using a series of nine lagoons. The treated wastewater is recycled for irrigating a 400-acre City-owned farm.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "sewer",
+      "utilities"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Wastewater — City of Kuna Public Works",
+        "url": "https://www.kunacity.id.gov/407/Wastewater",
+        "publisher": "City of Kuna",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-small-private-water-systems",
+    "claim": "Besides the city system, federal records list four active community water systems with a Kuna mailing address, all privately owned and supplied by groundwater: Desert View Estates Water Corp (650 people, 213 connections), North Hills Mobile Village (63 people), Hi View Water (55 people) and Forrey Heights (49 people).",
+    "quote": null,
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "water",
+      "utilities"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "EPA Safe Drinking Water Information System — Idaho water systems with mailing city Kuna",
+        "url": "https://data.epa.gov/efservice/sdwis.water_system/state_code/equals/ID/city_name/equals/KUNA/JSON",
+        "publisher": "U.S. Environmental Protection Agency",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-parcel-utility-and-records-lookups",
+    "claim": "Kuna's FAQ says the city will show a resident the services and utilities in and around their parcel (maps of large sections of the network are not shared publicly), that a parcel's zone can be read from the city's official Zoning Map or interactive map, and that copies of public records are requested on a Request for Public Records form returned to Kuna City Hall, where fees may apply.",
+    "quote": "If you are a citizen we will gladly show you the services and utilities in and around your parcel. ... You will need to fill out a Request for Public Records form and return it to Kuna City Hall. Fees may apply.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "records",
+      "gis",
+      "permits"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Frequently Asked Questions — City of Kuna, Idaho",
+        "url": "https://www.kunacity.id.gov/FAQ.aspx",
+        "publisher": "City of Kuna",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-east-industrial-overlay-and-utility-schedules",
+    "claim": "Kuna has an East Kuna Industrial Overlay District intended for large-scale industrial development with more intensive uses than near the city core, and a Downtown Overlay District for mixed retail, office and residential use; the city publishes separate water and sewer fee schedules for the Kuna East Industrial system.",
+    "quote": "East Kuna Industrial Overlay District: The East Kuna Industrial Overlay District is intended to provide for large scale industrial development accommodating more intensive uses than found near the city core.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "zoning",
+      "utilities",
+      "commercial"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "GIS Mapping — City of Kuna",
+        "url": "https://www.kunacity.id.gov/106/GIS-Mapping",
+        "publisher": "City of Kuna",
+        "tier": 2
+      },
+      {
+        "title": "Utility Billing — City of Kuna",
+        "url": "https://www.kunacity.id.gov/465/Utility-Billing",
+        "publisher": "City of Kuna",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "kuna-two-urban-renewal-districts",
+    "claim": "Kuna has two urban renewal districts: Kuna West, approved by the City Council on November 17, 2020 by Ordinance 2020-32, and Kuna East, approved November 1, 2022 by Ordinance No. 2022-34 and effective November 23, 2022. The city says forming a district does not raise taxes; property values inside it are split into a base and an increment, with revenue on the increment going to the urban renewal agency for public infrastructure in the district.",
+    "quote": "The establishment of the URD does not raise taxes or affect impact fees.",
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "urban-renewal",
+      "property-tax"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Kuna Urban Renewal Agency — City of Kuna",
+        "url": "https://www.kunacity.id.gov/518/Kuna-Urban-Renewal-Agency",
+        "publisher": "City of Kuna",
+        "tier": 2
+      },
+      {
+        "title": "Kuna West Urban Renewal District — City of Kuna",
+        "url": "https://www.kunacity.id.gov/542/Kuna-West-Urban-Renewal-District",
+        "publisher": "City of Kuna",
+        "tier": 2
+      },
+      {
+        "title": "Kuna East Urban Renewal District — City of Kuna",
+        "url": "https://www.kunacity.id.gov/543/Kuna-East-Urban-Renewal-District",
+        "publisher": "City of Kuna",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Kuna, Idaho",
+    "amendmentHistory": null
   }
 ];
 

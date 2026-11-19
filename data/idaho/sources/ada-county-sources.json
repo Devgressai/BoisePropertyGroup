@@ -1203,7 +1203,8 @@
       "claimsSupported": [
         "kuna-land-use-table-convention",
         "kuna-hearing-notice-300ft-15days",
-        "kuna-property-lines-survey-guidance"
+        "kuna-property-lines-survey-guidance",
+        "kuna-parcel-utility-and-records-lookups"
       ],
       "entitiesSupported": [
         "city:kuna"
@@ -1750,7 +1751,8 @@
       "authorityNotes": "TIER 2 — the city public works department's description of its drinking water system.",
       "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
       "claimsSupported": [
-        "kuna-city-owned-wells"
+        "kuna-city-owned-wells",
+        "kuna-city-runs-pressurized-irrigation"
       ],
       "status": "VERIFIED"
     },
@@ -9548,6 +9550,376 @@
       ],
       "entitiesSupported": [
         "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-43-706-pl",
+      "title": "Idaho Code § 43-706 — Lien of assessment (irrigation districts)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-706/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text. Amendment history checked: last amended 2025, ch. 148. No future-dated amendment displayed.",
+      "stalenessRisk": "LOW — statute; re-check history line.",
+      "claimsSupported": [
+        "id-irrigation-assessment-lien-survives-sale"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-43-701b-pl",
+      "title": "Idaho Code § 43-701B — Flat rate assessments for tracts of one acre or less",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-701B/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "property-tax"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1988",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text. Amendment history checked: last amended 1988, ch. 137. No future-dated amendment displayed.",
+      "stalenessRisk": "LOW — statute.",
+      "claimsSupported": [
+        "id-irrigation-flat-rate-on-county-roll"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-43-701d-pl",
+      "title": "Idaho Code § 43-701D — Flat rate assessments — Collection by county officers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-701D/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "property-tax"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1988",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text. Amendment history checked: last amended 1988, ch. 137. No future-dated amendment displayed.",
+      "stalenessRisk": "LOW — statute.",
+      "claimsSupported": [
+        "id-irrigation-flat-rate-on-county-roll"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-50-1721-pl",
+      "title": "Idaho Code § 50-1721 — Lien of assessment — Foreclosure (local improvement districts)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch17/sect50-1721/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "liens",
+        "local-improvement-districts"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text. Amendment history checked: last amended 2020, ch. 273. No future-dated amendment displayed.",
+      "stalenessRisk": "LOW — statute.",
+      "claimsSupported": [
+        "id-lid-assessment-lien-superior"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-utility-billing-page",
+      "title": "Utility Billing — City of Kuna",
+      "publisher": "City of Kuna",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/465/Utility-Billing",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "utilities",
+        "billing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's utility billing office page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-city-bills-water-sewer-trash-irrigation",
+        "kuna-east-industrial-overlay-and-utility-schedules"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-sanitation-page",
+      "title": "Sanitation — City of Kuna",
+      "publisher": "City of Kuna",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/140/Sanitation",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "utilities",
+        "trash"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city page for the contracted refuse collector (J&M Sanitation).",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-city-bills-water-sewer-trash-irrigation"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-wastewater-page",
+      "title": "Wastewater — City of Kuna Public Works",
+      "publisher": "City of Kuna",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/407/Wastewater",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "sewer",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city wastewater department's description of its two treatment facilities.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-two-wastewater-facilities"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-code-7-7-billing",
+      "title": "Kuna City Code Title 7, Chapter 7 — City Municipal Utilities Billing Code",
+      "publisher": "City of Kuna, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/kuna/codes/city_code?nodeId=TIT7PUWAPR_CH7CIMUUTBICO",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT7PUWAPR_CH7CIMUUTBICO&groupChunks=true",
+      "sourceTier": 1,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "utilities",
+        "liens",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified city code (Ord. No. 2016-09A), Supp. No. 72, codified through Ordinance No. 2026-15 enacted May 19, 2026. Retrieved from Municode's content API as JSON; captured through Chrome over CDP because the API now challenges non-browser clients. Cites the stable library permalink; the API URL is retrievalUrl.",
+      "stalenessRisk": "LOW — changes by ordinance; the banner names the last one.",
+      "claimsSupported": [
+        "kuna-irrigation-assessment-nine-payments",
+        "kuna-utility-application-at-title-company",
+        "kuna-utility-charges-lien-on-property",
+        "kuna-utility-deposit-100-nontransferable"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-code-7-8-irrigation",
+      "title": "Kuna City Code Title 7, Chapter 8 — Municipal Irrigation System Regulations",
+      "publisher": "City of Kuna, Idaho",
+      "organizationType": "municipal-government",
+      "url": "https://library.municode.com/id/kuna/codes/city_code?nodeId=TIT7PUWAPR_CH8MUIRSYRE",
+      "retrievalUrl": "https://api.municode.com/CodesContent?productId=14925&jobId=492823&nodeId=TIT7PUWAPR_CH8MUIRSYRE&groupChunks=true",
+      "sourceTier": 1,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "irrigation",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified city code (Ord. No. 2013-05), Supp. No. 72, codified through Ordinance No. 2026-15 enacted May 19, 2026. Retrieved from Municode's content API via Chrome over CDP; cites the stable permalink.",
+      "stalenessRisk": "LOW — changes by ordinance.",
+      "claimsSupported": [
+        "kuna-city-runs-pressurized-irrigation",
+        "kuna-irrigation-water-rights-pooled"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-gis-mapping-page",
+      "title": "GIS Mapping — City of Kuna",
+      "publisher": "City of Kuna",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/106/GIS-Mapping",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "gis",
+        "zoning"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city GIS department page, including its overlay district descriptions.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-east-industrial-overlay-and-utility-schedules"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-ura-page",
+      "title": "Kuna Urban Renewal Agency — City of Kuna",
+      "publisher": "City of Kuna",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/518/Kuna-Urban-Renewal-Agency",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "urban-renewal",
+        "property-tax"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's explanation of its urban renewal agency and tax increment financing.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-two-urban-renewal-districts"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-west-urd-page",
+      "title": "Kuna West Urban Renewal District — City of Kuna",
+      "publisher": "City of Kuna",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/542/Kuna-West-Urban-Renewal-District",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "urban-renewal"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — adoption history of the Kuna West district (Ordinance 2020-32).",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-two-urban-renewal-districts"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "kuna-east-urd-page",
+      "title": "Kuna East Urban Renewal District — City of Kuna",
+      "publisher": "City of Kuna",
+      "organizationType": "municipal-government",
+      "url": "https://www.kunacity.id.gov/543/Kuna-East-Urban-Renewal-District",
+      "sourceTier": 2,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "urban-renewal"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — adoption history of the Kuna East district (Ordinance No. 2022-34).",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "kuna-two-urban-renewal-districts"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "epa-sdwis-kuna-mailing-city",
+      "title": "EPA Safe Drinking Water Information System — Idaho water systems with mailing city Kuna",
+      "publisher": "U.S. Environmental Protection Agency",
+      "organizationType": "federal-government",
+      "url": "https://data.epa.gov/efservice/sdwis.water_system/state_code/equals/ID/city_name/equals/KUNA/JSON",
+      "sourceTier": 1,
+      "jurisdiction": "Kuna, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "PERIODIC",
+      "authorityNotes": "TIER 1 — federal water system records. ⚠️ city_name is the system's MAILING city, not its service area.",
+      "stalenessRisk": "MEDIUM — refreshed quarterly; re-check counts.",
+      "claimsSupported": [
+        "kuna-small-private-water-systems"
+      ],
+      "entitiesSupported": [
+        "city:kuna"
       ],
       "status": "VERIFIED"
     }
