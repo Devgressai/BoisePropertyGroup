@@ -112,7 +112,7 @@ export const placeContent: Record<string, PlaceContent> = {
         claims: ["kuna-city-bills-water-sewer-trash-irrigation", "kuna-utility-application-at-title-company", "kuna-utility-deposit-100-nontransferable"],
       },
       {
-        heading: "Unpaid city utilities become a lien on the house",
+        heading: "Unpaid city utilities can become a lien on the house",
         body: [
           "In Kuna the account follows the property, not the person who ran the taps. Under Kuna City Code 7-7-6b the owner of the real property stays financially responsible for city utility charges even when a tenant or property manager receives the bills. The service contract the owner signs consents to a lien for delinquent charges, recorded with the Ada County Recorder, and under 7-7-18 the city attorney may record it once an account is more than 90 days delinquent.",
           "For a landlord selling a rental, or a family selling a house that sat empty while bills went unopened, that means an old balance may already be a recorded lien. It does not stop a sale. It does need paying off from the proceeds, so it is better found now than at the closing table.",
