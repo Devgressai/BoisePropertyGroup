@@ -1,0 +1,75 @@
+{
+  "claims": [
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "eagle-utilities-from-four-providers",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "The City of Eagle says water, sewer and trash are not provided together by the city: Hardin Sanitation has been the trash and recycling provider for all Eagle residents and businesses since January 1, 2023, the Eagle Sewer District provides sewer, water comes from either the City of Eagle Water Department or Veolia depending on location, and some properties are still on private wells and septic systems.",
+      "quotedLanguage": "Services often combined by the local municipality, water-sewer-trash, are not provided in that manner in our city. ... In some instances, water and sewer may still be a function of private wells and septic systems on the property.",
+      "topic": [
+        "utilities",
+        "differentiation"
+      ],
+      "sourceIds": [
+        "eagle-utilities-overview-page"
+      ],
+      "notes": null
+    },
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "eagle-water-deposit-and-transfer-fee",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "City of Eagle Water bills a service deposit to each new customer on the first statement, refunds it after 12 consecutive on-time payments or applies it to the final bill and refunds the rest, and charges a set-up fee on all new accounts being transferred or initially set up; bills are due on the 14th and delinquent fees are assessed one week later.",
+      "quotedLanguage": "Each new customer will be billed a service deposit on their first billing statement. ... Set-up Fee-charged on all new accounts being transferred or initially set up",
+      "topic": [
+        "utilities",
+        "billing",
+        "closing"
+      ],
+      "sourceIds": [
+        "eagle-water-service-summary-page"
+      ],
+      "notes": "Applies to City of Eagle Water customers only, not Veolia customers."
+    },
+    {
+      "entity": [
+        "city:eagle"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "eagle-residential-plans-not-retained",
+      "freshnessClass": "SLOW-CHANGING",
+      "claim": "Eagle keeps building permits and other records in an online repository and publishes weekly building permit reports there, but residential building plans are eligible for destruction two years after the certificate of occupancy, and under Resolution 25-15 residential plans for permits with a certificate of occupancy issued before August 1, 2023 are eligible for destruction. Idaho Code gives the city three working days to respond to a records request, and up to ten if more time is needed.",
+      "quotedLanguage": "RESIDENTIAL PLANS older than two years are no longer retained. Residential building plans are eligible for destruction two-years after the issuance of a certificate of occupancy",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "sourceIds": [
+        "eagle-public-records-page",
+        "eagle-building-permit-reports-page"
+      ],
+      "notes": null
+    }
+  ]
+}

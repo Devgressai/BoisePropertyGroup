@@ -1,0 +1,133 @@
+{
+  "sources": [
+    {
+      "id": "gardencity-homeowner-letter",
+      "title": "Welcome Homeowner letter — Garden City Utility Billing Department",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://storage.googleapis.com/juniper-media-library/464/2025/12/Home_Owner_Letter(1).pdf",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "utilities",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city utility billing department's letter to new owners, linked from its Utility Billing page as the 'Welcome Homeowner!' guide. PDF cached and extracted to committed text.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-utility-debt-stays-transfer-at-closing"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-utility-billing-page",
+      "title": "Utility Billing — City of Garden City",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/utility-billing",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "utilities",
+        "billing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city utility billing page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-utility-debt-stays-transfer-at-closing",
+        "gardencity-renters-agreement-deposit"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-work-without-permit-faq",
+      "title": "What if I do work without a permit? — City of Garden City",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/frequently-asked-questions/what-if-i-do-work-without-a-permit",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city building FAQ.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-work-without-permit-consequences"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-water-division-page",
+      "title": "Water Division — City of Garden City Public Works",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/public-works/water-division",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "water",
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city water division page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-wells-and-street-to-meter"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-public-records-page",
+      "title": "Public Records / Information Request — City of Garden City",
+      "publisher": "City of Garden City",
+      "organizationType": "municipal-government",
+      "url": "https://gardencityidaho.org/departments/city-clerk/public-records-information-request",
+      "sourceTier": 2,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — City Clerk records request page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "gardencity-wells-and-street-to-meter"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

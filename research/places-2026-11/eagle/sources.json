@@ -1,0 +1,107 @@
+{
+  "sources": [
+    {
+      "id": "eagle-utilities-overview-page",
+      "title": "Utilities — City of Eagle",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/366/Utilities",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "utilities"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — the city's overview of who provides which utility in Eagle. ⚠️ Gives ~3,400 city water households where /419 gives ~3,800; neither figure is used from this page.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-utilities-from-four-providers"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-water-service-summary-page",
+      "title": "Summary of Your City of Eagle Water Services",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/483/Summary-of-Your-City-of-Eagle-Water-Serv",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "utilities",
+        "billing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city water department billing terms, deposits and fees.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-water-deposit-and-transfer-fee"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-public-records-page",
+      "title": "Public Records — City of Eagle",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/446/Public-Records",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — City Clerk's records page, including the residential plan retention rule (Resolution 25-15).",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-residential-plans-not-retained"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-building-permit-reports-page",
+      "title": "Building Permit Reports — City of Eagle",
+      "publisher": "City of Eagle",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofeagle.org/1863/Building-Permit-Reports",
+      "sourceTier": 2,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — where the weekly building permit reports are published.",
+      "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
+      "claimsSupported": [
+        "eagle-residential-plans-not-retained"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}
