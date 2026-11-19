@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
+import OfferMath from "@/components/OfferMath";
 import NextSteps from "@/components/NextSteps";
 import EvidenceAppendix from "@/components/seo/EvidenceAppendix";
 import Inline from "@/lib/content/Inline";
@@ -71,6 +72,7 @@ export default function TopicPageView({ page }: { page: TopicPage }) {
           </div>
         </ArticleBody>
 
+        {page.tool === "offer-math" && <OfferMath />}
         <EvidenceAppendix claims={citedClaims(page)} />
         <NextSteps path={`/${page.slug}`} />
         <FinalCTA />

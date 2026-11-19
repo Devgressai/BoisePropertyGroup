@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
 
-const TITLE = "How Selling Your Property to Us Works";
+const TITLE = "How Selling Your House for Cash Works in Boise, Idaho";
 const DESCRIPTION =
-  "How we underwrite a property in Ada County: what we look at, how we reach a number, and what we show you about it.";
+  "Address to closing in four steps: we price your Boise house, show the arithmetic, buy with our own capital and close at a local title company on your date.";
 
 export const metadata: Metadata = pageMetadata({ path: "/how-it-works", title: TITLE, description: DESCRIPTION });
 
@@ -44,7 +44,8 @@ const STEPS = [
     t: "You choose the date, and we close",
     d: [
       "If you accept, we open escrow with a local title company. Timing is yours — a fast close where speed is the point, or months where it is not.",
-      "If we agree a number, we sign the purchase agreement and fund the purchase with our own capital.",
+      "If we agree a number, we sign the purchase agreement and fund the purchase with our own capital, so nothing waits on a lender's approval or appraisal.",
+      "A three-week close is realistic when you want one. We buy in any condition, so there is no repair list to work through before closing day.",
     ],
   },
 ];

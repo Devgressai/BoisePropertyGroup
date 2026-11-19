@@ -9,9 +9,9 @@ import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
 import { site, hasLegalEntity, hasPhone } from "@/data/site";
 
-const TITLE = "About Us";
+const TITLE = "About Boise Property Group: Ada County Home Buyers";
 const DESCRIPTION =
-  "A property acquisition group in Ada County, Idaho. What we buy, how we underwrite, and why this market.";
+  "Boise Property Group buys houses in Ada County with its own capital, in any condition, closing through a local title company on the date you choose.";
 
 export const metadata: Metadata = pageMetadata({ path: "/about", title: TITLE, description: DESCRIPTION });
 
@@ -48,7 +48,9 @@ export default function About() {
                   attached. We use our own capital.
                 </p>
                 <p className="leading-relaxed">
-                  For a seller that means an offer that closes on a date you choose. For a broker it
+                  For a seller that means an offer that closes on a date you choose, through a local
+                  title company, with the house in whatever condition it is in. A three-week close is
+                  realistic when you want one. For a broker it
                   means a counterparty who will look at a building that does not show well and give
                   a straight answer quickly.
                 </p>

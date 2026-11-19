@@ -17980,6 +17980,136 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Meridian, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "dc-listing-agreement-in-writing",
+    "claim": "Under Idaho Code 54-2050, every real estate brokerage representation agreement, with a buyer or a seller, must be in writing, and each seller representation agreement must carry conspicuous and definite beginning and expiration dates.",
+    "quote": "All real estate brokerage representation agreements, whether with a buyer or seller, must be in writing in the manner required by section 54-2085, Idaho Code, and must contain the following contract provisions: (1) Seller representation agreements. Each seller representation agreement, whether exclusive or nonexclusive, must contain the following provisions: (a) Conspicuous and definite beginning and expiration dates;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "listing",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2050: Brokerage representation agreements, required elements",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2050/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2050, added 2000, ch. 285, sec. 3, p. 939; am. 2001, ch. 123, sec. 19, p. 438; am. 2009, ch. 135, sec. 1, p. 416; am. 2020, ch. 88, sec. 1, p. 238.]"
+  },
+  {
+    "id": "dc-listing-agreement-fees-element",
+    "claim": "Idaho Code 54-2050(1) lists price and terms, and all fees or commissions, among the provisions a seller representation agreement must contain.",
+    "quote": "(c) Price and terms; (d) All fees or commissions; and",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "listing",
+      "licensing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Idaho Code § 54-2050: Brokerage representation agreements, required elements",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2050/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[54-2050, added 2000, ch. 285, sec. 3, p. 939; am. 2001, ch. 123, sec. 19, p. 438; am. 2009, ch. 135, sec. 1, p. 416; am. 2020, ch. 88, sec. 1, p. 238.]"
+  },
+  {
+    "id": "dc-cfpb-inspection-contingency-cancel",
+    "claim": "The CFPB tells buyers that if a purchase contract is contingent on a satisfactory inspection, the buyer has the right to cancel the sale without penalty if not satisfied with the results, and that a buyer may negotiate with the seller about who makes or pays for repairs.",
+    "quote": "If repairs are needed, you may want to negotiate with the seller about who should make or pay for the repairs. Depending on the terms of your purchase contract and local market conditions, the seller may or may not agree to pay for the repairs. If your purchase contract is contingent on a satisfactory inspection, you have the right to cancel the sale without penalty if you are not satisfied with the results of the inspection.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "listing",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Schedule a home inspection, Buying a House (CFPB)",
+        "url": "https://www.consumerfinance.gov/owning-a-home/close/schedule-a-home-inspection/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "dc-cfpb-lender-appraisal-and-repairs",
+    "claim": "The CFPB says a lender generally requires a form of appraisal when a buyer borrows to buy a home, that some loan programs require the property to meet specified standards, and that if major repairs such as a new roof are needed the lender can require them to be made before closing as a condition of the loan.",
+    "quote": "When you borrow money to buy a home, your lender generally requires a form of an appraisal. ... Some loan programs might require the property to meet specified standards. The appraisal could say the property is subject to repairs, to meet the program's requirements. If major repairs (like a new roof) are needed, the lender can require that the repairs be made before closing, as a condition of getting the loan.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "listing",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Schedule a home inspection, Buying a House (CFPB)",
+        "url": "https://www.consumerfinance.gov/owning-a-home/close/schedule-a-home-inspection/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "dc-cfpb-low-appraisal-renegotiate-or-cancel",
+    "claim": "The CFPB tells a buyer whose appraisal comes in below the sale price that the lower value can often be used to negotiate a price reduction, that the buyer may want to cancel if the seller will not reduce the price, and that depending on the contract there may be costs to cancelling.",
+    "quote": "You can often use the lower appraised value to negotiate a reduction in the sales price of the home. The appraisal is strong evidence that the price was above the market value of the home. If the seller won't reduce the price on the home, you may want to cancel the sale Consider consulting an attorney about your options. Depending on the terms of your purchase contract, there may be costs associated with cancelling the sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "listing",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "My appraisal is less than the sale price. What does that mean for me? (Ask CFPB)",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
   }
 ];
 

@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-09",
   "generator": "scripts/research/build-ada-geography.mjs",
   "provenance": "Derived exclusively from cached Census primary sources in data/idaho/raw/",
-  "totalSources": 98,
+  "totalSources": 432,
   "sources": [
     {
       "id": "census-place-county-2020",
@@ -11371,6 +11371,82 @@
       "entitiesSupported": [
         "city:meridian"
       ]
+    },
+    {
+      "id": "idcode-54-2050",
+      "title": "Idaho Code § 54-2050: Brokerage representation agreements, required elements",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title54/t54ch20/sect54-2050/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "licensing",
+        "listing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, raw HTML cached. History: [54-2050, added 2000, ch. 285, sec. 3, p. 939; am. 2001, ch. 123, sec. 19, p. 438; am. 2009, ch. 135, sec. 1, p. 416; am. 2020, ch. 88, sec. 1, p. 238.] No future-dated version shown on the section page.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "dc-listing-agreement-in-writing",
+        "dc-listing-agreement-fees-element"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-schedule-a-home-inspection",
+      "title": "Schedule a home inspection, Buying a House (CFPB)",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/owning-a-home/close/schedule-a-home-inspection/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "listing",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-12-12",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance for buyers, raw HTML cached. Page last modified Dec. 12, 2024. Guidance, not Idaho law; contingency terms come from the purchase contract.",
+      "stalenessRisk": "LOW — plain-language guidance; re-check the last-modified date.",
+      "claimsSupported": [
+        "dc-cfpb-inspection-contingency-cancel",
+        "dc-cfpb-lender-appraisal-and-repairs"
+      ],
+      "entitiesSupported": [],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-appraisal-less-than-sale-price",
+      "title": "My appraisal is less than the sale price. What does that mean for me? (Ask CFPB)",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "listing",
+        "lending"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-09-11",
+      "accessedDate": "2026-11-18",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' Sep 11, 2024. Guidance, not Idaho law.",
+      "stalenessRisk": "LOW — re-check the 'last reviewed' date.",
+      "claimsSupported": [
+        "dc-cfpb-low-appraisal-renegotiate-or-cancel"
+      ],
+      "entitiesSupported": [],
+      "status": "VERIFIED"
     }
   ]
 }

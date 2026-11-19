@@ -46,6 +46,18 @@ const MARGIN_RATE = 0.09;
 const COMMISSION_RATE = 0.05;
 const SELLER_CLOSING_RATE = 0.01;
 
+/**
+ * The same rates, read-only, so page prose that states them is generated from
+ * this file and cannot drift from the worksheet.
+ */
+export const OFFER_RATES = {
+  resale: RESALE_COST_RATE,
+  monthlyCarry: MONTHLY_CARRY_RATE,
+  margin: MARGIN_RATE,
+  commission: COMMISSION_RATE,
+  sellerClosing: SELLER_CLOSING_RATE,
+} as const;
+
 /** Bounds of the worksheet's value input. Outside them the model is not meant to be read. */
 export const ARV_MIN = 150_000;
 export const ARV_MAX = 1_500_000;

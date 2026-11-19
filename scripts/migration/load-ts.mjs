@@ -56,6 +56,11 @@ export function stripTypes(src) {
     const p = params.split(",").map((x) => x.split(":")[0].trim()).filter(Boolean).join(", ");
     return `function ${name}(${p}) {`;
   });
+  // function foo(a: T, b = 1) {  (annotated params, no return type)
+  s = s.replace(/function\s+([A-Za-z_$][\w$]*)\s*\(([^)]*:[^)]*)\)\s*\{/g, (_m, name, params) => {
+    const p = params.split(",").map((x) => x.replace(/:\s*[^=]+/, "").trim()).filter(Boolean).join(", ");
+    return `function ${name}(${p}) {`;
+  });
   // Generic type arguments on constructors: new Map<string, SeoPage>( -> new Map(
   s = s.replace(/(\bnew\s+[A-Za-z_$][\w$.]*)\s*<[^;()<>]*(?:<[^<>]*>[^;()<>]*)?>\s*\(/g, "$1(");
   // Return-type annotations, including ones containing braces:

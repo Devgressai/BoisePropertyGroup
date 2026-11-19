@@ -10,9 +10,9 @@ import WhatWeBuy from "@/components/WhatWeBuy";
 import TopicList from "@/components/TopicList";
 import { criteria } from "@/data/criteria";
 
-const TITLE = "What We Buy — Acquisition Criteria";
+const TITLE = "What We Buy in Ada County: Houses, Rentals, Land, Commercial";
 const DESCRIPTION =
-  "Acquisition criteria for Ada County and the Treasure Valley: residential, multifamily at any size, office, industrial and land — including property with problems attached.";
+  "What we buy in Boise, Ada County and the Treasure Valley: houses in any condition, rentals, multifamily, office, industrial, and land with problems attached.";
 
 export const metadata: Metadata = pageMetadata({ path: "/what-we-buy", title: TITLE, description: DESCRIPTION });
 

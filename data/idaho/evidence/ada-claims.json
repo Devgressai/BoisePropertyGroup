@@ -15607,6 +15607,121 @@
         "r2-mdc-linder-district"
       ],
       "notes": "The city's own URD sub-pages read 'TBD' (captured 2026-11-18 via CDP, not cached, not cited). The served HTML gives acreage (Downtown 73, Union 16, Ten Mile 301, Northern Gateway 126; Linder renders as '1 73', so unreadable); acreage is left out of the claim on purpose. ⚠️ Downtown's sunset year is 2026, the current year: say 'scheduled to sunset in 2026', never that it has ended. Pairs with meridian-urd-two-tax-line-items. Boundaries are maps on the founding documents; not mapped by us."
+    },
+    {
+      "entity": [
+        "state:id"
+      ],
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "dc-listing-agreement-in-writing",
+      "claim": "Under Idaho Code 54-2050, every real estate brokerage representation agreement, with a buyer or a seller, must be in writing, and each seller representation agreement must carry conspicuous and definite beginning and expiration dates.",
+      "quotedLanguage": "All real estate brokerage representation agreements, whether with a buyer or seller, must be in writing in the manner required by section 54-2085, Idaho Code, and must contain the following contract provisions: (1) Seller representation agreements. Each seller representation agreement, whether exclusive or nonexclusive, must contain the following provisions: (a) Conspicuous and definite beginning and expiration dates;",
+      "topic": [
+        "listing",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2050"
+      ],
+      "jurisdiction": "Idaho",
+      "amendmentHistory": "[54-2050, added 2000, ch. 285, sec. 3, p. 939; am. 2001, ch. 123, sec. 19, p. 438; am. 2009, ch. 135, sec. 1, p. 416; am. 2020, ch. 88, sec. 1, p. 238.]",
+      "notes": "The fees element is a separate claim (dc-listing-agreement-fees-element)."
+    },
+    {
+      "entity": [
+        "state:id"
+      ],
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "dc-listing-agreement-fees-element",
+      "claim": "Idaho Code 54-2050(1) lists price and terms, and all fees or commissions, among the provisions a seller representation agreement must contain.",
+      "quotedLanguage": "(c) Price and terms; (d) All fees or commissions; and",
+      "topic": [
+        "listing",
+        "licensing"
+      ],
+      "sourceIds": [
+        "idcode-54-2050"
+      ],
+      "jurisdiction": "Idaho",
+      "amendmentHistory": "[54-2050, added 2000, ch. 285, sec. 3, p. 939; am. 2001, ch. 123, sec. 19, p. 438; am. 2009, ch. 135, sec. 1, p. 416; am. 2020, ch. 88, sec. 1, p. 238.]",
+      "notes": "No rate is set by statute."
+    },
+    {
+      "entity": [
+        "state:id"
+      ],
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "dc-cfpb-inspection-contingency-cancel",
+      "claim": "The CFPB tells buyers that if a purchase contract is contingent on a satisfactory inspection, the buyer has the right to cancel the sale without penalty if not satisfied with the results, and that a buyer may negotiate with the seller about who makes or pays for repairs.",
+      "quotedLanguage": "If repairs are needed, you may want to negotiate with the seller about who should make or pay for the repairs. Depending on the terms of your purchase contract and local market conditions, the seller may or may not agree to pay for the repairs. If your purchase contract is contingent on a satisfactory inspection, you have the right to cancel the sale without penalty if you are not satisfied with the results of the inspection.",
+      "topic": [
+        "listing",
+        "closing"
+      ],
+      "sourceIds": [
+        "cfpb-schedule-a-home-inspection"
+      ],
+      "jurisdiction": "United States",
+      "amendmentHistory": null,
+      "notes": "Consumer guidance, not regulation. Contingency terms are set by the contract."
+    },
+    {
+      "entity": [
+        "state:id"
+      ],
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "dc-cfpb-lender-appraisal-and-repairs",
+      "claim": "The CFPB says a lender generally requires a form of appraisal when a buyer borrows to buy a home, that some loan programs require the property to meet specified standards, and that if major repairs such as a new roof are needed the lender can require them to be made before closing as a condition of the loan.",
+      "quotedLanguage": "When you borrow money to buy a home, your lender generally requires a form of an appraisal. ... Some loan programs might require the property to meet specified standards. The appraisal could say the property is subject to repairs, to meet the program's requirements. If major repairs (like a new roof) are needed, the lender can require that the repairs be made before closing, as a condition of getting the loan.",
+      "topic": [
+        "listing",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-schedule-a-home-inspection"
+      ],
+      "jurisdiction": "United States",
+      "amendmentHistory": null,
+      "notes": "Consumer guidance, not regulation."
+    },
+    {
+      "entity": [
+        "state:id"
+      ],
+      "confidence": "HIGH",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-18",
+      "id": "dc-cfpb-low-appraisal-renegotiate-or-cancel",
+      "claim": "The CFPB tells a buyer whose appraisal comes in below the sale price that the lower value can often be used to negotiate a price reduction, that the buyer may want to cancel if the seller will not reduce the price, and that depending on the contract there may be costs to cancelling.",
+      "quotedLanguage": "You can often use the lower appraised value to negotiate a reduction in the sales price of the home. The appraisal is strong evidence that the price was above the market value of the home. If the seller won't reduce the price on the home, you may want to cancel the sale Consider consulting an attorney about your options. Depending on the terms of your purchase contract, there may be costs associated with cancelling the sale.",
+      "topic": [
+        "listing",
+        "lending"
+      ],
+      "sourceIds": [
+        "cfpb-appraisal-less-than-sale-price"
+      ],
+      "jurisdiction": "United States",
+      "amendmentHistory": null,
+      "notes": "Consumer guidance, not regulation. The quote runs a heading into the next paragraph as the page renders it."
     }
   ]
 }

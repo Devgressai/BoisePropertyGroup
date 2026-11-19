@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
-import { TOPIC_PAGES } from "../src/data/topic-pages";
+import { TOPIC_PAGES, EXAMPLE_ARV, exampleRoutes } from "../src/data/topic-pages";
+import { OFFER_RATES, CONDITION_TIERS, calculateOffer, formatUsd } from "../src/lib/offer-math";
 import { guides, AS_IS_FACTS, DEFAULT_HANDOFF } from "../src/data/guides";
 import { publishedTopics, situationForGuide } from "../src/lib/seo/registry";
 import { guideContent } from "../src/data/guide-content";
@@ -114,4 +115,42 @@ describe("residential prose rules (guides + topic pages)", () => {
       }
     });
   }
+});
+
+describe("decision pages state the offer model as implemented", () => {
+  const page = (slug: string) => TOPIC_PAGES.find((p) => p.slug === slug)!;
+  const pct = (r: number) => `${+(r * 100).toFixed(2)}%`;
+
+  it("the calculation page names every rate offer-math.ts uses", () => {
+    const prose = proseOf(page("how-we-calculate-an-offer"));
+    for (const r of [OFFER_RATES.margin, OFFER_RATES.resale, OFFER_RATES.monthlyCarry, OFFER_RATES.commission, OFFER_RATES.sellerClosing])
+      expect(prose).toContain(pct(r));
+    for (const t of CONDITION_TIERS) {
+      expect(prose).toContain(`${t.label.toLowerCase()} ${pct(t.repairRate)}`);
+      expect(prose).toContain(`${t.months} months for ${t.label.toLowerCase()}`);
+    }
+    const o = calculateOffer(EXAMPLE_ARV, "significant");
+    expect(prose).toContain(formatUsd(o.offer));
+  });
+
+  it("'listing wins' holds on the model's own numbers", () => {
+    const cosmetic = exampleRoutes("cosmetic");
+    expect(cosmetic.asIs.net).toBeGreaterThan(cosmetic.offer.offer);
+    const major = exampleRoutes("major");
+    expect(major.reno.net).toBeGreaterThan(major.offer.offer);
+    const prose = proseOf(page("cash-offer-vs-listing-idaho"));
+    expect(prose).toContain(formatUsd(cosmetic.offer.offer));
+    expect(prose).toMatch(/listing wins/i);
+  });
+
+  it("commission appears only as the model's stated assumption", () => {
+    const prose = proseOf(page("cash-offer-vs-listing-idaho"));
+    expect(prose).toMatch(/assumptions, not market figures/);
+    expect(prose).not.toMatch(/(?:typical|average|standard|usual) commission/i);
+  });
+
+  it("no em dashes in the rewritten decision pages", () => {
+    for (const s of ["cash-offer-vs-listing-idaho", "how-we-calculate-an-offer", "how-to-check-a-cash-buyer-in-idaho"])
+      expect(proseOf(page(s)) + page(s).title + page(s).description, s).not.toMatch(/—/);
+  });
 });

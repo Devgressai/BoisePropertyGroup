@@ -93,8 +93,8 @@ const commercialStage = (kind: "asset" | "explainer"): Stage => (kind === "expla
 export function registry(): PageEntry[] {
   const out: PageEntry[] = [
     { path: "/", label: "Home", kind: "home", stage: "bofu", parent: null, updated: "2026-11-11" },
-    { path: "/how-it-works", label: "How it works", kind: "process", stage: "mofu", parent: "/", updated: "2026-11-11" },
-    { path: "/about", label: "About", kind: "trust", stage: "mofu", parent: "/", updated: "2026-11-11" },
+    { path: "/how-it-works", label: "How it works", kind: "process", stage: "mofu", parent: "/", updated: "2026-11-18" },
+    { path: "/about", label: "About", kind: "trust", stage: "mofu", parent: "/", updated: "2026-11-18" },
     { path: "/what-we-buy", label: "What we buy", kind: "conversion", stage: "bofu", parent: "/", updated: "2026-11-11" },
     { path: "/contact", label: "Contact", kind: "conversion", stage: "bofu", parent: "/", updated: "2026-11-11" },
     { path: "/privacy-policy", label: "Privacy policy", kind: "trust", stage: "mofu", parent: "/", updated: "2026-11-13" },

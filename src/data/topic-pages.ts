@@ -1,4 +1,15 @@
 import type { Section } from "./place-content";
+import {
+  ARV_MAX,
+  ARV_MIN,
+  CONDITION_TIERS,
+  OFFER_RATES,
+  calculateAsIsListing,
+  calculateListing,
+  calculateOffer,
+  formatUsd as usd,
+  type ConditionKey,
+} from "../lib/offer-math";
 
 /**
  * TOPIC PAGES — the BOFU and MOFU layers of the funnel.
@@ -35,6 +46,41 @@ export interface TopicPage {
   sections: Section[];
   /** Guides this page summarises and links down to. */
   guides: string[];
+  /** An interactive tool rendered after the article. */
+  tool?: "offer-math";
+}
+
+/**
+ * OFFER-MODEL PROSE IS GENERATED, NOT TYPED.
+ *
+ * Every rate and dollar figure the decision pages state about our own offer
+ * model comes from src/lib/offer-math.ts, the same file the worksheet runs on.
+ * If the owner changes a rate there, these sentences change with it.
+ */
+export const EXAMPLE_ARV = 400_000;
+const pct = (r: number) => `${+(r * 100).toFixed(2)}%`;
+const tier = (k: ConditionKey) => CONDITION_TIERS.find((t) => t.key === k)!;
+const list = (xs: string[]) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs[xs.length - 1]}`);
+const tierRates = () => list(CONDITION_TIERS.map((t) => `${t.label.toLowerCase()} ${pct(t.repairRate)}`));
+const tierMonths = () => list(CONDITION_TIERS.map((t) => `${t.months} months for ${t.label.toLowerCase()}`));
+const asIsDiscounts = () => list(CONDITION_TIERS.map((t) => `${pct(t.asIsDiscount)} ${t.label.toLowerCase()}`));
+
+/** The three routes for one example house. Exported so tests can hold the prose to it. */
+export function exampleRoutes(k: ConditionKey, arv = EXAMPLE_ARV) {
+  return { offer: calculateOffer(arv, k), asIs: calculateAsIsListing(arv, k), reno: calculateListing(arv, k) };
+}
+
+function exampleLine(k: ConditionKey): string {
+  const { offer, asIs, reno } = exampleRoutes(k);
+  const vs = (net: number) =>
+    net > offer.offer ? `about ${usd(net - offer.offer)} more than our offer` : `about ${usd(offer.offer - net)} less than our offer`;
+  return `${tier(k).label}: our worksheet offer is ${usd(offer.offer)}. Listing it as it stands nets about ${usd(asIs.net)}, ${vs(asIs.net)}. Paying ${usd(reno.repairs)} for the work first and then listing nets about ${usd(reno.net)}, ${vs(reno.net)}, over roughly ${reno.months} months and only if you can fund the work and the wait.`;
+}
+
+function worksheetExample(): string {
+  const k: ConditionKey = "significant";
+  const o = calculateOffer(EXAMPLE_ARV, k);
+  return `For a house needing ${tier(k).label.toLowerCase()}, worth ${usd(EXAMPLE_ARV)} once they are done, that is ${usd(o.arv)} minus ${usd(o.repairs)} for the work, minus ${usd(o.holding)} for ${o.months} months of holding and the resale, minus ${usd(o.margin)} of margin: ${usd(o.offer)}.`;
 }
 
 const NOT_ADVICE =
@@ -859,16 +905,17 @@ export const TOPIC_PAGES: TopicPage[] = [
   {
     slug: "cash-offer-vs-listing-idaho",
     kind: "decision",
-    title: "Cash Offer vs Listing Your House in Ada County",
+    tool: "offer-math",
+    title: "Sell to a Cash Buyer or List? Boise Cash Offer vs Listing",
     h1: "Direct sale or listing: an honest comparison",
     eyebrow: "Deciding how to sell",
     description:
-      "When selling to a direct buyer makes sense in Ada County, when listing nets more, and what is the same either way under Idaho law.",
+      "Cash offer vs listing in Boise and Ada County: Idaho disclosure duties, inspection and appraisal contingencies, the net arithmetic, and when listing wins.",
     published: "2026-11-12",
-    updated: "2026-11-12",
+    updated: "2026-11-18",
     guides: ["idaho-seller-disclosure-when-selling-as-is", "how-a-property-sale-closes-in-idaho", "taxes-when-you-sell-a-house-in-idaho"],
     intro: [
-      "Listing usually gets the highest price; a direct sale usually gets the most certainty. If the house is in good shape, financeable and you have a few months, list it. If it needs work, carries a complication, or the date matters more than the last dollar, a direct sale is worth pricing — and either way, Idaho's disclosure rules apply.",
+      "Listing usually gets the highest price. A direct sale usually gets the most certainty. If your Boise or Ada County house is in good shape, a lender would finance it as it stands, and you have a few months, list it. If it needs work, carries a complication, or the date matters more than the last dollar, a cash offer is worth pricing next to the listing. Idaho's disclosure rules apply either way.",
       NOT_ADVICE,
     ],
     sections: [
@@ -876,56 +923,88 @@ export const TOPIC_PAGES: TopicPage[] = [
         heading: "What you are actually trading",
         body: [
           "A direct sale trades some of the price for three things: no repairs or preparation, no dependence on a buyer's lender, and a closing date you set. Listing trades time, preparation and uncertainty for exposure to every buyer in the market, which is how the highest price is found.",
-          "Neither is the right answer in general. The question is which of those things you are short of — money, time, or the ability to manage the work.",
+          "Neither is the right answer in general. The question is which of those things you are short of: money, time, or the ability to manage the work.",
         ],
       },
       {
-        heading: "When listing is the better route",
+        heading: "The steps of a listed sale in Idaho",
         body: [
-          "The house is tidy and would pass a lender's inspection. You can live with showings and a few months of uncertainty. You already have a strong offer from a financed buyer. In any of those cases, listing will usually net more even after commission, and we will tell you so.",
+          "It starts with a listing agreement. Idaho Code 54-2050 requires every brokerage representation agreement to be in writing, with definite beginning and expiration dates, and a seller's agreement must state the price and terms and all fees or commissions. The section requires the commission to be written down. It does not set a rate.",
+          "When you accept an offer, the disclosure clock starts. Idaho Code 55-2509 requires the seller to deliver a signed and dated copy of the completed property condition disclosure form to the buyer or the buyer's agent within ten days of accepting the offer. A buyer who receives the form after signing may rescind within three business days on a specific objection, and gets the deposit back. If the house was built before 1978, the federal lead-paint rules add a pamphlet, disclosure of any known lead hazards, and a 10-day window for the buyer to have the house assessed, which the buyer may waive in writing.",
+          "Then come the buyer's contingencies, which are terms of the purchase contract rather than of Idaho law. The CFPB tells buyers that if a contract is contingent on a satisfactory inspection, the buyer can cancel without penalty if not satisfied with the results, and that the buyer may negotiate with the seller over who makes or pays for repairs.",
+          "A financed buyer also brings a lender. The CFPB says a lender generally requires a form of appraisal, that some loan programs require the property to meet specified standards, and that where major repairs such as a new roof are needed the lender can require them before closing as a condition of the loan. If the appraisal comes in below the price, the CFPB says the buyer can often use it to negotiate the price down, and may want to cancel if the seller will not move.",
+          "Each of those is a point where the price can change or the sale can end. None of them is a reason not to list. They are the reasons a listed sale takes longer and is less certain than the asking price suggests.",
+        ],
+        claims: [
+          "dc-listing-agreement-in-writing",
+          "dc-listing-agreement-fees-element",
+          "id-disclosure-deliver-within-ten-days",
+          "id-disclosure-rescission-three-days",
+          "fed-lead-paint-pre-1978-seller-disclosure",
+          "fed-lead-paint-ten-day-evaluation",
+          "dc-cfpb-inspection-contingency-cancel",
+          "dc-cfpb-lender-appraisal-and-repairs",
+          "dc-cfpb-low-appraisal-renegotiate-or-cancel",
         ],
       },
       {
-        heading: "When a direct sale is worth pricing",
+        heading: "The same steps in a direct sale",
         body: [
-          "The house needs work you cannot or do not want to fund. It is inherited and the estate wants a clean exit. It has tenants, title or permit problems that make a financed buyer nervous. A foreclosure or another deadline sets the date. The property is land, a manufactured home or something else the open market finances badly.",
-          "In those cases the listing price is not the number that matters — what matters is what you would actually clear, and when.",
-        ],
-      },
-      {
-        heading: "What is the same either way",
-        body: [
-          "Idaho's property condition disclosure applies to one-to-four unit residential property whether you list it or sell it direct; cash and as-is are not exemptions. If the house was built before 1978, the federal lead-paint disclosure applies too. And a buyer who receives the disclosure form after signing may rescind within three business days on a specific objection.",
-          "So a direct buyer is not a way around disclosure. Anyone who suggests otherwise is telling you something Idaho law does not say.",
+          "Disclosure does not go away. Idaho's property condition disclosure applies to one-to-four unit residential property whether you list it or sell it direct, and none of the sixteen exemptions in Idaho Code 55-2505 turns on the house being sold as-is or for cash. If the house was built before 1978, the federal lead-paint disclosure applies too. A direct buyer is not a way around disclosure, and anyone who suggests otherwise is telling you something Idaho law does not say.",
+          "What changes is the lender. We buy with our own capital, so there is no lender's appraisal and no lender asking for repairs before closing. We buy in any condition. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic when you want one.",
+          "Read any inspection or due-diligence period in a direct buyer's contract the same way you would read one in a listing offer: how long it lasts, and what lets the buyer walk away. That applies to ours as well.",
         ],
         claims: [
           "id-disclosure-required-1-to-4-units",
           "id-disclosure-sixteen-exemptions",
           "fed-lead-paint-pre-1978-seller-disclosure",
-          "id-disclosure-rescission-three-days",
+        ],
+      },
+      {
+        heading: "The arithmetic on one example house",
+        body: [
+          `Take a house worth ${usd(EXAMPLE_ARV)} once the work is done, run through the same model as the worksheet below. These are our worksheet's assumptions, not market figures: a ${pct(OFFER_RATES.commission)} commission and ${pct(OFFER_RATES.sellerClosing)} of seller closing costs on a listing. Your listing agreement has to state the commission, so put your agent's figure in its place. The worksheet lets you change the value and the condition.`,
+          exampleLine("cosmetic"),
+          exampleLine("major"),
+          "Each figure is before any mortgage payoff, liens and taxes on the sale, which come out of every route the same way. No listing commission appears in the direct-sale figure because no listing agent is involved, and any closing costs that fall to you in a sale to us are stated in the written offer.",
+        ],
+      },
+      {
+        heading: "When listing wins",
+        body: [
+          "On a sound house, listing usually wins on money, and the example above shows it on our own numbers. Even on the house needing major work, doing the work and then listing nets more on paper. The case for a direct sale there is not that it pays more. It is that the listing figure assumes you can fund the work, wait the months and absorb a contract that ends at the inspection or the appraisal.",
+          "List it if any of these is true. The house is tidy and would get through a lender's appraisal and a buyer's inspection without a long repair list. You can live with showings, the disclosure and contingency steps, and a few months of uncertainty. You already have a strong offer from a financed buyer. In any of those cases, listing will usually net more even after commission, and we will tell you so.",
+          "Listing also wins when the right buyer for the house is a household that will pay for its location or its finish. A single cash buyer prices the house as a project. The open market prices it as a home.",
+        ],
+      },
+      {
+        heading: "When a direct sale is worth pricing",
+        body: [
+          "The house needs work you cannot or do not want to fund, or work a lender would require before closing. It is inherited and the estate wants a clean exit. It has tenants, title or permit problems that make a financed buyer nervous. A foreclosure or another deadline sets the date. The property is land, a manufactured home or something else the open market finances badly.",
+          "In those cases the asking price is not the number that matters. What matters is what you would actually clear, and when.",
         ],
       },
       {
         heading: "How to compare the two numbers honestly",
         body: [
-          "Compare what you would clear, not the headline price. For a listing that means the expected sale price, minus commission, minus the repairs and preparation a financed buyer will require, minus the cost of carrying the house — mortgage, tax, insurance, utilities — for the months it is on the market, with some allowance for a deal that falls through.",
+          "Compare what you would clear, not the headline price. For a listing that means the expected sale price, minus the commission in your listing agreement, minus the repairs and preparation a financed buyer and the buyer's lender will want, minus the cost of carrying the house (mortgage, tax, insurance, utilities) for the months it is on the market, with some allowance for a contract that ends at the inspection or the appraisal.",
           "For a direct offer it is the offer, minus your share of closing costs. We show our arithmetic so you can put the two side by side. See [how we calculate an offer](/how-we-calculate-an-offer).",
         ],
       },
       {
         heading: "Questions to ask any direct buyer",
         body: [
-          "Whose money is it? A buyer using its own capital does not need a lender to approve the deal; a buyer who needs to find funding or another buyer may not close on the date promised.",
+          "Whose money is it? A buyer using its own capital does not need a lender to approve the deal. A buyer who needs to find funding or another buyer may not close on the date promised.",
           "Which title company, and when does earnest money go in? A purchase that closes through a local title company, with the deposit held there, is one you can check at every step.",
           "Can I see how you got to the number? A buyer who will not show the working is asking you to trust a figure you have no way to test.",
           "Who sets the date? If the closing date suits the buyer rather than you, you have traded the price for less certainty than you thought.",
-          "Idaho gives you ways to check the answers — the Secretary of State's business records, the licensing rules for title and escrow, and a cancellation right on certain foreclosure-related contracts. They are set out in [how to check a cash buyer in Idaho](/how-to-check-a-cash-buyer-in-idaho).",
+          "Idaho gives you ways to check the answers: the Secretary of State's business records, the licensing rules for title and escrow, and a cancellation right on certain foreclosure-related contracts. They are set out in [how to check a cash buyer in Idaho](/how-to-check-a-cash-buyer-in-idaho).",
         ],
       },
       {
         heading: "Idaho does not publish sale prices",
         body: [
-          "One thing makes the comparison harder here than in many states. Idaho is a non-disclosure state: recorded documents are open to anyone, but the sale price is not among the elements a deed must contain. So neither you nor a buyer can simply look up what the house next door sold for. That is a reason to ask any buyer — or any agent — to show the basis of their number.",
+          "One thing makes the comparison harder here than in many states. Idaho is a non-disclosure state: recorded documents are open to anyone, but the sale price is not among the elements a deed must contain. So neither you nor a buyer can simply look up what the house next door sold for. That is a reason to ask any buyer, or any agent, to show the basis of their number.",
         ],
         claims: ["idaho-recorded-documents-are-public", "idaho-deed-content-requirement-omits-price"],
       },
@@ -935,75 +1014,92 @@ export const TOPIC_PAGES: TopicPage[] = [
   {
     slug: "how-we-calculate-an-offer",
     kind: "decision",
-    title: "How We Calculate a Cash Offer on a House",
+    tool: "offer-math",
+    title: "How Cash Home Buyers Calculate an Offer: Our Exact Formula",
     h1: "How we calculate an offer",
     eyebrow: "Our arithmetic",
     description:
-      "The four numbers behind every offer we make on an Ada County house, and why we show them to you rather than just the total.",
+      "The formula behind our Boise cash offers, line by line: repair cost by condition, holding and resale costs, our margin, and how it compares with listing.",
     published: "2026-11-12",
-    updated: "2026-11-12",
+    updated: "2026-11-18",
     guides: ["how-a-property-sale-closes-in-idaho"],
     intro: [
-      "Every offer we make on a house is built from four numbers: what the house would be worth after the work it needs, what that work costs, what it costs us to hold and resell the property, and the margin we run on. We show you all four, so you can check the number rather than take it on trust.",
-      "This page describes our own method. It is not an appraisal, and nothing on it says what any particular property is worth.",
+      "Every offer we make on a house is built from four numbers: what the house would be worth after the work it needs, what that work costs, what it costs us to hold and resell the property, and the margin we run on. The offer is the first number minus the other three. We state the rates we use, you set the value and the condition in the worksheet on this page, and the arithmetic does the rest.",
+      "This page describes our own method. It is not an appraisal, and nothing on it says what any particular property is worth. The worksheet is an illustration, not a quote for your house.",
     ],
     sections: [
       {
+        heading: "The formula in one line",
+        body: [
+          `Offer = value after the work, minus the work, minus holding and reselling, minus our margin. Every rate below is a share of the value after the work, so the whole calculation scales with one number. ${worksheetExample()}`,
+          "What we state is the rates. What you set is the value and the condition. A written offer for your address replaces both of those with the facts of your house.",
+        ],
+      },
+      {
         heading: "1. The value after the work",
         body: [
-          "We start with what the house would sell for once the work is done — the after-repair value. On a house that is how value is found: by comparison with similar houses that have sold nearby.",
-          "In Idaho that is harder than it sounds. Recorded documents are open to the public, but the sale price is not among the elements a deed must contain, so comparable sales are not something you can read off the county record. We tell you which sales we relied on and why, so you can push back if you know the street better than we do.",
+          `We start with what the house would sell for once the work is done, the after-repair value. On a house that is how value is found: by comparison with similar houses that have sold nearby. On the worksheet you set it yourself, anywhere from ${usd(ARV_MIN)} to ${usd(ARV_MAX)}. Outside that range the model is not meant to be read.`,
+          "In Idaho that is harder than it sounds. Recorded documents are open to the public, but the sale price is not among the elements a deed must contain, so comparable sales are not something you can read off the county record. In a written offer we tell you which sales we relied on and why, so you can push back if you know the street better than we do.",
         ],
         claims: ["idaho-recorded-documents-are-public", "idaho-deed-content-requirement-omits-price"],
       },
       {
         heading: "2. The work the house needs",
         body: [
-          "Next, the cost of the work: roof, systems, finishes, anything unpermitted that would need to be brought into compliance. We list it line by line. If you think a line is wrong, that is the line to argue — and sometimes you will be right.",
+          `On the worksheet the work is a share of the value after the work, set by the condition you pick: ${tierRates()}.`,
+          "In a written offer the cost of the work is listed line by line: roof, systems, finishes, anything unpermitted that would need to be brought into compliance. If you think a line is wrong, that is the line to argue, and sometimes you will be right.",
         ],
       },
       {
         heading: "3. The cost of holding and reselling",
         body: [
-          "From the day we buy until the day we sell, the house costs money: property tax, insurance, utilities, financing on our own capital, and the costs of selling it again. These are real costs on any resale, and we show what we have assumed.",
+          `From the day we buy until the day we sell, the house costs money: property tax, insurance, utilities and the cost of our own capital, plus title, escrow and the commission when we sell it again. The model puts reselling at ${pct(OFFER_RATES.resale)} of the value after the work, and holding at ${pct(OFFER_RATES.monthlyCarry)} of that value for each month we expect to own it: ${tierMonths()}.`,
         ],
       },
       {
         heading: "4. Our margin",
         body: [
-          "Finally, the spread we run on — the part that pays for the risk that the work costs more, the market moves, or the house takes longer to sell. We do not hide it inside the other numbers. You see it as a line of its own.",
+          `Finally, the spread we run on: ${pct(OFFER_RATES.margin)} of the value after the work. It pays for the risk that the work costs more, the market moves, or the house takes longer to sell. We do not hide it inside the other numbers. You see it as a line of its own, in dollars.`,
+        ],
+      },
+      {
+        heading: "How the worksheet sets this against listing",
+        body: [
+          `The worksheet also shows two listing routes for the same house, on stated assumptions: a ${pct(OFFER_RATES.commission)} commission and ${pct(OFFER_RATES.sellerClosing)} of seller closing costs. Those are the model's assumptions, not market rates. Your listing agreement states the commission you actually agree.`,
+          `Listing as it stands prices the house below its finished value by the cost of the work and by a further discount for selling it unfinished (${asIsDiscounts()}), then takes off the commission, closing costs and two months of holding at the same monthly rate. Doing the work first and then listing takes off the work, the commission and closing costs on the full value, and holding for two months longer than our own estimate for that condition.`,
+          "The worksheet shows what you keep on each route as a band of 4% either side, to avoid false precision. It is not a forecast. [Direct sale or listing](/cash-offer-vs-listing-idaho) runs the comparison on an example house and says when listing wins.",
         ],
       },
       {
         heading: "Why we show the working",
         body: [
-          "A number on its own invites only one response: higher. A number with its working lets you see where we might be wrong — a repair we have overestimated, a comparable sale that is not comparable — and that is a better conversation for both sides.",
-          "It also lets you compare our offer properly with [listing the house](/cash-offer-vs-listing-idaho). If the arithmetic shows that listing would net you more, we would rather you saw that from our own numbers.",
+          "A number on its own invites only one response: higher. A number with its working lets you see where we might be wrong, a repair we have overestimated or a comparable sale that is not comparable, and that is a better conversation for both sides.",
+          "It also lets you compare our offer properly with listing the house. If the arithmetic shows that listing would net you more, we would rather you saw that from our own numbers.",
         ],
       },
       {
         heading: "Commercial property is different",
         body: [
-          "Above four units, and for office and industrial buildings, value comes from income rather than comparable sales, and the method changes. That is explained on [how commercial value is determined](/commercial/how-value-is-determined).",
+          "Above four units, and for office and industrial buildings, value comes from income rather than comparable sales, and the method changes. That is explained on [how commercial value is determined](/commercial/how-value-is-determined). Land is worked out differently too.",
         ],
       },
       {
         heading: "What can move the number",
         body: [
-          "Information. A recent inspection report, receipts for a new roof or furnace, a survey, leases and rent figures on a rental — each one replaces an assumption with a fact. Our assumptions on unknowns are deliberately cautious, so facts usually move the number in the seller's favour.",
+          "Information. A recent inspection report, receipts for a new roof or furnace, a survey, leases and rent figures on a rental: each one replaces an assumption with a fact. Our assumptions on unknowns are deliberately cautious, so facts usually move the number in the seller's favour.",
           "What does not move it is negotiation for its own sake. If a line is wrong, show us why and we will change it. If every line is right, the total is the total.",
         ],
       },
       {
         heading: "What this number is not",
         body: [
-          "It is not an appraisal and it is not an opinion of what your house is worth on the open market. It is what we would pay, and why. The offer carries no obligation: if listing would net you more, take the listing — the comparison on [direct sale or listing](/cash-offer-vs-listing-idaho) shows how to set the two side by side.",
+          "It is not an appraisal and it is not an opinion of what your house is worth on the open market. It is what we would pay, and why. The offer carries no obligation: if listing would net you more, take the listing.",
         ],
       },
       {
         heading: "What happens after you see the number",
         body: [
-          "If the number works, the purchase closes through a local title company on a date you choose — three weeks is realistic. We buy with our own capital, so nothing waits on a lender. If it does not work, that is the end of it, with no obligation. Start with the [address](/contact).",
+          "If the number works, the purchase closes through a local title company on a date you choose, and three weeks is realistic. We buy with our own capital, so nothing waits on a lender. If it does not work, that is the end of it, with no obligation. Start with the [address](/contact).",
         ],
       },
     ],
@@ -1011,15 +1107,15 @@ export const TOPIC_PAGES: TopicPage[] = [
   {
     "slug": "how-to-check-a-cash-buyer-in-idaho",
     "kind": "decision",
-    "title": "How to Check a Cash Buyer in Idaho",
+    "title": "How to Check a Cash Home Buyer Is Legit in Idaho",
     "h1": "How to check that a cash buyer in Idaho is legitimate before you sign",
     "eyebrow": "Before you sign",
-    "description": "What Idaho's Secretary of State, Real Estate Commission, escrow and title laws let a seller check about any cash buyer, and the questions to ask first.",
+    "description": "Check any Idaho cash home buyer before you sign: business records, proof of funds, title company escrow, Real Estate Commission guidance and foreclosure rights.",
     "published": "2026-11-12",
-    "updated": "2026-11-12",
-    "guides": [],
+    "updated": "2026-11-18",
+    "guides": ["how-a-property-sale-closes-in-idaho", "foreclosure-rescue-scams-in-idaho"],
     "intro": [
-      "Before you sign, look up the buyer's entity on the Idaho Secretary of State's free business search, confirm that the title or escrow company closing the sale holds an Idaho Department of Insurance or Department of Finance license, and ask in writing whether the buyer is purchasing for its own account. Idaho's real estate license law, the Real Estate Commission's guidance and the Consumer Foreclosure Protection Act tell you what those answers mean.",
+      "Before you sign, look up the buyer's entity on the Idaho Secretary of State's free business search, confirm that the title or escrow company closing the sale holds an Idaho Department of Insurance or Department of Finance license, ask for proof of funds in the buyer's own name, and ask in writing whether the buyer is purchasing for its own account. Idaho's real estate license law, the Real Estate Commission's guidance and the Consumer Foreclosure Protection Act tell you what those answers mean.",
       "This page describes what those statutes, agency guidelines and consumer pages say. It is not legal advice and it is not applied to your situation. If you are deciding whether to sign a specific contract, an Idaho attorney should read it first."
     ],
     "sections": [
@@ -1033,6 +1129,16 @@ export const TOPIC_PAGES: TopicPage[] = [
         "claims": [
           "vb-sos-business-search",
           "vb-sos-certificate-not-required"
+        ]
+      },
+      {
+        "heading": "Ask for proof of funds, and where the money will sit",
+        "body": [
+          "Ask whose money pays for the house, and ask to see it. A buyer paying from its own funds can show a recent account statement or a letter from its bank. Check that the name on it matches the buyer named on the purchase agreement. A buyer that still needs a loan, an investor partner or another buyer before it can close has a condition on the sale, whether or not the contract spells it out, and it is better to know that before you sign.",
+          "Proof of funds shows that money exists today. The closing company is what ties it to your sale. Idaho's license law treats earnest money that the parties have directed in writing to a title, escrow or trust company as held there rather than by a broker. Ask how much earnest money the buyer will deposit, with which company and by when, then call that company on a number you looked up yourself and confirm the deposit arrived."
+        ],
+        "claims": [
+          "vb-earnest-money-at-title-not-entrusted"
         ]
       },
       {
@@ -1052,8 +1158,9 @@ export const TOPIC_PAGES: TopicPage[] = [
         ]
       },
       {
-        "heading": "What the Real Estate Commission says about property a buyer does not own",
+        "heading": "Wholesaling: what the Real Estate Commission's guidance says",
         "body": [
+          "Sellers often hear the word wholesaling for a buyer who puts a house under contract and then markets the house, or the contract, to someone else before closing. The Idaho source that speaks to that practice most directly is the Real Estate Commission's guidance, and it is guidance, not statute.",
           "The Idaho Real Estate Commission publishes guidelines that explain how it reads the license law. Each one says it is not a new law but the agency's interpretation of existing law. That is the right weight to give them: they are not statutes, but they are the regulator's stated view.",
           "Guideline 18 deals with options and with investors. In the Commission's reading, an option holder is not an owner and may not list, sell, negotiate, procure buyers for or otherwise broker the property without a license. The guideline goes further: whether or not an investor holds an option, it says the investor may be engaged in unlicensed practice if they list, sell or negotiate the sale of property they do not own, or procure buyers for it.",
           "Guideline 2 adds that the Commission reads procuring prospects to include any marketing or advertising designed to attract the attention of buyers or sellers.",
@@ -1125,7 +1232,7 @@ export const TOPIC_PAGES: TopicPage[] = [
           "Idaho's Consumer Foreclosure Protection Act begins with a finding by the Legislature that some persons and businesses defraud homeowners of their title, equity or other value under the guise of stopping or postponing a foreclosure sale. It also directs that the Act not be read to inhibit transactions with legitimate lenders and investors.",
           "Under Idaho Code 45-1602, during the foreclosure period described in Idaho Code 45-1506, a contract with the record owner involving the transfer of an interest in residential property subject to foreclosure must be in writing and must come with a statutory notice in at least 12-point boldface type. The notice warns that some individuals or businesses may say they can save a home from foreclosure, that a rescue plan may cost the owner valuable equity, and that the owner should consult an attorney or financial professional.",
           "Idaho Code 45-1603 then gives an owner whose property is in foreclosure the right to cancel any contract relating to the property made during the foreclosure period within five business days of entering into it. The cancellation must be in writing to all other parties but need not take any particular form, and no funds or interest in the property may transfer until the five days have passed. The Act excludes banks and similar institutions, regulated lenders, licensed mortgage lenders and brokers, and close family members, and a violation exposes the violator to penalties and damages under the Idaho Consumer Protection Act.",
-          "The FTC describes what these rules are aimed at. It warns that scammers may try to get a homeowner to transfer the deed, that a homeowner who does so is not likely to get it back, and that transferring the deed does not transfer the mortgage. It also describes equity-skimming schemes in which a homeowner is promised the home back later, or is tricked into selling for cash for much less than similar homes nearby, and the scammer rents the home out while the lender forecloses. Our [foreclosure guide](/guides/idaho-foreclosure-vs-property-tax-delinquency) covers the timeline of an Idaho trustee's sale."
+          "The FTC describes what these rules are aimed at. It warns that scammers may try to get a homeowner to transfer the deed, that a homeowner who does so is not likely to get it back, and that transferring the deed does not transfer the mortgage. It also describes equity-skimming schemes in which a homeowner is promised the home back later, or is tricked into selling for cash for much less than similar homes nearby, and the scammer rents the home out while the lender forecloses. The [Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline) covers the steps to an Idaho trustee's sale, and [foreclosure rescue scams in Idaho](/guides/foreclosure-rescue-scams-in-idaho) covers the warning signs."
         ],
         "claims": [
           "vb-cfpa-legislative-findings",
@@ -1135,6 +1242,28 @@ export const TOPIC_PAGES: TopicPage[] = [
           "vb-cfpa-penalties-title-48",
           "vb-ftc-deed-transfer-warning",
           "vb-ftc-equity-skimming"
+        ]
+      },
+      {
+        "heading": "The checks in order",
+        "body": [
+          "1. Get the buyer's exact legal name and look it up on the Secretary of State's business search.",
+          "2. Ask whether the buyer, or anyone on its side, holds an Idaho real estate license, and check the Commission's License Lookup.",
+          "3. Ask in writing whether the buyer is buying for its own account and will take title at closing.",
+          "4. Ask for proof of funds in the buyer's own name.",
+          "5. Get the title or escrow company's name, look up its license, and call it on a number you found yourself.",
+          "6. Confirm the earnest money amount, where it sits and the deadline.",
+          "7. If the house is in foreclosure, look for the statutory notice and note your five-business-day cancellation window.",
+          "8. Confirm any wiring instructions by phone with the title company before money moves."
+        ],
+        "claims": [
+          "vb-sos-business-search",
+          "vb-licensee-must-disclose-license",
+          "vb-irec-license-lookup",
+          "vb-earnest-money-at-title-not-entrusted",
+          "vb-cfpa-written-notice-required",
+          "vb-cfpa-five-business-day-rescission",
+          "vb-irec-wire-diversion-warning"
         ]
       },
       {
