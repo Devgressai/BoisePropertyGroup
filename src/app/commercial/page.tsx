@@ -7,10 +7,21 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import FinalCTA from "@/components/FinalCTA";
+import EvidenceAppendix from "@/components/seo/EvidenceAppendix";
 import { COMMERCIAL_PAGES } from "@/data/commercial-content";
+import { commercialClaim } from "@/data/commercial-claims";
+import { COMMERCIAL_LINES } from "@/data/hub-content";
+import { itemListSchema } from "@/lib/seo/schema";
+import { publishedCommercial } from "@/lib/seo/registry";
 
-const ASSETS = COMMERCIAL_PAGES.filter((p) => p.kind === "asset");
-const EXPLAINERS = COMMERCIAL_PAGES.filter((p) => p.kind === "explainer");
+// Only pages that have passed their gate; an unpublished page is never linked.
+const LIVE = new Set(publishedCommercial().map((p) => p.slug));
+const ASSETS = COMMERCIAL_PAGES.filter((p) => p.kind === "asset" && LIVE.has(p.slug));
+const EXPLAINERS = COMMERCIAL_PAGES.filter((p) => p.kind === "explainer" && LIVE.has(p.slug));
+const lineFor = (slug: string) => COMMERCIAL_LINES.find((l) => l.slug === slug);
+const CITED = [...new Set([...ASSETS, ...EXPLAINERS].flatMap((p) => lineFor(p.slug)?.claims ?? []))]
+  .map((id) => commercialClaim(id))
+  .filter((c) => c !== undefined);
 
 const TITLE = "Commercial Property Buyers in Ada County";
 const DESCRIPTION =
@@ -22,10 +33,15 @@ export const metadata: Metadata = pageMetadata({ path: "/commercial", title: TIT
  * The commercial hub.
  *
  * A hub is a routing page and is judged on whether the pages beneath it exist,
- * not on unique claims of its own. Two pages sit under it today. Office and
- * retail are absent because the evidence does not yet distinguish them from
- * each other — see scripts/research/commercial-ia-eligibility.mjs, which makes
- * that decision from the registry rather than from preference.
+ * not on unique claims of its own. Three asset pages and one explainer sit
+ * under it. Office and retail are absent as separate pages because the
+ * evidence does not distinguish them from each other; see
+ * scripts/research/commercial-ia-eligibility.mjs, which makes that decision
+ * from the registry rather than from preference.
+ *
+ * Each child gets one line saying what is actually different about it, from
+ * claims the child page cites (src/data/hub-content.ts), and the hub shows the
+ * sources behind those lines. A bare link list was "discovered, not indexed".
  */
 export default function CommercialHub() {
   return (
@@ -57,10 +73,10 @@ export default function CommercialHub() {
           <div className="max-w-[46rem]">
             <h2 className="display-lg text-[var(--bpg-ink)]">By asset class</h2>
             <p className="mt-4 leading-relaxed">
-              Two pages here go into detail, because those are the two where we have
-              something specific to Boise to say. Where we do not, we have not written a page
-              — a page that repeats what is true of every commercial building is not worth
-              your time.
+              Each page below exists because we have something specific to this county
+              to say about that kind of property. Where we do not, we have not written a
+              page: one that repeats what is true of every commercial building is not
+              worth your time.
             </p>
           </div>
 
@@ -72,8 +88,8 @@ export default function CommercialHub() {
                 className="group block border-t border-[var(--bpg-border)] py-7 no-underline"
               >
                 <h3 className="serif text-[1.35rem] font-semibold text-[var(--bpg-ink)] group-hover:underline group-hover:decoration-[var(--bpg-brass)] group-hover:underline-offset-4">{p.eyebrow}</h3>
-                <p className="mt-2 text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">
-                  {p.description}
+                <p className="mt-2 text-[0.95rem] leading-relaxed text-[var(--bpg-ink)]">
+                  {lineFor(p.slug)?.line ?? p.description}
                 </p>
               </Link>
             ))}
@@ -99,8 +115,8 @@ export default function CommercialHub() {
                     <h3 className="serif text-[1.35rem] font-semibold text-[var(--bpg-ink)] group-hover:underline group-hover:decoration-[var(--bpg-brass)] group-hover:underline-offset-4">
                       {p.h1}
                     </h3>
-                    <p className="mt-2 max-w-[46rem] text-[0.95rem] leading-relaxed text-[var(--bpg-muted)]">
-                      {p.description}
+                    <p className="mt-2 max-w-[46rem] text-[0.95rem] leading-relaxed text-[var(--bpg-ink)]">
+                      {lineFor(p.slug)?.line ?? p.description}
                     </p>
                   </Link>
                 ))}
@@ -112,9 +128,9 @@ export default function CommercialHub() {
             <h2 className="display-lg text-[var(--bpg-ink)]">Land, and a note on office versus retail</h2>
             <p className="leading-relaxed">
               There is no separate office page and no separate retail page, and that is
-              deliberate rather than unfinished. The codes themselves do not separate them —
-              Meridian governs both in one table, Boise delivers both through the same
-              mixed-use series — so two pages would have been one page written twice. They
+              deliberate rather than unfinished. The codes themselves do not separate them.
+              Meridian governs both in one table and Boise delivers both through the same
+              mixed-use series, so two pages would have been one page written twice. They
               share the districts page above.
             </p>
             <p className="leading-relaxed">
@@ -126,12 +142,22 @@ export default function CommercialHub() {
           </div>
         </div>
 
+        <EvidenceAppendix
+          claims={CITED}
+          intro="Each line above is a fact the linked page sets out in full. These are the sources behind them, quoted in their own words, with the date we last checked each one."
+        />
         <NextSteps path="/commercial" />
         <FinalCTA />
       </main>
       <Footer />
       <MobileCTA />
-      <PageSchema path="/commercial" name={TITLE} description={DESCRIPTION} type="CollectionPage" />
+      <PageSchema
+        path="/commercial"
+        name={TITLE}
+        description={DESCRIPTION}
+        type="CollectionPage"
+        extra={[itemListSchema("/commercial", [...ASSETS, ...EXPLAINERS].map((p) => ({ name: p.h1, href: `/commercial/${p.slug}` })))]}
+      />
     </>
   );
 }
