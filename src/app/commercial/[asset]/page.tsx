@@ -71,7 +71,9 @@ export default async function Page({ params }: { params: Promise<{ asset: string
           ? "Commercial property valuation"
           : content.eyebrow === "Multifamily"
             ? "Multifamily property"
-            : "Industrial property",
+            : content.eyebrow === "Districts"
+              ? "Commercial zoning districts"
+              : "Industrial property",
       sources: [...sources.values()],
     }),
   );

@@ -21,9 +21,16 @@
  *    paraphrased. Boise publishes the markers but not the definitions.
  */
 
+import type { ArticleTable } from "@/components/seo/DataTable";
+
 export interface CommercialSection {
   heading: string;
   body: string[];
+  /**
+   * An optional comparison table. Every figure and name in it must trace to a
+   * cited claim, exactly like body prose; check-commercial-pages.mjs scans it.
+   */
+  table?: ArticleTable;
 }
 
 export interface CommercialPageContent {
@@ -69,11 +76,11 @@ export const INDUSTRIAL: CommercialPageContent = {
   kind: "asset",
   assetClass: "industrial",
   title: "Selling industrial property in Boise — what changes and why",
-  seoTitle: "Selling Industrial Property in Boise, Idaho",
+  seoTitle: "Sell Industrial Property in Boise and Ada County, Idaho",
   h1: "Selling industrial property in Boise",
   eyebrow: "Industrial",
   description:
-    "How Boise's three industrial districts differ, why the number on the city's website may not be the number that governs your parcel, and how Ada County values industrial property.",
+    "Selling a warehouse, flex or shop building in Boise? How I-1, I-2 and I-3 differ, how Ada County's M1 to M3 differ again, and how the county values it.",
   intro: [
     "Industrial ground is the one asset class where the zoning district does most of the work. Two buildings a mile apart, both called light industrial by everyone who talks about them, can sit under standards that differ by a factor of three.",
     "This page is about what those differences are and where to check them. It is not a valuation, and nothing here is advice about a particular property.",
@@ -128,6 +135,14 @@ export const INDUSTRIAL: CommercialPageContent = {
       ],
     },
     {
+      heading: "Unincorporated industrial ground: the county's M1, M2 and M3",
+      body: [
+        "Ordinance No. 1002 gives the county's three industrial districts one shared dimensional table. M1 Light, M2 General and M3 Airport Industrial all carry a 50 feet maximum building height and a 30 feet minimum street frontage. Interior side and rear setbacks are zero, and become 15 feet where the lot abuts residential. That is a flat figure, not Boise's scale that grows with the size of the development, and it is another reason a Boise number cannot be carried onto county ground.",
+        "The districts differ by purpose. M1 is drawn for light industrial and technological uses, light assembly, warehousing, research institutions and specialized manufacturing, with professional offices only where they serve light industrial uses. M2 provides for higher intensities than M1. M3 accommodates industrial uses compatible with the safe operation of the Boise Air Terminal (Gowen Field), is intended for non-noise sensitive manufacturing, industrial and commercial uses, and sends any use inside the airport overlay district to a separate section of the code as well.",
+        "One M1 rule matters to anyone selling a flex or showroom building. Retail store, personal services and office uses may occupy up to 10% of the gross floor area of an industrial building, or 15,000 square feet, whichever is less. The front-of-house share of the building is capped by the code, not by the market.",
+      ],
+    },
+    {
       heading: "Overlays sit on top of the district, they do not replace it",
       body: [
         "A parcel carries its base district and any overlay covering it, and the overlay adds constraints rather than substituting for them. Around the airport this matters more than usual: Boise's Airport Influence Area Overlay exists to address the compatibility of development with airport operations, and a large share of the city's industrial ground sits inside it.",
@@ -138,6 +153,7 @@ export const INDUSTRIAL: CommercialPageContent = {
       heading: "How the county arrives at a value",
       body: [
         "Ada County assesses commercial property using the income the property produces, rather than by comparing it to nearby sales the way residential property is handled. That is the same logic a buyer applies, and for the same reason: industrial buildings are rarely alike enough for comparison to carry the weight.",
+        "The rule the assessor works under points the same way, with one twist. Where the income approach is used on an income-producing property, Idaho's rules require market rent, not contract rent. A warehouse let below market on a long lease is assessed as if it were let at market. A buyer is buying the lease that actually exists.",
         "The assessor's figure is not a substitute for that, and the reasons are structural rather than anyone's error — a date fixed by statute, a tolerance the law states openly, and a rolling appraisal cycle. [How commercial value is determined](/commercial/how-value-is-determined) sets that out in full.",
       ],
     },
@@ -145,7 +161,7 @@ export const INDUSTRIAL: CommercialPageContent = {
       heading: "What we do with industrial property",
       body: [
         "We look at warehouse, flex, shop and yard property in Boise and across Ada County — single tenant, multi tenant, or empty. Deferred maintenance is not a disqualifier and neither is a problem attached to title, tenancy or entitlement.",
-        "We buy with our own capital, and a purchase closes through a local title company.",
+        "We buy with our own capital, a purchase closes through a local title company, and the seller chooses the closing date. The first conversation can be a phone call to (208) 779-4247.",
         "What we will not do is tell you what your building is worth. We can tell you what we would pay and show the arithmetic behind it, which is a different thing and should be treated as a different thing.",
       ],
     },
@@ -176,6 +192,9 @@ export const INDUSTRIAL: CommercialPageContent = {
     "boise-flood-protection-overlay-purpose",
     "ada-commercial-assessment-uses-income",
     "ada-assessment-market-value-jan-1-commercial",
+    "ada-county-m1-caps-retail-and-office-floor-area",
+    "ada-county-industrial-tables-and-airport-purpose",
+    "idaho-assessment-income-approach-uses-market-rent",
   ],
 };
 
@@ -184,11 +203,11 @@ export const MULTIFAMILY: CommercialPageContent = {
   kind: "asset",
   assetClass: "multifamily",
   title: "Selling multifamily property in Ada County — five units and up",
-  seoTitle: "Selling Multifamily Property in Ada County (5+ Units)",
+  seoTitle: "Sell an Apartment Building in Boise or Ada County (5+ Units)",
   h1: "Selling multifamily property, five units and up",
   eyebrow: "Multifamily",
   description:
-    "Where multifamily actually begins depends on who is asking — six systems put the line in different places. What changes above four units, and how Ada County values apartment property.",
+    "Selling a building of five units or more in Boise or Ada County? Where multifamily begins, why it is priced on income, and how the assessor values apartments.",
   intro: [
     "Five units and up, priced on rent roll and net operating income rather than on comparable sales. Fourplexes and below we buy as well, and those we handle on the residential side, because that is where the financing and the appraisal method still sit.",
     "This page is about what changes when a building crosses that line, and about a definition that is much less settled than it sounds.",
@@ -229,9 +248,17 @@ export const MULTIFAMILY: CommercialPageContent = {
       ],
     },
     {
+      heading: "Outside Boise, the district rules change: Garden City's C-2",
+      body: [
+        "Apartment ground in Garden City sits under a different kind of rule. Its C-2 Mixed-Use Commercial district requires a mix of uses. A development with more than 50 dwelling units at a density above 20 dwelling units per acre must give at least 30% of the site's square footage to nonresidential uses, and the same requirement applies in Garden City's own R-3 and M mixed-use districts. A project that does not meet the test may still be allowed through a conditional use permit or a planned unit development.",
+        "So an apartment building in Garden City's C-2 may carry commercial space the code expected it to carry, and whoever buys it is buying that mix. The district letters across the county are covered on [what each commercial district letter means](/commercial/commercial-districts).",
+      ],
+    },
+    {
       heading: "The assessor's number answers a different question",
       body: [
         "Assessed value in Ada County is market value as of January 1, produced for taxation at mass-appraisal scale rather than for a transaction. For most of the year it is a figure about a date in the past, and it carries a statutory tolerance and a rolling appraisal cycle behind it — all set out in [how commercial value is determined](/commercial/how-value-is-determined).",
+        "Two of the Tax Commission's rules explain much of the rest. Where the income approach is used on an income-producing property, it must use market rent, not contract rent, so the assessor values an apartment building as if its units were let at market. And the rules tell assessors to include income and expense data owners submit by the first Monday in April. An owner who submits it can protect it, because Idaho exempts confidential commercial or financial information in assessor records from disclosure, provided the owner stamps or marks the documents.",
         "None of that makes it the wrong number. It makes it the right number to a question a seller is not asking. It cannot account for the specific facts that move a real price on an apartment property — a block of leases rolling at once, a boiler at the end of its life, units held vacant through a turn.",
       ],
     },
@@ -239,7 +266,7 @@ export const MULTIFAMILY: CommercialPageContent = {
       heading: "What we do with multifamily property",
       body: [
         "Five units through several hundred, in Boise and across Ada County and selectively wider in the Treasure Valley. Stabilised, partly vacant, or mid-turnaround.",
-        "Timeline is set by the seller. We can work to a fast close or wait months where that is what the situation needs.",
+        "Timeline is set by the seller. We can work to a fast close or wait months where that is what the situation needs. We buy with our own capital and close through a local title company. The number is (208) 779-4247.",
         "We will not tell you what your property is worth. We will tell you what we would pay and show how we got there.",
       ],
     },
@@ -262,6 +289,10 @@ export const MULTIFAMILY: CommercialPageContent = {
     "boise-mx5-downtown-purpose",
     "boise-r3-height",
     "boise-district-pages-omit-footnote-definitions",
+    "garden-city-c2-requires-mix-of-uses",
+    "idaho-assessment-income-approach-uses-market-rent",
+    "idaho-assessor-market-data-bank-income-expense",
+    "idaho-assessor-records-conditional-confidentiality",
   ],
 };
 
@@ -275,7 +306,7 @@ export const VALUATION: CommercialPageContent = {
   h1: "How commercial value is determined",
   eyebrow: "Valuation",
   description:
-    "Why a commercial building is valued on its income while a house is valued by comparison, why Idaho's non-disclosure rule removes the fallback, and why the assessor's number answers a different question.",
+    "Idaho recorder records are free to inspect, but a deed need not state a price. How Ada County values commercial property on income, and why assessments differ.",
   intro: [
     "A homeowner can get within striking distance of their own number. A commercial owner usually cannot, and the reason is not that the information is being kept from them — it is that the method is different, and the input the method runs on is something only they hold.",
     "This page explains the method. It is not a valuation, and it does not tell you what your property is worth.",
@@ -287,6 +318,15 @@ export const VALUATION: CommercialPageContent = {
         "A house is valued by comparison. You find properties that recently sold, adjust for the differences, and arrive at a number. It works because houses are numerous and similar and the sales are visible.",
         "A commercial property is valued on the income it produces. Ada County does exactly this in its own assessment work, and it staffs accordingly: apartment property is handled by the county's commercial appraisers rather than its residential ones, alongside office, retail and industrial.",
         "The switch is not a preference. Commercial buildings are too few and too unalike for comparison to carry the weight, and the thing a buyer is actually purchasing is a stream of income rather than a place to live. So above the point where a property stops being a house, the question changes from what did similar things sell for to what does this one earn.",
+      ],
+    },
+    {
+      heading: "What Idaho law tells the assessor to consider",
+      body: [
+        "The assessor does not choose a method freely. Idaho Code § 63-208 requires each county assessor to find market value according to recognized appraisal methods and techniques as set forth by the State Tax Commission, and it makes the actual and functional use of the property a major consideration.",
+        "The Tax Commission's property tax rules then say what those methods are. Three approaches to value are considered for all property: sales comparison, cost and income. Assessors work from the guidelines and publications of nationally recognized appraisal bodies.",
+        "One rule matters more than the others to a commercial owner. When the income approach is used on an income-producing property, it must use market rent, not contract rent. The assessor values the building as if it were let at market, not at the rents its leases actually carry. A long lease below market does not by itself pull the assessment down, and a lease above market does not by itself push it up.",
+        "A buyer works the other way. A buyer is purchasing the actual leases, so the actual rents, the dates they roll and the terms attached to them are the inputs. That single difference explains a good part of the gap between an assessed value and an offer on a building with long or unusual leases.",
       ],
     },
     {
@@ -304,6 +344,8 @@ export const VALUATION: CommercialPageContent = {
         "Access to the record is total. Idaho law requires every book of record, map, chart, survey and other paper on file in the recorder's office to be open during office hours to any person who wishes to inspect it, without charge. Nothing is being withheld from you.",
         "The price is simply not in the document. Idaho states what a conveyance must contain — a written instrument, subscribed by the party disposing of the property or an authorised agent, and the grantee's name and complete mailing address. The price is not among the required elements. You can read the deed in full and still not know what was paid.",
         "County assessors describe the consequence in their own words. As Bonner County's assessor puts it, \"Since Idaho is a non-disclosure state, the Assessor's office depends heavily on the public to provide sales and cost information.\" Canyon County says the same thing. The people whose statutory job is to value every property in a county are, on this point, in a position not much better than yours: they ask, and hope people tell them.",
+        "So where does the income side of an assessment come from? The Tax Commission's rules answer that directly. They require each county's valuation plan to include a market data bank: a collection, verification and analysis of sales, income and expense data and building cost information. Assessors are told to include income and expense data that property owners submit by the first Monday in April, so that assessment notices can go out by the first Monday in June.",
+        "An owner who hands that information over is not publishing it. Idaho exempts assessor records containing confidential commercial or financial information from public disclosure, but the owner has to claim the exemption by stamping or marking the documents. Unmarked, the protection is not automatic.",
         "There is a related asymmetry in what the public record does hold. Idaho's disclosure exemptions list what is always available from assessor records — owner name and mailing address, parcel number, legal description, square footage and acreage, the assessed value, the tax district and rate, the total property tax. A transaction price is not on that list. Which is why an owner can look up their own assessment in seconds and cannot look up what the building down the street actually sold for.",
       ],
     },
@@ -321,6 +363,8 @@ export const VALUATION: CommercialPageContent = {
       heading: "What this means for a conversation with us",
       body: [
         "We ask for a rent roll and a trailing twelve months of operating statements, and for the things that change what those numbers will look like next year: leases expiring, concessions, units held off the market, capital work deferred.",
+        "Because sale prices are not in the public record, those documents are also how the numbers get checked. A rent roll is read against the leases behind it, and operating statements against what was actually collected. That is the same verification the assessor's rule describes, done on one building instead of a county.",
+        "We buy with our own capital, a purchase closes through a local title company, and the seller chooses the closing date.",
         "We then tell you what we would pay and show the arithmetic. That is a commercial position, not an opinion of value, and the difference matters: we are the buyer, and an opinion of value from the buyer is not an opinion of value. If you need one of those, you need an appraiser, and we will say so.",
         "What we will not do is give you a number before we have seen the income, or tell you what your property is worth.",
       ],
@@ -337,6 +381,10 @@ export const VALUATION: CommercialPageContent = {
     "idaho-deed-content-requirement-omits-price",
     "idaho-is-a-non-disclosure-state",
     "idaho-assessor-records-conditional-confidentiality",
+    "idaho-assessors-use-tax-commission-appraisal-methods",
+    "idaho-three-approaches-considered-for-all-property",
+    "idaho-assessment-income-approach-uses-market-rent",
+    "idaho-assessor-market-data-bank-income-expense",
   ],
 };
 
@@ -345,23 +393,61 @@ export const DISTRICTS: CommercialPageContent = {
   kind: "asset",
   assetClass: "retail",
   alsoCovers: ["office"],
-  title: "Commercial districts across the Treasure Valley — what the letters mean",
-  seoTitle: "Commercial Zoning Districts in the Treasure Valley",
-  h1: "Commercial districts, and why the letters mislead",
+  title: "Commercial zoning districts in Ada County, city by city",
+  seoTitle: "What C-2 Commercial Zoning Means in Each Ada County City",
+  h1: "What C-1, C-2 and C-3 mean in each Ada County jurisdiction",
   eyebrow: "Districts",
   description:
-    "C-2 means four different things across four Treasure Valley cities, height inside one city's commercial set ranges from 35 to 95 feet, and the landscape buffer scales with the road you front rather than the district you are in.",
+    "C-2 is General Business in Eagle, Mixed Use Commercial in Garden City and Area Commercial in Kuna. Boise and Meridian have none. A sourced, city-by-city table.",
   intro: [
-    "Office and retail property in this valley is governed by district codes that look like a shared system and are not one. The same letters mean different things in different cities, and the same idea travels under different letters.",
-    "This page is about what the designations actually say, city by city. It is not a valuation and it is not advice about a particular parcel.",
+    "A commercial district is the part of a zoning map set aside for shops, offices and services. The label on it, C-2 for example, is local shorthand. Each city in Ada County and the county itself write their own, and the same label means different things on either side of a city limit.",
+    "This page sets out what each label means in each jurisdiction, quoted from the adopted codes. It is not a valuation and it is not advice about a particular parcel.",
   ],
   sections: [
     {
-      heading: "C-2 is four different districts",
+      heading: "What C-2 means, jurisdiction by jurisdiction",
       body: [
-        "Eagle's C-2 is General Business, drawn for commercial uses more intensive than those its other commercial zones permit. Garden City's C-2 is a mixed use commercial district. Star and Kuna each use C-2 for a commercial district of their own definition. Four cities, four meanings, one label.",
-        "It fails in the other direction too, and that is the more dangerous half. A neighbourhood-scale business district is C-1 in Eagle and C-N in Meridian — the same idea under different letters. So a reader comparing districts by their codes is being misled twice over: matching letters suggest a similarity that is not there, and differing letters hide one that is.",
+        "The short answer to what C-2 means is that it depends on which code governs the parcel. In Eagle, C-2 is General Business, for commercial uses more intensive than those its other commercial zones permit. In Garden City it is Mixed Use Commercial. In Kuna it is Area Commercial, for general business uses larger in scale than its neighborhood district. In Star it is General Commercial. Unincorporated Ada County writes it C2, without a hyphen, and calls it Community Commercial.",
+        "Boise and Meridian have no C-2 at all. Boise has no C-lettered district of any kind: its commercial uses are zoned through the MX mixed-use series. Meridian states the purpose of its commercial districts as providing for the retail and service needs of the community, and names them C-N, C-C, C-G, L-O, M-E and H-E rather than numbering them.",
+      ],
+      table: {
+        caption: "Commercial district names by jurisdiction, from each adopted code",
+        columns: ["Jurisdiction", "C-1", "C-2", "C-3", "Other commercial districts", "Where it is written"],
+        rows: [
+          ["Boise", "None", "None", "None", "MX-1 Neighborhood, MX-2 General, MX-3 Active, MX-4 Transit Oriented Development Node, MX-5 Downtown, MX-U University, MX-H Health", "City zoning district index; Boise City Code 11-02-03"],
+          ["Meridian", "None", "None", "None", "C-N Neighborhood Business, C-C Community Business, C-G General Retail and Service Commercial, L-O Limited Office, M-E Mixed Employment, H-E High Density Employment", "Meridian UDC 11-2B-1"],
+          ["Eagle", "Neighborhood Business", "General Business", "Highway Business", "L-O Limited Office, CBD Central Business", "Eagle City Code 8-2-1"],
+          ["Garden City", "Highway Commercial", "Mixed Use Commercial", "None", "LI Light Industrial is the only other nonresidential district", "Garden City Code 8-2B-1"],
+          ["Kuna", "Neighborhood Commercial", "Area Commercial", "Service Commercial", "CBD Central Business", "Kuna City Code 5-8-501"],
+          ["Star", "Neighborhood Commercial", "General Commercial", "None", "CBD Central Business, LO Limited Office; RC Riverfront Center and MU Mixed Use", "Star City Code 8-3A-1"],
+          ["Unincorporated Ada County", "C1 Neighborhood Commercial", "C2 Community Commercial", "None", "LO Limited Office", "Ordinance No. 1002, 8-2-16 to 8-2-18"],
+        ],
+        note: "District names and stated purposes only. A district name does not tell you what a particular parcel may be used for. That comes from each code's own use table and from any overlay, development agreement or specific area plan on the parcel.",
+      },
+    },
+    {
+      heading: "The same letter, different districts. The same idea, different letters.",
+      body: [
+        "Read the table across a row and the labels look like a shared system. Read it down a column and the system falls apart. Garden City's C-1 is Highway Commercial, for commercial and retail activity along arterial streets, while C-1 is a neighbourhood-scale business district in Eagle, Star, Kuna and the county. Eagle puts its highway district at C-3 instead, for travel-related services such as hotels, service stations, drive-in restaurants and retail sales clustered on major streets. Kuna's C-3 is something else again: Service Commercial, for larger scale commercial activity that may include business that is semi-industrial in nature.",
+        "Star folds Eagle's two roles into one. Its C-2 General Commercial covers commercial uses more intensive than its other zones, typically located next to arterial roadways and not immediately next to housing, and it names the same travel-related services Eagle assigns to C-3.",
+        "It fails in the other direction too, and that is the more dangerous half. A neighbourhood-scale business district is C-1 in Eagle and C-N in Meridian, the same idea under different letters. A reader comparing districts by their codes is misled twice: matching letters suggest a similarity that is not there, and differing letters hide one that is.",
         "None of this tells you what a district permits. It only tells you that the label will not travel. A permitted use in one city's C-2 says nothing about the next city's.",
+      ],
+    },
+    {
+      heading: "Garden City: C-2 is a mixed-use district, and the code enforces it",
+      body: [
+        "Garden City's code does not place C-2 with its nonresidential districts. It has two of those, C-1 Highway Commercial and LI Light Industrial, and it places C-2 Mixed Use Commercial with its mixed-use districts, intended to implement the Comprehensive Plan's vision for mixed-use commercial and activity nodes.",
+        "The label has teeth. Garden City requires a mix of uses in C-2. A development with more than 50 dwelling units at a density above 20 dwelling units per acre must give at least 30% of the site's square footage to nonresidential uses. A development on a site of 120,000 gross square feet or more must give at least 10% of the structures' square footage to dwellings. A project that does not meet those tests may still be allowed, but only through a conditional use permit or a planned unit development.",
+        "For an owner of commercial ground in Garden City, that is the practical meaning of C-2: a large site is expected to carry housing, and a large apartment project is expected to carry commercial space.",
+      ],
+    },
+    {
+      heading: "Unincorporated Ada County runs its own code",
+      body: [
+        "Outside city limits the governing text is Ada County's zoning ordinance, adopted as Ordinance No. 1002. Its commercial districts are LO Limited Office, C1 Neighborhood Commercial and C2 Community Commercial. There is no C3.",
+        "County C1 accommodates convenience goods and personal services for the daily needs of the immediate neighbourhood, along with professional office uses, and limits larger developments to arterial streets away from intersections or gateway locations. County C2 accommodates community shopping and clustered commercial activity along arterial streets and large-scale, high-intensity commercial structures, and it limits large-scale, high-intensity development to interstates and principal arterial roadways that serve the Treasure Valley.",
+        "Every one of these districts carries the same stated purpose: to encourage commercial uses primarily inside areas of impact, implementing the comprehensive plans adopted with the area of impact agreements, and to be established outside one only on a limited basis. County commercial zoning is largely holding ground that a neighbouring city's plan expects to take in.",
       ],
     },
     {
@@ -369,7 +455,7 @@ export const DISTRICTS: CommercialPageContent = {
       body: [
         "Meridian has six commercial districts and they do not share a height standard. Maximum building height is 35 feet in C-N Neighborhood Business and in L-O Limited Office, 50 feet in C-C Community Business, 65 feet in C-G General Retail and Service Commercial and in M-E Mixed Employment, and 95 feet in H-E High Density Employment.",
         "That is a range of nearly three to one inside districts a seller would reasonably think of as simply commercial, in one city. An owner comparing two Meridian commercial parcels on anything other than district is comparing the wrong variable first.",
-        "Eagle's commercial set is a different shape again — L-O Limited Office, C-1 Neighborhood Business, C-2 General Business, C-3 Highway Business and CBD Central Business. Its L-O exists for professional, research, executive, administrative, accounting, clerical and similar uses, and specifies that development shall not be traffic intensive: a constraint on what happens on the site rather than on what is built.",
+        "Eagle's L-O Limited Office exists for professional, research, executive, administrative, accounting, clerical and similar uses, and specifies that development shall not be traffic intensive: a constraint on what happens on the site rather than on what is built.",
       ],
     },
     {
@@ -390,23 +476,40 @@ export const DISTRICTS: CommercialPageContent = {
       ],
     },
     {
+      heading: "Checking a parcel in the right order",
+      body: [
+        "First, establish which code governs: a city's, or the county's for unincorporated ground. The district label means nothing until you know whose label it is.",
+        "Second, read that jurisdiction's purpose statement for the district, then its use table and dimensional table. The purpose tells you what the district is for; the tables tell you what it allows.",
+        "Third, look for anything layered on top: an overlay, a specific area plan, a development agreement or a mix-of-uses rule like Garden City's. A tabled figure describes the case where nothing else applies, and on commercial ground something else often does.",
+      ],
+    },
+    {
       heading: "What we do with commercial property",
       body: [
-        "We look at office, retail and mixed-use commercial property in Boise, across Ada County and selectively wider in the Treasure Valley — single tenant, multi tenant, or empty.",
-        "We buy with our own capital. Timeline is set by the seller. Deferred maintenance is not a disqualifier and neither is a problem attached to title, tenancy or entitlement.",
-        "We will not tell you what your property is worth. We will tell you what we would pay and show the arithmetic behind it.",
+        "We look at office, retail and mixed-use commercial property in Boise, across Ada County and selectively wider in the Treasure Valley, whether single tenant, multi tenant or empty.",
+        "We buy with our own capital, a purchase closes through a local title company, and the seller chooses the closing date. Deferred maintenance is not a disqualifier and neither is a problem attached to title, tenancy or entitlement.",
+        "We will not tell you what your property is worth. We will tell you what we would pay and show the arithmetic behind it. Call (208) 779-4247 or start with the address.",
       ],
     },
   ],
   citedClaims: [
     "commercial-district-letters-do-not-correspond",
+    "boise-has-no-c-lettered-commercial-district",
+    "meridian-commercial-district-purposes",
+    "eagle-commercial-district-purposes",
+    "garden-city-c1-is-highway-commercial",
     "garden-city-c2-is-mixed-use-not-commercial",
+    "garden-city-c2-requires-mix-of-uses",
+    "kuna-commercial-district-purposes",
+    "star-commercial-district-purposes",
+    "ada-county-c1-c2-purposes",
+    "ada-county-zoning-districts-schedule",
+    "ada-county-commercial-districts-tied-to-areas-of-impact",
     "meridian-commercial-height-spans-six-districts",
     "meridian-street-buffer-scales-with-road-class",
     "eagle-limited-office-purpose",
     "boise-mx2-mixed-use-general",
     "boise-mx5-downtown-purpose",
-    "ada-county-commercial-districts-tied-to-areas-of-impact",
   ],
 };
 

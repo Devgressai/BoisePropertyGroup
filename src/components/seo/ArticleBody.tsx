@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Inline from "@/lib/content/Inline";
+import DataTable, { type ArticleTable } from "@/components/seo/DataTable";
 
 /**
  * The reading layout shared by guides, situation, decision, place and
@@ -18,7 +19,7 @@ export default function ArticleBody({
   offerLabel = "Request an offer",
   offerNote = "Start with the address. We come back with a number and the working behind it.",
 }: {
-  sections: { heading: string; body: string[] }[];
+  sections: { heading: string; body: string[]; table?: ArticleTable }[];
   /** Anything that follows the sections inside the reading column. */
   children?: React.ReactNode;
   offerLabel?: string;
@@ -41,6 +42,7 @@ export default function ArticleBody({
                 <p key={p.slice(0, 40)}><Inline text={p} /></p>
               ))}
             </div>
+            {s.table && <DataTable table={s.table} />}
           </section>
         ))}
         {children}

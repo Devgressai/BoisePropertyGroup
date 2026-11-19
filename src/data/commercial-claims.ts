@@ -1637,7 +1637,7 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
-        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9902",
         "publisher": "City of Eagle, Idaho",
         "tier": 1
       },
@@ -1820,7 +1820,7 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
-        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9902",
         "publisher": "City of Eagle, Idaho",
         "tier": 1
       },
@@ -1861,8 +1861,490 @@ export const commercialClaims: CommercialClaim[] = [
     "sources": [
       {
         "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
-        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9941",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9902",
         "publisher": "City of Eagle, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "boise-has-no-c-lettered-commercial-district",
+    "claim": "Boise has no C-lettered zoning district. The city's list of base districts runs Residential (R-1A, R-1B, R-1C, R-2, R-3), Mixed-Use (MX-1 Neighborhood, MX-2 General, MX-3 Active, MX-4 Transit Oriented Development Node, MX-5 Downtown, MX-U University, MX-H Health), Industrial (I-1, I-2, I-3) and Open Land (A-1, A-2). Commercial uses in Boise are zoned through the MX series; MX-1 is intended for a mix of neighborhood-serving small-scale commercial, institutional and residential uses, and MX-3 for office, commercial, institutional and residential uses organised along the city's Best-in-Class Transit Routes and pathways.",
+    "quote": "Mixed Used Neighborhood MX-1 Mixed-Use: Neighborhood Mixed Use General MX-2 Mixed-Use: General Mixed Use Active MX-3 Mixed-Use: Active Mixed Use Transit Oriented Development Node MX-4 Mixed-Use: Transit Oriented Development (TOD) Node Mixed Use Downtown MX-5 Mixed-Use: Downtown ... The MX-1 district is intended to provide opportunities for a mix of neighborhood-serving small-scale commercial, institutional, and residential uses.",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Boise, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "IRREGULAR",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Zoning Districts — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/planning/zoning/zoning-districts/",
+        "publisher": "City of Boise Planning and Development Services",
+        "tier": 1
+      },
+      {
+        "title": "Boise City Code § 11-02-03 — Mixed-Use Districts (MX-1 through MX-5)",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-65402",
+        "publisher": "City of Boise (codified by American Legal Publishing)",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "garden-city-c1-is-highway-commercial",
+    "claim": "Garden City's C-1 is Highway Commercial, for the concentration of commercial and retail activities along arterial streets, where C-1 is a neighbourhood-scale business district in Eagle, Star, Kuna and unincorporated Ada County. Garden City has two nonresidential districts, C-1 and LI Light Industrial; its C-2 is classed among its mixed-use districts.",
+    "quote": "The purpose of the highway commercial district is to allow for the concentration of commercial and retail activities that are appropriately located along arterial streets.",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "city:garden-city",
+      "city:eagle",
+      "city:star",
+      "city:kuna",
+      "county:ada"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Garden City, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Garden City Code Title 8 Development Code, Article 8-2B — Nonresidential and Mixed Use Districts",
+        "url": "https://ecode360.com/47141205",
+        "publisher": "Garden City, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9902",
+        "publisher": "City of Eagle, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Star City Code § 8-3A-1 — Zoning Districts and Purposes Established",
+        "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-1ZODIPUES",
+        "publisher": "City of Star, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Kuna City Code § 5-8-501 — Zoning Districts Established; Purpose",
+        "url": "https://library.municode.com/id/kuna/codes/code_of_ordinances?nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      },
+      {
+        "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "garden-city-c2-requires-mix-of-uses",
+    "claim": "Garden City's C-2 Mixed-Use Commercial district is intended to implement the Comprehensive Plan's vision for mixed-use commercial and activity nodes, and the code requires a mix of uses in it (and in its R-3 and M districts). A development with more than 50 dwelling units at a density above 20 dwelling units per acre must dedicate at least 30% of the site's square footage to nonresidential uses, and a development on a site of 120,000 gross square feet or more must dedicate at least 10% of the structures' square footage to dwellings. Developments that do not meet those criteria may be allowed through a conditional use permit or planned unit development.",
+    "quote": "When a development contains more than 50 dwelling units and a density of greater than 20 dwelling units per acre, there shall be at least 30% of the square footage of the site dedicated to nonresidential uses.",
+    "assetClasses": [
+      "office",
+      "retail",
+      "multifamily"
+    ],
+    "entities": [
+      "city:garden-city"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Garden City, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Garden City Code Title 8 Development Code, Article 8-2B — Nonresidential and Mixed Use Districts",
+        "url": "https://ecode360.com/47141205",
+        "publisher": "Garden City, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "star-commercial-district-purposes",
+    "claim": "Star's commercial districts are CBD Central Business, C-1 Neighborhood Commercial, C-2 General Commercial and LO Limited Office, with RC Riverfront Center and MU Mixed Use as mixed-use districts. Star's C-2 is for commercial uses more intensive than its other commercial zones, typically adjacent to arterial roadways and not immediately adjacent to residential, including travel-related services such as hotels, service stations, drive-in restaurants, offices, limited warehousing and retail sales.",
+    "quote": "(C-2) GENERAL COMMERCIAL DISTRICT: To provide for the establishment of areas for commercial uses allowed in other commercial zones and commercial uses which are more intensive than those permitted in other commercial zones, and typically located adjacent to arterial roadways and not immediately adjacent to residential",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "city:star"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Star, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Star City Code § 8-3A-1 — Zoning Districts and Purposes Established",
+        "url": "https://library.municode.com/id/star/codes/code_of_ordinances?nodeId=TIT8UNDECO_CH3ZODIST_ARTADIES_8-3A-1ZODIPUES",
+        "publisher": "City of Star, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "kuna-commercial-district-purposes",
+    "claim": "Kuna runs three numbered commercial districts plus a central business district: C-1 Neighborhood Commercial for low impact commercial activity meeting nearby residents' daily needs, C-2 Area Commercial for general business uses larger in scale than the neighborhood district with direct access to collector or arterial roadways, C-3 Service Commercial for more intensive, larger scale commercial use that may include semi-industrial business activities, and CBD for the downtown.",
+    "quote": "Area commercial district (C-2): The purpose of the C-2 district is to promote the establishment of general business uses that are larger in scale than found in the neighborhood commercial district.",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "city:kuna"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Kuna, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Kuna City Code § 5-8-501 — Zoning Districts Established; Purpose",
+        "url": "https://library.municode.com/id/kuna/codes/code_of_ordinances?nodeId=TIT5KUDERECO_CH8ZOCO_PT5ZODI_5-8-501ZODIESPU",
+        "publisher": "City of Kuna, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "ada-county-c1-c2-purposes",
+    "claim": "In unincorporated Ada County, under Ordinance No. 1002, C1 Neighborhood Commercial accommodates convenience goods and personal services for the daily needs of the immediate neighbourhood, with professional office uses, and limits larger developments to arterial streets away from intersections or gateway locations. C2 Community Commercial accommodates community shopping and clustered commercial activity along arterial streets and large-scale, high-intensity commercial structures, and limits large-scale, high-intensity developments to interstates and principal arterial roadways that serve the Treasure Valley. The county writes these without a hyphen (C1, C2).",
+    "quote": "The Community Commercial (C2) District accommodates areas for community shopping and clustered commercial activities along arterial streets and provides for the sale of a full range of merchandise and services required of persons living within several neighborhood service areas and rural trade areas, accommodates large-scale, high-intensity commercial structures, and limits large-scale, high-intensity developments to interstates and principal arterial roadways that serve the Treasure Valley.",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "unincorporated Ada County, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "meridian-commercial-district-purposes",
+    "claim": "Meridian states that the purpose of its commercial districts is to provide for the retail and service needs of the community in accordance with the Meridian Comprehensive Plan. None of Meridian's six commercial districts is a C-1, C-2 or C-3. They differ in the size and scale of structures, the mix of uses and their location relative to streets and highways: C-N Neighborhood Business (small scale convenience with limited hours), C-C Community Business (larger scale, broader mix of retail, office and service), C-G General Retail and Service Commercial (largest scale and broadest mix, including light industrial, near interstate or arterial intersections), L-O Limited Office, M-E Mixed Employment and H-E High Density Employment (corporate headquarters and office complexes near highway interchanges).",
+    "quote": "The purpose of the commercial districts is to provide for the retail and service needs of the community in accordance with the Meridian Comprehensive Plan. The following districts are designated which differ in the size and scale of commercial structures accommodated in the district, the scale and mix of allowed commercial uses, and the location of the district in proximity to streets and highways",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Meridian, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Meridian Unified Development Code § 11-2B-1 — Purpose of the Commercial Districts (Table 11-2B-1)",
+        "url": "https://library.municode.com/id/meridian/codes/unified_development_code?nodeId=TIT11UNDECO_CH2DIRE_ARTBCODI_11-2B-1PU",
+        "publisher": "City of Meridian, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "eagle-commercial-district-purposes",
+    "claim": "Eagle's commercial set is L-O Limited Office, C-1 Neighborhood Business for convenience uses serving an immediate neighbourhood, C-2 General Business, C-3 Highway Business for travel-related services clustered on major streets to serve the motoring public, and CBD Central Business for the historical core business area, where the greatest concentration of retail and business is to occur.",
+    "quote": "C-3 HIGHWAY BUSINESS DISTRICT: To permit the establishment of areas for travel related services such as hotels, motels, service stations, drive-in restaurants, offices, limited warehousing, commercial services and retail sales.",
+    "assetClasses": [
+      "office",
+      "retail"
+    ],
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "zoning",
+      "jurisdiction",
+      "office",
+      "retail",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Eagle, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Eagle City Code § 8-2-1 — Zoning Districts and Purposes",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-9902",
+        "publisher": "City of Eagle, Idaho",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-assessors-use-tax-commission-appraisal-methods",
+    "claim": "Idaho requires each county assessor to find market value according to recognized appraisal methods and techniques as set forth by the State Tax Commission, which must prescribe by rule how market value for assessment is determined; the actual and functional use of a property must be a major consideration.",
+    "quote": "within his county according to recognized appraisal methods and techniques as set forth by the state tax commission; provided, that the actual and functional use shall be a major consideration when determining market value for assessment purposes.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "assessment",
+      "valuation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-208 — Rules pertaining to market value — Duty of assessors",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH2/SECT63-208/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-three-approaches-considered-for-all-property",
+    "claim": "Under the Tax Commission's property tax rules, three approaches to value are considered for all property: the sales comparison approach, the cost approach and the income approach. Assessors use the guidelines and publications of nationally recognized appraisal and valuation bodies to determine market value for assessment purposes.",
+    "quote": "Three (3) approaches to value are considered for all property and are the sales comparison approach, the cost approach and the income approach.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily",
+      "land"
+    ],
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "assessment",
+      "valuation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "IDAPA 35.01.03 — Property Tax Administrative Rules (Idaho State Tax Commission)",
+        "url": "https://adminrules.idaho.gov/rules/current/35/350103.pdf",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-assessment-income-approach-uses-market-rent",
+    "claim": "When an Idaho assessor uses the income approach to value an income-producing property, the rule requires market rent, not contract rent. A below-market lease does not by itself lower the assessment, and an above-market lease does not by itself raise it.",
+    "quote": "The income approach to value, used in appraisal procedures, methods, and techniques, to determine market value for assessment purposes of income-producing properties, must use market rent, not contract rent.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily"
+    ],
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "assessment",
+      "valuation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "IDAPA 35.01.03 — Property Tax Administrative Rules (Idaho State Tax Commission)",
+        "url": "https://adminrules.idaho.gov/rules/current/35/350103.pdf",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "idaho-assessor-market-data-bank-income-expense",
+    "claim": "Each Idaho assessor's continuing valuation plan must include a market data bank: a collection, verification and analysis of sales, income and expense data and building cost information. The rule tells assessors to include income and expense data submitted by property owners by the first Monday in April, so that assessment notices can be mailed by the first Monday in June.",
+    "quote": "A market data bank includes a collection, verification and analysis of sales, income and expense data, building cost information, and application of this information to estimate market value. To mail assessment notices by the first Monday in June as required by Section 63-308, Idaho Code, assessors should include income and expense data submitted by property owners by the first Monday in April.",
+    "assetClasses": [
+      "industrial",
+      "office",
+      "retail",
+      "multifamily"
+    ],
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "assessment",
+      "valuation",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "IDAPA 35.01.03 — Property Tax Administrative Rules (Idaho State Tax Commission)",
+        "url": "https://adminrules.idaho.gov/rules/current/35/350103.pdf",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "ada-county-m1-caps-retail-and-office-floor-area",
+    "claim": "In unincorporated Ada County's M1 Light Industrial district, retail store, personal services and office uses may occupy up to 10% of the gross floor area of an industrial building or 15,000 square feet, whichever is less. M1 is drawn for light industrial and technological uses, light assembly, warehousing, research and specialized manufacturing, with professional offices only where they serve light industrial uses.",
+    "quote": "may occupy up to ten percent (10%) of the gross floor area or fifteen thousand (15,000) square feet (whichever is less) of an industrial building in the M1 district",
+    "assetClasses": [
+      "industrial"
+    ],
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "zoning",
+      "industrial",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "unincorporated Ada County, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "ada-county-industrial-tables-and-airport-purpose",
+    "claim": "Ada County's three industrial districts, M1 Light, M2 General and M3 Airport Industrial, share one dimensional table under Ordinance No. 1002: a 50 feet maximum building height, 30 feet minimum street frontage, and zero interior side and rear setbacks that become 15 feet where the lot abuts residential. M2 provides for higher intensities than M1. M3 accommodates industrial uses compatible with the safe operation of the Boise Air Terminal (Gowen Field) and is intended for non-noise sensitive manufacturing, industrial and commercial uses; any proposed use within the airport overlay district must also comply with § 8-2-24.",
+    "quote": "The Airport Industrial (M3) District accommodates industrial uses that are compatible with the safe operation of the Boise Air Terminal (Gowen Field). This district is intended for non-noise sensitive manufacturing, industrial, and commercial uses.",
+    "assetClasses": [
+      "industrial"
+    ],
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "zoning",
+      "industrial",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "jurisdiction": "unincorporated Ada County, Idaho",
+    "verifiedOn": "2026-11-18",
+    "freshness": "SLOW-CHANGING",
+    "temporalStatus": "CURRENT",
+    "sources": [
+      {
+        "title": "Ada County Ordinance No. 1002 — repealing and re-enacting Ada County Code Title 8, the Ada County Zoning Ordinance",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
         "tier": 1
       }
     ]

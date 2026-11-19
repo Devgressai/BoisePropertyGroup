@@ -19,6 +19,8 @@ import { loadTsModule } from "../migration/load-ts.mjs";
 import { checkProse } from "./prose-rules.mjs";
 
 const stripInline = (t) => t.replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, "$1");
+/** A section's table is page copy too: its cells obey the same figure and prose rules as body text. */
+const tableText = (s) => (s.table ? [s.table.caption, ...s.table.columns, ...s.table.rows.flat(), s.table.note ?? ""] : []);
 
 const content = loadTsModule(resolve("src/data/commercial-content.ts"));
 const generated = loadTsModule(resolve("src/data/commercial-claims.ts"));
@@ -90,7 +92,9 @@ for (const page of content.COMMERCIAL_PAGES) {
 
   // Prose rules, shared with the vitest suite so there is one definition and
   // it can be run without a remote build.
-  const proseText = stripInline([...page.intro, ...page.sections.flatMap((s) => [s.heading, ...s.body])].join(" "));
+  const proseText = stripInline(
+    [...page.intro, ...page.sections.flatMap((s) => [s.heading, ...s.body, ...tableText(s)])].join(" "),
+  );
   const proseFailures = checkProse(page, proseText);
   say(
     proseFailures.length === 0,
@@ -114,7 +118,7 @@ for (const c of generated.commercialClaims) {
 let loose = [];
 for (const page of content.COMMERCIAL_PAGES) {
   for (const s of page.sections) {
-    for (const p of s.body) {
+    for (const p of [...s.body, ...tableText(s)]) {
       for (const m of p.matchAll(NUM)) {
         const n = m[0].toLowerCase().replace(/\s+/g, " ");
         if (!quoted.has(n)) loose.push(`${page.slug}: "${m[0]}"`);

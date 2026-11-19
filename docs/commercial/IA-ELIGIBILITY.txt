@@ -1,15 +1,15 @@
 COMMERCIAL IA ELIGIBILITY — computed from the registry, not decided in advance
 ==============================================================================
-approved commercial claims available: 51
+approved commercial claims available: 65
 
 ELIGIBLE TO BUILD
 ------------------------------------------------------------------------------
   Commercial acquisition overview
-    kind hub · 0 unique / 51 usable
+    kind hub · 0 unique / 65 usable
     A hub is a routing page. It is judged on whether the pages beneath it exist, never on unique claims.
 
   Industrial property — Boise
-    kind asset · 7 unique / 17 usable
+    kind asset · 9 unique / 19 usable
       · boise-i1-purpose
       · boise-i2-purpose-separation
       · boise-industrial-height-varies-by-district
@@ -24,14 +24,14 @@ ELIGIBLE TO BUILD
       · census-multifamily-starts-at-two
 
   Commercial districts — where commercial uses can go
-    kind asset · 5 unique / 11 usable
+    kind asset · 13 unique / 19 usable
       · garden-city-c2-is-mixed-use-not-commercial
       · meridian-commercial-height-spans-six-districts
       · meridian-street-buffer-scales-with-road-class
       · commercial-district-letters-do-not-correspond
 
   Why commercial property is valued on income
-    kind explainer · 9 unique / 14 usable
+    kind explainer · 13 unique / 18 usable
       · ada-commercial-assessment-uses-income
       · ada-assessment-market-value-jan-1-commercial
       · idaho-assessment-ratio-band-90-110
@@ -43,10 +43,10 @@ NOT ELIGIBLE
     ✗ G1 differentiation — 2 on-subject of 2 allocated (16 matched), needs 3
 
   Lease rollover / income concentration  [situation]
-    ✗ G1 differentiation — 0 on-subject of 0 allocated (10 matched), needs 3
+    ✗ G1 differentiation — 0 on-subject of 0 allocated (14 matched), needs 3
 
   Vacancy in a special-purpose building  [situation]
-    ✗ G1 differentiation — 0 on-subject of 3 allocated (23 matched), needs 3 · 3 allocated claim(s) say nothing about vacancy
+    ✗ G1 differentiation — 0 on-subject of 3 allocated (25 matched), needs 3 · 3 allocated claim(s) say nothing about vacancy
 
   Entity or partnership exit  [situation]
     ✗ G4 blocked — Idaho Title 30 (Uniform LLC Act) member-consent defaults not verified. No evidence held.
@@ -70,8 +70,8 @@ SIBLING OVERLAP — evidence that differentiates nobody
 
 HIERARCHY OVERLAP — resolved toward the less derived page
 ------------------------------------------------------------------------------
-    7 claims — industrial-boise over situation-vacancy
-    7 claims — valuation-income over situation-lease-rollover
+   11 claims — valuation-income over situation-lease-rollover
+    9 claims — industrial-boise over situation-vacancy
     3 claims — multifamily-5plus over situation-lease-rollover, valuation-income
     2 claims — commercial-land over situation-vacancy
     2 claims — multifamily-5plus over valuation-income
