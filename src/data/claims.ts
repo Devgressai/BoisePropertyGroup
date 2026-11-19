@@ -16445,6 +16445,408 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Kuna, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "boise-escrow-quote-and-sewer-deferral-payoff",
+    "claim": "The City of Boise runs an online self-service Escrow Tool that gives instant escrow quotes for many residential utility accounts, and handles payoff requests for sewer deferrals separately: a payoff request needs a signed Borrower's Authorization, and the city responds within 3 business days.",
+    "quote": "The City of Boise has launched an online self-service Escrow Tool. This tool will allow you to get instant escrow quotes for many of our residential accounts. ... The City of Boise requires a signed Borrower's Authorization for payoff request. ... We will respond to your payoff request within 3 business days.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "utilities",
+      "sewer",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Escrow Quote for Utility Billing Services — City of Boise",
+        "url": "https://www.cityofboise.org/departments/public-works/utility-billing-ub-appointments/escrow-quote-for-utility-billing-services/",
+        "publisher": "City of Boise",
+        "tier": 2
+      },
+      {
+        "title": "Sewer Deferral Payoff Request — City of Boise",
+        "url": "https://www.cityofboise.org/departments/public-works/sewer-connections-and-fees/sewer-deferral-payoff-request/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-utility-vacancy-six-months",
+    "claim": "Boise city utility vacancy status is limited to six months, cannot be backdated, and requires the property to be vacant for at least 30 consecutive days with no sewer or trash service used; base fees still apply, a vacancy removes only usage fees, and if the city finds service used during the vacancy the owner pays occupied rates for the whole period. 'Property is for sale/rent' is one of the listed reasons.",
+    "quote": "Vacancy status is limited to six (6) months. The customer must notify the City as soon as they know the property will become vacant. Vacancy requests cannot be backdated. ... A vacancy only removes the usage fees.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "utilities",
+      "vacant",
+      "inherited"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Residential Request for Vacancy Status — City of Boise",
+        "url": "https://www.cityofboise.org/departments/public-works/utility-billing-ub-appointments/utility-billing-residential/residential-request-for-vacancy-status/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-sewer-billed-on-winter-water-use",
+    "claim": "Boise city utility bills base sewer (water renewal) usage charges on winter water use, measured October 15 to April 15; a residence on a private well is billed on the number of residents, with a default occupancy of four. Unpaid charges carry a late payment charge of 1.5% per month.",
+    "quote": "Winter water use is calculated from October 15-April 15 and most accurately reflects indoor water use only. If a residential user receives water service from a private well, water consumption is based on the number of residents in the home. The default occupancy is four persons.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "utilities",
+      "sewer",
+      "billing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Utility Billing Terms and Conditions — City of Boise",
+        "url": "https://www.cityofboise.org/departments/public-works/utility-billing-ub-appointments/terms-and-conditions/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-city-pressure-irrigation-selected-subdivisions",
+    "claim": "The City of Boise operates and bills pressure irrigation in a limited list of subdivisions (Azure #1 to #3, Darien, Bradford, Graystone #1 and #2, Steamboat, Linshire, Whidby, Chaucer, Eronel, Palm Court and Ashbrook); everywhere else in Boise, irrigation water is a matter for the irrigation district or canal company, and the city publishes an address lookup of district boundaries. Pressure irrigation water is separate from drinking water.",
+    "quote": "The City of Boise operates and issues utility bills for pressure irrigation systems in selected subdivisions",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "irrigation",
+      "utilities"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Pressure Irrigation — City of Boise Public Works",
+        "url": "https://www.cityofboise.org/departments/public-works/pressure-irrigation/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-geothermal-city-and-warm-springs-district",
+    "claim": "Boise has a city-run geothermal heating system serving buildings mostly downtown and at Boise State University, and a separate Boise Warm Springs Water District that provides geothermal heating to homes and businesses in the East End.",
+    "quote": "The Boise Warm Springs Water District provides geothermal heating to homes and businesses in the East End.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "utilities",
+      "geothermal",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Geothermal — City of Boise Public Works",
+        "url": "https://www.cityofboise.org/departments/public-works/geothermal/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-pds-records-center-permit-history",
+    "claim": "Boise's PDS Records Center holds construction and development records for work inside Boise city limits, including residential permits, certificates of occupancy, subdivision plats and microfiche, released through a public records request; the city says Idaho records law prohibits it from creating records, including lists, and that permit reports can be generated in PDS Online.",
+    "quote": "The PDS Records Center maintains records and information related to construction and development projects within Boise City Limits. ... Idaho records law prohibits us from creating records, including lists. Permit reports can be generated using PDS Online.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "records",
+      "permits"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "PDS Records Center — City of Boise Planning and Development Services",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/pds-records-center/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-sewer-extension-by-petition",
+    "claim": "Boise builds sanitary sewer extensions in conjunction with Ada County Highway District projects, on property owners' request, or where there is evidence of significant septic problems; approval depends on how many residents sign a petition agreeing to pay fees and connect, the cost and length of the extension, and available funds.",
+    "quote": "Sanitary sewers are constructed in conjunction with Ada County Highway District (ACHD) projects, based on the needs of the property owner, or if there is evidence of significant septic system problems.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "sewer",
+      "septic"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Sewer Connections and Fees — City of Boise Public Works",
+        "url": "https://www.cityofboise.org/departments/public-works/sewer-connections-and-fees/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "boise-sewer-connection-fees-phased-2024",
+    "claim": "Boise adjusted its sewer (water renewal) connection fees from October 1, 2024, phasing to full cost of service over three years; they had last been adjusted in 2014. Residential connection fees now scale with the home's square footage and apply to new or expanding houses, multifamily units and accessory dwelling units.",
+    "quote": "Connection fee adjustments began October 1, 2024, with phasing to full cost of service over the following three years and regular updates thereafter.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "sewer",
+      "fees",
+      "adu"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Sewer Connections and Fees — City of Boise Public Works",
+        "url": "https://www.cityofboise.org/departments/public-works/sewer-connections-and-fees/",
+        "publisher": "City of Boise",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-flood-four-creeks",
+    "claim": "Meridian's watershed has four creeks mapped by FEMA as Special Flood Hazard Areas: Fivemile, Eightmile, Ninemile and Tenmile Creeks. On request, Meridian Public Works will determine whether a property is in or out of a Special Flood Hazard Area or floodway, give base flood elevation data, share any history of flooding at the site, and provide copies of Elevation Certificates for properties permitted through the city.",
+    "quote": "Meridian's watershed consists of four creeks that are mapped by FEMA as Special Flood Hazard Areas: Fivemile, Eightmile, Ninemile, and Tenmile Creeks.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "flood",
+      "differentiation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Floodplain Information — City of Meridian Public Works",
+        "url": "https://meridiancity.org/public-works/environmental/floodplain-information/",
+        "publisher": "City of Meridian",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-easements-10ft-5ft",
+    "claim": "In Meridian, public utility, drainage and irrigation easements are typically 10 feet wide along the street and rear yards and 5 feet along side yards, can be larger depending on purpose, and also carry lot drainage and pressurized irrigation lines; utility providers, including the irrigation districts, can access them. The city lists Nampa & Meridian, Settlers, Boise-Kuna and Pioneer among the irrigation providers operating in Meridian.",
+    "quote": "Public utility, drainage, and irrigation easements are typically 10 feet wide along the required street and rear yards and 5 feet along the side yard",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "easements",
+      "irrigation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Utility Easements — City of Meridian",
+        "url": "https://meridiancity.org/community/community-resources/utility-easements/",
+        "publisher": "City of Meridian",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-permit-records-online",
+    "claim": "Meridian's City Clerk is the city's custodian of records; permit information for Community Development is searchable online without a user account, a free public user account gives fuller search, and other records go through a public records request.",
+    "quote": "The City Clerk is the City of Meridian's custodian of records and is designated to receive public records requests on behalf of the City of Meridian. ... Simple search capability is available without a user account",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "records",
+      "permits"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Public Records — City of Meridian City Clerk",
+        "url": "https://meridiancity.org/city-clerk/public-records/",
+        "publisher": "City of Meridian",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "meridian-urd-two-tax-line-items",
+    "claim": "The City of Meridian explains that a property inside one of its urban renewal districts shows two line items on its tax bill, for the base and the increment, but that the total charged is the same as for a property in the same taxing districts outside one; districts close within 20 years of creation.",
+    "quote": "Property owners within a district do have two-line items on their tax bill, for the base and the increment, but the total amount charged to an individual taxpayer is the same whether the property is inside or outside an urban renewal district.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "urban-renewal",
+      "property-tax"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Urban Renewal Districts — City of Meridian",
+        "url": "https://meridiancity.org/business/urban-renewal-districts/",
+        "publisher": "City of Meridian",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "nmid-assessment-on-water-right-owner-liable",
+    "claim": "Nampa & Meridian Irrigation District bases its assessment on the water right allocated to the land, not on how much water is used, and says the property owner is ultimately responsible for paying it, whether or not a mortgage company pays it; an exclusion is available only for land without access to irrigation water and must be signed by all deeded owners.",
+    "quote": "This assessment is for the water right that has been allocated to your land. It is not based on your usage of the water; it is based on the size of your water right. ... The property owner is ultimately responsible for paying the irrigation tax.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "irrigation",
+      "assessments",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Frequently Asked Questions — Nampa & Meridian Irrigation District",
+        "url": "https://nmid.org/about-nmid/frequently-asked-questions/531-2/",
+        "publisher": "Nampa & Meridian Irrigation District",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Nampa & Meridian Irrigation District, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "nmid-runs-subdivision-pressure-systems",
+    "claim": "Nampa & Meridian Irrigation District owns and operates pressurized urban irrigation systems it contracted to build in new subdivisions, maintaining the pump station and main line to the first valve off the main, while homeowners own their own sprinkler systems; land with water rights in another irrigation district as well receives a tax notice from both.",
+    "quote": "The system then becomes the property of the Irrigation District, and the Irrigation District will operate and maintain the system and all the water lines to the delivery valve in the individual lots. ... Your land may have water rights in another Irrigation District, if so, you will receive a tax notice from both",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "irrigation",
+      "utilities"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Pressurized Urban Irrigation System — Nampa & Meridian Irrigation District",
+        "url": "https://nmid.org/pressurized-urban-irrigation-system/",
+        "publisher": "Nampa & Meridian Irrigation District",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Nampa & Meridian Irrigation District, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "nmid-which-district-lookup",
+    "claim": "To identify an address's irrigation provider, Nampa & Meridian Irrigation District says to check the bill first, because water can come from an irrigation district or be serviced by a city, then use the Idaho Department of Water Resources' Irrigation Organizations Map, which does not show city-serviced water.",
+    "quote": "your statement shows who is servicing your water. Sometimes your water comes from an irrigation district, but your water can also be serviced from the city.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "irrigation",
+      "lookup"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-18",
+    "sources": [
+      {
+        "title": "Which District Am I In? — Nampa & Meridian Irrigation District",
+        "url": "https://nmid.org/which-district-am-i-in/",
+        "publisher": "Nampa & Meridian Irrigation District",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Nampa & Meridian Irrigation District, Idaho",
+    "amendmentHistory": null
   }
 ];
 

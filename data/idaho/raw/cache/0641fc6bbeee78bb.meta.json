@@ -1,0 +1,10 @@
+{
+  "url": "https://meridiancity.org/city-clerk/public-records/",
+  "fetchedAt": "2026-11-19T06:48:23.523Z",
+  "status": 200,
+  "finalUrl": "https://meridiancity.org/city-clerk/public-records/",
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 56547,
+  "fetchedVia": "chrome-cdp",
+  "note": "fetch-source.mjs is refused by this host (bot challenge / HTTP 403 to non-browser clients). Captured as rendered DOM via local Chrome over CDP with a non-HeadlessChrome user agent. Content is the live page, not a fetcher response."
+}

@@ -49,6 +49,8 @@ const PLACE_CONTENT_UPDATED = "2026-09-12";
 /** Place pages whose substance changed after PLACE_CONTENT_UPDATED. */
 const PLACE_UPDATED: Record<string, string> = {
   "sell-my-house-fast-kuna-id": "2026-11-18",
+  "sell-my-house-fast-boise-id": "2026-11-18",
+  "sell-my-house-fast-meridian-id": "2026-11-18",
 };
 const placeUpdated = (slug: string) => PLACE_UPDATED[slug] ?? PLACE_CONTENT_UPDATED;
 const COMMERCIAL_CONTENT_UPDATED = "2026-09-12";
