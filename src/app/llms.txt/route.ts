@@ -82,6 +82,16 @@ export function GET() {
   L(`- [About](${site.url}/about) · [Contact](${site.url}/contact)`);
   L();
 
+  L("### Guides");
+  L();
+  for (const g of guidesOut) L(`- [${g.title}](${site.url}/guides/${g.slug}) (updated ${g.updated}): ${g.description}`);
+  L();
+
+  L("### Selling situations");
+  L();
+  for (const t of publishedTopics("situation")) L(`- [${t.h1}](${site.url}/${t.slug}): ${t.description}`);
+  L();
+
   L("### Commercial");
   L();
   for (const p of publishedCommercial()) {
@@ -96,20 +106,11 @@ export function GET() {
   for (const p of indexablePlaces) L(`- [${p.name}](${site.url}/${p.slug})`);
   L();
 
-  L("### Selling situations");
-  L();
-  for (const t of publishedTopics("situation")) L(`- [${t.h1}](${site.url}/${t.slug}): ${t.description}`);
-  L();
-
   L("### Deciding how to sell");
   L();
   for (const t of publishedTopics("decision")) L(`- [${t.h1}](${site.url}/${t.slug}): ${t.description}`);
   L();
 
-  L("### Guides");
-  L();
-  for (const g of guidesOut) L(`- [${g.title}](${site.url}/guides/${g.slug}) (updated ${g.updated}): ${g.description}`);
-  L();
 
   L("## Evidence base");
   L();
