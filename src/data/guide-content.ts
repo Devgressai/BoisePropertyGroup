@@ -106,49 +106,78 @@ export const guideContent: Record<string, GuideContent> = {
   "selling-an-inherited-house-in-idaho": {
     intro: [
       "Most of what makes an inherited property hard to sell is uncertainty about authority: who is allowed to sign, and whether a court has to agree first. Idaho answers that more directly than many states.",
-      "This page describes what Idaho statutes say. It is not legal advice and it is not applied to your situation — an estate is specific, and yours should be looked at by an attorney.",
+      "This page describes what Idaho statutes say. It is not legal advice and it is not applied to your situation. An estate is specific, and yours should be looked at by an attorney.",
     ],
     sections: [
       {
-        heading: "An appointed personal representative holds the same power over title as an owner",
+        heading: "Before distribution, the personal representative signs",
         body: [
-          "Idaho Code 15-3-711 is unusually plain: \"Until termination of his appointment a personal representative has the same power over the title to property of the estate that an absolute owner would have, in trust however, for the benefit of the creditors and others interested in the estate. This power may be exercised without notice, hearing, or order of court.\"",
-          "That last sentence is the one that surprises people. In Idaho, an appointed personal representative does not need a court order to sell estate real property as a matter of course. The power is held in trust for creditors and heirs, which is a real constraint on how it may be used — but it is not a procedural gate you must pass before a sale can happen.",
-          "Two qualifications matter and neither is optional. The power belongs to an appointed personal representative — it says nothing about an heir who has not been appointed. And Idaho Code 15-3-715 opens by carving out exceptions: authorised transactions are \"Except as restricted or otherwise provided by the will or by an order in a formal proceeding,\" and are subject to the statutory priorities for claims against the estate.",
-          "So the honest summary is: usually no court order, unless the will or a formal order says otherwise. Anyone who tells you the first half without the second half is giving you an incomplete picture. If the house still carries a loan, see [inheriting a house with a mortgage](/guides/inheriting-a-house-with-a-mortgage-in-idaho) and, for a reverse mortgage, [what happens when the borrower dies](/guides/reverse-mortgage-after-the-borrower-dies-in-idaho).",
+          "While an estate is open, Idaho Code 15-3-711 gives an appointed personal representative the same power over title that an absolute owner would have, usable without notice, hearing or court order, unless the will or an order in a formal proceeding restricts it under 15-3-715. Appointment, venue, letters and the creditor period belong to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho); this page picks up with the heir.",
+          "If the house still carries a loan, see [inheriting a house with a mortgage](/guides/inheriting-a-house-with-a-mortgage-in-idaho) and, for a reverse mortgage, [what happens when the borrower dies](/guides/reverse-mortgage-after-the-borrower-dies-in-idaho).",
         ],
         claims: ["id-pr-power-over-title", "id-pr-powers-limited-by-will"],
       },
       {
-        heading: "Estate sales are exempt from the seller disclosure requirement",
+        heading: "The deed of distribution is the heir's evidence of title",
         body: [
-          "Idaho requires a property condition disclosure on residential property of one to four dwelling units, including non-owner-occupied rentals. Estate transfers are among the listed exemptions — but on two distinct grounds, and the distinction is worth keeping straight.",
-          "Idaho Code 55-2505(1) exempts \"A transfer pursuant to court order including, but not limited to, a transfer ordered by a probate court during the administration of a decedent's estate.\" Separately, 55-2505(7) exempts \"A transfer by a fiduciary in the course of the administration of a decedent's estate, a guardianship, a conservatorship, or a trust.\"",
-          "A personal representative selling without a court order — which, per 15-3-711, is the ordinary case — is relying on (7), the fiduciary ground, not on (1). They reach the same place here, but they are different provisions and merging them produces a wrong answer as soon as the facts shift.",
-          "An exemption from the statutory disclosure form is not a licence to conceal a known defect. It removes a specific statutory obligation; it does not create a right to mislead a buyer.",
+          "When the estate hands the house to an heir rather than selling it, Idaho Code 15-3-907 sets the paperwork: \"If distribution in kind is made, the personal representative shall execute an instrument or deed of distribution assigning, transferring or releasing the assets to the distributee as evidence of the distributee's title to the property.\"",
+          "That deed is what an heir later sells under. Until it exists and is recorded, the heir holds an expectation, not a document a title company can insure from. An heir who wants to sell in their own name, rather than have the personal representative sell for the estate, should expect the deed of distribution to be the first thing anyone asks for.",
         ],
-        claims: ["id-disclosure-exempt-estate-fiduciary", "id-disclosure-required-1-to-4-units"],
+        claims: ["pb-deed-of-distribution"],
       },
       {
-        heading: "If nobody is administering the estate, the county Treasurer may",
+        heading: "Why a buyer from an heir does not have to audit the estate",
         body: [
-          "This is obscure and occasionally decisive. The Ada County Treasurer serves as ex officio public administrator, \"responsible for administering the estates of decedents without a person to administer the estate.\"",
-          "Where a property owner has died and no family member has stepped forward, that is the office the question ultimately reaches. It is the same office that collects property tax as ex officio tax collector, which is worth knowing if the property is also behind on taxes.",
+          "Idaho Code 15-3-910 is the provision that makes a sale by an heir workable. A purchaser for value from a distributee who has received a deed of distribution \"takes title free of rights of any interested person in the estate and incurs no personal liability to the estate, or to any interested person, whether or not the distribution was proper or supported by court order.\"",
+          "Put plainly, the buyer does not have to second-guess whether the personal representative divided the estate correctly. If another heir later disputes the distribution, that dispute runs between the people interested in the estate; it does not reach back to undo the sale. The protection covers a purchaser or lender from the distributee and from a transferee of the distributee, which is why title companies treat a recorded deed of distribution as a clean link in the chain.",
+          "The protection is for the buyer, not for the heir. An heir who received more than their share can still answer to the other heirs for it.",
         ],
-        claims: ["ada-treasurer-ex-officio-public-administrator", "ada-treasurer-ex-officio-tax-collector"],
+        claims: ["pb-purchaser-from-distributee-protected"],
       },
       {
-        heading: "What changes at the county once ownership moves",
+        heading: "The disclosure form, from the heir's side",
         body: [
-          "The Ada County Recorder maintains all documents related to property ownership in the county, and specifically records probate deeds and decrees of distribution alongside ordinary conveyances. Recorded documents are open to public inspection under Idaho Code 31-2419, and redacting personal information before recording is the responsibility of whoever submits the document — not the Recorder's office.",
-          "The homeowner's property tax exemption does not travel with the house. Ada County's rule is that once approved you need only reapply \"if you move or if ownership of the property changes.\" An inherited property that transfers therefore needs the exemption re-established by whoever ends up owning and occupying it, and a buyer should budget for the year in which it lapses.",
+          "Idaho requires a property condition disclosure on residential property of one to four dwelling units, including non-owner-occupied rentals. Idaho Code 55-2505 then lists sixteen kinds of transfer the requirement does not reach, and three of them can apply to an inherited house.",
+          "While the estate is open, a sale by the personal representative is \"A transfer by a fiduciary in the course of the administration of a decedent's estate,\" and a sale ordered by a probate court is a transfer pursuant to court order. The list separately exempts \"A transfer from a decedent's estate.\"",
+          "Once the house is distributed and the heir sells in their own name, those estate grounds no longer describe the seller. The heir's exemption is narrower: a transfer by someone who \"both has not occupied the property as a personal residence within one (1) year immediately prior to the transfer and has acquired the property through inheritance or devise.\" Both conditions, not either. An heir who moved into the house within that year does not fit it, and the form applies.",
+          "An exemption from the statutory form is not a licence to conceal a known defect. The full set of disclosure rules is in [Idaho seller disclosure when selling as-is](/guides/idaho-seller-disclosure-when-selling-as-is).",
         ],
-        claims: ["ada-recorder-maintains-ownership-documents", "ada-recorder-pii-redaction-is-submitter-duty", "ada-homeowners-exemption-deadline"],
+        claims: ["id-disclosure-required-1-to-4-units", "id-disclosure-exempt-estate-fiduciary", "id-disclosure-sixteen-exemptions"],
+      },
+      {
+        heading: "If nobody is administering the estate",
+        body: [
+          "Where no one steps forward, the Ada County Treasurer serves as ex officio public administrator for estates \"without a person to administer the estate\"; how that office fits into probate is set out in [the probate guide](/guides/selling-a-house-in-probate-in-idaho).",
+        ],
+        claims: ["ada-treasurer-ex-officio-public-administrator"],
+      },
+      {
+        heading: "The homeowner's exemption carries over, then resets",
+        body: [
+          "A death does not end the property tax homeowner's exemption at once. Idaho Code 63-602G keeps a homestead that qualified the year before qualified through the year of the owner's death and the tax year immediately following, \"provided that the homestead continues to be a part of the owner's … estate.\" After that, the statute says, \"the new owner shall reapply to receive the exemption pursuant to this section and shall meet the qualification criteria.\"",
+          "Ada County's own rule points the same way: once approved, you need only reapply \"if you move or if ownership of the property changes,\" and to qualify for a tax year an owner must own and occupy the home on or before the last county business day in December and file by the close of business that day. An heir who moves in has to apply in their own right. An heir who sells instead should expect the buyer's title company to prorate taxes on a bill that may lose the exemption once the carryover ends.",
+        ],
+        claims: ["pt-homestead-death-carryover", "ada-homeowners-exemption-deadline"],
+      },
+      {
+        heading: "What the county records once ownership moves",
+        body: [
+          "The Ada County Recorder maintains all documents related to property ownership in the county, and records probate deeds and decrees of distribution alongside ordinary conveyances. Recorded documents are open to public inspection under Idaho Code 31-2419, and redacting personal information before recording is the responsibility of whoever submits the document, not the Recorder's office.",
+        ],
+        claims: ["ada-recorder-maintains-ownership-documents", "ada-recorder-pii-redaction-is-submitter-duty"],
+      },
+      {
+        heading: "An heir's tax basis starts at the date of death",
+        body: [
+          "For federal tax, IRS Publication 523 says the basis of an inherited home is \"the fair market value of the property on the date of the decedent's death (or the later alternate valuation date chosen by the personal representative of the estate).\" If a federal estate tax return, Form 706, was filed or required, \"the value of the property listed on the estate tax return is your basis.\"",
+          "The practical effect is that gain is measured from the value at death, not from what the person who died paid for the house decades ago. A sale soon after inheriting often shows little gain for that reason. How the rest of a sale is taxed is in [taxes when you sell a house in Idaho](/guides/taxes-when-you-sell-a-house-in-idaho), and a tax adviser should confirm the figure for your own return.",
+        ],
+        claims: ["cg-irs-inherited-home-basis-pub523"],
       },
       {
         heading: "Where we fit, and where we do not",
         body: [
-          "[We buy inherited property in Ada County](/sell-inherited-house-idaho), including houses that need work and estates with several heirs who want different things. If the estate is still open, [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) sets out who can sign. What we can offer is certainty about timing and a number you can check.",
+          "[We buy inherited property in Ada County](/sell-inherited-house-idaho), including houses that need work and estates with several heirs who want different things. What we can offer is certainty about timing and a number you can check.",
           "What we are not is the highest bidder. If the house is financeable, tidy and the estate is in no hurry, listing it will usually net more even after commission. We would rather say that than let you discover it afterwards.",
         ],
       },
@@ -164,13 +193,12 @@ export const guideContent: Record<string, GuideContent> = {
       {
         heading: "How much notice comes before an Idaho trustee's sale?",
         body: [
-          "Most Idaho residential mortgage debt is secured by a deed of trust, foreclosed non-judicially. Idaho Code 45-1506 requires that \"at least one hundred twenty (120) days before the day fixed by the trustee for the trustee's sale, notice of such sale shall be given\" to the grantor, to anyone who has recorded a request for notice, to successors in interest and to junior lienholders.",
-          "The same section requires publication \"in a newspaper of general circulation in each of the counties in which the property is situated once a week for four (4) successive weeks,\" with the last publication at least 30 days before the sale. Affidavits of mailing and posting must be recorded at least 20 days before. And at least three good-faith attempts at personal service must be made on different days over a period of not less than seven days, each at least 30 days before the sale.",
+          "Most Idaho residential mortgage debt is secured by a deed of trust, foreclosed without a court, and Idaho Code 45-1506 requires notice of the trustee's sale \"at least one hundred twenty (120) days before the day fixed by the trustee for the trustee's sale.\" The mailing, service, posting and newspaper steps that sit inside that period are laid out in order in the [Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline).",
           "That 120 days is a statutory minimum within a longer process, not \"the foreclosure timeline\". It begins from the date fixed for the sale and works backwards. An owner who still holds title can sell before that date, and [selling your house before a foreclosure sale](/sell-house-before-foreclosure-idaho) covers how a direct sale fits inside the notice period.",
           "One detail matters in [Star, which sits in two counties](/sell-my-house-fast-star-id), and anywhere else straddling a county line: notice must be published in each county where the property sits.",
         ],
         table: {"caption": "Mortgage foreclosure and property-tax delinquency in Idaho: the two clocks", "columns": ["Step", "Idaho Code", "Period"], "rows": [["Notice of trustee's sale", "45-1506", "At least 120 days before the sale date"], ["Newspaper publication", "45-1506", "Once a week for 4 successive weeks, the last at least 30 days before the sale"], ["Tax deed to the county", "63-1005", "Delinquency not redeemed within 3 years"], ["Redemption after the tax deed", "63-1007", "Up to 14 months, ending sooner if the county contracts to sell or transfers by county deed"]], "note": "Statutory minimums and limits, not a timeline for any one property."},
-        claims: ["id-trustee-sale-120-day-notice", "id-trustee-sale-publication", "id-trustee-sale-service-attempts"],
+        claims: ["id-trustee-sale-120-day-notice", "id-trustee-sale-publication", "id-tax-deed-three-year-delinquency", "id-tax-deed-redemption-fourteen-months"],
       },
       {
         heading: "How long can Idaho property taxes go unpaid before a tax deed?",
@@ -192,18 +220,25 @@ export const guideContent: Record<string, GuideContent> = {
         claims: ["id-tax-deed-redemption-fourteen-months"],
       },
       {
+        heading: "What the Ada County Treasurer's own process adds",
+        body: [
+          "The Ada County Treasurer publishes its tax deed steps, and they fill in what the statutes leave implicit. Each January 1, real property with a three-year tax delinquency may be considered for tax deed. The notice of pending issue goes by certified mail two to five months before the hearing.",
+          "Two of the Treasurer's points change how an owner should plan. Partial payments are accepted before the hearing, but they do not stop the tax deed process; only redemption does, by paying all taxes, delinquent and current, with late charges, interest and costs. And if the county does sell, the public auction is held within 14 months from the issuance of the tax deed, with money left after parties in interest are paid returned to the record owner at the time the deed issued.",
+          "That last point is the sharpest contrast with a mortgage. A trustee's sale ends the owner's rights within months of the notice; a tax deed takes years to arrive, and even then the former owner keeps a claim to the leftover proceeds.",
+        ],
+        claims: ["ada-treasurer-tax-deed-steps"],
+      },
+      {
         heading: "Does a pre-foreclosure sale still need the disclosure form?",
         body: [
-          "Idaho's disclosure exemptions include several foreclosure-related transfers: a deed in lieu, a transfer to a deed-of-trust beneficiary by a trustor in default, a transfer by foreclosure sale, and a sale under a power of sale following default within one year of foreclosure on the default.",
-          "Every one of those describes a transfer into or out of the foreclosure process. None of them describes an owner who is behind on payments, still holds title, and sells to a buyer before any trustee's sale. That owner is not exempt, and this is the easiest disclosure error to make on a distressed sale.",
+          "Usually yes: Idaho's foreclosure-related exemptions cover transfers into or out of the foreclosure process, such as a deed in lieu or a trustee's sale, not an owner who still holds title and sells to a buyer first, and the rest of the rules are in [Idaho seller disclosure when selling as-is](/guides/idaho-seller-disclosure-when-selling-as-is).",
         ],
         claims: ["id-disclosure-exempt-foreclosure"],
       },
       {
         heading: "How much equity does the Idaho homestead exemption protect?",
         body: [
-          "Idaho's homestead exemption protects equity from creditors up to a cap: \"A homestead may consist of lands … regardless of area, but the homestead exemption amount shall not exceed the sum of one hundred seventy-five thousand dollars ($175,000).\"",
-          "This is a different instrument from the property tax homeowner's exemption, which reduces assessed value. Ada County's own website refers to both as a \"Homestead Exemption\", so it is worth being explicit about which one is meant in any given sentence.",
+          "Idaho's homestead exemption shields up to $175,000 of equity from creditors, which is a different instrument from the property tax homeowner's exemption even though Ada County's website calls both a \"Homestead Exemption\"; how the creditor exemption behaves when a foreclosure meets a bankruptcy is in [bankruptcy and foreclosure in Idaho](/guides/bankruptcy-and-foreclosure-in-idaho).",
         ],
         claims: ["id-homestead-creditor-175k"],
       },
@@ -492,7 +527,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy homes in Ada County with our own capital, in any condition, and the purchase closes through a local title company on a date the sellers choose; a three-week close is realistic. In a divorce that can matter when both spouses want the house sold and settled, and both are ready to sign. [Selling the house in a Boise or Ada County divorce](/sell-house-divorce-idaho) covers how that works with us, or you can [contact us](/contact).",
+          "When both spouses want the house sold and settled, and both are ready to sign, the date can matter as much as the price: the sellers choose it, the purchase closes through a local title company, and a three-week close is realistic. We buy in Ada County with our own capital and in any condition. [Selling the house in a Boise or Ada County divorce](/sell-house-divorce-idaho) covers how that works with us, or you can [contact us](/contact).",
           "What we cannot do is solve the legal questions above, and we will not try. If one spouse does not agree to sell, if an order in the case restricts the property, or if the house's character is disputed, those come first and they belong with your attorneys. And if the house is in good shape and there is time to list it, the open market will often bring a higher price; when that is the better route for you, we would rather say so."
         ]
       }
@@ -578,15 +613,10 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Property taxes come first and do not expire",
         "body": [
-          "Idaho Code 63-206 makes property taxes levied on real property a first and prior lien on that property, discharged only by payment or cancellation of the taxes as the tax title provides. The same section says property tax liens are perpetual and continuous. Unlike a judgment or mechanic's lien, there is no expiry clock to wait out. In Ada County the lien date for real property is January 1, and the County Treasurer is the tax collector for every taxing district, including cities and schools.",
-          "Unpaid taxes follow a long but fixed path. If real property with a delinquency is not redeemed within three years from the date of delinquency, the county tax collector must issue a tax deed to the county, but only after a notice of pending issue of tax deed has been given and an affidavit of compliance recorded. After a tax deed issues, the record owner or a party in interest may still redeem until the county commissioners contract to sell or convey the property, and in any event no later than fourteen months from the date the tax deed issued. The [foreclosure and tax-delinquency guide](/guides/idaho-foreclosure-vs-property-tax-delinquency) sets those clocks side by side."
+          "Idaho Code 63-206 makes property taxes a first and prior lien on the property that is perpetual and continuous, so unlike a judgment or mechanic's lien there is no expiry clock to wait out; how the tax bill is prorated and paid at closing is in [Idaho property taxes when you sell](/guides/idaho-property-taxes-when-you-sell), and what happens when taxes go unpaid for years is in [the foreclosure and tax-delinquency guide](/guides/idaho-foreclosure-vs-property-tax-delinquency)."
         ],
         "claims": [
-          "ln-property-tax-first-lien-perpetual",
-          "ada-assessment-market-value-jan-1",
-          "ada-treasurer-ex-officio-tax-collector",
-          "id-tax-deed-three-year-delinquency",
-          "id-tax-deed-redemption-fourteen-months"
+          "ln-property-tax-first-lien-perpetual"
         ]
       },
       {
@@ -626,7 +656,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses in Ada County with our own capital, in any condition, and our purchases close through a local title company on a date the seller chooses. A three-week close is realistic for us. A lien does not change any of that, but it can change whether three weeks is realistic for the sale as a whole: if a federal tax lien needs a Certificate of Discharge, the IRS asks for the application at least 45 days before closing. [Selling a house with a lien or judgment](/sell-house-with-liens-idaho) explains the steps on our side.",
+          "A lien does not change how we buy: with our own capital, in any condition, through a local title company, on a date the seller chooses, and a three-week close is realistic for us. It can change whether three weeks is realistic for the sale as a whole: if a federal tax lien needs a Certificate of Discharge, the IRS asks for the application at least 45 days before closing. [Selling a house with a lien or judgment](/sell-house-with-liens-idaho) explains the steps on our side.",
           "If you have time and enough equity to cover what is recorded against the house, listing it on the open market will often net more than selling to a direct buyer. If you want a number to compare against that, [get in touch](/contact)."
         ],
         "claims": [
@@ -751,21 +781,17 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Selling during administration, or after distribution to the heirs",
         "body": [
-          "An estate does not have to sell the house itself. Under 15-3-907, when property is distributed in kind \"the personal representative shall execute an instrument or deed of distribution assigning, transferring or releasing the assets to the distributee as evidence of the distributee's title to the property.\" 15-3-910 then deals with a sale by the heir who receives it.",
-          "A buyer from that heir is protected by 15-3-910: a purchaser for value from a distributee holding a deed of distribution \"takes title free of rights of any interested person in the estate and incurs no personal liability to the estate, or to any interested person, whether or not the distribution was proper or supported by court order.\" That protects the purchaser. It says nothing about what the heir may still owe other heirs or creditors, and it is not a way around the estate's debts.",
-          "The Ada County Recorder maintains the documents related to property ownership in the county, and recorded documents are open to public inspection. And whichever route is taken, the homeowner's exemption does not carry over: Ada County requires a new application \"if you move or if ownership of the property changes,\" so whoever ends up owning and living in the house must apply again."
+          "An estate does not have to sell the house itself: under 15-3-907 the personal representative can instead execute a deed of distribution to an heir, and what that heir's sale looks like, including the buyer protection in 15-3-910, is covered in [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho)."
         ],
         "claims": [
           "pb-deed-of-distribution",
-          "pb-purchaser-from-distributee-protected",
-          "ada-recorder-maintains-ownership-documents",
-          "ada-homeowners-exemption-deadline"
+          "pb-purchaser-from-distributee-protected"
         ]
       },
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in Ada County with our own capital, in any condition, and our purchases close through a local title company. We can only sign with someone who has the authority to sell — in an open estate, that means an appointed personal representative with letters. The seller chooses the closing date, and a three-week close is realistic. [Selling a probate house in Boise](/sell-probate-house-idaho) sets out the steps, or you can [contact us](/contact).",
+          "In an open estate we can only sign with someone who has the authority to sell, which means an appointed personal representative with letters. Once that is in place we buy with our own capital and in any condition, the purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. [Selling a probate house in Boise](/sell-probate-house-idaho) sets out the steps, or you can [contact us](/contact).",
           "We are often not the best route. If the house is in good shape, the estate is in no hurry and the heirs agree, listing it with an agent will usually net more. If the will restricts a sale, a formal proceeding is pending, or the debts may exceed what the estate holds, the first call should be to the estate's attorney, not to any buyer."
         ],
         "claims": []
@@ -1021,7 +1047,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in Ada County with our own capital, in any condition, and our purchases close through a local title company — so the steps above — the acknowledged deed, the recording and the federal forms — are handled by a title company working under the Idaho statutes described on this page. You choose the closing date, and a three-week close is realistic. If you want to see how an offer from us works, [how it works](/how-it-works) lays it out, and you can [contact us](/contact) when you are ready. If your sale also raises disclosure questions, our [seller disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers what Idaho requires.",
+          "On a sale to us, the steps above, from the acknowledged deed to the recording and the federal forms, are handled by a local title company working under the Idaho statutes described on this page. We buy in Ada County with our own capital and in any condition; you choose the closing date, and a three-week close is realistic. If you want to see how an offer from us works, [how it works](/how-it-works) lays it out, and you can [contact us](/contact) when you are ready. If your sale also raises disclosure questions, our [seller disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers what Idaho requires.",
           "A direct sale is not always the right one. If the property is in good shape and you have time, listing it with an agent will often net more, and the deed, notary and recording rules above apply either way. If an estate, a title problem or a tax question is involved, talk to an attorney or a tax professional before you sign anything — ours included."
         ]
       }
@@ -1052,7 +1078,7 @@ export const guideContent: Record<string, GuideContent> = {
         "body": [
           "Start with the health district. DEQ lists permit status and existing permit records among the things a district can help with, and tells owners to contact the district for the county where the property is located. CDH takes public records requests through a form on its About page and asks that you be specific about the documents you want — the property address, the parcel number and the legal description are the obvious things to include.",
           "Two cautions. CDH's own pages do not say what a septic file contains or how long a request takes, so expect neither to be predictable. And not every system will have a tidy file; that is a reason to gather what you hold yourself.",
-          "DEQ's homeowner guide, which CDH still links as its guide for homeowners, says a tank's location can be found from plot plans, septic inspection records, architectural or landscape drawings, or the house plumbing, and it advises keeping a permanent record of maintenance, repairs, sludge and scum levels, pumping, drainfield condition and backups. CDH's own mortgage survey asks for the pumping receipt when a tank has been or will be pumped, so receipts are worth keeping with the deed. If gathering the file is more than you want to take on before selling, we buy houses on a well and septic as they stand; see [selling your house as-is in Ada County](/sell-house-as-is-idaho)."
+          "DEQ's homeowner guide, which CDH still links as its guide for homeowners, says a tank's location can be found from plot plans, septic inspection records, architectural or landscape drawings, or the house plumbing, and it advises keeping a permanent record of maintenance, repairs, sludge and scum levels, pumping, drainfield condition and backups. CDH's own mortgage survey asks for the pumping receipt when a tank has been or will be pumped, so receipts are worth keeping with the deed. If gathering the file is more than you want to take on before selling, we buy property on a well and septic as it stands; see [selling your house as-is in Ada County](/sell-house-as-is-idaho)."
         ],
         "claims": [
           "ws-deq-health-districts-administer-septic-rules",
@@ -1150,7 +1176,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses in any condition with our own capital, including houses on a well and septic, and our purchases close through a local title company on a closing date the seller chooses. A three-week close is realistic. That can suit a seller who would rather not schedule a survey, chase a permit file or line up repairs before selling. [Selling land or acreage on a well](/sell-land-idaho) sets out the steps.",
+          "A well and a septic system are part of a property's condition, and we buy in any condition with our own capital. The purchase closes through a local title company on a closing date the seller chooses, and a three-week close is realistic. That can suit a seller who would rather not schedule a survey, chase a permit file or line up repairs before selling. [Selling land or acreage on a well](/sell-land-idaho) sets out the steps.",
           "If your well tests clean, your septic file is in order and the house shows well, listing with an agent may reach more buyers, and that may serve you better. And a direct sale does not change the rules on this page: a failing system's repair duty, a water right's ownership notice and the disclosure form are set by statute and rule, not by who the buyer is."
         ],
         "claims": []
@@ -1273,7 +1299,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy homes in Ada County in any condition, with our own capital, and purchases close through a local title company on a date the seller chooses. A three-week close is realistic. That can help a seller who needs to time a sale around a December or June due date, a deferral, or an estate's year-end. How the year's taxes are handled at closing is still set out in the contract and settled by the title company, as in any sale. You can read more on [how it works](/how-it-works).",
+          "A seller timing a sale around a December or June due date, a deferral, or an estate's year-end can choose the closing date with us, and a three-week close is realistic. We buy in Ada County in any condition, with our own capital, and purchases close through a local title company. How the year's taxes are handled at closing is still set out in the contract and settled by the title company, as in any sale. You can read more on [how it works](/how-it-works).",
           "If the house is in good shape and timing is not pressing, listing it with an agent will often net more, and the property tax picture is the same either way. If arrears or a deferral are what is driving the decision, call the Treasurer or the State Tax Commission for the balance first, and talk to an Idaho attorney."
         ]
       }
@@ -1422,7 +1448,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses in Ada County in any condition, with our own capital. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. That can suit an owner who has decided to sell and needs a closing date ahead of a trustee's sale.",
+          "An owner who has decided to sell and needs a closing date ahead of a trustee's sale can choose that date with us, and a three-week close is realistic. We buy in Ada County in any condition with our own capital, and the purchase closes through a local title company.",
           "We cannot stop a foreclosure, negotiate with a lender, approve a short sale or give legal or tax advice. If you want to keep the house, the routes are the ones above: the servicer, the cure right, a modification, and a housing counselor who costs nothing. If there is time to list the house on the open market, a listing may bring a higher price than we would offer. If the loan balance is more than the house would sell for, any sale needs the lender's agreement, and that decision belongs to the lender."
         ],
         "claims": [
@@ -1434,7 +1460,7 @@ export const guideContent: Record<string, GuideContent> = {
 
   "idaho-foreclosure-timeline": {
     "intro": [
-      "An Idaho deed of trust foreclosure runs in a fixed order: a default, a recorded notice of default, a notice of sale, a public auction, and a trustee's deed. With limited exceptions, federal rules bar a servicer from making the first foreclosure notice or filing on a principal residence until the loan is more than 120 days delinquent, and Idaho Code 45-1506 requires notice of the sale at least 120 days before the sale date. The statutory right to cure the default runs for 115 days from the recording of the notice of default, and after the trustee's sale there is no right to redeem the property.",
+      "An Idaho deed of trust foreclosure runs in a fixed order: a federal waiting period on delinquency, a notice of default recorded with the county and mailed, for some homes a loan modification notice, a notice of sale that is mailed, served, posted and published, a window in which the default can still be cured, a public auction, and a trustee's deed to the winning bidder. Each step has its own statutory minimum, counted either forward from the recording of the notice of default or back from the sale date, and after the trustee's sale there is no right to redeem the property.",
       "This page describes what Idaho Code and federal regulations say, quoted from the official sources. It is not legal advice and it is not applied to your loan. Every day count below is a minimum or a limit set by statute, and a real case can run longer. An Idaho attorney can tell you where your own case stands."
     ],
     "sections": [
@@ -1484,18 +1510,13 @@ export const guideContent: Record<string, GuideContent> = {
         ]
       },
       {
-        "heading": "Step 3: A loan modification request has a 30-day deadline and a 45-day answer",
+        "heading": "Step 3: Some homes also get a loan modification notice",
         "body": [
-          "Idaho Code 45-1506C adds a step for some homes. It applies to a noncommercial loan made by a state or federally regulated beneficiary and secured by a deed of trust on the borrower's primary residential property. The statute decides primary residence by one test: whether the property has been granted the homeowner's property tax exemption for the year in which the notice of default is recorded. If it has not, the section does not apply.",
-          "Where the section applies, a supplemental notice in at least 14-point type must accompany the notice of default provided to the grantor. The statutory form states the amount needed to bring the loan current as of a stated date. It comes with a loan modification request form. The form must be returned by certified mail, return receipt requested, and the beneficiary must receive it on or before a date that is 30 days after the date on the notice. The notice itself says: \"You may or may not qualify for a loan modification or other alternative to foreclosure.\"",
-          "If the grantor returns the form by that date, the beneficiary or its agent must evaluate the request. It must answer in writing as soon as reasonably practicable and not later than 45 days after receiving the form, stating whether it approves the request, denies it, or requires additional information. Section 45-1506C(3) then says: \"A trustee's sale for the property subject to the loan may not occur until after the beneficiary or the beneficiary's agent timely responds to the grantor.\" The bar ends with the response, whatever the response is.",
-          "The same statutory notice carries a warning: \"Never pay someone to help you obtain a loan modification.\" It says help is available for free from housing counselors certified through the U.S. Department of Housing and Urban Development (HUD), and that the HUD website lists certified counselors in Idaho."
+          "For a noncommercial loan from a regulated lender on a home that holds the homeowner's exemption, Idaho Code 45-1506C adds a loan modification request form to the notice of default, and a trustee's sale \"may not occur until after the beneficiary or the beneficiary's agent timely responds to the grantor\"; the deadlines and how to use the form are covered in [how to avoid foreclosure in Idaho](/guides/how-to-avoid-foreclosure-in-idaho)."
         ],
         "claims": [
           "ft-loan-mod-notice-primary-residence",
-          "ft-loan-mod-form-thirty-days",
-          "ft-loan-mod-45-day-response",
-          "ft-loan-mod-notice-hud-counselors"
+          "ft-loan-mod-45-day-response"
         ]
       },
       {
@@ -1524,15 +1545,10 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Step 5: The right to cure lasts 115 days from the recording of the notice of default",
         "body": [
-          "Idaho Code 45-1506(12) gives a right to cure the default and reinstate the loan. Where the power of sale is to be exercised, the right may be used at any time within 115 days of the recording of the notice of default. The 115 days are counted from the recording of the notice of default.",
-          "The right belongs to the grantor, a successor in interest in the property, a beneficiary under a subordinate deed of trust, and anyone with a subordinate lien or encumbrance of record.",
-          "The amount is set by the statute. It is the entire amount then due, \"other than such portion of the principal as would not then be due had no default occurred\", including costs and expenses actually incurred in enforcing the obligation, a reasonable trustee's fee, and attorney's fees as provided in the promissory note.",
-          "When that amount is paid, the statute says all proceedings \"shall be dismissed or discontinued\" and the obligation and deed of trust are reinstated \"the same as if no acceleration had occurred\".",
-          "Section 45-1506(12) gives no right to cure after the 115 days. Because the notice of sale follows the notice of default and must be given at least 120 days before the sale, the statutory cure period ends before the sale date."
+          "Idaho Code 45-1506(12) lets the grantor, and others with an interest of record, cure the default and reinstate the loan at any time within 115 days of the recording of the notice of default, so the statutory cure period ends before a sale that needs 120 days' notice; who can cure, and what the cure costs, is set out in [how to avoid foreclosure in Idaho](/guides/how-to-avoid-foreclosure-in-idaho)."
         ],
         "claims": [
           "ft-cure-within-115-days",
-          "ft-notice-of-sale-recipients",
           "id-trustee-sale-120-day-notice"
         ]
       },
@@ -1554,16 +1570,14 @@ export const guideContent: Record<string, GuideContent> = {
         ]
       },
       {
-        "heading": "Step 7: The trustee's deed, possession on the tenth day, and no right to redeem",
+        "heading": "Step 7: The trustee's deed, and no right to redeem",
         "body": [
           "The purchaser must pay the price bid forthwith, and on receipt of payment the trustee executes and delivers the trustee's deed. Under Idaho Code 45-1506(10) the deed conveys the interest the grantor had, or had the power to convey, when the trust deed was signed, together with any interest acquired afterwards.",
-          "Under 45-1506(11) the purchaser is entitled to possession of the property on the tenth day following the sale. Anyone who remains in possession after that, under any interest except one prior to the deed of trust, is deemed a tenant at sufferance.",
-          "Idaho Code 45-1507 sets the order in which the trustee applies the sale proceeds: first to the expenses of the sale, including a reasonable trustee's charge and attorney's fee; then to the obligation secured by the trust deed; then to holders of recorded liens that come after the trust deed; and then \"the surplus, if any,\" to the grantor or the grantor's successor in interest.",
+          "What happens next, from when the buyer at the sale can take possession to the order in which the trustee pays out the sale money and any surplus to the grantor, is covered in [after a foreclosure sale in Idaho](/guides/after-a-foreclosure-sale-in-idaho).",
           "Idaho Code 45-1508 makes the sale final. It terminates all interest in the property of every person who was given notice under 45-1506, and it says those persons \"shall have no right to redeem the property from the purchaser at the trustee's sale\". This is the rule for a trustee's sale under a deed of trust. Property tax delinquency runs on a different clock with a different redemption rule, set out in [our guide to foreclosure and property tax delinquency](/guides/idaho-foreclosure-vs-property-tax-delinquency)."
         ],
         "claims": [
           "ft-trustees-deed-on-payment",
-          "ft-possession-tenth-day",
           "ft-proceeds-order",
           "ft-sale-final-no-redemption",
           "id-tax-deed-redemption-fourteen-months"
@@ -1631,15 +1645,11 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "What Idaho Code says about a deficiency after a foreclosure sale",
         "body": [
-          "A deficiency is the part of the debt a foreclosure sale does not cover. Idaho has two statutes on it, one for trust deeds and one for mortgages. Both are written for the situation after a foreclosure sale. They show what a short sale or deed in lieu is being compared against.",
-          "For a deed of trust, Idaho Code 45-1512 says a money judgment may be sought for the balance due at any time within 3 months after a sale under the deed of trust. The court must first find the fair market value of the property at the time of sale. The court may not render judgment for more than the amount by which the indebtedness exceeds that fair market value, with interest from the date of sale. In no event may the judgment exceed the difference between the sale price and the entire indebtedness.",
-          "For a mortgage foreclosed in court, Idaho Code 6-101 says that if the sheriff's return shows the sale proceeds are insufficient and a balance remains due, judgment can be docketed for that balance against the defendants personally liable for the debt, and it becomes a lien on the judgment debtor's real estate. Idaho Code 6-108 then limits the amount. No Idaho court may enter a deficiency judgment in a mortgage foreclosure for more than the difference between the mortgage indebtedness, plus costs of foreclosure and sale, and the reasonable value of the property as the court determines it on evidence.",
-          "Which statute applies depends on the document that secures your loan and on how the lender proceeds. That is a question for an Idaho attorney. For how a judgment lien works once it exists, see [liens and judgments when you sell an Idaho house](/guides/liens-and-judgments-when-selling-in-idaho)."
+          "A deficiency is the part of the debt a foreclosure sale does not cover, and Idaho lets a lender seek one within 3 months after a trustee's sale under Idaho Code 45-1512, capped by the property's fair market value, with a similar value cap for a mortgage foreclosed in court under 6-108; how those limits work is covered in [after a foreclosure sale in Idaho](/guides/after-a-foreclosure-sale-in-idaho)."
         ],
         "claims": [
           "ss-trustee-sale-deficiency-three-months",
           "ss-trustee-sale-deficiency-fair-market-value-cap",
-          "ss-mortgage-foreclosure-deficiency-docketed",
           "ss-mortgage-deficiency-reasonable-value-cap"
         ]
       },
@@ -1702,7 +1712,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We are a direct buyer. We buy with our own capital, in any condition, the purchase closes through a local title company, and the seller chooses the closing date. If your house is worth more than you owe, an ordinary sale pays off the loan at closing and you need neither a short sale nor a deed in lieu. In that case a three-week close with us is realistic, and so is listing the house, which may bring a higher price if you have the time. Our page on a [cash offer vs listing in Idaho](/cash-offer-vs-listing-idaho) compares the two.",
+          "If your house is worth more than you owe, an ordinary sale pays off the loan at closing and you need neither a short sale nor a deed in lieu. We buy with our own capital, in any condition, the purchase closes through a local title company, and the seller chooses the closing date. In that case a three-week close with us is realistic, and so is listing the house, which may bring a higher price if you have the time. Our page on a [cash offer vs listing in Idaho](/cash-offer-vs-listing-idaho) compares the two.",
           "If you owe more than the house will sell for, we are a poor fit for most of what you need. We cannot stop a foreclosure, negotiate with your lender, approve a short sale, or give legal or tax advice. We can make an offer that your lender is free to accept or refuse, and the timing then belongs to the lender. A deed in lieu involves no buyer at all. In either case, a HUD-approved housing counselor, an Idaho attorney and a tax professional will serve you better than any buyer can."
         ],
         "claims": []
@@ -1982,7 +1992,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in Ada County with our own capital, in any condition. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. A purchase is a sale and nothing more. We cannot stop or postpone a foreclosure, negotiate with a lender, or promise an outcome with your loan. Our page on [selling a house before foreclosure in Idaho](/sell-house-before-foreclosure-idaho) covers that route.",
+          "A purchase by us is a sale and nothing more. We buy in Ada County with our own capital and in any condition, the sale closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. We cannot stop or postpone a foreclosure, negotiate with a lender, or promise an outcome with your loan. Our page on [selling a house before foreclosure in Idaho](/sell-house-before-foreclosure-idaho) covers that route.",
           "A sale to us is the wrong route if you can keep the home. If your servicer will agree to a repayment plan or a modification you can afford, or you can bring the loan current, talk to the servicer and a housing counselor first. If the house is in sound condition and there is time before the sale date, listing it may bring a higher price than we would pay. If you do sign with any buyer during the foreclosure period, read the Idaho notice and have an attorney look at the contract inside the five business days."
         ],
         "claims": []
@@ -1993,7 +2003,7 @@ export const guideContent: Record<string, GuideContent> = {
   "inheriting-a-house-with-a-mortgage-in-idaho": {
     "intro": [
       "When an Idaho homeowner dies, the lien stays on the house and the payments keep falling due. A federal statute, 12 U.S.C. 1701j-3(d), bars a lender from calling the loan due under a due-on-sale clause because a home with fewer than five dwelling units passed to a relative on the borrower's death. The person who inherits can keep paying and ask to take over the loan, sell the house and pay the loan off, or let the house go. If payments stop, the lender keeps its right to foreclose.",
-      "This page describes what federal statute, federal mortgage servicing rules, the Consumer Financial Protection Bureau and Idaho Code say, quoted from the official sources. It is not legal or tax advice and it is not applied to your loan or your family. We are a property buyer. We cannot stop a foreclosure, negotiate with a lender or promise an outcome. An Idaho attorney and a HUD-approved housing counselor are the people to ask about your own situation."
+      "This page describes what federal statute, federal mortgage servicing rules, the Consumer Financial Protection Bureau and Idaho Code say, quoted from the official sources. It is not legal or tax advice and it is not applied to your loan or your family. We buy property; we have no say over the lender, the servicer or the estate, and we cannot stop a foreclosure or promise how it ends. An Idaho attorney and a HUD-approved housing counselor are the people to ask about your own situation."
     ],
     "sections": [
       {
@@ -2092,7 +2102,7 @@ export const guideContent: Record<string, GuideContent> = {
         "heading": "Choice two: sell the house and pay the loan off",
         "body": [
           "The CFPB describes the payoff amount as how much must be paid to satisfy the loan and completely pay off the debt, and says it differs from the current balance because it includes interest through the payoff day and may include unpaid fees. Under Idaho Code 45-1514, once the obligation secured by a deed of trust is performed, the trustee reconveys the property on the beneficiary's written request.",
-          "Who signs the sale depends on where the estate stands. An Idaho personal representative acquires powers by being appointed and issued letters. Idaho Code 15-3-715 lists selling real property among the transactions a personal representative may carry out, subject to any restriction in the will or a court order. Idaho Code 15-3-814 adds that where estate assets are encumbered by a mortgage, the personal representative may pay the encumbrance or any part of it \"if it appears to be for the best interest of the estate.\"",
+          "While the estate is open, the seller is the appointed personal representative, whose authority is set out in [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho), and Idaho Code 15-3-814 lets that representative pay a mortgage on an estate asset, in whole or in part, \"if it appears to be for the best interest of the estate.\"",
           "If the house would sell for less than the loan balance, the sale is a short sale and needs the lender. The CFPB defines a short sale as a sale for less than what is owed, possible only if the lender or servicer agrees.",
           "The sale itself is covered in [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho)."
         ],
@@ -2100,8 +2110,6 @@ export const guideContent: Record<string, GuideContent> = {
           "af-cfpb-payoff-amount",
           "sk-reconveyance-on-performance",
           "pb-letters-required",
-          "pb-pr-may-sell-real-property",
-          "id-pr-powers-limited-by-will",
           "im-idaho-pr-may-pay-or-convey-encumbered-asset",
           "sk-cfpb-short-sale-definition"
         ]
@@ -2110,30 +2118,20 @@ export const guideContent: Record<string, GuideContent> = {
         "heading": "Choice three: let the house go, and what a trustee's sale does",
         "body": [
           "Idaho Code 15-3-814 also lets a personal representative \"convey or transfer the assets to the creditor in satisfaction of his lien,\" where that appears to be in the best interest of the estate. A lender is not obliged by that section to accept the property.",
-          "If payments stop on a loan secured by a deed of trust, Idaho Code 45-1503 gives the trustee a power of sale after the breach, and lets the beneficiary choose foreclosure through the courts instead. Under 12 CFR 1024.41(f)(1), where the federal rule applies, a servicer may not make the first foreclosure notice or filing unless the loan is more than 120 days delinquent, with listed exceptions. Idaho Code 45-1505 then requires a notice of default to be recorded and mailed, including to any individual who owns an interest in the property.",
-          "Notice of the trustee's sale must be given at least 120 days before the sale date. Idaho Code 45-1506(2) includes among the people who must receive it any successor in interest of the grantor whose interest is of record before the notice of default or is actually known to the trustee or beneficiary. These two 120-day periods are separate and are measured from different events.",
-          "Idaho Code 45-1506(12) lets the grantor or a successor in interest cure the default at any time within 115 days of the recording of the notice of default by paying the amount then due, other than principal that would not be due had there been no default. Once the sale is held, Idaho Code 45-1508 says it terminates the interest of every person who was given notice, with no right to redeem.",
-          "Idaho Code 45-1512 allows a money judgment for a remaining balance to be sought within 3 months after a trustee's sale, limited by the property's fair market value as found by the court. Whether that could reach an estate or any heir is a legal question for an Idaho attorney. The steps and day counts are set out in the [Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline)."
+          "If payments simply stop, the lender can foreclose. What matters for an heir is who counts: Idaho Code 45-1506(2) includes among the people who must receive notice of the trustee's sale any successor in interest of the grantor whose interest is of record before the notice of default or is actually known to the trustee or beneficiary, which is a reason to record the estate's documents and tell the servicer early. Each step from default to sale, with its day counts, is in the [Idaho foreclosure timeline](/guides/idaho-foreclosure-timeline).",
+          "Whether a balance left after a trustee's sale could reach an estate or any heir is a legal question for an Idaho attorney; how Idaho limits that balance is covered in [after a foreclosure sale in Idaho](/guides/after-a-foreclosure-sale-in-idaho)."
         ],
         "claims": [
           "im-idaho-pr-may-pay-or-convey-encumbered-asset",
           "ft-power-of-sale-or-judicial-option",
-          "af-regx-120-day-prefiling",
-          "af-regx-scope",
-          "ft-notice-of-default-recorded-and-mailed",
-          "id-trustee-sale-120-day-notice",
-          "ft-notice-of-sale-recipients",
-          "af-cure-within-115-days",
-          "ft-sale-final-no-redemption",
-          "as-deficiency-three-month-window",
-          "as-deficiency-fair-market-value-limit"
+          "ft-notice-of-sale-recipients"
         ]
       },
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses in Ada County in any condition, with our own capital. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. That can suit an estate or an heir who has decided to sell and does not want to carry the payments for long. Our page on [selling an inherited house](/sell-inherited-house-idaho) describes the process.",
-          "We cannot stop a foreclosure, negotiate with a lender, arrange an assumption or give legal or tax advice. If you want to keep the house, the route runs through the servicer, and a HUD-approved housing counselor costs nothing. If there is time to list the house on the open market, a listing may bring a higher price than we would offer. If the loan balance is more than the house would sell for, any sale needs the lender's agreement, and that decision belongs to the lender."
+          "An estate or an heir who has decided to sell, and does not want to carry the payments for long, can set the closing date with us, and a three-week close is realistic. We buy in Ada County in any condition with our own capital, and the purchase closes through a local title company. Our page on [selling an inherited house](/sell-inherited-house-idaho) describes the process.",
+          "Keeping an inherited house is a conversation with the servicer, not with us: we cannot arrange an assumption or speak for the estate with the lender, we cannot stop a foreclosure, and we do not advise on law or tax. A HUD-approved housing counselor costs nothing and can help with that conversation. An heir with time to put the house on the open market may well get more there than from our offer. And where the loan is larger than the house is worth, the lender decides whether any sale can close."
         ],
         "claims": [
           "af-cfpb-payoff-amount",
@@ -2244,20 +2242,15 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Who has the legal right to sell the house in Idaho?",
         "body": [
-          "The federal rule lets a \"party with legal right to dispose of the property\" sell. It does not say who that is. Where the house is part of a probate estate, Idaho's probate code addresses it.",
-          "Under Idaho Code 15-3-103, a person acquires the powers of a personal representative only by being appointed by the court or registrar, qualifying, and being issued letters. Idaho Code 15-3-715 lists selling real property of the estate among the transactions a personal representative may carry out, subject to any restriction in the will or in a court order.",
-          "Appointment has its own steps. On an application for informal appointment, the registrar appoints the applicant once at least 120 hours have passed since the death. That figure is a statutory minimum, and court processing time is separate.",
-          "24 CFR 206.125 sets its 30 days without mentioning probate. The house also has to be carried in the meantime. HUD's fact sheet says property taxes and insurance \"remain the responsibility of the borrower's estate until title is transferred.\" Idaho Code 15-3-709 requires a personal representative to pay taxes on, and take reasonable steps to protect and preserve, the estate in their possession.",
-          "Our guides on [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) and [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho) cover letters, authority and deeds in more detail."
+          "The federal rule lets a \"party with legal right to dispose of the property\" sell. It does not say who that is, and the regulation counts its 30 days without mentioning probate.",
+          "Where the house is in a probate estate, that party is a personal representative who has been appointed and issued letters; how that happens in Ada County is in [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho), and a sale by an heir after distribution is in [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho).",
+          "The house also has to be carried in the meantime. HUD's fact sheet says property taxes and insurance \"remain the responsibility of the borrower's estate until title is transferred.\" Those bills keep arriving while the estate is opened and the sale is arranged, so whoever is acting for the estate should know who is paying them."
         ],
         "claims": [
           "rv-hecm-sale-by-party-with-legal-right",
+          "rv-hecm-due-notice-30-days-to-act",
           "pb-letters-required",
-          "pb-pr-may-sell-real-property",
-          "id-pr-powers-limited-by-will",
-          "pb-informal-appointment-120-hours",
-          "rv-hud-fact-sheet-taxes-insurance-estate",
-          "pb-pr-possession-and-taxes"
+          "rv-hud-fact-sheet-taxes-insurance-estate"
         ]
       },
       {
@@ -2284,7 +2277,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses in Ada County with our own capital, in any condition. A purchase closes through a local title company on a date the seller chooses, and a three-week close is realistic. The CFPB says that when a home is worth more than the amount owed, heirs can sell it, repay the loan and keep the difference. That is the case where a sale to us can work. We can only buy from someone with the legal right to sell, and the probate section above describes how a personal representative gets that authority. Our page on [selling an inherited house](/sell-inherited-house-idaho) explains how that works with us.",
+          "The CFPB says that when a home is worth more than the amount owed, heirs can sell it, repay the loan and keep the difference, and that is the case where a sale to us can work. We buy in Ada County with our own capital and in any condition; the purchase closes through a local title company on a date the seller chooses, and a three-week close is realistic. We can only buy from someone with the legal right to sell, and the section above points to how a personal representative gets that authority. Our page on [selling an inherited house](/sell-inherited-house-idaho) explains how that works with us.",
           "We are the wrong fit in several cases. Where the balance is higher than the home's value, the price has to meet the amount set under the 95 percent rule, measured against the lender's appraisal, and our offer may be lower than that. Listing the house on the open market may bring a higher price than we would pay, if the notice period allows the time. A deed in lieu is between the estate and the lender and does not involve us. We cannot stop a foreclosure, negotiate with a servicer, obtain an extension, or give legal or tax advice."
         ],
         "claims": [
@@ -2366,18 +2359,14 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Form 1099-S: the closing agent may report the sale to the IRS",
         "body": [
-          "IRS instructions direct that Form 1099-S, Proceeds From Real Estate Transactions, be filed to report the sale or exchange of real estate. The person responsible for closing the transaction files it. Where a settlement statement lists a settlement agent, that is the person responsible. The instructions also require the filer to request the seller's taxpayer identification number no later than the time of closing.",
-          "There is a reporting exception for some home sales. The instructions say the filer need not report the sale of a residence for $250,000 or less, or $500,000 if the certification includes an assurance that the seller is married, if the filer receives an acceptable written certification from the seller that the home is the seller's principal residence and that the full gain is excludable. Each seller signs it under penalties of perjury. The filer is not required to obtain the certification, and without it the form must be filed. This is a rule about whether a form is filed. It does not decide whether tax is owed.",
-          "Topic 701 says that if you receive a Form 1099-S you must report the sale of the home on your return even if the gain is excludable. It also says you must report the sale if you cannot exclude all of the gain.",
-          "A separate federal rule applies to foreign sellers. The IRS says a disposition of a U.S. real property interest by a foreign person is subject to withholding under FIRPTA, generally 15% of the amount realized, and that in most cases the buyer is the withholding agent. One exception the IRS lists is the seller's certification, under penalties of perjury, that the seller is not a foreign person. Our guide to [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho) explains where these papers appear at closing."
+          "The person responsible for closing files Form 1099-S to report the sale of real estate, unless the seller of a residence gives a written certification that it was a principal residence and the full gain is excludable; who files it, why the closing agent asks for your taxpayer identification number, and the separate withholding rule for a foreign seller are covered in [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho).",
+          "What matters for your return is the next step. Topic 701 says that if you receive a Form 1099-S you must report the sale of the home on your return even if the gain is excludable. It also says you must report the sale if you cannot exclude all of the gain. A form that arrives is not a bill, and a form that does not arrive does not mean nothing needs reporting."
         ],
         "claims": [
           "cl-1099s-reports-real-estate-sales",
-          "cl-1099s-tin-requested-at-closing",
           "cl-1099s-principal-residence-certification",
           "cg-irs-report-sale-if-1099s",
-          "cl-firpta-buyer-withholds-15-percent",
-          "cl-firpta-non-foreign-certification"
+          "cl-firpta-buyer-withholds-15-percent"
         ]
       },
       {
@@ -2417,19 +2406,16 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "A sale for less than the loan balance raises a different tax question",
         "body": [
-          "Everything above is about gain. A sale where the lender accepts less than it is owed raises a second question, which is canceled debt. The IRS says that, in general, if a debt is canceled, forgiven or discharged for less than the amount owed, the canceled amount is taxable and must be reported for the year the cancellation occurred. The same IRS page lists exceptions and exclusions.",
-          "The IRS also says that when a creditor takes property securing a debt in full or partial satisfaction of it, the owner is treated as having sold the property to the creditor. As the IRS pages read on November 13, 2026, the exclusion for canceled qualified principal residence debt covers debt discharged before January 1, 2026, or under a written arrangement entered into before that date. Our guide to [short sales and deeds in lieu in Idaho](/guides/short-sale-vs-deed-in-lieu-in-idaho) sets out what the IRS says in full. This is federal material only, and a tax professional should review any agreement before you sign it."
+          "Everything above is about gain; where a lender accepts less than it is owed, the IRS says the canceled amount is in general taxable, and how that and its exclusions apply to a short sale or deed in lieu is covered in [short sales and deeds in lieu in Idaho](/guides/short-sale-vs-deed-in-lieu-in-idaho)."
         ],
         "claims": [
-          "ss-irs-canceled-debt-generally-taxable",
-          "ss-irs-property-taken-treated-as-sale",
-          "ss-irs-principal-residence-exclusion-ended-2025"
+          "ss-irs-canceled-debt-generally-taxable"
         ]
       },
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We are a direct buyer in Ada County. We buy with our own capital, in any condition, and the purchase closes through a local title company on a closing date the seller chooses. A three-week close is realistic. Because the seller picks the date, a seller whose tax professional says the timing of a sale matters can set the closing date to suit that plan.",
+          "When a tax professional says the timing of a sale matters, the useful part of a sale to us is that the seller picks the closing date and can set it to suit that plan. We buy in Ada County with our own capital and in any condition, the purchase closes through a local title company, and a three-week close is realistic.",
           "We do not give tax advice, and we cannot tell you what you will owe or whether an exclusion or deduction applies to you. The tax rules on this page apply the same way whoever buys the house. If a listing on the open market is likely to bring you a higher price and you have the time and the house is ready for it, that route may serve you better. Talk to a tax professional before you choose, and bring your purchase records, improvement records and any depreciation history."
         ],
         "claims": []
@@ -2577,7 +2563,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in Ada County in any condition, with our own capital. A purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. That can suit an owner who has not filed, has decided to sell, and has enough time before the trustee's sale for a sale to close and pay off the loan. The page on [whether to sell or keep a house facing foreclosure](/sell-or-keep-house-facing-foreclosure-idaho) sets out when a sale works. Under Idaho Code 45-1603, an owner whose property is in foreclosure may cancel a contract signed during the foreclosure period within five business days, and that includes a contract with us.",
+          "For an owner who has not filed, has decided to sell, and has enough time before the trustee's sale for a sale to close and pay off the loan, a sale to us is one route. We buy in Ada County in any condition with our own capital, the purchase closes through a local title company, the seller chooses the closing date, and a three-week close is realistic. The page on [whether to sell or keep a house facing foreclosure](/sell-or-keep-house-facing-foreclosure-idaho) sets out when a sale works. Under Idaho Code 45-1603, an owner whose property is in foreclosure may cancel a contract signed during the foreclosure period within five business days, and that includes a contract with us.",
           "We cannot stop a foreclosure, negotiate with a lender, or give legal advice, and we have no say in a bankruptcy case. If you want to keep the house, the routes are the lender, the cure right, a housing counselor, and whatever a bankruptcy attorney advises. If you have already filed, talk to your bankruptcy attorney before any buyer, because the sources above place a sale of estate property inside the case. If there is time to list the house on the open market, a listing may bring a higher price than we would offer."
         ],
         "claims": [
@@ -2611,20 +2597,13 @@ export const guideContent: Record<string, GuideContent> = {
         ]
       },
       {
-        "heading": "The form records what you know, and it must be completed in good faith",
+        "heading": "The form records what you know, in good faith",
         "body": [
-          "The form says that, unless otherwise advised, the seller has no expertise in construction, architecture or engineering. It encourages the purchaser to obtain professional inspections. It ends with the seller certifying that the information is true and correct to the best of the seller's knowledge as of the date signed.",
-          "Idaho Code 55-2507 requires the form to state that it records conditions and information actually known by the seller, that it is not a warranty, and that it is not a substitute for inspections. Idaho Code 55-2511 says a seller is not liable for an error or omission that was not within the seller's personal knowledge. By its terms that section reaches errors and omissions outside the seller's personal knowledge.",
-          "Idaho Code 55-2516 requires every disclosure to be made in good faith, defined as honesty in fact in the conduct of the transaction. Idaho Code 55-2513 requires the seller to amend the form before closing on discovering that information in it has changed.",
-          "Under Idaho Code 55-2517, a failure to comply does not by itself invalidate a transfer, and a person who willfully or negligently violates the chapter is liable for the buyer's actual damages."
+          "Under the act the form records conditions actually known to the seller, is not a warranty or a substitute for inspections, and must be completed in good faith, so an unpermitted addition the seller knows about belongs on it; liability, amendments before closing and damages are covered in [Idaho seller disclosure when selling as-is](/guides/idaho-seller-disclosure-when-selling-as-is)."
         ],
         "claims": [
-          "cv-form-seller-certification-and-purpose",
           "id-disclosure-actual-knowledge-not-warranty",
-          "id-disclosure-no-liability-outside-personal-knowledge",
-          "id-disclosure-good-faith-honesty-in-fact",
-          "id-disclosure-amend-before-closing",
-          "id-disclosure-failure-actual-damages"
+          "id-disclosure-good-faith-honesty-in-fact"
         ]
       },
       {
@@ -2730,7 +2709,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in any condition with our own capital, and unpermitted work is part of a property's condition. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Whether the disclosure form applies depends on the exemptions listed in Idaho Code 55-2505, and an attorney can tell you whether one fits your transfer. Tell us about unpermitted work and any open case when you [contact us](/contact). [How we calculate an offer](/how-we-calculate-an-offer) explains what goes into the number.",
+          "Unpermitted work is part of a property's condition, and we buy in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Whether the disclosure form applies turns on the exemptions in Idaho Code 55-2505, which an attorney can match to your transfer. Tell us about unpermitted work and any open case when you [contact us](/contact). [How we calculate an offer](/how-we-calculate-an-offer) explains what goes into the number.",
           "We are not the right route for every seller. If the building department tells you the work can be permitted and you have the time and money to finish that process, listing the house afterward on the open market may bring you more than a direct sale. We cannot resolve an enforcement case for you, obtain a permit for you before closing, or tell you what the law requires of you. The building department and an Idaho attorney can."
         ],
         "claims": [
@@ -2861,7 +2840,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us about the HOA, and about any unpaid dues or open violation, when you [contact us](/contact).",
+          "Tell us about the HOA, and about any unpaid dues or open violation, when you [contact us](/contact); we buy in any condition with our own capital. The purchase then closes through a local title company on a date you choose, and a three-week close is realistic.",
           "We are not the right route for every seller. If your account is current and the house is in good shape, listing it on the open market may bring you more than a direct sale. We cannot dispute a fee or a fine for you, negotiate with your association, or tell you what your covenants mean. An Idaho attorney can."
         ],
         "claims": []
@@ -2993,7 +2972,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses with someone still living in them, including occupants who have no right to be there. We buy with our own capital, in any condition, and purchases close through a local title company on a date the seller chooses. A three-week close is realistic. We cannot remove anyone from a property, sign a complaint for you, or tell you which process applies. How the occupancy is resolved, before or after the sale, is a question for your attorney and the title company. You can [contact us](/contact) to talk through timing.",
+          "We can buy with an occupant still in place, including one who has no right to be there. Purchases use our own capital, cover any condition, and close through a local title company on a date the seller chooses. A three-week close is realistic. We cannot remove anyone from a property, sign a complaint for you, or tell you which process applies. How the occupancy is resolved, before or after the sale, is a question for your attorney and the title company. You can [contact us](/contact) to talk through timing.",
           "If the occupants leave and the house is in good shape, listing it with an agent may serve you better than a direct sale. If the people in the house are tenants, the eviction route and the rental guide apply instead of 6-310A. An Idaho attorney is the right first call in either case."
         ],
         "claims": []
@@ -3071,19 +3050,16 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Can I use a small estate affidavit for the house?",
         "body": [
-          "Idaho's small estate affidavit is aimed at personal property. Idaho Code 15-3-1201 lets a successor collect debts owed to the decedent, tangible personal property and instruments by affidavit, 30 days after the death, where the probate estate less liens and encumbrances does not exceed $100,000. The section does not mention real property.",
-          "Ada County's Court Assistance Office describes the affidavit as usable where the person who died did not own real estate, and says the affidavit is not filed with the court. If the summary procedure does not fit, the house may need a full probate. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers that process."
+          "Usually not: Ada County's Court Assistance Office describes the affidavit as usable where the person who died did not own real estate, and the conditions, along with full probate when the summary procedure does not fit, are set out in [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho)."
         ],
         "claims": [
-          "pb-small-estate-affidavit-conditions",
           "pb-ada-small-estate-affidavit-no-real-estate"
         ]
       },
       {
         "heading": "What happens to the mortgage when a spouse dies?",
         "body": [
-          "Federal law limits when a lender can call a home loan due because of a transfer after a death. Under 12 U.S.C. 1701j-3(d), for a loan on residential real property with less than five dwelling units, a lender may not exercise a due-on-sale clause on a transfer by devise, descent or operation of law on the death of a joint tenant, on a transfer to a relative resulting from the borrower's death, or on a transfer where the borrower's spouse or children become an owner.",
-          "That section is about the transfer only. It says nothing about missed payments, and it does not make the surviving spouse a borrower on the loan. Our guide to [inheriting a house with a mortgage in Idaho](/guides/inheriting-a-house-with-a-mortgage-in-idaho) covers the federal servicing rules for successors."
+          "Federal law, 12 U.S.C. 1701j-3(d), bars a lender from calling the loan due merely because the house passed to a surviving spouse, but it does not cover missed payments; the servicing rules for successors are in [inheriting a house with a mortgage in Idaho](/guides/inheriting-a-house-with-a-mortgage-in-idaho)."
         ],
         "claims": [
           "im-garn-exempt-transfers-on-death"
@@ -3092,8 +3068,8 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Does the homeowner's exemption continue after my spouse dies?",
         "body": [
-          "For a time, if the home stays in the estate. Idaho Code 63-602G says a homestead that qualified the previous year keeps its exemption through the year of the owner's death and the following tax year, provided it continues to be part of the owner's estate. After that, the new owner must reapply and meet the qualifications.",
-          "The Ada County Assessor says an approved exemption lasts as long as the owner owns and occupies the property, and that if the property is sold the new owner must file an application. The statute ties the carryover to the estate. It does not say the exemption follows the house to a buyer. The Ada County Assessor can answer questions about whose name the exemption is in."
+          "For a limited time while the home stays in the estate; how long the carryover lasts under Idaho Code 63-602G is covered in [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho).",
+          "What matters for a sale is the other end. The Ada County Assessor says an approved exemption lasts as long as the owner owns and occupies the property, and that if the property is sold the new owner must file an application. The exemption does not follow the house to a buyer, and a surviving spouse who stays on as owner should ask the Assessor whose name the exemption is in."
         ],
         "claims": [
           "pt-homestead-death-carryover",
@@ -3119,7 +3095,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in any condition with our own capital. Each purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Because you choose the date, the sale can wait until the title work and any court step are done. You can [contact us](/contact) and describe where things stand.",
+          "After a spouse dies there may be title work or a court step to finish first, and a sale to us can wait for it, since you choose the closing date. We buy in any condition with our own capital, each purchase closes through a local title company, and a three-week close is realistic. You can [contact us](/contact) and describe where things stand.",
           "A direct sale is not the right fit for every surviving spouse. If the house is in good shape and you have time, listing it on the open market may bring you more. We cannot clear title, file a petition, negotiate with a lender or give tax advice. An Idaho attorney, the title company and a tax professional can."
         ],
         "claims": []
@@ -3196,7 +3172,7 @@ export const guideContent: Record<string, GuideContent> = {
         "body": [
           "Idaho's probate code treats a trust agreement's transfer-at-death provision as nontestamentary. Idaho Code 15-6-201(a) says a provision in a trust agreement that property passes at death to a person the decedent designated \"is deemed to be nontestamentary,\" and that the probate code does not invalidate it. Subsection (b) says nothing in the section limits the rights of creditors under other Idaho laws.",
           "The section does not use the words \"avoids probate\", and it reaches only property that is the subject of the instrument. A house that was never deeded into the trust is not the subject of the trust agreement. Whether any part of an estate needs probate is a question for an Idaho attorney. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers that process.",
-          "The seller disclosure form can also differ. Idaho Code 55-2505(7) exempts a transfer \"by a fiduciary in the course of the administration of a decedent's estate, a guardianship, a conservatorship, or a trust\" from the property condition disclosure requirement. Whether your sale falls within that wording, including a sale by a living person who is trustee of their own trust, is a question for an attorney."
+          "The seller disclosure form can also differ, because Idaho exempts a transfer by a fiduciary administering a trust; whether a sale by a living trustee of their own trust fits that wording is a question for an attorney, and the exemptions are set out in [Idaho seller disclosure when selling as-is](/guides/idaho-seller-disclosure-when-selling-as-is)."
         ],
         "claims": [
           "lt-trust-agreement-nontestamentary",
@@ -3226,7 +3202,7 @@ export const guideContent: Record<string, GuideContent> = {
         "heading": "What happens to the homeowner's exemption on a house in a trust?",
         "body": [
           "A trust-owned home can carry the homeowner's exemption. Idaho Code 63-701(7) counts as an owner the beneficiary of a revocable or irrevocable trust that owns the homestead, where the claimant or the claimant's spouse has the primary right of occupancy. Idaho Code 63-602G(2)(d) adopts that definition for the exemption. It lets the beneficiary prove the trust by an affidavit under 63-703(4), with copies of the trust pages showing beneficiary status and the signature pages attached.",
-          "The Ada County Assessor says the exemption need be applied for only once unless something changes, and lists \"properties being transferred into trusts\" among those changes. After a death, Idaho Code 63-602G says a homestead that qualified the year before keeps its qualification through the year of the owner's or beneficiary's death and the following tax year, provided it continues to be part of the decedent's estate. The Assessor's office can say how that applies to a trust-held house.",
+          "The Ada County Assessor says the exemption need be applied for only once unless something changes, and lists \"properties being transferred into trusts\" among those changes. After a death, Idaho Code 63-602G lets the exemption carry over for a limited time, which [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho) explains; the Assessor's office can say how that applies to a trust-held house.",
           "A sale is a change of ownership. The Assessor says an approved exemption needs a new application when ownership changes, so the buyer applies for their own. Our guide to [Idaho property taxes when you sell](/guides/idaho-property-taxes-when-you-sell) covers the tax bill itself."
         ],
         "claims": [
@@ -3240,7 +3216,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy from trustees, including where several co-trustees sign together. We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us the house is in a trust when you [contact us](/contact).",
+          "We buy from trustees, including where several co-trustees sign together, with our own capital and in any condition. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us the house is in a trust when you [contact us](/contact).",
           "We are not the right route for every trustee. A trustee owes duties to the beneficiaries, and listing the house on the open market may bring the trust more than a direct sale. If the house sits in good condition and there is no time pressure, that route deserves a serious look. We cannot interpret your trust, tell you whether you may sell, or settle a disagreement among trustees or beneficiaries. An Idaho attorney can."
         ],
         "claims": [
@@ -3260,14 +3236,12 @@ export const guideContent: Record<string, GuideContent> = {
         "heading": "What counts as a title problem?",
         "body": [
           "The Idaho Department of Insurance gives a list of examples of title defects. It includes forged or fraudulent documents, a document affecting ownership that was not properly signed, notarized or delivered, undisclosed or unrecorded easements, no right of access, a document not properly recorded, ownership claims by undisclosed or missing heirs, and a previous owner's unpaid mortgage, tax assessment or association dues.",
-          "Idaho's recording statutes explain why the record matters. A recorded conveyance gives what the statute calls constructive notice of its contents to later purchasers and mortgagees from the time it is filed. An unrecorded instrument is still valid between the parties and anyone with notice of it. A later purchaser who buys in good faith for value and records first is protected against an earlier grant that was not recorded.",
+          "The record matters because Idaho's recording statutes make a recorded conveyance constructive notice of its contents to later purchasers and mortgagees; how deeds are recorded at a normal closing, and who is protected when one is not, is covered in [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho).",
           "The state's seller disclosure form also touches title. Question 6 asks the seller to describe any conditions that may affect the ability to clear title, and names encroachments, easements, zoning violations and lot line disputes as examples. Our [seller disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers the form and who must complete it."
         ],
         "claims": [
           "tp-doi-title-defect-examples",
           "cl-recorded-conveyance-constructive-notice",
-          "cl-unrecorded-valid-between-parties",
-          "cl-bona-fide-purchaser-first-recorded",
           "cv-form-q6-zoning-violations-title"
         ]
       },
@@ -3325,13 +3299,11 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "What if there is a gap in the chain of title?",
         "body": [
-          "A gap in the chain of title means a transfer is missing from, or defective in, the county record. Idaho Code 55-808 requires instruments to be recorded in the county where the property sits, so for an Ada County house the place to look is the Ada County Recorder, whatever city the house is in.",
-          "The Ada County Recorder's Office says it maintains all documents related to property ownership in the county and that recorded documents are open to public inspection. It also says certain document types, including deeds, are currently blocked from viewing or downloading online, and copies must be requested from the office.",
+          "A gap in the chain of title means a transfer is missing from, or defective in, the county record. For an Ada County house that record is held by the Ada County Recorder, where deeds are currently blocked from online viewing and copies must be requested from the office; the recording rules themselves are in [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho).",
           "Missing heirs are one of the Department of Insurance's listed defects. When a past owner has died, our guide on [selling a house in probate](/guides/selling-a-house-in-probate-in-idaho) covers how title passes. An attorney can say what a particular gap calls for, including whether a quiet title action fits."
         ],
         "claims": [
           "cl-record-in-county-where-situated",
-          "ada-recorder-maintains-ownership-documents",
           "cl-ada-deeds-blocked-online",
           "tp-doi-title-defect-examples"
         ]
@@ -3339,14 +3311,10 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "How long does a mechanic's lien last in Idaho?",
         "body": [
-          "An Idaho mechanic's lien binds the property for no longer than six months after the claim is filed, unless a court action to enforce it is started within that time. A payment on account or an extension of credit endorsed on the record moves that six months to run from the payment or the end of the extension. If a court enters a final judgment on the lien, that judgment lien ends ten years after it becomes final.",
-          "A claimant must file the claim with the county recorder within 90 days after finishing its labor or furnishing its materials, and serve a copy on the owner within five business days after filing. The 90 days runs from when that claimant's own work ended.",
-          "A lien that has stopped binding the property can still appear in the county index. The statute says when it stops binding the property. It does not say the record clears itself. Idaho also allows a recorded mechanic's lien to be released by posting a surety bond; the statutory bond form is written for one and a half times the claim. Our [liens and judgments guide](/guides/liens-and-judgments-when-selling-in-idaho) covers other liens."
+          "An Idaho mechanic's lien binds the property for no longer than six months after the claim is filed unless a court action to enforce it is started in that time, though a lapsed lien can still sit in the county index; filing deadlines, bond releases and the rest are in [liens and judgments when selling in Idaho](/guides/liens-and-judgments-when-selling-in-idaho)."
         ],
         "claims": [
-          "ln-mechanics-lien-six-month-duration",
-          "ln-mechanics-lien-ninety-day-filing",
-          "ln-mechanics-lien-bond-release"
+          "ln-mechanics-lien-six-month-duration"
         ]
       },
       {
@@ -3377,7 +3345,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us what you know about the title problem when you [contact us](/contact).",
+          "Because you choose the closing date, a sale to us can wait while a title defect is cleared, and then close through a local title company once the record is right. We buy with our own capital and in any condition, and when the title is ready a three-week close is realistic. Tell us what you know about the title problem when you [contact us](/contact).",
           "We are not the right route for every seller. If the problem is a simple missing reconveyance, a listing with a patient buyer may bring you more once the record is fixed. We cannot clear title for you, judge whether a lien is valid, or bring a quiet title action. An Idaho real estate attorney and your title company can."
         ],
         "claims": []
@@ -3503,7 +3471,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy with our own capital, and we buy property in any condition, including after a fire or water loss. Purchases close through a local title company, the seller chooses the closing date, and a three-week close is realistic. Whether the disclosure form applies depends on the exemptions listed in Idaho Code 55-2505, and an attorney can tell you whether one fits your transfer. We cannot advise on an insurance claim, deal with your insurer or servicer, or tell you what a claim is worth.",
+          "A house after a fire or water loss is one we can buy as it stands, since we buy in any condition and with our own capital. Purchases close through a local title company, the seller chooses the closing date, and a three-week close is realistic. Whether Idaho's disclosure form applies to your sale is a question of the Idaho Code 55-2505 exemptions, and an attorney can say whether one fits. We cannot advise on an insurance claim, deal with your insurer or servicer, or tell you what a claim is worth.",
           "If the insurance claim will pay for repairs and you have time to finish them, repairing and listing may net more. If you want to sell before repairs, ask your insurer and your servicer how a sale affects the claim, and talk to an Idaho attorney, before you sign a contract with anyone. Our [as-is page](/sell-house-as-is-idaho) explains how a direct sale works, and you can [contact us](/contact) when you are ready."
         ],
         "claims": [
@@ -3653,7 +3621,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. If you live out of state, tell us how you plan to sign when you [contact us](/contact), so the title company can plan for it.",
+          "If you live out of state, tell us how you plan to sign when you [contact us](/contact), so the title company can plan for it. We buy in any condition with our own capital, the purchase closes through that local title company, you choose the closing date, and a three-week close is realistic.",
           "We are not the right route for every seller. If the house is in good shape and you can wait, listing it on the open market may bring you more than a direct sale. We cannot draft or review a power of attorney, advise you on Idaho or federal tax, or arrange a notary for you. An Idaho attorney, a tax professional and the title company can."
         ],
         "claims": []
@@ -3806,7 +3774,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses in flood zones, including in mapped Special Flood Hazard Areas. We buy with our own capital, so a sale to us does not depend on a buyer's lender or on the flood insurance a lender would require. We buy in any condition, purchases close through a local title company, and you choose the closing date. A three-week close is realistic. Whether the disclosure form applies depends on the exemptions listed in Idaho Code 55-2505, and an attorney can tell you whether one fits your transfer. You can read [how it works](/how-it-works) or [contact us](/contact).",
+          "We buy in flood zones, including in mapped Special Flood Hazard Areas. We buy with our own capital, so a sale to us does not depend on a buyer's lender or on the flood insurance a lender would require. We buy in any condition, purchases close through a local title company, and you choose the closing date. A three-week close is realistic. The Idaho Code 55-2505 exemptions decide whether the disclosure form applies, and an attorney can check your transfer against them. You can read [how it works](/how-it-works) or [contact us](/contact).",
           "A buyer who finances can still buy a house in a flood zone by carrying flood insurance, and an existing NFIP policy can go with the house. If the house is in good shape and you have time, listing it with an agent may bring a higher price. If you are weighing an as-is sale, our page on [selling a house as-is in Idaho](/sell-house-as-is-idaho) explains what that does and does not change."
         ],
         "claims": [
