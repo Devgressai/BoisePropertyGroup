@@ -11,7 +11,7 @@
  * Then run: sync-sources → build-claims → check-evidence → verify-quotes.
  * It refuses to run twice for the same slug.
  *
- * Usage: node scripts/research/merge-funnel-topic.mjs <topic> [--as guide|decision]
+ * Usage: node scripts/research/merge-funnel-topic.mjs <topic> [--as guide|decision|none]
  */
 import { readFileSync, writeFileSync } from "node:fs";
 
@@ -53,6 +53,12 @@ for (const c of load(`${dir}/claims.json`).claims) {
 writeFileSync(CLAIMS, JSON.stringify(claimReg, null, 2) + "\n");
 
 // ── page ──
+// `--as none` merges evidence only: for research that deepens an existing page,
+// whose new sections are then placed by hand (see research/funnel-2026-11/WAVE-8.md).
+if (as === "none") {
+  console.log(`${topic}: +${addedS} sources, +${addedC} claims (evidence only)`);
+  process.exit(0);
+}
 const { guide, content } = load(`${dir}/guide.json`);
 const lit = (v, indent) => JSON.stringify(v, null, 2).replace(/\n/g, `\n${indent}`);
 
