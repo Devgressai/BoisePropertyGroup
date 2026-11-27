@@ -272,12 +272,38 @@ export const guideContent: Record<string, GuideContent> = {
         claims: ["id-recording-act-lease-one-year-carveout"],
       },
       {
+        heading: "Does the buyer take over the landlord's rights under the lease?",
+        body: [
+          "Idaho gives the buyer of a rented property the seller's remedies against the tenant, and gives the tenant lease remedies against the seller's assigns, with one exception. Under Idaho Code 55-301, a person to whom rented real property is transferred \"is entitled to the same remedies for recovery of rent, for nonperformance of any of the terms of the lease, or for any waste or cause of forfeiture, as his grantor or devisor might have had.\"",
+          "Idaho Code 55-303 runs the other way. Whatever remedies a lessee has against the immediate lessor for breach of the lease, the lessee \"may have against the assigns of the lessor.\" The section excludes covenants \"against encumbrances or relating to the title or possession of the premises.\"",
+          "Neither section says who counts as an assign in a particular sale, or how rent for the closing month is divided. Those points belong in the purchase contract and with an attorney.",
+        ],
+        claims: ["rt2-grantee-takes-landlord-remedies", "rt2-tenant-remedies-against-landlord-assigns"],
+      },
+      {
         heading: "Does an Idaho rental need the seller disclosure form?",
         body: [
           "Idaho's property condition disclosure requirement applies to \"any residential real property, including nonowner occupied rental property\" of not less than one nor more than four dwelling units. Owning it as an investment rather than living in it does not remove the obligation.",
           "The Ada County Assessor draws the same line for valuation purposes: residential appraisers handle multi-family up to four units, and apartments move to the commercial team.",
         ],
         claims: ["id-disclosure-required-1-to-4-units", "ada-residential-appraisal-scope"],
+      },
+      {
+        heading: "How much notice ends a month-to-month tenancy before a sale?",
+        body: [
+          "Idaho has two notice rules that can apply, and neither one mentions a sale. Idaho Code 55-208 lets a landlord end a tenancy at will with written notice to leave within a period of not less than one month. Idaho Code 55-304(2), amended in 2020 and 2024, requires a residential landlord to give written notice of \"the landlord's intention of nonrenewal of the lease at least thirty (30) days before\" the nonrenewal. The same subsection sets 30 days' written notice for a rent increase.",
+          "The Idaho Attorney General's Landlord and Tenant Manual (July 2026) states both. Either party may end a month-to-month tenancy \"with at least a month's advance written notice,\" and the landlord must give written notice at least 30 days before a lease non-renewal. Which rule governs a given tenancy, and whether a fixed-term lease can be ended early at all, are questions for an attorney.",
+          "One timing point is plain in the statute. Under Idaho Code 55-209, the landlord may reenter or proceed according to law to recover possession only after the notice has been served and its period has expired, \"but not before.\"",
+        ],
+        claims: ["sp-rt-tenancy-at-will-one-month", "rt2-nonrenewal-30-day-notice", "rt2-ag-month-to-month-one-month-notice", "rt2-no-reentry-before-notice-expires"],
+      },
+      {
+        heading: "Can a landlord enter to show the house to buyers?",
+        body: [
+          "The Idaho Attorney General's manual treats entry for showings as a matter for the lease. It says tenants \"have a right to privacy in their rentals\" and that the lease should set out the landlord's right to enter to \"show the property to prospective purchasers or tenants at convenient times.\"",
+          "Where the lease says nothing, the manual says the landlord \"first should notify the tenant why the entry is necessary,\" and that the landlord and tenant \"can agree on a reasonable manner and time of entry.\" The manual cites no statute and gives no fixed number of hours, so the lease is the place to start.",
+        ],
+        claims: ["rt2-ag-entry-set-by-lease"],
       },
       {
         heading: "What can an owner do about an unauthorised occupant in Idaho?",
@@ -287,6 +313,24 @@ export const guideContent: Record<string, GuideContent> = {
           "A holdover tenant, a relative who will not leave, or anyone you are already in litigation with is outside this section entirely. The full procedure is in [squatters and unauthorized occupants in Idaho](/guides/squatters-and-unauthorized-occupants-in-idaho). Those go through ordinary eviction. Treating 6-310A as a shortcut around that process is a mistake, and the Ada County Court Assistance Office is explicit that its own eviction forms cover non-payment only.",
         ],
         claims: ["id-6-310a-remove-unauthorized-persons", "ada-eviction-forms-nonpayment-only"],
+      },
+      {
+        heading: "What happens if a tenant stays after the lease ends?",
+        body: [
+          "A tenant who stays after the lease term without the landlord's permission is guilty of unlawful detainer under Idaho Code 6-303(1), and the remedy is a court case. The Attorney General's manual says that when a lease is silent about its end, it \"simply expires, and the tenant becomes a 'holdover' tenant,\" and that unless the landlord agrees to continue the tenancy or a new lease is signed, \"the landlord can start eviction proceedings.\"",
+          "Section 6-303(1) adds that a tenancy at will \"must first be terminated by notice.\" Idaho Code 6-304 sets how notices under 6-303 are served: in person, or, if the tenant is away from home and work, by leaving a copy with a person of suitable age and discretion and mailing a copy. Posting on the property is the fallback, together with delivery to a resident if one can be found and mailing.",
+          "Idaho Code 6-317 says that if a landlord or a tenant recovers damages for unlawful entry on, or detention of, a building or land, \"judgment may be entered for three (3) times the amount at which the actual damages are assessed.\" The word is may, and the section applies to both sides.",
+        ],
+        claims: ["sq-unlawful-detainer-tenant", "rt2-ag-holdover-tenant", "rt2-notice-service-methods", "rt2-treble-damages-unlawful-detention"],
+      },
+      {
+        heading: "Do fair housing and Boise renter rules apply when ending a tenancy to sell?",
+        body: [
+          "Fair housing law applies to a landlord's decisions about tenants, including ending a lease. HUD says the Fair Housing Act prohibits discrimination in housing because of race, color, national origin, religion, sex, familial status and disability. The Idaho Attorney General's manual lists \"terminating a lease for a discriminatory reason\" among the actions landlords may not take on those grounds, and points complaints to the Idaho Human Rights Commission.",
+          "Inside Boise city limits there is a further layer. The City of Boise's Renter Protections page says its ordinances prohibit landlords from retaliating against tenants for repair requests or safety concerns, and it lists \"terminating a tenancy, refusing to renew\" among potential retaliatory actions. The page also says landlords must give new tenants the city's notice of landlord and tenant responsibilities, and that complaints must be filed within 6 months. The city investigates only violations inside [Boise](/sell-my-house-fast-boise-id) city limits.",
+          "A 2025 state law, Idaho Code 55-306, bars a local government from enacting or enforcing an ordinance that would regulate rent, fees or deposits for leasing private residential property. How that bears on any Boise ordinance is a question for an attorney. So is whether a particular non-renewal before a sale raises a fair housing or retaliation issue.",
+        ],
+        claims: ["rt2-hud-fair-housing-protected-classes", "rt2-ag-discriminatory-termination", "rt2-boise-retaliation-ordinance", "rt2-boise-notice-to-new-tenants-and-complaints", "rt2-no-local-rent-fee-deposit-regulation"],
       },
       {
         heading: "Selling occupied, in practice",

@@ -1,0 +1,2086 @@
+   Office of the
+ Attorney General
+
+Landlord and
+Tenant Manual
+
+
+
+
+         July 2026
+
+    RAÚL R. LABRADOR
+      Attorney General
+  700 West Jefferson Street
+  Boise, ID 83720-0010
+    www.ag.idaho.gov
+                       State of Idaho
+                       Office of Attorney General
+                       Raúl R. Labrador
+
+
+
+
+                      INTRODUCTION
+
+This manual is intended to help tenants and landlords better
+understand their rights and responsibilities under Idaho law. It
+is not a restatement of Idaho law or a substitution for
+professional legal advice.
+
+The Attorney General’s Office does not enforce Idaho’s
+landlord-tenant laws. Rather, tenants and landlords enforce
+these laws through private actions. The parties should consult
+with a private attorney when they have questions about their
+legal rights or options.
+
+This manual includes two checklists in the appendices. The
+first helps tenants select and rent a property, and the second is
+a move-in and move-out checklist.
+
+Sincerely,
+
+Raúl R. Labrador
+
+Attorney General
+                                  Table of Contents
+PURPOSE AND SCOPE OF MANUAL ..............................................1
+BEFORE RENTING ..............................................................................1
+   EVALUATE THE NEIGHBORHOOD ...........................................................1
+   CALCULATE THE AMOUNT OF RENT, DEPOSITS AND FEES ......................2
+   UNDERSTAND SMOKING, PET AND OTHER POLICIES ..............................2
+   KNOW THE LANDLORD’S REPUTATION ..................................................3
+   CREDIT AND BACKGROUND CHECKS OF TENANTS .................................3
+   RECOGNIZE HOUSING DISCRIMINATION .................................................4
+   RENTER’S INSURANCE ...........................................................................5
+   “SECTION 8” RENTAL ASSISTANCE/HOUSING CHOICE VOUCHER
+   PROGRAM ..............................................................................................5
+LEASE AGREEMENTS ........................................................................6
+   THE DANGERS OF AN ORAL LEASE ........................................................6
+   TERMS A WRITTEN LEASE SHOULD INCLUDE ........................................6
+   LEASE ADDENDUMS ..............................................................................7
+   IMPROPER LEASE PROVISIONS ...............................................................7
+   RESTRICTIVE LEASE PROVISIONS ...........................................................8
+   COSIGNING A LEASE ..............................................................................9
+MOVING IN ...........................................................................................9
+   TURNING ON THE UTILITIES AND OTHER SERVICES ...............................9
+   THE MOVE-IN INSPECTION AND VIDEO ................................................10
+THE TENANT’S RIGHT TO PRIVACY ..........................................10
+MAINTAINING THE RENTAL PROPERTY ..................................11
+   THE LANDLORD’S DUTY TO KEEP THE PROPERTY SAFE AND
+   HEALTHY .............................................................................................11
+   WHAT TO DO IF A LANDLORD WON’T MAINTAIN A RENTAL ..............12
+      Notify the Landlord .......................................................................12
+      Wait Three Days for Repair ..........................................................13
+      Sue the Landlord ...........................................................................13
+      Attend the Trial .............................................................................13
+      Enforce the Court’s Order ............................................................13
+      Recover for Personal Injuries .......................................................13
+   THE TENANT’S RESPONSIBILITIES FOR SAFEGUARDING THE
+   PROPERTY............................................................................................13
+   WHAT TO DO IF A TENANT DAMAGES THE RENTAL ............................14
+      Notify the Tenant ...........................................................................14
+      Allow Three Days for Repair ........................................................15
+        Evict the Tenant ............................................................................ 15
+SPECIAL PROPERTY ISSUES ......................................................... 15
+   THE LANDLORD’S DUTY TO PROVIDE UTILITY SERVICES .................... 15
+   TOXIC MOLD CONCERNS ..................................................................... 16
+PAYING AND COLLECTING RENT ............................................... 17
+   DUE DATES AND LATE FEES ................................................................ 17
+   WITHHOLDING RENT ........................................................................... 18
+   THE LANDLORD’S REMEDIES WHEN A TENANT FAILS TO PAY
+   RENT ................................................................................................... 18
+      Notice to Pay ................................................................................. 18
+      Service of the Complaint ............................................................... 18
+      Requesting a Continuance............................................................. 18
+      Recovery of Attorney Fees and Costs ............................................ 19
+      Recovery of Unpaid Rent and Damages ........................................ 19
+CHANGING THE LEASE .................................................................. 19
+   NOTICE ................................................................................................ 19
+   RENT AND FEE INCREASES AND LEASE RENEWALS .............................. 19
+   SUBLETTING ........................................................................................ 20
+   EXTENDING THE LEASE ........................................................................ 20
+   BREAKING THE LEASE ......................................................................... 20
+   HOLDOVER TENANCIES........................................................................ 20
+PROPERTY MANAGEMENT COMPANIES .................................. 20
+MOVING OUT ..................................................................................... 21
+   NOTICE TO VACATE ............................................................................. 21
+   MOVE-OUT INSPECTION ...................................................................... 22
+   RETURN OF THE SECURITY DEPOSIT..................................................... 22
+      21-Day Return Rule....................................................................... 22
+      Wear and Tear vs. Damage and Excessive Filth ........................... 23
+      Improper Notice May Affect Deposit Return ................................. 23
+      Tenant’s Remedies for Obtaining Security Deposit....................... 24
+      Misrepresenting Necessary Repairs .............................................. 24
+EVICTIONS.......................................................................................... 25
+   RETALIATORY EVICTIONS .................................................................... 25
+   THE EVICTION PROCESS....................................................................... 25
+      Notice of Eviction .......................................................................... 25
+      Unlawful Detainer Action ............................................................. 27
+   UNLAWFUL EVICTIONS ........................................................................ 27
+   REMOVAL OF TENANT’S PERSONAL PROPERTY.................................... 28
+MANUFACTURED HOME RESIDENCY ACT............................... 28
+   WRITTEN LEASES ................................................................................ 28
+      Required Lease Terms ................................................................... 29
+      Implied Lease Terms ..................................................................... 29
+      Prohibited Lease Terms ................................................................ 30
+   PARK RULES ........................................................................................ 30
+   RENT INCREASES ................................................................................. 30
+   SECURITY DEPOSITS ............................................................................ 30
+   LIABILITY OF THE LIEN HOLDER OR LEGAL OWNER OF A
+   MANUFACTURED HOME FOR BACK RENT AND UTILITIES .................... 31
+   REMOVAL OF A MANUFACTURED HOME .............................................. 31
+   SALE OF MANUFACTURED HOME ......................................................... 31
+   RENEWAL OF THE LEASE ..................................................................... 32
+   TERMINATION OF THE LEASE ............................................................... 32
+   TENANT’S RIGHTS AND REMEDIES ....................................................... 33
+STORAGE UNITS ............................................................................... 33
+   LIABILITY INSURANCE ......................................................................... 33
+APPENDIX A - IDAHO CODE SECTIONS...................................... 34
+   AT-WILL TENANCY ............................................................................. 34
+   FEES .................................................................................................... 34
+   FIXTURES – REMOVAL OF..................................................................... 34
+   LEASES ................................................................................................ 34
+   MANUFACTURED HOME PARKS ........................................................... 34
+   PROPERTY REPAIR ISSUES.................................................................... 35
+   SECURITY DEPOSITS ............................................................................ 35
+   SELF-SERVICE STORAGE FACILITIES .................................................... 35
+   SMALL CLAIMS ACTIONS ..................................................................... 35
+   TRANSFER OF PROPERTY ..................................................................... 36
+   UNLAWFUL DETAINER ......................................................................... 36
+   WASTE ................................................................................................ 36
+APPENDIX B........................................................................................ 37
+   PRE-RENTAL CHECKLIST ..................................................................... 37
+APPENDIX C ....................................................................................... 43
+   RENTAL MOVE-IN & MOVE-OUT CHECKLIST ...................................... 43
+         PURPOSE AND SCOPE OF MANUAL
+
+The Attorney General’s Office publishes this manual as a
+courtesy to Idaho’s tenants and landlords. It outlines general
+guidelines about the parties’ rights and responsibilities under
+Idaho law. This manual is not a restatement of Idaho’s
+landlord-tenant laws nor a substitute for professional legal
+advice. Appendix A lists Idaho laws related to landlord-tenant
+matters.
+
+The Attorney General’s Office does not enforce Idaho’s
+landlord-tenant laws and cannot advise tenants or
+landlords about their rights. Parties with questions about
+their legal rights should schedule a consultation with a private
+attorney.
+
+                    BEFORE RENTING
+
+Choosing where to live is an important decision. For a
+landlord, deciding whether an individual will make a suitable
+tenant can be challenging. Considering the following factors
+may help the parties make more informed decisions before
+they commit to a lease.
+
+            THE PRE-RENTAL CHECKLIST
+             IN APPENDIX B WILL HELP
+           DURING YOUR RENTAL SEARCH.
+
+EVALUATE THE NEIGHBORHOOD
+
+Investigate the neighborhood where the property is located.
+Make sure it is a safe and healthy place to live, especially if
+children will be living in the rental unit.
+
+
+
+
+                              1
+CALCULATE THE AMOUNT OF RENT, DEPOSITS
+AND FEES
+
+Idaho does not restrict the amount of rent or deposits that
+landlords can charge. It is best to walk-away in situations
+where the landlord refuses to disclose upfront and in writing
+all of the costs involved in renting a property including rent,
+deposits, and one-time or recurring fees.
+
+UNDERSTAND SMOKING, PET AND OTHER
+POLICIES
+
+Although a landlord may not discriminate against protected
+classes of individuals, a landlord may select prospective
+tenants based on any lawful business criteria. Landlords can
+set their own smoking, pet and other policies as long as they
+are not discriminatory under local, state or federal law.
+
+         A NOTE ABOUT SUPPORT ANIMALS
+
+  Support animals, service animals and companion animals
+  are not legally considered “pets,” and tenants are entitled
+  to a support animal regardless of the landlord’s policy on
+  pets. Call the Intermountain Fair Housing Council at
+  208-383-0695 for more information about specific issues
+  related to support, service and companion animals.
+
+
+A landlord also may reject an applicant based on the person’s
+inability to pay rent or the person’s criminal history. A valid
+occupancy policy limiting the number of people per rental unit
+– one that is based on health and safety standards – is a lawful
+basis for refusing an applicant.
+
+
+
+
+                              2
+KNOW THE LANDLORD’S REPUTATION
+
+Tenants should talk to current and former tenants about the
+landlord’s reputation and business practices. Former tenants
+also post reviews on social media, the Better Business
+Bureau’s website or on business-review websites.
+
+CREDIT AND BACKGROUND CHECKS OF
+TENANTS
+
+Idaho law does not require landlords to check a prospective
+tenant’s credit before approving the tenant’s rental
+application. However, most landlords do check an applicant’s
+income, employment and credit to verify the applicant can
+afford to pay the rent each month.
+
+Before running a credit check, the landlord should obtain the
+prospective tenant’s written consent. If the landlord rejects an
+applicant because of negative credit information, the landlord
+must provide the applicant with the following information:
+
+   1. The reason the applicant was rejected;
+   2. The name and address of the credit reporting agency
+      that reported the negative information; and
+   3. The applicant’s right to obtain a free copy of the report
+      by requesting it from the credit reporting agency
+      within 60 days.
+
+When reviewing an applicant’s background, landlords should
+keep in mind that not everyone has an established credit
+history. Young adults looking for their first apartment or
+refugees from other countries may not have a credit report or
+even a Social Security number.
+
+
+
+
+                              3
+                         IMPORTANT
+
+    Landlords may not reject an applicant based on any
+    criteria that serves only as an excuse for discriminating
+    against a protected class.
+
+
+RECOGNIZE HOUSING DISCRIMINATION
+
+Discrimination based on sex, race, color, religion, disability,
+familial status (presence of children under the age of 18) or
+national origin is illegal. A disability includes a physical or
+mental impairment, such as blindness, chronic alcoholism,
+AIDS or its related complexes.
+
+Landlords may not take any of the following actions based on
+the above protected categories:
+
+•    falsely denying that a rental unit is available to some
+     applicants;
+•    running an advertisement that suggests a preference based
+     on a group characteristic;
+•    setting restrictive standards for certain tenants;
+•    refusing to accommodate the needs of disabled tenants,
+     such as allowing service animals;
+•    adopting inconsistent policies for different tenants; and
+•    terminating a lease for a discriminatory reason.
+
+      HOUSING DISCRIMINATION COMPLAINTS
+
+    If you believe you have suffered discrimination while
+    trying to rent a home or apartment, you can contact the
+    Idaho Human Rights Commission.
+
+
+                                4
+RENTER’S INSURANCE
+
+Tenants should consider buying renter’s insurance. Renter’s
+insurance is an insurance policy that covers a tenant’s personal
+belongings in case of loss by fire or other accident. Renter’s
+insurance may cover claims or lawsuits brought against the
+tenant. Most policies only cover personal property and do not
+include motor vehicles or animals. Also, some policies
+exclude floods or earthquakes. If you decide renter’s
+insurance is right for you, shop around for a policy which fits
+your needs.
+
+“SECTION 8” RENTAL ASSISTANCE/HOUSING
+CHOICE VOUCHER PROGRAM
+
+The Idaho Housing and Finance Association (IHFA) and
+several regional housing authorities administer a federal rental
+assistance program that helps low-income families and elderly
+or disabled individuals obtain decent, affordable rental
+housing. The program is often called “Section 8” rental
+assistance or the “Housing Choice Voucher Program.”
+
+To be eligible for rental assistance, you must qualify under
+income limits and other eligibility criteria and re-certify
+eligibility annually. Program participants generally contribute
+30-40% of their adjusted monthly gross income toward rent
+and utilities. IHFA or the regional housing authority pays the
+remaining balance directly to the landlord. Due to the high
+demand for “Section 8” rentals, applicants are usually placed
+on waiting lists for 2 months to 2 ½ years, depending on their
+current housing status and the area of the state.
+
+For more information regarding “Section 8” rental assistance,
+including questions regarding eligibility requirements and
+waiting periods, please contact the IHFA branch office or the
+housing authority that serves the region in which you live.
+
+
+                              5
+                   LEASE AGREEMENTS
+
+The lease agreement is a legal document that both parties
+should negotiate, read, understand and sign. All questions
+should be answered and all differences should be resolved
+before either party signs the agreement. Absent a violation of
+public policy, the lease is the sole contract that will govern the
+landlord-tenant relationship for the duration of the tenancy.
+When a dispute between the parties arises, look first to the
+lease for a resolution.
+
+THE DANGERS OF AN ORAL LEASE
+
+Idaho recognizes oral leases for tenancies lasting less than one
+year as long as the parties agree to all terms. The terms of an
+oral agreement, however, are difficult to prove. A written,
+signed lease avoids the problems of a “he said/she said”
+situation.
+
+TERMS A WRITTEN LEASE SHOULD INCLUDE
+
+A written lease should be readable and should include the
+following terms:
+
+    1. Contact Information. The names, addresses and
+       telephone numbers of the landlord or property
+       management company, the property owner (if
+       managed by a property management company), the
+       tenant and the tenant’s emergency contact,
+       maintenance and after-hours maintenance and any
+       other important persons.
+    2. Property Information. The address of the rental
+       property and the purpose for which it will be used.
+    3. Dates. The beginning and ending dates of the
+       agreement.
+    4. Rent & Fees. The amount of the rent, when it is due
+       and the amount charged for late fees.
+
+                               6
+   5. Deposit. The amount of the security deposit, the name
+      of the financial institution where the landlord will hold
+      the deposit and an explanation of how the landlord will
+      use the deposit at the end of the tenancy.
+   6. Rental & Liability Insurance. Requirements and
+      restrictions regarding the tenant’s responsibility to
+      purchase insurance.
+   7. Utilities & Repairs. The party who is responsible for
+      each of the utilities and for indoor and outdoor
+      maintenance and repair of the property, including
+      garages, carports and storage facilities.
+   8. Policies. All restrictions and policies placed on a
+      tenant’s use of the property, including the number of
+      occupants, whether pets or smoking is allowed,
+      mandatory quiet times and whether assignment or
+      subletting is permitted.
+   9. Termination. The process the tenant must follow to
+      give proper notice of intent to vacate or terminate the
+      lease.
+   10. Move-Out Inspection. Terms that allow the tenant
+       to attend the landlord’s move-out inspection.
+   11. Entrance. When and how the landlord can enter the
+       property.
+   12. Signatures. The signatures and dates of all parties.
+
+LEASE ADDENDUMS
+
+Sometimes landlords attach addendums to the lease agreement
+to address specific policies (e.g., pets, parking, mold
+disclosure, etc). An addendum should be signed at the same
+time as the lease.
+
+IMPROPER LEASE PROVISIONS
+
+Lease   agreements should        not   include   any   unlawful or
+
+                             7
+unenforceable terms, including incorrect or misleading statements
+of the law. Examples of such provisions include those that:
+
+    •   misrepresent or conflict with the tenant’s rights under
+        Idaho’s landlord and tenant laws;
+    •   misrepresent or conflict with the tenant’s right to appear
+        in court and defend against a landlord’s allegations;
+    •   limit the landlord’s liability in situations that conflict with
+        the duties and responsibilities that Idaho law imposes
+        upon the landlord;
+    •   allow the landlord to enter the rental unit without
+        providing proper notice as provided by law or the lease
+        agreement;
+    •   require the tenant’s security deposit to cover damages not
+        caused by the tenant or the tenant’s guests;
+    •   require the tenant to pay the landlord’s attorney fees if a
+        dispute goes to court, unless the judge rules in the
+        landlord’s favor; and
+    •   allow the landlord to seize a tenant’s personal property if
+        the tenant fails to pay rent.
+
+    RESTRICTIVE LEASE PROVISIONS
+
+    A lease may include a provision that, while not unlawful,
+    severely limits the tenant’s ability to recover a deposit or
+    challenge the landlord’s actions in court. Examples of
+    restrictive lease provisions are those that:
+
+    •   prevent the tenant from attending the landlord’s move out
+        inspection;
+    •   require the tenant to pay for replacing or cleaning of items
+        that are subject to normal wear and tear (faded carpet or
+        toilet rings); or
+    •   require the tenant to pay large non-refundable, upfront
+                                    8
+   fees.
+
+COSIGNING A LEASE
+
+A cosigner on a lease functions a lot like a cosigner on a loan.
+Landlords may require a cosigner on a lease when the
+potential tenant is young, lacks a credit history or does not
+meet minimum income requirements.
+
+The cosigner’s credit is impacted if the tenant stops paying
+rent, gets evicted or the landlord sends unpaid lease payments
+to a collection agency.
+
+                         MOVING IN
+
+Before moving into the rental, the tenant should find out
+where to park, tour the community facilities, turn on the
+utilities and complete the move-in inspection.
+
+TURNING ON THE UTILITIES AND OTHER
+SERVICES
+
+The tenant may be responsible for contacting utility
+companies to turn on the property’s power, water, gas,
+cable/satellite TV or other services. The lease agreement
+should list which utilities are billed to the landlord and which
+the tenant must pay.
+
+Some rental complexes have one gas or electric meter that
+serves a group of rental units. Other complexes may have one
+meter that measures the tenant’s gas or electricity use and
+other meters for common areas, such as the laundry rooms.
+The same may be true of water meters.
+
+The landlord should inform the tenant about the shared meters
+before the tenant agrees to lease the property. If the tenant is
+responsible for paying the utilities, the parties should agree as
+to how the charges will be divided among the individual rental
+units.
+                              9
+THE MOVE-IN INSPECTION AND VIDEO
+
+In addition to a lease, the landlord should provide a detailed
+checklist to the tenant that includes every room in the home or
+apartment and the items located in each of those rooms. The
+tenant and landlord should conduct an inspection together,
+noting everything that is broken, worn, missing or dirty. If a
+defect is serious, the landlord should repair it before the tenant
+moves in.
+
+The best way to record the condition of a rental is to videotape
+the inspection. Photographing damages also is helpful to
+establish pre-existing conditions.
+
+     THE RENTAL MOVE-IN/OUT CHECKLIST IN
+          APPENDIX C HELPS TENANTS
+      DOCUMENT THE RENTAL’S CONDITION
+              AT MOVE-IN/OUT.
+
+
+Each party should keep a copy of the inspection checklist and
+the video/photographs. Many court disputes concern the
+condition of a rental property after a tenant moves out. A case
+without documents and photos is difficult to win.
+
+         THE TENANT’S RIGHT TO PRIVACY
+
+Tenants have a right to privacy in their rentals. The lease
+should specify the landlord’s right to enter the tenant’s
+property to:
+
+
+
+
+                               10
+•   Inspect for damage and make necessary repairs;
+•   Respond to an emergency involving life or property; and
+•   Show the property to prospective purchasers or tenants at
+    convenient times.
+
+In addition, the lease should explain the landlord’s rights when
+a tenant doesn’t pay the rent or abandons the property.
+
+If the lease doesn’t include these provisions and the landlord
+needs to enter the property, the landlord first should notify the
+tenant why the entry is necessary. The landlord and tenant
+then can agree on a reasonable manner and time of entry.
+
+      MAINTAINING THE RENTAL PROPERTY
+
+Landlords and tenants have different responsibilities for
+maintaining the rental property. The lease agreement should
+include these duties. Idaho law outlines additional
+responsibilities.
+
+THE LANDLORD’S DUTY TO KEEP THE
+PROPERTY SAFE AND HEALTHY
+
+Landlords must maintain the rental to protect a tenant’s safety
+and health. This means landlords must comply with city and
+county ordinances and state laws regarding housing
+conditions.
+
+The following are examples of housing conditions that may
+violate local or state housing standards:
+
+•   Structural deterioration, including cracked and crumbling
+    walls and ceilings and broken or missing doors and
+    windows;
+
+
+
+
+                               11
+•   Defective plumbing, including a broken toilet, lack of
+    hot/cold water, absent sinks or bathing facilities and
+    serious leaks;
+•   Exposed wiring;
+•   Nonfunctioning heating units;
+•   No means to remove or store garbage;
+•   Insect infestations;
+•   Leaking roof or walls from insufficient waterproofing or
+    weather protection; and
+•   Dismantling or not installing smoke detectors.
+
+WHAT TO DO IF A LANDLORD WON’T MAINTAIN
+A RENTAL
+
+The Attorney General’s Office cannot assist tenants (or
+landlords) with property repair or maintenance issues. The
+process for forcing a landlord to repair the property is
+relatively simple. Tenants who need legal assistance should
+talk to a private attorney.
+
+Notify the Landlord
+
+To require the landlord to maintain the property, the tenant
+first must provide the landlord with a written list of the
+violations. The tenant can deliver the notice in any of the
+following ways:
+
+    a. In person;
+    b. By certified mail; or
+    c. By leaving it with an employee at the landlord’s usual
+        place of business.
+
+
+
+
+                               12
+Wait Three Days for Repair
+
+The landlord has three days after service of the notice to fix
+the violation. Failure to repair allows the tenant to sue the
+landlord to force compliance.
+
+Sue the Landlord
+
+The landlord must receive a copy of the summons and
+complaint at least five days before the trial.
+
+Attend the Trial
+
+The trial is held within 12 days of the complaint being filed,
+unless the tenant requests a later date.
+
+Enforce the Court’s Order
+
+If the tenant wins, the judge will order the landlord to comply
+with the tenant’s notice of violation. The judge also may order
+the landlord to pay the tenant’s court costs and attorney fees.
+
+Recover for Personal Injuries
+
+A tenant who has suffered injuries from a landlord’s failure to
+maintain the property may sue for damages. If the tenant
+wins, the judge may require the landlord to pay three times the
+tenant’s damages, along with the tenant’s attorney fees and
+court costs.
+
+THE TENANT’S RESPONSIBILITIES FOR
+SAFEGUARDING THE PROPERTY
+
+The tenant must safeguard the rental property and ensure that
+damage does not occur. Typical tenant responsibilities
+include:
+
+•   Keep the property clean and sanitary;
+
+
+                              13
+•   Properly dispose of garbage;
+•   Use appliances, electrical fixtures and plumbing facilities
+    properly;
+•   Prevent family and friends from damaging the property;
+•   Obey the landlord’s property regulations and use the
+    property for only lawful purposes; and
+•   Prevent injury to others due to actions performed on the
+    tenant’s property.
+
+WHAT TO DO IF A TENANT DAMAGES THE
+RENTAL
+
+If the tenant’s carelessness or negligence causes damage to the
+property, the tenant may be required to pay the landlord for
+the damage and may be evicted. If a landlord believes a tenant
+has or is damaging the property, the landlord should take the
+following steps to notify and, if necessary, evict the tenant.
+
+Notify the Tenant
+
+The landlord must give the tenant written notice of the
+violation. The notice can be:
+
+    a. Delivered in person; or
+    b. Left with a competent person at the tenant’s residence
+       or place of business and mailed to the tenant’s
+       residence.
+
+If neither of these options is available, the landlord must:
+
+    a. Post a copy of the notice in a conspicuous place on the
+       property;
+    b. Leave a copy of the notice with any person living at
+       the property; and
+
+
+                               14
+   c. Mail a copy of the notice to the tenant at the property
+       address.
+
+Allow Three Days for Repair
+
+The tenant has three days to fix the problem. Failure to remedy
+the problem gives the landlord the right to evict the tenant and
+recover costs to pay for the tenant’s damages to the property.
+
+However, if a landlord has reasonable grounds to believe any
+person is or has been engaged in the unlawful delivery,
+production or use of a controlled substance on the leased
+premises, the landlord can institute eviction proceedings
+immediately.
+
+Evict the Tenant
+
+For a discussion of eviction proceedings, see the section titled
+“Evictions.”
+
+              SPECIAL PROPERTY ISSUES
+
+The Consumer Protection Division regularly receives
+inquiries from consumers about how they can resolve disputes
+with their landlord about utility services or the presence of
+mold in the rental unit.
+
+THE LANDLORD’S DUTY TO PROVIDE UTILITY
+SERVICES
+
+A landlord or utility company may shut off a utility for a
+reasonable amount of time if repairs need to be made.
+
+If a tenant discovers that a utility company has discontinued
+services because of the landlord’s actions or inactions, the
+tenant should contact the landlord and discuss a prompt
+resolution. It is important to keep a written record of all
+conversations in case legal action becomes necessary.
+
+                              15
+Assuming the landlord refuses to facilitate an immediate
+reconnection of services, the tenant next should serve written
+notice on the landlord that utility services need to be restored
+immediately. In the meantime, the tenant may contact the
+utility company or municipality and inquire about placing
+services in the tenant’s own name. A utility company is not
+required to take action on a tenant’s behalf.
+
+The Idaho Public Utilities Commission prohibits public
+utilities from shutting off a customer’s gas or electric heat
+during December, January and February if a customer can’t
+pay the electric or gas bill and the customer has children,
+elderly, or ill people in the home. Only public utilities are
+subject to this prohibition.
+
+TOXIC MOLD CONCERNS
+
+Idaho does not have a government agency that regulates the
+inspection or removal of toxic mold within rental property.
+The Idaho Department of Health and Welfare’s Indoor
+Environment Program educates Idahoans about human health
+risks associated with exposure to indoor contaminants, such
+as toxic mold.
+
+While most homes have a small amount of mold inside them,
+to eliminate the possibility of a dangerous infestation, the
+Department of Health and Welfare recommends that tenants
+take the following steps.
+
+•   Notify their landlords immediately if they notice plumbing
+    leaks, excess moisture or mold growth that reappears
+    despite regular cleaning.
+•   Use exhaust fans regularly in the kitchen, bathroom, and
+    laundry room.
+•   Clean and dust regularly.
+
+
+
+                                16
+•   Clean and dry the walls and floors around the sink,
+    bathtub, shower, toilets, windows and patio doors using a
+    common household disinfecting cleaner.
+•   Ensure the clothes dryer is vented to the outside and clean
+    the lint screen after every use.
+•   Do not overfill closets or storage areas.
+•   Keep beds, dressers and other objects pulled a few inches
+    away from walls to allow moisture to escape.
+•   Do not obstruct heating and ventilation ducts in unused
+    areas.
+•   Immediately dry any spills or pet urine on carpeting.
+•   Immediately report any heating,             ventilation,   air
+    conditioning or laundry malfunctions.
+•   Keep doors and windows closed during damp weather.
+
+          PAYING AND COLLECTING RENT
+
+Landlords may restrict the form in which they accept rental
+payments, such as by certified check or online payment portal.
+
+DUE DATES AND LATE FEES
+
+The lease governs the date on which the rent is due and the
+consequences of not paying on time or in full. Fees charged
+to residential tenants must be reasonable, including late rent
+fees. Fees, fines, assessments, interest, or other costs cannot
+be greater than the amount agreed upon in the lease.
+
+Writing post-dated checks is never a good idea because the
+recipient is under no obligation to hold the check. If the check
+bounces, the tenant will incur bank fees and possibly suffer
+negative credit consequences.
+
+
+
+                               17
+WITHHOLDING RENT
+
+Generally, Idaho law does not allow tenants to withhold rent
+based on unsafe living conditions and does not allow tenants
+to complete necessary repairs and then seek reimbursement
+from their landlords. The only exception is with respect to the
+installation of smoke detectors. Idaho Code § 6-320(a)(6)
+authorizes a tenant, after providing three-day notice to the
+landlord, to install the necessary smoke detectors and deduct
+the cost from the tenant’s next month’s rent.
+
+THE LANDLORD’S REMEDIES WHEN A TENANT
+FAILS TO PAY RENT
+
+If a landlord pursues formal legal proceedings solely to evict
+a tenant due to nonpayment of rent, the legal proceedings must
+proceed quickly and in compliance with proper procedures.
+
+Notice to Pay
+
+A notice allowing the tenant three days to pay the rent due
+must be served on the tenant. Once the notice is served, the
+complaint for eviction can be filed.
+
+Service of the Complaint
+
+The trial must be held within 12 days after the lawsuit is filed
+unless the landlord requests a later date. The tenant must be
+given written notice of the complaint by being served with a
+copy of the summons and the complaint at least five days
+before the trial.
+
+Requesting a Continuance
+
+At the tenant’s request, the judge may grant a continuance, but
+only for two days, unless the tenant provides the landlord with
+some type of security, such as the amount of rent money owed.
+The security is deposited with the court clerk.
+
+                              18
+Recovery of Attorney Fees and Costs
+
+If the landlord is successful in evicting the tenant, the tenant
+may be required to pay the landlord’s attorney fees and costs.
+
+Recovery of Unpaid Rent and Damages
+
+If a landlord wants to recover rent that the tenant has failed to
+pay or to recover other damages, the landlord must file a
+separate lawsuit in small claims or district court, depending on
+the amount sought.
+
+                 CHANGING THE LEASE
+
+A lease is a contract between a landlord and tenant. Good
+business practices demand, but do not require, that a landlord
+refrain from changing the terms of a lease until it expires or
+unless the tenant consents to the change.
+
+NOTICE
+
+A landlord may change the terms of a lease agreement (other
+than increasing the rent, changing late fees, or not renewing
+the lease) by notifying the tenant in writing at least 15 days
+before the month’s end. The change then becomes effective
+if the tenant continues to occupy the property after the last day
+of the month.
+
+RENT AND FEE INCREASES AND LEASE
+RENEWALS
+
+A landlord must provide a tenant with written notice of a rent
+increase or change in fees, fines, assessments, interest, or
+other costs at least 30 days before the increase becomes
+effective. Also, at least 30 days before a lease non-renewal, a
+landlord must give a tenant written notice of the landlord’s
+intent not to renew the tenant’s lease. The landlord should
+make sure the tenant actually receives the notice.
+
+                               19
+SUBLETTING
+
+“Subletting” is when the current tenant rents the property to
+another person. Unless the lease prohibits the practice, tenants
+may sublet their property. The original tenant, however,
+remains responsible for the property under the lease.
+
+EXTENDING THE LEASE
+
+A lease for a specified time, such as a six-month lease, cannot
+be extended unless both parties to the lease consent to the
+extension. If the parties agree to continue the lease for an
+additional amount of time, they should sign a new lease.
+
+BREAKING THE LEASE
+
+Breaking a lease is like breaking a contract. Doing so results
+in legal consequences. A party who is considering breaking a
+lease should consult with a private attorney about their legal
+rights and options.
+
+If the lease is a month-to-month tenancy, either party may end
+the lease with at least a month’s advance written notice to the
+other party unless the landlord otherwise agrees.
+
+HOLDOVER TENANCIES
+
+If there is no provision in a lease regarding what happens
+when the lease ends, the lease simply expires, and the tenant
+becomes a “holdover” tenant. At this point, unless the landlord
+agrees to continue the tenancy or a new lease is signed, the
+landlord can start eviction proceedings.
+
+      PROPERTY MANAGEMENT COMPANIES
+
+With the introduction of a third party into the landlord-tenant
+relationship, issues may arise concerning the contractual
+rights and obligations of each party. The lease agreement
+
+                              20
+should specify the duties of the property management
+company and provide tenants with a contact name, address
+and telephone number for the property manager and the
+owner.
+
+Before selecting a property management company, owners
+should research the company’s history and obtain a written
+contract outlining what services the management company
+will provide. Owners also should require a property
+management company to provide copies of all lease
+agreements in case the owner needs to contact a tenant about
+the property. In addition, owners should demand timely and
+accurate accountings from the property management
+company.
+
+A property management company should employ an
+accountant to manage its financial affairs and have sufficient
+maintenance personnel to ensure prompt and satisfactory
+service for tenants.
+
+                      MOVING OUT
+
+When a tenant decides to vacate a rental unit at the end of the
+lease term, the tenant should provide the landlord with proper
+notice and complete a move-out inspection. The landlord is
+obligated to return the tenant’s deposit pursuant to Idaho law.
+
+NOTICE TO VACATE
+
+Tenants always should consult their leases to verify the
+amount and form of notice they must provide to their landlords
+before vacating their rental. If the lease does not specify a
+certain number of days, the lease expires at the end of the
+stated period and no notice is required.
+
+
+
+
+                              21
+MOVE-OUT INSPECTION
+
+Inspecting the rental once the tenant finishes cleaning is an
+important step in ending the landlord-tenant relationship. To
+ensure that the tenant has first-hand knowledge of any
+property damage that the tenant must pay to repair, the tenant
+should participate in the move-out inspection, and both parties
+should document the inspection in writing and through video
+or photographs.
+
+If the landlord refuses to allow the tenant to attend the move-
+out inspection or both parties cannot inspect the property
+
+      THE RENTAL MOVE-IN/OUT CHECKLIST IN
+           APPENDIX C HELPS TENANTS
+       DOCUMENT THE RENTAL’S CONDITION
+               AT MOVE-IN/OUT.
+
+
+together, the tenant should document, photograph or video the
+rental once it is vacant and cleaned. Having an additional
+individual present during the inspection also may be useful if
+the tenant needs a witness to testify at a hearing to recover the
+security deposit.
+
+RETURN OF THE SECURITY DEPOSIT
+
+Any money deposited with a landlord is either “rent” or a
+“deposit.” Rent is non-refundable, while deposits are
+refundable. If a tenant is unsure whether a fee is a deposit or
+rent, the tenant should ask the landlord before signing the
+lease.
+
+21- Day Return Rule
+
+When the lease ends, the landlord has 21 days to return the
+tenant’s entire deposit or a partial refund and a written
+
+
+                               22
+statement listing the amounts deducted from the deposit and
+how the deductions were spent. The 21-day period can be
+shortened or extended by an agreement between the tenant and
+landlord, but it may not be longer than 30 days.
+
+Wear and Tear vs. Damage and Excessive Filth
+
+The landlord may use the deposit for reasons designated in the
+lease, such as cleaning or repairs necessary to restore the
+rental to its condition at the beginning of the tenancy.
+Landlords should avoid using deposits to pay for ordinary
+wear and tear. Examples of wear and tear versus damage or
+excessive filth include:
+
+ Ordinary Wear & Tear                       Damage & Excessive Filth
+ (Landlord’s Responsibility)                (Tenant’s Responsibility)
+ Faded curtains, carpet, & paint            Cigarette burns in curtains & carpet
+ Water-stained linoleum by shower           Broken tiles & torn linoleum
+ Minor marks on or nicks in wall            Excessive wall damage
+ Moderate dirt or spotting on carpet        Pet damage to carpets & curtains
+ Moderately dirty blinds or curtains        Missing or broken blinds
+ Warped cabinet doors                       Sticky cabinets & water damaged
+                                            interiors
+ Minor marks on or nicks in floors          Water stains on wood floors
+ Worn out thermostat on dryer               Broken dryer or washer
+ Mineral deposits in the toilets            Plugged toilets & other plumbing
+ Stains on old porcelain fixtures           Grime-coated bathtub & toilet
+ Black spots on mirrors (de-silver)         Mirrors with makeup or hairspray
+
+
+Improper Notice May Affect Deposit Return
+
+If a tenant fails to give proper notice and terminates the lease
+early, the landlord may use the tenant’s security deposit to
+cover the landlord’s actual expenses in re-renting the property.
+
+
+
+
+                                       23
+Tenant’s Remedies for Obtaining Security Deposit
+
+Idaho law provides a relatively simple procedure for a tenant
+to follow to obtain a deposit from a landlord who fails to return
+the tenant’s deposit or to provide an itemized list of deductions
+within 21 days after the lease ends.
+
+   Step 1: Write a letter to the landlord. Send written
+   notice by certified mail to the landlord demanding return
+   of the deposit. Be sure to keep a copy of the letter.
+
+   Step 2: Wait for a reply from the landlord. The
+   landlord has three business days from the date the letter is
+   received to return the deposit.
+
+   Step 3: Sue the landlord. If the landlord fails to return
+   the deposit, the tenant can file a complaint in small claims
+   court.
+
+   Step 4: Go to trial. The parties will receive notification
+   of the date, time and place for the trial. The judge will ask
+   the parties to explain their positions and present their
+   evidence. The tenant should provide a copy of all
+   communication with the landlord, photographs and/or
+   videos, and bring witnesses who accompanied the tenant
+   during the final inspection. If the tenant wins, the judge
+   may award the tenant three times the security deposit, plus
+   court costs and attorney fees.
+
+Misrepresenting Necessary Repairs
+
+The Idaho Consumer Protection Act prohibits landlords from
+misrepresenting to a tenant that a repair is necessary when it
+is not. If a landlord deducts costs for imaginary repairs or for
+repairing items that were damaged before the tenant moved in,
+the tenant should send a letter to the landlord objecting to the
+landlord’s itemized list of deductions. In the letter, the tenant
+
+
+                               24
+should provide a detailed explanation of why the deductions
+are excessive or incorrect and demand that the deposit be
+returned within three days.
+
+                        EVICTIONS
+
+One of the most important issues affecting landlords is how to
+lawfully and efficiently remove tenants from rental properties
+when tenants violate the terms of their lease. While the
+eviction procedure itself is uncomplicated, each landlord-
+tenant relationship involves a unique set of circumstances.
+
+Landlords should consult a private attorney for assistance with
+individual situations or specific questions regarding the
+eviction process. The Attorney General’s Office cannot advise
+landlords about eviction matters.
+
+RETALIATORY EVICTIONS
+
+Landlords may not evict a tenant because the tenant requests
+that repairs be made or because the tenant joins a tenants’
+association.
+
+THE EVICTION PROCESS
+
+The following procedure is outlined in title 6, chapter 3 of the
+Idaho Code. Eviction forms are available through the Idaho
+Court Assistance Office and Self-Help Center website.
+
+Notice of Eviction
+
+A tenant must be properly served with a three-day or 30-day
+written notice, depending on the circumstances.
+
+   a. Proper Service of the Notice. The landlord is
+       required to deliver the notice to the tenant in person.
+       However, if the tenant is absent from the property or
+       place of business, the landlord may leave a copy of the
+
+                              25
+   notice with a competent person at the residence and
+   mail a copy to the tenant’s residence. If the tenant and
+   a competent person are not located at the residence, the
+   landlord must do all of the following:
+   (i) Post a copy of the notice on the property at a
+       conspicuous place;
+   (ii) Leave a copy of the notice with any person found
+       residing on the premises; and
+   (iii) Mail a copy of the notice to the tenant at the rental
+       address.
+b. Three-Day Written Notice.          A three-day written
+   notice is permissible only if a tenant:
+   (i) Failed to pay rent. The notice must include the
+       amount of rent owed and advise the tenant of a
+       three-day right to pay.
+   (ii) Violated the lease. The notice must specify the
+       provisions the tenant violated and advise the tenant
+       of a three-day right to fix the problem.
+   (iii) Engaged in the unlawful delivery, production or
+       use of a controlled substance on the premises of
+       the leased property during the tenancy. The tenant
+       has no three-day right to cure the illegal activity.
+c. 30-Day Written Notice. When terminating a tenancy-
+   at-will, a 30-day written notice is permissible.
+   If a tenant lives in government subsidized or public
+   housing or receives government housing assistance
+   and receives a 30-day notice, it must be for good cause.
+   If the issue is non-payment of rent, the three-day notice
+   may be sufficient.
+d. Other Notice. A lease can provide for an alternative
+   and reasonable notice period but cannot waive the
+   notice requirement.
+
+
+                           26
+Unlawful Detainer Action
+
+If a tenant receives proper notice and fails to pay the rent,
+comply with the lease or vacate the rental, the landlord must
+file an unlawful detainer action to force the tenant to leave the
+property.
+
+    a. Expedited Proceedings. When rent is past due or the
+        tenant is engaging in drug activities, a quick summary
+        trial procedure is available to the landlord to regain
+        possession within five to twelve days after the tenant
+        receives notice. The tenant also may be required to
+        pay the landlord’s attorney fees if the notice discloses
+        that attorney fees will be awarded and the landlord
+        wins.
+    b. Normal Eviction Proceedings. When the tenant
+        receives notice for violating the lease, the landlord
+        must serve the tenant with a summons and a complaint.
+        The tenant has 21 days to file an answer.
+        If the tenant does not comply with the court-ordered
+        time deadlines, the sheriff, through a writ of
+        restitution, removes the tenant from the rental.
+
+UNLAWFUL EVICTIONS
+
+Landlords may not engage in any form of self-help to force a
+tenant out of a rental property. It is unlawful for a landlord to:
+
+    1. Fail to provide proper notice;
+    2. Fail to allow time for the tenant to pay the overdue rent
+       or comply with the lease;
+    3. Shut off the utilities;
+    4. Change the locks;
+    5. Confiscate the tenant’s property; or
+
+
+                                 27
+   6. Do anything other than institute lawful eviction
+      proceedings.
+
+REMOVAL OF TENANT’S PERSONAL PROPERTY
+
+When a residential tenant is evicted, the tenant has 72 hours
+to remove his or her personal property from the rental before
+the landlord may dispose of it. An evicted commercial tenant
+or a tenant renting five or more acres has seven days to remove
+his or her personal property. A court has discretion to allow a
+tenant a longer period to remove the tenant’s property.
+
+If a tenant leaves property of value behind after vacating the
+rental, the landlord should file an eviction complaint and
+obtain a court order allowing the landlord to remove the
+property. The landlord should ask the court’s permission to
+sell the property to cover the costs of removal and storage or
+to pay any back rent.
+
+Idaho law does not provide for a landlord’s lien on the tenant’s
+property, but a lease may include such a provision. A court
+may uphold the lien if the tenant knowingly and voluntarily
+entered into the lease and understands the consequences of the
+lease provision.
+
+     MANUFACTURED HOME RESIDENCY ACT
+
+The Manufactured Home Residency Act establishes rights and
+responsibilities on the part of manufactured home park owners
+and manufactured home tenants. For areas not covered by the
+Act, owners, landlords and tenants can look to general
+landlord-tenant law for answers.
+
+WRITTEN LEASES
+
+The Manufactured Home Residency Act generally requires
+that park owners provide tenants with written leases. Some
+lease terms are required or prohibited, while others are
+assumed to be included, whether stated or not.
+                            28
+Required Lease Terms
+
+The lease must be signed by the landlord and tenant and
+include, at a minimum:
+
+   1. The payment terms, including the time and place of
+      payment;
+   2. The park rules;
+   3. The name and address of the park landlord;
+   4. The name and address of the park owner;
+   5. The name and address of the owner’s agent who
+      resides within the state where the park is located; and
+   6. An explanation of when the owner may withhold the
+      tenant’s security deposit at the end of the lease.
+
+Implied Lease Terms
+
+Every lease is assumed to include the following terms,
+whether stated or not:
+
+   1. The landlord must maintain street, entry and common
+      area lights, if any, in good working condition;
+   2. The landlord must notify each tenant within 15 days
+      after a petition has been filed by the owner for a
+      change in the zoning of the land upon which the park
+      is located;
+   3. With the tenant’s consent, the landlord may enter the
+      lot to maintain utilities, protect the park and
+      periodically inspect the lot.
+   4. The landlord may enter the lot without the tenant’s
+      consent in case of an emergency affecting life or
+      property or if the manager suspects the tenant
+      abandoned the property.
+
+
+
+                             29
+Prohibited Lease Terms
+
+A lease may not require a tenant to:
+
+   1. Pay an entrance or exit fee;
+   2. Obtain a permit; or
+   3. Waive any rights or remedies provided by the
+      Manufactured Home Residency Act.
+
+PARK RULES
+
+Written rules are enforceable if they are part of the signed
+contract. Rule changes are effective if the tenant consents to
+the change or if the landlord provides written notice to the
+tenants at least 90 days before the rule change.
+
+RENT INCREASES
+
+With 30 days’ written notice, a lease may provide for rent
+increases or decreases based on the increase or decrease of
+property taxes, utility assessments or other service fees
+included in the monthly rental charge. All other rental
+increases require 90 days’ written notice to the tenant.
+
+SECURITY DEPOSITS
+
+The landlord must maintain a separate record of deposits.
+General landlord-tenant law concerning security deposits
+applies.
+
+
+
+
+                             30
+LIABILITY OF THE LIEN HOLDER OR LEGAL
+OWNER OF A MANUFACTURED HOME FOR BACK
+RENT AND UTILITIES
+
+Idaho law does not specifically provide for the creation of a
+lien on the manufactured home on behalf of a park owner for
+unpaid rent and utilities. However, Idaho law does require the
+lien holder or legal owner of a manufactured home to notify
+the park owner in writing of any secured or legal interest in
+the manufactured home.
+
+If a tenant becomes 60 days behind in rent or if the tenant
+abandons the manufactured home, the park manager must
+notify the lien holder or legal owner of responsibility for any
+such costs incurred for the manufactured home space, such as
+rent and utilities. The lien holder or legal owner is responsible
+for payment of utilities from the date of the notice and for
+payment of the rent due, up to a maximum of 60 days
+preceding the notice.
+
+REMOVAL OF A MANUFACTURED HOME
+
+A manufactured home may not be removed from the
+manufactured home space without a signed written agreement
+from the park landlord, owner, or manager, showing a
+clearance for removal. In addition, all monies due must be
+paid in full unless other arrangements are made.
+
+SALE OF MANUFACTURED HOME
+
+A park owner may sell a manufactured home in the park and
+receive a commission on the sale if the park owner acts as the
+agent for the homeowner pursuant to a written agreement. If
+the manufactured home is to remain in the park, the landlord
+and tenant must sign a new lease before the sale is executed.
+
+
+
+                               31
+RENEWAL OF THE LEASE
+
+Leases are automatically renewed, unless the landlord gives
+the tenant at least 90 days’ written notice of intent not to
+renew, or the tenant gives 30 days’ written notice of intent not
+to renew.
+
+TERMINATION OF THE LEASE
+
+If a tenant is vacating the property at the end of the lease term,
+the tenant must give the landlord written notice at least 30
+days before the lease expires. A tenant who must relocate
+because of a job change may terminate the lease early by
+giving 30 days’ written notice. If the tenant is with the armed
+forces and is reassigned, the tenant may give the landlord less
+than 30 days’ notice and not incur a penalty for doing so.
+
+During the term of the lease, the landlord may terminate the
+lease based on any of the following:
+
+    1. Nonpayment of rent or other charges provided for in
+       the lease; and
+    2. Substantial or repeated violations of the written park
+       rules.
+
+In either case, the landlord must allow the tenant three days to
+remedy the problem by paying the rent or complying with the
+lease or park rules. If the tenant fails to do so, the landlord
+must give the tenant 20 days to vacate the park.
+
+When the termination of a manufactured home space rental
+operation is at issue, the landlord must give the tenant at least
+180 days’ written notice before terminating the lease.
+
+
+
+
+                               32
+TENANT’S RIGHTS AND REMEDIES
+
+A landlord may not terminate a tenancy, refuse to renew a
+tenancy, increase rent or decrease services because the tenant
+has exercised legal rights, such as complaining about safety
+conditions of the park. If a landlord fails to provide services
+as required, the tenant may file an action for damages or
+specific performance.
+
+                     STORAGE UNITS
+
+Operators of self-service storage facilities must provide
+lessees with written rental agreements that conspicuously
+disclose:
+
+   1. The existence of any lien placed on the lessee’s
+      property;
+   2. That the property in the leased space may be sold to
+      satisfy the lien if the lessee is in default;
+   3. That the personal property stored in a storage space
+      will not be insured unless the lessee obtains insurance
+      on his property; and
+   4. That the lessee must disclose any lien holders or
+      secured parties who have an interest in property that is
+      stored in the self-service storage facility.
+
+Both the storage facility operator and the lessee must sign the
+rental agreement.
+
+LIABILITY INSURANCE
+
+A storage facility operator may require a lessee to obtain
+liability insurance for the storage unit or to purchase liability
+insurance through the storage facility.
+
+
+
+
+                               33
+       APPENDIX A - IDAHO CODE SECTIONS
+
+AT-WILL TENANCY
+
+  55-208      Termination of tenancy at will.
+  55-209      Rights of landlords.
+  55-210      Right of reentry.
+  55-211      Summary proceedings.
+  55-212      Action for real property.
+
+FEES
+
+  55-305      Limitation on fees for tenants of a rental
+              property.
+
+FIXTURES – REMOVAL OF
+
+  55-307      Removal of fixtures by tenant.
+
+LEASES
+
+  55-304      Change in lease terms and notice.
+
+MANUFACTURED HOME PARKS
+
+  55-2005     Rental agreement.
+  55-2006     Adjustments to rent, services, utilities or
+              rules.
+  55-2007     Required provisions and disclosures.
+  55-2008     Park rules.
+  55-2009     Mobile home sales and space transfers.
+  55-2009A    Notice of lienholder.
+  55-2010     Termination of rental agreement.
+  55-2011     Renewal of rental agreement.
+  55-2012     Mobile home improvements.
+  55-2013     Security deposits.
+  55-2013A    Tenant associations.
+
+
+
+                          34
+  55-2014       Tenant actions for damages or specific
+                performance.
+  55-2015       Retaliatory conduct by landlord.
+  55-2016       Arbitration.
+  55-2017       Penalties.
+  55-2018       Attorney fees.
+  55-2019       Venue.
+  55-2020       Service of notice.
+
+PROPERTY REPAIR ISSUES
+
+  6-320         Action for damages and specific
+                performance by tenant.
+  6-323         Service of notice to landlord.
+  6-324         Attorney fees.
+
+SECURITY DEPOSITS
+
+  6-321         Security deposits.
+
+SELF-SERVICE STORAGE FACILITIES
+
+  55-2301 - 09 Self-service storage facilities.
+
+SMALL CLAIMS ACTIONS
+
+  1-2301        Scope of claims and venue.
+  1-2301A       Civil liability for bad checks.
+  1-2302        Commencing an action.
+  1-2303        Filing a claim and entering default.
+  1-2304        Service of process.
+  1-2305        Contents of claim.
+  1-2307        Attorneys, witnesses, evidence and
+                judgments.
+  1-1209        Speedy and informal trials.
+  1-2310        Judgment against defendant.
+  1-2311        Appeals.
+  1-2312        Filing and disposition of appeals.
+  1-2313        Judgment and enforcement.
+                              35
+  1-2315      Jury trials prohibited.
+
+TRANSFER OF PROPERTY
+
+  55-301      Grantee’s rights against grantor’s tenants.
+  55-302      Lessor’s remedies against lessee’s assignee.
+  55-303      Lessee’s remedies against lessor’s assignee.
+
+UNLAWFUL DETAINER
+
+  6-303       Unlawful detainer defined.
+  6-303A      Eviction records shielded.
+  6-304       Service of notice.
+  6-305       Jurisdiction of district court.
+  6-308       Parties defendant.
+  6-309       Parties generally.
+  6-310       Complaint and summons.
+  6-310A      Alternative removal of
+              unauthorized persons.
+  6-311       Continuances.
+  6-311A      Judgment on trial by court.
+  6-311C      Form of execution.
+  6-311 D     Additional undertaking on appeal.
+  6-311E      Action for damages.
+  6-312       Judgment by default.
+  6-313       Trial by jury.
+  6-314       Sufficiency of evidence and defenses.
+  6-315       Amendment of complaint.
+  6-316       Judgment and restitution.
+  6-317       Treble damages.
+  6-318       Pleadings must be verified.
+  6-319       Appeal as stay.
+  6-324       Attorney fees.
+
+WASTE
+
+  6-201 Actions for waste.
+
+                             36
+                                      APPENDIX B
+
+ PRE-RENTAL CHECKLIST
+
+ Tenants can take this checklist with them when searching for
+ a rental. Before signing a lease agreement, tenants should ask
+ questions, explain their concerns, and inspect the rental.
+ Street Address:
+ Unit No.
+ Landlord’s Name:
+ Landlord’s Telephone Number:
+
+FINANCIAL ISSUES
+
+How much is the rent per month?                                     $
+
+Is the rent expected to change in the near future?                  □ Yes       □ No
+
+Does the landlord accept personal checks?                           □ Yes       □ No
+
+What is the fee for paying the rent late?                           $
+
+How much is the security deposit?                                   $
+
+How much is the pet deposit?                                        $
+
+How much does the landlord charge for extra services, such as:
+
+     Storage Space                                                  $
+
+     Parking Space                                                  $
+
+     Recreational Areas (pool, exercise equipment, etc.)            $
+
+     Other                                                          $
+
+What utilities does the landlord pay and what utilities do I pay?
+
+     Cable/Satellite TV                                             □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+     Electricity                                                    □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+     Natural Gas                                                    □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+
+                                               37
+     Internet Service                                                   □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+     Lawn Maintenance                                                   □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+     Security System                                                    □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+     Telephone                                                          □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+     Water, Sewer, Trash                                                □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+     Other:                                                             □ Landlord □ Tenant
+
+     Provider’s Name and Phone No.:
+
+MANAGEMENT ISSUES
+
+Does the landlord live onsite?                                          □ Yes       □ No
+
+Does a property management company oversee the property?                □ Yes       □ No
+
+Who owns the property and is the owner in Idaho or out-of-state?
+
+Are onsite maintenance personnel available for repairs?                 □ Yes       □ No
+
+How are emergencies addressed? (leaky pipes; broken appliances, etc.)
+
+What are the designated “quiet hours”?                                  AM:         PM:
+
+What kinds of pets are allowed?
+
+Is smoking allowed on the property?                                     □ Yes       □ No
+
+FACILITY/PROPERTY ISSUES
+
+Where is the mailbox located?
+
+Is the mailbox locked?                                                  □ Yes       □ No
+
+Will the landlord accept/hold packages for tenants?                     □ Yes       □ No
+
+Are garbage facilities easily accessible?                               □ Yes       □ No
+
+Is there a laundry room on the property?                                □ Yes       □ No
+
+How many washers and dryers are available?            Washers:      Dryers:
+
+
+
+                                              38
+How much does it cost per load?                                   Wash: $       Dry: $
+
+Is there an exercise room onsite?                                           □ Yes        □ No
+
+Is there a swimming pool onsite?                                            □ Yes        □ No
+
+Is there a clubhouse onsite?                                                □ Yes        □ No
+
+Is there an elevator between floors?                                        □ Yes        □ No
+
+Are the stairwells well-lighted and in safe condition?                      □ Yes        □ No
+
+Is there sufficient parking?                                                □ Yes        □ No
+
+Is parking assigned and guaranteed?                                         □ Yes        □ No
+
+Is covered or secure parking available?                                     □ Yes        □ No
+
+Is the parking area well-lit and safe?                                      □ Yes        □ No
+
+How far away from the unit do I have to park?                               □ Yes        □ No
+
+Is a fire alarm installed and is a fire extinguisher available?             □ Yes        □ No
+
+Is a security system installed and working?                                 □ Yes        □ No
+
+Are parents supervising their children?                                     □ Yes        □ No
+
+Are all necessary services relatively close by?                             □ Yes        □ No
+
+Where is the closest grocery store?
+
+Where is the closest gas station?
+
+Where is the closest newspaper vendor?
+
+Where is the closest gym?
+
+Where is the closest park?
+
+Where is the closest bus stop?
+
+Where is the closest daycare?
+
+Where is the closest hospital?
+
+Where is the closest police station/fire department?
+
+Are there registered sex offenders in the neighborhood/complex?             □ Yes        □ No
+
+RENTAL UNIT ISSUES
+
+Is the rental clean and free of mold, rodents, and insects?                 □ Yes        □ No
+
+Is the rental unit furnished?                                               □ Yes        □ No
+
+
+
+                                                  39
+Is the unit air conditioned?                                              □ Yes   □ No
+
+Does the front door have a peephole, deadbolt, and chain?                 □ Yes   □ No
+
+Is the carpet/tile clean and in good repair?                              □ Yes   □ No
+
+Is the paint/wallpaper in good condition?                                 □ Yes   □ No
+
+Are there excessive nail holes or any damage to the walls?                □ Yes   □ No
+
+Can I hang things on the walls?                                           □ Yes   □ No
+
+Can I install shelves or make other improvements?                         □ Yes   □ No
+
+Is the plumbing and electrical system in good repair?                     □ Yes   □ No
+
+Where is the fuse/circuit box located?
+
+Are sufficient power outlets available in each room?                      □ Yes   □ No
+
+Are the bathrooms clean and in good repair?                               □ Yes   □ No
+
+Is there any evidence of past leaks? (stains, mold, etc.)                 □ Yes   □ No
+
+Is the kitchen clean and in good repair?                                  □ Yes   □ No
+
+Do all of the appliances work?                                            □ Yes   □ No
+
+Is there a dishwasher?                                                    □ Yes   □ No
+
+Is there a microwave oven?                                                □ Yes   □ No
+
+Does the oven have an exhaust fan?                                        □ Yes   □ No
+
+Does the refrigerator have an icemaker?                                   □ Yes   □ No
+
+Is the refrigerator frost free?                                           □ Yes   □ No
+
+Is there sufficient storage/cupboard space?                               □ Yes   □ No
+
+Is there sufficient counter space?                                        □ Yes   □ No
+
+Does the washing machine and dryer work (if available)?                   □ Yes   □ No
+
+Are the washing machine and dryer of sufficient size?                     □ Yes   □ No
+
+What type of heating system does the unit have? (gas, baseboards, etc.)
+
+Do the ceiling fans work and are they clean?                              □ Yes   □ No
+
+Do the windows have working locks?                                        □ Yes   □ No
+
+Where are the telephone jacks located?
+
+Where are the cable/satellite hookups located?
+
+
+
+                                                40
+What special equipment to access cable/satellite TV?
+
+Are all of the rooms well-lighted?                                        □ Yes           □ No
+
+Are there any drafts around the doors or windows?                         □ Yes           □ No
+
+Is the unit properly ventilated?                                          □ Yes           □ No
+
+Can you hear noise from other tenants? (footsteps, babies crying, etc.)   □ Yes           □ No
+
+LEASE ISSUES
+
+What is the length of the lease? (month-to-month; six months, etc.)
+
+How much notice do I have to give before I move out?             □ 1 Mo. □ 2 Wks. □ 30 Days
+
+When is the move-in inspection scheduled?                        Date:            Time:
+
+How many days do I have to conduct a move-out inspection?
+
+What cleaning company does the landlord prefer to use?
+
+OTHER QUESTIONS/ISSUES/PROBLEMS
+
+
+
+
+WHAT I LIKE ABOUT THE RENTAL:
+
+
+
+
+WHAT I DISLIKE ABOUT THE RENTAL:
+
+
+
+
+WHAT REPAIRS NEED TO BE MADE BEFORE I MOVE IN?
+
+
+
+
+                                              41
+WHAT I NEED TO DO BEFORE I MOVE IN:
+Task Description:         Deadline   Completed 
+
+
+
+
+                     42
+                                      APPENDIX C
+
+   RENTAL MOVE-IN & MOVE-OUT CHECKLIST
+
+   The Attorney General recommends that tenants conduct a
+   move-in inspection with their landlord or property manager
+   present. This should be done before moving in or at the time
+   of move-in. The checklist below, or a similar form, will
+   provide a record of the inspection. Tenants are encouraged to
+   conduct a move-out inspection with the landlord or property
+   management representative present. Tenants also should ask
+   during the inspection what the landlord or manager requires to
+   receive a full refund of the tenant’s security deposit.
+
+   Ratings:
+       E = Excellent
+       G = Good
+       F = Fair
+       P = Poor
+       R/C = needs to be repaired or cleaned
+       N/A = Not Applicable
+
+
+                                                       Move-In            Move Out
+Room/Area
+                                              Rating   Remarks   Rating   Remarks
+
+
+Kitchen
+Refrigerator, Exterior
+Refrigerator Interior incl. Shelves/Drawers
+Refrigerator Temp. and light
+Freezer Temp.
+Ice Maker/Ice cube trays
+Stove incl. hood/light/fan/filter
+Stove incl. Burners, Burner Pans, Knobs
+Oven incl. Interior/Broiler Pan,
+Racks/Knobs/light
+Garbage Disposal and Switch
+Dishwasher incl. racks/baskets/soap
+dispenser
+Microwave, inserts/racks
+Cabinets/Drawers/Handles/Shelves
+Countertops
+
+
+
+                                              43
+                                            Move-In            Move Out
+Room/Area
+                                   Rating   Remarks   Rating   Remarks
+
+Sink /Faucet
+Ceiling/Walls
+Paint/Wallpaper
+Doors/Doorstops
+Door locks & Knobs
+Flooring/Carpet
+Baseboards
+Light Fixtures/bulbs
+Windows & Screens, latches/locks
+Curtains/Rods/Blinds
+Electrical Outlets & Switches
+Smoke Detector/Battery
+Fire Extinguisher
+Other:
+
+
+
+
+Living Room
+Ceiling/Walls
+Paint/Wallpaper
+Doors/Doorstops
+Door locks & Knobs
+Flooring/Carpet
+Baseboards
+Light Fixtures/bulbs
+Windows & Screens, latches/locks
+Curtains/Rods/Blinds
+Electrical Outlets & Switches
+Other:
+
+
+
+Dining Room
+Ceiling/Walls
+Paint/Wallpaper
+Doors/Doorstops
+Door locks & Knobs
+Flooring/Carpet
+Baseboards
+Light Fixtures/bulbs
+Electrical Outlets & Switches
+Windows & Screens, latches/locks
+Curtains/Rods/Blinds
+Other:
+
+
+
+
+                                   44
+                                            Move-In            Move Out
+Room/Area
+                                   Rating   Remarks   Rating   Remarks
+
+
+Bathroom(s)
+Sink/Faucets
+Toilet & lid
+Tub/Shower Enclosure
+Plumbing
+Cabinets/Drawers/Handles/Shelves
+Towel Racks
+Toilet Paper Holder
+Exhaust Fan/Heaters
+Countertops
+Mirror
+Ceiling/Walls
+Paint/Wallpaper
+Doors/Doorstops
+Door locks & Knobs
+Flooring/Carpet
+Baseboards
+Light Fixtures/bulbs
+Electrical Outlets & Switches
+Windows & Screens, latches/locks
+Curtains/Rods/Blinds
+Other:
+
+
+
+Bedroom(s)
+Ceiling/Walls
+Paint/Wallpaper
+Doors/Doorstops
+Door locks & Knobs
+Flooring/Carpet
+Baseboards
+Light Fixtures/bulbs
+Electrical Outlets & Switches
+Windows & Screens, latches/locks
+Curtains/Rods/Blinds
+Closet/Shelves/Rod
+Smoke Detector/Battery
+Other:
+
+
+
+Utility/Laundry Area
+Ceiling/Walls
+Paint/Wallpaper
+Doors/Doorstops
+
+
+
+                                   45
+                                                    Move-In            Move Out
+Room/Area
+                                           Rating   Remarks   Rating   Remarks
+
+Door locks & Knobs
+Flooring/Carpet
+Baseboards
+Light Fixtures/bulbs
+Electrical Outlets & Switches
+Windows & Screens, latches/locks
+Curtains/Rods/Blinds
+Closet/Shelves/Rod
+Sinks/Faucets
+Countertops
+Cabinets/Drawers/Handles/Shelves
+Washer
+Dryer
+W&D Connections
+Other:
+
+
+
+Other Interior Spaces
+Entryway
+Hallways
+Stairs
+Basement
+Linen/Coat Closets/Cabinets
+Storage Rooms
+Other:
+
+
+
+Garage
+Ceiling/Walls
+Paint
+Doors/locks & Knobs
+Floor
+Light Fixtures/bulbs
+Electrical Outlets & Switches
+Windows & Screens, latches/locks
+Auto Door Opener/safety reversal/remotes
+Other:
+
+
+
+Other
+Thermostats
+Furnace/Filter
+Air Conditioner(s)
+Water Heater
+
+
+
+                                           46
+                                     Move-In               Move Out
+Room/Area
+                            Rating   Remarks      Rating   Remarks
+
+Water Softener
+Security System
+Smoke Detectors/Batteries
+Doorbell
+Entry Door Peephole
+Weather stripping
+
+Exterior
+Mailbox
+Fences/Gates
+Lawn/Trees/Shrubs
+Roof & Gutters
+Flowerbeds/landscaping
+Doors/Knobs/Locks
+Lights/Bulbs
+Other:
+
+
+
+
+   Move-in Remarks Approved:
+
+
+   Tenant Signature                            Date
+
+
+   Landlord Signature                          Date
+
+
+   Move-out Remarks Approved:
+
+
+   Tenant Signature                            Date
+
+
+   Landlord Signature                          Date
+
+
+
+
+                            47
+Funds collected by the Attorney General’s Consumer Protection
+Division as the result of enforcement actions paid for this pamphlet.
+No tax monies were used.
+
+
+
+
+          Office of the Attorney General  State of Idaho
+                  Consumer Protection Division
+             P.O. Box 83720  Boise, ID 83720-0010
+          954 W. Jefferson St., 2nd Fl.  Boise, ID 83702
+        (208) 334-2424 (local)  (800) 432-3545 (in Idaho)
+                        www.ag.idaho.gov
+

@@ -22089,6 +22089,370 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "United States",
     "amendmentHistory": null
+  },
+  {
+    "id": "rt2-nonrenewal-30-day-notice",
+    "claim": "Idaho Code 55-304(2) requires a landlord of residential property to give the tenant written notice of any rent increase, or of the landlord's intention not to renew the lease, at least thirty days before the nonrenewal or before the increase takes effect.",
+    "quote": "Notwithstanding subsection (1) of this section, in all leases of residential property, or of any interest therein, the landlord shall provide the tenant written notice of any increase in the amount of rent charged or of the landlord's intention of nonrenewal of the lease at least thirty (30) days before: (a) Such nonrenewal of the lease; or (b) Such increase in the amount of rent charged is intended to take effect.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "notice"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-304 — Change in terms of lease — Notice",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch3/sect55-304/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-304) 55-307, R.S., sec. 2881; reen. R.C. & C.L., sec. 3089; C.S., sec. 5357; am. 1990, ch. 185, sec. 1, p. 414; am. 2020, ch. 254, sec. 1, p. 740; am. 2024, ch. 257, sec. 1, p. 896; am. and redesig. 2025, ch. 65, sec. 7, p. 313.]"
+  },
+  {
+    "id": "rt2-no-reentry-before-notice-expires",
+    "claim": "Idaho Code 55-209 provides that, after a notice terminating a tenancy at will has been served and the period it specifies has expired, but not before, the landlord may reenter or proceed according to law to recover possession.",
+    "quote": "After such notice has been served, and the period specified by such notice has expired, but not before, the landlord may reenter, or proceed according to law to recover possession.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "notice"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-209 — Termination of tenancy at will — Rights of landlord",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch2/sect55-209/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-209) R.S., sec. 2858; reen. R.C. & C.L., sec. 3079; C.S., sec. 5347; I.C.A., sec. 54-209.]"
+  },
+  {
+    "id": "rt2-notice-service-methods",
+    "claim": "Idaho Code 6-304 says the notices required by 6-303 may be served by delivering a copy to the tenant personally, or, if the tenant is absent from home and usual place of business, by leaving a copy with a person of suitable age and discretion there and mailing a copy to the tenant's residence; if neither place can be found or no suitable person is there, by affixing a copy in a conspicuous place on the property, delivering a copy to a person residing there if one can be found, and mailing a copy to the tenant at the property.",
+    "quote": "The notices required by the preceding section may be served either: 1. By delivering a copy to the tenant personally; or, 2. If he be absent from his place of residence and from his usual place of business, by leaving a copy with some person of suitable age and discretion at either place, and sending a copy through the mail addressed to the tenant at his place of residence",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "notice"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-304 — Service of notice (forcible entry and unlawful detainer)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-304/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(6-304) C.C.P. 1881, sec. 798; R.S., R.C., & C.L., sec. 5094; C.S., sec. 7323; I.C.A., sec. 9-304.]"
+  },
+  {
+    "id": "rt2-grantee-takes-landlord-remedies",
+    "claim": "Idaho Code 55-301 gives a person to whom rented real property is transferred the same remedies for recovery of rent, for nonperformance of the lease terms, and for waste or cause of forfeiture that the person's grantor had.",
+    "quote": "A person to whom any real property is transferred or devised, upon which rent has been reserved or to whom such rent is transferred, is entitled to the same remedies for recovery of rent, for nonperformance of any of the terms of the lease, or for any waste or cause of forfeiture, as his grantor or devisor might have had.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-301 — Rights of grantees against grantor's tenants",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch3/sect55-301/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-301) R.S., sec. 2875; reen. R.C. & C.L., sec. 3083; C.S., sec. 5351; I.C.A., sec. 54-301.]"
+  },
+  {
+    "id": "rt2-tenant-remedies-against-landlord-assigns",
+    "claim": "Idaho Code 55-303 provides that whatever remedies a lessee has against the immediate lessor for breach of an agreement in the lease, the lessee may have against the lessor's assigns, except on covenants against encumbrances or relating to the title or possession of the premises.",
+    "quote": "Whatever remedies the lessee of any real property may have against his immediate lessor, for the breach of any agreement in the lease, he may have against the assigns of the lessor, and the assigns of the lessee may have against the lessor and his assigns, except upon covenants against encumbrances or relating to the title or possession of the premises.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-303 — Remedies of lessee against lessor's assignee",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch3/sect55-303/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-303) R.S., sec. 2877; reen. R.C. & C.L., sec. 3085; C.S., sec. 5353; I.C.A., sec. 54-303.]"
+  },
+  {
+    "id": "rt2-treble-damages-unlawful-detention",
+    "claim": "Idaho Code 6-317 provides that if a landlord or tenant recovers damages for a forcible or unlawful entry upon, or detention of, any building or tract of land (or in certain other actions), judgment may be entered for three times the actual damages assessed.",
+    "quote": "If a landlord or a tenant recovers damages for a forcible or unlawful entry in or upon, or detention of, any building or other tract of land ... judgment may be entered for three (3) times the amount at which the actual damages are assessed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "court-procedure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-317 — Treble damages (forcible entry and unlawful detainer)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-317/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(6-317) C.C.P. 1881, sec. 475; R.S., R.C., & C.L., sec. 4533; C.S., sec. 6960; I.C.A., sec. 9-317; am. 1977, ch. 45, sec. 2, p. 81; am. 2017, ch. 276, sec. 4, p. 726.]"
+  },
+  {
+    "id": "rt2-no-local-rent-fee-deposit-regulation",
+    "claim": "Idaho Code 55-306, added in 2025, bars a local governmental unit from enacting, maintaining or enforcing an ordinance or resolution that would mandate property owners' participation in an optional federal housing assistance program or that would otherwise regulate rent, fees or deposits charged for leasing private residential property.",
+    "quote": "A local governmental unit shall not enact, maintain, or enforce an ordinance or resolution that would have the effect of mandating Idaho property owners to be forced to participate in an optional federal housing assistance program or any other program or law that would otherwise regulate rent, fees, or deposits charged for leasing private residential property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "local-regulation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-306 — Local Government — No rent control",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch3/sect55-306/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-306, added 2025, ch. 65, sec. 6, p. 313.]"
+  },
+  {
+    "id": "rt2-ag-month-to-month-one-month-notice",
+    "claim": "The Idaho Attorney General's Landlord and Tenant Manual (July 2026) says a month-to-month tenancy may be ended by either party with at least a month's advance written notice unless the landlord otherwise agrees, and that at least 30 days before a lease non-renewal the landlord must give the tenant written notice of the intent not to renew.",
+    "quote": "If the lease is a month-to-month tenancy, either party may end the lease with at least a month's advance written notice to the other party unless the landlord otherwise agrees. ... Also, at least 30 days before a lease non-renewal, a landlord must give a tenant written notice of the landlord's intent not to renew the tenant's lease.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "notice"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Attorney General — Landlord and Tenant Manual (July 2026)",
+        "url": "https://www.ag.idaho.gov/content/uploads/2026/07/LandlordTenant.pdf",
+        "publisher": "Office of the Idaho Attorney General",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rt2-ag-entry-set-by-lease",
+    "claim": "The Idaho Attorney General's Landlord and Tenant Manual (July 2026) says tenants have a right to privacy, that the lease should specify the landlord's right to enter to show the property to prospective purchasers or tenants at convenient times, and that if the lease has no such provision the landlord should first tell the tenant why entry is necessary and the two can agree a reasonable manner and time of entry.",
+    "quote": "Tenants have a right to privacy in their rentals. The lease should specify the landlord's right to enter the tenant's property to: ... Show the property to prospective purchasers or tenants at convenient times. ... If the lease doesn't include these provisions and the landlord needs to enter the property, the landlord first should notify the tenant why the entry is necessary. The landlord and tenant then can agree on a reasonable manner and time of entry.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "showings"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Attorney General — Landlord and Tenant Manual (July 2026)",
+        "url": "https://www.ag.idaho.gov/content/uploads/2026/07/LandlordTenant.pdf",
+        "publisher": "Office of the Idaho Attorney General",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rt2-ag-holdover-tenant",
+    "claim": "The Idaho Attorney General's Landlord and Tenant Manual (July 2026) says that if a lease says nothing about what happens when it ends, the lease expires and the tenant becomes a holdover tenant, and that unless the landlord agrees to continue the tenancy or a new lease is signed, the landlord can start eviction proceedings.",
+    "quote": "If there is no provision in a lease regarding what happens when the lease ends, the lease simply expires, and the tenant becomes a “holdover” tenant. At this point, unless the landlord agrees to continue the tenancy or a new lease is signed, the landlord can start eviction proceedings.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "holdover"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Attorney General — Landlord and Tenant Manual (July 2026)",
+        "url": "https://www.ag.idaho.gov/content/uploads/2026/07/LandlordTenant.pdf",
+        "publisher": "Office of the Idaho Attorney General",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rt2-ag-discriminatory-termination",
+    "claim": "The Idaho Attorney General's Landlord and Tenant Manual (July 2026) says discrimination based on sex, race, color, religion, disability, familial status or national origin is illegal, and lists terminating a lease for a discriminatory reason among the actions landlords may not take based on those categories; it points people who believe they suffered discrimination to the Idaho Human Rights Commission.",
+    "quote": "Discrimination based on sex, race, color, religion, disability, familial status (presence of children under the age of 18) or national origin is illegal. ... Landlords may not take any of the following actions based on the above protected categories: ... terminating a lease for a discriminatory reason. ... you can contact the Idaho Human Rights Commission.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "tenants",
+      "fair-housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Attorney General — Landlord and Tenant Manual (July 2026)",
+        "url": "https://www.ag.idaho.gov/content/uploads/2026/07/LandlordTenant.pdf",
+        "publisher": "Office of the Idaho Attorney General",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rt2-hud-fair-housing-protected-classes",
+    "claim": "HUD says the Fair Housing Act protects people from discrimination when renting or buying a home and in other housing-related activities, and prohibits discrimination in housing because of race, color, national origin, religion, sex, familial status and disability.",
+    "quote": "The Fair Housing Act protects people from discrimination when they are renting or buying a home, getting a mortgage, seeking housing assistance, or engaging in other housing-related activities. ... The Fair Housing Act prohibits discrimination in housing because of: Race Color National Origin Religion Sex Familial Status Disability",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "fair-housing",
+      "tenants"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "HUD — Housing Discrimination Under the Fair Housing Act",
+        "url": "https://www.hud.gov/helping-americans/fair-housing-act-overview",
+        "publisher": "U.S. Department of Housing and Urban Development",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rt2-boise-retaliation-ordinance",
+    "claim": "The City of Boise's Renter Protections page says the City Council's protections prohibit landlords from retaliating against tenants for making repair requests or raising safety concerns and require landlords to give tenants a notice of their rights and responsibilities; it lists terminating a tenancy and refusing to renew among potential retaliatory actions.",
+    "quote": "These protections put limits on application fees charged, prohibit landlords from retaliating against tenants for making repair requests or raising safety concerns, require that landlords provide tenants with a notice of their rights and responsibilities under the law ... Potential retaliatory actions include terminating a tenancy, refusing to renew, increasing rent, decreasing services, or harassing tenants.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "tenants",
+      "local-regulation"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "City of Boise — Renter Protections",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/code-compliance/renter-protections/",
+        "publisher": "City of Boise, Planning and Development Services, Code Compliance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "rt2-boise-notice-to-new-tenants-and-complaints",
+    "claim": "The City of Boise's Renter Protections page says landlords must give new tenants the city's notice of landlord and tenant responsibilities, that complaints about violations of the renter-protection ordinances must be filed within 6 months of the alleged violation, and that only alleged violations within Boise city limits will be investigated.",
+    "quote": "Requires that landlords provide new tenants with a notice of landlord and tenant responsibilities. ... Complaints must be filed within 6 months of the alleged violation. ... Only alleged violations that occur within Boise city limits will be investigated.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "tenants",
+      "local-regulation"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "City of Boise — Renter Protections",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/code-compliance/renter-protections/",
+        "publisher": "City of Boise, Planning and Development Services, Code Compliance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
   }
 ];
 

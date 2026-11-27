@@ -56,8 +56,8 @@ export const places: Place[] = [
     "placeFips": "08830",
     "population2024Census": 237963,
     "growthPct2020to2024": 1,
-    "directClaims": 42,
-    "uniqueClaims": 37,
+    "directClaims": 44,
+    "uniqueClaims": 39,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null

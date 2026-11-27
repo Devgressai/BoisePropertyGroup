@@ -13746,6 +13746,271 @@
         "city:eagle"
       ],
       "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-301",
+      "title": "Idaho Code § 55-301 — Rights of grantees against grantor's tenants",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch3/sect55-301/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "rt2-grantee-takes-landlord-remedies"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-303",
+      "title": "Idaho Code § 55-303 — Remedies of lessee against lessor's assignee",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch3/sect55-303/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "rt2-tenant-remedies-against-landlord-assigns"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-304",
+      "title": "Idaho Code § 55-304 — Change in terms of lease — Notice",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch3/sect55-304/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "notice"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "rt2-nonrenewal-30-day-notice"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-306",
+      "title": "Idaho Code § 55-306 — Local Government — No rent control",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch3/sect55-306/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "local-regulation"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "rt2-no-local-rent-fee-deposit-regulation"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-209",
+      "title": "Idaho Code § 55-209 — Termination of tenancy at will — Rights of landlord",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch2/sect55-209/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "notice"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "rt2-no-reentry-before-notice-expires"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-304",
+      "title": "Idaho Code § 6-304 — Service of notice (forcible entry and unlawful detainer)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-304/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "notice"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "rt2-notice-service-methods"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-317",
+      "title": "Idaho Code § 6-317 — Treble damages (forcible entry and unlawful detainer)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-317/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "rt2-treble-damages-unlawful-detention"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idag-landlord-tenant-manual",
+      "title": "Idaho Attorney General — Landlord and Tenant Manual (July 2026)",
+      "publisher": "Office of the Idaho Attorney General",
+      "organizationType": "state-government",
+      "url": "https://www.ag.idaho.gov/content/uploads/2026/07/LandlordTenant.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "landlord",
+        "fair-housing"
+      ],
+      "publicationDate": "2026-07",
+      "updatedDate": "2026-07",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "State agency consumer guidance. PDF cached via fetch-source.mjs (data/idaho/raw/cache/b67bb8c49ec0ce53.pdf) and extracted with extract-pdf-text.mjs (data/idaho/raw/extracted/b67bb8c49ec0ce53.txt). Guidance, not law: cite alongside the statutes, never instead of them.",
+      "stalenessRisk": "MEDIUM — reissued periodically (a 2025/08 edition also exists at a different URL); re-check the URL and edition before publication.",
+      "claimsSupported": [
+        "rt2-ag-month-to-month-one-month-notice",
+        "rt2-ag-entry-set-by-lease",
+        "rt2-ag-holdover-tenant",
+        "rt2-ag-discriminatory-termination"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "hud-fair-housing-act-overview",
+      "title": "HUD — Housing Discrimination Under the Fair Housing Act",
+      "publisher": "U.S. Department of Housing and Urban Development",
+      "organizationType": "federal-government",
+      "url": "https://www.hud.gov/helping-americans/fair-housing-act-overview",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "fair-housing",
+        "tenants"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency overview page, cached via fetch-source.mjs. Only the scope sentence and protected-class list are relied on; the page's enforcement-priorities text is not used.",
+      "stalenessRisk": "MEDIUM — page content has been rewritten with changes of administration; the protected-class list is statutory and stable.",
+      "claimsSupported": [
+        "rt2-hud-fair-housing-protected-classes"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-renter-protections",
+      "title": "City of Boise — Renter Protections",
+      "publisher": "City of Boise, Planning and Development Services, Code Compliance",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/code-compliance/renter-protections/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "tenants",
+        "local-regulation"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "City summary of its renter-protection ordinances (Ord-35-23, Ord-37-23, Chapter 16), cached via fetch-source.mjs. The ordinance texts themselves were not read. Idaho Code 55-306 (2025) limits local regulation of rent, fees and deposits; the page does not mention it.",
+      "stalenessRisk": "HIGH — local ordinances in this area have been changed by state legislation in 2024 and 2025; re-check before publication.",
+      "claimsSupported": [
+        "rt2-boise-retaliation-ordinance",
+        "rt2-boise-notice-to-new-tenants-and-complaints"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
     }
   ]
 }
