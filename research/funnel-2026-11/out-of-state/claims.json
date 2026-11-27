@@ -1,0 +1,416 @@
+{
+  "claims": [
+    {
+      "id": "os-poa-execution-signature-presumed-genuine",
+      "claim": "Under Idaho Code 15-12-105, a power of attorney must be signed by the principal, or in the principal's conscious presence by another individual the principal directs to sign; the signature is presumed genuine if the principal acknowledges it before a notary public or another individual authorized to take acknowledgments.",
+      "quotedLanguage": "A power of attorney must be signed by the principal or in the principal's conscious presence by another individual directed by the principal to sign the principal's name on the power of attorney ... The signature is presumed to be genuine if the principal acknowledges the signature before a notary public or other individual authorized to take acknowledgments",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-15-12-105"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[15-12-105, added 2008, ch. 186, sec. 2, p. 561; am. 2017, ch. 192, sec. 10, p. 455.]",
+      "notes": "The section makes notarisation the route to a PRESUMPTION of genuineness; it does not say an unacknowledged power is void. For recording, see 55-806 and 55-805 (acknowledgment needed to record). Never write 'a POA must be notarized to be valid'."
+    },
+    {
+      "id": "os-poa-durable-unless-stated",
+      "claim": "Idaho Code 15-12-104 says a power of attorney created under the Uniform Power of Attorney Act is durable unless it expressly provides that it is terminated by the incapacity of the principal.",
+      "quotedLanguage": "A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney"
+      ],
+      "sourceIds": [
+        "idcode-15-12-104"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[15-12-104, added 2008, ch. 186, sec. 2, p. 561.]",
+      "notes": "Durable means it survives incapacity; it does NOT survive death (see os-poa-terminates-on-death)."
+    },
+    {
+      "id": "os-poa-out-of-state-execution-valid",
+      "claim": "Under Idaho Code 15-12-106(3), a power of attorney executed outside Idaho is valid in Idaho if, when executed, its execution complied with the law of the jurisdiction that determines its meaning and effect under 15-12-107, or with the federal requirements for a military power of attorney; under 15-12-106(4), unless another statute provides otherwise, a photocopy or electronically transmitted copy of an original power of attorney has the same effect as the original.",
+      "quotedLanguage": "A power of attorney executed other than in this state is valid in this state if, when the power of attorney was executed, the execution complied with: ... The law of the jurisdiction that determines the meaning and effect of the power of attorney pursuant to section 15-12-107, Idaho Code; or ... The requirements for a military power of attorney pursuant to 10 U.S.C. section 1044b, as amended. ... Except as otherwise provided by statute other than this chapter, a photocopy or electronically transmitted copy of an original power of attorney has the same effect as the original.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney"
+      ],
+      "sourceIds": [
+        "idcode-15-12-106"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[15-12-106, added 2008, ch. 186, sec. 2, p. 561.]",
+      "notes": "15-12-107 (which jurisdiction's law governs) was NOT read; do not explain it. The photocopy rule carries its own 'except as otherwise provided by statute' carve-out; recording rules (55-806) may require more. Do not tell a reader a copy will be accepted for recording."
+    },
+    {
+      "id": "os-poa-general-real-property-authority-to-sell",
+      "claim": "Under Idaho Code 15-12-204, unless the power of attorney provides otherwise, language granting general authority with respect to real property authorizes the agent, among other things, to sell, exchange, convey with or without covenants, representations or warranties, quitclaim, release or otherwise dispose of an interest in real property.",
+      "quotedLanguage": "Unless a power of attorney otherwise provides, language in a power of attorney granting general authority with respect to real property authorizes the agent to: ... Sell; exchange; convey with or without covenants, representations or warranties; quitclaim; release; surrender; retain title for security; encumber;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-15-12-204"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[15-12-204, added 2008, ch. 186, sec. 2, p. 570.]",
+      "notes": "Describes the default meaning of a general real-property grant. Whether a particular document contains such a grant is a reading of the document by an attorney or the title company. For community property, pair with dv-power-of-attorney-exception (32-912 'express power of attorney')."
+    },
+    {
+      "id": "os-poa-terminates-on-death",
+      "claim": "Idaho Code 15-12-110(1) says a power of attorney terminates when the principal dies, when the principal becomes incapacitated if the power is not durable, when the principal revokes it, when it provides that it terminates, or when its purpose is accomplished, among other events; under 15-12-110(4), termination is not effective as to an agent or another person who acts in good faith without actual knowledge of it.",
+      "quotedLanguage": "A power of attorney terminates when: ... The principal dies; ... The principal becomes incapacitated, if the power of attorney is not durable; ... The principal revokes the power of attorney; ... The power of attorney provides it terminates; ... The purpose of the power of attorney is accomplished; ... Termination of an agent's authority or of a power of attorney is not effective as to the agent or another person that, without actual knowledge of the termination, acts in good faith under the power of attorney.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney",
+        "estate"
+      ],
+      "sourceIds": [
+        "idcode-15-12-110"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[15-12-110, added 2008, ch. 186, sec. 2, p. 563.]",
+      "notes": "The death rule matters when a parent's house is being sold under a POA: after death, the estate route applies (link probate/inherited guides). Do not describe the good-faith carve-out as a way to complete a sale after a known death."
+    },
+    {
+      "id": "os-poa-good-faith-reliance-and-certification",
+      "claim": "Under Idaho Code 15-12-119, a person who in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely on the presumption that it is genuine, and a person asked to accept one may request and rely on an agent's certification under penalty of perjury of any factual matter concerning the principal, the agent or the power of attorney, and on an opinion of counsel on a matter of law if the reason is given in writing.",
+      "quotedLanguage": "A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely upon the presumption under section 15-12-105, Idaho Code, that the signature is genuine. ... A person that is asked to accept an acknowledged power of attorney may request, and rely upon, without further investigation: ... An agent's certification under penalty of perjury of any factual matter concerning the principal, the agent or the power of attorney; ... An opinion of counsel as to any matter of law concerning the power of attorney if the person making the request provides in a writing or other record the reason for the request.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-15-12-119"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[15-12-119, added 2008, ch. 186, sec. 2, p. 566.]",
+      "notes": "'Acknowledged' is defined in 15-12-119(1) as purportedly verified before a notary or other authorized individual. Do not say a title company WILL ask for a certification; the statute says it MAY."
+    },
+    {
+      "id": "os-poa-acceptance-seven-business-days",
+      "claim": "Idaho Code 15-12-120(1) says that, except as provided in subsection (2), a person must either accept an acknowledged power of attorney or request an agent's certification, a translation or an opinion of counsel within seven business days after it is presented, and may not require an additional or different form of power of attorney for authority granted in the one presented; subsection (2) lets a person refuse in listed cases, including where the person in good faith believes the power is not valid or that the agent lacks authority for the act requested.",
+      "quotedLanguage": "A person must either accept an acknowledged power of attorney or request an agent's certification, a translation or an opinion of counsel pursuant to section 15-12-119 ... within seven (7) business days after presentation of the power of attorney for acceptance; ... A person may not require an additional or different form of power of attorney for authority granted in the power of attorney presented. ... A person is not required to accept an acknowledged power of attorney if: ... The person in good faith believes that the power is not valid or that the agent does not have the authority to perform the act requested",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-15-12-120"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[15-12-120, added 2008, ch. 186, sec. 2, p. 567.]",
+      "notes": "⚠️ Always state the exceptions with the rule. Do not tell a reader a title company 'must accept' their POA. The liability rule in 15-12-120(3) is not used on the page."
+    },
+    {
+      "id": "os-poa-must-be-recorded-before-deed",
+      "claim": "Idaho Code 55-806 says an instrument executed by an attorney in fact must not be recorded until the power of attorney authorizing its execution is filed for record in the same office.",
+      "quotedLanguage": "An instrument executed by an attorney in fact must not be recorded until the power of attorney authorizing the execution of the instrument is filed for record in the same office.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney",
+        "recording",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-806"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[(55-806) R.S., sec. 2995; reen. R.C. & C.L., sec. 3154; C.S., sec. 5418; I.C.A., sec. 54-806.]",
+      "notes": "This is the recording requirement the Uniform Power of Attorney Act (Title 15 ch. 12) does NOT contain; it sits in the recording chapter. 'Same office' = the recorder where the deed is recorded (for Ada property, Ada County Recorder, per 55-808). Do not state a fee."
+    },
+    {
+      "id": "os-poa-revocation-must-be-recorded",
+      "claim": "Idaho Code 55-814 says a recorded instrument containing a power to convey or execute instruments affecting real property is not revoked by any act of the person who executed it unless the revoking instrument is also acknowledged or proved, certified and recorded in the same office where the power was recorded.",
+      "quotedLanguage": "No instrument containing a power to convey or execute instruments affecting real property, which has been recorded, is revoked by any act of the party by whom it was executed, unless the instrument containing such revocation is also acknowledged or proved, certified and recorded in the same office in which the instrument containing the power was recorded.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "power-of-attorney",
+        "recording"
+      ],
+      "sourceIds": [
+        "idcode-55-814"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[(55-814) 1863, p. 528, sec. 27; R.S., sec. 3003; reen. R.C. & C.L., sec. 3162; C.S., sec. 5426; I.C.A., sec. 54-814.]",
+      "notes": "Applies to a RECORDED power. How this interacts with 15-12-110 (termination on death etc.) is a legal question; the page states each section separately and does not reconcile them."
+    },
+    {
+      "id": "os-notarial-act-another-state-same-effect",
+      "claim": "Idaho Code 51-111(1) says a notarial act performed in another state has the same effect under Idaho law as if performed by an Idaho notary public, if it is performed by a notary public of that state, a judge, clerk or deputy clerk of a court of that state, or any other individual authorized by that state's law to perform it.",
+      "quotedLanguage": "A notarial act performed in another state has the same effect under the law of this state as if performed by a notary public of this state if the act performed in that state is performed by: ... A notary public of that state; ... A judge, clerk or deputy clerk of a court of that state; or ... Any other individual authorized by the law of that state to perform the notarial act.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "notary",
+        "closing",
+        "recording"
+      ],
+      "sourceIds": [
+        "idcode-51-111"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[51-111, added 2017, ch. 192, sec. 3, p. 444.]",
+      "notes": "Pairs with cl-acknowledgment-required-to-record (55-805's proviso for acknowledgments taken in another state). Does not say a given closing agent will use a mobile notary in the seller's state; that is a closing-agent decision."
+    },
+    {
+      "id": "os-foreign-notarial-act-apostille",
+      "claim": "Idaho Code 51-114 says a notarial act performed under the authority and in the jurisdiction of a foreign state has the same effect under Idaho law as if performed by an Idaho notary public, and that an apostille in the form prescribed by the Hague Convention of October 5, 1961, issued by a foreign state party to the convention, conclusively establishes that the notarial officer's signature is genuine and that the officer holds the indicated office.",
+      "quotedLanguage": "If a notarial act is performed under authority and in the jurisdiction of a foreign state or constituent unit of the foreign state or is performed under the authority of a multinational or international governmental organization, the act has the same effect under the law of this state as if performed by a notary public of this state. ... An apostille in the form prescribed by the Hague Convention of October 5, 1961, and issued by a foreign state party to the convention conclusively establishes that the signature of the notarial officer is genuine and that the officer holds the indicated office.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "notary",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-51-114"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[51-114, added 2017, ch. 192, sec. 3, p. 445.]",
+      "notes": "Only for sellers signing abroad. Do not say an apostille is REQUIRED; the section says it conclusively establishes authenticity. Consular authentication (51-114(6)) is an alternative not stated on the page. A seller abroad may also be a 'foreign person' for FIRPTA only if the IRS definition says so; never infer that from location."
+    },
+    {
+      "id": "os-ron-idaho-notary-conditions",
+      "claim": "Idaho Code 51-114A(3) says a notary public located in Idaho may perform a notarial act using communication technology for a remotely located individual if the notary has personal knowledge of the individual's identity, has satisfactory evidence of identity from a credible witness, or has used at least two different types of identity proofing; can reasonably confirm the record is the same one the individual signed; and creates an audio-visual recording of the act. For an individual located outside the United States, the record must relate to a matter before a U.S. court or governmental entity or involve property in U.S. territorial jurisdiction or a transaction substantially connected with the United States, and the act must not be prohibited by the foreign state where the individual is.",
+      "quotedLanguage": "A notary public located in this state may perform a notarial act using communication technology for a remotely located individual if: ... Has obtained satisfactory evidence of the identity of the remotely located individual by using at least two (2) different types of identity proofing. ... The notary public is able reasonably to confirm the record before the notary public as the same record in which the remotely located individual made a statement or on which the remotely located individual executed a signature; ... The notary public, or a person acting on behalf of the notary public, creates an audio-visual recording of the performance of the notarial act; and ... For a remotely located individual located outside the United States: ... Involves property located in the territorial jurisdiction of the United States or a transaction substantially connected with the United States; and ... The act of making the statement or signing the record is not prohibited by the foreign state in which the remotely located individual is located.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "notary",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-51-114a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[51-114A, added 2019, ch. 160, sec. 4, p. 521.]",
+      "notes": "Extends existing cl-remote-notarization-satisfies-appearance. The NOTARY must be located in Idaho for this section; the signer may be anywhere. The section PERMITS remote notarisation; no source read says any title company or recorder must offer or accept it. Never write 'you can sign remotely'."
+    },
+    {
+      "id": "os-ron-certificate-and-recording-retention",
+      "claim": "Idaho Code 51-114A requires the certificate of notarial act for a remote notarization to indicate that the act was performed using communication technology, requires the audio-visual recording to be retained for at least ten years after it is made or as otherwise required by rule, and requires a notary, before the first remote notarial act, to notify the Secretary of State that the notary will perform acts facilitated by communication technology and identify the technology.",
+      "quotedLanguage": "If a notarial act is performed under this section, the certificate of notarial act required by section 51-115, Idaho Code, and the short form certificate provided in section 51-116, Idaho Code, must indicate that the notarial act was performed using communication technology. ... The recording must be retained for at least ten (10) years after the recording is made or as otherwise required by rule adopted under subsection (8)(d) of this section. ... Before a notary public performs the notary public's initial notarial act under this section, the notary public shall notify the secretary of state that the notary public will be performing notarial acts facilitated by communication technology and identify the technology.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "notary"
+      ],
+      "sourceIds": [
+        "idcode-51-114a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[51-114A, added 2019, ch. 160, sec. 4, p. 521.]",
+      "notes": "These are duties of the NOTARY, not the seller. Use only to describe what a remote notarization involves."
+    },
+    {
+      "id": "os-sos-remote-online-notary-registration",
+      "claim": "The Idaho Secretary of State says commissioned notaries may become authorized to perform electronic notarial acts by registering with the Secretary of State, by filing an 'Addition of Electronic or Remote Online Notary' amendment to their account on sosbiz.idaho.gov, and that Remote Online Notarization technology must comply with IDAPA 34.07.01.",
+      "quotedLanguage": "Commissioned notaries may become authorized to perform electronic notarial acts by registering with the Secretary of State. To do so, you must file an “Addition of Electronic or Remote Online Notary” amendment to your account on sosbiz.idaho.gov. ... Remote Online Notarization technology must comply with IDAPA 34.07.01",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "notary"
+      ],
+      "sourceIds": [
+        "sos-idaho-notary-information"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": null,
+      "notes": "Agency guidance page (redirects from /notary-public/ to /notary-information/). The page also says the Secretary of State does NOT verify that a chosen technology is compliant; not stated on the page. IDAPA 34.07.01 itself was not read. Do not describe how a seller finds a remote notary."
+    },
+    {
+      "id": "os-istc-part-year-resident-taxes",
+      "claim": "The Idaho State Tax Commission says a part-year resident includes a resident of Idaho who changed domicile either to or from Idaho during the tax year, and that for a part-year resident Idaho taxes all the income received while living in Idaho and any income received from Idaho sources when not living in Idaho.",
+      "quotedLanguage": "Are a resident of Idaho, and you changed your domicile either to or from Idaho during the tax year. ... Idaho taxes: All the income you receive while living in Idaho. Any income you receive from Idaho sources when not living in Idaho.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax",
+        "capital-gains"
+      ],
+      "sourceIds": [
+        "istc-individual-income-tax-basics"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": null,
+      "notes": "Relevant to a seller who moved away in the same tax year as the sale. Never tell a reader which residency status they have; the page links separate domicile guidance that was not read."
+    },
+    {
+      "id": "os-istc-form-43-nonresident-return",
+      "claim": "The Idaho State Tax Commission identifies Form 43 as the Idaho income tax return for part-year Idaho residents and for nonresidents with income from Idaho sources.",
+      "quotedLanguage": "is the Idaho income tax return for part-year Idaho residents. ... is the Idaho income tax return for nonresidents with income from Idaho sources.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "state-income-tax"
+      ],
+      "sourceIds": [
+        "istc-individual-income-tax-basics"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": null,
+      "notes": "⚠️ The raw page puts a narrow no-break space entity (&#8239;) between 'Form 43' and 'is', which the verifier does not decode, so the quote starts at 'is'. The words 'Form 43' immediately precede each fragment on the cached page (checked by eye 2026-11-26). Filing thresholds: reuse cg-istc-residency-what-idaho-taxes."
+    },
+    {
+      "id": "os-homestead-requires-primary-dwelling",
+      "claim": "Idaho Code 63-602G(2) allows the homeowner's exemption only if the homestead is owner-occupied and used as the owner's primary dwelling place, and defines 'primary dwelling place' as the single place where an owner has a true, fixed and permanent home and principal establishment, and to which the owner, whenever absent, intends to return.",
+      "quotedLanguage": "The exemption allowed by this section may be granted only if: ... The homestead is owner-occupied and used as the primary dwelling place of the owner. ... For the purpose of this section, \"primary dwelling place\" means the single place where an owner has his true, fixed and permanent home and principal establishment, and to which whenever such owner is absent he has the intention of returning.",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "property-tax",
+        "homestead"
+      ],
+      "sourceIds": [
+        "idcode-63-602g"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]",
+      "notes": "Statement of the qualification only. Never tell a reader whether moving out, renting the house or a temporary absence ends their exemption; send them to the Ada County Assessor. 'Occupied' borrows 63-701(6) ('actual use and possession'), not claimed here."
+    },
+    {
+      "id": "os-ada-exemption-one-home",
+      "claim": "The Ada County Assessor says there are no income or age restrictions to qualify for the homestead (homeowner's) exemption and that taxpayers can qualify for an exemption on only one home.",
+      "quotedLanguage": "Although there are no income or age restrictions to qualify for the Homestead Exemption, taxpayers can qualify for an exemption on only one home.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "property-tax",
+        "homestead"
+      ],
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "amendmentHistory": null,
+      "notes": "County guidance, cached 2026-09-09 (not re-fetched for this page). Ada calls the property-tax exemption 'Homestead Exemption'; always say this is the PROPERTY-TAX exemption (63-602G), not the creditor homestead (55-1003). Pair with pt-homestead-new-claim-removes-old and its discrepancy note."
+    }
+  ]
+}

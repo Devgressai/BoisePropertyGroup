@@ -268,7 +268,7 @@ export const TOPIC_PAGES: TopicPage[] = [
     updated: "2026-11-18",
     guides: ["idaho-seller-disclosure-when-selling-as-is", "selling-a-house-with-unpermitted-work-in-ada-county", "selling-a-house-with-a-well-or-septic-in-ada-county", "how-a-property-sale-closes-in-idaho", "taxes-when-you-sell-a-house-in-idaho"],
     intro: [
-      "Yes. You can sell a house as-is in Idaho, and we buy houses in Boise and the rest of Ada County in any condition without asking for a single repair. As-is decides who fixes the house: nobody. It does not switch off Idaho's disclosure law. The seller of a one-to-four unit home still owes the property condition disclosure form unless the transfer is one of the statutory exemptions.",
+      "Yes. You can sell a house as-is in Idaho, and we buy houses in Boise and the rest of Ada County in any condition without asking for a single repair. As-is decides who fixes the house: nobody. It does not switch off Idaho's disclosure law. The seller of a one-to-four unit home still owes the property condition disclosure form unless the transfer is one of the statutory exemptions. A house damaged by fire or water is covered in [selling a fire-damaged house in Ada County](/guides/selling-a-fire-damaged-house-in-ada-county).",
       NOT_ADVICE,
     ],
     sections: [
@@ -1104,7 +1104,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "What a sale looks like with us",
         body: [
-          "If someone has moved into the empty house without permission, read [squatters and unauthorized occupants in Idaho](/guides/squatters-and-unauthorized-occupants-in-idaho) before anything else. We buy vacant houses in any condition, including ones that have sat empty for years with the contents still inside. Send the address or call (208) 779-4247. Nothing has to be cleared, cleaned or repaired. The sale closes through a local title company on the date you choose. We buy with our own capital, so there is no lender to wait on, and three weeks is realistic.",
+          "If you live outside Idaho, [selling an Idaho house from out of state](/guides/selling-an-idaho-house-from-out-of-state) covers powers of attorney and notarizing from elsewhere. If someone has moved into the empty house without permission, read [squatters and unauthorized occupants in Idaho](/guides/squatters-and-unauthorized-occupants-in-idaho) before anything else. We buy vacant houses in any condition, including ones that have sat empty for years with the contents still inside. Send the address or call (208) 779-4247. Nothing has to be cleared, cleaned or repaired. The sale closes through a local title company on the date you choose. We buy with our own capital, so there is no lender to wait on, and three weeks is realistic.",
         ],
       },
       {

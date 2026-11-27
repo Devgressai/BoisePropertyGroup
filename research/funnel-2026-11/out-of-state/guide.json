@@ -1,0 +1,157 @@
+{
+  "guide": {
+    "slug": "selling-an-idaho-house-from-out-of-state",
+    "title": "Selling an Idaho House From Out of State",
+    "h1": "Selling an Idaho house while you live somewhere else",
+    "description": "What Idaho law says about signing a deed out of state, remote notarization, powers of attorney, Idaho income tax for nonresidents and the homeowner's exemption.",
+    "cluster": "closing",
+    "published": "2026-11-26",
+    "updated": "2026-11-26"
+  },
+  "content": {
+    "intro": [
+      "Idaho law lets a deed signed and acknowledged in another state or country be recorded in Idaho, and it allows an Idaho notary to notarize a signature over live audio and video for a signer located elsewhere. An agent can also sign under a power of attorney, but Idaho Code 55-806 says the deed cannot be recorded until the power of attorney is recorded in the same county office. Idaho taxes a nonresident's income from Idaho sources, and the statute counts the sale of Idaho real property as an Idaho source.",
+      "This page describes what the statutes and agencies say. It is not legal or tax advice and it is not applied to your situation. We are a direct buyer of property. We cannot tell you whether a document is valid, whether you owe tax, or which signing method your closing will use. An Idaho attorney, a tax professional and the title company handling your closing can answer those questions."
+    ],
+    "sections": [
+      {
+        "heading": "Can I sign the deed where I live now?",
+        "body": [
+          "Idaho's recording statute allows it. Under Idaho Code 55-805, an instrument must be acknowledged by the person who signs it before it can be recorded, unless a statute expressly provides otherwise. The same section says an instrument executed and acknowledged in another state or territory, or in a foreign country, according to the law of the place where the acknowledgment was taken, is entitled to record.",
+          "Idaho's notary law says the same thing from the other side. Idaho Code 51-111 gives a notarial act performed in another state the same effect under Idaho law as if an Idaho notary had performed it, as long as it was performed by a notary public of that state, a judge, clerk or deputy clerk of a court of that state, or another individual that state's law authorizes.",
+          "Idaho Code 51-106 requires the signer to appear personally before the notary, and 51-105 requires a notary taking an acknowledgment to determine, from personal knowledge or satisfactory evidence, that the person appearing is who they claim to be and that the signature is theirs.",
+          "For a seller abroad, Idaho Code 51-114 gives a notarial act performed under the authority of a foreign state the same effect as one performed by an Idaho notary. It says an apostille in the form prescribed by the Hague Convention of October 5, 1961, issued by a country that is party to the convention, conclusively establishes that the notarial officer's signature is genuine and that the officer holds the office indicated.",
+          "Whichever way the deed is signed, Idaho Code 55-808 says it is recorded by the recorder of the county where the property sits. For a house in Ada County, that is the Ada County Recorder."
+        ],
+        "claims": [
+          "cl-acknowledgment-required-to-record",
+          "os-notarial-act-another-state-same-effect",
+          "cl-notary-personal-appearance",
+          "cl-notary-acknowledgment-identity",
+          "os-foreign-notarial-act-apostille",
+          "cl-record-in-county-where-situated"
+        ]
+      },
+      {
+        "heading": "Can I sign with an Idaho notary over video?",
+        "body": [
+          "Idaho law permits it. Idaho Code 51-114A lets a remotely located individual satisfy the personal-appearance requirement by appearing before a notary public through communication technology, which the section defines as a device or process that lets the notary and the signer communicate with each other simultaneously by sight and sound.",
+          "The section sets conditions on the notary, who must be located in Idaho. The notary must have personal knowledge of the signer's identity, satisfactory evidence of identity from a credible witness, or identity confirmed through at least two different types of identity proofing. The notary must be able to reasonably confirm that the record in front of them is the same record the signer signed, and the notary or someone acting for them must make an audio-visual recording of the act.",
+          "The certificate on the document must indicate that the act was performed using communication technology. The recording must be kept for at least ten years after it is made, or longer if a rule requires. Before a notary's first remote act, the notary must notify the Idaho Secretary of State and identify the technology.",
+          "The Secretary of State says a commissioned notary becomes authorized by filing an \"Addition of Electronic or Remote Online Notary\" amendment to their account on sosbiz.idaho.gov, and that remote online notarization technology must comply with IDAPA 34.07.01.",
+          "A signer outside the United States faces extra conditions. The record must relate to a matter before a U.S. court or government body, or involve property within U.S. jurisdiction or a transaction substantially connected with the United States, and signing must not be prohibited by the country where the signer is located.",
+          "The statute permits remote notarization. It does not require any title company or lender to offer it. Ask the closing agent early whether your closing can use it."
+        ],
+        "claims": [
+          "cl-remote-notarization-satisfies-appearance",
+          "os-ron-idaho-notary-conditions",
+          "os-ron-certificate-and-recording-retention",
+          "os-sos-remote-online-notary-registration"
+        ]
+      },
+      {
+        "heading": "Can someone in Idaho sign for me with a power of attorney?",
+        "body": [
+          "Idaho's Uniform Power of Attorney Act, Idaho Code title 15 chapter 12, governs this. Under 15-12-105, a power of attorney must be signed by the principal, or by another individual in the principal's conscious presence at the principal's direction. The signature is presumed genuine if the principal acknowledges it before a notary public or another individual authorized to take acknowledgments.",
+          "A power of attorney signed outside Idaho can be valid in Idaho. Under 15-12-106(3), it is valid if its execution complied with the law of the jurisdiction that determines its meaning and effect, or with the federal requirements for a military power of attorney. Unless another statute says otherwise, a photocopy or electronically transmitted copy has the same effect as the original.",
+          "What the agent can do depends on the document. Under 15-12-204, unless the power of attorney says otherwise, language granting general authority over real property lets the agent sell, exchange, convey with or without covenants or warranties, quitclaim, release or otherwise dispose of an interest in real property.",
+          "Under 15-12-104, a power of attorney created under the Act is durable unless it expressly says it ends if the principal becomes incapacitated.",
+          "Community property has its own rule. Idaho Code 32-912 allows one spouse, by express power of attorney, to give the other complete power to sell, convey or encumber community property. Whether a particular document grants enough authority for your sale is a question for an attorney and the title company."
+        ],
+        "claims": [
+          "os-poa-execution-signature-presumed-genuine",
+          "os-poa-out-of-state-execution-valid",
+          "os-poa-general-real-property-authority-to-sell",
+          "os-poa-durable-unless-stated",
+          "dv-power-of-attorney-exception"
+        ]
+      },
+      {
+        "heading": "Does the power of attorney have to be recorded?",
+        "body": [
+          "Yes, before the deed the agent signs can be recorded. Idaho Code 55-806 says an instrument executed by an attorney in fact must not be recorded until the power of attorney authorizing it is filed for record in the same office. That requirement sits in Idaho's recording chapter, not in the Uniform Power of Attorney Act.",
+          "Revoking a recorded power has its own rule. Idaho Code 55-814 says a recorded instrument containing a power to convey or execute instruments affecting real property is not revoked by any act of the person who gave it, unless the revocation is also acknowledged or proved, certified and recorded in the same office.",
+          "The Ada County Recorder's Office says it has no blank forms and points people to title companies for the forms to record. It accepts original documents in person, by mail, or by eRecording, which is available through title companies.",
+          "[How a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho) explains recording and the title company's part in a sale."
+        ],
+        "claims": [
+          "os-poa-must-be-recorded-before-deed",
+          "os-poa-revocation-must-be-recorded",
+          "sp-rec-ada-erecording-title-companies"
+        ]
+      },
+      {
+        "heading": "Will the title company accept a power of attorney?",
+        "body": [
+          "Idaho law sets a timeline, with exceptions. Idaho Code 15-12-120 says a person presented with an acknowledged power of attorney must either accept it or request an agent's certification, a translation or an opinion of counsel within seven business days. It may not require an additional or different form of power of attorney for authority granted in the one presented.",
+          "The same section lists cases where a person is not required to accept. They include a good-faith belief that the power is not valid or that the agent lacks authority for the act requested.",
+          "Under 15-12-119, a person who in good faith accepts an acknowledged power of attorney may rely on the presumption that the signature is genuine. A person asked to accept one may request, and rely on, the agent's certification under penalty of perjury of any factual matter about the principal, the agent or the power of attorney. If the person gives the reason in writing, it may also request an opinion of counsel on a question of law.",
+          "A power of attorney ends when the principal dies. Idaho Code 15-12-110 lists death among the events that terminate it, along with revocation and the document's own terms. If the owner has died, [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers selling through an estate."
+        ],
+        "claims": [
+          "os-poa-acceptance-seven-business-days",
+          "os-poa-good-faith-reliance-and-certification",
+          "os-poa-terminates-on-death"
+        ]
+      },
+      {
+        "heading": "Does Idaho tax my gain if I no longer live there?",
+        "body": [
+          "Idaho taxes a nonresident's Idaho-source income, and the statute treats a sale of Idaho real property as an Idaho source. Idaho Code 63-3026A says that for nonresident individuals, Idaho taxable income includes only the parts derived from or related to sources within Idaho. It counts income from the ownership or disposition of any interest in real property located in Idaho as Idaho-source income.",
+          "The Idaho State Tax Commission says gross income includes gains from property sales. It says nonresidents must file if their total gross income from Idaho sources is more than $2,500, and it identifies Form 43 as the return for nonresidents with Idaho-source income and for part-year residents.",
+          "If you moved during the year of the sale, the Tax Commission describes a part-year resident as including an Idaho resident who changed domicile to or from Idaho during the tax year. For a part-year resident, Idaho taxes all income received while living in Idaho and any income from Idaho sources received while not living in Idaho. Which status applies to you is a question for a tax professional.",
+          "The federal home-sale exclusion has its own tests. IRS Topic 701 says a seller may qualify to exclude up to $250,000 of gain, or up to $500,000 on a joint return. In general the seller must have owned the home for at least 24 months and used it as a residence for at least 24 months within the 5 years ending on the date of sale.",
+          "This page does not cover state withholding at closing or a credit from your new home state. Ask the title company and a tax professional. [Taxes when you sell a house in Idaho](/guides/taxes-when-you-sell-a-house-in-idaho) covers the Idaho capital gains deduction and basis."
+        ],
+        "claims": [
+          "cg-id-3026a-nonresident-real-property-source",
+          "cg-istc-residency-what-idaho-taxes",
+          "cg-istc-idaho-source-income-property",
+          "os-istc-form-43-nonresident-return",
+          "os-istc-part-year-resident-taxes",
+          "cg-irs-exclusion-250k-500k",
+          "cg-irs-ownership-and-use-tests"
+        ]
+      },
+      {
+        "heading": "Does FIRPTA withholding apply to my sale?",
+        "body": [
+          "Only if the seller is a foreign person under federal tax law. The IRS says a disposition of a U.S. real property interest by a foreign person is subject to withholding under the Foreign Investment in Real Property Tax Act. The buyer generally must withhold 15% of the amount realized, and in most cases the buyer is the withholding agent and may be held liable for failing to withhold.",
+          "The IRS lists as an exception a seller's certification, under penalties of perjury, that the seller is not a foreign person, with the seller's name, U.S. taxpayer identification number and home address. It may be given to a qualified substitute such as the title company responsible for closing.",
+          "Separately, IRS instructions require the Form 1099-S filer to request the seller's taxpayer identification number no later than closing. Whether you are a foreign person is a question for a tax professional."
+        ],
+        "claims": [
+          "cl-firpta-buyer-withholds-15-percent",
+          "cl-firpta-non-foreign-certification",
+          "cl-1099s-tin-requested-at-closing"
+        ]
+      },
+      {
+        "heading": "What happens to my homeowner's exemption when I move out?",
+        "body": [
+          "Idaho's property-tax homeowner's exemption depends on the house being your primary home. Idaho Code 63-602G allows it only if the homestead is owner-occupied and used as the owner's primary dwelling place. The section defines that as the single place where an owner has a true, fixed and permanent home and principal establishment, and to which the owner intends to return when absent.",
+          "An owner needs to apply only once while they received the exemption the previous year on a valid application and still occupy the same homestead as their primary dwelling. The Ada County Assessor says that once approved, you need to reapply only if you move or if ownership changes, and that taxpayers can qualify for an exemption on only one home.",
+          "If you claim the exemption on a new home after January 1 while still receiving it on another property from a prior tax year, 63-602G says the exemption on the other property is removed the following tax year. A first instance of claiming more than one homestead exemption carries a penalty equal to the recovered tax, and a further violation within seven years is a misdemeanor.",
+          "Whether your move or a rental ends the exemption on your Idaho house is a question for the Ada County Assessor. When the house sells, the Assessor says the new owner must file their own application."
+        ],
+        "claims": [
+          "os-homestead-requires-primary-dwelling",
+          "pt-homestead-apply-once-conditions",
+          "ada-homeowners-exemption-deadline",
+          "os-ada-exemption-one-home",
+          "pt-homestead-new-claim-removes-old",
+          "pt-homestead-double-claim-penalty",
+          "pt-ada-new-owner-must-apply"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. If you live out of state, tell us how you plan to sign when you [contact us](/contact), so the title company can plan for it.",
+          "We are not the right route for every seller. If the house is in good shape and you can wait, listing it on the open market may bring you more than a direct sale. We cannot draft or review a power of attorney, advise you on Idaho or federal tax, or arrange a notary for you. An Idaho attorney, a tax professional and the title company can."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

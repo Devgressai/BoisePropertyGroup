@@ -1,0 +1,277 @@
+{
+  "sources": [
+    {
+      "id": "usc-42-4012a",
+      "title": "42 U.S.C. § 4012a — Flood insurance purchase and compliance requirements and escrow accounts",
+      "publisher": "U.S. Government Publishing Office (govinfo) — United States Code, 2023 edition",
+      "organizationType": "federal-government",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap50-subchapI-sec4012a.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "flood",
+        "insurance",
+        "financing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2014",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — official U.S. Code text (2023 edition) from GPO govinfo, raw HTML cached. Latest amendment listed in the Amendments note is 2014 (Pub. L. 113-89). Later supplements were not checked, so not marked statutory. uscode.house.gov returned 404 for the prelim URL tried.",
+      "stalenessRisk": "LOW — federal statute; re-check the current U.S. Code edition before relying on it.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-usc-4012a-regulated-lenders",
+        "fz-usc-4012a-federal-agency-lenders-and-detached"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "usc-42-4104a",
+      "title": "42 U.S.C. § 4104a — Notification to flood insurance purchasers of special flood hazards",
+      "publisher": "U.S. Government Publishing Office (govinfo) — United States Code, 2023 edition",
+      "organizationType": "federal-government",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap50-subchapIII-sec4104a.htm",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "flood",
+        "insurance",
+        "financing",
+        "disclosure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — official U.S. Code text (2023 edition) from GPO govinfo, raw HTML cached. Section amended generally in 1994 (Pub. L. 103-325). The implementing regulations (e.g. 12 CFR 22.9) were not read.",
+      "stalenessRisk": "LOW — federal statute; re-check the current U.S. Code edition before relying on it.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-usc-4104a-lender-notice-to-purchaser"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "floodsmart-what-is-my-flood-zone",
+      "title": "What is My Flood Zone? — FloodSmart (National Flood Insurance Program)",
+      "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+      "organizationType": "federal-government",
+      "url": "https://www.floodsmart.gov/flood-zones-and-maps/what-is-my-flood-zone",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "flood",
+        "maps",
+        "insurance"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "FEMA's official NFIP consumer site, raw HTML cached via fetch-source.mjs. Plain-language guidance, not regulation.",
+      "stalenessRisk": "MEDIUM — agency web copy; re-check wording before republishing.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-floodsmart-find-map-msc-or-local-administrator",
+        "fz-floodsmart-a-zones-high-risk-x-zones-recommended",
+        "fz-floodsmart-loma-lomr-online"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "floodsmart-eligibility",
+      "title": "Eligibility — Who's eligible for NFIP flood insurance? — FloodSmart",
+      "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+      "organizationType": "federal-government",
+      "url": "https://www.floodsmart.gov/get-insured/eligibility",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "flood",
+        "insurance",
+        "financing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "FEMA's official NFIP consumer site, raw HTML cached via fetch-source.mjs. Plain-language guidance; the statutory purchase rule is 42 U.S.C. 4012a.",
+      "stalenessRisk": "MEDIUM — agency web copy; re-check wording before republishing.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-floodsmart-sfha-government-backed-required",
+        "fz-floodsmart-disaster-aid-requirement-runs-with-property"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "floodsmart-agents-faq",
+      "title": "Answers to Some of Your Clients' Most Frequently Asked Questions — FloodSmart for agents (March 2024)",
+      "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+      "organizationType": "federal-government",
+      "url": "https://agents.floodsmart.gov/articles/answers-some-your-clients-most-frequently-asked-questions",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "flood",
+        "insurance",
+        "closing"
+      ],
+      "publicationDate": "2024-03",
+      "updatedDate": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "FEMA's NFIP site for insurance agents, raw HTML cached via fetch-source.mjs. Article dated March 2024. Guidance, not the policy contract.",
+      "stalenessRisk": "MEDIUM — agency article; NFIP rules can change; re-check before republishing.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-nfip-policy-transfers-to-buyer"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "fema-nfip-qa-real-estate-professionals-2025",
+      "title": "National Flood Insurance Program Questions & Answers: Flood Insurance (brochure for real estate professionals, 08-2025)",
+      "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+      "organizationType": "federal-government",
+      "url": "https://agents.floodsmart.gov/sites/default/files/media/document/2025-09/questions-answers-real-estate-professionals-brochure-08-2025.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "flood",
+        "insurance",
+        "closing"
+      ],
+      "publicationDate": "2025-08",
+      "updatedDate": null,
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "FEMA NFIP brochure (PDF) cached via fetch-source.mjs and extracted with scripts/research/extract-pdf-text.mjs (pdftotext -layout) to data/idaho/raw/extracted/7320d719fe4b3735.txt. Two-column layout: some sentences interleave with the other column in the extract; only contiguous passages are quoted.",
+      "stalenessRisk": "MEDIUM — brochure revised periodically; re-check before republishing.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-nfip-transfer-no-wait-brochure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-9-1b-44",
+      "title": "Boise City Code 9-1B-44 — IRC amendment, Section R322.1, Flood-Resistant Construction, General",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-37429",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "flood",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Boise City Code Title 9 chapter 1B (residential building code amendments), page shows '2026 S-32 (current)'. The URL is the 9-1B-43 node; the captured page renders the surrounding sections including 9-1B-44. Captured as rendered DOM via local headless Chrome (--dump-dom) with a normal desktop user agent, because codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs; cached at the path fetch-source.mjs would use, with meta.json fetchedVia chrome-headless-dump-dom. American Legal's page carries a disclaimer that the online code may not reflect the most current legislation.",
+      "stalenessRisk": "MEDIUM — building code amendments change with code adoption cycles.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-boise-building-code-defers-to-development-code-flood-regs"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-10-1-5",
+      "title": "Eagle City Code 10-1-5 — Flood Control: Rules and Definitions",
+      "publisher": "City of Eagle (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-5353",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "flood",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2019",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Eagle City Code Title 10 (Flood Control), definitions section; page shows '2026 S-23 (current)'; history note (Ord. 115, 5-12-1987; amd. Ord. 485, 7-24-2007; Ord. 700A, 3-11-2014; Ord. 815, 7-23-2019). Linked from the city's Floodplain Information page as 'City of Eagle Floodplain Ordinance'. Captured as rendered DOM via local headless Chrome (--dump-dom) with a normal desktop user agent, because codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs; cached at the path fetch-source.mjs would use, with meta.json fetchedVia chrome-headless-dump-dom. American Legal's page carries a disclaimer that the online code may not reflect the most current legislation.",
+      "stalenessRisk": "MEDIUM — re-check after any Eagle flood ordinance amendment.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-eagle-substantial-improvement-40-percent",
+        "fz-eagle-residential-elevation-standards"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-10-1-6",
+      "title": "Eagle City Code 10-1-6 — Basis for Special Flood Hazard Areas",
+      "publisher": "City of Eagle (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-5412",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "flood",
+        "maps"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Adopts the Ada County FIS dated June 19, 2020 (history note ends Ord. 828, 5-26-2020). Captured as rendered DOM via local headless Chrome (--dump-dom) with a normal desktop user agent, because codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs; cached at the path fetch-source.mjs would use, with meta.json fetchedVia chrome-headless-dump-dom. American Legal's page carries a disclaimer that the online code may not reflect the most current legislation.",
+      "stalenessRisk": "MEDIUM — changes whenever FEMA issues a new countywide study.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-eagle-fis-dated-june-19-2020"
+      ],
+      "entitiesSupported": [
+        "city:eagle",
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-10-1-8-6",
+      "title": "Eagle City Code 10-1-8-6 — Flood Damage Reduction: Specific Standards",
+      "publisher": "City of Eagle (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-5457",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "flood",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Residential and nonresidential elevation standards. History notes on the page run to Ord. 949, 7-22-2025. Captured as rendered DOM via local headless Chrome (--dump-dom) with a normal desktop user agent, because codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs; cached at the path fetch-source.mjs would use, with meta.json fetchedVia chrome-headless-dump-dom. American Legal's page carries a disclaimer that the online code may not reflect the most current legislation.",
+      "stalenessRisk": "MEDIUM — re-check after any Eagle flood ordinance amendment.",
+      "accessedDate": "2026-11-26",
+      "claimsSupported": [
+        "fz-eagle-residential-elevation-standards"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

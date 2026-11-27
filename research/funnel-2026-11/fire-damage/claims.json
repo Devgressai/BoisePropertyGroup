@@ -1,0 +1,400 @@
+{
+  "claims": [
+    {
+      "id": "fd-form-q5-specify-problems",
+      "claim": "Question 5 of the seller property disclosure form printed in Idaho Code 55-2508 asks the seller to specify problems with a list of items: basement water, foundation, roof condition and age, well, septic system, plumbing, drainage, electrical and heating.",
+      "quotedLanguage": "5. Specify problems with the following: Basement water Foundation Roof condition and age",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "property-condition"
+      ],
+      "sourceIds": [
+        "idcode-55-2508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The full list on the form is: Basement water, Foundation, Roof condition and age, Well (type) ... problem, Septic system (type) ... problem, Plumbing, Drainage, Electrical, Heating. Only the first three items are in the quote because the well and septic lines carry dotted leaders. The form has no line that names fire, smoke or water damage as such. Do not say the form asks about fire; say which listed items a fire or water loss can touch, and let the seller and an attorney decide what to write."
+    },
+    {
+      "id": "fd-form-q7-hazardous-materials-pests",
+      "claim": "Question 7 of the Idaho statutory disclosure form asks whether the seller is aware of any hazardous materials or pest infestations on the property.",
+      "quotedLanguage": "7. Are you aware of any hazardous materials or pest infestations on the property?",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "property-condition"
+      ],
+      "sourceIds": [
+        "idcode-55-2508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The form does not define hazardous materials. Never say mold, soot or fire debris is or is not a hazardous material under the form; that is a judgment for the seller and an attorney."
+    },
+    {
+      "id": "fd-form-no-greater-knowledge-inaccessible-areas",
+      "claim": "The purpose statement on the Idaho statutory disclosure form says that, other than having lived at or owned the property, the seller has no greater knowledge than a careful inspection by the buyer could obtain, and that unless otherwise advised the seller has not inspected generally inaccessible areas such as the foundation or roof.",
+      "quotedLanguage": "Other than having lived at or owning the property, the Seller possesses no greater knowledge than that which could be obtained upon a careful inspection of the property by the potential buyer. Unless otherwise advised, the Seller has not conducted any inspection of generally inaccessible areas such as the foundation or roof.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "disclosure",
+        "inspections"
+      ],
+      "sourceIds": [
+        "idcode-55-2508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Form text, not a liability shield. It does not let a seller leave out a fire or water loss the seller actually knows about; 55-2507 (actual knowledge), 55-2516 (good faith) and 55-2517 (damages) still apply."
+    },
+    {
+      "id": "fd-idcode-41-1329-unfair-claim-practices",
+      "claim": "Idaho Code 41-1329 makes certain insurer acts or omissions, when committed intentionally or with such frequency as to indicate a general business practice, an unfair or deceptive act or practice in the business of insurance. The list includes failing to acknowledge and act reasonably promptly on claim communications, refusing to pay claims without a reasonable investigation, failing to affirm or deny coverage within a reasonable time after proof of loss statements are completed, not attempting in good faith to settle promptly and fairly where liability has become reasonably clear, and failing to promptly give a reasonable explanation for a denial or compromise offer.",
+      "quotedLanguage": "committing or performing any of the following acts or omissions intentionally, or with such frequency as to indicate a general business practice shall be deemed to be an unfair method of competition or an unfair or deceptive act or practice in the business of insurance: (1) Misrepresenting pertinent facts or insurance policy provisions relating to coverages at issue; (2) Failing to acknowledge and act reasonably promptly upon communications with respect to claims arising under insurance policies; ... (4) Refusing to pay claims without conducting a reasonable investigation based upon all available information; (5) Failing to affirm or deny coverage of claims within a reasonable time after proof of loss statements have been completed; (6) Not attempting in good faith to effectuate prompt, fair and equitable settlements of claims in which liability has become reasonably clear; ... (14) Failing to promptly provide a reasonable explanation of the basis in the insurance policy in relation to the facts or applicable law for denial of a claim or for the offer of a compromise settlement.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "sourceIds": [
+        "idcode-41-1329"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[41-1329, added 1977, ch. 218, sec. 2, p. 655; am. 1987, ch. 278, sec. 12, p. 583.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "TRAP: the statute sets NO number of days. 'Reasonably promptly' and 'reasonable time' are the words; never convert them to a deadline. The trigger is 'intentionally, or with such frequency as to indicate a general business practice', so one slow claim is not automatically a violation. The statute defines prohibited practices (enforced through 41-1302 by the Department); it does not say a homeowner may sue under it. Never say it gives a private right of action, and never apply it to a reader's claim."
+    },
+    {
+      "id": "fd-idcode-41-1839-attorney-fees-thirty-days",
+      "claim": "Idaho Code 41-1839 provides that an insurer that fails to pay a person entitled to payment within thirty days after proof of loss has been furnished as the policy provides, the amount justly due, must in any later court action or arbitration on the policy pay such further amount as the court adjudges reasonable as attorney's fees; no fees may be recovered if a tender of the full amount justly due was made beforehand and deposited in court, or if no amount is found justly due.",
+      "quotedLanguage": "fails to pay a person entitled thereto within thirty (30) days after proof of loss has been furnished as provided in such policy, certificate or contract ... the amount that person is justly due under such policy, certificate or contract shall in any action thereafter commenced against the insurer in any court in this state, or in any arbitration for recovery under the terms of the policy, certificate or contract, pay such further amount as the court shall adjudge reasonable as attorney's fees in such action or arbitration. ... if it is determined in such action or arbitration that no amount is justly due, then no such attorney's fees may be recovered.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "sourceIds": [
+        "idcode-41-1839"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[41-1839, added 1961, ch. 330, sec. 431, p. 645; am. 1965, ch. 105, sec. 1, p. 191; am. 1996, ch. 384, sec. 1, p. 1307; am. 1996, ch. 385, sec. 1, p. 1308; am. 2010, ch. 251, sec. 1, p. 641; am. 2013, ch. 257, sec. 1, p. 633.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "TRAP: this is NOT a deadline for the insurer to pay a claim. It is an attorney's-fee rule that applies only in a later lawsuit or arbitration, measured from proof of loss 'as provided in such policy'. Do not write 'insurers must pay within 30 days'. The 60-day branch is for uninsured/underinsured motorist coverage and is irrelevant here. Not legal advice; point to an attorney."
+    },
+    {
+      "id": "fd-doi-replacement-cost-vs-actual-cash-value",
+      "claim": "The Idaho Department of Insurance tells policyholders to ask the claims adjuster whether the policy provides Replacement Cost or Actual Cash Value coverage, and explains that Actual Cash Value is replacement cost minus depreciation, the value of the item at the time of the loss.",
+      "quotedLanguage": "Be sure to ask your claims adjuster whether your policy provides coverage for Replacement Cost or Actual Cash Value . Replacement Cost is the cost to replace or rebuild an item of similar quality using materials and goods available after the loss occurs and without subtracting for depreciation. ... Actual Cash Value is calculated by subtracting the depreciation from the replacement cost and is the value of the item at the time of the loss, not what it costs to replace it with a similar, brand new item.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "sourceIds": [
+        "iddoi-home-renters-claims"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Department guidance, not policy terms. The guide never says which coverage a reader has."
+    },
+    {
+      "id": "fd-doi-acv-first-then-depreciation-after-repairs",
+      "claim": "The Idaho Department of Insurance says that where a policy provides Replacement Cost coverage, it is common for the insurer to pay the Actual Cash Value of the loss up front, and that once repairs are completed or items replaced the policyholder should receive payment of the depreciated amount.",
+      "quotedLanguage": "If your policy provides Replacement Cost coverage, it is common that your insurance company will pay you the Actual Cash Value of your loss up front. Then, once you have completed the repairs or replaced the damaged items, you should receive payment for the depreciated amount (replacement cost minus actual cash value).",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims",
+        "sale-decision"
+      ],
+      "sourceIds": [
+        "iddoi-home-renters-claims"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Seller-relevant because a sale before repairs may affect the second payment. The Department does NOT say what happens to the depreciation holdback if the house is sold unrepaired, and nothing in the guide may suggest it. Say 'common', as the Department does, never 'always'. Tell the reader to ask the insurer."
+    },
+    {
+      "id": "fd-doi-written-coverage-before-repairs",
+      "claim": "The Idaho Department of Insurance advises getting written confirmation of coverage from the insurer before approving any repairs, and reading any contractor's contract carefully before signing it.",
+      "quotedLanguage": "Before you approve any repairs to your damages, be sure to obtain confirmation from your insurance company in writing whether you have coverage.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims",
+        "contractors"
+      ],
+      "sourceIds": [
+        "iddoi-home-renters-claims"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The contract-reading sentence is on the same page: 'Carefully read any contract you receive from a contractor before you sign it.'"
+    },
+    {
+      "id": "fd-doi-document-mitigate-keep-receipts",
+      "claim": "The Idaho Department of Insurance's home claims page says to take photos or video of the damage for the adjuster, if possible before mitigation, not to throw anything out until the adjuster advises, and notes that a property policy often requires the policyholder to mitigate the damage and keep the home from further damage; it says to keep all mitigation receipts for possible reimbursement.",
+      "quotedLanguage": "to record the initial damages for the claims adjuster. If possible, try to do this prior to any damage mitigation (discussed below). Also, it is a good idea to not throw anything out until you have been advised to do so by your claims adjuster. ... often, a property insurance policy will require the policyholder to mitigate the damage and keep the home/property from sustaining additional damage once a loss has occurred. ... keep all receipts for mitigation to submit to your claims adjuster for possible reimbursement.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "sourceIds": [
+        "iddoi-home-renters-claims"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'Often' is the Department's word; whether a particular policy requires mitigation is in the policy. Never state it as a rule."
+    },
+    {
+      "id": "fd-doi-cannot-adjust-claim",
+      "claim": "The Idaho Department of Insurance says it cannot adjust a claim or determine the cause or value of a loss; its role is to ensure the insurer complies with the Idaho Insurance Code and the policy provisions in handling the claim. A policyholder who disagrees with the insurer's initial determination may give the adjuster documentation from the policyholder's own expert.",
+      "quotedLanguage": "The Idaho Department of Insurance does not have the ability to adjust your claim or determine the cause or value of your loss. Our role is to ensure that the insurance company is compliant with the Idaho Insurance Code and your policy provisions in the handling of your claim. If you do not agree with the insurance company's initial determination of the cause or value of your loss, you have the option to provide documentation from your expert that supports your expert's professional opinion regarding the value and/or cause of your loss to your claims adjuster for review and consideration.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "sourceIds": [
+        "iddoi-home-renters-claims"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Sets the limit of what the Department does. Do not imply the Department will get a reader more money."
+    },
+    {
+      "id": "fd-doi-public-adjusters-licensed",
+      "claim": "The Idaho Department of Insurance says public adjusters who represent an insured in property claims must be licensed and bonded by the state of Idaho, and that reputable licensed adjusters typically will not also do the repair work or act as the contractor, nor solicit door to door.",
+      "quotedLanguage": "Public adjusters who represent an insured in their property claims are required to be licensed and bonded by the state of Idaho in order to protect consumers. ... Reputable, licensed adjusters typically will NOT also provide the repair work or act as the contractor nor will they engage in door to door solicitation.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims",
+        "scams"
+      ],
+      "sourceIds": [
+        "iddoi-home-renters-claims"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The Department's 2012 consumer alert adds that public adjusters are typically paid a percentage of the settlement; not used in prose."
+    },
+    {
+      "id": "fd-doi-consumer-services-contact",
+      "claim": "In a June 2, 2023 release on its Post-Disaster Claims Guide, the Idaho Department of Insurance said Idahoans having issues with their carrier can contact its Consumer Services team, which can answer questions and help resolve disputes with insurance companies and agents, by calling 208-334-4319 or emailing consumer.affairs@doi.idaho.gov. The same release says an insurance policy is a contract between the policyholder and the insurer containing the terms and conditions of coverage.",
+      "quotedLanguage": "Idahoans who are having issues with their carrier can contact the DOI Consumer Services team. We can answer questions and help consumers resolve disputes with insurance companies and insurance agents. Consumers can file a claim online or call 208-334-4319 or email consumer.affairs@doi.idaho.gov",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "sourceIds": [
+        "iddoi-post-disaster-claims-guide-release"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Dated 2023 release; the phone number may change. The claims page lists the Consumer Affairs team at (208) 334-4250 and a consumer hotline 1-800-721-3272. The guide uses the release's number and dates it. 'File a claim online' in the release means a complaint, not an insurance claim; do not repeat that wording."
+    },
+    {
+      "id": "fd-doi-2012-structural-payment-to-mortgage-holder",
+      "claim": "A December 2012 Idaho Department of Insurance consumer alert on rebuilding after a loss says a claim may be paid in multiple checks, that the payment for contents is made out to the policyholder, and that if there is a mortgage on the home the payment for structural damage may be payable to the policyholder and the mortgage holder, who may put the money into an escrow account and pay for repairs as the work is completed.",
+      "quotedLanguage": "The payment for the contents or personal property will be made out to you. However, if you have a mortgage on your home, the payment for structural damage may be payable to you and your mortgage holder. Lenders may put that money into an escrow account and pay for the repairs as the work is completed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "mortgage",
+        "claims"
+      ],
+      "sourceIds": [
+        "iddoi-rebuilding-after-a-loss-alert"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "MEDIUM: the alert is dated December 2012 and is still served from the Department's site. 'May' throughout; never say the lender will hold the money. Pair with the CFPB claim, which says the same thing about mortgage agreements."
+    },
+    {
+      "id": "fd-doi-2012-time-requirement-filing-claim",
+      "claim": "The same Idaho Department of Insurance consumer alert says most insurance companies have a time requirement for filing a claim, and tells policyholders to photograph or video the damage before moving debris or removing damaged belongings.",
+      "quotedLanguage": "Most insurance companies have a time requirement for filing a claim.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "sourceIds": [
+        "iddoi-rebuilding-after-a-loss-alert"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "No number of days is given. The time limit is in the policy. Never state a deadline."
+    },
+    {
+      "id": "fd-cfpb-insurance-check-mortgage-company",
+      "claim": "The CFPB says some mortgage agreements require insurance checks to be made out to both the homeowner and the mortgage company or servicer, which may need to approve before the check can be cashed; typically the servicer will agree to release a portion before work begins so a contractor can be hired. It advises checking with the insurer and the servicer about how and when insurance funds will be distributed before hiring a contractor.",
+      "quotedLanguage": "Some mortgage agreements require any insurance checks to be made out to both you and the mortgage company or servicer. This may affect your ability to cash insurance checks as that company may need to approve it before you can cash the insurance check. Typically, your mortgage company or servicer will agree to release a portion of the settlement money before work begins so you can hire a contractor. What to do: Before hiring a contractor to begin repairs, check with your insurance company and your mortgage company or servicer about how and when the insurance funds will be distributed.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "insurance",
+        "mortgage"
+      ],
+      "sourceIds": [
+        "cfpb-nine-financial-problems-after-disaster"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "CFPB blog post dated February 23, 2018 (archived-style blog, still served). MEDIUM for age. 'Some mortgage agreements', not all. The CFPB does not say what happens to held insurance money when the house is sold; nothing in the guide may suggest it. Ask the servicer."
+    },
+    {
+      "id": "fd-cfpb-still-pay-mortgage-after-disaster",
+      "claim": "The CFPB says that after a disaster a homeowner still has to pay the mortgage, and lists three steps to start recovery when a home is damaged or destroyed: call the insurance company to file a claim, apply for aid from government organizations, and contact the mortgage servicer to say what happened and, if payments cannot be made, ask to adjust them.",
+      "quotedLanguage": "After a disaster you still have to pay your mortgage. However, there are steps you can take to get help. Start by contacting your insurance company to file a claim. ... Step 1 : Call your insurance company to file a claim. Step 2 : Apply for aid from government organizations. Step 3 : Contact your mortgage servicer and let them know what happened. If you can't make your payments, ask to adjust your payments so you don't fall behind and incur fees or face foreclosure.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "mortgage",
+        "insurance"
+      ],
+      "sourceIds": [
+        "cfpb-house-damaged-after-disaster"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Written for disasters generally; it applies by its words to a home 'damaged or destroyed in a disaster'. A single house fire is not necessarily a declared disaster; do not say federal disaster aid is available for one. Use only the 'still have to pay' and 'contact your servicer' points."
+    },
+    {
+      "id": "fd-boise-impact-fee-fire-rebuild-exemption",
+      "claim": "The City of Boise lists, among development activities its City Council exempts from impact fees, rebuilding the same amount of floor space of a structure destroyed by fire or other catastrophe, provided the structure is rebuilt and ready for occupancy within two years of its destruction.",
+      "quotedLanguage": "Rebuilding the same amount of floor space of a structure which was destroyed by fire or other catastrophe, providing the structure is rebuilt and ready for occupancy within two (2) years of its destruction",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "fees",
+        "development",
+        "rebuild"
+      ],
+      "sourceIds": [
+        "boise-impact-fees"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Boise city limits only. Supplies the verbatim fire language that the registry claim boise-impact-fee-replacement-exemption paraphrases but does not quote. Star has a matching exemption in its own code (star-impact-fee-replacement-exemption). No source was found for Meridian, Eagle, Kuna, Garden City or unincorporated Ada County; never carry this across a city limit. Who gets the benefit after a sale (seller or buyer who rebuilds) is not addressed by the page."
+    }
+  ]
+}

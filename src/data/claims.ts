@@ -20557,6 +20557,919 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "fd-form-q5-specify-problems",
+    "claim": "Question 5 of the seller property disclosure form printed in Idaho Code 55-2508 asks the seller to specify problems with a list of items: basement water, foundation, roof condition and age, well, septic system, plumbing, drainage, electrical and heating.",
+    "quote": "5. Specify problems with the following: Basement water Foundation Roof condition and age",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure",
+      "property-condition"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2508 — Disclosure form",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]"
+  },
+  {
+    "id": "fd-form-q7-hazardous-materials-pests",
+    "claim": "Question 7 of the Idaho statutory disclosure form asks whether the seller is aware of any hazardous materials or pest infestations on the property.",
+    "quote": "7. Are you aware of any hazardous materials or pest infestations on the property?",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure",
+      "property-condition"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2508 — Disclosure form",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]"
+  },
+  {
+    "id": "fd-form-no-greater-knowledge-inaccessible-areas",
+    "claim": "The purpose statement on the Idaho statutory disclosure form says that, other than having lived at or owned the property, the seller has no greater knowledge than a careful inspection by the buyer could obtain, and that unless otherwise advised the seller has not inspected generally inaccessible areas such as the foundation or roof.",
+    "quote": "Other than having lived at or owning the property, the Seller possesses no greater knowledge than that which could be obtained upon a careful inspection of the property by the potential buyer. Unless otherwise advised, the Seller has not conducted any inspection of generally inaccessible areas such as the foundation or roof.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure",
+      "inspections"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2508 — Disclosure form",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]"
+  },
+  {
+    "id": "fd-idcode-41-1329-unfair-claim-practices",
+    "claim": "Idaho Code 41-1329 makes certain insurer acts or omissions, when committed intentionally or with such frequency as to indicate a general business practice, an unfair or deceptive act or practice in the business of insurance. The list includes failing to acknowledge and act reasonably promptly on claim communications, refusing to pay claims without a reasonable investigation, failing to affirm or deny coverage within a reasonable time after proof of loss statements are completed, not attempting in good faith to settle promptly and fairly where liability has become reasonably clear, and failing to promptly give a reasonable explanation for a denial or compromise offer.",
+    "quote": "committing or performing any of the following acts or omissions intentionally, or with such frequency as to indicate a general business practice shall be deemed to be an unfair method of competition or an unfair or deceptive act or practice in the business of insurance: (1) Misrepresenting pertinent facts or insurance policy provisions relating to coverages at issue; (2) Failing to acknowledge and act reasonably promptly upon communications with respect to claims arising under insurance policies; ... (4) Refusing to pay claims without conducting a reasonable investigation based upon all available information; (5) Failing to affirm or deny coverage of claims within a reasonable time after proof of loss statements have been completed; (6) Not attempting in good faith to effectuate prompt, fair and equitable settlements of claims in which liability has become reasonably clear; ... (14) Failing to promptly provide a reasonable explanation of the basis in the insurance policy in relation to the facts or applicable law for denial of a claim or for the offer of a compromise settlement.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-1329 — Unfair claim settlement practices",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch13/sect41-1329/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[41-1329, added 1977, ch. 218, sec. 2, p. 655; am. 1987, ch. 278, sec. 12, p. 583.]"
+  },
+  {
+    "id": "fd-idcode-41-1839-attorney-fees-thirty-days",
+    "claim": "Idaho Code 41-1839 provides that an insurer that fails to pay a person entitled to payment within thirty days after proof of loss has been furnished as the policy provides, the amount justly due, must in any later court action or arbitration on the policy pay such further amount as the court adjudges reasonable as attorney's fees; no fees may be recovered if a tender of the full amount justly due was made beforehand and deposited in court, or if no amount is found justly due.",
+    "quote": "fails to pay a person entitled thereto within thirty (30) days after proof of loss has been furnished as provided in such policy, certificate or contract ... the amount that person is justly due under such policy, certificate or contract shall in any action thereafter commenced against the insurer in any court in this state, or in any arbitration for recovery under the terms of the policy, certificate or contract, pay such further amount as the court shall adjudge reasonable as attorney's fees in such action or arbitration. ... if it is determined in such action or arbitration that no amount is justly due, then no such attorney's fees may be recovered.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-1839 — Allowance of attorney's fees in suits against or in arbitration with insurers",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch18/sect41-1839/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[41-1839, added 1961, ch. 330, sec. 431, p. 645; am. 1965, ch. 105, sec. 1, p. 191; am. 1996, ch. 384, sec. 1, p. 1307; am. 1996, ch. 385, sec. 1, p. 1308; am. 2010, ch. 251, sec. 1, p. 641; am. 2013, ch. 257, sec. 1, p. 633.]"
+  },
+  {
+    "id": "fd-doi-replacement-cost-vs-actual-cash-value",
+    "claim": "The Idaho Department of Insurance tells policyholders to ask the claims adjuster whether the policy provides Replacement Cost or Actual Cash Value coverage, and explains that Actual Cash Value is replacement cost minus depreciation, the value of the item at the time of the loss.",
+    "quote": "Be sure to ask your claims adjuster whether your policy provides coverage for Replacement Cost or Actual Cash Value . Replacement Cost is the cost to replace or rebuild an item of similar quality using materials and goods available after the loss occurs and without subtracting for depreciation. ... Actual Cash Value is calculated by subtracting the depreciation from the replacement cost and is the value of the item at the time of the loss, not what it costs to replace it with a similar, brand new item.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Home & Renters Claims — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/home-renters-insurance/home-renters-claims/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-doi-acv-first-then-depreciation-after-repairs",
+    "claim": "The Idaho Department of Insurance says that where a policy provides Replacement Cost coverage, it is common for the insurer to pay the Actual Cash Value of the loss up front, and that once repairs are completed or items replaced the policyholder should receive payment of the depreciated amount.",
+    "quote": "If your policy provides Replacement Cost coverage, it is common that your insurance company will pay you the Actual Cash Value of your loss up front. Then, once you have completed the repairs or replaced the damaged items, you should receive payment for the depreciated amount (replacement cost minus actual cash value).",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims",
+      "sale-decision"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Home & Renters Claims — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/home-renters-insurance/home-renters-claims/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-doi-written-coverage-before-repairs",
+    "claim": "The Idaho Department of Insurance advises getting written confirmation of coverage from the insurer before approving any repairs, and reading any contractor's contract carefully before signing it.",
+    "quote": "Before you approve any repairs to your damages, be sure to obtain confirmation from your insurance company in writing whether you have coverage.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims",
+      "contractors"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Home & Renters Claims — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/home-renters-insurance/home-renters-claims/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-doi-document-mitigate-keep-receipts",
+    "claim": "The Idaho Department of Insurance's home claims page says to take photos or video of the damage for the adjuster, if possible before mitigation, not to throw anything out until the adjuster advises, and notes that a property policy often requires the policyholder to mitigate the damage and keep the home from further damage; it says to keep all mitigation receipts for possible reimbursement.",
+    "quote": "to record the initial damages for the claims adjuster. If possible, try to do this prior to any damage mitigation (discussed below). Also, it is a good idea to not throw anything out until you have been advised to do so by your claims adjuster. ... often, a property insurance policy will require the policyholder to mitigate the damage and keep the home/property from sustaining additional damage once a loss has occurred. ... keep all receipts for mitigation to submit to your claims adjuster for possible reimbursement.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Home & Renters Claims — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/home-renters-insurance/home-renters-claims/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-doi-cannot-adjust-claim",
+    "claim": "The Idaho Department of Insurance says it cannot adjust a claim or determine the cause or value of a loss; its role is to ensure the insurer complies with the Idaho Insurance Code and the policy provisions in handling the claim. A policyholder who disagrees with the insurer's initial determination may give the adjuster documentation from the policyholder's own expert.",
+    "quote": "The Idaho Department of Insurance does not have the ability to adjust your claim or determine the cause or value of your loss. Our role is to ensure that the insurance company is compliant with the Idaho Insurance Code and your policy provisions in the handling of your claim. If you do not agree with the insurance company's initial determination of the cause or value of your loss, you have the option to provide documentation from your expert that supports your expert's professional opinion regarding the value and/or cause of your loss to your claims adjuster for review and consideration.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Home & Renters Claims — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/home-renters-insurance/home-renters-claims/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-doi-public-adjusters-licensed",
+    "claim": "The Idaho Department of Insurance says public adjusters who represent an insured in property claims must be licensed and bonded by the state of Idaho, and that reputable licensed adjusters typically will not also do the repair work or act as the contractor, nor solicit door to door.",
+    "quote": "Public adjusters who represent an insured in their property claims are required to be licensed and bonded by the state of Idaho in order to protect consumers. ... Reputable, licensed adjusters typically will NOT also provide the repair work or act as the contractor nor will they engage in door to door solicitation.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims",
+      "scams"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Home & Renters Claims — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/home-renters-insurance/home-renters-claims/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-doi-consumer-services-contact",
+    "claim": "In a June 2, 2023 release on its Post-Disaster Claims Guide, the Idaho Department of Insurance said Idahoans having issues with their carrier can contact its Consumer Services team, which can answer questions and help resolve disputes with insurance companies and agents, by calling 208-334-4319 or emailing consumer.affairs@doi.idaho.gov. The same release says an insurance policy is a contract between the policyholder and the insurer containing the terms and conditions of coverage.",
+    "quote": "Idahoans who are having issues with their carrier can contact the DOI Consumer Services team. We can answer questions and help consumers resolve disputes with insurance companies and insurance agents. Consumers can file a claim online or call 208-334-4319 or email consumer.affairs@doi.idaho.gov",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "What to Do After Disaster Strikes Your Home (news release, June 2, 2023) — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/pressrelease/what-to-do-after-disaster-strikes-your-home/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-doi-2012-structural-payment-to-mortgage-holder",
+    "claim": "A December 2012 Idaho Department of Insurance consumer alert on rebuilding after a loss says a claim may be paid in multiple checks, that the payment for contents is made out to the policyholder, and that if there is a mortgage on the home the payment for structural damage may be payable to the policyholder and the mortgage holder, who may put the money into an escrow account and pay for repairs as the work is completed.",
+    "quote": "The payment for the contents or personal property will be made out to you. However, if you have a mortgage on your home, the payment for structural damage may be payable to you and your mortgage holder. Lenders may put that money into an escrow account and pay for the repairs as the work is completed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "mortgage",
+      "claims"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Consumer Alert — Rebuilding After a Loss: Managing the Claims Experience (December 2012) — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/DisplayPDF?Id=1961",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-doi-2012-time-requirement-filing-claim",
+    "claim": "The same Idaho Department of Insurance consumer alert says most insurance companies have a time requirement for filing a claim, and tells policyholders to photograph or video the damage before moving debris or removing damaged belongings.",
+    "quote": "Most insurance companies have a time requirement for filing a claim.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "claims"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Consumer Alert — Rebuilding After a Loss: Managing the Claims Experience (December 2012) — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/DisplayPDF?Id=1961",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-cfpb-insurance-check-mortgage-company",
+    "claim": "The CFPB says some mortgage agreements require insurance checks to be made out to both the homeowner and the mortgage company or servicer, which may need to approve before the check can be cashed; typically the servicer will agree to release a portion before work begins so a contractor can be hired. It advises checking with the insurer and the servicer about how and when insurance funds will be distributed before hiring a contractor.",
+    "quote": "Some mortgage agreements require any insurance checks to be made out to both you and the mortgage company or servicer. This may affect your ability to cash insurance checks as that company may need to approve it before you can cash the insurance check. Typically, your mortgage company or servicer will agree to release a portion of the settlement money before work begins so you can hire a contractor. What to do: Before hiring a contractor to begin repairs, check with your insurance company and your mortgage company or servicer about how and when the insurance funds will be distributed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "insurance",
+      "mortgage"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "9 financial problems after natural disaster and what you can do about them — CFPB blog",
+        "url": "https://www.consumerfinance.gov/about-us/blog/9-financial-problems-after-natural-disasterand-what-you-can-do-about-them/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-cfpb-still-pay-mortgage-after-disaster",
+    "claim": "The CFPB says that after a disaster a homeowner still has to pay the mortgage, and lists three steps to start recovery when a home is damaged or destroyed: call the insurance company to file a claim, apply for aid from government organizations, and contact the mortgage servicer to say what happened and, if payments cannot be made, ask to adjust them.",
+    "quote": "After a disaster you still have to pay your mortgage. However, there are steps you can take to get help. Start by contacting your insurance company to file a claim. ... Step 1 : Call your insurance company to file a claim. Step 2 : Apply for aid from government organizations. Step 3 : Contact your mortgage servicer and let them know what happened. If you can't make your payments, ask to adjust your payments so you don't fall behind and incur fees or face foreclosure.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "mortgage",
+      "insurance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "What do I do if my house was damaged or destroyed, or if I'm unable to make my payment after a disaster? — Ask CFPB",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-do-i-do-if-my-house-was-damaged-or-destroyed-or-if-im-unable-to-make-my-payment-after-a-disaster-en-1521/",
+        "publisher": "Consumer Financial Protection Bureau",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fd-boise-impact-fee-fire-rebuild-exemption",
+    "claim": "The City of Boise lists, among development activities its City Council exempts from impact fees, rebuilding the same amount of floor space of a structure destroyed by fire or other catastrophe, provided the structure is rebuilt and ready for occupancy within two years of its destruction.",
+    "quote": "Rebuilding the same amount of floor space of a structure which was destroyed by fire or other catastrophe, providing the structure is rebuilt and ready for occupancy within two (2) years of its destruction",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "fees",
+      "development",
+      "rebuild"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Impact Fees",
+        "url": "https://www.cityofboise.org/departments/finance/impact-fees/",
+        "publisher": "City of Boise — Finance",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "os-poa-execution-signature-presumed-genuine",
+    "claim": "Under Idaho Code 15-12-105, a power of attorney must be signed by the principal, or in the principal's conscious presence by another individual the principal directs to sign; the signature is presumed genuine if the principal acknowledges it before a notary public or another individual authorized to take acknowledgments.",
+    "quote": "A power of attorney must be signed by the principal or in the principal's conscious presence by another individual directed by the principal to sign the principal's name on the power of attorney ... The signature is presumed to be genuine if the principal acknowledges the signature before a notary public or other individual authorized to take acknowledgments",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-12-105 — Execution of power of attorney",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-105/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-12-105, added 2008, ch. 186, sec. 2, p. 561; am. 2017, ch. 192, sec. 10, p. 455.]"
+  },
+  {
+    "id": "os-poa-durable-unless-stated",
+    "claim": "Idaho Code 15-12-104 says a power of attorney created under the Uniform Power of Attorney Act is durable unless it expressly provides that it is terminated by the incapacity of the principal.",
+    "quote": "A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-12-104 — Power of attorney is durable (Uniform Power of Attorney Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-104/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-12-104, added 2008, ch. 186, sec. 2, p. 561.]"
+  },
+  {
+    "id": "os-poa-out-of-state-execution-valid",
+    "claim": "Under Idaho Code 15-12-106(3), a power of attorney executed outside Idaho is valid in Idaho if, when executed, its execution complied with the law of the jurisdiction that determines its meaning and effect under 15-12-107, or with the federal requirements for a military power of attorney; under 15-12-106(4), unless another statute provides otherwise, a photocopy or electronically transmitted copy of an original power of attorney has the same effect as the original.",
+    "quote": "A power of attorney executed other than in this state is valid in this state if, when the power of attorney was executed, the execution complied with: ... The law of the jurisdiction that determines the meaning and effect of the power of attorney pursuant to section 15-12-107, Idaho Code; or ... The requirements for a military power of attorney pursuant to 10 U.S.C. section 1044b, as amended. ... Except as otherwise provided by statute other than this chapter, a photocopy or electronically transmitted copy of an original power of attorney has the same effect as the original.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-12-106 — Validity of power of attorney",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-106/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-12-106, added 2008, ch. 186, sec. 2, p. 561.]"
+  },
+  {
+    "id": "os-poa-general-real-property-authority-to-sell",
+    "claim": "Under Idaho Code 15-12-204, unless the power of attorney provides otherwise, language granting general authority with respect to real property authorizes the agent, among other things, to sell, exchange, convey with or without covenants, representations or warranties, quitclaim, release or otherwise dispose of an interest in real property.",
+    "quote": "Unless a power of attorney otherwise provides, language in a power of attorney granting general authority with respect to real property authorizes the agent to: ... Sell; exchange; convey with or without covenants, representations or warranties; quitclaim; release; surrender; retain title for security; encumber;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-12-204 — Real property (agent's general authority)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-204/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-12-204, added 2008, ch. 186, sec. 2, p. 570.]"
+  },
+  {
+    "id": "os-poa-terminates-on-death",
+    "claim": "Idaho Code 15-12-110(1) says a power of attorney terminates when the principal dies, when the principal becomes incapacitated if the power is not durable, when the principal revokes it, when it provides that it terminates, or when its purpose is accomplished, among other events; under 15-12-110(4), termination is not effective as to an agent or another person who acts in good faith without actual knowledge of it.",
+    "quote": "A power of attorney terminates when: ... The principal dies; ... The principal becomes incapacitated, if the power of attorney is not durable; ... The principal revokes the power of attorney; ... The power of attorney provides it terminates; ... The purpose of the power of attorney is accomplished; ... Termination of an agent's authority or of a power of attorney is not effective as to the agent or another person that, without actual knowledge of the termination, acts in good faith under the power of attorney.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney",
+      "estate"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-12-110 — Termination of power of attorney or agent's authority",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-110/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-12-110, added 2008, ch. 186, sec. 2, p. 563.]"
+  },
+  {
+    "id": "os-poa-good-faith-reliance-and-certification",
+    "claim": "Under Idaho Code 15-12-119, a person who in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely on the presumption that it is genuine, and a person asked to accept one may request and rely on an agent's certification under penalty of perjury of any factual matter concerning the principal, the agent or the power of attorney, and on an opinion of counsel on a matter of law if the reason is given in writing.",
+    "quote": "A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely upon the presumption under section 15-12-105, Idaho Code, that the signature is genuine. ... A person that is asked to accept an acknowledged power of attorney may request, and rely upon, without further investigation: ... An agent's certification under penalty of perjury of any factual matter concerning the principal, the agent or the power of attorney; ... An opinion of counsel as to any matter of law concerning the power of attorney if the person making the request provides in a writing or other record the reason for the request.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-12-119 — Acceptance of and reliance upon an acknowledged power of attorney",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-119/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-12-119, added 2008, ch. 186, sec. 2, p. 566.]"
+  },
+  {
+    "id": "os-poa-acceptance-seven-business-days",
+    "claim": "Idaho Code 15-12-120(1) says that, except as provided in subsection (2), a person must either accept an acknowledged power of attorney or request an agent's certification, a translation or an opinion of counsel within seven business days after it is presented, and may not require an additional or different form of power of attorney for authority granted in the one presented; subsection (2) lets a person refuse in listed cases, including where the person in good faith believes the power is not valid or that the agent lacks authority for the act requested.",
+    "quote": "A person must either accept an acknowledged power of attorney or request an agent's certification, a translation or an opinion of counsel pursuant to section 15-12-119 ... within seven (7) business days after presentation of the power of attorney for acceptance; ... A person may not require an additional or different form of power of attorney for authority granted in the power of attorney presented. ... A person is not required to accept an acknowledged power of attorney if: ... The person in good faith believes that the power is not valid or that the agent does not have the authority to perform the act requested",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 15-12-120 — Liability for refusal to accept an acknowledged power of attorney",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-120/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[15-12-120, added 2008, ch. 186, sec. 2, p. 567.]"
+  },
+  {
+    "id": "os-poa-must-be-recorded-before-deed",
+    "claim": "Idaho Code 55-806 says an instrument executed by an attorney in fact must not be recorded until the power of attorney authorizing its execution is filed for record in the same office.",
+    "quote": "An instrument executed by an attorney in fact must not be recorded until the power of attorney authorizing the execution of the instrument is filed for record in the same office.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney",
+      "recording",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-806 — Power must be recorded before conveyance by attorney",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-806/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-806) R.S., sec. 2995; reen. R.C. & C.L., sec. 3154; C.S., sec. 5418; I.C.A., sec. 54-806.]"
+  },
+  {
+    "id": "os-poa-revocation-must-be-recorded",
+    "claim": "Idaho Code 55-814 says a recorded instrument containing a power to convey or execute instruments affecting real property is not revoked by any act of the person who executed it unless the revoking instrument is also acknowledged or proved, certified and recorded in the same office where the power was recorded.",
+    "quote": "No instrument containing a power to convey or execute instruments affecting real property, which has been recorded, is revoked by any act of the party by whom it was executed, unless the instrument containing such revocation is also acknowledged or proved, certified and recorded in the same office in which the instrument containing the power was recorded.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "power-of-attorney",
+      "recording"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-814 — Revocation of power to be recorded",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-814/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(55-814) 1863, p. 528, sec. 27; R.S., sec. 3003; reen. R.C. & C.L., sec. 3162; C.S., sec. 5426; I.C.A., sec. 54-814.]"
+  },
+  {
+    "id": "os-notarial-act-another-state-same-effect",
+    "claim": "Idaho Code 51-111(1) says a notarial act performed in another state has the same effect under Idaho law as if performed by an Idaho notary public, if it is performed by a notary public of that state, a judge, clerk or deputy clerk of a court of that state, or any other individual authorized by that state's law to perform it.",
+    "quote": "A notarial act performed in another state has the same effect under the law of this state as if performed by a notary public of this state if the act performed in that state is performed by: ... A notary public of that state; ... A judge, clerk or deputy clerk of a court of that state; or ... Any other individual authorized by the law of that state to perform the notarial act.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "notary",
+      "closing",
+      "recording"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 51-111 — Notarial act in another state",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-111/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[51-111, added 2017, ch. 192, sec. 3, p. 444.]"
+  },
+  {
+    "id": "os-foreign-notarial-act-apostille",
+    "claim": "Idaho Code 51-114 says a notarial act performed under the authority and in the jurisdiction of a foreign state has the same effect under Idaho law as if performed by an Idaho notary public, and that an apostille in the form prescribed by the Hague Convention of October 5, 1961, issued by a foreign state party to the convention, conclusively establishes that the notarial officer's signature is genuine and that the officer holds the indicated office.",
+    "quote": "If a notarial act is performed under authority and in the jurisdiction of a foreign state or constituent unit of the foreign state or is performed under the authority of a multinational or international governmental organization, the act has the same effect under the law of this state as if performed by a notary public of this state. ... An apostille in the form prescribed by the Hague Convention of October 5, 1961, and issued by a foreign state party to the convention conclusively establishes that the signature of the notarial officer is genuine and that the officer holds the indicated office.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "notary",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 51-114 — Foreign notarial act",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-114/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[51-114, added 2017, ch. 192, sec. 3, p. 445.]"
+  },
+  {
+    "id": "os-ron-idaho-notary-conditions",
+    "claim": "Idaho Code 51-114A(3) says a notary public located in Idaho may perform a notarial act using communication technology for a remotely located individual if the notary has personal knowledge of the individual's identity, has satisfactory evidence of identity from a credible witness, or has used at least two different types of identity proofing; can reasonably confirm the record is the same one the individual signed; and creates an audio-visual recording of the act. For an individual located outside the United States, the record must relate to a matter before a U.S. court or governmental entity or involve property in U.S. territorial jurisdiction or a transaction substantially connected with the United States, and the act must not be prohibited by the foreign state where the individual is.",
+    "quote": "A notary public located in this state may perform a notarial act using communication technology for a remotely located individual if: ... Has obtained satisfactory evidence of the identity of the remotely located individual by using at least two (2) different types of identity proofing. ... The notary public is able reasonably to confirm the record before the notary public as the same record in which the remotely located individual made a statement or on which the remotely located individual executed a signature; ... The notary public, or a person acting on behalf of the notary public, creates an audio-visual recording of the performance of the notarial act; and ... For a remotely located individual located outside the United States: ... Involves property located in the territorial jurisdiction of the United States or a transaction substantially connected with the United States; and ... The act of making the statement or signing the record is not prohibited by the foreign state in which the remotely located individual is located.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "notary",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 51-114A — Notarial act performed by remotely located individual",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-114A/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[51-114A, added 2019, ch. 160, sec. 4, p. 521.]"
+  },
+  {
+    "id": "os-ron-certificate-and-recording-retention",
+    "claim": "Idaho Code 51-114A requires the certificate of notarial act for a remote notarization to indicate that the act was performed using communication technology, requires the audio-visual recording to be retained for at least ten years after it is made or as otherwise required by rule, and requires a notary, before the first remote notarial act, to notify the Secretary of State that the notary will perform acts facilitated by communication technology and identify the technology.",
+    "quote": "If a notarial act is performed under this section, the certificate of notarial act required by section 51-115, Idaho Code, and the short form certificate provided in section 51-116, Idaho Code, must indicate that the notarial act was performed using communication technology. ... The recording must be retained for at least ten (10) years after the recording is made or as otherwise required by rule adopted under subsection (8)(d) of this section. ... Before a notary public performs the notary public's initial notarial act under this section, the notary public shall notify the secretary of state that the notary public will be performing notarial acts facilitated by communication technology and identify the technology.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "notary"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 51-114A — Notarial act performed by remotely located individual",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-114A/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[51-114A, added 2019, ch. 160, sec. 4, p. 521.]"
+  },
+  {
+    "id": "os-sos-remote-online-notary-registration",
+    "claim": "The Idaho Secretary of State says commissioned notaries may become authorized to perform electronic notarial acts by registering with the Secretary of State, by filing an 'Addition of Electronic or Remote Online Notary' amendment to their account on sosbiz.idaho.gov, and that Remote Online Notarization technology must comply with IDAPA 34.07.01.",
+    "quote": "Commissioned notaries may become authorized to perform electronic notarial acts by registering with the Secretary of State. To do so, you must file an “Addition of Electronic or Remote Online Notary” amendment to your account on sosbiz.idaho.gov. ... Remote Online Notarization technology must comply with IDAPA 34.07.01",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "notary"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Notary Public information (including Electronic Notary FAQ)",
+        "url": "https://sos.idaho.gov/notary-public/",
+        "publisher": "Idaho Secretary of State",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "os-istc-part-year-resident-taxes",
+    "claim": "The Idaho State Tax Commission says a part-year resident includes a resident of Idaho who changed domicile either to or from Idaho during the tax year, and that for a part-year resident Idaho taxes all the income received while living in Idaho and any income received from Idaho sources when not living in Idaho.",
+    "quote": "Are a resident of Idaho, and you changed your domicile either to or from Idaho during the tax year. ... Idaho taxes: All the income you receive while living in Idaho. Any income you receive from Idaho sources when not living in Idaho.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax",
+      "capital-gains"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Individual Income Tax Basics (online guide)",
+        "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "os-istc-form-43-nonresident-return",
+    "claim": "The Idaho State Tax Commission identifies Form 43 as the Idaho income tax return for part-year Idaho residents and for nonresidents with income from Idaho sources.",
+    "quote": "is the Idaho income tax return for part-year Idaho residents. ... is the Idaho income tax return for nonresidents with income from Idaho sources.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "state-income-tax"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Individual Income Tax Basics (online guide)",
+        "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+        "publisher": "Idaho State Tax Commission",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "os-homestead-requires-primary-dwelling",
+    "claim": "Idaho Code 63-602G(2) allows the homeowner's exemption only if the homestead is owner-occupied and used as the owner's primary dwelling place, and defines 'primary dwelling place' as the single place where an owner has a true, fixed and permanent home and principal establishment, and to which the owner, whenever absent, intends to return.",
+    "quote": "The exemption allowed by this section may be granted only if: ... The homestead is owner-occupied and used as the primary dwelling place of the owner. ... For the purpose of this section, \"primary dwelling place\" means the single place where an owner has his true, fixed and permanent home and principal establishment, and to which whenever such owner is absent he has the intention of returning.",
+    "entities": [
+      "state:id",
+      "county:ada"
+    ],
+    "topics": [
+      "property-tax",
+      "homestead"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-602G — Property exempt from taxation — Homestead",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch6/sect63-602g/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.]"
+  },
+  {
+    "id": "os-ada-exemption-one-home",
+    "claim": "The Ada County Assessor says there are no income or age restrictions to qualify for the homestead (homeowner's) exemption and that taxpayers can qualify for an exemption on only one home.",
+    "quote": "Although there are no income or age restrictions to qualify for the Homestead Exemption, taxpayers can qualify for an exemption on only one home.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "property-tax",
+      "homestead"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Homeowner's Tax Relief — Ada County Assessor",
+        "url": "https://adacounty.id.gov/assessor/tax-relief-programs/homeowners-exemption/",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
   }
 ];
 

@@ -2730,7 +2730,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in any condition with our own capital, and unpermitted work is part of a property's condition. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. A sale to us is not one of the exemptions in Idaho Code 55-2505, so the disclosure form still applies unless another exemption fits your transfer. Tell us about unpermitted work and any open case when you [contact us](/contact). [How we calculate an offer](/how-we-calculate-an-offer) explains what goes into the number.",
+          "We buy property in any condition with our own capital, and unpermitted work is part of a property's condition. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Whether the disclosure form applies depends on the exemptions listed in Idaho Code 55-2505, and an attorney can tell you whether one fits your transfer. Tell us about unpermitted work and any open case when you [contact us](/contact). [How we calculate an offer](/how-we-calculate-an-offer) explains what goes into the number.",
           "We are not the right route for every seller. If the building department tells you the work can be permitted and you have the time and money to finish that process, listing the house afterward on the open market may bring you more than a direct sale. We cannot resolve an enforcement case for you, obtain a permit for you before closing, or tell you what the law requires of you. The building department and an Idaho attorney can."
         ],
         "claims": [
@@ -3379,6 +3379,282 @@ export const guideContent: Record<string, GuideContent> = {
         "body": [
           "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us what you know about the title problem when you [contact us](/contact).",
           "We are not the right route for every seller. If the problem is a simple missing reconveyance, a listing with a patient buyer may bring you more once the record is fixed. We cannot clear title for you, judge whether a lien is valid, or bring a quiet title action. An Idaho real estate attorney and your title company can."
+        ],
+        "claims": []
+      }
+    ]
+  },
+
+  "selling-a-fire-damaged-house-in-ada-county": {
+    "intro": [
+      "Idaho's seller disclosure form has no line that names fire or water damage, but it asks about basement water, the foundation, the roof, plumbing, drainage, electrical, heating, hazardous materials and any other problems the seller knows of, so a loss the seller knows about can fall under several questions. An open insurance claim is governed by the policy, and the Idaho Department of Insurance tells owners to ask their insurer how a claim is paid. Boise and Star each exempt from impact fees a rebuild of the same floor space after a fire, if it is ready for occupancy within two years.",
+      "This page describes what Idaho statutes, the Idaho Department of Insurance, the CFPB and city sources say. It is not legal, tax or insurance advice, and it does not apply any of it to your house, your policy or your loan. We are a direct buyer of property. We cannot read your policy, deal with your insurer or your lender, or tell you what to write on a disclosure form. An Idaho attorney, your insurer and the Department of Insurance can."
+    ],
+    "sections": [
+      {
+        "heading": "Do I have to disclose fire or water damage when I sell in Idaho?",
+        "body": [
+          "Idaho requires a seller of residential property with one to four dwelling units, including a rental, to complete the property condition disclosure form in Idaho Code 55-2508 unless the transfer falls under an exemption in 55-2505. The [seller disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers who is exempt.",
+          "The form does not have a question that names fire, smoke or water damage. Several of its questions can still reach a loss the seller knows about. Question 5 asks the seller to specify problems with basement water, the foundation, roof condition and age, the well, the septic system, plumbing, drainage, electrical and heating. Question 7 asks whether the seller is aware of any hazardous materials or pest infestations. Question 8 asks whether any substantial additions or alterations have been made without a building permit. Question 9 asks for any other problems, legal, physical or other, that the seller knows of.",
+          "The form does not define hazardous materials and does not define substantial. Which question a particular loss or repair belongs under is a judgment for the seller, with an attorney's help if needed. This page does not make it."
+        ],
+        "claims": [
+          "id-disclosure-required-1-to-4-units",
+          "fd-form-q5-specify-problems",
+          "fd-form-q7-hazardous-materials-pests",
+          "cv-form-q8-additions-without-permit",
+          "cv-form-q9-other-problems-legal"
+        ]
+      },
+      {
+        "heading": "What if I do not know how far the damage goes?",
+        "body": [
+          "The disclosure covers what the seller actually knows. Idaho Code 55-2507 says the form is a statement of conditions and information actually known by the seller, that it is not a warranty of any kind, and that it is not a substitute for any inspections.",
+          "The form's own purpose statement says that, apart from having lived at or owned the property, the seller has no greater knowledge than a careful inspection by the buyer could obtain. It also says that unless otherwise advised, the seller has not inspected generally inaccessible areas such as the foundation or roof. The form encourages the buyer to get professional inspections, and it ends with the seller certifying that the information is true and correct to the best of the seller's knowledge.",
+          "That language does not let a seller leave out something the seller does know. Every disclosure must be made in good faith, which the act defines as honesty in fact. A person who willfully or negligently fails to perform the act's duties is liable for the buyer's actual damages.",
+          "The duty continues after the form is signed. If the seller discovers before closing that information on the form has changed, the seller must amend it. A buyer who receives the form after signing a purchase agreement may rescind within three business days of receiving it, based on a specific objection to a disclosure. After an amendment, the buyer's right to rescind is limited to the amendments."
+        ],
+        "claims": [
+          "id-disclosure-actual-knowledge-not-warranty",
+          "fd-form-no-greater-knowledge-inaccessible-areas",
+          "cv-form-seller-certification-and-purpose",
+          "id-disclosure-good-faith-honesty-in-fact",
+          "id-disclosure-failure-actual-damages",
+          "id-disclosure-amend-before-closing",
+          "id-disclosure-rescission-three-days"
+        ]
+      },
+      {
+        "heading": "What does the Department of Insurance say about a home claim?",
+        "body": [
+          "The Idaho Department of Insurance tells owners to photograph or video the damage for the adjuster, if possible before any mitigation, and not to throw anything out until the adjuster says to. It says a property policy often requires the owner to mitigate the damage and keep the home from further damage, and to keep all mitigation receipts for possible reimbursement. A separate Department consumer alert from 2012 says most insurers have a time requirement for filing a claim. The time limit is in the policy, and this page does not state one.",
+          "The Department says to ask the adjuster whether the policy pays Replacement Cost or Actual Cash Value. Actual Cash Value is replacement cost minus depreciation. Where a policy provides Replacement Cost coverage, the Department says it is common for the insurer to pay the Actual Cash Value up front and to pay the depreciated amount once the repairs are completed or the items replaced.",
+          "That second payment is tied to repairs. The Department's page does not say what happens to it if the house is sold before repairs are made, and neither does any other source read for this page. Ask the insurer, in writing, before you sign a sale contract. The Department also advises getting written confirmation of coverage before approving any repairs, and reading any contractor's contract before signing it."
+        ],
+        "claims": [
+          "fd-doi-document-mitigate-keep-receipts",
+          "fd-doi-2012-time-requirement-filing-claim",
+          "fd-doi-replacement-cost-vs-actual-cash-value",
+          "fd-doi-acv-first-then-depreciation-after-repairs",
+          "fd-doi-written-coverage-before-repairs"
+        ]
+      },
+      {
+        "heading": "What does Idaho law say about how insurers handle claims?",
+        "body": [
+          "Idaho Code 41-1329 lists unfair claim settlement practices. An act on the list counts when it is committed intentionally or with such frequency as to indicate a general business practice. The list includes failing to acknowledge and act reasonably promptly on claim communications, refusing to pay a claim without a reasonable investigation, failing to affirm or deny coverage within a reasonable time after proof of loss statements are completed, not attempting in good faith to settle promptly and fairly once liability has become reasonably clear, and failing to promptly explain the basis for a denial or a compromise offer.",
+          "The section uses the words reasonably promptly and reasonable time. It does not set a number of days.",
+          "Idaho Code 41-1839 is a separate rule about attorney's fees. If an insurer does not pay the amount justly due within thirty days after proof of loss has been furnished as the policy provides, and the owner later sues or arbitrates, the court may award reasonable attorney's fees against the insurer. Attorney's fees are not recovered if the insurer tendered the full amount justly due beforehand and deposited it in court, or if no amount is found due. It is a fee rule for a later case and does not set a payment deadline. Whether either section applies to a claim is a question for an Idaho attorney.",
+          "The Department of Insurance says it cannot adjust a claim or decide the cause or value of a loss. Its role is to see that the insurer complies with the Idaho Insurance Code and the policy. An owner who disagrees with the insurer's first determination may give the adjuster documentation from the owner's own expert. In a June 2023 release, the Department said its Consumer Services team can answer questions and help resolve disputes with insurers and agents at 208-334-4319 or consumer.affairs@doi.idaho.gov.",
+          "The Department also says public adjusters who represent an owner must be licensed and bonded by the state, and that reputable licensed adjusters typically do not also do the repair work or solicit door to door."
+        ],
+        "claims": [
+          "fd-idcode-41-1329-unfair-claim-practices",
+          "fd-idcode-41-1839-attorney-fees-thirty-days",
+          "fd-doi-cannot-adjust-claim",
+          "fd-doi-consumer-services-contact",
+          "fd-doi-public-adjusters-licensed"
+        ]
+      },
+      {
+        "heading": "Who gets the insurance check if there is a mortgage?",
+        "body": [
+          "The CFPB says some mortgage agreements require insurance checks to be made out to both the homeowner and the mortgage company or servicer, and that the servicer may need to approve before the check can be cashed. It says the servicer typically agrees to release part of the money before work begins so a contractor can be hired. The Department of Insurance's 2012 alert says the payment for contents is made out to the owner, while the payment for structural damage may be payable to the owner and the mortgage holder, who may hold it in escrow and pay for repairs as the work is done.",
+          "The CFPB also says that after a disaster a homeowner still has to pay the mortgage. Its steps are to file a claim with the insurer, apply for government aid where available, and tell the servicer what happened, asking to adjust payments if they cannot be made.",
+          "Neither agency says what happens to insurance money a servicer is holding when the house is sold. The answer depends on the loan documents and the servicer. Ask the servicer for a payoff statement and ask how held funds are handled at a sale."
+        ],
+        "claims": [
+          "fd-cfpb-insurance-check-mortgage-company",
+          "fd-doi-2012-structural-payment-to-mortgage-holder",
+          "fd-cfpb-still-pay-mortgage-after-disaster"
+        ]
+      },
+      {
+        "heading": "Are impact fees charged if the house is rebuilt?",
+        "body": [
+          "In Boise, the City Council exempts from impact fees rebuilding the same amount of floor space of a structure destroyed by fire or other catastrophe, provided it is rebuilt and ready for occupancy within two years of its destruction. Boise also exempts replacing a residential unit with another on the same lot where the number of service units does not increase, and remodeling or repairing that does not add service units. New residential development otherwise pays Boise's parks, fire and police impact fees.",
+          "Star's park impact fee ordinance carries the same kind of exemption for rebuilding the same floor space after a fire or other catastrophe within two years, along with remodeling that does not add service units and one-for-one replacement of a residential unit on the same lot.",
+          "These are Boise's and Star's rules. No source read for this page states a fire-rebuild exemption for Meridian, Eagle, Kuna, Garden City or unincorporated Ada County. Ask the city or county where the house sits. Neither city's page says whether the two-year window changes when the property is sold."
+        ],
+        "claims": [
+          "fd-boise-impact-fee-fire-rebuild-exemption",
+          "boise-impact-fee-replacement-exemption",
+          "boise-impact-fees-by-development-type",
+          "star-impact-fee-replacement-exemption"
+        ]
+      },
+      {
+        "heading": "Do I need a permit to demolish or rebuild?",
+        "body": [
+          "Each jurisdiction has its own list. In Boise, a demolition or deconstruction permit application includes a material and waste management plan with photos. The city notifies reuse and recycling companies and allows up to five business days for them to respond, a building inspector sets a bond, and hazardous materials must be abated under the applicable requirements.",
+          "Star lists demolition and re-roofing among the work that needs a building permit. Kuna lists relocating or demolishing a structure, and improvements to an existing residence. In unincorporated Ada County, the county code requires an owner who intends to construct, alter, repair or demolish a building to apply first to the building official, and it says a county permit stays tied to the property as ownership changes. For Meridian, Eagle and Garden City, call the city's building department.",
+          "Repairs done after a loss can matter at sale too. Question 8 of the disclosure form asks about substantial additions or alterations made without a building permit. The [unpermitted work guide](/guides/selling-a-house-with-unpermitted-work-in-ada-county) covers that question by city.",
+          "In Boise, the Wildland Urban Interface Overlay applies to new structures and additions built after its effective date in areas at higher wildfire risk. Ask the city whether it applies to a rebuild on a particular lot."
+        ],
+        "claims": [
+          "boise-demolition-waste-plan-and-reuse-window",
+          "star-building-permit-triggers",
+          "kuna-permit-triggers-include-fences",
+          "cv-ada-permit-required-tied-to-property",
+          "cv-form-q8-additions-without-permit",
+          "boise-wui-overlay-district"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy with our own capital, and we buy property in any condition, including after a fire or water loss. Purchases close through a local title company, the seller chooses the closing date, and a three-week close is realistic. Whether the disclosure form applies depends on the exemptions listed in Idaho Code 55-2505, and an attorney can tell you whether one fits your transfer. We cannot advise on an insurance claim, deal with your insurer or servicer, or tell you what a claim is worth.",
+          "If the insurance claim will pay for repairs and you have time to finish them, repairing and listing may net more. If you want to sell before repairs, ask your insurer and your servicer how a sale affects the claim, and talk to an Idaho attorney, before you sign a contract with anyone. Our [as-is page](/sell-house-as-is-idaho) explains how a direct sale works, and you can [contact us](/contact) when you are ready."
+        ],
+        "claims": [
+          "id-disclosure-sixteen-exemptions",
+          "id-disclosure-required-1-to-4-units"
+        ]
+      }
+    ]
+  },
+
+  "selling-an-idaho-house-from-out-of-state": {
+    "intro": [
+      "Idaho law lets a deed signed and acknowledged in another state or country be recorded in Idaho, and it allows an Idaho notary to notarize a signature over live audio and video for a signer located elsewhere. An agent can also sign under a power of attorney, but Idaho Code 55-806 says the deed cannot be recorded until the power of attorney is recorded in the same county office. Idaho taxes a nonresident's income from Idaho sources, and the statute counts the sale of Idaho real property as an Idaho source.",
+      "This page describes what the statutes and agencies say. It is not legal or tax advice and it is not applied to your situation. We are a direct buyer of property. We cannot tell you whether a document is valid, whether you owe tax, or which signing method your closing will use. An Idaho attorney, a tax professional and the title company handling your closing can answer those questions."
+    ],
+    "sections": [
+      {
+        "heading": "Can I sign the deed where I live now?",
+        "body": [
+          "Idaho's recording statute allows it. Under Idaho Code 55-805, an instrument must be acknowledged by the person who signs it before it can be recorded, unless a statute expressly provides otherwise. The same section says an instrument executed and acknowledged in another state or territory, or in a foreign country, according to the law of the place where the acknowledgment was taken, is entitled to record.",
+          "Idaho's notary law says the same thing from the other side. Idaho Code 51-111 gives a notarial act performed in another state the same effect under Idaho law as if an Idaho notary had performed it, as long as it was performed by a notary public of that state, a judge, clerk or deputy clerk of a court of that state, or another individual that state's law authorizes.",
+          "Idaho Code 51-106 requires the signer to appear personally before the notary, and 51-105 requires a notary taking an acknowledgment to determine, from personal knowledge or satisfactory evidence, that the person appearing is who they claim to be and that the signature is theirs.",
+          "For a seller abroad, Idaho Code 51-114 gives a notarial act performed under the authority of a foreign state the same effect as one performed by an Idaho notary. It says an apostille in the form prescribed by the Hague Convention of October 5, 1961, issued by a country that is party to the convention, conclusively establishes that the notarial officer's signature is genuine and that the officer holds the office indicated.",
+          "Whichever way the deed is signed, Idaho Code 55-808 says it is recorded by the recorder of the county where the property sits. For a house in Ada County, that is the Ada County Recorder."
+        ],
+        "claims": [
+          "cl-acknowledgment-required-to-record",
+          "os-notarial-act-another-state-same-effect",
+          "cl-notary-personal-appearance",
+          "cl-notary-acknowledgment-identity",
+          "os-foreign-notarial-act-apostille",
+          "cl-record-in-county-where-situated"
+        ]
+      },
+      {
+        "heading": "Can I sign with an Idaho notary over video?",
+        "body": [
+          "Idaho law permits it. Idaho Code 51-114A lets a remotely located individual satisfy the personal-appearance requirement by appearing before a notary public through communication technology, which the section defines as a device or process that lets the notary and the signer communicate with each other simultaneously by sight and sound.",
+          "The section sets conditions on the notary, who must be located in Idaho. The notary must have personal knowledge of the signer's identity, satisfactory evidence of identity from a credible witness, or identity confirmed through at least two different types of identity proofing. The notary must be able to reasonably confirm that the record in front of them is the same record the signer signed, and the notary or someone acting for them must make an audio-visual recording of the act.",
+          "The certificate on the document must indicate that the act was performed using communication technology. The recording must be kept for at least ten years after it is made, or longer if a rule requires. Before a notary's first remote act, the notary must notify the Idaho Secretary of State and identify the technology.",
+          "The Secretary of State says a commissioned notary becomes authorized by filing an \"Addition of Electronic or Remote Online Notary\" amendment to their account on sosbiz.idaho.gov, and that remote online notarization technology must comply with IDAPA 34.07.01.",
+          "A signer outside the United States faces extra conditions. The record must relate to a matter before a U.S. court or government body, or involve property within U.S. jurisdiction or a transaction substantially connected with the United States, and signing must not be prohibited by the country where the signer is located.",
+          "The statute permits remote notarization. It does not require any title company or lender to offer it. Ask the closing agent early whether your closing can use it."
+        ],
+        "claims": [
+          "cl-remote-notarization-satisfies-appearance",
+          "os-ron-idaho-notary-conditions",
+          "os-ron-certificate-and-recording-retention",
+          "os-sos-remote-online-notary-registration"
+        ]
+      },
+      {
+        "heading": "Can someone in Idaho sign for me with a power of attorney?",
+        "body": [
+          "Idaho's Uniform Power of Attorney Act, Idaho Code title 15 chapter 12, governs this. Under 15-12-105, a power of attorney must be signed by the principal, or by another individual in the principal's conscious presence at the principal's direction. The signature is presumed genuine if the principal acknowledges it before a notary public or another individual authorized to take acknowledgments.",
+          "A power of attorney signed outside Idaho can be valid in Idaho. Under 15-12-106(3), it is valid if its execution complied with the law of the jurisdiction that determines its meaning and effect, or with the federal requirements for a military power of attorney. Unless another statute says otherwise, a photocopy or electronically transmitted copy has the same effect as the original.",
+          "What the agent can do depends on the document. Under 15-12-204, unless the power of attorney says otherwise, language granting general authority over real property lets the agent sell, exchange, convey with or without covenants or warranties, quitclaim, release or otherwise dispose of an interest in real property.",
+          "Under 15-12-104, a power of attorney created under the Act is durable unless it expressly says it ends if the principal becomes incapacitated.",
+          "Community property has its own rule. Idaho Code 32-912 allows one spouse, by express power of attorney, to give the other complete power to sell, convey or encumber community property. Whether a particular document grants enough authority for your sale is a question for an attorney and the title company."
+        ],
+        "claims": [
+          "os-poa-execution-signature-presumed-genuine",
+          "os-poa-out-of-state-execution-valid",
+          "os-poa-general-real-property-authority-to-sell",
+          "os-poa-durable-unless-stated",
+          "dv-power-of-attorney-exception"
+        ]
+      },
+      {
+        "heading": "Does the power of attorney have to be recorded?",
+        "body": [
+          "Yes, before the deed the agent signs can be recorded. Idaho Code 55-806 says an instrument executed by an attorney in fact must not be recorded until the power of attorney authorizing it is filed for record in the same office. That requirement sits in Idaho's recording chapter, not in the Uniform Power of Attorney Act.",
+          "Revoking a recorded power has its own rule. Idaho Code 55-814 says a recorded instrument containing a power to convey or execute instruments affecting real property is not revoked by any act of the person who gave it, unless the revocation is also acknowledged or proved, certified and recorded in the same office.",
+          "The Ada County Recorder's Office says it has no blank forms and points people to title companies for the forms to record. It accepts original documents in person, by mail, or by eRecording, which is available through title companies.",
+          "[How a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho) explains recording and the title company's part in a sale."
+        ],
+        "claims": [
+          "os-poa-must-be-recorded-before-deed",
+          "os-poa-revocation-must-be-recorded",
+          "sp-rec-ada-erecording-title-companies"
+        ]
+      },
+      {
+        "heading": "Will the title company accept a power of attorney?",
+        "body": [
+          "Idaho law sets a timeline, with exceptions. Idaho Code 15-12-120 says a person presented with an acknowledged power of attorney must either accept it or request an agent's certification, a translation or an opinion of counsel within seven business days. It may not require an additional or different form of power of attorney for authority granted in the one presented.",
+          "The same section lists cases where a person is not required to accept. They include a good-faith belief that the power is not valid or that the agent lacks authority for the act requested.",
+          "Under 15-12-119, a person who in good faith accepts an acknowledged power of attorney may rely on the presumption that the signature is genuine. A person asked to accept one may request, and rely on, the agent's certification under penalty of perjury of any factual matter about the principal, the agent or the power of attorney. If the person gives the reason in writing, it may also request an opinion of counsel on a question of law.",
+          "A power of attorney ends when the principal dies. Idaho Code 15-12-110 lists death among the events that terminate it, along with revocation and the document's own terms. If the owner has died, [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers selling through an estate."
+        ],
+        "claims": [
+          "os-poa-acceptance-seven-business-days",
+          "os-poa-good-faith-reliance-and-certification",
+          "os-poa-terminates-on-death"
+        ]
+      },
+      {
+        "heading": "Does Idaho tax my gain if I no longer live there?",
+        "body": [
+          "Idaho taxes a nonresident's Idaho-source income, and the statute treats a sale of Idaho real property as an Idaho source. Idaho Code 63-3026A says that for nonresident individuals, Idaho taxable income includes only the parts derived from or related to sources within Idaho. It counts income from the ownership or disposition of any interest in real property located in Idaho as Idaho-source income.",
+          "The Idaho State Tax Commission says gross income includes gains from property sales. It says nonresidents must file if their total gross income from Idaho sources is more than $2,500, and it identifies Form 43 as the return for nonresidents with Idaho-source income and for part-year residents.",
+          "If you moved during the year of the sale, the Tax Commission describes a part-year resident as including an Idaho resident who changed domicile to or from Idaho during the tax year. For a part-year resident, Idaho taxes all income received while living in Idaho and any income from Idaho sources received while not living in Idaho. Which status applies to you is a question for a tax professional.",
+          "The federal home-sale exclusion has its own tests. IRS Topic 701 says a seller may qualify to exclude up to $250,000 of gain, or up to $500,000 on a joint return. In general the seller must have owned the home for at least 24 months and used it as a residence for at least 24 months within the 5 years ending on the date of sale.",
+          "This page does not cover state withholding at closing or a credit from your new home state. Ask the title company and a tax professional. [Taxes when you sell a house in Idaho](/guides/taxes-when-you-sell-a-house-in-idaho) covers the Idaho capital gains deduction and basis."
+        ],
+        "claims": [
+          "cg-id-3026a-nonresident-real-property-source",
+          "cg-istc-residency-what-idaho-taxes",
+          "cg-istc-idaho-source-income-property",
+          "os-istc-form-43-nonresident-return",
+          "os-istc-part-year-resident-taxes",
+          "cg-irs-exclusion-250k-500k",
+          "cg-irs-ownership-and-use-tests"
+        ]
+      },
+      {
+        "heading": "Does FIRPTA withholding apply to my sale?",
+        "body": [
+          "Only if the seller is a foreign person under federal tax law. The IRS says a disposition of a U.S. real property interest by a foreign person is subject to withholding under the Foreign Investment in Real Property Tax Act. The buyer generally must withhold 15% of the amount realized, and in most cases the buyer is the withholding agent and may be held liable for failing to withhold.",
+          "The IRS lists as an exception a seller's certification, under penalties of perjury, that the seller is not a foreign person, with the seller's name, U.S. taxpayer identification number and home address. It may be given to a qualified substitute such as the title company responsible for closing.",
+          "Separately, IRS instructions require the Form 1099-S filer to request the seller's taxpayer identification number no later than closing. Whether you are a foreign person is a question for a tax professional."
+        ],
+        "claims": [
+          "cl-firpta-buyer-withholds-15-percent",
+          "cl-firpta-non-foreign-certification",
+          "cl-1099s-tin-requested-at-closing"
+        ]
+      },
+      {
+        "heading": "What happens to my homeowner's exemption when I move out?",
+        "body": [
+          "Idaho's property-tax homeowner's exemption depends on the house being your primary home. Idaho Code 63-602G allows it only if the homestead is owner-occupied and used as the owner's primary dwelling place. The section defines that as the single place where an owner has a true, fixed and permanent home and principal establishment, and to which the owner intends to return when absent.",
+          "An owner needs to apply only once while they received the exemption the previous year on a valid application and still occupy the same homestead as their primary dwelling. The Ada County Assessor says that once approved, you need to reapply only if you move or if ownership changes, and that taxpayers can qualify for an exemption on only one home.",
+          "If you claim the exemption on a new home after January 1 while still receiving it on another property from a prior tax year, 63-602G says the exemption on the other property is removed the following tax year. A first instance of claiming more than one homestead exemption carries a penalty equal to the recovered tax, and a further violation within seven years is a misdemeanor.",
+          "Whether your move or a rental ends the exemption on your Idaho house is a question for the Ada County Assessor. When the house sells, the Assessor says the new owner must file their own application."
+        ],
+        "claims": [
+          "os-homestead-requires-primary-dwelling",
+          "pt-homestead-apply-once-conditions",
+          "ada-homeowners-exemption-deadline",
+          "os-ada-exemption-one-home",
+          "pt-homestead-new-claim-removes-old",
+          "pt-homestead-double-claim-penalty",
+          "pt-ada-new-owner-must-apply"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. If you live out of state, tell us how you plan to sign when you [contact us](/contact), so the title company can plan for it.",
+          "We are not the right route for every seller. If the house is in good shape and you can wait, listing it on the open market may bring you more than a direct sale. We cannot draft or review a power of attorney, advise you on Idaho or federal tax, or arrange a notary for you. An Idaho attorney, a tax professional and the title company can."
         ],
         "claims": []
       }

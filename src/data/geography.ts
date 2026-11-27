@@ -36,8 +36,8 @@ export const county = {
   "slug": "sell-my-house-fast-ada-county",
   "population2024Census": 535799,
   "population2024Compass": 557590,
-  "directClaims": 115,
-  "uniqueClaims": 55,
+  "directClaims": 117,
+  "uniqueClaims": 56,
   "indexable": true
 } as const;
 
@@ -56,8 +56,8 @@ export const places: Place[] = [
     "placeFips": "08830",
     "population2024Census": 237963,
     "growthPct2020to2024": 1,
-    "directClaims": 37,
-    "uniqueClaims": 32,
+    "directClaims": 38,
+    "uniqueClaims": 33,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null

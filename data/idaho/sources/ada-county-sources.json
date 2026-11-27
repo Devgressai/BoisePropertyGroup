@@ -224,7 +224,8 @@
         "pt-homestead-new-claim-removes-old",
         "pt-homestead-double-claim-penalty",
         "pt-homestead-death-carryover",
-        "lt-homestead-trust-proof-affidavit"
+        "lt-homestead-trust-proof-affidavit",
+        "os-homestead-requires-primary-dwelling"
       ],
       "entitiesSupported": [
         "state:id"
@@ -253,7 +254,8 @@
         "ada-homeowners-exemption-deadline",
         "pt-homestead-exemption-cap-in-force-2026",
         "pt-ada-new-owner-must-apply",
-        "lt-ada-assessor-reapply-trust-transfer"
+        "lt-ada-assessor-reapply-trust-transfer",
+        "os-ada-exemption-one-home"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -1376,7 +1378,8 @@
       "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
       "claimsSupported": [
         "boise-impact-fees-by-development-type",
-        "boise-impact-fee-replacement-exemption"
+        "boise-impact-fee-replacement-exemption",
+        "fd-boise-impact-fee-fire-rebuild-exemption"
       ],
       "status": "VERIFIED"
     },
@@ -2173,7 +2176,10 @@
         "cv-form-q8-additions-without-permit",
         "cv-form-q6-zoning-violations-title",
         "cv-form-q9-other-problems-legal",
-        "cv-form-seller-certification-and-purpose"
+        "cv-form-seller-certification-and-purpose",
+        "fd-form-q5-specify-problems",
+        "fd-form-q7-hazardous-materials-pests",
+        "fd-form-no-greater-knowledge-inaccessible-areas"
       ],
       "entitiesSupported": [
         "state:id"
@@ -4297,7 +4303,9 @@
       "authorityNotes": "Official statute text, read directly with raw HTML cached. Compiler's history note copied verbatim; no future-dated version shown on the section page or chapter index.",
       "stalenessRisk": "LOW — changes only by amendment; site updated each July 1.",
       "claimsSupported": [
-        "cl-remote-notarization-satisfies-appearance"
+        "cl-remote-notarization-satisfies-appearance",
+        "os-ron-idaho-notary-conditions",
+        "os-ron-certificate-and-recording-retention"
       ],
       "entitiesSupported": [
         "state:id"
@@ -8558,7 +8566,9 @@
       "stalenessRisk": "HIGH for the rate and thresholds, which are stated for 2025 and change. Re-read in early 2027.",
       "claimsSupported": [
         "cg-istc-rate-2025",
-        "cg-istc-residency-what-idaho-taxes"
+        "cg-istc-residency-what-idaho-taxes",
+        "os-istc-part-year-resident-taxes",
+        "os-istc-form-43-nonresident-return"
       ],
       "entitiesSupported": [
         "state:id"
@@ -12954,6 +12964,501 @@
       "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
       "claimsSupported": [
         "tp-mortgage-satisfaction-duty-and-penalty"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-1329",
+      "title": "Idaho Code § 41-1329 — Unfair claim settlement practices",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch13/sect41-1329/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1987",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present. The section operates 'Pursuant to section 41-1302' (also cached, not cited).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fd-idcode-41-1329-unfair-claim-practices"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-41-1839",
+      "title": "Idaho Code § 41-1839 — Allowance of attorney's fees in suits against or in arbitration with insurers",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch18/sect41-1839/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2013",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "fd-idcode-41-1839-attorney-fees-thirty-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "iddoi-home-renters-claims",
+      "title": "Home & Renters Claims — Idaho Department of Insurance",
+      "publisher": "Idaho Department of Insurance",
+      "organizationType": "state-government",
+      "url": "https://doi.idaho.gov/consumers/home-renters-insurance/home-renters-claims/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025-01-02",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official DOI consumer page, raw HTML cached via fetch-source.mjs. Footer shows 'last updated: January 2, 2025'. Department guidance on the claims process, not policy terms and not law.",
+      "stalenessRisk": "LOW — consumer guidance; re-check the footer date.",
+      "claimsSupported": [
+        "fd-doi-replacement-cost-vs-actual-cash-value",
+        "fd-doi-acv-first-then-depreciation-after-repairs",
+        "fd-doi-written-coverage-before-repairs",
+        "fd-doi-document-mitigate-keep-receipts",
+        "fd-doi-cannot-adjust-claim",
+        "fd-doi-public-adjusters-licensed"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "iddoi-post-disaster-claims-guide-release",
+      "title": "What to Do After Disaster Strikes Your Home (news release, June 2, 2023) — Idaho Department of Insurance",
+      "publisher": "Idaho Department of Insurance",
+      "organizationType": "state-government",
+      "url": "https://doi.idaho.gov/pressrelease/what-to-do-after-disaster-strikes-your-home/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "insurance",
+        "claims"
+      ],
+      "publicationDate": "2023-06-02",
+      "updatedDate": "2023-06-02",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official DOI news release, raw HTML cached. A PDF copy of the same release (https://doi.idaho.gov/wp-content/uploads/NewsReleases/2023-06-02-post-disaster-claims-guide.pdf) was also cached and extracted. The Post-Disaster Claims Guide PDF it links to was not read.",
+      "stalenessRisk": "MEDIUM — contact numbers in a dated release can change.",
+      "claimsSupported": [
+        "fd-doi-consumer-services-contact"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "iddoi-rebuilding-after-a-loss-alert",
+      "title": "Consumer Alert — Rebuilding After a Loss: Managing the Claims Experience (December 2012) — Idaho Department of Insurance",
+      "publisher": "Idaho Department of Insurance",
+      "organizationType": "state-government",
+      "url": "https://doi.idaho.gov/DisplayPDF?Id=1961",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "insurance",
+        "claims",
+        "mortgage"
+      ],
+      "publicationDate": "2012-12",
+      "updatedDate": "2012-12",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official DOI PDF, cached via fetch-source.mjs and extracted to data/idaho/raw/extracted/17459e4303f4f84c.txt with extract-pdf-text.mjs. The document is dated December 2012 in its footer and is still served from the Department's site.",
+      "stalenessRisk": "MEDIUM — 2012 document; claims drawn from it are MEDIUM confidence.",
+      "claimsSupported": [
+        "fd-doi-2012-structural-payment-to-mortgage-holder",
+        "fd-doi-2012-time-requirement-filing-claim"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-nine-financial-problems-after-disaster",
+      "title": "9 financial problems after natural disaster and what you can do about them — CFPB blog",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/about-us/blog/9-financial-problems-after-natural-disasterand-what-you-can-do-about-them/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "insurance",
+        "mortgage"
+      ],
+      "publicationDate": "2018-02-23",
+      "updatedDate": "2018-02-23",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer blog post, raw HTML cached. Dated FEB 23, 2018. General consumer information, not legal advice or regulatory guidance, and not Idaho law.",
+      "stalenessRisk": "MEDIUM — 2018 post; re-check that it is still served.",
+      "claimsSupported": [
+        "fd-cfpb-insurance-check-mortgage-company"
+      ],
+      "entitiesSupported": [],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "cfpb-house-damaged-after-disaster",
+      "title": "What do I do if my house was damaged or destroyed, or if I'm unable to make my payment after a disaster? — Ask CFPB",
+      "publisher": "Consumer Financial Protection Bureau",
+      "organizationType": "federal-government",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-do-i-do-if-my-house-was-damaged-or-destroyed-or-if-im-unable-to-make-my-payment-after-a-disaster-en-1521/",
+      "sourceTier": 1,
+      "jurisdiction": "United States",
+      "topic": [
+        "mortgage",
+        "insurance"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-06-27",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Federal agency consumer guidance, raw HTML cached. The page shows 'last reviewed' JUN 27, 2024. General consumer information, not legal advice; guidance, not Idaho law.",
+      "stalenessRisk": "LOW — re-check the 'last reviewed' date.",
+      "claimsSupported": [
+        "fd-cfpb-still-pay-mortgage-after-disaster"
+      ],
+      "entitiesSupported": [],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-12-104",
+      "title": "Idaho Code § 15-12-104 — Power of attorney is durable (Uniform Power of Attorney Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-104/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-durable-unless-stated"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-12-105",
+      "title": "Idaho Code § 15-12-105 — Execution of power of attorney",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-105/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-execution-signature-presumed-genuine"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-12-106",
+      "title": "Idaho Code § 15-12-106 — Validity of power of attorney",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-106/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-out-of-state-execution-valid"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-12-110",
+      "title": "Idaho Code § 15-12-110 — Termination of power of attorney or agent's authority",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-110/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney",
+        "estate"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-terminates-on-death"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-12-119",
+      "title": "Idaho Code § 15-12-119 — Acceptance of and reliance upon an acknowledged power of attorney",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-119/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-good-faith-reliance-and-certification"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-12-120",
+      "title": "Idaho Code § 15-12-120 — Liability for refusal to accept an acknowledged power of attorney",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-120/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-acceptance-seven-business-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-12-204",
+      "title": "Idaho Code § 15-12-204 — Real property (agent's general authority)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch12/sect15-12-204/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-general-real-property-authority-to-sell"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-806",
+      "title": "Idaho Code § 55-806 — Power must be recorded before conveyance by attorney",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-806/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney",
+        "recording",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-must-be-recorded-before-deed"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-814",
+      "title": "Idaho Code § 55-814 — Revocation of power to be recorded",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch8/sect55-814/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "power-of-attorney",
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-poa-revocation-must-be-recorded"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-51-111",
+      "title": "Idaho Code § 51-111 — Notarial act in another state",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-111/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary",
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-notarial-act-another-state-same-effect"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-51-114",
+      "title": "Idaho Code § 51-114 — Foreign notarial act",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title51/t51ch1/sect51-114/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "os-foreign-notarial-act-apostille"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "sos-idaho-notary-information",
+      "title": "Notary Public information (including Electronic Notary FAQ)",
+      "publisher": "Idaho Secretary of State",
+      "organizationType": "state-government",
+      "url": "https://sos.idaho.gov/notary-public/",
+      "retrievalUrl": "https://sos.idaho.gov/notary-information/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "notary"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "The Idaho Secretary of State's own notary page, which administers notary commissions under Idaho Code title 51 ch. 1. Fetched at /notary-public/ (cached under that URL); the server redirected to /notary-information/. No page-level last-updated date shown.",
+      "stalenessRisk": "MEDIUM — agency procedure (SOSBiz filing names, IDAPA reference) can change without a statute change.",
+      "claimsSupported": [
+        "os-sos-remote-online-notary-registration"
       ],
       "entitiesSupported": [
         "state:id"

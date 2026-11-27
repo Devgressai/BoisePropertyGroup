@@ -390,6 +390,28 @@ export const guides: Guide[] = [
     sell: ["sell-house-with-liens-idaho", "sell-house-as-is-idaho"],
     handoff: "If a title problem is holding up a sale, a direct sale can wait while it is cleared, because you choose the closing date.",
   },
+  {
+    slug: "selling-a-fire-damaged-house-in-ada-county",
+    title: "Selling a Fire-Damaged House in Ada County",
+    h1: "Selling a fire- or water-damaged house in Ada County",
+    description:
+      "What Idaho's disclosure form asks, what the Department of Insurance says about claims, and the Boise and Star fee rules for rebuilding after a fire.",
+    cluster: "disclosure",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-house-as-is-idaho", "sell-vacant-house-idaho"],
+  },
+  {
+    slug: "selling-an-idaho-house-from-out-of-state",
+    title: "Selling an Idaho House From Out of State",
+    h1: "Selling an Idaho house while you live somewhere else",
+    description:
+      "What Idaho law says about signing a deed out of state, remote notarization, powers of attorney, Idaho income tax for nonresidents and the homeowner's exemption.",
+    cluster: "closing",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-vacant-house-idaho", "sell-inherited-house-idaho"],
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {
