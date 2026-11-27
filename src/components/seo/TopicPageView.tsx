@@ -72,7 +72,7 @@ export default function TopicPageView({ page }: { page: TopicPage }) {
           </div>
         </ArticleBody>
 
-        {page.tool === "offer-math" && <div className="no-count"><OfferMath /></div>}
+        {page.tool === "offer-math" && <div className="no-count"><OfferMath compact={page.slug !== "how-we-calculate-an-offer"} /></div>}
         <EvidenceAppendix claims={citedClaims(page)} />
         <NextSteps path={`/${page.slug}`} />
         <FinalCTA />

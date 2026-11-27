@@ -58,7 +58,14 @@ function Band({ value }: { value: number }) {
   );
 }
 
-export default function OfferMath() {
+/**
+ * `compact` (2026-11-26): the long assumptions note renders in full only on
+ * /how-we-calculate-an-offer. On the homepage and the listing comparison it is
+ * one sentence and a link, so ~100 words of identical prose are not repeated
+ * across three pages (duplicate-content audit). The assumptions themselves are
+ * unchanged and one click away.
+ */
+export default function OfferMath({ compact = false }: { compact?: boolean } = {}) {
   const [arv, setArvState] = useState(ARV_DEFAULT);
   /** What is typed in the box. Committed (clamped) on blur or Enter, so a half-typed figure is not corrected mid-keystroke. */
   const [arvText, setArvText] = useState(formatUsd(ARV_DEFAULT));
@@ -262,7 +269,17 @@ export default function OfferMath() {
             ))}
           </div>
           <p className="serif max-w-[46rem] text-[1.25rem] leading-snug text-white">{read}</p>
-          <p className="mt-4 max-w-[46rem] text-sm leading-relaxed">
+          {compact ? (
+            <p className="mt-4 max-w-[46rem] text-sm leading-relaxed">
+              Each figure is an illustration before any mortgage payoff, liens and taxes, on assumed
+              listing costs.{" "}
+              <Link href="/how-we-calculate-an-offer" className="text-white underline underline-offset-2">
+                The assumptions are set out here
+              </Link>
+              .
+            </p>
+          ) : (
+            <p className="mt-4 max-w-[46rem] text-sm leading-relaxed">
             Each &ldquo;you keep&rdquo; figure is before any mortgage payoff, liens and taxes on the
             sale, which come out of the same number at closing. The ranges are the figure plus or
             minus 4%, to avoid false precision; they are not a forecast. Listing figures assume a
@@ -271,6 +288,7 @@ export default function OfferMath() {
             commission because no listing agent is involved, and any closing costs that fall to
             you in a sale to us are stated in the written offer.
           </p>
+          )}
         </div>
 
         <div className="mt-12 grid gap-6 border-t border-white/25 pt-9 lg:grid-cols-[1fr_minmax(0,34rem)] lg:items-center lg:gap-14">

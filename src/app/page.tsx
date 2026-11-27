@@ -38,7 +38,7 @@ export default function Home() {
       <main id="main" className="pb-20 lg:pb-0">
         <Hero />
         <WhatWeBuy />
-        <OfferMath />
+        <OfferMath compact />
         <WhenNotToSell />
         <HowItWorks />
         <WhoWeAre />
