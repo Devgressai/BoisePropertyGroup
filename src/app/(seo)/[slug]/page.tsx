@@ -84,7 +84,7 @@ function resolve(slug: string) {
     return {
       kind: "county" as const,
       name: county.name,
-      title: `We Buy Property in ${county.name}, Idaho`,
+      title: `Sell Your House Fast Anywhere in ${county.name}`,
       eyebrow: "Ada County, Idaho",
       content,
       links: [...linksForCounty(), ...knowledgeLinksForPlace(county as unknown as Place)],

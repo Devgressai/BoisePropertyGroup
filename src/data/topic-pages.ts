@@ -160,11 +160,11 @@ export const TOPIC_PAGES: TopicPage[] = [
   {
     slug: "sell-probate-house-idaho",
     kind: "situation",
-    title: "Sell a Probate House in Boise, Idaho",
-    h1: "Selling a house in probate in Boise and Ada County",
+    title: "We Buy Probate Houses in Boise, Idaho",
+    h1: "We buy probate houses in Boise and Ada County",
     eyebrow: "Probate",
     description:
-      "Selling a probate house in Boise or Ada County: who can sign, when letters are needed, the creditor period, and what the Recorder needs. Any condition.",
+      "We buy probate houses in Boise and Ada County, in any condition, with our own capital. The personal representative signs; the estate picks the closing date.",
     published: "2026-11-26",
     updated: "2026-11-26",
     guides: ["selling-a-house-in-probate-in-idaho", "selling-an-inherited-house-in-idaho", "inheriting-a-house-with-a-mortgage-in-idaho"],
@@ -297,7 +297,7 @@ export const TOPIC_PAGES: TopicPage[] = [
         heading: "What you disclose is what you actually know",
         body: [
           "The form records conditions actually known by the seller. It must say that it is not a warranty and not a substitute for an inspection, and a seller is not liable for an error about something outside their personal knowledge. Every disclosure has to be made in good faith, which the act defines as honesty in fact.",
-          "That matters for the houses people most often sell as-is: a rental you never lived in, a parent's house, a property you inherited. You disclose what you know; you are not expected to describe a crawlspace you have never been in. Idaho also provides that no cause of action arises for not disclosing that a property is psychologically impacted, such as a death or felony there that had no effect on its physical condition.",
+          "That matters for the houses people most often sell as-is: [a rental you never lived in](/sell-rental-property-idaho), a parent's house, [a property you inherited](/sell-inherited-house-idaho). You disclose what you know; you are not expected to describe a crawlspace you have never been in. Idaho also provides that no cause of action arises for not disclosing that a property is psychologically impacted, such as a death or felony there that had no effect on its physical condition.",
         ],
         claims: [
           "id-disclosure-actual-knowledge-not-warranty",
@@ -454,10 +454,10 @@ export const TOPIC_PAGES: TopicPage[] = [
     slug: "sell-house-before-foreclosure-idaho",
     kind: "situation",
     title: "Sell Your House Before Foreclosure in Boise, Idaho",
-    h1: "Selling your Boise house before a foreclosure sale",
+    h1: "Sell your Boise house before the foreclosure sale",
     eyebrow: "Facing foreclosure",
     description:
-      "Behind on payments in Boise or Ada County? Idaho's foreclosure dates, the payoff figure, and what selling before the trustee's sale can and cannot do.",
+      "Behind on payments in Boise or Ada County? We buy before the trustee's sale, the loan is paid off at closing, and you pick the date. Any condition.",
     published: "2026-11-12",
     updated: "2026-11-18",
     guides: ["how-to-avoid-foreclosure-in-idaho", "idaho-foreclosure-timeline", "short-sale-vs-deed-in-lieu-in-idaho", "after-a-foreclosure-sale-in-idaho", "foreclosure-rescue-scams-in-idaho", "bankruptcy-and-foreclosure-in-idaho", "idaho-foreclosure-vs-property-tax-delinquency"],
@@ -705,11 +705,11 @@ export const TOPIC_PAGES: TopicPage[] = [
   {
     slug: "sell-house-divorce-idaho",
     kind: "situation",
-    title: "Selling a House in a Divorce in Boise, Idaho",
-    h1: "Selling the house in a Boise or Ada County divorce",
+    title: "Sell Your House in a Divorce in Boise, Idaho",
+    h1: "Sell the house in a Boise or Ada County divorce",
     eyebrow: "Divorce",
     description:
-      "Selling the house in a Boise or Ada County divorce: who must sign under Idaho law, what the court can order, and one offer and closing date for both of you.",
+      "We buy houses in a Boise or Ada County divorce, in any condition, with one closing date both spouses set at a local title company. Both must sign.",
     published: "2026-11-12",
     updated: "2026-11-18",
     guides: ["selling-a-house-during-a-divorce-in-idaho"],
@@ -887,10 +887,10 @@ export const TOPIC_PAGES: TopicPage[] = [
     slug: "sell-house-delinquent-property-taxes-idaho",
     kind: "situation",
     title: "Sell a House With Delinquent Property Taxes in Boise",
-    h1: "Selling a house with delinquent property taxes",
+    h1: "Sell a house with delinquent property taxes in Ada County",
     eyebrow: "Delinquent property taxes",
     description:
-      "Behind on property taxes in Ada County? The Treasurer's tax deed steps, what late charges cost, and how a sale before the deed pays the county in full.",
+      "Behind on Ada County property taxes? We buy the house before a tax deed issues, the tax is paid from the proceeds at closing, and you choose the date.",
     published: "2026-11-13",
     updated: "2026-11-18",
     guides: ["idaho-property-taxes-when-you-sell", "idaho-foreclosure-vs-property-tax-delinquency"],
@@ -1495,7 +1495,7 @@ export const TOPIC_PAGES: TopicPage[] = [
   {
     "slug": "sell-or-keep-house-facing-foreclosure-idaho",
     "kind": "decision",
-    "title": "Sell or Keep a House Facing Foreclosure in Idaho",
+    "title": "Should You Sell or Keep a House in Foreclosure in Idaho?",
     "h1": "Should you sell your house to avoid foreclosure in Idaho, or keep it?",
     "eyebrow": "Before you sign",
     "description": "When selling an Idaho house before a trustee's sale works, when curing the default is the better route, and when a sale needs the lender's agreement.",

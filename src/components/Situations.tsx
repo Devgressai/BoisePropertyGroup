@@ -12,7 +12,7 @@ import { entryFor } from "@/lib/seo/registry";
  */
 const ITEMS: { q: string; href: string }[] = [
   { q: "I inherited a house I don't want", href: "/sell-inherited-house-idaho" },
-  { q: "The estate is in probate", href: "/guides/selling-a-house-in-probate-in-idaho" },
+  { q: "The estate is in probate", href: "/sell-probate-house-idaho" },
   { q: "I'm behind on the payments", href: "/sell-house-before-foreclosure-idaho" },
   { q: "I'm trying to avoid foreclosure", href: "/guides/how-to-avoid-foreclosure-in-idaho" },
   { q: "We're divorcing and need it sold", href: "/sell-house-divorce-idaho" },

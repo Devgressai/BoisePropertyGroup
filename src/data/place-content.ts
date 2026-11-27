@@ -626,7 +626,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Short-term rental licensing ended in May 2026",
         body: [
           "Until recently a Boise short-term rental needed a city license. On 12 May 2026 the City Council approved repeal of the short-term rental ordinance to align with a change in Idaho law on local regulation of short-term rentals, and from 18 May 2026 a city license is no longer required.",
-          "For a buyer weighing a Boise house as a short-term rental, that removes one layer. It does not remove the rest: the city says it will keep enforcing nuisance, noise, parking, safety and occupancy rules consistent with state law and city code. A license that no longer exists is not the same thing as a use that is unregulated.",
+          "For a buyer weighing a Boise house as a short-term rental, that removes one layer. It does not remove the rest: the city says it will keep enforcing nuisance, noise, parking, safety and occupancy rules consistent with state law and city code. A license that no longer exists is not the same thing as a use that is unregulated. Selling a long-term rental with tenants in place is a different question, covered in [selling a Boise rental with tenants in place](/sell-rental-property-idaho).",
         ],
         claims: ["boise-str-license-repealed-2026"],
       },

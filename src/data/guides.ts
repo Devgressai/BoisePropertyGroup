@@ -56,18 +56,18 @@ export const DEFAULT_HANDOFF =
 export const guides: Guide[] = [
   {
     slug: "selling-an-inherited-house-in-idaho",
-    title: "Selling an Inherited House in Idaho",
-    h1: "Selling an inherited house in Idaho",
+    title: "Selling an Inherited House in Idaho as an Heir",
+    h1: "Selling an inherited Idaho house once the estate has passed it to you",
     description:
-      "What an Idaho personal representative can and cannot do with estate property, when a court order is needed, and why estate sales skip the disclosure form.",
+      "Selling a house you inherited in Idaho: the deed of distribution, buyer protection, the disclosure exemption, the homeowner's exemption and stepped-up basis.",
     cluster: "estate",
     published: "2026-09-10",
-    updated: "2026-09-10",
+    updated: "2026-11-26",
     sell: ["sell-inherited-house-idaho"],
   },
   {
     slug: "idaho-foreclosure-vs-property-tax-delinquency",
-    title: "Idaho Unpaid Property Taxes vs Foreclosure: 3 Years vs 120 Days",
+    title: "Idaho Tax Deed vs Foreclosure: 3 Years vs 120 Days",
     h1: "Two different clocks: foreclosure and tax delinquency in Idaho",
     description:
       "Unpaid Idaho property taxes lead to a county tax deed after three years. A trustee's sale needs only 120 days' notice. Both clocks, and the redemption rules.",
@@ -80,8 +80,8 @@ export const guides: Guide[] = [
   },
   {
     slug: "selling-a-rental-with-tenants-in-idaho",
-    title: "Selling a Rental With Tenants in Idaho: Deposits and Leases",
-    h1: "Selling a rental with tenants in Idaho",
+    title: "Idaho Tenant Deposits and Leases When a Rental Is Sold",
+    h1: "What happens to leases and deposits when an Idaho rental sells",
     description:
       "Selling an Idaho rental with tenants: who owes the deposit after a sale, whether an unrecorded lease binds the buyer, and when a sheriff can remove occupants.",
     cluster: "tenants",
@@ -93,8 +93,8 @@ export const guides: Guide[] = [
   },
   {
     slug: "selling-a-manufactured-home-in-idaho",
-    title: "Selling a Manufactured Home in Idaho: Title or Deed?",
-    h1: "Selling a manufactured home in Idaho",
+    title: "Idaho Manufactured Home: Real or Personal Property?",
+    h1: "Is an Idaho manufactured home real or personal property?",
     description:
       "Is your Idaho manufactured home real property or personal property? The answer decides title or deed, who will finance it, and whether it can be moved.",
     cluster: "manufactured",
@@ -119,7 +119,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "idaho-seller-disclosure-when-selling-as-is",
-    title: "Idaho Seller Disclosure When Selling As-Is: Who Must Disclose",
+    title: "Idaho Seller Disclosure Form: Who Must Fill It Out",
     h1: "Idaho seller disclosure when you sell a house as-is",
     description:
       "Selling as-is does not remove Idaho's seller disclosure form. Who must disclose, the 16 exemptions, the 10-day and 3-business-day deadlines, and lead paint.",
@@ -132,7 +132,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "selling-a-house-during-a-divorce-in-idaho",
-    title: "Selling a House During a Divorce in Idaho: Who Must Sign",
+    title: "Who Must Sign to Sell a House in an Idaho Divorce",
     h1: "Selling a house during a divorce in Idaho: who has to sign",
     description:
       "What Idaho's community property statutes say about who must sign a sale, how temporary orders and injunctions fit in, and how a divorce decree divides a house.",
@@ -143,19 +143,19 @@ export const guides: Guide[] = [
   },
   {
     slug: "liens-and-judgments-when-selling-in-idaho",
-    title: "Selling an Idaho House With a Lien",
+    title: "Idaho Liens and Judgments: How Each One Ends at a Sale",
     h1: "Liens and judgments when you sell an Idaho house",
     description:
       "What Idaho Code and the IRS say about judgment, mechanic's, HOA, child-support, property-tax and federal tax liens on a house, and how each one ends.",
     cluster: "liens",
     published: "2026-11-12",
     updated: "2026-11-12",
-    sell: ["sell-house-with-liens-idaho"],
+    sell: ["sell-house-with-liens-idaho", "sell-house-divorce-idaho"],
   },
   {
     slug: "selling-a-house-in-probate-in-idaho",
-    title: "Selling a House in Probate in Idaho",
-    h1: "Selling a house that is going through probate in Idaho",
+    title: "Idaho Probate and the House: Letters, Creditors, Sale",
+    h1: "How probate works when an Idaho estate owns a house",
     description:
       "How an Idaho estate gets a personal representative, what letters are, how the creditor clock runs, and when a house in probate can be sold in Ada County.",
     cluster: "probate",
@@ -301,8 +301,8 @@ export const guides: Guide[] = [
   },
   {
     slug: "taxes-when-you-sell-a-house-in-idaho",
-    title: "Taxes When You Sell a House in Idaho",
-    h1: "Income taxes when you sell a house in Idaho",
+    title: "Capital Gains Tax When You Sell a House in Idaho",
+    h1: "Capital gains and income tax when you sell an Idaho house",
     description:
       "What the IRS says about the home-sale exclusion, basis and Form 1099-S, and what Idaho Code 63-3022H and the Idaho State Tax Commission say about the gain.",
     cluster: "property-tax",
@@ -323,7 +323,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "selling-a-house-with-unpermitted-work-in-ada-county",
-    title: "Selling a House With Unpermitted Work",
+    title: "Unpermitted Work and Code Cases: Ada County Permit Offices",
     h1: "Selling a house with unpermitted work or an open code case in Ada County",
     description:
       "What Idaho's disclosure form asks about permits, which Ada County office handles permits and code cases for your address, and what an as-is sale changes.",
@@ -365,7 +365,7 @@ export const guides: Guide[] = [
     cluster: "estate",
     published: "2026-11-26",
     updated: "2026-11-26",
-    sell: ["sell-inherited-house-idaho", "sell-probate-house-idaho"],
+    sell: ["sell-inherited-house-idaho", "sell-probate-house-idaho", "sell-house-divorce-idaho"],
   },
   {
     slug: "selling-a-house-in-a-living-trust-in-idaho",
