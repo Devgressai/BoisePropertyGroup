@@ -52,6 +52,7 @@ export const ROLES = [
 /** Which situation a page implies, so step 2 opens pre-selected. Path → value. */
 export const SITUATION_FROM_PATH: Record<string, string> = {
   "/sell-inherited-house-idaho": "inherited",
+  "/sell-probate-house-idaho": "inherited",
   "/guides/selling-an-inherited-house-in-idaho": "inherited",
   "/guides/selling-a-house-in-probate-in-idaho": "inherited",
   "/guides/inheriting-a-house-with-a-mortgage-in-idaho": "inherited",

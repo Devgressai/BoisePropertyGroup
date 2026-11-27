@@ -762,7 +762,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in Ada County with our own capital, in any condition, and our purchases close through a local title company. We can only sign with someone who has the authority to sell — in an open estate, that means an appointed personal representative with letters. The seller chooses the closing date, and a three-week close is realistic. [Selling an inherited or probate house](/sell-inherited-house-idaho) sets out the steps, or you can [contact us](/contact).",
+          "We buy property in Ada County with our own capital, in any condition, and our purchases close through a local title company. We can only sign with someone who has the authority to sell — in an open estate, that means an appointed personal representative with letters. The seller chooses the closing date, and a three-week close is realistic. [Selling a probate house in Boise](/sell-probate-house-idaho) sets out the steps, or you can [contact us](/contact).",
           "We are often not the best route. If the house is in good shape, the estate is in no hurry and the heirs agree, listing it with an agent will usually net more. If the will restricts a sale, a formal proceeding is pending, or the debts may exceed what the estate holds, the first call should be to the estate's attorney, not to any buyer."
         ],
         "claims": []

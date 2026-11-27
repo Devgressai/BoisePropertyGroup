@@ -161,7 +161,7 @@ export const guides: Guide[] = [
     cluster: "probate",
     published: "2026-11-12",
     updated: "2026-11-12",
-    sell: ["sell-inherited-house-idaho"],
+    sell: ["sell-probate-house-idaho", "sell-inherited-house-idaho"],
   },
   {
     slug: "how-a-property-sale-closes-in-idaho",

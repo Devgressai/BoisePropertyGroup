@@ -91,24 +91,93 @@ export const TOPIC_PAGES: TopicPage[] = [
   {
     slug: "sell-inherited-house-idaho",
     kind: "situation",
-    title: "Sell an Inherited or Probate House in Boise, Idaho",
-    h1: "We buy inherited and probate houses in Boise and Ada County",
+    title: "Sell an Inherited House in Boise, Idaho",
+    h1: "We buy inherited houses in Boise and Ada County",
     eyebrow: "Inherited property",
     description:
-      "Selling an inherited house in Boise or Ada County: who can sign, what the Ada County Recorder needs from an estate, and how a direct sale works. Any condition.",
+      "Selling an inherited house in Boise or Ada County: after distribution, with a mortgage or reverse mortgage, taxes, and several heirs. Any condition, your date.",
     published: "2026-11-12",
-    updated: "2026-11-18",
+    updated: "2026-11-26",
     guides: ["selling-an-inherited-house-in-idaho", "selling-a-house-in-probate-in-idaho", "inheriting-a-house-with-a-mortgage-in-idaho", "reverse-mortgage-after-the-borrower-dies-in-idaho"],
     intro: [
-      "Yes. We buy inherited houses in Boise and across Ada County in whatever condition the estate finds them, and whoever is selling sets the closing date. The first question is not the price but who has authority to sign. In Idaho that is usually an appointed personal representative, acting without a court order unless the will or a formal proceeding says otherwise.",
+      "Yes. We buy inherited houses in Boise and across Ada County in whatever condition the estate finds them, and whoever is selling sets the closing date. The first question is not the price but who has authority to sign: the personal representative while the estate is open, or the heir once the house has been distributed. Which questions follow, from a mortgage still on the house to heirs who want different things, is what this page covers.",
       NOT_ADVICE,
     ],
     sections: [
       {
-        heading: "Who can sell an inherited house in Idaho",
+        heading: "If the estate is still open",
+        body: [
+          "While the house is still in the estate, the seller is the appointed personal representative, acting under letters, and being named executor in a will is not enough on its own. That process, from where an Ada County probate is opened to what the Recorder needs, is on [selling a house in probate in Boise](/sell-probate-house-idaho).",
+        ],
+        claims: ["pb-letters-required"],
+      },
+      {
+        heading: "Selling after the estate hands the house to an heir",
+        body: [
+          "An estate does not have to sell the house itself. When property is distributed in kind, the personal representative signs a deed of distribution as evidence of the heir's title, and the heir can then sell it.",
+          "A buyer from that heir takes title free of the rights of anyone else interested in the estate, whether or not the distribution was proper. That protects the buyer. It does not settle what the heir may still owe other heirs or the estate's creditors, and it is not a way around the estate's debts.",
+        ],
+        claims: ["pb-deed-of-distribution", "pb-purchaser-from-distributee-protected"],
+      },
+      {
+        heading: "If there is a mortgage or a reverse mortgage",
+        body: [
+          "For a residential loan on property of less than five dwelling units, federal law bars a lender from using its due-on-sale clause because of a transfer to a relative resulting from the borrower's death. That stops the loan being called because of the inheritance. It does not stop a foreclosure for missed payments, which is why the payments matter while the estate is open. Our guide to [inheriting a house with a mortgage](/guides/inheriting-a-house-with-a-mortgage-in-idaho) covers the servicer side.",
+          "A reverse mortgage runs on a different clock. The CFPB says heirs who receive a due and payable notice on a HECM have 30 days to buy, sell or turn the home over, and that it might be possible to extend that up to six months to sell. If that notice has arrived, the date on it is the one to plan the sale around. See [a reverse mortgage after the borrower dies](/guides/reverse-mortgage-after-the-borrower-dies-in-idaho).",
+        ],
+        claims: ["im-garn-exempt-transfers-on-death", "rv-cfpb-heirs-30-days-up-to-six-months"],
+      },
+      {
+        heading: "Property tax and income tax after a death",
+        body: [
+          "An Idaho homestead that qualified the year before keeps its exemption through the year of the owner's death and the following tax year, as long as it stays part of the estate. After that the next owner has to qualify in their own right. If the estate has stopped paying the tax, Idaho issues a tax deed to the county when a delinquency is not redeemed within three years; our guide on [foreclosure and tax delinquency](/guides/idaho-foreclosure-vs-property-tax-delinquency) sets out that clock.",
+          "For income tax, IRS Publication 523 says the basis of an inherited home is generally its fair market value on the date of death, or on the alternate valuation date if the personal representative chooses it. That can be higher or lower than what the owner paid. A tax professional should apply it to the estate.",
+        ],
+        claims: ["pt-homestead-death-carryover", "id-tax-deed-three-year-delinquency", "cg-irs-inherited-home-basis-pub523"],
+      },
+      {
+        heading: "When several heirs want different things",
+        body: [
+          "A house cannot be split five ways; money can. That is often the whole reason an estate sells. What helps most at that stage is one number every heir can check, with the arithmetic laid out, and a closing date that suits the estate rather than the buyer.",
+          "We deal with the personal representative, because that is who signs. If heirs want to see how the number was built, we will walk through it with them too.",
+        ],
+      },
+      {
+        heading: "What an estate sale looks like with us",
+        body: [
+          "The personal representative sends the address or calls (208) 779-4247. We look at the parcel record and the house as the estate found it, then come back with a number and how we reached it. Nothing has to be cleared, cleaned or repaired. We buy with our own capital, so the sale does not wait on a lender. The purchase closes through a local title company on a date the estate chooses: three weeks is realistic if speed matters, and months is fine if the estate needs them. The steps are on [how it works](/how-it-works).",
+        ],
+      },
+      {
+        heading: "When you should list it instead",
+        body: [
+          "If the house is tidy and financeable and the estate is in no hurry, listing it will usually net more, even after commission. We are not the highest bidder; we are the certain one. If that trade is wrong for the estate, we would rather say so than let you find out afterwards.",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "sell-probate-house-idaho",
+    kind: "situation",
+    title: "Sell a Probate House in Boise, Idaho",
+    h1: "Selling a house in probate in Boise and Ada County",
+    eyebrow: "Probate",
+    description:
+      "Selling a probate house in Boise or Ada County: who can sign, when letters are needed, the creditor period, and what the Recorder needs. Any condition.",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    guides: ["selling-a-house-in-probate-in-idaho", "selling-an-inherited-house-in-idaho", "inheriting-a-house-with-a-mortgage-in-idaho"],
+    intro: [
+      "Yes, a house can be sold while it is in probate in Idaho, and we buy probate houses in Boise and across Ada County in whatever condition the estate finds them. The person who signs is the appointed personal representative, once letters have issued, and in most estates that person can sell without a court order unless the will or a formal proceeding says otherwise. The estate sets the closing date.",
+      NOT_ADVICE,
+    ],
+    sections: [
+      {
+        heading: "Who can sell a house in probate in Idaho",
         body: [
           "Idaho gives an appointed personal representative the same power over the title to estate property that an absolute owner would have, held in trust for creditors and others interested in the estate, and says that power may be used without notice, hearing or court order. The transactions Idaho Code 15-3-715 authorises include selling real property of the estate for cash or credit.",
-          "Three limits travel with that. The power belongs to an appointed personal representative: to acquire it a person must be appointed, qualify and be issued letters, so being named executor in a will is not enough on its own. It is subject to any restriction in the will or an order in a formal proceeding, and to the statutory priorities for claims. And it is a power held for the benefit of the people interested in the estate. Our guide to [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho) sets out the statutes.",
+          "Three limits travel with that. The power belongs to an appointed personal representative: to acquire it a person must be appointed, qualify and be issued letters, so being named executor in a will is not enough on its own. It is subject to any restriction in the will or an order in a formal proceeding, and to the statutory priorities for claims. And it is a power held for the benefit of the people interested in the estate. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) sets out the statutes.",
         ],
         claims: ["id-pr-power-over-title", "pb-pr-may-sell-real-property", "pb-letters-required", "id-pr-powers-limited-by-will"],
       },
@@ -119,6 +188,22 @@ export const TOPIC_PAGES: TopicPage[] = [
           "In an informal appointment the registrar can appoint a personal representative once at least 120 hours have passed since the death. That is a floor, not a processing time. How informal and formal probate differ is in our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho).",
         ],
         claims: ["pb-venue-domicile-county", "pb-ada-magistrates-hear-probates", "pb-fourth-district-ada", "pb-informal-appointment-120-hours"],
+      },
+      {
+        heading: "Which family member gets appointed",
+        body: [
+          "Idaho Code 15-3-203 sets the order of priority for appointment, in formal and informal proceedings alike: the person with priority under a probated will, then a surviving spouse who is a devisee, other devisees, the surviving spouse, other heirs, and, 45 days after the death, any creditor.",
+          "Where several people share a priority, such as several adult children who are all heirs, those who do not renounce must concur in nominating one of them or someone else to act. For a sale that is the practical point: one person signs the deed, and the family has to agree who it is before anything can be signed.",
+        ],
+        claims: ["pb-appointment-priority"],
+      },
+      {
+        heading: "Selling before the creditor period ends",
+        body: [
+          "Once appointed, a personal representative may publish a notice to creditors, and claims not presented within four months of the first publication are barred. Claims that arose before death are barred in any event three years after the death. A mortgage or other lien on the house is not cut off by either deadline.",
+          "The power to sell is not written as waiting for that period to end. What the claim period controls is closing the estate: a personal representative may close by sworn statement no earlier than six months after appointment. Meanwhile the personal representative must pay the taxes on the house and keep it protected and preserved. When to sell relative to the claim period is a decision for the personal representative and the estate's attorney.",
+        ],
+        claims: ["pb-creditor-notice-four-months", "pb-claims-barred-three-years", "pb-close-no-earlier-six-months", "pb-pr-possession-and-taxes"],
       },
       {
         heading: "What the Ada County Recorder needs from an estate sale",
@@ -143,26 +228,9 @@ export const TOPIC_PAGES: TopicPage[] = [
         claims: ["pb-small-estate-affidavit-conditions", "pb-ada-small-estate-affidavit-no-real-estate", "pb-probate-three-year-limit"],
       },
       {
-        heading: "If there is a mortgage or a reverse mortgage",
+        heading: "The disclosure form does not apply to the estate's sale",
         body: [
-          "For a residential loan on property of less than five dwelling units, federal law bars a lender from using its due-on-sale clause because of a transfer to a relative resulting from the borrower's death. That stops the loan being called because of the inheritance. It does not stop a foreclosure for missed payments, which is why the payments matter while the estate is open. Our guide to [inheriting a house with a mortgage](/guides/inheriting-a-house-with-a-mortgage-in-idaho) covers the servicer side.",
-          "A reverse mortgage runs on a different clock. The CFPB says heirs who receive a due and payable notice on a HECM have 30 days to buy, sell or turn the home over, and that it might be possible to extend that up to six months to sell. If that notice has arrived, the date on it is the one to plan the sale around. See [a reverse mortgage after the borrower dies](/guides/reverse-mortgage-after-the-borrower-dies-in-idaho).",
-        ],
-        claims: ["im-garn-exempt-transfers-on-death", "rv-cfpb-heirs-30-days-up-to-six-months"],
-      },
-      {
-        heading: "Property tax and income tax after a death",
-        body: [
-          "An Idaho homestead that qualified the year before keeps its exemption through the year of the owner's death and the following tax year, as long as it stays part of the estate. After that the next owner has to qualify in their own right. If the estate has stopped paying the tax, Idaho issues a tax deed to the county when a delinquency is not redeemed within three years; our guide on [foreclosure and tax delinquency](/guides/idaho-foreclosure-vs-property-tax-delinquency) sets out that clock.",
-          "For income tax, IRS Publication 523 says the basis of an inherited home is generally its fair market value on the date of death, or on the alternate valuation date if the personal representative chooses it. That can be higher or lower than what the owner paid. A tax professional should apply it to the estate.",
-        ],
-        claims: ["pt-homestead-death-carryover", "id-tax-deed-three-year-delinquency", "cg-irs-inherited-home-basis-pub523"],
-      },
-      {
-        heading: "When several heirs want different things",
-        body: [
-          "A house cannot be split five ways; money can. That is often the whole reason an estate sells. What helps most at that stage is one number every heir can check, with the arithmetic laid out, and a closing date that suits the estate rather than the buyer.",
-          "We deal with the personal representative, because that is who signs. If heirs want to see how the number was built, we will walk through it with them too. A transfer by a fiduciary administering an estate is exempt from Idaho's disclosure form, though the act keeps every other duty to disclose.",
+          "A transfer by a fiduciary in the course of administering a decedent's estate is exempt from Idaho's property condition disclosure form. The act keeps every other duty to disclose, so a personal representative who knows of a defect should still say so. In practice the estate often knows least about the house, which is one reason an as-is buyer suits it.",
         ],
         claims: ["id-disclosure-exempt-estate-fiduciary", "id-disclosure-other-duties-preserved"],
       },
@@ -174,7 +242,7 @@ export const TOPIC_PAGES: TopicPage[] = [
         claims: ["ada-treasurer-ex-officio-public-administrator"],
       },
       {
-        heading: "What an estate sale looks like with us",
+        heading: "What a probate sale looks like with us",
         body: [
           "The personal representative sends the address or calls (208) 779-4247. We look at the parcel record and the house as the estate found it, then come back with a number and how we reached it. Nothing has to be cleared, cleaned or repaired. We buy with our own capital, so the sale does not wait on a lender. The purchase closes through a local title company on a date the estate chooses: three weeks is realistic if speed matters, and months is fine if the estate needs them. The steps are on [how it works](/how-it-works).",
         ],
