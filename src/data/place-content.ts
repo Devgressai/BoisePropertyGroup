@@ -28,7 +28,7 @@ export interface PlaceContent {
 export const placeContent: Record<string, PlaceContent> = {
   "sell-my-house-fast-eagle-id": {
     intro: [
-      "Sell your Eagle house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
+      "Sell your Eagle house as-is, for cash, whichever of the city's water providers serves it and however close it sits to Dry Creek. We buy with our own capital, and you choose the closing date.",
       "Eagle has about 33,451 residents and grew 7.4% between the 2020 census base and the 2024 estimate — steady rather than fast by Ada County standards. Its median age of 46.8 in 2022 was among the oldest in the county, behind only Garden City.",
       "We buy houses, land and commercial property across Eagle, in any condition.",
     ],
@@ -93,14 +93,14 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "What that means for an offer",
         body: [
           "An Eagle property with a creek-side flood question, a split between utilities or an irrigation lateral across it is not a property we decline. It is one where those facts shape the price, and we would rather show you how they do than guess.",
-          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
+          "How that number is built, line by line, is set out on [how we calculate an offer](/how-we-calculate-an-offer).",
         ],
         claims: [],
       },
       {
         heading: "Selling your Eagle house as-is, for cash",
         body: [
-          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+          "An Eagle house on a private well and septic, with an irrigation lateral across the lot, or with building plans the city no longer holds is priced as it stands rather than turned away. No repairs, cleaning or showings are needed, and a three-week close through a local title company is realistic. How condition is priced is on [selling a house as-is](/sell-house-as-is-idaho).",
         ],
       },
     ],
@@ -108,7 +108,7 @@ export const placeContent: Record<string, PlaceContent> = {
 
   "sell-my-house-fast-kuna-id": {
     intro: [
-      "Sell your Kuna house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
+      "Sell your Kuna house as-is, for cash, even with a city utility balance or an irrigation assessment still owing: both are settled at closing. We buy with our own capital, and you choose the closing date.",
       "Kuna has about 29,127 residents, grew 21.0% between the 2020 census base and the 2024 estimate, and had the youngest median age of any Ada County city in 2022, at 30.2. COMPASS projects it will more than double by 2050, the fastest projected growth in the county.",
       "Kuna runs its own water, sewer and pressurized irrigation, bills trash collection through City Hall, and its city code spells out what happens to those accounts when a house is sold. We buy houses, land and commercial property across Kuna, in any condition.",
     ],
@@ -200,14 +200,14 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "What that means for an offer",
         body: [
           "A Kuna property with an unpaid city utility balance, a recorded utility lien, an irrigation assessment in arrears or unpermitted work is not one we decline. Those are costs, and we would rather show you how they shape the number than guess.",
-          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line, and you choose the closing date.",
+          "How that number is built, line by line, is set out on [how we calculate an offer](/how-we-calculate-an-offer), and you choose the closing date.",
         ],
         claims: [],
       },
       {
         heading: "Selling your Kuna house as-is, for cash",
         body: [
-          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+          "The title company that closes the sale also takes Kuna's utility application for the new account, so the city bill is dealt with in the same place as the deed. You make no repairs and hold no showings, and three weeks is realistic. How condition is priced is on [selling a house as-is](/sell-house-as-is-idaho).",
         ],
       },
     ],
@@ -215,7 +215,7 @@ export const placeContent: Record<string, PlaceContent> = {
 
   "sell-my-house-fast-meridian-id": {
     intro: [
-      "Sell your Meridian house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
+      "Sell your Meridian house as-is, for cash, including one where a tenant left a city utility balance or the line to the street needs work. We buy with our own capital, and you choose the closing date.",
       "Meridian has about 139,740 residents, grew 18.6% between the 2020 census base and the 2024 estimate, and had a median age of 38.7 in 2022 — close to the county's 39.1. It is Ada County's second-largest city, and most of what a seller needs to know about it comes down to how the city runs its utilities.",
       "We buy houses, land and commercial property across Meridian, in any condition.",
     ],
@@ -315,21 +315,21 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "What that means for an offer",
         body: [
           "A Meridian house with an unpaid city utility balance, a failing sewer lateral or a tenant who left owing money is not one we decline. Those are costs, and we would rather show you how they shape the number than pretend they are not there.",
-          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
+          "How that number is built, line by line, is set out on [how we calculate an offer](/how-we-calculate-an-offer).",
         ],
         claims: [],
       },
       {
         heading: "Selling your Meridian house as-is, for cash",
         body: [
-          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+          "A failing sewer lateral, a tenant's unpaid city balance or an unpermitted garage conversion is a cost we count rather than a reason to walk away.",
         ],
       },
     ],
   },
   "sell-my-house-fast-garden-city-id": {
     intro: [
-      "Sell your Garden City house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
+      "Sell your Garden City house as-is, for cash, including one in the flood hazard area where the city's 50 percent rule limits what a buyer can improve. We buy with our own capital, and you choose the closing date.",
       "Garden City has about 12,936 residents, grew 5.1% between the 2020 census base and the 2024 estimate, and had the oldest median age of any Ada County city in 2022, at 47.1. It sits along the Boise River, and the river shapes several of the rules that matter most to a seller here.",
       "We buy houses, land and commercial property across Garden City, in any condition.",
     ],
@@ -395,14 +395,14 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "What that means for an offer",
         body: [
           "A Garden City property in the flood hazard area, or one that needs more work than the 50 percent line comfortably allows, is not one we decline. It is one where the rules shape the number, and we would rather show you how they do.",
-          "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
+          "How that number is built, line by line, is set out on [how we calculate an offer](/how-we-calculate-an-offer).",
         ],
         claims: [],
       },
       {
         heading: "Selling your Garden City house as-is, for cash",
         body: [
-          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+          "The title company gives Garden City the closing date and the city account moves to the buyer that day, so an old balance is cleared from the proceeds. Nothing has to be repaired, cleaned or shown first, and three weeks is realistic. How condition is priced is on [selling a house as-is](/sell-house-as-is-idaho).",
         ],
       },
     ],
@@ -563,7 +563,7 @@ export const placeContent: Record<string, PlaceContent> = {
 
   "sell-my-house-fast-boise-id": {
     intro: [
-      "Sell your Boise house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
+      "Sell your Boise house as-is, for cash, whether it sits in the foothills overlay, a historic district or on an infill lot carrying a sewer deferral. We buy with our own capital, and you choose the closing date.",
       "Boise is the largest city in Ada County at roughly 238,000 people, and the slowest growing — about 1.0% between the 2020 census base and the 2024 estimate, against 61.4% in Star and 21.0% in Kuna. A market that is not adding people is a market where the existing housing stock, and its condition, does most of the work.",
       "We buy houses, infill lots, multifamily, office and industrial property across the city.",
     ],
@@ -728,7 +728,7 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "Selling your Boise house as-is, for cash",
         body: [
-          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+          "Boise's own Escrow Tool gives the title company a utility quote, and a sewer deferral that falls due on sale is paid from the proceeds rather than out of pocket. Nothing has to be repaired, cleaned or shown first, and three weeks is realistic. How condition is priced is on [selling a house as-is](/sell-house-as-is-idaho).",
         ],
       },
     ],
@@ -736,7 +736,7 @@ export const placeContent: Record<string, PlaceContent> = {
 
   "sell-my-house-fast-star-id": {
     intro: [
-      "Sell your Star house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
+      "Sell your Star house as-is, for cash, with the sewer and water district's bill settled through escrow at closing. We buy with our own capital, and you choose the closing date.",
       "Star grew 61.4% between the 2020 census base and the 2024 estimate, from roughly 11,300 to 18,208 people, the fastest growth of any city in Ada County by a wide margin. It is also the only one that is not entirely in Ada County.",
       "Water and sewer in Star belong to a separate district whose charges follow the house, the city adopted new park and police impact fees in April 2026, and its flood code asks for two feet above the base flood level. We buy houses, land and commercial property across Star, in any condition.",
     ],
@@ -867,7 +867,7 @@ export const placeContent: Record<string, PlaceContent> = {
       {
         heading: "Selling your Star house as-is, for cash",
         body: [
-          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+          "The title company requests the district's utility assessment, and the final bill is paid from escrow, so a balance on the account does not hold up the sale. Nothing has to be repaired, cleaned or shown first, and three weeks is realistic. How condition is priced is on [selling a house as-is](/sell-house-as-is-idaho).",
         ],
       },
     ],
