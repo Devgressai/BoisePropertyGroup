@@ -835,6 +835,71 @@ export const guideContent: Record<string, GuideContent> = {
       },
     ],
   },
+  "utilities-when-you-sell-a-house-in-ada-county": {
+    intro: [
+      "In most of Ada County an unpaid water or sewer bill stays with the house, not the person who ran it up, and it is settled at closing. Meridian, Kuna, Star and Garden City all say so in their own rules. Who provides the service changes at every city limit: Boise's drinking water comes from private regulated companies, Star's from a separate district, and Eagle has four providers for three services. The title company handling the sale is usually the one that requests the final bill.",
+      "This page sets out what each city and district publishes. Rules and fees change; the title company handling your sale will confirm the current process.",
+    ],
+    sections: [
+      {
+        heading: "Do unpaid utility bills stay with the house in Ada County?",
+        body: [
+          "In most of the county, yes. Meridian, Kuna, Star's water and sewer district and Garden City each say in their own rules that charges attach to the property rather than the person who ran them up. The table below sets out, city by city, who provides the service, whether a balance follows the property and how the account moves at closing.",
+        ],
+        table: {"caption": "Water and sewer at a sale, city by city in Ada County", "columns": ["City", "Who provides water and sewer", "Does an unpaid balance follow the property?", "How the account moves at closing"], "rows": [["Boise", "Water: Veolia Water Idaho or Capitol Water Corporation (private, regulated). Sewer: City of Boise", "A Boise sewer deferral becomes due on sale and is a lien until paid", "City Escrow Tool gives instant quotes; sewer deferral payoffs answered within 3 business days"], ["Meridian", "City of Meridian, for both", "Yes: debt for city services is the owner's, whoever used them", "The agency handling the sale requests a final billing from the city; the account number changes"], ["Eagle", "Water: City of Eagle or Veolia, by area. Sewer: Eagle Sewer District. Some properties on private well and septic", "Not stated by the city", "City water bills a deposit and a set-up fee on accounts being transferred"], ["Kuna", "City of Kuna, for water, sewer and trash billing", "Yes: the owner stays responsible, and the city may record a lien after 90 days", "Utility application completed at the title company before or at closing; $100.00 deposit, non-transferable"], ["Star", "Star Sewer & Water District, separate from the city", "Yes: unpaid charges are certified to the tax roll", "Title company requests a utility assessment and settles it through escrow"], ["Garden City", "City of Garden City, for water, sewer and trash", "Yes: utility debts stay with the property", "Title company gives the city the closing date; the account transfers that day"]], "note": "From each city's or district's own published rules. A provider can change its process; confirm with the title company handling the sale."},
+        claims: ["meridian-utility-debt-stays-with-property", "kuna-utility-charges-lien-on-property", "star-sswd-charges-follow-property", "gardencity-utility-debt-stays-transfer-at-closing"],
+      },
+      {
+        heading: "Boise: private water companies, city sewer, and the sewer deferral",
+        body: [
+          "Drinking water in Boise comes from privately owned utilities regulated by the Idaho Public Utilities Commission, chiefly Veolia Water Idaho and Capitol Water Corporation, not from the city. Sewer is the city's: residential and commercial buildings in Boise must connect to the city sewer system.",
+          "The item that matters most at a sale is a sewer deferral. Under Boise City Code 10-2-8 an owner of an existing house can pay sewer connection fees in installments for up to fifteen years, the city records the agreement with the Ada County Recorder, and unless the department agrees otherwise in writing the balance and interest become due in full on a sale. The city's online Escrow Tool gives instant escrow quotes for many residential accounts, and a deferral payoff request, which needs a signed Borrower's Authorization, is answered within 3 business days.",
+          "A house sitting empty while it is for sale can be put on vacancy status for up to six months if it has been vacant at least 30 consecutive days with no sewer or trash use. Base fees still apply; only usage fees stop. More on the city is on our [Boise page](/sell-my-house-fast-boise-id).",
+        ],
+        claims: ["boise-drinking-water-private-utilities", "boise-sewer-connection-required", "r2-boise-sewer-fee-deferral-due-on-sale", "boise-escrow-quote-and-sewer-deferral-payoff", "boise-utility-vacancy-six-months"],
+      },
+      {
+        heading: "Meridian: the account stays with the property",
+        body: [
+          "City of Meridian utility accounts stay with the property rather than travelling with the customer. Any debt for city services at the property is the owner's responsibility regardless of who used them, and the account number changes when the property is sold.",
+          "At a sale or refinance, the agency handling the transaction must request a final billing option from the city's Utility Billing office so the city can provide a final assessment at the time of transfer. For a landlord, that means a tenant's unpaid balance is the owner's to clear. More on the city is on our [Meridian page](/sell-my-house-fast-meridian-id).",
+        ],
+        claims: ["meridian-utility-debt-stays-with-property", "meridian-final-utility-bill-at-ownership-transfer"],
+      },
+      {
+        heading: "Eagle: four providers, not one",
+        body: [
+          "The City of Eagle says water, sewer and trash are not provided together. Hardin Sanitation handles trash and recycling for all of Eagle. The Eagle Sewer District, separate from the city, provides sewer. Water comes from the City of Eagle Water Department or from Veolia depending on location, and some properties are still on private wells and septic systems.",
+          "City of Eagle Water bills a service deposit on each new customer's first statement and charges a set-up fee on accounts being transferred. Working out which provider serves the house is the first step. More on the city is on our [Eagle page](/sell-my-house-fast-eagle-id).",
+        ],
+        claims: ["eagle-utilities-from-four-providers", "eagle-water-deposit-and-transfer-fee"],
+      },
+      {
+        heading: "Kuna: the paperwork happens at the title company",
+        body: [
+          "Kuna City Code 7-7-5 requires a utility application for every new account owner, provided at the title company where the purchase closes and completed before or at closing. The title company sends the city a copy of the deed and the completed application. Each new account carries a refundable $100.00 deposit that is non-transferable.",
+          "The owner stays financially responsible for city utility charges even when a tenant or property manager receives the bills, and the city attorney may record a lien with the Ada County Recorder on accounts more than 90 days delinquent. More on the city is on our [Kuna page](/sell-my-house-fast-kuna-id).",
+        ],
+        claims: ["kuna-utility-application-at-title-company", "kuna-utility-deposit-100-nontransferable", "kuna-utility-charges-lien-on-property"],
+      },
+      {
+        heading: "Star: a separate district, settled through escrow",
+        body: [
+          "In Star, water and sewer come from the Star Sewer & Water District, not the city. When a home is sold, the title company requests a utility assessment, which sets the amount collected from the buyer or withheld from the seller through escrow, and the final bill is paid from escrow. Service stays on.",
+          "The district's charges attach to the property, so a previous owner's unpaid final bill becomes the new owner's. Under Idaho Code 42-3212, charges unpaid 30 days after their due date are delinquent, are certified to the county tax collector by August 1, and are collected on the tax roll. More on the city is on our [Star page](/sell-my-house-fast-star-id).",
+        ],
+        claims: ["star-water-sewer-separate-district", "star-sswd-transfer-through-escrow", "star-sswd-charges-follow-property"],
+      },
+      {
+        heading: "Garden City: the account transfers on the closing date",
+        body: [
+          "Garden City runs its own water and sewer system and bills water, sewer and trash on one statement. Its Utility Billing Department says utility debts stay with the property. The title company supplies the new owner's name and closing date, the city reports any outstanding balance, and the account transfers into the new owner's name on that date. The seller's final bill runs through the last date of ownership or occupancy.",
+          "Every renter must complete a Renters Agreement and pay a security deposit, so a rental sold with a tenant in place has an account arrangement to carry over as well as a lease. More on the city is on our [Garden City page](/sell-my-house-fast-garden-city-id).",
+        ],
+        claims: ["gardencity-city-water-and-sewer-system", "gardencity-utility-debt-stays-transfer-at-closing", "gardencity-renters-agreement-deposit"],
+      },
+    ],
+  },
   "how-a-property-sale-closes-in-idaho": {
     "intro": [
       "At an Idaho closing the seller signs a written deed naming the buyer and the buyer's mailing address, the signature is acknowledged before a notary so the deed can be recorded, and the deed is recorded with the recorder of the county where the property sits, which is what protects the buyer against later purchasers and mortgagees. Around that core, Idaho's title insurance statutes regulate the escrow and closing work of title companies, and federal rules decide who reports the sale to the IRS and when tax must be withheld from a foreign seller.",

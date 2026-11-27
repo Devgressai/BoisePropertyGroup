@@ -187,6 +187,18 @@ export const guides: Guide[] = [
     handoff: "If selling it yourself is more work than you want, a direct sale skips the listing, the showings and the buyer's financing.",
   },
   {
+    slug: "utilities-when-you-sell-a-house-in-ada-county",
+    title: "Utilities When You Sell a House in Ada County, City by City",
+    h1: "What happens to water, sewer and trash when you sell a house in Ada County",
+    description:
+      "Who bills water and sewer in Boise, Meridian, Eagle, Kuna, Star and Garden City, whether unpaid bills follow the house, and how each moves at closing.",
+    cluster: "closing",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-house-as-is-idaho", "sell-rental-property-idaho"],
+    handoff: "If an old utility balance or a sewer deferral is sitting on the house, a direct sale prices it in rather than waiting for it to be cleared.",
+  },
+  {
     slug: "selling-a-house-with-a-well-or-septic-in-ada-county",
     title: "Selling a House With a Well or Septic in Ada County, Idaho",
     h1: "Selling an Ada County house on a private well or septic system",
