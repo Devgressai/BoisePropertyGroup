@@ -23,9 +23,9 @@ const CITED = [...new Set([...ASSETS, ...EXPLAINERS].flatMap((p) => lineFor(p.sl
   .map((id) => commercialClaim(id))
   .filter((c) => c !== undefined);
 
-const TITLE = "Commercial Property Buyers in Ada County";
+const TITLE = "We Buy Commercial Property in Ada County, Idaho";
 const DESCRIPTION =
-  "What we buy on the commercial side, and what actually changes when a property is valued on its income rather than by comparison to nearby sales.";
+  "We buy multifamily, industrial and mixed-use commercial property across Ada County with our own capital, closing through a local title company.";
 
 export const metadata: Metadata = pageMetadata({ path: "/commercial", title: TITLE, description: DESCRIPTION });
 
@@ -52,7 +52,7 @@ export default function CommercialHub() {
           <div className="wrap">
             <p className="eyebrow text-[var(--bpg-warm)]">Commercial</p>
             <h1 className="display-xl mt-4 max-w-[20ch] text-[var(--bpg-ink)]">
-              Commercial property, valued on what it earns
+              We buy commercial property in Ada County
             </h1>
             <div className="mt-8 max-w-[42rem] space-y-4">
               <p className="lede text-[var(--bpg-muted)]">
