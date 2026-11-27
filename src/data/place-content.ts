@@ -123,7 +123,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Unpaid city utilities can become a lien on the house",
         body: [
           "In Kuna the account follows the property, not the person who ran the taps. Under Kuna City Code 7-7-6b the owner of the real property stays financially responsible for city utility charges even when a tenant or property manager receives the bills. The service contract the owner signs consents to a lien for delinquent charges, recorded with the Ada County Recorder, and under 7-7-18 the city attorney may record it once an account is more than 90 days delinquent.",
-          "For a landlord selling a rental, or a family selling a house that sat empty while bills went unopened, that means an old balance may already be a recorded lien. It does not stop a sale. It does need paying off from the proceeds, so it is better found now than at the closing table.",
+          "For [a landlord selling a rental](/sell-rental-property-idaho), or a family selling a house that sat empty while bills went unopened, that means an old balance may already be [a recorded lien](/sell-house-with-liens-idaho). It does not stop a sale. It does need paying off from the proceeds, so it is better found now than at the closing table.",
         ],
         claims: ["kuna-utility-charges-lien-on-property"],
       },
@@ -229,7 +229,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Utility debt stays with the property",
         body: [
           "This is the rule that matters most at a sale. City of Meridian utility accounts do not travel with the customer; they stay with the property. Any debt at the property for city services is the property owner's responsibility regardless of who used the services, and when the property is sold to another owner the account number changes.",
-          "For a landlord, that means a tenant's unpaid city utility balance is the owner's to clear. The city offers optional tenant billing, but only when both the tenant and the owner or property manager have filed their forms, and the landlord still receives any delinquent notices for the property.",
+          "[For a landlord](/sell-rental-property-idaho), that means a tenant's unpaid city utility balance is the owner's to clear. The city offers optional tenant billing, but only when both the tenant and the owner or property manager have filed their forms, and the landlord still receives any delinquent notices for the property.",
           "At closing, the title, mortgage or finance company handling the sale has to request a final billing option from the city's Utility Billing office. The city says those requests are required so it can provide a final assessment for the property at the time of ownership transfer. An open balance does not stop us buying a house, but it is a line on the settlement statement, and we would rather find it early than at the closing table.",
         ],
         claims: ["meridian-utility-debt-stays-with-property", "meridian-final-utility-bill-at-ownership-transfer"],
@@ -280,7 +280,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Looking up a Meridian permit record",
         body: [
           "Meridian's Building Services handles structural, fire, electrical, mechanical and plumbing permits inside the city, from application through field inspection, including remodels, fences, sheds and garages. Its permit information is searchable online without an account, and a free public user account gives a fuller search. Anything else goes to the City Clerk, who is the city's custodian of records and receives public records requests.",
-          "If you are not sure whether a past project was permitted, that search is the place to start. An unpermitted garage conversion or patio cover is not a reason we walk away, but it is a cost, and it is better counted from the record than guessed.",
+          "If you are not sure whether a past project was permitted, that search is the place to start. An [unpermitted garage conversion](/guides/selling-a-house-with-unpermitted-work-in-ada-county) or patio cover is not a reason we walk away, but it is a cost, and it is better counted from the record than guessed.",
         ],
         claims: ["cv-meridian-building-services-scope", "meridian-permit-records-online"],
       },
@@ -353,14 +353,14 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "The city bill follows the house, and the title company tells the city",
         body: [
           "Garden City bills water, sewer and trash on one statement, in arrears. Its Utility Billing Department puts the sale rule plainly in its letter to new owners: debts for utility bills stay with the property and do not travel with the customer. The title company gives the city the buyer's name and the closing date, the city reports any outstanding balance on the property, and the account moves into the buyer's name on that closing date, with charges starting immediately even if the buyer moves in later. The seller's final bill runs through the last date of ownership or occupancy.",
-          "A landlord has one more step. Every renter must complete a Renters Agreement with the city and pay a security deposit, so a rental changing hands with a tenant in place has an account arrangement to carry over as well as a lease.",
+          "[A landlord has one more step](/sell-rental-property-idaho). Every renter must complete a Renters Agreement with the city and pay a security deposit, so a rental changing hands with a tenant in place has an account arrangement to carry over as well as a lease.",
         ],
         claims: ["gardencity-utility-debt-stays-transfer-at-closing", "gardencity-renters-agreement-deposit"],
       },
       {
         heading: "Work done without a permit has a utility consequence",
         body: [
-          "Garden City is direct about unpermitted work. It may lead to the city discontinuing utility services to the property, an infraction with a fine of up to $100, and double the permit fees. Anyone caught more than twice in a calendar year can face a misdemeanor and a year's ban from working inside city limits, and emergency work still needs a permit, pulled within one working day if it happens after hours.",
+          "Garden City is direct about [unpermitted work](/guides/selling-a-house-with-unpermitted-work-in-ada-county). It may lead to the city discontinuing utility services to the property, an infraction with a fine of up to $100, and double the permit fees. Anyone caught more than twice in a calendar year can face a misdemeanor and a year's ban from working inside city limits, and emergency work still needs a permit, pulled within one working day if it happens after hours.",
           "For a seller, the record matters more than the fine. Past work without a permit tends to surface when a buyer's inspector asks for the paperwork, and copies of city records are requested from the City Clerk on the city's own form.",
         ],
         claims: ["gardencity-work-without-permit-consequences", "gardencity-wells-and-street-to-meter"],
@@ -434,7 +434,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Roads and septic answer to neither the city nor the county",
         body: [
           "Idaho Code 40-1406 bars a city inside a countywide highway district from maintaining city highways or levying property taxes for their construction, repair or maintenance. A single countywide district is responsible for the design, construction and maintenance of city rights-of-way and their curbs, gutters, sidewalks and retaining walls. Ada County confirms it controls no roadway infrastructure of its own.",
-          "That has a practical consequence for sellers: a question about a sidewalk, a driveway approach or the road frontage of a parcel in Ada County is [a highway district matter](/guides/selling-land-or-acreage-in-ada-county), not a city public works matter.",
+          "That has a practical consequence for sellers: a question about a sidewalk, a driveway approach or the road frontage of a parcel in Ada County is a highway district matter, not a city public works matter. Our guide to [who owns the roads and access on Ada County land](/guides/selling-land-or-acreage-in-ada-county) sets out why.",
           "There is no second highway district to check. Idaho law permits only one countywide highway district to operate within a county whose electorate has voted to form one, so the question of which road authority governs a given Ada County parcel has exactly one answer, everywhere in the county. That is unusual enough that people arriving from other states look for a city equivalent that does not exist here.",
           "Septic is different again. Central District Health, a public health district covering Ada, Boise, Elmore and Valley counties, permits septic systems and verifies shallow injection wells. It is not a city building department and not a county one.",
         ],
@@ -759,7 +759,7 @@ export const placeContent: Record<string, PlaceContent> = {
         body: [
           "The district says plainly that sewer and water charges belong to the property, not to whoever ran up the usage. If a previous owner leaves a final bill unpaid, the next owner inherits it. A landlord can have the account put in a tenant's name, but stays ultimately responsible for every charge billed to the property.",
           "Idaho law gives that teeth. Under Idaho Code 42-3212(l), a water and sewer district's charges become delinquent 30 days after their due date, the district certifies them to the county tax collector no later than August 1, and they go onto the tax roll to be collected like any other district tax, with the lien dating from the day the charge went delinquent.",
-          "For a landlord selling a rental, or a family selling a house that sat empty, that means an old district balance can surface on the property tax bill rather than as a utility notice. It does not stop a sale. It does need clearing from the proceeds, which is easier to plan for before closing than at it.",
+          "For [a landlord selling a rental](/sell-rental-property-idaho), or a family selling a house that sat empty, that means an old district balance can surface on the property tax bill rather than as a utility notice. It does not stop a sale. It does need clearing from the proceeds, which is easier to plan for before closing than at it.",
         ],
         claims: ["star-sswd-charges-follow-property"],
       },
@@ -793,7 +793,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "A one-time administrative split, without a public hearing",
         body: [
           "Star allows an original parcel to be divided once, administratively, into no more than two lots, parcels or sites, for transfer of ownership or for development. The process does not require a public hearing unless the city requires the applicant to plat the division.",
-          "For anyone holding land in Star that is a materially cheaper and faster path than a plat, and it is a Star rule. The other five Ada County cities each administer their own code and none of them has been checked against this, so do not assume it travels.",
+          "For anyone [holding land in Star](/sell-land-idaho) that is a materially cheaper and faster path than a plat, and it is a Star rule. The other five Ada County cities each administer their own code and none of them has been checked against this, so do not assume it travels.",
         ],
         claims: ["star-one-time-administrative-division"],
       },
@@ -801,7 +801,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Temporary living quarters for family",
         body: [
           "Star permits temporary living quarters in some cases to house an immediate family member, where the need is justified by health, employment or upkeep of the property. The structure may be permitted for two years and may not remain more than six.",
-          "On inherited property, or a parcel where a relative's manufactured home has been in place for years, it is worth finding out whether that permit exists and when it runs out.",
+          "On [inherited property](/sell-inherited-house-idaho), or a parcel where [a relative's manufactured home](/sell-manufactured-home-idaho) has been in place for years, it is worth finding out whether that permit exists and when it runs out.",
         ],
         claims: ["star-temporary-family-living-quarters"],
       },

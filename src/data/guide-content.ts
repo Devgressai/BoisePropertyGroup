@@ -148,7 +148,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         heading: "Where we fit, and where we do not",
         body: [
-          "We buy inherited property in Ada County, including houses that need work and estates with several heirs who want different things. What we can offer is certainty about timing and a number you can check.",
+          "[We buy inherited property in Ada County](/sell-inherited-house-idaho), including houses that need work and estates with several heirs who want different things. If the estate is still open, [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) sets out who can sign. What we can offer is certainty about timing and a number you can check.",
           "What we are not is the highest bidder. If the house is financeable, tidy and the estate is in no hurry, listing it will usually net more even after commission. We would rather say that than let you discover it afterwards.",
         ],
       },
@@ -167,7 +167,7 @@ export const guideContent: Record<string, GuideContent> = {
           "Most Idaho residential mortgage debt is secured by a deed of trust, foreclosed non-judicially. Idaho Code 45-1506 requires that \"at least one hundred twenty (120) days before the day fixed by the trustee for the trustee's sale, notice of such sale shall be given\" to the grantor, to anyone who has recorded a request for notice, to successors in interest and to junior lienholders.",
           "The same section requires publication \"in a newspaper of general circulation in each of the counties in which the property is situated once a week for four (4) successive weeks,\" with the last publication at least 30 days before the sale. Affidavits of mailing and posting must be recorded at least 20 days before. And at least three good-faith attempts at personal service must be made on different days over a period of not less than seven days, each at least 30 days before the sale.",
           "That 120 days is a statutory minimum within a longer process, not \"the foreclosure timeline\". It begins from the date fixed for the sale and works backwards. An owner who still holds title can sell before that date, and [selling your house before a foreclosure sale](/sell-house-before-foreclosure-idaho) covers how a direct sale fits inside the notice period.",
-          "One detail matters in Star and anywhere else straddling a county line: notice must be published in each county where the property sits.",
+          "One detail matters in [Star, which sits in two counties](/sell-my-house-fast-star-id), and anywhere else straddling a county line: notice must be published in each county where the property sits.",
         ],
         claims: ["id-trustee-sale-120-day-notice", "id-trustee-sale-publication", "id-trustee-sale-service-attempts"],
       },
@@ -301,7 +301,7 @@ export const guideContent: Record<string, GuideContent> = {
         body: [
           "The first question is not what the home is worth. It is which of the two things you own, because the answer changes who the buyer pool is.",
           "If a statement of intent was recorded with the county recorder, the home is real property and sells with the land under a deed. If it was not, you are selling a titled chattel, and the transaction runs through a title rather than a deed — regardless of how permanently the home is sitting there.",
-          "Where an owner is not sure, the county recorder's records and the assessor's treatment of the parcel are the places that answer it, and a title company can tell you quickly. It is worth resolving before anything else, because almost every other question about the sale depends on it.",
+          "Where an owner is not sure, the county recorder's records and [how Ada County treats the parcel](/sell-my-house-fast-ada-county) are the places that answer it, and a title company can tell you quickly. It is worth resolving before anything else, because almost every other question about the sale depends on it.",
         ],
         claims: ["id-manufactured-home-becomes-real-property", "id-manufactured-home-removal-requires-consent"],
       },
@@ -489,7 +489,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy homes in Ada County with our own capital, in any condition, and the purchase closes through a local title company on a date the sellers choose; a three-week close is realistic. In a divorce that can matter when both spouses want the house sold and settled, and both are ready to sign. You can read [how it works](/how-it-works) or [contact us](/contact).",
+          "We buy homes in Ada County with our own capital, in any condition, and the purchase closes through a local title company on a date the sellers choose; a three-week close is realistic. In a divorce that can matter when both spouses want the house sold and settled, and both are ready to sign. [Selling the house in a Boise or Ada County divorce](/sell-house-divorce-idaho) covers how that works with us, or you can [contact us](/contact).",
           "What we cannot do is solve the legal questions above, and we will not try. If one spouse does not agree to sell, if an order in the case restricts the property, or if the house's character is disputed, those come first and they belong with your attorneys. And if the house is in good shape and there is time to list it, the open market will often bring a higher price; when that is the better route for you, we would rather say so."
         ]
       }
@@ -623,7 +623,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses in Ada County with our own capital, in any condition, and our purchases close through a local title company on a date the seller chooses. A three-week close is realistic for us. A lien does not change any of that, but it can change whether three weeks is realistic for the sale as a whole: if a federal tax lien needs a Certificate of Discharge, the IRS asks for the application at least 45 days before closing. [How it works](/how-it-works) explains the steps on our side.",
+          "We buy houses in Ada County with our own capital, in any condition, and our purchases close through a local title company on a date the seller chooses. A three-week close is realistic for us. A lien does not change any of that, but it can change whether three weeks is realistic for the sale as a whole: if a federal tax lien needs a Certificate of Discharge, the IRS asks for the application at least 45 days before closing. [Selling a house with a lien or judgment](/sell-house-with-liens-idaho) explains the steps on our side.",
           "If you have time and enough equity to cover what is recorded against the house, listing it on the open market will often net more than selling to a direct buyer. If you want a number to compare against that, [get in touch](/contact)."
         ],
         "claims": [
@@ -762,7 +762,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in Ada County with our own capital, in any condition, and our purchases close through a local title company. We can only sign with someone who has the authority to sell — in an open estate, that means an appointed personal representative with letters. The seller chooses the closing date, and a three-week close is realistic. [How it works](/how-it-works) sets out the steps, or you can [contact us](/contact).",
+          "We buy property in Ada County with our own capital, in any condition, and our purchases close through a local title company. We can only sign with someone who has the authority to sell — in an open estate, that means an appointed personal representative with letters. The seller chooses the closing date, and a three-week close is realistic. [Selling an inherited or probate house](/sell-inherited-house-idaho) sets out the steps, or you can [contact us](/contact).",
           "We are often not the best route. If the house is in good shape, the estate is in no hurry and the heirs agree, listing it with an agent will usually net more. If the will restricts a sale, a formal proceeding is pending, or the debts may exceed what the estate holds, the first call should be to the estate's attorney, not to any buyer."
         ],
         "claims": []
@@ -909,7 +909,7 @@ export const guideContent: Record<string, GuideContent> = {
         "body": [
           "Central District Health's Environmental Health Division permits septic systems, reviews land development applications and verifies the location of shallow injection wells across Ada, Boise, Elmore and Valley counties. It is a public health district, not a city or county building department, so a septic question goes to CDH rather than to a city permit counter.",
           "The rules CDH applies are the state's. Idaho's Individual/Subsurface Sewage Disposal Rules, IDAPA 58.01.03, are written by the Department of Environmental Quality, and DEQ says Idaho's seven public health districts administer them under a memorandum of understanding — conducting site evaluations, issuing permits, inspecting installations, and helping with property-specific questions about existing systems and permit records.",
-          "Whether a property is on septic at all can turn on which side of a city limit it sits. Inside Boise, residential and commercial buildings must connect to the city sewer system. Our [Ada County page](/sell-my-house-fast-ada-county) covers the county as a whole; the point here is only that a rule for one city does not travel to the parcel next door."
+          "Whether a property is on septic at all can turn on which side of a city limit it sits. Inside Boise, residential and commercial buildings must [connect to the Boise sewer](/sell-my-house-fast-boise-id) system. Our [Ada County page](/sell-my-house-fast-ada-county) covers the county as a whole; the point here is only that a rule for one city does not travel to the parcel next door."
         ],
         "claims": [
           "ada-septic-authority-cdh",
@@ -1020,7 +1020,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy houses in any condition with our own capital, including houses on a well and septic, and our purchases close through a local title company on a closing date the seller chooses. A three-week close is realistic. That can suit a seller who would rather not schedule a survey, chase a permit file or line up repairs before selling. [How it works](/how-it-works) sets out the steps.",
+          "We buy houses in any condition with our own capital, including houses on a well and septic, and our purchases close through a local title company on a closing date the seller chooses. A three-week close is realistic. That can suit a seller who would rather not schedule a survey, chase a permit file or line up repairs before selling. [Selling land or acreage on a well](/sell-land-idaho) sets out the steps.",
           "If your well tests clean, your septic file is in order and the house shows well, listing with an agent may reach more buyers, and that may serve you better. And a direct sale does not change the rules on this page: a failing system's repair duty, a water right's ownership notice and the disclosure form are set by statute and rule, not by who the buyer is."
         ],
         "claims": []
@@ -2519,9 +2519,9 @@ export const guideContent: Record<string, GuideContent> = {
         "body": [
           "Start by confirming which jurisdiction the parcel is in. The City of Star notes that ZIP codes are managed by the Postal Service for mail delivery and do not reflect municipal boundaries, and it points to the Ada County Assessor's website, which shows city boundaries.",
           "Boise: the Planning and Development Services Building Division is responsible for issuing building permits and overseeing building construction within the City of Boise. Its phone number is (208) 608-7070.",
-          "Meridian: Building Services is responsible for structural, fire, electrical, mechanical and plumbing permits within the City of Meridian, from application through field inspection. It also handles permits for remodels, fences, sheds and garages. Its phone number is 208-887-2211.",
+          "[Meridian](/sell-my-house-fast-meridian-id): Building Services is responsible for structural, fire, electrical, mechanical and plumbing permits within the City of Meridian, from application through field inspection. It also handles permits for remodels, fences, sheds and garages. Its phone number is 208-887-2211.",
           "Eagle: the Building Department tells owners never to guess whether a permit is needed and to contact the department before starting. Its phone number is 208-489-8760.",
-          "Kuna: the Building Department conducts plan reviews and inspects all phases of construction and modifications. The city says electrical and plumbing permits are available at the Kuna Building Department.",
+          "[Kuna](/sell-my-house-fast-kuna-id): the Building Department conducts plan reviews and inspects all phases of construction and modifications. The city says electrical and plumbing permits are available at the Kuna Building Department.",
           "Star: the Building Department administers and enforces the adopted building codes and the city's unified code. Its page lists 208-286-7247. Star says its building department is only required to keep residential permitting records for 2 years.",
           "Garden City: the Building Division processes building permits, plan reviews and permit issuance. The city contracts with outside providers for plan review and inspection, and building permits are still submitted through Garden City. Mechanical, electrical and plumbing permits go directly through the state. The phone number is (208) 472-2921.",
           "Unincorporated Ada County: the county's building code ordinance applies in the unincorporated areas, and the Building Division reviews plans and inspects buildings. The Permitting Division says all electrical and plumbing work needs separate permits through the State of Idaho. Its phone number is 208-287-7900."
@@ -2548,7 +2548,7 @@ export const guideContent: Record<string, GuideContent> = {
           "Meridian: Code Enforcement officers, part of the Meridian Police Department, investigate and enforce city ordinances that include parcel zoning issues and permit violations. The city's number for reporting is 208-846-7326.",
           "Eagle: complaints go through an online form that assigns a tracking number and a Code Enforcement Officer. The city lists building without a permit as an example of a request, and gives 208-489-8810 for help.",
           "Star: for a public nuisance, the city says its Code Enforcement Officer visits the property and the Zoning Administrator sends a letter. The owner or resident then has fifteen days from receipt to abate the nuisance before the matter can go to the City Council. The page describes nuisances such as weeds, trash and abandoned vehicles. It does not say whether the same steps apply to unpermitted construction.",
-          "Kuna: the city says code enforcement covers its zoning, sanitation and nuisance ordinances and works on a complaint-driven basis. Garden City: the Code Enforcement page gives (208) 472-2950 for speaking to a code enforcement officer and states no procedure.",
+          "Kuna: the city says code enforcement covers its zoning, sanitation and nuisance ordinances and works on a complaint-driven basis. [Garden City](/sell-my-house-fast-garden-city-id): the Code Enforcement page gives (208) 472-2950 for speaking to a code enforcement officer and states no procedure.",
           "If you have a notice in hand, the office named on the notice is the one to call. Ask for the case status and the steps to close it in writing."
         ],
         "claims": [
@@ -2570,7 +2570,7 @@ export const guideContent: Record<string, GuideContent> = {
           "We found a written rule on this in three local codes. None of the three promises approval.",
           "Unincorporated Ada County: if work is commenced without first obtaining a required county building permit, an investigative fee equal to the county permit fee for that work must be paid before the county accepts a building permit application. The fee is in addition to any later permit fee. The ordinance says payment \"does not vest the illegal work with any legitimacy, nor does it establish any right to an Ada County permit\". Ada County Code 7-2-12 makes each violation of the building code chapter a misdemeanor and lets the county bring an action to correct or abate a violation.",
           "Boise: under Boise City Code 9-1B-21, a person who commences work before obtaining the necessary permits is subject to a special investigation before a permit may be issued for that work. A special investigation fee equal to the permit fee is collected in addition to the permit fee, whether or not a permit is issued. Boise City Code 9-1B-29 makes a violation of the dwelling code a misdemeanor with a fine of not more than $1,000, imprisonment for not more than 180 days, or both. The same section lets the building official charge an infraction with a $300 fine instead, and lets a prosecuting attorney reduce a misdemeanor charge to that infraction if the defendant engages in corrective actions resulting in fully completed and permitted work.",
-          "Eagle: under the city's residential code section R108.6, work begun before obtaining the necessary permits is subject to a special investigation that is made before a permit may be issued, with an investigation fee in addition to the permit fee.",
+          "[Eagle](/sell-my-house-fast-eagle-id): under the city's residential code section R108.6, work begun before obtaining the necessary permits is subject to a special investigation that is made before a permit may be issued, with an investigation fee in addition to the permit fee.",
           "For Meridian, Kuna, Star and Garden City we did not find a primary source on after-the-fact permits, so this page says nothing about their rules. Call the building department listed above for the address.",
           "None of these sources says what the inspector will need to see. Ask the building department that question before you spend money on plans."
         ],

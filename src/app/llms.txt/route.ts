@@ -31,7 +31,7 @@ export function GET() {
   L(`# ${site.name}`);
   L();
   L(
-    "> An information source on selling residential, land and commercial property in Ada County and the Treasure Valley, Idaho. Every factual statement on this site is traced to a published primary source — Idaho Code, county and city ordinances, and government agency publications — and carries the date it was checked.",
+    "> Boise Property Group is a direct cash buyer of houses, land and commercial property in Ada County, Idaho, buying with its own capital in any condition. It also publishes sourced guides to selling property in Ada County and the Treasure Valley. Every factual statement on this site is traced to a published primary source — Idaho Code, county and city ordinances, and government agency publications — and carries the date it was checked.",
   );
   L();
 
@@ -122,6 +122,7 @@ export function GET() {
   L("## Contact");
   L();
   L(`- ${site.url}/contact`);
+  if (site.phone) L(`- Phone: ${site.phone}`);
   L();
   L(`Last generated: ${new Date().toISOString().slice(0, 10)}`);
 

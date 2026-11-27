@@ -364,7 +364,7 @@ export const VALUATION: CommercialPageContent = {
       body: [
         "We ask for a rent roll and a trailing twelve months of operating statements, and for the things that change what those numbers will look like next year: leases expiring, concessions, units held off the market, capital work deferred.",
         "Because sale prices are not in the public record, those documents are also how the numbers get checked. A rent roll is read against the leases behind it, and operating statements against what was actually collected. That is the same verification the assessor's rule describes, done on one building instead of a county.",
-        "We buy with our own capital, a purchase closes through a local title company, and the seller chooses the closing date.",
+        "We buy with our own capital, a purchase closes through a local title company, and the seller chooses the closing date. [The commercial property we buy](/commercial) covers industrial, multifamily and mixed-use.",
         "We then tell you what we would pay and show the arithmetic. That is a commercial position, not an opinion of value, and the difference matters: we are the buyer, and an opinion of value from the buyer is not an opinion of value. If you need one of those, you need an appraiser, and we will say so.",
         "What we will not do is give you a number before we have seen the income, or tell you what your property is worth.",
       ],
@@ -472,7 +472,7 @@ export const DISTRICTS: CommercialPageContent = {
       body: [
         "Garden City's dimensional table leaves the maximum height cell empty for its C-1 and C-2 districts. Not a footnote, not a reference elsewhere — no value at all.",
         "That is worth distinguishing from the situation in Boise, where the city's website omits footnote definitions that do exist in the codified ordinance. Here the code itself is silent. We do not know what the silence means and we are not going to guess, because a guess about a height limit is the kind of thing an owner would act on.",
-        "It is a reasonable question to put to the city's planning department, and a reasonable thing to resolve before making a decision that turns on how tall a building can be.",
+        "It is a reasonable question to put to the city's planning department, and a reasonable thing to resolve before making a decision that turns on how tall a building can be. Industrial districts run on separate rules, set out in [industrial property in Ada County](/commercial/industrial), and [the commercial property we buy](/commercial) lists every asset class.",
       ],
     },
     {

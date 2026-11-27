@@ -13,7 +13,7 @@ export function organizationSchema() {
     "@id": `${site.url}/#organization`,
     name: site.name,
     url: site.url,
-    description: `Direct property buyer in ${site.market.county}, ${site.market.state}. Buys houses, land, multifamily and commercial property with its own capital.`,
+    description: `Direct cash buyer of houses, land and commercial property in ${site.market.county}, ${site.market.state}. Buys with its own capital, in any condition.`,
     areaServed: site.market.cities.map((c) => ({
       "@type": "City",
       name: `${c}, ${site.market.state}`,

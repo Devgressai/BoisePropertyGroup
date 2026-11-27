@@ -115,7 +115,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "Where an Ada County probate is opened",
         body: [
-          "Probate follows where the person who died lived, not where the house is. The first proceeding is venued in the county of the decedent's domicile at death, so a Boise house owned by someone who lived in Canyon County is probated there. Ada County probates are heard by magistrate judges, and Ada County's courts belong to the Fourth Judicial District.",
+          "Probate follows where the person who died lived, not where the house is. The first proceeding is venued in the county of the decedent's domicile at death, so a Boise house owned by someone who lived in Canyon County is [probated there](/guides/selling-a-house-in-probate-in-idaho). Ada County probates are heard by magistrate judges, and Ada County's courts belong to the Fourth Judicial District.",
           "In an informal appointment the registrar can appoint a personal representative once at least 120 hours have passed since the death. That is a floor, not a processing time. How informal and formal probate differ is in our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho).",
         ],
         claims: ["pb-venue-domicile-county", "pb-ada-magistrates-hear-probates", "pb-fourth-district-ada", "pb-informal-appointment-120-hours"],
@@ -249,7 +249,7 @@ export const TOPIC_PAGES: TopicPage[] = [
         heading: "Unpermitted work in Boise and unincorporated Ada County",
         body: [
           "The statutory disclosure form asks, at question 8, whether any substantial additions or alterations have been made without a building permit. It is not limited to work you did yourself, so an old garage conversion counts if you know about it.",
-          "What happens next depends on who issues permits for the parcel. In Boise, work started before a permit triggers a special investigation, with a fee equal to the permit fee collected on top of the permit fee whether or not a permit issues. In unincorporated Ada County an investigative fee equal to the permit fee must be paid before the county will accept an application, and paying it does not make the work legitimate. Boise's online code compliance lookup shows closed cases only, so a clean result there does not prove there is no open case.",
+          "What happens next depends on who issues permits for the parcel. [In Boise](/sell-my-house-fast-boise-id), work started before a permit triggers a special investigation, with a fee equal to the permit fee collected on top of the permit fee whether or not a permit issues. In unincorporated Ada County an investigative fee equal to the permit fee must be paid before the county will accept an application, and paying it does not make the work legitimate. Boise's online code compliance lookup shows closed cases only, so a clean result there does not prove there is no open case.",
           "For us, unpermitted work is a line in the arithmetic, not a reason to walk away. Our guide to [unpermitted work in Ada County](/guides/selling-a-house-with-unpermitted-work-in-ada-county) covers each city's rules.",
         ],
         claims: [
@@ -354,7 +354,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "Boise and Meridian rules that follow a rental",
         body: [
-          "Some obligations attach to the property rather than the person. In Meridian, city utility accounts stay with the property and any debt for city services is the owner's responsibility regardless of who used them, so a tenant's unpaid balance is the owner's to settle. In Boise, the short-term rental license was repealed in 2026, though the city still enforces its nuisance, noise, parking, safety and occupancy rules.",
+          "Some obligations attach to the property rather than the person. [In Meridian](/sell-my-house-fast-meridian-id), city utility accounts stay with the property and any debt for city services is the owner's responsibility regardless of who used them, so a tenant's unpaid balance is the owner's to settle. [In Boise](/sell-my-house-fast-boise-id), the short-term rental license was repealed in 2026, though the city still enforces its nuisance, noise, parking, safety and occupancy rules.",
         ],
         claims: ["meridian-utility-debt-stays-with-property", "boise-str-license-repealed-2026"],
       },
@@ -530,7 +530,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "Where the boundary actually is",
         body: [
-          "Fences and curbs are not boundaries. Kuna's own guidance is that the best way to determine property lines is a professional survey, that owners should look for existing corner pins, and that fence lines and street curbs should not be assumed to follow the property line. The Ada County Assessor's Office may hold a copy showing the parcel's size and the lots around it.",
+          "Fences and curbs are not boundaries. [Kuna's own guidance](/sell-my-house-fast-kuna-id) is that the best way to determine property lines is a professional survey, that owners should look for existing corner pins, and that fence lines and street curbs should not be assumed to follow the property line. The Ada County Assessor's Office may hold a copy showing the parcel's size and the lots around it.",
           "If you have a survey, a well log, a septic permit, an irrigation assessment bill or a recorded easement, send it with the parcel number. None of it is required before we make an offer, but each one can remove a guess from our arithmetic — and a guess on land is usually priced conservatively.",
         ],
         claims: ["kuna-property-lines-survey-guidance"],
@@ -606,7 +606,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "Replacing the home on a Boise lot",
         body: [
-          "Many buyers of manufactured-home lots are thinking about what replaces the home. In Boise, replacing a residential unit, a manufactured home included, with another on the same lot is exempt from impact fees where the number of service units does not increase. That is part of what the land is worth, and part of why we look at the lot as well as the home.",
+          "Many buyers of manufactured-home lots are thinking about what replaces the home. [In Boise](/sell-my-house-fast-boise-id), replacing a residential unit, a manufactured home included, with another on the same lot is exempt from impact fees where the number of service units does not increase. That is part of what the land is worth, and part of why we look at the lot as well as the home.",
         ],
         claims: ["boise-impact-fee-replacement-exemption"],
       },
@@ -646,7 +646,7 @@ export const TOPIC_PAGES: TopicPage[] = [
     updated: "2026-11-18",
     guides: ["selling-a-house-during-a-divorce-in-idaho"],
     intro: [
-      "When both spouses agree to sell, we buy the house directly, in any condition, with a closing date you both set, through a local title company. If the house is community real estate, Idaho requires both spouses to join in the sale agreement and the deed, so in Boise or anywhere else in the state a sale only works when you are both ready to sign.",
+      "When both spouses agree to sell, we buy the house directly, in any condition, with a closing date you both set, through a local title company. If the house is community real estate, Idaho requires both spouses to join in the sale agreement and the deed, so [in Boise](/sell-my-house-fast-boise-id) or anywhere else in the state a sale only works when you are both ready to sign.",
       NOT_ADVICE,
     ],
     sections: [
@@ -773,7 +773,7 @@ export const TOPIC_PAGES: TopicPage[] = [
         heading: "Tax, irrigation and utility charges that stay with the land",
         body: [
           "Idaho property taxes are a first and prior lien on the property, discharged only by payment or cancellation, so unpaid tax is settled ahead of everything else. If the tax has gone delinquent, a separate three-year clock is running; our page on [selling a house with delinquent property taxes](/sell-house-delinquent-property-taxes-idaho) covers it.",
-          "Irrigation district assessments are also a first lien, superior to a mortgage, and a buyer takes the property subject to any annual assessment unpaid at the time of sale. In Meridian, debt for city utility services is the property owner's responsibility regardless of who used them. Charges like these show up in the arithmetic even when nothing is recorded under your name.",
+          "Irrigation district assessments are also a first lien, superior to a mortgage, and a buyer takes the property subject to any annual assessment unpaid at the time of sale. [In Meridian](/sell-my-house-fast-meridian-id), debt for city utility services is the property owner's responsibility regardless of who used them. Charges like these show up in the arithmetic even when nothing is recorded under your name.",
         ],
         claims: ["ln-property-tax-first-lien-perpetual", "id-tax-deed-three-year-delinquency", "id-irrigation-assessment-lien-survives-sale", "meridian-utility-debt-stays-with-property"],
       },
