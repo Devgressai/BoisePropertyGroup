@@ -14,6 +14,17 @@ export function organizationSchema() {
     name: site.name,
     url: site.url,
     description: `Direct cash buyer of houses, land and commercial property in ${site.market.county}, ${site.market.state}. Buys with its own capital, in any condition.`,
+    logo: `${site.url}/icon.svg`,
+    // Topics the site's sourced guides cover, so the entity is tied to them.
+    knowsAbout: [
+      "Selling inherited and probate property in Idaho",
+      "Idaho foreclosure and property tax delinquency",
+      "Idaho seller disclosure",
+      "Selling rental property with tenants in Idaho",
+      "Manufactured homes as real property in Idaho",
+      "Ada County zoning and land use",
+      "Utilities and liens at closing in Ada County",
+    ],
     areaServed: site.market.cities.map((c) => ({
       "@type": "City",
       name: `${c}, ${site.market.state}`,

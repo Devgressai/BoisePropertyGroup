@@ -12,6 +12,7 @@ import { county } from "@/data/geography";
 import { publishedPlaces } from "@/lib/seo/registry";
 import { itemListSchema } from "@/lib/seo/schema";
 import { claim as residentialClaim } from "@/data/claims";
+import Inline from "@/lib/content/Inline";
 import { LOCATIONS_INTRO, LOCATIONS_COUNTYWIDE, LOCATIONS_COUNTY_LINE, LOCATIONS_LINES } from "@/data/hub-content";
 
 const TITLE = "Areas We Buy In: Ada County, Idaho";
@@ -45,7 +46,7 @@ export default function Locations() {
             <h1 className="display-xl mt-4 max-w-[16ch] text-[var(--bpg-ink)]">Where we buy</h1>
             <div className="mt-6 max-w-[42rem] space-y-4">
               {LOCATIONS_INTRO.map((p) => (
-                <p key={p.slice(0, 40)} className="lede text-[var(--bpg-muted)]">{p}</p>
+                <p key={p.slice(0, 40)} className="lede text-[var(--bpg-muted)]"><Inline text={p} /></p>
               ))}
             </div>
           </div>

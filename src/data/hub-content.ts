@@ -19,7 +19,7 @@ export interface HubLine {
 }
 
 export const LOCATIONS_INTRO: string[] = [
-  "Ada County has six incorporated cities and an unincorporated balance, and the city limit decides far more than the address. The county values, taxes and records every parcel in the same way. Who supplies the water, who bills the sewer, whose zoning code applies and who keeps the permit file all change at the line.",
+  "Ada County has six incorporated cities and an unincorporated balance, and the city limit decides far more than the address. The county values, taxes and records every parcel in the same way. [Who supplies the water, who bills the sewer](/guides/utilities-when-you-sell-a-house-in-ada-county), whose zoning code applies and who keeps the permit file all change at the line.",
 ];
 
 /** Who does what, everywhere in the county. Each row is one claim. */
