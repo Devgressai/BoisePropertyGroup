@@ -1,0 +1,145 @@
+{
+  "guide": {
+    "slug": "selling-a-house-with-title-problems-in-idaho",
+    "title": "Selling an Idaho House With Title Problems",
+    "h1": "Selling a house with title problems in Idaho",
+    "description": "What Idaho law says about quiet title actions, old deeds of trust that were never released, mechanic's liens, lis pendens and boundary issues when you sell.",
+    "cluster": "closing",
+    "published": "2026-11-26",
+    "updated": "2026-11-26"
+  },
+  "content": {
+    "intro": [
+      "A title problem is anything in the public record, or missing from it, that clouds who owns the house or what is owed against it. Idaho law gives specific tools for common ones: a paid-off deed of trust can be reconveyed by the trustee or, as a backstop, by a title company; a quiet title action lets a court decide an adverse claim; and a mechanic's lien stops binding the property after six months unless a lawsuit to enforce it is started. A title company must search the record before it insures a sale, and its policy must show the enforceable liens it finds.",
+      "This page describes what the statutes and agencies say. It is not legal advice and it is not applied to your house or your records. We are a direct buyer of property. We cannot tell you whether a lien is valid, whether an old loan is time-barred, or who owns a strip of land. An Idaho real estate attorney can answer those questions, and a title company can tell you what its search found."
+    ],
+    "sections": [
+      {
+        "heading": "What counts as a title problem?",
+        "body": [
+          "The Idaho Department of Insurance gives a list of examples of title defects. It includes forged or fraudulent documents, a document affecting ownership that was not properly signed, notarized or delivered, undisclosed or unrecorded easements, no right of access, a document not properly recorded, ownership claims by undisclosed or missing heirs, and a previous owner's unpaid mortgage, tax assessment or association dues.",
+          "Idaho's recording statutes explain why the record matters. A recorded conveyance gives what the statute calls constructive notice of its contents to later purchasers and mortgagees from the time it is filed. An unrecorded instrument is still valid between the parties and anyone with notice of it. A later purchaser who buys in good faith for value and records first is protected against an earlier grant that was not recorded.",
+          "The state's seller disclosure form also touches title. Question 6 asks the seller to describe any conditions that may affect the ability to clear title, and names encroachments, easements, zoning violations and lot line disputes as examples. Our [seller disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers the form and who must complete it."
+        ],
+        "claims": [
+          "tp-doi-title-defect-examples",
+          "cl-recorded-conveyance-constructive-notice",
+          "cl-unrecorded-valid-between-parties",
+          "cl-bona-fide-purchaser-first-recorded",
+          "cv-form-q6-zoning-violations-title"
+        ]
+      },
+      {
+        "heading": "How does a title company find title problems?",
+        "body": [
+          "A title company searches the county records before it insures. Idaho Code 41-2708 bars issuing title insurance on Idaho property until the insurer or its agent has tract indexes and abstract records for the county and has made a search and examination of the title and a determination of insurability under sound underwriting practices.",
+          "The same section bars a title insurer from intentionally issuing a policy without showing any outstanding enforceable recorded liens and encumbrances, except where the Director of the Department of Insurance approves by rule. It also bars title insurers from guaranteeing payment of mortgages or deeds of trust.",
+          "The Department of Insurance says title insurance protects the buyer against covered losses from problems that arose before the purchase. It also says title insurance is not required in Idaho, though a lender may require a lender's policy. A search is a determination of insurability. The statute does not promise that every problem will be found."
+        ],
+        "claims": [
+          "cl-title-search-before-policy",
+          "tp-title-policy-must-show-recorded-liens",
+          "tp-doi-title-insurance-protects-buyer-pre-purchase",
+          "vb-doi-find-title-agent"
+        ]
+      },
+      {
+        "heading": "What if a paid-off loan still shows on the record?",
+        "body": [
+          "Idaho law requires a paid deed of trust to be reconveyed. Under Idaho Code 45-1514, once the secured obligation is performed, the trustee, on the beneficiary's written request, shall reconvey the property to the grantor. A beneficiary who refuses to request it, or a trustee who refuses to reconvey, is liable as provided by law for refusing to discharge or satisfy a mortgage.",
+          "For mortgages, Idaho Code 45-915 requires the holder of a satisfied mortgage, on demand of the mortgagor, a purchaser or a successor in interest, to deliver a recordable certificate of discharge or enter satisfaction of record. A holder who refuses is liable for the resulting damages and forfeits $100. Whether that section reaches a particular deed of trust is a question for an attorney.",
+          "Idaho also has a backstop that runs through title companies. A title insurer or title agent may reconvey a deed of trust if it paid the obligation in full or holds satisfactory evidence of payment in full. Not less than 30 days after payment and receipt of that evidence, it may send the beneficiary or servicer a notice of intent to reconvey. If 60 days then pass without an objection, it may record the reconveyance.",
+          "An objection stops that route. If the beneficiary or servicer gives notice within the 60 days that the deed of trust still secures an obligation, or otherwise objects, the title company may not record the reconveyance. The procedure applies to loans paid off before or after its 1995 enactment."
+        ],
+        "claims": [
+          "sk-reconveyance-on-performance",
+          "tp-mortgage-satisfaction-duty-and-penalty",
+          "sk-title-agent-may-reconvey",
+          "sk-title-agent-reconveyance-30-and-60-days",
+          "tp-reconveyance-objection-stops-title-company",
+          "tp-reconveyance-procedure-covers-old-payoffs"
+        ]
+      },
+      {
+        "heading": "What is a quiet title action?",
+        "body": [
+          "A quiet title action is a lawsuit that asks a court to decide a competing claim to property. Idaho Code 6-401 lets any person bring an action against another who claims an estate or interest in the property adverse to him, for the purpose of determining that claim.",
+          "If the defendant disclaims any interest in the answer, or lets judgment be taken without answering, Idaho Code 6-402 says the plaintiff cannot recover costs.",
+          "Idaho has specific quiet title sections for old liens. Idaho Code 6-411 and 6-412 allow a quiet title action against a mortgage or a judgment whose enforcement and collection is barred by the statute of limitations. Under 6-413, the party is entitled to a decree against the lien on proof that collection and enforcement are barred, without having to prove the debt was paid.",
+          "The time limits themselves are separate statutes. An action to foreclose a mortgage must be started within five years from the maturity date of the secured obligation, and if no maturity date is stated, from when the right to foreclose accrued. Trust deed foreclosures follow the same period and the same provisions, including extensions. A recorded judgment lien generally runs ten years from the date of the judgment, and the court may renew it before it expires. Whether any particular loan or judgment is barred depends on facts and records a court weighs."
+        ],
+        "claims": [
+          "tp-quiet-title-action-who-may-bring",
+          "tp-quiet-title-disclaimer-default-no-costs",
+          "tp-quiet-title-against-time-barred-mortgage",
+          "tp-quiet-title-against-time-barred-judgment",
+          "tp-quiet-title-decree-without-proof-of-payment",
+          "tp-mortgage-foreclosure-five-years-from-maturity",
+          "tp-trust-deed-foreclosure-same-time-limit",
+          "ln-judgment-lien-ten-years",
+          "ln-judgment-renewal-order"
+        ]
+      },
+      {
+        "heading": "What if there is a gap in the chain of title?",
+        "body": [
+          "A gap in the chain of title means a transfer is missing from, or defective in, the county record. Idaho Code 55-808 requires instruments to be recorded in the county where the property sits, so for an Ada County house the place to look is the Ada County Recorder, whatever city the house is in.",
+          "The Ada County Recorder's Office says it maintains all documents related to property ownership in the county and that recorded documents are open to public inspection. It also says certain document types, including deeds, are currently blocked from viewing or downloading online, and copies must be requested from the office.",
+          "Missing heirs are one of the Department of Insurance's listed defects. When a past owner has died, our guide on [selling a house in probate](/guides/selling-a-house-in-probate-in-idaho) covers how title passes. An attorney can say what a particular gap calls for, including whether a quiet title action fits."
+        ],
+        "claims": [
+          "cl-record-in-county-where-situated",
+          "ada-recorder-maintains-ownership-documents",
+          "cl-ada-deeds-blocked-online",
+          "tp-doi-title-defect-examples"
+        ]
+      },
+      {
+        "heading": "How long does a mechanic's lien last in Idaho?",
+        "body": [
+          "An Idaho mechanic's lien binds the property for no longer than six months after the claim is filed, unless a court action to enforce it is started within that time. A payment on account or an extension of credit endorsed on the record moves that six months to run from the payment or the end of the extension. If a court enters a final judgment on the lien, that judgment lien ends ten years after it becomes final.",
+          "A claimant must file the claim with the county recorder within 90 days after finishing its labor or furnishing its materials, and serve a copy on the owner within five business days after filing. The 90 days runs from when that claimant's own work ended.",
+          "A lien that has stopped binding the property can still appear in the county index. The statute says when it stops binding the property. It does not say the record clears itself. Idaho also allows a recorded mechanic's lien to be released by posting a surety bond; the statutory bond form is written for one and a half times the claim. Our [liens and judgments guide](/guides/liens-and-judgments-when-selling-in-idaho) covers other liens."
+        ],
+        "claims": [
+          "ln-mechanics-lien-six-month-duration",
+          "ln-mechanics-lien-ninety-day-filing",
+          "ln-mechanics-lien-bond-release"
+        ]
+      },
+      {
+        "heading": "What is a lis pendens?",
+        "body": [
+          "A lis pendens is a recorded notice that a lawsuit affecting title to, or possession of, real property is pending. Under Idaho Code 5-505, the plaintiff when filing the complaint, or a defendant who claims affirmative relief when filing the answer, may record the notice with the recorder of the county where the property sits.",
+          "The notice must give the names of the parties, the object of the action or defense, and a description of the property. Only from the time it is filed for record is a purchaser or encumbrancer deemed to have constructive notice of the pending action, and only against parties named by their real names.",
+          "The section sets no expiration date and no release procedure. How a recorded lis pendens is released was outside what we researched. Your attorney can explain the options."
+        ],
+        "claims": [
+          "tp-lis-pendens-notice-of-pending-action"
+        ]
+      },
+      {
+        "heading": "What about boundary lines and encroachments?",
+        "body": [
+          "Boundary and encroachment questions start with a survey and the county's parcel records. The City of Kuna advises that a professional survey is the best way to determine property lines, that owners should look for existing corner pins or stakes, and that fence lines and street curbs should not be assumed to follow property lines. The Ada County Assessor maintains parcel boundaries and makes Records of Survey and subdivision plats available on its online maps.",
+          "In unincorporated Ada County, the county's engineering and surveying division reviews property boundary adjustments.",
+          "Someone else's long use of a strip of land can raise adverse possession. Idaho Code 5-210 requires twenty years of continuous occupation and claim, payment of all state, county and municipal taxes levied on the land, and clear and convincing evidence. Whether a fence or a neighbor's use meets them is for a court and an attorney."
+        ],
+        "claims": [
+          "kuna-property-lines-survey-guidance",
+          "ada-assessor-maintains-parcel-gis",
+          "ada-engineering-scope-unincorporated",
+          "sq-adverse-possession-oral-20-years-taxes"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us what you know about the title problem when you [contact us](/contact).",
+          "We are not the right route for every seller. If the problem is a simple missing reconveyance, a listing with a patient buyer may bring you more once the record is fixed. We cannot clear title for you, judge whether a lien is valid, or bring a quiet title action. An Idaho real estate attorney and your title company can."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

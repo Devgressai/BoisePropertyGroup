@@ -794,7 +794,7 @@ export const TOPIC_PAGES: TopicPage[] = [
     updated: "2026-11-18",
     guides: ["liens-and-judgments-when-selling-in-idaho", "how-a-property-sale-closes-in-idaho"],
     intro: [
-      "Yes, we buy houses in Boise and across Ada County that have liens or judgments recorded against them. A lien is a claim against the property for a debt. In a sale it is paid out of the price at closing, so the first question is whether the price covers what is owed. We buy with our own capital, the purchase closes through a local title company, and you choose the date.",
+      "Yes, we buy houses in Boise and across Ada County that have liens or judgments recorded against them. A lien is a claim against the property for a debt. In a sale it is paid out of the price at closing, so the first question is whether the price covers what is owed. Older problems, such as a loan paid off but never released, are covered in [selling a house with title problems in Idaho](/guides/selling-a-house-with-title-problems-in-idaho). We buy with our own capital, the purchase closes through a local title company, and you choose the date.",
       NOT_ADVICE,
     ],
     sections: [

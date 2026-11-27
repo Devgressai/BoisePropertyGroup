@@ -20187,6 +20187,376 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Ada County, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "tp-quiet-title-action-who-may-bring",
+    "claim": "Idaho Code 6-401 provides that an action may be brought by any person against another who claims an estate or interest in real or personal property adverse to him, for the purpose of determining that adverse claim; actions to adjudicate water rights must instead be brought under Idaho Code title 42, chapter 14.",
+    "quote": "6-401. Actions to quiet title. An action may be brought by any person against another who claims an estate or interest in real or personal property adverse to him, for the purpose of determining such adverse claim",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "quiet-title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-401 — Actions to quiet title",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch4/sect6-401/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(6-401) C.C.P. 1881, sec. 476; R.S., R.C., & C.L., sec. 4538; C.S., sec. 6961; I.C.A., sec. 9-401; am. 1937, ch. 22, sec. 1, p. 32; am. 1981, ch. 265, sec. 1, p. 561.]"
+  },
+  {
+    "id": "tp-quiet-title-disclaimer-default-no-costs",
+    "claim": "Under Idaho Code 6-402, if the defendant in a quiet title action disclaims in the answer any interest or estate in the property, or lets judgment be taken without answering, the plaintiff cannot recover costs.",
+    "quote": "If the defendant in such action disclaim in his answer any interest or estate in the property, or suffer judgment to be taken against him without answer, the plaintiff can not recover costs.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "quiet-title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-402 — Disclaimer or default — Costs (quiet title)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch4/sect6-402/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(6-402) C.C.P. 1881, sec. 477; R.S., R.C., & C.L., sec. 4539; C.S., sec. 6962; I.C.A., sec. 9-402.]"
+  },
+  {
+    "id": "tp-quiet-title-against-time-barred-mortgage",
+    "claim": "Idaho Code 6-411 allows an action to quiet title to lands against any mortgage whose enforcement and collection is barred by Idaho's statute of limitations and which, except for that bar, would be a lien on the lands.",
+    "quote": "An action may be maintained to quiet title to lands against any mortgage, the enforcement and collection of which is barred by the Statute of Limitations of the State of Idaho, and which, except for the fact that its collection and enforcement is so barred, would constitute a lien upon such lands.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "quiet-title",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-411 — Quiet title action — Maintenance against mortgage barred by statute of limitations",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch4/sect6-411/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[6-411, added 1951, ch. 117, sec. 1, p. 272.]"
+  },
+  {
+    "id": "tp-quiet-title-against-time-barred-judgment",
+    "claim": "Idaho Code 6-412 allows an action to quiet title to lands against any judgment whose enforcement and collection is barred by Idaho's statute of limitations and which, except for that bar, would be a lien on the lands.",
+    "quote": "An action may be maintained to quiet title to lands against any judgment, the enforcement and collection of which is barred by the Statute of Limitations of the State of Idaho and which, except for the fact that its collection and enforcement is so barred by the Statute of Limitations, would constitute a lien upon said lands.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "quiet-title",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-412 — Quiet title action — Maintenance against judgment barred by statute of limitations",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch4/sect6-412/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[6-412, added 1951, ch. 117, sec. 2, p. 272.]"
+  },
+  {
+    "id": "tp-quiet-title-decree-without-proof-of-payment",
+    "claim": "Under Idaho Code 6-413, a party bringing a quiet title action against a time-barred judgment or mortgage is entitled to a decree quieting title against its lien upon proof that collection and enforcement are barred by the statute of limitations, without having to prove that the judgment or the secured debt was paid.",
+    "quote": "The party seeking to maintain such action shall be entitled to a decree quieting title to his lands against the lien of any such judgment or mortgage upon proof that the collection and enforcement of such judgment or mortgage is barred by the Statute of Limitations and without the necessity of proving that any such judgment or the indebtedness secured by any such mortgage has been paid.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "quiet-title",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 6-413 — Quiet title action — Decree",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch4/sect6-413/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[6-413, added 1951, ch. 117, sec. 3, p. 272.]"
+  },
+  {
+    "id": "tp-mortgage-foreclosure-five-years-from-maturity",
+    "claim": "Idaho Code 5-214A requires an action to foreclose a mortgage on real property to be commenced within five years from the maturity date of the secured obligation; if the obligation states no maturity date, the date the cause of action to foreclose accrued is deemed the maturity date.",
+    "quote": "An action for the foreclosure of a mortgage on real property must be commenced within five (5) years from the maturity date of the obligation or indebtedness secured by such mortgage. If the obligation or indebtedness secured by such mortgage does not state a maturity date, then the date of the accrual of the cause of action giving rise to the right to foreclose shall be deemed the date of maturity of such obligation or indebtedness.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "liens",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 5-214A — Action to foreclose mortgage on real property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title5/t5ch2/sect5-214a/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[I.C., sec. 5-214A, as added by 1951, ch. 254, sec. 1, p. 552; am. 1999, ch. 112, sec. 1, p. 340.]"
+  },
+  {
+    "id": "tp-trust-deed-foreclosure-same-time-limit",
+    "claim": "Idaho Code 45-1515 provides that foreclosure of a trust deed, by advertisement and sale or by judicial procedure, must be made or commenced within the same period, and under the same provisions including extensions, that the law provides for foreclosing a mortgage on real property.",
+    "quote": "The foreclosure of a trust deed by advertisement and sale shall be made and the foreclosure of a trust deed by judicial procedure shall be commenced within the time limited by the same period and according to the same provisions including extensions as provided by law for the foreclosure of a mortgage on real property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "liens",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1515 — Time limits for foreclosure (trust deeds)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch15/sect45-1515/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1515, added 1957, ch. 181, sec. 15, p. 345.]"
+  },
+  {
+    "id": "tp-lis-pendens-notice-of-pending-action",
+    "claim": "Under Idaho Code 5-505, in an action affecting the title or right of possession of real property, the plaintiff (on filing the complaint) and a defendant claiming affirmative relief (on filing the answer), or at any time afterward, may record with the county recorder a notice of the pendency of the action naming the parties, the object of the action and a description of the property; only from the time that notice is filed for record is a purchaser or encumbrancer deemed to have constructive notice of the pending action, and only against parties designated by their real names.",
+    "quote": "5-505. Lis pendens. In an action affecting the title or the right of possession of real property, the plaintiff at the time of filing the complaint, and the defendant at the time of filing his answer, when affirmative relief is claimed in such answer, or at any time afterward, may file for record with the recorder of the county in which the property or some part thereof is situated, a notice of the pendency of the action, containing the names of the parties, the object of the action or defense, and a description of the property in that county affected thereby. From the time of filing such notice for record only shall a purchaser or incumbrancer of the property affected thereby be deemed to have constructive notice of the pendency of the action, and only of its pendency against parties designated by their real names.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "litigation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 5-505 — Lis pendens",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title5/t5ch5/sect5-505/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(5-505) C.C.P. 1881, sec. 218; R.S., R.C., & C.L., sec. 4142; C.S., sec. 6674; I.C.A., sec. 5-505.]"
+  },
+  {
+    "id": "tp-reconveyance-objection-stops-title-company",
+    "claim": "Under Idaho Code 45-1204, a title insurer or title agent may not record a reconveyance under the 45-1203 procedure if, before the 60-day period in 45-1203(2) expires, it receives a notice on behalf of the beneficiary or servicer stating that the trust deed continues to secure an obligation or otherwise objecting to reconveyance.",
+    "quote": "45-1204. Objections to reconveyances. The title insurer or title agent shall not record a reconveyance of a trust deed if, prior to the expiration of the sixty (60) day period specified in section 45-1203 (2), Idaho Code, the title insurer or title agent receives a notice on behalf of the beneficiary or servicer stating that the trust deed continues to secure an obligation or otherwise objecting to reconveyance of the trust deed.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "reconveyance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1204 — Objections to reconveyances",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch12/sect45-1204/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1204, added 1995, ch. 326, sec. 1, p. 1095.]"
+  },
+  {
+    "id": "tp-reconveyance-procedure-covers-old-payoffs",
+    "claim": "Idaho Code 45-1206 provides that the title-company reconveyance procedure in 45-1201 through 45-1205 applies to obligations secured by trust deeds that were paid either before or after the section's effective date.",
+    "quote": "The reconveyance procedure prescribed in sections 45-1201 through 45-1205 , Idaho Code, shall apply to obligations secured by trust deeds that were paid either prior to or following the effective date of this section.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "reconveyance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-1206 — Payoffs prior to effective date (reconveyance)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch12/sect45-1206/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[45-1206, added 1995, ch. 326, sec. 1, p. 1095.]"
+  },
+  {
+    "id": "tp-mortgage-satisfaction-duty-and-penalty",
+    "claim": "Idaho Code 45-915 requires the holder of a satisfied mortgage affecting title to real property, on demand of the mortgagor, a purchaser or the successor in interest of either, immediately to deliver a recordable certificate of discharge or to enter (or cause to be entered) satisfaction of record; a holder who refuses is liable for all damages caused by the refusal and must also forfeit $100.",
+    "quote": "When any mortgage, affecting the title to real property, has been satisfied, the holder thereof or his assignee must immediately, on the demand of the mortgagor, purchaser, or the successor in interest of either, execute, acknowledge, and deliver to him a certificate of the discharge thereof so as to entitle it to be recorded ... is liable to the mortgagor, purchaser, or his grantee or heirs, for all damages which he or they may sustain by reason of such refusal, and shall also forfeit to him or them the sum of $100.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "reconveyance",
+      "liens"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 45-915 — Mortgage — Satisfaction — Failure to release of record — Penalty",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch9/sect45-915/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(45-915) 1863, p. 528, sec. 39; R.S., sec. 3364; reen. R.C. & C.L., sec. 3402; C.S., sec. 6369; I.C.A., sec. 44-815; am. 1943, ch. 100, sec. 1, p. 194; am. 1967, ch. 272, sec. 18, p. 745.]"
+  },
+  {
+    "id": "tp-title-policy-must-show-recorded-liens",
+    "claim": "Idaho Code 41-2708(2) bars a title insurer doing business in Idaho from guaranteeing payment of deeds of trust or mortgages, and from intentionally issuing a title policy without showing any outstanding enforceable recorded liens and encumbrances of record against the property, except in circumstances the Director of the Department of Insurance approves by rule.",
+    "quote": "No title insurer doing business in this state shall guarantee the payment of deeds of trust or mortgages on real property. Nor shall any title insurer intentionally issue a title insurance policy without showing any outstanding enforceable recorded liens and encumbrances which are of record against the real property, except under circumstances the director of the department of insurance under his rulemaking powers may approve.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "title-insurance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 41-2708 — Determination of insurability — Prohibited risks — Rebates",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title41/t41ch27/sect41-2708/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[41-2708, added 1973, ch. 135, sec. 5, p. 252; am. 2018, ch. 213, sec. 2, p. 482.]"
+  },
+  {
+    "id": "tp-doi-title-defect-examples",
+    "claim": "The Idaho Department of Insurance lists examples of title defects including invalid documents due to forgery, fraud, undue influence, duress, incompetency, incapacity or impersonation; a document affecting ownership that is not properly executed, signed, witnessed, notarized or delivered; undisclosed or unrecorded easements; no right of access; a document not properly recorded; ownership claims by undisclosed or missing heirs; a previous owner's failure to pay a mortgage, tax assessment or association dues; and liens or claims not listed in the policy.",
+    "quote": "Examples of Title Defects Invalid documents due to forgery, fraud, undue influence, duress, incompetency, incapacity, or impersonation A document affecting ownership that is not properly executed, signed, witnessed, notarized, or delivered Undisclosed or unrecorded easements through the property No right of access to and from the property A document not properly recorded in the public records Ownership claims by undisclosed or missing heirs A previous owner fails to pay a mortgage, tax assessment, or association dues Liens or claims not listed in the policy that may exist against the property title",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "title-insurance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Title Insurance — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/title-insurance/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "tp-doi-title-insurance-protects-buyer-pre-purchase",
+    "claim": "The Idaho Department of Insurance says title insurance insures against financial loss caused by defects in title, that it protects the buyer against covered losses from problems that arose before the purchase, and that an owner's policy protects against ownership problems that arose before the purchase and were not known at the time of the purchase.",
+    "quote": "Title Insurance insures against financial loss caused by defects in title to real estate. ... It protects the buyer against covered losses from problems that arose before the purchase of the property. ... Protects the property owner against losses from ownership problems that arose before the purchase of the property and were not known at the time of the purchase.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "title",
+      "title-insurance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Title Insurance — Idaho Department of Insurance",
+        "url": "https://doi.idaho.gov/consumers/title-insurance/",
+        "publisher": "Idaho Department of Insurance",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
   }
 ];
 

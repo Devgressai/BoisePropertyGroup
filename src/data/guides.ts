@@ -378,6 +378,18 @@ export const guides: Guide[] = [
     updated: "2026-11-26",
     sell: ["sell-inherited-house-idaho", "sell-house-as-is-idaho"],
   },
+  {
+    slug: "selling-a-house-with-title-problems-in-idaho",
+    title: "Selling an Idaho House With Title Problems",
+    h1: "Selling a house with title problems in Idaho",
+    description:
+      "What Idaho law says about quiet title actions, old deeds of trust that were never released, mechanic's liens, lis pendens and boundary issues when you sell.",
+    cluster: "closing",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-house-with-liens-idaho", "sell-house-as-is-idaho"],
+    handoff: "If a title problem is holding up a sale, a direct sale can wait while it is cleared, because you choose the closing date.",
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {
