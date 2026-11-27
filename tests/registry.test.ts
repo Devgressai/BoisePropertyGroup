@@ -67,7 +67,7 @@ describe("search snippets fit", () => {
     const titles = [
       ...publishedGuides().map((g) => g.title),
       ...COMMERCIAL_PAGES.map((c) => c.seoTitle ?? c.title),
-      ...places.map((p) => `We Buy Property in ${p.name}, Idaho`),
+      ...places.map((p) => `We Buy Houses for Cash in ${p.name}, Idaho`),
     ];
     for (const t of titles) expect(renderedTitle(t).length, t).toBeLessThanOrEqual(TITLE_MAX);
   });

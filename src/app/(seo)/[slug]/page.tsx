@@ -16,7 +16,8 @@ import { decideTopicIndexation } from "@/lib/seo/topicIndexation";
 /**
  * SEARCH TITLE AND DESCRIPTION FOR A PLACE PAGE (2026-11-13).
  *
- * The H1 stays "We Buy Property in <place>". The search title and description
+ * The H1 is "We Buy Houses for Cash in <place>" (2026-11-26, was "We Buy
+ * Property in", which carried none of the query terms). Title and description
  * are written for what Search Console shows people typing ("sell my house fast
  * meridian idaho", "sell my house for cash", "as is"): the description was the
  * page's first paragraph, which opens with census figures and says nothing a
@@ -105,7 +106,7 @@ function resolve(slug: string) {
   return {
     kind: "place" as const,
     name: place.name,
-    title: `We Buy Property in ${place.name}, Idaho`,
+    title: `We Buy Houses for Cash in ${place.name}, Idaho`,
     eyebrow: `${place.name} · Ada County, Idaho`,
     content,
     links: [...linksForPlace(place), ...knowledgeLinksForPlace(place)],

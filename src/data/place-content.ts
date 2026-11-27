@@ -25,6 +25,7 @@ export interface PlaceContent {
 export const placeContent: Record<string, PlaceContent> = {
   "sell-my-house-fast-eagle-id": {
     intro: [
+      "Sell your Eagle house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
       "Eagle has about 33,451 residents and grew 7.4% between the 2020 census base and the 2024 estimate — steady rather than fast by Ada County standards. Its median age of 46.8 in 2022 was among the oldest in the county, behind only Garden City.",
       "We buy houses, land and commercial property across Eagle, in any condition.",
     ],
@@ -93,11 +94,18 @@ export const placeContent: Record<string, PlaceContent> = {
         ],
         claims: [],
       },
+      {
+        heading: "Selling your Eagle house as-is, for cash",
+        body: [
+          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+        ],
+      },
     ],
   },
 
   "sell-my-house-fast-kuna-id": {
     intro: [
+      "Sell your Kuna house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
       "Kuna has about 29,127 residents, grew 21.0% between the 2020 census base and the 2024 estimate, and had the youngest median age of any Ada County city in 2022, at 30.2. COMPASS projects it will more than double by 2050, the fastest projected growth in the county.",
       "Kuna runs its own water, sewer and pressurized irrigation, bills trash collection through City Hall, and its city code spells out what happens to those accounts when a house is sold. We buy houses, land and commercial property across Kuna, in any condition.",
     ],
@@ -193,11 +201,18 @@ export const placeContent: Record<string, PlaceContent> = {
         ],
         claims: [],
       },
+      {
+        heading: "Selling your Kuna house as-is, for cash",
+        body: [
+          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+        ],
+      },
     ],
   },
 
   "sell-my-house-fast-meridian-id": {
     intro: [
+      "Sell your Meridian house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
       "Meridian has about 139,740 residents, grew 18.6% between the 2020 census base and the 2024 estimate, and had a median age of 38.7 in 2022 — close to the county's 39.1. It is Ada County's second-largest city, and most of what a seller needs to know about it comes down to how the city runs its utilities.",
       "We buy houses, land and commercial property across Meridian, in any condition.",
     ],
@@ -301,10 +316,17 @@ export const placeContent: Record<string, PlaceContent> = {
         ],
         claims: [],
       },
+      {
+        heading: "Selling your Meridian house as-is, for cash",
+        body: [
+          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+        ],
+      },
     ],
   },
   "sell-my-house-fast-garden-city-id": {
     intro: [
+      "Sell your Garden City house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
       "Garden City has about 12,936 residents, grew 5.1% between the 2020 census base and the 2024 estimate, and had the oldest median age of any Ada County city in 2022, at 47.1. It sits along the Boise River, and the river shapes several of the rules that matter most to a seller here.",
       "We buy houses, land and commercial property across Garden City, in any condition.",
     ],
@@ -373,6 +395,12 @@ export const placeContent: Record<string, PlaceContent> = {
           "When we make an offer we show the value we used, the work we think the property needs, our holding costs and the margin we run on. You can check every line.",
         ],
         claims: [],
+      },
+      {
+        heading: "Selling your Garden City house as-is, for cash",
+        body: [
+          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+        ],
       },
     ],
   },
@@ -532,6 +560,7 @@ export const placeContent: Record<string, PlaceContent> = {
 
   "sell-my-house-fast-boise-id": {
     intro: [
+      "Sell your Boise house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
       "Boise is the largest city in Ada County at roughly 238,000 people, and the slowest growing — about 1.0% between the 2020 census base and the 2024 estimate, against 61.4% in Star and 21.0% in Kuna. A market that is not adding people is a market where the existing housing stock, and its condition, does most of the work.",
       "We buy houses, infill lots, multifamily, office and industrial property across the city.",
     ],
@@ -693,11 +722,18 @@ export const placeContent: Record<string, PlaceContent> = {
           "When we make an offer we show the after-repair value we used, the work we think the property needs, our holding costs and the spread we run on. You can check every line of it: the public records yourself, and the comparable sales because we name them.",
         ],
       },
+      {
+        heading: "Selling your Boise house as-is, for cash",
+        body: [
+          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+        ],
+      },
     ],
   },
 
   "sell-my-house-fast-star-id": {
     intro: [
+      "Sell your Star house as-is, for cash. We buy with our own capital, in any condition: no repairs, no cleaning, no showings. You choose the closing date, and three weeks is realistic when you need speed.",
       "Star grew 61.4% between the 2020 census base and the 2024 estimate, from roughly 11,300 to 18,208 people, the fastest growth of any city in Ada County by a wide margin. It is also the only one that is not entirely in Ada County.",
       "Water and sewer in Star belong to a separate district whose charges follow the house, the city adopted new park and police impact fees in April 2026, and its flood code asks for two feet above the base flood level. We buy houses, land and commercial property across Star, in any condition.",
     ],
@@ -824,6 +860,12 @@ export const placeContent: Record<string, PlaceContent> = {
           "We close through a local title company, which handles the district's utility assessment as part of the closing, and you pick the closing date. Our offer lists the value we used, the repairs we expect, our holding costs and our margin, line by line.",
         ],
         claims: [],
+      },
+      {
+        heading: "Selling your Star house as-is, for cash",
+        body: [
+          "No repairs, no cleaning, no showings. Send the address or call (208) 779-4247; we come back with a number and the working behind it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail, and a vacant house, a rental with tenants or an inherited house is fine. If you accept, the sale closes through a local title company on the date you choose. Three weeks is realistic when you need speed, and later is fine.",
+        ],
       },
     ],
   },

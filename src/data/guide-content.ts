@@ -157,7 +157,7 @@ export const guideContent: Record<string, GuideContent> = {
 
   "idaho-foreclosure-vs-property-tax-delinquency": {
     intro: [
-      "Two different things can take an Idaho property from an owner who has fallen behind, and they run on clocks that are nothing like each other. Applying the timeline of one to the other is the most expensive mistake available to a distressed owner.",
+      "A mortgage foreclosure and a property-tax delinquency in Idaho run on clocks that are nothing like each other. A trustee's sale needs notice at least 120 days before the sale date under Idaho Code 45-1506. Unpaid property tax must go unredeemed for three years before the county can take a tax deed under 63-1005, and redemption after that ends within fourteen months under 63-1007, or sooner if the county contracts to sell. Applying the timeline of one to the other is the most expensive mistake available to a distressed owner.",
       "This page sets out what the statutes say. It is not legal advice.",
     ],
     sections: [
@@ -211,7 +211,7 @@ export const guideContent: Record<string, GuideContent> = {
 
   "selling-a-rental-with-tenants-in-idaho": {
     intro: [
-      "Selling an occupied rental raises three questions: what happens to the deposit, whether the lease binds the buyer, and what to do about someone who will not leave. Idaho answers the first clearly, the second partly, and the third narrowly.",
+      "Yes, an Idaho rental can be sold with tenants in place. Under Idaho Code 6-321(3) the new owner becomes liable for refunding the security deposits. Under 55-812 a lease of one year or less is not void against a buyer merely because it was never recorded. And a rental of one to four units still needs the seller's property condition disclosure. Idaho answers the deposit question clearly, the lease question partly, and the question of someone who will not leave narrowly.",
       "This page describes the statutes. It is not legal advice, and an occupancy dispute in particular is a matter for an attorney.",
     ],
     sections: [
@@ -263,7 +263,7 @@ export const guideContent: Record<string, GuideContent> = {
 
   "selling-a-manufactured-home-in-idaho": {
     intro: [
-      "A manufactured home in Idaho is one of two legally different things, and which one it is decides almost everything about selling it: whether you transfer a title or a deed, who will lend against it, how it is taxed, and whether it can be moved at all.",
+      "An Idaho manufactured home sells with a deed, as real property, only if three things are all true under Idaho Code 63-304: the running gear is removed, the home is permanently affixed to a foundation on land the owner owns or is buying (or leases under qualifying financing), and a statement of intent is recorded with the county. Otherwise it is personal property and sells by transferring its title. Which of the two it is decides almost everything else: who will lend against it, how it is taxed, and whether it can be moved at all.",
       "The conversion from personal property to real property is a filing. The reversal is not. This page describes what the Idaho statutes say. It is not legal advice and it is not applied to your situation.",
     ],
     sections: [

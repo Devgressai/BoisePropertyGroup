@@ -73,7 +73,7 @@ export const guides: Guide[] = [
       "Unpaid Idaho property taxes lead to a county tax deed after three years. A trustee's sale needs only 120 days' notice. Both clocks, and the redemption rules.",
     cluster: "distress",
     published: "2026-09-10",
-    updated: "2026-09-10",
+    updated: "2026-11-26",
     sell: ["sell-house-delinquent-property-taxes-idaho", "sell-house-before-foreclosure-idaho"],
     handoff:
       "If you are behind on taxes or payments and would rather sell than wait on either clock, a direct sale is one option while you still hold title.",
@@ -86,7 +86,7 @@ export const guides: Guide[] = [
       "Selling an Idaho rental with tenants: who owes the deposit after a sale, whether an unrecorded lease binds the buyer, and when a sheriff can remove occupants.",
     cluster: "tenants",
     published: "2026-09-10",
-    updated: "2026-09-10",
+    updated: "2026-11-26",
     sell: ["sell-rental-property-idaho"],
     handoff:
       "If you would rather sell with the tenants still in place than wait for a lease to end, a direct sale is one option.",
@@ -99,7 +99,7 @@ export const guides: Guide[] = [
       "Is your Idaho manufactured home real property or personal property? The answer decides title or deed, who will finance it, and whether it can be moved.",
     cluster: "manufactured",
     published: "2026-09-10",
-    updated: "2026-09-10",
+    updated: "2026-11-26",
     sell: ["sell-manufactured-home-idaho"],
     handoff:
       "If the home sits on land you own and you would rather not wait on a buyer's financing, a direct sale is one option.",
@@ -119,26 +119,26 @@ export const guides: Guide[] = [
   },
   {
     slug: "idaho-seller-disclosure-when-selling-as-is",
-    title: "Selling a House As-Is in Idaho: What You Must Still Disclose",
+    title: "Idaho Seller Disclosure When Selling As-Is: Who Must Disclose",
     h1: "Idaho seller disclosure when you sell a house as-is",
     description:
       "Selling as-is does not remove Idaho's seller disclosure form. Who must disclose, the 16 exemptions, the 10-day and 3-business-day deadlines, and lead paint.",
     cluster: "disclosure",
     published: "2026-09-12",
-    updated: "2026-09-12",
+    updated: "2026-11-26",
     sell: ["sell-house-as-is-idaho"],
     handoff:
       "If you would rather sell without making repairs, a direct sale is one option. The disclosure rules on this page still apply.",
   },
   {
     slug: "selling-a-house-during-a-divorce-in-idaho",
-    title: "Selling a House During a Divorce in Idaho",
+    title: "Selling a House During a Divorce in Idaho: Who Must Sign",
     h1: "Selling a house during a divorce in Idaho: who has to sign",
     description:
       "What Idaho's community property statutes say about who must sign a sale, how temporary orders and injunctions fit in, and how a divorce decree divides a house.",
     cluster: "divorce",
     published: "2026-11-12",
-    updated: "2026-11-12",
+    updated: "2026-11-26",
     sell: ["sell-house-divorce-idaho"],
   },
   {

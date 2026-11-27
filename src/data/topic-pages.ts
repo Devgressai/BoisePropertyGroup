@@ -92,7 +92,7 @@ export const TOPIC_PAGES: TopicPage[] = [
     slug: "sell-inherited-house-idaho",
     kind: "situation",
     title: "Sell an Inherited or Probate House in Boise, Idaho",
-    h1: "We buy inherited houses in Ada County",
+    h1: "We buy inherited and probate houses in Boise and Ada County",
     eyebrow: "Inherited property",
     description:
       "Selling an inherited house in Boise or Ada County: who can sign, what the Ada County Recorder needs from an estate, and how a direct sale works. Any condition.",
@@ -192,7 +192,7 @@ export const TOPIC_PAGES: TopicPage[] = [
     slug: "sell-house-as-is-idaho",
     kind: "situation",
     title: "Sell My House As-Is in Boise, Idaho (No Repairs)",
-    h1: "Sell your house as-is in Ada County",
+    h1: "Sell your Boise house as-is: no repairs",
     eyebrow: "As-is sale",
     description:
       "Selling a house as-is in Idaho? We buy in Boise and across Ada County with no repairs. What Idaho disclosure still asks of you, and how condition is priced.",
@@ -300,8 +300,8 @@ export const TOPIC_PAGES: TopicPage[] = [
   {
     slug: "sell-rental-property-idaho",
     kind: "situation",
-    title: "Sell a House With Tenants in Boise, Idaho",
-    h1: "Sell a rental property with tenants in place",
+    title: "Sell a Rental Property With Tenants in Boise, Idaho",
+    h1: "Sell a Boise rental property with tenants in place",
     eyebrow: "Rental property",
     description:
       "We buy rentals with tenants in place in Boise and across Ada County, up to a fourplex. What Idaho law says happens to the lease, the deposit and notice.",
@@ -386,7 +386,7 @@ export const TOPIC_PAGES: TopicPage[] = [
     slug: "sell-house-before-foreclosure-idaho",
     kind: "situation",
     title: "Sell Your House Before Foreclosure in Boise, Idaho",
-    h1: "Selling your house before a foreclosure sale",
+    h1: "Selling your Boise house before a foreclosure sale",
     eyebrow: "Facing foreclosure",
     description:
       "Behind on payments in Boise or Ada County? Idaho's foreclosure dates, the payoff figure, and what selling before the trustee's sale can and cannot do.",
@@ -638,7 +638,7 @@ export const TOPIC_PAGES: TopicPage[] = [
     slug: "sell-house-divorce-idaho",
     kind: "situation",
     title: "Selling a House in a Divorce in Boise, Idaho",
-    h1: "Selling the house in a divorce",
+    h1: "Selling the house in a Boise or Ada County divorce",
     eyebrow: "Divorce",
     description:
       "Selling the house in a Boise or Ada County divorce: who must sign under Idaho law, what the court can order, and one offer and closing date for both of you.",
