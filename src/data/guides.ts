@@ -412,6 +412,17 @@ export const guides: Guide[] = [
     updated: "2026-11-26",
     sell: ["sell-vacant-house-idaho", "sell-inherited-house-idaho"],
   },
+  {
+    slug: "selling-a-house-in-a-flood-zone-in-ada-county",
+    title: "Selling a House in a Flood Zone",
+    h1: "Selling a house in a FEMA flood zone in Ada County",
+    description:
+      "How to look up a flood zone in Ada County, what Idaho's disclosure form asks, when a buyer's lender must require flood insurance, and each city's rebuild rule.",
+    cluster: "disclosure",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-house-as-is-idaho", "sell-house-code-violations-idaho"],
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {

@@ -21470,6 +21470,625 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "fz-form-q5-basement-water-drainage",
+    "claim": "Question 5 of the seller property disclosure form printed in Idaho Code 55-2508 asks the seller to specify problems with a list of items that includes basement water and drainage. No question on the form uses the word flood or asks whether the property is in a flood zone.",
+    "quote": "5. Specify problems with the following: Basement water Foundation Roof condition and age ... Plumbing Drainage Electrical Heating",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "disclosure",
+      "flood"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2508 — Disclosure form",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch25/sect55-2508/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2508, added 1994, ch. 366, sec. 1, p. 1175; am. 2002, ch. 333, sec. 5, p. 945.]"
+  },
+  {
+    "id": "fz-floodsmart-find-map-msc-or-local-administrator",
+    "claim": "FEMA's FloodSmart site says a property's flood map and flood zone can be found online at the FEMA Flood Map Service Center or by contacting the local floodplain administrator.",
+    "quote": "Therefore, it is important to know your flood map and flood zone to understand and manage your flood risk. You can find them online at the FEMA Flood Map Service Center or by contacting your local floodplain administrator.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "maps"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "What is My Flood Zone? — FloodSmart (National Flood Insurance Program)",
+        "url": "https://www.floodsmart.gov/flood-zones-and-maps/what-is-my-flood-zone",
+        "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-floodsmart-a-zones-high-risk-x-zones-recommended",
+    "claim": "FEMA's FloodSmart site describes Zones A, AE, AH, AO, AR and A99 as high-risk flood areas where, in communities that participate in the NFIP, flood insurance is mandatory if mortgages are government-backed. It describes Zones B and X (shaded) as moderate risk and Zones C and X (unshaded) as lower risk, and for both says flood insurance is recommended.",
+    "quote": "Zones A, AE, AH, AO, AR and A99 are high-risk flood areas, due to proximity to a pond, stream, river or protective barrier under construction. In communities that participate in the NFIP, flood insurance is mandatory if mortgages are government-backed. ... B & X Zones represent areas with a moderate risk of flooding. ... Zones C & X are at a lower risk of flooding, though not entirely without risk. Flood insurance is recommended.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "maps",
+      "insurance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "What is My Flood Zone? — FloodSmart (National Flood Insurance Program)",
+        "url": "https://www.floodsmart.gov/flood-zones-and-maps/what-is-my-flood-zone",
+        "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-floodsmart-loma-lomr-online",
+    "claim": "FEMA's FloodSmart site says applicants may request a Letter of Map Amendment (LOMA) or Letter of Map Revision (LOMR) through FEMA's online LOMC application.",
+    "quote": "Applicants may request a Letter of Map Amendment (LOMA) or Letter of Map Revision (LOMR) using this online LOMC application",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "maps"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "What is My Flood Zone? — FloodSmart (National Flood Insurance Program)",
+        "url": "https://www.floodsmart.gov/flood-zones-and-maps/what-is-my-flood-zone",
+        "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-gardencity-fema-requires-city-review-of-map-changes",
+    "claim": "Garden City says that for Letters of Map Change, FEMA requires the city to review the request before it is submitted to FEMA, and the city lists LOMR, LOMR-F, CLOMR-F, CLOMA and LOMA among its floodplain application types.",
+    "quote": "City’s acknowledgment of map revisions for FEMA (For Letter of Map Changes FEMA requires that the City first reviews them before they are submitted to FEMA)",
+    "entities": [
+      "city:garden-city"
+    ],
+    "topics": [
+      "flood",
+      "maps"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Floodplain Development",
+        "url": "https://gardencityidaho.org/floodplain-development",
+        "publisher": "City of Garden City — Development Services",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Garden City, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-ada-lookup-msc-or-county-and-undetermined-areas",
+    "claim": "Ada County says floodplain and floodway areas are designated by FEMA on Flood Insurance Rate Maps, that owners can search the maps through FEMA's Map Service Center or contact the county's office to determine whether a property is within a floodplain or floodway, and that some areas of Ada County have possible but undetermined flood hazards where no flood hazard analysis has been done.",
+    "quote": "Floodplain and floodway areas are designated by FEMA on the Flood Insurance Rate Maps (FIRMS). You can search the flood maps in your area using FEMA's Map Service Center , or contact our office to determine if your property is within a floodplain or floodway. ... There are areas of Ada County with possible but undetermined flood hazards where flood hazard analyses have not been conducted.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "flood",
+      "maps"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Hazardous Overlay Districts — Ada County Development Services",
+        "url": "https://adacounty.id.gov/developmentservices/community-planning-division/hazardous-overlay-districts/",
+        "publisher": "Ada County Development Services",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-ada-lowest-floor-one-foot-above-bfe",
+    "claim": "Ada County's floodplain page says structures in the floodplain, including basements and crawlspaces, must be elevated above the base flood elevation, and that generally the lowest floor, including basements and crawlspaces, must remain at least one foot above it. In the floodway, a registered professional engineer licensed in Idaho must determine that the work will not increase flood elevation.",
+    "quote": "Within the floodplain, structures, including basements and crawlspaces, are required to be elevated above the base flood elevation. Within the floodway, it is very difficult to conduct any work because a registered professional engineer licensed in the state of Idaho must determine that the work will not cause an increase in flood elevation to the waterway. ... Generally, when constructing in the floodplain this is the elevation that the lowest floor of the structure, including basements and crawlspaces, must remain at least one foot above.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "flood",
+      "permits"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Hazardous Overlay Districts — Ada County Development Services",
+        "url": "https://adacounty.id.gov/developmentservices/community-planning-division/hazardous-overlay-districts/",
+        "publisher": "Ada County Development Services",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-ada-elevation-certificate-engineer-or-surveyor",
+    "claim": "Ada County describes an elevation certificate as a FEMA form that must be completed by a registered professional engineer or land surveyor licensed in Idaho, usually at least twice: once from building plans and again after construction and before a certificate of occupancy.",
+    "quote": "An elevation certificate is a form created by FEMA that must be completed by a registered professional engineer or land surveyor licensed in the state of Idaho. The form is usually completed at least twice: once based on building plans and once again after construction and prior to issuing a certificate of occupancy.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "flood",
+      "permits"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Hazardous Overlay Districts — Ada County Development Services",
+        "url": "https://adacounty.id.gov/developmentservices/community-planning-division/hazardous-overlay-districts/",
+        "publisher": "Ada County Development Services",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-boise-fema-issued-new-firm-2019",
+    "claim": "The City of Boise's floodplain page says FEMA issued new Flood Insurance Rate Maps and a Flood Insurance Study on December 19, 2019, and that the city would amend Chapter 11-08 (Flood Hazard Regulations) of its Development Code to reference them.",
+    "quote": "The City of Boise will be amending Chapter 11-08 (Flood Hazard Regulations) of the Development Code . The Federal Emergency Management Agency (FEMA) issued new Flood Insurance Rate Maps (FIRM(s) and a Flood Insurance Study (FIS) on December 19, 2019.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "flood",
+      "maps"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Floodplain Information — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/floodplain-information/",
+        "publisher": "City of Boise",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-boise-pds-flood-depth-and-elevation-certificate",
+    "claim": "Boise says that if a property is in a floodplain, Planning and Development Services staff at (208) 608-7100 can provide information such as the depth of flooding in the area and a completed FEMA elevation certificate if one is available for the property.",
+    "quote": "If your property is located within a floodplain, the Planning and Development Services staff at (208) 608-7100 can provide additional useful information such as the depth of flooding in your area and a completed FEMA elevation certificate if one is available for your property.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "flood",
+      "maps"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Floodplain Information — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/floodplain-information/",
+        "publisher": "City of Boise",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-boise-lenders-generally-require-owners-outright-not",
+    "claim": "Boise's floodplain page says mortgage lenders generally require flood insurance for properties in a Special Flood Hazard Area, and that owners who own property outright are not required to buy it.",
+    "quote": "Mortgage lenders generally require flood insurance for properties within a SFHA. Citizens that own property outright are not required to purchase flood insurance and some elect not to, primarily because of the cost of the insurance premiums.",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "flood",
+      "insurance",
+      "financing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Floodplain Information — City of Boise",
+        "url": "https://www.cityofboise.org/departments/planning-and-development-services/floodplain-information/",
+        "publisher": "City of Boise",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-boise-building-code-defers-to-development-code-flood-regs",
+    "claim": "Boise City Code 9-1B-44 amends the residential building code so that all construction in flood hazard areas, including substantial improvement and repair of substantial damage, must follow the Flood Hazard regulations of the Boise Development Code in addition to the building code.",
+    "quote": "R322.1 Flood-Resistant Construction, General. All construction within flood hazard areas shall be designed and constructed in accordance with the Flood Hazard regulations of the Boise Development Code in addition to this code. Buildings and structures constructed in whole or in part in flood hazard areas, including A or V Zones and Coastal A Zones, as set forth in Table R301.2(1), and substantial improvement and repair of substantial damage of buildings and structures in flood hazard areas, shall be designed and constructed in accordance with the provisions contained",
+    "entities": [
+      "city:boise-city"
+    ],
+    "topics": [
+      "flood",
+      "permits"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Boise City Code 9-1B-44 — IRC amendment, Section R322.1, Flood-Resistant Construction, General",
+        "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-37429",
+        "publisher": "City of Boise (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Boise, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-eagle-substantial-improvement-40-percent",
+    "claim": "Eagle City Code 10-1-5 defines substantial improvement as reconstruction, rehabilitation, addition or other improvement costing 40 percent or more of the structure's market value before the start of construction, and defines substantial damage as damage whose repair cost would equal or exceed 40 percent of pre-damage market value, or flood damage on two occasions in ten years averaging 20 percent or more each time.",
+    "quote": "SUBSTANTIAL DAMAGE: Damage of any origin sustained by a building whereby the cost of restoring the structure to its before damaged condition would equal or exceed forty percent (40%) of the market value of the structure before the damage occurred. SUBSTANTIAL DAMAGE also means flood-related damage sustained by a structure on two (2) separate occasions during a ten (10) year period for which the cost of repairs at the time of each such flood event, on the average, equals or exceeds twenty percent (20%) of the market value of the structure before the damage occurred. ... Any reconstruction, rehabilitation, addition, or other improvement of a structure, the cost of which equals or exceeds forty percent (40%) of the market value of the structure before the \"start of construction\" of the improvement.",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "flood",
+      "permits"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Eagle City Code 10-1-5 — Flood Control: Rules and Definitions",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-5353",
+        "publisher": "City of Eagle (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-eagle-fis-dated-june-19-2020",
+    "claim": "Eagle City Code 10-1-6 adopts by reference FEMA's Flood Insurance Study for Ada County, Idaho and Incorporated Areas, dated June 19, 2020, with its accompanying flood insurance rate maps.",
+    "quote": "The Special flood hazard areas identified by the Federal Emergency Management Agency, in its flood insurance study (FIS) “The Flood Insurance Study (FIS) for Ada County, Idaho And Incorporated Areas”, dated June 19, 2020, with accompanying flood insurance rate maps (FIRM), or digital flood insurance rate maps (DFIRM), and other supporting data, are adopted by reference and declared to be a part of this chapter.",
+    "entities": [
+      "city:eagle",
+      "county:ada"
+    ],
+    "topics": [
+      "flood",
+      "maps"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Eagle City Code 10-1-6 — Basis for Special Flood Hazard Areas",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-5412",
+        "publisher": "City of Eagle (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-eagle-residential-elevation-standards",
+    "claim": "Eagle City Code 10-1-8-6 requires new construction and substantial improvement of any residential structure, manufactured homes included, to have the lowest finished floor no lower than the flood protection elevation and the lowest floor, including basement and crawl space, at least one foot above the base flood elevation; Eagle defines the flood protection elevation, where a base flood elevation exists, as that elevation plus two feet of freeboard.",
+    "quote": "2. New construction and substantial improvement of any residential structure (including manufactured homes) shall have the lowest finished floor elevated no lower than the flood protection elevation, as defined in section 10-1-5 , and the lowest floor, including basement and crawl space, shall be elevated to a minimum of one foot (1') above the base flood elevation. ... A. In special flood hazard areas where base flood elevations (BFEs) have been determined, this elevation shall be the BFE plus two feet (2') of freeboard",
+    "entities": [
+      "city:eagle"
+    ],
+    "topics": [
+      "flood",
+      "permits"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Eagle City Code 10-1-8-6 — Flood Damage Reduction: Specific Standards",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-5457",
+        "publisher": "City of Eagle (hosted by American Legal Publishing)",
+        "tier": 1
+      },
+      {
+        "title": "Eagle City Code 10-1-5 — Flood Control: Rules and Definitions",
+        "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-5353",
+        "publisher": "City of Eagle (hosted by American Legal Publishing)",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Eagle, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-meridian-check-nfhl-and-msc-for-lomr",
+    "claim": "Meridian tells owners to check FEMA's National Flood Hazard Layer map to see whether a property is currently in the floodplain, and to check msc.fema.gov to see whether a property was removed from the floodplain through a Letter of Map Revision. Meridian also says flood insurance is required for structures in the Special Flood Hazard Area that have mortgages from federally insured financial institutions.",
+    "quote": "To find out if your property is currently in the floodplain, check the FEMA National Flood Hazard Layer map . To check if your property was removed from the floodplain through Letters of Map Revision, please visit msc.fema.gov . ... Flood insurance is required for structures located in the Special Flood Hazard Area that have mortgages from federally insured financial institutions.",
+    "entities": [
+      "city:meridian"
+    ],
+    "topics": [
+      "flood",
+      "maps",
+      "insurance"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Floodplain Information — City of Meridian Public Works",
+        "url": "https://meridiancity.org/public-works/environmental/floodplain-information/",
+        "publisher": "City of Meridian",
+        "tier": 2
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Meridian, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-usc-4012a-regulated-lenders",
+    "claim": "Under 42 U.S.C. 4012a(b)(1), federal lending regulators must direct regulated lending institutions not to make, increase, extend or renew a loan secured by improved real estate or a mobile home in a FEMA-identified special flood hazard area where flood insurance is available, unless the building is covered by flood insurance for the term of the loan in at least the lesser of the outstanding principal balance or the maximum coverage available.",
+    "quote": "(A) not to make, increase, extend, or renew any loan secured by improved real estate or a mobile home located or to be located in an area that has been identified by the Administrator as an area having special flood hazards and in which flood insurance has been made available under the National Flood Insurance Act of 1968 [42 U.S.C. 4001 et seq.], unless the building or mobile home and any personal property securing such loan is covered for the term of the loan by flood insurance in an amount at least equal to the outstanding principal balance of the loan or the maximum limit of coverage made available under the Act with respect to the particular type of property, whichever is less",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "insurance",
+      "financing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "42 U.S.C. § 4012a — Flood insurance purchase and compliance requirements and escrow accounts",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap50-subchapI-sec4012a.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo) — United States Code, 2023 edition",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-usc-4012a-federal-agency-lenders-and-detached",
+    "claim": "42 U.S.C. 4012a(b)(2) applies the same flood insurance condition to loans made by federal agency lenders, and 4012a(c)(3) says flood insurance is not required for a detached structure on residential property that does not serve as a residence.",
+    "quote": "A Federal agency lender may not make, increase, extend, or renew any loan secured by improved real estate or a mobile home located or to be located in an area that has been identified by the Administrator as an area having special flood hazards and in which flood insurance has been made available under the National Flood Insurance Act of 1968, unless the building or mobile home and any personal property securing such loan is covered for the term of the loan by flood insurance in the amount provided in paragraph (1)(A). ... Notwithstanding any other provision of this section, flood insurance shall not be required, in the case of any residential property, for any structure that is a part of such property but is detached from the primary residential structure of such property and does not serve as a residence.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "insurance",
+      "financing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "42 U.S.C. § 4012a — Flood insurance purchase and compliance requirements and escrow accounts",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap50-subchapI-sec4012a.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo) — United States Code, 2023 edition",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-usc-4104a-lender-notice-to-purchaser",
+    "claim": "Under 42 U.S.C. 4104a(a), federal lending regulators must require a regulated lender making a loan secured by improved real estate in a special flood hazard area to notify the purchaser (or obtain satisfactory assurances that the seller has notified the purchaser) of the special flood hazards in writing a reasonable period before the purchase agreement is signed. The notice must include a description of the flood insurance purchase requirements and a statement that coverage may be bought under the NFIP and is also available from private insurers.",
+    "quote": "to notify the purchaser or lessee (or obtain satisfactory assurances that the seller or lessor has notified the purchaser or lessee) and the servicer of the loan of such special flood hazards, in writing, a reasonable period in advance of the signing of the purchase agreement, lease, or other documents involved in the transaction. ... (B) a description of the flood insurance purchase requirements under section 102(b) of the Flood Disaster Protection Act of 1973 [42 U.S.C. 4012a(b)]; (C) a statement that flood insurance coverage may be purchased under the national flood insurance program and is also available from private insurers",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "insurance",
+      "financing",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "42 U.S.C. § 4104a — Notification to flood insurance purchasers of special flood hazards",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap50-subchapIII-sec4104a.htm",
+        "publisher": "U.S. Government Publishing Office (govinfo) — United States Code, 2023 edition",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-floodsmart-sfha-government-backed-required",
+    "claim": "FEMA's FloodSmart site says an owner of a home in a Special Flood Hazard Area with a government-backed mortgage is required to have flood insurance, that some banks require it outside high-risk areas, and that most homeowners insurance does not cover flood damage or meet the mortgage requirement.",
+    "quote": "You're required to have flood insurance if you own a home or business in a Special Flood Hazard Area (SFHA) and have a government-backed mortgage. Some banks require flood insurance even if you don't live in a high-risk area. ... No, most homeowners insurance does not cover flood damage. It also won't fulfill the mortgage or federal disaster assistance requirements for flood insurance.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "insurance",
+      "financing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Eligibility — Who's eligible for NFIP flood insurance? — FloodSmart",
+        "url": "https://www.floodsmart.gov/get-insured/eligibility",
+        "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-floodsmart-disaster-aid-requirement-runs-with-property",
+    "claim": "FEMA's FloodSmart site says a property that has received federal disaster assistance must have flood insurance to qualify for future assistance, and that this requirement is tied to the property, so a buyer of a home that once got disaster aid is required to have flood insurance.",
+    "quote": "If your property has received federal disaster assistance before, you must have flood insurance to qualify for future disaster assistance. This includes disaster grants from FEMA and U.S. Small Business Administration disaster loans. This requirement is tied to a property, not an individual homeowner. That means if you bought a home from someone who once got disaster aid for it, you are required to have flood insurance.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "insurance",
+      "disclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Eligibility — Who's eligible for NFIP flood insurance? — FloodSmart",
+        "url": "https://www.floodsmart.gov/get-insured/eligibility",
+        "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-nfip-policy-transfers-to-buyer",
+    "claim": "FEMA's FloodSmart agent site says that when a home is sold, the NFIP flood insurance policy for the building can be transferred to the new buyer.",
+    "quote": "If your client sells their home, the flood insurance policy for the building can be transferred to the new buyer.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "insurance",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Answers to Some of Your Clients' Most Frequently Asked Questions — FloodSmart for agents (March 2024)",
+        "url": "https://agents.floodsmart.gov/articles/answers-some-your-clients-most-frequently-asked-questions",
+        "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
+  },
+  {
+    "id": "fz-nfip-transfer-no-wait-brochure",
+    "claim": "An NFIP brochure for real estate professionals (August 2025) says a 30-day waiting period typically applies to new flood coverage, with exceptions: there is no waiting period when the initial purchase is in connection with making, increasing, extending or renewing a mortgage loan, and a seller can transfer the policy to the new owner regardless of whether a mortgage is involved.",
+    "quote": "When the initial purchase of flood insurance is in connection with the making, increasing, extension or renewal of a mortgage loan, there is no waiting period. In addition, a seller can transfer their policy to the new property owner, regardless of whether there is a mortgage involved.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "flood",
+      "insurance",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "National Flood Insurance Program Questions & Answers: Flood Insurance (brochure for real estate professionals, 08-2025)",
+        "url": "https://agents.floodsmart.gov/sites/default/files/media/document/2025-09/questions-answers-real-estate-professionals-brochure-08-2025.pdf",
+        "publisher": "Federal Emergency Management Agency — National Flood Insurance Program",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States",
+    "amendmentHistory": null
   }
 ];
 

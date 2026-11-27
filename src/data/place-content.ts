@@ -62,7 +62,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Flooding comes from the creek as well as the river",
         body: [
           "The City of Eagle identifies two sources of flooding in the city: Dry Creek and the Boise River. Owners along the river tend to know it; owners near the creek are often less aware that it counts too.",
-          "The city participates in the National Flood Insurance Program, which is what makes federally backed flood insurance available to property owners and tenants. It also publishes elevation certificates that can be searched by address — a document a buyer's lender or insurer may ask about, and one worth looking up before listing rather than during escrow.",
+          "The city participates in the National Flood Insurance Program, which is what makes federally backed flood insurance available to property owners and tenants. It also publishes elevation certificates that can be searched by address — a document a buyer's lender or insurer may ask about, and one worth looking up before listing rather than during escrow. What a flood zone means for a sale is in [selling a house in a flood zone in Ada County](/guides/selling-a-house-in-a-flood-zone-in-ada-county).",
         ],
         claims: ["eagle-flood-dry-creek-and-boise-river"],
       },
@@ -267,7 +267,7 @@ export const placeContent: Record<string, PlaceContent> = {
         heading: "Four creeks carry the flood risk",
         body: [
           "In Meridian the mapped flood hazard follows creeks. The city's watershed has four creeks mapped by FEMA as Special Flood Hazard Areas: Fivemile, Eightmile, Ninemile and Tenmile Creeks.",
-          "On request, Meridian Public Works will say whether a property is in or out of a Special Flood Hazard Area or a floodway, give base flood elevation data, share any recorded history of flooding at the site, and provide copies of Elevation Certificates for properties permitted through the city. A buyer's lender may well ask the flood question; the city can answer it from its own records.",
+          "On request, Meridian Public Works will say whether a property is in or out of a Special Flood Hazard Area or a floodway, give base flood elevation data, share any recorded history of flooding at the site, and provide copies of Elevation Certificates for properties permitted through the city. A buyer's lender may well ask the flood question; the city can answer it from its own records. Our guide to [selling a house in a flood zone in Ada County](/guides/selling-a-house-in-a-flood-zone-in-ada-county) covers lenders, insurance and disclosure.",
         ],
         claims: ["meridian-flood-four-creeks"],
       },

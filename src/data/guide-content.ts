@@ -3660,6 +3660,163 @@ export const guideContent: Record<string, GuideContent> = {
       }
     ]
   },
+
+  "selling-a-house-in-a-flood-zone-in-ada-county": {
+    "intro": [
+      "A house in a FEMA special flood hazard area can be sold like any other house, but two rules follow it. Federal law bars regulated and federal agency lenders from making a loan on a building in a mapped special flood hazard area unless it carries flood insurance, so a financed buyer will have to buy a policy. Separately, each city and Ada County set their own limits on large improvements to buildings in the floodplain, and the thresholds differ: Garden City and Star use 50 percent of the building's value, while Eagle uses 40 percent.",
+      "This page describes what federal law, FEMA, Idaho's disclosure statute and local codes say. It is not legal or insurance advice and it is not applied to your property. We are a direct buyer of property. We cannot tell you which flood zone your house is in, how to answer a disclosure question, or what a policy will cost. The floodplain office for your address, a licensed insurance agent and an Idaho attorney can."
+    ],
+    "sections": [
+      {
+        "heading": "How do I find out if my house is in a flood zone?",
+        "body": [
+          "Look the address up on FEMA's flood map, or ask the local floodplain administrator. FEMA's FloodSmart site names both routes: the FEMA Flood Map Service Center online, or the local floodplain administrator.",
+          "Which local office answers depends on where the property sits. Ada County says owners can search FEMA's Map Service Center or contact its office to find out whether a property is in a floodplain or floodway. Its floodplain permits cover unincorporated Ada County. Inside a city, the city's own staff handle it.",
+          "In Boise, Planning and Development Services staff at (208) 608-7100 can provide the depth of flooding in an area and a completed FEMA elevation certificate if one is available for the property. Meridian Public Works will, on request, say whether a property is in or out of a special flood hazard area or floodway and share any flooding history it has for the site. Meridian also tells owners to check msc.fema.gov to see whether a property was removed from the floodplain by a Letter of Map Revision. Eagle publishes elevation certificates searchable by address.",
+          "A short answer from a map can miss something. Ada County says some areas of the county have possible but undetermined flood hazards, where no flood hazard analysis has been done."
+        ],
+        "claims": [
+          "fz-floodsmart-find-map-msc-or-local-administrator",
+          "fz-ada-lookup-msc-or-county-and-undetermined-areas",
+          "ada-engineering-scope-unincorporated",
+          "fz-boise-pds-flood-depth-and-elevation-certificate",
+          "meridian-flood-four-creeks",
+          "fz-meridian-check-nfhl-and-msc-for-lomr",
+          "eagle-flood-dry-creek-and-boise-river"
+        ]
+      },
+      {
+        "heading": "Which flood map is current in Ada County?",
+        "body": [
+          "Ada County says it adopted new FEMA Flood Insurance Rate Maps in June 2020. Eagle's flood ordinance adopts FEMA's Flood Insurance Study for Ada County, Idaho and Incorporated Areas, dated June 19, 2020, with its maps. Boise's floodplain page says FEMA issued new maps and a new study on December 19, 2019.",
+          "A countywide date does not settle a single parcel. FEMA can change a map for one property or area by letter. FloodSmart says owners may request a Letter of Map Amendment or a Letter of Map Revision through FEMA's online application. Garden City says FEMA requires the city to review map-change requests before they go to FEMA. FloodSmart and Ada County both point to FEMA's Map Service Center for the map itself, and Meridian points owners there to check for Letters of Map Revision.",
+          "Flooding here does not come only from the Boise River. Boise names foothills gulches and intermittent channels on the upper bench. Eagle names Dry Creek. Meridian names Fivemile, Eightmile, Ninemile and Tenmile Creeks, all mapped by FEMA as special flood hazard areas."
+        ],
+        "claims": [
+          "ada-fema-firm-adopted-2020",
+          "fz-eagle-fis-dated-june-19-2020",
+          "fz-boise-fema-issued-new-firm-2019",
+          "fz-floodsmart-loma-lomr-online",
+          "fz-gardencity-fema-requires-city-review-of-map-changes",
+          "boise-nfip-flood-sources",
+          "eagle-flood-dry-creek-and-boise-river",
+          "meridian-flood-four-creeks",
+          "fz-floodsmart-find-map-msc-or-local-administrator",
+          "fz-ada-lookup-msc-or-county-and-undetermined-areas",
+          "fz-meridian-check-nfhl-and-msc-for-lomr"
+        ]
+      },
+      {
+        "heading": "What do the flood zone letters mean?",
+        "body": [
+          "FloodSmart describes Zones A, AE, AH, AO, AR and A99 as high-risk flood areas. In communities that take part in the National Flood Insurance Program, it says flood insurance is mandatory in those zones if the mortgage is government-backed.",
+          "FloodSmart describes shaded Zone X (and older Zone B) as moderate risk, and unshaded Zone X (and older Zone C) as lower risk, though not without risk. For both it says flood insurance is recommended, which is different from required.",
+          "Ada County's own floodplain page lists the zones present in the county, including areas of possible but undetermined hazard. Boise and Eagle each say they take part in the National Flood Insurance Program."
+        ],
+        "claims": [
+          "fz-floodsmart-a-zones-high-risk-x-zones-recommended",
+          "fz-ada-lookup-msc-or-county-and-undetermined-areas",
+          "boise-nfip-flood-sources",
+          "eagle-flood-dry-creek-and-boise-river",
+          "fz-meridian-check-nfhl-and-msc-for-lomr"
+        ]
+      },
+      {
+        "heading": "Does Idaho's disclosure form ask about flooding?",
+        "body": [
+          "Not by name. The seller property disclosure form printed in Idaho Code 55-2508 has no question that uses the word flood or asks about a flood zone. Question 5 asks the seller to specify problems with a list of items that includes basement water and drainage. Question 9 asks for any other problems, legal, physical or other, that the seller knows about.",
+          "Idaho Code 55-2504 requires the form for most sales of residential property with one to four units unless the transfer is exempt. None of the exemptions in Idaho Code 55-2505 depends on the house being sold as-is. The form records what the seller actually knows. It is not a warranty and not a substitute for inspections.",
+          "The disclosure act also states that it does not limit any duty to disclose that arises under another section of Idaho Code or under Idaho common law. If information on the form changes before closing, the seller must amend it.",
+          "How any of this applies to a particular flood history is a question for an Idaho attorney. Our guide to [Idaho seller disclosure when selling as-is](/guides/idaho-seller-disclosure-when-selling-as-is) covers the form in more detail."
+        ],
+        "claims": [
+          "fz-form-q5-basement-water-drainage",
+          "cv-form-q9-other-problems-legal",
+          "id-disclosure-required-1-to-4-units",
+          "id-disclosure-sixteen-exemptions",
+          "id-disclosure-actual-knowledge-not-warranty",
+          "id-disclosure-other-duties-preserved",
+          "id-disclosure-amend-before-closing"
+        ]
+      },
+      {
+        "heading": "Will the buyer's lender require flood insurance?",
+        "body": [
+          "If the building is in a mapped special flood hazard area and the buyer borrows from a regulated or federal agency lender, yes. Under 42 U.S.C. 4012a, federal regulators must direct regulated lending institutions not to make, increase, extend or renew a loan secured by improved real estate in a special flood hazard area where flood insurance is available unless the building is insured for the term of the loan. The required amount is at least the lesser of the outstanding loan balance or the maximum coverage available. Federal agency lenders are bound by the same condition.",
+          "The statute also says flood insurance is not required for a detached structure on residential property that does not serve as a residence. A lender can still set its own terms. FloodSmart says some banks require flood insurance even outside high-risk areas.",
+          "The rule follows the loan, not the owner. Boise's floodplain page says mortgage lenders generally require flood insurance in a special flood hazard area, while people who own property outright are not required to buy it. Meridian says the same about mortgages from federally insured institutions.",
+          "Homeowners insurance does not fill the gap. FloodSmart says most homeowners policies do not cover flood damage and do not satisfy the mortgage requirement."
+        ],
+        "claims": [
+          "fz-usc-4012a-regulated-lenders",
+          "fz-usc-4012a-federal-agency-lenders-and-detached",
+          "fz-floodsmart-sfha-government-backed-required",
+          "fz-boise-lenders-generally-require-owners-outright-not",
+          "fz-meridian-check-nfhl-and-msc-for-lomr"
+        ]
+      },
+      {
+        "heading": "Who tells the buyer the house is in a flood zone?",
+        "body": [
+          "Federal law puts a notice duty on the buyer's lender. Under 42 U.S.C. 4104a, regulators must require a regulated lender making a loan on improved real estate in a special flood hazard area to notify the purchaser in writing of the flood hazard a reasonable period before the purchase agreement is signed. The lender may instead obtain satisfactory assurances that the seller has notified the purchaser.",
+          "The notice must describe the flood insurance purchase requirements and state that coverage can be bought through the National Flood Insurance Program and is also available from private insurers. The statute does not give a number of days.",
+          "One more fact can follow the house. FloodSmart says a property that has received federal disaster assistance must carry flood insurance to qualify for future assistance, and that this requirement is tied to the property. A buyer of a home that once got disaster aid is required to have flood insurance. Whether and how a seller should tell a buyer about past aid is a question for an attorney."
+        ],
+        "claims": [
+          "fz-usc-4104a-lender-notice-to-purchaser",
+          "fz-floodsmart-disaster-aid-requirement-runs-with-property"
+        ]
+      },
+      {
+        "heading": "Can my flood insurance policy go to the buyer?",
+        "body": [
+          "FEMA says it can. FloodSmart's agent guidance says that when a home is sold, the NFIP flood insurance policy for the building can be transferred to the new buyer. An NFIP brochure for real estate professionals says a seller can transfer the policy to the new owner whether or not a mortgage is involved.",
+          "The same brochure says there is no waiting period when flood insurance is first bought in connection with making, increasing, extending or renewing a mortgage loan.",
+          "These sources do not explain how a transfer is processed or what it costs. The agent who services the policy can answer that."
+        ],
+        "claims": [
+          "fz-nfip-policy-transfers-to-buyer",
+          "fz-nfip-transfer-no-wait-brochure"
+        ]
+      },
+      {
+        "heading": "What is the substantial improvement rule in each city?",
+        "body": [
+          "Each jurisdiction writes its own, and the numbers differ. A rule in one city does not apply across the line in the next.",
+          "Garden City: in its special flood hazard area, any reconstruction, rehabilitation, addition or other improvement equal to or more than 50 percent of the building's value must meet the same standards as new development. Garden City also requires a city floodplain application before work in the floodplain or floodway.",
+          "Star: its flood ordinance defines substantial improvement as work costing 50 percent or more of the structure's market value before construction starts. New residential construction and substantial improvements in special flood hazard areas must have the lowest floor at or above the base flood elevation plus two feet. Star says development in certain flood zones needs a Flood Plain Development Permit.",
+          "Eagle: its code sets the line at 40 percent of the structure's market value before construction starts. It also counts substantial damage at 40 percent, or flood damage on two occasions in ten years averaging 20 percent or more each time. New construction and substantial improvement of a home must have the lowest finished floor at the base flood elevation plus two feet, and the lowest floor, including basement and crawl space, at least one foot above the base flood elevation.",
+          "Boise: the city's residential building code says construction in flood hazard areas, including substantial improvement and repair of substantial damage, must follow the Flood Hazard regulations of the Boise Development Code. We did not locate Boise's threshold, so this page states none. Ask Boise Planning and Development Services.",
+          "Unincorporated Ada County: any development in the floodplain needs a Floodplain Development Permit. The county says the lowest floor, including basements and crawlspaces, generally must stay at least one foot above the base flood elevation. In the floodway, an Idaho-licensed professional engineer must show the work will not raise the flood elevation. We did not locate the county's improvement threshold.",
+          "Meridian and Kuna: we did not locate a threshold for either city. Ask the city's floodplain staff.",
+          "These rules matter to a seller because they shape what a buyer can do with the house after closing. None of the sources say how a city measures a building's value, so this page does not calculate a threshold for any property."
+        ],
+        "claims": [
+          "gardencity-floodplain-50-percent-improvement-rule",
+          "star-flood-substantial-improvement-and-freeboard",
+          "star-flood-zone-building-permit-question",
+          "fz-eagle-substantial-improvement-40-percent",
+          "fz-eagle-residential-elevation-standards",
+          "fz-boise-building-code-defers-to-development-code-flood-regs",
+          "ada-floodplain-development-permit",
+          "fz-ada-lowest-floor-one-foot-above-bfe",
+          "fz-ada-elevation-certificate-engineer-or-surveyor"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy with our own capital, so a sale to us does not depend on a buyer's lender or on the flood insurance a lender would require. We buy in any condition, purchases close through a local title company, and you choose the closing date. A three-week close is realistic. A sale to us is not one of the disclosure exemptions in Idaho Code 55-2505. You can read [how it works](/how-it-works) or [contact us](/contact).",
+          "A buyer who finances can still buy a house in a flood zone by carrying flood insurance, and an existing NFIP policy can go with the house. If the house is in good shape and you have time, listing it with an agent may bring a higher price. If you are weighing an as-is sale, our page on [selling a house as-is in Idaho](/sell-house-as-is-idaho) explains what that does and does not change."
+        ],
+        "claims": [
+          "id-disclosure-sixteen-exemptions",
+          "fz-nfip-policy-transfers-to-buyer",
+          "fz-usc-4012a-regulated-lenders"
+        ]
+      }
+    ]
+  },
 };
 
 export function guideContentFor(slug: string): GuideContent | undefined {

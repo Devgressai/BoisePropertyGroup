@@ -94,6 +94,29 @@
       "notes": "Do not suggest a reader's property qualifies. Garden City says FEMA requires the city to review map-change requests first (see gardencity source); other cities' process not sourced."
     },
     {
+      "id": "fz-gardencity-fema-requires-city-review-of-map-changes",
+      "claim": "Garden City says that for Letters of Map Change, FEMA requires the city to review the request before it is submitted to FEMA, and the city lists LOMR, LOMR-F, CLOMR-F, CLOMA and LOMA among its floodplain application types.",
+      "quotedLanguage": "City’s acknowledgment of map revisions for FEMA (For Letter of Map Changes FEMA requires that the City first reviews them before they are submitted to FEMA)",
+      "entity": [
+        "city:garden-city"
+      ],
+      "topic": [
+        "flood",
+        "maps"
+      ],
+      "sourceIds": [
+        "gardencity-floodplain-development"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Garden City only. Other cities' map-change review steps were not sourced."
+    },
+    {
       "id": "fz-ada-lookup-msc-or-county-and-undetermined-areas",
       "claim": "Ada County says floodplain and floodway areas are designated by FEMA on Flood Insurance Rate Maps, that owners can search the maps through FEMA's Map Service Center or contact the county's office to determine whether a property is within a floodplain or floodway, and that some areas of Ada County have possible but undetermined flood hazards where no flood hazard analysis has been done.",
       "quotedLanguage": "Floodplain and floodway areas are designated by FEMA on the Flood Insurance Rate Maps (FIRMS). You can search the flood maps in your area using FEMA's Map Service Center , or contact our office to determine if your property is within a floodplain or floodway. ... There are areas of Ada County with possible but undetermined flood hazards where flood hazard analyses have not been conducted.",
