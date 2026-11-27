@@ -1,0 +1,7 @@
+{
+  "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-4519",
+  "fetchedAt": "2026-11-27T07:20:05.346307Z",
+  "fetchedVia": "chrome-headless-dump-dom",
+  "bytes": 193024,
+  "note": "fetch-source.mjs returns HTTP 403 for this host (bot challenge). Captured as rendered DOM via local headless Chrome (--dump-dom) with a non-HeadlessChrome user agent. Content is the live page, not a fetcher response."
+}

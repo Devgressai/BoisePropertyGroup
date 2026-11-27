@@ -20474,6 +20474,474 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-11-26",
       "notes": "Quoted from the Assessor Property Records FAQ, cached at https://adacounty.id.gov/assessor/?p=61 whose canonical URL is the existing source ada-assessor-property-records. Keep the page’s own grammar (\"requires that a new deed to be recorded\"). Countywide statement about the ASSESSOR’s records; the land-use approval itself depends on the city or county, per the same answer."
+    },
+    {
+      "id": "cv2-idcode-50-334-city-abatement-assessment",
+      "claim": "Idaho Code 50-334 empowers cities to declare what are nuisances, to abate them at the expense of the parties creating or maintaining them, and to levy a special assessment under Idaho Code 50-1008 on the land where the nuisance is situated to cover or reimburse the cost of abatement.",
+      "quotedLanguage": "Cities are empowered to declare what shall be deemed nuisances, to prevent, remove and abate nuisances at the expense of the parties creating, causing, committing or maintaining the same, to levy a special assessment as provided in section 50-1008, Idaho Code, on the land or premises whereon the nuisance is situated to defray the cost or to reimburse the city for the cost of abating the same",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "liens"
+      ],
+      "sourceIds": [
+        "idcode-50-334"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[50-334, added 1967, ch. 429, sec. 60, p. 1249; am. 1967, ch. 431, sec. 1, p. 1417; am. 2010, ch. 79, sec. 18, p. 146.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Enabling power for CITIES only; counties are not in this section. The same sentence extends the power three miles beyond city limits; that part is not used in prose and must never be used to put a city rule on a county parcel. Says a city MAY levy; it does not say every city does."
+    },
+    {
+      "id": "cv2-idcode-50-1008-delinquent-to-tax-roll",
+      "claim": "Under Idaho Code 50-1008, a city special assessment not paid within 30 days after the notice of assessment is mailed is declared delinquent, certified by the city clerk to the county tax collector no later than August 1, placed on the tax roll and collected in the same manner and subject to the same penalties as other city taxes.",
+      "quotedLanguage": "if not paid within thirty (30) days after mailing of notification of assessment, shall be declared delinquent and be certified to the tax collector of the county by the city clerk not later than the first day of August and shall be by said tax collector placed upon the tax roll and collected in the same manner and subject to the same penalties as other city taxes",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "code-enforcement",
+        "liens",
+        "property-tax"
+      ],
+      "sourceIds": [
+        "idcode-50-1008"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[50-1008, added 1967 ch. 429, sec. 168, p. 1249; am. 1970, ch. 227, sec. 1, p. 637; am. 1973, ch. 289, sec. 1, p. 612; am. 2021, ch. 26, sec. 1, p. 66.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The statute is a general special-assessment collection rule; it applies to nuisance costs because 50-334 points to it. Do not describe tax-sale or foreclosure consequences; this section does not state them."
+    },
+    {
+      "id": "cv2-idcode-74-103-records-response-times",
+      "claim": "Idaho Code 74-103 requires public records requests to go to the records custodian and to clearly say they are public records requests; an agency must grant or deny a resident's request within three working days (21 days for a nonresident), may take up to ten working days (35 days for a nonresident) if it notifies the requester in writing that it needs longer, and a request not answered in time is deemed denied.",
+      "quotedLanguage": "All requests to examine public records shall be made to the designated custodian of such records ... A public records request must clearly indicate that it is a public records request. ... A public agency or custodian shall either grant or deny a resident's request to examine or copy public records within three (3) working days of the date of the receipt of the request for examination or copying ... within twenty-one (21) days of the date of the receipt of the request for examination or copying ... shall provide the public records no later than ten (10) working days following the person's request, if such person is a resident, and no later than thirty-five (35) days following a request from a nonresident ... If the public agency or custodian fails to respond within the time allotted for the response, the request shall be deemed to be denied.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "records"
+      ],
+      "sourceIds": [
+        "idcode-74-103"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[74-103, added 2015, ch. 140, sec. 5, p. 348; am. 2022, ch. 306, sec. 3, p. 976; am. 2024, ch. 107, sec. 1, p. 477; am. 2025, ch. 298, sec. 3, p. 1250.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Amended in 2024 and 2025: the resident/nonresident split is recent. State both. The 21-day nonresident period applies to a person who is not a resident and not employed by a resident."
+    },
+    {
+      "id": "cv2-ada-nuisance-costs-lien",
+      "claim": "Under the Ada County Nuisance Ordinance, the expenses of abatement and abatement proceedings, including county-hired contractors and investigatory costs, are charged to the owner, occupant or person in charge of the property, and those costs attach as a lien on the property if unpaid.",
+      "quotedLanguage": "The expenses of abatement and abatement proceedings (including any expenses arising from contractors hired by the county to perform said abatement and any investigatory costs) shall be charged to the owner, occupant or person in charge or possession of the premises or property upon which the nuisance exists. The prosecuting attorney may seek recovery of those expenses and costs. Said costs shall attach as a lien upon the subject property if unpaid.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "liens"
+      ],
+      "sourceIds": [
+        "ada-code-5-9-6"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Unincorporated Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "County ordinance for unincorporated land only; pair with cv2-ada-nuisance-scope-and-fifteen-days (rural area district exclusion). The ordinance does not say how or where the lien is recorded; do not say it is recorded."
+    },
+    {
+      "id": "cv2-ada-nuisance-scope-and-fifteen-days",
+      "claim": "The Ada County Nuisance Ordinance applies in unincorporated Ada County except on property zoned in a rural area district under Title 8, and its written notice must tell the owner and occupant that the nuisance must be abated within 15 days from the date of the notice and that abatement and court costs may be assessed against them.",
+      "quotedLanguage": "in unincorporated Ada County except property zoned in a rural area district as established by Title 8 of this code ... advise that the nuisance must be abated within fifteen (15) days from the date of the notice, advise that civil proceedings and/or criminal proceedings may be initiated if the nuisance is not abated, advise that costs of court proceedings and the nuisance abatement may be assessed against the owner",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance"
+      ],
+      "sourceIds": [
+        "ada-code-5-9-6"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Unincorporated Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The rural-area-district exclusion in 5-9-3 was added by Ord. 1014 on 1-20-2026. Which zones are rural area districts was not researched; never tell a reader whether their parcel is excluded."
+    },
+    {
+      "id": "cv2-boise-nuisance-notice-ten-days",
+      "claim": "Boise City Code 4-1-4 has the City Attorney or designee issue a notice requiring the owner or the owner's agent to abate a nuisance within a time not exceeding ten days, and if the owner, agent or occupant does not comply, the city has the nuisance removed and the costs of abatement assessed as Idaho Code provides.",
+      "quotedLanguage": "the City Attorney or designee shall issue a notice requiring the owner or agent of the owner of the premises to remove and abate the nuisance from said premises within a time, not exceeding ten (10) days, to be specified in the notice ... If the owner, agent or occupant of the property shall fail to comply with the requirements of the notice within the period specified therein, the City shall proceed to have the things described in the notice removed and abated from the property and the costs of abatement assessed in the manner provided for in Idaho Code.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance"
+      ],
+      "sourceIds": [
+        "boise-code-4-1-4"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Applies to nuisances as defined in Boise 4-1-1 (health or safety), not to unpermitted construction as such. 'Not exceeding ten days' is a maximum; never state it as ten days."
+    },
+    {
+      "id": "cv2-boise-abatement-cost-lien-or-tax",
+      "claim": "Boise's development code (11-05-07) says the city may recover the cost of abating a public nuisance, as allowed under Idaho Code 50-1008, as a lien on the property or as a city tax.",
+      "quotedLanguage": "The City may recover the cost of abatement as allowed under Idaho State Code 50-1008 as a lien upon the property or as a City tax for costs incurred in the abatement or cleanup.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "code-enforcement",
+        "liens"
+      ],
+      "sourceIds": [
+        "boise-code-11-05-07"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Says MAY recover. Applies to public nuisances under Title 11."
+    },
+    {
+      "id": "cv2-boise-permits-withheld-for-violations",
+      "claim": "Boise's development code says no building permit or final certificate of occupancy shall be issued for a building or structure that does not fully comply with that code, and that where violations relate to permits already granted the city may withhold later permits or approvals for the development until the violations are corrected.",
+      "quotedLanguage": "No Building Permit or final Certificate of Occupancy shall be issued for any building or structure that does not fully comply with the provisions of this Code. ... the City may withhold later permits or approvals for the development until the violations have been corrected.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "code-enforcement",
+        "permits"
+      ],
+      "sourceIds": [
+        "boise-code-11-05-07"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'This Code' is Boise's development code (Title 11: zoning, use, design), not the building code. The withholding power in (2) is about a development with permits already granted. The section also lets the city instead issue later permits on condition that violations are cured within a stated period; mention both or neither. Never say Boise will refuse a permit to a buyer."
+    },
+    {
+      "id": "cv2-boise-dangerous-building-assessment",
+      "claim": "Under Boise's amendments to the dangerous buildings code (9-11-8), the cost of the city's repair or demolition of a dangerous building is reported and assessed; a certified copy of the assessment is filed with the County Auditor on or before August 1, and assessments unpaid 30 days after recording on the assessment roll become delinquent and bear interest at 10% a year.",
+      "quotedLanguage": "All such assessments remaining unpaid after thirty (30) days from the date of recording on the assessment roll shall become delinquent and shall bear interest at the rate of ten percent (10%) per annum from and after said date. ... a certified copy of the assessment shall be filed with the County Auditor on or before August 1.",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "code-enforcement",
+        "dangerous-buildings",
+        "liens"
+      ],
+      "sourceIds": [
+        "boise-code-9-11-8"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Only for repair or demolition of a DANGEROUS building done by the city after the ADB process. Section 910 is conditional ('If the County Assessor and the County Tax Collector assess property and collect taxes for this jurisdiction'). Do not apply to ordinary code cases."
+    },
+    {
+      "id": "cv2-eagle-vacant-owner-of-record-presumed",
+      "claim": "Eagle City Code 4-1-2 presumes the owner of record on the most recent assessment roll responsible for a nuisance on vacant, abandoned or uninhabited property, liable for penalties and for the costs of abatement, with the burden on the owner to rebut the presumption.",
+      "quotedLanguage": "Where a nuisance exists upon property that is vacant, abandoned, and/or uninhabited, the owner of record, as reflected on the most recent assessment roll, shall be presumed to be responsible for creating, causing, committing, maintaining, and/or allowing such nuisance.",
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "vacant"
+      ],
+      "sourceIds": [
+        "eagle-code-4-1-3"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Eagle only. Rebuttable presumption; do not call it strict liability."
+    },
+    {
+      "id": "cv2-eagle-abatement-assessment-lien",
+      "claim": "Eagle City Code 4-1-3 gives five calendar days to abate an abatable nuisance after service, mailing or publication; if the city abates and is not paid, it may levy a special assessment under Idaho Code 50-1008 and 50-334, which, unpaid 30 days after notice, is certified with a 10% late fee to the Ada County Assessor by August 1, placed on the tax roll and becomes a lien until the City Clerk files a release of lien on payment.",
+      "quotedLanguage": "to abate such nuisance within five (5) calendar days from the date of personal service, mailing, or publication ... Levy a special assessment against the subject property pursuant to Idaho Code sections 50-1008 and 50-334 ... shall be certified, including a ten percent (10%) late fee, to the Ada County Assessor by the City Clerk, not later than August 1 of each year. Upon such certification, the assessment shall be placed upon the tax roll and shall thereafter become a lien against the property described in the notice ... Upon payment of the assessment, fees and penalties in full, the City Clerk shall file a release of lien with the Ada County Assessor.",
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "liens"
+      ],
+      "sourceIds": [
+        "eagle-code-4-1-3"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The special assessment is one of three options the city MAY use (bill collection, utility account, special assessment). Summary abatement can be required sooner for imminent threats. 'Abatable nuisance' is defined in 4-1-1, not read in full."
+    },
+    {
+      "id": "cv2-eagle-restoration-assessment-recorded",
+      "claim": "Under Eagle City Code 8-11-7, where the city restores or demolishes a damaged, dilapidated or unfinished building, it sends the owner a certified copy of the assessment; if the owner does not respond within 60 days, the city may recover the cost in a civil action or by filing a certified copy of the assessment with the Ada County Recorder on or before August 1, and unpaid assessments bear 10% interest a year.",
+      "quotedLanguage": "If the property owner does not respond within sixty (60) days, then the City may recover costs of the abatement in a civil action or by filing a certified copy of the assessment with the Ada County Recorder on or before August 1 of the year. ... All such assessments remaining unpaid after thirty (30) days from the date of recording on the assessment roll shall become delinquent and shall bear interest at the rate of ten percent (10%) per annum or the current interest rate if higher",
+      "entity": [
+        "city:eagle"
+      ],
+      "topic": [
+        "code-enforcement",
+        "dangerous-buildings",
+        "liens"
+      ],
+      "sourceIds": [
+        "eagle-code-8-11-7"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Eagle, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Chapter 8-11 (minimal property maintenance) only: damaged, dilapidated or unfinished buildings after City Council findings under 8-11-5. The only provision found that files anything with the Ada County RECORDER; it is the cost assessment, not a notice of violation."
+    },
+    {
+      "id": "cv2-gardencity-abatement-costs-assessed",
+      "claim": "Garden City Code 4-3-6-2 says that if the owner, agent or occupant does not comply with a notice to abate a nuisance, the city has the nuisance removed and the costs of abatement assessed in the manner provided for in the Idaho Code.",
+      "quotedLanguage": "If the owner, agent, or occupant of the property shall fail to comply with the requirements of the notice within the period specified therein, the city shall proceed to have the things described in the notice removed and abated from the property and the costs of abatement assessed in the manner provided for in the Idaho Code.",
+      "entity": [
+        "city:garden-city"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance"
+      ],
+      "sourceIds": [
+        "gardencity-code-4-3"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Ordinance does not itself say 'lien' or 'tax roll'; it points to Idaho Code."
+    },
+    {
+      "id": "cv2-gardencity-chronic-nuisance-lien",
+      "claim": "Under Garden City's chronic nuisance property section (4-3-7), any civil penalty or costs awarded to the city may be filed with the city treasurer, who has them filed as a lien on the property with the Ada County assessor.",
+      "quotedLanguage": "Any civil penalty and/or costs awarded to the city may be filed with the city treasurer, who shall cause the same to be filed as a lien on the property with the Ada County assessor.",
+      "entity": [
+        "city:garden-city"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "liens"
+      ],
+      "sourceIds": [
+        "gardencity-code-4-3"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Chronic nuisance property only (repeated listed criminal nuisance activities, court process). Not an ordinary code case."
+    },
+    {
+      "id": "cv2-star-cleanup-costs-admin-fee",
+      "claim": "The City of Star says that in some cases it will clean up a property and charge the owner or resident the costs of cleanup plus an additional administrative fee.",
+      "quotedLanguage": "In some cases, the City of Star will clean up the property and charge the owner/resident the costs of cleanup, PLUS an additional administrative fee.",
+      "entity": [
+        "city:star"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance"
+      ],
+      "sourceIds": [
+        "star-code-enforcement"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Star, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Star's page does not mention a lien or the tax roll. Do not add one. Fee amount not stated."
+    },
+    {
+      "id": "cv2-meridian-weed-abatement-billed",
+      "claim": "Meridian's code enforcement brochure on nuisance weeds says that if the city is required to abate a property, all abatement fees are billed to the home or property owner, including the bill for weed removal and a $100.00 nuisance weeds abatement administrative fee, under a heading for civil fines and special assessments.",
+      "quotedLanguage": "Civil Fine and Special Assessments ... If the City of Meridian is required to abate a ... property, all abatement fees are billed to the ... home or property owner. This will include the bill ... for the weed removal as well as a $100.00 ... nuisance weeds abatement administrative fee.",
+      "entity": [
+        "city:meridian"
+      ],
+      "topic": [
+        "code-enforcement",
+        "nuisance"
+      ],
+      "sourceIds": [
+        "meridian-nuisance-weeds-brochure"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Meridian, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Weeds only, from an undated brochure set in columns (quote fragments are joined with ... because the PDF text interleaves columns). The brochure does not say a lien attaches; do not say it does. Meridian City Code itself was not read."
+    },
+    {
+      "id": "cv2-boise-permit-list-and-record",
+      "claim": "The City of Boise's homeowner guide says permits provide a permanent record of the work performed and the inspections conducted, and lists work needing a permit, including finishing an attic, garage or basement to create living space, moving, removing or adding walls, re-roofing, a deck more than 12 inches high and a fence more than seven feet high; removing wall coverings to expose the framing also requires a permit.",
+      "quotedLanguage": "Requiring permits provides a permanent record of the work performed and the inspections conducted on the project. ... Finish an attic, garage or basement to create living space ... Move, remove or add walls Re-roof an existing structure ... Build a deck more than 12 inches high; or put up a fence more than seven feet high ... A permit is required if the project removes wall coverings to expose the framing",
+      "entity": [
+        "city:boise-city"
+      ],
+      "topic": [
+        "permits"
+      ],
+      "sourceIds": [
+        "boise-homeowners-guide"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Boise, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "CURRENT list only. It does not show what was required when older work was done. Inside Boise city limits only. The wall-covering sentence is about new projects; never present it as Boise's procedure for inspecting old work."
+    },
+    {
+      "id": "cv2-ada-records-general-request-form",
+      "claim": "Ada County takes public records requests for most county offices on an online General Request Form, asks requesters to be as specific as possible, and lists development exhibits and plans as Development Services records.",
+      "quotedLanguage": "To submit a Public Records Request for the Ada County offices and departments listed below, fill out a General Request Form, being as specific as possible, and submit it online. ... Development Services Development exhibits and plans",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "records"
+      ],
+      "sourceIds": [
+        "ada-public-records-request"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Clerk, Coroner, Prosecutor, Trial Court Administration and Sheriff use separate forms. Development Services records cover unincorporated land; cities keep their own."
+    },
+    {
+      "id": "cv2-ada-permit-records-archive",
+      "claim": "Ada County Development Services' Permit Records page lists 2024 building permits in half-month periods and keeps a building permit archive by year from 2005 through 2023.",
+      "quotedLanguage": "Permit Records 2024 Building Permits 01-01 to 01-15 ... Building Permit Archive by Year 2005 2006 2007",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "sourceIds": [
+        "ada-permit-records"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Unincorporated Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The linked lists were not opened; do not describe their contents or say they are searchable by address. No 2025 or 2026 list was on the page when cached."
+    },
+    {
+      "id": "cv2-gardencity-records-request-form",
+      "claim": "Garden City takes public records requests on a downloadable form that can be emailed to GCPIR@gardencityidaho.org or mailed or dropped off at the City Clerk, 6015 N. Glenwood Street.",
+      "quotedLanguage": "Please download and complete the below PDF. Then either email your completed public information/public records request form to GCPIR@gardencityidaho.org or you may also mail or drop-off in-person to",
+      "entity": [
+        "city:garden-city"
+      ],
+      "topic": [
+        "records"
+      ],
+      "sourceIds": [
+        "gardencity-public-records-page"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Garden City, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Existing registry source; append this claim id to its claimsSupported."
     }
   ]
 }

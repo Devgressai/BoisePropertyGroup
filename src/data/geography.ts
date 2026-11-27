@@ -36,7 +36,7 @@ export const county = {
   "slug": "sell-my-house-fast-ada-county",
   "population2024Census": 535799,
   "population2024Compass": 557590,
-  "directClaims": 131,
+  "directClaims": 135,
   "uniqueClaims": 62,
   "indexable": true
 } as const;
@@ -56,8 +56,8 @@ export const places: Place[] = [
     "placeFips": "08830",
     "population2024Census": 237963,
     "growthPct2020to2024": 1,
-    "directClaims": 44,
-    "uniqueClaims": 39,
+    "directClaims": 49,
+    "uniqueClaims": 44,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -76,8 +76,8 @@ export const places: Place[] = [
     "placeFips": "52120",
     "population2024Census": 139740,
     "growthPct2020to2024": 18.6,
-    "directClaims": 26,
-    "uniqueClaims": 20,
+    "directClaims": 27,
+    "uniqueClaims": 21,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -96,8 +96,8 @@ export const places: Place[] = [
     "placeFips": "23410",
     "population2024Census": 33451,
     "growthPct2020to2024": 7.4,
-    "directClaims": 19,
-    "uniqueClaims": 13,
+    "directClaims": 22,
+    "uniqueClaims": 16,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null
@@ -137,8 +137,8 @@ export const places: Place[] = [
     "placeFips": "76870",
     "population2024Census": 18208,
     "growthPct2020to2024": 61.4,
-    "directClaims": 25,
-    "uniqueClaims": 20,
+    "directClaims": 26,
+    "uniqueClaims": 21,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": "SPANS 2 COUNTIES (Ada County, Canyon County). Never describe as wholly within Ada County. Jurisdiction-dependent facts must be qualified by which county part is meant."
@@ -157,8 +157,8 @@ export const places: Place[] = [
     "placeFips": "29620",
     "population2024Census": 12936,
     "growthPct2020to2024": 5.1,
-    "directClaims": 15,
-    "uniqueClaims": 11,
+    "directClaims": 18,
+    "uniqueClaims": 14,
     "indexable": true,
     "buildVerdict": "BUILD",
     "caveat": null

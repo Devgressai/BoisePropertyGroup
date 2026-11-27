@@ -9556,7 +9556,8 @@
       "authorityNotes": "TIER 2 — the city's own Code Enforcement page, which restates Star City Code Title 3 nuisance procedure, read directly with raw HTML cached. The Star City Code itself (Municode) was not cached.",
       "stalenessRisk": "MEDIUM — departmental page, can be rewritten without notice.",
       "claimsSupported": [
-        "cv-star-code-enforcement-fifteen-days"
+        "cv-star-code-enforcement-fifteen-days",
+        "cv2-star-cleanup-costs-admin-fee"
       ],
       "entitiesSupported": [
         "city:star"
@@ -10600,7 +10601,8 @@
       "authorityNotes": "TIER 2 — City Clerk records request page.",
       "stalenessRisk": "MEDIUM — page can be rewritten without notice.",
       "claimsSupported": [
-        "gardencity-wells-and-street-to-meter"
+        "gardencity-wells-and-street-to-meter",
+        "cv2-gardencity-records-request-form"
       ],
       "entitiesSupported": [
         "city:garden-city"
@@ -14587,6 +14589,383 @@
       ],
       "entitiesSupported": [
         "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-50-334",
+      "title": "Idaho Code § 50-334 — Abatement of nuisances",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch3/sect50-334/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2010",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "cv2-idcode-50-334-city-abatement-assessment"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-50-1008",
+      "title": "Idaho Code § 50-1008 — Collection of special assessments, certification to tax collector",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch10/sect50-1008/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "code-enforcement",
+        "liens",
+        "property-tax"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "cv2-idcode-50-1008-delinquent-to-tax-roll"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-74-103",
+      "title": "Idaho Code § 74-103 — Request and response to request for examination of public records",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title74/t74ch1/sect74-103/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "cv2-idcode-74-103-records-response-times"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-code-5-9-6",
+      "title": "Ada County Code § 5-9-6 (with 5-9-3 and 5-9-5) — Ada County Nuisance Ordinance, abatement and penalties",
+      "publisher": "Ada County (hosted by American Legal Publishing)",
+      "organizationType": "county-government",
+      "url": "https://codelibrary.amlegal.com/codes/adacountyid/latest/adacounty_id/0-0-0-1946",
+      "sourceTier": 1,
+      "jurisdiction": "Unincorporated Ada County, Idaho",
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Ada County Code Title 5, Chapter 9; 5-9-3 amd. Ord. 1014, 1-20-2026; 5-9-6 amd. Ord. 603, 1-30-2006). The cached page renders the whole chapter, including 5-9-3, 5-9-5 and 5-9-6. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom, desktop user agent) and written to the cache path fetch-source.mjs uses; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv2-ada-nuisance-costs-lien",
+        "cv2-ada-nuisance-scope-and-fifteen-days"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-4-1-4",
+      "title": "Boise City Code § 4-1-4 — Abatement of nuisance",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-4519",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "code-enforcement",
+        "nuisance"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (1952 Code § 8-08-02; amd. Ord. 36-23, 9-12-2023, eff. 10-1-2023; Ord. 13-24, 5-14-2024). codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom, desktop user agent) and written to the cache path fetch-source.mjs uses; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv2-boise-nuisance-notice-ten-days"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-11-05-07",
+      "title": "Boise City Code § 11-05-07 — Violations, enforcement, and penalties (Development Code)",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-70163",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "code-enforcement",
+        "permits",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified text of Boise's development code (Title 11) enforcement section. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom, desktop user agent) and written to the cache path fetch-source.mjs uses; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv2-boise-abatement-cost-lien-or-tax",
+        "cv2-boise-permits-withheld-for-violations"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-code-9-11-8",
+      "title": "Boise City Code § 9-11-8 — Dangerous Buildings Code amendment, recovery of cost of repair or demolition",
+      "publisher": "City of Boise (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-10944",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "code-enforcement",
+        "dangerous-buildings",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (1952 Code § 4-11-08) amending chapter 9 of the 1997 Uniform Code for the Abatement of Dangerous Buildings as adopted by Boise City Code 9-11-2. The unamended ADB text is not online and was not read. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom, desktop user agent) and written to the cache path fetch-source.mjs uses; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv2-boise-dangerous-building-assessment"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-4-1-3",
+      "title": "Eagle City Code §§ 4-1-2 and 4-1-3 — Responsible party; abatable nuisances, procedures and penalties",
+      "publisher": "City of Eagle (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-1169",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Ord. 784, 9-26-2017). The cached page renders 4-1-2 and 4-1-3 together. codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom, desktop user agent) and written to the cache path fetch-source.mjs uses; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv2-eagle-vacant-owner-of-record-presumed",
+        "cv2-eagle-abatement-assessment-lien"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "eagle-code-8-11-7",
+      "title": "Eagle City Code § 8-11-7 — Recovery of cost of restoration or demolition (Minimal Property Maintenance)",
+      "publisher": "City of Eagle (hosted by American Legal Publishing)",
+      "organizationType": "municipal-government",
+      "url": "https://codelibrary.amlegal.com/codes/eagleid/latest/eagle_id/0-0-0-4536",
+      "sourceTier": 1,
+      "jurisdiction": "Eagle, Idaho",
+      "topic": [
+        "code-enforcement",
+        "dangerous-buildings",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2005",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text (Ord. 520, 6-28-2005). codelibrary.amlegal.com returns HTTP 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom, desktop user agent) and written to the cache path fetch-source.mjs uses; the cache meta records fetchedVia. The host carries a disclaimer that the online code may not reflect the most current legislation and that the official printed copy governs.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv2-eagle-restoration-assessment-recorded"
+      ],
+      "entitiesSupported": [
+        "city:eagle"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "gardencity-code-4-3",
+      "title": "Garden City Code Chapter 4-3 — Nuisances (§§ 4-3-6-2 and 4-3-7)",
+      "publisher": "City of Garden City (hosted by eCode360)",
+      "organizationType": "municipal-government",
+      "url": "https://ecode360.com/47106154",
+      "sourceTier": 1,
+      "jurisdiction": "Garden City, Idaho",
+      "topic": [
+        "code-enforcement",
+        "nuisance",
+        "liens"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — codified ordinance text on eCode360 (code page states legislation through 07-13-2026; 4-3-6-2 Ord. 554, 11-13-1990; 4-3-7 Ord. 802, 5-13-2003). The codepublishing.com URL for this chapter now redirects to eCode360. eCode360 renders with JavaScript and returns 403 to fetch-source.mjs, so the rendered page was captured with local headless Chrome (--dump-dom) and cached at the path fetch-source.mjs uses.",
+      "stalenessRisk": "MEDIUM — ordinances are amended by the governing board and the online code can lag adoption; re-check the section and its ordinance history before relying on it.",
+      "claimsSupported": [
+        "cv2-gardencity-abatement-costs-assessed",
+        "cv2-gardencity-chronic-nuisance-lien"
+      ],
+      "entitiesSupported": [
+        "city:garden-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "meridian-nuisance-weeds-brochure",
+      "title": "Nuisance Weeds (Meridian Police Department Code Enforcement brochure)",
+      "publisher": "City of Meridian",
+      "organizationType": "municipal-government",
+      "url": "https://eplanview.meridiancity.org/media/5tadxhve/final-weeds.pdf",
+      "sourceTier": 2,
+      "jurisdiction": "Meridian, Idaho",
+      "topic": [
+        "code-enforcement",
+        "nuisance"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 2 — city-published brochure (PDF) from Meridian's own media host, cached via fetch-source.mjs and extracted with extract-pdf-text.mjs. Undated. Its own disclaimer says it is for general informational purposes and subject to change. The Meridian City Code itself (Municode) was not read.",
+      "stalenessRisk": "MEDIUM — undated brochure; fee amount may change. Re-check before republishing.",
+      "claimsSupported": [
+        "cv2-meridian-weed-abatement-billed"
+      ],
+      "entitiesSupported": [
+        "city:meridian"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "boise-homeowners-guide",
+      "title": "Homeowner's Guide — City of Boise Building",
+      "publisher": "City of Boise",
+      "organizationType": "municipal-government",
+      "url": "https://www.cityofboise.org/departments/planning-and-development-services/building/homeowners-guide/",
+      "sourceTier": 1,
+      "jurisdiction": "Boise, Idaho",
+      "topic": [
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the City of Boise's own building-division guidance page, cached via fetch-source.mjs.",
+      "stalenessRisk": "MEDIUM — agency web page; content can change without notice. Re-check before republishing.",
+      "claimsSupported": [
+        "cv2-boise-permit-list-and-record"
+      ],
+      "entitiesSupported": [
+        "city:boise-city"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-public-records-request",
+      "title": "Public Records Request — Ada County",
+      "publisher": "Ada County",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/about-ada-county/public-records-request/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "records"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — Ada County's own page, cached via fetch-source.mjs.",
+      "stalenessRisk": "MEDIUM — agency web page; content can change without notice. Re-check before republishing.",
+      "claimsSupported": [
+        "cv2-ada-records-general-request-form"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-permit-records",
+      "title": "Permit Records — Ada County Development Services",
+      "publisher": "Ada County Development Services",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/developmentservices/building-division/permit-records/",
+      "sourceTier": 1,
+      "jurisdiction": "Unincorporated Ada County, Idaho",
+      "topic": [
+        "records",
+        "permits"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "TIER 1 — Ada County Development Services' own page, cached via fetch-source.mjs. The page is a list of links; the linked lists themselves were not opened.",
+      "stalenessRisk": "MEDIUM — agency web page; content can change without notice. Re-check before republishing.",
+      "claimsSupported": [
+        "cv2-ada-permit-records-archive"
+      ],
+      "entitiesSupported": [
+        "county:ada",
+        "area:unincorporated-ada"
       ],
       "status": "VERIFIED"
     }

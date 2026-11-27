@@ -1,0 +1,7 @@
+{
+  "url": "https://ecode360.com/47106154",
+  "fetchedAt": "2026-11-27T07:23:02.018391Z",
+  "fetchedVia": "chrome-headless-dump-dom",
+  "bytes": 211074,
+  "note": "fetch-source.mjs returns HTTP 403 for this host (bot challenge). Captured as rendered DOM via local headless Chrome (--dump-dom) with a non-HeadlessChrome user agent. Content is the live page, not a fetcher response."
+}

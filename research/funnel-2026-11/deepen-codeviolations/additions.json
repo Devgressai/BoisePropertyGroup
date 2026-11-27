@@ -1,0 +1,74 @@
+{
+  "page": "sell-house-code-violations-idaho",
+  "file": "topic-pages.ts",
+  "sections": [
+    {
+      "insertAfter": "What happens with an open code enforcement case?",
+      "heading": "Can the city charge cleanup costs to the property?",
+      "body": [
+        "Yes, if the city does the cleanup itself. Idaho Code 50-334 lets a city declare what counts as a nuisance, abate it at the expense of whoever created or kept it, and levy a special assessment on the land to cover the cost. Under Idaho Code 50-1008, an assessment not paid within 30 days after the notice is mailed is declared delinquent, certified to the county tax collector by August 1, and collected like other city taxes, with the same penalties.",
+        "Boise's development code says the city may recover abatement costs as a lien on the property or as a city tax. Boise's nuisance notice gives the owner no more than ten days to abate. If the owner does not, the city has the nuisance removed and the costs assessed as Idaho Code provides.",
+        "In [Eagle](/sell-my-house-fast-eagle-id), the owner of record of a vacant or abandoned property is presumed responsible for a nuisance on it, and the owner can try to rebut that. An abatable nuisance must be dealt with within five calendar days of notice. If the city abates and is not paid, it may levy a special assessment. That assessment is certified with a 10% late fee, goes on the tax roll and becomes a lien until the City Clerk files a release.",
+        "Garden City's code assesses abatement costs in the manner Idaho Code provides. Star says that in some cases it cleans up a property and charges the owner or resident the cost plus an administrative fee. Its page does not mention a lien. Meridian's weed brochure says abatement fees are billed to the owner with a $100.00 administrative fee. We did not find Kuna's rule."
+      ],
+      "claims": [
+        "cv2-idcode-50-334-city-abatement-assessment",
+        "cv2-idcode-50-1008-delinquent-to-tax-roll",
+        "cv2-boise-abatement-cost-lien-or-tax",
+        "cv2-boise-nuisance-notice-ten-days",
+        "cv2-eagle-vacant-owner-of-record-presumed",
+        "cv2-eagle-abatement-assessment-lien",
+        "cv2-gardencity-abatement-costs-assessed",
+        "cv2-star-cleanup-costs-admin-fee",
+        "cv2-meridian-weed-abatement-billed"
+      ]
+    },
+    {
+      "insertAfter": "Does a permit stay with the house when it sells?",
+      "heading": "Does a code violation get recorded against the house?",
+      "body": [
+        "We found no ordinance that records the notice of violation itself. The cost of fixing a problem can attach to the property, though. In unincorporated Ada County, the county's nuisance ordinance charges abatement costs to the owner, occupant or person in charge, including county contractors and investigation costs. Unpaid costs attach as a lien on the property. The county's notice gives 15 days to abate, and the ordinance does not apply to property zoned in a rural area district.",
+        "Eagle is the one code we read that sends a document to the Ada County Recorder. If the city restores or demolishes a damaged, dilapidated or unfinished building and the owner does not respond within 60 days, the city may file a certified copy of the assessment with the Recorder by August 1. Unpaid assessments then bear 10% interest a year. Boise files assessments for repairing or demolishing a dangerous building with the County Auditor by August 1, at the same rate. Garden City may file court-awarded costs on a chronic nuisance property as a lien with the Ada County assessor.",
+        "If you have a bill or an assessment notice, ask the office that sent it for the amount owed in writing."
+      ],
+      "claims": [
+        "cv2-ada-nuisance-costs-lien",
+        "cv2-ada-nuisance-scope-and-fifteen-days",
+        "cv2-eagle-restoration-assessment-recorded",
+        "cv2-boise-dangerous-building-assessment",
+        "cv2-gardencity-chronic-nuisance-lien"
+      ]
+    },
+    {
+      "insertAfter": "Why buyers and insurers ask about it",
+      "heading": "Can unpermitted work in Boise be approved before you sell?",
+      "body": [
+        "Boise's code gives no promise that it can. Its development code says no building permit or final certificate of occupancy shall be issued for a building that does not fully comply with that code. Where violations relate to permits already granted, the city may withhold later permits until the violations are corrected, or issue them on condition that the violations are cured within a stated time.",
+        "Boise's homeowner guide lists work that needs a permit today. The list includes finishing an attic, garage or basement to create living space, moving, removing or adding walls, re-roofing, a deck more than 12 inches high and a fence more than seven feet high. Removing wall coverings to expose the framing needs a permit too. The city says permits provide a permanent record of the work and the inspections done on it.",
+        "That list is current. It does not show what was required in the year older work was done. No source we read, for Boise or anywhere else in Ada County, says whether walls must be opened or what an inspector will ask to see on finished work. The Building Division can answer that for a specific address."
+      ],
+      "claims": [
+        "cv2-boise-permits-withheld-for-violations",
+        "cv2-boise-permit-list-and-record"
+      ]
+    },
+    {
+      "insertAfter": null,
+      "heading": "How do you get a property's permit and case history?",
+      "body": [
+        "Send a written public records request to the office that keeps the records. Idaho Code 74-103 says the request must clearly say it is a public records request. The agency must grant or deny a resident's request within three working days, or 21 days for a nonresident. If it needs longer to find the records, it must say so in writing and provide them within ten working days for a resident or 35 days for a nonresident. A request not answered in time is deemed denied.",
+        "For unincorporated land, Ada County takes requests on an online General Request Form and lists development exhibits and plans among Development Services records. Its Permit Records page keeps building permit lists by year back to 2005. Garden City's City Clerk takes a request form by email at GCPIR@gardencityidaho.org, by mail or in person. Our city pages for [Boise](/sell-my-house-fast-boise-id), [Meridian](/sell-my-house-fast-meridian-id) and [Star](/sell-my-house-fast-star-id) set out where each city keeps its permit records."
+      ],
+      "claims": [
+        "cv2-idcode-74-103-records-response-times",
+        "cv2-ada-records-general-request-form",
+        "cv2-ada-permit-records-archive",
+        "cv2-gardencity-records-request-form",
+        "boise-pds-records-center-permit-history",
+        "meridian-permit-records-online",
+        "star-permit-records-portal-and-retention"
+      ]
+    }
+  ],
+  "introAddition": null
+}
