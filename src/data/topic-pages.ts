@@ -1042,6 +1042,81 @@ export const TOPIC_PAGES: TopicPage[] = [
   },
 
   {
+    slug: "sell-vacant-house-idaho",
+    kind: "situation",
+    title: "Sell a Vacant House in Boise, Idaho",
+    h1: "Sell a vacant house in Boise and Ada County",
+    eyebrow: "Vacant property",
+    description:
+      "Selling an empty house in Boise or Ada County: the homeowner's exemption, utility bills that stay with the property, taxes, disclosure, and a direct sale.",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    guides: ["utilities-when-you-sell-a-house-in-ada-county", "idaho-property-taxes-when-you-sell", "selling-an-inherited-house-in-idaho"],
+    intro: [
+      "Yes, we buy vacant houses in Boise and across Ada County as they stand, and you choose the closing date. An empty house keeps costing money while it waits: in Idaho the homeowner's exemption is tied to occupying the home, and in most Ada County cities an unpaid utility balance stays with the property rather than the person who used the service. This page sets out those rules before you decide how to sell.",
+      NOT_ADVICE,
+    ],
+    sections: [
+      {
+        heading: "Does the homeowner's exemption end when the house is empty?",
+        body: [
+          "The exemption is tied to owning and occupying the home. Ada County says an owner must own and occupy the home on or before the last county business day in December to qualify for that tax year, and that once approved the application only needs re-filing on a move or a change of ownership. Under Idaho Code 63-602G(5) the exemption is not prorated: it applies as of January 1 of the year it is approved.",
+          "The exemption itself is the lesser of the first $125,000 of the home's assessed market value or 50% of it. On a house nobody lives in, losing it raises the next year's tax bill, which is a holding cost worth counting. How property tax is settled at closing is in our guide to [Idaho property taxes when you sell](/guides/idaho-property-taxes-when-you-sell).",
+        ],
+        claims: ["ada-homeowners-exemption-deadline", "pt-homestead-exemption-not-prorated", "pt-homestead-exemption-cap-in-force-2026"],
+      },
+      {
+        heading: "Can you stop paying utilities on a vacant house in Boise?",
+        body: [
+          "Partly. Boise lets an owner put city utilities on vacancy status for up to six months when the property has been vacant at least 30 consecutive days with no sewer or trash service used, and lists a property for sale or rent as a qualifying reason. Vacancy status cannot be backdated. Base fees still apply; only usage fees stop. If the city finds service used during the vacancy, the owner pays occupied rates for the whole period.",
+        ],
+        claims: ["boise-utility-vacancy-six-months"],
+      },
+      {
+        heading: "Who owes the utility bills on an empty house?",
+        body: [
+          "In most of Ada County, the owner does, whoever ran them up. Meridian says debt for city services is the property owner's regardless of who used them. Kuna keeps the owner responsible even when a tenant receives the bills and may record a lien after 90 days. Star's water and sewer district says a previous owner's unpaid final bill becomes the new owner's. Garden City says utility debts stay with the property.",
+          "So an old balance on a house that has sat empty does not disappear at sale. It is settled at closing. The city-by-city detail is in [utilities when you sell a house in Ada County](/guides/utilities-when-you-sell-a-house-in-ada-county).",
+        ],
+        claims: ["meridian-utility-debt-stays-with-property", "kuna-utility-charges-lien-on-property", "star-sswd-charges-follow-property", "gardencity-utility-debt-stays-transfer-at-closing"],
+      },
+      {
+        heading: "Does the city get involved with a vacant house?",
+        body: [
+          "It can. The City of Boise says its Code Compliance office enforces city code for sanitation and zoning, and lists abandoned or vacant buildings among the issues it handles. Elsewhere in the county the city, or for unincorporated land Ada County, runs its own process. An open case on a vacant house is something to disclose and price, as [selling a house with code violations](/sell-house-code-violations-idaho) explains.",
+        ],
+        claims: ["cv-boise-code-compliance-scope"],
+      },
+      {
+        heading: "Do you still fill out the disclosure form on an empty house?",
+        body: [
+          "Usually, yes. Idaho Code 55-2505 lists sixteen kinds of transfer exempt from the disclosure requirement, and a house being vacant is not one of them. One exemption does cover a common vacant-house case: a transfer of inherited property by a seller who has not lived there within the prior year. Our [as-is disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) lists the others.",
+        ],
+        claims: ["id-disclosure-sixteen-exemptions"],
+      },
+      {
+        heading: "What if the property taxes have stopped being paid?",
+        body: [
+          "A vacant house is often one where the tax bill has gone unpaid. In Idaho a delinquency not redeemed within three years lets the county issue a tax deed, and redemption after that ends within fourteen months, or sooner if the county contracts to sell. A delinquency does not stop a sale; it is paid from the proceeds at closing. [Selling a house with delinquent property taxes](/sell-house-delinquent-property-taxes-idaho) covers it.",
+        ],
+        claims: ["id-tax-deed-three-year-delinquency", "id-tax-deed-redemption-fourteen-months"],
+      },
+      {
+        heading: "What a sale looks like with us",
+        body: [
+          "We buy vacant houses in any condition, including ones that have sat empty for years with the contents still inside. Send the address or call (208) 779-4247. Nothing has to be cleared, cleaned or repaired. The sale closes through a local title company on the date you choose. We buy with our own capital, so there is no lender to wait on, and three weeks is realistic.",
+        ],
+      },
+      {
+        heading: "When listing it is the better move",
+        body: [
+          "If the house is in good order, you can keep it insured and maintained, and you have time, listing it will usually net more, even after commission. A direct sale buys certainty and ends the holding costs sooner, and it costs some of the price. We will tell you plainly if we think the trade is wrong for you.",
+        ],
+      },
+    ],
+  },
+
+  {
     slug: "cash-offer-vs-listing-idaho",
     kind: "decision",
     tool: "offer-math",
