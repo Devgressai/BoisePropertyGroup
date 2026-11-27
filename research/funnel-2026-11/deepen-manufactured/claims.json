@@ -1,0 +1,496 @@
+{
+  "claims": [
+    {
+      "id": "mh2-titling-chapter-covers-manufactured-homes",
+      "claim": "Idaho Code 49-501(2)(b) applies the titling requirements of Idaho's vehicle title chapter (Title 49, chapter 5) to manufactured homes as defined in Idaho Code 39-4105, even though they are not required to be registered under chapter 4.",
+      "quotedLanguage": "In addition, the titling requirements of this chapter shall apply to the following vehicles which are not required to be registered under the provisions of chapter 4, title 49 , Idaho Code: ... Manufactured homes as defined in section 39-4105 , Idaho Code;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-49-501"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[49-501, added 1988, ch. 265, sec. 116, p. 643; am. 1989, ch. 358, sec. 1, p. 900; am. 1999, ch. 170, sec. 3, p. 460; am. 2006, ch. 42, sec. 6, p. 128; am. 2008, ch. 106, sec. 3, p. 300; am. 2008, ch. 198, sec. 6, p. 642; am. 2017, ch. 134, sec. 9, p. 320.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Supports only that the titling requirements apply. Do not extend other chapter 5 provisions written for 'vehicles' (49-502 delivery of title, 49-503 no interest until title issues) to manufactured homes in prose without an attorney's reading; they were read but deliberately not claimed."
+    },
+    {
+      "id": "mh2-title-goes-to-first-lienholder",
+      "claim": "Under Idaho Code 49-505, the Idaho Transportation Department delivers the original certificate of title to the applicant only if there are no liens or encumbrances on it; if liens or encumbrances are recorded, the certificate is delivered or mailed to the lienholder first in time, and the department may keep a paperless electronic record of title instead of a paper certificate.",
+      "quotedLanguage": "The original copy shall be delivered to the applicant if there are no liens or encumbrances on the certificate. If there are liens or encumbrances recorded, the certificate shall be delivered or mailed to the holder of the lien or encumbrance who is first in time on the date of the application. ... In place of physically issuing a paper certificate of title, the department may create a paperless electronic record of title and suspend the requirement to issue a certificate of title.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "title",
+        "lending"
+      ],
+      "sourceIds": [
+        "idcode-49-505"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[49-505, added 1988, ch. 265, sec. 120, p. 645; am. 1991, ch. 153, sec. 2, p. 364; am. 1993, ch. 298, sec. 1, p. 1097; am. 2021, ch. 180, sec. 4, p. 499.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Explains why a seller with a financed personal-property home may not hold a paper title. Do not say the lender 'always' holds it; the statute says the certificate goes to the first lienholder, or may be electronic."
+    },
+    {
+      "id": "mh2-itd-private-sale-signatures-and-30-day-filing",
+      "claim": "The Idaho Transportation Department's vehicle titles page says a buyer from a private party needs the existing title with proper signatures releasing interest from the previous owner or lienholder, and that in a private-party sale with no lienholder the documents must be filed with a county assessor's motor vehicle office within 30 days of transfer to avoid a $20.00 late-filing penalty.",
+      "quotedLanguage": "Private party sale with no lienholder: You must file the following documents with a county assessor's motor vehicle office within 30 days of transfer to avoid a $20.00 late-filing penalty. ... If bought used from a private party, you will need to provide the existing title with proper signatures releasing interest from the previous owner or lienholder.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "title",
+        "closing"
+      ],
+      "sourceIds": [
+        "itd-vehicle-titles"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "ITD's page is written for vehicles and does not mention manufactured homes. It applies to them only through 49-501(2)(b). Prose must say the page is ITD's general title guidance and point readers to the county motor vehicle office or ITD to confirm manufactured-home specifics. FAST-CHANGING: fees and penalty can change."
+    },
+    {
+      "id": "mh2-itd-bill-of-sale-when-no-released-title",
+      "claim": "The Idaho Transportation Department says that if a properly released title cannot be obtained, a bill of sale may be used, but that process requires additional steps set out in its bill of sale and Conditional Title Statement of Facts forms.",
+      "quotedLanguage": "In the event that a properly released title cannot be obtained, a Bill of Sale may be used; however, this process requires additional steps. See the form section below for a Bill of Sale and the Conditional Title Statement of Facts for the required steps.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "title"
+      ],
+      "sourceIds": [
+        "itd-vehicle-titles"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Vehicle-oriented page; same caveat as mh2-itd-private-sale-signatures-and-30-day-filing. The forms themselves were not read; do not describe the additional steps."
+    },
+    {
+      "id": "mh2-itd-ada-county-title-fee",
+      "claim": "The Idaho Transportation Department's title fee table lists Ada County's title administrative fee as $7.00 and its total title fee as $21.00 (the county admin fee plus the $14 state title fee), implemented September 1, 2023.",
+      "quotedLanguage": "County Registration Admin Fee Amount Title Admin Fee Amount Total Title Fee (Admin fee + $14) Implementation Date ... Ada $9.50 $7.00 $21.00 September 1, 2023",
+      "entity": [
+        "state:id",
+        "county:ada"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "title",
+        "fees"
+      ],
+      "sourceIds": [
+        "itd-vehicle-titles"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Fee table is for titles generally (vehicle page). Present it as ITD's published title fee for Ada County as of the access date, not as a manufactured-home-specific fee, and do not add other fees together. FAST-CHANGING."
+    },
+    {
+      "id": "mh2-ada-taxed-as-personal-property-without-statement",
+      "claim": "The Ada County Assessor says manufactured homes are sometimes treated as real property and sometimes as personal property: if a Statement of Intent to Declare the structure as real property was recorded it is taxed as real property, and if none was completed, recorded and filed it is taxed as personal property.",
+      "quotedLanguage": "Manufactured homes are sometimes treated as real property and other times treated as personal property. If you or a previous owner recorded a Statement of Intent to Declare the structure as real property, it is taxed as real property. If no Statement of Intent to Declare the structure as real property has been completed, recorded, and filed, it is taxed as personal property.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "property-taxes",
+        "real-vs-personal-property"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "County statement; pairs with id-manufactured-home-becomes-real-property (63-304)."
+    },
+    {
+      "id": "mh2-ada-taxes-before-moving-or-demolishing",
+      "claim": "The Ada County Assessor says that before moving or demolishing a manufactured home, any delinquent taxes must be paid and the current year's taxes prepaid, and that an owner demolishing the home must also mail or deliver the original title to the Assessor's office.",
+      "quotedLanguage": "Prior moving or demolishing a manufactured home you must have any delinquent taxes paid and prepay the current year taxes. If you are demolishing the home owners will also need to mail or deliver the original title to the Assessor's office.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "property-taxes"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The page sentence begins 'Prior moving' (sic). Applies to manufactured homes generally on this county page; the real-property removal rules (63-305) are separate and already covered by sp-mh-removal-title-report-and-tax-approval."
+    },
+    {
+      "id": "mh2-ada-used-home-no-sales-tax",
+      "claim": "The Ada County Assessor states that a used manufactured home is not subject to Idaho's sales or use tax.",
+      "quotedLanguage": "A used manufactured home is not subject to Idaho's sales or use tax.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "sale-taxes"
+      ],
+      "sourceIds": [
+        "ada-assessor-real-manufactured"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Sentence appears inside the assessor's real-property-declaration steps. State it attributed to the Assessor; no statute was read. Not tax advice; point to the Tax Commission or a tax professional."
+    },
+    {
+      "id": "mh2-personal-property-tax-due-on-demand",
+      "claim": "Idaho Code 63-904 provides that all personal property taxes are due and payable upon demand; if no demand is made they may be paid in part or in full until the tax collector issues a warrant of distraint, and if the first half is not paid on time the unpaid portion of the entire tax immediately becomes due with a late charge and interest.",
+      "quotedLanguage": "If a personal property owner fails to make timely payment on the first one-half (1/2) provided for, the unpaid portion of the entire tax shall immediately become due and payable ... All personal property taxes are due and payable upon demand. If no demand is made, taxes may be paid in part or in full until the tax collector issues a warrant of distraint for collection of said taxes.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "manufactured-housing"
+      ],
+      "sourceIds": [
+        "idcode-63-904"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-904 added 1996, ch. 98, sec. 10, p. 379; am. 2022, ch. 225, sec. 3, p. 744.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "63-904 speaks of personal property generally and does not name manufactured homes. Pair with mh2-ada-taxed-as-personal-property-without-statement and attribute each separately; do not state as fact that a specific seller's tax is 'due now'."
+    },
+    {
+      "id": "mh2-manufactured-home-may-be-homestead",
+      "claim": "Idaho Code 63-701's definition of homestead, used for the homeowner's exemption and property tax relief, says a homestead does not include personal property such as furniture, furnishings or appliances, but that a manufactured home may be a homestead.",
+      "quotedLanguage": "\"Homestead\" does not include personal property such as furniture, furnishings or appliances, but a manufactured home may be a homestead.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "manufactured-housing"
+      ],
+      "sourceIds": [
+        "idcode-63-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-701, added 1996, ch. 98, sec. 8, p. 362; am. 1997, ch. 24, sec. 1, p. 33; am. 1997, ch. 117, sec. 23, p. 323; am. 1998, ch. 352, sec. 1, p. 1108; am. 1999, ch. 40, sec. 1, p. 77; am. 1999, ch. 382, sec. 2, p. 1049; am. 2000, ch. 20, sec. 1, p. 38; am. 2000, ch. 109, sec. 1, p. 239; am. 2000, ch. 154, sec. 1, p. 390; am. 2000, ch. 274, sec. 149, p. 883; am. 2001, ch. 69, sec. 2, p. 131; am. 2001, ch. 325, sec. 1, p. 1140; am. 2004, ch. 156, sec. 2, p. 497; am. 2005, ch. 31, sec. 1, p. 143; am. 2005, ch. 241, sec. 1, p. 749; am. 2005, ch. 280, sec. 58, p. 912; am. 2006, ch. 350, sec. 2, p. 1066; am. 2008, ch. 117, sec. 1, p. 323; am. 2010, ch. 235, sec. 55, p. 591; am. 2011, ch. 85, sec. 1, p. 176; am. 2015, ch. 224, sec. 1, p. 687; am. 2017, ch. 14, sec. 1, p. 22; am. 2019, ch. 159, sec. 3, p. 517; am. 2020, ch. 65, sec. 2, p. 151; am. 2022, ch. 307, sec. 1, p. 993; am. 2025, ch. 122, sec. 41, p. 649; am. 2025, ch. 208, sec. 22, p. 950.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'May be', not 'is'. Eligibility still turns on 63-602G (owner-occupied primary dwelling, application). Do not say a personal-property home on a rented lot qualifies; say only what the definition says."
+    },
+    {
+      "id": "mh2-mhra-chapter-governs-lot-rental",
+      "claim": "Idaho Code 55-2004 says the Manufactured Home Residency Act governs the legal rights, remedies and obligations arising from a rental agreement between a landlord and a resident regarding a lot, except where the landlord rents both the lot and the home, or the lot is rented to a recreational vehicle or travel trailer (other than a park model).",
+      "quotedLanguage": "This chapter shall regulate and determine legal rights, remedies and obligations arising from any rental agreement between a landlord and a resident regarding a lot, except in those instances in which: (i) the landlord is renting both the lot and the home to the resident; or (ii) the lot is rented or held out for rent to a recreational vehicle or travel trailer, not including a park model recreational vehicle.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "tenants",
+        "parks"
+      ],
+      "sourceIds": [
+        "idcode-55-2004"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2004, added 1980, ch. 177, sec. 1, p. 376; am. 1988, ch. 196, sec. 2, p. 370; am. 2011, ch. 184, sec. 4, p. 524; am. 2017, ch. 134, sec. 11, p. 322.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Scope limit matters: if the park owns the home too, this chapter does not govern."
+    },
+    {
+      "id": "mh2-mhra-community-definition",
+      "claim": "Idaho's Manufactured Home Residency Act defines a community as real property rented or held out for rent to others for the placement of two or more homes for the primary purpose of producing income, and defines home to include a mobile home, a manufactured home or, for that chapter only, a park model recreational vehicle.",
+      "quotedLanguage": "\"Community\" means any real property that is rented or held out for rent to others for the placement of two (2) or more homes for the primary purpose of production of income. ... \"Home\" means a mobile home, a manufactured home or, for purposes of this chapter only, a park model recreational vehicle.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "parks"
+      ],
+      "sourceIds": [
+        "idcode-55-2003"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2003, added 1980, ch. 177, sec. 1, p. 375; am. 1988, ch. 196, sec. 1, p. 370; am. 2011, ch. 184, sec. 3, p. 523; am. 2017, ch. 134, sec. 10, p. 321.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The statute says 'community', not 'park'. Prose may use 'park' as plain English but should name the statutory term once."
+    },
+    {
+      "id": "mh2-park-cannot-deny-sale-or-force-removal",
+      "claim": "Idaho Code 55-2009(1) says no landlord may deny a resident who owns the home the right to sell it on a rented lot, or require the resident to remove the home from the lot solely on the basis of the sale.",
+      "quotedLanguage": "No landlord shall deny any resident who owns his home the right to sell the home on a rented lot or require the resident to remove the home from the lot solely on the basis of the sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "parks",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-2009"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'Solely on the basis of the sale.' Must keep that qualifier; it does not stop removal or termination for other statutory reasons (55-2010), and it does not guarantee a particular buyer will be approved (55-2009(4))."
+    },
+    {
+      "id": "mh2-park-no-commission-unless-written-agent",
+      "claim": "Under Idaho Code 55-2009(2), a landlord may not take a commission or fee for the sale of a home on a rented space unless it acted as the seller's agent under a written agreement, and it may act as agent only by the seller's voluntary agreement and only if licensed where licensure is required.",
+      "quotedLanguage": "The landlord shall not exact a commission or fee for the sale of a home on a rented space unless the landlord has acted as agent for the seller pursuant to a written agreement. The landlord may act as agent for the seller only upon the voluntary agreement of the seller and only if the landlord is licensed if licensure is required by law.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "parks",
+        "fees"
+      ],
+      "sourceIds": [
+        "idcode-55-2009"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Do not generalise to 'parks cannot charge any fees'. Other charges under the rental agreement are separate (55-2003(11))."
+    },
+    {
+      "id": "mh2-new-rental-agreement-before-sale",
+      "claim": "Idaho Code 55-2009(3) requires a new rental agreement to be signed between the landlord and a prospective resident before the sale, transfer, assignment or subletting of the home if the home is to remain in the community, and from the date of sale the new resident is bound by that agreement.",
+      "quotedLanguage": "A new rental agreement must be signed between the landlord and a prospective resident prior to the sale, transfer, assignment or subletting of the home if the home is to remain in the community. From the date of sale, assignment, transfer or subletting the new resident shall be bound by the terms of the agreement.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "parks",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-2009"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Only where the home is to remain. A buyer who will move the home is governed instead by 55-2009(5)."
+    },
+    {
+      "id": "mh2-park-approval-same-basis-five-working-days",
+      "claim": "Under Idaho Code 55-2009(4), the landlord approves or disapproves a transfer, assignment or subletting of the home lot on the same basis it approves or disapproves any new resident, and must give written notice of approval or disapproval within five working days of receiving a written application.",
+      "quotedLanguage": "The landlord shall approve or disapprove of the transfer, assignment or subletting of the home lot on the same basis that the landlord approves or disapproves of any new resident. Notice of approval or disapproval shall be given in writing within five (5) working days of receiving a written application.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "parks",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-55-2009"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The clock runs from a WRITTEN application. The statute does not say what happens if the landlord misses the five days; do not invent a deemed approval."
+    },
+    {
+      "id": "mh2-no-removal-until-rent-paid",
+      "claim": "Idaho Code 55-2009(5) says no home may be removed from a community until the rent, including the month the home is moved, and all other charges in the rental agreement are paid, or the lienholder provisions of 55-2009A are complied with and the landlord is notified of the date and time of removal.",
+      "quotedLanguage": "No home shall be removed from any community until the rent, including the month when the home is moved, together with all other charges specified in the rental agreement, are paid, or the provisions of section 55-2009A , Idaho Code, have been fully complied with and the landlord notified of date and time of removal.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "parks"
+      ],
+      "sourceIds": [
+        "idcode-55-2009"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Includes the month of the move. 55-2009A (lienholder notice, 60-day back-rent cap) was read but not claimed."
+    },
+    {
+      "id": "mh2-no-entrance-or-exit-fee",
+      "claim": "Idaho Code 55-2007(2)(b) bars a rental agreement from allowing the landlord to charge an entrance fee or an exit fee, but says repairs or maintenance the landlord requires as a condition of approving a rental application are not an entrance or exit fee.",
+      "quotedLanguage": "Any provision allowing the landlord to charge an \"entrance fee\" or an \"exit fee.\" The expense of repairs or maintenance required by the landlord as a condition of the landlord's approval of a rental application shall not constitute an \"entrance fee\" or \"exit fee\" as those terms are used herein;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing",
+        "parks",
+        "fees"
+      ],
+      "sourceIds": [
+        "idcode-55-2007"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-2007, added 1980, ch. 177, sec. 1, p. 376; am. 1988, ch. 196, sec. 5, p. 371; am. 1993, ch. 380, sec. 2, p. 1395; am. 2011, ch. 184, sec. 7, p. 526; am. 2017, ch. 134, sec. 12, p. 322.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Both halves must be stated together: a park can still require repairs as a condition of approving a buyer's application."
+    },
+    {
+      "id": "mh2-manufactured-vs-mobile-home-1976",
+      "claim": "Idaho Code 39-4105 defines a manufactured home as a structure constructed after June 15, 1976, in accordance with the HUD manufactured home construction and safety standards, and a mobile home as a factory-assembled structure generally constructed prior to June 15, 1976.",
+      "quotedLanguage": "\"Manufactured home\" means a structure, constructed after June 15, 1976, in accordance with the HUD manufactured home construction and safety standards, and is transportable in one (1) or more sections ... \"Mobile home\" means a factory-assembled structure or structures generally constructed prior to June 15, 1976,",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing"
+      ],
+      "sourceIds": [
+        "idcode-39-4105"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[39-4105, added 1975, ch. 180, sec. 2, p. 486; am. 1976, ch. 129, sec. 1, p. 488; am. 1983, ch. 153, sec. 2, p. 408; am. 1986, ch. 30, sec. 1, p. 85; am. 1992, ch. 197, sec. 1, p. 609; am. 1995, ch. 267, sec. 9, p. 859; am. 1996, ch. 421, sec. 27, p. 1423; am. 2002, ch. 345, sec. 7, p. 966; am. 2004, ch. 250, sec. 2, p. 717; am. 2007, ch. 252, sec. 2, p. 738; am. 2023, ch. 15, sec. 10, p. 79; am. 2026, ch. 171, sec. 1, p. 799.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Size and chassis conditions omitted by the ellipsis; do not present the date as the only test. 39-4105 was amended in 2026 (ch. 171); the page shows one version."
+    },
+    {
+      "id": "mh2-hud-certification-label",
+      "claim": "HUD's Manufactured Home Construction and Safety Standards (24 CFR 3280.11) require a permanent certification label, separate from the data plate, on each transportable section of every manufactured home for sale or lease in the United States, located at the taillight end of each section about 1 foot up from the floor and 1 foot in from the road side, or as near that as practicable.",
+      "quotedLanguage": "A permanent label shall be affixed to each transportable section of each manufactured home for sale or lease in the United States. This label shall be separate and distinct from the data plate which the manufacturer is required to provide under § 3280.5 of the standards. ... The label must be located at the taillight end of each transportable section of the manufactured home approximately 1 foot up from the floor and 1 foot in from the road side, or as near that location on a permanent part of the exterior of the manufactured home section as practicable.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-3280-11"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[ 42 FR 960 , Jan. 4, 1977. Redesignated at 44 FR 20679 , Apr. 6, 1979, as amended at 52 FR 47553 , Dec. 15, 1987. Redesignated and amended at 58 FR 55003 , Oct. 25, 1993; 86 FR 2517 , Jan. 12, 2021]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Federal construction standard addressed to manufacturers. It says where the label is required to be; it does not say what happens to a sale if a label is missing. Do not claim lenders require it."
+    },
+    {
+      "id": "mh2-hud-data-plate",
+      "claim": "Under 24 CFR 3280.5, each dwelling unit of a manufactured home must bear a data plate affixed near the main electrical panel or another readily accessible and visible location, showing at least the manufacturing plant's name and address, the serial number, model designation and date of manufacture, and the numbers of the certification labels on each section.",
+      "quotedLanguage": "Each dwelling unit of a manufactured home must bear a data plate affixed in a permanent manner near the main electrical panel or other readily accessible and visible location. ... The name and address of the manufacturing plant in which the manufactured home was manufactured. ... The serial number and model designation of the unit, and the date the unit was manufactured. ... A list of the certification label(s) number(s) that are affixed to each transportable manufactured section under § 3280.8 .",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "manufactured-housing"
+      ],
+      "sourceIds": [
+        "ecfr-24-cfr-3280-5"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (applies in Idaho)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[ 59 FR 2469 , Jan. 14, 1994, as amended at 80 FR 53727 , Sept. 8, 2015; 85 FR 5566 , Jan. 31, 2020; 86 FR 2516 , Jan. 12, 2021; 89 FR 75743 , Sept. 16, 2024]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "List is 'not less than'; other required items (wind and roof load zones, equipment list) omitted. Do not claim the data plate is needed for a title transfer."
+    }
+  ]
+}

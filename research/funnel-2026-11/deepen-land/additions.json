@@ -1,0 +1,86 @@
+{
+  "page": "sell-land-idaho",
+  "file": "topic-pages.ts",
+  "sections": [
+    {
+      "insertAfter": "What we check on water",
+      "heading": "Does the water right go with the land when I sell?",
+      "body": [
+        "Often, according to IDWR, and the deed is the document to read. IDWR's instructions for its ownership form say water rights are often conveyed as an appurtenance to the land where they are used, and that a deed often says nothing specific about them. Where the deed does not address water rights, IDWR assumes they are split in proportion to the land acquired.",
+        "After closing, the filing is IDWR's Notice of Change in Water Right Ownership. One of the new owners signs it, and IDWR cannot process it without a conveyance document such as a deed or court decree. A purchase and sale agreement does not count. The 120-day deadline and the fees are in our [well and septic guide](/guides/selling-a-house-with-a-well-or-septic-in-ada-county).",
+        "If an irrigation district or another delivery organization holds the rights, IDWR says to ask that organization instead. Moving a right to a new place of use takes a separate Application for Transfer. IDWR has no jurisdiction over easements or rights-of-way, so the buyer and seller must provide for those. How a deed should treat a water right is a question for an Idaho attorney."
+      ],
+      "claims": [
+        "ld2-idwr-appurtenance-proportionate-split",
+        "ld2-idwr-form-signer-and-conveyance-documents",
+        "ws-water-right-ownership-notice-120-days",
+        "ld2-idwr-district-held-rights-not-this-form",
+        "ld2-idwr-transfer-application-and-no-easement-jurisdiction"
+      ]
+    },
+    {
+      "insertAfter": "What we check on irrigation",
+      "heading": "Do unpaid irrigation district assessments follow the land?",
+      "body": [
+        "Idaho Code 43-706 makes an irrigation district's assessments a lien on the assessed property from the first Monday in March of each year. The statute calls it a first lien, superior to any mortgage or deed of trust, and it stays until the assessments are paid, the property is sold for payment, or they are cancelled. The section adds that on any sale of the property, the purchaser at that sale takes it subject to any annual district assessment still unpaid.",
+        "That statute covers irrigation districts. The 27 irrigation entities on Ada County's map also include ditch companies and lateral associations, which 43-706 does not address. If you have an assessment bill, send it with the parcel number so the entity can be identified."
+      ],
+      "claims": [
+        "ld2-irrigation-district-assessment-first-lien",
+        "ada-27-irrigation-entities"
+      ]
+    },
+    {
+      "insertAfter": "Homestead acreage and property tax",
+      "heading": "What happens to an agricultural tax valuation when farmland sells?",
+      "body": [
+        "Idaho ties it to how the land is used each year. Under Idaho Code 63-604, land actively devoted to agriculture can be taxed as agricultural property each year it qualifies. Over five contiguous acres, homesite included, the land must grow crops or nursery stock, be grazed for profit or leased for grazing, or sit in a cropland retirement or rotation program. Five acres or less is presumed nonagricultural unless it was farmed for the last three growing seasons and produced 15% or more of the owner's or lessee's gross income, or $1,000 or more in gross revenue the year before. Grazing a horse kept for pleasure does not count.",
+        "Ada County's form for parcels over five acres says that if the Assessor does not receive it by April 15, the land is assumed not to qualify and is valued at non-agricultural market value. On five acres or less, the owner must prove the income annually by the same date. Idaho Code 63-205C values qualifying land at its actual use value, not its speculative value as development property, until the use has changed.",
+        "Tax Commission rule text on the Ada form says the homesite and its improvements are assessed at market value each year, separately from the rest. What a change in use means for a tax bill is a question for a tax professional."
+      ],
+      "claims": [
+        "ld2-ag-land-qualification-tests",
+        "ld2-ag-land-exclusions-and-platting",
+        "ld2-ada-ag-form-april-15-presumption",
+        "ld2-ada-ag-proof-annually-april-15",
+        "ld2-ag-actual-use-value-until-use-changes",
+        "ld2-ag-homesite-market-value"
+      ]
+    },
+    {
+      "insertAfter": "Where the boundary actually is",
+      "heading": "Can I sell part of my parcel instead of the whole thing?",
+      "body": [
+        "A split goes through whichever authority governs the parcel, and it ends with a recorded deed. The Ada County Assessor sends owners to the city's Planning and Zoning Division or Ada County Development Services for the procedure. The Assessor then needs a new deed recorded with the new legal description. Recording a survey alone does not convey ownership, change boundaries or create new tax parcel numbers.",
+        "Idaho's platting statute sets a default. A subdivision is five or more lots, and whoever creates one must have it surveyed and record a plat. Idaho Code 50-1316 sets a $100 forfeit for each lot offered or sold before its plat is acknowledged and recorded. The statute also lets cities and counties adopt their own definition. Ada County's zoning ordinance, which governs unincorporated land, defines a subdivision as a division into two or more lots for conveyance or building development.",
+        "Ada County Code 8-6-21 offers one exception: a one-time division into two parcels outside the subdivision rules, for lots created before September 29, 1959 or parcels of record before January 1, 1985 whose boundaries have not changed except as the code lists. After tentative approval the owner has one year to survey, record and get new parcel numbers. Inside a city, the city's own code applies; Star's rule is in the [land guide](/guides/selling-land-or-acreage-in-ada-county)."
+      ],
+      "claims": [
+        "ld2-ada-assessor-split-needs-recorded-deed",
+        "ld2-plat-statute-subdivision-definition",
+        "ld2-plat-duty-to-survey-and-record",
+        "ld2-unplatted-lot-sale-penalty",
+        "ld2-ada-subdivision-two-lots",
+        "ada-planning-unincorporated-only",
+        "ld2-ada-one-time-division",
+        "ada-cities-administer-own-land-use"
+      ]
+    },
+    {
+      "insertAfter": null,
+      "heading": "How is a land sale recorded, and is there a disclosure form for vacant land?",
+      "body": [
+        "The deed is recorded with the Ada County Recorder whichever city the land is in, because Idaho Code 55-808 requires recording in the county where the property sits. Under 55-811 a recorded deed is, in the statute's phrase, constructive notice of its contents to later purchasers and mortgagees. Ada County's current fee schedule puts a deed in a $15.00 category covering the first 30 pages.",
+        "Idaho's disclosure act defines residential real property as property improved by a building with one to four dwelling units, plus individually owned units and combined residential and commercial use. Our [disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers when it applies. The act also says it does not limit any duty to disclose that arises elsewhere in Idaho law. Whether a parcel needs the form, and what to disclose about it, are questions for an Idaho attorney."
+      ],
+      "claims": [
+        "cl-record-in-county-where-situated",
+        "cl-recorded-conveyance-constructive-notice",
+        "cl-ada-deed-recording-fee",
+        "id-disclosure-residential-definition",
+        "id-disclosure-other-duties-preserved"
+      ]
+    }
+  ],
+  "introAddition": null
+}

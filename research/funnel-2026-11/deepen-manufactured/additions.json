@@ -1,0 +1,86 @@
+{
+  "page": "selling-a-manufactured-home-in-idaho",
+  "file": "guide-content.ts",
+  "sections": [
+    {
+      "insertAfter": "Can a converted manufactured home be turned back into personal property?",
+      "heading": "How is a manufactured home that is personal property transferred?",
+      "body": [
+        "By its certificate of title. Idaho Code 49-501 applies the titling requirements of Idaho's vehicle title chapter to manufactured homes, even though they are not registered like a car.",
+        "The seller may not be holding the title. Under Idaho Code 49-505, the Idaho Transportation Department delivers the original certificate to the owner only if no lien is recorded on it. If a lien is recorded, the certificate goes to the first lienholder. The department may also keep an electronic record of title instead of issuing paper.",
+        "ITD's vehicle titles page, which does not single out manufactured homes, says a buyer from a private party needs the existing title with proper signatures releasing interest from the previous owner or lienholder. In a private-party sale with no lienholder, the documents are filed with a county assessor's motor vehicle office within 30 days of transfer to avoid a $20.00 late-filing penalty.",
+        "ITD's fee table lists Ada County's total title fee as $21.00: a $7.00 county administrative fee plus the $14 state title fee. Where a properly released title cannot be obtained, ITD says a bill of sale may be used, with additional steps set out in its forms. The county motor vehicle office or ITD can confirm how this applies to a particular home."
+      ],
+      "claims": [
+        "mh2-titling-chapter-covers-manufactured-homes",
+        "mh2-title-goes-to-first-lienholder",
+        "mh2-itd-private-sale-signatures-and-30-day-filing",
+        "mh2-itd-ada-county-title-fee",
+        "mh2-itd-bill-of-sale-when-no-released-title"
+      ]
+    },
+    {
+      "insertAfter": "How is a manufactured home that is personal property transferred?",
+      "heading": "How is a manufactured home taxed when it is personal property?",
+      "body": [
+        "In Ada County it is taxed as personal property unless a Statement of Intent to declare it real property was completed, recorded and filed, by the current owner or a previous one.",
+        "Idaho Code 63-904 says all personal property taxes are due and payable upon demand. If no demand is made, they may be paid in part or in full until the county tax collector issues a warrant of distraint. If the first half is not paid on time, the unpaid portion of the entire tax becomes due at once.",
+        "Moving the home brings the taxes forward. The Assessor says that before a manufactured home is moved or demolished, any delinquent taxes must be paid and the current year's taxes prepaid. If the home is demolished, the original title also goes to the Assessor's office.",
+        "Idaho's definition of a homestead, which the homeowner's exemption relies on, says a manufactured home may be a homestead. The Assessor also states that a used manufactured home is not subject to Idaho's sales or use tax. Whether either applies to a given home is a question for the Assessor or a tax professional."
+      ],
+      "claims": [
+        "mh2-ada-taxed-as-personal-property-without-statement",
+        "mh2-personal-property-tax-due-on-demand",
+        "mh2-ada-taxes-before-moving-or-demolishing",
+        "mh2-manufactured-home-may-be-homestead",
+        "mh2-ada-used-home-no-sales-tax"
+      ]
+    },
+    {
+      "insertAfter": "How is a manufactured home taxed when it is personal property?",
+      "heading": "Can a park stop you selling a home on a rented lot?",
+      "body": [
+        "Not solely because of the sale. Idaho's Manufactured Home Residency Act (Idaho Code Title 55, chapter 20) says a landlord may not deny a resident who owns the home the right to sell it on a rented lot. Nor may the landlord require the home to be removed from the lot solely on the basis of the sale.",
+        "The Act calls a park a community: land rented or held out for rent for two or more homes, primarily to produce income. It governs the rental agreement for the lot. It does not govern an arrangement where the landlord rents out both the lot and the home.",
+        "The park cannot take a commission or fee on the sale unless it acted as the seller's agent under a written agreement. It may act as agent only if the seller voluntarily agrees, and only if it holds any license the law requires.",
+        "A rental agreement may not allow an entrance fee or an exit fee. The same section says repairs or maintenance the landlord requires as a condition of approving a rental application are not an entrance or exit fee."
+      ],
+      "claims": [
+        "mh2-park-cannot-deny-sale-or-force-removal",
+        "mh2-mhra-community-definition",
+        "mh2-mhra-chapter-governs-lot-rental",
+        "mh2-park-no-commission-unless-written-agent",
+        "mh2-no-entrance-or-exit-fee"
+      ]
+    },
+    {
+      "insertAfter": "Can a park stop you selling a home on a rented lot?",
+      "heading": "Can the buyer keep the home on the lot?",
+      "body": [
+        "Only with a new rental agreement and the park's approval. If the home is to stay in the community, Idaho Code 55-2009 requires a new rental agreement to be signed between the landlord and the prospective resident before the sale. From the date of sale, the new resident is bound by it.",
+        "The landlord approves or disapproves the transfer on the same basis it uses for any new resident. It must give written notice of its decision within five working days of receiving a written application.",
+        "If the home is leaving instead, it may not be removed until the rent, including the month of the move, and all other charges in the rental agreement are paid. The alternative is that the Act's lienholder procedure has been fully followed and the landlord told the date and time of removal."
+      ],
+      "claims": [
+        "mh2-new-rental-agreement-before-sale",
+        "mh2-park-approval-same-basis-five-working-days",
+        "mh2-no-removal-until-rent-paid"
+      ]
+    },
+    {
+      "insertAfter": "Can the buyer keep the home on the lot?",
+      "heading": "Where are the HUD label and data plate, and what do they show?",
+      "body": [
+        "Both are fixed to the home itself. Under HUD's construction standards, each transportable section of a manufactured home for sale or lease in the United States carries a permanent certification label, separate from the data plate. The label belongs at the taillight end of each section, about 1 foot up from the floor and 1 foot in from the road side, or as near that as practicable.",
+        "The data plate is inside. Each dwelling unit must have one, fixed near the main electrical panel or another readily accessible and visible location. It shows at least the manufacturing plant's name and address, the serial number, the model designation, the date of manufacture, and the numbers of the certification labels on each section.",
+        "The date of manufacture matters in Idaho law. Idaho Code 39-4105 defines a manufactured home as a structure built after June 15, 1976, to the HUD construction and safety standards. It defines a mobile home separately, as a factory-assembled structure generally built before that date."
+      ],
+      "claims": [
+        "mh2-hud-certification-label",
+        "mh2-hud-data-plate",
+        "mh2-manufactured-vs-mobile-home-1976"
+      ]
+    }
+  ],
+  "introAddition": null
+}

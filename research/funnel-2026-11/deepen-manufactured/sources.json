@@ -1,0 +1,300 @@
+{
+  "sources": [
+    {
+      "id": "idcode-49-501",
+      "title": "Idaho Code § 49-501 — Titling requirements — Exemptions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch5/sect49-501/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present. Subsection (2)(b) brings manufactured homes (39-4105) under the chapter's titling requirements.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "mh2-titling-chapter-covers-manufactured-homes"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-49-505",
+      "title": "Idaho Code § 49-505 — Issuance of certificates of title by department — Delivery — Electronic file for lienholders",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch5/sect49-505/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "lending",
+        "manufactured-housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "mh2-title-goes-to-first-lienholder"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-904",
+      "title": "Idaho Code § 63-904 — Special provisions for collection of property taxes on personal property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch9/sect63-904/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "manufactured-housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2022",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present. Does not name manufactured homes; read with the Ada County Assessor's statement that an undeclared manufactured home is taxed as personal property.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "mh2-personal-property-tax-due-on-demand"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2003",
+      "title": "Idaho Code § 55-2003 — Definitions (Manufactured Home Residency Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2003/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "parks"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "mh2-mhra-community-definition"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2004",
+      "title": "Idaho Code § 55-2004 — Chapter governs (Manufactured Home Residency Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2004/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "parks",
+        "tenants"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "mh2-mhra-chapter-governs-lot-rental"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2007",
+      "title": "Idaho Code § 55-2007 — Required rental agreement provisions and exclusions — Disclosures (Manufactured Home Residency Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2007/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "parks",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "mh2-no-entrance-or-exit-fee"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-2009",
+      "title": "Idaho Code § 55-2009 — Sales of homes and transfer of lots (Manufactured Home Residency Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2009/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "parks",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2011",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "mh2-park-cannot-deny-sale-or-force-removal",
+        "mh2-park-no-commission-unless-written-agent",
+        "mh2-new-rental-agreement-before-sale",
+        "mh2-park-approval-same-basis-five-working-days",
+        "mh2-no-removal-until-rent-paid"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-39-4105",
+      "title": "Idaho Code § 39-4105 — Definitions (Idaho Building Code Act) — manufactured home, mobile home",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch41/sect39-4105/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "manufactured-housing",
+        "building-codes"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present. Amended 2026, ch. 171; the page shows the amended text as current.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "mh2-manufactured-vs-mobile-home-1976"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "itd-vehicle-titles",
+      "title": "Vehicle Titles — Idaho Transportation Department (DMV)",
+      "publisher": "Idaho Transportation Department",
+      "organizationType": "state-government",
+      "url": "https://itd.idaho.gov/dmv/registrations-plates-titles/vehicle-titles/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "fees",
+        "manufactured-housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official ITD DMV page, raw HTML cached via fetch-source.mjs. Written for vehicles; it does not mention manufactured homes anywhere (searched). ITD's site search returned no manufactured-home titling page. Used for manufactured homes only because Idaho Code 49-501(2)(b) applies the vehicle title chapter's titling requirements to them; claims citing it are MEDIUM confidence for that reason. County fee table includes implementation dates; Ada's row shows September 1, 2023.",
+      "stalenessRisk": "HIGH — fee amounts, penalties and county admin fees change; the table already shows a county change dated November 19, 2026. Re-check before publishing any dollar figure.",
+      "claimsSupported": [
+        "mh2-itd-private-sale-signatures-and-30-day-filing",
+        "mh2-itd-bill-of-sale-when-no-released-title",
+        "mh2-itd-ada-county-title-fee"
+      ],
+      "entitiesSupported": [
+        "state:id",
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-24-cfr-3280-5",
+      "title": "24 CFR § 3280.5 — Data plate (Manufactured Home Construction and Safety Standards)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-XX/part-3280/subpart-A/section-3280.5",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "manufactured-housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024-09-16",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of HUD's Manufactured Home Construction and Safety Standards (24 CFR part 3280), cached via fetch-source.mjs. Page states 'Displaying title 24, up to date as of 11/24/2026. Title 24 was last amended 11/12/2026.' Section source note copied verbatim into amendmentHistory. Only the introductory paragraph and paragraphs (a), (b) and (e) are used.",
+      "stalenessRisk": "LOW — federal construction standard; HUD amends part 3280 periodically. Re-check eCFR before relying on label location details.",
+      "claimsSupported": [
+        "mh2-hud-data-plate"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ecfr-24-cfr-3280-11",
+      "title": "24 CFR § 3280.11 — Certification label (Manufactured Home Construction and Safety Standards)",
+      "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+      "organizationType": "federal-government",
+      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-XX/part-3280/subpart-A/section-3280.11",
+      "sourceTier": 1,
+      "jurisdiction": "United States (applies in Idaho)",
+      "topic": [
+        "manufactured-housing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021-01-12",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — current eCFR text of HUD's Manufactured Home Construction and Safety Standards (24 CFR part 3280), cached via fetch-source.mjs. Page states 'Displaying title 24, up to date as of 11/24/2026. Title 24 was last amended 11/12/2026.' Section source note copied verbatim into amendmentHistory. Paragraphs (a) and (d) used.",
+      "stalenessRisk": "LOW — federal construction standard; HUD amends part 3280 periodically. Re-check eCFR before relying on label location details.",
+      "claimsSupported": [
+        "mh2-hud-certification-label"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

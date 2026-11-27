@@ -1,0 +1,279 @@
+{
+  "sources": [
+    {
+      "id": "idwr-form-notice-change-water-right-ownership",
+      "title": "IDWR Form 42-248/42-1409(6), Notice of Change in Water Right Ownership, with instructions (Rev. 6/22)",
+      "publisher": "Idaho Department of Water Resources",
+      "organizationType": "state-government",
+      "url": "https://idwr.idaho.gov/wp-content/uploads/sites/2/forms/waterrightsforms/notice-of-change-of-water-right-ownership-1-1.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "water-rights",
+        "land",
+        "closing"
+      ],
+      "publicationDate": "2022-06",
+      "updatedDate": "2022-06",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the agency's own filing form and instructions, PDF cached via fetch-source.mjs and text extracted with extract-pdf-text.mjs (data/idaho/raw/extracted/414e7032ede23c7b.txt). Form revision date Rev. 6/22. The instructions point to an old forms URL (www.idwr.idaho.gov/forms/water-rights.html); the current forms page was not checked for a newer revision.",
+      "stalenessRisk": "MEDIUM — forms are revised without notice; check IDWR's forms page for a newer revision before quoting fees or required items.",
+      "claimsSupported": [
+        "ld2-idwr-form-signer-and-conveyance-documents",
+        "ld2-idwr-appurtenance-proportionate-split",
+        "ld2-idwr-district-held-rights-not-this-form",
+        "ld2-idwr-transfer-application-and-no-easement-jurisdiction"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-43-706",
+      "title": "Idaho Code § 43-706 — Lien of assessment (irrigation districts)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-706/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "irrigation",
+        "liens",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2025",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present. Amended 2025 (ch. 148).",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "ld2-irrigation-district-assessment-first-lien"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-604",
+      "title": "Idaho Code § 63-604 — Land actively devoted to agriculture defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch6/sect63-604/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-tax",
+        "agricultural-land",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2021",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "ld2-ag-land-qualification-tests",
+        "ld2-ag-land-exclusions-and-platting"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-205c",
+      "title": "Idaho Code § 63-205C — Valuation of agricultural land",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch2/sect63-205c/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-tax",
+        "agricultural-land",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present. Formerly 63-602K, amended and redesignated 63-205C in 2020 (ch. 313); the old 63-602K URL returns 404.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "ld2-ag-actual-use-value-until-use-changes"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-assessor-agricultural-valuation",
+      "title": "Agricultural Property Valuation — Ada County Assessor",
+      "publisher": "Ada County Assessor",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/assessor/property-assessments-records/agricultural-property-valuation/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-tax",
+        "agricultural-land",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the county assessor's own page, raw HTML cached via fetch-source.mjs. Restates Idaho Code 63-604 and 63-205C and links the two Ada eligibility forms.",
+      "stalenessRisk": "MEDIUM — county page can be rewritten without notice.",
+      "claimsSupported": [
+        "ld2-ada-ag-proof-annually-april-15"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-assessor-ag-eligibility-form-over-5-acres",
+      "title": "Ada County Assessor — Agricultural Eligibility Determination Form for Parcels Larger Than 5 Acres (Rev. 2025)",
+      "publisher": "Ada County Assessor",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/assessor/wp-content/uploads/sites/34/Ag-elig-determ-form-over-5-acres-Rev.2025a.pdf",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "property-tax",
+        "agricultural-land",
+        "land"
+      ],
+      "publicationDate": "2025",
+      "updatedDate": "2025",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "TIER 1 — the county's own form, PDF cached and extracted (data/idaho/raw/extracted/9c012992d502598f.txt). The form reproduces Tax Commission rule 645 (IDAPA 35.01.03.645) text dated (7-1-24); the rule itself was not fetched from adminrules.idaho.gov.",
+      "stalenessRisk": "MEDIUM — form revised periodically (filename Rev.2025a).",
+      "claimsSupported": [
+        "ld2-ada-ag-form-april-15-presumption",
+        "ld2-ag-homesite-market-value"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-50-1301",
+      "title": "Idaho Code § 50-1301 — Definitions (plats and vacations)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch13/sect50-1301/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "platting",
+        "subdivision",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "ld2-plat-statute-subdivision-definition"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-50-1302",
+      "title": "Idaho Code § 50-1302 — Duty to file",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch13/sect50-1302/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "platting",
+        "subdivision",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2011",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "ld2-plat-duty-to-survey-and-record"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-50-1308",
+      "title": "Idaho Code § 50-1308 — Approvals",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch13/sect50-1308/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "platting",
+        "subdivision",
+        "property-tax"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1997",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "ld2-plat-treasurer-certification"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-50-1316",
+      "title": "Idaho Code § 50-1316 — Penalty for selling unplatted lots",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch13/sect50-1316/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "platting",
+        "subdivision",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1967",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "ld2-unplatted-lot-sale-penalty"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

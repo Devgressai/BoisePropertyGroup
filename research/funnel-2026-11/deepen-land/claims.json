@@ -1,0 +1,430 @@
+{
+  "claims": [
+    {
+      "id": "ld2-idwr-form-signer-and-conveyance-documents",
+      "claim": "IDWR's Notice of Change in Water Right Ownership (Form 42-248/42-1409(6)) must be signed by one of the new owners, and IDWR cannot process it without a conveyance document such as a deed or court decree; IDWR's instructions say deeds of trust, mortgages, purchase and sale agreements and property tax notices are not conveyance documents.",
+      "quotedLanguage": "IDWR cannot process this change without documentation of ownership. The documentation may be in the form of a deed, court decree or other conveyance document. ... Items that are not conveyance documents are deeds of trust, mortgages, purchase and sales agreements, and property tax notices. ... One of the new owner(s) must sign the form in the space(s) provided.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water-rights",
+        "closing"
+      ],
+      "sourceIds": [
+        "idwr-form-notice-change-water-right-ownership"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Form Rev. 6/22. It is the NEW owner who signs the form; the statutory duty in 42-248 is on 'all persons owning or claiming ownership' (see ws-water-right-ownership-notice-120-days) — do not tell a seller the filing is theirs, and do not say it is the buyer's legal duty alone. Fees and the 120-day window are already in ws- claims; do not duplicate."
+    },
+    {
+      "id": "ld2-idwr-appurtenance-proportionate-split",
+      "claim": "IDWR's instructions say water rights are often conveyed as an appurtenance to the land where they are used, that the deed often does not mention the water right, and that when the conveyance document does not specifically address water rights IDWR will assume they are split in proportion to the land acquired; the combined portions of a split right cannot exceed the original right's flow rate, volume or period of use.",
+      "quotedLanguage": "Water rights are often conveyed as an appurtenance to the land where they are used, and the conveyance document for the land often does not have specific language regarding the water right. Please read your deed or other conveyance document carefully to be sure. When the conveyance document does not specifically address water rights, it will be assumed that the water rights are to be split proportionate to the amount of land acquired.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water-rights",
+        "land",
+        "closing"
+      ],
+      "sourceIds": [
+        "idwr-form-notice-change-water-right-ownership"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Agency instruction for processing the form, NOT a statement of who owns the right; the same instructions say IDWR updating its records 'is not a determination of water right ownership' (already covered by ws-water-right-notice-fee-and-evidence). The 'cannot exceed' sentence is on the same page: 'The combined portions of a divided (“split”) water right cannot exceed the total flow rate, volume, or period of use of the original right.' Never apply to a reader's parcel; deed language on water is an attorney question."
+    },
+    {
+      "id": "ld2-idwr-district-held-rights-not-this-form",
+      "claim": "IDWR's instructions say that where water comes from a municipal provider, an irrigation district or another delivery organization that holds the water rights, the owner should not use the ownership-change form and should instead contact that organization to find out whether any action is needed.",
+      "quotedLanguage": "If you receive water from a municipal provider, an irrigation district or other water delivery organization, and the water rights are held by the organization, please do not use this form to record a change. Please contact the water delivery organization to determine if any action is necessary.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water-rights",
+        "irrigation"
+      ],
+      "sourceIds": [
+        "idwr-form-notice-change-water-right-ownership"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Conditional on the organization holding the rights; never assert that any particular Ada County district holds the rights for a given parcel."
+    },
+    {
+      "id": "ld2-idwr-transfer-application-and-no-easement-jurisdiction",
+      "claim": "IDWR's instructions say changing or adding a point of diversion, place of use, season of use or purpose of use of a water right requires an Application for Transfer, and that IDWR has no jurisdiction over easements, rights-of-way or zoning, which the buyer and seller must provide for where necessary.",
+      "quotedLanguage": "If you want to change or add a point of diversion, place of use, season of use, or purpose of use of a water right, you must file an Application for Transfer. ... IDWR has no jurisdiction concerning easements, rights-of-way, and zoning matters. The buyer and seller must make these provisions where necessary.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "water-rights",
+        "land",
+        "easements"
+      ],
+      "sourceIds": [
+        "idwr-form-notice-change-water-right-ownership"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Do not describe transfer timelines, fees or approval odds — not in this source."
+    },
+    {
+      "id": "ld2-irrigation-district-assessment-first-lien",
+      "claim": "Idaho Code 43-706 makes irrigation district assessments liens on the assessed property from the first Monday in March of any year, a first lien superior to any mortgage or deed of trust whether prior in time or not, not removed until paid, the property is sold for payment, or the assessments are cancelled under 43-716 or 43-1508; on any sale of the property the purchaser takes it subject to any annual district assessment unpaid at the time of the sale.",
+      "quotedLanguage": "All assessments shall be liens against the property assessed from and after the first Monday in March of any year. (2) Assessment liens shall be a first lien on the property assessed and shall be superior to the lien of any mortgage or deed of trust, whether prior in time or not. ... Upon any sale of the property, the purchaser at such sale shall take the property subject to any annual assessment of the district that remains unpaid at the time of the sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "irrigation",
+        "liens",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-43-706"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(43-706), added 1903, p. 150, sec. 27; reen. R.C., sec. 2411; am. 1911, ch. 71, sec. 6, p. 194; am. 1911, ch. 154, sec. 11, p. 461; am. 1915, ch. 143, sec. 9, p. 304; reen. C.L., sec. 2411; C.S., sec. 4388; I.C.A., sec. 42-706; am. 2025, ch. 148, sec. 1, p. 731.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "⚠️ SCOPE TRAP: Title 43 governs IRRIGATION DISTRICTS. Of Ada County's 27 irrigation entities many are ditch companies, lateral associations or water users' associations — this lien statute does not speak to them. Say 'irrigation district', never 'any irrigation bill'. The 'purchaser at such sale' sentence sits in a subsection about removal of the lien and may refer to a sale for payment; quote it attributed, do not expand it into 'a buyer always inherits unpaid assessments'. Amended 2025."
+    },
+    {
+      "id": "ld2-ag-land-qualification-tests",
+      "claim": "Idaho Code 63-604 lets land actively devoted to agriculture be appraised, assessed and taxed as agricultural property each year it qualifies: more than five contiguous acres including the homesite, actively devoted to field crops, nursery stock, for-profit grazing or grazing lease, or a cropland retirement or rotation program; or five contiguous acres or less, so used for the last three growing seasons, and producing 15% or more of the owner's or lessee's annual gross income or $1,000 or more of gross revenue in the preceding year, such land being presumed nonagricultural until the requirements are established.",
+      "quotedLanguage": "For property tax purposes, land actively devoted to agriculture shall be eligible for appraisal, assessment, and taxation as agricultural property each year it meets one (1) or more of the following qualifications: (a) The total area of such land, including the homesite, is more than five (5) contiguous acres, and is actively devoted to agriculture ... (b) The area of such land is five (5) contiguous acres or less and such land has been actively devoted to agriculture within the meaning of subsection (1)(a) of this section during the last three (3) growing seasons; and (i) It agriculturally produces for sale or home consumption the equivalent of fifteen percent (15%) or more of the owner's or lessee's annual gross income; or (ii) It agriculturally produced gross revenues in the immediately preceding year of one thousand dollars ($1,000) or more. When the area of land is five (5) contiguous acres or less, such land shall be presumed to be nonagricultural land until it is established that the requirements of this subsection have been met.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-tax",
+        "agricultural-land"
+      ],
+      "sourceIds": [
+        "idcode-63-604"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-604, added 1996, ch. 98, sec. 7, p. 360; am. 2001, ch. 12, sec. 1, p. 14; am. 2002, ch. 93, sec. 1, p. 255; am. 2005, ch. 271, sec. 1, p. 835; am. 2006, ch. 233, sec. 2, p. 692; am. 2021, ch. 270, sec. 1, p. 820.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Qualification is 'each year' and turns on USE, not on ownership. Never tell a reader their land qualifies or will keep qualifying after a sale."
+    },
+    {
+      "id": "ld2-ag-land-exclusions-and-platting",
+      "claim": "Idaho Code 63-604 excludes from agricultural classification land in a platted subdivision with stated restrictions prohibiting agricultural use, and land used to graze a horse or other animals kept primarily for personal use or pleasure rather than a bona fide for-profit enterprise; platting agricultural land does not by itself cause it to lose agricultural status if it otherwise qualifies.",
+      "quotedLanguage": "(3) Land shall not be classified or valued as agricultural land which is part of a platted subdivision with stated restrictions prohibiting its use for agricultural purposes, whether within or without a city. (4) Land utilized for the grazing of a horse or other animals kept primarily for personal use or pleasure rather than as part of a bona fide for-profit enterprise shall not be considered to be land actively devoted to agriculture. ... (7) For purposes of this section, the act of platting land actively devoted to agriculture does not, in and of itself, cause the land to lose its status as land being actively devoted to agriculture if the land otherwise qualifies for the exemption under this section.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-tax",
+        "agricultural-land",
+        "platting"
+      ],
+      "sourceIds": [
+        "idcode-63-604"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-604, added 1996, ch. 98, sec. 7, p. 360; am. 2001, ch. 12, sec. 1, p. 14; am. 2002, ch. 93, sec. 1, p. 255; am. 2005, ch. 271, sec. 1, p. 835; am. 2006, ch. 233, sec. 2, p. 692; am. 2021, ch. 270, sec. 1, p. 820.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Horse pasture trap: a few acres of personal horse pasture is excluded by statute."
+    },
+    {
+      "id": "ld2-ag-actual-use-value-until-use-changes",
+      "claim": "Idaho Code 63-205C says the market value of land actively devoted to agriculture is its actual use value, established by capitalizing economic rent or long-term average crop rental, and that such land shall not be valued at its speculative value as development property until the use has changed and it is no longer actively devoted to agriculture.",
+      "quotedLanguage": "The market value of land actively devoted to agriculture is its actual use value. ... (3) Land actively devoted to agriculture shall not be valued at its speculative value as development property until the use has changed and it is no longer actively devoted to agriculture.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-tax",
+        "agricultural-land"
+      ],
+      "sourceIds": [
+        "idcode-63-205c"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(63-205C) 63-602K added 1996, ch. 98, sec. 7, p. 352; am. 2004, ch. 27, sec. 4, p. 44; am. 2006, ch. 233, sec. 3, p. 693; am. and redesig. 2020, ch. 313, sec. 1, p. 889.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Formerly 63-602K; older material cites that number. No recapture/rollback tax provision was found in 63-604 or 63-205C; do NOT assert that Idaho has or lacks one — it was not researched to a primary source. Do not estimate the tax change for any parcel."
+    },
+    {
+      "id": "ld2-ada-ag-form-april-15-presumption",
+      "claim": "Ada County's agricultural eligibility form for parcels larger than 5 acres states that if the Assessor's office does not receive the form by April 15th, it must be assumed that the land does not meet the qualifications for agricultural valuation and current market value of non-agricultural properties will be used to value it.",
+      "quotedLanguage": "If our office does not receive this form(s) by April 15th, it must be assumed that the land does not meet the qualifications for agricultural valuation and current market value of non-agricultural properties will be used to value the property.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "property-tax",
+        "agricultural-land"
+      ],
+      "sourceIds": [
+        "ada-assessor-ag-eligibility-form-over-5-acres"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "County form language (Rev. 2025). Ada County only; do not carry to other counties."
+    },
+    {
+      "id": "ld2-ada-ag-proof-annually-april-15",
+      "claim": "The Ada County Assessor's agricultural valuation page says the owner of a parcel of five contiguous acres or less must provide proof of the minimum incomes annually, due April 15, to remain in qualifying status.",
+      "quotedLanguage": "Landowner must provide proof of these minimum incomes annually to remain in qualifying status, due April 15",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "property-tax",
+        "agricultural-land"
+      ],
+      "sourceIds": [
+        "ada-assessor-agricultural-valuation"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Applies to the 5-acres-or-less category on the page. The page footnote says a weekend/holiday April 15 rolls to the next business day."
+    },
+    {
+      "id": "ld2-ag-homesite-market-value",
+      "claim": "Tax Commission rule text reproduced on Ada County's agricultural eligibility form says the homesite, the residential improvement and other improvements on the homesite are assessed at market value each year, and that the homesite's value and classification are independent of the remaining land.",
+      "quotedLanguage": "The homesite, residential improvement and other improvements, located on the homesite, will be assessed at market value each year. ... The value and classification of the homesite will be independent of the classification and valuation of the remaining land.",
+      "entity": [
+        "county:ada",
+        "state:id"
+      ],
+      "topic": [
+        "property-tax",
+        "agricultural-land"
+      ],
+      "sourceIds": [
+        "ada-assessor-ag-eligibility-form-over-5-acres"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "MEDIUM: the text is IDAPA 35.01.03.645 as reproduced on a county form, not fetched from adminrules.idaho.gov. Distinct from the homeowner's exemption homestead (id-homestead-one-acre-limit) — do not conflate the two."
+    },
+    {
+      "id": "ld2-plat-statute-subdivision-definition",
+      "claim": "For Idaho's platting statutes (50-1301 to 50-1334) a subdivision is a tract divided into five or more lots, parcels or sites for sale or building development, excluding a bona fide division of agricultural land into lots all five acres or larger and maintained as agricultural land; cities and counties may adopt their own definition of subdivision in place of this one.",
+      "quotedLanguage": "Subdivision: A tract of land divided into five (5) or more lots, parcels, or sites for the purpose of sale or building development, whether immediate or future; provided that this definition shall not include a bona fide division or partition of agricultural land for agricultural purposes. A bona fide division or partition of agricultural land for agricultural purposes shall mean the division of land into lots, all of which are five (5) acres or larger and maintained as agricultural lands. Cities or counties may adopt their own definition of subdivision in lieu of this definition;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "platting",
+        "subdivision"
+      ],
+      "sourceIds": [
+        "idcode-50-1301"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[50-1301, added 1967, ch. 429, sec. 219, p. 1249; am. 1970, ch. 184, sec. 1, p. 533; am. 1971, ch. 329, sec. 1, p. 1294; am. 1988, ch. 175, sec. 1, p. 306; am. 1990, ch. 170, sec. 1, p. 367; am. 1992, ch. 262, sec. 1, p. 778; am. 1994, ch. 364, sec. 4, p. 1141; am. 1997, ch. 190, sec. 1, p. 518; am. 1998, ch. 220, sec. 1, p. 753; am. 1999, ch. 89, sec. 1, p. 290; am. 2010, ch. 256, sec. 1, p. 649; am. 2011, ch. 136, sec. 6, p. 386; am. 2014, ch. 58, sec. 1, p. 139; am. 2017, ch. 86, sec. 1, p. 232; am. 2022, ch. 43, sec. 2, p. 113; am. 2024, ch. 62, sec. 1, p. 307.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "⚠️ The five-lot number is the state DEFAULT and is overridable locally — Ada County's own Title 8 uses two lots (ld2-ada-subdivision-two-lots). Never present five lots as the rule for any Ada County parcel. Distinct from the 42-111 water definition (id-water-subdivision-five-lots)."
+    },
+    {
+      "id": "ld2-plat-duty-to-survey-and-record",
+      "claim": "Idaho Code 50-1302 requires every owner creating a subdivision, as 50-1301 defines it, to have a land survey and a plat made and to record the plat; lots described by number on a recorded plat are good and valid descriptions in conveyances and for taxation.",
+      "quotedLanguage": "Every owner creating a subdivision, as defined in section 50-1301 , Idaho Code, shall cause a land survey and a plat thereof to be made which shall particularly and accurately describe and set forth all the streets, easements, public grounds, blocks, lots, and other essential information, and shall record said plat.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "platting",
+        "subdivision",
+        "recording"
+      ],
+      "sourceIds": [
+        "idcode-50-1302"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[50-1302, added 1967, ch. 429, sec. 220, p. 1249; am. 1997, ch. 190, sec. 2, p. 519; am. 2011, ch. 136, sec. 7, p. 388.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Keep the space before the comma in 'section 50-1301 , Idaho Code' (verify-quotes normalises it)."
+    },
+    {
+      "id": "ld2-plat-treasurer-certification",
+      "claim": "Idaho Code 50-1308 bars the county recorder from accepting a subdivision plat for record unless the county treasurer has certified it within 30 days before recording, and the treasurer may withhold certification only for county property taxes due but unpaid on the property; a plat outside city limits is approved by the county commissioners, and a plat requiring city approval must carry the city's acceptance.",
+      "quotedLanguage": "No plat of a subdivision shall be accepted for record by the county recorder unless said plat has been certified, within thirty (30) days prior to recording, by the county treasurer of the county in which the tract is located. The county treasurer shall not withhold certification for any reason except for county property taxes due, but not paid, upon the property included in the proposed subdivision.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "platting",
+        "property-tax",
+        "recording"
+      ],
+      "sourceIds": [
+        "idcode-50-1308"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[50-1308, added 1967, ch. 429, sec. 226, p. 1249; am. 1979, ch. 286, sec. 1, p. 731; am. 1981. ch. 304, sec. 1, p. 626; am. 1981, ch. 317, sec. 1, p. 661; am. 1996, ch. 322, sec. 52, p. 1080; am. 1997, ch. 190, sec. 7, p. 523.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Applies to subdivision plats only, not to an ordinary deed of an existing parcel."
+    },
+    {
+      "id": "ld2-unplatted-lot-sale-penalty",
+      "claim": "Idaho Code 50-1316 provides that anyone who disposes of or offers for sale any lots in any city or county before the plat has been acknowledged and recorded as the platting statutes provide forfeits and pays $100 for each lot or part of a lot sold, disposed of or offered for sale.",
+      "quotedLanguage": "Any person who shall dispose of or offer for sale any lots in any city or county until the plat thereof has been duly acknowledged and recorded, as provided in sections 50-1301 through 50-1325 , shall forfeit and pay one hundred dollars ($100) for each lot and part of a lot sold or disposed of or offered for sale.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "platting",
+        "subdivision"
+      ],
+      "sourceIds": [
+        "idcode-50-1316"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[50-1316, added 1967, ch. 429, sec. 234, p. 1249.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "State the statute only. Do not say whether it applies to a seller's parcel, and do not suggest this is the only consequence (local ordinances carry their own; Ada Title 8 makes violations a misdemeanor per its title, not quoted here)."
+    },
+    {
+      "id": "ld2-ada-subdivision-two-lots",
+      "claim": "Ada County's zoning ordinance (Ordinance No. 1002, Title 8, defined terms in 8-10-2) defines subdivision as the division of a lot or parcel into two or more lots for the purpose of conveyance of ownership or for building development, and says it includes any recorded plat.",
+      "quotedLanguage": "SUBDIVISION: The division of a lot or parcel of land into two (2) or more lots for the purpose of conveyance of ownership or for building development. “Subdivision” includes any recorded plat.",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "platting",
+        "subdivision",
+        "zoning"
+      ],
+      "sourceIds": [
+        "ada-zoning-ord-1002-res"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho (unincorporated)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "⚠️ UNINCORPORATED ADA ONLY (ada-planning-unincorporated-only). Never carry into Boise, Meridian, Eagle, Kuna, Star or Garden City. A separate Hidden Springs article in the same ordinance has its own definition (line ~17710 of the extraction) — this quote is the general 8-10-2 one (extraction line ~12814). The ordinance's exact publication/effective day is unconfirmed (see ada-zoning-ordinance-updated-november-2025)."
+    },
+    {
+      "id": "ld2-ada-one-time-division",
+      "claim": "Ada County Code 8-6-21 allows a one-time division of a parcel into two parcels without being subject to the county's subdivision regulations, applying to lots created before September 29, 1959 or parcels of record with the Ada County Recorder before January 1, 1985 whose boundaries have not changed except as the section lists; the Director decides the application, and after tentative approval the property must within one year be surveyed, the record of survey and deeds recorded, and new tax parcel numbers obtained from the Assessor.",
+      "quotedLanguage": "The regulations of this Section allow for the one-time division of a parcel into two (2) parcels without being subject to the subdivision regulations as set forth in Chapter 5 of this Title. B. Applicability. These regulations apply to lots created prior to September 29, 1959, or parcels of land that were of record in the Ada County recorder's office prior to January 1, 1985 (referred to as the property of record), the boundaries of which have not changed except for at least one of the following: ... the following tasks shall be completed within one year: a. Cause the property to be surveyed; ... c. Execute and record the record of survey and necessary deeds with the Ada County Recorder to accomplish the one-time division as approved; d. Obtain new tax parcel numbers from the Ada County assessor;",
+      "entity": [
+        "county:ada",
+        "area:unincorporated-ada"
+      ],
+      "topic": [
+        "platting",
+        "subdivision",
+        "land"
+      ],
+      "sourceIds": [
+        "ada-zoning-ord-1002-res"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho (unincorporated)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "⚠️ UNINCORPORATED ADA ONLY. Star's one-time administrative division (star-one-time-administrative-division) is a different city rule — never merge the two. The two resulting parcels must also meet the Title's design and dimensional standards (8-6-21G.2, across a page break, not quoted). Eligibility dates are the code's; whether a parcel qualifies is for Development Services."
+    },
+    {
+      "id": "ld2-ada-assessor-split-needs-recorded-deed",
+      "claim": "The Ada County Assessor says that to split, combine or adjust property boundaries an owner must contact the relevant city Planning and Zoning Division or Ada County Development Services for the procedure, that the Assessor requires a new deed with the new legal description to be recorded, and that recording a survey does not convey ownership, change boundaries or create new tax parcel numbers.",
+      "quotedLanguage": "You will need to contact the appropriate city Planning and Zoning Division or Ada County Development Services to determine the procedure you will need to follow. The Assessor’s Office requires that a new deed to be recorded with the new legal description for the parcel. ... The recording of a survey does not convey ownership, change property boundaries or create new Assessor’s tax parcel numbers. A deed with the new metes and bounds or the narrative property description must be recorded for the Assessor’s Office to make any changes in ownership or create new tax parcels.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "platting",
+        "recording",
+        "land"
+      ],
+      "sourceIds": [
+        "ada-assessor-property-records"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Quoted from the Assessor Property Records FAQ, cached at https://adacounty.id.gov/assessor/?p=61 whose canonical URL is the existing source ada-assessor-property-records. Keep the page’s own grammar (\"requires that a new deed to be recorded\"). Countywide statement about the ASSESSOR’s records; the land-use approval itself depends on the city or county, per the same answer."
+    }
+  ]
+}

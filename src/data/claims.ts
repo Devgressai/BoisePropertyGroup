@@ -22453,6 +22453,1041 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "Boise, Idaho",
     "amendmentHistory": null
+  },
+  {
+    "id": "mh2-titling-chapter-covers-manufactured-homes",
+    "claim": "Idaho Code 49-501(2)(b) applies the titling requirements of Idaho's vehicle title chapter (Title 49, chapter 5) to manufactured homes as defined in Idaho Code 39-4105, even though they are not required to be registered under chapter 4.",
+    "quote": "In addition, the titling requirements of this chapter shall apply to the following vehicles which are not required to be registered under the provisions of chapter 4, title 49 , Idaho Code: ... Manufactured homes as defined in section 39-4105 , Idaho Code;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 49-501 — Titling requirements — Exemptions",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch5/sect49-501/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[49-501, added 1988, ch. 265, sec. 116, p. 643; am. 1989, ch. 358, sec. 1, p. 900; am. 1999, ch. 170, sec. 3, p. 460; am. 2006, ch. 42, sec. 6, p. 128; am. 2008, ch. 106, sec. 3, p. 300; am. 2008, ch. 198, sec. 6, p. 642; am. 2017, ch. 134, sec. 9, p. 320.]"
+  },
+  {
+    "id": "mh2-title-goes-to-first-lienholder",
+    "claim": "Under Idaho Code 49-505, the Idaho Transportation Department delivers the original certificate of title to the applicant only if there are no liens or encumbrances on it; if liens or encumbrances are recorded, the certificate is delivered or mailed to the lienholder first in time, and the department may keep a paperless electronic record of title instead of a paper certificate.",
+    "quote": "The original copy shall be delivered to the applicant if there are no liens or encumbrances on the certificate. If there are liens or encumbrances recorded, the certificate shall be delivered or mailed to the holder of the lien or encumbrance who is first in time on the date of the application. ... In place of physically issuing a paper certificate of title, the department may create a paperless electronic record of title and suspend the requirement to issue a certificate of title.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "title",
+      "lending"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 49-505 — Issuance of certificates of title by department — Delivery — Electronic file for lienholders",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch5/sect49-505/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[49-505, added 1988, ch. 265, sec. 120, p. 645; am. 1991, ch. 153, sec. 2, p. 364; am. 1993, ch. 298, sec. 1, p. 1097; am. 2021, ch. 180, sec. 4, p. 499.]"
+  },
+  {
+    "id": "mh2-itd-private-sale-signatures-and-30-day-filing",
+    "claim": "The Idaho Transportation Department's vehicle titles page says a buyer from a private party needs the existing title with proper signatures releasing interest from the previous owner or lienholder, and that in a private-party sale with no lienholder the documents must be filed with a county assessor's motor vehicle office within 30 days of transfer to avoid a $20.00 late-filing penalty.",
+    "quote": "Private party sale with no lienholder: You must file the following documents with a county assessor's motor vehicle office within 30 days of transfer to avoid a $20.00 late-filing penalty. ... If bought used from a private party, you will need to provide the existing title with proper signatures releasing interest from the previous owner or lienholder.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "title",
+      "closing"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Vehicle Titles — Idaho Transportation Department (DMV)",
+        "url": "https://itd.idaho.gov/dmv/registrations-plates-titles/vehicle-titles/",
+        "publisher": "Idaho Transportation Department",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "mh2-itd-bill-of-sale-when-no-released-title",
+    "claim": "The Idaho Transportation Department says that if a properly released title cannot be obtained, a bill of sale may be used, but that process requires additional steps set out in its bill of sale and Conditional Title Statement of Facts forms.",
+    "quote": "In the event that a properly released title cannot be obtained, a Bill of Sale may be used; however, this process requires additional steps. See the form section below for a Bill of Sale and the Conditional Title Statement of Facts for the required steps.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "title"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Vehicle Titles — Idaho Transportation Department (DMV)",
+        "url": "https://itd.idaho.gov/dmv/registrations-plates-titles/vehicle-titles/",
+        "publisher": "Idaho Transportation Department",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "mh2-itd-ada-county-title-fee",
+    "claim": "The Idaho Transportation Department's title fee table lists Ada County's title administrative fee as $7.00 and its total title fee as $21.00 (the county admin fee plus the $14 state title fee), implemented September 1, 2023.",
+    "quote": "County Registration Admin Fee Amount Title Admin Fee Amount Total Title Fee (Admin fee + $14) Implementation Date ... Ada $9.50 $7.00 $21.00 September 1, 2023",
+    "entities": [
+      "state:id",
+      "county:ada"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "title",
+      "fees"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Vehicle Titles — Idaho Transportation Department (DMV)",
+        "url": "https://itd.idaho.gov/dmv/registrations-plates-titles/vehicle-titles/",
+        "publisher": "Idaho Transportation Department",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "mh2-ada-taxed-as-personal-property-without-statement",
+    "claim": "The Ada County Assessor says manufactured homes are sometimes treated as real property and sometimes as personal property: if a Statement of Intent to Declare the structure as real property was recorded it is taxed as real property, and if none was completed, recorded and filed it is taxed as personal property.",
+    "quote": "Manufactured homes are sometimes treated as real property and other times treated as personal property. If you or a previous owner recorded a Statement of Intent to Declare the structure as real property, it is taxed as real property. If no Statement of Intent to Declare the structure as real property has been completed, recorded, and filed, it is taxed as personal property.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "property-taxes",
+      "real-vs-personal-property"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Real & Manufactured Property Assessment — Ada County Assessor",
+        "url": "https://adacounty.id.gov/assessor/property-assessments-records/real-manufactured-property-assessment/",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "mh2-ada-taxes-before-moving-or-demolishing",
+    "claim": "The Ada County Assessor says that before moving or demolishing a manufactured home, any delinquent taxes must be paid and the current year's taxes prepaid, and that an owner demolishing the home must also mail or deliver the original title to the Assessor's office.",
+    "quote": "Prior moving or demolishing a manufactured home you must have any delinquent taxes paid and prepay the current year taxes. If you are demolishing the home owners will also need to mail or deliver the original title to the Assessor's office.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "property-taxes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Real & Manufactured Property Assessment — Ada County Assessor",
+        "url": "https://adacounty.id.gov/assessor/property-assessments-records/real-manufactured-property-assessment/",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "mh2-ada-used-home-no-sales-tax",
+    "claim": "The Ada County Assessor states that a used manufactured home is not subject to Idaho's sales or use tax.",
+    "quote": "A used manufactured home is not subject to Idaho's sales or use tax.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "sale-taxes"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Real & Manufactured Property Assessment — Ada County Assessor",
+        "url": "https://adacounty.id.gov/assessor/property-assessments-records/real-manufactured-property-assessment/",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "mh2-personal-property-tax-due-on-demand",
+    "claim": "Idaho Code 63-904 provides that all personal property taxes are due and payable upon demand; if no demand is made they may be paid in part or in full until the tax collector issues a warrant of distraint, and if the first half is not paid on time the unpaid portion of the entire tax immediately becomes due with a late charge and interest.",
+    "quote": "If a personal property owner fails to make timely payment on the first one-half (1/2) provided for, the unpaid portion of the entire tax shall immediately become due and payable ... All personal property taxes are due and payable upon demand. If no demand is made, taxes may be paid in part or in full until the tax collector issues a warrant of distraint for collection of said taxes.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "property-taxes",
+      "manufactured-housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-904 — Special provisions for collection of property taxes on personal property",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch9/sect63-904/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-904 added 1996, ch. 98, sec. 10, p. 379; am. 2022, ch. 225, sec. 3, p. 744.]"
+  },
+  {
+    "id": "mh2-manufactured-home-may-be-homestead",
+    "claim": "Idaho Code 63-701's definition of homestead, used for the homeowner's exemption and property tax relief, says a homestead does not include personal property such as furniture, furnishings or appliances, but that a manufactured home may be a homestead.",
+    "quote": "\"Homestead\" does not include personal property such as furniture, furnishings or appliances, but a manufactured home may be a homestead.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "property-taxes",
+      "exemptions",
+      "manufactured-housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-701 — Definitions (property tax relief) — definition of \"homestead\"",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch7/sect63-701/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-701, added 1996, ch. 98, sec. 8, p. 362; am. 1997, ch. 24, sec. 1, p. 33; am. 1997, ch. 117, sec. 23, p. 323; am. 1998, ch. 352, sec. 1, p. 1108; am. 1999, ch. 40, sec. 1, p. 77; am. 1999, ch. 382, sec. 2, p. 1049; am. 2000, ch. 20, sec. 1, p. 38; am. 2000, ch. 109, sec. 1, p. 239; am. 2000, ch. 154, sec. 1, p. 390; am. 2000, ch. 274, sec. 149, p. 883; am. 2001, ch. 69, sec. 2, p. 131; am. 2001, ch. 325, sec. 1, p. 1140; am. 2004, ch. 156, sec. 2, p. 497; am. 2005, ch. 31, sec. 1, p. 143; am. 2005, ch. 241, sec. 1, p. 749; am. 2005, ch. 280, sec. 58, p. 912; am. 2006, ch. 350, sec. 2, p. 1066; am. 2008, ch. 117, sec. 1, p. 323; am. 2010, ch. 235, sec. 55, p. 591; am. 2011, ch. 85, sec. 1, p. 176; am. 2015, ch. 224, sec. 1, p. 687; am. 2017, ch. 14, sec. 1, p. 22; am. 2019, ch. 159, sec. 3, p. 517; am. 2020, ch. 65, sec. 2, p. 151; am. 2022, ch. 307, sec. 1, p. 993; am. 2025, ch. 122, sec. 41, p. 649; am. 2025, ch. 208, sec. 22, p. 950.]"
+  },
+  {
+    "id": "mh2-mhra-chapter-governs-lot-rental",
+    "claim": "Idaho Code 55-2004 says the Manufactured Home Residency Act governs the legal rights, remedies and obligations arising from a rental agreement between a landlord and a resident regarding a lot, except where the landlord rents both the lot and the home, or the lot is rented to a recreational vehicle or travel trailer (other than a park model).",
+    "quote": "This chapter shall regulate and determine legal rights, remedies and obligations arising from any rental agreement between a landlord and a resident regarding a lot, except in those instances in which: (i) the landlord is renting both the lot and the home to the resident; or (ii) the lot is rented or held out for rent to a recreational vehicle or travel trailer, not including a park model recreational vehicle.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "tenants",
+      "parks"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2004 — Chapter governs (Manufactured Home Residency Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2004/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2004, added 1980, ch. 177, sec. 1, p. 376; am. 1988, ch. 196, sec. 2, p. 370; am. 2011, ch. 184, sec. 4, p. 524; am. 2017, ch. 134, sec. 11, p. 322.]"
+  },
+  {
+    "id": "mh2-mhra-community-definition",
+    "claim": "Idaho's Manufactured Home Residency Act defines a community as real property rented or held out for rent to others for the placement of two or more homes for the primary purpose of producing income, and defines home to include a mobile home, a manufactured home or, for that chapter only, a park model recreational vehicle.",
+    "quote": "\"Community\" means any real property that is rented or held out for rent to others for the placement of two (2) or more homes for the primary purpose of production of income. ... \"Home\" means a mobile home, a manufactured home or, for purposes of this chapter only, a park model recreational vehicle.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "parks"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2003 — Definitions (Manufactured Home Residency Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2003/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2003, added 1980, ch. 177, sec. 1, p. 375; am. 1988, ch. 196, sec. 1, p. 370; am. 2011, ch. 184, sec. 3, p. 523; am. 2017, ch. 134, sec. 10, p. 321.]"
+  },
+  {
+    "id": "mh2-park-cannot-deny-sale-or-force-removal",
+    "claim": "Idaho Code 55-2009(1) says no landlord may deny a resident who owns the home the right to sell it on a rented lot, or require the resident to remove the home from the lot solely on the basis of the sale.",
+    "quote": "No landlord shall deny any resident who owns his home the right to sell the home on a rented lot or require the resident to remove the home from the lot solely on the basis of the sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "parks",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2009 — Sales of homes and transfer of lots (Manufactured Home Residency Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2009/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]"
+  },
+  {
+    "id": "mh2-park-no-commission-unless-written-agent",
+    "claim": "Under Idaho Code 55-2009(2), a landlord may not take a commission or fee for the sale of a home on a rented space unless it acted as the seller's agent under a written agreement, and it may act as agent only by the seller's voluntary agreement and only if licensed where licensure is required.",
+    "quote": "The landlord shall not exact a commission or fee for the sale of a home on a rented space unless the landlord has acted as agent for the seller pursuant to a written agreement. The landlord may act as agent for the seller only upon the voluntary agreement of the seller and only if the landlord is licensed if licensure is required by law.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "parks",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2009 — Sales of homes and transfer of lots (Manufactured Home Residency Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2009/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]"
+  },
+  {
+    "id": "mh2-new-rental-agreement-before-sale",
+    "claim": "Idaho Code 55-2009(3) requires a new rental agreement to be signed between the landlord and a prospective resident before the sale, transfer, assignment or subletting of the home if the home is to remain in the community, and from the date of sale the new resident is bound by that agreement.",
+    "quote": "A new rental agreement must be signed between the landlord and a prospective resident prior to the sale, transfer, assignment or subletting of the home if the home is to remain in the community. From the date of sale, assignment, transfer or subletting the new resident shall be bound by the terms of the agreement.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "parks",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2009 — Sales of homes and transfer of lots (Manufactured Home Residency Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2009/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]"
+  },
+  {
+    "id": "mh2-park-approval-same-basis-five-working-days",
+    "claim": "Under Idaho Code 55-2009(4), the landlord approves or disapproves a transfer, assignment or subletting of the home lot on the same basis it approves or disapproves any new resident, and must give written notice of approval or disapproval within five working days of receiving a written application.",
+    "quote": "The landlord shall approve or disapprove of the transfer, assignment or subletting of the home lot on the same basis that the landlord approves or disapproves of any new resident. Notice of approval or disapproval shall be given in writing within five (5) working days of receiving a written application.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "parks",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2009 — Sales of homes and transfer of lots (Manufactured Home Residency Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2009/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]"
+  },
+  {
+    "id": "mh2-no-removal-until-rent-paid",
+    "claim": "Idaho Code 55-2009(5) says no home may be removed from a community until the rent, including the month the home is moved, and all other charges in the rental agreement are paid, or the lienholder provisions of 55-2009A are complied with and the landlord is notified of the date and time of removal.",
+    "quote": "No home shall be removed from any community until the rent, including the month when the home is moved, together with all other charges specified in the rental agreement, are paid, or the provisions of section 55-2009A , Idaho Code, have been fully complied with and the landlord notified of date and time of removal.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "parks"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2009 — Sales of homes and transfer of lots (Manufactured Home Residency Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2009/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2009, added 1980, ch. 177, sec. 1, p. 377; am. 1981, ch. 207, sec. 1, p. 372; am. 1988, ch. 196, sec. 7, p. 372.; am. 2011, ch. 184, sec. 9, p. 527.]"
+  },
+  {
+    "id": "mh2-no-entrance-or-exit-fee",
+    "claim": "Idaho Code 55-2007(2)(b) bars a rental agreement from allowing the landlord to charge an entrance fee or an exit fee, but says repairs or maintenance the landlord requires as a condition of approving a rental application are not an entrance or exit fee.",
+    "quote": "Any provision allowing the landlord to charge an \"entrance fee\" or an \"exit fee.\" The expense of repairs or maintenance required by the landlord as a condition of the landlord's approval of a rental application shall not constitute an \"entrance fee\" or \"exit fee\" as those terms are used herein;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing",
+      "parks",
+      "fees"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-2007 — Required rental agreement provisions and exclusions — Disclosures (Manufactured Home Residency Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch20/sect55-2007/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-2007, added 1980, ch. 177, sec. 1, p. 376; am. 1988, ch. 196, sec. 5, p. 371; am. 1993, ch. 380, sec. 2, p. 1395; am. 2011, ch. 184, sec. 7, p. 526; am. 2017, ch. 134, sec. 12, p. 322.]"
+  },
+  {
+    "id": "mh2-manufactured-vs-mobile-home-1976",
+    "claim": "Idaho Code 39-4105 defines a manufactured home as a structure constructed after June 15, 1976, in accordance with the HUD manufactured home construction and safety standards, and a mobile home as a factory-assembled structure generally constructed prior to June 15, 1976.",
+    "quote": "\"Manufactured home\" means a structure, constructed after June 15, 1976, in accordance with the HUD manufactured home construction and safety standards, and is transportable in one (1) or more sections ... \"Mobile home\" means a factory-assembled structure or structures generally constructed prior to June 15, 1976,",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 39-4105 — Definitions (Idaho Building Code Act) — manufactured home, mobile home",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch41/sect39-4105/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[39-4105, added 1975, ch. 180, sec. 2, p. 486; am. 1976, ch. 129, sec. 1, p. 488; am. 1983, ch. 153, sec. 2, p. 408; am. 1986, ch. 30, sec. 1, p. 85; am. 1992, ch. 197, sec. 1, p. 609; am. 1995, ch. 267, sec. 9, p. 859; am. 1996, ch. 421, sec. 27, p. 1423; am. 2002, ch. 345, sec. 7, p. 966; am. 2004, ch. 250, sec. 2, p. 717; am. 2007, ch. 252, sec. 2, p. 738; am. 2023, ch. 15, sec. 10, p. 79; am. 2026, ch. 171, sec. 1, p. 799.]"
+  },
+  {
+    "id": "mh2-hud-certification-label",
+    "claim": "HUD's Manufactured Home Construction and Safety Standards (24 CFR 3280.11) require a permanent certification label, separate from the data plate, on each transportable section of every manufactured home for sale or lease in the United States, located at the taillight end of each section about 1 foot up from the floor and 1 foot in from the road side, or as near that as practicable.",
+    "quote": "A permanent label shall be affixed to each transportable section of each manufactured home for sale or lease in the United States. This label shall be separate and distinct from the data plate which the manufacturer is required to provide under § 3280.5 of the standards. ... The label must be located at the taillight end of each transportable section of the manufactured home approximately 1 foot up from the floor and 1 foot in from the road side, or as near that location on a permanent part of the exterior of the manufactured home section as practicable.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "24 CFR § 3280.11 — Certification label (Manufactured Home Construction and Safety Standards)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-XX/part-3280/subpart-A/section-3280.11",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": "[ 42 FR 960 , Jan. 4, 1977. Redesignated at 44 FR 20679 , Apr. 6, 1979, as amended at 52 FR 47553 , Dec. 15, 1987. Redesignated and amended at 58 FR 55003 , Oct. 25, 1993; 86 FR 2517 , Jan. 12, 2021]"
+  },
+  {
+    "id": "mh2-hud-data-plate",
+    "claim": "Under 24 CFR 3280.5, each dwelling unit of a manufactured home must bear a data plate affixed near the main electrical panel or another readily accessible and visible location, showing at least the manufacturing plant's name and address, the serial number, model designation and date of manufacture, and the numbers of the certification labels on each section.",
+    "quote": "Each dwelling unit of a manufactured home must bear a data plate affixed in a permanent manner near the main electrical panel or other readily accessible and visible location. ... The name and address of the manufacturing plant in which the manufactured home was manufactured. ... The serial number and model designation of the unit, and the date the unit was manufactured. ... A list of the certification label(s) number(s) that are affixed to each transportable manufactured section under § 3280.8 .",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "manufactured-housing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "24 CFR § 3280.5 — Data plate (Manufactured Home Construction and Safety Standards)",
+        "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-XX/part-3280/subpart-A/section-3280.5",
+        "publisher": "Office of the Federal Register — Electronic Code of Federal Regulations",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "United States (applies in Idaho)",
+    "amendmentHistory": "[ 59 FR 2469 , Jan. 14, 1994, as amended at 80 FR 53727 , Sept. 8, 2015; 85 FR 5566 , Jan. 31, 2020; 86 FR 2516 , Jan. 12, 2021; 89 FR 75743 , Sept. 16, 2024]"
+  },
+  {
+    "id": "ld2-idwr-form-signer-and-conveyance-documents",
+    "claim": "IDWR's Notice of Change in Water Right Ownership (Form 42-248/42-1409(6)) must be signed by one of the new owners, and IDWR cannot process it without a conveyance document such as a deed or court decree; IDWR's instructions say deeds of trust, mortgages, purchase and sale agreements and property tax notices are not conveyance documents.",
+    "quote": "IDWR cannot process this change without documentation of ownership. The documentation may be in the form of a deed, court decree or other conveyance document. ... Items that are not conveyance documents are deeds of trust, mortgages, purchase and sales agreements, and property tax notices. ... One of the new owner(s) must sign the form in the space(s) provided.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "water-rights",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "IDWR Form 42-248/42-1409(6), Notice of Change in Water Right Ownership, with instructions (Rev. 6/22)",
+        "url": "https://idwr.idaho.gov/wp-content/uploads/sites/2/forms/waterrightsforms/notice-of-change-of-water-right-ownership-1-1.pdf",
+        "publisher": "Idaho Department of Water Resources",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-idwr-appurtenance-proportionate-split",
+    "claim": "IDWR's instructions say water rights are often conveyed as an appurtenance to the land where they are used, that the deed often does not mention the water right, and that when the conveyance document does not specifically address water rights IDWR will assume they are split in proportion to the land acquired; the combined portions of a split right cannot exceed the original right's flow rate, volume or period of use.",
+    "quote": "Water rights are often conveyed as an appurtenance to the land where they are used, and the conveyance document for the land often does not have specific language regarding the water right. Please read your deed or other conveyance document carefully to be sure. When the conveyance document does not specifically address water rights, it will be assumed that the water rights are to be split proportionate to the amount of land acquired.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "water-rights",
+      "land",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "IDWR Form 42-248/42-1409(6), Notice of Change in Water Right Ownership, with instructions (Rev. 6/22)",
+        "url": "https://idwr.idaho.gov/wp-content/uploads/sites/2/forms/waterrightsforms/notice-of-change-of-water-right-ownership-1-1.pdf",
+        "publisher": "Idaho Department of Water Resources",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-idwr-district-held-rights-not-this-form",
+    "claim": "IDWR's instructions say that where water comes from a municipal provider, an irrigation district or another delivery organization that holds the water rights, the owner should not use the ownership-change form and should instead contact that organization to find out whether any action is needed.",
+    "quote": "If you receive water from a municipal provider, an irrigation district or other water delivery organization, and the water rights are held by the organization, please do not use this form to record a change. Please contact the water delivery organization to determine if any action is necessary.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "water-rights",
+      "irrigation"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "IDWR Form 42-248/42-1409(6), Notice of Change in Water Right Ownership, with instructions (Rev. 6/22)",
+        "url": "https://idwr.idaho.gov/wp-content/uploads/sites/2/forms/waterrightsforms/notice-of-change-of-water-right-ownership-1-1.pdf",
+        "publisher": "Idaho Department of Water Resources",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-idwr-transfer-application-and-no-easement-jurisdiction",
+    "claim": "IDWR's instructions say changing or adding a point of diversion, place of use, season of use or purpose of use of a water right requires an Application for Transfer, and that IDWR has no jurisdiction over easements, rights-of-way or zoning, which the buyer and seller must provide for where necessary.",
+    "quote": "If you want to change or add a point of diversion, place of use, season of use, or purpose of use of a water right, you must file an Application for Transfer. ... IDWR has no jurisdiction concerning easements, rights-of-way, and zoning matters. The buyer and seller must make these provisions where necessary.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "water-rights",
+      "land",
+      "easements"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "IDWR Form 42-248/42-1409(6), Notice of Change in Water Right Ownership, with instructions (Rev. 6/22)",
+        "url": "https://idwr.idaho.gov/wp-content/uploads/sites/2/forms/waterrightsforms/notice-of-change-of-water-right-ownership-1-1.pdf",
+        "publisher": "Idaho Department of Water Resources",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-irrigation-district-assessment-first-lien",
+    "claim": "Idaho Code 43-706 makes irrigation district assessments liens on the assessed property from the first Monday in March of any year, a first lien superior to any mortgage or deed of trust whether prior in time or not, not removed until paid, the property is sold for payment, or the assessments are cancelled under 43-716 or 43-1508; on any sale of the property the purchaser takes it subject to any annual district assessment unpaid at the time of the sale.",
+    "quote": "All assessments shall be liens against the property assessed from and after the first Monday in March of any year. (2) Assessment liens shall be a first lien on the property assessed and shall be superior to the lien of any mortgage or deed of trust, whether prior in time or not. ... Upon any sale of the property, the purchaser at such sale shall take the property subject to any annual assessment of the district that remains unpaid at the time of the sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "irrigation",
+      "liens",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 43-706 — Lien of assessment (irrigation districts)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title43/t43ch7/sect43-706/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(43-706), added 1903, p. 150, sec. 27; reen. R.C., sec. 2411; am. 1911, ch. 71, sec. 6, p. 194; am. 1911, ch. 154, sec. 11, p. 461; am. 1915, ch. 143, sec. 9, p. 304; reen. C.L., sec. 2411; C.S., sec. 4388; I.C.A., sec. 42-706; am. 2025, ch. 148, sec. 1, p. 731.]"
+  },
+  {
+    "id": "ld2-ag-land-qualification-tests",
+    "claim": "Idaho Code 63-604 lets land actively devoted to agriculture be appraised, assessed and taxed as agricultural property each year it qualifies: more than five contiguous acres including the homesite, actively devoted to field crops, nursery stock, for-profit grazing or grazing lease, or a cropland retirement or rotation program; or five contiguous acres or less, so used for the last three growing seasons, and producing 15% or more of the owner's or lessee's annual gross income or $1,000 or more of gross revenue in the preceding year, such land being presumed nonagricultural until the requirements are established.",
+    "quote": "For property tax purposes, land actively devoted to agriculture shall be eligible for appraisal, assessment, and taxation as agricultural property each year it meets one (1) or more of the following qualifications: (a) The total area of such land, including the homesite, is more than five (5) contiguous acres, and is actively devoted to agriculture ... (b) The area of such land is five (5) contiguous acres or less and such land has been actively devoted to agriculture within the meaning of subsection (1)(a) of this section during the last three (3) growing seasons; and (i) It agriculturally produces for sale or home consumption the equivalent of fifteen percent (15%) or more of the owner's or lessee's annual gross income; or (ii) It agriculturally produced gross revenues in the immediately preceding year of one thousand dollars ($1,000) or more. When the area of land is five (5) contiguous acres or less, such land shall be presumed to be nonagricultural land until it is established that the requirements of this subsection have been met.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "property-tax",
+      "agricultural-land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-604 — Land actively devoted to agriculture defined",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch6/sect63-604/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-604, added 1996, ch. 98, sec. 7, p. 360; am. 2001, ch. 12, sec. 1, p. 14; am. 2002, ch. 93, sec. 1, p. 255; am. 2005, ch. 271, sec. 1, p. 835; am. 2006, ch. 233, sec. 2, p. 692; am. 2021, ch. 270, sec. 1, p. 820.]"
+  },
+  {
+    "id": "ld2-ag-land-exclusions-and-platting",
+    "claim": "Idaho Code 63-604 excludes from agricultural classification land in a platted subdivision with stated restrictions prohibiting agricultural use, and land used to graze a horse or other animals kept primarily for personal use or pleasure rather than a bona fide for-profit enterprise; platting agricultural land does not by itself cause it to lose agricultural status if it otherwise qualifies.",
+    "quote": "(3) Land shall not be classified or valued as agricultural land which is part of a platted subdivision with stated restrictions prohibiting its use for agricultural purposes, whether within or without a city. (4) Land utilized for the grazing of a horse or other animals kept primarily for personal use or pleasure rather than as part of a bona fide for-profit enterprise shall not be considered to be land actively devoted to agriculture. ... (7) For purposes of this section, the act of platting land actively devoted to agriculture does not, in and of itself, cause the land to lose its status as land being actively devoted to agriculture if the land otherwise qualifies for the exemption under this section.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "property-tax",
+      "agricultural-land",
+      "platting"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-604 — Land actively devoted to agriculture defined",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch6/sect63-604/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[63-604, added 1996, ch. 98, sec. 7, p. 360; am. 2001, ch. 12, sec. 1, p. 14; am. 2002, ch. 93, sec. 1, p. 255; am. 2005, ch. 271, sec. 1, p. 835; am. 2006, ch. 233, sec. 2, p. 692; am. 2021, ch. 270, sec. 1, p. 820.]"
+  },
+  {
+    "id": "ld2-ag-actual-use-value-until-use-changes",
+    "claim": "Idaho Code 63-205C says the market value of land actively devoted to agriculture is its actual use value, established by capitalizing economic rent or long-term average crop rental, and that such land shall not be valued at its speculative value as development property until the use has changed and it is no longer actively devoted to agriculture.",
+    "quote": "The market value of land actively devoted to agriculture is its actual use value. ... (3) Land actively devoted to agriculture shall not be valued at its speculative value as development property until the use has changed and it is no longer actively devoted to agriculture.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "property-tax",
+      "agricultural-land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 63-205C — Valuation of agricultural land",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch2/sect63-205c/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[(63-205C) 63-602K added 1996, ch. 98, sec. 7, p. 352; am. 2004, ch. 27, sec. 4, p. 44; am. 2006, ch. 233, sec. 3, p. 693; am. and redesig. 2020, ch. 313, sec. 1, p. 889.]"
+  },
+  {
+    "id": "ld2-ada-ag-form-april-15-presumption",
+    "claim": "Ada County's agricultural eligibility form for parcels larger than 5 acres states that if the Assessor's office does not receive the form by April 15th, it must be assumed that the land does not meet the qualifications for agricultural valuation and current market value of non-agricultural properties will be used to value it.",
+    "quote": "If our office does not receive this form(s) by April 15th, it must be assumed that the land does not meet the qualifications for agricultural valuation and current market value of non-agricultural properties will be used to value the property.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "property-tax",
+      "agricultural-land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Ada County Assessor — Agricultural Eligibility Determination Form for Parcels Larger Than 5 Acres (Rev. 2025)",
+        "url": "https://adacounty.id.gov/assessor/wp-content/uploads/sites/34/Ag-elig-determ-form-over-5-acres-Rev.2025a.pdf",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-ada-ag-proof-annually-april-15",
+    "claim": "The Ada County Assessor's agricultural valuation page says the owner of a parcel of five contiguous acres or less must provide proof of the minimum incomes annually, due April 15, to remain in qualifying status.",
+    "quote": "Landowner must provide proof of these minimum incomes annually to remain in qualifying status, due April 15",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "property-tax",
+      "agricultural-land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Agricultural Property Valuation — Ada County Assessor",
+        "url": "https://adacounty.id.gov/assessor/property-assessments-records/agricultural-property-valuation/",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-ag-homesite-market-value",
+    "claim": "Tax Commission rule text reproduced on Ada County's agricultural eligibility form says the homesite, the residential improvement and other improvements on the homesite are assessed at market value each year, and that the homesite's value and classification are independent of the remaining land.",
+    "quote": "The homesite, residential improvement and other improvements, located on the homesite, will be assessed at market value each year. ... The value and classification of the homesite will be independent of the classification and valuation of the remaining land.",
+    "entities": [
+      "county:ada",
+      "state:id"
+    ],
+    "topics": [
+      "property-tax",
+      "agricultural-land"
+    ],
+    "confidence": "MEDIUM",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Ada County Assessor — Agricultural Eligibility Determination Form for Parcels Larger Than 5 Acres (Rev. 2025)",
+        "url": "https://adacounty.id.gov/assessor/wp-content/uploads/sites/34/Ag-elig-determ-form-over-5-acres-Rev.2025a.pdf",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-plat-statute-subdivision-definition",
+    "claim": "For Idaho's platting statutes (50-1301 to 50-1334) a subdivision is a tract divided into five or more lots, parcels or sites for sale or building development, excluding a bona fide division of agricultural land into lots all five acres or larger and maintained as agricultural land; cities and counties may adopt their own definition of subdivision in place of this one.",
+    "quote": "Subdivision: A tract of land divided into five (5) or more lots, parcels, or sites for the purpose of sale or building development, whether immediate or future; provided that this definition shall not include a bona fide division or partition of agricultural land for agricultural purposes. A bona fide division or partition of agricultural land for agricultural purposes shall mean the division of land into lots, all of which are five (5) acres or larger and maintained as agricultural lands. Cities or counties may adopt their own definition of subdivision in lieu of this definition;",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "platting",
+      "subdivision"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 50-1301 — Definitions (plats and vacations)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch13/sect50-1301/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[50-1301, added 1967, ch. 429, sec. 219, p. 1249; am. 1970, ch. 184, sec. 1, p. 533; am. 1971, ch. 329, sec. 1, p. 1294; am. 1988, ch. 175, sec. 1, p. 306; am. 1990, ch. 170, sec. 1, p. 367; am. 1992, ch. 262, sec. 1, p. 778; am. 1994, ch. 364, sec. 4, p. 1141; am. 1997, ch. 190, sec. 1, p. 518; am. 1998, ch. 220, sec. 1, p. 753; am. 1999, ch. 89, sec. 1, p. 290; am. 2010, ch. 256, sec. 1, p. 649; am. 2011, ch. 136, sec. 6, p. 386; am. 2014, ch. 58, sec. 1, p. 139; am. 2017, ch. 86, sec. 1, p. 232; am. 2022, ch. 43, sec. 2, p. 113; am. 2024, ch. 62, sec. 1, p. 307.]"
+  },
+  {
+    "id": "ld2-plat-duty-to-survey-and-record",
+    "claim": "Idaho Code 50-1302 requires every owner creating a subdivision, as 50-1301 defines it, to have a land survey and a plat made and to record the plat; lots described by number on a recorded plat are good and valid descriptions in conveyances and for taxation.",
+    "quote": "Every owner creating a subdivision, as defined in section 50-1301 , Idaho Code, shall cause a land survey and a plat thereof to be made which shall particularly and accurately describe and set forth all the streets, easements, public grounds, blocks, lots, and other essential information, and shall record said plat.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "platting",
+      "subdivision",
+      "recording"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 50-1302 — Duty to file",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch13/sect50-1302/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[50-1302, added 1967, ch. 429, sec. 220, p. 1249; am. 1997, ch. 190, sec. 2, p. 519; am. 2011, ch. 136, sec. 7, p. 388.]"
+  },
+  {
+    "id": "ld2-plat-treasurer-certification",
+    "claim": "Idaho Code 50-1308 bars the county recorder from accepting a subdivision plat for record unless the county treasurer has certified it within 30 days before recording, and the treasurer may withhold certification only for county property taxes due but unpaid on the property; a plat outside city limits is approved by the county commissioners, and a plat requiring city approval must carry the city's acceptance.",
+    "quote": "No plat of a subdivision shall be accepted for record by the county recorder unless said plat has been certified, within thirty (30) days prior to recording, by the county treasurer of the county in which the tract is located. The county treasurer shall not withhold certification for any reason except for county property taxes due, but not paid, upon the property included in the proposed subdivision.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "platting",
+      "property-tax",
+      "recording"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 50-1308 — Approvals",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch13/sect50-1308/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[50-1308, added 1967, ch. 429, sec. 226, p. 1249; am. 1979, ch. 286, sec. 1, p. 731; am. 1981. ch. 304, sec. 1, p. 626; am. 1981, ch. 317, sec. 1, p. 661; am. 1996, ch. 322, sec. 52, p. 1080; am. 1997, ch. 190, sec. 7, p. 523.]"
+  },
+  {
+    "id": "ld2-unplatted-lot-sale-penalty",
+    "claim": "Idaho Code 50-1316 provides that anyone who disposes of or offers for sale any lots in any city or county before the plat has been acknowledged and recorded as the platting statutes provide forfeits and pays $100 for each lot or part of a lot sold, disposed of or offered for sale.",
+    "quote": "Any person who shall dispose of or offer for sale any lots in any city or county until the plat thereof has been duly acknowledged and recorded, as provided in sections 50-1301 through 50-1325 , shall forfeit and pay one hundred dollars ($100) for each lot and part of a lot sold or disposed of or offered for sale.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "platting",
+      "subdivision"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 50-1316 — Penalty for selling unplatted lots",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title50/t50ch13/sect50-1316/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[50-1316, added 1967, ch. 429, sec. 234, p. 1249.]"
+  },
+  {
+    "id": "ld2-ada-subdivision-two-lots",
+    "claim": "Ada County's zoning ordinance (Ordinance No. 1002, Title 8, defined terms in 8-10-2) defines subdivision as the division of a lot or parcel into two or more lots for the purpose of conveyance of ownership or for building development, and says it includes any recorded plat.",
+    "quote": "SUBDIVISION: The division of a lot or parcel of land into two (2) or more lots for the purpose of conveyance of ownership or for building development. “Subdivision” includes any recorded plat.",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "platting",
+      "subdivision",
+      "zoning"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Ada County Ordinance No. 1002 - Ada County Zoning Ordinance (Title 8)",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho (unincorporated)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-ada-one-time-division",
+    "claim": "Ada County Code 8-6-21 allows a one-time division of a parcel into two parcels without being subject to the county's subdivision regulations, applying to lots created before September 29, 1959 or parcels of record with the Ada County Recorder before January 1, 1985 whose boundaries have not changed except as the section lists; the Director decides the application, and after tentative approval the property must within one year be surveyed, the record of survey and deeds recorded, and new tax parcel numbers obtained from the Assessor.",
+    "quote": "The regulations of this Section allow for the one-time division of a parcel into two (2) parcels without being subject to the subdivision regulations as set forth in Chapter 5 of this Title. B. Applicability. These regulations apply to lots created prior to September 29, 1959, or parcels of land that were of record in the Ada County recorder's office prior to January 1, 1985 (referred to as the property of record), the boundaries of which have not changed except for at least one of the following: ... the following tasks shall be completed within one year: a. Cause the property to be surveyed; ... c. Execute and record the record of survey and necessary deeds with the Ada County Recorder to accomplish the one-time division as approved; d. Obtain new tax parcel numbers from the Ada County assessor;",
+    "entities": [
+      "county:ada",
+      "area:unincorporated-ada"
+    ],
+    "topics": [
+      "platting",
+      "subdivision",
+      "land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Ada County Ordinance No. 1002 - Ada County Zoning Ordinance (Title 8)",
+        "url": "https://adacounty.id.gov/clerk/wp-content/uploads/sites/9/2025/11/1002.pdf",
+        "publisher": "Ada County Clerk",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho (unincorporated)",
+    "amendmentHistory": null
+  },
+  {
+    "id": "ld2-ada-assessor-split-needs-recorded-deed",
+    "claim": "The Ada County Assessor says that to split, combine or adjust property boundaries an owner must contact the relevant city Planning and Zoning Division or Ada County Development Services for the procedure, that the Assessor requires a new deed with the new legal description to be recorded, and that recording a survey does not convey ownership, change boundaries or create new tax parcel numbers.",
+    "quote": "You will need to contact the appropriate city Planning and Zoning Division or Ada County Development Services to determine the procedure you will need to follow. The Assessor’s Office requires that a new deed to be recorded with the new legal description for the parcel. ... The recording of a survey does not convey ownership, change property boundaries or create new Assessor’s tax parcel numbers. A deed with the new metes and bounds or the narrative property description must be recorded for the Assessor’s Office to make any changes in ownership or create new tax parcels.",
+    "entities": [
+      "county:ada"
+    ],
+    "topics": [
+      "platting",
+      "recording",
+      "land"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Assessor's Property Records — Ada County Assessor",
+        "url": "https://adacounty.id.gov/assessor/property-assessments-records/assessors-property-records/",
+        "publisher": "Ada County Assessor",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Ada County, Idaho",
+    "amendmentHistory": null
   }
 ];
 
