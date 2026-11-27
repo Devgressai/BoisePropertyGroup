@@ -32,6 +32,8 @@ Read two existing guides first for voice and structure:
    The ONLY business facts you may state (owner-confirmed): we buy with our own
    capital; purchases close through a local title company; the seller chooses
    the closing date; we buy in any condition; a three-week close is realistic.
+   Owner-confirmed 2026-11-26: we buy with an occupant still in the house (incl.
+   unauthorized occupants), from trustees and co-trustees, and in flood zones.
    Do NOT claim: no fees / we pay closing costs / we don't assign contracts /
    cash in X days / we stop foreclosure. Never promise an appraisal or value.
 7. **No numbers without a claim.** Any dollar figure, percentage, day count or

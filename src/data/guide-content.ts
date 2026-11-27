@@ -2993,7 +2993,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy with our own capital, in any condition, and purchases close through a local title company on a date the seller chooses. A three-week close is realistic. We cannot remove anyone from a property, sign a complaint for you, or tell you which process applies. Whether a sale can go ahead while someone is in the house is a question for your attorney and the title company. You can [contact us](/contact) to talk through timing once you know where things stand.",
+          "We buy houses with someone still living in them, including occupants who have no right to be there. We buy with our own capital, in any condition, and purchases close through a local title company on a date the seller chooses. A three-week close is realistic. We cannot remove anyone from a property, sign a complaint for you, or tell you which process applies. How the occupancy is resolved, before or after the sale, is a question for your attorney and the title company. You can [contact us](/contact) to talk through timing.",
           "If the occupants leave and the house is in good shape, listing it with an agent may serve you better than a direct sale. If the people in the house are tenants, the eviction route and the rental guide apply instead of 6-310A. An Idaho attorney is the right first call in either case."
         ],
         "claims": []
@@ -3240,7 +3240,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us the house is in a trust when you [contact us](/contact).",
+          "We buy from trustees, including where several co-trustees sign together. We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us the house is in a trust when you [contact us](/contact).",
           "We are not the right route for every trustee. A trustee owes duties to the beneficiaries, and listing the house on the open market may bring the trust more than a direct sale. If the house sits in good condition and there is no time pressure, that route deserves a serious look. We cannot interpret your trust, tell you whether you may sell, or settle a disagreement among trustees or beneficiaries. An Idaho attorney can."
         ],
         "claims": [
@@ -3806,7 +3806,7 @@ export const guideContent: Record<string, GuideContent> = {
       {
         "heading": "Where we fit, and where we do not",
         "body": [
-          "We buy with our own capital, so a sale to us does not depend on a buyer's lender or on the flood insurance a lender would require. We buy in any condition, purchases close through a local title company, and you choose the closing date. A three-week close is realistic. A sale to us is not one of the disclosure exemptions in Idaho Code 55-2505. You can read [how it works](/how-it-works) or [contact us](/contact).",
+          "We buy houses in flood zones, including in mapped Special Flood Hazard Areas. We buy with our own capital, so a sale to us does not depend on a buyer's lender or on the flood insurance a lender would require. We buy in any condition, purchases close through a local title company, and you choose the closing date. A three-week close is realistic. Whether the disclosure form applies depends on the exemptions listed in Idaho Code 55-2505, and an attorney can tell you whether one fits your transfer. You can read [how it works](/how-it-works) or [contact us](/contact).",
           "A buyer who finances can still buy a house in a flood zone by carrying flood insurance, and an existing NFIP policy can go with the house. If the house is in good shape and you have time, listing it with an agent may bring a higher price. If you are weighing an as-is sale, our page on [selling a house as-is in Idaho](/sell-house-as-is-idaho) explains what that does and does not change."
         ],
         "claims": [
