@@ -1,0 +1,558 @@
+{
+  "claims": [
+    {
+      "id": "sq-6-310a-legislative-intent",
+      "claim": "Idaho Code 6-310A(1) states the legislature's finding that existing remedies for unauthorized persons who unlawfully remain on residential real property fail to adequately protect the owner, and that the section's intent is to quickly restore possession of residential real property to the lawful owner when it is being unlawfully occupied.",
+      "quotedLanguage": "The legislature further finds that existing remedies regarding unauthorized persons who unlawfully remain on residential real property fail to adequately protect the rights of the property owner and fail to adequately discourage theft and vandalism. The intent of this section is to quickly restore possession of residential real property to the lawful owner of the property when the property is being unlawfully occupied",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Statement of legislative findings and intent, not an operative rule. Do not turn 'quickly' into a day count; the statute gives none. The operative conditions are in subsection (2) (existing claim id-6-310a-remove-unauthorized-persons)."
+    },
+    {
+      "id": "sq-6-310a-verified-complaint",
+      "claim": "To use Idaho Code 6-310A, the owner or authorized agent must present a completed and verified 'Complaint to Remove Persons Unlawfully Occupying Residential Real Property' to the sheriff of the county where the property is located, in substantially the form the statute prints, declaring each statement under penalty of perjury.",
+      "quotedLanguage": "the property owner or the owner's authorized agent must submit a complaint by presenting a completed and verified \"Complaint to Remove Persons Unlawfully Occupying Residential Real Property\" to the sheriff of the county in which the real property is located. The submitted complaint must be in substantially the following form ... I HAVE READ EVERY STATEMENT MADE IN THIS PETITION AND EACH STATEMENT IS TRUE AND CORRECT. I UNDERSTAND THAT THE STATEMENTS MADE IN THIS PETITION ARE BEING MADE UNDER PENALTY OF PERJURY.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The complaint goes to the county sheriff, not to a court. The statute prints the form; we did not find an Ada County Sheriff page offering it. Never tell a reader to fill it in; describe it."
+    },
+    {
+      "id": "sq-6-310a-complaint-lease-fraudulent-not-coowners",
+      "claim": "The statutory complaint form under Idaho Code 6-310A requires the owner to declare that the occupants are not current or former tenants under any valid lease authorized by the owner and that any lease an occupant produces is fraudulent, and that the occupants are not owners or co-owners and have not been listed on title unless they engaged in title fraud.",
+      "quotedLanguage": "The person or persons are not current or former tenants pursuant to any valid lease authorized by the property owner, and any lease that may be produced by an occupant is fraudulent. ... The unauthorized person or persons sought to be removed are not owners or co-owners of the property and have not been listed on the title to the property unless the person or persons have engaged in title fraud.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Box 8 (not co-owners) appears in the printed form but is not one of the eight subsection (2) conditions. Present it as a form statement. Important for inherited houses where a relative may be a co-heir or co-owner: never say whether a given relative is a co-owner."
+    },
+    {
+      "id": "sq-6-310a-complaint-purchase-date-and-id",
+      "claim": "The statutory complaint form under Idaho Code 6-310A includes a statement that the declarant purchased the property on a stated date, and a statement that a copy of the declarant's valid government-issued identification is attached or, for an agent, documents evidencing authority to act for the owner are attached.",
+      "quotedLanguage": "I purchased the property on ... A copy of my valid government-issued identification is attached, or I am an agent of the property owner, and documents evidencing my authority to act on the property owner's behalf are attached.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The form is worded for an owner who purchased. The statute does not say how an heir or a personal representative completes box 2. Do not interpret; send heirs to an attorney."
+    },
+    {
+      "id": "sq-6-310a-false-statement-liability",
+      "claim": "The 6-310A complaint form has the owner acknowledge that a person removed under the procedure may sue for false statements in the complaint or wrongful use of the procedure, and that the owner may be held liable for actual damages, penalties, costs and reasonable attorney's fees.",
+      "quotedLanguage": "I understand that a person or persons removed from the property pursuant to this procedure may bring a cause of action against me for any false statements made in this complaint, or for wrongfully using this procedure, and that as a result of such action I may be held liable for actual damages, penalties, costs, and reasonable attorney's fees.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Form acknowledgment. Pair with sq-6-310a-wrongful-removal-damages for the statutory remedy."
+    },
+    {
+      "id": "sq-6-310a-sheriff-verifies-serves",
+      "claim": "Under Idaho Code 6-310A(4), on receipt of the complaint the sheriff verifies that the person submitting it is the record owner or the owner's authorized agent and appears otherwise entitled to relief; if verified, the sheriff serves a notice to immediately vacate on all unlawful occupants, by hand delivery or by posting on the front door or entrance, and puts the owner in possession. The sheriff may arrest any person found in the dwelling for trespass, outstanding warrants or other legal cause if appropriate.",
+      "quotedLanguage": "Upon receipt of the complaint, the sheriff shall verify that the person submitting the complaint is the record owner of the real property or the authorized agent of the owner and appears otherwise entitled to relief pursuant to the provisions of this section. If verified, the sheriff shall, without delay, serve a notice to immediately vacate on all the unlawful occupants and shall put the owner in possession of the real property. Service may be accomplished by hand delivery of the notice to an occupant or by posting the notice on the front door or entrance of the dwelling. ... If appropriate, the sheriff may arrest any person found in the dwelling for trespass, outstanding warrants, or any other legal cause.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'Record owner' is the statute's word. Where title is still in a decedent's name, whether the heir is the record owner is a legal question; do not answer it. 'Without delay' is not a day count. Arrest is discretionary ('may', 'if appropriate')."
+    },
+    {
+      "id": "sq-6-310a-fee-and-standby",
+      "claim": "Idaho Code 6-310A(5) entitles the sheriff to the same fee for serving the notice to immediately vacate as for serving a writ of restitution. After service, the owner or agent may ask the sheriff to stand by to keep the peace while the owner changes the locks and moves the occupants' personal property to or near the property line; the sheriff may charge a reasonable hourly rate, which the requester pays.",
+      "quotedLanguage": "The sheriff is entitled to the same fee for service of the notice to immediately vacate as if the sheriff were serving a writ of restitution. After the sheriff serves the notice to immediately vacate, the property owner or authorized agent may request that the sheriff stand by to keep the peace while the property owner or agent of the owner changes the locks and removes the personal property of the unlawful occupants from the premises to or near the property line. When such a request is made, the sheriff may charge a reasonable hourly rate, and the person requesting the sheriff to stand by and keep the peace is responsible for paying the reasonable hourly rate set by the sheriff.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "fees"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Lock changes and moving belongings come AFTER the sheriff serves the notice, under this section only. Never present as permission for self-help before that. The hourly standby rate is not stated in any Ada County page read."
+    },
+    {
+      "id": "sq-6-310a-owner-not-liable-unless-wrongful",
+      "claim": "Idaho Code 6-310A(5) provides that the sheriff is not liable for loss, destruction or damage of property, and that the owner or agent is not liable to an unlawful occupant or any other party for loss, destruction or damage to the personal property unless the removal was wrongful.",
+      "quotedLanguage": "The sheriff is not liable to the unlawful occupant or any other party for loss, destruction, or damage of property. The property owner or the owner's authorized agent is not liable to an unlawful occupant or any other party for the loss, destruction, or damage to the personal property unless the removal was wrongful.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Always state with 'unless the removal was wrongful'. Do not write 'owners are not liable'."
+    },
+    {
+      "id": "sq-6-310a-wrongful-removal-damages",
+      "claim": "Under Idaho Code 6-310A(6), a person may sue for wrongful removal; a person harmed by a wrongful removal may be restored to possession and may recover actual costs and damages, statutory damages equal to triple the fair market rent of the dwelling, court costs and reasonable attorney's fees, and the court shall advance the cause on the calendar.",
+      "quotedLanguage": "A person may bring a civil cause of action for wrongful removal under this section. A person harmed by a wrongful removal under this section may be restored to possession of the real property and may recover actual costs and damages incurred, statutory damages equal to triple the fair market rent of the dwelling, court costs, and reasonable attorney's fees. The court shall advance the cause on the calendar.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "State the remedy as written; do not predict whether any removal is wrongful."
+    },
+    {
+      "id": "sq-6-310a-arrest-authority-preserved",
+      "claim": "Idaho Code 6-310A(7) states that the section does not limit the rights of a property owner or the authority of a law enforcement officer to arrest an unlawful occupant for trespassing, vandalism, theft or other crimes.",
+      "quotedLanguage": "The provisions of this section shall not limit the rights of a property owner or limit the authority of a law enforcement officer to arrest an unlawful occupant for trespassing, vandalism, theft, or other crimes.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Preserves law-enforcement authority; does not itself authorize owner self-help. 'Rights of a property owner' is undefined here; do not expand it."
+    },
+    {
+      "id": "sq-forcible-detainer-absence",
+      "claim": "Idaho Code 6-302(2) defines forcible detainer to include a person who, during the absence of the occupant or property owner, unlawfully enters real property and, after demand for its surrender, refuses to surrender it; for this purpose the occupant is one who, within five days before the unlawful entry, was in peaceable and undisturbed possession, regardless of whether the property was inhabited.",
+      "quotedLanguage": "Who during the absence of the occupant or property owner of any lands, unlawfully enters upon real property, and who, after demand made for the surrender thereof, refuses to surrender the same to such former occupant or property owner. The occupant of real property, within the meaning of this subdivision, is one who, within five (5) days preceding such unlawful entry, was in the peaceable and undisturbed possession of such lands, regardless of whether the property was inhabited by the occupant of real property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-302"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(6-302) C.C.P. 1881, sec. 796; R.S., R.C., & C.L., sec. 5092; C.S., sec. 7321; I.C.A., sec. 9-302; am. 2017, ch. 276, sec. 1, p. 724.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Chapter 3 is a civil chapter (forcible entry and unlawful detainer). 'Guilty of a forcible detainer' is the statute's wording; do not call it a crime. The five-day window is part of the definition of 'occupant', not a deadline for the owner to act. Sections on how a forcible detainer case is filed (other than 6-311A) were not read."
+    },
+    {
+      "id": "sq-unlawful-detainer-tenant",
+      "claim": "Idaho Code 6-303 defines unlawful detainer by reference to a tenant of real property: a tenant is guilty of unlawful detainer when, among other cases, the tenant continues in possession after the term expires without the landlord's permission, or after default in rent and three days' written notice requiring payment or possession.",
+      "quotedLanguage": "A tenant of real property, for a term less than life, is guilty of an unlawful detainer: 1. When he continues in possession, in person or by subtenant, of the property, or any part thereof, after the expiration of the term for which it is let to him, without the permission of his landlord, or the successor in estate of his landlord, if any there be; but in case of a tenancy at will, it must first be terminated by notice, as prescribed in the civil code. 2. Where he continues in possession, in person or by subtenant, without permission of his landlord, or the successor in estate of his landlord, if any there be, after default in the payment of rent, pursuant to the lease or agreement under which the property is held, and three (3) days' notice, in writing, requiring its payment, stating the amount which is due, or possession of the property, shall have been served upon him",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-303"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(6-303) C.C.P. 1881, sec. 797; R.S., R.C., & C.L., sec. 5093; C.S., sec. 7322; I.C.A., sec. 9-303; am. 2001, ch. 203, sec. 1, p. 691; am. 2020, ch. 340, sec. 1, p. 995.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Only subsections 1 and 2 summarised; 3 to 5 also exist (other covenants, assigning/subletting/waste, controlled substances). Do not list 6-303 as the only grounds. The three days is a notice period for the rent default ground only."
+    },
+    {
+      "id": "sq-court-trial-restitution",
+      "claim": "Idaho Code 6-311A provides that an action exclusively for possession of five acres or less for nonpayment of rent, for forcible detainer and certain other grounds is tried by the court without a jury, and that if the court finds the complaint true or judgment is entered by default it renders judgment for restitution of the premises and costs.",
+      "quotedLanguage": "In an action exclusively for possession of a tract of land of five (5) acres or less for the nonpayment of rent or on the grounds that the landlord has reasonable grounds to believe that a person is, or has been, engaged in the unlawful delivery, production, or use of a controlled substance on the leased premises during the term for which the premises are let to the tenant, or for forcible detainer, or if the tenant is a tenant at sufferance pursuant to subsection (11) of section 45-1506 , Idaho Code, the action shall be tried by the court without a jury. ... If the court finds the complaint true or if judgment is rendered by default, it shall render a general judgment against the defendant and in favor of the plaintiff, for restitution of the premises and the costs and disbursements of the action.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure",
+        "judgments"
+      ],
+      "sourceIds": [
+        "idcode-6-311a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-311A, added 1974, ch. 308, sec. 5, p. 1803; am. 1996, ch. 169, sec. 1, p. 553; am. 2001, ch. 203, sec. 4, p. 693; am. 2006, ch. 248, sec. 3, p. 758; am. 2017, ch. 276, sec. 3, p. 725.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Limited to tracts of five acres or less and the listed grounds. Shows that forcible detainer is a court action; it does not say how long a case takes."
+    },
+    {
+      "id": "sq-writ-72-hours-sheriff",
+      "claim": "Idaho Code 6-316(2) provides that when the court finds for the landlord and for possession, a residential tenant has seventy-two hours to remove belongings; the landlord may deliver a writ of restitution or ask the sheriff to deliver it, and after that time and three days after the court's finding the sheriff restores possession by causing immediate removal of the tenant, after which the landlord may, subject to security interests, remove and dispose of remaining property.",
+      "quotedLanguage": "a residential tenant shall have seventy-two (72) hours to remove his belongings from the premises ... The landlord or his agents may deliver a writ of restitution or provide the sheriff with a copy of the writ of restitution and request that the sheriff deliver the writ. ... After the time required for a tenant to remove his belongings under this subsection and three (3) days after the finding of the court, the sheriff shall restore possession of the premises to the plaintiff by causing immediate removal of the tenant, and the landlord or his agents may, subject to any security interests under chapter 9, title 28 , Idaho Code, remove and dispose of all remaining property of the tenant",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-316"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(6-316) C.C.P. 1881, sec. 811; R.S., R.C., & C.L., sec. 5106; C.S., sec. 7335; I.C.A., sec. 9-316; am. 1974, ch. 308, sec. 10, p. 1803; am. 1977, ch. 45, sec. 1, p. 80; am. 2001, ch. 203, sec. 6, p. 694; am. 2020, ch. 340, sec. 3, p. 997.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "These periods run from the court's finding, after a case is filed and tried. Never add them up into a total eviction time. Commercial and five-acre-plus tenants have seven days (not used)."
+    },
+    {
+      "id": "sq-ada-sheriff-eviction-steps",
+      "claim": "The Ada County Sheriff's Civil Division describes general eviction procedure as a written Notice to Vacate served before a summons and complaint for unlawful detainer, then a court summons and complaint, then a court-issued Writ of Restitution that gives the Sheriff's Office the power to remove the tenants, with plaintiffs paying all enforcement costs in advance; it says the process often requires legal advice and its deputies cannot answer legal questions.",
+      "quotedLanguage": "The eviction process can be quite complex and often requires legal advice. The Sheriff's Civil Division deputies are not qualified nor are they authorized to answer legal questions. ... A written Notice to Vacate must first be served on the tenant prior to proceeding to a summons/complaint for unlawful detainer. ... If the tenant refuses to vacate after proper service of the notice, the landlord must proceed to the next step in the eviction process, which is to file a complaint in court for unlawful detainer. ... This court order gives the Sheriff's Office the power to remove defendants/tenants from the property. ... Plaintiffs must pay in advance all costs of enforcement.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "ada-sheriff-civil-process-documents"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'General eviction procedures' for tenants, per the page. It does not mention 6-310A or unauthorized occupants. Do not present it as the squatter procedure."
+    },
+    {
+      "id": "sq-ada-sheriff-no-locks-until-eviction",
+      "claim": "The Ada County Sheriff's Civil Division FAQ answers that a landlord may not move the defendant's property out, and may not change the locks when removing a roommate, until an eviction is completed.",
+      "quotedLanguage": "Can I move the defendant's property out? Not until an eviction is completed. ... Can I change the locks when I kick my roommate out? No, not until an eviction is completed.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "ada-sheriff-civil-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Stated in the eviction context of the FAQ. Use to show self-help is not the route in an eviction. Do not stretch it to the 6-310A standby, which the statute itself allows after service of the notice."
+    },
+    {
+      "id": "sq-ada-sheriff-writ-fee",
+      "claim": "The Ada County Sheriff's Fees and Required Documentation page lists, for restitution of premises, a court-issued Writ of Restitution and 3 copies and a fee of $515 payable to the Ada County Sheriff's Office for service of the writ.",
+      "quotedLanguage": "Restitution of Premises Court issued Writ of Restitution and 3 copies Fees : $515 made payable to the Ada County Sheriff's Office for the service of the writ.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "fees"
+      ],
+      "sourceIds": [
+        "ada-sheriff-civil-fees"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "FAST-CHANGING: fees are set by the county commissioners. The page does not mention 6-310A; the link to the 6-310A notice fee comes only from 6-310A(5) ('same fee ... as if ... serving a writ of restitution'). State both, attributed; do not say the Sheriff's Office has confirmed it charges $515 for a 6-310A notice."
+    },
+    {
+      "id": "sq-ada-sheriff-civil-contact",
+      "claim": "The Ada County Sheriff's Civil Office is at 7180 Barrister Drive, Boise, ID 83704, phone (208) 577-3750, open 8am to 5pm Monday through Friday; the Sheriff's Office lists 208 377 6790 for non-emergency dispatch and says to dial 911 for emergencies only. The Civil Division says it cannot provide legal advice and that only your attorney can advise you.",
+      "quotedLanguage": "The Civil Office is located at 7180 Barrister Drive, Boise, ID 83704. (208) 577-3750 Hours of operation are 8am-5pm, Monday through Friday. ... We cannot provide legal advice. ... Only your attorney can advise you. ... 208 377 6790 (Non-Emergency Dispatch) Dial 911 for emergencies only",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "ada-sheriff-civil-division"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Contact details change; re-check before publication. The Civil Division page does not mention 6-310A."
+    },
+    {
+      "id": "sq-criminal-trespass-enters-or-remains",
+      "claim": "Under Idaho Code 18-7008(2)(a), a person commits criminal trespass, a misdemeanor except as the penalty subsection provides, when entering or remaining on another's real property without permission, knowing or with reason to know presence is not permitted; except under a landlord-tenant relationship, a person has reason to know when failing to depart immediately after being notified by the owner or agent, and property reasonably associated with a residence is also listed.",
+      "quotedLanguage": "A person commits criminal trespass and is guilty of a misdemeanor, except as provided in subsection (3)(a)(i) of this section, when he enters or remains on the real property of another without permission, knowing or with reason to know that his presence is not permitted. A person has reason to know his presence is not permitted when, except under a landlord-tenant relationship, he fails to depart immediately from the real property of another after being notified by the owner or his agent to do so ... (i) The property is reasonably associated with a residence or place of business; ... If no damage of any kind was committed during the trespass and the person accused does not remain if ordered to depart by the owner of the real property or his agent, then the person shall be guilty of an infraction and fined in the amount of three hundred dollars ($300)",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-18-7008"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[18-7008, added 2018, ch. 350, sec. 6, p. 828; am. 2026, ch. 78, sec. 1, p. 323.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Note the express landlord-tenant carve-out. A first offense with no damage where the person does not remain can be an infraction under (3)(a)(i); do not state penalties without that nuance. Charging decisions belong to law enforcement and prosecutors; never predict an arrest."
+    },
+    {
+      "id": "sq-trespass-tenant-lease-excluded",
+      "claim": "Idaho Code 18-7008(6) provides that a person is not guilty of trespass for entering or remaining under an established right of entry or occupancy, including a lease, easement, contract, privilege or other legal right to possess or use the property, and subsection (7) gives a tenant under a valid lease as an example.",
+      "quotedLanguage": "A person shall not be guilty of trespass under this section for entering or remaining upon real property if the person entered or remained on the property pursuant to any of the following rights or authorities: (a) An established right of entry or occupancy of the real property in question, including, but not limited to: ... (iii) A lease, easement, contract, privilege or other legal right to enter, remain upon, possess or use the real property; ... a tenant pursuant to a valid lease;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants"
+      ],
+      "sourceIds": [
+        "idcode-18-7008"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[18-7008, added 2018, ch. 350, sec. 6, p. 828; am. 2026, ch. 78, sec. 1, p. 323.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Supports the point that a tenant dispute is a civil eviction matter, not a trespass matter. Do not decide whether any document an occupant holds is a valid lease."
+    },
+    {
+      "id": "sq-trespass-owner-may-revoke-permission",
+      "claim": "Idaho Code 18-7008(5) provides that, subject to the rights and authorities in subsection (6), a landowner or agent may revoke permission to enter or remain at any time, for any reason, orally, in writing or by any other form of notice reasonably apparent to the permitted person.",
+      "quotedLanguage": "Subject to any rights or authorities described in subsection (6) of this section, a landowner or his agent may revoke permission granted under this section to another to enter or remain upon his property at any time, for any reason, orally, in writing, or by any other form of notice reasonably apparent to the permitted person or persons.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-18-7008"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[18-7008, added 2018, ch. 350, sec. 6, p. 828; am. 2026, ch. 78, sec. 1, p. 323.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'Subject to' subsection (6): revocation does not override a lease or other legal right of occupancy. Do not use for a guest who has become a tenant; that question is for an attorney."
+    },
+    {
+      "id": "sq-adverse-possession-oral-20-years-taxes",
+      "claim": "Idaho Code 5-210 provides that, for adverse possession by a person claiming title not founded on a written instrument, judgment or decree, land counts as possessed only where protected by a substantial enclosure or usually cultivated or improved; adverse possession is not established unless the land has been occupied and claimed for twenty years continuously and the claimants and predecessors have paid all state, county or municipal taxes levied on it; the claimant must present clear and convincing evidence.",
+      "quotedLanguage": "For the purpose of constituting an adverse possession, by a person claiming title not founded upon a written instrument, judgment or decree, land is deemed to have been possessed and occupied in the following cases only: (1) Where it has been protected by a substantial enclosure. (2) Where it has been usually cultivated or improved. Provided, however, that in no case shall adverse possession be considered established under the provisions of any sections of this code unless it shall be shown that the land has been occupied and claimed for the period of twenty (20) years continuously, and the party or persons, their predecessors and grantors, have paid all the taxes, state, county or municipal, which have been levied and assessed upon such land according to law. ... Provided further, that for purposes of establishing adverse possession pursuant to this section, a person claiming adverse possession must present clear and convincing evidence that the requirements of subsection (1) or (2) of this section have been met.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-5-210"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(5-210) C.C.P. 1881, sec. 150; R.S., R.C., & C.L., sec. 4043; C.S., sec. 6603; I.C.A., sec. 5-210; am. 2001, ch. 290, sec. 2, p. 1028; am. 2006, ch. 158, sec. 5, p. 475.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The twenty years and the tax requirement apply 'in no case ... under the provisions of any sections of this code', so they reach the written-claim route too. State all elements; never say whether any occupant does or does not meet them. Case law on 'claim of right' and hostility was not researched. Also contains a recorded-instrument exception (not used)."
+    },
+    {
+      "id": "sq-adverse-possession-written-claim-20-years",
+      "claim": "Idaho Code 5-207 provides that where an occupant entered under a claim of title founded on a written instrument as a conveyance, or on a court decree or judgment, and there has been continued occupation and possession for twenty years, the property included is deemed held adversely.",
+      "quotedLanguage": "When it appears that the occupant, or those under whom he claims, entered into the possession of the property under claim of title, exclusive of other right, founding such claim upon a written instrument, as being a conveyance of the property in question, or upon the decree or judgment of a competent court, and that there has been a continued occupation and possession of the property included in such instrument, decree or judgment, or of some part of the property under such claim, for twenty (20) years, the property so included is deemed to have been held adversely",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-5-207"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(5-207) C.C.P. 1881, sec. 147; R.S., R.C., & C.L., sec. 4040; C.S., sec. 6600; I.C.A., sec. 5-207; am. 2006, ch. 158, sec. 4, p. 475.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Same twenty-year period as 5-210. 5-210's tax-payment proviso is worded to apply under any section of the code."
+    },
+    {
+      "id": "sq-legal-title-presumption",
+      "claim": "Idaho Code 5-206 provides that in an action to recover real property or its possession, a person establishing legal title is presumed to have possessed it within the time required by law, and another's occupation is deemed subordinate to the legal title unless the property has been held adversely to that title for twenty years before the action began.",
+      "quotedLanguage": "In every action for the recovery of real property, or the possession thereof, a person establishing a legal title to the property is presumed to have been possessed thereof within the time required by law, and the occupation of the property by another person is deemed to have been under and in subordination to the legal title, unless it appears that the property has been held and possessed adversely to such legal title, for twenty (20) years before the commencement of the action.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-5-206"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(5-206) C.C.P. 1881, sec. 146; R.S., R.C., & C.L., sec. 4039; C.S., sec. 6599; I.C.A., sec. 5-206; am. 2006, ch. 158, sec. 3, p. 474.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "A presumption in favour of the title holder in court; state it as such, no predictions."
+    }
+  ]
+}

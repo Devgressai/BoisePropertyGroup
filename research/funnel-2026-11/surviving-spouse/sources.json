@@ -1,0 +1,192 @@
+{
+  "sources": [
+    {
+      "id": "idcode-15-3-101",
+      "title": "Idaho Code § 15-3-101 — Devolution of estate at death; restrictions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-101/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "community-property",
+        "inheritance"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2014",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-decedent-community-share-devolves"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-2-102",
+      "title": "Idaho Code § 15-2-102 — Share of the spouse (intestate succession)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch2/sect15-2-102/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "intestacy",
+        "community-property"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2001",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-intestate-spouse-share-community-and-separate"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-6-401",
+      "title": "Idaho Code § 15-6-401 — Community property with right of survivorship in real property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch6/sect15-6-401/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "community-property",
+        "survivorship"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-cpwros-transfers-to-surviving-spouse"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-6-402",
+      "title": "Idaho Code § 15-6-402 — Termination of community property with right of survivorship in real property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch6/sect15-6-402/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "community-property",
+        "survivorship",
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-cpwros-termination-affidavit-and-divorce"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-104",
+      "title": "Idaho Code § 55-104 — Interests in common",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch1/sect55-104/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "joint-tenancy"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-interest-in-common-unless-declared-joint"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-508",
+      "title": "Idaho Code § 55-508 — Cointerests deemed to be in common",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch5/sect55-508/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "joint-tenancy",
+        "deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-cointerests-in-common-unless-declared"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-1-401",
+      "title": "Idaho Code § 15-1-401 — Notice; method and time of giving",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-401/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "notice"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1973",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-probate-notice-fourteen-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

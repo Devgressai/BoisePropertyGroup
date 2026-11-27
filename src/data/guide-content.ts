@@ -249,7 +249,7 @@ export const guideContent: Record<string, GuideContent> = {
         body: [
           "Idaho Code 6-310A lets a property owner ask the county sheriff to immediately remove people unlawfully occupying a residential dwelling. It is genuinely fast, and it is genuinely narrow — eight conditions must all be met.",
           "Three of them rule out most of what sellers mean by the word squatter. The occupants must not be \"current or former tenants pursuant to a written or oral rental agreement authorized by the property owner.\" They must not be immediate family members of the owner. And there must be no pending litigation about the property between the owner and any known unauthorised occupant.",
-          "A holdover tenant, a relative who will not leave, or anyone you are already in litigation with is outside this section entirely. Those go through ordinary eviction. Treating 6-310A as a shortcut around that process is a mistake, and the Ada County Court Assistance Office is explicit that its own eviction forms cover non-payment only.",
+          "A holdover tenant, a relative who will not leave, or anyone you are already in litigation with is outside this section entirely. The full procedure is in [squatters and unauthorized occupants in Idaho](/guides/squatters-and-unauthorized-occupants-in-idaho). Those go through ordinary eviction. Treating 6-310A as a shortcut around that process is a mistake, and the Ada County Court Assistance Office is explicit that its own eviction forms cover non-payment only.",
         ],
         claims: ["id-6-310a-remove-unauthorized-persons", "ada-eviction-forms-nonpayment-only"],
       },
@@ -2865,6 +2865,387 @@ export const guideContent: Record<string, GuideContent> = {
           "We are not the right route for every seller. If your account is current and the house is in good shape, listing it on the open market may bring you more than a direct sale. We cannot dispute a fee or a fine for you, negotiate with your association, or tell you what your covenants mean. An Idaho attorney can."
         ],
         "claims": []
+      }
+    ]
+  },
+
+  "squatters-and-unauthorized-occupants-in-idaho": {
+    "intro": [
+      "Idaho Code 6-310A lets a property owner or authorized agent ask the county sheriff to remove people unlawfully occupying a residential dwelling, using a verified complaint signed under penalty of perjury. It applies only when eight conditions are all met, and it excludes current or former tenants, the owner's immediate family and anyone the owner is already in litigation with over the property. Those situations go through an eviction in court.",
+      "This page describes what the statutes and the Ada County Sheriff's pages say. It is not legal advice and it is not applied to your situation. We are a direct buyer of property. We cannot tell you whether someone in your house is a tenant, a guest or a trespasser, or which process fits. An Idaho attorney can, and the Ada County Sheriff's Office and your local police handle the law enforcement side."
+    ],
+    "sections": [
+      {
+        "heading": "What does Idaho law treat as an unauthorized occupant?",
+        "body": [
+          "Idaho Code 6-310A covers people who have \"unlawfully entered and remain or continue to reside\" on an owner's property that includes a residential dwelling. The section opens with the legislature's finding that existing remedies \"fail to adequately protect the rights of the property owner,\" and states its intent \"to quickly restore possession of residential real property to the lawful owner of the property when the property is being unlawfully occupied.\" It gives no number of days.",
+          "The statute lists eight conditions, and all of them must be met. The requester must be the owner or the owner's authorized agent. The property must include a residential dwelling. The occupants must have entered unlawfully and remained. The property must not have been open to the public when they entered. The owner must have told them to leave.",
+          "The last three conditions are the ones that most often decide the question. The occupants must not be \"current or former tenants pursuant to a written or oral rental agreement authorized by the property owner.\" They must not be immediate family members of the owner. There must be no pending litigation over the property between the owner and any known occupant.",
+          "A person who once rented the house, even on a spoken agreement, falls outside this section by its own words. So does a relative of the owner. Those cases go through the court eviction process described below."
+        ],
+        "claims": [
+          "id-6-310a-remove-unauthorized-persons",
+          "sq-6-310a-legislative-intent"
+        ]
+      },
+      {
+        "heading": "How does the sheriff removal under Idaho Code 6-310A work?",
+        "body": [
+          "The owner or authorized agent submits a completed and verified \"Complaint to Remove Persons Unlawfully Occupying Residential Real Property\" to the sheriff of the county where the property is located. In Ada County that is the Ada County Sheriff, whichever city the house is in. The statute prints the form. It ends with a declaration that each statement is true and is \"being made under penalty of perjury.\"",
+          "The form has the owner initial a series of statements. They include that the occupants are not current or former tenants under any valid lease the owner authorized, and that \"any lease that may be produced by an occupant is fraudulent.\" They also include that the occupants are not owners or co-owners and are not on the title unless they engaged in title fraud. A copy of government-issued identification, or an agent's proof of authority, must be attached.",
+          "On receiving the complaint, the sheriff verifies that the person submitting it \"is the record owner of the real property or the authorized agent of the owner\" and appears otherwise entitled to relief. If that is verified, the sheriff serves a notice to immediately vacate on all the occupants, by hand delivery or by posting it on the front door or entrance, and puts the owner in possession. The statute says the sheriff \"may arrest any person found in the dwelling for trespass, outstanding warrants, or any other legal cause\" if appropriate.",
+          "The sheriff is entitled to the same fee for this notice as for serving a writ of restitution. The Ada County Sheriff's fee page lists $515 for service of a writ of restitution. That page does not mention 6-310A, so confirm the current charge with the Civil Division at (208) 577-3750. After the notice is served, the owner may ask the sheriff to stand by and keep the peace while the owner changes the locks and moves the occupants' belongings to or near the property line. The sheriff may charge a reasonable hourly rate for that standby, paid by the person who asks for it."
+        ],
+        "claims": [
+          "sq-6-310a-verified-complaint",
+          "sq-6-310a-complaint-lease-fraudulent-not-coowners",
+          "sq-6-310a-complaint-purchase-date-and-id",
+          "sq-6-310a-sheriff-verifies-serves",
+          "sq-6-310a-fee-and-standby",
+          "sq-ada-sheriff-writ-fee",
+          "sq-ada-sheriff-civil-contact"
+        ]
+      },
+      {
+        "heading": "What if the house is inherited or the title is not in your name yet?",
+        "body": [
+          "The statute ties this process to ownership of record. The sheriff checks that the requester is \"the record owner of the real property or the authorized agent of the owner,\" and the form includes a line that reads \"I purchased the property on\" followed by a date. The statute does not say how an heir, a personal representative or a trustee fills in that line.",
+          "When a house is still titled in the name of someone who has died, who counts as the record owner or an authorized agent is a legal question. The form also asks the owner to declare that the occupants are not owners or co-owners and are not immediate family. In an inherited house a relative may be one or the other. An Idaho attorney should answer these points before anyone signs a declaration under penalty of perjury. Our guides on [selling an inherited house](/guides/selling-an-inherited-house-in-idaho) and [probate](/guides/selling-a-house-in-probate-in-idaho) cover selling after an owner has died."
+        ],
+        "claims": [
+          "sq-6-310a-sheriff-verifies-serves",
+          "sq-6-310a-complaint-purchase-date-and-id",
+          "sq-6-310a-complaint-lease-fraudulent-not-coowners",
+          "id-6-310a-remove-unauthorized-persons"
+        ]
+      },
+      {
+        "heading": "What happens if the 6-310A process is used wrongly?",
+        "body": [
+          "A person removed under the section can sue the owner. The complaint form itself has the owner acknowledge that a removed person \"may bring a cause of action against me for any false statements made in this complaint, or for wrongfully using this procedure,\" and that the owner may be held liable for actual damages, penalties, costs and reasonable attorney's fees.",
+          "Subsection (6) sets out the remedy. A person harmed by a wrongful removal may be restored to possession and may recover actual costs and damages, \"statutory damages equal to triple the fair market rent of the dwelling,\" court costs and reasonable attorney's fees. The court must advance the case on its calendar.",
+          "The statute also says the owner is not liable to an occupant for loss of or damage to personal property \"unless the removal was wrongful.\" That protection depends on the removal being proper in the first place."
+        ],
+        "claims": [
+          "sq-6-310a-false-statement-liability",
+          "sq-6-310a-wrongful-removal-damages",
+          "sq-6-310a-owner-not-liable-unless-wrongful"
+        ]
+      },
+      {
+        "heading": "How is removing an unauthorized occupant different from evicting a tenant?",
+        "body": [
+          "Evicting a tenant is a court case. Idaho Code 6-303 defines unlawful detainer in terms of \"a tenant of real property.\" Its grounds include staying after the lease term ends without the landlord's permission, and staying after a rent default once three days' written notice requiring payment or possession has been served. For a tenancy at will, the statute says it must first be terminated by notice.",
+          "The Ada County Sheriff's Civil Division describes the general steps. A written Notice to Vacate is served first. If the tenant does not leave, the landlord files a complaint in court for unlawful detainer and has the tenant served with a summons. If the landlord wins, the court issues a writ of restitution, which \"gives the Sheriff's Office the power to remove defendants/tenants from the property.\" Plaintiffs pay enforcement costs in advance. The same page says the process \"often requires legal advice\" and that its deputies cannot answer legal questions.",
+          "Under Idaho Code 6-316, once the court finds for the landlord, a residential tenant has seventy-two hours to remove belongings. After that time and three days after the court's finding, the sheriff restores possession. These periods start only after a case has been filed and decided.",
+          "Chapter 3 also covers some occupants who were never tenants. Idaho Code 6-302 defines forcible detainer to include a person who, \"during the absence of the occupant or property owner,\" unlawfully enters real property and refuses to surrender it after a demand. Idaho Code 6-311A says a forcible detainer action on five acres or less is tried by the court without a jury and ends, if the complaint is found true, in a judgment for restitution of the premises.",
+          "The Ada County Court Assistance Office's self-help eviction forms cover only a tenant who has not paid rent. For a holdover, a former tenant or anything else, an attorney is the practical starting point. Our guide to [selling a rental with tenants](/guides/selling-a-rental-with-tenants-in-idaho) covers occupied rentals."
+        ],
+        "claims": [
+          "sq-unlawful-detainer-tenant",
+          "sq-ada-sheriff-eviction-steps",
+          "sq-writ-72-hours-sheriff",
+          "sq-forcible-detainer-absence",
+          "sq-court-trial-restitution",
+          "ada-eviction-forms-nonpayment-only"
+        ]
+      },
+      {
+        "heading": "Can you change the locks or remove their belongings yourself?",
+        "body": [
+          "The sources describe lock changes and removal of belongings only as steps that follow a sheriff's action. Under 6-310A, the owner changes the locks and moves the occupants' property after the sheriff has served the notice to immediately vacate, with the sheriff standing by on request.",
+          "In an eviction, the Ada County Sheriff's Civil Division FAQ answers both questions the same way. Asked whether a landlord can move the defendant's property out, it says: \"Not until an eviction is completed.\" Asked whether someone can change the locks when removing a roommate, it says: \"No, not until an eviction is completed.\"",
+          "We do not suggest any step outside these processes. If you are unsure which process applies, ask an Idaho attorney before acting."
+        ],
+        "claims": [
+          "sq-6-310a-fee-and-standby",
+          "sq-ada-sheriff-no-locks-until-eviction"
+        ]
+      },
+      {
+        "heading": "When is an unauthorized occupant committing criminal trespass?",
+        "body": [
+          "Idaho Code 18-7008 makes it criminal trespass to enter or remain on another person's real property without permission, \"knowing or with reason to know that his presence is not permitted.\" It is a misdemeanor, with an infraction for some first offenses. The statute says a person has reason to know \"when, except under a landlord-tenant relationship, he fails to depart immediately\" after being told to leave by the owner or the owner's agent. Property \"reasonably associated with a residence\" is also listed.",
+          "The same section says a person is not guilty of trespass when there under a lease, contract or other legal right to possess or use the property, and it gives \"a tenant pursuant to a valid lease\" as an example. An owner may revoke permission to enter or remain at any time, subject to those rights.",
+          "Idaho Code 6-310A states that it does not limit \"the authority of a law enforcement officer to arrest an unlawful occupant for trespassing, vandalism, theft, or other crimes.\" Whether to arrest or charge is a decision for law enforcement and prosecutors. In Ada County the Sheriff's Office lists 208 377 6790 for non-emergency dispatch and says to dial 911 for emergencies only."
+        ],
+        "claims": [
+          "sq-criminal-trespass-enters-or-remains",
+          "sq-trespass-tenant-lease-excluded",
+          "sq-trespass-owner-may-revoke-permission",
+          "sq-6-310a-arrest-authority-preserved",
+          "sq-ada-sheriff-civil-contact"
+        ]
+      },
+      {
+        "heading": "Can a squatter gain ownership through adverse possession in Idaho?",
+        "body": [
+          "Idaho's adverse possession statutes require twenty years and payment of the property taxes. Idaho Code 5-210 says that \"in no case\" is adverse possession established unless the land \"has been occupied and claimed for the period of twenty (20) years continuously,\" and the claimants and their predecessors \"have paid all the taxes, state, county or municipal, which have been levied and assessed upon such land according to law.\"",
+          "For a claim not based on a written instrument, judgment or decree, 5-210 counts land as possessed only where it \"has been protected by a substantial enclosure\" or \"has been usually cultivated or improved.\" The claimant must present clear and convincing evidence of those requirements. Idaho Code 5-207 separately covers a claim founded on a written instrument or court decree, again with twenty years of continued occupation and possession.",
+          "Idaho Code 5-206 adds a presumption in court. A person who establishes legal title is presumed to have possessed the property, and another person's occupation is treated as subordinate to that title, unless the property has been held adversely for twenty years before the action began. We do not say whether any occupant meets these requirements. Only a court decides an adverse possession claim, and an attorney can tell you what one would involve."
+        ],
+        "claims": [
+          "sq-adverse-possession-oral-20-years-taxes",
+          "sq-adverse-possession-written-claim-20-years",
+          "sq-legal-title-presumption"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy with our own capital, in any condition, and purchases close through a local title company on a date the seller chooses. A three-week close is realistic. We cannot remove anyone from a property, sign a complaint for you, or tell you which process applies. Whether a sale can go ahead while someone is in the house is a question for your attorney and the title company. You can [contact us](/contact) to talk through timing once you know where things stand.",
+          "If the occupants leave and the house is in good shape, listing it with an agent may serve you better than a direct sale. If the people in the house are tenants, the eviction route and the rental guide apply instead of 6-310A. An Idaho attorney is the right first call in either case."
+        ],
+        "claims": []
+      }
+    ]
+  },
+
+  "selling-a-house-after-a-spouse-dies-in-idaho": {
+    "intro": [
+      "When a spouse dies in Idaho, who can sell the house depends on how the deed was written and whether the house was community or separate property. Idaho Code says the deceased spouse's half of community property goes to the surviving spouse when no will directs it elsewhere, and a deed that declares community property with right of survivorship transfers the house to the survivor at death. Where the surviving spouse is the only heir or devisee, Idaho Code 15-3-1205 offers a summary court procedure with no administration of the estate, and the spouse takes on the estate's debts in exchange.",
+      "This page describes what Idaho statutes, Ada County offices and the IRS say. It is not legal or tax advice, and none of it is applied to your house. We are a direct buyer of property. We cannot tell you whether your house was community or separate property, whether your title is ready to sell, or what you will owe in tax. An Idaho attorney and a tax professional can."
+    ],
+    "sections": [
+      {
+        "heading": "Who owns the house after my spouse dies?",
+        "body": [
+          "Under Idaho law the answer starts with whether the house was community property or one spouse's separate property. Idaho Code 32-903 lists separate property as property owned before marriage, property acquired afterward by gift, bequest, devise or descent, and property acquired with the proceeds of separate property. Idaho Code 32-906 makes all other property acquired after marriage community property.",
+          "For community property, Idaho Code 15-3-101 says the deceased spouse's share devolves to the people named in the will or, with no testamentary disposition, to the surviving spouse. The same section makes community property under the decedent's management and control subject to the decedent's debts and to administration.",
+          "With no will, Idaho Code 15-2-102 says the decedent's one-half of community property passes to the surviving spouse. Separate property follows different rules. The surviving spouse takes the entire intestate estate of separate property only if the decedent left no issue and no parent. If the decedent left issue, or left a parent and no issue, the spouse's intestate share of separate property is one-half.",
+          "Which category your house falls into, and whether a will changes the result, are questions for an Idaho attorney. Where part of the house passes to children or other relatives, our guide to [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho) covers heirs who are not a spouse."
+        ],
+        "claims": [
+          "dv-separate-property-defined",
+          "dv-community-property-default",
+          "sv-decedent-community-share-devolves",
+          "sv-intestate-spouse-share-community-and-separate"
+        ]
+      },
+      {
+        "heading": "How does the wording of the deed matter?",
+        "body": [
+          "Idaho treats co-ownership as a tenancy in common unless the deed says otherwise. Idaho Code 55-508 says real estate granted or devised to two or more persons is a tenancy in common unless the grant or devise expressly declares something else. Idaho Code 55-104 makes an interest held by several persons an interest in common unless it was declared a joint interest when created, acquired in partnership, or acquired as community property.",
+          "Idaho Code 15-6-401 creates a form of title called community property with right of survivorship. Real property held that way by a husband and wife transfers to and belongs to the surviving spouse on the death of one spouse. That estate exists only where the grant, transfer or devise expressly declares it.",
+          "A survivorship deed can be ended while both spouses are alive. Under Idaho Code 15-6-402, either spouse may record a sworn affidavit terminating the right of survivorship with the county recorder, and the recording leaves each spouse's community interest in place. A divorce or annulment, unless the court orders otherwise, turns those interests into tenancies in common. A title search shows what was recorded against your house.",
+          "We did not find an Idaho statute or an Ada County page that explains how title is cleared after the death of a joint tenant, or that sets out an affidavit of death for that purpose. The Ada County Recorder lists \"Affidavits in Lieu of Probate\" and \"Order Determining Heirs\" among the document types it holds back from online viewing, but the page does not say what those documents contain or when they are used. The title company handling a sale can tell you what it will require."
+        ],
+        "claims": [
+          "sv-cointerests-in-common-unless-declared",
+          "sv-interest-in-common-unless-declared-joint",
+          "sv-cpwros-transfers-to-surviving-spouse",
+          "sv-cpwros-termination-affidavit-and-divorce",
+          "sv-ada-recorder-lists-affidavits-in-lieu-of-probate"
+        ]
+      },
+      {
+        "heading": "Can I sign the sale paperwork by myself?",
+        "body": [
+          "That depends on what the public record shows about your late spouse's interest, which the title company and an Idaho attorney can check. While both spouses are alive, Idaho Code 32-912 says neither may sell, convey or encumber community real estate unless the other joins in executing the sale agreement, deed or other instrument. The statute reaches the purchase agreement as well as the deed.",
+          "Idaho Code 15-1-305A lists documents that may be recorded with the recorder of the county where the property lies, and from filing they give notice of their contents to everyone. The list includes letters of a personal representative, a determination of heirship, any deed executed by an appointed personal representative, and an affidavit of a successor in interest to property of a decedent. The statute says these may be recorded. It does not say which one your sale needs.",
+          "Ada County's recording fee schedule puts probate deeds and a decree of distribution in the same deed category as warranty and quitclaim deeds, at $15.00 for the first 30 pages. That is the county's fee for recording the document. The Ada County Recorder's FAQ points people to Idaho Vital Statistics for death records."
+        ],
+        "claims": [
+          "dv-both-spouses-join-community-real-estate",
+          "pb-letters-recordable",
+          "sp-rec-ada-notary-and-deed-category",
+          "cl-ada-deed-recording-fee",
+          "sv-ada-recorder-death-records-vital-statistics"
+        ]
+      },
+      {
+        "heading": "Is there a simpler court process for a surviving spouse?",
+        "body": [
+          "Yes, when the surviving spouse is the sole devisee or heir. Idaho Code 15-3-1205 lets the surviving spouse, or a person claiming title through the spouse, file a verified petition setting out the marriage and the death. If the decedent left a will, the original will must go with the petition.",
+          "Notice of the hearing follows Idaho Code 15-1-401. That section calls for mailing or personal delivery at least 14 days before the hearing. Where a person's address or identity cannot be found with reasonable diligence, notice is published once a week for three consecutive weeks, with the last publication at least 10 days before the hearing. The court may set a different method or time for good cause. These are notice periods. They do not say how long a case takes.",
+          "If the hearing shows the marriage and that the spouse is the sole heir or devisee, the court enters a decree to that effect. Under the statute that decree has the same effect as a formal decree approving or determining distribution. The petitioner, the spouse and the attorney need not appear in person. They may appear by telephone on motion, or file affidavits in advance certifying that notice was given and no objection was received.",
+          "The statute attaches a condition. A surviving spouse who elects this procedure assumes and is liable for any and all debts that might be a claim against the decedent's estate, and there is no administration of the estate. The section sets no dollar limit. Whether that condition suits your family is a question for an Idaho attorney."
+        ],
+        "claims": [
+          "sv-summary-admin-petition-will-notice",
+          "pb-surviving-spouse-summary",
+          "sv-probate-notice-fourteen-days",
+          "sv-summary-admin-no-personal-appearance"
+        ]
+      },
+      {
+        "heading": "Can I use a small estate affidavit for the house?",
+        "body": [
+          "Idaho's small estate affidavit is aimed at personal property. Idaho Code 15-3-1201 lets a successor collect debts owed to the decedent, tangible personal property and instruments by affidavit, 30 days after the death, where the probate estate less liens and encumbrances does not exceed $100,000. The section does not mention real property.",
+          "Ada County's Court Assistance Office describes the affidavit as usable where the person who died did not own real estate, and says the affidavit is not filed with the court. If the summary procedure does not fit, the house may need a full probate. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers that process."
+        ],
+        "claims": [
+          "pb-small-estate-affidavit-conditions",
+          "pb-ada-small-estate-affidavit-no-real-estate"
+        ]
+      },
+      {
+        "heading": "What happens to the mortgage when a spouse dies?",
+        "body": [
+          "Federal law limits when a lender can call a home loan due because of a transfer after a death. Under 12 U.S.C. 1701j-3(d), for a loan on residential real property with less than five dwelling units, a lender may not exercise a due-on-sale clause on a transfer by devise, descent or operation of law on the death of a joint tenant, on a transfer to a relative resulting from the borrower's death, or on a transfer where the borrower's spouse or children become an owner.",
+          "That section is about the transfer only. It says nothing about missed payments, and it does not make the surviving spouse a borrower on the loan. Our guide to [inheriting a house with a mortgage in Idaho](/guides/inheriting-a-house-with-a-mortgage-in-idaho) covers the federal servicing rules for successors."
+        ],
+        "claims": [
+          "im-garn-exempt-transfers-on-death"
+        ]
+      },
+      {
+        "heading": "Does the homeowner's exemption continue after my spouse dies?",
+        "body": [
+          "For a time, if the home stays in the estate. Idaho Code 63-602G says a homestead that qualified the previous year keeps its exemption through the year of the owner's death and the following tax year, provided it continues to be part of the owner's estate. After that, the new owner must reapply and meet the qualifications.",
+          "The Ada County Assessor says an approved exemption lasts as long as the owner owns and occupies the property, and that if the property is sold the new owner must file an application. The statute ties the carryover to the estate. It does not say the exemption follows the house to a buyer. The Ada County Assessor can answer questions about whose name the exemption is in."
+        ],
+        "claims": [
+          "pt-homestead-death-carryover",
+          "pt-ada-new-owner-must-apply"
+        ]
+      },
+      {
+        "heading": "Can a surviving spouse still exclude up to $500,000 of gain?",
+        "body": [
+          "IRS Publication 523 (2025 edition) lists a $500,000 maximum exclusion for a surviving spouse who meets four conditions. The home is sold within 2 years of the spouse's death. The surviving spouse has not remarried at the time of the sale. Neither spouse took the exclusion on another home sold less than 2 years before. And the 2-year ownership and residence requirements are met, counting the late spouse's times where they apply. A seller who does not meet them is directed to check eligibility as a single person, and IRS Topic 701 gives that limit as up to $250,000.",
+          "Publication 523 also says a surviving spouse who has not remarried may count time when the late spouse owned and lived in the home, even without the survivor, toward the ownership and residence requirements.",
+          "A death also changes the home's basis, which is the figure gain is measured from. For a home the spouses owned jointly, Publication 523 says the late spouse's interest takes its fair market value on the date of death, the survivor's interest keeps its old basis, and spouses who held as joint tenants with right of survivorship are each treated as owning one-half. For community property, IRS Publication 551 lists Idaho as a community property state and says the total value of the community property, including the survivor's half, generally becomes the basis of the entire property, provided at least half the value is includible in the decedent's gross estate.",
+          "Which of these rules fits your house depends on how it was owned and on your records. A tax professional can work through both before you choose a sale date."
+        ],
+        "claims": [
+          "sv-irs-pub523-surviving-spouse-500k-conditions",
+          "cg-irs-exclusion-250k-500k",
+          "sv-irs-pub523-surviving-spouse-tacking",
+          "sv-irs-pub523-jointly-owned-basis",
+          "cg-irs-community-property-basis"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital. Each purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Because you choose the date, the sale can wait until the title work and any court step are done. You can [contact us](/contact) and describe where things stand.",
+          "A direct sale is not the right fit for every surviving spouse. If the house is in good shape and you have time, listing it on the open market may bring you more. We cannot clear title, file a petition, negotiate with a lender or give tax advice. An Idaho attorney, the title company and a tax professional can."
+        ],
+        "claims": []
+      }
+    ]
+  },
+
+  "selling-a-house-in-a-living-trust-in-idaho": {
+    "intro": [
+      "When an Idaho house is titled in a living trust, the person currently acting as trustee signs the sale. Idaho Code 68-106 gives a trustee the power to sell real estate at public or private sale without court authorization, unless the trust document limits that power. Idaho Code 68-114 lets the trustee show a title company a sworn certification of trust in place of the full trust document, although no one is required to accept it.",
+      "This page describes what Idaho statutes and Ada County offices say. It is not legal or tax advice and it is not applied to your trust or your house. We are a direct buyer of property. We cannot tell you who your trustee is, what your trust allows, or whether any part of an estate needs probate. Your trust document and an Idaho attorney answer those questions."
+    ],
+    "sections": [
+      {
+        "heading": "Who signs when the house is in a living trust?",
+        "body": [
+          "The trustee signs. Idaho law gives the power to sell trust property to the trustee. Idaho's trustee powers are in the Uniform Trustees' Powers Act, Idaho Code 68-104 through 68-113. Idaho Code 15-7-401 points to that act for the powers of trustees.",
+          "Idaho Code 68-106(c)(7) lists the power \"to acquire assets, including real estate, in the name of the trust, and to sell, convey or dispose of an asset, for cash or on credit, at public or private sale.\" Subsection (c)(26) adds the power to execute and deliver all instruments that accomplish or facilitate the trustee's powers. Under 68-106(a), a trustee may act without court authorization from the creation of the trust until final distribution of its assets.",
+          "Two limits travel with that power. Idaho Code 68-105(a) gives the trustee the act's powers \"unless limited in the trust instrument.\" Idaho Code 68-106(b) says the trustee has a duty to act with due regard to the trustee's obligation as a fiduciary. A trust may require a co-trustee's signature, a beneficiary's consent or some other step. Only the trust document tells you which steps apply."
+        ],
+        "claims": [
+          "lt-uniform-trustees-powers-act-scope",
+          "lt-trustee-power-sell-real-estate",
+          "lt-trustee-acts-without-court-prudent-fiduciary",
+          "lt-powers-unless-limited-by-instrument"
+        ]
+      },
+      {
+        "heading": "Can the house be sold while the person who made the trust is alive?",
+        "body": [
+          "Yes. The statute ties the trustee's power to the life of the trust: it runs \"from time of creation of the trust until final distribution of the assets of the trust.\" The act does not make a sale wait for the settlor's death.",
+          "A married couple's trust can add a layer. Idaho Code 32-906A says community property a couple transfers to a revocable trust that meets the section's conditions stays community property during the marriage, unless the trust expressly provides otherwise. The same section says it does not stop the trustee conveying trust property under the trust's terms without a spouse's consent, unless the trust expressly requires that consent. Whether your trust meets those conditions is a question for an attorney.",
+          "Where there are co-trustees, Idaho Code 68-109(a) lets a majority exercise a power vested in three or more trustees. The section does not set a rule for two co-trustees who disagree. A trust document can require every trustee to sign."
+        ],
+        "claims": [
+          "lt-trustee-acts-without-court-prudent-fiduciary",
+          "dv-revocable-trust-community",
+          "lt-cotrustees-majority-and-remaining"
+        ]
+      },
+      {
+        "heading": "Who sells the house after the person who made the trust dies?",
+        "body": [
+          "A successor trustee takes over, and Idaho's act treats a successor as a trustee. Idaho Code 68-104(2) defines a trustee as \"an original, added, or successor trustee.\" The sale power in 68-106 belongs to a successor as it did to the original trustee.",
+          "Idaho Code 68-102 says that when one of several trustees dies, renounces or is discharged, the trust survives to the others. Idaho Code 68-109(b) says the remaining trustees perform the trust and succeed to all the powers given to the trustees jointly. If a trust is left with no trustee at all, Idaho Code 68-101 says the district court of the county where the trust property sits must appoint one.",
+          "A new trustee also owes the beneficiaries information. Idaho Code 15-7-303 requires a trustee to keep the beneficiaries reasonably informed. Within 30 days after accepting the trust, the trustee must tell the current beneficiaries in writing the court in which the trust is registered and the trustee's name and address. On reasonable request, the trustee must give a beneficiary relevant information about the trust's assets and administration. The section is a duty to inform. It does not say beneficiaries must approve a sale, and your trust document may say more."
+        ],
+        "claims": [
+          "lt-uniform-trustees-powers-act-scope",
+          "lt-cotrustees-majority-and-remaining",
+          "lt-court-appoints-when-no-trustee",
+          "lt-duty-to-inform-beneficiaries"
+        ]
+      },
+      {
+        "heading": "What will the title company ask the trustee for?",
+        "body": [
+          "Idaho law gives the trustee a shorter document to offer, and lets the title company ask for more. Under Idaho Code 68-114, a trustee may present a certification of trust to any person in place of a copy of the trust instrument. The certification must be an affidavit signed and acknowledged by all currently acting trustees. The same section says no person is required to accept and rely solely on a certification.",
+          "Idaho Code 68-115 lists what a certification may confirm. The list includes the trust's existence and date, the settlor and each acting trustee, the trustee's powers and restrictions, whether the trust is revocable, whether all co-trustees must act together, and the form in which title is to be taken. Every certification must state that the trust has not been revoked or amended in a way that makes it incorrect, and that the signatures are those of all currently acting trustees.",
+          "Idaho Code 68-116 says a certification need not contain the trust's dispositive provisions, meaning who receives what. The person receiving it may still require copies of the excerpts that name the trustee or give the trustee power to act in the transaction. Under 68-118, a refusal to rely solely on a certification is not an improper act. Under 68-119, the certification sections apply to trusts made under the law of another state as well.",
+          "These rules protect the person on the other side of the deal. Idaho Code 68-117 says a person who relies on a certification without knowing it is incorrect is not liable for doing so. Idaho Code 68-110 lets a third person dealing with a trustee assume the trustee's powers exist and are properly exercised, unless that person has actual knowledge otherwise. Neither section relieves the trustee of duties to the beneficiaries. Our guide to [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho) covers the title company's role."
+        ],
+        "claims": [
+          "lt-certification-of-trust-affidavit",
+          "lt-certification-contents",
+          "lt-certification-excerpts",
+          "lt-refusal-to-rely-not-improper",
+          "lt-certification-reliance",
+          "lt-third-person-protected"
+        ]
+      },
+      {
+        "heading": "Does a house in a living trust skip probate?",
+        "body": [
+          "Idaho's probate code treats a trust agreement's transfer-at-death provision as nontestamentary. Idaho Code 15-6-201(a) says a provision in a trust agreement that property passes at death to a person the decedent designated \"is deemed to be nontestamentary,\" and that the probate code does not invalidate it. Subsection (b) says nothing in the section limits the rights of creditors under other Idaho laws.",
+          "The section does not use the words \"avoids probate\", and it reaches only property that is the subject of the instrument. A house that was never deeded into the trust is not the subject of the trust agreement. Whether any part of an estate needs probate is a question for an Idaho attorney. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers that process.",
+          "The seller disclosure form can also differ. Idaho Code 55-2505(7) exempts a transfer \"by a fiduciary in the course of the administration of a decedent's estate, a guardianship, a conservatorship, or a trust\" from the property condition disclosure requirement. Whether your sale falls within that wording, including a sale by a living person who is trustee of their own trust, is a question for an attorney."
+        ],
+        "claims": [
+          "lt-trust-agreement-nontestamentary",
+          "id-disclosure-exempt-estate-fiduciary"
+        ]
+      },
+      {
+        "heading": "Recording the trustee's deed in Ada County",
+        "body": [
+          "The deed from the trustee to the buyer is recorded with the Ada County Recorder. Idaho Code 55-808 requires an instrument to be recorded by the recorder of the county where the property sits. That holds for every Ada County address, whatever city it is in.",
+          "Idaho Code 55-805 requires a deed's execution to be acknowledged, or proved, before it may be recorded. Under 55-809, an instrument is deemed recorded when it is deposited with the recorder's office for record. Under 55-811, a recorded conveyance is constructive notice of its contents to later purchasers and mortgagees from the time it is filed.",
+          "The Ada County Recorder's fee schedule places trustee deeds in the same deed category as warranty and quitclaim deeds. The Recorder has no blank forms and points people to title companies for them. The Ada County Assessor says its ownership records are based on recordings and that the grantor on a new deed must be named exactly as when title was acquired.",
+          "The Recorder lists \"Affidavits regarding Trusts\" and \"Appointment of Successor Trustee\" among the document types recorded in Ada County and currently blocked from online viewing. The list shows these documents exist in the county's records. It does not say which of them a particular sale needs. The title company handling the closing sets its own requirements."
+        ],
+        "claims": [
+          "cl-record-in-county-where-situated",
+          "cl-acknowledgment-required-to-record",
+          "cl-deemed-recorded-on-deposit",
+          "cl-recorded-conveyance-constructive-notice",
+          "cl-ada-deed-recording-fee",
+          "ada-recorder-no-forms-no-deed-mailed",
+          "ada-assessor-ownership-from-recordings",
+          "lt-ada-recorder-trust-document-types"
+        ]
+      },
+      {
+        "heading": "What happens to the homeowner's exemption on a house in a trust?",
+        "body": [
+          "A trust-owned home can carry the homeowner's exemption. Idaho Code 63-701(7) counts as an owner the beneficiary of a revocable or irrevocable trust that owns the homestead, where the claimant or the claimant's spouse has the primary right of occupancy. Idaho Code 63-602G(2)(d) adopts that definition for the exemption. It lets the beneficiary prove the trust by an affidavit under 63-703(4), with copies of the trust pages showing beneficiary status and the signature pages attached.",
+          "The Ada County Assessor says the exemption need be applied for only once unless something changes, and lists \"properties being transferred into trusts\" among those changes. After a death, Idaho Code 63-602G says a homestead that qualified the year before keeps its qualification through the year of the owner's or beneficiary's death and the following tax year, provided it continues to be part of the decedent's estate. The Assessor's office can say how that applies to a trust-held house.",
+          "A sale is a change of ownership. The Assessor says an approved exemption needs a new application when ownership changes, so the buyer applies for their own. Our guide to [Idaho property taxes when you sell](/guides/idaho-property-taxes-when-you-sell) covers the tax bill itself."
+        ],
+        "claims": [
+          "lt-homestead-owner-includes-trust-beneficiary",
+          "lt-homestead-trust-proof-affidavit",
+          "lt-ada-assessor-reapply-trust-transfer",
+          "pt-homestead-death-carryover",
+          "ada-homeowners-exemption-deadline"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us the house is in a trust when you [contact us](/contact).",
+          "We are not the right route for every trustee. A trustee owes duties to the beneficiaries, and listing the house on the open market may bring the trust more than a direct sale. If the house sits in good condition and there is no time pressure, that route deserves a serious look. We cannot interpret your trust, tell you whether you may sell, or settle a disagreement among trustees or beneficiaries. An Idaho attorney can."
+        ],
+        "claims": [
+          "lt-trustee-acts-without-court-prudent-fiduciary"
+        ]
       }
     ]
   },

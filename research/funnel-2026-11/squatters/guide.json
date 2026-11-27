@@ -1,0 +1,142 @@
+{
+  "guide": {
+    "slug": "squatters-and-unauthorized-occupants-in-idaho",
+    "title": "Squatters and Unauthorized Occupants",
+    "h1": "Squatters and unauthorized occupants in an Idaho house",
+    "description": "What Idaho Code 6-310A lets an owner ask the sheriff to do, who it excludes, how it differs from eviction, and what adverse possession requires.",
+    "cluster": "tenants",
+    "published": "2026-11-26",
+    "updated": "2026-11-26"
+  },
+  "content": {
+    "intro": [
+      "Idaho Code 6-310A lets a property owner or authorized agent ask the county sheriff to remove people unlawfully occupying a residential dwelling, using a verified complaint signed under penalty of perjury. It applies only when eight conditions are all met, and it excludes current or former tenants, the owner's immediate family and anyone the owner is already in litigation with over the property. Those situations go through an eviction in court.",
+      "This page describes what the statutes and the Ada County Sheriff's pages say. It is not legal advice and it is not applied to your situation. We are a direct buyer of property. We cannot tell you whether someone in your house is a tenant, a guest or a trespasser, or which process fits. An Idaho attorney can, and the Ada County Sheriff's Office and your local police handle the law enforcement side."
+    ],
+    "sections": [
+      {
+        "heading": "What does Idaho law treat as an unauthorized occupant?",
+        "body": [
+          "Idaho Code 6-310A covers people who have \"unlawfully entered and remain or continue to reside\" on an owner's property that includes a residential dwelling. The section opens with the legislature's finding that existing remedies \"fail to adequately protect the rights of the property owner,\" and states its intent \"to quickly restore possession of residential real property to the lawful owner of the property when the property is being unlawfully occupied.\" It gives no number of days.",
+          "The statute lists eight conditions, and all of them must be met. The requester must be the owner or the owner's authorized agent. The property must include a residential dwelling. The occupants must have entered unlawfully and remained. The property must not have been open to the public when they entered. The owner must have told them to leave.",
+          "The last three conditions are the ones that most often decide the question. The occupants must not be \"current or former tenants pursuant to a written or oral rental agreement authorized by the property owner.\" They must not be immediate family members of the owner. There must be no pending litigation over the property between the owner and any known occupant.",
+          "A person who once rented the house, even on a spoken agreement, falls outside this section by its own words. So does a relative of the owner. Those cases go through the court eviction process described below."
+        ],
+        "claims": [
+          "id-6-310a-remove-unauthorized-persons",
+          "sq-6-310a-legislative-intent"
+        ]
+      },
+      {
+        "heading": "How does the sheriff removal under Idaho Code 6-310A work?",
+        "body": [
+          "The owner or authorized agent submits a completed and verified \"Complaint to Remove Persons Unlawfully Occupying Residential Real Property\" to the sheriff of the county where the property is located. In Ada County that is the Ada County Sheriff, whichever city the house is in. The statute prints the form. It ends with a declaration that each statement is true and is \"being made under penalty of perjury.\"",
+          "The form has the owner initial a series of statements. They include that the occupants are not current or former tenants under any valid lease the owner authorized, and that \"any lease that may be produced by an occupant is fraudulent.\" They also include that the occupants are not owners or co-owners and are not on the title unless they engaged in title fraud. A copy of government-issued identification, or an agent's proof of authority, must be attached.",
+          "On receiving the complaint, the sheriff verifies that the person submitting it \"is the record owner of the real property or the authorized agent of the owner\" and appears otherwise entitled to relief. If that is verified, the sheriff serves a notice to immediately vacate on all the occupants, by hand delivery or by posting it on the front door or entrance, and puts the owner in possession. The statute says the sheriff \"may arrest any person found in the dwelling for trespass, outstanding warrants, or any other legal cause\" if appropriate.",
+          "The sheriff is entitled to the same fee for this notice as for serving a writ of restitution. The Ada County Sheriff's fee page lists $515 for service of a writ of restitution. That page does not mention 6-310A, so confirm the current charge with the Civil Division at (208) 577-3750. After the notice is served, the owner may ask the sheriff to stand by and keep the peace while the owner changes the locks and moves the occupants' belongings to or near the property line. The sheriff may charge a reasonable hourly rate for that standby, paid by the person who asks for it."
+        ],
+        "claims": [
+          "sq-6-310a-verified-complaint",
+          "sq-6-310a-complaint-lease-fraudulent-not-coowners",
+          "sq-6-310a-complaint-purchase-date-and-id",
+          "sq-6-310a-sheriff-verifies-serves",
+          "sq-6-310a-fee-and-standby",
+          "sq-ada-sheriff-writ-fee",
+          "sq-ada-sheriff-civil-contact"
+        ]
+      },
+      {
+        "heading": "What if the house is inherited or the title is not in your name yet?",
+        "body": [
+          "The statute ties this process to ownership of record. The sheriff checks that the requester is \"the record owner of the real property or the authorized agent of the owner,\" and the form includes a line that reads \"I purchased the property on\" followed by a date. The statute does not say how an heir, a personal representative or a trustee fills in that line.",
+          "When a house is still titled in the name of someone who has died, who counts as the record owner or an authorized agent is a legal question. The form also asks the owner to declare that the occupants are not owners or co-owners and are not immediate family. In an inherited house a relative may be one or the other. An Idaho attorney should answer these points before anyone signs a declaration under penalty of perjury. Our guides on [selling an inherited house](/guides/selling-an-inherited-house-in-idaho) and [probate](/guides/selling-a-house-in-probate-in-idaho) cover selling after an owner has died."
+        ],
+        "claims": [
+          "sq-6-310a-sheriff-verifies-serves",
+          "sq-6-310a-complaint-purchase-date-and-id",
+          "sq-6-310a-complaint-lease-fraudulent-not-coowners",
+          "id-6-310a-remove-unauthorized-persons"
+        ]
+      },
+      {
+        "heading": "What happens if the 6-310A process is used wrongly?",
+        "body": [
+          "A person removed under the section can sue the owner. The complaint form itself has the owner acknowledge that a removed person \"may bring a cause of action against me for any false statements made in this complaint, or for wrongfully using this procedure,\" and that the owner may be held liable for actual damages, penalties, costs and reasonable attorney's fees.",
+          "Subsection (6) sets out the remedy. A person harmed by a wrongful removal may be restored to possession and may recover actual costs and damages, \"statutory damages equal to triple the fair market rent of the dwelling,\" court costs and reasonable attorney's fees. The court must advance the case on its calendar.",
+          "The statute also says the owner is not liable to an occupant for loss of or damage to personal property \"unless the removal was wrongful.\" That protection depends on the removal being proper in the first place."
+        ],
+        "claims": [
+          "sq-6-310a-false-statement-liability",
+          "sq-6-310a-wrongful-removal-damages",
+          "sq-6-310a-owner-not-liable-unless-wrongful"
+        ]
+      },
+      {
+        "heading": "How is removing an unauthorized occupant different from evicting a tenant?",
+        "body": [
+          "Evicting a tenant is a court case. Idaho Code 6-303 defines unlawful detainer in terms of \"a tenant of real property.\" Its grounds include staying after the lease term ends without the landlord's permission, and staying after a rent default once three days' written notice requiring payment or possession has been served. For a tenancy at will, the statute says it must first be terminated by notice.",
+          "The Ada County Sheriff's Civil Division describes the general steps. A written Notice to Vacate is served first. If the tenant does not leave, the landlord files a complaint in court for unlawful detainer and has the tenant served with a summons. If the landlord wins, the court issues a writ of restitution, which \"gives the Sheriff's Office the power to remove defendants/tenants from the property.\" Plaintiffs pay enforcement costs in advance. The same page says the process \"often requires legal advice\" and that its deputies cannot answer legal questions.",
+          "Under Idaho Code 6-316, once the court finds for the landlord, a residential tenant has seventy-two hours to remove belongings. After that time and three days after the court's finding, the sheriff restores possession. These periods start only after a case has been filed and decided.",
+          "Chapter 3 also covers some occupants who were never tenants. Idaho Code 6-302 defines forcible detainer to include a person who, \"during the absence of the occupant or property owner,\" unlawfully enters real property and refuses to surrender it after a demand. Idaho Code 6-311A says a forcible detainer action on five acres or less is tried by the court without a jury and ends, if the complaint is found true, in a judgment for restitution of the premises.",
+          "The Ada County Court Assistance Office's self-help eviction forms cover only a tenant who has not paid rent. For a holdover, a former tenant or anything else, an attorney is the practical starting point. Our guide to [selling a rental with tenants](/guides/selling-a-rental-with-tenants-in-idaho) covers occupied rentals."
+        ],
+        "claims": [
+          "sq-unlawful-detainer-tenant",
+          "sq-ada-sheriff-eviction-steps",
+          "sq-writ-72-hours-sheriff",
+          "sq-forcible-detainer-absence",
+          "sq-court-trial-restitution",
+          "ada-eviction-forms-nonpayment-only"
+        ]
+      },
+      {
+        "heading": "Can you change the locks or remove their belongings yourself?",
+        "body": [
+          "The sources describe lock changes and removal of belongings only as steps that follow a sheriff's action. Under 6-310A, the owner changes the locks and moves the occupants' property after the sheriff has served the notice to immediately vacate, with the sheriff standing by on request.",
+          "In an eviction, the Ada County Sheriff's Civil Division FAQ answers both questions the same way. Asked whether a landlord can move the defendant's property out, it says: \"Not until an eviction is completed.\" Asked whether someone can change the locks when removing a roommate, it says: \"No, not until an eviction is completed.\"",
+          "We do not suggest any step outside these processes. If you are unsure which process applies, ask an Idaho attorney before acting."
+        ],
+        "claims": [
+          "sq-6-310a-fee-and-standby",
+          "sq-ada-sheriff-no-locks-until-eviction"
+        ]
+      },
+      {
+        "heading": "When is an unauthorized occupant committing criminal trespass?",
+        "body": [
+          "Idaho Code 18-7008 makes it criminal trespass to enter or remain on another person's real property without permission, \"knowing or with reason to know that his presence is not permitted.\" It is a misdemeanor, with an infraction for some first offenses. The statute says a person has reason to know \"when, except under a landlord-tenant relationship, he fails to depart immediately\" after being told to leave by the owner or the owner's agent. Property \"reasonably associated with a residence\" is also listed.",
+          "The same section says a person is not guilty of trespass when there under a lease, contract or other legal right to possess or use the property, and it gives \"a tenant pursuant to a valid lease\" as an example. An owner may revoke permission to enter or remain at any time, subject to those rights.",
+          "Idaho Code 6-310A states that it does not limit \"the authority of a law enforcement officer to arrest an unlawful occupant for trespassing, vandalism, theft, or other crimes.\" Whether to arrest or charge is a decision for law enforcement and prosecutors. In Ada County the Sheriff's Office lists 208 377 6790 for non-emergency dispatch and says to dial 911 for emergencies only."
+        ],
+        "claims": [
+          "sq-criminal-trespass-enters-or-remains",
+          "sq-trespass-tenant-lease-excluded",
+          "sq-trespass-owner-may-revoke-permission",
+          "sq-6-310a-arrest-authority-preserved",
+          "sq-ada-sheriff-civil-contact"
+        ]
+      },
+      {
+        "heading": "Can a squatter gain ownership through adverse possession in Idaho?",
+        "body": [
+          "Idaho's adverse possession statutes require twenty years and payment of the property taxes. Idaho Code 5-210 says that \"in no case\" is adverse possession established unless the land \"has been occupied and claimed for the period of twenty (20) years continuously,\" and the claimants and their predecessors \"have paid all the taxes, state, county or municipal, which have been levied and assessed upon such land according to law.\"",
+          "For a claim not based on a written instrument, judgment or decree, 5-210 counts land as possessed only where it \"has been protected by a substantial enclosure\" or \"has been usually cultivated or improved.\" The claimant must present clear and convincing evidence of those requirements. Idaho Code 5-207 separately covers a claim founded on a written instrument or court decree, again with twenty years of continued occupation and possession.",
+          "Idaho Code 5-206 adds a presumption in court. A person who establishes legal title is presumed to have possessed the property, and another person's occupation is treated as subordinate to that title, unless the property has been held adversely for twenty years before the action began. We do not say whether any occupant meets these requirements. Only a court decides an adverse possession claim, and an attorney can tell you what one would involve."
+        ],
+        "claims": [
+          "sq-adverse-possession-oral-20-years-taxes",
+          "sq-adverse-possession-written-claim-20-years",
+          "sq-legal-title-presumption"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy with our own capital, in any condition, and purchases close through a local title company on a date the seller chooses. A three-week close is realistic. We cannot remove anyone from a property, sign a complaint for you, or tell you which process applies. Whether a sale can go ahead while someone is in the house is a question for your attorney and the title company. You can [contact us](/contact) to talk through timing once you know where things stand.",
+          "If the occupants leave and the house is in good shape, listing it with an agent may serve you better than a direct sale. If the people in the house are tenants, the eviction route and the rental guide apply instead of 6-310A. An Idaho attorney is the right first call in either case."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

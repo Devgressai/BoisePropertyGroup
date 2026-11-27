@@ -16207,6 +16207,1338 @@
       "approvedForPublication": true,
       "verifiedOn": "2026-11-26",
       "notes": "CONDOMINIUMS ONLY. Pair with ln-condo-assessment-lien-one-year (expiry). 'Prior to liens recorded LATER' does not mean prior to an earlier-recorded mortgage; never say the condo lien comes ahead of the mortgage."
+    },
+    {
+      "id": "sq-6-310a-legislative-intent",
+      "claim": "Idaho Code 6-310A(1) states the legislature's finding that existing remedies for unauthorized persons who unlawfully remain on residential real property fail to adequately protect the owner, and that the section's intent is to quickly restore possession of residential real property to the lawful owner when it is being unlawfully occupied.",
+      "quotedLanguage": "The legislature further finds that existing remedies regarding unauthorized persons who unlawfully remain on residential real property fail to adequately protect the rights of the property owner and fail to adequately discourage theft and vandalism. The intent of this section is to quickly restore possession of residential real property to the lawful owner of the property when the property is being unlawfully occupied",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Statement of legislative findings and intent, not an operative rule. Do not turn 'quickly' into a day count; the statute gives none. The operative conditions are in subsection (2) (existing claim id-6-310a-remove-unauthorized-persons)."
+    },
+    {
+      "id": "sq-6-310a-verified-complaint",
+      "claim": "To use Idaho Code 6-310A, the owner or authorized agent must present a completed and verified 'Complaint to Remove Persons Unlawfully Occupying Residential Real Property' to the sheriff of the county where the property is located, in substantially the form the statute prints, declaring each statement under penalty of perjury.",
+      "quotedLanguage": "the property owner or the owner's authorized agent must submit a complaint by presenting a completed and verified \"Complaint to Remove Persons Unlawfully Occupying Residential Real Property\" to the sheriff of the county in which the real property is located. The submitted complaint must be in substantially the following form ... I HAVE READ EVERY STATEMENT MADE IN THIS PETITION AND EACH STATEMENT IS TRUE AND CORRECT. I UNDERSTAND THAT THE STATEMENTS MADE IN THIS PETITION ARE BEING MADE UNDER PENALTY OF PERJURY.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The complaint goes to the county sheriff, not to a court. The statute prints the form; we did not find an Ada County Sheriff page offering it. Never tell a reader to fill it in; describe it."
+    },
+    {
+      "id": "sq-6-310a-complaint-lease-fraudulent-not-coowners",
+      "claim": "The statutory complaint form under Idaho Code 6-310A requires the owner to declare that the occupants are not current or former tenants under any valid lease authorized by the owner and that any lease an occupant produces is fraudulent, and that the occupants are not owners or co-owners and have not been listed on title unless they engaged in title fraud.",
+      "quotedLanguage": "The person or persons are not current or former tenants pursuant to any valid lease authorized by the property owner, and any lease that may be produced by an occupant is fraudulent. ... The unauthorized person or persons sought to be removed are not owners or co-owners of the property and have not been listed on the title to the property unless the person or persons have engaged in title fraud.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Box 8 (not co-owners) appears in the printed form but is not one of the eight subsection (2) conditions. Present it as a form statement. Important for inherited houses where a relative may be a co-heir or co-owner: never say whether a given relative is a co-owner."
+    },
+    {
+      "id": "sq-6-310a-complaint-purchase-date-and-id",
+      "claim": "The statutory complaint form under Idaho Code 6-310A includes a statement that the declarant purchased the property on a stated date, and a statement that a copy of the declarant's valid government-issued identification is attached or, for an agent, documents evidencing authority to act for the owner are attached.",
+      "quotedLanguage": "I purchased the property on ... A copy of my valid government-issued identification is attached, or I am an agent of the property owner, and documents evidencing my authority to act on the property owner's behalf are attached.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The form is worded for an owner who purchased. The statute does not say how an heir or a personal representative completes box 2. Do not interpret; send heirs to an attorney."
+    },
+    {
+      "id": "sq-6-310a-false-statement-liability",
+      "claim": "The 6-310A complaint form has the owner acknowledge that a person removed under the procedure may sue for false statements in the complaint or wrongful use of the procedure, and that the owner may be held liable for actual damages, penalties, costs and reasonable attorney's fees.",
+      "quotedLanguage": "I understand that a person or persons removed from the property pursuant to this procedure may bring a cause of action against me for any false statements made in this complaint, or for wrongfully using this procedure, and that as a result of such action I may be held liable for actual damages, penalties, costs, and reasonable attorney's fees.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Form acknowledgment. Pair with sq-6-310a-wrongful-removal-damages for the statutory remedy."
+    },
+    {
+      "id": "sq-6-310a-sheriff-verifies-serves",
+      "claim": "Under Idaho Code 6-310A(4), on receipt of the complaint the sheriff verifies that the person submitting it is the record owner or the owner's authorized agent and appears otherwise entitled to relief; if verified, the sheriff serves a notice to immediately vacate on all unlawful occupants, by hand delivery or by posting on the front door or entrance, and puts the owner in possession. The sheriff may arrest any person found in the dwelling for trespass, outstanding warrants or other legal cause if appropriate.",
+      "quotedLanguage": "Upon receipt of the complaint, the sheriff shall verify that the person submitting the complaint is the record owner of the real property or the authorized agent of the owner and appears otherwise entitled to relief pursuant to the provisions of this section. If verified, the sheriff shall, without delay, serve a notice to immediately vacate on all the unlawful occupants and shall put the owner in possession of the real property. Service may be accomplished by hand delivery of the notice to an occupant or by posting the notice on the front door or entrance of the dwelling. ... If appropriate, the sheriff may arrest any person found in the dwelling for trespass, outstanding warrants, or any other legal cause.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'Record owner' is the statute's word. Where title is still in a decedent's name, whether the heir is the record owner is a legal question; do not answer it. 'Without delay' is not a day count. Arrest is discretionary ('may', 'if appropriate')."
+    },
+    {
+      "id": "sq-6-310a-fee-and-standby",
+      "claim": "Idaho Code 6-310A(5) entitles the sheriff to the same fee for serving the notice to immediately vacate as for serving a writ of restitution. After service, the owner or agent may ask the sheriff to stand by to keep the peace while the owner changes the locks and moves the occupants' personal property to or near the property line; the sheriff may charge a reasonable hourly rate, which the requester pays.",
+      "quotedLanguage": "The sheriff is entitled to the same fee for service of the notice to immediately vacate as if the sheriff were serving a writ of restitution. After the sheriff serves the notice to immediately vacate, the property owner or authorized agent may request that the sheriff stand by to keep the peace while the property owner or agent of the owner changes the locks and removes the personal property of the unlawful occupants from the premises to or near the property line. When such a request is made, the sheriff may charge a reasonable hourly rate, and the person requesting the sheriff to stand by and keep the peace is responsible for paying the reasonable hourly rate set by the sheriff.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "fees"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Lock changes and moving belongings come AFTER the sheriff serves the notice, under this section only. Never present as permission for self-help before that. The hourly standby rate is not stated in any Ada County page read."
+    },
+    {
+      "id": "sq-6-310a-owner-not-liable-unless-wrongful",
+      "claim": "Idaho Code 6-310A(5) provides that the sheriff is not liable for loss, destruction or damage of property, and that the owner or agent is not liable to an unlawful occupant or any other party for loss, destruction or damage to the personal property unless the removal was wrongful.",
+      "quotedLanguage": "The sheriff is not liable to the unlawful occupant or any other party for loss, destruction, or damage of property. The property owner or the owner's authorized agent is not liable to an unlawful occupant or any other party for the loss, destruction, or damage to the personal property unless the removal was wrongful.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Always state with 'unless the removal was wrongful'. Do not write 'owners are not liable'."
+    },
+    {
+      "id": "sq-6-310a-wrongful-removal-damages",
+      "claim": "Under Idaho Code 6-310A(6), a person may sue for wrongful removal; a person harmed by a wrongful removal may be restored to possession and may recover actual costs and damages, statutory damages equal to triple the fair market rent of the dwelling, court costs and reasonable attorney's fees, and the court shall advance the cause on the calendar.",
+      "quotedLanguage": "A person may bring a civil cause of action for wrongful removal under this section. A person harmed by a wrongful removal under this section may be restored to possession of the real property and may recover actual costs and damages incurred, statutory damages equal to triple the fair market rent of the dwelling, court costs, and reasonable attorney's fees. The court shall advance the cause on the calendar.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "liability"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "State the remedy as written; do not predict whether any removal is wrongful."
+    },
+    {
+      "id": "sq-6-310a-arrest-authority-preserved",
+      "claim": "Idaho Code 6-310A(7) states that the section does not limit the rights of a property owner or the authority of a law enforcement officer to arrest an unlawful occupant for trespassing, vandalism, theft or other crimes.",
+      "quotedLanguage": "The provisions of this section shall not limit the rights of a property owner or limit the authority of a law enforcement officer to arrest an unlawful occupant for trespassing, vandalism, theft, or other crimes.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-6-310a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-310A, added 2025, ch. 222, sec. 1, p. 1042; am. 2026, ch. 82, sec. 1, p. 439.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Preserves law-enforcement authority; does not itself authorize owner self-help. 'Rights of a property owner' is undefined here; do not expand it."
+    },
+    {
+      "id": "sq-forcible-detainer-absence",
+      "claim": "Idaho Code 6-302(2) defines forcible detainer to include a person who, during the absence of the occupant or property owner, unlawfully enters real property and, after demand for its surrender, refuses to surrender it; for this purpose the occupant is one who, within five days before the unlawful entry, was in peaceable and undisturbed possession, regardless of whether the property was inhabited.",
+      "quotedLanguage": "Who during the absence of the occupant or property owner of any lands, unlawfully enters upon real property, and who, after demand made for the surrender thereof, refuses to surrender the same to such former occupant or property owner. The occupant of real property, within the meaning of this subdivision, is one who, within five (5) days preceding such unlawful entry, was in the peaceable and undisturbed possession of such lands, regardless of whether the property was inhabited by the occupant of real property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-302"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(6-302) C.C.P. 1881, sec. 796; R.S., R.C., & C.L., sec. 5092; C.S., sec. 7321; I.C.A., sec. 9-302; am. 2017, ch. 276, sec. 1, p. 724.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Chapter 3 is a civil chapter (forcible entry and unlawful detainer). 'Guilty of a forcible detainer' is the statute's wording; do not call it a crime. The five-day window is part of the definition of 'occupant', not a deadline for the owner to act. Sections on how a forcible detainer case is filed (other than 6-311A) were not read."
+    },
+    {
+      "id": "sq-unlawful-detainer-tenant",
+      "claim": "Idaho Code 6-303 defines unlawful detainer by reference to a tenant of real property: a tenant is guilty of unlawful detainer when, among other cases, the tenant continues in possession after the term expires without the landlord's permission, or after default in rent and three days' written notice requiring payment or possession.",
+      "quotedLanguage": "A tenant of real property, for a term less than life, is guilty of an unlawful detainer: 1. When he continues in possession, in person or by subtenant, of the property, or any part thereof, after the expiration of the term for which it is let to him, without the permission of his landlord, or the successor in estate of his landlord, if any there be; but in case of a tenancy at will, it must first be terminated by notice, as prescribed in the civil code. 2. Where he continues in possession, in person or by subtenant, without permission of his landlord, or the successor in estate of his landlord, if any there be, after default in the payment of rent, pursuant to the lease or agreement under which the property is held, and three (3) days' notice, in writing, requiring its payment, stating the amount which is due, or possession of the property, shall have been served upon him",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-303"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(6-303) C.C.P. 1881, sec. 797; R.S., R.C., & C.L., sec. 5093; C.S., sec. 7322; I.C.A., sec. 9-303; am. 2001, ch. 203, sec. 1, p. 691; am. 2020, ch. 340, sec. 1, p. 995.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Only subsections 1 and 2 summarised; 3 to 5 also exist (other covenants, assigning/subletting/waste, controlled substances). Do not list 6-303 as the only grounds. The three days is a notice period for the rent default ground only."
+    },
+    {
+      "id": "sq-court-trial-restitution",
+      "claim": "Idaho Code 6-311A provides that an action exclusively for possession of five acres or less for nonpayment of rent, for forcible detainer and certain other grounds is tried by the court without a jury, and that if the court finds the complaint true or judgment is entered by default it renders judgment for restitution of the premises and costs.",
+      "quotedLanguage": "In an action exclusively for possession of a tract of land of five (5) acres or less for the nonpayment of rent or on the grounds that the landlord has reasonable grounds to believe that a person is, or has been, engaged in the unlawful delivery, production, or use of a controlled substance on the leased premises during the term for which the premises are let to the tenant, or for forcible detainer, or if the tenant is a tenant at sufferance pursuant to subsection (11) of section 45-1506 , Idaho Code, the action shall be tried by the court without a jury. ... If the court finds the complaint true or if judgment is rendered by default, it shall render a general judgment against the defendant and in favor of the plaintiff, for restitution of the premises and the costs and disbursements of the action.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure",
+        "judgments"
+      ],
+      "sourceIds": [
+        "idcode-6-311a"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[6-311A, added 1974, ch. 308, sec. 5, p. 1803; am. 1996, ch. 169, sec. 1, p. 553; am. 2001, ch. 203, sec. 4, p. 693; am. 2006, ch. 248, sec. 3, p. 758; am. 2017, ch. 276, sec. 3, p. 725.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Limited to tracts of five acres or less and the listed grounds. Shows that forcible detainer is a court action; it does not say how long a case takes."
+    },
+    {
+      "id": "sq-writ-72-hours-sheriff",
+      "claim": "Idaho Code 6-316(2) provides that when the court finds for the landlord and for possession, a residential tenant has seventy-two hours to remove belongings; the landlord may deliver a writ of restitution or ask the sheriff to deliver it, and after that time and three days after the court's finding the sheriff restores possession by causing immediate removal of the tenant, after which the landlord may, subject to security interests, remove and dispose of remaining property.",
+      "quotedLanguage": "a residential tenant shall have seventy-two (72) hours to remove his belongings from the premises ... The landlord or his agents may deliver a writ of restitution or provide the sheriff with a copy of the writ of restitution and request that the sheriff deliver the writ. ... After the time required for a tenant to remove his belongings under this subsection and three (3) days after the finding of the court, the sheriff shall restore possession of the premises to the plaintiff by causing immediate removal of the tenant, and the landlord or his agents may, subject to any security interests under chapter 9, title 28 , Idaho Code, remove and dispose of all remaining property of the tenant",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "idcode-6-316"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(6-316) C.C.P. 1881, sec. 811; R.S., R.C., & C.L., sec. 5106; C.S., sec. 7335; I.C.A., sec. 9-316; am. 1974, ch. 308, sec. 10, p. 1803; am. 1977, ch. 45, sec. 1, p. 80; am. 2001, ch. 203, sec. 6, p. 694; am. 2020, ch. 340, sec. 3, p. 997.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "These periods run from the court's finding, after a case is filed and tried. Never add them up into a total eviction time. Commercial and five-acre-plus tenants have seven days (not used)."
+    },
+    {
+      "id": "sq-ada-sheriff-eviction-steps",
+      "claim": "The Ada County Sheriff's Civil Division describes general eviction procedure as a written Notice to Vacate served before a summons and complaint for unlawful detainer, then a court summons and complaint, then a court-issued Writ of Restitution that gives the Sheriff's Office the power to remove the tenants, with plaintiffs paying all enforcement costs in advance; it says the process often requires legal advice and its deputies cannot answer legal questions.",
+      "quotedLanguage": "The eviction process can be quite complex and often requires legal advice. The Sheriff's Civil Division deputies are not qualified nor are they authorized to answer legal questions. ... A written Notice to Vacate must first be served on the tenant prior to proceeding to a summons/complaint for unlawful detainer. ... If the tenant refuses to vacate after proper service of the notice, the landlord must proceed to the next step in the eviction process, which is to file a complaint in court for unlawful detainer. ... This court order gives the Sheriff's Office the power to remove defendants/tenants from the property. ... Plaintiffs must pay in advance all costs of enforcement.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "ada-sheriff-civil-process-documents"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'General eviction procedures' for tenants, per the page. It does not mention 6-310A or unauthorized occupants. Do not present it as the squatter procedure."
+    },
+    {
+      "id": "sq-ada-sheriff-no-locks-until-eviction",
+      "claim": "The Ada County Sheriff's Civil Division FAQ answers that a landlord may not move the defendant's property out, and may not change the locks when removing a roommate, until an eviction is completed.",
+      "quotedLanguage": "Can I move the defendant's property out? Not until an eviction is completed. ... Can I change the locks when I kick my roommate out? No, not until an eviction is completed.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "ada-sheriff-civil-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Stated in the eviction context of the FAQ. Use to show self-help is not the route in an eviction. Do not stretch it to the 6-310A standby, which the statute itself allows after service of the notice."
+    },
+    {
+      "id": "sq-ada-sheriff-writ-fee",
+      "claim": "The Ada County Sheriff's Fees and Required Documentation page lists, for restitution of premises, a court-issued Writ of Restitution and 3 copies and a fee of $515 payable to the Ada County Sheriff's Office for service of the writ.",
+      "quotedLanguage": "Restitution of Premises Court issued Writ of Restitution and 3 copies Fees : $515 made payable to the Ada County Sheriff's Office for the service of the writ.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "fees"
+      ],
+      "sourceIds": [
+        "ada-sheriff-civil-fees"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "FAST-CHANGING: fees are set by the county commissioners. The page does not mention 6-310A; the link to the 6-310A notice fee comes only from 6-310A(5) ('same fee ... as if ... serving a writ of restitution'). State both, attributed; do not say the Sheriff's Office has confirmed it charges $515 for a 6-310A notice."
+    },
+    {
+      "id": "sq-ada-sheriff-civil-contact",
+      "claim": "The Ada County Sheriff's Civil Office is at 7180 Barrister Drive, Boise, ID 83704, phone (208) 577-3750, open 8am to 5pm Monday through Friday; the Sheriff's Office lists 208 377 6790 for non-emergency dispatch and says to dial 911 for emergencies only. The Civil Division says it cannot provide legal advice and that only your attorney can advise you.",
+      "quotedLanguage": "The Civil Office is located at 7180 Barrister Drive, Boise, ID 83704. (208) 577-3750 Hours of operation are 8am-5pm, Monday through Friday. ... We cannot provide legal advice. ... Only your attorney can advise you. ... 208 377 6790 (Non-Emergency Dispatch) Dial 911 for emergencies only",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "sourceIds": [
+        "ada-sheriff-civil-division"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Contact details change; re-check before publication. The Civil Division page does not mention 6-310A."
+    },
+    {
+      "id": "sq-criminal-trespass-enters-or-remains",
+      "claim": "Under Idaho Code 18-7008(2)(a), a person commits criminal trespass, a misdemeanor except as the penalty subsection provides, when entering or remaining on another's real property without permission, knowing or with reason to know presence is not permitted; except under a landlord-tenant relationship, a person has reason to know when failing to depart immediately after being notified by the owner or agent, and property reasonably associated with a residence is also listed.",
+      "quotedLanguage": "A person commits criminal trespass and is guilty of a misdemeanor, except as provided in subsection (3)(a)(i) of this section, when he enters or remains on the real property of another without permission, knowing or with reason to know that his presence is not permitted. A person has reason to know his presence is not permitted when, except under a landlord-tenant relationship, he fails to depart immediately from the real property of another after being notified by the owner or his agent to do so ... (i) The property is reasonably associated with a residence or place of business; ... If no damage of any kind was committed during the trespass and the person accused does not remain if ordered to depart by the owner of the real property or his agent, then the person shall be guilty of an infraction and fined in the amount of three hundred dollars ($300)",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-18-7008"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[18-7008, added 2018, ch. 350, sec. 6, p. 828; am. 2026, ch. 78, sec. 1, p. 323.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Note the express landlord-tenant carve-out. A first offense with no damage where the person does not remain can be an infraction under (3)(a)(i); do not state penalties without that nuance. Charging decisions belong to law enforcement and prosecutors; never predict an arrest."
+    },
+    {
+      "id": "sq-trespass-tenant-lease-excluded",
+      "claim": "Idaho Code 18-7008(6) provides that a person is not guilty of trespass for entering or remaining under an established right of entry or occupancy, including a lease, easement, contract, privilege or other legal right to possess or use the property, and subsection (7) gives a tenant under a valid lease as an example.",
+      "quotedLanguage": "A person shall not be guilty of trespass under this section for entering or remaining upon real property if the person entered or remained on the property pursuant to any of the following rights or authorities: (a) An established right of entry or occupancy of the real property in question, including, but not limited to: ... (iii) A lease, easement, contract, privilege or other legal right to enter, remain upon, possess or use the real property; ... a tenant pursuant to a valid lease;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants"
+      ],
+      "sourceIds": [
+        "idcode-18-7008"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[18-7008, added 2018, ch. 350, sec. 6, p. 828; am. 2026, ch. 78, sec. 1, p. 323.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Supports the point that a tenant dispute is a civil eviction matter, not a trespass matter. Do not decide whether any document an occupant holds is a valid lease."
+    },
+    {
+      "id": "sq-trespass-owner-may-revoke-permission",
+      "claim": "Idaho Code 18-7008(5) provides that, subject to the rights and authorities in subsection (6), a landowner or agent may revoke permission to enter or remain at any time, for any reason, orally, in writing or by any other form of notice reasonably apparent to the permitted person.",
+      "quotedLanguage": "Subject to any rights or authorities described in subsection (6) of this section, a landowner or his agent may revoke permission granted under this section to another to enter or remain upon his property at any time, for any reason, orally, in writing, or by any other form of notice reasonably apparent to the permitted person or persons.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "sourceIds": [
+        "idcode-18-7008"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[18-7008, added 2018, ch. 350, sec. 6, p. 828; am. 2026, ch. 78, sec. 1, p. 323.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'Subject to' subsection (6): revocation does not override a lease or other legal right of occupancy. Do not use for a guest who has become a tenant; that question is for an attorney."
+    },
+    {
+      "id": "sq-adverse-possession-oral-20-years-taxes",
+      "claim": "Idaho Code 5-210 provides that, for adverse possession by a person claiming title not founded on a written instrument, judgment or decree, land counts as possessed only where protected by a substantial enclosure or usually cultivated or improved; adverse possession is not established unless the land has been occupied and claimed for twenty years continuously and the claimants and predecessors have paid all state, county or municipal taxes levied on it; the claimant must present clear and convincing evidence.",
+      "quotedLanguage": "For the purpose of constituting an adverse possession, by a person claiming title not founded upon a written instrument, judgment or decree, land is deemed to have been possessed and occupied in the following cases only: (1) Where it has been protected by a substantial enclosure. (2) Where it has been usually cultivated or improved. Provided, however, that in no case shall adverse possession be considered established under the provisions of any sections of this code unless it shall be shown that the land has been occupied and claimed for the period of twenty (20) years continuously, and the party or persons, their predecessors and grantors, have paid all the taxes, state, county or municipal, which have been levied and assessed upon such land according to law. ... Provided further, that for purposes of establishing adverse possession pursuant to this section, a person claiming adverse possession must present clear and convincing evidence that the requirements of subsection (1) or (2) of this section have been met.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-5-210"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(5-210) C.C.P. 1881, sec. 150; R.S., R.C., & C.L., sec. 4043; C.S., sec. 6603; I.C.A., sec. 5-210; am. 2001, ch. 290, sec. 2, p. 1028; am. 2006, ch. 158, sec. 5, p. 475.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The twenty years and the tax requirement apply 'in no case ... under the provisions of any sections of this code', so they reach the written-claim route too. State all elements; never say whether any occupant does or does not meet them. Case law on 'claim of right' and hostility was not researched. Also contains a recorded-instrument exception (not used)."
+    },
+    {
+      "id": "sq-adverse-possession-written-claim-20-years",
+      "claim": "Idaho Code 5-207 provides that where an occupant entered under a claim of title founded on a written instrument as a conveyance, or on a court decree or judgment, and there has been continued occupation and possession for twenty years, the property included is deemed held adversely.",
+      "quotedLanguage": "When it appears that the occupant, or those under whom he claims, entered into the possession of the property under claim of title, exclusive of other right, founding such claim upon a written instrument, as being a conveyance of the property in question, or upon the decree or judgment of a competent court, and that there has been a continued occupation and possession of the property included in such instrument, decree or judgment, or of some part of the property under such claim, for twenty (20) years, the property so included is deemed to have been held adversely",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-5-207"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(5-207) C.C.P. 1881, sec. 147; R.S., R.C., & C.L., sec. 4040; C.S., sec. 6600; I.C.A., sec. 5-207; am. 2006, ch. 158, sec. 4, p. 475.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Same twenty-year period as 5-210. 5-210's tax-payment proviso is worded to apply under any section of the code."
+    },
+    {
+      "id": "sq-legal-title-presumption",
+      "claim": "Idaho Code 5-206 provides that in an action to recover real property or its possession, a person establishing legal title is presumed to have possessed it within the time required by law, and another's occupation is deemed subordinate to the legal title unless the property has been held adversely to that title for twenty years before the action began.",
+      "quotedLanguage": "In every action for the recovery of real property, or the possession thereof, a person establishing a legal title to the property is presumed to have been possessed thereof within the time required by law, and the occupation of the property by another person is deemed to have been under and in subordination to the legal title, unless it appears that the property has been held and possessed adversely to such legal title, for twenty (20) years before the commencement of the action.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "land"
+      ],
+      "sourceIds": [
+        "idcode-5-206"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(5-206) C.C.P. 1881, sec. 146; R.S., R.C., & C.L., sec. 4039; C.S., sec. 6599; I.C.A., sec. 5-206; am. 2006, ch. 158, sec. 3, p. 474.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "A presumption in favour of the title holder in court; state it as such, no predictions."
+    },
+    {
+      "id": "sv-decedent-community-share-devolves",
+      "claim": "Under Idaho Code 15-3-101, on the death of a husband or wife the decedent's share of the community property devolves to the persons named in the decedent's will or, with no testamentary disposition, to the surviving spouse; community property under the decedent's management and control is subject to the decedent's debts and administration, and all devolution is subject to homestead allowance, exempt property, creditors' rights, elective share and administration.",
+      "quotedLanguage": "upon the death of a husband or wife, the decedent's share of their community property devolves to the persons to whom it is devised by his last will, or in the absence of testamentary disposition, to the surviving spouse, but all of their community property which is under the management and control of the decedent is subject to his debts and administration, and that portion of their community property which is not under the management and control of the decedent but which is necessary to carry out the provisions of his will is subject to administration; but the devolution of all the above described property is subject to rights to homestead allowance, exempt property, to renunciation to rights of creditors, elective share of the surviving spouse and to administration.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "community-property",
+        "inheritance",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-3-101"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-101, added 1971, ch. 111, sec. 1, p. 233; am. 2014, ch. 134, sec. 1, p. 369.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "TRAP: the decedent's community half goes to the surviving spouse only 'in the absence of testamentary disposition'. A will can leave it elsewhere. Always state the will condition and the 'subject to ... debts and administration' qualifier. Never say the house 'automatically' belongs to the spouse on this section alone. Future-dated check: section page shows a single version; the 2026 PROBATE bill S1240 (effective 01/01/2027) amends 15-1-201 and chapter 5, not this section."
+    },
+    {
+      "id": "sv-intestate-spouse-share-community-and-separate",
+      "claim": "Idaho Code 15-2-102 sets the surviving spouse's intestate share: the decedent's one-half of community property passes to the surviving spouse; for separate property the spouse takes the entire intestate estate if there is no surviving issue or parent, and one-half if the decedent left issue or a parent.",
+      "quotedLanguage": "15-2-102. Share of the spouse. The intestate share of the surviving spouse is as follows: (a) As to separate property: (1) If there is no surviving issue or parent of the decedent, the entire intestate estate; (2) If there is no surviving issue but the decedent is survived by a parent or parents, one-half (1/2) of the intestate estate; (3) If there are surviving issue of the deceased spouse, one-half (1/2) of the intestate estate. (b) As to community property: (1) The one-half (1/2) of community property which belongs to the decedent passes to the surviving spouse.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "intestacy",
+        "community-property",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-2-102"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-2-102, as added by 1971, ch. 111, sec. 1, p. 233; am. 2001, ch. 330, sec. 1, p. 1160.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "INTESTATE only (no will). Separate property can be split with the decedent's issue or parents. Whether a given house is community or separate is a legal question the page must not answer; pair with dv-separate-property-defined and dv-community-property-default. Single version on the page; no future-dated version."
+    },
+    {
+      "id": "sv-interest-in-common-unless-declared-joint",
+      "claim": "Idaho Code 55-104 says every interest created in favor of several persons in their own right is an interest in common, unless acquired in partnership, declared in its creation to be a joint interest, or acquired as community property.",
+      "quotedLanguage": "55-104. Interests in common. Every interest created in favor of several persons in their own right is an interest in common, unless acquired by them in partnership, for partnership purposes, or unless declared in its creation to be a joint interest, or unless acquired as community property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "joint-tenancy",
+        "community-property"
+      ],
+      "sourceIds": [
+        "idcode-55-104"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-104, added R.S., sec. 2828; reen. R.C. & C.L., sec. 3059; C.S., sec. 5328; I.C.A., sec. 54-104.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The section does not itself define 'joint tenancy' or state a survivorship rule. Use it only to say a joint interest must be declared when it is created. Do not describe what happens to a joint tenant's share at death from this section."
+    },
+    {
+      "id": "sv-cointerests-in-common-unless-declared",
+      "claim": "Idaho Code 55-508 says every interest in real estate granted or devised to two or more persons, other than executors or trustees as such, is a tenancy in common unless the grant or devise expressly declares otherwise.",
+      "quotedLanguage": "55-508. Cointerests deemed to be in common. Every interest in real estate granted or devised to two (2) or more persons, other than executors or trustees, as such constitutes a tenancy in common, unless expressly declared in the grant or devise to be otherwise.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "joint-tenancy",
+        "deeds"
+      ],
+      "sourceIds": [
+        "idcode-55-508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-508) 1863, p. 528, sec. 42; R.S., sec. 2907; reen. R.C. & C.L., sec. 3104; C.S., sec. 5372; I.C.A., sec. 54-508.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Pair with 55-104. Neither section says how survivorship title is cleared after a death. The reader's deed wording controls; the page tells them to read the deed and ask a title company or attorney."
+    },
+    {
+      "id": "sv-cpwros-transfers-to-surviving-spouse",
+      "claim": "Idaho Code 15-6-401 provides that real property held by a husband and wife as community property with right of survivorship transfers to and belongs to the surviving spouse on the death of one spouse, and that this estate is created only when the grant, transfer or devise expressly declares it.",
+      "quotedLanguage": "15-6-401. Community property with right of survivorship in real property. Any estate in real property held by a husband and wife as community property with right of survivorship shall, upon the death of one (1) spouse, transfer and belong to the surviving spouse. An estate in community property with right of survivorship is created by a grant, transfer or devise to a husband and wife, when expressly declared in the grant, transfer or devise to be an estate in community property with right of survivorship.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "community-property",
+        "survivorship",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-6-401"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-6-401, added 2008, ch. 175, sec. 1, p. 478.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Statute uses 'husband and wife'; quote it as written. Only where the deed EXPRESSLY declares community property with right of survivorship. The section says nothing about what document a title company needs to show the death; do not invent one. Added 2008: a deed recorded before then cannot have used this statutory form under this section (do not state that inference in prose). Single version; no future-dated version."
+    },
+    {
+      "id": "sv-cpwros-termination-affidavit-and-divorce",
+      "claim": "Idaho Code 15-6-402 lets either spouse extinguish the right of survivorship in community property with right of survivorship by recording, with the county recorder where the land lies, a sworn 'affidavit terminating right of survivorship' with stated contents; recording does not extinguish either spouse's community interest, and a divorce or annulment, unless the court orders otherwise, turns the interests into tenancies in common.",
+      "quotedLanguage": "the right of survivorship is extinguished on the recordation in the office of the recorder of the county or counties where the real property is located an affidavit entitled \"affidavit terminating right of survivorship\" executed by either spouse under oath ... The recordation shall not extinguish the community interest of either spouse. (2) Divorce, or annulment of the marriage of, the husband and wife, unless otherwise ordered by the court in which the divorce is granted, severs the interests of the former spouses in property held by them at the time of the divorce or annulment as community property with the right of survivorship and transforms the interests of the former spouses into tenancies in common.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "community-property",
+        "survivorship",
+        "recording"
+      ],
+      "sourceIds": [
+        "idcode-15-6-402"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-6-402, added 2008, ch. 175, sec. 1, p. 478.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "This affidavit is made by a LIVING spouse to end survivorship. It is NOT an affidavit of death and does not clear title after a death. Use it only to say a survivorship deed can have been terminated by a recorded affidavit, so the record should be checked."
+    },
+    {
+      "id": "sv-summary-admin-petition-will-notice",
+      "claim": "Under Idaho Code 15-3-1205(a), the surviving spouse (or a person claiming through the spouse) files a verified petition setting out the marriage and the death; if the decedent left a will, the original will must accompany the petition, and notice of hearing is given under Idaho Code 15-1-401.",
+      "quotedLanguage": "the surviving spouse (or any person claiming title to any property through or under such surviving spouse) may file a verified petition setting out marriage and the death of a person leaving a surviving spouse as the sole devisee or heir. If the decedent died testate, the petition must be accompanied by the original of the last will and testament of the decedent. Notice of hearing shall be given pursuant to the provisions of section 15-1-401 , Idaho Code.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "summary-administration",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-3-1205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-1205, added 1973, ch. 124, sec. 2, p. 234; am. 1974, ch. 199, sec. 4, p. 1516; am. 2003, ch. 60, sec. 1, p. 206; am. 2005, ch. 121, sec. 1, p. 396.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Only where the spouse is the SOLE devisee or heir. Pair with pb-surviving-spouse-summary (decree effect and debt assumption). No dollar limit in the text; do not invent one. Future-dated check as in pb-surviving-spouse-summary: none."
+    },
+    {
+      "id": "sv-summary-admin-no-personal-appearance",
+      "claim": "Under Idaho Code 15-3-1205(b), if the hearing shows the marriage and that the surviving spouse is the sole heir or devisee, a decree is made to that effect; the petitioner, the spouse and the petitioner's attorney need not appear in person, and may appear by telephone on motion or submit affidavits in advance certifying that notice was given and no objection was received.",
+      "quotedLanguage": "(b) If it shall appear at such hearing that the decedent and the person claimed to be the surviving spouse were duly married and that the surviving spouse is the sole heir or devisee, a decree shall be made to that effect. ... The petitioner, or the surviving spouse, or both, need not appear in person at such hearing, nor must an attorney for the petitioner spouse appear in person at such hearing. The petitioner or the attorney for the petitioner, or both, may either: (1) Upon proper motion made by the petitioner, appear telephonically; or (2) Submit one (1) or more affidavits in advance of the hearing certifying that notice of hearing was given as required by law and that no objection to the entering of the decree has been received by the petitioner or the attorney for the petitioner.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "summary-administration",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-3-1205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-1205, added 1973, ch. 124, sec. 2, p. 234; am. 1974, ch. 199, sec. 4, p. 1516; am. 2003, ch. 60, sec. 1, p. 206; am. 2005, ch. 121, sec. 1, p. 396.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Do not say a hearing is not held; the section contemplates a hearing at which in-person appearance is optional."
+    },
+    {
+      "id": "sv-probate-notice-fourteen-days",
+      "claim": "Idaho Code 15-1-401 requires notice of a hearing on a probate petition to be mailed or personally delivered to interested persons at least 14 days before the hearing, or, where an address or identity cannot be found with reasonable diligence, published once a week for three consecutive weeks with the last publication at least 10 days before the hearing; the court may set a different method or time for good cause.",
+      "quotedLanguage": "(1) by mailing a copy thereof at least fourteen (14) days before the time set for the hearing by certified, registered or ordinary first class mail ... (2) by delivering a copy thereof to the person being notified personally at least fourteen (14) days before the time set for the hearing; or (3) if the address, or identity of any person is not known and cannot be ascertained with reasonable diligence, by publishing at least once a week for three (3) consecutive weeks, a copy thereof in a newspaper having general circulation in the county where the hearing is to be held, the last publication of which is to be at least ten (10) days before the time set for the hearing. (b) The court for good cause shown may provide for a different method or time of giving notice for any hearing.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "notice",
+        "summary-administration"
+      ],
+      "sourceIds": [
+        "idcode-15-1-401"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-1-401, as added by 1971, ch. 111, sec. 1, p. 233; am. 1973, ch. 167, sec. 4, p. 319.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Applies 'except for specific notice requirements as otherwise provided'. Fourteen days is a minimum notice period, not a time for the case to finish. Never present it as how long summary administration takes. Single version; no future-dated version."
+    },
+    {
+      "id": "sv-ada-recorder-lists-affidavits-in-lieu-of-probate",
+      "claim": "The Ada County Recorder's Office lists 'Affidavits in Lieu of Probate', 'Order Determining Heirs' and 'Affidavits regarding Trusts' among recorded document types currently blocked from online viewing or download, and says copies must be requested from the office.",
+      "quotedLanguage": "The following documents are currently blocked from viewing or downloading online. If you need copies, please contact our office directly at",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "probate",
+        "title"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The list items themselves ('Affidavits in Lieu of Probate', 'Order Determining Heirs') are under verify-quotes' 25-character threshold and were checked by eye in the cached page (lines listing blocked types). The page does NOT describe what these affidavits contain, who may sign them, or when they are used. Use only to say the document types exist in the county record. Never describe an Idaho 'affidavit of death' from this."
+    },
+    {
+      "id": "sv-ada-recorder-death-records-vital-statistics",
+      "claim": "The Ada County Recorder's FAQ directs people to Idaho Vital Statistics for birth and death records.",
+      "quotedLanguage": "Birth and Death Certificates: Contact Idaho Vital Statistics for information regarding birth and death records for Idaho.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "death-records"
+      ],
+      "sourceIds": [
+        "ada-recorder-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The FAQ says only where to get death records. It does not say a death certificate must be recorded or what a title company requires."
+    },
+    {
+      "id": "sv-irs-pub523-surviving-spouse-500k-conditions",
+      "claim": "IRS Publication 523 (2025) lists a $500,000 maximum exclusion for a surviving spouse who sells the home within 2 years of the spouse's death, has not remarried at the time of sale, where neither spouse took the exclusion on another home sold less than 2 years before, and who meets the 2-year ownership and residence requirements including the late spouse's times; a seller who does not qualify is told to determine eligibility for the full limit as a single person.",
+      "quotedLanguage": "Surviving spouse You sell your home within 2 years of the death of your spouse. You haven't remarried at the time of the sale. Neither you nor your late spouse took the exclusion on another home sold less than 2 years before the date of the current home sale. You meet the 2-year ownership and residence requirements (including your late spouse‘s times of ownership and residence, if applicable). $500,000 Determine if you are eligible for the full limit as a single person.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "From the worksheet table in Pub 523 (2025 edition, 'For use in preparing 2025 Returns', page last reviewed 30-Apr-2026). All four conditions must be stated together. The table's next instruction is to check eligibility as a single person if not met. 'Maximum' exclusion: never write a seller 'will not owe tax'. State the edition year."
+    },
+    {
+      "id": "sv-irs-pub523-surviving-spouse-tacking",
+      "claim": "IRS Publication 523 (2025) says a surviving spouse who does not meet the 2-year ownership and residence requirements alone, and has not remarried at the time of sale, may include any time when the late spouse owned and lived in the home, even without the surviving spouse, to meet those requirements.",
+      "quotedLanguage": "Surviving spouses. If you are a surviving spouse who doesn't meet the 2-year ownership and residence requirements on your own, consider the following rule. If you haven't remarried at the time of the sale, then you may include any time when your late spouse owned and lived in the home, even if without you, to meet the ownership and residence requirements.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "home-sale-exclusion",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Not-remarried condition must be stated. This is about meeting the TESTS, separate from the $500,000 limit conditions in sv-irs-pub523-surviving-spouse-500k-conditions."
+    },
+    {
+      "id": "sv-irs-pub523-jointly-owned-basis",
+      "claim": "IRS Publication 523 (2025) says that for a surviving spouse who owned the home jointly, the basis of the late spouse's interest becomes its fair market value on the date of death (or alternate valuation date) while the survivor's own interest keeps its basis, and that spouses holding as tenants by the entirety or joint tenants with right of survivorship are each considered to have owned one-half.",
+      "quotedLanguage": "If you are a surviving spouse and you owned your home jointly, your basis in the home will change. The new basis for the interest your spouse owned will be its fair market value on the date of death (or alternate valuation date). The basis in your interest will remain the same. Your new basis in the home is the total of these two amounts. If you and your spouse owned the home either as tenants by the entirety or as joint tenants with right of survivorship, you will each be considered to have owned one-half of the home.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "basis",
+        "surviving-spouse",
+        "joint-tenancy"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Contrast with the community-property rule (cg-irs-community-property-basis), where the whole community property generally takes a new basis. Which rule applies depends on how the home was owned, an Idaho-law and tax question the page must not answer. Pub 523 also gives a numeric example; do not reuse its figures as if typical."
+    },
+    {
+      "id": "lt-trustee-acts-without-court-prudent-fiduciary",
+      "claim": "Under Idaho Code 68-106(a) and (b), from the creation of a trust until final distribution of its assets a trustee may perform, without court authorization, every act a prudent man would perform for the purposes of the trust, including the powers listed in subsection (c), and in exercising those powers the trustee has a duty to act with due regard to the trustee's obligation as a fiduciary.",
+      "quotedLanguage": "(a) From time of creation of the trust until final distribution of the assets of the trust, a trustee has the power to perform, without court authorization, every act which a prudent man would perform for the purposes of the trust including but not limited to the powers specified in subsection (c). (b) In the exercise of his powers including the powers granted by this act, a trustee has a duty to act with due regard to his obligation as a fiduciary.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "sourceIds": [
+        "idcode-68-106"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-106, added 1965, ch. 95, sec. 3, p. 173; am. 1983, ch. 137, sec. 1, p. 334.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The 'without court authorization' power is subject to the trust instrument (68-105(a)) and to the fiduciary duty in (b). Never write that a trustee may sell 'however they like' or that beneficiaries have no say. 'Prudent man' is the statute's term, defined in 68-104(3)."
+    },
+    {
+      "id": "lt-trustee-power-sell-real-estate",
+      "claim": "Idaho Code 68-106(c)(7) lists among a trustee's powers the power to acquire assets, including real estate, in the name of the trust, and to sell, convey or dispose of an asset for cash or on credit at public or private sale; 68-106(c)(26) adds the power to execute and deliver all instruments that accomplish or facilitate the exercise of the trustee's powers.",
+      "quotedLanguage": "(7) to acquire assets, including real estate, in the name of the trust, and to sell, convey or dispose of an asset, for cash or on credit, at public or private sale; ... (26) to execute and deliver all instruments which will accomplish or facilitate the exercise of the powers vested in the trustee.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers",
+        "sale"
+      ],
+      "sourceIds": [
+        "idcode-68-106"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-106, added 1965, ch. 95, sec. 3, p. 173; am. 1983, ch. 137, sec. 1, p. 334.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Subsection (c) opens 'subject to subsections (a) and (b)'. Present the sale power as a default the trust instrument can limit (68-105(a)). Do not say the statute names a 'trustee's deed'; it says 'instruments'."
+    },
+    {
+      "id": "lt-powers-unless-limited-by-instrument",
+      "claim": "Idaho Code 68-105(a) gives a trustee all the powers conferred by the Uniform Trustees' Powers Act unless they are limited in the trust instrument, and 68-111 applies the act, except as specifically provided in the trust, to any trust established after the act's effective date.",
+      "quotedLanguage": "The trustee has all powers conferred upon him by the provisions of this act unless limited in the trust instrument. ... Except as specifically provided in the trust, the provisions of this act apply to any trust established after the effective date of this act.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "sourceIds": [
+        "idcode-68-105",
+        "idcode-68-111"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-105, added 1965, ch. 95, sec. 2, p. 173.] ... [68-111, added 1965, ch. 95, sec. 8, p. 173.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The act was added in 1965 (history notes). The trust document controls: a reader must read their own trust (or have an attorney read it) for limits such as required consents or co-signers. Do not state the effective date as a specific day; the section does not."
+    },
+    {
+      "id": "lt-uniform-trustees-powers-act-scope",
+      "claim": "Idaho Code 15-7-401 states that the powers of trustees are set forth in the uniform powers of trustees act, sections 68-104 through 68-113, and 68-104 defines 'trustee' as an original, added, or successor trustee and 'trust' as an express trust created by a trust instrument, including a will.",
+      "quotedLanguage": "The powers of trustees are set forth in the uniform powers of trustees act, sections 68-104 through 68-113 , Idaho Code. ... \"Trust\" means an express trust created by a trust instrument, including a will, whereby a trustee has the duty to administer a trust asset for the benefit of a named or otherwise described income or principal beneficiary, or both; ... (2) \"Trustee\" means an original, added, or successor trustee;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "sourceIds": [
+        "idcode-15-7-401",
+        "idcode-68-104"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-7-401, as added by 1971, ch. 111, sec. 1, p. 233.] ... [68-104, added 1965, ch. 95, sec. 1, p. 173.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The successor-trustee point matters for a sale after the settlor dies: the definition puts a successor trustee within the act. The definition does not say how a successor is appointed; that comes from the trust instrument or, where there is no trustee, 68-101."
+    },
+    {
+      "id": "lt-cotrustees-majority-and-remaining",
+      "claim": "Under Idaho Code 68-109, a power vested in three or more trustees may be exercised by a majority, and if one of two or more trustees cannot or will not accept, or ceases to be a trustee, the remaining trustees perform the trust and succeed to all the powers given to the trustees jointly; 68-102 says that on the death, renunciation or discharge of one of several trustees the trust survives to the others.",
+      "quotedLanguage": "(a) Any power vested in 3 or more trustees may be exercised by a majority ... (b) If 2 or more trustees are appointed to perform a trust, and if any of them is unable or refuses to accept the appointment, or, having accepted, ceases to be a trustee, the surviving or remaining trustees shall perform the trust and succeed to all the powers, duties, and discretionary authority given to the trustees jointly. ... On the death, renunciation, or discharge of one (1) of the several number of trustees, the trust survives to the others.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers",
+        "death"
+      ],
+      "sourceIds": [
+        "idcode-68-109",
+        "idcode-68-102"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-109, added 1965, ch. 95, sec. 6, p. 173.] ... [(68-102) 1919, ch. 19, sec. 2, p. 82; C.S., sec. 6418; I.C.A., sec. 66-102.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The majority rule is for THREE or more trustees. The section says nothing about two co-trustees disagreeing. A trust instrument can require all trustees to sign (68-115(1)(e) lets the certification say so). Do not tell readers whether one spouse-trustee can sign alone."
+    },
+    {
+      "id": "lt-court-appoints-when-no-trustee",
+      "claim": "Idaho Code 68-101 provides that when a trust exists without any appointed trustee, or any or all trustees renounce, die or are discharged, the district court of the county where the trust property or part of it is situated must appoint another trustee to direct the execution of the trust.",
+      "quotedLanguage": "When a trust exists without any appointed trustees or where any or all of the trustees renounce, die, or are discharged, the district court of the county where the trust property or some portion thereof is situated, must appoint another trustee to direct the execution of the trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "death",
+        "courts"
+      ],
+      "sourceIds": [
+        "idcode-68-101"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(68-101), 1919, ch. 19, sec. 1, p. 82; C.S., sec. 6417; I.C.A., sec. 66-101.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Read with the trust instrument: most trusts name a successor. Do not say a court is needed whenever a trustee dies; the section is about a trust left without trustees. Not legal advice on when to petition."
+    },
+    {
+      "id": "lt-third-person-protected",
+      "claim": "Idaho Code 68-110 provides that a third person dealing with a trustee may assume the existence of trust powers and their proper exercise without inquiry, and that a third person without actual knowledge that the trustee is exceeding or improperly exercising the powers is fully protected as if the trustee had and properly exercised them; the third person is not bound to assure the proper application of trust assets paid to the trustee.",
+      "quotedLanguage": "With respect to a third person dealing with a trustee or assisting a trustee in the conduct of a transaction, the existence of trust powers and their proper exercise by the trustee may be assumed without inquiry. The third person is not bound to inquire whether the trustee has power to act or is properly exercising the power; and a third person, without actual knowledge that the trustee is exceeding his powers or improperly exercising them, is fully protected in dealing with the trustee as if the trustee possessed and properly exercised the powers he purports to exercise. A third person is not bound to assure the proper application of trust assets paid or delivered to the trustee.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers",
+        "sale",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-68-110"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-110, added 1965, ch. 95, sec. 7, p. 173.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "This protects the BUYER (third person), not the trustee. It does not relieve the trustee of fiduciary duties to beneficiaries. The protection turns on lacking 'actual knowledge'. Title companies may still ask for documents (68-116, 68-118)."
+    },
+    {
+      "id": "lt-certification-of-trust-affidavit",
+      "claim": "Under Idaho Code 68-114, a trustee may present a certification of trust to any person instead of a copy of the trust instrument to establish the existence or terms of the trust, voluntarily or at that person's request; no person is required to accept and rely solely on a certification, and the certification must be an affidavit signed and acknowledged by all currently acting trustees.",
+      "quotedLanguage": "(1) A trustee may present a certification of trust to any person in lieu of a copy of any trust instrument to establish the existence or terms of the trust. The trustee may present the certification voluntarily or at the request of the person with whom he is dealing. Notwithstanding any provision of this chapter to the contrary, no person is required to accept and rely solely on a certification of trust in lieu of a copy of, or excerpts from, the trust instrument itself. (2) Such a certification must be in the form of an affidavit signed and acknowledged by all of the currently acting trustees of the trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-68-114"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-114, added 1998, ch. 302, sec. 1, p. 995.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The section heading mentions a 'Form' but the section text on the Legislature page prints no form. Do not say Idaho has a statutory certification form. Do not say a title company must accept it; (1) says no one is required to."
+    },
+    {
+      "id": "lt-certification-contents",
+      "claim": "Idaho Code 68-115 lists what a certification of trust may confirm: the trust's existence and date of execution; the identity of the settlor and each currently acting trustee; the trustee's powers and restrictions; whether the trust is revocable and who may revoke it; whether all or fewer than all co-trustees must act; the trust's identifying number; the governing jurisdiction; and the form in which title to trust assets is to be taken. It must state that the trust has not been revoked or amended to make the certification incorrect and that the signatures are those of all currently acting trustees.",
+      "quotedLanguage": "(1) A certification of trust may confirm the following facts or contain the following information: (a) The existence of the trust and date of execution of any trust instrument; (b) The identity of the settlor and each currently acting trustee; (c) The powers of the trustee and any restrictions imposed upon him in dealing with assets of the trust; (d) The revocability or irrevocability of the trust and the identity of any person holding a power to revoke it; (e) If there is more than one (1) trustee, whether all of the currently acting trustees must, or less than all may, act to exercise identified powers of the trustee; (f) The identifying number of the trust and whether it is a social security number or an employer identification number; (g) The state or other jurisdiction under the laws of which the trust was established; and (h) The form in which title to assets of the trust is to be taken. (2) The certification must contain a statement that the trust has not been revoked or amended to make any representations contained in the certification incorrect, and that the signatures are those of all the currently acting trustees.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-68-115"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-115, added 1998, ch. 302, sec. 2, p. 996.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Items in (1) are permissive ('may confirm'); the statement in (2) is mandatory ('must'). Keep that distinction."
+    },
+    {
+      "id": "lt-certification-excerpts",
+      "claim": "Under Idaho Code 68-116 a certification of trust need not contain the trust's dispositive provisions, but the person it is presented to may require copies of excerpts from the trust instrument that designate the trustee or give the trustee power to act in the pending transaction.",
+      "quotedLanguage": "A certification of trust need not contain the dispositive provisions of the trust, but the person to whom the certification is presented may require copies of excerpts from any trust instrument which designate the trustee or confer upon him the power to act in the pending transaction.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-68-116"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-116, added 1998, ch. 302, sec. 3, p. 996.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'Dispositive provisions' = who gets what. The statute lets the trustee keep those private; it does not stop a title company asking for the pages that name the trustee and grant the power."
+    },
+    {
+      "id": "lt-certification-reliance",
+      "claim": "Idaho Code 68-117 provides that a person who acts in reliance on a certification of trust without knowing its representations are incorrect is not liable for so acting, and that a transaction entered into by a trustee and a person relying on a certification is fully enforceable against the trust assets unless that person knows the trustee is acting outside the scope of the trust.",
+      "quotedLanguage": "(1) A person who acts in reliance upon a certification of trust without knowledge that the representations contained therein are incorrect is not liable to any person for so acting. ... (2) A transaction, and any lien created thereby, entered into by a trustee and a person acting in reliance upon a certification of trust is fully enforceable against the assets of the trust unless the person knows that the trustee is acting outside the scope of the trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title",
+        "sale"
+      ],
+      "sourceIds": [
+        "idcode-68-117"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-117, added 1998, ch. 302, sec. 4, p. 997.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Protects the relying party. Do not present it as protecting the trustee who signed an incorrect certification."
+    },
+    {
+      "id": "lt-refusal-to-rely-not-improper",
+      "claim": "Idaho Code 68-118 states that a person's failure to demand a certification of trust, or refusal to accept and rely solely on one, may not be considered an improper act and supports no inference about good faith; 68-119 applies sections 68-114 through 68-120 to all trusts, whether established under Idaho law or the law of another state or jurisdiction.",
+      "quotedLanguage": "A person's failure to demand a certification of trust, or his refusal to accept and rely solely on a certification of trust, may not be considered to be an improper act by him and no inference as to whether he has acted in good faith may be drawn from the failure to demand, or the refusal to accept and rely upon, a certification of trust. ... The provisions of sections 68-114 through 68-120 , Idaho Code, shall apply to all trusts, whether established pursuant to Idaho law or established pursuant to the law of another state or jurisdiction.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-68-118",
+        "idcode-68-119"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-118, added 1998, ch. 302, sec. 5, p. 997.] ... [68-119, added 1998, ch. 302, sec. 6, p. 997; am. 2006, ch. 250, sec. 1, p. 759.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "So a title company that asks for the full trust is not acting improperly under Idaho law. The out-of-state point (68-119) covers the certification sections only, not the whole of Title 68 chapter 1."
+    },
+    {
+      "id": "lt-duty-to-inform-beneficiaries",
+      "claim": "Idaho Code 15-7-303 requires a trustee to keep the trust's beneficiaries reasonably informed of the trust and its administration; within thirty days after accepting the trust, the trustee must inform the current beneficiaries in writing of the court in which the trust is registered and of the trustee's name and address, and on reasonable request must provide relevant information about the trust's assets and administration.",
+      "quotedLanguage": "The trustee shall keep the beneficiaries of the trust reasonably informed of the trust and its administration. In addition: (a) Within thirty (30) days after his acceptance of the trust, the trustee shall inform in writing the current beneficiaries and if possible, one (1) or more persons who under section 15-1-403 of this code may represent beneficiaries with future interests, of the court in which the trust is registered and of his name and address. (b) Upon reasonable request, the trustee shall provide the beneficiary with a copy of the terms of the trust which describe or affect his interest and with relevant information about the assets of the trust and the particulars relating to the administration.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "beneficiaries",
+        "death"
+      ],
+      "sourceIds": [
+        "idcode-15-7-303"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-7-303, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The section does not say beneficiaries must approve a sale. It is a duty to inform. Do not convert it into a consent rule. It refers to registration (15-7-101), which this page does not discuss; whether and how a given trust must be registered is for an attorney."
+    },
+    {
+      "id": "lt-trust-agreement-nontestamentary",
+      "claim": "Idaho Code 15-6-201(a) provides that a provision in a trust agreement (among other listed instruments) that property passes at death to a person the decedent designated is deemed nontestamentary, and that the probate code does not invalidate the instrument or provision; subsection (b) states that nothing in the section limits the rights of creditors under other Idaho laws.",
+      "quotedLanguage": "(a) Any of the following provisions in an insurance policy, contract of employment, bond, mortgage, promissory note, deposit agreement, pension plan, trust agreement, conveyance, agreement to pass property at death to the surviving spouse or any other written instrument effective as a contract, gift, conveyance, or trust is deemed to be nontestamentary, and this code does not invalidate the instrument or any provision: ... (3) that any property which is the subject of the instrument shall pass to a person designated by the decedent in either the instrument or a separate writing, including a will, executed at the same time as the instrument or subsequently. (b) Nothing in this section limits the rights of creditors under other laws of this state.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "probate",
+        "death"
+      ],
+      "sourceIds": [
+        "idcode-15-6-201"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-6-201, as added by 1971, ch. 111, sec. 1, p. 233; am. 1973, ch. 167, sec. 18, p. 319.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "⚠️ The statute says 'nontestamentary' and does not use the words 'avoids probate'. It also applies only to property that is the SUBJECT of the instrument: a house never deeded into the trust is not covered by it. State it exactly as the section words it, keep (b) on creditors, and send the 'does this house need probate' question to an attorney. Subsections (c)-(d) on surviving-spouse agreements are not about trusts; do not mix them in."
+    },
+    {
+      "id": "lt-homestead-owner-includes-trust-beneficiary",
+      "claim": "For Idaho's homestead property-tax provisions, Idaho Code 63-701(7) defines 'owner' to include a person who is the beneficiary of a revocable or irrevocable trust that owns the homestead and under which the claimant or the claimant's spouse has the primary right of occupancy.",
+      "quotedLanguage": "\"Owner\" shall also include any person who: (a) Is the beneficiary of a revocable or irrevocable trust which is the owner of such homestead and under which the claimant or the claimant's spouse has the primary right of occupancy of the homestead;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "trusts"
+      ],
+      "sourceIds": [
+        "idcode-63-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-701, added 1996, ch. 98, sec. 8, p. 362; am. 1997, ch. 24, sec. 1, p. 33; am. 1997, ch. 117, sec. 23, p. 323; am. 1998, ch. 352, sec. 1, p. 1108; am. 1999, ch. 40, sec. 1, p. 77; am. 1999, ch. 382, sec. 2, p. 1049; am. 2000, ch. 20, sec. 1, p. 38; am. 2000, ch. 109, sec. 1, p. 239; am. 2000, ch. 154, sec. 1, p. 390; am. 2000, ch. 274, sec. 149, p. 883; am. 2001, ch. 69, sec. 2, p. 131; am. 2001, ch. 325, sec. 1, p. 1140; am. 2004, ch. 156, sec. 2, p. 497; am. 2005, ch. 31, sec. 1, p. 143; am. 2005, ch. 241, sec. 1, p. 749; am. 2005, ch. 280, sec. 58, p. 912; am. 2006, ch. 350, sec. 2, p. 1066; am. 2008, ch. 117, sec. 1, p. 323; am. 2010, ch. 235, sec. 55, p. 591; am. 2011, ch. 85, sec. 1, p. 176; am. 2015, ch. 224, sec. 1, p. 687; am. 2017, ch. 14, sec. 1, p. 22; am. 2019, ch. 159, sec. 3, p. 517; am. 2020, ch. 65, sec. 2, p. 151; am. 2022, ch. 307, sec. 1, p. 993; am. 2025, ch. 122, sec. 41, p. 649; am. 2025, ch. 208, sec. 22, p. 950.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "63-602G(2)(d) adopts this definition for the homeowner's exemption. Do not say every trust-owned home qualifies: the beneficiary must have the primary right of occupancy and the other conditions of 63-602G still apply."
+    },
+    {
+      "id": "lt-homestead-trust-proof-affidavit",
+      "claim": "Idaho Code 63-602G(2)(d) adopts the 63-701(7) definition of owner for the homeowner's exemption and lets a trust beneficiary provide proof of the trust in the manner set out in 63-703(4); for a trust-owned homestead, 63-703(4)(a) calls for an affidavit stating the claimant or spouse is a beneficiary and occupies the property as the primary dwelling, with copies of the trust portions showing beneficiary status and the signature pages.",
+      "quotedLanguage": "For the purpose of this section, the definition of \"owner\" shall be the same definition set forth in section 63-701 (7), Idaho Code. When an owner, pursuant to the provisions of section 63-701 (7), Idaho Code, is any person who is the beneficiary of a revocable or irrevocable trust ... he or she may provide proof of the trust, limited partnership, limited liability company, or corporation in the manner set forth in section 63-703 (4), Idaho Code. ... (a) If the owner of the homestead is a revocable or irrevocable trust, by an affidavit stating: (i) That the claimant, or the claimant's spouse, is a beneficiary of the trust; and (ii) That the claimant, or the claimant's spouse, is the occupier of the residential property and uses the property as the primary dwelling place of the occupier as of January 1 or before April 15. The affidavit shall include the attaching of copies of those portions of the trust which set forth the status of the claimant or the claimant's spouse as beneficiary and which contain the signature page or pages of the trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "trusts"
+      ],
+      "sourceIds": [
+        "idcode-63-602g",
+        "idcode-63-703"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.] ... [63-703, added 1996, ch. 98, sec. 8, p. 364; am. 1997, ch. 117, sec. 25, p. 325; am. 2001, ch. 69, sec. 4, p. 135; am. 2004, ch. 156, sec. 4, p. 501; am. 2019, ch. 31, sec. 3, p. 87.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "63-703(4) is in the property tax REDUCTION (circuit breaker) chapter; 63-602G borrows its proof method. The 'January 1 or before April 15' date is 63-703's wording; do not present it as the homeowner's-exemption deadline (that is the last business day of the year, pt-homestead-exemption-not-prorated)."
+    },
+    {
+      "id": "lt-ada-assessor-reapply-trust-transfer",
+      "claim": "The Ada County Assessor says homestead exemptions need be applied for only once unless there are changes to the owner's primary residency, property ownership changes, or ownership updates such as adding or removing owners or properties being transferred into trusts.",
+      "quotedLanguage": "Homestead Exemptions need only to be applied for once unless there are changes to owner's primary residency, property ownership changes, or ownership updates such as adding or removing owners from a property, or properties being transferred into trusts.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "trusts"
+      ],
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "County guidance, not statute. It covers a transfer INTO a trust; it does not say what happens on a sale out of a trust (a sale is a 'property ownership change', so the buyer applies: ada-homeowners-exemption-deadline)."
+    },
+    {
+      "id": "lt-ada-recorder-trust-document-types",
+      "claim": "The Ada County Recorder's Office lists 'Affidavits regarding Trusts' and 'Appointment of Successor Trustee' among the recorded document types, along with deeds and affidavits in lieu of probate, that are blocked from online viewing and must be requested from the office.",
+      "quotedLanguage": "The following documents are currently blocked from viewing or downloading online. If you need copies, please contact our office directly at ... Judgments Liens Affidavits regarding Trusts Affidavits in Lieu of Probate Agreements Deeds Appointment of Successor Trustee",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "trusts",
+        "deeds"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "⚠️ FAST-CHANGING ('currently'). The list shows these document types are recorded in Ada County; it does not say any of them is REQUIRED for a trust sale. Do not tell readers they must record a successor-trustee appointment or a trust affidavit; that is for the title company and an attorney. Pair with cl-ada-deeds-blocked-online (same page)."
     }
   ]
 }

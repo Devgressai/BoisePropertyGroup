@@ -1,0 +1,345 @@
+{
+  "claims": [
+    {
+      "id": "sv-decedent-community-share-devolves",
+      "claim": "Under Idaho Code 15-3-101, on the death of a husband or wife the decedent's share of the community property devolves to the persons named in the decedent's will or, with no testamentary disposition, to the surviving spouse; community property under the decedent's management and control is subject to the decedent's debts and administration, and all devolution is subject to homestead allowance, exempt property, creditors' rights, elective share and administration.",
+      "quotedLanguage": "upon the death of a husband or wife, the decedent's share of their community property devolves to the persons to whom it is devised by his last will, or in the absence of testamentary disposition, to the surviving spouse, but all of their community property which is under the management and control of the decedent is subject to his debts and administration, and that portion of their community property which is not under the management and control of the decedent but which is necessary to carry out the provisions of his will is subject to administration; but the devolution of all the above described property is subject to rights to homestead allowance, exempt property, to renunciation to rights of creditors, elective share of the surviving spouse and to administration.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "community-property",
+        "inheritance",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-3-101"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-101, added 1971, ch. 111, sec. 1, p. 233; am. 2014, ch. 134, sec. 1, p. 369.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "TRAP: the decedent's community half goes to the surviving spouse only 'in the absence of testamentary disposition'. A will can leave it elsewhere. Always state the will condition and the 'subject to ... debts and administration' qualifier. Never say the house 'automatically' belongs to the spouse on this section alone. Future-dated check: section page shows a single version; the 2026 PROBATE bill S1240 (effective 01/01/2027) amends 15-1-201 and chapter 5, not this section."
+    },
+    {
+      "id": "sv-intestate-spouse-share-community-and-separate",
+      "claim": "Idaho Code 15-2-102 sets the surviving spouse's intestate share: the decedent's one-half of community property passes to the surviving spouse; for separate property the spouse takes the entire intestate estate if there is no surviving issue or parent, and one-half if the decedent left issue or a parent.",
+      "quotedLanguage": "15-2-102. Share of the spouse. The intestate share of the surviving spouse is as follows: (a) As to separate property: (1) If there is no surviving issue or parent of the decedent, the entire intestate estate; (2) If there is no surviving issue but the decedent is survived by a parent or parents, one-half (1/2) of the intestate estate; (3) If there are surviving issue of the deceased spouse, one-half (1/2) of the intestate estate. (b) As to community property: (1) The one-half (1/2) of community property which belongs to the decedent passes to the surviving spouse.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "intestacy",
+        "community-property",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-2-102"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-2-102, as added by 1971, ch. 111, sec. 1, p. 233; am. 2001, ch. 330, sec. 1, p. 1160.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "INTESTATE only (no will). Separate property can be split with the decedent's issue or parents. Whether a given house is community or separate is a legal question the page must not answer; pair with dv-separate-property-defined and dv-community-property-default. Single version on the page; no future-dated version."
+    },
+    {
+      "id": "sv-interest-in-common-unless-declared-joint",
+      "claim": "Idaho Code 55-104 says every interest created in favor of several persons in their own right is an interest in common, unless acquired in partnership, declared in its creation to be a joint interest, or acquired as community property.",
+      "quotedLanguage": "55-104. Interests in common. Every interest created in favor of several persons in their own right is an interest in common, unless acquired by them in partnership, for partnership purposes, or unless declared in its creation to be a joint interest, or unless acquired as community property.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "joint-tenancy",
+        "community-property"
+      ],
+      "sourceIds": [
+        "idcode-55-104"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[55-104, added R.S., sec. 2828; reen. R.C. & C.L., sec. 3059; C.S., sec. 5328; I.C.A., sec. 54-104.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The section does not itself define 'joint tenancy' or state a survivorship rule. Use it only to say a joint interest must be declared when it is created. Do not describe what happens to a joint tenant's share at death from this section."
+    },
+    {
+      "id": "sv-cointerests-in-common-unless-declared",
+      "claim": "Idaho Code 55-508 says every interest in real estate granted or devised to two or more persons, other than executors or trustees as such, is a tenancy in common unless the grant or devise expressly declares otherwise.",
+      "quotedLanguage": "55-508. Cointerests deemed to be in common. Every interest in real estate granted or devised to two (2) or more persons, other than executors or trustees, as such constitutes a tenancy in common, unless expressly declared in the grant or devise to be otherwise.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "joint-tenancy",
+        "deeds"
+      ],
+      "sourceIds": [
+        "idcode-55-508"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(55-508) 1863, p. 528, sec. 42; R.S., sec. 2907; reen. R.C. & C.L., sec. 3104; C.S., sec. 5372; I.C.A., sec. 54-508.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Pair with 55-104. Neither section says how survivorship title is cleared after a death. The reader's deed wording controls; the page tells them to read the deed and ask a title company or attorney."
+    },
+    {
+      "id": "sv-cpwros-transfers-to-surviving-spouse",
+      "claim": "Idaho Code 15-6-401 provides that real property held by a husband and wife as community property with right of survivorship transfers to and belongs to the surviving spouse on the death of one spouse, and that this estate is created only when the grant, transfer or devise expressly declares it.",
+      "quotedLanguage": "15-6-401. Community property with right of survivorship in real property. Any estate in real property held by a husband and wife as community property with right of survivorship shall, upon the death of one (1) spouse, transfer and belong to the surviving spouse. An estate in community property with right of survivorship is created by a grant, transfer or devise to a husband and wife, when expressly declared in the grant, transfer or devise to be an estate in community property with right of survivorship.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "community-property",
+        "survivorship",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-6-401"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-6-401, added 2008, ch. 175, sec. 1, p. 478.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Statute uses 'husband and wife'; quote it as written. Only where the deed EXPRESSLY declares community property with right of survivorship. The section says nothing about what document a title company needs to show the death; do not invent one. Added 2008: a deed recorded before then cannot have used this statutory form under this section (do not state that inference in prose). Single version; no future-dated version."
+    },
+    {
+      "id": "sv-cpwros-termination-affidavit-and-divorce",
+      "claim": "Idaho Code 15-6-402 lets either spouse extinguish the right of survivorship in community property with right of survivorship by recording, with the county recorder where the land lies, a sworn 'affidavit terminating right of survivorship' with stated contents; recording does not extinguish either spouse's community interest, and a divorce or annulment, unless the court orders otherwise, turns the interests into tenancies in common.",
+      "quotedLanguage": "the right of survivorship is extinguished on the recordation in the office of the recorder of the county or counties where the real property is located an affidavit entitled \"affidavit terminating right of survivorship\" executed by either spouse under oath ... The recordation shall not extinguish the community interest of either spouse. (2) Divorce, or annulment of the marriage of, the husband and wife, unless otherwise ordered by the court in which the divorce is granted, severs the interests of the former spouses in property held by them at the time of the divorce or annulment as community property with the right of survivorship and transforms the interests of the former spouses into tenancies in common.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "title",
+        "community-property",
+        "survivorship",
+        "recording"
+      ],
+      "sourceIds": [
+        "idcode-15-6-402"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-6-402, added 2008, ch. 175, sec. 1, p. 478.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "This affidavit is made by a LIVING spouse to end survivorship. It is NOT an affidavit of death and does not clear title after a death. Use it only to say a survivorship deed can have been terminated by a recorded affidavit, so the record should be checked."
+    },
+    {
+      "id": "sv-summary-admin-petition-will-notice",
+      "claim": "Under Idaho Code 15-3-1205(a), the surviving spouse (or a person claiming through the spouse) files a verified petition setting out the marriage and the death; if the decedent left a will, the original will must accompany the petition, and notice of hearing is given under Idaho Code 15-1-401.",
+      "quotedLanguage": "the surviving spouse (or any person claiming title to any property through or under such surviving spouse) may file a verified petition setting out marriage and the death of a person leaving a surviving spouse as the sole devisee or heir. If the decedent died testate, the petition must be accompanied by the original of the last will and testament of the decedent. Notice of hearing shall be given pursuant to the provisions of section 15-1-401 , Idaho Code.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "summary-administration",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-3-1205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-1205, added 1973, ch. 124, sec. 2, p. 234; am. 1974, ch. 199, sec. 4, p. 1516; am. 2003, ch. 60, sec. 1, p. 206; am. 2005, ch. 121, sec. 1, p. 396.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Only where the spouse is the SOLE devisee or heir. Pair with pb-surviving-spouse-summary (decree effect and debt assumption). No dollar limit in the text; do not invent one. Future-dated check as in pb-surviving-spouse-summary: none."
+    },
+    {
+      "id": "sv-summary-admin-no-personal-appearance",
+      "claim": "Under Idaho Code 15-3-1205(b), if the hearing shows the marriage and that the surviving spouse is the sole heir or devisee, a decree is made to that effect; the petitioner, the spouse and the petitioner's attorney need not appear in person, and may appear by telephone on motion or submit affidavits in advance certifying that notice was given and no objection was received.",
+      "quotedLanguage": "(b) If it shall appear at such hearing that the decedent and the person claimed to be the surviving spouse were duly married and that the surviving spouse is the sole heir or devisee, a decree shall be made to that effect. ... The petitioner, or the surviving spouse, or both, need not appear in person at such hearing, nor must an attorney for the petitioner spouse appear in person at such hearing. The petitioner or the attorney for the petitioner, or both, may either: (1) Upon proper motion made by the petitioner, appear telephonically; or (2) Submit one (1) or more affidavits in advance of the hearing certifying that notice of hearing was given as required by law and that no objection to the entering of the decree has been received by the petitioner or the attorney for the petitioner.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "summary-administration",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "idcode-15-3-1205"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[15-3-1205, added 1973, ch. 124, sec. 2, p. 234; am. 1974, ch. 199, sec. 4, p. 1516; am. 2003, ch. 60, sec. 1, p. 206; am. 2005, ch. 121, sec. 1, p. 396.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Do not say a hearing is not held; the section contemplates a hearing at which in-person appearance is optional."
+    },
+    {
+      "id": "sv-probate-notice-fourteen-days",
+      "claim": "Idaho Code 15-1-401 requires notice of a hearing on a probate petition to be mailed or personally delivered to interested persons at least 14 days before the hearing, or, where an address or identity cannot be found with reasonable diligence, published once a week for three consecutive weeks with the last publication at least 10 days before the hearing; the court may set a different method or time for good cause.",
+      "quotedLanguage": "(1) by mailing a copy thereof at least fourteen (14) days before the time set for the hearing by certified, registered or ordinary first class mail ... (2) by delivering a copy thereof to the person being notified personally at least fourteen (14) days before the time set for the hearing; or (3) if the address, or identity of any person is not known and cannot be ascertained with reasonable diligence, by publishing at least once a week for three (3) consecutive weeks, a copy thereof in a newspaper having general circulation in the county where the hearing is to be held, the last publication of which is to be at least ten (10) days before the time set for the hearing. (b) The court for good cause shown may provide for a different method or time of giving notice for any hearing.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "probate",
+        "notice",
+        "summary-administration"
+      ],
+      "sourceIds": [
+        "idcode-15-1-401"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-1-401, as added by 1971, ch. 111, sec. 1, p. 233; am. 1973, ch. 167, sec. 4, p. 319.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Applies 'except for specific notice requirements as otherwise provided'. Fourteen days is a minimum notice period, not a time for the case to finish. Never present it as how long summary administration takes. Single version; no future-dated version."
+    },
+    {
+      "id": "sv-ada-recorder-lists-affidavits-in-lieu-of-probate",
+      "claim": "The Ada County Recorder's Office lists 'Affidavits in Lieu of Probate', 'Order Determining Heirs' and 'Affidavits regarding Trusts' among recorded document types currently blocked from online viewing or download, and says copies must be requested from the office.",
+      "quotedLanguage": "The following documents are currently blocked from viewing or downloading online. If you need copies, please contact our office directly at",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "probate",
+        "title"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The list items themselves ('Affidavits in Lieu of Probate', 'Order Determining Heirs') are under verify-quotes' 25-character threshold and were checked by eye in the cached page (lines listing blocked types). The page does NOT describe what these affidavits contain, who may sign them, or when they are used. Use only to say the document types exist in the county record. Never describe an Idaho 'affidavit of death' from this."
+    },
+    {
+      "id": "sv-ada-recorder-death-records-vital-statistics",
+      "claim": "The Ada County Recorder's FAQ directs people to Idaho Vital Statistics for birth and death records.",
+      "quotedLanguage": "Birth and Death Certificates: Contact Idaho Vital Statistics for information regarding birth and death records for Idaho.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "death-records"
+      ],
+      "sourceIds": [
+        "ada-recorder-faq"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The FAQ says only where to get death records. It does not say a death certificate must be recorded or what a title company requires."
+    },
+    {
+      "id": "sv-irs-pub523-surviving-spouse-500k-conditions",
+      "claim": "IRS Publication 523 (2025) lists a $500,000 maximum exclusion for a surviving spouse who sells the home within 2 years of the spouse's death, has not remarried at the time of sale, where neither spouse took the exclusion on another home sold less than 2 years before, and who meets the 2-year ownership and residence requirements including the late spouse's times; a seller who does not qualify is told to determine eligibility for the full limit as a single person.",
+      "quotedLanguage": "Surviving spouse You sell your home within 2 years of the death of your spouse. You haven't remarried at the time of the sale. Neither you nor your late spouse took the exclusion on another home sold less than 2 years before the date of the current home sale. You meet the 2-year ownership and residence requirements (including your late spouse‘s times of ownership and residence, if applicable). $500,000 Determine if you are eligible for the full limit as a single person.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "capital-gains",
+        "home-sale-exclusion",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "From the worksheet table in Pub 523 (2025 edition, 'For use in preparing 2025 Returns', page last reviewed 30-Apr-2026). All four conditions must be stated together. The table's next instruction is to check eligibility as a single person if not met. 'Maximum' exclusion: never write a seller 'will not owe tax'. State the edition year."
+    },
+    {
+      "id": "sv-irs-pub523-surviving-spouse-tacking",
+      "claim": "IRS Publication 523 (2025) says a surviving spouse who does not meet the 2-year ownership and residence requirements alone, and has not remarried at the time of sale, may include any time when the late spouse owned and lived in the home, even without the surviving spouse, to meet those requirements.",
+      "quotedLanguage": "Surviving spouses. If you are a surviving spouse who doesn't meet the 2-year ownership and residence requirements on your own, consider the following rule. If you haven't remarried at the time of the sale, then you may include any time when your late spouse owned and lived in the home, even if without you, to meet the ownership and residence requirements.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "home-sale-exclusion",
+        "surviving-spouse"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Not-remarried condition must be stated. This is about meeting the TESTS, separate from the $500,000 limit conditions in sv-irs-pub523-surviving-spouse-500k-conditions."
+    },
+    {
+      "id": "sv-irs-pub523-jointly-owned-basis",
+      "claim": "IRS Publication 523 (2025) says that for a surviving spouse who owned the home jointly, the basis of the late spouse's interest becomes its fair market value on the date of death (or alternate valuation date) while the survivor's own interest keeps its basis, and that spouses holding as tenants by the entirety or joint tenants with right of survivorship are each considered to have owned one-half.",
+      "quotedLanguage": "If you are a surviving spouse and you owned your home jointly, your basis in the home will change. The new basis for the interest your spouse owned will be its fair market value on the date of death (or alternate valuation date). The basis in your interest will remain the same. Your new basis in the home is the total of these two amounts. If you and your spouse owned the home either as tenants by the entirety or as joint tenants with right of survivorship, you will each be considered to have owned one-half of the home.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "federal-tax",
+        "basis",
+        "surviving-spouse",
+        "joint-tenancy"
+      ],
+      "sourceIds": [
+        "irs-pub-523"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "United States (federal)",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Contrast with the community-property rule (cg-irs-community-property-basis), where the whole community property generally takes a new basis. Which rule applies depends on how the home was owned, an Idaho-law and tax question the page must not answer. Pub 523 also gives a numeric example; do not reuse its figures as if typical."
+    }
+  ]
+}

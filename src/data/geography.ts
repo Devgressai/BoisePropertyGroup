@@ -36,8 +36,8 @@ export const county = {
   "slug": "sell-my-house-fast-ada-county",
   "population2024Census": 535799,
   "population2024Compass": 557590,
-  "directClaims": 107,
-  "uniqueClaims": 47,
+  "directClaims": 115,
+  "uniqueClaims": 55,
   "indexable": true
 } as const;
 

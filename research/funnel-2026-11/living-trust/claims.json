@@ -1,0 +1,441 @@
+{
+  "claims": [
+    {
+      "id": "lt-trustee-acts-without-court-prudent-fiduciary",
+      "claim": "Under Idaho Code 68-106(a) and (b), from the creation of a trust until final distribution of its assets a trustee may perform, without court authorization, every act a prudent man would perform for the purposes of the trust, including the powers listed in subsection (c), and in exercising those powers the trustee has a duty to act with due regard to the trustee's obligation as a fiduciary.",
+      "quotedLanguage": "(a) From time of creation of the trust until final distribution of the assets of the trust, a trustee has the power to perform, without court authorization, every act which a prudent man would perform for the purposes of the trust including but not limited to the powers specified in subsection (c). (b) In the exercise of his powers including the powers granted by this act, a trustee has a duty to act with due regard to his obligation as a fiduciary.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "sourceIds": [
+        "idcode-68-106"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-106, added 1965, ch. 95, sec. 3, p. 173; am. 1983, ch. 137, sec. 1, p. 334.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The 'without court authorization' power is subject to the trust instrument (68-105(a)) and to the fiduciary duty in (b). Never write that a trustee may sell 'however they like' or that beneficiaries have no say. 'Prudent man' is the statute's term, defined in 68-104(3)."
+    },
+    {
+      "id": "lt-trustee-power-sell-real-estate",
+      "claim": "Idaho Code 68-106(c)(7) lists among a trustee's powers the power to acquire assets, including real estate, in the name of the trust, and to sell, convey or dispose of an asset for cash or on credit at public or private sale; 68-106(c)(26) adds the power to execute and deliver all instruments that accomplish or facilitate the exercise of the trustee's powers.",
+      "quotedLanguage": "(7) to acquire assets, including real estate, in the name of the trust, and to sell, convey or dispose of an asset, for cash or on credit, at public or private sale; ... (26) to execute and deliver all instruments which will accomplish or facilitate the exercise of the powers vested in the trustee.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers",
+        "sale"
+      ],
+      "sourceIds": [
+        "idcode-68-106"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-106, added 1965, ch. 95, sec. 3, p. 173; am. 1983, ch. 137, sec. 1, p. 334.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Subsection (c) opens 'subject to subsections (a) and (b)'. Present the sale power as a default the trust instrument can limit (68-105(a)). Do not say the statute names a 'trustee's deed'; it says 'instruments'."
+    },
+    {
+      "id": "lt-powers-unless-limited-by-instrument",
+      "claim": "Idaho Code 68-105(a) gives a trustee all the powers conferred by the Uniform Trustees' Powers Act unless they are limited in the trust instrument, and 68-111 applies the act, except as specifically provided in the trust, to any trust established after the act's effective date.",
+      "quotedLanguage": "The trustee has all powers conferred upon him by the provisions of this act unless limited in the trust instrument. ... Except as specifically provided in the trust, the provisions of this act apply to any trust established after the effective date of this act.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "sourceIds": [
+        "idcode-68-105",
+        "idcode-68-111"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-105, added 1965, ch. 95, sec. 2, p. 173.] ... [68-111, added 1965, ch. 95, sec. 8, p. 173.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The act was added in 1965 (history notes). The trust document controls: a reader must read their own trust (or have an attorney read it) for limits such as required consents or co-signers. Do not state the effective date as a specific day; the section does not."
+    },
+    {
+      "id": "lt-uniform-trustees-powers-act-scope",
+      "claim": "Idaho Code 15-7-401 states that the powers of trustees are set forth in the uniform powers of trustees act, sections 68-104 through 68-113, and 68-104 defines 'trustee' as an original, added, or successor trustee and 'trust' as an express trust created by a trust instrument, including a will.",
+      "quotedLanguage": "The powers of trustees are set forth in the uniform powers of trustees act, sections 68-104 through 68-113 , Idaho Code. ... \"Trust\" means an express trust created by a trust instrument, including a will, whereby a trustee has the duty to administer a trust asset for the benefit of a named or otherwise described income or principal beneficiary, or both; ... (2) \"Trustee\" means an original, added, or successor trustee;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "sourceIds": [
+        "idcode-15-7-401",
+        "idcode-68-104"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-7-401, as added by 1971, ch. 111, sec. 1, p. 233.] ... [68-104, added 1965, ch. 95, sec. 1, p. 173.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The successor-trustee point matters for a sale after the settlor dies: the definition puts a successor trustee within the act. The definition does not say how a successor is appointed; that comes from the trust instrument or, where there is no trustee, 68-101."
+    },
+    {
+      "id": "lt-cotrustees-majority-and-remaining",
+      "claim": "Under Idaho Code 68-109, a power vested in three or more trustees may be exercised by a majority, and if one of two or more trustees cannot or will not accept, or ceases to be a trustee, the remaining trustees perform the trust and succeed to all the powers given to the trustees jointly; 68-102 says that on the death, renunciation or discharge of one of several trustees the trust survives to the others.",
+      "quotedLanguage": "(a) Any power vested in 3 or more trustees may be exercised by a majority ... (b) If 2 or more trustees are appointed to perform a trust, and if any of them is unable or refuses to accept the appointment, or, having accepted, ceases to be a trustee, the surviving or remaining trustees shall perform the trust and succeed to all the powers, duties, and discretionary authority given to the trustees jointly. ... On the death, renunciation, or discharge of one (1) of the several number of trustees, the trust survives to the others.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers",
+        "death"
+      ],
+      "sourceIds": [
+        "idcode-68-109",
+        "idcode-68-102"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-109, added 1965, ch. 95, sec. 6, p. 173.] ... [(68-102) 1919, ch. 19, sec. 2, p. 82; C.S., sec. 6418; I.C.A., sec. 66-102.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The majority rule is for THREE or more trustees. The section says nothing about two co-trustees disagreeing. A trust instrument can require all trustees to sign (68-115(1)(e) lets the certification say so). Do not tell readers whether one spouse-trustee can sign alone."
+    },
+    {
+      "id": "lt-court-appoints-when-no-trustee",
+      "claim": "Idaho Code 68-101 provides that when a trust exists without any appointed trustee, or any or all trustees renounce, die or are discharged, the district court of the county where the trust property or part of it is situated must appoint another trustee to direct the execution of the trust.",
+      "quotedLanguage": "When a trust exists without any appointed trustees or where any or all of the trustees renounce, die, or are discharged, the district court of the county where the trust property or some portion thereof is situated, must appoint another trustee to direct the execution of the trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "death",
+        "courts"
+      ],
+      "sourceIds": [
+        "idcode-68-101"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[(68-101), 1919, ch. 19, sec. 1, p. 82; C.S., sec. 6417; I.C.A., sec. 66-101.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Read with the trust instrument: most trusts name a successor. Do not say a court is needed whenever a trustee dies; the section is about a trust left without trustees. Not legal advice on when to petition."
+    },
+    {
+      "id": "lt-third-person-protected",
+      "claim": "Idaho Code 68-110 provides that a third person dealing with a trustee may assume the existence of trust powers and their proper exercise without inquiry, and that a third person without actual knowledge that the trustee is exceeding or improperly exercising the powers is fully protected as if the trustee had and properly exercised them; the third person is not bound to assure the proper application of trust assets paid to the trustee.",
+      "quotedLanguage": "With respect to a third person dealing with a trustee or assisting a trustee in the conduct of a transaction, the existence of trust powers and their proper exercise by the trustee may be assumed without inquiry. The third person is not bound to inquire whether the trustee has power to act or is properly exercising the power; and a third person, without actual knowledge that the trustee is exceeding his powers or improperly exercising them, is fully protected in dealing with the trustee as if the trustee possessed and properly exercised the powers he purports to exercise. A third person is not bound to assure the proper application of trust assets paid or delivered to the trustee.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "trustee-powers",
+        "sale",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-68-110"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-110, added 1965, ch. 95, sec. 7, p. 173.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "This protects the BUYER (third person), not the trustee. It does not relieve the trustee of fiduciary duties to beneficiaries. The protection turns on lacking 'actual knowledge'. Title companies may still ask for documents (68-116, 68-118)."
+    },
+    {
+      "id": "lt-certification-of-trust-affidavit",
+      "claim": "Under Idaho Code 68-114, a trustee may present a certification of trust to any person instead of a copy of the trust instrument to establish the existence or terms of the trust, voluntarily or at that person's request; no person is required to accept and rely solely on a certification, and the certification must be an affidavit signed and acknowledged by all currently acting trustees.",
+      "quotedLanguage": "(1) A trustee may present a certification of trust to any person in lieu of a copy of any trust instrument to establish the existence or terms of the trust. The trustee may present the certification voluntarily or at the request of the person with whom he is dealing. Notwithstanding any provision of this chapter to the contrary, no person is required to accept and rely solely on a certification of trust in lieu of a copy of, or excerpts from, the trust instrument itself. (2) Such a certification must be in the form of an affidavit signed and acknowledged by all of the currently acting trustees of the trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title",
+        "closing"
+      ],
+      "sourceIds": [
+        "idcode-68-114"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-114, added 1998, ch. 302, sec. 1, p. 995.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The section heading mentions a 'Form' but the section text on the Legislature page prints no form. Do not say Idaho has a statutory certification form. Do not say a title company must accept it; (1) says no one is required to."
+    },
+    {
+      "id": "lt-certification-contents",
+      "claim": "Idaho Code 68-115 lists what a certification of trust may confirm: the trust's existence and date of execution; the identity of the settlor and each currently acting trustee; the trustee's powers and restrictions; whether the trust is revocable and who may revoke it; whether all or fewer than all co-trustees must act; the trust's identifying number; the governing jurisdiction; and the form in which title to trust assets is to be taken. It must state that the trust has not been revoked or amended to make the certification incorrect and that the signatures are those of all currently acting trustees.",
+      "quotedLanguage": "(1) A certification of trust may confirm the following facts or contain the following information: (a) The existence of the trust and date of execution of any trust instrument; (b) The identity of the settlor and each currently acting trustee; (c) The powers of the trustee and any restrictions imposed upon him in dealing with assets of the trust; (d) The revocability or irrevocability of the trust and the identity of any person holding a power to revoke it; (e) If there is more than one (1) trustee, whether all of the currently acting trustees must, or less than all may, act to exercise identified powers of the trustee; (f) The identifying number of the trust and whether it is a social security number or an employer identification number; (g) The state or other jurisdiction under the laws of which the trust was established; and (h) The form in which title to assets of the trust is to be taken. (2) The certification must contain a statement that the trust has not been revoked or amended to make any representations contained in the certification incorrect, and that the signatures are those of all the currently acting trustees.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-68-115"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-115, added 1998, ch. 302, sec. 2, p. 996.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Items in (1) are permissive ('may confirm'); the statement in (2) is mandatory ('must'). Keep that distinction."
+    },
+    {
+      "id": "lt-certification-excerpts",
+      "claim": "Under Idaho Code 68-116 a certification of trust need not contain the trust's dispositive provisions, but the person it is presented to may require copies of excerpts from the trust instrument that designate the trustee or give the trustee power to act in the pending transaction.",
+      "quotedLanguage": "A certification of trust need not contain the dispositive provisions of the trust, but the person to whom the certification is presented may require copies of excerpts from any trust instrument which designate the trustee or confer upon him the power to act in the pending transaction.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-68-116"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-116, added 1998, ch. 302, sec. 3, p. 996.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "'Dispositive provisions' = who gets what. The statute lets the trustee keep those private; it does not stop a title company asking for the pages that name the trustee and grant the power."
+    },
+    {
+      "id": "lt-certification-reliance",
+      "claim": "Idaho Code 68-117 provides that a person who acts in reliance on a certification of trust without knowing its representations are incorrect is not liable for so acting, and that a transaction entered into by a trustee and a person relying on a certification is fully enforceable against the trust assets unless that person knows the trustee is acting outside the scope of the trust.",
+      "quotedLanguage": "(1) A person who acts in reliance upon a certification of trust without knowledge that the representations contained therein are incorrect is not liable to any person for so acting. ... (2) A transaction, and any lien created thereby, entered into by a trustee and a person acting in reliance upon a certification of trust is fully enforceable against the assets of the trust unless the person knows that the trustee is acting outside the scope of the trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title",
+        "sale"
+      ],
+      "sourceIds": [
+        "idcode-68-117"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-117, added 1998, ch. 302, sec. 4, p. 997.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "Protects the relying party. Do not present it as protecting the trustee who signed an incorrect certification."
+    },
+    {
+      "id": "lt-refusal-to-rely-not-improper",
+      "claim": "Idaho Code 68-118 states that a person's failure to demand a certification of trust, or refusal to accept and rely solely on one, may not be considered an improper act and supports no inference about good faith; 68-119 applies sections 68-114 through 68-120 to all trusts, whether established under Idaho law or the law of another state or jurisdiction.",
+      "quotedLanguage": "A person's failure to demand a certification of trust, or his refusal to accept and rely solely on a certification of trust, may not be considered to be an improper act by him and no inference as to whether he has acted in good faith may be drawn from the failure to demand, or the refusal to accept and rely upon, a certification of trust. ... The provisions of sections 68-114 through 68-120 , Idaho Code, shall apply to all trusts, whether established pursuant to Idaho law or established pursuant to the law of another state or jurisdiction.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title"
+      ],
+      "sourceIds": [
+        "idcode-68-118",
+        "idcode-68-119"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[68-118, added 1998, ch. 302, sec. 5, p. 997.] ... [68-119, added 1998, ch. 302, sec. 6, p. 997; am. 2006, ch. 250, sec. 1, p. 759.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "So a title company that asks for the full trust is not acting improperly under Idaho law. The out-of-state point (68-119) covers the certification sections only, not the whole of Title 68 chapter 1."
+    },
+    {
+      "id": "lt-duty-to-inform-beneficiaries",
+      "claim": "Idaho Code 15-7-303 requires a trustee to keep the trust's beneficiaries reasonably informed of the trust and its administration; within thirty days after accepting the trust, the trustee must inform the current beneficiaries in writing of the court in which the trust is registered and of the trustee's name and address, and on reasonable request must provide relevant information about the trust's assets and administration.",
+      "quotedLanguage": "The trustee shall keep the beneficiaries of the trust reasonably informed of the trust and its administration. In addition: (a) Within thirty (30) days after his acceptance of the trust, the trustee shall inform in writing the current beneficiaries and if possible, one (1) or more persons who under section 15-1-403 of this code may represent beneficiaries with future interests, of the court in which the trust is registered and of his name and address. (b) Upon reasonable request, the trustee shall provide the beneficiary with a copy of the terms of the trust which describe or affect his interest and with relevant information about the assets of the trust and the particulars relating to the administration.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "beneficiaries",
+        "death"
+      ],
+      "sourceIds": [
+        "idcode-15-7-303"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-7-303, as added by 1971, ch. 111, sec. 1, p. 233.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "The section does not say beneficiaries must approve a sale. It is a duty to inform. Do not convert it into a consent rule. It refers to registration (15-7-101), which this page does not discuss; whether and how a given trust must be registered is for an attorney."
+    },
+    {
+      "id": "lt-trust-agreement-nontestamentary",
+      "claim": "Idaho Code 15-6-201(a) provides that a provision in a trust agreement (among other listed instruments) that property passes at death to a person the decedent designated is deemed nontestamentary, and that the probate code does not invalidate the instrument or provision; subsection (b) states that nothing in the section limits the rights of creditors under other Idaho laws.",
+      "quotedLanguage": "(a) Any of the following provisions in an insurance policy, contract of employment, bond, mortgage, promissory note, deposit agreement, pension plan, trust agreement, conveyance, agreement to pass property at death to the surviving spouse or any other written instrument effective as a contract, gift, conveyance, or trust is deemed to be nontestamentary, and this code does not invalidate the instrument or any provision: ... (3) that any property which is the subject of the instrument shall pass to a person designated by the decedent in either the instrument or a separate writing, including a will, executed at the same time as the instrument or subsequently. (b) Nothing in this section limits the rights of creditors under other laws of this state.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "trusts",
+        "probate",
+        "death"
+      ],
+      "sourceIds": [
+        "idcode-15-6-201"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[I.C., sec. 15-6-201, as added by 1971, ch. 111, sec. 1, p. 233; am. 1973, ch. 167, sec. 18, p. 319.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "⚠️ The statute says 'nontestamentary' and does not use the words 'avoids probate'. It also applies only to property that is the SUBJECT of the instrument: a house never deeded into the trust is not covered by it. State it exactly as the section words it, keep (b) on creditors, and send the 'does this house need probate' question to an attorney. Subsections (c)-(d) on surviving-spouse agreements are not about trusts; do not mix them in."
+    },
+    {
+      "id": "lt-homestead-owner-includes-trust-beneficiary",
+      "claim": "For Idaho's homestead property-tax provisions, Idaho Code 63-701(7) defines 'owner' to include a person who is the beneficiary of a revocable or irrevocable trust that owns the homestead and under which the claimant or the claimant's spouse has the primary right of occupancy.",
+      "quotedLanguage": "\"Owner\" shall also include any person who: (a) Is the beneficiary of a revocable or irrevocable trust which is the owner of such homestead and under which the claimant or the claimant's spouse has the primary right of occupancy of the homestead;",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "trusts"
+      ],
+      "sourceIds": [
+        "idcode-63-701"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-701, added 1996, ch. 98, sec. 8, p. 362; am. 1997, ch. 24, sec. 1, p. 33; am. 1997, ch. 117, sec. 23, p. 323; am. 1998, ch. 352, sec. 1, p. 1108; am. 1999, ch. 40, sec. 1, p. 77; am. 1999, ch. 382, sec. 2, p. 1049; am. 2000, ch. 20, sec. 1, p. 38; am. 2000, ch. 109, sec. 1, p. 239; am. 2000, ch. 154, sec. 1, p. 390; am. 2000, ch. 274, sec. 149, p. 883; am. 2001, ch. 69, sec. 2, p. 131; am. 2001, ch. 325, sec. 1, p. 1140; am. 2004, ch. 156, sec. 2, p. 497; am. 2005, ch. 31, sec. 1, p. 143; am. 2005, ch. 241, sec. 1, p. 749; am. 2005, ch. 280, sec. 58, p. 912; am. 2006, ch. 350, sec. 2, p. 1066; am. 2008, ch. 117, sec. 1, p. 323; am. 2010, ch. 235, sec. 55, p. 591; am. 2011, ch. 85, sec. 1, p. 176; am. 2015, ch. 224, sec. 1, p. 687; am. 2017, ch. 14, sec. 1, p. 22; am. 2019, ch. 159, sec. 3, p. 517; am. 2020, ch. 65, sec. 2, p. 151; am. 2022, ch. 307, sec. 1, p. 993; am. 2025, ch. 122, sec. 41, p. 649; am. 2025, ch. 208, sec. 22, p. 950.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "63-602G(2)(d) adopts this definition for the homeowner's exemption. Do not say every trust-owned home qualifies: the beneficiary must have the primary right of occupancy and the other conditions of 63-602G still apply."
+    },
+    {
+      "id": "lt-homestead-trust-proof-affidavit",
+      "claim": "Idaho Code 63-602G(2)(d) adopts the 63-701(7) definition of owner for the homeowner's exemption and lets a trust beneficiary provide proof of the trust in the manner set out in 63-703(4); for a trust-owned homestead, 63-703(4)(a) calls for an affidavit stating the claimant or spouse is a beneficiary and occupies the property as the primary dwelling, with copies of the trust portions showing beneficiary status and the signature pages.",
+      "quotedLanguage": "For the purpose of this section, the definition of \"owner\" shall be the same definition set forth in section 63-701 (7), Idaho Code. When an owner, pursuant to the provisions of section 63-701 (7), Idaho Code, is any person who is the beneficiary of a revocable or irrevocable trust ... he or she may provide proof of the trust, limited partnership, limited liability company, or corporation in the manner set forth in section 63-703 (4), Idaho Code. ... (a) If the owner of the homestead is a revocable or irrevocable trust, by an affidavit stating: (i) That the claimant, or the claimant's spouse, is a beneficiary of the trust; and (ii) That the claimant, or the claimant's spouse, is the occupier of the residential property and uses the property as the primary dwelling place of the occupier as of January 1 or before April 15. The affidavit shall include the attaching of copies of those portions of the trust which set forth the status of the claimant or the claimant's spouse as beneficiary and which contain the signature page or pages of the trust.",
+      "entity": [
+        "state:id"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "trusts"
+      ],
+      "sourceIds": [
+        "idcode-63-602g",
+        "idcode-63-703"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": "[63-602G, added 1996, ch. 98, sec. 7, p. 350; am. 1997, ch. 358, sec. 1, p. 1059; am. 1999, ch. 382, sec. 1, p. 1047; am. 2001, ch. 69, sec. 1, p. 129; am. 2001, ch. 166, sec. 1, p. 576; am. 2004, ch. 156, sec. 1, p. 495; am. 2004, ch. 190, sec. 1, p. 597; am. 2005, ch. 283, sec. 1, p. 919; am. 2006, ch. 429, sec. 1, p. 1313; am. 2007, ch. 39, sec. 1, p. 96; am. 2009, ch. 7, sec. 1, p. 7; am. 2012, ch. 214, sec. 1, p. 581; am. 2013, ch. 21, sec. 4, p. 37; am. 2014, ch. 324, sec. 1, p. 802; am. 2015, ch. 141, sec. 159, p. 501; am. 2016, ch. 94, sec. 1, p. 287; am. 2020, ch. 248, sec. 1, p. 727; am. 2021, ch. 360, sec. 1, p. 1110; am. 2022, ch. 81, sec. 4, p. 230; am. 2022, ch. 92, sec. 1, p. 258; am. 2024, ch. 168, sec. 1, p. 642; am. 2025, ch. 167, sec. 1, p. 799; am. 2025, ch. 202, sec. 3, p. 918; am. 2026, ch. 236, sec. 1, p. 1017.] ... [63-703, added 1996, ch. 98, sec. 8, p. 364; am. 1997, ch. 117, sec. 25, p. 325; am. 2001, ch. 69, sec. 4, p. 135; am. 2004, ch. 156, sec. 4, p. 501; am. 2019, ch. 31, sec. 3, p. 87.]",
+      "futureDatedAmendment": false,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "63-703(4) is in the property tax REDUCTION (circuit breaker) chapter; 63-602G borrows its proof method. The 'January 1 or before April 15' date is 63-703's wording; do not present it as the homeowner's-exemption deadline (that is the last business day of the year, pt-homestead-exemption-not-prorated)."
+    },
+    {
+      "id": "lt-ada-assessor-reapply-trust-transfer",
+      "claim": "The Ada County Assessor says homestead exemptions need be applied for only once unless there are changes to the owner's primary residency, property ownership changes, or ownership updates such as adding or removing owners or properties being transferred into trusts.",
+      "quotedLanguage": "Homestead Exemptions need only to be applied for once unless there are changes to owner's primary residency, property ownership changes, or ownership updates such as adding or removing owners from a property, or properties being transferred into trusts.",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "trusts"
+      ],
+      "sourceIds": [
+        "ada-assessor-homeowners-exemption"
+      ],
+      "confidence": "HIGH",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "County guidance, not statute. It covers a transfer INTO a trust; it does not say what happens on a sale out of a trust (a sale is a 'property ownership change', so the buyer applies: ada-homeowners-exemption-deadline)."
+    },
+    {
+      "id": "lt-ada-recorder-trust-document-types",
+      "claim": "The Ada County Recorder's Office lists 'Affidavits regarding Trusts' and 'Appointment of Successor Trustee' among the recorded document types, along with deeds and affidavits in lieu of probate, that are blocked from online viewing and must be requested from the office.",
+      "quotedLanguage": "The following documents are currently blocked from viewing or downloading online. If you need copies, please contact our office directly at ... Judgments Liens Affidavits regarding Trusts Affidavits in Lieu of Probate Agreements Deeds Appointment of Successor Trustee",
+      "entity": [
+        "county:ada"
+      ],
+      "topic": [
+        "recording",
+        "trusts",
+        "deeds"
+      ],
+      "sourceIds": [
+        "ada-property-records"
+      ],
+      "confidence": "MEDIUM",
+      "jurisdiction": "Ada County, Idaho",
+      "temporalStatus": "CURRENT",
+      "amendmentHistory": null,
+      "futureDatedAmendment": null,
+      "approvedForPublication": true,
+      "verifiedOn": "2026-11-26",
+      "notes": "⚠️ FAST-CHANGING ('currently'). The list shows these document types are recorded in Ada County; it does not say any of them is REQUIRED for a trust sale. Do not tell readers they must record a successor-trustee appointment or a trust affidavit; that is for the title company and an attorney. Pair with cl-ada-deeds-blocked-online (same page)."
+    }
+  ]
+}

@@ -344,6 +344,40 @@ export const guides: Guide[] = [
     sell: ["sell-house-with-liens-idaho", "sell-house-as-is-idaho"],
     handoff: "If unpaid dues or an open HOA violation is holding up a sale, a direct sale can price it in rather than wait for it to be cleared.",
   },
+  {
+    slug: "squatters-and-unauthorized-occupants-in-idaho",
+    title: "Squatters and Unauthorized Occupants",
+    h1: "Squatters and unauthorized occupants in an Idaho house",
+    description:
+      "What Idaho Code 6-310A lets an owner ask the sheriff to do, who it excludes, how it differs from eviction, and what adverse possession requires.",
+    cluster: "tenants",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-vacant-house-idaho", "sell-rental-property-idaho"],
+    handoff: "If someone is living in a house you need to sell, a direct sale is one option once the occupancy question is settled.",
+  },
+  {
+    slug: "selling-a-house-after-a-spouse-dies-in-idaho",
+    title: "Selling a House After a Spouse Dies",
+    h1: "Selling a house after a spouse dies in Idaho",
+    description:
+      "How Idaho law passes a house to a surviving spouse, the summary court procedure in Idaho Code 15-3-1205, the homeowner's exemption, and the IRS rules.",
+    cluster: "estate",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-inherited-house-idaho", "sell-probate-house-idaho"],
+  },
+  {
+    slug: "selling-a-house-in-a-living-trust-in-idaho",
+    title: "Selling a House in a Living Trust in Idaho",
+    h1: "Selling a house held in a living trust in Idaho",
+    description:
+      "Who signs when an Idaho house is in a revocable trust, what the trustee powers statute says, how a certification of trust works, and recording in Ada County.",
+    cluster: "estate",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-inherited-house-idaho", "sell-house-as-is-idaho"],
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {

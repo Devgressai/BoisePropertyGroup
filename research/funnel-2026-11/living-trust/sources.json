@@ -1,0 +1,477 @@
+{
+  "sources": [
+    {
+      "id": "idcode-68-101",
+      "title": "Idaho Code § 68-101 — Trustees — power of district court to appoint",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-101/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "courts"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1919",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-court-appoints-when-no-trustee"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-102",
+      "title": "Idaho Code § 68-102 — Death, renunciation, or discharge of trustee — survival of trust",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-102/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "death"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1919",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-cotrustees-majority-and-remaining"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-104",
+      "title": "Idaho Code § 68-104 — Uniform Trustees' Powers Act — definitions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-104/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-uniform-trustees-powers-act-scope"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-105",
+      "title": "Idaho Code § 68-105 — Powers of trustee conferred by trust or by law",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-105/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-powers-unless-limited-by-instrument"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-106",
+      "title": "Idaho Code § 68-106 — Powers of trustees conferred by this act",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-106/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers",
+        "sale"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1983",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-trustee-acts-without-court-prudent-fiduciary",
+        "lt-trustee-power-sell-real-estate"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-109",
+      "title": "Idaho Code § 68-109 — Powers exercisable by joint trustees — liability",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-109/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-cotrustees-majority-and-remaining"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-110",
+      "title": "Idaho Code § 68-110 — Third persons protected in dealing with trustee",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-110/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "title",
+        "sale"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-third-person-protected"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-111",
+      "title": "Idaho Code § 68-111 — Uniform Trustees' Powers Act — application of act",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-111/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-powers-unless-limited-by-instrument"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-114",
+      "title": "Idaho Code § 68-114 — Presentation of a certification of trust in lieu of the trust instrument",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-114/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present. The section heading says 'Effect — Form' but the section text prints no form.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-certification-of-trust-affidavit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-115",
+      "title": "Idaho Code § 68-115 — Contents of certification of trust",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-115/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-certification-contents"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-116",
+      "title": "Idaho Code § 68-116 — Certification of trust — dispositive provisions not required; excerpts may be requested",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-116/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-certification-excerpts"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-117",
+      "title": "Idaho Code § 68-117 — Reliance on facts contained in certification — enforceability",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-117/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-certification-reliance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-118",
+      "title": "Idaho Code § 68-118 — Failure to demand or refusal to rely on certification not improper",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-118/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-refusal-to-rely-not-improper"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-119",
+      "title": "Idaho Code § 68-119 — Certification of trust sections — applicability",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-119/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2006",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-refusal-to-rely-not-improper"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-7-303",
+      "title": "Idaho Code § 15-7-303 — Trust administration — duty to inform and account to beneficiaries",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch7/sect15-7-303/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "beneficiaries"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1971",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-duty-to-inform-beneficiaries"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-7-401",
+      "title": "Idaho Code § 15-7-401 — Trust administration — powers of trustees",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch7/sect15-7-401/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1971",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-uniform-trustees-powers-act-scope"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-6-201",
+      "title": "Idaho Code § 15-6-201 — Nonprobate transfers — provisions for payment or transfer at death",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch6/sect15-6-201/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "probate"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1973",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-trust-agreement-nontestamentary"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-703",
+      "title": "Idaho Code § 63-703 — Property tax reduction — claim and proof of ownership (trust beneficiaries)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch7/sect63-703/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "trusts"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2019",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present. Cache file was first written 2026-11-12 by another research run; re-read 2026-11-26.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-homestead-trust-proof-affidavit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

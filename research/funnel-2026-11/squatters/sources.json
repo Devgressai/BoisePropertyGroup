@@ -1,0 +1,318 @@
+{
+  "sources": [
+    {
+      "id": "idcode-6-302",
+      "title": "Idaho Code § 6-302 — Forcible detainer defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-302/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-forcible-detainer-absence"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-303",
+      "title": "Idaho Code § 6-303 — Unlawful detainer defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-303/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-unlawful-detainer-tenant"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-311a",
+      "title": "Idaho Code § 6-311A — Judgment on trial by court",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-311a/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-court-trial-restitution"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-316",
+      "title": "Idaho Code § 6-316 — Judgment — restitution",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-316/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-writ-72-hours-sheriff"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-18-7008",
+      "title": "Idaho Code § 18-7008 — Criminal trespass — definitions and acts constituting",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch70/sect18-7008/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present. Amended 2026 (ch. 78).",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-criminal-trespass-enters-or-remains",
+        "sq-trespass-tenant-lease-excluded",
+        "sq-trespass-owner-may-revoke-permission"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-5-206",
+      "title": "Idaho Code § 5-206 — Constructive possession",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title5/t5ch2/sect5-206/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2006",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-legal-title-presumption"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-5-207",
+      "title": "Idaho Code § 5-207 — Possession under written claim of title",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title5/t5ch2/sect5-207/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2006",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-adverse-possession-written-claim-20-years"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-5-210",
+      "title": "Idaho Code § 5-210 — Oral claim — possession defined — payment of taxes",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title5/t5ch2/sect5-210/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2006",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-adverse-possession-oral-20-years-taxes"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-civil-division",
+      "title": "Civil Division — Ada County Sheriff",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/civil-division/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Ada County Sheriff Civil Division page, read directly with raw HTML cached via fetch-source.mjs. The page does not mention Idaho Code 6-310A.",
+      "stalenessRisk": "MEDIUM — contact details and hours can change; re-check before publication.",
+      "claimsSupported": [
+        "sq-ada-sheriff-civil-contact"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-civil-process-documents",
+      "title": "Civil Process Services & Documents — Ada County Sheriff",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/civil-division/civil-process-services-documents/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Ada County Sheriff Civil Division page, read directly with raw HTML cached via fetch-source.mjs. The page does not mention Idaho Code 6-310A.",
+      "stalenessRisk": "LOW-MEDIUM — general procedure description.",
+      "claimsSupported": [
+        "sq-ada-sheriff-eviction-steps"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-civil-faq",
+      "title": "Civil Division FAQ — Ada County Sheriff",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/civil-division/faq-civil-division/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Ada County Sheriff Civil Division page, read directly with raw HTML cached via fetch-source.mjs. The page does not mention Idaho Code 6-310A.",
+      "stalenessRisk": "LOW-MEDIUM — general FAQ.",
+      "claimsSupported": [
+        "sq-ada-sheriff-no-locks-until-eviction"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-civil-fees",
+      "title": "Fees & Required Documentation — Ada County Sheriff Civil Division",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/civil-division/fees-required-documentation/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official Ada County Sheriff Civil Division page, read directly with raw HTML cached via fetch-source.mjs. The page does not mention Idaho Code 6-310A.",
+      "stalenessRisk": "HIGH — fees are set by the Board of Ada County Commissioners and can change; re-check the $515 figure before publication.",
+      "claimsSupported": [
+        "sq-ada-sheriff-writ-fee"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

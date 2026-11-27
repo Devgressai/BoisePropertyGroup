@@ -1,0 +1,136 @@
+{
+  "guide": {
+    "slug": "selling-a-house-after-a-spouse-dies-in-idaho",
+    "title": "Selling a House After a Spouse Dies",
+    "h1": "Selling a house after a spouse dies in Idaho",
+    "description": "How Idaho law passes a house to a surviving spouse, the summary court procedure in Idaho Code 15-3-1205, the homeowner's exemption, and the IRS rules.",
+    "cluster": "estate",
+    "published": "2026-11-26",
+    "updated": "2026-11-26"
+  },
+  "content": {
+    "intro": [
+      "When a spouse dies in Idaho, who can sell the house depends on how the deed was written and whether the house was community or separate property. Idaho Code says the deceased spouse's half of community property goes to the surviving spouse when no will directs it elsewhere, and a deed that declares community property with right of survivorship transfers the house to the survivor at death. Where the surviving spouse is the only heir or devisee, Idaho Code 15-3-1205 offers a summary court procedure with no administration of the estate, and the spouse takes on the estate's debts in exchange.",
+      "This page describes what Idaho statutes, Ada County offices and the IRS say. It is not legal or tax advice, and none of it is applied to your house. We are a direct buyer of property. We cannot tell you whether your house was community or separate property, whether your title is ready to sell, or what you will owe in tax. An Idaho attorney and a tax professional can."
+    ],
+    "sections": [
+      {
+        "heading": "Who owns the house after my spouse dies?",
+        "body": [
+          "Under Idaho law the answer starts with whether the house was community property or one spouse's separate property. Idaho Code 32-903 lists separate property as property owned before marriage, property acquired afterward by gift, bequest, devise or descent, and property acquired with the proceeds of separate property. Idaho Code 32-906 makes all other property acquired after marriage community property.",
+          "For community property, Idaho Code 15-3-101 says the deceased spouse's share devolves to the people named in the will or, with no testamentary disposition, to the surviving spouse. The same section makes community property under the decedent's management and control subject to the decedent's debts and to administration.",
+          "With no will, Idaho Code 15-2-102 says the decedent's one-half of community property passes to the surviving spouse. Separate property follows different rules. The surviving spouse takes the entire intestate estate of separate property only if the decedent left no issue and no parent. If the decedent left issue, or left a parent and no issue, the spouse's intestate share of separate property is one-half.",
+          "Which category your house falls into, and whether a will changes the result, are questions for an Idaho attorney. Where part of the house passes to children or other relatives, our guide to [selling an inherited house in Idaho](/guides/selling-an-inherited-house-in-idaho) covers heirs who are not a spouse."
+        ],
+        "claims": [
+          "dv-separate-property-defined",
+          "dv-community-property-default",
+          "sv-decedent-community-share-devolves",
+          "sv-intestate-spouse-share-community-and-separate"
+        ]
+      },
+      {
+        "heading": "How does the wording of the deed matter?",
+        "body": [
+          "Idaho treats co-ownership as a tenancy in common unless the deed says otherwise. Idaho Code 55-508 says real estate granted or devised to two or more persons is a tenancy in common unless the grant or devise expressly declares something else. Idaho Code 55-104 makes an interest held by several persons an interest in common unless it was declared a joint interest when created, acquired in partnership, or acquired as community property.",
+          "Idaho Code 15-6-401 creates a form of title called community property with right of survivorship. Real property held that way by a husband and wife transfers to and belongs to the surviving spouse on the death of one spouse. That estate exists only where the grant, transfer or devise expressly declares it.",
+          "A survivorship deed can be ended while both spouses are alive. Under Idaho Code 15-6-402, either spouse may record a sworn affidavit terminating the right of survivorship with the county recorder, and the recording leaves each spouse's community interest in place. A divorce or annulment, unless the court orders otherwise, turns those interests into tenancies in common. A title search shows what was recorded against your house.",
+          "We did not find an Idaho statute or an Ada County page that explains how title is cleared after the death of a joint tenant, or that sets out an affidavit of death for that purpose. The Ada County Recorder lists \"Affidavits in Lieu of Probate\" and \"Order Determining Heirs\" among the document types it holds back from online viewing, but the page does not say what those documents contain or when they are used. The title company handling a sale can tell you what it will require."
+        ],
+        "claims": [
+          "sv-cointerests-in-common-unless-declared",
+          "sv-interest-in-common-unless-declared-joint",
+          "sv-cpwros-transfers-to-surviving-spouse",
+          "sv-cpwros-termination-affidavit-and-divorce",
+          "sv-ada-recorder-lists-affidavits-in-lieu-of-probate"
+        ]
+      },
+      {
+        "heading": "Can I sign the sale paperwork by myself?",
+        "body": [
+          "That depends on what the public record shows about your late spouse's interest, which the title company and an Idaho attorney can check. While both spouses are alive, Idaho Code 32-912 says neither may sell, convey or encumber community real estate unless the other joins in executing the sale agreement, deed or other instrument. The statute reaches the purchase agreement as well as the deed.",
+          "Idaho Code 15-1-305A lists documents that may be recorded with the recorder of the county where the property lies, and from filing they give notice of their contents to everyone. The list includes letters of a personal representative, a determination of heirship, any deed executed by an appointed personal representative, and an affidavit of a successor in interest to property of a decedent. The statute says these may be recorded. It does not say which one your sale needs.",
+          "Ada County's recording fee schedule puts probate deeds and a decree of distribution in the same deed category as warranty and quitclaim deeds, at $15.00 for the first 30 pages. That is the county's fee for recording the document. The Ada County Recorder's FAQ points people to Idaho Vital Statistics for death records."
+        ],
+        "claims": [
+          "dv-both-spouses-join-community-real-estate",
+          "pb-letters-recordable",
+          "sp-rec-ada-notary-and-deed-category",
+          "cl-ada-deed-recording-fee",
+          "sv-ada-recorder-death-records-vital-statistics"
+        ]
+      },
+      {
+        "heading": "Is there a simpler court process for a surviving spouse?",
+        "body": [
+          "Yes, when the surviving spouse is the sole devisee or heir. Idaho Code 15-3-1205 lets the surviving spouse, or a person claiming title through the spouse, file a verified petition setting out the marriage and the death. If the decedent left a will, the original will must go with the petition.",
+          "Notice of the hearing follows Idaho Code 15-1-401. That section calls for mailing or personal delivery at least 14 days before the hearing. Where a person's address or identity cannot be found with reasonable diligence, notice is published once a week for three consecutive weeks, with the last publication at least 10 days before the hearing. The court may set a different method or time for good cause. These are notice periods. They do not say how long a case takes.",
+          "If the hearing shows the marriage and that the spouse is the sole heir or devisee, the court enters a decree to that effect. Under the statute that decree has the same effect as a formal decree approving or determining distribution. The petitioner, the spouse and the attorney need not appear in person. They may appear by telephone on motion, or file affidavits in advance certifying that notice was given and no objection was received.",
+          "The statute attaches a condition. A surviving spouse who elects this procedure assumes and is liable for any and all debts that might be a claim against the decedent's estate, and there is no administration of the estate. The section sets no dollar limit. Whether that condition suits your family is a question for an Idaho attorney."
+        ],
+        "claims": [
+          "sv-summary-admin-petition-will-notice",
+          "pb-surviving-spouse-summary",
+          "sv-probate-notice-fourteen-days",
+          "sv-summary-admin-no-personal-appearance"
+        ]
+      },
+      {
+        "heading": "Can I use a small estate affidavit for the house?",
+        "body": [
+          "Idaho's small estate affidavit is aimed at personal property. Idaho Code 15-3-1201 lets a successor collect debts owed to the decedent, tangible personal property and instruments by affidavit, 30 days after the death, where the probate estate less liens and encumbrances does not exceed $100,000. The section does not mention real property.",
+          "Ada County's Court Assistance Office describes the affidavit as usable where the person who died did not own real estate, and says the affidavit is not filed with the court. If the summary procedure does not fit, the house may need a full probate. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers that process."
+        ],
+        "claims": [
+          "pb-small-estate-affidavit-conditions",
+          "pb-ada-small-estate-affidavit-no-real-estate"
+        ]
+      },
+      {
+        "heading": "What happens to the mortgage when a spouse dies?",
+        "body": [
+          "Federal law limits when a lender can call a home loan due because of a transfer after a death. Under 12 U.S.C. 1701j-3(d), for a loan on residential real property with less than five dwelling units, a lender may not exercise a due-on-sale clause on a transfer by devise, descent or operation of law on the death of a joint tenant, on a transfer to a relative resulting from the borrower's death, or on a transfer where the borrower's spouse or children become an owner.",
+          "That section is about the transfer only. It says nothing about missed payments, and it does not make the surviving spouse a borrower on the loan. Our guide to [inheriting a house with a mortgage in Idaho](/guides/inheriting-a-house-with-a-mortgage-in-idaho) covers the federal servicing rules for successors."
+        ],
+        "claims": [
+          "im-garn-exempt-transfers-on-death"
+        ]
+      },
+      {
+        "heading": "Does the homeowner's exemption continue after my spouse dies?",
+        "body": [
+          "For a time, if the home stays in the estate. Idaho Code 63-602G says a homestead that qualified the previous year keeps its exemption through the year of the owner's death and the following tax year, provided it continues to be part of the owner's estate. After that, the new owner must reapply and meet the qualifications.",
+          "The Ada County Assessor says an approved exemption lasts as long as the owner owns and occupies the property, and that if the property is sold the new owner must file an application. The statute ties the carryover to the estate. It does not say the exemption follows the house to a buyer. The Ada County Assessor can answer questions about whose name the exemption is in."
+        ],
+        "claims": [
+          "pt-homestead-death-carryover",
+          "pt-ada-new-owner-must-apply"
+        ]
+      },
+      {
+        "heading": "Can a surviving spouse still exclude up to $500,000 of gain?",
+        "body": [
+          "IRS Publication 523 (2025 edition) lists a $500,000 maximum exclusion for a surviving spouse who meets four conditions. The home is sold within 2 years of the spouse's death. The surviving spouse has not remarried at the time of the sale. Neither spouse took the exclusion on another home sold less than 2 years before. And the 2-year ownership and residence requirements are met, counting the late spouse's times where they apply. A seller who does not meet them is directed to check eligibility as a single person, and IRS Topic 701 gives that limit as up to $250,000.",
+          "Publication 523 also says a surviving spouse who has not remarried may count time when the late spouse owned and lived in the home, even without the survivor, toward the ownership and residence requirements.",
+          "A death also changes the home's basis, which is the figure gain is measured from. For a home the spouses owned jointly, Publication 523 says the late spouse's interest takes its fair market value on the date of death, the survivor's interest keeps its old basis, and spouses who held as joint tenants with right of survivorship are each treated as owning one-half. For community property, IRS Publication 551 lists Idaho as a community property state and says the total value of the community property, including the survivor's half, generally becomes the basis of the entire property, provided at least half the value is includible in the decedent's gross estate.",
+          "Which of these rules fits your house depends on how it was owned and on your records. A tax professional can work through both before you choose a sale date."
+        ],
+        "claims": [
+          "sv-irs-pub523-surviving-spouse-500k-conditions",
+          "cg-irs-exclusion-250k-500k",
+          "sv-irs-pub523-surviving-spouse-tacking",
+          "sv-irs-pub523-jointly-owned-basis",
+          "cg-irs-community-property-basis"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital. Each purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Because you choose the date, the sale can wait until the title work and any court step are done. You can [contact us](/contact) and describe where things stand.",
+          "A direct sale is not the right fit for every surviving spouse. If the house is in good shape and you have time, listing it on the open market may bring you more. We cannot clear title, file a petition, negotiate with a lender or give tax advice. An Idaho attorney, the title company and a tax professional can."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}

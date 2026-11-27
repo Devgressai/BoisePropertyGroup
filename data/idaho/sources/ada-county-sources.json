@@ -223,7 +223,8 @@
         "pt-homestead-apply-once-conditions",
         "pt-homestead-new-claim-removes-old",
         "pt-homestead-double-claim-penalty",
-        "pt-homestead-death-carryover"
+        "pt-homestead-death-carryover",
+        "lt-homestead-trust-proof-affidavit"
       ],
       "entitiesSupported": [
         "state:id"
@@ -251,7 +252,8 @@
         "id-homeowners-tax-exemption-125k",
         "ada-homeowners-exemption-deadline",
         "pt-homestead-exemption-cap-in-force-2026",
-        "pt-ada-new-owner-must-apply"
+        "pt-ada-new-owner-must-apply",
+        "lt-ada-assessor-reapply-trust-transfer"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -313,7 +315,8 @@
       "authorityNotes": "Carries the statutory definition of 'homestead' including the one-acre limit. 63-602G delegates the definition here.",
       "claimsSupported": [
         "id-homestead-one-acre-limit",
-        "pt-circuit-breaker-claimant-categories"
+        "pt-circuit-breaker-claimant-categories",
+        "lt-homestead-owner-includes-trust-beneficiary"
       ],
       "entitiesSupported": [
         "state:id"
@@ -620,7 +623,9 @@
         "cl-ada-deed-recording-fee",
         "ft-ada-recorder-online-search",
         "sp-rec-ada-notary-and-deed-category",
-        "ada-recorder-deed-ink-and-cover-sheet"
+        "ada-recorder-deed-ink-and-cover-sheet",
+        "sv-ada-recorder-lists-affidavits-in-lieu-of-probate",
+        "lt-ada-recorder-trust-document-types"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -1155,7 +1160,17 @@
       "freshnessClass": "STATUTORY",
       "authorityNotes": "Official statute text, read directly with raw HTML cached.",
       "claimsSupported": [
-        "id-6-310a-remove-unauthorized-persons"
+        "id-6-310a-remove-unauthorized-persons",
+        "sq-6-310a-legislative-intent",
+        "sq-6-310a-verified-complaint",
+        "sq-6-310a-complaint-lease-fraudulent-not-coowners",
+        "sq-6-310a-complaint-purchase-date-and-id",
+        "sq-6-310a-false-statement-liability",
+        "sq-6-310a-sheriff-verifies-serves",
+        "sq-6-310a-fee-and-standby",
+        "sq-6-310a-owner-not-liable-unless-wrongful",
+        "sq-6-310a-wrongful-removal-damages",
+        "sq-6-310a-arrest-authority-preserved"
       ],
       "entitiesSupported": [
         "state:id"
@@ -3866,7 +3881,9 @@
       "authorityNotes": "Official statute text, read directly with raw HTML cached. Part of Idaho's enactment of the Uniform Probate Code (Title 15). Checked the 2026 session subject index for future-dated amendments: none to this section.",
       "stalenessRisk": "LOW — statute; re-check after each legislative session (site updates July 1).",
       "claimsSupported": [
-        "pb-surviving-spouse-summary"
+        "pb-surviving-spouse-summary",
+        "sv-summary-admin-petition-will-notice",
+        "sv-summary-admin-no-personal-appearance"
       ],
       "entitiesSupported": [
         "state:id"
@@ -8267,7 +8284,10 @@
         "cg-irs-loss-on-home-not-deductible",
         "cg-irs-nonqualified-use",
         "cg-irs-depreciation-not-excludable",
-        "cg-irs-inherited-home-basis-pub523"
+        "cg-irs-inherited-home-basis-pub523",
+        "sv-irs-pub523-surviving-spouse-500k-conditions",
+        "sv-irs-pub523-surviving-spouse-tacking",
+        "sv-irs-pub523-jointly-owned-basis"
       ],
       "entitiesSupported": [
         "state:id"
@@ -10980,7 +11000,8 @@
       "authorityNotes": "Official Recorder FAQ, fetched and cached 2026-11-18.",
       "stalenessRisk": "MEDIUM - page can be rewritten without notice.",
       "claimsSupported": [
-        "ada-recorder-no-forms-no-deed-mailed"
+        "ada-recorder-no-forms-no-deed-mailed",
+        "sv-ada-recorder-death-records-vital-statistics"
       ],
       "entitiesSupported": [
         "county:ada"
@@ -11663,6 +11684,981 @@
       "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
       "claimsSupported": [
         "hoa-rental-limits-and-existing-transfer-restrictions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-302",
+      "title": "Idaho Code § 6-302 — Forcible detainer defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-302/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-forcible-detainer-absence"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-303",
+      "title": "Idaho Code § 6-303 — Unlawful detainer defined",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-303/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-unlawful-detainer-tenant"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-311a",
+      "title": "Idaho Code § 6-311A — Judgment on trial by court",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-311a/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2017",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-court-trial-restitution"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-6-316",
+      "title": "Idaho Code § 6-316 — Judgment — restitution",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title6/t6ch3/sect6-316/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2020",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-writ-72-hours-sheriff"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-18-7008",
+      "title": "Idaho Code § 18-7008 — Criminal trespass — definitions and acts constituting",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch70/sect18-7008/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "tenants",
+        "vacant"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2026",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present. Amended 2026 (ch. 78).",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-criminal-trespass-enters-or-remains",
+        "sq-trespass-tenant-lease-excluded",
+        "sq-trespass-owner-may-revoke-permission"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-5-206",
+      "title": "Idaho Code § 5-206 — Constructive possession",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title5/t5ch2/sect5-206/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2006",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-legal-title-presumption"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-5-207",
+      "title": "Idaho Code § 5-207 — Possession under written claim of title",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title5/t5ch2/sect5-207/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2006",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-adverse-possession-written-claim-20-years"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-5-210",
+      "title": "Idaho Code § 5-210 — Oral claim — possession defined — payment of taxes",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title5/t5ch2/sect5-210/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "land"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2006",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sq-adverse-possession-oral-20-years-taxes"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-civil-division",
+      "title": "Civil Division — Ada County Sheriff",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/civil-division/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Ada County Sheriff Civil Division page, read directly with raw HTML cached via fetch-source.mjs. The page does not mention Idaho Code 6-310A.",
+      "stalenessRisk": "MEDIUM — contact details and hours can change; re-check before publication.",
+      "claimsSupported": [
+        "sq-ada-sheriff-civil-contact"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-civil-process-documents",
+      "title": "Civil Process Services & Documents — Ada County Sheriff",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/civil-division/civil-process-services-documents/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Ada County Sheriff Civil Division page, read directly with raw HTML cached via fetch-source.mjs. The page does not mention Idaho Code 6-310A.",
+      "stalenessRisk": "LOW-MEDIUM — general procedure description.",
+      "claimsSupported": [
+        "sq-ada-sheriff-eviction-steps"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-civil-faq",
+      "title": "Civil Division FAQ — Ada County Sheriff",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/civil-division/faq-civil-division/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants",
+        "court-procedure"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "SLOW-CHANGING",
+      "authorityNotes": "Official Ada County Sheriff Civil Division page, read directly with raw HTML cached via fetch-source.mjs. The page does not mention Idaho Code 6-310A.",
+      "stalenessRisk": "LOW-MEDIUM — general FAQ.",
+      "claimsSupported": [
+        "sq-ada-sheriff-no-locks-until-eviction"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "ada-sheriff-civil-fees",
+      "title": "Fees & Required Documentation — Ada County Sheriff Civil Division",
+      "publisher": "Ada County Sheriff",
+      "organizationType": "county-government",
+      "url": "https://adacounty.id.gov/sheriff/services/civil-division/fees-required-documentation/",
+      "sourceTier": 1,
+      "jurisdiction": "Ada County, Idaho",
+      "topic": [
+        "tenants",
+        "fees"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "FAST-CHANGING",
+      "authorityNotes": "Official Ada County Sheriff Civil Division page, read directly with raw HTML cached via fetch-source.mjs. The page does not mention Idaho Code 6-310A.",
+      "stalenessRisk": "HIGH — fees are set by the Board of Ada County Commissioners and can change; re-check the $515 figure before publication.",
+      "claimsSupported": [
+        "sq-ada-sheriff-writ-fee"
+      ],
+      "entitiesSupported": [
+        "county:ada"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-3-101",
+      "title": "Idaho Code § 15-3-101 — Devolution of estate at death; restrictions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-101/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "community-property",
+        "inheritance"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2014",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-decedent-community-share-devolves"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-2-102",
+      "title": "Idaho Code § 15-2-102 — Share of the spouse (intestate succession)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch2/sect15-2-102/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "intestacy",
+        "community-property"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2001",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-intestate-spouse-share-community-and-separate"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-6-401",
+      "title": "Idaho Code § 15-6-401 — Community property with right of survivorship in real property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch6/sect15-6-401/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "community-property",
+        "survivorship"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-cpwros-transfers-to-surviving-spouse"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-6-402",
+      "title": "Idaho Code § 15-6-402 — Termination of community property with right of survivorship in real property",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch6/sect15-6-402/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "community-property",
+        "survivorship",
+        "recording"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2008",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-cpwros-termination-affidavit-and-divorce"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-104",
+      "title": "Idaho Code § 55-104 — Interests in common",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch1/sect55-104/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "joint-tenancy"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-interest-in-common-unless-declared-joint"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-508",
+      "title": "Idaho Code § 55-508 — Cointerests deemed to be in common",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch5/sect55-508/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "title",
+        "joint-tenancy",
+        "deeds"
+      ],
+      "publicationDate": null,
+      "updatedDate": null,
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-cointerests-in-common-unless-declared"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-1-401",
+      "title": "Idaho Code § 15-1-401 — Notice; method and time of giving",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch1/sect15-1-401/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "probate",
+        "notice"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1973",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached via scripts/research/fetch-source.mjs. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "sv-probate-notice-fourteen-days"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-101",
+      "title": "Idaho Code § 68-101 — Trustees — power of district court to appoint",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-101/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "courts"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1919",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-court-appoints-when-no-trustee"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-102",
+      "title": "Idaho Code § 68-102 — Death, renunciation, or discharge of trustee — survival of trust",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-102/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "death"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1919",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-cotrustees-majority-and-remaining"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-104",
+      "title": "Idaho Code § 68-104 — Uniform Trustees' Powers Act — definitions",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-104/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-uniform-trustees-powers-act-scope"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-105",
+      "title": "Idaho Code § 68-105 — Powers of trustee conferred by trust or by law",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-105/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-powers-unless-limited-by-instrument"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-106",
+      "title": "Idaho Code § 68-106 — Powers of trustees conferred by this act",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-106/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers",
+        "sale"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1983",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-trustee-acts-without-court-prudent-fiduciary",
+        "lt-trustee-power-sell-real-estate"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-109",
+      "title": "Idaho Code § 68-109 — Powers exercisable by joint trustees — liability",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-109/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-cotrustees-majority-and-remaining"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-110",
+      "title": "Idaho Code § 68-110 — Third persons protected in dealing with trustee",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-110/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "title",
+        "sale"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-third-person-protected"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-111",
+      "title": "Idaho Code § 68-111 — Uniform Trustees' Powers Act — application of act",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-111/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1965",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-powers-unless-limited-by-instrument"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-114",
+      "title": "Idaho Code § 68-114 — Presentation of a certification of trust in lieu of the trust instrument",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-114/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present. The section heading says 'Effect — Form' but the section text prints no form.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-certification-of-trust-affidavit"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-115",
+      "title": "Idaho Code § 68-115 — Contents of certification of trust",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-115/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-certification-contents"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-116",
+      "title": "Idaho Code § 68-116 — Certification of trust — dispositive provisions not required; excerpts may be requested",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-116/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-certification-excerpts"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-117",
+      "title": "Idaho Code § 68-117 — Reliance on facts contained in certification — enforceability",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-117/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-certification-reliance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-118",
+      "title": "Idaho Code § 68-118 — Failure to demand or refusal to rely on certification not improper",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-118/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1998",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-refusal-to-rely-not-improper"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-68-119",
+      "title": "Idaho Code § 68-119 — Certification of trust sections — applicability",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title68/t68ch1/sect68-119/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "certification-of-trust"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2006",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-refusal-to-rely-not-improper"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-7-303",
+      "title": "Idaho Code § 15-7-303 — Trust administration — duty to inform and account to beneficiaries",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch7/sect15-7-303/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "beneficiaries"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1971",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-duty-to-inform-beneficiaries"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-7-401",
+      "title": "Idaho Code § 15-7-401 — Trust administration — powers of trustees",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch7/sect15-7-401/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "trustee-powers"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1971",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-uniform-trustees-powers-act-scope"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-15-6-201",
+      "title": "Idaho Code § 15-6-201 — Nonprobate transfers — provisions for payment or transfer at death",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch6/sect15-6-201/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "trusts",
+        "probate"
+      ],
+      "publicationDate": null,
+      "updatedDate": "1973",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-trust-agreement-nontestamentary"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-63-703",
+      "title": "Idaho Code § 63-703 — Property tax reduction — claim and proof of ownership (trust beneficiaries)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch7/sect63-703/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "property-taxes",
+        "exemptions",
+        "trusts"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2019",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text read directly from the Legislature site with raw HTML cached. Amendment history copied verbatim. The section page shows a single version; no future-dated version present. Cache file was first written 2026-11-12 by another research run; re-read 2026-11-26.",
+      "stalenessRisk": "LOW — re-check after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "lt-homestead-trust-proof-affidavit"
       ],
       "entitiesSupported": [
         "state:id"

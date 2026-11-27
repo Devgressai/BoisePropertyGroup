@@ -1,0 +1,133 @@
+{
+  "guide": {
+    "slug": "selling-a-house-in-a-living-trust-in-idaho",
+    "title": "Selling a House in a Living Trust in Idaho",
+    "h1": "Selling a house held in a living trust in Idaho",
+    "description": "Who signs when an Idaho house is in a revocable trust, what the trustee powers statute says, how a certification of trust works, and recording in Ada County.",
+    "cluster": "estate",
+    "published": "2026-11-26",
+    "updated": "2026-11-26"
+  },
+  "content": {
+    "intro": [
+      "When an Idaho house is titled in a living trust, the person currently acting as trustee signs the sale. Idaho Code 68-106 gives a trustee the power to sell real estate at public or private sale without court authorization, unless the trust document limits that power. Idaho Code 68-114 lets the trustee show a title company a sworn certification of trust in place of the full trust document, although no one is required to accept it.",
+      "This page describes what Idaho statutes and Ada County offices say. It is not legal or tax advice and it is not applied to your trust or your house. We are a direct buyer of property. We cannot tell you who your trustee is, what your trust allows, or whether any part of an estate needs probate. Your trust document and an Idaho attorney answer those questions."
+    ],
+    "sections": [
+      {
+        "heading": "Who signs when the house is in a living trust?",
+        "body": [
+          "The trustee signs. Idaho law gives the power to sell trust property to the trustee. Idaho's trustee powers are in the Uniform Trustees' Powers Act, Idaho Code 68-104 through 68-113. Idaho Code 15-7-401 points to that act for the powers of trustees.",
+          "Idaho Code 68-106(c)(7) lists the power \"to acquire assets, including real estate, in the name of the trust, and to sell, convey or dispose of an asset, for cash or on credit, at public or private sale.\" Subsection (c)(26) adds the power to execute and deliver all instruments that accomplish or facilitate the trustee's powers. Under 68-106(a), a trustee may act without court authorization from the creation of the trust until final distribution of its assets.",
+          "Two limits travel with that power. Idaho Code 68-105(a) gives the trustee the act's powers \"unless limited in the trust instrument.\" Idaho Code 68-106(b) says the trustee has a duty to act with due regard to the trustee's obligation as a fiduciary. A trust may require a co-trustee's signature, a beneficiary's consent or some other step. Only the trust document tells you which steps apply."
+        ],
+        "claims": [
+          "lt-uniform-trustees-powers-act-scope",
+          "lt-trustee-power-sell-real-estate",
+          "lt-trustee-acts-without-court-prudent-fiduciary",
+          "lt-powers-unless-limited-by-instrument"
+        ]
+      },
+      {
+        "heading": "Can the house be sold while the person who made the trust is alive?",
+        "body": [
+          "Yes. The statute ties the trustee's power to the life of the trust: it runs \"from time of creation of the trust until final distribution of the assets of the trust.\" The act does not make a sale wait for the settlor's death.",
+          "A married couple's trust can add a layer. Idaho Code 32-906A says community property a couple transfers to a revocable trust that meets the section's conditions stays community property during the marriage, unless the trust expressly provides otherwise. The same section says it does not stop the trustee conveying trust property under the trust's terms without a spouse's consent, unless the trust expressly requires that consent. Whether your trust meets those conditions is a question for an attorney.",
+          "Where there are co-trustees, Idaho Code 68-109(a) lets a majority exercise a power vested in three or more trustees. The section does not set a rule for two co-trustees who disagree. A trust document can require every trustee to sign."
+        ],
+        "claims": [
+          "lt-trustee-acts-without-court-prudent-fiduciary",
+          "dv-revocable-trust-community",
+          "lt-cotrustees-majority-and-remaining"
+        ]
+      },
+      {
+        "heading": "Who sells the house after the person who made the trust dies?",
+        "body": [
+          "A successor trustee takes over, and Idaho's act treats a successor as a trustee. Idaho Code 68-104(2) defines a trustee as \"an original, added, or successor trustee.\" The sale power in 68-106 belongs to a successor as it did to the original trustee.",
+          "Idaho Code 68-102 says that when one of several trustees dies, renounces or is discharged, the trust survives to the others. Idaho Code 68-109(b) says the remaining trustees perform the trust and succeed to all the powers given to the trustees jointly. If a trust is left with no trustee at all, Idaho Code 68-101 says the district court of the county where the trust property sits must appoint one.",
+          "A new trustee also owes the beneficiaries information. Idaho Code 15-7-303 requires a trustee to keep the beneficiaries reasonably informed. Within 30 days after accepting the trust, the trustee must tell the current beneficiaries in writing the court in which the trust is registered and the trustee's name and address. On reasonable request, the trustee must give a beneficiary relevant information about the trust's assets and administration. The section is a duty to inform. It does not say beneficiaries must approve a sale, and your trust document may say more."
+        ],
+        "claims": [
+          "lt-uniform-trustees-powers-act-scope",
+          "lt-cotrustees-majority-and-remaining",
+          "lt-court-appoints-when-no-trustee",
+          "lt-duty-to-inform-beneficiaries"
+        ]
+      },
+      {
+        "heading": "What will the title company ask the trustee for?",
+        "body": [
+          "Idaho law gives the trustee a shorter document to offer, and lets the title company ask for more. Under Idaho Code 68-114, a trustee may present a certification of trust to any person in place of a copy of the trust instrument. The certification must be an affidavit signed and acknowledged by all currently acting trustees. The same section says no person is required to accept and rely solely on a certification.",
+          "Idaho Code 68-115 lists what a certification may confirm. The list includes the trust's existence and date, the settlor and each acting trustee, the trustee's powers and restrictions, whether the trust is revocable, whether all co-trustees must act together, and the form in which title is to be taken. Every certification must state that the trust has not been revoked or amended in a way that makes it incorrect, and that the signatures are those of all currently acting trustees.",
+          "Idaho Code 68-116 says a certification need not contain the trust's dispositive provisions, meaning who receives what. The person receiving it may still require copies of the excerpts that name the trustee or give the trustee power to act in the transaction. Under 68-118, a refusal to rely solely on a certification is not an improper act. Under 68-119, the certification sections apply to trusts made under the law of another state as well.",
+          "These rules protect the person on the other side of the deal. Idaho Code 68-117 says a person who relies on a certification without knowing it is incorrect is not liable for doing so. Idaho Code 68-110 lets a third person dealing with a trustee assume the trustee's powers exist and are properly exercised, unless that person has actual knowledge otherwise. Neither section relieves the trustee of duties to the beneficiaries. Our guide to [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho) covers the title company's role."
+        ],
+        "claims": [
+          "lt-certification-of-trust-affidavit",
+          "lt-certification-contents",
+          "lt-certification-excerpts",
+          "lt-refusal-to-rely-not-improper",
+          "lt-certification-reliance",
+          "lt-third-person-protected"
+        ]
+      },
+      {
+        "heading": "Does a house in a living trust skip probate?",
+        "body": [
+          "Idaho's probate code treats a trust agreement's transfer-at-death provision as nontestamentary. Idaho Code 15-6-201(a) says a provision in a trust agreement that property passes at death to a person the decedent designated \"is deemed to be nontestamentary,\" and that the probate code does not invalidate it. Subsection (b) says nothing in the section limits the rights of creditors under other Idaho laws.",
+          "The section does not use the words \"avoids probate\", and it reaches only property that is the subject of the instrument. A house that was never deeded into the trust is not the subject of the trust agreement. Whether any part of an estate needs probate is a question for an Idaho attorney. Our guide to [selling a house in probate in Idaho](/guides/selling-a-house-in-probate-in-idaho) covers that process.",
+          "The seller disclosure form can also differ. Idaho Code 55-2505(7) exempts a transfer \"by a fiduciary in the course of the administration of a decedent's estate, a guardianship, a conservatorship, or a trust\" from the property condition disclosure requirement. Whether your sale falls within that wording, including a sale by a living person who is trustee of their own trust, is a question for an attorney."
+        ],
+        "claims": [
+          "lt-trust-agreement-nontestamentary",
+          "id-disclosure-exempt-estate-fiduciary"
+        ]
+      },
+      {
+        "heading": "Recording the trustee's deed in Ada County",
+        "body": [
+          "The deed from the trustee to the buyer is recorded with the Ada County Recorder. Idaho Code 55-808 requires an instrument to be recorded by the recorder of the county where the property sits. That holds for every Ada County address, whatever city it is in.",
+          "Idaho Code 55-805 requires a deed's execution to be acknowledged, or proved, before it may be recorded. Under 55-809, an instrument is deemed recorded when it is deposited with the recorder's office for record. Under 55-811, a recorded conveyance is constructive notice of its contents to later purchasers and mortgagees from the time it is filed.",
+          "The Ada County Recorder's fee schedule places trustee deeds in the same deed category as warranty and quitclaim deeds. The Recorder has no blank forms and points people to title companies for them. The Ada County Assessor says its ownership records are based on recordings and that the grantor on a new deed must be named exactly as when title was acquired.",
+          "The Recorder lists \"Affidavits regarding Trusts\" and \"Appointment of Successor Trustee\" among the document types recorded in Ada County and currently blocked from online viewing. The list shows these documents exist in the county's records. It does not say which of them a particular sale needs. The title company handling the closing sets its own requirements."
+        ],
+        "claims": [
+          "cl-record-in-county-where-situated",
+          "cl-acknowledgment-required-to-record",
+          "cl-deemed-recorded-on-deposit",
+          "cl-recorded-conveyance-constructive-notice",
+          "cl-ada-deed-recording-fee",
+          "ada-recorder-no-forms-no-deed-mailed",
+          "ada-assessor-ownership-from-recordings",
+          "lt-ada-recorder-trust-document-types"
+        ]
+      },
+      {
+        "heading": "What happens to the homeowner's exemption on a house in a trust?",
+        "body": [
+          "A trust-owned home can carry the homeowner's exemption. Idaho Code 63-701(7) counts as an owner the beneficiary of a revocable or irrevocable trust that owns the homestead, where the claimant or the claimant's spouse has the primary right of occupancy. Idaho Code 63-602G(2)(d) adopts that definition for the exemption. It lets the beneficiary prove the trust by an affidavit under 63-703(4), with copies of the trust pages showing beneficiary status and the signature pages attached.",
+          "The Ada County Assessor says the exemption need be applied for only once unless something changes, and lists \"properties being transferred into trusts\" among those changes. After a death, Idaho Code 63-602G says a homestead that qualified the year before keeps its qualification through the year of the owner's or beneficiary's death and the following tax year, provided it continues to be part of the decedent's estate. The Assessor's office can say how that applies to a trust-held house.",
+          "A sale is a change of ownership. The Assessor says an approved exemption needs a new application when ownership changes, so the buyer applies for their own. Our guide to [Idaho property taxes when you sell](/guides/idaho-property-taxes-when-you-sell) covers the tax bill itself."
+        ],
+        "claims": [
+          "lt-homestead-owner-includes-trust-beneficiary",
+          "lt-homestead-trust-proof-affidavit",
+          "lt-ada-assessor-reapply-trust-transfer",
+          "pt-homestead-death-carryover",
+          "ada-homeowners-exemption-deadline"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us the house is in a trust when you [contact us](/contact).",
+          "We are not the right route for every trustee. A trustee owes duties to the beneficiaries, and listing the house on the open market may bring the trust more than a direct sale. If the house sits in good condition and there is no time pressure, that route deserves a serious look. We cannot interpret your trust, tell you whether you may sell, or settle a disagreement among trustees or beneficiaries. An Idaho attorney can."
+        ],
+        "claims": [
+          "lt-trustee-acts-without-court-prudent-fiduciary"
+        ]
+      }
+    ]
+  }
+}

@@ -138,7 +138,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "When several heirs want different things",
         body: [
-          "A house cannot be split five ways; money can. That is often the whole reason an estate sells. What helps most at that stage is one number every heir can check, with the arithmetic laid out, and a closing date that suits the estate rather than the buyer.",
+          "If the house was held with a spouse who has died, [selling a house after a spouse dies in Idaho](/guides/selling-a-house-after-a-spouse-dies-in-idaho) covers community property and survivorship first, and a house titled in a trust is sold by the trustee, as [selling a house in a living trust](/guides/selling-a-house-in-a-living-trust-in-idaho) explains. A house cannot be split five ways; money can. That is often the whole reason an estate sells. What helps most at that stage is one number every heir can check, with the arithmetic laid out, and a closing date that suits the estate rather than the buyer.",
           "We deal with the personal representative, because that is who signs. If heirs want to see how the number was built, we will walk through it with them too.",
         ],
       },
@@ -833,7 +833,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "Homeowner's association liens",
         body: [
-          "If the house is in an association, ask for a statement of your assessment account in writing. An Idaho homeowner's association must provide it free within five business days, listing all outstanding assessments, charges and fees, and the association is bound by the amounts in that statement. It is the fastest way to turn a worry about dues into a number.",
+          "If the house is in an association, ask for a statement of your assessment account in writing ([selling a house with an HOA in Idaho](/guides/selling-a-house-with-an-hoa-in-idaho) covers the rest of the Act). An Idaho homeowner's association must provide it free within five business days, listing all outstanding assessments, charges and fees, and the association is bound by the amounts in that statement. It is the fastest way to turn a worry about dues into a number.",
         ],
         claims: ["ln-hoa-statement-of-account"],
       },
@@ -1104,7 +1104,7 @@ export const TOPIC_PAGES: TopicPage[] = [
       {
         heading: "What a sale looks like with us",
         body: [
-          "We buy vacant houses in any condition, including ones that have sat empty for years with the contents still inside. Send the address or call (208) 779-4247. Nothing has to be cleared, cleaned or repaired. The sale closes through a local title company on the date you choose. We buy with our own capital, so there is no lender to wait on, and three weeks is realistic.",
+          "If someone has moved into the empty house without permission, read [squatters and unauthorized occupants in Idaho](/guides/squatters-and-unauthorized-occupants-in-idaho) before anything else. We buy vacant houses in any condition, including ones that have sat empty for years with the contents still inside. Send the address or call (208) 779-4247. Nothing has to be cleared, cleaned or repaired. The sale closes through a local title company on the date you choose. We buy with our own capital, so there is no lender to wait on, and three weeks is realistic.",
         ],
       },
       {
