@@ -332,6 +332,18 @@ export const guides: Guide[] = [
     updated: "2026-11-13",
     sell: ["sell-house-code-violations-idaho", "sell-house-as-is-idaho"],
   },
+  {
+    slug: "selling-a-house-with-an-hoa-in-idaho",
+    title: "Selling a House With an HOA in Idaho",
+    h1: "Selling a house in a homeowners association in Idaho",
+    description:
+      "What Idaho's Homeowner's Association Act says about payoff statements, transfer fees, unpaid dues, liens and fines when you sell a house in an HOA.",
+    cluster: "closing",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-house-with-liens-idaho", "sell-house-as-is-idaho"],
+    handoff: "If unpaid dues or an open HOA violation is holding up a sale, a direct sale can price it in rather than wait for it to be cleared.",
+  },
 ];
 
 export function guideBySlug(slug: string): Guide | undefined {

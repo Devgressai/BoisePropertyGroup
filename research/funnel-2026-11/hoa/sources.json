@@ -1,0 +1,218 @@
+{
+  "sources": [
+    {
+      "id": "idcode-55-1528",
+      "title": "Idaho Code § 55-1528 — Statement of account, disclosure of fees (Condominium Property Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch15/sect55-1528/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa",
+        "condominiums",
+        "closing"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2023",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "hoa-condo-statement-of-account",
+        "hoa-condo-transfer-fee-disclosure"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3101",
+      "title": "Idaho Code § 55-3101 — Legislative findings (real estate transfer fees)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch31/sect55-3101/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa",
+        "closing",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2011",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "hoa-transfer-fee-covenant-against-public-policy"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3102",
+      "title": "Idaho Code § 55-3102 — Definitions (real estate transfer fees)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch31/sect55-3102/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa",
+        "closing",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2011",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "hoa-transfer-includes-sale-and-inheritance",
+        "hoa-association-fee-excluded-from-transfer-fee-covenant"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3103",
+      "title": "Idaho Code § 55-3103 — Real estate transfer fees unlawful",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch31/sect55-3103/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa",
+        "closing",
+        "title"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2011",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "hoa-transfer-fee-covenant-not-enforceable"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3202",
+      "title": "Idaho Code § 55-3202 — Legislative intent (Homeowner's Association Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3202/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2022",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "hoa-act-intent-current-and-subsequent-owners"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3204",
+      "title": "Idaho Code § 55-3204 — Administration of an incorporated or unincorporated homeowner's association",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3204/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2024",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "hoa-assessments-set-by-governing-documents",
+        "hoa-board-rules-cannot-expand-covenants",
+        "hoa-member-attorney-fees-when-prevailing"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3206",
+      "title": "Idaho Code § 55-3206 — Violations, due process and notice, limitation on fines, attorney's fees (Homeowner's Association Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3206/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2022",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "hoa-fine-requires-authority-vote-and-notice",
+        "hoa-fine-barred-during-good-faith-cure",
+        "hoa-attorney-fees-only-after-compliance"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "id": "idcode-55-3211",
+      "title": "Idaho Code § 55-3211 — Prohibited conduct, rental restrictions (Homeowner's Association Act)",
+      "publisher": "Idaho State Legislature",
+      "organizationType": "state-government",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3211/",
+      "sourceTier": 1,
+      "jurisdiction": "Idaho",
+      "topic": [
+        "hoa"
+      ],
+      "publicationDate": null,
+      "updatedDate": "2022",
+      "accessedDate": "2026-11-26",
+      "freshnessClass": "STATUTORY",
+      "authorityNotes": "Official statute text, read directly from the Legislature site with raw HTML cached via fetch-source.mjs. Compiler's history note copied verbatim into amendmentHistory. The section page shows a single version; no future-dated version present.",
+      "stalenessRisk": "LOW — statute; re-check the section page after each legislative session (site updates July 1).",
+      "claimsSupported": [
+        "hoa-rental-limits-and-existing-transfer-restrictions"
+      ],
+      "entitiesSupported": [
+        "state:id"
+      ],
+      "status": "VERIFIED"
+    }
+  ]
+}

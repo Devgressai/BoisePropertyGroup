@@ -18110,6 +18110,554 @@ export const claims: Claim[] = [
     "temporalStatus": "CURRENT",
     "jurisdiction": "United States",
     "amendmentHistory": null
+  },
+  {
+    "id": "hoa-act-intent-current-and-subsequent-owners",
+    "claim": "The legislative intent section of Idaho's Homeowner's Association Act says the Act is meant to protect the rights of current and subsequent property owners within a homeowner's association by ensuring the transparent operation and inclusive management of these associations.",
+    "quote": "To protect the rights of current and subsequent property owners within a homeowner's association, it is the intent of the legislature to ensure the transparent operation and inclusive management of these associations",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3202 — Legislative intent (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3202/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3202, added 2022, ch. 323, sec. 4, p. 1039.]"
+  },
+  {
+    "id": "hoa-governing-documents-definition",
+    "claim": "Idaho's Homeowner's Association Act defines governing documents as a written instrument by which the association may exercise powers or manage, maintain or otherwise affect property under its jurisdiction, including but not limited to articles of incorporation, bylaws, a plat, the association's rules and any declaration of covenants, conditions and restrictions.",
+    "quote": "\"Governing documents\" means a written instrument by which the homeowner's association may exercise powers or manage, maintain, or otherwise affect the property under the jurisdiction of the homeowner's association. Governing documents includes but is not limited to articles of incorporation, bylaws, a plat, rules of the homeowner's association, and any declaration of covenants, conditions, and restrictions.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3203 — Definitions (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3203/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3203, added 2022, ch. 323, sec. 4, p. 1039; am. 2024, ch. 162, sec. 1, p. 618; am. 2024, ch. 214, sec. 1, p. 759; am. 2025, ch. 204, sec. 2, p. 926; am. 2025, ch. 211, sec. 23, p. 993; am. 2026, ch. 251, sec. 23, p. 1077.]"
+  },
+  {
+    "id": "hoa-member-and-transfer-fee-definitions",
+    "claim": "Under Idaho's Homeowner's Association Act, a member is any person or entity owning or possessing an interest in residential real property or a lot within an established association's boundaries, and a transfer fee is a fee, charge or assessment, as described in Idaho Code title 55 chapter 31, charged by and payable to the association upon the transfer of an interest in real property under its jurisdiction.",
+    "quote": "\"Member\" or \"membership\" means any person or entity owning or possessing an interest in residential real property or a lot within the physical boundaries of an established homeowner's association. ... \"Transfer fee\" means a fee, charge, or assessment, as that term is described in chapter 31, title 55 , Idaho Code, charged by the homeowner's association and payable to the homeowner's association upon the transfer of an interest in real property that is under the jurisdiction of the homeowner's association.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3203 — Definitions (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3203/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3203, added 2022, ch. 323, sec. 4, p. 1039; am. 2024, ch. 162, sec. 1, p. 618; am. 2024, ch. 214, sec. 1, p. 759; am. 2025, ch. 204, sec. 2, p. 926; am. 2025, ch. 211, sec. 23, p. 993; am. 2026, ch. 251, sec. 23, p. 1077.]"
+  },
+  {
+    "id": "hoa-assessments-set-by-governing-documents",
+    "claim": "Idaho Code 55-3204(3)(d) requires every homeowner's association, incorporated or not, to determine and establish the amount of assessments in accordance with the governing documents or, if the governing documents do not include such language, with the approval of a majority of the members.",
+    "quote": "Determine and establish the amount of assessments in accordance with the governing documents or, in the event the governing documents do not include such language, with the approval of a majority of the members of the homeowner's association.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3204 — Administration of an incorporated or unincorporated homeowner's association",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3204/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3204, added 2022, ch. 323, sec. 4, p. 1040; am. 2024, ch. 214, sec. 2, p. 760.]"
+  },
+  {
+    "id": "hoa-board-rules-cannot-expand-covenants",
+    "claim": "Idaho Code 55-3204(5) says an association board may not use its power to adopt rules governing the common property to expand the provisions of the restrictive covenants as they relate to a member's property.",
+    "quote": "A board of a homeowner's association may not use its power to adopt rules governing the common property to expand the provisions of the restrictive covenants as they relate to a member's property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3204 — Administration of an incorporated or unincorporated homeowner's association",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3204/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3204, added 2022, ch. 323, sec. 4, p. 1040; am. 2024, ch. 214, sec. 2, p. 760.]"
+  },
+  {
+    "id": "hoa-member-attorney-fees-when-prevailing",
+    "claim": "Idaho Code 55-3204(8) entitles a member to an award of reasonable attorney's fees if an association violates any provision of the Homeowner's Association Act and the member prevails in a legal action to protect his rights.",
+    "quote": "If a homeowner's association violates any of the provisions of this chapter and a member prevails in a legal action to protect his rights, the member shall be entitled to an award of reasonable attorney's fees.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "disputes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3204 — Administration of an incorporated or unincorporated homeowner's association",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3204/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3204, added 2022, ch. 323, sec. 4, p. 1040; am. 2024, ch. 214, sec. 2, p. 760.]"
+  },
+  {
+    "id": "hoa-statement-includes-transfer-fee-amount",
+    "claim": "In addition to the statement of a member's assessment account, Idaho Code 55-3205(1) requires the association to provide the amount of any transfer fee that may be charged upon a transfer of the property.",
+    "quote": "Additionally, the homeowner's association shall provide the amount of any transfer fee that may be charged upon a transfer of the property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3205 — Disclosure of fees and financial disclosures (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3205/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3205, added 2022, ch. 323, sec. 4, p. 1041; am. 2023, ch. 247, sec. 2, p. 764; am. 2024, ch. 162, sec. 2, p. 618; am. 2025, ch. 204, sec. 5, p. 928.]"
+  },
+  {
+    "id": "hoa-transfer-fee-only-if-ccrs-authorize",
+    "claim": "Under Idaho Code 55-3205(2), a homeowner's association may not charge a transfer fee unless the authority to do so is expressly stated in the declaration of covenants, conditions and restrictions, and the fee may be charged only by the association, with no portion paid to or allocated to a third party, including a board member or the association's agent or manager.",
+    "quote": "A homeowner's association shall not charge a transfer fee unless the authority to do so is expressly stated in the declaration of covenants, conditions, and restrictions. The transfer fee shall be charged only by the homeowner's association, and no portion of the transfer fee may be paid to or allocated to a third party, including any board member or the homeowner's association's agent or manager.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3205 — Disclosure of fees and financial disclosures (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3205/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3205, added 2022, ch. 323, sec. 4, p. 1041; am. 2023, ch. 247, sec. 2, p. 764; am. 2024, ch. 162, sec. 2, p. 618; am. 2025, ch. 204, sec. 5, p. 928.]"
+  },
+  {
+    "id": "hoa-annual-fee-disclosure-limits-transfer-charges",
+    "claim": "Idaho Code 55-3205(2) requires a homeowner's association, on or before January 1 each year, to give members a disclosure of fees that will be charged to a member; fees for the following calendar year may not exceed the amounts on that disclosure, and no surcharge or additional fees may be charged to any member in connection with any transfer of ownership of the property.",
+    "quote": "On or before January 1 of each year, a homeowner's association or its agent shall provide its members a disclosure of fees that will be charged to a member. Fees imposed by a homeowner's association for the calendar year following the disclosure of fees shall not exceed the amount set forth on the annual disclosure, and no surcharge or additional fees shall be charged to any member in connection with any transfer of ownership of his property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3205 — Disclosure of fees and financial disclosures (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3205/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3205, added 2022, ch. 323, sec. 4, p. 1041; am. 2023, ch. 247, sec. 2, p. 764; am. 2024, ch. 162, sec. 2, p. 618; am. 2025, ch. 204, sec. 5, p. 928.]"
+  },
+  {
+    "id": "hoa-financial-disclosure-ten-business-days",
+    "claim": "Idaho Code 55-3205(3) and (4) require a homeowner's association to give a member and the member's agent an updated financial disclosure no more than ten business days after the request is received, and to give all members an updated, reconciled financial disclosure for the fiscal year within sixty days of the close of the fiscal year.",
+    "quote": "A homeowner's association or its agent shall provide a member and the member's agent, if any, an updated financial disclosure no more than ten (10) business days after a request by the member or the member's agent is received by the manager, president, board member, or other agent of the homeowner's association, or any combination thereof. (4) Within sixty (60) days of the close of the fiscal year, a homeowner's association or its agent shall provide all members of the organization, and each member's agent, if any, with an updated and reconciled financial disclosure for the fiscal year.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3205 — Disclosure of fees and financial disclosures (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3205/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3205, added 2022, ch. 323, sec. 4, p. 1041; am. 2023, ch. 247, sec. 2, p. 764; am. 2024, ch. 162, sec. 2, p. 618; am. 2025, ch. 204, sec. 5, p. 928.]"
+  },
+  {
+    "id": "hoa-fine-requires-authority-vote-and-notice",
+    "claim": "Under Idaho Code 55-3206(1), a homeowner's association may not impose a fine for a covenant violation unless the authority to fine is clearly set forth in the covenants and restrictions; a majority board vote is required, and the member must receive written notice by personal service or certified mail at least thirty days before the meeting at which the vote is to be held.",
+    "quote": "No fine may be imposed for a violation of the covenants and restrictions pursuant to the rules or regulations of a homeowner's association unless the authority to impose a fine is clearly set forth in the covenants and restrictions. A majority vote by the board is required before any fine may be imposed on a member for a violation of any covenants and restrictions pursuant to the rules and regulations of the homeowner's association. Written notice must be provided to the member at least thirty (30) days prior to a meeting at which a vote to impose a fine on the member is to be held. Service of the notice must be by personal service or certified mail.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "disputes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3206 — Violations, due process and notice, limitation on fines, attorney's fees (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3206/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3206, added 2022, ch. 323, sec. 4, p. 1042.]"
+  },
+  {
+    "id": "hoa-fine-barred-during-good-faith-cure",
+    "claim": "Idaho Code 55-3206(2) bars a fine if the member begins resolving the violation before the board meeting, as long as the member continues to address the violation in good faith until it is fully resolved.",
+    "quote": "In the event the member begins resolving the violation prior to a meeting held pursuant to subsection (1) of this section, no fine may be imposed as long as the member continues to address the violation in good faith until fully resolved.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "disputes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3206 — Violations, due process and notice, limitation on fines, attorney's fees (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3206/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3206, added 2022, ch. 323, sec. 4, p. 1042.]"
+  },
+  {
+    "id": "hoa-attorney-fees-only-after-compliance",
+    "claim": "Under Idaho Code 55-3206(4), an association's attorney's fees and costs may not accrue or be assessed or collected until the association has complied with the section's fine procedure and the member has failed to address the violation; a court may determine the reasonableness of attorney's fees and costs assessed against a member.",
+    "quote": "Attorney's fees and costs may not accrue or be assessed or collected by the homeowner's association until the homeowner's association has complied with the requirements of this section and the member has failed to address the violation as set forth in subsection (2) of this section. A court of competent jurisdiction may determine the reasonableness of attorney's fees and costs assessed against a member.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "disputes"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3206 — Violations, due process and notice, limitation on fines, attorney's fees (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3206/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3206, added 2022, ch. 323, sec. 4, p. 1042.]"
+  },
+  {
+    "id": "hoa-rental-limits-and-existing-transfer-restrictions",
+    "claim": "Idaho Code 55-3211 bars an association from adding, amending or enforcing a covenant in a way that limits or prohibits renting a property unless the affected owner expressly agreed in writing when the covenant was added or amended, and says the section does not prevent enforcement of valid covenants limiting an owner's right to transfer an interest in the property if the covenant applied when the owner acquired it.",
+    "quote": "No homeowner's association may add, amend, or enforce any covenant, condition, or restriction in such a way that limits or prohibits the rental, for any amount of time, of any property, land, or structure thereon within the jurisdiction of the homeowner's association, unless expressly agreed to in writing at the time of such addition or amendment by the owner of the affected property. Nothing in this section shall be construed to prevent the enforcement of valid covenants, conditions, or restrictions limiting a property owner's right to transfer his interest in land or the structures thereon as long as that covenant, condition, or restriction applied to the property at the time the homeowner acquired his interest in the property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3211 — Prohibited conduct, rental restrictions (Homeowner's Association Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch32/sect55-3211/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3211, added 2022, ch. 323, sec. 4, p. 1045.]"
+  },
+  {
+    "id": "hoa-transfer-fee-covenant-against-public-policy",
+    "claim": "Idaho Code 55-3101 states that Idaho public policy favors transferability of real property free from unreasonable restraints on alienation, and that a transfer fee covenant violates that policy by impairing marketability of title and is an unreasonable restraint on alienation regardless of its duration or the amount of the fee.",
+    "quote": "A transfer fee covenant violates the public policy of this state by impairing the marketability of title to the affected real property and constitutes an unreasonable restraint on alienation, regardless of the duration of the covenant or the amount of the transfer fee set forth in the covenant.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "closing",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3101 — Legislative findings (real estate transfer fees)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch31/sect55-3101/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3101, added 2011, ch. 107, sec. 1, p. 273.]"
+  },
+  {
+    "id": "hoa-transfer-includes-sale-and-inheritance",
+    "claim": "Idaho Code 55-3102(2) defines a transfer, for the transfer fee chapter, as the sale, gift, grant, conveyance, assignment, inheritance or other transfer of an interest in real property located in Idaho.",
+    "quote": "\"Transfer\" means the sale, gift, grant, conveyance, assignment, inheritance or other transfer of an interest in real property located in this state.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3102 — Definitions (real estate transfer fees)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch31/sect55-3102/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3102, added 2011, ch. 107, sec. 1, p. 274.]"
+  },
+  {
+    "id": "hoa-association-fee-excluded-from-transfer-fee-covenant",
+    "claim": "Idaho Code 55-3102(4)(f) excludes from a 'transfer fee covenant' a document provision requiring payment of a fee to an association, or an entity operating for its benefit, to be used exclusively for purposes authorized in the document, so long as no portion must be passed through to a designated or identifiable third party.",
+    "quote": "Any provision of a document requiring payment of a fee or charge to an association or any entity that operates for the benefit of the association, its members or property of the association or its members to be used exclusively for purposes authorized in the document, so long as no portion of the fee is required to be passed through to a third-party designated or identifiable by description in the document or another document referenced therein",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3102 — Definitions (real estate transfer fees)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch31/sect55-3102/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3102, added 2011, ch. 107, sec. 1, p. 274.]"
+  },
+  {
+    "id": "hoa-transfer-fee-covenant-not-enforceable",
+    "claim": "Under Idaho Code 55-3103(1), a transfer fee covenant recorded after the section took effect, or any lien to the extent it purports to secure a transfer fee, is not binding upon or enforceable against the property or any subsequent owner, purchaser or mortgagee.",
+    "quote": "A transfer fee covenant recorded after the effective date of this section, or any lien to the extent that it purports to secure the payment of a transfer fee, is not binding upon or enforceable against the affected real property or any subsequent owner, purchaser or mortgagee of any interest in the property.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "closing",
+      "title"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-3103 — Real estate transfer fees unlawful",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch31/sect55-3103/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-3103, added 2011, ch. 107, sec. 1, p. 275.]"
+  },
+  {
+    "id": "hoa-condo-statement-of-account",
+    "claim": "Idaho's Condominium Property Act requires a condominium management body to give a unit owner and the owner's agent a statement of account within five business days after receiving a request, showing at least the annual charges, their due dates and any unpaid assessments or charges; the management body is bound by the amounts in it, and charging for it violates the Idaho Consumer Protection Act.",
+    "quote": "A management body or its agent shall provide a unit owner and the owner's agent, if any, a statement of the unit owner's account not more than five (5) business days after receipt of a request by the unit owner or the unit owner's agent received by the management body, the management body's manager, president, board member, or other agent, or any combination thereof. The statement of account shall include, at a minimum, the amount of annual charges against the unit, the date when said amounts are due, and any unpaid assessments or other charges due and owing from such owner at the time of the request. The management body shall be bound by the amounts set forth within such statement of account. Charging a fee for any statement of the unit owner's account required by this section is a violation of the Idaho consumer protection act, chapter 6, title 48 , Idaho Code.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "condominiums",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-1528 — Statement of account, disclosure of fees (Condominium Property Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch15/sect55-1528/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-1528, added 2018, ch. 205, sec. 3, p. 458; am. 2023, ch. 247, sec. 1, p. 763.]"
+  },
+  {
+    "id": "hoa-condo-transfer-fee-disclosure",
+    "claim": "Idaho Code 55-1528(2) requires a condominium management body, on or before January 1 each year, to give unit owners a disclosure of fees that will be charged in connection with any transfer of ownership of a unit; fees for the following calendar year may not exceed that disclosure, and no surcharge or additional fees may be charged in connection with a transfer.",
+    "quote": "On or before January 1 of each year, a management body or its agent shall provide unit owners a disclosure of fees that will be charged to a unit owner in connection with any transfer of ownership of a unit. Fees imposed by a management body for the calendar year following the disclosure of fees shall not exceed the amount set forth on the annual disclosure, and no surcharge or additional fees shall be charged to any unit owner in connection with any transfer of ownership of the unit.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "condominiums",
+      "closing"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-1528 — Statement of account, disclosure of fees (Condominium Property Act)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch15/sect55-1528/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-1528, added 2018, ch. 205, sec. 3, p. 458; am. 2023, ch. 247, sec. 1, p. 763.]"
+  },
+  {
+    "id": "hoa-condo-assessment-debt-priority-and-sale",
+    "claim": "Under Idaho Code 55-1518, a condominium assessment is a debt of the owner at the time it is made; once the notice of assessment is recorded, the lien is prior to liens filed or recorded later (subject to subordination in the declaration and certain timely labor or materialmen's liens), and it may be enforced by sale in the manner permitted for powers of sale in deeds of trust or any other manner permitted by law.",
+    "quote": "shall be a debt of the owner thereof at the time the assessment is made. ... Such lien shall be prior to all other liens filed or recorded subsequent to the recordation of said notice of assessment except that the declaration may provide for the subordination thereof to other liens either generally or specifically described ... Such lien may be enforced by sale by the management body, its attorney or other person authorized to make the sale, after failure of the owner to pay such an assessment in accordance with its terms, such sale to be conducted in the manner permitted by law for the exercise of powers of sale in deeds of trust or any other manner permitted by law.",
+    "entities": [
+      "state:id"
+    ],
+    "topics": [
+      "hoa",
+      "condominiums",
+      "liens",
+      "foreclosure"
+    ],
+    "confidence": "HIGH",
+    "verifiedOn": "2026-11-26",
+    "sources": [
+      {
+        "title": "Idaho Code § 55-1518 — Assessment and other charges a lien — Notice recorded — Payment and release — Priority of liens — Expiration — Extension — Enforcement by sale — Purchase by management body",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title55/t55ch15/sect55-1518/",
+        "publisher": "Idaho State Legislature",
+        "tier": 1
+      }
+    ],
+    "verificationFlag": null,
+    "temporalStatus": "CURRENT",
+    "jurisdiction": "Idaho",
+    "amendmentHistory": "[55-1518, added 1965, ch. 225, sec. 18, p. 515.]"
   }
 ];
 

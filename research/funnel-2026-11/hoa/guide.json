@@ -1,0 +1,139 @@
+{
+  "guide": {
+    "slug": "selling-a-house-with-an-hoa-in-idaho",
+    "title": "Selling a House With an HOA in Idaho",
+    "h1": "Selling a house in a homeowners association in Idaho",
+    "description": "What Idaho's Homeowner's Association Act says about payoff statements, transfer fees, unpaid dues, liens and fines when you sell a house in an HOA.",
+    "cluster": "closing",
+    "published": "2026-11-26",
+    "updated": "2026-11-26"
+  },
+  "content": {
+    "intro": [
+      "Idaho's Homeowner's Association Act requires an HOA to give a member a free statement of the member's assessment account within five business days of a written request, and the HOA is bound by the amounts in it. An HOA may charge a transfer fee only if its declaration of covenants, conditions and restrictions expressly authorizes one, and it may not add surcharges at transfer beyond its own annual fee disclosure. Unpaid assessments can become a recorded lien on the lot, and the Act sets out how the HOA files it.",
+      "This page describes what the statutes say. It is not legal advice and it is not applied to your property or your association. We are a direct buyer of property. We cannot read your covenants for you, tell you whether a fee or fine is valid, or deal with your HOA on your behalf. An Idaho attorney can answer those questions."
+    ],
+    "sections": [
+      {
+        "heading": "Which Idaho law governs my HOA?",
+        "body": [
+          "Idaho's Homeowner's Association Act, Idaho Code title 55 chapter 32, governs residential associations that meet its definition. That definition covers any incorporated or unincorporated residential association whose membership is based on owning or possessing an interest in real property and which has authority, under recorded covenants, bylaws or other governing documents, to assess and record liens against its members' property.",
+          "The Act defines governing documents broadly. They include articles of incorporation, bylaws, a plat, the association's rules and any declaration of covenants, conditions and restrictions. Many of the Act's rules point back to those documents. Assessments, for example, are set in accordance with the governing documents, or by a majority of the members if the documents are silent.",
+          "The legislature stated that the Act is meant to protect the rights of current and subsequent owners by ensuring the transparent operation and inclusive management of associations.",
+          "Condominiums have their own statute, the Condominium Property Act in title 55 chapter 15. Some of its rules differ. Whether your community falls under one act, the other or both is a question for an attorney who has read your recorded documents."
+        ],
+        "claims": [
+          "ln-hoa-definition-lien-authority",
+          "hoa-governing-documents-definition",
+          "hoa-assessments-set-by-governing-documents",
+          "hoa-act-intent-current-and-subsequent-owners"
+        ]
+      },
+      {
+        "heading": "How do I find out what I owe the HOA before closing?",
+        "body": [
+          "You ask the HOA in writing for a statement of your assessment account. Idaho Code 55-3205 requires the association or its agent to provide it to the member, and to the member's agent if there is one, no more than five business days after the written request is received by the manager, president, a board member or another agent of the association.",
+          "The statement must include all outstanding assessments, charges and fees that are due and owing, including any transfer fee, late fees and interest. The association must also provide the amount of any transfer fee that may be charged when the property transfers.",
+          "Two parts of the section matter most at a sale. The association is bound by the amounts in the statement. And it may not charge a fee for providing it; the statute says charging one violates the Idaho Consumer Protection Act.",
+          "[How a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho) covers the title and escrow side of a sale."
+        ],
+        "claims": [
+          "ln-hoa-statement-of-account",
+          "hoa-statement-includes-transfer-fee-amount"
+        ]
+      },
+      {
+        "heading": "Can the HOA charge a transfer fee when I sell?",
+        "body": [
+          "It can only if the declaration of covenants, conditions and restrictions expressly authorizes it. Idaho Code 55-3205(2) says an association shall not charge a transfer fee unless that authority is expressly stated in the declaration. The fee may be charged only by the association, and no portion of it may be paid to or allocated to a third party, including a board member or the association's agent or manager.",
+          "The statute sets no dollar limit on a transfer fee. The limit it does set is tied to the association's own disclosure. On or before January 1 each year, the association must give members a disclosure of the fees it will charge a member. Fees for the following calendar year may not exceed the amounts in that disclosure, and no surcharge or additional fees may be charged to a member in connection with a transfer of ownership.",
+          "A separate chapter, Idaho Code title 55 chapter 31, deals with transfer fee covenants. Those are recorded provisions requiring a fee to a third person whenever the property changes hands. The legislature declared that such a covenant impairs the marketability of title and is an unreasonable restraint on alienation, and that one recorded after the 2011 law took effect is not binding on the property or on later owners, purchasers or mortgagees. That chapter defines a transfer to include a sale, a gift and an inheritance.",
+          "Chapter 31 does not ban HOA fees as such. It excludes from the definition a fee payable to an association, or an entity operating for its benefit, that is used only for purposes authorized in the document, as long as no portion must be passed through to a named or identifiable third party. Whether a particular fee falls inside or outside that exclusion is a question for an attorney."
+        ],
+        "claims": [
+          "hoa-transfer-fee-only-if-ccrs-authorize",
+          "hoa-annual-fee-disclosure-limits-transfer-charges",
+          "hoa-member-and-transfer-fee-definitions",
+          "hoa-transfer-fee-covenant-against-public-policy",
+          "hoa-transfer-fee-covenant-not-enforceable",
+          "hoa-transfer-includes-sale-and-inheritance",
+          "hoa-association-fee-excluded-from-transfer-fee-covenant"
+        ]
+      },
+      {
+        "heading": "What happens if I am behind on HOA dues?",
+        "body": [
+          "Unpaid assessments can become a lien recorded against the lot. Idaho Code 55-3207 lets an association levy an assessment against a lot for the reasonable costs of maintaining common areas that the association owns and maintains. To claim a lien for unpaid assessments, the association must file a claim in the county where the lot is located.",
+          "The claim must state the amount due after all just credits and offsets, must be verified by the oath of someone with knowledge of the facts, and must be recorded by the county recorder. Within five business days after recording it, the association must serve a copy on the owner by personal delivery or certified mail. Once recorded, the claim automatically accumulates later unpaid assessments without another filing.",
+          "The board may enforce the lien on the association's behalf. The association may also sue for a money judgment for unpaid assessments without foreclosing or waiving the lien, or accept a deed in lieu of foreclosure. A recovery in that lawsuit satisfies the lien to the extent of the recovery. Section 55-3207 does not lay out a foreclosure procedure or a timeline, and it does not mention the homestead exemption. How the homestead exemption applies to an HOA lien is a question for an Idaho attorney.",
+          "[Liens and judgments when selling in Idaho](/guides/liens-and-judgments-when-selling-in-idaho) explains how recorded liens work when you sell."
+        ],
+        "claims": [
+          "ln-hoa-lien-claim-requirements",
+          "ln-hoa-lien-enforcement"
+        ]
+      },
+      {
+        "heading": "Can the HOA fine me for a violation while I am selling?",
+        "body": [
+          "It can only by following Idaho Code 55-3206. No fine may be imposed for a covenant violation unless the authority to fine is clearly set forth in the covenants and restrictions. A majority vote of the board is required. The member must receive written notice at least thirty days before the meeting at which the vote will be held, served by personal service or certified mail.",
+          "If the member begins resolving the violation before that meeting, no fine may be imposed as long as the member continues to address the violation in good faith until it is fully resolved.",
+          "The association's attorney's fees and costs may not accrue or be assessed or collected until the association has complied with that procedure and the member has failed to address the violation. A court may decide whether attorney's fees and costs assessed against a member are reasonable.",
+          "Section 55-3207 ties the lien to assessments for common-area maintenance. The Act does not say whether a fine can be added to that lien. Ask an attorney before assuming either way."
+        ],
+        "claims": [
+          "hoa-fine-requires-authority-vote-and-notice",
+          "hoa-fine-barred-during-good-faith-cure",
+          "hoa-attorney-fees-only-after-compliance",
+          "ln-hoa-lien-claim-requirements"
+        ]
+      },
+      {
+        "heading": "Can the HOA restrict who I sell to or whether a buyer can rent?",
+        "body": [
+          "The Act limits rental restrictions but leaves existing transfer restrictions in place. Idaho Code 55-3211 says no association may add, amend or enforce a covenant in a way that limits or prohibits renting a property, unless the owner of the affected property expressly agreed in writing when the covenant was added or amended.",
+          "The same section says it does not prevent enforcement of valid covenants limiting an owner's right to transfer an interest in the property, as long as the covenant applied to the property when the owner acquired it. If your declaration contains a restriction on transfer, it is the recorded document and an attorney that tell you what it requires.",
+          "The Act also says a board may not use its power to adopt rules for the common property to expand the restrictive covenants as they relate to a member's property."
+        ],
+        "claims": [
+          "hoa-rental-limits-and-existing-transfer-restrictions",
+          "hoa-board-rules-cannot-expand-covenants"
+        ]
+      },
+      {
+        "heading": "What records can I get from the HOA?",
+        "body": [
+          "A member can request an updated financial disclosure. Idaho Code 55-3205(3) requires the association to provide it to the member and the member's agent no more than ten business days after the request is received. Separately, within sixty days of the close of its fiscal year, the association must give every member an updated and reconciled financial disclosure for that year.",
+          "These are records a buyer may ask to see. The disclosure form a seller completes under Idaho law is a separate document, covered in [Idaho seller disclosure when selling as-is](/guides/idaho-seller-disclosure-when-selling-as-is).",
+          "If an association violates the Act and a member prevails in a legal action to protect the member's rights, Idaho Code 55-3204(8) entitles the member to reasonable attorney's fees. That depends on prevailing in court, and an attorney can say whether a claim exists."
+        ],
+        "claims": [
+          "hoa-financial-disclosure-ten-business-days",
+          "hoa-member-attorney-fees-when-prevailing"
+        ]
+      },
+      {
+        "heading": "What if the property is a condominium?",
+        "body": [
+          "Idaho's Condominium Property Act has its own statement-of-account rule. Idaho Code 55-1528 requires a condominium management body to give a unit owner and the owner's agent a statement of account within five business days after receiving a request. It must show at least the annual charges, the dates they are due and any unpaid assessments or charges. The management body is bound by the amounts in it, and charging for it violates the Idaho Consumer Protection Act.",
+          "The same section requires a management body, on or before January 1 each year, to disclose the fees it will charge in connection with a transfer of a unit. Fees for the following calendar year may not exceed that disclosure, and no surcharge or additional fees may be charged at transfer.",
+          "A condominium assessment is a debt of the owner at the time it is made. It becomes a lien when the management body records a notice of assessment with the county recorder. The lien is prior to liens recorded after that notice, subject to exceptions the statute lists. It expires one year after recording unless it is satisfied, enforcement has begun, or the management body records an extension of no more than one additional year. It may be enforced by sale in the manner permitted for powers of sale in deeds of trust or in any other manner permitted by law."
+        ],
+        "claims": [
+          "hoa-condo-statement-of-account",
+          "hoa-condo-transfer-fee-disclosure",
+          "hoa-condo-assessment-debt-priority-and-sale",
+          "ln-condo-assessment-lien-one-year"
+        ]
+      },
+      {
+        "heading": "Where we fit, and where we do not",
+        "body": [
+          "We buy property in any condition with our own capital. The purchase closes through a local title company, you choose the closing date, and a three-week close is realistic. Tell us about the HOA, and about any unpaid dues or open violation, when you [contact us](/contact).",
+          "We are not the right route for every seller. If your account is current and the house is in good shape, listing it on the open market may bring you more than a direct sale. We cannot dispute a fee or a fine for you, negotiate with your association, or tell you what your covenants mean. An Idaho attorney can."
+        ],
+        "claims": []
+      }
+    ]
+  }
+}
