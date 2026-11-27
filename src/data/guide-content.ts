@@ -162,17 +162,18 @@ export const guideContent: Record<string, GuideContent> = {
     ],
     sections: [
       {
-        heading: "A mortgage problem: 120 days' notice before a trustee's sale",
+        heading: "How much notice comes before an Idaho trustee's sale?",
         body: [
           "Most Idaho residential mortgage debt is secured by a deed of trust, foreclosed non-judicially. Idaho Code 45-1506 requires that \"at least one hundred twenty (120) days before the day fixed by the trustee for the trustee's sale, notice of such sale shall be given\" to the grantor, to anyone who has recorded a request for notice, to successors in interest and to junior lienholders.",
           "The same section requires publication \"in a newspaper of general circulation in each of the counties in which the property is situated once a week for four (4) successive weeks,\" with the last publication at least 30 days before the sale. Affidavits of mailing and posting must be recorded at least 20 days before. And at least three good-faith attempts at personal service must be made on different days over a period of not less than seven days, each at least 30 days before the sale.",
           "That 120 days is a statutory minimum within a longer process, not \"the foreclosure timeline\". It begins from the date fixed for the sale and works backwards. An owner who still holds title can sell before that date, and [selling your house before a foreclosure sale](/sell-house-before-foreclosure-idaho) covers how a direct sale fits inside the notice period.",
           "One detail matters in [Star, which sits in two counties](/sell-my-house-fast-star-id), and anywhere else straddling a county line: notice must be published in each county where the property sits.",
         ],
+        table: {"caption": "Mortgage foreclosure and property-tax delinquency in Idaho: the two clocks", "columns": ["Step", "Idaho Code", "Period"], "rows": [["Notice of trustee's sale", "45-1506", "At least 120 days before the sale date"], ["Newspaper publication", "45-1506", "Once a week for 4 successive weeks, the last at least 30 days before the sale"], ["Tax deed to the county", "63-1005", "Delinquency not redeemed within 3 years"], ["Redemption after the tax deed", "63-1007", "Up to 14 months, ending sooner if the county contracts to sell or transfers by county deed"]], "note": "Statutory minimums and limits, not a timeline for any one property."},
         claims: ["id-trustee-sale-120-day-notice", "id-trustee-sale-publication", "id-trustee-sale-service-attempts"],
       },
       {
-        heading: "A tax problem: three years before a deed can even issue",
+        heading: "How long can Idaho property taxes go unpaid before a tax deed?",
         body: [
           "Property tax delinquency runs on an entirely different scale. Idaho Code 63-1005: \"If real property on which there is a delinquency is not redeemed within three (3) years from the date of delinquency, the county tax collector … must make, in favor of said county, a tax deed for such property.\"",
           "Even then the county is not entitled to the deed until a notice of pending issue has been given and an affidavit of compliance recorded. Service is by certified mail with return receipt, no more than five months and no less than two months before the deed is set to issue. If that comes back undelivered, notice is published once a week for four consecutive weeks. The statute calls this the exclusive manner of service, and the owner is liable for the costs of it.",
@@ -181,7 +182,7 @@ export const guideContent: Record<string, GuideContent> = {
         claims: ["id-tax-deed-three-year-delinquency", "id-tax-deed-notice-service"],
       },
       {
-        heading: "Redemption after a tax deed is double-gated",
+        heading: "Can you redeem a house after an Idaho tax deed?",
         body: [
           "After a tax deed issues to the county, redemption remains possible — but on two conditions, and most summaries give only one.",
           "Idaho Code 63-1007 permits the record owner or a party in interest to redeem \"up to the time the county commissioners have entered into a contract of sale or the property has been transferred by county deed.\" Separately, \"such right of redemption shall expire fourteen (14) months from the date of issuance of a tax deed to the county, in the event the county commissioners have not extinguished the right of redemption by contract of sale or transfer by county deed during said redemption period.\"",
@@ -191,7 +192,7 @@ export const guideContent: Record<string, GuideContent> = {
         claims: ["id-tax-deed-redemption-fourteen-months"],
       },
       {
-        heading: "A pre-foreclosure sale is not exempt from disclosure",
+        heading: "Does a pre-foreclosure sale still need the disclosure form?",
         body: [
           "Idaho's disclosure exemptions include several foreclosure-related transfers: a deed in lieu, a transfer to a deed-of-trust beneficiary by a trustor in default, a transfer by foreclosure sale, and a sale under a power of sale following default within one year of foreclosure on the default.",
           "Every one of those describes a transfer into or out of the foreclosure process. None of them describes an owner who is behind on payments, still holds title, and sells to a buyer before any trustee's sale. That owner is not exempt, and this is the easiest disclosure error to make on a distressed sale.",
@@ -199,7 +200,7 @@ export const guideContent: Record<string, GuideContent> = {
         claims: ["id-disclosure-exempt-foreclosure"],
       },
       {
-        heading: "What equity is protected",
+        heading: "How much equity does the Idaho homestead exemption protect?",
         body: [
           "Idaho's homestead exemption protects equity from creditors up to a cap: \"A homestead may consist of lands … regardless of area, but the homestead exemption amount shall not exceed the sum of one hundred seventy-five thousand dollars ($175,000).\"",
           "This is a different instrument from the property tax homeowner's exemption, which reduces assessed value. Ada County's own website refers to both as a \"Homestead Exemption\", so it is worth being explicit about which one is meant in any given sentence.",
@@ -216,17 +217,18 @@ export const guideContent: Record<string, GuideContent> = {
     ],
     sections: [
       {
-        heading: "The deposit follows the property, not the seller",
+        heading: "Who owes the security deposit after an Idaho rental sells?",
         body: [
           "Idaho Code 6-321(3): \"If security deposits have been made as to a particular rental or lease property, and the property changes ownership during a tenancy, the new owner shall be liable for refund of the deposits.\"",
           "That cuts both ways and both matter. A seller does not discharge the deposit obligation by selling. A buyer inherits it, whether or not the money was ever transferred at closing — which is why the deposit should be an explicit line in the transaction rather than an assumption. That is how a direct sale handles it too: [selling a rental with tenants in place](/sell-rental-property-idaho) covers the deposits and leases from the buyer's side.",
           "The same section sets the refund terms: within 21 days if no time is fixed by agreement, and within 30 days in any event after the tenant surrenders the premises. Any partial refund must come with a signed statement itemising what was retained, why, and a detailed list of expenditures.",
           "A landlord \"shall not retain any part of a security deposit to cover normal wear and tear,\" which the statute defines as deterioration from the use the unit is intended for, without negligence, carelessness, accident, misuse or abuse. A tired unit is not a damaged one.",
         ],
+        table: {"caption": "Selling an Idaho rental with tenants in place: three questions", "columns": ["Question", "What Idaho law says", "Idaho Code"], "rows": [["Who refunds the security deposit?", "The new owner becomes liable for refunding deposits made on the property", "6-321(3)"], ["Does an unrecorded lease bind the buyer?", "A lease for a term of one year or less is not void against a later purchaser merely for being unrecorded", "55-812"], ["Is the disclosure form required?", "Yes, for residential property of one to four units, including non-owner-occupied rentals", "55-2504"]]},
         claims: ["id-deposit-liability-transfers-on-sale", "id-deposit-refund-timing", "id-deposit-no-normal-wear-and-tear"],
       },
       {
-        heading: "Whether the lease binds the buyer turns on the recording act",
+        heading: "Does the lease bind the buyer when an Idaho rental sells?",
         body: [
           "Idaho Code 55-812 provides that \"Every conveyance of real property other than a lease for a term not exceeding one (1) year, is void as against any subsequent purchaser or mortgagee of the same property … in good faith and for a valuable consideration, whose conveyance is first duly recorded.\"",
           "The carve-out is the important part. A lease for a term of one year or less sits outside that rule, so it is not void against a later purchaser merely for being unrecorded. A lease longer than one year that was never recorded falls inside it.",
@@ -235,7 +237,7 @@ export const guideContent: Record<string, GuideContent> = {
         claims: ["id-recording-act-lease-one-year-carveout"],
       },
       {
-        heading: "Rentals are not exempt from disclosure",
+        heading: "Does an Idaho rental need the seller disclosure form?",
         body: [
           "Idaho's property condition disclosure requirement applies to \"any residential real property, including nonowner occupied rental property\" of not less than one nor more than four dwelling units. Owning it as an investment rather than living in it does not remove the obligation.",
           "The Ada County Assessor draws the same line for valuation purposes: residential appraisers handle multi-family up to four units, and apartments move to the commercial team.",
@@ -243,7 +245,7 @@ export const guideContent: Record<string, GuideContent> = {
         claims: ["id-disclosure-required-1-to-4-units", "ada-residential-appraisal-scope"],
       },
       {
-        heading: "The remedy for unauthorised occupants is narrower than people expect",
+        heading: "What can an owner do about an unauthorised occupant in Idaho?",
         body: [
           "Idaho Code 6-310A lets a property owner ask the county sheriff to immediately remove people unlawfully occupying a residential dwelling. It is genuinely fast, and it is genuinely narrow — eight conditions must all be met.",
           "Three of them rule out most of what sellers mean by the word squatter. The occupants must not be \"current or former tenants pursuant to a written or oral rental agreement authorized by the property owner.\" They must not be immediate family members of the owner. And there must be no pending litigation about the property between the owner and any known unauthorised occupant.",
@@ -268,16 +270,17 @@ export const guideContent: Record<string, GuideContent> = {
     ],
     sections: [
       {
-        heading: "The three-factor test, and the statute that overrides it",
+        heading: "When is a manufactured home real property in Idaho?",
         body: [
           "Idaho decides whether something is real or personal property with a three-factor test — annexation, adaptation and intent. An item satisfying all three is a fixture, and therefore real property. That is the general rule for anything attached to land.",
           "Manufactured homes get their own statute instead, and its conditions are specific rather than a matter of judgement. Under Idaho Code 63-304 a manufactured home may constitute real property only if the running gear is removed AND it becomes permanently affixed to a foundation on land the owner owns or is buying — or leases under qualifying financing — AND the owner records a statement of intent to declare it real property with the county recorder.",
           "All of those, not any of them. A home sitting on a permanent foundation with its running gear still attached has not converted. Nor has one where nothing was ever recorded, however permanent it looks. If the home sits on land you own and you are weighing a direct sale, [selling a manufactured home on its land](/sell-manufactured-home-idaho) covers how that works with us.",
         ],
+        table: {"caption": "What Idaho Code 63-304 requires before a manufactured home is real property", "columns": ["Condition", "What it means"], "rows": [["Running gear removed", "The running gear has been taken off the home"], ["Permanently affixed", "Set on a permanent foundation on land the owner owns or is buying, or leases under qualifying financing"], ["Statement of intent recorded", "The owner records a statement declaring it real property with the county recorder"]], "note": "All three, not any one of them. Without all three it remains personal property and sells by transferring its title."},
         claims: ["ada-fixture-three-factor-test", "id-manufactured-home-becomes-real-property"],
       },
       {
-        heading: "What changes the moment it is declared real property",
+        heading: "What changes once a manufactured home is declared real property?",
         body: [
           "Once the declaration is made, county assessors must treat the home as any other site-built residence, and lending institutions are permitted to treat it as real property.",
           "That second half is usually the reason owners do it. Financing is the practical difference between the two states: a home that is personal property is chattel, and the lending available against chattel is a different and generally worse market than mortgage lending. A buyer's ability to finance is a seller's problem as much as a buyer's.",
@@ -286,7 +289,7 @@ export const guideContent: Record<string, GuideContent> = {
         claims: ["id-manufactured-home-treated-as-site-built", "id-manufactured-homes-assessed-as-residential"],
       },
       {
-        heading: "Converting is a filing. Reversing it needs everyone's permission",
+        heading: "Can a converted manufactured home be turned back into personal property?",
         body: [
           "This is the part that surprises people, and it is worth understanding before the declaration is made rather than after.",
           "Once converted, the home is deemed a fixture and an improvement to the land. Physical removal is then prohibited without the consent of every person or entity holding an interest in the real property or title to any estate in it — and to find out who that is, the homeowner must obtain a title report from a title insurance company. Owners of rights-of-way, easements and subsurface rights are excluded from the consent requirement; a lender holding a deed of trust is not.",
@@ -396,7 +399,7 @@ export const guideContent: Record<string, GuideContent> = {
     ],
     "sections": [
       {
-        "heading": "For community real estate, both spouses sign the contract and the deed",
+        "heading": "Do both spouses have to sign to sell a house in an Idaho divorce?",
         "body": [
           "Idaho Code 32-912 gives each spouse the right to manage and control community property, and lets either one bind it by contract — with one exception that matters for a house. The statute says \"neither the husband nor wife may sell, convey or encumber the community real estate unless the other joins in executing the sale agreement, deed or other instrument of conveyance by which the real estate is sold, conveyed or encumbered\".",
           "Two details in that sentence are easy to miss. It names the sale agreement, not only the deed, so the requirement reaches the purchase contract as well as the closing documents. And it covers encumbering the real estate, not only selling it.",
@@ -409,7 +412,7 @@ export const guideContent: Record<string, GuideContent> = {
         ]
       },
       {
-        "heading": "Whether the house is community or separate property is set by statute",
+        "heading": "Is the house community or separate property in Idaho?",
         "body": [
           "The signature rule in 32-912 is written for community real estate, so the first question is which kind of property the house is. Idaho answers it in two statutes that have to be read together.",
           "Idaho Code 32-903 lists what is a spouse's separate property: property \"owned by him or her before marriage, and that acquired afterward by either by gift, bequest, devise or descent, or that which either he or she shall acquire with the proceeds of his or her separate property\". That property, the statute says, \"shall remain his or her sole and separate property.\"",
@@ -465,7 +468,7 @@ export const guideContent: Record<string, GuideContent> = {
         ]
       },
       {
-        "heading": "Selling to an outside buyer still needs the seller disclosure form",
+        "heading": "Does selling during a divorce still need the disclosure form?",
         "body": [
           "Idaho requires a seller of residential property with one to four dwelling units to complete a property condition disclosure form unless the transfer is exempt. One of the listed exemptions in Idaho Code 55-2505 is for divorce — but read it closely. It covers \"A transfer between spouses or former spouses as a result of a decree of divorce, dissolution of marriage, annulment, or legal separation or as a result of a property settlement agreement incidental to\" one.",
           "That exemption is for a transfer between the spouses, such as one spouse deeding the house to the other under the decree. A divorcing couple selling the house to a third party is not exempt on that ground, and should expect to complete the form. The [seller disclosure guide](/guides/idaho-seller-disclosure-when-selling-as-is) covers what the form asks and the deadlines that follow it."

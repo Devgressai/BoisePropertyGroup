@@ -1,3 +1,4 @@
+import type { ArticleTable } from "@/components/seo/DataTable";
 /**
  * Hand-written content, one entry per place that has earned a page.
  *
@@ -13,6 +14,8 @@
 export interface Section {
   heading: string;
   body: string[];
+  /** Optional sourced comparison table; every figure in it must come from this page's claims. */
+  table?: ArticleTable;
   /** Claim ids this section rests on. Kept for audit, not rendered. */
   claims?: string[];
 }
