@@ -175,6 +175,18 @@ export const guides: Guide[] = [
     sell: ["sell-house-as-is-idaho", "sell-house-with-liens-idaho"],
   },
   {
+    slug: "selling-a-house-by-owner-in-idaho",
+    title: "How to Sell a House by Owner in Idaho: Forms, Deed, Closing",
+    h1: "How to sell a house by owner in Idaho",
+    description:
+      "Selling an Idaho house without an agent: the disclosure form deadlines, lead paint, earnest money, the deed, Ada County recording and who runs closing.",
+    cluster: "closing",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    sell: ["sell-house-as-is-idaho"],
+    handoff: "If selling it yourself is more work than you want, a direct sale skips the listing, the showings and the buyer's financing.",
+  },
+  {
     slug: "selling-a-house-with-a-well-or-septic-in-ada-county",
     title: "Selling a House With a Well or Septic in Ada County, Idaho",
     h1: "Selling an Ada County house on a private well or septic system",

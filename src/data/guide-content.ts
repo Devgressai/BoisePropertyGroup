@@ -770,6 +770,68 @@ export const guideContent: Record<string, GuideContent> = {
     ]
   },
 
+  "selling-a-house-by-owner-in-idaho": {
+    intro: [
+      "You can sell your own house in Idaho without an agent. Idaho's license law is aimed at people acting for others, and the steps an owner has to handle alone are set by statute: the property condition disclosure form within ten days of accepting an offer, the federal lead paint disclosure for a house built before 1978, a deed signed before a notary, and recording with the county. Most owners open escrow with a title company, which holds the earnest money, searches the title and runs the closing.",
+      "This page describes what the statutes and agency rules say. It is not legal advice, and a contract question is one for an Idaho attorney.",
+    ],
+    sections: [
+      {
+        heading: "Do you need a real estate license to sell your own house in Idaho?",
+        body: [
+          "Idaho's license law is written around acting for someone else. Its definition of a real estate broker covers a person who, acting for another for compensation or the expectation of it, sells, lists, buys or negotiates for others, or who holds themselves out to the public as doing so.",
+          "The licence requirement is strict once it applies: unless an exemption applies, a single act within those definitions is enough to count as engaging in the business. If anyone other than the owner is negotiating or finding buyers for a fee, that is the line to check before they start.",
+        ],
+        claims: ["vb-broker-definition-acting-for-others", "vb-license-required-single-act"],
+      },
+      {
+        heading: "What disclosure does an Idaho owner have to give?",
+        body: [
+          "Selling without an agent does not change the disclosure rule. Idaho requires a seller of residential property with one to four dwelling units, including a rental the owner does not live in, to complete a property condition disclosure form. The form records what the seller actually knows. It is not a warranty and not a substitute for an inspection.",
+          "The timing is set by statute. The seller must deliver a signed and dated copy to each prospective buyer within ten days of accepting the buyer's offer. A buyer who receives the form after signing the agreement can rescind within three business days of receiving it, on a specific objection, and get the deposit back. Delivering the form before an offer is accepted avoids that window entirely. What the form asks, and the exemptions, are in our guide to [seller disclosure when selling as-is](/guides/idaho-seller-disclosure-when-selling-as-is).",
+        ],
+        claims: ["id-disclosure-required-1-to-4-units", "id-disclosure-actual-knowledge-not-warranty", "id-disclosure-deliver-within-ten-days", "id-disclosure-rescission-three-days"],
+      },
+      {
+        heading: "What about lead paint in an older house?",
+        body: [
+          "For housing built before 1978, federal rules require the seller, before the buyer is bound by the contract, to give the buyer the EPA-approved lead hazard pamphlet and disclose any known lead-based paint or hazards and any records or reports. The seller must also allow the buyer a 10-day period for a lead risk assessment or inspection, unless both agree in writing on a different period or the buyer waives it in writing.",
+        ],
+        claims: ["fed-lead-paint-pre-1978-seller-disclosure", "fed-lead-paint-ten-day-evaluation"],
+      },
+      {
+        heading: "How do you price it when Idaho does not publish sale prices?",
+        body: [
+          "This is the step an owner selling alone finds hardest. An Idaho county assessor describes Idaho as a non-disclosure state and says its office depends heavily on the public to provide sales information. And the statute that sets out what a deed must contain does not list the sale price among its elements.",
+          "So recorded deeds show who bought, not what they paid, and the sold prices an agent quotes come from listing data rather than public records. An owner pricing without that data is working from asking prices and an appraisal, if they pay for one.",
+        ],
+        claims: ["cl-idaho-non-disclosure-state", "cl-deed-writing-subscribed-grantee-address"],
+      },
+      {
+        heading: "Who holds the earnest money and runs the closing?",
+        body: [
+          "In most Idaho sales a title company does. The business of title insurance in Idaho is defined to include a title insurer's or agent's handling of escrows, settlements and closings, and the Idaho Escrow Act's licensing requirements do not apply to licensed title insurance agents. When brokers are involved, money they have been told in writing to pass to a title or escrow company is not treated as entrusted to them.",
+          "A title company also has to search the title before it can insure it: Idaho bars a title policy until the insurer or its agent has searched and examined the title. For an owner selling alone, opening escrow with a title company is the practical way to get earnest money held, the title checked and the closing run by someone licensed to do it.",
+        ],
+        claims: ["cl-title-business-includes-escrow-closing", "vb-escrow-exempt-title-agents", "vb-earnest-money-at-title-not-entrusted", "cl-title-search-before-policy"],
+      },
+      {
+        heading: "What has to be on the deed, and where is it recorded?",
+        body: [
+          "An Idaho deed is a written instrument subscribed by the seller, or by an agent authorised in writing, and it must show the buyer's name and complete mailing address. Before it can be recorded, the seller's signature has to be acknowledged, which in practice means signed in front of a notary.",
+          "The deed is recorded by the recorder of the county where the property sits. In Ada County a deed falls in a predictable-fee category of $15.00 for the first 30 pages, with $3.00 for each page beyond that. The Ada County Assessor updates its ownership records from those recordings. The full sequence is in [how a property sale closes in Idaho](/guides/how-a-property-sale-closes-in-idaho).",
+        ],
+        claims: ["cl-deed-writing-subscribed-grantee-address", "cl-acknowledgment-required-to-record", "cl-record-in-county-where-situated", "cl-ada-deed-recording-fee", "ada-assessor-ownership-from-recordings"],
+      },
+      {
+        heading: "Which tax forms come up at closing?",
+        body: [
+          "The IRS directs that Form 1099-S be filed to report a sale of real estate, by the person responsible for closing, which is normally the settlement agent named on the settlement statement. If the seller is a foreign person, FIRPTA requires withholding of 15% of the amount realized, and in most cases the buyer is the withholding agent. Our guide to [taxes when you sell a house in Idaho](/guides/taxes-when-you-sell-a-house-in-idaho) covers the rest.",
+        ],
+        claims: ["cl-1099s-reports-real-estate-sales", "cl-firpta-buyer-withholds-15-percent"],
+      },
+    ],
+  },
   "how-a-property-sale-closes-in-idaho": {
     "intro": [
       "At an Idaho closing the seller signs a written deed naming the buyer and the buyer's mailing address, the signature is acknowledged before a notary so the deed can be recorded, and the deed is recorded with the recorder of the county where the property sits, which is what protects the buyer against later purchasers and mortgagees. Around that core, Idaho's title insurance statutes regulate the escrow and closing work of title companies, and federal rules decide who reports the sale to the IRS and when tax must be withheld from a foreign seller.",

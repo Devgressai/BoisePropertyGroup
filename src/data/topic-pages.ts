@@ -1042,7 +1042,7 @@ export const TOPIC_PAGES: TopicPage[] = [
         body: [
           "On a sound house, listing usually wins on money, and the example above shows it on our own numbers. Even on the house needing major work, doing the work and then listing nets more on paper. The case for a direct sale there is not that it pays more. It is that the listing figure assumes you can fund the work, wait the months and absorb a contract that ends at the inspection or the appraisal.",
           "List it if any of these is true. The house is tidy and would get through a lender's appraisal and a buyer's inspection without a long repair list. You can live with showings, the disclosure and contingency steps, and a few months of uncertainty. You already have a strong offer from a financed buyer. In any of those cases, listing will usually net more even after commission, and we will tell you so.",
-          "Listing also wins when the right buyer for the house is a household that will pay for its location or its finish. A single cash buyer prices the house as a project. The open market prices it as a home.",
+          "Listing also wins when the right buyer for the house is a household that will pay for its location or its finish. A single cash buyer prices the house as a project. The open market prices it as a home. If you want the open market without a commission, [selling a house by owner in Idaho](/guides/selling-a-house-by-owner-in-idaho) sets out the forms and steps you would handle yourself.",
         ],
       },
       {
