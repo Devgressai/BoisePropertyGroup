@@ -330,7 +330,7 @@ export const guides: Guide[] = [
     cluster: "disclosure",
     published: "2026-11-13",
     updated: "2026-11-13",
-    sell: ["sell-house-as-is-idaho"],
+    sell: ["sell-house-code-violations-idaho", "sell-house-as-is-idaho"],
   },
 ];
 

@@ -317,7 +317,7 @@ export const TOPIC_PAGES: TopicPage[] = [
         heading: "Unpermitted work in Boise and unincorporated Ada County",
         body: [
           "The statutory disclosure form asks, at question 8, whether any substantial additions or alterations have been made without a building permit. It is not limited to work you did yourself, so an old garage conversion counts if you know about it.",
-          "What happens next depends on who issues permits for the parcel. [In Boise](/sell-my-house-fast-boise-id), work started before a permit triggers a special investigation, with a fee equal to the permit fee collected on top of the permit fee whether or not a permit issues. In unincorporated Ada County an investigative fee equal to the permit fee must be paid before the county will accept an application, and paying it does not make the work legitimate. Boise's online code compliance lookup shows closed cases only, so a clean result there does not prove there is no open case.",
+          "What happens next depends on [who issues permits for the parcel](/sell-house-code-violations-idaho). [In Boise](/sell-my-house-fast-boise-id), work started before a permit triggers a special investigation, with a fee equal to the permit fee collected on top of the permit fee whether or not a permit issues. In unincorporated Ada County an investigative fee equal to the permit fee must be paid before the county will accept an application, and paying it does not make the work legitimate. Boise's online code compliance lookup shows closed cases only, so a clean result there does not prove there is no open case.",
           "For us, unpermitted work is a line in the arithmetic, not a reason to walk away. Our guide to [unpermitted work in Ada County](/guides/selling-a-house-with-unpermitted-work-in-ada-county) covers each city's rules.",
         ],
         claims: [
@@ -970,6 +970,77 @@ export const TOPIC_PAGES: TopicPage[] = [
   },
 
   // ───────────────────────────── MOFU ─────────────────────────────
+  {
+    slug: "sell-house-code-violations-idaho",
+    kind: "situation",
+    title: "Sell a House With Code Violations in Boise, Idaho",
+    h1: "Sell a Boise house with code violations or unpermitted work",
+    eyebrow: "Code violations and permits",
+    description:
+      "Selling a Boise or Ada County house with code violations or unpermitted work: what the disclosure form asks, who issues permits, and how a direct sale works.",
+    published: "2026-11-26",
+    updated: "2026-11-26",
+    guides: ["selling-a-house-with-unpermitted-work-in-ada-county", "idaho-seller-disclosure-when-selling-as-is"],
+    intro: [
+      "Yes. You can sell a house in Boise or anywhere in Ada County with code violations or work that was done without a permit, and we buy those houses as they stand. Idaho's disclosure form asks the seller what they know about unpermitted additions and zoning violations, and the rules on work started without a permit are set by whichever city or county issued, or should have issued, the permit.",
+      NOT_ADVICE,
+    ],
+    sections: [
+      {
+        heading: "Can you sell a house with code violations or unpermitted work in Idaho?",
+        body: [
+          "Yes. Nothing in the disclosure act stops the sale. What it does is make the seller say what they know. The statutory form asks, at question 8, whether any substantial additions or alterations have been made without a building permit. Question 6 asks about conditions that may affect clearing title and gives zoning violations as an example, and question 9 asks for any other legal or physical problem the seller knows of.",
+          "The form records what the seller knows, as of the date signed. It does not ask the seller to inspect. What each question means is in our guide to [selling a house with unpermitted work in Ada County](/guides/selling-a-house-with-unpermitted-work-in-ada-county).",
+        ],
+        claims: ["cv-form-q8-additions-without-permit", "cv-form-q6-zoning-violations-title", "cv-form-q9-other-problems-legal", "cv-form-seller-certification-and-purpose"],
+      },
+      {
+        heading: "Who issues the permit depends on the city limit",
+        body: [
+          "Idaho Code 39-4111 makes it unlawful to build, extend or alter a residence in a jurisdiction that enforces building codes without first getting a permit under that local government's ordinance. So the rule is statewide, and the office is local. Inside each of Ada County's six cities the city issues permits. Outside them, the county does.",
+          "That matters for a sale because the consequence of work started without a permit is set by each jurisdiction, and they differ. The table sets out what each one publishes.",
+        ],
+        table: {"caption": "Who issues building permits, and what happens to work started without one", "columns": ["Where the property is", "Who issues building permits", "Work started before a permit"], "rows": [["Boise", "City of Boise Building Division", "Special investigation; a fee equal to the permit fee, charged in addition, whether or not a permit issues"], ["Meridian", "City of Meridian Building Services", "Handled by the city's Building Services and Code Enforcement"], ["Eagle", "City of Eagle Building Department", "Special investigation before a permit issues, with an investigation fee in addition to the permit fee"], ["Kuna", "City of Kuna Building Department", "Handled by the city's Building Department"], ["Star", "City of Star Building Department", "Handled by the city's Building Department"], ["Garden City", "Garden City Building Division (services contracted to SAFEbuilt)", "Possible discontinuance of utilities, an infraction of up to $100, and double permit fees"], ["Unincorporated Ada County", "Ada County building division", "An investigative fee equal to the permit fee before an application is accepted"]], "note": "Each row is the jurisdiction's own published rule. Never carry one across a city limit."},
+        claims: ["cv-id-permit-required-local-jurisdiction", "cv-boise-building-division-issues-permits", "cv-meridian-building-services-scope", "cv-kuna-building-department-scope", "cv-star-building-department-scope", "cv-gardencity-building-services-contract", "cv-ada-building-code-applies-unincorporated", "cv-boise-special-investigation-fee", "cv-eagle-investigation-fee-work-before-permit", "gardencity-work-without-permit-consequences", "cv-ada-investigative-fee-work-without-permit"],
+      },
+      {
+        heading: "What happens with an open code enforcement case?",
+        body: [
+          "Each jurisdiction runs its own process. In unincorporated Ada County a specialist who confirms a violation notifies the owner in writing and gives a time frame to cure it, and an owner who does not cure may face civil proceedings in District Court. In Star the owner or resident has fifteen days from receipt of the Zoning Administrator's letter to abate a nuisance before the matter can go to the City Council. Kuna's code enforcement is complaint-driven.",
+          "Open cases can be hard for a buyer to see. Boise's public case lookup shows closed code compliance cases only, so an active case will not appear there. That is one more reason the disclosure form asks the seller.",
+        ],
+        claims: ["cv-ada-code-enforcement-notice-and-cure", "cv-star-code-enforcement-fifteen-days", "cv-kuna-code-enforcement-complaint-driven", "cv-boise-case-lookup-closed-cases-only"],
+      },
+      {
+        heading: "Does a permit stay with the house when it sells?",
+        body: [
+          "In unincorporated Ada County, a building division permit is issued to the owner of the property and stays tied to that property as ownership changes. In Boise, a building permit can be transferred to another party who provides a document signed by the original permit holder consenting to the transfer, with a clerical fee.",
+          "So an open permit on a half-finished project is something to raise early, with the buyer and the title company, rather than at closing.",
+        ],
+        claims: ["cv-ada-permit-required-tied-to-property", "cv-boise-permit-transfer"],
+      },
+      {
+        heading: "Why buyers and insurers ask about it",
+        body: [
+          "The City of Eagle states that property insurers may not cover work completed without permits and inspections. A buyer financing the purchase, or insuring it, has a reason to ask about a converted garage or a finished basement with no record behind it. That question tends to arrive late in a listed sale, after an inspection.",
+        ],
+        claims: ["cv-eagle-building-department-permit-faq"],
+      },
+      {
+        heading: "What a sale looks like with us",
+        body: [
+          "We buy houses with unpermitted work and open code issues as they stand. Send the address or call (208) 779-4247 and tell us what you know; we come back with a number and the working behind it, with the cost of putting the work right counted in it. We buy with our own capital, so there is no lender inspection or appraisal for the house to fail. The sale closes through a local title company on the date you choose, and three weeks is realistic.",
+        ],
+      },
+      {
+        heading: "When fixing it first is the better move",
+        body: [
+          "If the unpermitted work is small, the city will permit it after the fact, and the house is otherwise ready for the market, sorting the permit out and then listing will usually net more. A direct sale buys certainty and time, and it costs some of the price. If that trade is wrong for you, we will say so.",
+        ],
+      },
+    ],
+  },
+
   {
     slug: "cash-offer-vs-listing-idaho",
     kind: "decision",

@@ -60,6 +60,7 @@ export const SITUATION_FROM_PATH: Record<string, string> = {
   "/guides/bankruptcy-and-foreclosure-in-idaho": "behind",
   "/guides/selling-a-house-with-unpermitted-work-in-ada-county": "as-is",
   "/sell-house-as-is-idaho": "as-is",
+  "/sell-house-code-violations-idaho": "as-is",
   "/guides/idaho-seller-disclosure-when-selling-as-is": "as-is",
   "/sell-rental-property-idaho": "rental",
   "/guides/selling-a-rental-with-tenants-in-idaho": "rental",
